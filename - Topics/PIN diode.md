@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- (p-i-n diode) A diode that exhibits an impedance at high frequency that is almost entirely resistive, and can be controlled over a wide range by the applied d.c. bias. These devices are used as voltage-controlled attenuators and modulators, and as switches in signal control circuits, such as phase shifters. 
+- The PIN diode structure consists of a layer of lightly doped high-resistivity semiconductor (the 'I' or intrinsic layer), sandwiched between heavily doped (highly conductive) p-type and n-type regions. With zero or negative applied voltage bias, the I-layer is depleted of charge carriers and exhibits a very high resistance. In forward bias, carriers are injected from the P and N regions into the I-layer, increasing its conductivity rapidly. In these conditions, the diode behaves essentially as a pure resistor at radio frequencies. The resistance ratio from the fully 'on' state to the 'off' state can be as large as 5000 to 1.
+- The capacitance associated with the diode can be thought of as that of a parallel-plate capacitor, with the P and N regions as the two plates. This capacitance is usually very low as a result of the thickness of the I-layer. A major parameter of the PIN diode is the carrier lifetime $\tau$ , which is of the order of a few nanoseconds to a few microseconds. It determines the effective lower frequency limit of operation, $f_{0} = 1 / (2\pi \tau)$. At frequencies below this limit the PIN diode behaves like a p-n junction diode, but with higher distortion. Above this frequency the diode resistance is the dominant feature.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

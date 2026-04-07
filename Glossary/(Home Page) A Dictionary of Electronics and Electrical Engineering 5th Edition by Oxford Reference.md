@@ -7,6908 +7,7 @@ tags:
 ---
 - Research
 - Question
-- Define
 - Create
-	1. AAC
-		1. See advanced audio coding
-	2. ABC
-		1. See automatic brightness control
-	3. [[aberration]]
-	4. [[abrupt junction]]
-	5. ABS
-		1. See anti-lock braking system
-	6. [[absolute error]]
-	7. [[absolute zero]]
-	8. [[absorption]]
-	9. [[absorption coefficient]]
-	10. [[absorption loss]]
-	11. [[AC3]]
-	12. [[accelerated life test]]
-	13. accelerating anode
-		1. See electron gun.
-	14. [[accelerating electrode]]
-	15. [[acceleration voltage]]
-	16. [[accelerator]]
-	17. acceptor
-		1. (acceptor impurity) See semiconductor.
-	18. [[access point]]
-	19. [[access system]]
-	20. [[access time]]
-	21. accumulation mode
-		1. See MOS capacitor.
-	22. accumulator
-		- (1) (secondary cell) See cell
-		- (2) A type of register
-	23. [[accuracy]]
-	24. ACK signal
-		1. (acknowledgment signal) See Digital Communications
-	25. [[acoustic coupler]]
-	26. acoustic delay line
-		1. See delay line
-	27. [[acoustic feedback]]
-	28. [[acoustic pressure waveform]]
-	29. [[acoustic wave]]
-	30. [[acoustic wave device]]
-	31. [[acquisition]]
-	32. [[active]]
-	33. active-matrix LCD
-		1. See liquid-crystal display; thin-film transistor.
-	34. [[active-matrix organic light-emitting diode]]
-	35. active antenna
-		1. (primary radiator; driven antenna) See directional antenna.
-	36. [[active area]]
-	37. active component
-		1. (1) See active
-		2. (2) See active current
-		3. (3) See active volt-amperes
-		4. (4) See active voltage
-	38. [[active current]]
-	39. active filter
-		1. See filter
-	40. active interval
-		1. (trace interval) See sawtooth waveform
-	41. [[active load]]
-	42. [[active mode]]
-	43. active network
-		1. See network; active.
-	44. [[active region]]
-	45. [[active sensor]]
-	46. [[active volt-amperes]]
-	47. [[active voltage]]
-	48. [[activity]]
-	49. [[activity tracker]]
-	50. actuating transfer function
-		1. See feedback control loop
-	51. [[actuator]]
-	52. [[adaptive control system]]
-	53. adaptive delta modulation
-		1. (ADM) see pulse modulation.
-	54. [[adaptive differential pulse code modulation]]
-	55. adaptive equalizer
-		1. See equalization.
-	56. [[adaptive system]]
-	57. ADC
-		1. See ANALOGUE-TO-DIGITAL CONVERTER.
-	58. [[ADCCP]]
-	59. [[Adcock direction finder]]
-	60. [[adder]]
-	61. additive synthesis
-		1. See synthesis
-	62. [[address]]
-	63. [[address bus]]
-	64. [[addressing mode]]
-	65. ADM
-		1. (adaptive delta modulation) See pulse modulation.
-	66. [[admittance]]
-	67. [[admittance gap]]
-	68. ADPCM
-		1. See adaptive differential pulse code modulation
-	69. ADSL
-		1. See asynchronous digital subscriber line
-	70. ADSR
-		1. See attack decay sustain release
-	71. [[advanced audio coding]]
-	72. aerial
-		1. See antenna
-	73. AES
-		1. See auger electron spectroscopy
-	74. afterglow
-		1. See persistence
-	75. [[aftertouch]]
-	76. ageing
-		1. (burn-in) See failure rate
-	77. AI
-		1. See artificial intelligence
-	78. [[air bridge]]
-	79. [[air capacitor]]
-	80. [[air gap]]
-	81. airport surveillance radar
-		1. (ASR) See precision approach radar.
-	82. [[algorithm]]
-	83. [[aliasing]]
-	84. all-pass network
-		1. See network
-	85. allowed band
-		1. See energy bands
-	86. [[alloyed device]]
-	87. [[alloyed junction]]
-	88. alpha current factor
-		1. See common-base forward-current transfer ratio.
-	89. [[alpha cut-off frequency]]
-	90. [[alphanumeric]]
-	91. [[alternating-current generator]]
-	92. [[alternating-current motor]]
-	93. alternating-current resistance
-		1. See effective resistance.
-	94. [[alternating-current transmission]]
-	95. [[alternating current]]
-	96. [[alternative routing]]
-	97. alternator
-		1. See synchronous alternating-current generator
-	98. ALU
-		1. See arithmetic logic unit
-	99. [[alumina]]
-	100. [[aluminium]]
-	101. [[aluminium antimonide]]
-	102. [[aluminium PCB]]
-	103. [[ambisonics]]
-	104. [[AM detector]]
-	105. AMI PCM
-		1. (alternate mark inversion pulse code modulation) See pulse modulation.
-	106. [[ammeter]]
-	107. AMOLED
-		1. See active-matrix organic light-emitting diode.
-	108. [[amorphous silicon]]
-	109. [[ampere]]
-	110. [[Ampere's law]]
-	111. [[ampere-hour]]
-	112. [[ampere-turn]]
-	113. ampere balance
-		1. See kelvin balance
-	114. [[ampere per meter]]
-	115. [[amplification]]
-	116. [[amplification factor]]
-	117. [[amplifier]]
-	118. [[amplifier stage]]
-	119. [[amplitude]]
-	120. [[amplitude compandoring]]
-	121. [[amplitude demodulator]]
-	122. amplitude distortion
-		1. See distortion.
-	123. [[amplitude equalizer]]
-	124. amplitude fading
-		1. See fading
-	125. [[amplitude modulation]]
-	126. [[amplitude response]]
-	127. [[AM receiver]]
-	128. [[analogue-to-digital converter]]
-	129. [[analogue circuit]]
-	130. analogue computer
-		1. See computer
-	131. analogue delay line
-		1. See delay line
-	132. analogue gate
-		1. See gate
-	133. [[analogue signal]]
-	134. [[analogue switch]]
-	135. [[analogue transmission]]
-	136. [[anamorphic video]]
-	137. anaphoresis
-		1. See ELECTROPHORESIS.
-	138. AND circuit
-		1. (AND gate) See logic circuit
-	139. [[Anderson bridge]]
-	140. [[anechoic chamber]]
-	141. angle modulation
-		1. See modulation
-	142. [[angle of flow]]
-	143. [[angstrom]]
-	144. [[angular frequency]]
-	145. [[anion]]
-	146. [[anisotropic]]
-	147. anisotype heterojunction
-		1. See heterojunction
-	148. [[anneal]]
-	149. [[anode]]
-	150. [[anode current]]
-	151. anode dark space
-		1. See diagram at gas-discharge tube.
-	152. anode glow
-		1. See diagram at gas-discharge tube.
-	153. anode stopper
-		1. See parasitic oscillations.
-	154. ANSI
-		1. (American National Standards Institute) See standardization.
-	155. [[antenna]]
-	156. [[antenna array]]
-	157. [[antenna current]]
-	158. [[antenna diversity]]
-	159. [[antenna efficiency]]
-	160. [[antenna factor]]
-	161. [[antenna feedpoint impedance]]
-	162. [[antenna gain]]
-	163. [[antenna pattern]]
-	164. [[antenna polarization]]
-	165. [[antenna radiation resistance]]
-	166. [[antenna resistance]]
-	167. antenna system
-		1. See antenna
-	168. [[antenna temperature]]
-	169. anti-aliasing
-		1. See alliasing
-	170. [[anti-aliasing filter]]
-	171. [[anti-interference antenna system]]
-	172. [[anti-lock braking system]]
-	173. [[anticapacitance switch]]
-	174. anticathode
-		1. (target electrode) See X-Ray Tube.
-	175. [[anticausal system]]
-	176. [[anticoincidence circuit]]
-	177. [[antiferromagnetism]]
-	178. [[antihunting circuit]]
-	179. [[antijam margin]]
-	180. [[antijamming]]
-	181. antinode
-		1. See node
-	182. [[antiphase]]
-	183. [[antipodal signal]]
-	184. [[antiresonance]]
-	185. APCVD
-		1. (atmospheric pressure chemical vapor deposition) See chemical vapor deposition.
-	186. [[aperiodic circuit]]
-	187. aperiodic damping
-		1. (overdamping) See damped.
-	188. [[aperiodic signal]]
-	189. [[aperiodic waveform]]
-	190. [[aperture antenna]]
-	191. aperture distortion
-		1. See distortion
-	192. apparent power
-		1. See power
-	193. Appleton layer
-		1. (F-layer) See ionosphere
-	194. applications software
-		1. See software
-	195. [[arbitrary constant]]
-	196. [[arbitrary unit]]
-	197. [[arc]]
-	198. arc discharge
-		1. See gas-discharge tube
-	199. architecture
-		1. See computer architecture
-	200. [[arcing contacts]]
-	201. [[arcing horn]]
-	202. [[arc lamp]]
-	203. arcover
-		1. See flashover
-	204. Argand diagram
-		1. See complex plane.
-	205. [[argon]]
-	206. [[argument of a complex number]]
-	207. [[arithmetic logic unit]]
-	208. [[armature]]
-	209. armature relay
-		1. See relay
-	210. [[Arpanet]]
-	211. ARQ
-		1. (automatic repeat request) See digital communications.
-	212. [[Arrhenius equation]]
-	213. [[arsenic]]
-	214. [[artificial antenna]]
-	215. [[artificial intelligence]]
-	216. [[artificial line]]
-	217. artificial satellite
-		1. See satellite
-	218. [[American Standard Code for Information Interchange|ASCII]]
-	219. [[ASIC]]
-	220. ASK
-		1. (amplitude shift keying) See amplitude modulation.
-	221. [[aspect ratio]]
-	222. ASR
-		1. (airport surveillance radar) See precision approach radar.
-	223. [[assembly language]]
-	224. [[associative memory]]
-	225. astable multivibrator
-		1. See multivibrator.
-	226. [[astatic galvanometer]]
-	227. Aston dark space
-		1. See diagram at gas-discharge tube.
-	228. [[asymmetric]]
-	229. [[asymmetric mode]]
-	230. asymmetric transducer
-		1. See transducer
-	231. asymmetric two-port network
-		1. See two-port network
-	232. [[asymptotic]]
-	233. [[asymptotic stability]]
-	234. [[asynchronous]]
-	235. [[asynchronous digital subscriber line]]
-	236. asynchronous logic
-		1. See synchronous logic
-	237. [[asynchronous transfer mode]]
-	238. [[asynchronous transmission]]
-	239. ATE
-		1. See automated test equipment
-	240. ATM
-		1. See asynchronous transfer mode
-	241. [[atomic number]]
-	242. ATR switch
-		1. (anti-transmit-receive switch) See transmit-receive switch.
-	243. [[attack decay sustain release]]
-	244. [[attenuation]]
-	245. attenuation band
-		1. See filter
-	246. [[attenuation constant]]
-	247. [[attenuation equalizer]]
-	248. [[attenuator]]
-	249. [[atto-]]
-	250. [[attracted-disc electrometer]]
-	251. [[audio clipping]]
-	252. [[audio compression and encoding]]
-	253. [[audiofrequency]]
-	254. [[audiometer]]
-	255. [[audio signal]]
-	256. [[audio spectrogram]]
-	257. [[audio spectrum]]
-	258. [[Auger electron spectroscopy]]
-	259. Auger process
-		1. See recombination processes.
-	260. [[augmented reality]]
-	261. autocatalytic plating
-		1. See electroless plating
-	262. autocorrelation
-		1. See correlation
-	263. [[autofocus]]
-	264. [[autolanding system]]
-	265. [[automated test equipment]]
-	266. [[automatic brightness control]]
-	267. [[automatic control]]
-	268. automatic direction finding
-		1. See direction finding.
-	269. [[automatic frequency control]]
-	270. [[automatic gain control]]
-	271. automatic grid bias
-		1. See grid bias
-	272. [[automatic noise limiter]]
-	273. [[automatic tracking]]
-	274. [[automatic tuning control]]
-	275. automatic volume compressor
-		1. See volume compressor
-	276. automatic volume control
-		1. See automatic gain control.
-	277. automatic volume expander
-		1. See volume compressor
-	278. [[automotive electronics]]
-	279. [[automotive navigation system]]
-	280. [[autonomous system]]
-	281. [[autotransductor]]
-	282. [[autotransformer]]
-	283. [[availability]]
-	284. available power
-		1. See maximum power theorem.
-	285. [[avalanche]]
-	286. [[avalanche breakdown]]
-	287. avalanche photodiode
-		1. See photodiode.
-	288. [[average power]]
-	289. [[averaging filter]]
-	290. [[avionics]]
-	291. Ayrton shunt
-		1. See universal shunt.
-	292. B-H curve
-		1. See hysteresis loop
-	293. [[Babinet's principle]]
-	294. [[back electromotive force]]
-	295. [[backgating]]
-	296. back heating
-		1. Se magnetron
-	297. backing store
-		1. See memory
-	298. [[backlash]]
-	299. back lobe
-		1. See antenna pattern
-	300. [[backplane]]
-	301. backward-wave oscillator
-		1. See traveling-wave tube
-	302. backward diode
-		1. See tunnel diode
-	303. [[balance controls]]
-	304. [[balanced-wire circuit]]
-	305. balanced amplifier
-		1. (push-pull amplifier) See push-pull operation
-	306. [[balanced line]]
-	307. [[balanced load]]
-	308. balanced modulator
-		1. See ring modulator
-	309. [[balanced source]]
-	310. balanced two-port network
-		1. See two-port network
-	311. balance method
-		1. See null method
-	312. [[ballast resistor]]
-	313. [[ball grid array]]
-	314. [[ballistic galvanometer]]
-	315. [[balun]]
-	316. [[banana]]
-	317. [[band]]
-	318. [[band-limited channel]]
-	319. band-pass filter
-		1. See filter
-	320. band-stop filter
-		1. (band-reject filter) See filter
-	321. band-to-band recombination
-		1. See recombination processes
-	322. band edge
-		1. See cut-off frequency
-	323. band gap
-		1. (forbidden band) See energy band.
-	324. [[bandspread]]
-	325. band switch
-		1. See turret tuner.
-	326. [[bandwidth]]
-	327. [[bank]]
-	328. [[Barkhausen effect]]
-	329. [[barrage reception]]
-	330. barrel distortion
-		1. See distortion
-	331. [[barrel shifter]]
-	332. barrier height
-		1. (Schottky barrier height) See Schottky diode; Schottky effect
-	333. [[barrier potential]]
-	334. Bartlett window
-		1. (triangular window) See windowing.
-	335. [[base]]
-	336. [[base address]]
-	337. baseband
-		1. See carrier wave
-	338. base characteristic
-		1. See input characteristic
-	339. base level
-		1. (of a pulse) See pulse
-	340. base limiter
-		1. (inverse limiter) See limiter
-	341. base region
-		1. See base
-	342. [[base station]]
-	343. base stopper
-		1. See parasitic oscillations.
-	344. base units
-		1. See SI Units
-	345. [[battery]]
-	346. [[baud]]
-	347. Baudot code
-		1. See digital codes
-	348. [[bayonet fitting]]
-	349. BBD
-		1. See bucket-brigade device.
-	350. BCD
-		1. See binary-coded decimal
-	351. [[BCH codes]]
-	352. BCI
-		1. (brain-computer interface) See direct neural interface
-	353. BCS theory
-		1. See superconductivity
-	354. [[beacon]]
-	355. bead thermistor
-		1. See thermistor
-	356. [[beam]]
-	357. [[beam coupling]]
-	358. [[beamforming]]
-	359. [[beam lead]]
-	360. beam switching
-		1. See LOBE SWITCHING.
-	361. [[beamwidth]]
-	362. [[beats]]
-	363. [[behavioral modeling]]
-	364. [[Beidou]]
-	365. bel
-		1. See decibel
-	366. [[benchmark]]
-	367. [[beryllium oxide]]
-	368. [[Bessel filter]]
-	369. beta circuit
-		1. See feedback
-	370. [[beta current gain factor]]
-	371. [[beta cut-off frequency]]
-	372. BFSK
-		1. (binary frequency shift keying) See frequency modulation
-	373. BGA
-		1. See ball grid array.
-	374. [[bias]]
-	375. biased automatic gain control
-		1. (delayed automatic gain control) See automatic gain control.
-	376. [[biased estimate]]
-	377. [[BiCMOS]]
-	378. [[biconical antenna]]
-	379. bidirectional network
-		1. (bilateral network) See Network
-	380. [[bidirectional shift register]]
-	381. bidirectional transducer
-		1. (bilateral transducer) See transducer 
-	382. [[bidirectional transistor]]
-	383. BiFET
-		1. See integrated circuit.
-	384. [[bifilar suspension]]
-	385. [[bifilar winding]]
-	386. [[big endian]]
-	387. bilateral network
-		1. (bidirectional network) See network.
-	388. bilateral transducer
-		1. (bidirectional transducer) See transducer
-	389. bilevel resist
-		1. See multilevel resist
-	390. [[Bilog antenna]]
-	391. [[bimetallic strip]]
-	392. [[binary-coded decimal]]
-	393. binary adder
-		1. See adder
-	394. binary ASK
-		1. See amplitude modulation
-	395. [[binary code]]
-	396. [[binary complement]]
-	397. binary FSK
-		1. See frequency modulation
-	398. binary logic circuit
-		1. See logic circuit
-	399. [[binary notation]]
-	400. binary PSK
-		1. See phase modulation
-	401. binary scaler
-		1. See scaler
-	402. [[binary signal]]
-	403. [[binary variable]]
-	404. [[binding energy]]
-	405. [[bioelectronics]]
-	406. [[BIOS]]
-	407. [[Biot-Savart law]]
-	408. biphase PCM
-		1. (Machester code) See pulse modulation
-	409. [[bipolar integrated circuit]]
-	410. [[bipolar junction transistor]]
-	411. bipolar logic circuit
-		1. See logic circuit
-	412. [[bipolar signaling]]
-	413. [[biquad filter]]
-	414. [[bistable]]
-	415. [[bit]]
-	416. [[bit-slice processor]]
-	417. [[bit depth]]
-	418. bit line
-		1. See RAM
-	419. BJT
-		1. See bipolar junction transistor
-	420. [[black-out]]
-	421. black-out point
-		1. See cut-off
-	422. [[black box]]
-	423. black level
-		1. See television
-	424. Blackman window
-		1. See windowing
-	425. [[blank-and-burst]]
-	426. [[blanking]]
-	427. blanking level
-		1. See television
-	428. [[blob tracking]]
-	429. Bloch walls
-		1. See ferromagnetism.
-	430. [[block]]
-	431. block code
-		1. See digital codes. See also digital communications.
-	432. [[block diagram]]
-	433. [[blocked impedance]]
-	434. [[blocking]]
-	435. [[blocking capacitor]]
-	436. [[blocking oscillator]]
-	437. [[Blu-ray disk]]
-	438. [[Bluetooth]]
-	439. BMI
-		1. (brain-machine interface) See direct neural interface.
-	440. [[BNC connector]]
-	441. [[Bode diagram]]
-	442. [[Bode equalizer]]
-	443. [[body capacitance]]
-	444. [[bolometer]]
-	445. [[Boltzmann constant]]
-	446. [[bonded]]
-	447. bonded silvered mica capacitor
-		1. See mica capacitor
-	448. [[bonding pads]]
-	449. [[Boolean algebra]]
-	450. [[Boolean function]]
-	451. [[booster]]
-	452. [[bootstrapping]]
-	453. [[boron resistor]]
-	454. [[bottom-up nanofabrication]]
-	455. [[boundary conditions]]
-	456. bow-tie antenna
-		1. see biconical antenna
-	457. BPSK
-		1. (binary phase shift keying) See phase modulation
-	458. branch
-		1. See network
-	459. [[branch instruction]]
-	460. branch point
-		1. (node) See network
-	461. [[breadboard model]]
-	462. [[break]]
-	463. [[breakdown]]
-	464. [[breakdown voltage]]
-	465. break frequency
-		1. (band edge; corner frequency; critical frequency; cut-off frequency) See cut-off frequency.
-	466. [[breakpoint]]
-	467. [[bremsstrahlung]]
-	468. [[Brewster angle]]
-	469. [[bridge]]
-	470. [[bridge camera]]
-	471. bridged-H network
-		1. See two-port network
-	472. bridged-T network
-		1. See two-port network
-	473. Bridgeman method
-		1. See horizontal bridgeman
-	474. bridge network
-		1. See network
-	475. [[bridge rectifier]]
-	476. British Standards Institute
-		1. (BSI) See standardization
-	477. [[broadband]]
-	478. [[broadband antenna]]
-	479. [[broadband dipole]]
-	480. [[broadcasting]]
-	481. broadside array
-		1. See antenna arary
-	482. Broca galvanometer
-		1. See astatic galvanometer
-	483. [[brush]]
-	484. [[brush discharge]]
-	485. BSI
-		1. (British Standards Institute) See standardization
-	486. [[BSI sensor]]
-	487. [[bucket-brigade device]]
-	488. [[buffer]]
-	489. [[buffer memory]]
-	490. [[bug]]
-	491. built-in field
-		1. (diffusion potential) See P-N junction
-	492. built-in voltage
-		1. See barrier potential
-	493. bulk-channel FET
-		1. See field-effect transistor
-	494. bulk acoustic wave
-		1. See acoustic wave device
-	495. [[bulk properties]]
-	496. [[bulk resistance]]
-	497. buncher
-		1. See velocity modulation; klystron
-	498. bunching
-		1. See velocity modulation
-	499. [[buried layer]]
-	500. burn-in
-		1. (aging) See failure rate
-	501. [[bus]]
-	502. [[bushing]]
-	503. [[bus network]]
-	504. [[Butterworth filter]]
-	505. button mica capacitor
-		1. See mica capacitor
-	506. BW
-		1. See bandwidth
-	507. [[by-pass capacitor]]
-	508. [[byte]]
-	509. byte-addressable
-		1. See address
-	510. C-V curves
-		1. See capacitance-voltage curves
-	511. [[cable]]
-	512. [[cable tester]]
-	513. [[cache memory]]
-	514. CAD
-		1. See computer-aided design
-	515. [[Cadence]]
-	516. cadmium cell
-		1. See Weston standard cell
-	517. [[cadmium telluride]]
-	518. CAE
-		1. See computer-aided engineering.
-	519. [[calibration]]
-	520. CAM
-		1. (1) See computer-aided manufacturing
-		2. (2) (content-addressable memory) See associative memory
-	521. [[camera phone]]
-	522. [[Campbell bridge]]
-	523. [[canonical form]]
-	524. [[capacitance]]
-	525. [[capacitance-voltage curves]]
-	526. capacitance integrator
-		1. See integrator
-	527. capacitance strain gauge
-		1. (variable capacitance gauge) See strain gauge.
-	528. capacitive coupling
-		1. See coupling
-	529. capacitive feedback
-		1. See feedback
-	530. capacitive load
-		1. See leading load
-	531. capacitive reactance
-		1. See reactance
-	532. [[capacitive touchscreen]]
-	533. capacitive tuning
-		1. See tuned circuit
-	534. [[capacitor]]
-	535. [[capacitor microphone]]
-	536. capacity
-		1. (1) See channel capacity; memory capacity
-		2. (2) An obsolete term for capacitance
-	537. capture ratio
-		1. See cochannel rejection
-	538. [[carbon]]
-	539. carbon-composition resistor
-		1. (carbon resistor) See resistor
-	540. carbon-film resistor
-		1. See film resistor
-	541. [[carbon-loaded]]
-	542. [[carbon microphone]]
-	543. carbon resistor
-		1. (carbon-composition resistor) See resistor
-	544. [[cardioid microphone]]
-	545. [[Carey-Foster bridge]]
-	546. [[carrier]]
-	547. [[carrier concentration]]
-	548. [[carrier frequency]]
-	549. carrier mobility
-		1. See drift mobility
-	550. [[carrier recombination]]
-	551. [[carrier storage]]
-	552. [[carrier transmission]]
-	553. [[carrier wave]]
-	554. [[cascade control]]
-	555. [[cascaded systems]]
-	556. [[cascode connection]]
-	557. [[Cassegrain feed]]
-	558. CAT
-		1. (computerized axial tomography) See neuroimaging
-	559. cat's whisker
-		1. See point contact
-	560. catastrophic failure
-		1. See failure
-	561. catcher
-		1. See klystron
-	562. [[cathode]]
-	563. [[cathode-ray oscilloscope]]
-	564. [[cathode-ray tube]]
-	565. cathode dark space
-		1. (Crookes dark space) See Gas-discharge tube
-	566. cathode follower
-		1. See emitter follower
-	567. cathode glow
-		1. See diagram at gas-discharge tube
-	568. [[cathode rays]]
-	569. [[cathodoluminescence]]
-	570. [[cation]]
-	571. Cauer filter
-		1. See elliptic filter
-	572. [[causal system]]
-	573. [[cavity resonator]]
-	574. [[C band]]
-	575. CCCS
-		1. (current-controlled current source) See dependent sources
-	576. CCD
-		1. See charge-coupled device
-	577. [[CCD filter]]
-	578. [[CCD memory]]
-	579. [[CCD sensor]]
-	580. CCI
-		1. (first-generation current conveyor) See current conveyor
-	581. CCII
-		1. (second-generation current conveyor)
-	582. CCS
-		1. (centum call second) See network traffic measurement.
-	583. CCTV
-		1. See closed-circuit television
-	584. CCVS
-		1. (current-controlled voltage source) See dependent sources.
-	585. CD
-		1. (compact disc) See compact disc system
-	586. [[CD-R]]
-	587. [[CD-ROM]]
-	588. [[CD-RW]]
-	589. CDMA
-		1. (code-division multiple access) See digital communications
-	590. [[cell]]
-	591. [[cell constant]]
-	592. [[cell site]]
-	593. [[cell tower]]
-	594. [[cellular automata]]
-	595. [[cellular communications]]
-	596. CELP
-		1. (code-excited linear prediction) See linear prediction
-	597. [[centi-]]
-	598. [[central limit theorem]]
-	599. [[central processing unit]]
-	600. [[center clipper]]
-	601. [[center frequency]]
-	602. [[center tap]]
-	603. centum call second
-		1. (CCS) See network traffic measurement
-	604. [[cepstrum]]
-	605. [[ceramic capacitor]]
-	606. [[ceramic filter]]
-	607. ceramic pick-up
-		1. See pick-up
-	608. [[cermet]]
-	609. [[color graphics adapter|CGA]]
-	610. CGI
-		1. See common gateway interface
-	611. [[CGS system]]
-	612. chaff
-		1. See confusion reflector
-	613. [[channel]]
-	614. [[channel capacity]]
-	615. channel code
-		1. See compact disc system
-	616. [[channel stopper]]
-	617. [[characteristic]]
-	618. characteristic equation
-		1. See complementary function
-	619. characteristic impedance
-		1. See iterative impedance; transmission line
-	620. [[charge]]
-	621. [[charge-coupled device]]
-	622. charge-storage diode
-		1. See step-recovery diode
-	623. [[charge-transfer device]]
-	624. charge carrier
-		1. See carrier; semiconductor
-	625. [[charge density]]
-	626. charge storage
-		1. See carrier storage
-	627. chart recorder
-		1. See graphic instrument
-	628. [[Chebyshev filter]]
-	629. [[chemical vapor deposition]]
-	630. chemiluminescence
-		1. See luminescence
-	631. Child's law
-		1. See thermionic valve
-	632. [[chip]]
-	633. [[chip-enable]]
-	634. [[chip capacitor]]
-	635. [[chip carrier]]
-	636. [[chip inductor]]
-	637. [[chip resistor]]
-	638. [[chirp]]
-	639. [[choke]]
-	640. choke coupling
-		1. See coupling
-	641. chopped impulse voltage
-		1. See impulse voltage
-	642. [[chopper amplifier]]
-	643. [[chronotron]]
-	644. [[cipher]]
-	645. CIRC
-		1. (cross-interleave Reed-Solomon code) See Digital Codes
-	646. [[circuit]]
-	647. [[circuit-breaker]]
-	648. [[circuit diagram]]
-	649. [[circuit loop]]
-	650. [[circuit loop analysis]]
-	651. [[circuit mesh analysis]]
-	652. [[circuit switching]]
-	653. circular function
-		1. See trigonometric function
-	654. circular polarization
-		1. See polarization
-	655. circular scanning
-		1. See scanning
-	656. [[complex instruction set computer|CISC]]
-	657. clamp-type mica capacitor
-		1. See mica capacitor
-	658. [[clamping circuit]]
-	659. [[Clark cell]]
-	660. [[class A amplifier]]
-	661. [[class AB amplifier]]
-	662. [[class B amplifier]]
-	663. [[class C amplifier]]
-	664. [[class D amplifier]]
-	665. [[class E amplifier]]
-	666. [[class F amplifier]]
-	667. [[class G amplifier]]
-	668. [[class H amplifier]]
-	669. [[classical control]]
-	670. [[class S amplifier]]
-	671. [[claytronics]]
-	672. [[clear]]
-	673. [[clear to send]]
-	674. [[clipping]]
-	675. [[clock]]
-	676. [[clock cycle]]
-	677. clocked flip-flop
-		1. See flip-flop
-	678. clock skew
-		1. See skew
-	679. [[closed-circuit television]]
-	680. [[closed-loop control system]]
-	681. [[closed-loop frequency response]]
-	682. [[closed-loop gain]]
-	683. [[closed-loop voltage gain]]
-	684. closed circuit
-		1. See circuit
-	685. [[cloud computing]]
-	686. [[cluster analysis]]
-	687. [[clutter]]
-	688. CLV
-		1. (constant linear velocity) See compact disc system
-	689. CMOS
-		1. See MOSFET; complementary transistors
-	690. CMOS logic circuit
-		1. See MOS Logic Circuit
-	691. [[CMOS sensor]]
-	692. CMR
-		1. See common-mode rejection
-	693. CMRR
-		1. See common-mode rejection ratio
-	694. coarse scanning
-		1. See radar; scannnig.
-	695. [[coaxial cable]]
-	696. coaxial pair
-		1. See pair
-	697. coaxial resonator
-		1. See waveguide
-	698. cochannel interference
-		1. See interference
-	699. [[cochannel rejection]]
-	700. code
-		1. See digital codes.
-	701. code-excited linear prediction
-		1. See linear prediction
-	702. code beacon
-		1. See beacon
-	703. [[codec]]
-	704. code distance
-		1. See digital codes
-	705. coder
-		1. See pulse modulation
-	706. code rate
-		1. See digital codes
-	707. coding gain
-		1. See digital codes
-	708. coding weight
-		1. See digital codes
-	709. coercive force
-		1. See magnetic hysteresis
-	710. [[cognitive radio]]
-	711. coherent detection
-		1. (coherent demodulation) See modulation
-	712. [[coherent radiation]]
-	713. [[coil]]
-	714. coil loading
-		1. See transmission line
-	715. [[coincidence circuit]]
-	716. [[cold cathode]]
-	717. cold emission
-		1. See field emission
-	718. [[collector]]
-	719. [[collector-current multiplication factor]]
-	720. [[collector characteristic]]
-	721. collector efficiency
-		1. See common-base forward-current transfer ratio
-	722. [[collision avoidance systems]]
-	723. [[color code]]
-	724. color flicker
-		1. See flicker
-	725. [[color fringing]]
-	726. [[color picture tube]]
-	727. color saturation control
-		1. See television receiver
-	728. Colpitt's oscillator
-		1. See oscillator
-	729. coma
-		1. See distortion
-	730. [[comb filter]]
-	731. combination-tone distortion
-		1. (intermodulation distortion) See distortion
-	732. [[combinational logic]]
-	733. common-anode connection
-		1. See common-collector connection
-	734. [[common-base connection]]
-	735. common-base current gain
-		1. See common-base forward-current transfer ratio
-	736. [[common-base forward-current transfer ratio]]
-	737. common-cathode connection
-		1. See common-emitter connection
-	738. [[common-collector connection]]
-	739. common-drain connection
-		1. See common-collector connection
-	740. [[common-emitter connection]]
-	741. common-emitter forward-current transfer ratio
-		1. See beta current gain factor
-	742. common-gate connection
-		1. See common-base connection
-	743. common-impedance coupling
-		1. See coupling
-	744. common-mode chokes
-		1. See electromagnetic compatibility
-	745. common-mode currents
-		1. See electromagnetic compatibility
-	746. [[common-mode rejection]]
-	747. [[common-mode rejection ratio]]
-	748. [[common-mode signal]]
-	749. common-source connection
-		1. See common-emitter connection
-	750. common branch
-		1. (mutual branch) See network
-	751. [[common gateway interface]]
-	752. [[communication channel]]
-	753. [[communication network]]
-	754. [[communications satellite]]
-	755. [[commutation]]
-	756. [[commutation switch]]
-	757. commutator
-		1. See motor
-	758. [[compact camera]]
-	759. compact disc recordable
-		1. Se CD-R.
-	760. compact disc rewritable
-		1. See CD-RW.
-	761. [[compact disc system]]
-	762. [[compact system camera]]
-	763. compandor
-		1. See volume compressor; amplitude compandoring.
-	764. [[comparator]]
-	765. [[compensated semiconductor]]
-	766. [[compensating leads]]
-	767. [[compensation network]]
-	768. [[compensator]]
-	769. compiler
-		1. See programming language
-	770. [[complementary function]]
-	771. [[complementary transistors]]
-	772. [[complex conjugate]]
-	773. complex frequency
-		1. See Laplace Transform. See also S-Domain Circuit Analysis.
-	774. complex impedance
-		1. See impedance
-	775. [[complex number]]
-	776. complex operator
-		1. See S-domain circuit analysis
-	777. [[complex plane]]
-	778. [[component]]
-	779. [[component part]]
-	780. [[component video]]
-	781. [[COM port]]
-	782. composite cable
-		1. See cable
-	783. [[composite conductor]]
-	784. composition resistor
-		1. Usually a carbon-composition resistor. See RESISTOR.
-	785. compound magnet
-		1. See permanent magnet
-	786. compound modulation
-		1. (multiple modulation) See modulation
-	787. [[compound semiconductor]]
-	788. compression
-		1. See data compression
-	789. [[compression point]]
-	790. compressor
-		1. See volume compressor
-	791. [[computed tomography]]
-	792. [[computer]]
-	793. [[computer-aided design]]
-	794. [[computer-aided engineering]]
-	795. [[computer-aided manufacturing]]
-	796. [[computer architecture]]
-	797. computerized axial tomography
-		1. (CAT) See neuroimaging
-	798. [[computer vision]]
-	799. concatenated codes
-		1. See digital codes
-	800. concatenative synthesis
-		1. See speech synthesis
-	801. [[concentration cell]]
-	802. [[concentration gradient]]
-	803. [[concentrator]]
-	804. [[concurrency]]
-	805. condenser
-		1. An obsolete term for capacitor
-	806. conditional branch
-		1. See branch instruction
-	807. [[conductance]]
-	808. conducted emissions
-		1. See electromagnetic compatibility
-	809. conducted interference
-		1. See electromagnetic compatibility
-	810. conducted susceptibility
-		1. See electromagnetic compatibility
-	811. [[conduction]]
-	812. [[conduction band]]
-	813. conduction current
-		1. See current
-	814. [[conduction electrons]]
-	815. [[conductivity]]
-	816. [[conductor]]
-	817. cone loudspeaker
-		1. See loudspeaker
-	818. [[confusion reflector]]
-	819. conical scanning
-		1. See scanning
-	820. conjugate branches
-		1. See network
-	821. [[conjugate impedances]]
-	822. [[conjugate matching]]
-	823. [[connection-oriented]]
-	824. [[constant-current source]]
-	825. constant-R network
-		1. See two-port network
-	826. [[constant-voltage source]]
-	827. [[constantan]]
-	828. constant failure-rate period
-		1. See failure rate
-	829. [[constraint length]]
-	830. [[consumer electronics]]
-	831. [[Consumer Technology Association]]
-	832. [[contact]]
-	833. [[contactless smartcard]]
-	834. contact lithography
-		1. See photolithography
-	835. contact noise
-		1. See noise
-	836. [[contactor]]
-	837. content-addressable memory
-		1. (CAM) See associative memory
-	838. [[continuity equation]]
-	839. [[continuity tester]]
-	840. continuous-wave radar
-		1. See radar
-	841. continuous duty
-		1. See duty
-	842. continuous loading
-		1. See transmission line
-	843. continuously variable slope delta modulation
-		1. (CVSD) See pulse modulation
-	844. [[continuous wave]]
-	845. contrast autofocus system
-		1. See autofocus
-	846. [[contrast enhancement]]
-	847. [[contrast ratio]]
-	848. [[control]]
-	849. [[control bus]]
-	850. [[control electrode]]
-	851. control grid
-		1. See control electrode; thermionic valve
-	852. controlled-carrier modulation
-		1. See floating-carrier modulation
-	853. controlled sources
-		1. See dependent sources
-	854. [[controlled system]]
-	855. [[control plane]]
-	856. [[control system]]
-	857. control unit
-		1. See central processing unit
-	858. [[convergence]]
-	859. conversion gain ratio
-		1. See frequency changer
-	860. conversion transducer
-		1. See frequency changer
-	861. conversion voltage gain
-		1. See frequency changer
-	862. [[converter]]
-	863. [[convolution]]
-	864. [[convolutional code]]
-	865. Cooper pair
-		1. See superconductivity
-	866. [[coplanar process]]
-	867. [[coplanar waveguide]]
-	868. [[copper]]
-	869. copper loss
-		1. $(I^2R \text{ loss})$ See heating effect of a current; dissipation 
-	870. [[coprocessor]]
-	871. [[core]]
-	872. [[core-type transformer]]
-	873. [[core loss]]
-	874. corner frequency
-		1. See cut-off frequency
-	875. [[corner reflector antenna]]
-	876. [[correlation]]
-	877. cosine potentiometer
-		1. See potentiometer.
-	878. [[cosine wave]]
-	879. [[Cotton balance]]
-	880. [[coulomb]]
-	881. [[Coulomb's law]]
-	882. [[coulombmeter]]
-	883. [[counter]]
-	884. [[counter-frequency meter|counter/frequency meter]]
-	885. [[coupling]]
-	886. [[coverage area]]
-	887. CPS
-		1. See cycles per second
-	888. CPU
-		1. See central processing unit
-	889. CPW
-		1. See coplanar waveguide
-	890. [[Cramer's rule]]
-	891. CRC
-		1. See cyclic redundancy check
-	892. crest factor
-		1. See peak factor; pulse
-	893. crest value
-		1. See peak value
-	894. [[critical bandwidth]]
-	895. critical coupling
-		1. See coupling
-	896. [[critical current density]]
-	897. critical damping
-		1. See damped
-	898. critical field
-		1. (1) See avalanche breakdown
-		2. (2) See magnetron
-	899. critical frequency
-		1. See cut-off frequency
-	900. CRO
-		1. See cathode-ray oscilloscope
-	901. Crookes dark space
-		1. (cathode dark space) See gas-discharge tube
-	902. [[crossbar switch]]
-	903. cross correlation
-		1. See correlation
-	904. cross coupling
-		1. See coupling
-	905. crossed-field microwave tube
-		1. (M-type microwave tube) See microwave tube
-	906. cross modulation
-		1. See modulation
-	907. [[crossover]]
-	908. crossover distortion
-		1. See distortion
-	909. [[crossover network]]
-	910. [[crosstalk]]
-	911. CRT
-		1. See cathode-ray tube
-	912. crystal-controlled oscillator
-		1. See piezoelectric oscillator
-	913. [[crystal-controlled transmitter]]
-	914. [[crystal filter]]
-	915. [[crystal growth furnace]]
-	916. [[crystal lattice]]
-	917. [[crystal loudspeaker]]
-	918. [[crystal microphone]]
-	919. crystal oscillator
-		1. See piezoelectric oscillator
-	920. crystal puller
-		1. See liquid-encapsulated czochralski
-	921. CSC
-		1. See compact system camera
-	922. CSMA
-		1. (carrier-sense multiple access) See digital communications.
-	923. CT
-		1. See computed tomography
-	924. CTA
-		1. See consumer technology association
-	925. CTD
-		1. See charge-transfer device
-	926. CTS
-		1. See clear to send
-	927. Curie's law
-		1. See paramagnetism
-	928. Curie-Weiss law
-		1. See paramagnetism
-	929. Curie point
-		1. (magnetic transition temperature; ferromagnetic Curie temperature) See FERROMAGNETISM.
-	930. [[curl]]
-	931. [[current]]
-	932. current-controlled current source
-		1. (CCCS) See dependent sources.
-	933. current-controlled voltage source
-		1. (CCVS) See dependent sources.
-	934. [[current-induced magnetic switching]]
-	935. [[current-mode circuits]]
-	936. [[current amplifier]]
-	937. current average
-		1. See alternating current
-	938. current balance
-		1. See kelvin balance
-	939. [[current conveyor]]
-	940. [[current density]]
-	941. [[current divider]]
-	942. current feedback
-		1. (series feedback) See feedbark
-	943. current gain
-		1. (large signal) See large signal current gain
-	944. [[current injection]]
-	945. current law
-		1. See Kirchhoff's Laws
-	946. current limiter
-		1. See limiter
-	947. [[current mirror]]
-	948. [[current probe]]
-	949. current regulator
-		1. See regulator
-	950. current relay
-		1. See relay
-	951. current saturation
-		1. See saturation current
-	952. [[current source]]
-	953. current transfer ratio
-		1. See common-base forward-current transfer ratio.
-	954. current transformer
-		1. (series transformer) See transformer; instrument transformer.
-	955. [[cut-off]]
-	956. [[cut-off frequency]]
-	957. cut-off voltage
-		1. (of a television camera tube) See target voltage
-	958. [[cut-out]]
-	959. CVD
-		1. See chemical vapor deposition
-	960. CVSD
-		1. (continuously variable slope delta modulation) See Pulse Modulation
-	961. CW
-		1. (continuous waveform) A signal that is continuous with time.
-	962. [[cybernetics]]
-	963. [[cycle]]
-	964. [[cycles per second]]
-	965. [[cycle time]]
-	966. [[cyclic redundancy check]]
-	967. [[cylindrical polar coordinates]]
-	968. [[cylindrical winding]]
-	969. [[d'Arsonval galvanometer]]
-	970. D-layer
-		1. (D-region) See ionosphere
-	971. D-region
-		1. (D-layer) See ionosphere
-	972. D-type flip-flop
-		1. See flip-flop
-	973. d.c.
-		1. (DC) See direct current
-	974. d.c.-coupled amplifier
-		1. (direct-coupled amplifier) See amplifier
-	975. d.c.-level restorer
-		1. See direct-current restorer.
-	976. d.c. voltage
-		1. Informal term for direct voltage, i.e. a unidirectional voltage that is substantially constant.
-	977. DAB
-		1. See digital audio broadcasting
-	978. DAC
-		1. See digital-to-analogue converter
-	979. [[daisy chaining]]
-	980. [[damped]]
-	981. [[damping ratio]]
-	982. [[daraf]]
-	983. [[dark conduction]]
-	984. dark resistance
-		1. See photocell
-	985. [[Darlington pair]]
-	986. [[digital audio tape|DAT]]
-	987. [[data bus]]
-	988. [[data communications equipment]]
-	989. [[data compression]]
-	990. [[data converter]]
-	991. [[dataflow architecture]]
-	992. [[data hold]]
-	993. data plane
-		1. See control plane
-	994. [[data processing]]
-	995. [[data rate]]
-	996. [[data sheets]]
-	997. [[data terminal equipment]]
-	998. [[data transfer rate]]
-	999. daughter board
-		1. See motherboard
-	1000. [[Day modulation]]
-	1001. dB
-		1. See decibel 
-	1002. [[dBm]]
-	1003. DBR laser
-		1. (distributed Bragg reflector laser; distributed feedback laser) See SEMICONDUCTOR LASER.
-	1004. DBS
-		1. See DIRECT BROADCAST BY SATELLITE.
-	1005. dBSPL
-		1. (decibel sound pressure level, referenced to the threshold of hearing) See SOUND PRESSURE LEVEL.
-	1006. [[dBu]]
-	1007. [[dBV]]
-	1008. [[dBW]]
-	1009. [[3D camera]]
-	1010. DCE
-		1. See data communications equipment
-	1011. [[DDR memory]]
-	1012. de-emphasis
-		1. See pre-emphasis
-	1013. [[dead]]
-	1014. dead-beat instrument
-		1. See instrument damping
-	1015. [[dead time]]
-	1016. [[de Broglie waves]]
-	1017. debug
-		1. See bug
-	1018. [[debunching]]
-	1019. [[Debye length]]
-	1020. [[deca-]]
-	1021. [[decade]]
-	1022. decade scaler
-		1. See scaler
-	1023. [[deci-]]
-	1024. [[decibel]]
-	1025. decimation
-		1. See downsampling
-	1026. [[decision feedback equalizer]]
-	1027. [[decision threshold]]
-	1028. decoder
-		1. (pulse detector) See pulse modulation
-	1029. decoding
-		1. See digital codes; digital communications
-	1030. [[deconvolution]]
-	1031. decoupling
-		1. See coupling
-	1032. [[decrement]]
-	1033. decryption
-		1. See encryption
-	1034. DECT
-		1. See Digital European Cordless Telephony
-	1035. [[deep level transient spectroscopy]]
-	1036. deep ultraviolet exposure
-		1. See photolithography
-	1037. [[definite integral]]
-	1038. definition
-		1. See television
-	1039. deflection defocusing
-		1. See cathode-ray tube
-	1040. deflection plates
-		1. See electrostatic deflection
-	1041. deflection sensitivity
-		1. See cathode-ray tube
-	1042. [[deformation potential]]
-	1043. [[degeneracy]]
-	1044. [[degenerate semiconductor]]
-	1045. degeneration
-		1. (negative feedback) See feedback
-	1046. degradation failure
-		1. See failure
-	1047. degree Celsius
-		1. (degree centigrade) (symbol: °C) See KELVIN.
-	1048. deinterleaving
-		1. See digital codes
-	1049. [[delay]]
-	1050. delay distortion
-		1. See distortion
-	1051. delayed-domain mode
-		1. See transferred electron device
-	1052. delayed automatic gain control
-		1. (biased automatic gain control) See automatic gain control
-	1053. delayed sweep
-		1. See timebase
-	1054. [[delay equalizer]]
-	1055. [[delay line]]
-	1056. Dellinger fade-out
-		1. See fading
-	1057. [[delta circuit]]
-	1058. delta function
-		1. See dirac delta function
-	1059. delta modulation
-		1. (DM; slope modulation) see pulse modulation
-	1060. delta voltage
-		1. See voltage between lines
-	1061. demodulation
-		1. See modulation
-	1062. demodulator
-		1. See detector
-	1063. [[De Morgan's laws]]
-	1064. demultiplexer
-		1. See multiplex operation
-	1065. [[denormalization]]
-	1066. [[dependent sources]]
-	1067. depletion-layer photodiode
-		1. See photodiode
-	1068. [[depletion layer]]
-	1069. [[depletion mode]]
-	1070. [[depletion MOSFET]]
-	1071. [[deposition]]
-	1072. [[depth sensor]]
-	1073. [[derating]]
-	1074. derived units
-		1. See SI Units
-	1075. [[de Sauty bridge]]
-	1076. [[design automation]]
-	1077. [[Design Automation Conference]]
-	1078. [[design for manufacturing]]
-	1079. [[design for testability]]
-	1080. [[design rule checker]]
-	1081. Destriau effect
-		1. See ELECTROLUMINESCENCE.
-	1082. destructive read operation
-		1. See read
-	1083. [[detection theory]]
-	1084. [[detector]]
-	1085. [[determinant]]
-	1086. [[detune]]
-	1087. [[deviation]]
-	1088. deviation distortion
-		1. See distortion
-	1089. deviation ratio
-		1. See frequency modulation
-	1090. [[device]]
-	1091. DFB laser
-		1. (distributed feedback laser; distributed Bragg reflector laser) See SEMICONDUCTOR LASER.
-	1092. DFE
-		1. See DECISION FEEDBACK EQUALIZER.
-	1093. DFM
-		1. See DESIGN FOR MANUFACTURING.
-	1094. DFN
-		1. See DUAL-FLAT NO-LEADS PACKAGE.
-	1095. DFT
-		1. (1) See DISCRETE FOURIER TRANSFORM. 
-		2. (2) See DESIGN FOR TESTABILITY.
-	1096. diac
-		1. (diode a.c. switch) See THYRISTOR.
-	1097. diagnostic routine
-		1. See program
-	1098. [[diamagnetism]]
-	1099. diametrical voltage
-		1. See voltage between lines
-	1100. [[diamond-like carbon]]
-	1101. [[diaphragm]]
-	1102. diaphragm relay
-		1. See relay
-	1103. [[dibit]]
-	1104. [[dichroic mirror]]
-	1105. [[Dicke's radiometer]]
-	1106. die
-		1. See chip
-	1107. [[dielectric]]
-	1108. [[dielectric constant]]
-	1109. [[dielectric elastomer]]
-	1110. [[dielectric heating]]
-	1111. [[dielectric isolation]]
-	1112. [[dielectric phase angle]]
-	1113. [[dielectric polarization]]
-	1114. [[dielectric resonator oscillator]]
-	1115. dielectric strain
-		1. See displacement
-	1116. [[dielectric strength]]
-	1117. [[difference equation]]
-	1118. [[difference of Gaussians]]
-	1119. difference transfer function
-		1. See FEEDBACK CONTROL LOOP.
-	1120. differential-mode currents
-		1. See ELECTROMAGNETIC COMPATIBILITY
-	1121. [[differential amplifier]]
-	1122. [[differential capacitor]]
-	1123. [[differential equation]]
-	1124. [[differential galvanometer]]
-	1125. differential phase modulation
-		1. See phase modulation
-	1126. differential relay
-		1. See relay
-	1127. [[differential resistance]]
-	1128. [[differential winding]]
-	1129. [[differentiator]]
-	1130. [[diffraction]]
-	1131. [[diffused junction]]
-	1132. [[diffusion]]
-	1133. diffusion constant
-		1. (diffusivity) See diffusion current; Fick's Law
-	1134. [[diffusion current]]
-	1135. diffusion potential
-		1. (built-in field) See P-N Junction
-	1136. [[digital-to-analogue converter]]
-	1137. [[digital ammeter]]
-	1138. digital audio broadcasting
-		1. (DAB) A system for the transmission of digital radio
-	1139. digital audio tape
-		1. See DAT
-	1140. [[digital camera]]
-	1141. [[digital circuit]]
-	1142. [[digital codes]]
-	1143. [[digital communications]]
-	1144. digital computer
-		1. See computer
-	1145. digital counter
-		1. See counter
-	1146. digital delay line
-		1. See delay line
-	1147. [[Digital European Cordless Telephony]]
-	1148. [[digital filter]]
-	1149. digital gate
-		1. See gate
-	1150. [[digital image]]
-	1151. digital inverter
-		1. See inverter
-	1152. digital modulation
-		1. See digital communications
-	1153. [[digital pattern generator]]
-	1154. [[digital radio]]
-	1155. digital rangefinder
-		1. See range finding
-	1156. digital recording
-		1. See compact disc system; DAT
-	1157. [[digital signal]]
-	1158. [[digital signal processing]]
-	1159. [[digital switching]]
-	1160. [[digital television]]
-	1161. [[digital theatre system]]
-	1162. digital versatile disk
-		1. See DVD
-	1163. [[digital video broadcasting]]
-	1164. digital video disk
-		1. See DVD
-	1165. [[digital voltmeter]]
-	1166. [[digitizer]]
-	1167. [[3D imaging]]
-	1168. [[diode]]
-	1169. [[diode detector]]
-	1170. diode drop
-		1. See diode forward voltage
-	1171. [[diode forward voltage]]
-	1172. diode laser
-		1. See semiconductor laser
-	1173. [[diode transistor logic]]
-	1174. diode voltage
-		1. See diode forward voltage
-	1175. DIP
-		1. See dual in-line package
-	1176. diphone synthesis
-		1. See speech synthesis
-	1177. [[diplexer]]
-	1178. [[dipole]]
-	1179. DIPP
-		1. See dual in-line pin package
-	1180. [[Dirac delta function]]
-	1181. direct-coupled amplifier
-		1. (d.c.-coupled amplifier) See amplifier
-	1182. [[direct-current restorer]]
-	1183. [[direct-current transmission]]
-	1184. [[direct-gap semiconductor]]
-	1185. direct-sequence spread spectrum
-		1. See digital communications
-	1186. [[direct broadcast by satellite]]
-	1187. [[direct conversion receiver]]
-	1188. [[direct coupling]]
-	1189. [[direct current]]
-	1190. direct feedback
-		1. (positive feedback) See feedback
-	1191. [[directional antenna]]
-	1192. [[directional coupler]]
-	1193. directional relay
-		1. (polarized relay) See relay
-	1194. [[direction finding]]
-	1195. directive antenna
-		1. See directional antenna
-	1196. [[directivity]]
-	1197. [[direct memory access]]
-	1198. [[direct neural interface]]
-	1199. director
-		1. (director antenna) See directional antenna.
-	1200. [[direct ray]]
-	1201. direct stroke
-		1. See lightning stroke
-	1202. direct voltage
-		1. See D.C. voltage
-	1203. [[direct wave]]
-	1204. [[disable]]
-	1205. [[discharge]]
-	1206. discharge tube
-		1. See gas-discharge tube
-	1207. [[discrete Fourier transform]]
-	1208. [[discriminator]]
-	1209. disc thermistor
-		1. See thermistor
-	1210. [[disc winding]]
-	1211. dish
-		1. See parabolic reflector; radio telescope
-	1212. [[disk]]
-	1213. disk drive
-		1. See magnetic disk
-	1214. diskette
-		1. (floppy disk) See magnetic disk
-	1215. [[disk operating system]]
-	1216. disk read-write head
-		1. See magnetic disk
-	1217. [[disk storage]]
-	1218. [[dislocation]]
-	1219. [[dispersion]]
-	1220. [[displacement]]
-	1221. [[displacement current]]
-	1222. [[display]]
-	1223. [[display resolution]]
-	1224. [[dissipation]]
-	1225. [[distortion]]
-	1226. [[distributed amplifier]]
-	1227. distributed Bragg reflector laser
-		1. (DBR laser; distributed-feedback laser) See semiconductor laser
-	1228. [[distributed capacitance]]
-	1229. [[distributed circuit]]
-	1230. distributed feedback laser
-		1. (DFB laser; distributed Bragg reflector laser) See semiconductor laser
-	1231. [[distributed inductance]]
-	1232. distribution
-		1. See gaussian distribution; normal distribution
-	1233. distribution control
-		1. See scanning
-	1234. [[dithering]]
-	1235. [[div]]
-	1236. divergence angle
-		1. See debunching
-	1237. [[diversity system]]
-	1238. [[divider]]
-	1239. dividing network
-		1. See crossover network
-	1240. [[3D laser scanner]]
-	1241. [[DLP]]
-	1242. DM
-		1. (delta modulation) See pulse modulation
-	1243. DMA
-		1. See direct memory access
-	1244. [[DMOS]]
-	1245. DNI
-		1. See direct neural interface
-	1246. [[docking station]]
-	1247. [[Dolby digital 5.1]]
-	1248. [[Dolby pro logic]]
-	1249. [[Dolby surround sound]]
-	1250. domain
-		1. (1) See FERROMAGNETISM. 
-		2. (2) See GUNN EFFECT. 
-		3. (3) See TIME DOMAIN; FREQUENCY DOMAIN.
-	1251. dominant mode
-		1. See mode
-	1252. donor
-		1. (donor impurity) See semiconductor
-	1253. [[doping]]
-	1254. [[doping compensation]]
-	1255. [[doping level]]
-	1256. [[doping profile]]
-	1257. [[Doppler effect]]
-	1258. Doppler radar
-		1. See doppler effect; radar
-	1259. DOS
-		1. See disk operating system
-	1260. [[dot generator]]
-	1261. [[dot matrix printer]]
-	1262. [[dots per inch]]
-	1263. [[double-current system]]
-	1264. double-ended
-		1. See single-ended
-	1265. [[double-pole switch]]
-	1266. [[double-sideband transmission]]
-	1267. double amplitude
-		1. (peak-to-peak amplitude) See amplitude
-	1268. [[double conversion receiver]]
-	1269. double diffusion
-		1. See diffusion
-	1270. double drift device
-		1. See IMPATT Diode
-	1271. double image
-		1. See ghost
-	1272. [[double integral]]
-	1273. [[double modulation]]
-	1274. [[double sideband]]
-	1275. [[double sideband suppressed carrier]]
-	1276. doublet
-		1. See dipole
-	1277. [[downconvert]]
-	1278. [[downlink]]
-	1279. [[download]]
-	1280. [[downsampling]]
-	1281. [[down time]]
-	1282. dpi
-		1. See dots per inch
-	1283. [[DPNSS]]
-	1284. [[3D point cloud]]
-	1285. [[3D printer]]
-	1286. DPSK
-		1. (differential phase shift keying) See Phase Modulation
-	1287. [[drain]]
-	1288. [[DRAM]]
-	1289. DRC
-		1. See design rule checker
-	1290. [[drift]]
-	1291. [[drift current]]
-	1292. [[drift mobility]]
-	1293. drift region
-		1. See DMOS
-	1294. [[drift space]]
-	1295. driven antenna
-		1. (active antenna) See directional antenna
-	1296. driven output
-		1. (response) See forced output
-	1297. [[driven system]]
-	1298. [[driver]]
-	1299. [[drive speed]]
-	1300. [[driving-point impedance]]
-	1301. driving impedance
-		1. See motional impedance
-	1302. driving potential
-		1. See photocell
-	1303. DRO
-		1. See dielectric resonator oscillator
-	1304. [[drone]]
-	1305. droop
-		1. See pulse
-	1306. [[dropping resistor]]
-	1307. dry battery
-		1. See battery
-	1308. dry cell
-		1. See cell
-	1309. dry etching
-		1. See etching
-	1310. [[dry joint]]
-	1311. DSB
-		1. See double sideband
-	1312. DSB-SC
-		1. See double sideband suppressed carrier
-	1313. [[3D scanner]]
-	1314. DSL
-		1. (digital subscriber line) See asynchronous digital subscriber line
-	1315. [[DSLR camera]]
-	1316. DSP
-		1. See digital signal processing
-	1317. [[3D survey]]
-	1318. DTE
-		1. See data terminal equipment
-	1319. DTL
-		1. See diode transistor logic
-	1320. [[DTMF]]
-	1321. DTS
-		1. See digital theater system
-	1322. [[3D TV]]
-	1323. DTW
-		1. See dynamic time warping
-	1324. [[dual-flat no-leads package]]
-	1325. [[dual-tone multi-frequency signaling]]
-	1326. [[dual in-line package]]
-	1327. [[dual in-line pin package]]
-	1328. [[duality]]
-	1329. [[dubbing]]
-	1330. dull emitter
-		1. See thermionic cathode
-	1331. dummy antenna
-		1. See artificial antenna
-	1332. [[dummy variable]]
-	1333. [[duplexer]]
-	1334. [[duplex operation]]
-	1335. [[dust core]]
-	1336. [[duty]]
-	1337. duty factor
-		1. (pulse train) See pulse
-	1338. DVB
-		1. See digital video broadcasting
-	1339. [[DVB-S]]
-	1340. [[DVD]]
-	1341. DVM
-		1. See digital voltmeter
-	1342. [[dynamic]]
-	1343. dynamic characteristic
-		1. See characteristic
-	1344. [[dynamic impedance]]
-	1345. [[dynamic memory]]
-	1346. dynamic operation
-		1. See MOS Integrated Circuit
-	1347. dynamic RAM
-		1. See DRAM
-	1348. [[dynamic range]]
-	1349. [[dynamic resistance]]
-	1350. [[dynamic routing]]
-	1351. dynamic sensitivity
-		1. See phototube
-	1352. [[dynamic system]]
-	1353. [[dynamic time warping]]
-	1354. [[dynamo]]
-	1355. [[dyne]]
-	1356. dynode
-		1. See electron multiplier
-	1357. E-bend
-		1. (E-plane; edgewise bend) See waveguide
-	1358. [[E-cell]]
-	1359. E-layer
-		1. (E-region; Heaviside layer; Kennelly-Heaviside layer) See ionosphere
-	1360. e-paper
-		1. See electronic paper
-	1361. E-plane
-		1. (E-bend) See waveguide
-	1362. E-region
-		1. (E-layer) See ionosphere
-	1363. e.m.f.
-		1. (EMF) See electromotive force
-	1364. early failure period
-		1. See failure rate
-	1365. [[Early voltage]]
-	1366. EAROM
-		1. (electrically alterable read-only memory) See ROM
-	1367. [[earphone]]
-	1368. [[earth]]
-	1369. [[earth-return circuit]]
-	1370. earth bus
-		1. See bus
-	1371. [[earth capacitance]]
-	1372. [[earth current]]
-	1373. [[earth fault]]
-	1374. earth plane
-		1. See ground plane
-	1375. [[earth potential]]
-	1376. EBD
-		1. See electronic brakeforce distribution
-	1377. Ebers-Moll model
-		1. See transistor parameters
-	1378. EBIC
-		1. See electron-beam induced current analysis
-	1379. ECC
-		1. See error-correcting code
-	1380. ECG
-		1. See electrocardiograph
-	1381. [[echo]]
-	1382. [[echo sounding]]
-	1383. ECL
-		1. See emitter-coupled logic
-	1384. eddy-current heating
-		1. See induction heating
-	1385. [[eddy current]]
-	1386. [[edge connector]]
-	1387. [[edge detection]]
-	1388. [[edge effect]]
-	1389. [[edge enhancement]]
-	1390. [[edge profile]]
-	1391. [[edge triggering]]
-	1392. [[editor]]
-	1393. EDS
-		1. (energy dispersive spectroscopy) See electron microprobe
-	1394. EEG
-		1. See electroencephalograph
-	1395. EEPROM
-		1. (electrical-erasable programmable ROM) See ROM
-	1396. [[effective address]]
-	1397. [[effective aperture]]
-	1398. [[effective mass]]
-	1399. [[effective radiated power]]
-	1400. [[effective resistance]]
-	1401. effective value
-		1. See root-mean-square value
-	1402. [[efficiency]]
-	1403. EFM
-		1. (eight to fourteen modulation) See compact disc system
-	1404. [[EGA]]
-	1405. EGG
-		1. (electroglottogram) See ELECTROGLOTTOGRAPH.
-	1406. EHF
-		1. (extremely high frequency) See FREQUENCY BAND.
-	1407. [[EHT]]
-	1408. [[eigenvalue]]
-	1409. Einstein photoelectric equation
-		1. See PHOTOELECTRIC EFFECT.
-	1410. [[Einthoven galvanometer]]
-	1411. [[EIRP]]
-	1412. EIS
-		1. See electronic image stabilization
-	1413. EIT
-		1. See electrical impedance tomography
-	1414. [[elastance]]
-	1415. [[elastic recoil detection analysis]]
-	1416. [[elastoresistance]]
-	1417. [[electret]]
-	1418. [[electrical impedance tomography]]
-	1419. electrically alterable read-only memory
-		1. (EAROM) See ROM
-	1420. [[electric axis]]
-	1421. electric charge
-		1. See charge
-	1422. electric conduction
-		1. See conduction
-	1423. electric constant
-		1. (permittivity of free space) See permittivity
-	1424. electric current
-		1. See current
-	1425. [[electric dimensions]]
-	1426. electric dipole
-		1. See dipole
-	1427. electric displacement
-		1. See displacement
-	1428. [[electric field]]
-	1429. [[electric flux]]
-	1430. electric flux density
-		1. See displacement
-	1431. [[electric heating]]
-	1432. [[electric hysteresis loss]]
-	1433. [[electric image]]
-	1434. [[electric intensity]]
-	1435. [[electricity]]
-	1436. electric moment
-		1. (dipole moment) See dipole
-	1437. electric polarization
-		1. See dielectric polarization
-	1438. [[electric potential]]
-	1439. [[electric screening]]
-	1440. [[electric spectrum]]
-	1441. electric susceptibility
-		1. See susceptibility
-	1442. electric transducer
-		1. See transducer
-	1443. [[electric vehicle]]
-	1444. electro-optical effect
-		1. See Kerr Effects
-	1445. electro-optical shutter
-		1. (Kerr cell) See Kerr Effects
-	1446. [[electro-optics]]
-	1447. electroacoustic transducer
-		1. See transducer
-	1448. [[electrocardiograph]]
-	1449. [[electrochemical series]]
-	1450. [[electrode]]
-	1451. electrode current
-		1. See electrode
-	1452. [[electrodeposition]]
-	1453. electrode potential
-		1. See electrochemical series
-	1454. [[electrodynamic instrument]]
-	1455. [[electrodynamics]]
-	1456. [[electrodynamometer]]
-	1457. [[electroencephalograph]]
-	1458. [[electroglottograph]]
-	1459. [[electroless plating]]
-	1460. [[electroluminescence]]
-	1461. [[electrolysis]]
-	1462. [[electrolyte]]
-	1463. [[electrolytic capacitor]]
-	1464. electrolytic cell
-		1. See cell
-	1465. [[electrolytic dissociation]]
-	1466. [[electrolytic meter]]
-	1467. [[electrolytic photocell]]
-	1468. [[electrolytic polishing]]
-	1469. [[electrolytic rectifier]]
-	1470. [[electromagnet]]
-	1471. electromagnetic balance
-		1. See cotton balance
-	1472. [[electromagnetic compatibility]]
-	1473. [[electromagnetic deflection]]
-	1474. electromagnetic focusing
-		1. (magnetic focusing) See focusing
-	1475. [[electromagnetic induction]]
-	1476. electromagnetic interference
-		1. (EMI) See electromagnetic compatibility
-	1477. [[electromagnetic lens]]
-	1478. electromagnetic pulse
-		1. (EMP) See electromagnetic compatibility
-	1479. [[electromagnetic radiation]]
-	1480. [[electromagnetic spectrum]]
-	1481. electromagnetic strain gauge
-		1. (variable inductance gauge) See strain gauge
-	1482. electromagnetic units
-		1. (emu) See CGS System
-	1483. electromagnetic wave
-		1. See electromagnetic radiation
-	1484. [[electromagnetism]]
-	1485. [[electrometer]]
-	1486. [[electromigration]]
-	1487. [[electromotive force]]
-	1488. [[electromyograph]]
-	1489. [[electron]]
-	1490. [[electron-beam device]]
-	1491. [[electron-beam induced current analysis]]
-	1492. [[electron-beam lithography]]
-	1493. [[electron-hole pair]]
-	1494. electron-hole recombination
-		1. (band-to-band recombination) See recombination processes.
-	1495. [[electron affinity]]
-	1496. [[electron beam]]
-	1497. electron binding energy
-		1. See ionization potential
-	1498. electron capture
-		1. See RECOMBINATION PROCESSES.
-	1499. electron charge
-		1. See charge; electron
-	1500. [[electron density]]
-	1501. electron diffraction
-		1. See diffraction
-	1502. electronegative
-		1. See electrochemical series
-	1503. [[electron emission]]
-	1504. [[electron gas]]
-	1505. [[electron gun]]
-	1506. [[electronic brakeforce distribution]]
-	1507. [[electronic device]]
-	1508. [[electronic efficiency]]
-	1509. [[electronic image stabilization]]
-	1510. [[electronic imaging]]
-	1511. [[electronic ink]]
-	1512. [[electronic lock]]
-	1513. [[electronic memory]]
-	1514. [[electronic paper]]
-	1515. [[electronics]]
-	1516. [[electronic switch]]
-	1517. [[electronic tuning]]
-	1518. [[electronic waste]]
-	1519. [[electron lens]]
-	1520. [[electron microprobe]]
-	1521. [[electron microscope]]
-	1522. electron mobility
-		1. See drift mobility
-	1523. [[electron multiplier]]
-	1524. [[electron optics]]
-	1525. [[electron tube]]
-	1526. [[electronvolt]]
-	1527. [[electron voltaic effect]]
-	1528. [[electrophoresis]]
-	1529. [[electrophorus]]
-	1530. [[electroplating]]
-	1531. [[electropneumatic]]
-	1532. [[electropolar]]
-	1533. electropolishing
-		1. See ELECTROLYTIC POLISHING.
-	1534. electropositive
-		1. See ELECTROCHEMICAL SERIES.
-	1535. [[electroscope]]
-	1536. [[electrostatic adhesion]]
-	1537. [[electrostatic deflection]]
-	1538. electrostatic discharge
-		1. (ESD) See ELECTROMAGNETIC COMPATIBILITY.
-	1539. [[electrostatic field]]
-	1540. electrostatic focusing
-		1. See focusing
-	1541. electrostatic generator
-		1. See generator
-	1542. [[electrostatic induction]]
-	1543. [[electrostatic lens]]
-	1544. electrostatic loudspeaker
-		1. See LOUDSPEAKER.
-	1545. [[electrostatic precipitation]]
-	1546. [[electrostatics]]
-	1547. electrostatic units
-		1. (esu) See CGS System
-	1548. electrostatic voltmeter
-		1. See voltmeter
-	1549. electrostatic wattmeter
-		1. See wattmeter
-	1550. [[electrostriction]]
-	1551. electrothermal instrument
-		1. See thermal instrument
-	1552. electrovalent bond
-		1. See ionic bond
-	1553. [[element]]
-	1554. [[elementary particle]]
-	1555. elliptical polarization
-		1. See polarization
-	1556. [[elliptic filter]]
-	1557. [[elliptic function]]
-	1558. [[embedded controller]]
-	1559. [[embedded system]]
-	1560. EMC
-		1. See ELECTROMAGNETIC COMPATIBILITY.
-	1561. EMI
-		1. (electromagnetic interference) See ELECTROMAGNETIC COMPATIBILITY.
-	1562. [[emission]]
-	1563. [[emissivity]]
-	1564. [[emitter]]
-	1565. [[emitter-coupled logic]]
-	1566. emitter electrode
-		1. See emitter
-	1567. [[emitter follower]]
-	1568. emitter region
-		1. See emitter
-	1569. EMP
-		1. (electromagnetic pulse) See ELECTROMAGNETIC COMPATIBILITY.
-	1570. emu
-		1. (electromagnetic unit) See CGS SYSTEM.
-	1571. [[emulator]]
-	1572. [[enabling]]
-	1573. encephalograph
-		1. See ELECTROENCEPHALOGRAPH.
-	1574. [[enclosure]]
-	1575. [[encoder]]
-	1576. [[encryption]]
-	1577. endfire array
-		1. (staggered antenna) See antenna array
-	1578. [[energy bands]]
-	1579. energy component
-		1. (1) (of a current or voltage) See ACTIVE CURRENT or ACTIVE VOLTAGE.
-		2. (2) (of the volt-amperes) See ACTIVE VOLT-AMPERES.
-	1580. energy dispersive spectroscopy
-		1. (EDS) See ELECTRON MICROPROBE.
-	1581. [[energy efficiency]]
-	1582. [[energy gap]]
-	1583. [[energy levels]]
-	1584. [[engine control unit]]
-	1585. [[enhanced vision system]]
-	1586. [[enhancement mode]]
-	1587. [[envelope]]
-	1588. envelope detector
-		1. See DIODE DETECTOR.
-	1589. EoP
-		1. See ETHERNET OVER POWER.
-	1590. EOP
-		1. See EXTERIOR ORIENTATION PARAMETERS.
-	1591. [[EPIRB]]
-	1592. epitaxial transistor
-		1. See PLANAR PROCESS.
-	1593. [[epitaxy]]
-	1594. EPROM
-		1. (erasable programmable ROM) See ROM.
-	1595. [[equal energy source]]
-	1596. [[equalization]]
-	1597. [[equalizer]]
-	1598. [[equipotential line]]
-	1599. [[equiripple]]
-	1600. equivalent-circuit model
-		1. See TRANSISTOR PARAMETERS; MODELLING.
-	1601. [[equivalent circuit]]
-	1602. [[equivalent network]]
-	1603. [[equivalent rectangular bandwidth]]
-	1604. [[equivalent resistance]]
-	1605. erasable PROM
-		1. See ROM
-	1606. ERDA
-		1. See ELASTIC RECOIL DETECTION ANALYSIS.
-	1607. erlang
-		1. See NETWORK TRAFFIC MEASUREMENT.
-	1608. ERP
-		1. See EFFECTIVE RADIATED POWER.
-	1609. error
-		1. See ABSOLUTE ERROR.
-	1610. [[error-correcting code]]
-	1611. [[error accumulation]]
-	1612. [[error bar]]
-	1613. [[error correction]]
-	1614. [[error detection]]
-	1615. [[error rate]]
-	1616. Esaki diode
-		1. See TUNNEL DIODE.
-	1617. ESD
-		1. (electrostatic discharge) See ELECTROMAGNETIC COMPATIBILITY.
-	1618. [[estimation theory]]
-	1619. esu
-		1. (electrostatic unit) See CGS SYSTEM.
-	1620. [[etching]]
-
-	1621. etch pit density
-		1. (dislocation density) See DISLOCATION.
-	1622. [[Ethernet]]
-	1623. [[Ethernet over power]]
-	1624. [[Ettinghausen effect]]
-	1625. [[Euler's identity]]
-	1626. [[European Telecommunications Standards Institute]]
-	1627. [[eutectic mixture]]
-	1628. [[even function]]
-	1629. EVS
-		1. See ENHANCED VISION SYSTEM.
-	1630. E wave
-		1. (TM wave) See MODE.
-
-	1631. exchange forces
-		1. See FERROMAGNETISM.
-	1632. [[excitation]]
-	1633. excited state
-		1. See GROUND STATE.
-	1634. exclusive OR gate
-		1. See LOGIC CIRCUIT.
-	1635. [[execute]]
-	1636. expanded-sweep generator
-		1. See timebase
-	1637. expanded sweep
-		1. See timebase
-	1638. [[expander]]
-	1639. [[expansion]]
-	1640. exploring coil
-		1. (search coil) See FLIP-COIL.
-
-	1641. [[exponential form of a complex number]]
-	1642. [[exponential function]]
-	1643. [[exterior orientation parameters]]
-	1644. [[Extranet]]
-	1645. extrapolated failure rate
-		1. See failure rate
-	1646. extrapolated mean life
-		1. See mean life
-	1647. extremely high frequency
-		1. (EHF) See frequency band
-	1648. extrinsic photoconductivity
-		1. See photoconductivity
-	1649. [[extrinsic semiconductor]]
-	1650. eyelet-construction mica capacitor
-		1. See mica capacitor
-
-	1651. [[eye tracking]]
-	1652. F-layer
-		1. (Appleton layer) See ionosphere
-	1653. F-region
-		1. (F-layer) See ionosphere
-	1654. f.m.
-		1. (FM) See frequency modulation
-	1655. f.s.d.
-		1. (FSD) See full-scale deflection
-	1656. f0
-		1. (fundamental frequency) See FUNDAMENTAL FREQUENCY ESTIMATION. Compare FX.
-	1657. Fabry-Perot cavity
-		1. See laser
-	1658. [[fader]]
-	1659. [[fading]]
-	1660. [[failure]]
-
-	1661. [[failure rate]]
-	1662. [[fall time]]
-	1663. [[fan-in]]
-	1664. [[fan-out]]
-	1665. far-end crosstalk
-		1. See crosstalk
-	1666. [[far-field region]]
-	1667. [[farad]]
-	1668. Faraday-Neumann law
-		1. (Faraday's law) See ELECTROMAGNETIC INDUCTION.
-	1669. [[Faraday constant]]
-	1670. Faraday dark space
-		1. See GAS-DISCHARGE TUBE (diagram).
-
-	1671. [[Faraday shield]]
-	1672. [[fast-recovery diode]]
-	1673. [[fast Ethernet]]
-	1674. fast Fourier transform
-		1. (FFT) See DISCRETE FOURIER TRANSFORM.
-	1675. fast hopping
-		1. See FREQUENCY MODULATION.
-	1676. FAT
-		1. See file allocation table
-	1677. [[FATFET]]
-	1678. [[fat zero]]
-	1679. [[fault]]
-	1680. [[fault-tolerant system]]
-
-	1681. [[fault current]]
-	1682. [[fault grade]]
-	1683. FCC
-		1. (Federal Communications Committee) See STANDARDIZATION.
-	1684. FCS
-		1. See FRAME CHECK SEQUENCE.
-	1685. FDDI
-		1. See FIBRE DISTRIBUTED DATA INTERFACE.
-	1686. FDHM
-		1. See FULL DURATION AT HALF MAXIMUM.
-	1687. FDM
-		1. See FREQUENCY-DIVISION MULTIPLEXING.
-	1688. FDMA
-		1. (frequency-division multiple access) See DIGITAL COMMUNICATIONS.
-	1689. FDNR
-		1. See FREQUENCY-DEPENDENT NEGATIVE RESISTOR.
-	1690. [[feature]]
-
-	1691. [[feature matching]]
-	1692. [[feed]]
-	1693. [[feedback]]
-	1694. [[feedback control loop]]
-	1695. feedback oscillator
-		1. See oscillator
-	1696. [[feeder]]
-	1697. [[feedforward control]]
-	1698. feedpoint impedance
-		1. See ANTENNA FEEDPOINT IMPEDANCE.
-	1699. [[feedthrough]]
-	1700. [[Felici balance]]
-
-	1701. FEM
-		1. See finite element method
-	1702. [[femto-]]
-	1703. [[Fermi-Dirac statistics]]
-	1704. [[Fermi level]]
-	1705. [[ferrimagnetism]]
-	1706. [[ferrite]]
-	1707. ferrite beads
-		1. See ELECTROMAGNETIC COMPATIBILITY.
-	1708. ferrite core
-		1. See core
-	1709. [[ferroelectric crystals]]
-	1710. [[ferrofluid]]
-
-	1711. [[ferromagnetism]]
-	1712. FET
-		1. See FIELD-EFFECT TRANSISTOR.
-	1713. FFT
-		1. (fast Fourier transform) See DISCRETE FOURIER TRANSFORM.
-	1714. [[fibre-optics system]]
-	1715. [[fibre distributed data interface]]
-	1716. [[fibretronics]]
-	1717. [[Fick's law]]
-	1718. [[fiducial marker]]
-	1719. [[field]]
-	1720. [[field-effect transistor]]
-
-	1721. [[field-emission microscope]]
-	1722. [[field-enhanced emission]]
-	1723. [[field-ion microscope]]
-	1724. field coil
-		1. See electromagnet
-	1725. field current
-		1. See electromagnet
-	1726. [[field emission]]
-	1727. [[field emitter]]
-	1728. field frequency
-		1. See television
-	1729. [[field ionization]]
-	1730. [[field of view]]
-
-	1731. field programmable gate array
-		1. See FPGA
-	1732. FIFO
-		1. (first in, first out) A type of memory system
-	1733. [[figure-eight microphone]]
-	1734. [[filament]]
-	1735. [[file allocation table]]
-	1736. [[film]]
-	1737. [[film resistor]]
-	1738. film sputter deposition
-		1. See sputtering
-	1739. [[filter]]
-	1740. filter synthesis
-		1. See network synthesis
-
-	1741. [[finite-difference time domain]]
-	1742. [[finite-state machine]]
-	1743. [[finite element method]]
-	1744. finite impulse response
-		1. (FIR) See digital filter
-	1745. [[firewall]]
-	1746. [[Firewire]]
-	1747. FIR filter
-		1. (finite impulse response filter) See digital filter; transversal filter.
-	1748. firing
-		1. See gas-discharge tube
-	1749. firm decision decoding
-		1. See hard decision decoding
-	1750. [[firmware]]
-
-	1751. [[first-order circuit]]
-	1752. first ionization potential
-		1. See IONIZATION POTENTIAL.
-	1753. [[fixed-point representation]]
-	1754. [[flag]]
-	1755. [[flash arc]]
-	1756. [[flashback voltage]]
-	1757. [[flash memory]]
-	1758. [[flash memory controller]]
-	1759. [[flashover]]
-	1760. flat-band operation mode
-		1. See MOS capacitor
-
-	1761. [[flatbed scanner]]
-	1762. [[flat package]]
-	1763. [[flatscreen display]]
-	1764. [[flat tuning]]
-	1765. flatwise bend
-		1. (H-bend) See waveguide
-	1766. [[Fleming's rules]]
-	1767. [[flexible resistor]]
-	1768. [[flicker]]
-	1769. [[flicker noise]]
-	1770. [[flip-chip]]
-
-	1771. [[flip-coil]]
-	1772. [[flip-flop]]
-	1773. [[floating]]
-	1774. [[floating-carrier modulation]]
-	1775. [[floating-point representation]]
-	1776. floating battery
-		1. See battery
-	1777. floppy disk
-		1. (diskette) See magnetic disk
-	1778. [[flow chart]]
-	1779. [[flow control]]
-	1780. fluorescence
-		1. See LUMINESCENCE.
-
-	1781. [[fluorescent lamp]]
-	1782. [[fluorescent screen]]
-	1783. [[flutter]]
-	1784. [[flux]]
-	1785. [[fluxmeter]]
-	1786. flyback
-		1. (1) See time base
-		2. (2) See sawtooth waveform
-	1787. [[fly by wire]]
-	1788. [[flying-spot scanner]]
-	1789. [[flywheel effect]]
-	1790. flywheel timebase
-		1. See timebase
-
-	1791. [[FM receiver]]
-	1792. fMRI
-		1. See functional magnetic resonance imaging
-	1793. FM synthesis
-		1. See synthesis
-	1794. [[focal length]]
-	1795. [[focusing]]
-	1796. [[foil capacitor]]
-	1797. folded dipole
-		1. See diploe
-	1798. forbidden band
-		1. See energy bands
-	1799. [[forced oscillations]]
-	1800. [[forced output]]
-
-	1801. [[forced system]]
-	1802. [[force factor]]
-	1803. [[forcing function]]
-	1804. [[formal verification]]
-	1805. [[formant]]
-	1806. formant synthesis
-		1. See SPEECH SYNTHESIS.
-	1807. [[form factor]]
-	1808. forward-current gain
-		1. See beta current gain factor
-	1809. forward-wave amplification
-		1. See travelling-wave tube.
-	1810. forward active operation
-		1. See bipolar junction transistor
-
-	1811. [[forward direction]]
-	1812. forward path
-		1. See feedback control loop
-	1813. [[forward problem]]
-	1814. forward slope resistance
-		1. See diode
-	1815. forward transfer function
-		1. See feedback control loop
-	1816. Foucault current
-		1. See eddy current
-	1817. [[four-point probe]]
-	1818. four-terminal network
-		1. See two-port network
-	1819. [[four-terminal resistor]]
-	1820. [[four-wire circuit]]
-
-	1821. [[Fourier analysis]]
-	1822. [[field-programmable gate array|FPGA]]
-	1823. [[frame]]
-	1824. frame/field transfer device
-		1. See solid-state camera
-	1825. frame antenna
-		1. See loop antenna
-	1826. [[frame check sequence]]
-	1827. frame direction finding
-		1. (loop direction finding) See direction finding
-	1828. frame frequency
-		1. (picture frequency) See television
-	1829. [[franklin]]
-	1830. free-electron paramagnetism
-		1. See paramagnetism
-
-	1831. [[free-field calibration]]
-	1832. [[free electron]]
-	1833. [[free field]]
-	1834. [[free oscillations]]
-	1835. [[free output]]
-	1836. [[Freesat]]
-	1837. [[free space]]
-	1838. [[free system]]
-	1839. [[Freeview]]
-	1840. [[frequency]]
-
-	1841. [[frequency-dependent negative resistor]]
-	1842. [[frequency-division duplexing]]
-	1843. frequency-division multiple access
-		1. (FDMA) See digital communications
-	1844. [[frequency-division multiplexing]]
-	1845. frequency-hopping spread spectrum
-		1. See digital communications
-	1846. frequency-modulated radar
-		1. See radar
-	1847. [[frequency-response characteristic]]
-	1848. frequency analyser
-		1. See wave analyzer
-	1849. [[frequency band]]
-	1850. [[frequency bridge]]
-
-	1851. [[frequency changer]]
-	1852. [[frequency compensation]]
-	1853. frequency control
-		1. See automatic frequency control
-	1854. [[frequency counter]]
-	1855. frequency deviation
-		1. See frequency modulation
-	1856. [[frequency discriminator]]
-	1857. frequency diversity
-		1. See diversity system
-	1858. [[frequency divider]]
-	1859. [[frequency domain]]
-	1860. [[frequency doubler]]
-
-	1861. [[frequency meter]]
-	1862. [[frequency modulation]]
-	1863. frequency multiplexing
-		1. See frequency division multiplexing
-	1864. [[frequency multiplier]]
-	1865. frequency pulling
-		1. See pulling
-	1866. [[frequency range]]
-	1867. [[frequency response]]
-	1868. [[frequency reuse]]
-	1869. frequency scaling
-		1. See denormalization
-	1870. [[frequency selectivity]]
-
-	1871. frequency shift keying
-		1. (FSK) See frequency modulation
-	1872. frequency spectrum (of electromagnetic waves)
-		1. See table 10, in the back matter.
-	1873. [[primary frequency standard]]
-	1874. frequency swing
-		1. See frequency modulation
-	1875. frequency synthesizer
-		1. See synthesizer
-	1876. [[frequency transformation]]
-	1877. [[Fresnel zone]]
-	1878. [[frictional electricity]]
-	1879. [[Friis transmission equation]]
-	1880. [[fringe area]]
-
-	1881. front porch
-		1. See television
-	1882. FSK
-		1. (frequency shift keying) See frequency modulation.
-	1883. FSM
-		1. See finite-state machine.
-	1884. [[fuel cell]]
-	1885. [[full-duplex]]
-	1886. [[full-scale deflection]]
-	1887. full-wave dipole
-		1. See dipole 
-	1888. [[full-wave rectifier circuit]]
-	1889. [[full-width half-maximum]]
-	1890. full adder
-		1. See adder
-
-	1891. [[full duration at half maximum]]
-	1892. [[function]]
-	1893. [[functional magnetic resonance imaging]]
-	1894. [[functional neuroimaging]]
-	1895. functional packing density
-		1. See packing density
-	1896. [[function generator]]
-	1897. [[fundamental frequency]]
-	1898. [[fundamental frequency estimation]]
-	1899. [[fuse]]
-	1900. fusible-link memory
-		1. See ROM
-
-	1901. [[fuzzy logic]]
-	1902. FWHM
-		1. See full-width half-maximum
-	1903. [[fx]]
-	1904. [[gadolinium gallium garnet]]
-	1905. [[3G]]
-	1906. [[gain]]
-	1907. [[gain-bandwidth product]]
-	1908. gain compression
-		1. See COMPRESSION POINT.
-	1909. [[gain control]]
-	1910. [[gain margin]]
-
-	1911. gain region
-		1. See active region
-	1912. galactic noise
-		1. (Jansky noise) See radio noise
-	1913. [[Galileo]]
-	1914. [[gallium arsenide]]
-	1915. [[galvanomagnetic effect]]
-	1916. [[galvanometer]]
-	1917. [[galvanometer constant]]
-	1918. [[gamma correction]]
-	1919. [[gamma rays]]
-	1920. [[gap]]
-
-	1921. gap length
-		1. See magnetic recording
-	1922. [[gas-discharge tube]]
-	1923. [[gas-filled tube]]
-	1924. gas amplification
-		1. See GAS MULTIPLICATION.
-	1925. [[gas breakdown]]
-	1926. gas cell
-		1. See gas electrode
-	1927. [[gas electrode]]
-	1928. [[gaskets]]
-	1929. [[gas multiplication]]
-	1930. [[gassing]]
-
-	1931. [[gate]]
-	1932. [[gate array]]
-	1933. [[gate expander]]
-	1934. gateway
-		1. See router
-	1935. gating
-		1. See receiver
-	1936. [[gauss]]
-	1937. [[Gauss's theorem]]
-	1938. [[Gaussian channel]]
-	1939. [[Gaussian distribution]]
-	1940. [[Gaussian elimination]]
-
-	1941. [[Gaussian filter]]
-	1942. GBP
-		1. See gain-bandwidth product
-	1943. [[Geiger counter]]
-	1944. [[general-purpose input-output pin]]
-	1945. [[general impedance converter]]
-	1946. [[generator]]
-	1947. [[genetic algorithm]]
-	1948. [[geometric optics]]
-	1949. [[geometric theory of diffraction]]
-	1950. [[geostationary earth orbit]]
-
-	1951. [[geotagging]]
-	1952. [[germanium]]
-	1953. [[getter]]
-	1954. [[ghost]]
-	1955. [[giant magnetoresistance]]
-	1956. [[giant magnetoresistance head]]
-	1957. [[Gibbs phenomenon]]
-	1958. GIC
-		1. See general impedance converter
-	1959. [[giga-]]
-	1960. [[gigabit]]
-
-	1961. [[gigabyte]]
-	1962. [[gilbert]]
-	1963. [[Gilbert cell]]
-	1964. glassivation
-		1. See passivation
-	1965. glitch
-		1. See hazard
-	1966. global navigation satellite system
-		1. (GNSS) See satellite navigation system
-	1967. global positioning system
-		1. See GPS
-	1968. [[global system for mobile communications]]
-	1969. [[GLONASS]]
-	1970. [[glottal airflow]]
-
-	1971. glow-discharge microphone
-		1. See microphone
-	1972. glow discharge
-		1. See gas-discharge tube
-	1973. [[4G LTE]]
-	1974. GMR
-		1. See giant magnetoresistance
-	1975. GMR head
-		1. See giant magnetoresistance head
-	1976. [[go-back-N ARQ]]
-	1977. Golay code
-		1. See digital codes
-	1978. gold-leaf electroscope
-		1. See electroscope
-	1979. [[GOS]]
-	1980. GPIB
-		1. (general-purpose interface bus) See IEEE-488 STANDARD.
-
-	1981. GPIO pin
-		1. See general-purpose input/output pin
-	1982. [[GPR]]
-	1983. [[GPS]]
-	1984. [[GPU]]
-	1985. [[graded-base transistor]]
-	1986. [[gradiometer]]
-	1987. [[graphene]]
-	1988. [[graphical symbols]]
-	1989. [[graphic equalizer]]
-	1990. [[graphic instrument]]
-
-	1991. [[graphic panel]]
-	1992. graphics processing unit
-		1. See GPU
-	1993. [[grass]]
-	1994. Grassot fluxmeter
-		1. See fluxmeter
-	1995. [[gravity cell]]
-	1996. [[Gray code]]
-	1997. [[grenz rays]]
-	1998. [[grid]]
-	1999. grid base
-		1. (thermionic valve) See cut-off
-	2000. [[grid bias]]
-
-	2001. [[grid emission]]
-	2002. [[grid leak]]
-	2003. grid stopper
-		1. See parasitic oscillations
-	2004. ground
-		1. US term for earth
-	2005. ground-penetrating radar
-		1. See GPR
-	2006. [[ground-reflected wave]]
-	2007. [[ground absorption]]
-	2008. ground capacitance
-		1. US term for earth capacitance
-	2009. ground clutter
-		1. See ground return
-	2010. ground current
-		1. US term for earth current
-
-	2011. grounded-base connection
-		1. See common-base connection
-	2012. grounded-collector connection
-		1. See common-collector connection
-	2013. grounded-emitter connection
-		1. See common-emitter connection
-	2014. ground electrode
-		1. US term for earth electrode. See EARTH
-	2015. [[ground plane]]
-	2016. ground potential
-		1. US term for earth potential
-	2017. ground ray
-		1. See ground wave
-	2018. [[ground reflection]]
-	2019. [[ground return]]
-	2020. [[ground state]]
-
-	2021. [[ground wave]]
-	2022. [[group delay]]
-	2023. [[group operation]]
-	2024. [[grown junction]]
-	2025. GSM
-		1. See global system for mobile communications
-	2026. GTO
-		1. (gate-turnoff thyristor) See thyristor
-	2027. [[guard-ring capacitor]]
-	2028. [[guard band]]
-	2029. [[guard ring]]
-	2030. [[guard time]]
-
-	2031. [[Gudden-Pohl effect]]
-	2032. guide
-		1. See waveguide
-	2033. Guillemin effect
-		1. See magnetostriction
-	2034. [[Guillemin line]]
-	2035. Gunn diode
-		1. See transferred electron device
-	2036. [[Gunn effect]]
-	2037. [[gyrator]]
-	2038. [[gyroscopic sensor]]
-	2039. H-bend
-		1. (H-plane; flatwise bend) See waveguide
-	2040. H-network
-		1. (H-pad; H-section) See two-port network
-
-	2041. H-pad
-		1. (H-network) See two-port network
-	2042. H-plane
-		1. (H-bend) See waveguide
-	2043. H-section
-		1. (H-network) See two-port network
-	2044. [[halation]]
-	2045. half-adder
-		1. See adder
-	2046. [[half-duplex]]
-	2047. half-duplex operation
-		1. See duplex operation
-	2048. half-IF response
-		1. See IP2
-	2049. half-power beamwidth
-		1. See beamwidth
-	2050. [[half-power point]]
-
-	2051. half-wave dipole
-		1. See dipole
-	2052. [[half-wave rectifier circuit]]
-	2053. [[half-wave voltage doubler]]
-	2054. half-width at half-maximum
-		1. (HWHM) Half of the full-width half-maximum
-	2055. [[Hall effect]]
-	2056. [[Hall mobility]]
-	2057. [[Hall probe]]
-	2058. halo
-		1. See halation
-	2059. [[Hamming code]]
-	2060. Hamming window
-		1. See windowing
-
-	2061. [[ham radio]]
-	2062. [[handover]]
-	2063. [[handshake]]
-	2064. [[hand tracking]]
-	2065. Hanning window
-		1. (raised cosine window) See windowing
-	2066. [[haptic interface]]
-	2067. [[hard clipping]]
-	2068. [[hard decision decoding]]
-	2069. hard disk
-		1. See magnetic disk
-	2070. [[hard disk drive]]
-
-	2071. hard disk head
-		1. See magnetic disk
-	2072. [[hardware]]
-	2073. hardware compilation
-		1. See design automation
-	2074. [[hardware description language]]
-	2075. [[hardwired]]
-	2076. hard X-rays
-		1. See X-rays
-	2077. [[harmonic]]
-	2078. [[harmonic analyzer]]
-	2079. [[harmonic distortion]]
-	2080. [[harmonic generator]]
-
-	2081. harmonic oscillator
-		1. See oscillator
-	2082. [[Hartley oscillator]]
-	2083. [[Hartshorn bridge]]
-	2084. [[Harvard architecture]]
-	2085. [[Hay bridge]]
-	2086. [[Haynes-Shockley experiment]]
-	2087. [[hazard]]
-	2088. HB
-		1. See horizontal bridgeman
-	2089. HbbTV
-		1. See hybrid broadcast broadband TV
-	2090. HBT
-		1. See heterojunction bipolar transistor
-
-	2091. HD
-		1. See high-definition
-	2092. HDCD
-		1. See high-definition compatible digital
-	2093. HDD
-		1. See hard disk drive
-	2094. HDL
-		1. See hardware description language 
-	2095. HDMI
-		1. See high-definition multimedia interface
-	2096. HDR
-		1. See high dynamic range
-	2097. [[HDTV]]
-	2098. [[HD video]]
-	2099. [[head]]
-	2100. [[head-mounted display]]
-
-	2101. head-related transfer function
-		1. See HRTF
-	2102. [[head-up display]]
-	2103. [[header]]
-	2104. headset
-		1. See earphone
-	2105. [[hearing aid]]
-	2106. [[heat coil]]
-	2107. [[heat detector]]
-	2108. [[heater]]
-	2109. heating depth
-		1. See dielectric heating
-	2110. [[heating effect of a current]]
-
-	2111. [[heat management]]
-	2112. [[heat sink]]
-	2113. Heaviside layer
-		1. (Heaviside-kennelly layer; E-layer) See ionosphere
-	2114. [[hecto-]]
-	2115. [[height control]]
-	2116. [[Heil tube]]
-	2117. [[helical antenna]]
-	2118. [[Helmholtz coils]]
-	2119. [[Helmholtz galvanometer]]
-	2120. HEMT
-		1. See high electron mobility transistor
-
-	2121. [[henry]]
-	2122. [[hertz]]
-	2123. [[Hertzian dipole]]
-	2124. [[heterodyne reception]]
-	2125. [[heterojunction]]
-	2126. [[heterojunction bipolar transistor]]
-	2127. heterojunction FET
-		1. See high electron mobility transistor
-	2128. heterojunction photodiode
-		1. See photodiode
-	2129. heterostructure laser
-		1. See semiconductor laser
-	2130. [[Heusler alloys]]
-
-	2131. [[hexadecimal]]
-	2132. hexagon voltage
-		1. (mesh voltage) See voltage between lines
-	2133. HF
-		1. (high frequency) See frequency band
-	2134. hi-fi
-		1. Acronym for high fidelity. See reproduction of sound
-	2135. hi-lo Read diode
-		1. See IMPATT Diode
-	2136. [[hidden Markov model]]
-	2137. [[hierarchical design]]
-	2138. [[high-definition]]
-	2139. [[high-definition compatible digital]]
-	2140. [[high-definition multimedia interface]]
-
-	2141. [[high-density packaging]]
-	2142. high-frequency resistance
-		1. See skin effect
-	2143. high-level injection
-		1. See injection
-	2144. high-level programming language
-		1. See programming language
-	2145. high-pass filter
-		1. See filter
-	2146. [[high-temperature superconductor]]
-	2147. [[high-tension]]
-	2148. high-velocity scanning
-		1. See scanning
-	2149. [[high-voltage test]]
-	2150. [[high dynamic range]]
-
-	2151. [[high electron mobility transistor]]
-	2152. high fidelity
-		1. See reproduction of sound
-	2153. high frequency
-		1. (HF) See frequency band
-	2154. high logic level
-		1. See logic circuit
-	2155. [[high recombination-rate contact]]
-	2156. [[histogram equalization]]
-	2157. HMD
-		1. See head-mounted display
-	2158. HMM
-		1. See hidden markov model
-	2159. [[holding time]]
-	2160. [[hold time]]
-
-	2161. [[hole]]
-	2162. hole-electron pair
-		1. See electron-hole pair
-	2163. hole capture
-		1. See RECOMBINATION PROCESSES.
-	2164. [[hole conduction]]
-	2165. [[hole current]]
-	2166. hole density
-		1. See carrier concentration
-	2167. hole injection
-		1. See injection
-	2168. hole mobility
-		1. See drift mobility
-	2169. [[hole trap]]
-	2170. homing beacon
-		1. (locator beacon) See beacon
-
-	2171. homodyne receiver
-		1. (direct conversion receiver) See also HETERODYNE RECEPTION.
-	2172. [[homogeneous differential equation]]
-	2173. [[homojunction]]
-	2174. [[homopolar generator]]
-	2175. [[honeycomb coil]]
-	2176. [[hook-up]]
-	2177. horizontal blanking
-		1. See blanking
-	2178. [[horizontal Bridgeman]]
-	2179. [[horizontal polarization]]
-	2180. [[horizontal surround sound]]
-
-	2181. [[horn antenna]]
-	2182. horn loudspeaker
-		1. See loudspeaker
-	2183. [[horseshoe magnet]]
-	2184. hot-wire ammeter
-		1. See hot-wire instrument
-	2185. hot-wire gauge
-		1. See pirani gauge
-	2186. [[hot-wire instrument]]
-	2187. hot cathode
-		1. See thermionic cathode
-	2188. [[hot electron]]
-	2189. [[hot spot]]
-	2190. [[howl]]
-
-	2191. h parameter
-		1. (hybrid parameter) See network
-	2192. [[HRTF]]
-	2193. HT
-		1. See high-tension
-	2194. HTML
-		1. See hypertext markup language
-	2195. HTS
-		1. (high-temperature superconductor) See superconductivity
-	2196. HTTP
-		1. See hypertext transfer protocol
-	2197. HUD
-		1. See head-up display
-	2198. [[hum]]
-	2199. [[hum modulation]]
-	2200. [[hunting]]
-
-	2201. [[Huygens' principle]]
-	2202. H wave
-		1. (TE wave) See mode
-	2203. HWHM
-		1. See half-width at half-maximum
-	2204. hybrid-π model
-		1. See transistor parameters
-	2205. [[hybrid broadcast broadband TV]]
-	2206. [[hybrid drive]]
-	2207. hybrid integrated circuit
-		1. See integrated circuit
-	2208. [[hybrid junction]]
-	2209. hybrid parameters
-		1. See transistor parameters; network
-	2210. hydrogen electrode
-		1. See electrochemical series
-
-	2211. [[hydrophone]]
-	2212. [[hyperabrupt varactor]]
-	2213. [[hypercardioid microphone]]
-	2214. [[hypercube]]
-	2215. [[hyperspectral image]]
-	2216. [[hypertext markup language]]
-	2217. [[hypertext transfer protocol]]
-	2218. [[hysteresis]]
-	2219. [[hysteresis distortion]]
-	2220. hysteresis factor
-		1. See magnetic hysteresis
-
-	2221. hysteresis loop
-		1. See magnetic hysteresis
-	2222. hysteresis loss
-		1. (1) See magnetic hysteresis
-		2. (2) See electric hysteresis loss
-	2223. [[hysteresis meter]]
-	2224. Hz
-		1. Symbol for hertz
-	2225. i-type semiconductor
-		1. See intrinsic semiconductor
-	2226. I/O
-		1. See input/output
-	2227. [[integrated injection logic]]
-	2228. I2R loss
-		1. (copper loss) See dissipation; heating effect of a current
-	2229. IC
-		1. See integrated circuit
-	2230. ICA
-		1. See independent component analysis
-
-	2231. [[I channel]]
-	2232. [[ideal crystal]]
-	2233. ideal diode equation
-		1. (Shockley equation) See P-N junction
-	2234. [[ideal transducer]]
-	2235. ideal transformer
-		1. (perfect transformer) See transformer
-	2236. idle component
-		- (1) (of current) See reactive current
-		- (2) (of voltage) See reactive voltage
-		- (3) (of volt-amperes) See reactive volt-amperes
-	2237. IEC
-		1. (International Electrotechnical Commission) See standardization
-	2238. IEEE
-		1. (Institute of Electrical and Electronics Engineers) See standardization
-	2239. [[IEEE-488 standard]]
-	2240. IF
-		1. (intermediate frequency) See heterodyne reception; Mixer
-
-	2241. iff
-		1. (if and only if) See logic circuit
-	2242. IF strip
-		1. See heterodyne reception
-	2243. IGBT
-		1. See insulated-gate bipolar transistor
-	2244. IGFET
-		1. (insulated-gate field-effect transistor) See field-effect transistor
-	2245. [[IGMF filter]]
-	2246. IIR filter
-		1. (infinite impulse response filter) See digital filter
-	2247. IM
-		1. See intermodulation
-	2248. image
-		1. See digital image; electric image
-	2249. image-force lowering
-		1. See schottky effect
-	2250. image attenuation constant
-		1. (image attenuation coefficient) see image transfer constant
-
-	2251. image charge
-		1. See electric image
-	2252. [[image converter]]
-	2253. [[image dissector]]
-	2254. image filter
-		1. See heterodyne reception
-	2255. image force
-		1. See electric image
-	2256. [[image frequency]]
-	2257. [[image impedances]]
-	2258. image interference
-		1. See image frequency
-	2259. image phase constant
-		1. (image phase-change coefficient) See image transfer constant
-	2260. [[image potential]]
-
-	2261. [[image processing]]
-	2262. image ratio
-		1. See image frequency
-	2263. [[image recognition]]
-	2264. [[image rectification]]
-	2265. [[image registration]]
-	2266. [[image scanner]]
-	2267. [[image segmentation]]
-	2268. [[image stabilization]]
-	2269. [[image stitching]]
-	2270. [[image transfer constant]]
-
-	2271. image tube
-		1. See image converter
-	2272. [[imaginary number]]
-	2273. [[imaginary part of a complex number]]
-	2274. immersion plating
-		1. See electroless plating
-	2275. [[immersive digital environment]]
-	2276. immunity
-		1. See ELECTROMAGNETIC COMPATIBILITY.
-	2277. [[impact ionization]]
-	2278. [[IMPATT diode]]
-	2279. [[impedance]]
-	2280. impedance coupling
-		1. See coupling
-
-	2281. [[impedance matching]]
-	2282. impedance scaling
-		1. See denormalization
-	2283. [[impedor]]
-	2284. imperfect dielectric
-		1. See dielectric
-	2285. [[impulse generator]]
-	2286. [[impulse noise]]
-	2287. [[impulse response]]
-	2288. [[impulse voltage]]
-	2289. [[impurities]]
-	2290. IM rejection
-		1. See $IP_3$.
-
-	2291. IMU
-		1. See inertial measurement unit
-	2292. in-phase component
-		1. (1) (of a current or voltage) See active current; active voltage
-		2. (2) (of the volt-amperes) See active volt-amperes.
-	2293. inactive interval
-		1. See sawtooth waveform
-	2294. [[incandescence]]
-	2295. incident current
-		1. (initial current) See reflection coefficient
-	2296. [[increment]]
-	2297. incremental permeability
-		1. See permeability
-	2298. [[independent component analysis]]
-	2299. [[index error]]
-	2300. [[indicating instrument]]
-
-	2301. [[indirect-gap semiconductor]]
-	2302. indirectly heated cathode
-		1. See thermionic cathode
-	2303. indirect photoconductivity
-		1. (phonon-assisted photoconductivity) See photoconductivity
-	2304. [[indirect wave]]
-	2305. indium phosphide
-		1. See compound semiconductor
-	2306. [[indoor positioning system]]
-	2307. [[induce]]
-	2308. [[induced current]]
-	2309. induced dipole moment
-		1. See dipole
-	2310. induced electromotive force
-		1. See electromagnetic induction
-
-	2311. [[induced noise]]
-	2312. [[inductance]]
-	2313. induction
-		1. See ELECTROMAGNETIC INDUCTION; ELECTROSTATIC INDUCTION.
-	2314. [[induction coil]]
-	2315. [[induction compass]]
-	2316. [[induction flowmeter]]
-	2317. [[induction heating]]
-	2318. [[induction instrument]]
-	2319. [[induction microphone]]
-	2320. [[induction motor]]
-
-	2321. [[inductive]]
-	2322. [[inductive-output device]]
-	2323. inductive coupling
-		1. See coupling
-	2324. inductive feedback
-		1. See feedback
-	2325. [[inductive interference]]
-	2326. inductive load
-		1. See lagging load
-	2327. inductive reactance
-		1. See reactance
-	2328. inductive tuning
-		1. See tuned circuit
-	2329. [[inductor]]
-	2330. [[Industrial, Scientific and Medical]]
-
-	2331. [[inert cell]]
-	2332. [[inertial measurement unit]]
-	2333. [[inertia switch]]
-	2334. infinite impulse response filter
-		1. See digital filter
-	2335. information satellite
-		1. See satellite
-	2336. [[information technology]]
-	2337. [[information theory]]
-	2338. infrared image converter
-		1. See image converter
-	2339. [[infrared radiation]]
-	2340. inherent weakness failure
-		1. See failure
-
-	2341. [[inhibiting input]]
-	2342. [[inhomogeneous differential equation]]
-	2343. initial current
-		1. (incident current) See reflection coefficient
-	2344. [[injection]]
-	2345. [[injection efficiency]]
-	2346. [[inkjet printer]]
-	2347. [[input]]
-	2348. [[input-output]]
-	2349. [[input characteristic]]
-	2350. [[input impedance]]
-
-	2351. [[insertion loss]]
-	2352. [[instantaneous automatic gain control]]
-	2353. [[instantaneous carrying-current]]
-	2354. [[instantaneous frequency]]
-	2355. [[instantaneous power]]
-	2356. instantaneous sampling
-		1. See sampling
-	2357. [[instantaneous value]]
-	2358. Institute of Electrical and Electronics Engineers, Inc.
-		1. (IEEE) See standardization
-	2359. [[instruction fetch]]
-	2360. [[instruction register]]
-
-	2361. [[instruction set]]
-	2362. [[instrumentation amplifier]]
-	2363. [[instrument damping]]
-	2364. [[instrument rating]]
-	2365. [[instrument sensitivity]]
-	2366. instrument shunt
-		1. See shunt
-	2367. [[instrument transformer]]
-	2368. [[insulate]]
-	2369. [[insulated-gate bipolar transistor]]
-	2370. insulated-gate field-effect transistor
-		1. (IGFET) See field-effect transistor
-
-	2371. [[insulating barrier]]
-	2372. [[insulating resistance]]
-	2373. [[insulation]]
-	2374. [[insulator]]
-	2375. [[integer]]
-	2376. integer unit
-		1. (IU) See arithmetic logic unit
-	2377. [[integrated circuit]]
-	2378. integrated injection logic
-		1. See $I^2L$
-	2379. integrated Schottky logic
-		1. (ISL; Schottky $I^2L$) See $I^2L$
-	2380. integrating array
-		1. See solid-state camera
-
-	2381. [[integrating frequency meter]]
-	2382. integrating wattmeter
-		1. See watt-hour meter
-	2383. [[integrator]]
-	2384. intelligent antenna
-		1. See smart antenna
-	2385. intelligent terminal
-		1. See terminal
-	2386. [[intelligibility]]
-	2387. intelligible crosstalk
-		1. See crosstalk
-	2388. [[intensity]]
-	2389. [[intensity modulation]]
-	2390. [[interaction space]]
-
-	2391. [[interactive]]
-	2392. [[intercarrier system]]
-	2393. interconnecting feeder
-		1. See trunk feeder
-	2394. [[interconnection]]
-	2395. interconnector
-		1. See trunk feeder
-	2396. [[interdigital transducer]]
-	2397. interdigitated capacitor
-		1. See monolithic capacitor
-	2398. [[interelectrode capacitance]]
-	2399. [[interest point]]
-	2400. [[interface]]
-
-	2401. [[interference]]
-	2402. interference fading
-		1. See fading
-	2403. [[interferometry]]
-	2404. [[interior orientation parameters]]
-	2405. interlaced scanning
-		1. See television
-	2406. [[interleaving]]
-	2407. interline transfer device
-		1. See solid-state camera
-	2408. [[interlock]]
-	2409. intermediate frequency
-		1. (IF) See heterodyne reception; mixer.
-	2410. intermittent duty
-		1. See duty
-
-	2411. [[intermodulation]]
-	2412. intermodulation distortion
-		1. (combination-tone distortion) See distortion
-	2413. internal photoelectric effect
-		1. See photoconductivity
-	2414. [[internal resistance]]
-	2415. [[international ampere]]
-	2416. International Electrotechnical Commission
-		1. (IEC) See standardization
-	2417. International Standards Organization
-		1. (ISO) See standardization
-	2418. [[international system]]
-	2419. International Telecommunication Union
-		1. (ITU) See standardization
-	2420. [[Internet]]
-
-	2421. Internet Protocol
-		1. See IP
-	2422. [[Internet television]]
-	2423. [[interpolation]]
-	2424. interrogating signal
-		1. See transponder
-	2425. [[interrupt]]
-	2426. [[interrupter]]
-	2427. [[interstage coupling]]
-	2428. [[intersymbol interference]]
-	2429. [[intraconnection]]
-	2430. [[Intranet]]
-
-	2431. [[intrinsic conductivity]]
-	2432. intrinsic density
-		1. See carrier concentration
-	2433. [[intrinsic mobility]]
-	2434. intrinsic photoconductivity
-		1. See photoconductivity
-	2435. [[intrinsic semiconductor]]
-	2436. [[intrinsic temperature range]]
-	2437. [[inverse Chebyshev filter]]
-	2438. inverse feedback
-		1. (negative feedback) See feedback
-	2439. [[inverse filter]]
-	2440. [[inverse function]]
-
-	2441. [[inverse gain]]
-	2442. inverse limiter
-		1. (base limiter) See limiter
-	2443. [[inverse problem]]
-	2444. [[inverse trigonometric functions]]
-	2445. [[inversion]]
-	2446. [[inverter]]
-	2447. [[inverting amplifier]]
-	2448. [[inverting transistor]]
-	2449. [[ion]]
-	2450. [[ion-beam analysis]]
-
-	2451. [[ion-beam lithography]]
-	2452. [[ionic atmosphere]]
-	2453. [[ionic bond]]
-	2454. [[ionic conduction]]
-	2455. [[ionic crystal]]
-	2456. [[ionic semiconductor]]
-	2457. [[ion implantation]]
-	2458. [[ionization]]
-	2459. [[ionization chamber]]
-	2460. [[ionization current]]
-
-	2461. [[ionization gauge]]
-	2462. [[ionization potential]]
-	2463. [[ionizing event]]
-	2464. [[ionizing radiation]]
-	2465. ion microprobe
-		1. See secondary-ion mass spectroscopy
-	2466. ion milling
-		1. See etching
-	2467. [[ionosphere]]
-	2468. [[ionospheric focusing]]
-	2469. [[ionospheric wave]]
-	2470. [[ion source]]
-
-	2471. [[ion spot]]
-	2472. [[ion trap]]
-	2473. IOP
-		1. See interior orientation parameters
-	2474. [[internet protocol|IP]]
-	2475. [[IP-enabled device]]
-	2476. [[second-order intercept point]]
-	2477. [[third-order intercept point]]
-	2478. [[IP camera]]
-	2479. IP cores
-		1. See design automation
-	2480. [[IP phone]]
-
-	2481. iris
-		1. See waveguide
-	2482. [[iron]]
-	2483. iron loss
-		1. See core loss
-	2484. [[irradiation]]
-	2485. [[Integrated services digital network|ISDN]]
-	2486. ISM
-		1. See industrial, scientific and medical
-	2487. ISO
-		1. (International Standards Organization) See standardization
-	2488. [[isoelectronic]]
-	2489. [[isolating]]
-	2490. [[isolating transformer]]
-
-	2491. [[isolation diode]]
-	2492. [[isolator]]
-	2493. [[isotropic]]
-	2494. [[isotropic radiator]]
-	2495. IT
-		1. See information technology
-	2496. [[iterative impedance]]
-	2497. ITU
-		1. (International Telecommunication Union) See standardization
-	2498. [[j]]
-	2499. J-K
-		1. (JK) See Flip-Flop
-	2500. [[jack plug and socket]]
-
-	2501. [[jamming]]
-	2502. Jansky noise
-		1. (galactic noise) See radio noise.
-	2503. JEDEC
-		1. See joint electronic device engineering council.
-	2504. JFET
-		1. (junction field-effect transistor) See field-effect transistor
-	2505. JFIF
-		1. (JPEG file interchange format) See JPEG
-	2506. [[jitter]]
-	2507. [[Johnson-Lark-Harowitz effect]]
-	2508. Johnson noise
-		1. (thermal noise) See noise
-	2509. [[Joint Electronic Device Engineering Council]]
-	2510. [[Josephson effect]]
-
-	2511. [[Josephson memory]]
-	2512. [[joule]]
-	2513. Joule effect
-		1. See heating effect of a current
-	2514. Joule magnetostriction
-		1. (positive magnetostriction) See magnetostriction
-	2515. [[Joint Photographic Expert Group|JPEG]]
-	2516. [[jump]]
-	2517. [[jumper]]
-	2518. [[junction]]
-	2519. junction field-effect transistor
-		1. (JFET) See field-effect transistor
-	2520. K-map
-		1. See karnaugh map
-
-	2521. k-space
-		1. See momentum space
-	2522. [[Ka band]]
-	2523. Kaiser window
-		1. See windowing
-	2524. [[Karnaugh map]]
-	2525. [[K band]]
-	2526. keep-alive circuit
-		1. See transmit-receive switch.
-	2527. [[kelvin]]
-	2528. [[Kelvin-Varley slide]]
-	2529. [[Kelvin balance]]
-	2530. [[Kelvin contacts]]
-
-	2531. [[Kelvin double bridge]]
-	2532. Kelvin effect
-		1. (Thomson effect) See thermoelectric effects
-	2533. Kennelly-Heaviside layer
-		1. (E-layer) See ionosphere
-	2534. [[Kerr effects]]
-	2535. [[keyboard]]
-	2536. [[key frames]]
-	2537. keystone distortion
-		1. See distortion
-	2538. [[4K HD]]
-	2539. [[kilo-]]
-	2540. [[kilobit]]
-
-	2541. [[kilobyte]]
-	2542. [[kilogram]]
-	2543. [[kilowatt-hour]]
-	2544. [[Kirchhoff's laws]]
-	2545. [[klystron]]
-	2546. [[Koch resistance]]
-	2547. Kronig-Penney model
-		1. (energy band structure) See quantum mechanics
-	2548. [[Ku band]]
-	2549. [[L-C network]]
-	2550. L-section
-		1. See two-port network
-
-	2551. label
-		1. In digital communications, a synonym for header.
-	2552. labyrinth loudspeaker
-		1. See loudspeaker
-	2553. ladder network
-		1. See filter
-	2554. [[local area data transport|LADT]]
-	2555. [[lag]]
-	2556. [[lag filter]]
-	2557. [[lagging current]]
-	2558. [[lagging load]]
-	2559. [[Lagrange's equation]]
-	2560. laminated core
-		1. See core
-
-	2561. [[lamination]]
-	2562. LAN
-		1. See local area network
-	2563. language
-		1. See programming language
-	2564. [[Laplace operator]]
-	2565. [[Laplace transform]]
-	2566. [[lapping]]
-	2567. large-scale integration
-		1. (LSI) See integrated circuit
-	2568. [[large signal current gain]]
-	2569. laryngophone
-		1. (throat microphone) See microphone
-	2570. [[laser]]
-
-	2571. [[laser diode]]
-	2572. [[laser printer]]
-	2573. [[laser range finding]]
-	2574. [[laser scanning]]
-	2575. [[last mile]]
-	2576. [[latch]]
-	2577. latching
-		1. See locking
-	2578. [[latency]]
-	2579. lattice
-		1. See crystal lattice
-	2580. [[lattice constant]]
-
-	2581. lattice filter
-		1. See filter
-	2582. lattice network
-		1. See network
-	2583. Lauritzen's electroscope
-		1. See electroscope
-	2584. [[lawnmower]]
-	2585. [[layer]]
-	2586. [[L band]]
-	2587. LCC
-		1. See leadless chip carrier
-	2588. LCD
-		1. See liquid-crystal display
-	2589. LCOS
-		1. See liquid crystal on silicon
-	2590. LDM
-		1. (linear delta modulation) See pulse modulation
-
-	2591. [[lead-in]]
-	2592. [[lead]]
-	2593. [[lead filter]]
-	2594. [[leadframe]]
-	2595. [[leading current]]
-	2596. leading edge
-		1. (a pulse) See pulse
-	2597. [[leading load]]
-	2598. [[leadless chip carrier]]
-	2599. [[leakage]]
-	2600. 
-
-	2601. [[leakage current]]
-	2602. [[leakage flux]]
-	2603. [[leakage reactance]]
-	2604. [[least significant bit]]
-	2605. LEC
-		1. See liquid-encapsulated Czochralski
-	2606. [[Leclanche cell]]
-	2607. LED
-		1. See light-emitting diode.
-	2608. [[LED lighting]]
-	2609. Leduc effect
-		1. See righi-leduc effect
-	2610. LEED
-		1. (low-energy electron diffraction) See diffraction
-
-	2611. left-hand rule
-		1. See fleming's rules
-	2612. Lenz's law
-		1. See electromagnetic induction
-	2613. LEOS
-		1. See low earth orbit satellite
-	2614. [[letter box]]
-	2615. [[level compensator]]
-	2616. [[level shifter]]
-	2617. [[Leyden jar]]
-	2618. LF
-		1. (low frequency) See frequency band
-	2619. LFO
-		1. See low-frequency oscillator
-	2620. [[lidar]]
-
-	2621. [[life test]]
-	2622. [[lifetime]]
-	2623. [[lift-off]]
-	2624. [[lifter]]
-	2625. [[light-emitting diode]]
-	2626. [[lightning conductor]]
-	2627. [[lightning stroke]]
-	2628. [[light pen]]
-	2629. limb
-		1. See transformer
-	2630. limited space-charge accumulation mode
-		1. (LSA mode) See transferred electron device
-
-	2631. [[limited stability]]
-	2632. [[limiter]]
-	2633. limiting amplifier
-		1. See amplifier
-	2634. [[lin-log receiver]]
-	2635. [[line]]
-	2636. [[line-of-sight path]]
-	2637. [[line-scan camera]]
-	2638. [[linear]]
-	2639. linear-beam microwave tube
-		1. (O-type microwave tube) See microwave tube
-	2640. [[linear accelerator]]
-
-	2641. linear amplifier
-		1. See amplifier
-	2642. [[linear array antenna]]
-	2643. linear block codes
-		1. See digital codes
-	2644. [[linear circuit]]
-	2645. linear delta modulation
-		1. (LDM) See pulse modulation
-	2646. linear detector
-		1. See detector
-	2647. linear inverter
-		1. See inverter
-	2648. [[linearization]]
-	2649. [[linearly graded junction]]
-	2650. linearly polarized wave
-		1. (plane-polarized wave) See polarization
-
-	2651. linear motor
-		1. See MAGLEV
-	2652. linear network
-		1. See network
-	2653. linear phase response
-		1. See phase response
-	2654. [[linear prediction]]
-	2655. [[linear scan]]
-	2656. [[linear system]]
-	2657. [[linear time-invariant]]
-	2658. [[linear timebase oscillator]]
-	2659. linear transducer
-		1. See transducer
-	2660. [[line communication]]
-
-	2661. line impedance stabilization network
-		1. (LISN) See electromagnetic compatibility
-	2662. [[line of flux]]
-	2663. [[line of force]]
-	2664. [[line printer]]
-	2665. line voltage
-		1. See voltage between lines
-	2666. [[link]]
-	2667. [[link availability]]
-	2668. [[link budget analysis]]
-	2669. lip microphone
-		1. See microphone
-	2670. [[liquid-crystal display]]
-
-	2671. [[liquid-encapsulated Czochralski]]
-	2672. [[liquid-phase epitaxy]]
-	2673. [[liquid crystal]]
-	2674. [[liquid crystal on silicon]]
-	2675. LISN
-		1. (line impedance stabilization network) See electromagnetic compatibility
-	2676. [[Lissajous' figure]]
-	2677. [[literal]]
-	2678. [[lithium-ion battery]]
-	2679. [[lithography]]
-	2680. [[little endian]]
-
-	2681. [[Litzendraht wire]]
-	2682. [[live]]
-	2683. LMDS
-		1. See local multipoint distribution system
-	2684. L network
-		1. (inductance network) See network
-	2685. [[load]]
-	2686. [[load-circuit efficiency]]
-	2687. [[load characteristic]]
-	2688. [[load circuit]]
-	2689. load coil
-		1. See induction heating
-	2690. [[load curve]]
-
-	2691. [[load factor]]
-	2692. [[load impedance]]
-	2693. loading
-		1. See transmission line
-	2694. loading coils
-		1. See transmission line
-	2695. [[load leads]]
-	2696. [[load line]]
-	2697. [[load matching]]
-	2698. [[load regulator]]
-	2699. [[load transfer switch]]
-	2700. lobe
-		1. See antenna pattern
-
-	2701. [[lobe switching]]
-	2702. [[local area network]]
-	2703. local exchange
-		1. See telephony
-	2704. local feedback
-		1. (multiple-loop feedback) See feedback
-	2705. localizer beacon
-		1. See beacon
-	2706. [[local multipoint distribution system]]
-	2707. local oscillator
-		1. See heterodyne reception
-	2708. locator beacon
-		1. (homing beacon) See beacon
-	2709. [[lock-in detector]]
-	2710. [[locking]]
-
-	2711. [[locking-in]]
-	2712. [[locking-on]]
-	2713. locking relay
-		1. See relay
-	2714. [[lock range]]
-	2715. [[log-periodic antenna]]
-	2716. [[logarithmic amplifier]]
-	2717. logarithmic decrement
-		1. See damped
-	2718. [[logarithmic plot]]
-	2719. logarithmic potentiometer
-		1. See potentiometer
-	2720. [[logarithmic resistor]]
-
-	2721. [[logical address]]
-	2722. [[logical one]]
-	2723. [[logical operations]]
-	2724. [[logic analyzer]]
-	2725. [[logic circuit]]
-	2726. [[logic diagram]]
-	2727. [[logic element]]
-	2728. [[logic gate]]
-	2729. [[logic symbol]]
-	2730. [[long-line effect]]
-
-	2731. [[long-persistence screen]]
-	2732. [[long-tailed pair]]
-	2733. [[long-term evolution]]
-	2734. [[long wave]]
-	2735. loop
-		1. See feedback control loop
-	2736. [[loop antenna]]
-	2737. [[loopback address]]
-	2738. loop direction finding
-		1. (frame direction finding) See direction finding.
-	2739. loop error
-		1. See feedback control loop
-	2740. [[loop gain]]
-
-	2741. loop signals
-		1. See feedback control loop
-	2742. loose coupling
-		1. (undercoupling) See coupling 
-	2743. loosely coupled multiprocessor
-		1. See multiprocessor
-	2744. [[Lorentz force]]
-	2745. loss
-		1. See dissipation
-	2746. [[loss angle]]
-	2747. [[loss factor]]
-	2748. [[lossless compression]]
-	2749. [[lossless line]]
-	2750. [[lossy]]
-
-	2751. [[lossy compression]]
-	2752. [[lossy line]]
-	2753. [[loudness]]
-	2754. [[loudspeaker]]
-	2755. [[low-frequency compensation]]
-	2756. [[low-frequency oscillator]]
-	2757. low-level injection
-		1. See injection
-	2758. [[low-level modulation]]
-	2759. low-level programming language
-		1. See programming language
-	2760. low-loss line
-		1. See logic circuit
-
-	2761. low-pass filter
-		1. See filter
-	2762. low-velocity scanning
-		1. See scanning
-	2763. [[low earth orbit satellite]]
-	2764. lower sideband
-		1. See carrier wave
-	2765. low frequency
-		1. (LF) See frequency band
-	2766. low logic level
-		1. See logic circuit
-	2767. LP
-		1. See linear prediction
-	2768. LPC
-		1. (linear predictive coding) See linear prediction
-	2769. LPCVD
-		1. (low pressure chemical vapor deposition) See chemical vapor deposition
-	2770. [[low probability of intercept]]
-
-	2771. [[low probability of position fix|LPPF]]
-	2772. LSA mode
-		1. (limited space-charge accumulation mode) See transferred electron device.
-	2773. LSB
-		1. See least significant bit
-	2774. LSI
-		1. (large-scale integration) See integrated circuit
-	2775. LTE
-		1. See long-term evolution
-	2776. LTP
-		1. See long-tailed pair
-	2777. luminance flicker
-		1. See flicker
-	2778. [[luminescence]]
-	2779. [[lumped element]]
-	2780. [[lumped parameter]]
-
-	2781. M-ary FSK
-		1. See frequency modulation
-	2782. M-ary PSK
-		1. See phase modulation
-	2783. M-type microwave tube
-		1. (crossed-field microwave tube) See microwave tube
-	2784. [[machine code]]
-	2785. [[machine vision]]
-	2786. [[macrocell]]
-	2787. [[MAGLEV]]
-	2788. [[magnesium]]
-	2789. [[magnet]]
-	2790. magnetic-armature loudspeaker
-		1. See loudspeaker
-
-	2791. [[magnetically shielded room]]
-	2792. [[magnetic balance]]
-	2793. magnetic bias
-		1. See magnetic recording
-	2794. magnetic blow-out
-		1. See circuit-breaker
-	2795. [[magnetic circuit]]
-	2796. magnetic constant
-		1. (permeability of free space) See permeability
-	2797. [[magnetic contactor]]
-	2798. magnetic controller
-		1. See automatic control
-	2799. magnetic core
-		1. (ferrite core) See core
-	2800. [[magnetic damping]]
-
-	2801. magnetic deflection
-		1. See electromagnetic deflection
-	2802. magnetic dipole moment
-		1. See magnetic moment (both definitions)
-	2803. [[magnetic disk]]
-	2804. [[magnetic field]]
-	2805. [[magnetic field strength]]
-	2806. [[magnetic flux]]
-	2807. [[magnetic flux density]]
-	2808. magnetic focusing
-		1. (electromagnetic focusing) See focusing
-	2809. magnetic head
-		1. See magnetic recording
-	2810. [[magnetic hysteresis]]
-
-	2811. magnetic induction
-		1. See magnetic flux density
-	2812. magnetic intensity
-		1. A former term for magnetic field strength
-	2813. [[magnetic leakage]]
-	2814. magnetic lens
-		1. See electromagnetic lens
-	2815. magnetic loudspeaker
-		1. See loudspeaker
-	2816. [[magnetic memory]]
-	2817. magnetic microphone
-		1. See microphone
-	2818. magnetic modulation
-		1. See transductor
-	2819. [[magnetic moment]]
-	2820. [[magnetic monopole]]
-
-	2821. [[magnetic pole]]
-	2822. magnetic potential
-		1. A former term for magnetomotive force
-	2823. [[magnetic recording]]
-	2824. magnetic residual loss
-		1. See ferromagnetism
-	2825. magnetic resistance
-		1. See reluctance
-	2826. [[magnetic resonance imaging]]
-	2827. magnetic saturation
-		1. See ferromagnetism
-	2828. [[magnetic screening]]
-	2829. [[magnetic shunt]]
-	2830. [[magnetic storage]]
-
-	2831. [[magnetic stripe card]]
-	2832. magnetic susceptibility
-		1. See susceptibility
-	2833. [[magnetic tape]]
-	2834. magnetic transition temperature
-		1. (Curie point) See ferromagnetism
-	2835. [[magnetic tuning]]
-	2836. [[magnetism]]
-	2837. [[magnetization]]
-	2838. magnetization curve
-		1. See magnetic hysteresis; ferromagnetism
-	2839. [[magnetize]]
-	2840. magnetizing force
-		1. See magnetic field strength
-
-	2841. [[magneto]]
-	2842. magneto-optical effect
-		1. See kerr effects
-	2843. [[magnetoencephalography]]
-	2844. [[magnetometer]]
-	2845. [[magnetomotive force]]
-	2846. [[magnetoresistance]]
-	2847. magnetoresistive random access memory
-		1. See MRAM
-	2848. [[magnetostriction]]
-	2849. [[magnetron]]
-	2850. magnetron effect
-		1. See thermionic valve
-
-	2851. [[magnitude response]]
-	2852. MagRAM
-		1. See MRAM
-	2853. main lobe
-		1. (major lobe) See antenna pattern
-	2854. [[mains]]
-	2855. mains hum
-		1. See radio noise; noise.
-	2856. maintaining voltage
-		1. See gas-discharge tube
-	2857. [[majority carrier]]
-	2858. major lobe
-		1. See antenna pattern
-	2859. [[make]]
-	2860. [[make-after-break]]
-
-	2861. [[make-and-break]]
-	2862. [[make-before-break]]
-	2863. MAN
-		1. See metropolitan area network
-	2864. man-made noise
-		1. See noise
-	2865. [[Manchester code]]
-	2866. [[manganese]]
-	2867. [[manganin]]
-	2868. MAR
-		1. See memory address register
-	2869. [[Marconi antenna]]
-	2870. [[marginal stability]]
-
-	2871. [[mark]]
-	2872. [[mark-space ratio]]
-	2873. [[maser]]
-	2874. [[mask]]
-	2875. [[masking]]
-	2876. [[mask register]]
-	2877. [[Mason's rules]]
-	2878. master
-		1. See recording of sound
-	2879. master frequency meter
-		1. See integrating frequency meter
-	2880. [[master oscillator]]
-
-	2881. master trigger
-		1. See radar
-	2882. [[matched termination]]
-	2883. matched waveguide
-		1. See waveguide.
-	2884. matching
-		1. See impedance matching; load matching
-	2885. [[Mathiessen's rule]]
-	2886. [[MATLAB]]
-	2887. [[matrix]]
-	2888. [[maximally flat]]
-	2889. [[maximum likelihood sequence estimation]]
-	2890. [[maximum power theorem]]
-
-	2891. [[maxterm]]
-	2892. [[maxwell]]
-	2893. [[Maxwell's equations]]
-	2894. [[Maxwell's rule]]
-	2895. [[Maxwell bridge]]
-	2896. MBE
-		1. See molecular beam epitaxy
-	2897. MBR
-		1. See memory buffer register
-	2898. [[multichannel per carrier|MCPC]]
-	2899. Mealy circuit
-		1. See finite-state machine
-	2900. [[mean]]
-
-	2901. mean current density
-		1. See current density
-	2902. [[mean life]]
-	2903. [[mean opinion score]]
-	2904. [[mean time between failures]]
-	2905. [[mean time to failure]]
-	2906. measurand
-		1. See transducer
-	2907. [[mechatronics]]
-	2908. [[median]]
-	2909. [[median filter]]
-	2910. medium-scale integration
-		1. (MSI) See integrated circuit
-
-	2911. medium frequency
-		1. (MF) See frequency band
-	2912. [[medium wave]]
-	2913. MEG
-		1. See MAGNETOENCEPHALOGRAPHY.
-	2914. [[mega-]]
-	2915. [[megabit]]
-	2916. [[megabyte]]
-	2917. [[megaflops]]
-	2918. [[megaphone]]
-	2919. Megger
-		1. Trademark A portable insulation tester calibrated directly in megohms
-	2920. Meissner effects
-		1. See superconductivity
-
-	2921. mekometer
-		1. See kerr effects
-	2922. [[mel]]
-	2923. mel frequency cepstral coefficients
-		1. See MFCC
-	2924. [[memory]]
-	2925. [[memory access time]]
-	2926. [[memory address register]]
-	2927. [[memory bandwidth]]
-	2928. [[memory buffer register]]
-	2929. memory capacity
-		1. (storage capacity) See memory
-	2930. [[memory card]]
-
-	2931. [[memory stick]]
-	2932. [[memory wear]]
-	2933. MEMS
-		1. See microelectromechanical sensors.
-	2934. [[Mentor Graphics]]
-	2935. [[mercury-vapor lamp]]
-	2936. merged CMOS/bipolar
-		1. See BiCMOS
-	2937. [[mesa]]
-	2938. [[mesa transistor]]
-	2939. [[MESFET]]
-	2940. mesh
-		1. See network
-
-	2941. mesh analysis
-		1. See circuit mesh analysis
-	2942. mesh contour
-		1. See network
-	2943. mesh current
-		1. See network
-	2944. mesh loop
-		1. See circuit mesh analysis
-	2945. mesh voltage
-		1. (hexagon voltage) See voltage between lines
-	2946. [[metal]]
-	2947. metal-ceramic
-		1. See cermet
-	2948. metal-oxide-semiconductor
-		1. See MOS
-	2949. [[metal-semiconductor contact]]
-	2950. metal-semiconductor diode
-		1. See Schottky diode.
-
-	2951. [[metal film resistor]]
-	2952. metallization
-		1. See metallizing
-	2953. [[metallized film capacitors]]
-	2954. [[metallized paper capacitors]]
-	2955. [[metallizing]]
-	2956. [[metamaterial]]
-	2957. [[metatronics]]
-	2958. [[meter]]
-	2959. [[meter resistance]]
-	2960. [[method of images]]
-
-	2961. [[method of moments]]
-	2962. [[meter]]
-	2963. [[meter bridge]]
-	2964. [[metropolitan area network]]
-	2965. MF
-		1. (medium frequency) See frequency band
-	2966. [[MFCC]]
-	2967. MFLOPS
-		1. See megaflops
-	2968. [[mho]]
-	2969. [[mica]]
-	2970. [[mica capacitor]]
-
-	2971. [[micro-]]
-	2972. [[microcell]]
-	2973. [[microcircuit]]
-	2974. microcode
-		1. See microprogram
-	2975. microcomputer
-		1. See computer
-	2976. [[microelectromechanical sensors]]
-	2977. [[microelectronics]]
-	2978. micromanipulator probe
-		1. See probe
-	2979. [[micron]]
-	2980. [[microphone]]
-
-	2981. microphony
-		1. See noise
-	2982. [[microprocessor]]
-	2983. [[microprogram]]
-	2984. [[microstrip line]]
-	2985. [[microwave]]
-	2986. [[microwave generator]]
-	2987. [[microwave integrated circuit]]
-	2988. [[microwave landing system]]
-	2989. [[microwave tube]]
-	2990. [[MIDI]]
-
-	2991. [[Miller effect]]
-	2992. [[Miller indices]]
-	2993. [[Miller integrator]]
-	2994. Miller sweep generator
-		1. See timebase
-	2995. [[milli-]]
-	2996. [[millimeter-wave technology]]
-	2997. [[millimeter waves]]
-	2998. [[MIM capacitor]]
-	2999. MIMO
-		1. See multiple in, multiple out.
-	3000. [[minimum discernible signal]]
-
-	3001. [[minimum mean square error]]
-	3002. [[minimum phase]]
-	3003. minimum sampling frequency
-		1. See sampling; pulse modulation
-	3004. minimum shift keying
-		1. (MSK) see amplitude modulation 
-	3005. [[minority carrier]]
-	3006. [[minterm]]
-	3007. mirror galvanometer
-		1. See galvanometer
-	3008. [[mismatch]]
-	3009. misuse failure
-		1. See failure
-	3010. mixed coupling
-		1. See coupling
-
-	3011. [[mixer]]
-	3012. [[mixer noise balance]]
-	3013. [[MKS system]]
-	3014. MLS
-		1. See microwave landing system
-	3015. MLSE
-		1. See maximum likelihood sequence estimation
-	3016. MMIC
-		1. See monolithic microwave integrated circuit
-	3017. MMSE
-		1. See minimum mean square error. 
-	3018. [[Mobile IP]]
-	3019. mobile multimedia system
-		1. See cellular communications
-	3020. mobile network
-		1. (cellular network) See cellular communications.
-
-	3021. mobile phone
-		1. See cellular communications
-	3022. mobility
-		1. See drift mobility; Hall mobility.
-	3023. [[mode]]
-	3024. [[model]]
-	3025. [[modeling]]
-	3026. [[model parameter]]
-	3027. [[modem]]
-	3028. [[modern control]]
-	3029. MODFET
-		1. (modulation-doped field-effect transistor) See high electron mobility transistor.
-	3030. [[modulation]]
-
-	3031. modulation index
-		1. (modulation factor) See amplitude modulation; frequency modulation.
-	3032. [[modulation wheel]]
-	3033. [[modulator]]
-	3034. [[modulator electrode]]
-	3035. [[modulus of a complex number]]
-	3036. [[molecular-beam epitaxy]]
-	3037. [[molecular robot]]
-	3038. moment method
-		1. See method of moments
-	3039. [[momentum space]]
-	3040. [[monitor]]
-
-	3041. [[monochromatic radiation]]
-	3042. [[monochrome]]
-	3043. [[monocrystalline silicon]]
-	3044. [[monolithic capacitor]]
-	3045. monolithic integrated circuit
-		1. See integrated circuit 
-	3046. [[monolithic microwave integrated circuit]]
-	3047. [[monophonic]]
-	3048. [[monopole antenna]]
-	3049. [[monoscope]]
-	3050. [[monostable]]
-
-	3051. [[Moog synthesizer]]
-	3052. [[Moore's law]]
-	3053. Moore circuit
-		1. See finite-state machine
-	3054. [[Morse code]]
-	3055. MOS
-		- (1) (metal-oxide-semiconductor) See MOS CAPACITOR; MOSFET; MOS INTEGRATED CIRCUIT; MOS LOGIC CIRCUIT. 
-		- (2) See MEAN OPINION SCORE.
-	3056. [[mosaic crystal]]
-	3057. [[mosaic electrode]]
-	3058. [[MOS capacitor]]
-	3059. [[MOSFET]]
-	3060. [[MOS integrated circuit]]
-
-	3061. [[MOS logic circuit]]
-	3062. [[MOSRAM]]
-	3063. MOST
-		1. (MOS transistor) See MOSFET
-	3064. MOS transistor
-		1. See MOSFET
-	3065. [[most significant bit]]
-	3066. [[motherboard]]
-	3067. [[motional impedance]]
-	3068. [[motion capture]]
-	3069. [[motion detector]]
-	3070. [[motor]]
-
-	3071. [[motorboating]]
-	3072. mount
-		1. See waveguide
-	3073. mountain effect
-		1. See direction finding
-	3074. [[mouse]]
-	3075. [[moving-coil instrument]]
-	3076. moving-coil microphone
-		1. See microphone
-	3077. [[moving-iron instrument]]
-	3078. moving-iron microphone
-		1. See microphone
-	3079. [[moving-magnet instrument]]
-	3080. [[moving magnetic surface memory]]
-
-	3081. Moving Picture Experts Group
-		1. See MPEG
-	3082. [[MP3]]
-	3083. [[Moving Picture Experts Group|MPEG]]
-	3084. MPEG-TS
-		1. See transport stream
-	3085. MPLPC
-		1. (multipulse linear predictive coding) See linear prediction
-	3086. [[MRAM]]
-	3087. MRI
-		1. See magnetic resonance imaging
-	3088. MSB
-		1. See most significant bit
-	3089. MSK
-		1. (minimum shift keying) See amplitude modulation
-	3090. MSR
-		1. See magnetically shielded room
-
-	3091. MTBF
-		1. See mean time between failures
-	3092. MTTF
-		1. See mean time to failure
-	3093. mu circuit
-		1. See feedback
-	3094. [[multi-touch interface]]
-	3095. [[multicast]]
-	3096. multicavity microwave tube
-		1. See klystron; magnetron
-	3097. [[multichannel analyzer]]
-	3098. [[multielectrode valve]]
-	3099. [[multilayer PCB]]
-	3100. [[multilevel metallization]]
-
-	3101. [[multilevel resist]]
-	3102. multilevel signalling
-		1. See signal
-	3103. multimedia
-		1. See CD-ROM
-	3104. [[multimeter]]
-	3105. [[multimode fiber]]
-	3106. [[multipath]]
-	3107. multiple-loop feedback
-		1. (local feedback) See feedback
-	3108. multiple access
-		- (1) See digital communications
-		- (2) See communications satellite
-	3109. multiple folded dipole
-		1. See dipole
-	3110. [[multiple in, multiple out]]
-
-	3111. multiple modulation
-		1. See modulation
-	3112. multiplexer
-		1. (MUX) See multiplex operation
-	3113. [[multiplex operation]]
-	3114. [[multiplier]]
-	3115. [[multiprocessor]]
-	3116. multipulse linear predictive coding
-		1. (MPLPC) See linear prediction
-	3117. [[multispectral image]]
-	3118. [[multistable]]
-	3119. multistage amplifier
-		1. See amplifier
-	3120. multistage feedback
-		1. (single-loop feedback) See feedback
-
-	3121. [[multitasking]]
-	3122. [[multivariable function]]
-	3123. [[multivibrator]]
-	3124. musa
-		1. Acronym for multiple unit steerable antenna. See steerable antenna.
-	3125. mush area
-		1. See service area
-	3126. mushroom gate
-		1. See T-gate
-	3127. musical instrument digital interface
-		1. See MIDI
-	3128. muting
-		1. See automatic gain control
-	3129. [[muting switch]]
-	3130. mutual-inductance coupling
-		1. See coupling
-
-	3131. mutual branch
-		1. (common branch) See network
-	3132. [[mutual capacitance]]
-	3133. mutual inductance
-		1. See inductance; electromagnetic induction
-	3134. [[Mylar]]
-	3135. [[n-channel]]
-	3136. n-p-n transistor
-		1. (NPN transistor) See bipolar junction transistor
-	3137. n-p junction
-		1. A p-n junction
-	3138. [[n-type conductivity]]
-	3139. [[n-type semiconductor]]
-	3140. NAK signal
-		1. (negative acknowledgement signal) See digital communications
-
-	3141. NAND circuit
-		1. (gate) See logic circuit
-	3142. [[NAND flash device]]
-	3143. [[nano-]]
-	3144. [[nanoceramic]]
-	3145. [[nanocircuitry]]
-	3146. [[nanodevice]]
-	3147. [[nanoelectromechanical systems]]
-	3148. [[nanoelectronics]]
-	3149. [[nanofabrication]]
-	3150. [[nanoimprint lithography]]
-
-	3151. [[nanomagnetism]]
-	3152. [[nanorod]]
-	3153. [[nanostructure]]
-	3154. [[nanotechnology]]
-	3155. [[nanowire]]
-	3156. [[narrowband]]
-	3157. narrowband FM
-		1. See frequency modulation
-	3158. narrowband FSK
-		1. See frequency modulation
-	3159. National Institute of Standards and Technology
-		1. (NIST) See standardization
-	3160. [[natural frequency]]
-
-	3161. NDR
-		1. (negative differential resistance) See negative resistance
-	3162. NDR effect
-		1. See Gunn effect
-	3163. NDT
-		1. See non-destructive testing
-	3164. near-end crosstalk
-		1. See crosstalk
-	3165. [[near-field communication]]
-	3166. near-field region
-		1. See far-field region
-	3167. Néel temperature
-		1. See ANTIFERROMAGNETISM; FERRIMAGNETISM.
-	3168. negative-resistance oscillator
-		1. See oscillator
-	3169. [[negative bias]]
-	3170. negative booster
-		1. See booster
-
-	3171. negative charge
-		1. See charge
-	3172. negative feedback
-		1. (inverse feedback; degeneration) See feedback
-	3173. negative ion
-		1. See ion
-	3174. negative logic
-		1. See logic circuit
-	3175. negative phase sequence
-		1. See phase sequence
-	3176. negative photoresist
-		1. See photoresist
-	3177. [[negative resistance]]
-	3178. negative sequence
-		1. See phase sequence
-	3179. negative transmission
-		1. See television
-	3180. NEMS
-		1. See NANOELECTROMECHANICAL SYSTEMS.
-
-	3181. [[neon]]
-	3182. [[neon lamp]]
-	3183. [[neper]]
-	3184. [[Nernst effect]]
-	3185. [[nesting]]
-	3186. [[netlist]]
-	3187. [[net loss]]
-	3188. [[network]]
-	3189. [[network access]]
-	3190. [[network analyzer]]
-
-	3191. [[network analysis]]
-	3192. network constants
-		1. (network parameters) See network
-	3193. [[network synthesis]]
-	3194. [[network traffic measurement]]
-	3195. [[neural network]]
-	3196. [[neuroelectricity]]
-	3197. [[neurogaming]]
-	3198. [[neuroimaging]]
-	3199. [[neutral]]
-	3200. [[neutralization]]
-
-	3201. neutral temperature
-		1. See thermocouple
-	3202. [[newton]]
-	3203. NFC
-		1. See near-field communication
-	3204. [[nibble]]
-	3205. [[near instantaneously compounded audio multiplex|NICAM]]
-	3206. [[Nichrome]]
-	3207. [[nickel]]
-	3208. [[nickel-cadmium cell]]
-	3209. [[nickel-iron cell]]
-	3210. [[night vision system]]
-
-	3211. NIL
-		1. See nanoimprint lithography
-	3212. NIST
-		1. (National Institute of Standards and Technology) See standardization
-	3213. NMOS
-		1. See MOSFET
-	3214. [[no-load]]
-	3215. [[noctovision]]
-	3216. [[nodal analysis]]
-	3217. [[node]]
-	3218. node voltage
-		1. See network
-	3219. [[noise]]
-	3220. [[noise factor]]
-
-	3221. [[noise figure]]
-	3222. [[noise margin]]
-	3223. [[noise temperature]]
-	3224. [[non-contact sensing]]
-	3225. [[non-destructive testing]]
-	3226. noncoherent detection
-		1. (noncoherent demodulation) See modulation
-	3227. nondestructive read operation
-		1. See read
-	3228. [[noninverting amplifier]]
-	3229. nonlinear amplifier
-		1. See amplifier
-	3230. [[nonlinear circuit]]
-
-	3231. [[nonlinear component]]
-	3232. nonlinear distortion
-		1. See distortion
-	3233. nonlinear network
-		1. See network
-	3234. [[nonlinear system]]
-	3235. nonperiodic signal
-		1. See aperiodic signal
-	3236. [[nonreactive]]
-	3237. [[nonreactive load]]
-	3238. nonrecursive filters
-		1. See digital filter
-	3239. nonresonant line
-		1. See transmission line
-	3240. [[nonreturn to zero]]
-
-	3241. nonsaturated mode
-		1. See saturated mode
-	3242. [[nonthreshold logic]]
-	3243. [[nonvolatile memory]]
-	3244. NOR circuit
-		1. (gate) See logic circuit
-	3245. normal distribution
-		1. See gaussian distribution
-	3246. [[normalized filter]]
-	3247. [[normal mode]]
-	3248. [[normal vector]]
-	3249. Norton's theorem
-		1. See Thévenin's theorem.
-	3250. [[notch filter]]
-
-	3251. NOT circuit
-		1. (gate; inverter) See logic circuit
-	3252. note frequency
-		1. (beat frequency) See beats
-	3253. NRZ
-		1. See nonreturn to zero
-	3254. NRZ codes
-		1. (nonreturn to zero codes) See digital codes; nonreturn to zero
-	3255. NRZ PCM
-		1. (NRZ pulse code modulation) See pulse modulation
-	3256. NTL
-		1. See nonthreshold logic
-	3257. [[National Television System Committee]]
-	3258. [[nucleus]]
-	3259. [[null]]
-	3260. [[null-point detector]]
-
-	3261. [[null method]]
-	3262. [[number density]]
-	3263. [[number of poles]]
-	3264. [[numerical control]]
-	3265. [[Nyquist noise theorem]]
-	3266. [[Nyquist plot]]
-	3267. Nyquist point
-		1. See gain margin
-	3268. [[Nyquist rate]]
-	3269. O-network
-		1. See two-port network
-	3270. O-type microwave tube
-		1. (linear-beam microwave tube) See microwave tube
-
-	3271. [[object code]]
-	3272. [[object recognition]]
-	3273. observed failure rate
-		1. See failure rate
-	3274. observed mean life
-		1. See mean life
-	3275. OCR
-		1. See optical character reader
-	3276. [[octal]]
-	3277. [[octave]]
-	3278. [[oersted]]
-	3279. OFC
-		1. See oxygen-free copper
-	3280. OFDM
-		1. See orthogonal frequency division modulation
-
-	3281. [[offline]]
-	3282. offset QPSK
-		1. (OQPSK) see amplitude modulation.
-	3283. [[ohm]]
-	3284. [[Ohm's law]]
-	3285. ohmic
-		1. See ohm's law
-	3286. [[ohmic contact]]
-	3287. [[ohmic loss]]
-	3288. [[ohmmeter]]
-	3289. [[ohm meter]]
-	3290. ohms per square
-		1. See sheet resistance
-
-	3291. OLED
-		1. See organic light-emitting diode
-	3292. [[omnidirectional antenna]]
-	3293. [[omnidirectional microphone]]
-	3294. OMVPE
-		1. (organo-metallic vapor phase epitaxy) See CHEMICAL VAPOR DEPOSITION.
-	3295. on-off keying
-		1. (OOK) See amplitude modulation
-	3296. [[one's-complement notation]]
-	3297. [[one-port]]
-	3298. one-shot multivibrator
-		1. (single-shot multivibrator) See monostable
-	3299. one-sided abrupt junction
-		1. See abrupt junction
-	3300. [[online]]
-
-	3301. OOK
-		1. (on-off keying) See amplitude modulation
-	3302. op-amp
-		1. See operational amplifier
-	3303. op-code
-		1. See operation code
-	3304. [[open-area test site]]
-	3305. open-circuit impedance
-		1. See network
-	3306. [[open-circuit voltage]]
-	3307. [[open-ended]]
-	3308. open-field test site
-		1. See open-area test site.
-	3309. [[open-loop gain]]
-	3310. open circuit
-		1. See circuit
-
-	3311. open systems interconnection
-		1. See OSI
-	3312. [[operand]]
-	3313. [[operating point]]
-	3314. [[operating system]]
-	3315. [[operational amplifier]]
-	3316. [[operational range]]
-	3317. operational transconductance amplifier
-		1. (OTA) See dependent sources
-	3318. [[operation code]]
-	3319. [[optical ammeter]]
-	3320. [[optical character reader]]
-
-	3321. [[optical disk]]
-	3322. [[optical electronics]]
-	3323. [[optical fiber]]
-	3324. optical stepper
-		1. See PHOTOLITHOGRAPHY.
-	3325. [[optical storage]]
-	3326. [[optical switch]]
-	3327. [[optoelectronics]]
-	3328. OQPSK
-		1. (offset quadrature phase shift keying) see modulation
-	3329. OR circuit
-		1. (gate) See logic circuit
-	3330. [[order]]
-
-	3331. [[organic light-emitting diode]]
-	3332. [[orthogonal]]
-	3333. orthogonal codes
-		1. See digital codes
-	3334. [[orthogonal frequency division modulation]]
-	3335. [[orthophoto]]
-	3336. [[oscillating current]]
-	3337. [[oscillation]]
-	3338. [[oscillator]]
-	3339. oscillatory circuit
-		1. See oscillation
-	3340. [[oscilloscope]]
-
-	3341. [[open systems interconnection|OSI]]
-	3342. OTA
-		1. (operational transconductance amplifier) See dependent sources.
-	3343. OTDR
-		1. (optical time delay reflectometer) See REFLECTOMETER.
-	3344. out of phase
-		1. See phase
-	3345. [[output]]
-	3346. [[output gap]]
-	3347. [[output impedance]]
-	3348. [[output transformer]]
-	3349. [[overall efficiency]]
-	3350. overbunching
-		1. See velocity modulation
-
-	3351. overcoupling
-		1. See coupling
-	3352. [[overcurrent release]]
-	3353. overdamping
-		1. (periodic damping) See damped
-	3354. [[overdriven amplifier]]
-	3355. [[overflow]]
-	3356. [[overlay network]]
-	3357. [[overload]]
-	3358. overload level
-		1. See dynamic range; overload.
-	3359. [[overload management]]
-	3360. overload release
-		1. See overcurrent release.
-
-	3361. overmodulation
-		1. See scanning
-	3362. overscanning
-		1. See scanning
-	3363. overshoot
-		1. See pulse
-	3364. [[overtone]]
-	3365. [[overvoltage]]
-	3366. [[overvoltage release]]
-	3367. [[Owen bridge]]
-	3368. [[oxidation]]
-	3369. [[oxide]]
-	3370. [[oxide masking]]
-
-	3371. [[oxygen-free copper]]
-	3372. [[p-channel]]
-	3373. p-n-p transistor
-		1. (p-n-p-n device) See thyristor
-	3374. [[p-n junction]]
-	3375. [[p-type conductivity]]
-	3376. [[p-type semiconductor]]
-	3377. p.d.
-		1. See potential difference
-	3378. P/E cycle
-		1. See program-erase cycle
-	3379. PABX
-		1. (private automatic branch exchange) See telephony
-	3380. [[package]]
-
-	3381. [[packet]]
-	3382. [[packet switching]]
-	3383. [[packing density]]
-	3384. pad
-		1. (1) See attenuator
-		2. (2) See bonding pad
-	3385. [[PAD]]
-	3386. [[pair]]
-	3387. [[paired cable]]
-	3388. [[pairing]]
-	3389. [[PAL]]
-	3390. PAM
-		1. (pulse-amplitude modulation) See pulse modulation
-
-	3391. [[panoramic display]]
-	3392. panoramic radar indicator
-		1. See radar indicator
-	3393. [[Panoramic receiver]]
-	3394. [[paper capacitor]]
-	3395. PAR
-		1. See precision approach radar
-	3396. [[parabolic reflector]]
-	3397. [[parallel]]
-	3398. [[parallel-plate capacitor]]
-	3399. parallel-T network
-		1. (twin-T network) See two-port network
-	3400. [[parallel circuit]]
-
-	3401. parallel network
-		1. (shunt network) See network
-	3402. [[parallel processing]]
-	3403. parallel resistance
-		1. See resonant frequency
-	3404. parallel resonant circuit
-		1. (rejector) See resonant circuit; resonant frequency.
-	3405. parallel supply
-		1. See series supply
-	3406. [[parallel system]]
-	3407. [[parallel transmission]]
-	3408. [[paramagnetism]]
-	3409. [[parameter]]
-	3410. [[parametric amplifier]]
-
-	3411. [[parametric model]]
-	3412. [[paraphase amplifier]]
-	3413. parasitic antenna
-		1. (passive antenna) See directional antenna.
-	3414. [[parasitic capacitance]]
-	3415. [[parasitic inductance]]
-	3416. [[parasitic oscillations]]
-	3417. parasitic radiator
-		1. (passive antenna) See directional antenna.
-	3418. [[parity]]
-	3419. [[parity check]]
-	3420. [[Parseval's theorem]]
-
-	3421. [[partial fractions expansion]]
-	3422. partial node
-		1. See node
-	3423. [[particular integral]]
-	3424. [[partition]]
-	3425. [[partition noise]]
-	3426. [[pascal]]
-	3427. [[Paschen's law]]
-	3428. pass band
-		1. See filter
-	3429. [[passivation]]
-	3430. [[passive]]
-
-	3431. passive antenna
-		1. (secondary radiator; parasitic antenna; parasitic radiator) See DIRECTIONAL ANTENNA.
-	3432. passive filter
-		1. See filter
-	3433. passive network
-		1. See network
-	3434. [[passive sensor]]
-	3435. [[passive substrate]]
-	3436. passive transducer
-		1. See transducer
-	3437. [[patch]]
-	3438. [[patchbay]]
-	3439. path loss
-		1. See FRIIS TRANSMISSION EQUATION.
-	3440. [[patterned media recording]]
-
-	3441. [[Pauli exclusion principle]]
-	3442. Pauli paramagnetism
-		1. See PARAMAGNETISM.
-	3443. PBT
-		1. (permeable base transistor) See VERTICAL FET.
-	3444. PBX
-		1. (private branch exchange) See TELEPHONY.
-	3445. PC
-		1. (1) See personal computer
-		2. (2) See program counter
-	3446. [[printed circuit board|PCB]]
-	3447. [[PCI Express]]
-	3448. PCM
-		1. (1) (pulse code modulation) See pulse modulation
-		2. (2) (portable conformable mask) See multilevel resist
-	3449. [[personal computer memory card international association|PCMCIA]]
-	3450. PDA
-		1. (1) See personal digital assistant
-		2. (2) (pitch determination algorithm) see fundamental frequency estimation
-
-	3451. PDM
-		1. (pulse-duration modulation) See pulse modulation
-	3452. [[peak-riding clipper]]
-	3453. peak-to-peak amplitude
-		1. See amplitude 
-	3454. [[peak factor]]
-	3455. [[peak forward voltage]]
-	3456. [[peak inverse voltage]]
-	3457. peak limiter
-		1. (clipper) See limiter
-	3458. peak load
-		1. See load
-	3459. [[peak picker]]
-	3460. peak point
-		1. See tunnel diode
-
-	3461. peak pulse amplitude
-		1. See peak value
-	3462. [[peak value]]
-	3463. PECVD
-		1. (plasma-enhanced chemical vapor deposition) See CHEMICAL VAPOR DEPOSITION.
-	3464. [[pedestal]]
-	3465. Peltier effect
-		1. See THERMOELECTRIC EFFECTS.
-	3466. [[pentode]]
-	3467. PEP
-		1. (peak envelope power) A measure of the power rating of single-sideband transmitters. It is calculated by multiplying the maximum (peak) envelope voltage by 0.707, squaring the result, and dividing by the load resistance.
-	3468. [[percentage error]]
-	3469. percentage modulation
-		1. See amplitude modulation
-	3470. percentile life
-		1. See mean life
-
-	3471. perfect dielectric
-		1. See dielectric
-	3472. perfect transformer
-		1. (ideal transformer) see transformer
-	3473. [[period]]
-	3474. [[periodic]]
-	3475. periodic damping
-		1. (overdamping) See damped.
-	3476. periodic duty
-		1. See duty
-	3477. [[periodic signal]]
-	3478. [[periodic table]]
-	3479. [[periodic waveform]]
-	3480. [[peripheral devices]]
-
-	3481. [[periphonic surround sound]]
-	3482. [[permanent magnet]]
-	3483. [[permeability]]
-	3484. permeability tuning
-		1. (slug tuning) See tuned circuit
-	3485. permeable base transistor
-		1. (PBT) See vertical FET
-	3486. [[permeameter]]
-	3487. [[permeance]]
-	3488. [[permittivity]]
-	3489. [[persistence]]
-	3490. [[persistor]]
-
-	3491. [[personal area network]]
-	3492. personal communications device
-		1. See cellular communications
-	3493. [[personal computer]]
-	3494. Personal Computer Memory Card International Association
-		1. See PCMCIA
-	3495. [[personal digital assistant]]
-	3496. [[perveance]]
-	3497. PET
-		1. (positron emission tomography) See NEUROIMAGING.
-	3498. PFM
-		1. (pulse-frequency modulation) See PULSE MODULATION.
-	3499. PGA
-		1. See pin grid array
-	3500. [[phase]]
-
-	3501. phase-change coefficient
-		1. (phase constant; wavelength constant) See propagation coefficient
-	3502. phase-detect autofocus system
-		1. See autofocus
-	3503. [[phase-lock loop]]
-	3504. phase-shift oscillator
-		1. See oscillator
-	3505. [[phase angle]]
-	3506. [[phase center]]
-	3507. phase constant
-		1. (phase-change coefficient) See propagation coefficient
-	3508. [[phase corrector]]
-	3509. [[phase delay]]
-	3510. [[phase detector]]
-
-	3511. phase deviation
-		1. See phase modulation
-	3512. [[phase difference]]
-	3513. [[phase discriminator]]
-	3514. phase distortion
-		1. See distortion
-	3515. phased linear array
-		1. See linear array antenna
-	3516. [[phase inverter]]
-	3517. phase lag
-		1. See LAG
-	3518. [[phase modulation]]
-	3519. phase of a complex number
-		1. See argument of a complex number
-	3520. [[phase response]]
-
-	3521. [[phase sequence]]
-	3522. [[phase shift]]
-	3523. phase shift keying
-		1. (PSK) See phase modulation
-	3524. [[phase splitter]]
-	3525. [[phase velocity]]
-	3526. [[phase voltage]]
-	3527. [[phasing]]
-	3528. [[phasor]]
-	3529. [[phonon]]
-	3530. phosphor
-		1. A luminescent material. See luminescence.
-
-	3531. [[phosphor-bronze]]
-	3532. phosphorescence
-		1. See luminescence
-	3533. [[photocathode]]
-	3534. [[photocell]]
-	3535. [[photoconductivity]]
-	3536. [[photoconverter]]
-	3537. [[photocurrent]]
-	3538. [[photodetachment]]
-	3539. [[photodetector]]
-	3540. [[photodiode]]
-
-	3541. photoelectric cell
-		1. See photocell
-	3542. [[photoelectric constant]]
-	3543. [[photoelectric effect]]
-	3544. photoelectric galvanometer
-		1. See galvanometer
-	3545. [[photoelectric sensor]]
-	3546. [[photoelectron spectroscopy]]
-	3547. [[photoemission]]
-	3548. [[photogeneration]]
-	3549. photoglow tube
-		1. See phototube
-	3550. [[photoionization]]
-
-	3551. [[photolithography]]
-	3552. [[photometer]]
-	3553. [[photomultiplier]]
-	3554. [[photon]]
-	3555. [[photoresist]]
-	3556. photosensitive recording
-		1. See recording of sound
-	3557. [[photosensitivity]]
-	3558. [[phototransistor]]
-	3559. [[phototube]]
-	3560. [[photovoltaic cell]]
-
-	3561. [[photovoltaic effect]]
-	3562. [[photovoltaic system]]
-	3563. pi circuit
-		1. ($\pi$ circuit) See delta circuit
-	3564. [[pick-up]]
-	3565. picket-fence effect
-		1. See discrete fourier transform
-	3566. [[PIC microcontroller]]
-	3567. [[pico-]]
-	3568. [[picocell]]
-	3569. picture carrier
-		1. See television
-	3570. [[picture element]]
-
-	3571. [[PID control]]
-	3572. [[piece-wise linear function]]
-	3573. Pierce crystal oscillator
-		1. See PIEZOELECTRIC OSCILLATOR (Figs. $b, c$ ).
-	3574. [[piezoelectric crystal]]
-	3575. [[piezoelectric effect]]
-	3576. [[piezoelectric hysteresis]]
-	3577. [[piezoelectricity]]
-	3578. [[piezoelectric oscillator]]
-	3579. piezoelectric sensor
-	3580. piezoelectric strain constant
-
-	3581. piezoelectric strain gauge
-	3582. pigtails
-	3583. pincushion distortion
-	3584. PIN diode
-	3585. ping-pong
-	3586. pin grid array
-	3587. pinout
-	3588. PIN photodiode
-	3589. Pirani gauge
-	3590. pitch
-
-	3591. pitch bend
-	3592. pitch determination algorithm
-	3593. pitch estimation
-	3594. pitch extraction
-	3595. pixel
-	3596. PLA
-	3597. planar array antenna
-	3598. planar process
-	3599. Planck constant(symbol: h)
-	3600. plane-polarized wave
-
-	3601. plan position indicator
-	3602. plant
-	3603. plant load factor
-	3604. plasma
-	3605. plasma-enhanced CVD
-	3606. plasma etching
-	3607. plasmon
-	3608. plastic-film capacitor
-	3609. plastic leaded chip carrier
-	3610. plate
-
-	3611. plateau
-	3612. plated-through-hole
-	3613. plated heat sink
-	3614. plated magnetic wire
-	3615. plating
-	3616. platinum(symbol: Pt)
-	3617. platinum resistance thermometer
-	3618. platter
-	3619. PLB
-	3620. PLC
-
-	3621. PLCC
-	3622. PLD
-	3623. PLL
-	3624. PLM
-	3625. plug and socket
-	3626. PM
-	3627. PMBX
-	3628. PMMA
-	3629. PMOS
-	3630. pnpn device
-
-	3631. PN sequence
-	3632. Pockel's effect
-	3633. point-contact diode
-	3634. point-contact transistor
-	3635. point cloud
-	3636. point contact
-	3637. Poisson's equation
-	3638. polar
-	3639. polar coordinates
-	3640. polar form of a complex number
-
-	3641. polarity
-	3642. polarization
-	3643. polarization diversity
-	3644. polarized plug
-	3645. polarized relay
-	3646. polarizer
-	3647. polarizing angle
-	3648. polar plot
-	3649. pole
-	3650. pole-zero plot
-
-	3651. poles
-	3652. polling
-	3653. polychromatic radiation
-	3654. polycrystalline silicon
-	3655. polyester-film capacitor
-	3656. polymethylmethacrylate
-	3657. polyphase system
-	3658. polyphase transformer
-	3659. polyphonic
-	3660. polysilicon
-
-	3661. polystyrene-film capacitor
-	3662. POP
-	3663. population inversion
-	3664. porous silicon
-	3665. port
-	3666. portable conformable mask
-	3667. positive booster
-	3668. positive charge
-	3669. positive column
-	3670. positive feedback
-
-	3671. positive glow
-	3672. positive ion
-	3673. positive logic
-	3674. positive phase sequence
-	3675. positive photoresist
-	3676. positive sequence
-	3677. positron
-	3678. positron emission tomography
-	3679. pot
-	3680. potential
-
-	3681. potential barrier
-	3682. potential difference
-	3683. potential divider
-	3684. potential transformer
-	3685. potentiometer
-	3686. powdered-iron core
-	3687. power(symbol: P; unit: watt)
-	3688. power amplifier
-	3689. power component
-	3690. power consumption
-
-	3691. power control
-	3692. power density(symbol: S)
-	3693. power efficiency
-	3694. power factor
-	3695. power frequency
-	3696. power line
-	3697. power loss
-	3698. power pack
-	3699. power saving
-	3700. power station
-
-	3701. power supply
-	3702. power supply rail
-	3703. power transformer
-	3704. power transistor
-	3705. power waves
-	3706. power winding
-	3707. Poynting vector
-	3708. PPI
-	3709. PPM
-	3710. pre-emphasis
-
-	3711. preamplifier
-	3712. precision approach radar
-	3713. precision rectifier
-	3714. predistortion
-	3715. preferred values
-	3716. preselector
-	3717. PRF
-	3718. primary cell
-	3719. primary electrons
-	3720. primary emission
-
-	3721. primary failure
-	3722. primary radiator
-	3723. primary standard
-	3724. primary voltage
-	3725. primary winding
-	3726. principle of superposition
-	3727. print-through
-	3728. printed circuit
-	3729. privacy
-	3730. private branch exchange
-
-	3731. private exchange
-	3732. probe
-	3733. process-control system
-	3734. processor
-	3735. program
-	3736. program-erase cycle
-	3737. program counter
-	3738. programmable array logic
-	3739. programmable logic array
-	3740. programmable logic controller
-
-	3741. programmable logic device
-	3742. programmable matter
-	3743. programmable read-only memory
-	3744. programming language
-	3745. projection lithography
-	3746. PROM
-	3747. propagation coefficient(symbol: γ, P)
-	3748. propagation delay
-	3749. propagation loss
-	3750. proportional-integral-derivative control
-
-	3751. proportional control
-	3752. protective horn
-	3753. protocol
-	3754. proton
-	3755. prototype filter
-	3756. proximity card
-	3757. proximity effect
-	3758. proximity printing
-	3759. PSD
-	3760. PSK
-
-	3761. psophometer
-	3762. PSPICE
-	3763. PTFE
-	3764. PTH
-	3765. PTM
-	3766. pulling
-	3767. pulsating current
-	3768. pulse
-	3769. pulse-amplitude modulation
-	3770. pulse-duration modulation
-
-	3771. pulse-flatness deviation
-	3772. pulse-forming line
-	3773. pulse-frequency modulation
-	3774. pulse-height analyser
-	3775. pulse-time modulation
-	3776. pulse-width modulation
-	3777. pulse carrier
-	3778. pulse code modulation
-	3779. pulse coder
-	3780. pulse communications
-
-	3781. pulse detector
-	3782. pulse discriminator
-	3783. pulse duration
-	3784. pulse generator
-	3785. pulse height
-	3786. pulse interval
-	3787. pulse jamming
-	3788. pulse length
-	3789. pulse modulation
-	3790. pulse operation
-
-	3791. pulse oximeter
-	3792. pulser
-	3793. pulse radar
-	3794. pulse regeneration
-	3795. pulse repetition frequency
-	3796. pulse repetition period
-	3797. pulse separation
-	3798. pulse shaper
-	3799. pulse spacing
-	3800. pulse tilt
-
-	3801. pulse train
-	3802. pulse width
-	3803. pump
-	3804. punch-through
-	3805. puncture voltage
-	3806. purple plague
-	3807. PUSH
-	3808. push-pull operation
-	3809. PWM
-	3810. QAM
-
-	3811. Q channel
-	3812. Q factor(symbol: Q)
-	3813. QFN
-	3814. QHD
-	3815. Q point
-	3816. QPSK
-	3817. quad-flat no-leads package
-	3818. quadcopter
-	3819. quad high-definition
-	3820. quadrant electrometer
-
-	3821. quadraphony
-	3822. quadrature
-	3823. quadrature amplitude modulation
-	3824. quadrature component
-	3825. quadrature phase shift keying
-	3826. quadripole
-	3827. quality factor
-	3828. quantization
-	3829. quantization noise
-	3830. quantizer
-
-	3831. quantum computer
-	3832. quantum dot
-	3833. quantum efficiency
-	3834. quantum mechanics
-	3835. quantum numbers
-	3836. quantum theory
-	3837. quantum well
-	3838. quantum wire
-	3839. quantum yield
-	3840. quarter-phase system
-
-	3841. quarter-wavelength line
-	3842. quartz
-	3843. quartz-crystal oscillator
-	3844. quasi-bistable circuit
-	3845. quasi-complementary push-pull amplifier
-	3846. quasi-peak detector
-	3847. quasi-periodicity
-	3848. quefrency
-	3849. quench
-	3850. quench frequency
-
-	3851. quiescent-carrier telephony
-	3852. quiescent component
-	3853. quiescent current
-	3854. quiescent period
-	3855. quiescent point
-	3856. quiescent push-pull amplifier
-	3857. quieting circuit
-	3858. quieting sensitivity
-	3859. Quine-McCluskey
-	3860. R-C
-
-	3861. R-C network
-	3862. R-S flip-flop
-	3863. r.m.s.
-	3864. radar
-	3865. radar beacon
-	3866. radar cross section
-	3867. radar equation
-	3868. radar indicator
-	3869. radial-beam tube
-	3870. radian
-
-	3871. radiated emissions
-	3872. radiated interference
-	3873. radiated power
-	3874. radiated susceptibility
-	3875. radiation
-	3876. radiation counter
-	3877. radiation efficiency
-	3878. radiation noise
-	3879. radiation pattern
-	3880. radiation potential
-
-	3881. radiation resistance
-	3882. radiative recombination
-	3883. radio
-	3884. radio astronomy
-	3885. radio beacon
-	3886. radio compass
-	3887. radio direction finding
-	3888. radiofrequency
-	3889. radiofrequency choke
-	3890. radiofrequency heating
-
-	3891. radiofrequency identification
-	3892. radiofrequency interference
-	3893. radiography
-	3894. radio horizon
-	3895. radio interferometer
-	3896. radio noise
-	3897. radio receiver
-	3898. radio set
-	3899. radiosonde
-	3900. radio spectroscope
-
-	3901. radio telegraphy
-	3902. radio telemetry
-	3903. radio telephone
-	3904. radio telescope
-	3905. radiotherapy
-	3906. radiowave
-	3907. radio window
-	3908. radome
-	3909. rahmonic
-	3910. rail
-
-	3911. raised cosine window
-	3912. RAM
-	3913. RAM disk
-	3914. random access
-	3915. random logic
-	3916. range
-	3917. range finding
-	3918. range tracking
-	3919. Raspberry Pi
-	3920. raster scanning
-
-	3921. rat-race
-	3922. rating
-	3923. ratio adjuster
-	3924. ratio circuit
-	3925. ratioless circuit
-	3926. rationalized MKS system
-	3927. Rayleigh fading
-	3928. RBS
-	3929. RC circuit
-	3930. RCT
-
-	3931. reactance(symbol: X; unit: ohm)
-	3932. reactance chart
-	3933. reactance drop
-	3934. reactance modulator
-	3935. reactance transformer
-	3936. reactivation
-	3937. reactive current
-	3938. reactive factor
-	3939. reactive ion beam etching
-	3940. reactive ion etching
-
-	3941. reactive load
-	3942. reactive power
-	3943. reactive sputtering
-	3944. reactive volt-amperes
-	3945. reactive voltage
-	3946. reactor
-	3947. read
-	3948. read-only memory
-	3949. read-out pulse
-	3950. read-write head
-
-	3951. read-write memory
-	3952. Read diode
-	3953. real-time operation
-	3954. real-time system
-	3955. real number
-	3956. real part of a complex number
-	3957. receiver
-	3958. receiving antenna
-	3959. recessed gate FET
-	3960. rechargeable battery
-
-	3961. reciprocity theorem
-	3962. recombination processes
-	3963. recombination rate
-	3964. recording channel
-	3965. recording head
-	3966. recording of sound
-	3967. rectangular pulse
-	3968. rectangular window
-	3969. rectifier
-	3970. rectifier filter
-
-	3971. rectifier instrument
-	3972. rectifier voltmeter
-	3973. rectilinear scanner
-	3974. recurrent-surge oscilloscope
-	3975. recursive filters
-	3976. reduced instruction set computer
-	3977. redundancy
-	3978. Reed-Solomon code
-	3979. reflected impedance
-	3980. reflected power
-
-	3981. reflected wave
-	3982. reflection coefficient
-	3983. reflection error
-	3984. reflection factor
-	3985. reflectometer
-	3986. reflector
-	3987. reflex bunching
-	3988. reflex circuit
-	3989. reflex klystron
-	3990. refresh
-
-	3991. regeneration
-	3992. regenerative receiver
-	3993. region of convergence
-	3994. register
-	3995. register set
-	3996. regulator
-	3997. reignition voltage
-	3998. rejector
-	3999. relative error
-	4000. relative permeability
-
-	4001. relative permittivity
-	4002. relaxation oscillator
-	4003. relaxation time(symbol: τ)
-	4004. relay
-	4005. reliability
-	4006. reluctance(symbol: R; unit: henry−1)
-	4007. reluctivity
-	4008. remanence
-	4009. remote control
-	4010. remotely operated vehicle
-
-	4011. remote sensing
-	4012. renewable energy system
-	4013. repeater
-	4014. repeating coil
-	4015. reproduction of sound
-	4016. Request for Comments
-	4017. request to send
-	4018. reset
-	4019. residual charge
-	4020. residual current
-
-	4021. residual pulse linear predictive coding
-	4022. residual resistance
-	4023. resist
-	4024. resistance
-	4025. resistance-capacitance coupling
-	4026. resistance coupling
-	4027. resistance drop
-	4028. resistance gauge
-	4029. resistance strain gauge
-	4030. resistance thermometer
-
-	4031. resistance wire
-	4032. resistive component
-	4033. resistive coupling
-	4034. resistive touchscreen
-	4035. resistivity(symbol: ρ; unit: ohm metres)
-	4036. resistivity surveying
-	4037. resistor
-	4038. resistor-transistor logic
-	4039. resolution
-	4040. resolving time
-
-	4041. resonance
-	4042. resonance bridge
-	4043. resonant cavity
-	4044. resonant circuit
-	4045. resonant frequency(symbols: ω0, f0)
-	4046. resonant line
-	4047. resonator
-	4048. response time
-	4049. restore
-	4050. retentivity
-
-	4051. return-current coefficient
-	4052. return current
-	4053. return interval
-	4054. return loss
-	4055. return stroke
-	4056. return to zero
-	4057. return trace
-	4058. reverse active operation
-	4059. reverse conducting thyristor
-	4060. reverse direction
-
-	4061. reverse saturation current
-	4062. reversible transducer
-	4063. revolutions per minute
-	4064. RF
-	4065. RFC
-	4066. RF heating
-	4067. RFI
-	4068. RFID
-	4069. RHEED
-	4070. rhumbatron
-
-	4071. ribbon microphone
-	4072. Richardson-Dushman equation
-	4073. ridged waveguide
-	4074. Rieke diagram
-	4075. Righi-Leduc effect
-	4076. right-hand rule(for a dynamo)
-	4077. ringing
-	4078. ring junction
-	4079. ring modulator
-	4080. ring network
-
-	4081. ripple
-	4082. ripple filter
-	4083. RISC
-	4084. rise time
-	4085. RLC circuit
-	4086. RL circuit
-	4087. robotics
-	4088. robustness
-	4089. ROC
-	4090. ROM
-
-	4091. root-mean-square
-	4092. rope
-	4093. rotational latency
-	4094. rotator
-	4095. rotor
-	4096. router
-	4097. routing
-	4098. routing control plane
-	4099. ROV
-	4100. RPLPC
-
-	4101. rpm
-	4102. RS-232 interface
-	4103. RTL
-	4104. RTS
-	4105. rumble
-	4106. run-length codes
-	4107. Rutherford back scattering
-	4108. RZ
-	4109. RZ PCM
-	4110. s-domain circuit analysis
-
-	4111. s-parameters
-	4112. s-plane
-	4113. S-R flip-flop
-	4114. SAINT process
-	4115. Sallen-Key filter
-	4116. SAM
-	4117. sampling
-	4118. sampling period
-	4119. sampling synthesis
-	4120. sapphire
-
-	4121. SAR
-	4122. sat
-	4123. SATA
-	4124. satellite
-	4125. satellite navigation system
-	4126. saturated mode
-	4127. saturated velocity
-	4128. saturation
-	4129. saturation current
-	4130. saturation resistance
-
-	4131. saturation signal
-	4132. saturation voltage
-	4133. SAW
-	4134. SAW filter
-	4135. sawing
-	4136. sawtooth oscillator
-	4137. sawtooth pulse
-	4138. sawtooth waveform
-	4139. S band
-	4140. scaler
-
-	4141. scaling tube
-	4142. scanner
-	4143. scanning
-	4144. scanning-probe microscopy
-	4145. scanning-transmission electron microscope
-	4146. scanning-tunnelling microscopy
-	4147. scanning Auger microprobe
-	4148. scanning electron microscope
-	4149. scanning laser
-	4150. scattering loss
-
-	4151. scattering parameters
-	4152. schematic
-	4153. Schering bridge
-	4154. SCH laser
-	4155. Schmitt trigger
-	4156. Schottky-gate field-effect transistor
-	4157. Schottky barrier
-	4158. Schottky clamp
-	4159. Schottky diode
-	4160. Schottky effect
-
-	4161. Schottky I2L
-	4162. Schottky noise
-	4163. Schottky photodiode
-	4164. Schottky TTL
-	4165. Schrödinger equation
-	4166. scintillation
-	4167. scintillation counter
-	4168. SCR
-	4169. scrambling
-	4170. screen
-
-	4171. screened pair
-	4172. screen grid
-	4173. screening test
-	4174. screen resolution
-	4175. scribing
-	4176. scribing channel
-	4177. SCSI
-	4178. SD
-	4179. SDTV
-	4180. search coil
-
-	4181. SECAM
-	4182. second(symbol: s)
-	4183. second-order circuit
-	4184. secondary-ion mass spectroscopy
-	4185. secondary cell
-	4186. secondary electron
-	4187. secondary emission
-	4188. secondary failure
-	4189. secondary radiator
-	4190. secondary service area
-
-	4191. secondary standard
-	4192. secondary voltage
-	4193. secondary winding
-	4194. secondary X-rays
-	4195. second breakdown
-	4196. sector
-	4197. sectorization
-	4198. Seebeck effect
-	4199. seed crystal
-	4200. seek time
-
-	4201. segmentation
-	4202. selective fading
-	4203. selective interference
-	4204. selective repeat ARQ
-	4205. selectivity
-	4206. selenium(symbol: Se)
-	4207. selenium rectifier
-	4208. self-aligned gate
-	4209. self-bias
-	4210. self-capacitance
-
-	4211. self-excited
-	4212. self-inductance
-	4213. self-quieting
-	4214. self-sustaining oscillations
-	4215. SEM
-	4216. semianechoic chamber
-	4217. semiconductor
-	4218. semiconductor device
-	4219. semiconductor diode
-	4220. semiconductor laser
-
-	4221. semiconductor memory
-	4222. sensing element
-	4223. sensitivity
-	4224. sensor
-	4225. sensor network
-	4226. separate confinement heterostructure laser
-	4227. sequencer
-	4228. sequential circuit
-	4229. sequential control
-	4230. sequential scanning
-
-	4231. serial ATA
-	4232. serial port
-	4233. serial transfer
-	4234. serial transmission
-	4235. series
-	4236. series-gated ECL
-	4237. series-parallel connection
-	4238. series feedback
-	4239. series resonant circuit
-	4240. series stabilization
-
-	4241. series supply
-	4242. series system
-	4243. series transformer
-	4244. service area
-	4245. servomechanism
-	4246. set-top box
-	4247. set-up scale instrument
-	4248. settling time
-	4249. shading
-	4250. shadow effect
-
-	4251. Shannon-Hartley theorem
-	4252. shaped-beam tube
-	4253. sheet resistance
-	4254. shell-type transformer
-	4255. SHF
-	4256. shield
-	4257. shielded pair
-	4258. shielded room
-	4259. shielding effectiveness(of a barrier or enclosure)
-	4260. shift operator
-
-	4261. shift register
-	4262. Shockley emitter resistance
-	4263. Shockley equation
-	4264. short
-	4265. short-circuit impedance
-	4266. short-time duty
-	4267. short-wave
-	4268. short-wave converter
-	4269. short circuit
-	4270. shot noise
-
-	4271. shunt
-	4272. shunt feedback
-	4273. shunt network
-	4274. shunt stabilization
-	4275. side-looking airborne radar
-	4276. sideband
-	4277. sideband splatter
-	4278. side frequency
-	4279. side lobe
-	4280. Siemen's electrodynamometer
-
-	4281. siemens(symbol: S)
-	4282. signal
-	4283. signal-to-noise ratio
-	4284. signal flowgraph
-	4285. signal generator
-	4286. signal level
-	4287. signal processing
-	4288. signal strength
-	4289. signal tester
-	4290. signal winding
-
-	4291. sign bit
-	4292. silent discharge
-	4293. silent zone
-	4294. silica(symbol: SiO2)
-	4295. silicon(symbol: Si)
-	4296. silicon-controlled rectifier
-	4297. silicon-gate technology
-	4298. silicon-on-insulator
-	4299. silicon compiler
-	4300. silver(symbol: Ag)
-
-	4301. silver mica capacitor
-	4302. simple magnet
-	4303. simplex operation
-	4304. SIMS
-	4305. simulation diagram
-	4306. simulator
-	4307. simultaneous equations
-	4308. sinc function
-	4309. sine potentiometer
-	4310. sine wave
-
-	4311. singing point
-	4312. single-current system
-	4313. single-electron device
-	4314. single-ended
-	4315. single-loop feedback
-	4316. single-mode fibre
-	4317. single-phase system
-	4318. single-shot multivibrator
-	4319. single-shot trigger
-	4320. single-sideband transmission
-
-	4321. single-tuned circuit
-	4322. single crystal
-	4323. single drift device
-	4324. single in, single out
-	4325. sink
-	4326. sinusoidal
-	4327. SIS
-	4328. SISO
-	4329. SI units
-	4330. size effect
-
-	4331. size quantization
-	4332. skew
-	4333. skin effect
-	4334. skip distance
-	4335. skip zone
-	4336. sky wave
-	4337. SLAR
-	4338. slave circuit
-	4339. slew rate
-	4340. slice
-
-	4341. slicer
-	4342. slicing
-	4343. slide wire
-	4344. sliding window
-	4345. slope modulation
-	4346. slope overload
-	4347. slope resistance
-	4348. slot antenna
-	4349. slotted line
-	4350. slotted waveguide
-
-	4351. slow-break switch
-	4352. slow-wave structure
-	4353. slug tuning
-	4354. small-outline package
-	4355. small-scale integration
-	4356. small-signal
-	4357. small-signal parameters
-	4358. small computer system interface
-	4359. smart antenna
-	4360. smart appliance
-
-	4361. smart display
-	4362. smart glasses
-	4363. smart materials
-	4364. smart meter
-	4365. smartphone
-	4366. smart TV
-	4367. smartwatch
-	4368. smearer
-	4369. S meter
-	4370. Smith chart
-
-	4371. smoothing choke
-	4372. smoothing circuit
-	4373. snapback diode
-	4374. snow
-	4375. SoC
-	4376. SOD
-	4377. soft clipping
-	4378. software
-	4379. software-defined networking
-	4380. solar cell
-
-	4381. solar power
-	4382. solenoid
-	4383. solid-state camera
-	4384. solid-state device
-	4385. solid-state drive
-	4386. solid-state hybrid drive
-	4387. solid-state memory
-	4388. solid-state physics
-	4389. solid conductor
-	4390. sonar
-
-	4391. sonde
-	4392. sonogram
-	4393. sonograph
-	4394. SOT
-	4395. sound-level meter
-	4396. sound carrier
-	4397. sound pressure level
-	4398. sound recording
-	4399. sound reproduction
-	4400. soundtrack
-
-	4401. sound wave
-	4402. source
-	4403. source code
-	4404. source follower
-	4405. source impedance
-	4406. source routing
-	4407. space-charge density
-	4408. space-charge limited region
-	4409. space charge
-	4410. space diversity
-
-	4411. space wave
-	4412. spark
-	4413. spark interference
-	4414. spatial resolution
-	4415. speaker
-	4416. specific conductance
-	4417. specific contact resistance
-	4418. specific resistance
-	4419. spectral analysis
-	4420. spectral characteristic
-
-	4421. spectral density
-	4422. spectral leakage
-	4423. spectral resolution
-	4424. spectral response
-	4425. spectrograph
-	4426. spectrum
-	4427. spectrum analyser
-	4428. speech coder
-	4429. speech recognition device
-	4430. speech synthesis
-
-	4431. speed camera
-	4432. speed of light(symbol: c)
-	4433. spherical polar coordinates
-	4434. SPICE model
-	4435. spike
-	4436. spin
-	4437. spin-dependent electron scattering
-	4438. spin field-effect transistor
-	4439. spintronics
-	4440. spiral inductor
-
-	4441. spiral scanning
-	4442. SPL
-	4443. SPM
-	4444. spontaneous emission
-	4445. spot
-	4446. spot speed
-	4447. spreading
-	4448. spreading resistance
-	4449. spread spectrum
-	4450. spurious rejection
-
-	4451. sputtering
-	4452. square-law detector
-	4453. square-wave response
-	4454. square wave
-	4455. squegging oscillator
-	4456. squelch circuit
-	4457. SRAM
-	4458. SS/TDMA
-	4459. SSB
-	4460. SSD
-
-	4461. SSHD
-	4462. SSI
-	4463. stability
-	4464. stabilization
-	4465. stable circuit
-	4466. stable oscillations
-	4467. stack
-	4468. stage
-	4469. staggered antenna
-	4470. stagger tuned amplifier
-
-	4471. standard-definition
-	4472. standard cell
-	4473. standard deviation
-	4474. standardization
-	4475. standby power
-	4476. standing wave
-	4477. star-delta transformation
-	4478. star circuit
-	4479. star network
-	4480. start-oscillation current
-
-	4481. start-stop apparatus
-	4482. starter electrode
-	4483. starting current
-	4484. state diagram
-	4485. state space
-	4486. state space control
-	4487. state table
-	4488. state transition matrix
-	4489. state variable
-	4490. state variable filter
-
-	4491. static
-	4492. static characteristic
-	4493. static memory
-	4494. static RAM
-	4495. stationary orbit
-	4496. stationary state
-	4497. stationary wave
-	4498. stator
-	4499. status register
-	4500. STD
-
-	4501. steady state
-	4502. stealth technology
-	4503. steepness factor
-	4504. steerable antenna
-	4505. step-down transformer
-	4506. step-recovery diode
-	4507. step-stress life test
-	4508. step-up transformer
-	4509. step function
-	4510. step response
-
-	4511. stereophonic
-	4512. stimulated emission
-	4513. stochastic process
-	4514. Stokes' law
-	4515. stop band
-	4516. stopper
-	4517. stopping potential
-	4518. storage battery
-	4519. storage capacity
-	4520. storage cell
-
-	4521. storage device
-	4522. storage time
-	4523. storage tube
-	4524. store
-	4525. STP
-	4526. strain gauge
-	4527. straintronics
-	4528. stray capacitance
-	4529. streaming media
-	4530. string electrometer
-
-	4531. string galvanometer
-	4532. stripline
-	4533. strong electrolyte
-	4534. structured light
-	4535. stub
-	4536. subcarrier
-	4537. subcarrier modulation
-	4538. subharmonic
-	4539. subroutine
-	4540. subsonic frequency
-
-	4541. substation
-	4542. substrate
-	4543. subsystem
-	4544. subtractive synthesis
-	4545. sum-of-products
-	4546. summation instrument
-	4547. summing amplifier
-	4548. super-regenerative reception
-	4549. superconductivity
-	4550. superconductor
-
-	4551. superheterodyne reception
-	4552. superhigh frequency
-	4553. Supermalloy
-	4554. Supermendur
-	4555. superparamagnetic limit
-	4556. superposition
-	4557. superposition principle
-	4558. supersensitive relay
-	4559. suppressed-carrier modulation
-	4560. suppressed-zero instrument
-
-	4561. suppressor
-	4562. suppressor grid
-	4563. surface-channel FET
-	4564. surface acoustic wave
-	4565. surface charge density
-	4566. surface conductivity
-	4567. surface integral
-	4568. surface leakage
-	4569. surface mount technology
-	4570. surface resistance
-
-	4571. surface resistivity
-	4572. surface wave
-	4573. surge
-	4574. susceptance(symbol: B; unit: siemens)
-	4575. susceptibility
-	4576. sweep
-	4577. sweep frequency
-	4578. sweep generator
-	4579. sweep voltage
-	4580. swell pedal
-
-	4581. swinging choke
-	4582. switch
-	4583. switched-mode power supply
-	4584. switched capacitor filter
-	4585. switching system
-	4586. switching tube
-	4587. syllable articulation score
-	4588. symbols
-	4589. symmetric mode
-	4590. symmetric transducer
-
-	4591. symmetric two-port network
-	4592. synchronism
-	4593. synchronizing pulses
-	4594. synchronometer
-	4595. synchronous
-	4596. synchronous alternating-current generator
-	4597. synchronous clock
-	4598. synchronous communications satellite
-	4599. synchronous computer
-	4600. synchronous detection
-
-	4601. synchronous gate
-	4602. synchronous generator
-	4603. synchronous logic
-	4604. synchronous motor
-	4605. synchronous orbit
-	4606. synchronous transmission
-	4607. synchrotron
-	4608. sync separator
-	4609. Synopsys
-	4610. syntax
-
-	4611. synthesis
-	4612. synthesizer
-	4613. synthetic aperture radar
-	4614. system identification
-	4615. system modelling
-	4616. system on a chip
-	4617. systems software
-	4618. T-gate
-	4619. T-junction
-	4620. T-section
-
-	4621. tablet computer
-	4622. tandem
-	4623. tandem exchange
-	4624. tank network
-	4625. tantalum(symbol: Ta)
-	4626. tantalum capacitor
-	4627. tap changer
-	4628. tape automated bonding
-	4629. tape recording
-	4630. tapered window
-
-	4631. tape unit
-	4632. tapping
-	4633. tap weight
-	4634. target
-	4635. target voltage
-	4636. Tchebyshev filter
-	4637. T circuit
-	4638. TCP
-	4639. TCP/IP
-	4640. TCS
-
-	4641. TDM
-	4642. TDMA
-	4643. TDR
-	4644. TED
-	4645. tee-pi (T-π) transform
-	4646. tee circuit
-	4647. Teflon
-	4648. telecommunications
-	4649. telecommunication system
-	4650. teleconference
-
-	4651. telegraphy
-	4652. telemetry
-	4653. telephony
-	4654. telepresence
-	4655. teleprinter
-	4656. telerobotics
-	4657. teletext
-	4658. television
-	4659. television camera
-	4660. television receiver
-
-	4661. telex
-	4662. temperature coefficient of resistance
-	4663. temperature saturation
-	4664. TEM wave
-	4665. tera-
-	4666. terahertz technology
-	4667. terminal
-	4668. terminal impedance
-	4669. terminal repeater
-	4670. termination
-
-	4671. tertiary winding
-	4672. tesla(symbol: T)
-	4673. test pattern
-	4674. tetrode
-	4675. TE wave
-	4676. T flip-flop
-	4677. TFT
-	4678. THD
-	4679. thermal battery
-	4680. thermal breakdown
-
-	4681. thermal imaging
-	4682. thermal instrument
-	4683. thermal noise
-	4684. thermal protection
-	4685. thermal resistance
-	4686. thermal runaway
-	4687. thermionic-field emission
-	4688. thermionic cathode
-	4689. thermionic emission
-	4690. thermionic valve
-
-	4691. thermistor
-	4692. thermocouple
-	4693. thermodynamic temperature(symbol: T)
-	4694. thermoelectric effects
-	4695. thermoelectric series
-	4696. thermoelectron
-	4697. thermography
-	4698. thermojunction
-	4699. thermoluminescence
-	4700. thermopile
-
-	4701. thermostat
-	4702. Thévenin's theorem
-	4703. thick-film circuit
-	4704. thin-film circuit
-	4705. thin-film transistor
-	4706. thin quad-flat no-leads package
-	4707. Thomson bridge
-	4708. Thomson effect
-	4709. thrashing
-	4710. three-phase system
-
-	4711. three-phase transformer
-	4712. threshold
-	4713. threshold frequency
-	4714. threshold signal
-	4715. threshold voltage
-	4716. throat microphone
-	4717. through path
-	4718. throughput
-	4719. thyratron
-	4720. thyristor
-
-	4721. tie line
-	4722. tightly coupled multiprocessor
-	4723. timbre
-	4724. time-division duplexing
-	4725. time-division multiple access
-	4726. time-division multiplexing
-	4727. time-division switching
-	4728. timebase
-	4729. timebase generator
-	4730. time constant
-
-	4731. time delay
-	4732. time discriminator
-	4733. time diversity
-	4734. time domain
-	4735. time domain reflectometer
-	4736. time lag
-	4737. time of flight
-	4738. time sharing
-	4739. timestamp
-	4740. time to flashover
-
-	4741. time to puncture
-	4742. time to trip
-	4743. timing diagram
-	4744. tin(symbol: Sn)
-	4745. tint control
-	4746. TM wave
-	4747. toggle switch
-	4748. token ring
-	4749. tolerance
-	4750. tone control
-
-	4751. tone jamming
-	4752. top-down hierarchical design
-	4753. top-down nanofabrication
-	4754. topside ionosphere
-	4755. total capacitance
-	4756. total emission
-	4757. total harmonic distortion
-	4758. touch-sensitive keyboard
-	4759. touchscreen
-	4760. Townsend avalanche
-
-	4761. Townsend discharge
-	4762. TQFN
-	4763. trace
-	4764. trace interval
-	4765. track
-	4766. tracking
-	4767. tracking generator
-	4768. traction control system
-	4769. traffic intensity
-	4770. trailing edge((of a pulse))
-
-	4771. training sequence
-	4772. transadmittance
-	4773. transadmittance amplifier
-	4774. transceiver
-	4775. transconductance(symbol: gm)
-	4776. transconductance amplifier
-	4777. transducer
-	4778. transductor
-	4779. transfer characteristic
-	4780. transfer constant
-
-	4781. transfer current
-	4782. transfer function
-	4783. transfer layer
-	4784. transfer length
-	4785. transfer parameter
-	4786. transfer rate
-	4787. transferred-electron device
-	4788. transformer
-	4789. transformer ratio
-	4790. transient
-
-	4791. transient suppression
-	4792. transimpedance
-	4793. transimpedance amplifier
-	4794. transistor
-	4795. transistor-transistor logic
-	4796. transistor parameters
-	4797. transition
-	4798. transition band
-	4799. transition flux density
-	4800. transition table
-
-	4801. transition temperature
-	4802. transit time
-	4803. transit time mode
-	4804. translator
-	4805. transmission
-	4806. Transmission Control Protocol
-	4807. transmission electron microscope
-	4808. transmission gain
-	4809. transmission level
-	4810. transmission line
-
-	4811. transmission line matrix
-	4812. transmission loss
-	4813. transmission mode
-	4814. transmission primary
-	4815. transmit-receive switch
-	4816. transmittance
-	4817. transmitted-carrier transmission
-	4818. transmitted-reference spread spectrum
-	4819. transmitter
-	4820. transmitting antenna
-
-	4821. transponder
-	4822. transport stream
-	4823. transposed transmission line
-	4824. transresistance
-	4825. transversal filter
-	4826. transverse wave
-	4827. trapezium distortion
-	4828. trapping recombination
-	4829. travelling-wave amplifier
-	4830. travelling-wave tube
-
-	4831. travelling wave
-	4832. trellis code
-	4833. triac
-	4834. triboelectricity
-	4835. triboluminescence
-	4836. trickle charge
-	4837. trigger
-	4838. trigonometric functions
-	4839. trilevel resist
-	4840. trimmer
-
-	4841. triode
-	4842. triode-hexode
-	4843. triode region
-	4844. triple integral
-	4845. tripler
-	4846. tripping device
-	4847. tristate logic gate
-	4848. tropospheric ducting
-	4849. tropospheric scattering
-	4850. TR switch
-
-	4851. truncate
-	4852. truncated test
-	4853. trunk feeder
-	4854. truth table
-	4855. TS
-	4856. TTL
-	4857. tube
-	4858. tunable magnetron
-	4859. tuned amplifier
-	4860. tuned circuit
-
-	4861. tuner
-	4862. tungsten(symbol: W)
-	4863. tuning
-	4864. tuning screw
-	4865. tunnel diode
-	4866. tunnel effect
-	4867. turbo-codes
-	4868. Turing machine
-	4869. turns ratio(symbol: n)
-	4870. turret tuner
-
-	4871. tweeter
-	4872. twin-T network
-	4873. twin cable
-	4874. twisted pair
-	4875. two's-complement notation
-	4876. two-phase system
-	4877. two-port analysis
-	4878. two-port network
-	4879. two-port parameters
-	4880. two-tone modulation
-
-	4881. two-wire circuit
-	4882. TWT
-	4883. u-law
-	4884. UART
-	4885. UDF
-	4886. UHD
-	4887. UHF
-	4888. UJT
-	4889. ultra-wide band transmission
-	4890. ultra extended graphics array
-
-	4891. ultra high-definition
-	4892. ultrahigh frequency
-	4893. ultrasonic communication
-	4894. ultrasonic delay line
-	4895. ultrasonic range finding
-	4896. ultrasonics
-	4897. ultrasonography
-	4898. ultraviolet photoelectron spectroscopy
-	4899. ultraviolet radiation
-	4900. unabsorbed field strength
-
-	4901. unbalanced two-port network
-	4902. unclocked flip-flop
-	4903. undercoupling
-	4904. undercurrent release
-	4905. underdamping
-	4906. underscanning
-	4907. undershoot
-	4908. unicast
-	4909. uniconductor waveguide
-	4910. unidirectional current
-
-	4911. unidirectional microphone
-	4912. unidirectional transducer
-	4913. uniform cable
-	4914. uniform line
-	4915. uniform waveguide
-	4916. uniform window
-	4917. unijunction transistor
-	4918. unilateral network
-	4919. unilateral transducer
-	4920. uninterrupted duty
-
-	4921. unipotential cathode
-	4922. unit
-	4923. unit-step function
-	4924. unit circle
-	4925. unit delta function
-	4926. unit sample
-	4927. unit vector
-	4928. universal active filter
-	4929. universal asynchronous receiver/transmitter
-	4930. universal disk format
-
-	4931. universal motor
-	4932. universal serial bus
-	4933. universal shunt
-	4934. univibrator
-	4935. unstable oscillation
-	4936. upconvert
-	4937. uplink
-	4938. upper sideband
-	4939. UPS
-	4940. upsampling
-
-	4941. USB
-	4942. USB flash drive
-	4943. useful life
-	4944. UTP
-	4945. UWB
-	4946. UXGA
-	4947. V+
-	4948. V-
-	4949. V-beam radar
-	4950. V-groove technique
-
-	4951. vacancy
-	4952. vacuum evaporation
-	4953. vacuum microelectronics
-	4954. vacuum tube
-	4955. VAD
-	4956. valence band
-	4957. valence electrons
-	4958. valency
-	4959. valley
-	4960. valley point
-
-	4961. valve
-	4962. valve diode
-	4963. valve voltmeter
-	4964. Van de Graaff generator
-	4965. vapour phase epitaxy
-	4966. vapour plating
-	4967. var
-	4968. varactor
-	4969. varactor tuning
-	4970. variable capacitance gauge
-
-	4971. variable impedances
-	4972. variable inductance gauge
-	4973. variable resistance gauge
-	4974. Variac
-	4975. variation
-	4976. varistor
-	4977. varying duty
-	4978. VCA
-	4979. VCCS
-	4980. VCO
-
-	4981. VCR
-	4982. VCVS
-	4983. VCVS filter
-	4984. VDR
-	4985. VDU
-	4986. vector area
-	4987. vector field
-	4988. velocity
-	4989. velocity-modulated tube
-	4990. velocity-sensitive keyboard
-
-	4991. velocity microphone
-	4992. velocity modulation
-	4993. vertical blanking
-	4994. vertical FET
-	4995. vertical surround sound
-	4996. very high frequency
-	4997. very large scale integration
-	4998. very low frequency
-	4999. very small aperture terminal
-	5000. vestigial-sideband transmission
-
-	5001. vestigial sideband
-	5002. VFET
-	5003. VHDL
-	5004. VHF
-	5005. via
-	5006. vibration galvanometer
-	5007. vibrator
-	5008. video card
-	5009. videoconference
-	5010. video IF system
-
-	5011. video on demand
-	5012. videotape
-	5013. video tracking
-	5014. vidicon
-	5015. virtual address
-	5016. virtual cathode
-	5017. virtual circuit
-	5018. virtual earth
-	5019. virtual memory
-	5020. virtual reality systems
-
-	5021. virtual surround sound
-	5022. virtual value
-	5023. virus
-	5024. visibility factor
-	5025. visual display unit
-	5026. VLF
-	5027. VLSI
-	5028. VMOS
-	5029. vocoder
-	5030. voder
-
-	5031. voice-grade channel
-	5032. voice activity detection
-	5033. voiced
-	5034. voiceless
-	5035. VoIP
-	5036. volatile memory
-	5037. volt(symbol: V)
-	5038. volt-ampere(symbol: VA)
-	5039. voltage(symbol: V; unit: volt)
-	5040. voltage-controlled amplifier
-
-	5041. voltage-controlled current source
-	5042. voltage-controlled voltage source
-	5043. voltage-mode circuits
-	5044. voltage-regulator diode
-	5045. voltage amplifier
-	5046. voltage between lines
-	5047. voltage divider
-	5048. voltage doubler
-	5049. voltage drop
-	5050. voltage feedback
-
-	5051. voltage gain
-	5052. voltage generator
-	5053. voltage jump
-	5054. voltage law
-	5055. voltage level
-	5056. voltage multiplier
-	5057. voltage reference diode
-	5058. voltage regulator
-	5059. voltage relay
-	5060. voltage selector
-
-	5061. voltage source
-	5062. voltage stabilizer
-	5063. voltage transformer
-	5064. volt efficiency
-	5065. voltmeter
-	5066. volt per metre
-	5067. volume
-	5068. volume charge density
-	5069. volume compressor
-	5070. volume control
-
-	5071. volume element
-	5072. volume integral
-	5073. volume lifetime
-	5074. volume limiter
-	5075. volume resistivity
-	5076. volumetric radar
-	5077. von Hann window
-	5078. von Neumann machine
-	5079. VPE
-	5080. VSAT
-
-	5081. VSWR
-	5082. wafer
-	5083. Wagner earth connection
-	5084. wait state
-	5085. walk-out
-	5086. WAN
-	5087. warble
-	5088. warm-up
-	5089. watt(symbol: W)
-	5090. watt-hour
-
-	5091. watt-hour meter
-	5092. wattmeter
-	5093. wave
-	5094. wave analyser
-	5095. wave equation
-	5096. wavefront
-	5097. wavefunction
-	5098. waveguide
-	5099. wave impedance
-	5100. wavelength
-
-	5101. wavelength constant
-	5102. wave mechanics
-	5103. wave surface
-	5104. wavetail
-	5105. wavetrain
-	5106. wavetrap
-	5107. wave vector
-	5108. WCDMA
-	5109. weak electrolyte
-	5110. wear-out failure
-
-	5111. wear-out failure period
-	5112. wearable technology
-	5113. wear levelling
-	5114. weber(symbol: Wb)
-	5115. Weiss constant
-	5116. Weston standard cell
-	5117. wet cell
-	5118. wet etching
-	5119. Wheatstone bridge
-	5120. white compression
-
-	5121. white noise
-	5122. white peak
-	5123. white recording
-	5124. Wi-fi
-	5125. wide area network
-	5126. wideband
-	5127. wideband code division multiple access
-	5128. wideband FSK
-	5129. widescreen television
-	5130. widescreen ultra extended graphics array
-
-	5131. Wiedemann effect
-	5132. Wien bridge
-	5133. Wiener-Hopf equation
-	5134. Wiener filtering
-	5135. Wilson effect
-	5136. Wimshurst machine
-	5137. winding
-	5138. window
-	5139. windowing
-	5140. wire-wound resistor
-
-	5141. wire bonding
-	5142. wireless
-	5143. wireless personal area network
-	5144. wiring diagram
-	5145. WLAN
-	5146. wobbulator
-	5147. Wollaston wire
-	5148. woofer
-	5149. word
-	5150. word-addressable
-
-	5151. word line
-	5152. work function(symbol: Φ; unit: electronvolt)
-	5153. wound core
-	5154. wow
-	5155. WPAN
-	5156. wrist strap
-	5157. write
-	5158. WUXGA
-	5159. wye circuit
-	5160. X-axis
-
-	5161. X-guide
-	5162. X-ray crystallography
-	5163. X-ray fluorescence
-	5164. X-ray lithography
-	5165. X-ray photoelectron spectroscopy
-	5166. X-rays
-	5167. X-ray topography
-	5168. X-ray tube
-	5169. X-Y plotter
-	5170. X.21
-
-	5171. X.25
-	5172. X band
-	5173. XPS
-	5174. XRF
-	5175. X series
-	5176. Y-axis
-	5177. Yagi antenna
-	5178. Y circuit
-	5179. YIG
-	5180. yoke
-
-	5181. y parameters
-	5182. z-modulation((of a cathode-ray tube))
-	5183. Zener breakdown
-	5184. Zener diode
-	5185. zero-crossing detector
-	5186. zero crossing
-	5187. zero error
-	5188. zero IF
-	5189. zero level
-	5190. zero padding
-
-	5191. zero potential
-	5192. zeros(and poles)
-	5193. ZigBee
-	5194. zinc(symbol: Zn)
-	5195. zirconium(symbol: Zr)
-	5196. zone refining
-	5197. z parameters
-	5198. z transform
-	5199. π-mode operation
-	5200. π-section
-- Extra
 	1. a.c.
 		1. (AC) see alternating current
 	2. a.c.-coupled amplifier
@@ -6923,3 +22,6982 @@ tags:
 		1. (AM) See amplitude modulation.
 	7. a.v.c.
 		1. (automatic volume control) See automatic gain control.
+	8. 
+	9. 
+	10.  
+
+	11. AAC
+		1. See advanced audio coding
+	12. ABC
+		1. See automatic brightness control
+	13. [[aberration]]
+	14. [[abrupt junction]]
+	15. ABS
+		1. See anti-lock braking system
+	16. [[absolute error]]
+	17. [[absolute zero]]
+	18. [[absorption]]
+	19. [[absorption coefficient]]
+	20. [[absorption loss]]
+	21. [[AC3]]
+	22. [[accelerated life test]]
+	23. accelerating anode
+		1. See electron gun.
+	24. [[accelerating electrode]]
+	25. [[acceleration voltage]]
+	26. [[accelerator]]
+	27. acceptor
+		1. (acceptor impurity) See semiconductor.
+	28. [[access point]]
+	29. [[access system]]
+	30. [[access time]]
+	31. accumulation mode
+		1. See MOS capacitor.
+	32. accumulator
+		- (1) (secondary cell) See cell
+		- (2) A type of register
+	33. [[accuracy]]
+	34. ACK signal
+		1. (acknowledgment signal) See Digital Communications
+	35. [[acoustic coupler]]
+	36. acoustic delay line
+		1. See delay line
+	37. [[acoustic feedback]]
+	38. [[acoustic pressure waveform]]
+	39. [[acoustic wave]]
+	40. [[acoustic wave device]]
+	41. [[acquisition]]
+	42. [[active]]
+	43. active-matrix LCD
+		1. See liquid-crystal display; thin-film transistor.
+	44. [[active-matrix organic light-emitting diode]]
+	45. active antenna
+		1. (primary radiator; driven antenna) See directional antenna.
+	46. [[active area]]
+	47. active component
+		1. (1) See active
+		2. (2) See active current
+		3. (3) See active volt-amperes
+		4. (4) See active voltage
+	48. [[active current]]
+	49. active filter
+		1. See filter
+	50. active interval
+		1. (trace interval) See sawtooth waveform
+	51. [[active load]]
+	52. [[active mode]]
+	53. active network
+		1. See network; active.
+	54. [[active region]]
+	55. [[active sensor]]
+	56. [[active volt-amperes]]
+	57. [[active voltage]]
+	58. [[activity]]
+	59. [[activity tracker]]
+	60. actuating transfer function
+		1. See feedback control loop
+	61. [[actuator]]
+	62. [[adaptive control system]]
+	63. adaptive delta modulation
+		1. (ADM) see pulse modulation.
+	64. [[adaptive differential pulse code modulation]]
+	65. adaptive equalizer
+		1. See equalization.
+	66. [[adaptive system]]
+	67. ADC
+		1. See ANALOGUE-TO-DIGITAL CONVERTER.
+	68. [[ADCCP]]
+	69. [[Adcock direction finder]]
+	70. [[adder]]
+	71. additive synthesis
+		1. See synthesis
+	72. [[address]]
+	73. [[address bus]]
+	74. [[addressing mode]]
+	75. ADM
+		1. (adaptive delta modulation) See pulse modulation.
+	76. [[admittance]]
+	77. [[admittance gap]]
+	78. ADPCM
+		1. See adaptive differential pulse code modulation
+	79. ADSL
+		1. See asynchronous digital subscriber line
+	80. ADSR
+		1. See attack decay sustain release
+	81. [[advanced audio coding]]
+	82. aerial
+		1. See antenna
+	83. AES
+		1. See auger electron spectroscopy
+	84. afterglow
+		1. See persistence
+	85. [[aftertouch]]
+	86. ageing
+		1. (burn-in) See failure rate
+	87. AI
+		1. See artificial intelligence
+	88. [[air bridge]]
+	89. [[air capacitor]]
+	90. [[air gap]]
+	91. airport surveillance radar
+		1. (ASR) See precision approach radar.
+	92. [[algorithm]]
+	93. [[aliasing]]
+	94. all-pass network
+		1. See network
+	95. allowed band
+		1. See energy bands
+	96. [[alloyed device]]
+	97. [[alloyed junction]]
+	98. alpha current factor
+		1. See common-base forward-current transfer ratio.
+	99. [[alpha cut-off frequency]]
+	100. [[alphanumeric]]
+	101. [[alternating-current generator]]
+	102. [[alternating-current motor]]
+	103. alternating-current resistance
+		1. See effective resistance.
+	104. [[alternating-current transmission]]
+	105. [[alternating current]]
+	106. [[alternative routing]]
+	107. alternator
+		1. See synchronous alternating-current generator
+	108. ALU
+		1. See arithmetic logic unit
+	109. [[alumina]]
+	110. [[aluminium]]
+	111. [[aluminium antimonide]]
+	112. [[aluminium PCB]]
+	113. [[ambisonics]]
+	114. [[AM detector]]
+	115. AMI PCM
+		1. (alternate mark inversion pulse code modulation) See pulse modulation.
+	116. [[ammeter]]
+	117. AMOLED
+		1. See active-matrix organic light-emitting diode.
+	118. [[amorphous silicon]]
+	119. [[ampere]]
+	120. [[Ampere's law]]
+	121. [[ampere-hour]]
+	122. [[ampere-turn]]
+	123. ampere balance
+		1. See kelvin balance
+	124. [[ampere per meter]]
+	125. [[amplification]]
+	126. [[amplification factor]]
+	127. [[amplifier]]
+	128. [[amplifier stage]]
+	129. [[amplitude]]
+	130. [[amplitude compandoring]]
+	131. [[amplitude demodulator]]
+	132. amplitude distortion
+		1. See distortion.
+	133. [[amplitude equalizer]]
+	134. amplitude fading
+		1. See fading
+	135. [[amplitude modulation]]
+	136. [[amplitude response]]
+	137. [[AM receiver]]
+	138. [[analogue-to-digital converter]]
+	139. [[analogue circuit]]
+	140. analogue computer
+		1. See computer
+	141. analogue delay line
+		1. See delay line
+	142. analogue gate
+		1. See gate
+	143. [[analogue signal]]
+	144. [[analogue switch]]
+	145. [[analogue transmission]]
+	146. [[anamorphic video]]
+	147. anaphoresis
+		1. See ELECTROPHORESIS.
+	148. AND circuit
+		1. (AND gate) See logic circuit
+	149. [[Anderson bridge]]
+	150. [[anechoic chamber]]
+	151. angle modulation
+		1. See modulation
+	152. [[angle of flow]]
+	153. [[angstrom]]
+	154. [[angular frequency]]
+	155. [[anion]]
+	156. [[anisotropic]]
+	157. anisotype heterojunction
+		1. See heterojunction
+	158. [[anneal]]
+	159. [[anode]]
+	160. [[anode current]]
+	161. anode dark space
+		1. See diagram at gas-discharge tube.
+	162. anode glow
+		1. See diagram at gas-discharge tube.
+	163. anode stopper
+		1. See parasitic oscillations.
+	164. ANSI
+		1. (American National Standards Institute) See standardization.
+	165. [[antenna]]
+	166. [[antenna array]]
+	167. [[antenna current]]
+	168. [[antenna diversity]]
+	169. [[antenna efficiency]]
+	170. [[antenna factor]]
+	171. [[antenna feedpoint impedance]]
+	172. [[antenna gain]]
+	173. [[antenna pattern]]
+	174. [[antenna polarization]]
+	175. [[antenna radiation resistance]]
+	176. [[antenna resistance]]
+	177. antenna system
+		1. See antenna
+	178. [[antenna temperature]]
+	179. anti-aliasing
+		1. See alliasing
+	180. [[anti-aliasing filter]]
+	181. [[anti-interference antenna system]]
+	182. [[anti-lock braking system]]
+	183. [[anticapacitance switch]]
+	184. anticathode
+		1. (target electrode) See X-Ray Tube.
+	185. [[anticausal system]]
+	186. [[anticoincidence circuit]]
+	187. [[antiferromagnetism]]
+	188. [[antihunting circuit]]
+	189. [[antijam margin]]
+	190. [[antijamming]]
+	191. antinode
+		1. See node
+	192. [[antiphase]]
+	193. [[antipodal signal]]
+	194. [[antiresonance]]
+	195. APCVD
+		1. (atmospheric pressure chemical vapor deposition) See chemical vapor deposition.
+	196. [[aperiodic circuit]]
+	197. aperiodic damping
+		1. (overdamping) See damped.
+	198. [[aperiodic signal]]
+	199. [[aperiodic waveform]]
+	200. [[aperture antenna]]
+	201. aperture distortion
+		1. See distortion
+	202. apparent power
+		1. See power
+	203. Appleton layer
+		1. (F-layer) See ionosphere
+	204. applications software
+		1. See software
+	205. [[arbitrary constant]]
+	206. [[arbitrary unit]]
+	207. [[arc]]
+	208. arc discharge
+		1. See gas-discharge tube
+	209. architecture
+		1. See computer architecture
+	210. [[arcing contacts]]
+	211. [[arcing horn]]
+	212. [[arc lamp]]
+	213. arcover
+		1. See flashover
+	214. Argand diagram
+		1. See complex plane.
+	215. [[argon]]
+	216. [[argument of a complex number]]
+	217. [[arithmetic logic unit]]
+	218. [[armature]]
+	219. armature relay
+		1. See relay
+	220. [[Arpanet]]
+	221. ARQ
+		1. (automatic repeat request) See digital communications.
+	222. [[Arrhenius equation]]
+	223. [[arsenic]]
+	224. [[artificial antenna]]
+	225. [[artificial intelligence]]
+	226. [[artificial line]]
+	227. artificial satellite
+		1. See satellite
+	228. [[American Standard Code for Information Interchange|ASCII]]
+	229. [[ASIC]]
+	230. ASK
+		1. (amplitude shift keying) See amplitude modulation.
+	231. [[aspect ratio]]
+	232. ASR
+		1. (airport surveillance radar) See precision approach radar.
+	233. [[assembly language]]
+	234. [[associative memory]]
+	235. astable multivibrator
+		1. See multivibrator.
+	236. [[astatic galvanometer]]
+	237. Aston dark space
+		1. See diagram at gas-discharge tube.
+	238. [[asymmetric]]
+	239. [[asymmetric mode]]
+	240. asymmetric transducer
+		1. See transducer
+	241. asymmetric two-port network
+		1. See two-port network
+	242. [[asymptotic]]
+	243. [[asymptotic stability]]
+	244. [[asynchronous]]
+	245. [[asynchronous digital subscriber line]]
+	246. asynchronous logic
+		1. See synchronous logic
+	247. [[asynchronous transfer mode]]
+	248. [[asynchronous transmission]]
+	249. ATE
+		1. See automated test equipment
+	250. ATM
+		1. See asynchronous transfer mode
+	251. [[atomic number]]
+	252. ATR switch
+		1. (anti-transmit-receive switch) See transmit-receive switch.
+	253. [[attack decay sustain release]]
+	254. [[attenuation]]
+	255. attenuation band
+		1. See filter
+	256. [[attenuation constant]]
+	257. [[attenuation equalizer]]
+	258. [[attenuator]]
+	259. [[atto-]]
+	260. [[attracted-disc electrometer]]
+	261. [[audio clipping]]
+	262. [[audio compression and encoding]]
+	263. [[audiofrequency]]
+	264. [[audiometer]]
+	265. [[audio signal]]
+	266. [[audio spectrogram]]
+	267. [[audio spectrum]]
+	268. [[Auger electron spectroscopy]]
+	269. Auger process
+		1. See recombination processes.
+	270. [[augmented reality]]
+	271. autocatalytic plating
+		1. See electroless plating
+	272. autocorrelation
+		1. See correlation
+	273. [[autofocus]]
+	274. [[autolanding system]]
+	275. [[automated test equipment]]
+	276. [[automatic brightness control]]
+	277. [[automatic control]]
+	278. automatic direction finding
+		1. See direction finding.
+	279. [[automatic frequency control]]
+	280. [[automatic gain control]]
+	281. automatic grid bias
+		1. See grid bias
+	282. [[automatic noise limiter]]
+	283. [[automatic tracking]]
+	284. [[automatic tuning control]]
+	285. automatic volume compressor
+		1. See volume compressor
+	286. automatic volume control
+		1. See automatic gain control.
+	287. automatic volume expander
+		1. See volume compressor
+	288. [[automotive electronics]]
+	289. [[automotive navigation system]]
+	290. [[autonomous system]]
+	291. [[autotransductor]]
+	292. [[autotransformer]]
+	293. [[availability]]
+	294. available power
+		1. See maximum power theorem.
+	295. [[avalanche]]
+	296. [[avalanche breakdown]]
+	297. avalanche photodiode
+		1. See photodiode.
+	298. [[average power]]
+	299. [[averaging filter]]
+	300. [[avionics]]
+	301. Ayrton shunt
+		1. See universal shunt.
+	302. B-H curve
+		1. See hysteresis loop
+	303. [[Babinet's principle]]
+	304. [[back electromotive force]]
+	305. [[backgating]]
+	306. back heating
+		1. Se magnetron
+	307. backing store
+		1. See memory
+	308. [[backlash]]
+	309. back lobe
+		1. See antenna pattern
+	310. [[backplane]]
+	311. backward-wave oscillator
+		1. See traveling-wave tube
+	312. backward diode
+		1. See tunnel diode
+	313. [[balance controls]]
+	314. [[balanced-wire circuit]]
+	315. balanced amplifier
+		1. (push-pull amplifier) See push-pull operation
+	316. [[balanced line]]
+	317. [[balanced load]]
+	318. balanced modulator
+		1. See ring modulator
+	319. [[balanced source]]
+	320. balanced two-port network
+		1. See two-port network
+	321. balance method
+		1. See null method
+	322. [[ballast resistor]]
+	323. [[ball grid array]]
+	324. [[ballistic galvanometer]]
+	325. [[balun]]
+	326. [[banana]]
+	327. [[band]]
+	328. [[band-limited channel]]
+	329. band-pass filter
+		1. See filter
+	330. band-stop filter
+		1. (band-reject filter) See filter
+	331. band-to-band recombination
+		1. See recombination processes
+	332. band edge
+		1. See cut-off frequency
+	333. band gap
+		1. (forbidden band) See energy band.
+	334. [[bandspread]]
+	335. band switch
+		1. See turret tuner.
+	336. [[bandwidth]]
+	337. [[bank]]
+	338. [[Barkhausen effect]]
+	339. [[barrage reception]]
+	340. barrel distortion
+		1. See distortion
+	341. [[barrel shifter]]
+	342. barrier height
+		1. (Schottky barrier height) See Schottky diode; Schottky effect
+	343. [[barrier potential]]
+	344. Bartlett window
+		1. (triangular window) See windowing.
+	345. [[base]]
+	346. [[base address]]
+	347. baseband
+		1. See carrier wave
+	348. base characteristic
+		1. See input characteristic
+	349. base level
+		1. (of a pulse) See pulse
+	350. base limiter
+		1. (inverse limiter) See limiter
+	351. base region
+		1. See base
+	352. [[base station]]
+	353. base stopper
+		1. See parasitic oscillations.
+	354. base units
+		1. See SI Units
+	355. [[battery]]
+	356. [[baud]]
+	357. Baudot code
+		1. See digital codes
+	358. [[bayonet fitting]]
+	359. BBD
+		1. See bucket-brigade device.
+	360. BCD
+		1. See binary-coded decimal
+	361. [[BCH codes]]
+	362. BCI
+		1. (brain-computer interface) See direct neural interface
+	363. BCS theory
+		1. See superconductivity
+	364. [[beacon]]
+	365. bead thermistor
+		1. See thermistor
+	366. [[beam]]
+	367. [[beam coupling]]
+	368. [[beamforming]]
+	369. [[beam lead]]
+	370. beam switching
+		1. See LOBE SWITCHING.
+	371. [[beamwidth]]
+	372. [[beats]]
+	373. [[behavioral modeling]]
+	374. [[Beidou]]
+	375. bel
+		1. See decibel
+	376. [[benchmark]]
+	377. [[beryllium oxide]]
+	378. [[Bessel filter]]
+	379. beta circuit
+		1. See feedback
+	380. [[beta current gain factor]]
+	381. [[beta cut-off frequency]]
+	382. BFSK
+		1. (binary frequency shift keying) See frequency modulation
+	383. BGA
+		1. See ball grid array.
+	384. [[bias]]
+	385. biased automatic gain control
+		1. (delayed automatic gain control) See automatic gain control.
+	386. [[biased estimate]]
+	387. [[BiCMOS]]
+	388. [[biconical antenna]]
+	389. bidirectional network
+		1. (bilateral network) See Network
+	390. [[bidirectional shift register]]
+	391. bidirectional transducer
+		1. (bilateral transducer) See transducer 
+	392. [[bidirectional transistor]]
+	393. BiFET
+		1. See integrated circuit.
+	394. [[bifilar suspension]]
+	395. [[bifilar winding]]
+	396. [[big endian]]
+	397. bilateral network
+		1. (bidirectional network) See network.
+	398. bilateral transducer
+		1. (bidirectional transducer) See transducer
+	399. bilevel resist
+		1. See multilevel resist
+	400. [[Bilog antenna]]
+	401. [[bimetallic strip]]
+	402. [[binary-coded decimal]]
+	403. binary adder
+		1. See adder
+	404. binary ASK
+		1. See amplitude modulation
+	405. [[binary code]]
+	406. [[binary complement]]
+	407. binary FSK
+		1. See frequency modulation
+	408. binary logic circuit
+		1. See logic circuit
+	409. [[binary notation]]
+	410. binary PSK
+		1. See phase modulation
+	411. binary scaler
+		1. See scaler
+	412. [[binary signal]]
+	413. [[binary variable]]
+	414. [[binding energy]]
+	415. [[bioelectronics]]
+	416. [[BIOS]]
+	417. [[Biot-Savart law]]
+	418. biphase PCM
+		1. (Machester code) See pulse modulation
+	419. [[bipolar integrated circuit]]
+	420. [[bipolar junction transistor]]
+	421. bipolar logic circuit
+		1. See logic circuit
+	422. [[bipolar signaling]]
+	423. [[biquad filter]]
+	424. [[bistable]]
+	425. [[bit]]
+	426. [[bit-slice processor]]
+	427. [[bit depth]]
+	428. bit line
+		1. See RAM
+	429. BJT
+		1. See bipolar junction transistor
+	430. [[black-out]]
+	431. black-out point
+		1. See cut-off
+	432. [[black box]]
+	433. black level
+		1. See television
+	434. Blackman window
+		1. See windowing
+	435. [[blank-and-burst]]
+	436. [[blanking]]
+	437. blanking level
+		1. See television
+	438. [[blob tracking]]
+	439. Bloch walls
+		1. See ferromagnetism.
+	440. [[block]]
+	441. block code
+		1. See digital codes. See also digital communications.
+	442. [[block diagram]]
+	443. [[blocked impedance]]
+	444. [[blocking]]
+	445. [[blocking capacitor]]
+	446. [[blocking oscillator]]
+	447. [[Blu-ray disk]]
+	448. [[Bluetooth]]
+	449. BMI
+		1. (brain-machine interface) See direct neural interface.
+	450. [[BNC connector]]
+	451. [[Bode diagram]]
+	452. [[Bode equalizer]]
+	453. [[body capacitance]]
+	454. [[bolometer]]
+	455. [[Boltzmann constant]]
+	456. [[bonded]]
+	457. bonded silvered mica capacitor
+		1. See mica capacitor
+	458. [[bonding pads]]
+	459. [[Boolean algebra]]
+	460. [[Boolean function]]
+	461. [[booster]]
+	462. [[bootstrapping]]
+	463. [[boron resistor]]
+	464. [[bottom-up nanofabrication]]
+	465. [[boundary conditions]]
+	466. bow-tie antenna
+		1. see biconical antenna
+	467. BPSK
+		1. (binary phase shift keying) See phase modulation
+	468. branch
+		1. See network
+	469. [[branch instruction]]
+	470. branch point
+		1. (node) See network
+	471. [[breadboard model]]
+	472. [[break]]
+	473. [[breakdown]]
+	474. [[breakdown voltage]]
+	475. break frequency
+		1. (band edge; corner frequency; critical frequency; cut-off frequency) See cut-off frequency.
+	476. [[breakpoint]]
+	477. [[bremsstrahlung]]
+	478. [[Brewster angle]]
+	479. [[bridge]]
+	480. [[bridge camera]]
+	481. bridged-H network
+		1. See two-port network
+	482. bridged-T network
+		1. See two-port network
+	483. Bridgeman method
+		1. See horizontal bridgeman
+	484. bridge network
+		1. See network
+	485. [[bridge rectifier]]
+	486. British Standards Institute
+		1. (BSI) See standardization
+	487. [[broadband]]
+	488. [[broadband antenna]]
+	489. [[broadband dipole]]
+	490. [[broadcasting]]
+	491. broadside array
+		1. See antenna arary
+	492. Broca galvanometer
+		1. See astatic galvanometer
+	493. [[brush]]
+	494. [[brush discharge]]
+	495. BSI
+		1. (British Standards Institute) See standardization
+	496. [[BSI sensor]]
+	497. [[bucket-brigade device]]
+	498. [[buffer]]
+	499. [[buffer memory]]
+	500. [[bug]]
+	501. built-in field
+		1. (diffusion potential) See P-N junction
+	502. built-in voltage
+		1. See barrier potential
+	503. bulk-channel FET
+		1. See field-effect transistor
+	504. bulk acoustic wave
+		1. See acoustic wave device
+	505. [[bulk properties]]
+	506. [[bulk resistance]]
+	507. buncher
+		1. See velocity modulation; klystron
+	508. bunching
+		1. See velocity modulation
+	509. [[buried layer]]
+	510. burn-in
+		1. (aging) See failure rate
+	511. [[bus]]
+	512. [[bushing]]
+	513. [[bus network]]
+	514. [[Butterworth filter]]
+	515. button mica capacitor
+		1. See mica capacitor
+	516. BW
+		1. See bandwidth
+	517. [[by-pass capacitor]]
+	518. [[byte]]
+	519. byte-addressable
+		1. See address
+	520. C-V curves
+		1. See capacitance-voltage curves
+	521. [[cable]]
+	522. [[cable tester]]
+	523. [[cache memory]]
+	524. CAD
+		1. See computer-aided design
+	525. [[Cadence]]
+	526. cadmium cell
+		1. See Weston standard cell
+	527. [[cadmium telluride]]
+	528. CAE
+		1. See computer-aided engineering.
+	529. [[calibration]]
+	530. CAM
+		1. (1) See computer-aided manufacturing
+		2. (2) (content-addressable memory) See associative memory
+	531. [[camera phone]]
+	532. [[Campbell bridge]]
+	533. [[canonical form]]
+	534. [[capacitance]]
+	535. [[capacitance-voltage curves]]
+	536. capacitance integrator
+		1. See integrator
+	537. capacitance strain gauge
+		1. (variable capacitance gauge) See strain gauge.
+	538. capacitive coupling
+		1. See coupling
+	539. capacitive feedback
+		1. See feedback
+	540. capacitive load
+		1. See leading load
+	541. capacitive reactance
+		1. See reactance
+	542. [[capacitive touchscreen]]
+	543. capacitive tuning
+		1. See tuned circuit
+	544. [[capacitor]]
+	545. [[capacitor microphone]]
+	546. capacity
+		1. (1) See channel capacity; memory capacity
+		2. (2) An obsolete term for capacitance
+	547. capture ratio
+		1. See cochannel rejection
+	548. [[carbon]]
+	549. carbon-composition resistor
+		1. (carbon resistor) See resistor
+	550. carbon-film resistor
+		1. See film resistor
+	551. [[carbon-loaded]]
+	552. [[carbon microphone]]
+	553. carbon resistor
+		1. (carbon-composition resistor) See resistor
+	554. [[cardioid microphone]]
+	555. [[Carey-Foster bridge]]
+	556. [[carrier]]
+	557. [[carrier concentration]]
+	558. [[carrier frequency]]
+	559. carrier mobility
+		1. See drift mobility
+	560. [[carrier recombination]]
+	561. [[carrier storage]]
+	562. [[carrier transmission]]
+	563. [[carrier wave]]
+	564. [[cascade control]]
+	565. [[cascaded systems]]
+	566. [[cascode connection]]
+	567. [[Cassegrain feed]]
+	568. CAT
+		1. (computerized axial tomography) See neuroimaging
+	569. cat's whisker
+		1. See point contact
+	570. catastrophic failure
+		1. See failure
+	571. catcher
+		1. See klystron
+	572. [[cathode]]
+	573. [[cathode-ray oscilloscope]]
+	574. [[cathode-ray tube]]
+	575. cathode dark space
+		1. (Crookes dark space) See Gas-discharge tube
+	576. cathode follower
+		1. See emitter follower
+	577. cathode glow
+		1. See diagram at gas-discharge tube
+	578. [[cathode rays]]
+	579. [[cathodoluminescence]]
+	580. [[cation]]
+	581. Cauer filter
+		1. See elliptic filter
+	582. [[causal system]]
+	583. [[cavity resonator]]
+	584. [[C band]]
+	585. CCCS
+		1. (current-controlled current source) See dependent sources
+	586. CCD
+		1. See charge-coupled device
+	587. [[CCD filter]]
+	588. [[CCD memory]]
+	589. [[CCD sensor]]
+	590. CCI
+		1. (first-generation current conveyor) See current conveyor
+	591. CCII
+		1. (second-generation current conveyor)
+	592. CCS
+		1. (centum call second) See network traffic measurement.
+	593. CCTV
+		1. See closed-circuit television
+	594. CCVS
+		1. (current-controlled voltage source) See dependent sources.
+	595. CD
+		1. (compact disc) See compact disc system
+	596. [[CD-R]]
+	597. [[CD-ROM]]
+	598. [[CD-RW]]
+	599. CDMA
+		1. (code-division multiple access) See digital communications
+	600. [[cell]]
+	601. [[cell constant]]
+	602. [[cell site]]
+	603. [[cell tower]]
+	604. [[cellular automata]]
+	605. [[cellular communications]]
+	606. CELP
+		1. (code-excited linear prediction) See linear prediction
+	607. [[centi-]]
+	608. [[central limit theorem]]
+	609. [[central processing unit]]
+	610. [[center clipper]]
+	611. [[center frequency]]
+	612. [[center tap]]
+	613. centum call second
+		1. (CCS) See network traffic measurement
+	614. [[cepstrum]]
+	615. [[ceramic capacitor]]
+	616. [[ceramic filter]]
+	617. ceramic pick-up
+		1. See pick-up
+	618. [[cermet]]
+	619. [[color graphics adapter|CGA]]
+	620. CGI
+		1. See common gateway interface
+	621. [[CGS system]]
+	622. chaff
+		1. See confusion reflector
+	623. [[channel]]
+	624. [[channel capacity]]
+	625. channel code
+		1. See compact disc system
+	626. [[channel stopper]]
+	627. [[characteristic]]
+	628. characteristic equation
+		1. See complementary function
+	629. characteristic impedance
+		1. See iterative impedance; transmission line
+	630. [[charge]]
+	631. [[charge-coupled device]]
+	632. charge-storage diode
+		1. See step-recovery diode
+	633. [[charge-transfer device]]
+	634. charge carrier
+		1. See carrier; semiconductor
+	635. [[charge density]]
+	636. charge storage
+		1. See carrier storage
+	637. chart recorder
+		1. See graphic instrument
+	638. [[Chebyshev filter]]
+	639. [[chemical vapor deposition]]
+	640. chemiluminescence
+		1. See luminescence
+	641. Child's law
+		1. See thermionic valve
+	642. [[chip]]
+	643. [[chip-enable]]
+	644. [[chip capacitor]]
+	645. [[chip carrier]]
+	646. [[chip inductor]]
+	647. [[chip resistor]]
+	648. [[chirp]]
+	649. [[choke]]
+	650. choke coupling
+		1. See coupling
+	651. chopped impulse voltage
+		1. See impulse voltage
+	652. [[chopper amplifier]]
+	653. [[chronotron]]
+	654. [[cipher]]
+	655. CIRC
+		1. (cross-interleave Reed-Solomon code) See Digital Codes
+	656. [[circuit]]
+	657. [[circuit-breaker]]
+	658. [[circuit diagram]]
+	659. [[circuit loop]]
+	660. [[circuit loop analysis]]
+	661. [[circuit mesh analysis]]
+	662. [[circuit switching]]
+	663. circular function
+		1. See trigonometric function
+	664. circular polarization
+		1. See polarization
+	665. circular scanning
+		1. See scanning
+	666. [[complex instruction set computer|CISC]]
+	667. clamp-type mica capacitor
+		1. See mica capacitor
+	668. [[clamping circuit]]
+	669. [[Clark cell]]
+	670. [[class A amplifier]]
+	671. [[class AB amplifier]]
+	672. [[class B amplifier]]
+	673. [[class C amplifier]]
+	674. [[class D amplifier]]
+	675. [[class E amplifier]]
+	676. [[class F amplifier]]
+	677. [[class G amplifier]]
+	678. [[class H amplifier]]
+	679. [[classical control]]
+	680. [[class S amplifier]]
+	681. [[claytronics]]
+	682. [[clear]]
+	683. [[clear to send]]
+	684. [[clipping]]
+	685. [[clock]]
+	686. [[clock cycle]]
+	687. clocked flip-flop
+		1. See flip-flop
+	688. clock skew
+		1. See skew
+	689. [[closed-circuit television]]
+	690. [[closed-loop control system]]
+	691. [[closed-loop frequency response]]
+	692. [[closed-loop gain]]
+	693. [[closed-loop voltage gain]]
+	694. closed circuit
+		1. See circuit
+	695. [[cloud computing]]
+	696. [[cluster analysis]]
+	697. [[clutter]]
+	698. CLV
+		1. (constant linear velocity) See compact disc system
+	699. CMOS
+		1. See MOSFET; complementary transistors
+	700. CMOS logic circuit
+		1. See MOS Logic Circuit
+	701. [[CMOS sensor]]
+	702. CMR
+		1. See common-mode rejection
+	703. CMRR
+		1. See common-mode rejection ratio
+	704. coarse scanning
+		1. See radar; scannnig.
+	705. [[coaxial cable]]
+	706. coaxial pair
+		1. See pair
+	707. coaxial resonator
+		1. See waveguide
+	708. cochannel interference
+		1. See interference
+	709. [[cochannel rejection]]
+	710. code
+		1. See digital codes.
+	711. code-excited linear prediction
+		1. See linear prediction
+	712. code beacon
+		1. See beacon
+	713. [[codec]]
+	714. code distance
+		1. See digital codes
+	715. coder
+		1. See pulse modulation
+	716. code rate
+		1. See digital codes
+	717. coding gain
+		1. See digital codes
+	718. coding weight
+		1. See digital codes
+	719. coercive force
+		1. See magnetic hysteresis
+	720. [[cognitive radio]]
+	721. coherent detection
+		1. (coherent demodulation) See modulation
+	722. [[coherent radiation]]
+	723. [[coil]]
+	724. coil loading
+		1. See transmission line
+	725. [[coincidence circuit]]
+	726. [[cold cathode]]
+	727. cold emission
+		1. See field emission
+	728. [[collector]]
+	729. [[collector-current multiplication factor]]
+	730. [[collector characteristic]]
+	731. collector efficiency
+		1. See common-base forward-current transfer ratio
+	732. [[collision avoidance systems]]
+	733. [[color code]]
+	734. color flicker
+		1. See flicker
+	735. [[color fringing]]
+	736. [[color picture tube]]
+	737. color saturation control
+		1. See television receiver
+	738. Colpitt's oscillator
+		1. See oscillator
+	739. coma
+		1. See distortion
+	740. [[comb filter]]
+	741. combination-tone distortion
+		1. (intermodulation distortion) See distortion
+	742. [[combinational logic]]
+	743. common-anode connection
+		1. See common-collector connection
+	744. [[common-base connection]]
+	745. common-base current gain
+		1. See common-base forward-current transfer ratio
+	746. [[common-base forward-current transfer ratio]]
+	747. common-cathode connection
+		1. See common-emitter connection
+	748. [[common-collector connection]]
+	749. common-drain connection
+		1. See common-collector connection
+	750. [[common-emitter connection]]
+	751. common-emitter forward-current transfer ratio
+		1. See beta current gain factor
+	752. common-gate connection
+		1. See common-base connection
+	753. common-impedance coupling
+		1. See coupling
+	754. common-mode chokes
+		1. See electromagnetic compatibility
+	755. common-mode currents
+		1. See electromagnetic compatibility
+	756. [[common-mode rejection]]
+	757. [[common-mode rejection ratio]]
+	758. [[common-mode signal]]
+	759. common-source connection
+		1. See common-emitter connection
+	760. common branch
+		1. (mutual branch) See network
+	761. [[common gateway interface]]
+	762. [[communication channel]]
+	763. [[communication network]]
+	764. [[communications satellite]]
+	765. [[commutation]]
+	766. [[commutation switch]]
+	767. commutator
+		1. See motor
+	768. [[compact camera]]
+	769. compact disc recordable
+		1. Se CD-R.
+	770. compact disc rewritable
+		1. See CD-RW.
+	771. [[compact disc system]]
+	772. [[compact system camera]]
+	773. compandor
+		1. See volume compressor; amplitude compandoring.
+	774. [[comparator]]
+	775. [[compensated semiconductor]]
+	776. [[compensating leads]]
+	777. [[compensation network]]
+	778. [[compensator]]
+	779. compiler
+		1. See programming language
+	780. [[complementary function]]
+	781. [[complementary transistors]]
+	782. [[complex conjugate]]
+	783. complex frequency
+		1. See Laplace Transform. See also S-Domain Circuit Analysis.
+	784. complex impedance
+		1. See impedance
+	785. [[complex number]]
+	786. complex operator
+		1. See S-domain circuit analysis
+	787. [[complex plane]]
+	788. [[component]]
+	789. [[component part]]
+	790. [[component video]]
+	791. [[COM port]]
+	792. composite cable
+		1. See cable
+	793. [[composite conductor]]
+	794. composition resistor
+		1. Usually a carbon-composition resistor. See RESISTOR.
+	795. compound magnet
+		1. See permanent magnet
+	796. compound modulation
+		1. (multiple modulation) See modulation
+	797. [[compound semiconductor]]
+	798. compression
+		1. See data compression
+	799. [[compression point]]
+	800. compressor
+		1. See volume compressor
+	801. [[computed tomography]]
+	802. [[computer]]
+	803. [[computer-aided design]]
+	804. [[computer-aided engineering]]
+	805. [[computer-aided manufacturing]]
+	806. [[computer architecture]]
+	807. computerized axial tomography
+		1. (CAT) See neuroimaging
+	808. [[computer vision]]
+	809. concatenated codes
+		1. See digital codes
+	810. concatenative synthesis
+		1. See speech synthesis
+	811. [[concentration cell]]
+	812. [[concentration gradient]]
+	813. [[concentrator]]
+	814. [[concurrency]]
+	815. condenser
+		1. An obsolete term for capacitor
+	816. conditional branch
+		1. See branch instruction
+	817. [[conductance]]
+	818. conducted emissions
+		1. See electromagnetic compatibility
+	819. conducted interference
+		1. See electromagnetic compatibility
+	820. conducted susceptibility
+		1. See electromagnetic compatibility
+	821. [[conduction]]
+	822. [[conduction band]]
+	823. conduction current
+		1. See current
+	824. [[conduction electrons]]
+	825. [[conductivity]]
+	826. [[conductor]]
+	827. cone loudspeaker
+		1. See loudspeaker
+	828. [[confusion reflector]]
+	829. conical scanning
+		1. See scanning
+	830. conjugate branches
+		1. See network
+	831. [[conjugate impedances]]
+	832. [[conjugate matching]]
+	833. [[connection-oriented]]
+	834. [[constant-current source]]
+	835. constant-R network
+		1. See two-port network
+	836. [[constant-voltage source]]
+	837. [[constantan]]
+	838. constant failure-rate period
+		1. See failure rate
+	839. [[constraint length]]
+	840. [[consumer electronics]]
+	841. [[Consumer Technology Association]]
+	842. [[contact]]
+	843. [[contactless smartcard]]
+	844. contact lithography
+		1. See photolithography
+	845. contact noise
+		1. See noise
+	846. [[contactor]]
+	847. content-addressable memory
+		1. (CAM) See associative memory
+	848. [[continuity equation]]
+	849. [[continuity tester]]
+	850. continuous-wave radar
+		1. See radar
+	851. continuous duty
+		1. See duty
+	852. continuous loading
+		1. See transmission line
+	853. continuously variable slope delta modulation
+		1. (CVSD) See pulse modulation
+	854. [[continuous wave]]
+	855. contrast autofocus system
+		1. See autofocus
+	856. [[contrast enhancement]]
+	857. [[contrast ratio]]
+	858. [[control]]
+	859. [[control bus]]
+	860. [[control electrode]]
+	861. control grid
+		1. See control electrode; thermionic valve
+	862. controlled-carrier modulation
+		1. See floating-carrier modulation
+	863. controlled sources
+		1. See dependent sources
+	864. [[controlled system]]
+	865. [[control plane]]
+	866. [[control system]]
+	867. control unit
+		1. See central processing unit
+	868. [[convergence]]
+	869. conversion gain ratio
+		1. See frequency changer
+	870. conversion transducer
+		1. See frequency changer
+	871. conversion voltage gain
+		1. See frequency changer
+	872. [[converter]]
+	873. [[convolution]]
+	874. [[convolutional code]]
+	875. Cooper pair
+		1. See superconductivity
+	876. [[coplanar process]]
+	877. [[coplanar waveguide]]
+	878. [[copper]]
+	879. copper loss
+		1. $(I^2R \text{ loss})$ See heating effect of a current; dissipation 
+	880. [[coprocessor]]
+	881. [[core]]
+	882. [[core-type transformer]]
+	883. [[core loss]]
+	884. corner frequency
+		1. See cut-off frequency
+	885. [[corner reflector antenna]]
+	886. [[correlation]]
+	887. cosine potentiometer
+		1. See potentiometer.
+	888. [[cosine wave]]
+	889. [[Cotton balance]]
+	890. [[coulomb]]
+	891. [[Coulomb's law]]
+	892. [[coulombmeter]]
+	893. [[counter]]
+	894. [[counter-frequency meter|counter/frequency meter]]
+	895. [[coupling]]
+	896. [[coverage area]]
+	897. CPS
+		1. See cycles per second
+	898. CPU
+		1. See central processing unit
+	899. CPW
+		1. See coplanar waveguide
+	900. [[Cramer's rule]]
+	901. CRC
+		1. See cyclic redundancy check
+	902. crest factor
+		1. See peak factor; pulse
+	903. crest value
+		1. See peak value
+	904. [[critical bandwidth]]
+	905. critical coupling
+		1. See coupling
+	906. [[critical current density]]
+	907. critical damping
+		1. See damped
+	908. critical field
+		1. (1) See avalanche breakdown
+		2. (2) See magnetron
+	909. critical frequency
+		1. See cut-off frequency
+	910. CRO
+		1. See cathode-ray oscilloscope
+	911. Crookes dark space
+		1. (cathode dark space) See gas-discharge tube
+	912. [[crossbar switch]]
+	913. cross correlation
+		1. See correlation
+	914. cross coupling
+		1. See coupling
+	915. crossed-field microwave tube
+		1. (M-type microwave tube) See microwave tube
+	916. cross modulation
+		1. See modulation
+	917. [[crossover]]
+	918. crossover distortion
+		1. See distortion
+	919. [[crossover network]]
+	920. [[crosstalk]]
+	921. CRT
+		1. See cathode-ray tube
+	922. crystal-controlled oscillator
+		1. See piezoelectric oscillator
+	923. [[crystal-controlled transmitter]]
+	924. [[crystal filter]]
+	925. [[crystal growth furnace]]
+	926. [[crystal lattice]]
+	927. [[crystal loudspeaker]]
+	928. [[crystal microphone]]
+	929. crystal oscillator
+		1. See piezoelectric oscillator
+	930. crystal puller
+		1. See liquid-encapsulated czochralski
+	931. CSC
+		1. See compact system camera
+	932. CSMA
+		1. (carrier-sense multiple access) See digital communications.
+	933. CT
+		1. See computed tomography
+	934. CTA
+		1. See consumer technology association
+	935. CTD
+		1. See charge-transfer device
+	936. CTS
+		1. See clear to send
+	937. Curie's law
+		1. See paramagnetism
+	938. Curie-Weiss law
+		1. See paramagnetism
+	939. Curie point
+		1. (magnetic transition temperature; ferromagnetic Curie temperature) See FERROMAGNETISM.
+	940. [[curl]]
+	941. [[current]]
+	942. current-controlled current source
+		1. (CCCS) See dependent sources.
+	943. current-controlled voltage source
+		1. (CCVS) See dependent sources.
+	944. [[current-induced magnetic switching]]
+	945. [[current-mode circuits]]
+	946. [[current amplifier]]
+	947. current average
+		1. See alternating current
+	948. current balance
+		1. See kelvin balance
+	949. [[current conveyor]]
+	950. [[current density]]
+	951. [[current divider]]
+	952. current feedback
+		1. (series feedback) See feedbark
+	953. current gain
+		1. (large signal) See large signal current gain
+	954. [[current injection]]
+	955. current law
+		1. See Kirchhoff's Laws
+	956. current limiter
+		1. See limiter
+	957. [[current mirror]]
+	958. [[current probe]]
+	959. current regulator
+		1. See regulator
+	960. current relay
+		1. See relay
+	961. current saturation
+		1. See saturation current
+	962. [[current source]]
+	963. current transfer ratio
+		1. See common-base forward-current transfer ratio.
+	964. current transformer
+		1. (series transformer) See transformer; instrument transformer.
+	965. [[cut-off]]
+	966. [[cut-off frequency]]
+	967. cut-off voltage
+		1. (of a television camera tube) See target voltage
+	968. [[cut-out]]
+	969. CVD
+		1. See chemical vapor deposition
+	970. CVSD
+		1. (continuously variable slope delta modulation) See Pulse Modulation
+	971. CW
+		1. (continuous waveform) A signal that is continuous with time.
+	972. [[cybernetics]]
+	973. [[cycle]]
+	974. [[cycles per second]]
+	975. [[cycle time]]
+	976. [[cyclic redundancy check]]
+	977. [[cylindrical polar coordinates]]
+	978. [[cylindrical winding]]
+	979. [[d'Arsonval galvanometer]]
+	980. D-layer
+		1. (D-region) See ionosphere
+	981. D-region
+		1. (D-layer) See ionosphere
+	982. D-type flip-flop
+		1. See flip-flop
+	983. d.c.
+		1. (DC) See direct current
+	984. d.c.-coupled amplifier
+		1. (direct-coupled amplifier) See amplifier
+	985. d.c.-level restorer
+		1. See direct-current restorer.
+	986. d.c. voltage
+		1. Informal term for direct voltage, i.e. a unidirectional voltage that is substantially constant.
+	987. DAB
+		1. See digital audio broadcasting
+	988. DAC
+		1. See digital-to-analogue converter
+	989. [[daisy chaining]]
+	990. [[damped]]
+	991. [[damping ratio]]
+	992. [[daraf]]
+	993. [[dark conduction]]
+	994. dark resistance
+		1. See photocell
+	995. [[Darlington pair]]
+	996. [[digital audio tape|DAT]]
+	997. [[data bus]]
+	998. [[data communications equipment]]
+	999. [[data compression]]
+	1000. [[data converter]]
+	1001. [[dataflow architecture]]
+	1002. [[data hold]]
+	1003. data plane
+		1. See control plane
+	1004. [[data processing]]
+	1005. [[data rate]]
+	1006. [[data sheets]]
+	1007. [[data terminal equipment]]
+	1008. [[data transfer rate]]
+	1009. daughter board
+		1. See motherboard
+	1010. [[Day modulation]]
+	1011. dB
+		1. See decibel 
+	1012. [[dBm]]
+	1013. DBR laser
+		1. (distributed Bragg reflector laser; distributed feedback laser) See SEMICONDUCTOR LASER.
+	1014. DBS
+		1. See DIRECT BROADCAST BY SATELLITE.
+	1015. dBSPL
+		1. (decibel sound pressure level, referenced to the threshold of hearing) See SOUND PRESSURE LEVEL.
+	1016. [[dBu]]
+	1017. [[dBV]]
+	1018. [[dBW]]
+	1019. [[3D camera]]
+	1020. DCE
+		1. See data communications equipment
+	1021. [[DDR memory]]
+	1022. de-emphasis
+		1. See pre-emphasis
+	1023. [[dead]]
+	1024. dead-beat instrument
+		1. See instrument damping
+	1025. [[dead time]]
+	1026. [[de Broglie waves]]
+	1027. debug
+		1. See bug
+	1028. [[debunching]]
+	1029. [[Debye length]]
+	1030. [[deca-]]
+	1031. [[decade]]
+	1032. decade scaler
+		1. See scaler
+	1033. [[deci-]]
+	1034. [[decibel]]
+	1035. decimation
+		1. See downsampling
+	1036. [[decision feedback equalizer]]
+	1037. [[decision threshold]]
+	1038. decoder
+		1. (pulse detector) See pulse modulation
+	1039. decoding
+		1. See digital codes; digital communications
+	1040. [[deconvolution]]
+	1041. decoupling
+		1. See coupling
+	1042. [[decrement]]
+	1043. decryption
+		1. See encryption
+	1044. DECT
+		1. See Digital European Cordless Telephony
+	1045. [[deep level transient spectroscopy]]
+	1046. deep ultraviolet exposure
+		1. See photolithography
+	1047. [[definite integral]]
+	1048. definition
+		1. See television
+	1049. deflection defocusing
+		1. See cathode-ray tube
+	1050. deflection plates
+		1. See electrostatic deflection
+	1051. deflection sensitivity
+		1. See cathode-ray tube
+	1052. [[deformation potential]]
+	1053. [[degeneracy]]
+	1054. [[degenerate semiconductor]]
+	1055. degeneration
+		1. (negative feedback) See feedback
+	1056. degradation failure
+		1. See failure
+	1057. degree Celsius
+		1. (degree centigrade) (symbol: °C) See KELVIN.
+	1058. deinterleaving
+		1. See digital codes
+	1059. [[delay]]
+	1060. delay distortion
+		1. See distortion
+	1061. delayed-domain mode
+		1. See transferred electron device
+	1062. delayed automatic gain control
+		1. (biased automatic gain control) See automatic gain control
+	1063. delayed sweep
+		1. See timebase
+	1064. [[delay equalizer]]
+	1065. [[delay line]]
+	1066. Dellinger fade-out
+		1. See fading
+	1067. [[delta circuit]]
+	1068. delta function
+		1. See dirac delta function
+	1069. delta modulation
+		1. (DM; slope modulation) see pulse modulation
+	1070. delta voltage
+		1. See voltage between lines
+	1071. demodulation
+		1. See modulation
+	1072. demodulator
+		1. See detector
+	1073. [[De Morgan's laws]]
+	1074. demultiplexer
+		1. See multiplex operation
+	1075. [[denormalization]]
+	1076. [[dependent sources]]
+	1077. depletion-layer photodiode
+		1. See photodiode
+	1078. [[depletion layer]]
+	1079. [[depletion mode]]
+	1080. [[depletion MOSFET]]
+	1081. [[deposition]]
+	1082. [[depth sensor]]
+	1083. [[derating]]
+	1084. derived units
+		1. See SI Units
+	1085. [[de Sauty bridge]]
+	1086. [[design automation]]
+	1087. [[Design Automation Conference]]
+	1088. [[design for manufacturing]]
+	1089. [[design for testability]]
+	1090. [[design rule checker]]
+	1091. Destriau effect
+		1. See ELECTROLUMINESCENCE.
+	1092. destructive read operation
+		1. See read
+	1093. [[detection theory]]
+	1094. [[detector]]
+	1095. [[determinant]]
+	1096. [[detune]]
+	1097. [[deviation]]
+	1098. deviation distortion
+		1. See distortion
+	1099. deviation ratio
+		1. See frequency modulation
+	1100. [[device]]
+	1101. DFB laser
+		1. (distributed feedback laser; distributed Bragg reflector laser) See SEMICONDUCTOR LASER.
+	1102. DFE
+		1. See DECISION FEEDBACK EQUALIZER.
+	1103. DFM
+		1. See DESIGN FOR MANUFACTURING.
+	1104. DFN
+		1. See DUAL-FLAT NO-LEADS PACKAGE.
+	1105. DFT
+		1. (1) See DISCRETE FOURIER TRANSFORM. 
+		2. (2) See DESIGN FOR TESTABILITY.
+	1106. diac
+		1. (diode a.c. switch) See THYRISTOR.
+	1107. diagnostic routine
+		1. See program
+	1108. [[diamagnetism]]
+	1109. diametrical voltage
+		1. See voltage between lines
+	1110. [[diamond-like carbon]]
+	1111. [[diaphragm]]
+	1112. diaphragm relay
+		1. See relay
+	1113. [[dibit]]
+	1114. [[dichroic mirror]]
+	1115. [[Dicke's radiometer]]
+	1116. die
+		1. See chip
+	1117. [[dielectric]]
+	1118. [[dielectric constant]]
+	1119. [[dielectric elastomer]]
+	1120. [[dielectric heating]]
+	1121. [[dielectric isolation]]
+	1122. [[dielectric phase angle]]
+	1123. [[dielectric polarization]]
+	1124. [[dielectric resonator oscillator]]
+	1125. dielectric strain
+		1. See displacement
+	1126. [[dielectric strength]]
+	1127. [[difference equation]]
+	1128. [[difference of Gaussians]]
+	1129. difference transfer function
+		1. See FEEDBACK CONTROL LOOP.
+	1130. differential-mode currents
+		1. See ELECTROMAGNETIC COMPATIBILITY
+	1131. [[differential amplifier]]
+	1132. [[differential capacitor]]
+	1133. [[differential equation]]
+	1134. [[differential galvanometer]]
+	1135. differential phase modulation
+		1. See phase modulation
+	1136. differential relay
+		1. See relay
+	1137. [[differential resistance]]
+	1138. [[differential winding]]
+	1139. [[differentiator]]
+	1140. [[diffraction]]
+	1141. [[diffused junction]]
+	1142. [[diffusion]]
+	1143. diffusion constant
+		1. (diffusivity) See diffusion current; Fick's Law
+	1144. [[diffusion current]]
+	1145. diffusion potential
+		1. (built-in field) See P-N Junction
+	1146. [[digital-to-analogue converter]]
+	1147. [[digital ammeter]]
+	1148. digital audio broadcasting
+		1. (DAB) A system for the transmission of digital radio
+	1149. digital audio tape
+		1. See DAT
+	1150. [[digital camera]]
+	1151. [[digital circuit]]
+	1152. [[digital codes]]
+	1153. [[digital communications]]
+	1154. digital computer
+		1. See computer
+	1155. digital counter
+		1. See counter
+	1156. digital delay line
+		1. See delay line
+	1157. [[Digital European Cordless Telephony]]
+	1158. [[digital filter]]
+	1159. digital gate
+		1. See gate
+	1160. [[digital image]]
+	1161. digital inverter
+		1. See inverter
+	1162. digital modulation
+		1. See digital communications
+	1163. [[digital pattern generator]]
+	1164. [[digital radio]]
+	1165. digital rangefinder
+		1. See range finding
+	1166. digital recording
+		1. See compact disc system; DAT
+	1167. [[digital signal]]
+	1168. [[digital signal processing]]
+	1169. [[digital switching]]
+	1170. [[digital television]]
+	1171. [[digital theatre system]]
+	1172. digital versatile disk
+		1. See DVD
+	1173. [[digital video broadcasting]]
+	1174. digital video disk
+		1. See DVD
+	1175. [[digital voltmeter]]
+	1176. [[digitizer]]
+	1177. [[3D imaging]]
+	1178. [[diode]]
+	1179. [[diode detector]]
+	1180. diode drop
+		1. See diode forward voltage
+	1181. [[diode forward voltage]]
+	1182. diode laser
+		1. See semiconductor laser
+	1183. [[diode transistor logic]]
+	1184. diode voltage
+		1. See diode forward voltage
+	1185. DIP
+		1. See dual in-line package
+	1186. diphone synthesis
+		1. See speech synthesis
+	1187. [[diplexer]]
+	1188. [[dipole]]
+	1189. DIPP
+		1. See dual in-line pin package
+	1190. [[Dirac delta function]]
+	1191. direct-coupled amplifier
+		1. (d.c.-coupled amplifier) See amplifier
+	1192. [[direct-current restorer]]
+	1193. [[direct-current transmission]]
+	1194. [[direct-gap semiconductor]]
+	1195. direct-sequence spread spectrum
+		1. See digital communications
+	1196. [[direct broadcast by satellite]]
+	1197. [[direct conversion receiver]]
+	1198. [[direct coupling]]
+	1199. [[direct current]]
+	1200. direct feedback
+		1. (positive feedback) See feedback
+	1201. [[directional antenna]]
+	1202. [[directional coupler]]
+	1203. directional relay
+		1. (polarized relay) See relay
+	1204. [[direction finding]]
+	1205. directive antenna
+		1. See directional antenna
+	1206. [[directivity]]
+	1207. [[direct memory access]]
+	1208. [[direct neural interface]]
+	1209. director
+		1. (director antenna) See directional antenna.
+	1210. [[direct ray]]
+	1211. direct stroke
+		1. See lightning stroke
+	1212. direct voltage
+		1. See D.C. voltage
+	1213. [[direct wave]]
+	1214. [[disable]]
+	1215. [[discharge]]
+	1216. discharge tube
+		1. See gas-discharge tube
+	1217. [[discrete Fourier transform]]
+	1218. [[discriminator]]
+	1219. disc thermistor
+		1. See thermistor
+	1220. [[disc winding]]
+	1221. dish
+		1. See parabolic reflector; radio telescope
+	1222. [[disk]]
+	1223. disk drive
+		1. See magnetic disk
+	1224. diskette
+		1. (floppy disk) See magnetic disk
+	1225. [[disk operating system]]
+	1226. disk read-write head
+		1. See magnetic disk
+	1227. [[disk storage]]
+	1228. [[dislocation]]
+	1229. [[dispersion]]
+	1230. [[displacement]]
+	1231. [[displacement current]]
+	1232. [[display]]
+	1233. [[display resolution]]
+	1234. [[dissipation]]
+	1235. [[distortion]]
+	1236. [[distributed amplifier]]
+	1237. distributed Bragg reflector laser
+		1. (DBR laser; distributed-feedback laser) See semiconductor laser
+	1238. [[distributed capacitance]]
+	1239. [[distributed circuit]]
+	1240. distributed feedback laser
+		1. (DFB laser; distributed Bragg reflector laser) See semiconductor laser
+	1241. [[distributed inductance]]
+	1242. distribution
+		1. See gaussian distribution; normal distribution
+	1243. distribution control
+		1. See scanning
+	1244. [[dithering]]
+	1245. [[div]]
+	1246. divergence angle
+		1. See debunching
+	1247. [[diversity system]]
+	1248. [[divider]]
+	1249. dividing network
+		1. See crossover network
+	1250. [[3D laser scanner]]
+	1251. [[DLP]]
+	1252. DM
+		1. (delta modulation) See pulse modulation
+	1253. DMA
+		1. See direct memory access
+	1254. [[DMOS]]
+	1255. DNI
+		1. See direct neural interface
+	1256. [[docking station]]
+	1257. [[Dolby digital 5.1]]
+	1258. [[Dolby pro logic]]
+	1259. [[Dolby surround sound]]
+	1260. domain
+		1. (1) See FERROMAGNETISM. 
+		2. (2) See GUNN EFFECT. 
+		3. (3) See TIME DOMAIN; FREQUENCY DOMAIN.
+	1261. dominant mode
+		1. See mode
+	1262. donor
+		1. (donor impurity) See semiconductor
+	1263. [[doping]]
+	1264. [[doping compensation]]
+	1265. [[doping level]]
+	1266. [[doping profile]]
+	1267. [[Doppler effect]]
+	1268. Doppler radar
+		1. See doppler effect; radar
+	1269. DOS
+		1. See disk operating system
+	1270. [[dot generator]]
+	1271. [[dot matrix printer]]
+	1272. [[dots per inch]]
+	1273. [[double-current system]]
+	1274. double-ended
+		1. See single-ended
+	1275. [[double-pole switch]]
+	1276. [[double-sideband transmission]]
+	1277. double amplitude
+		1. (peak-to-peak amplitude) See amplitude
+	1278. [[double conversion receiver]]
+	1279. double diffusion
+		1. See diffusion
+	1280. double drift device
+		1. See IMPATT Diode
+	1281. double image
+		1. See ghost
+	1282. [[double integral]]
+	1283. [[double modulation]]
+	1284. [[double sideband]]
+	1285. [[double sideband suppressed carrier]]
+	1286. doublet
+		1. See dipole
+	1287. [[downconvert]]
+	1288. [[downlink]]
+	1289. [[download]]
+	1290. [[downsampling]]
+	1291. [[down time]]
+	1292. dpi
+		1. See dots per inch
+	1293. [[DPNSS]]
+	1294. [[3D point cloud]]
+	1295. [[3D printer]]
+	1296. DPSK
+		1. (differential phase shift keying) See Phase Modulation
+	1297. [[drain]]
+	1298. [[DRAM]]
+	1299. DRC
+		1. See design rule checker
+	1300. [[drift]]
+	1301. [[drift current]]
+	1302. [[drift mobility]]
+	1303. drift region
+		1. See DMOS
+	1304. [[drift space]]
+	1305. driven antenna
+		1. (active antenna) See directional antenna
+	1306. driven output
+		1. (response) See forced output
+	1307. [[driven system]]
+	1308. [[driver]]
+	1309. [[drive speed]]
+	1310. [[driving-point impedance]]
+	1311. driving impedance
+		1. See motional impedance
+	1312. driving potential
+		1. See photocell
+	1313. DRO
+		1. See dielectric resonator oscillator
+	1314. [[drone]]
+	1315. droop
+		1. See pulse
+	1316. [[dropping resistor]]
+	1317. dry battery
+		1. See battery
+	1318. dry cell
+		1. See cell
+	1319. dry etching
+		1. See etching
+	1320. [[dry joint]]
+	1321. DSB
+		1. See double sideband
+	1322. DSB-SC
+		1. See double sideband suppressed carrier
+	1323. [[3D scanner]]
+	1324. DSL
+		1. (digital subscriber line) See asynchronous digital subscriber line
+	1325. [[DSLR camera]]
+	1326. DSP
+		1. See digital signal processing
+	1327. [[3D survey]]
+	1328. DTE
+		1. See data terminal equipment
+	1329. DTL
+		1. See diode transistor logic
+	1330. [[DTMF]]
+	1331. DTS
+		1. See digital theater system
+	1332. [[3D TV]]
+	1333. DTW
+		1. See dynamic time warping
+	1334. [[dual-flat no-leads package]]
+	1335. [[dual-tone multi-frequency signaling]]
+	1336. [[dual in-line package]]
+	1337. [[dual in-line pin package]]
+	1338. [[duality]]
+	1339. [[dubbing]]
+	1340. dull emitter
+		1. See thermionic cathode
+	1341. dummy antenna
+		1. See artificial antenna
+	1342. [[dummy variable]]
+	1343. [[duplexer]]
+	1344. [[duplex operation]]
+	1345. [[dust core]]
+	1346. [[duty]]
+	1347. duty factor
+		1. (pulse train) See pulse
+	1348. DVB
+		1. See digital video broadcasting
+	1349. [[DVB-S]]
+	1350. [[DVD]]
+	1351. DVM
+		1. See digital voltmeter
+	1352. [[dynamic]]
+	1353. dynamic characteristic
+		1. See characteristic
+	1354. [[dynamic impedance]]
+	1355. [[dynamic memory]]
+	1356. dynamic operation
+		1. See MOS Integrated Circuit
+	1357. dynamic RAM
+		1. See DRAM
+	1358. [[dynamic range]]
+	1359. [[dynamic resistance]]
+	1360. [[dynamic routing]]
+	1361. dynamic sensitivity
+		1. See phototube
+	1362. [[dynamic system]]
+	1363. [[dynamic time warping]]
+	1364. [[dynamo]]
+	1365. [[dyne]]
+	1366. dynode
+		1. See electron multiplier
+	1367. E-bend
+		1. (E-plane; edgewise bend) See waveguide
+	1368. [[E-cell]]
+	1369. E-layer
+		1. (E-region; Heaviside layer; Kennelly-Heaviside layer) See ionosphere
+	1370. e-paper
+		1. See electronic paper
+	1371. E-plane
+		1. (E-bend) See waveguide
+	1372. E-region
+		1. (E-layer) See ionosphere
+	1373. e.m.f.
+		1. (EMF) See electromotive force
+	1374. early failure period
+		1. See failure rate
+	1375. [[Early voltage]]
+	1376. EAROM
+		1. (electrically alterable read-only memory) See ROM
+	1377. [[earphone]]
+	1378. [[earth]]
+	1379. [[earth-return circuit]]
+	1380. earth bus
+		1. See bus
+	1381. [[earth capacitance]]
+	1382. [[earth current]]
+	1383. [[earth fault]]
+	1384. earth plane
+		1. See ground plane
+	1385. [[earth potential]]
+	1386. EBD
+		1. See electronic brakeforce distribution
+	1387. Ebers-Moll model
+		1. See transistor parameters
+	1388. EBIC
+		1. See electron-beam induced current analysis
+	1389. ECC
+		1. See error-correcting code
+	1390. ECG
+		1. See electrocardiograph
+	1391. [[echo]]
+	1392. [[echo sounding]]
+	1393. ECL
+		1. See emitter-coupled logic
+	1394. eddy-current heating
+		1. See induction heating
+	1395. [[eddy current]]
+	1396. [[edge connector]]
+	1397. [[edge detection]]
+	1398. [[edge effect]]
+	1399. [[edge enhancement]]
+	1400. [[edge profile]]
+	1401. [[edge triggering]]
+	1402. [[editor]]
+	1403. EDS
+		1. (energy dispersive spectroscopy) See electron microprobe
+	1404. EEG
+		1. See electroencephalograph
+	1405. EEPROM
+		1. (electrical-erasable programmable ROM) See ROM
+	1406. [[effective address]]
+	1407. [[effective aperture]]
+	1408. [[effective mass]]
+	1409. [[effective radiated power]]
+	1410. [[effective resistance]]
+	1411. effective value
+		1. See root-mean-square value
+	1412. [[efficiency]]
+	1413. EFM
+		1. (eight to fourteen modulation) See compact disc system
+	1414. [[EGA]]
+	1415. EGG
+		1. (electroglottogram) See ELECTROGLOTTOGRAPH.
+	1416. EHF
+		1. (extremely high frequency) See FREQUENCY BAND.
+	1417. [[EHT]]
+	1418. [[eigenvalue]]
+	1419. Einstein photoelectric equation
+		1. See PHOTOELECTRIC EFFECT.
+	1420. [[Einthoven galvanometer]]
+	1421. [[EIRP]]
+	1422. EIS
+		1. See electronic image stabilization
+	1423. EIT
+		1. See electrical impedance tomography
+	1424. [[elastance]]
+	1425. [[elastic recoil detection analysis]]
+	1426. [[elastoresistance]]
+	1427. [[electret]]
+	1428. [[electrical impedance tomography]]
+	1429. electrically alterable read-only memory
+		1. (EAROM) See ROM
+	1430. [[electric axis]]
+	1431. electric charge
+		1. See charge
+	1432. electric conduction
+		1. See conduction
+	1433. electric constant
+		1. (permittivity of free space) See permittivity
+	1434. electric current
+		1. See current
+	1435. [[electric dimensions]]
+	1436. electric dipole
+		1. See dipole
+	1437. electric displacement
+		1. See displacement
+	1438. [[electric field]]
+	1439. [[electric flux]]
+	1440. electric flux density
+		1. See displacement
+	1441. [[electric heating]]
+	1442. [[electric hysteresis loss]]
+	1443. [[electric image]]
+	1444. [[electric intensity]]
+	1445. [[electricity]]
+	1446. electric moment
+		1. (dipole moment) See dipole
+	1447. electric polarization
+		1. See dielectric polarization
+	1448. [[electric potential]]
+	1449. [[electric screening]]
+	1450. [[electric spectrum]]
+	1451. electric susceptibility
+		1. See susceptibility
+	1452. electric transducer
+		1. See transducer
+	1453. [[electric vehicle]]
+	1454. electro-optical effect
+		1. See Kerr Effects
+	1455. electro-optical shutter
+		1. (Kerr cell) See Kerr Effects
+	1456. [[electro-optics]]
+	1457. electroacoustic transducer
+		1. See transducer
+	1458. [[electrocardiograph]]
+	1459. [[electrochemical series]]
+	1460. [[electrode]]
+	1461. electrode current
+		1. See electrode
+	1462. [[electrodeposition]]
+	1463. electrode potential
+		1. See electrochemical series
+	1464. [[electrodynamic instrument]]
+	1465. [[electrodynamics]]
+	1466. [[electrodynamometer]]
+	1467. [[electroencephalograph]]
+	1468. [[electroglottograph]]
+	1469. [[electroless plating]]
+	1470. [[electroluminescence]]
+	1471. [[electrolysis]]
+	1472. [[electrolyte]]
+	1473. [[electrolytic capacitor]]
+	1474. electrolytic cell
+		1. See cell
+	1475. [[electrolytic dissociation]]
+	1476. [[electrolytic meter]]
+	1477. [[electrolytic photocell]]
+	1478. [[electrolytic polishing]]
+	1479. [[electrolytic rectifier]]
+	1480. [[electromagnet]]
+	1481. electromagnetic balance
+		1. See cotton balance
+	1482. [[electromagnetic compatibility]]
+	1483. [[electromagnetic deflection]]
+	1484. electromagnetic focusing
+		1. (magnetic focusing) See focusing
+	1485. [[electromagnetic induction]]
+	1486. electromagnetic interference
+		1. (EMI) See electromagnetic compatibility
+	1487. [[electromagnetic lens]]
+	1488. electromagnetic pulse
+		1. (EMP) See electromagnetic compatibility
+	1489. [[electromagnetic radiation]]
+	1490. [[electromagnetic spectrum]]
+	1491. electromagnetic strain gauge
+		1. (variable inductance gauge) See strain gauge
+	1492. electromagnetic units
+		1. (emu) See CGS System
+	1493. electromagnetic wave
+		1. See electromagnetic radiation
+	1494. [[electromagnetism]]
+	1495. [[electrometer]]
+	1496. [[electromigration]]
+	1497. [[electromotive force]]
+	1498. [[electromyograph]]
+	1499. [[electron]]
+	1500. [[electron-beam device]]
+	1501. [[electron-beam induced current analysis]]
+	1502. [[electron-beam lithography]]
+	1503. [[electron-hole pair]]
+	1504. electron-hole recombination
+		1. (band-to-band recombination) See recombination processes.
+	1505. [[electron affinity]]
+	1506. [[electron beam]]
+	1507. electron binding energy
+		1. See ionization potential
+	1508. electron capture
+		1. See RECOMBINATION PROCESSES.
+	1509. electron charge
+		1. See charge; electron
+	1510. [[electron density]]
+	1511. electron diffraction
+		1. See diffraction
+	1512. electronegative
+		1. See electrochemical series
+	1513. [[electron emission]]
+	1514. [[electron gas]]
+	1515. [[electron gun]]
+	1516. [[electronic brakeforce distribution]]
+	1517. [[electronic device]]
+	1518. [[electronic efficiency]]
+	1519. [[electronic image stabilization]]
+	1520. [[electronic imaging]]
+	1521. [[electronic ink]]
+	1522. [[electronic lock]]
+	1523. [[electronic memory]]
+	1524. [[electronic paper]]
+	1525. [[electronics]]
+	1526. [[electronic switch]]
+	1527. [[electronic tuning]]
+	1528. [[electronic waste]]
+	1529. [[electron lens]]
+	1530. [[electron microprobe]]
+	1531. [[electron microscope]]
+	1532. electron mobility
+		1. See drift mobility
+	1533. [[electron multiplier]]
+	1534. [[electron optics]]
+	1535. [[electron tube]]
+	1536. [[electronvolt]]
+	1537. [[electron voltaic effect]]
+	1538. [[electrophoresis]]
+	1539. [[electrophorus]]
+	1540. [[electroplating]]
+	1541. [[electropneumatic]]
+	1542. [[electropolar]]
+	1543. electropolishing
+		1. See ELECTROLYTIC POLISHING.
+	1544. electropositive
+		1. See ELECTROCHEMICAL SERIES.
+	1545. [[electroscope]]
+	1546. [[electrostatic adhesion]]
+	1547. [[electrostatic deflection]]
+	1548. electrostatic discharge
+		1. (ESD) See ELECTROMAGNETIC COMPATIBILITY.
+	1549. [[electrostatic field]]
+	1550. electrostatic focusing
+		1. See focusing
+	1551. electrostatic generator
+		1. See generator
+	1552. [[electrostatic induction]]
+	1553. [[electrostatic lens]]
+	1554. electrostatic loudspeaker
+		1. See LOUDSPEAKER.
+	1555. [[electrostatic precipitation]]
+	1556. [[electrostatics]]
+	1557. electrostatic units
+		1. (esu) See CGS System
+	1558. electrostatic voltmeter
+		1. See voltmeter
+	1559. electrostatic wattmeter
+		1. See wattmeter
+	1560. [[electrostriction]]
+	1561. electrothermal instrument
+		1. See thermal instrument
+	1562. electrovalent bond
+		1. See ionic bond
+	1563. [[element]]
+	1564. [[elementary particle]]
+	1565. elliptical polarization
+		1. See polarization
+	1566. [[elliptic filter]]
+	1567. [[elliptic function]]
+	1568. [[embedded controller]]
+	1569. [[embedded system]]
+	1570. EMC
+		1. See ELECTROMAGNETIC COMPATIBILITY.
+	1571. EMI
+		1. (electromagnetic interference) See ELECTROMAGNETIC COMPATIBILITY.
+	1572. [[emission]]
+	1573. [[emissivity]]
+	1574. [[emitter]]
+	1575. [[emitter-coupled logic]]
+	1576. emitter electrode
+		1. See emitter
+	1577. [[emitter follower]]
+	1578. emitter region
+		1. See emitter
+	1579. EMP
+		1. (electromagnetic pulse) See ELECTROMAGNETIC COMPATIBILITY.
+	1580. emu
+		1. (electromagnetic unit) See CGS SYSTEM.
+	1581. [[emulator]]
+	1582. [[enabling]]
+	1583. encephalograph
+		1. See ELECTROENCEPHALOGRAPH.
+	1584. [[enclosure]]
+	1585. [[encoder]]
+	1586. [[encryption]]
+	1587. endfire array
+		1. (staggered antenna) See antenna array
+	1588. [[energy bands]]
+	1589. energy component
+		1. (1) (of a current or voltage) See ACTIVE CURRENT or ACTIVE VOLTAGE.
+		2. (2) (of the volt-amperes) See ACTIVE VOLT-AMPERES.
+	1590. energy dispersive spectroscopy
+		1. (EDS) See ELECTRON MICROPROBE.
+	1591. [[energy efficiency]]
+	1592. [[energy gap]]
+	1593. [[energy levels]]
+	1594. [[engine control unit]]
+	1595. [[enhanced vision system]]
+	1596. [[enhancement mode]]
+	1597. [[envelope]]
+	1598. envelope detector
+		1. See DIODE DETECTOR.
+	1599. EoP
+		1. See ETHERNET OVER POWER.
+	1600. EOP
+		1. See EXTERIOR ORIENTATION PARAMETERS.
+	1601. [[EPIRB]]
+	1602. epitaxial transistor
+		1. See PLANAR PROCESS.
+	1603. [[epitaxy]]
+	1604. EPROM
+		1. (erasable programmable ROM) See ROM.
+	1605. [[equal energy source]]
+	1606. [[equalization]]
+	1607. [[equalizer]]
+	1608. [[equipotential line]]
+	1609. [[equiripple]]
+	1610. equivalent-circuit model
+		1. See TRANSISTOR PARAMETERS; MODELLING.
+	1611. [[equivalent circuit]]
+	1612. [[equivalent network]]
+	1613. [[equivalent rectangular bandwidth]]
+	1614. [[equivalent resistance]]
+	1615. erasable PROM
+		1. See ROM
+	1616. ERDA
+		1. See ELASTIC RECOIL DETECTION ANALYSIS.
+	1617. erlang
+		1. See NETWORK TRAFFIC MEASUREMENT.
+	1618. ERP
+		1. See EFFECTIVE RADIATED POWER.
+	1619. error
+		1. See ABSOLUTE ERROR.
+	1620. [[error-correcting code]]
+	1621. [[error accumulation]]
+	1622. [[error bar]]
+	1623. [[error correction]]
+	1624. [[error detection]]
+	1625. [[error rate]]
+	1626. Esaki diode
+		1. See TUNNEL DIODE.
+	1627. ESD
+		1. (electrostatic discharge) See ELECTROMAGNETIC COMPATIBILITY.
+	1628. [[estimation theory]]
+	1629. esu
+		1. (electrostatic unit) See CGS SYSTEM.
+	1630. [[etching]]
+
+	1631. etch pit density
+		1. (dislocation density) See DISLOCATION.
+	1632. [[Ethernet]]
+	1633. [[Ethernet over power]]
+	1634. [[Ettinghausen effect]]
+	1635. [[Euler's identity]]
+	1636. [[European Telecommunications Standards Institute]]
+	1637. [[eutectic mixture]]
+	1638. [[even function]]
+	1639. EVS
+		1. See ENHANCED VISION SYSTEM.
+	1640. E wave
+		1. (TM wave) See MODE.
+
+	1641. exchange forces
+		1. See FERROMAGNETISM.
+	1642. [[excitation]]
+	1643. excited state
+		1. See GROUND STATE.
+	1644. exclusive OR gate
+		1. See LOGIC CIRCUIT.
+	1645. [[execute]]
+	1646. expanded-sweep generator
+		1. See timebase
+	1647. expanded sweep
+		1. See timebase
+	1648. [[expander]]
+	1649. [[expansion]]
+	1650. exploring coil
+		1. (search coil) See FLIP-COIL.
+
+	1651. [[exponential form of a complex number]]
+	1652. [[exponential function]]
+	1653. [[exterior orientation parameters]]
+	1654. [[Extranet]]
+	1655. extrapolated failure rate
+		1. See failure rate
+	1656. extrapolated mean life
+		1. See mean life
+	1657. extremely high frequency
+		1. (EHF) See frequency band
+	1658. extrinsic photoconductivity
+		1. See photoconductivity
+	1659. [[extrinsic semiconductor]]
+	1660. eyelet-construction mica capacitor
+		1. See mica capacitor
+
+	1661. [[eye tracking]]
+	1662. F-layer
+		1. (Appleton layer) See ionosphere
+	1663. F-region
+		1. (F-layer) See ionosphere
+	1664. f.m.
+		1. (FM) See frequency modulation
+	1665. f.s.d.
+		1. (FSD) See full-scale deflection
+	1666. f0
+		1. (fundamental frequency) See FUNDAMENTAL FREQUENCY ESTIMATION. Compare FX.
+	1667. Fabry-Perot cavity
+		1. See laser
+	1668. [[fader]]
+	1669. [[fading]]
+	1670. [[failure]]
+
+	1671. [[failure rate]]
+	1672. [[fall time]]
+	1673. [[fan-in]]
+	1674. [[fan-out]]
+	1675. far-end crosstalk
+		1. See crosstalk
+	1676. [[far-field region]]
+	1677. [[farad]]
+	1678. Faraday-Neumann law
+		1. (Faraday's law) See ELECTROMAGNETIC INDUCTION.
+	1679. [[Faraday constant]]
+	1680. Faraday dark space
+		1. See GAS-DISCHARGE TUBE (diagram).
+
+	1681. [[Faraday shield]]
+	1682. [[fast-recovery diode]]
+	1683. [[fast Ethernet]]
+	1684. fast Fourier transform
+		1. (FFT) See DISCRETE FOURIER TRANSFORM.
+	1685. fast hopping
+		1. See FREQUENCY MODULATION.
+	1686. FAT
+		1. See file allocation table
+	1687. [[FATFET]]
+	1688. [[fat zero]]
+	1689. [[fault]]
+	1690. [[fault-tolerant system]]
+
+	1691. [[fault current]]
+	1692. [[fault grade]]
+	1693. FCC
+		1. (Federal Communications Committee) See STANDARDIZATION.
+	1694. FCS
+		1. See FRAME CHECK SEQUENCE.
+	1695. FDDI
+		1. See FIBRE DISTRIBUTED DATA INTERFACE.
+	1696. FDHM
+		1. See FULL DURATION AT HALF MAXIMUM.
+	1697. FDM
+		1. See FREQUENCY-DIVISION MULTIPLEXING.
+	1698. FDMA
+		1. (frequency-division multiple access) See DIGITAL COMMUNICATIONS.
+	1699. FDNR
+		1. See FREQUENCY-DEPENDENT NEGATIVE RESISTOR.
+	1700. [[feature]]
+
+	1701. [[feature matching]]
+	1702. [[feed]]
+	1703. [[feedback]]
+	1704. [[feedback control loop]]
+	1705. feedback oscillator
+		1. See oscillator
+	1706. [[feeder]]
+	1707. [[feedforward control]]
+	1708. feedpoint impedance
+		1. See ANTENNA FEEDPOINT IMPEDANCE.
+	1709. [[feedthrough]]
+	1710. [[Felici balance]]
+
+	1711. FEM
+		1. See finite element method
+	1712. [[femto-]]
+	1713. [[Fermi-Dirac statistics]]
+	1714. [[Fermi level]]
+	1715. [[ferrimagnetism]]
+	1716. [[ferrite]]
+	1717. ferrite beads
+		1. See ELECTROMAGNETIC COMPATIBILITY.
+	1718. ferrite core
+		1. See core
+	1719. [[ferroelectric crystals]]
+	1720. [[ferrofluid]]
+
+	1721. [[ferromagnetism]]
+	1722. FET
+		1. See FIELD-EFFECT TRANSISTOR.
+	1723. FFT
+		1. (fast Fourier transform) See DISCRETE FOURIER TRANSFORM.
+	1724. [[fibre-optics system]]
+	1725. [[fibre distributed data interface]]
+	1726. [[fibretronics]]
+	1727. [[Fick's law]]
+	1728. [[fiducial marker]]
+	1729. [[field]]
+	1730. [[field-effect transistor]]
+
+	1731. [[field-emission microscope]]
+	1732. [[field-enhanced emission]]
+	1733. [[field-ion microscope]]
+	1734. field coil
+		1. See electromagnet
+	1735. field current
+		1. See electromagnet
+	1736. [[field emission]]
+	1737. [[field emitter]]
+	1738. field frequency
+		1. See television
+	1739. [[field ionization]]
+	1740. [[field of view]]
+
+	1741. field programmable gate array
+		1. See FPGA
+	1742. FIFO
+		1. (first in, first out) A type of memory system
+	1743. [[figure-eight microphone]]
+	1744. [[filament]]
+	1745. [[file allocation table]]
+	1746. [[film]]
+	1747. [[film resistor]]
+	1748. film sputter deposition
+		1. See sputtering
+	1749. [[filter]]
+	1750. filter synthesis
+		1. See network synthesis
+
+	1751. [[finite-difference time domain]]
+	1752. [[finite-state machine]]
+	1753. [[finite element method]]
+	1754. finite impulse response
+		1. (FIR) See digital filter
+	1755. [[firewall]]
+	1756. [[Firewire]]
+	1757. FIR filter
+		1. (finite impulse response filter) See digital filter; transversal filter.
+	1758. firing
+		1. See gas-discharge tube
+	1759. firm decision decoding
+		1. See hard decision decoding
+	1760. [[firmware]]
+
+	1761. [[first-order circuit]]
+	1762. first ionization potential
+		1. See IONIZATION POTENTIAL.
+	1763. [[fixed-point representation]]
+	1764. [[flag]]
+	1765. [[flash arc]]
+	1766. [[flashback voltage]]
+	1767. [[flash memory]]
+	1768. [[flash memory controller]]
+	1769. [[flashover]]
+	1770. flat-band operation mode
+		1. See MOS capacitor
+
+	1771. [[flatbed scanner]]
+	1772. [[flat package]]
+	1773. [[flatscreen display]]
+	1774. [[flat tuning]]
+	1775. flatwise bend
+		1. (H-bend) See waveguide
+	1776. [[Fleming's rules]]
+	1777. [[flexible resistor]]
+	1778. [[flicker]]
+	1779. [[flicker noise]]
+	1780. [[flip-chip]]
+
+	1781. [[flip-coil]]
+	1782. [[flip-flop]]
+	1783. [[floating]]
+	1784. [[floating-carrier modulation]]
+	1785. [[floating-point representation]]
+	1786. floating battery
+		1. See battery
+	1787. floppy disk
+		1. (diskette) See magnetic disk
+	1788. [[flow chart]]
+	1789. [[flow control]]
+	1790. fluorescence
+		1. See LUMINESCENCE.
+
+	1791. [[fluorescent lamp]]
+	1792. [[fluorescent screen]]
+	1793. [[flutter]]
+	1794. [[flux]]
+	1795. [[fluxmeter]]
+	1796. flyback
+		1. (1) See time base
+		2. (2) See sawtooth waveform
+	1797. [[fly by wire]]
+	1798. [[flying-spot scanner]]
+	1799. [[flywheel effect]]
+	1800. flywheel timebase
+		1. See timebase
+
+	1801. [[FM receiver]]
+	1802. fMRI
+		1. See functional magnetic resonance imaging
+	1803. FM synthesis
+		1. See synthesis
+	1804. [[focal length]]
+	1805. [[focusing]]
+	1806. [[foil capacitor]]
+	1807. folded dipole
+		1. See diploe
+	1808. forbidden band
+		1. See energy bands
+	1809. [[forced oscillations]]
+	1810. [[forced output]]
+
+	1811. [[forced system]]
+	1812. [[force factor]]
+	1813. [[forcing function]]
+	1814. [[formal verification]]
+	1815. [[formant]]
+	1816. formant synthesis
+		1. See SPEECH SYNTHESIS.
+	1817. [[form factor]]
+	1818. forward-current gain
+		1. See beta current gain factor
+	1819. forward-wave amplification
+		1. See travelling-wave tube.
+	1820. forward active operation
+		1. See bipolar junction transistor
+
+	1821. [[forward direction]]
+	1822. forward path
+		1. See feedback control loop
+	1823. [[forward problem]]
+	1824. forward slope resistance
+		1. See diode
+	1825. forward transfer function
+		1. See feedback control loop
+	1826. Foucault current
+		1. See eddy current
+	1827. [[four-point probe]]
+	1828. four-terminal network
+		1. See two-port network
+	1829. [[four-terminal resistor]]
+	1830. [[four-wire circuit]]
+
+	1831. [[Fourier analysis]]
+	1832. [[field-programmable gate array|FPGA]]
+	1833. [[frame]]
+	1834. frame/field transfer device
+		1. See solid-state camera
+	1835. frame antenna
+		1. See loop antenna
+	1836. [[frame check sequence]]
+	1837. frame direction finding
+		1. (loop direction finding) See direction finding
+	1838. frame frequency
+		1. (picture frequency) See television
+	1839. [[franklin]]
+	1840. free-electron paramagnetism
+		1. See paramagnetism
+
+	1841. [[free-field calibration]]
+	1842. [[free electron]]
+	1843. [[free field]]
+	1844. [[free oscillations]]
+	1845. [[free output]]
+	1846. [[Freesat]]
+	1847. [[free space]]
+	1848. [[free system]]
+	1849. [[Freeview]]
+	1850. [[frequency]]
+
+	1851. [[frequency-dependent negative resistor]]
+	1852. [[frequency-division duplexing]]
+	1853. frequency-division multiple access
+		1. (FDMA) See digital communications
+	1854. [[frequency-division multiplexing]]
+	1855. frequency-hopping spread spectrum
+		1. See digital communications
+	1856. frequency-modulated radar
+		1. See radar
+	1857. [[frequency-response characteristic]]
+	1858. frequency analyser
+		1. See wave analyzer
+	1859. [[frequency band]]
+	1860. [[frequency bridge]]
+
+	1861. [[frequency changer]]
+	1862. [[frequency compensation]]
+	1863. frequency control
+		1. See automatic frequency control
+	1864. [[frequency counter]]
+	1865. frequency deviation
+		1. See frequency modulation
+	1866. [[frequency discriminator]]
+	1867. frequency diversity
+		1. See diversity system
+	1868. [[frequency divider]]
+	1869. [[frequency domain]]
+	1870. [[frequency doubler]]
+
+	1871. [[frequency meter]]
+	1872. [[frequency modulation]]
+	1873. frequency multiplexing
+		1. See frequency division multiplexing
+	1874. [[frequency multiplier]]
+	1875. frequency pulling
+		1. See pulling
+	1876. [[frequency range]]
+	1877. [[frequency response]]
+	1878. [[frequency reuse]]
+	1879. frequency scaling
+		1. See denormalization
+	1880. [[frequency selectivity]]
+
+	1881. frequency shift keying
+		1. (FSK) See frequency modulation
+	1882. frequency spectrum (of electromagnetic waves)
+		1. See table 10, in the back matter.
+	1883. [[primary frequency standard]]
+	1884. frequency swing
+		1. See frequency modulation
+	1885. frequency synthesizer
+		1. See synthesizer
+	1886. [[frequency transformation]]
+	1887. [[Fresnel zone]]
+	1888. [[frictional electricity]]
+	1889. [[Friis transmission equation]]
+	1890. [[fringe area]]
+
+	1891. front porch
+		1. See television
+	1892. FSK
+		1. (frequency shift keying) See frequency modulation.
+	1893. FSM
+		1. See finite-state machine.
+	1894. [[fuel cell]]
+	1895. [[full-duplex]]
+	1896. [[full-scale deflection]]
+	1897. full-wave dipole
+		1. See dipole 
+	1898. [[full-wave rectifier circuit]]
+	1899. [[full-width half-maximum]]
+	1900. full adder
+		1. See adder
+
+	1901. [[full duration at half maximum]]
+	1902. [[function]]
+	1903. [[functional magnetic resonance imaging]]
+	1904. [[functional neuroimaging]]
+	1905. functional packing density
+		1. See packing density
+	1906. [[function generator]]
+	1907. [[fundamental frequency]]
+	1908. [[fundamental frequency estimation]]
+	1909. [[fuse]]
+	1910. fusible-link memory
+		1. See ROM
+
+	1911. [[fuzzy logic]]
+	1912. FWHM
+		1. See full-width half-maximum
+	1913. [[fx]]
+	1914. [[gadolinium gallium garnet]]
+	1915. [[3G]]
+	1916. [[gain]]
+	1917. [[gain-bandwidth product]]
+	1918. gain compression
+		1. See COMPRESSION POINT.
+	1919. [[gain control]]
+	1920. [[gain margin]]
+
+	1921. gain region
+		1. See active region
+	1922. galactic noise
+		1. (Jansky noise) See radio noise
+	1923. [[Galileo]]
+	1924. [[gallium arsenide]]
+	1925. [[galvanomagnetic effect]]
+	1926. [[galvanometer]]
+	1927. [[galvanometer constant]]
+	1928. [[gamma correction]]
+	1929. [[gamma rays]]
+	1930. [[gap]]
+
+	1931. gap length
+		1. See magnetic recording
+	1932. [[gas-discharge tube]]
+	1933. [[gas-filled tube]]
+	1934. gas amplification
+		1. See GAS MULTIPLICATION.
+	1935. [[gas breakdown]]
+	1936. gas cell
+		1. See gas electrode
+	1937. [[gas electrode]]
+	1938. [[gaskets]]
+	1939. [[gas multiplication]]
+	1940. [[gassing]]
+
+	1941. [[gate]]
+	1942. [[gate array]]
+	1943. [[gate expander]]
+	1944. gateway
+		1. See router
+	1945. gating
+		1. See receiver
+	1946. [[gauss]]
+	1947. [[Gauss's theorem]]
+	1948. [[Gaussian channel]]
+	1949. [[Gaussian distribution]]
+	1950. [[Gaussian elimination]]
+
+	1951. [[Gaussian filter]]
+	1952. GBP
+		1. See gain-bandwidth product
+	1953. [[Geiger counter]]
+	1954. [[general-purpose input-output pin]]
+	1955. [[general impedance converter]]
+	1956. [[generator]]
+	1957. [[genetic algorithm]]
+	1958. [[geometric optics]]
+	1959. [[geometric theory of diffraction]]
+	1960. [[geostationary earth orbit]]
+
+	1961. [[geotagging]]
+	1962. [[germanium]]
+	1963. [[getter]]
+	1964. [[ghost]]
+	1965. [[giant magnetoresistance]]
+	1966. [[giant magnetoresistance head]]
+	1967. [[Gibbs phenomenon]]
+	1968. GIC
+		1. See general impedance converter
+	1969. [[giga-]]
+	1970. [[gigabit]]
+
+	1971. [[gigabyte]]
+	1972. [[gilbert]]
+	1973. [[Gilbert cell]]
+	1974. glassivation
+		1. See passivation
+	1975. glitch
+		1. See hazard
+	1976. global navigation satellite system
+		1. (GNSS) See satellite navigation system
+	1977. global positioning system
+		1. See GPS
+	1978. [[global system for mobile communications]]
+	1979. [[GLONASS]]
+	1980. [[glottal airflow]]
+
+	1981. glow-discharge microphone
+		1. See microphone
+	1982. glow discharge
+		1. See gas-discharge tube
+	1983. [[4G LTE]]
+	1984. GMR
+		1. See giant magnetoresistance
+	1985. GMR head
+		1. See giant magnetoresistance head
+	1986. [[go-back-N ARQ]]
+	1987. Golay code
+		1. See digital codes
+	1988. gold-leaf electroscope
+		1. See electroscope
+	1989. [[GOS]]
+	1990. GPIB
+		1. (general-purpose interface bus) See IEEE-488 STANDARD.
+
+	1991. GPIO pin
+		1. See general-purpose input/output pin
+	1992. [[GPR]]
+	1993. [[GPS]]
+	1994. [[GPU]]
+	1995. [[graded-base transistor]]
+	1996. [[gradiometer]]
+	1997. [[graphene]]
+	1998. [[graphical symbols]]
+	1999. [[graphic equalizer]]
+	2000. [[graphic instrument]]
+
+	2001. [[graphic panel]]
+	2002. graphics processing unit
+		1. See GPU
+	2003. [[grass]]
+	2004. Grassot fluxmeter
+		1. See fluxmeter
+	2005. [[gravity cell]]
+	2006. [[Gray code]]
+	2007. [[grenz rays]]
+	2008. [[grid]]
+	2009. grid base
+		1. (thermionic valve) See cut-off
+	2010. [[grid bias]]
+
+	2011. [[grid emission]]
+	2012. [[grid leak]]
+	2013. grid stopper
+		1. See parasitic oscillations
+	2014. ground
+		1. US term for earth
+	2015. ground-penetrating radar
+		1. See GPR
+	2016. [[ground-reflected wave]]
+	2017. [[ground absorption]]
+	2018. ground capacitance
+		1. US term for earth capacitance
+	2019. ground clutter
+		1. See ground return
+	2020. ground current
+		1. US term for earth current
+
+	2021. grounded-base connection
+		1. See common-base connection
+	2022. grounded-collector connection
+		1. See common-collector connection
+	2023. grounded-emitter connection
+		1. See common-emitter connection
+	2024. ground electrode
+		1. US term for earth electrode. See EARTH
+	2025. [[ground plane]]
+	2026. ground potential
+		1. US term for earth potential
+	2027. ground ray
+		1. See ground wave
+	2028. [[ground reflection]]
+	2029. [[ground return]]
+	2030. [[ground state]]
+
+	2031. [[ground wave]]
+	2032. [[group delay]]
+	2033. [[group operation]]
+	2034. [[grown junction]]
+	2035. GSM
+		1. See global system for mobile communications
+	2036. GTO
+		1. (gate-turnoff thyristor) See thyristor
+	2037. [[guard-ring capacitor]]
+	2038. [[guard band]]
+	2039. [[guard ring]]
+	2040. [[guard time]]
+
+	2041. [[Gudden-Pohl effect]]
+	2042. guide
+		1. See waveguide
+	2043. Guillemin effect
+		1. See magnetostriction
+	2044. [[Guillemin line]]
+	2045. Gunn diode
+		1. See transferred electron device
+	2046. [[Gunn effect]]
+	2047. [[gyrator]]
+	2048. [[gyroscopic sensor]]
+	2049. H-bend
+		1. (H-plane; flatwise bend) See waveguide
+	2050. H-network
+		1. (H-pad; H-section) See two-port network
+
+	2051. H-pad
+		1. (H-network) See two-port network
+	2052. H-plane
+		1. (H-bend) See waveguide
+	2053. H-section
+		1. (H-network) See two-port network
+	2054. [[halation]]
+	2055. half-adder
+		1. See adder
+	2056. [[half-duplex]]
+	2057. half-duplex operation
+		1. See duplex operation
+	2058. half-IF response
+		1. See IP2
+	2059. half-power beamwidth
+		1. See beamwidth
+	2060. [[half-power point]]
+
+	2061. half-wave dipole
+		1. See dipole
+	2062. [[half-wave rectifier circuit]]
+	2063. [[half-wave voltage doubler]]
+	2064. half-width at half-maximum
+		1. (HWHM) Half of the full-width half-maximum
+	2065. [[Hall effect]]
+	2066. [[Hall mobility]]
+	2067. [[Hall probe]]
+	2068. halo
+		1. See halation
+	2069. [[Hamming code]]
+	2070. Hamming window
+		1. See windowing
+
+	2071. [[ham radio]]
+	2072. [[handover]]
+	2073. [[handshake]]
+	2074. [[hand tracking]]
+	2075. Hanning window
+		1. (raised cosine window) See windowing
+	2076. [[haptic interface]]
+	2077. [[hard clipping]]
+	2078. [[hard decision decoding]]
+	2079. hard disk
+		1. See magnetic disk
+	2080. [[hard disk drive]]
+
+	2081. hard disk head
+		1. See magnetic disk
+	2082. [[hardware]]
+	2083. hardware compilation
+		1. See design automation
+	2084. [[hardware description language]]
+	2085. [[hardwired]]
+	2086. hard X-rays
+		1. See X-rays
+	2087. [[harmonic]]
+	2088. [[harmonic analyzer]]
+	2089. [[harmonic distortion]]
+	2090. [[harmonic generator]]
+
+	2091. harmonic oscillator
+		1. See oscillator
+	2092. [[Hartley oscillator]]
+	2093. [[Hartshorn bridge]]
+	2094. [[Harvard architecture]]
+	2095. [[Hay bridge]]
+	2096. [[Haynes-Shockley experiment]]
+	2097. [[hazard]]
+	2098. HB
+		1. See horizontal bridgeman
+	2099. HbbTV
+		1. See hybrid broadcast broadband TV
+	2100. HBT
+		1. See heterojunction bipolar transistor
+
+	2101. HD
+		1. See high-definition
+	2102. HDCD
+		1. See high-definition compatible digital
+	2103. HDD
+		1. See hard disk drive
+	2104. HDL
+		1. See hardware description language 
+	2105. HDMI
+		1. See high-definition multimedia interface
+	2106. HDR
+		1. See high dynamic range
+	2107. [[HDTV]]
+	2108. [[HD video]]
+	2109. [[head]]
+	2110. [[head-mounted display]]
+
+	2111. head-related transfer function
+		1. See HRTF
+	2112. [[head-up display]]
+	2113. [[header]]
+	2114. headset
+		1. See earphone
+	2115. [[hearing aid]]
+	2116. [[heat coil]]
+	2117. [[heat detector]]
+	2118. [[heater]]
+	2119. heating depth
+		1. See dielectric heating
+	2120. [[heating effect of a current]]
+
+	2121. [[heat management]]
+	2122. [[heat sink]]
+	2123. Heaviside layer
+		1. (Heaviside-kennelly layer; E-layer) See ionosphere
+	2124. [[hecto-]]
+	2125. [[height control]]
+	2126. [[Heil tube]]
+	2127. [[helical antenna]]
+	2128. [[Helmholtz coils]]
+	2129. [[Helmholtz galvanometer]]
+	2130. HEMT
+		1. See high electron mobility transistor
+
+	2131. [[henry]]
+	2132. [[hertz]]
+	2133. [[Hertzian dipole]]
+	2134. [[heterodyne reception]]
+	2135. [[heterojunction]]
+	2136. [[heterojunction bipolar transistor]]
+	2137. heterojunction FET
+		1. See high electron mobility transistor
+	2138. heterojunction photodiode
+		1. See photodiode
+	2139. heterostructure laser
+		1. See semiconductor laser
+	2140. [[Heusler alloys]]
+
+	2141. [[hexadecimal]]
+	2142. hexagon voltage
+		1. (mesh voltage) See voltage between lines
+	2143. HF
+		1. (high frequency) See frequency band
+	2144. hi-fi
+		1. Acronym for high fidelity. See reproduction of sound
+	2145. hi-lo Read diode
+		1. See IMPATT Diode
+	2146. [[hidden Markov model]]
+	2147. [[hierarchical design]]
+	2148. [[high-definition]]
+	2149. [[high-definition compatible digital]]
+	2150. [[high-definition multimedia interface]]
+
+	2151. [[high-density packaging]]
+	2152. high-frequency resistance
+		1. See skin effect
+	2153. high-level injection
+		1. See injection
+	2154. high-level programming language
+		1. See programming language
+	2155. high-pass filter
+		1. See filter
+	2156. [[high-temperature superconductor]]
+	2157. [[high-tension]]
+	2158. high-velocity scanning
+		1. See scanning
+	2159. [[high-voltage test]]
+	2160. [[high dynamic range]]
+
+	2161. [[high electron mobility transistor]]
+	2162. high fidelity
+		1. See reproduction of sound
+	2163. high frequency
+		1. (HF) See frequency band
+	2164. high logic level
+		1. See logic circuit
+	2165. [[high recombination-rate contact]]
+	2166. [[histogram equalization]]
+	2167. HMD
+		1. See head-mounted display
+	2168. HMM
+		1. See hidden markov model
+	2169. [[holding time]]
+	2170. [[hold time]]
+
+	2171. [[hole]]
+	2172. hole-electron pair
+		1. See electron-hole pair
+	2173. hole capture
+		1. See RECOMBINATION PROCESSES.
+	2174. [[hole conduction]]
+	2175. [[hole current]]
+	2176. hole density
+		1. See carrier concentration
+	2177. hole injection
+		1. See injection
+	2178. hole mobility
+		1. See drift mobility
+	2179. [[hole trap]]
+	2180. homing beacon
+		1. (locator beacon) See beacon
+
+	2181. homodyne receiver
+		1. (direct conversion receiver) See also HETERODYNE RECEPTION.
+	2182. [[homogeneous differential equation]]
+	2183. [[homojunction]]
+	2184. [[homopolar generator]]
+	2185. [[honeycomb coil]]
+	2186. [[hook-up]]
+	2187. horizontal blanking
+		1. See blanking
+	2188. [[horizontal Bridgeman]]
+	2189. [[horizontal polarization]]
+	2190. [[horizontal surround sound]]
+
+	2191. [[horn antenna]]
+	2192. horn loudspeaker
+		1. See loudspeaker
+	2193. [[horseshoe magnet]]
+	2194. hot-wire ammeter
+		1. See hot-wire instrument
+	2195. hot-wire gauge
+		1. See pirani gauge
+	2196. [[hot-wire instrument]]
+	2197. hot cathode
+		1. See thermionic cathode
+	2198. [[hot electron]]
+	2199. [[hot spot]]
+	2200. [[howl]]
+
+	2201. h parameter
+		1. (hybrid parameter) See network
+	2202. [[HRTF]]
+	2203. HT
+		1. See high-tension
+	2204. HTML
+		1. See hypertext markup language
+	2205. HTS
+		1. (high-temperature superconductor) See superconductivity
+	2206. HTTP
+		1. See hypertext transfer protocol
+	2207. HUD
+		1. See head-up display
+	2208. [[hum]]
+	2209. [[hum modulation]]
+	2210. [[hunting]]
+
+	2211. [[Huygens' principle]]
+	2212. H wave
+		1. (TE wave) See mode
+	2213. HWHM
+		1. See half-width at half-maximum
+	2214. hybrid-π model
+		1. See transistor parameters
+	2215. [[hybrid broadcast broadband TV]]
+	2216. [[hybrid drive]]
+	2217. hybrid integrated circuit
+		1. See integrated circuit
+	2218. [[hybrid junction]]
+	2219. hybrid parameters
+		1. See transistor parameters; network
+	2220. hydrogen electrode
+		1. See electrochemical series
+
+	2221. [[hydrophone]]
+	2222. [[hyperabrupt varactor]]
+	2223. [[hypercardioid microphone]]
+	2224. [[hypercube]]
+	2225. [[hyperspectral image]]
+	2226. [[hypertext markup language]]
+	2227. [[hypertext transfer protocol]]
+	2228. [[hysteresis]]
+	2229. [[hysteresis distortion]]
+	2230. hysteresis factor
+		1. See magnetic hysteresis
+
+	2231. hysteresis loop
+		1. See magnetic hysteresis
+	2232. hysteresis loss
+		1. (1) See magnetic hysteresis
+		2. (2) See electric hysteresis loss
+	2233. [[hysteresis meter]]
+	2234. Hz
+		1. Symbol for hertz
+	2235. i-type semiconductor
+		1. See intrinsic semiconductor
+	2236. I/O
+		1. See input/output
+	2237. [[integrated injection logic]]
+	2238. I2R loss
+		1. (copper loss) See dissipation; heating effect of a current
+	2239. IC
+		1. See integrated circuit
+	2240. ICA
+		1. See independent component analysis
+
+	2241. [[I channel]]
+	2242. [[ideal crystal]]
+	2243. ideal diode equation
+		1. (Shockley equation) See P-N junction
+	2244. [[ideal transducer]]
+	2245. ideal transformer
+		1. (perfect transformer) See transformer
+	2246. idle component
+		- (1) (of current) See reactive current
+		- (2) (of voltage) See reactive voltage
+		- (3) (of volt-amperes) See reactive volt-amperes
+	2247. IEC
+		1. (International Electrotechnical Commission) See standardization
+	2248. IEEE
+		1. (Institute of Electrical and Electronics Engineers) See standardization
+	2249. [[IEEE-488 standard]]
+	2250. IF
+		1. (intermediate frequency) See heterodyne reception; Mixer
+
+	2251. iff
+		1. (if and only if) See logic circuit
+	2252. IF strip
+		1. See heterodyne reception
+	2253. IGBT
+		1. See insulated-gate bipolar transistor
+	2254. IGFET
+		1. (insulated-gate field-effect transistor) See field-effect transistor
+	2255. [[IGMF filter]]
+	2256. IIR filter
+		1. (infinite impulse response filter) See digital filter
+	2257. IM
+		1. See intermodulation
+	2258. image
+		1. See digital image; electric image
+	2259. image-force lowering
+		1. See schottky effect
+	2260. image attenuation constant
+		1. (image attenuation coefficient) see image transfer constant
+
+	2261. image charge
+		1. See electric image
+	2262. [[image converter]]
+	2263. [[image dissector]]
+	2264. image filter
+		1. See heterodyne reception
+	2265. image force
+		1. See electric image
+	2266. [[image frequency]]
+	2267. [[image impedances]]
+	2268. image interference
+		1. See image frequency
+	2269. image phase constant
+		1. (image phase-change coefficient) See image transfer constant
+	2270. [[image potential]]
+
+	2271. [[image processing]]
+	2272. image ratio
+		1. See image frequency
+	2273. [[image recognition]]
+	2274. [[image rectification]]
+	2275. [[image registration]]
+	2276. [[image scanner]]
+	2277. [[image segmentation]]
+	2278. [[image stabilization]]
+	2279. [[image stitching]]
+	2280. [[image transfer constant]]
+
+	2281. image tube
+		1. See image converter
+	2282. [[imaginary number]]
+	2283. [[imaginary part of a complex number]]
+	2284. immersion plating
+		1. See electroless plating
+	2285. [[immersive digital environment]]
+	2286. immunity
+		1. See ELECTROMAGNETIC COMPATIBILITY.
+	2287. [[impact ionization]]
+	2288. [[IMPATT diode]]
+	2289. [[impedance]]
+	2290. impedance coupling
+		1. See coupling
+
+	2291. [[impedance matching]]
+	2292. impedance scaling
+		1. See denormalization
+	2293. [[impedor]]
+	2294. imperfect dielectric
+		1. See dielectric
+	2295. [[impulse generator]]
+	2296. [[impulse noise]]
+	2297. [[impulse response]]
+	2298. [[impulse voltage]]
+	2299. [[impurities]]
+	2300. IM rejection
+		1. See $IP_3$.
+
+	2301. IMU
+		1. See inertial measurement unit
+	2302. in-phase component
+		1. (1) (of a current or voltage) See active current; active voltage
+		2. (2) (of the volt-amperes) See active volt-amperes.
+	2303. inactive interval
+		1. See sawtooth waveform
+	2304. [[incandescence]]
+	2305. incident current
+		1. (initial current) See reflection coefficient
+	2306. [[increment]]
+	2307. incremental permeability
+		1. See permeability
+	2308. [[independent component analysis]]
+	2309. [[index error]]
+	2310. [[indicating instrument]]
+
+	2311. [[indirect-gap semiconductor]]
+	2312. indirectly heated cathode
+		1. See thermionic cathode
+	2313. indirect photoconductivity
+		1. (phonon-assisted photoconductivity) See photoconductivity
+	2314. [[indirect wave]]
+	2315. indium phosphide
+		1. See compound semiconductor
+	2316. [[indoor positioning system]]
+	2317. [[induce]]
+	2318. [[induced current]]
+	2319. induced dipole moment
+		1. See dipole
+	2320. induced electromotive force
+		1. See electromagnetic induction
+
+	2321. [[induced noise]]
+	2322. [[inductance]]
+	2323. induction
+		1. See ELECTROMAGNETIC INDUCTION; ELECTROSTATIC INDUCTION.
+	2324. [[induction coil]]
+	2325. [[induction compass]]
+	2326. [[induction flowmeter]]
+	2327. [[induction heating]]
+	2328. [[induction instrument]]
+	2329. [[induction microphone]]
+	2330. [[induction motor]]
+
+	2331. [[inductive]]
+	2332. [[inductive-output device]]
+	2333. inductive coupling
+		1. See coupling
+	2334. inductive feedback
+		1. See feedback
+	2335. [[inductive interference]]
+	2336. inductive load
+		1. See lagging load
+	2337. inductive reactance
+		1. See reactance
+	2338. inductive tuning
+		1. See tuned circuit
+	2339. [[inductor]]
+	2340. [[Industrial, Scientific and Medical]]
+
+	2341. [[inert cell]]
+	2342. [[inertial measurement unit]]
+	2343. [[inertia switch]]
+	2344. infinite impulse response filter
+		1. See digital filter
+	2345. information satellite
+		1. See satellite
+	2346. [[information technology]]
+	2347. [[information theory]]
+	2348. infrared image converter
+		1. See image converter
+	2349. [[infrared radiation]]
+	2350. inherent weakness failure
+		1. See failure
+
+	2351. [[inhibiting input]]
+	2352. [[inhomogeneous differential equation]]
+	2353. initial current
+		1. (incident current) See reflection coefficient
+	2354. [[injection]]
+	2355. [[injection efficiency]]
+	2356. [[inkjet printer]]
+	2357. [[input]]
+	2358. [[input-output]]
+	2359. [[input characteristic]]
+	2360. [[input impedance]]
+
+	2361. [[insertion loss]]
+	2362. [[instantaneous automatic gain control]]
+	2363. [[instantaneous carrying-current]]
+	2364. [[instantaneous frequency]]
+	2365. [[instantaneous power]]
+	2366. instantaneous sampling
+		1. See sampling
+	2367. [[instantaneous value]]
+	2368. Institute of Electrical and Electronics Engineers, Inc.
+		1. (IEEE) See standardization
+	2369. [[instruction fetch]]
+	2370. [[instruction register]]
+
+	2371. [[instruction set]]
+	2372. [[instrumentation amplifier]]
+	2373. [[instrument damping]]
+	2374. [[instrument rating]]
+	2375. [[instrument sensitivity]]
+	2376. instrument shunt
+		1. See shunt
+	2377. [[instrument transformer]]
+	2378. [[insulate]]
+	2379. [[insulated-gate bipolar transistor]]
+	2380. insulated-gate field-effect transistor
+		1. (IGFET) See field-effect transistor
+
+	2381. [[insulating barrier]]
+	2382. [[insulating resistance]]
+	2383. [[insulation]]
+	2384. [[insulator]]
+	2385. [[integer]]
+	2386. integer unit
+		1. (IU) See arithmetic logic unit
+	2387. [[integrated circuit]]
+	2388. integrated injection logic
+		1. See $I^2L$
+	2389. integrated Schottky logic
+		1. (ISL; Schottky $I^2L$) See $I^2L$
+	2390. integrating array
+		1. See solid-state camera
+
+	2391. [[integrating frequency meter]]
+	2392. integrating wattmeter
+		1. See watt-hour meter
+	2393. [[integrator]]
+	2394. intelligent antenna
+		1. See smart antenna
+	2395. intelligent terminal
+		1. See terminal
+	2396. [[intelligibility]]
+	2397. intelligible crosstalk
+		1. See crosstalk
+	2398. [[intensity]]
+	2399. [[intensity modulation]]
+	2400. [[interaction space]]
+
+	2401. [[interactive]]
+	2402. [[intercarrier system]]
+	2403. interconnecting feeder
+		1. See trunk feeder
+	2404. [[interconnection]]
+	2405. interconnector
+		1. See trunk feeder
+	2406. [[interdigital transducer]]
+	2407. interdigitated capacitor
+		1. See monolithic capacitor
+	2408. [[interelectrode capacitance]]
+	2409. [[interest point]]
+	2410. [[interface]]
+
+	2411. [[interference]]
+	2412. interference fading
+		1. See fading
+	2413. [[interferometry]]
+	2414. [[interior orientation parameters]]
+	2415. interlaced scanning
+		1. See television
+	2416. [[interleaving]]
+	2417. interline transfer device
+		1. See solid-state camera
+	2418. [[interlock]]
+	2419. intermediate frequency
+		1. (IF) See heterodyne reception; mixer.
+	2420. intermittent duty
+		1. See duty
+
+	2421. [[intermodulation]]
+	2422. intermodulation distortion
+		1. (combination-tone distortion) See distortion
+	2423. internal photoelectric effect
+		1. See photoconductivity
+	2424. [[internal resistance]]
+	2425. [[international ampere]]
+	2426. International Electrotechnical Commission
+		1. (IEC) See standardization
+	2427. International Standards Organization
+		1. (ISO) See standardization
+	2428. [[international system]]
+	2429. International Telecommunication Union
+		1. (ITU) See standardization
+	2430. [[Internet]]
+
+	2431. Internet Protocol
+		1. See IP
+	2432. [[Internet television]]
+	2433. [[interpolation]]
+	2434. interrogating signal
+		1. See transponder
+	2435. [[interrupt]]
+	2436. [[interrupter]]
+	2437. [[interstage coupling]]
+	2438. [[intersymbol interference]]
+	2439. [[intraconnection]]
+	2440. [[Intranet]]
+
+	2441. [[intrinsic conductivity]]
+	2442. intrinsic density
+		1. See carrier concentration
+	2443. [[intrinsic mobility]]
+	2444. intrinsic photoconductivity
+		1. See photoconductivity
+	2445. [[intrinsic semiconductor]]
+	2446. [[intrinsic temperature range]]
+	2447. [[inverse Chebyshev filter]]
+	2448. inverse feedback
+		1. (negative feedback) See feedback
+	2449. [[inverse filter]]
+	2450. [[inverse function]]
+
+	2451. [[inverse gain]]
+	2452. inverse limiter
+		1. (base limiter) See limiter
+	2453. [[inverse problem]]
+	2454. [[inverse trigonometric functions]]
+	2455. [[inversion]]
+	2456. [[inverter]]
+	2457. [[inverting amplifier]]
+	2458. [[inverting transistor]]
+	2459. [[ion]]
+	2460. [[ion-beam analysis]]
+
+	2461. [[ion-beam lithography]]
+	2462. [[ionic atmosphere]]
+	2463. [[ionic bond]]
+	2464. [[ionic conduction]]
+	2465. [[ionic crystal]]
+	2466. [[ionic semiconductor]]
+	2467. [[ion implantation]]
+	2468. [[ionization]]
+	2469. [[ionization chamber]]
+	2470. [[ionization current]]
+
+	2471. [[ionization gauge]]
+	2472. [[ionization potential]]
+	2473. [[ionizing event]]
+	2474. [[ionizing radiation]]
+	2475. ion microprobe
+		1. See secondary-ion mass spectroscopy
+	2476. ion milling
+		1. See etching
+	2477. [[ionosphere]]
+	2478. [[ionospheric focusing]]
+	2479. [[ionospheric wave]]
+	2480. [[ion source]]
+
+	2481. [[ion spot]]
+	2482. [[ion trap]]
+	2483. IOP
+		1. See interior orientation parameters
+	2484. [[internet protocol|IP]]
+	2485. [[IP-enabled device]]
+	2486. [[second-order intercept point]]
+	2487. [[third-order intercept point]]
+	2488. [[IP camera]]
+	2489. IP cores
+		1. See design automation
+	2490. [[IP phone]]
+
+	2491. iris
+		1. See waveguide
+	2492. [[iron]]
+	2493. iron loss
+		1. See core loss
+	2494. [[irradiation]]
+	2495. [[Integrated services digital network|ISDN]]
+	2496. ISM
+		1. See industrial, scientific and medical
+	2497. ISO
+		1. (International Standards Organization) See standardization
+	2498. [[isoelectronic]]
+	2499. [[isolating]]
+	2500. [[isolating transformer]]
+
+	2501. [[isolation diode]]
+	2502. [[isolator]]
+	2503. [[isotropic]]
+	2504. [[isotropic radiator]]
+	2505. IT
+		1. See information technology
+	2506. [[iterative impedance]]
+	2507. ITU
+		1. (International Telecommunication Union) See standardization
+	2508. [[j]]
+	2509. J-K
+		1. (JK) See Flip-Flop
+	2510. [[jack plug and socket]]
+
+	2511. [[jamming]]
+	2512. Jansky noise
+		1. (galactic noise) See radio noise.
+	2513. JEDEC
+		1. See joint electronic device engineering council.
+	2514. JFET
+		1. (junction field-effect transistor) See field-effect transistor
+	2515. JFIF
+		1. (JPEG file interchange format) See JPEG
+	2516. [[jitter]]
+	2517. [[Johnson-Lark-Harowitz effect]]
+	2518. Johnson noise
+		1. (thermal noise) See noise
+	2519. [[Joint Electronic Device Engineering Council]]
+	2520. [[Josephson effect]]
+
+	2521. [[Josephson memory]]
+	2522. [[joule]]
+	2523. Joule effect
+		1. See heating effect of a current
+	2524. Joule magnetostriction
+		1. (positive magnetostriction) See magnetostriction
+	2525. [[Joint Photographic Expert Group|JPEG]]
+	2526. [[jump]]
+	2527. [[jumper]]
+	2528. [[junction]]
+	2529. junction field-effect transistor
+		1. (JFET) See field-effect transistor
+	2530. K-map
+		1. See karnaugh map
+
+	2531. k-space
+		1. See momentum space
+	2532. [[Ka band]]
+	2533. Kaiser window
+		1. See windowing
+	2534. [[Karnaugh map]]
+	2535. [[K band]]
+	2536. keep-alive circuit
+		1. See transmit-receive switch.
+	2537. [[kelvin]]
+	2538. [[Kelvin-Varley slide]]
+	2539. [[Kelvin balance]]
+	2540. [[Kelvin contacts]]
+
+	2541. [[Kelvin double bridge]]
+	2542. Kelvin effect
+		1. (Thomson effect) See thermoelectric effects
+	2543. Kennelly-Heaviside layer
+		1. (E-layer) See ionosphere
+	2544. [[Kerr effects]]
+	2545. [[keyboard]]
+	2546. [[key frames]]
+	2547. keystone distortion
+		1. See distortion
+	2548. [[4K HD]]
+	2549. [[kilo-]]
+	2550. [[kilobit]]
+
+	2551. [[kilobyte]]
+	2552. [[kilogram]]
+	2553. [[kilowatt-hour]]
+	2554. [[Kirchhoff's laws]]
+	2555. [[klystron]]
+	2556. [[Koch resistance]]
+	2557. Kronig-Penney model
+		1. (energy band structure) See quantum mechanics
+	2558. [[Ku band]]
+	2559. [[L-C network]]
+	2560. L-section
+		1. See two-port network
+
+	2561. label
+		1. In digital communications, a synonym for header.
+	2562. labyrinth loudspeaker
+		1. See loudspeaker
+	2563. ladder network
+		1. See filter
+	2564. [[local area data transport|LADT]]
+	2565. [[lag]]
+	2566. [[lag filter]]
+	2567. [[lagging current]]
+	2568. [[lagging load]]
+	2569. [[Lagrange's equation]]
+	2570. laminated core
+		1. See core
+
+	2571. [[lamination]]
+	2572. LAN
+		1. See local area network
+	2573. language
+		1. See programming language
+	2574. [[Laplace operator]]
+	2575. [[Laplace transform]]
+	2576. [[lapping]]
+	2577. large-scale integration
+		1. (LSI) See integrated circuit
+	2578. [[large signal current gain]]
+	2579. laryngophone
+		1. (throat microphone) See microphone
+	2580. [[laser]]
+
+	2581. [[laser diode]]
+	2582. [[laser printer]]
+	2583. [[laser range finding]]
+	2584. [[laser scanning]]
+	2585. [[last mile]]
+	2586. [[latch]]
+	2587. latching
+		1. See locking
+	2588. [[latency]]
+	2589. lattice
+		1. See crystal lattice
+	2590. [[lattice constant]]
+
+	2591. lattice filter
+		1. See filter
+	2592. lattice network
+		1. See network
+	2593. Lauritzen's electroscope
+		1. See electroscope
+	2594. [[lawnmower]]
+	2595. [[layer]]
+	2596. [[L band]]
+	2597. LCC
+		1. See leadless chip carrier
+	2598. LCD
+		1. See liquid-crystal display
+	2599. LCOS
+		1. See liquid crystal on silicon
+	2600. LDM
+		1. (linear delta modulation) See pulse modulation
+
+	2601. [[lead-in]]
+	2602. [[lead]]
+	2603. [[lead filter]]
+	2604. [[leadframe]]
+	2605. [[leading current]]
+	2606. leading edge
+		1. (a pulse) See pulse
+	2607. [[leading load]]
+	2608. [[leadless chip carrier]]
+	2609. [[leakage]]
+	2610. 
+
+	2611. [[leakage current]]
+	2612. [[leakage flux]]
+	2613. [[leakage reactance]]
+	2614. [[least significant bit]]
+	2615. LEC
+		1. See liquid-encapsulated Czochralski
+	2616. [[Leclanche cell]]
+	2617. LED
+		1. See light-emitting diode.
+	2618. [[LED lighting]]
+	2619. Leduc effect
+		1. See righi-leduc effect
+	2620. LEED
+		1. (low-energy electron diffraction) See diffraction
+
+	2621. left-hand rule
+		1. See fleming's rules
+	2622. Lenz's law
+		1. See electromagnetic induction
+	2623. LEOS
+		1. See low earth orbit satellite
+	2624. [[letter box]]
+	2625. [[level compensator]]
+	2626. [[level shifter]]
+	2627. [[Leyden jar]]
+	2628. LF
+		1. (low frequency) See frequency band
+	2629. LFO
+		1. See low-frequency oscillator
+	2630. [[lidar]]
+
+	2631. [[life test]]
+	2632. [[lifetime]]
+	2633. [[lift-off]]
+	2634. [[lifter]]
+	2635. [[light-emitting diode]]
+	2636. [[lightning conductor]]
+	2637. [[lightning stroke]]
+	2638. [[light pen]]
+	2639. limb
+		1. See transformer
+	2640. limited space-charge accumulation mode
+		1. (LSA mode) See transferred electron device
+
+	2641. [[limited stability]]
+	2642. [[limiter]]
+	2643. limiting amplifier
+		1. See amplifier
+	2644. [[lin-log receiver]]
+	2645. [[line]]
+	2646. [[line-of-sight path]]
+	2647. [[line-scan camera]]
+	2648. [[linear]]
+	2649. linear-beam microwave tube
+		1. (O-type microwave tube) See microwave tube
+	2650. [[linear accelerator]]
+
+	2651. linear amplifier
+		1. See amplifier
+	2652. [[linear array antenna]]
+	2653. linear block codes
+		1. See digital codes
+	2654. [[linear circuit]]
+	2655. linear delta modulation
+		1. (LDM) See pulse modulation
+	2656. linear detector
+		1. See detector
+	2657. linear inverter
+		1. See inverter
+	2658. [[linearization]]
+	2659. [[linearly graded junction]]
+	2660. linearly polarized wave
+		1. (plane-polarized wave) See polarization
+
+	2661. linear motor
+		1. See MAGLEV
+	2662. linear network
+		1. See network
+	2663. linear phase response
+		1. See phase response
+	2664. [[linear prediction]]
+	2665. [[linear scan]]
+	2666. [[linear system]]
+	2667. [[linear time-invariant]]
+	2668. [[linear timebase oscillator]]
+	2669. linear transducer
+		1. See transducer
+	2670. [[line communication]]
+
+	2671. line impedance stabilization network
+		1. (LISN) See electromagnetic compatibility
+	2672. [[line of flux]]
+	2673. [[line of force]]
+	2674. [[line printer]]
+	2675. line voltage
+		1. See voltage between lines
+	2676. [[link]]
+	2677. [[link availability]]
+	2678. [[link budget analysis]]
+	2679. lip microphone
+		1. See microphone
+	2680. [[liquid-crystal display]]
+
+	2681. [[liquid-encapsulated Czochralski]]
+	2682. [[liquid-phase epitaxy]]
+	2683. [[liquid crystal]]
+	2684. [[liquid crystal on silicon]]
+	2685. LISN
+		1. (line impedance stabilization network) See electromagnetic compatibility
+	2686. [[Lissajous' figure]]
+	2687. [[literal]]
+	2688. [[lithium-ion battery]]
+	2689. [[lithography]]
+	2690. [[little endian]]
+
+	2691. [[Litzendraht wire]]
+	2692. [[live]]
+	2693. LMDS
+		1. See local multipoint distribution system
+	2694. L network
+		1. (inductance network) See network
+	2695. [[load]]
+	2696. [[load-circuit efficiency]]
+	2697. [[load characteristic]]
+	2698. [[load circuit]]
+	2699. load coil
+		1. See induction heating
+	2700. [[load curve]]
+
+	2701. [[load factor]]
+	2702. [[load impedance]]
+	2703. loading
+		1. See transmission line
+	2704. loading coils
+		1. See transmission line
+	2705. [[load leads]]
+	2706. [[load line]]
+	2707. [[load matching]]
+	2708. [[load regulator]]
+	2709. [[load transfer switch]]
+	2710. lobe
+		1. See antenna pattern
+
+	2711. [[lobe switching]]
+	2712. [[local area network]]
+	2713. local exchange
+		1. See telephony
+	2714. local feedback
+		1. (multiple-loop feedback) See feedback
+	2715. localizer beacon
+		1. See beacon
+	2716. [[local multipoint distribution system]]
+	2717. local oscillator
+		1. See heterodyne reception
+	2718. locator beacon
+		1. (homing beacon) See beacon
+	2719. [[lock-in detector]]
+	2720. [[locking]]
+
+	2721. [[locking-in]]
+	2722. [[locking-on]]
+	2723. locking relay
+		1. See relay
+	2724. [[lock range]]
+	2725. [[log-periodic antenna]]
+	2726. [[logarithmic amplifier]]
+	2727. logarithmic decrement
+		1. See damped
+	2728. [[logarithmic plot]]
+	2729. logarithmic potentiometer
+		1. See potentiometer
+	2730. [[logarithmic resistor]]
+
+	2731. [[logical address]]
+	2732. [[logical one]]
+	2733. [[logical operations]]
+	2734. [[logic analyzer]]
+	2735. [[logic circuit]]
+	2736. [[logic diagram]]
+	2737. [[logic element]]
+	2738. [[logic gate]]
+	2739. [[logic symbol]]
+	2740. [[long-line effect]]
+
+	2741. [[long-persistence screen]]
+	2742. [[long-tailed pair]]
+	2743. [[long-term evolution]]
+	2744. [[long wave]]
+	2745. loop
+		1. See feedback control loop
+	2746. [[loop antenna]]
+	2747. [[loopback address]]
+	2748. loop direction finding
+		1. (frame direction finding) See direction finding.
+	2749. loop error
+		1. See feedback control loop
+	2750. [[loop gain]]
+
+	2751. loop signals
+		1. See feedback control loop
+	2752. loose coupling
+		1. (undercoupling) See coupling 
+	2753. loosely coupled multiprocessor
+		1. See multiprocessor
+	2754. [[Lorentz force]]
+	2755. loss
+		1. See dissipation
+	2756. [[loss angle]]
+	2757. [[loss factor]]
+	2758. [[lossless compression]]
+	2759. [[lossless line]]
+	2760. [[lossy]]
+
+	2761. [[lossy compression]]
+	2762. [[lossy line]]
+	2763. [[loudness]]
+	2764. [[loudspeaker]]
+	2765. [[low-frequency compensation]]
+	2766. [[low-frequency oscillator]]
+	2767. low-level injection
+		1. See injection
+	2768. [[low-level modulation]]
+	2769. low-level programming language
+		1. See programming language
+	2770. low-loss line
+		1. See logic circuit
+
+	2771. low-pass filter
+		1. See filter
+	2772. low-velocity scanning
+		1. See scanning
+	2773. [[low earth orbit satellite]]
+	2774. lower sideband
+		1. See carrier wave
+	2775. low frequency
+		1. (LF) See frequency band
+	2776. low logic level
+		1. See logic circuit
+	2777. LP
+		1. See linear prediction
+	2778. LPC
+		1. (linear predictive coding) See linear prediction
+	2779. LPCVD
+		1. (low pressure chemical vapor deposition) See chemical vapor deposition
+	2780. [[low probability of intercept]]
+
+	2781. [[low probability of position fix|LPPF]]
+	2782. LSA mode
+		1. (limited space-charge accumulation mode) See transferred electron device.
+	2783. LSB
+		1. See least significant bit
+	2784. LSI
+		1. (large-scale integration) See integrated circuit
+	2785. LTE
+		1. See long-term evolution
+	2786. LTP
+		1. See long-tailed pair
+	2787. luminance flicker
+		1. See flicker
+	2788. [[luminescence]]
+	2789. [[lumped element]]
+	2790. [[lumped parameter]]
+
+	2791. M-ary FSK
+		1. See frequency modulation
+	2792. M-ary PSK
+		1. See phase modulation
+	2793. M-type microwave tube
+		1. (crossed-field microwave tube) See microwave tube
+	2794. [[machine code]]
+	2795. [[machine vision]]
+	2796. [[macrocell]]
+	2797. [[MAGLEV]]
+	2798. [[magnesium]]
+	2799. [[magnet]]
+	2800. magnetic-armature loudspeaker
+		1. See loudspeaker
+
+	2801. [[magnetically shielded room]]
+	2802. [[magnetic balance]]
+	2803. magnetic bias
+		1. See magnetic recording
+	2804. magnetic blow-out
+		1. See circuit-breaker
+	2805. [[magnetic circuit]]
+	2806. magnetic constant
+		1. (permeability of free space) See permeability
+	2807. [[magnetic contactor]]
+	2808. magnetic controller
+		1. See automatic control
+	2809. magnetic core
+		1. (ferrite core) See core
+	2810. [[magnetic damping]]
+
+	2811. magnetic deflection
+		1. See electromagnetic deflection
+	2812. magnetic dipole moment
+		1. See magnetic moment (both definitions)
+	2813. [[magnetic disk]]
+	2814. [[magnetic field]]
+	2815. [[magnetic field strength]]
+	2816. [[magnetic flux]]
+	2817. [[magnetic flux density]]
+	2818. magnetic focusing
+		1. (electromagnetic focusing) See focusing
+	2819. magnetic head
+		1. See magnetic recording
+	2820. [[magnetic hysteresis]]
+
+	2821. magnetic induction
+		1. See magnetic flux density
+	2822. magnetic intensity
+		1. A former term for magnetic field strength
+	2823. [[magnetic leakage]]
+	2824. magnetic lens
+		1. See electromagnetic lens
+	2825. magnetic loudspeaker
+		1. See loudspeaker
+	2826. [[magnetic memory]]
+	2827. magnetic microphone
+		1. See microphone
+	2828. magnetic modulation
+		1. See transductor
+	2829. [[magnetic moment]]
+	2830. [[magnetic monopole]]
+
+	2831. [[magnetic pole]]
+	2832. magnetic potential
+		1. A former term for magnetomotive force
+	2833. [[magnetic recording]]
+	2834. magnetic residual loss
+		1. See ferromagnetism
+	2835. magnetic resistance
+		1. See reluctance
+	2836. [[magnetic resonance imaging]]
+	2837. magnetic saturation
+		1. See ferromagnetism
+	2838. [[magnetic screening]]
+	2839. [[magnetic shunt]]
+	2840. [[magnetic storage]]
+
+	2841. [[magnetic stripe card]]
+	2842. magnetic susceptibility
+		1. See susceptibility
+	2843. [[magnetic tape]]
+	2844. magnetic transition temperature
+		1. (Curie point) See ferromagnetism
+	2845. [[magnetic tuning]]
+	2846. [[magnetism]]
+	2847. [[magnetization]]
+	2848. magnetization curve
+		1. See magnetic hysteresis; ferromagnetism
+	2849. [[magnetize]]
+	2850. magnetizing force
+		1. See magnetic field strength
+
+	2851. [[magneto]]
+	2852. magneto-optical effect
+		1. See kerr effects
+	2853. [[magnetoencephalography]]
+	2854. [[magnetometer]]
+	2855. [[magnetomotive force]]
+	2856. [[magnetoresistance]]
+	2857. magnetoresistive random access memory
+		1. See MRAM
+	2858. [[magnetostriction]]
+	2859. [[magnetron]]
+	2860. magnetron effect
+		1. See thermionic valve
+
+	2861. [[magnitude response]]
+	2862. MagRAM
+		1. See MRAM
+	2863. main lobe
+		1. (major lobe) See antenna pattern
+	2864. [[mains]]
+	2865. mains hum
+		1. See radio noise; noise.
+	2866. maintaining voltage
+		1. See gas-discharge tube
+	2867. [[majority carrier]]
+	2868. major lobe
+		1. See antenna pattern
+	2869. [[make]]
+	2870. [[make-after-break]]
+
+	2871. [[make-and-break]]
+	2872. [[make-before-break]]
+	2873. MAN
+		1. See metropolitan area network
+	2874. man-made noise
+		1. See noise
+	2875. [[Manchester code]]
+	2876. [[manganese]]
+	2877. [[manganin]]
+	2878. MAR
+		1. See memory address register
+	2879. [[Marconi antenna]]
+	2880. [[marginal stability]]
+
+	2881. [[mark]]
+	2882. [[mark-space ratio]]
+	2883. [[maser]]
+	2884. [[mask]]
+	2885. [[masking]]
+	2886. [[mask register]]
+	2887. [[Mason's rules]]
+	2888. master
+		1. See recording of sound
+	2889. master frequency meter
+		1. See integrating frequency meter
+	2890. [[master oscillator]]
+
+	2891. master trigger
+		1. See radar
+	2892. [[matched termination]]
+	2893. matched waveguide
+		1. See waveguide.
+	2894. matching
+		1. See impedance matching; load matching
+	2895. [[Mathiessen's rule]]
+	2896. [[MATLAB]]
+	2897. [[matrix]]
+	2898. [[maximally flat]]
+	2899. [[maximum likelihood sequence estimation]]
+	2900. [[maximum power theorem]]
+
+	2901. [[maxterm]]
+	2902. [[maxwell]]
+	2903. [[Maxwell's equations]]
+	2904. [[Maxwell's rule]]
+	2905. [[Maxwell bridge]]
+	2906. MBE
+		1. See molecular beam epitaxy
+	2907. MBR
+		1. See memory buffer register
+	2908. [[multichannel per carrier|MCPC]]
+	2909. Mealy circuit
+		1. See finite-state machine
+	2910. [[mean]]
+
+	2911. mean current density
+		1. See current density
+	2912. [[mean life]]
+	2913. [[mean opinion score]]
+	2914. [[mean time between failures]]
+	2915. [[mean time to failure]]
+	2916. measurand
+		1. See transducer
+	2917. [[mechatronics]]
+	2918. [[median]]
+	2919. [[median filter]]
+	2920. medium-scale integration
+		1. (MSI) See integrated circuit
+
+	2921. medium frequency
+		1. (MF) See frequency band
+	2922. [[medium wave]]
+	2923. MEG
+		1. See MAGNETOENCEPHALOGRAPHY.
+	2924. [[mega-]]
+	2925. [[megabit]]
+	2926. [[megabyte]]
+	2927. [[megaflops]]
+	2928. [[megaphone]]
+	2929. Megger
+		1. Trademark A portable insulation tester calibrated directly in megohms
+	2930. Meissner effects
+		1. See superconductivity
+
+	2931. mekometer
+		1. See kerr effects
+	2932. [[mel]]
+	2933. mel frequency cepstral coefficients
+		1. See MFCC
+	2934. [[memory]]
+	2935. [[memory access time]]
+	2936. [[memory address register]]
+	2937. [[memory bandwidth]]
+	2938. [[memory buffer register]]
+	2939. memory capacity
+		1. (storage capacity) See memory
+	2940. [[memory card]]
+
+	2941. [[memory stick]]
+	2942. [[memory wear]]
+	2943. MEMS
+		1. See microelectromechanical sensors.
+	2944. [[Mentor Graphics]]
+	2945. [[mercury-vapor lamp]]
+	2946. merged CMOS/bipolar
+		1. See BiCMOS
+	2947. [[mesa]]
+	2948. [[mesa transistor]]
+	2949. [[MESFET]]
+	2950. mesh
+		1. See network
+
+	2951. mesh analysis
+		1. See circuit mesh analysis
+	2952. mesh contour
+		1. See network
+	2953. mesh current
+		1. See network
+	2954. mesh loop
+		1. See circuit mesh analysis
+	2955. mesh voltage
+		1. (hexagon voltage) See voltage between lines
+	2956. [[metal]]
+	2957. metal-ceramic
+		1. See cermet
+	2958. metal-oxide-semiconductor
+		1. See MOS
+	2959. [[metal-semiconductor contact]]
+	2960. metal-semiconductor diode
+		1. See Schottky diode.
+
+	2961. [[metal film resistor]]
+	2962. metallization
+		1. See metallizing
+	2963. [[metallized film capacitors]]
+	2964. [[metallized paper capacitors]]
+	2965. [[metallizing]]
+	2966. [[metamaterial]]
+	2967. [[metatronics]]
+	2968. [[meter]]
+	2969. [[meter resistance]]
+	2970. [[method of images]]
+
+	2971. [[method of moments]]
+	2972. [[meter]]
+	2973. [[meter bridge]]
+	2974. [[metropolitan area network]]
+	2975. MF
+		1. (medium frequency) See frequency band
+	2976. [[MFCC]]
+	2977. MFLOPS
+		1. See megaflops
+	2978. [[mho]]
+	2979. [[mica]]
+	2980. [[mica capacitor]]
+
+	2981. [[micro-]]
+	2982. [[microcell]]
+	2983. [[microcircuit]]
+	2984. microcode
+		1. See microprogram
+	2985. microcomputer
+		1. See computer
+	2986. [[microelectromechanical sensors]]
+	2987. [[microelectronics]]
+	2988. micromanipulator probe
+		1. See probe
+	2989. [[micron]]
+	2990. [[microphone]]
+
+	2991. microphony
+		1. See noise
+	2992. [[microprocessor]]
+	2993. [[microprogram]]
+	2994. [[microstrip line]]
+	2995. [[microwave]]
+	2996. [[microwave generator]]
+	2997. [[microwave integrated circuit]]
+	2998. [[microwave landing system]]
+	2999. [[microwave tube]]
+	3000. [[MIDI]]
+
+	3001. [[Miller effect]]
+	3002. [[Miller indices]]
+	3003. [[Miller integrator]]
+	3004. Miller sweep generator
+		1. See timebase
+	3005. [[milli-]]
+	3006. [[millimeter-wave technology]]
+	3007. [[millimeter waves]]
+	3008. [[MIM capacitor]]
+	3009. MIMO
+		1. See multiple in, multiple out.
+	3010. [[minimum discernible signal]]
+
+	3011. [[minimum mean square error]]
+	3012. [[minimum phase]]
+	3013. minimum sampling frequency
+		1. See sampling; pulse modulation
+	3014. minimum shift keying
+		1. (MSK) see amplitude modulation 
+	3015. [[minority carrier]]
+	3016. [[minterm]]
+	3017. mirror galvanometer
+		1. See galvanometer
+	3018. [[mismatch]]
+	3019. misuse failure
+		1. See failure
+	3020. mixed coupling
+		1. See coupling
+
+	3021. [[mixer]]
+	3022. [[mixer noise balance]]
+	3023. [[MKS system]]
+	3024. MLS
+		1. See microwave landing system
+	3025. MLSE
+		1. See maximum likelihood sequence estimation
+	3026. MMIC
+		1. See monolithic microwave integrated circuit
+	3027. MMSE
+		1. See minimum mean square error. 
+	3028. [[Mobile IP]]
+	3029. mobile multimedia system
+		1. See cellular communications
+	3030. mobile network
+		1. (cellular network) See cellular communications.
+
+	3031. mobile phone
+		1. See cellular communications
+	3032. mobility
+		1. See drift mobility; Hall mobility.
+	3033. [[mode]]
+	3034. [[model]]
+	3035. [[modeling]]
+	3036. [[model parameter]]
+	3037. [[modem]]
+	3038. [[modern control]]
+	3039. MODFET
+		1. (modulation-doped field-effect transistor) See high electron mobility transistor.
+	3040. [[modulation]]
+
+	3041. modulation index
+		1. (modulation factor) See amplitude modulation; frequency modulation.
+	3042. [[modulation wheel]]
+	3043. [[modulator]]
+	3044. [[modulator electrode]]
+	3045. [[modulus of a complex number]]
+	3046. [[molecular-beam epitaxy]]
+	3047. [[molecular robot]]
+	3048. moment method
+		1. See method of moments
+	3049. [[momentum space]]
+	3050. [[monitor]]
+
+	3051. [[monochromatic radiation]]
+	3052. [[monochrome]]
+	3053. [[monocrystalline silicon]]
+	3054. [[monolithic capacitor]]
+	3055. monolithic integrated circuit
+		1. See integrated circuit 
+	3056. [[monolithic microwave integrated circuit]]
+	3057. [[monophonic]]
+	3058. [[monopole antenna]]
+	3059. [[monoscope]]
+	3060. [[monostable]]
+
+	3061. [[Moog synthesizer]]
+	3062. [[Moore's law]]
+	3063. Moore circuit
+		1. See finite-state machine
+	3064. [[Morse code]]
+	3065. MOS
+		- (1) (metal-oxide-semiconductor) See MOS CAPACITOR; MOSFET; MOS INTEGRATED CIRCUIT; MOS LOGIC CIRCUIT. 
+		- (2) See MEAN OPINION SCORE.
+	3066. [[mosaic crystal]]
+	3067. [[mosaic electrode]]
+	3068. [[MOS capacitor]]
+	3069. [[MOSFET]]
+	3070. [[MOS integrated circuit]]
+
+	3071. [[MOS logic circuit]]
+	3072. [[MOSRAM]]
+	3073. MOST
+		1. (MOS transistor) See MOSFET
+	3074. MOS transistor
+		1. See MOSFET
+	3075. [[most significant bit]]
+	3076. [[motherboard]]
+	3077. [[motional impedance]]
+	3078. [[motion capture]]
+	3079. [[motion detector]]
+	3080. [[motor]]
+
+	3081. [[motorboating]]
+	3082. mount
+		1. See waveguide
+	3083. mountain effect
+		1. See direction finding
+	3084. [[mouse]]
+	3085. [[moving-coil instrument]]
+	3086. moving-coil microphone
+		1. See microphone
+	3087. [[moving-iron instrument]]
+	3088. moving-iron microphone
+		1. See microphone
+	3089. [[moving-magnet instrument]]
+	3090. [[moving magnetic surface memory]]
+
+	3091. Moving Picture Experts Group
+		1. See MPEG
+	3092. [[MP3]]
+	3093. [[Moving Picture Experts Group|MPEG]]
+	3094. MPEG-TS
+		1. See transport stream
+	3095. MPLPC
+		1. (multipulse linear predictive coding) See linear prediction
+	3096. [[MRAM]]
+	3097. MRI
+		1. See magnetic resonance imaging
+	3098. MSB
+		1. See most significant bit
+	3099. MSK
+		1. (minimum shift keying) See amplitude modulation
+	3100. MSR
+		1. See magnetically shielded room
+
+	3101. MTBF
+		1. See mean time between failures
+	3102. MTTF
+		1. See mean time to failure
+	3103. mu circuit
+		1. See feedback
+	3104. [[multi-touch interface]]
+	3105. [[multicast]]
+	3106. multicavity microwave tube
+		1. See klystron; magnetron
+	3107. [[multichannel analyzer]]
+	3108. [[multielectrode valve]]
+	3109. [[multilayer PCB]]
+	3110. [[multilevel metallization]]
+
+	3111. [[multilevel resist]]
+	3112. multilevel signalling
+		1. See signal
+	3113. multimedia
+		1. See CD-ROM
+	3114. [[multimeter]]
+	3115. [[multimode fiber]]
+	3116. [[multipath]]
+	3117. multiple-loop feedback
+		1. (local feedback) See feedback
+	3118. multiple access
+		- (1) See digital communications
+		- (2) See communications satellite
+	3119. multiple folded dipole
+		1. See dipole
+	3120. [[multiple in, multiple out]]
+
+	3121. multiple modulation
+		1. See modulation
+	3122. multiplexer
+		1. (MUX) See multiplex operation
+	3123. [[multiplex operation]]
+	3124. [[multiplier]]
+	3125. [[multiprocessor]]
+	3126. multipulse linear predictive coding
+		1. (MPLPC) See linear prediction
+	3127. [[multispectral image]]
+	3128. [[multistable]]
+	3129. multistage amplifier
+		1. See amplifier
+	3130. multistage feedback
+		1. (single-loop feedback) See feedback
+
+	3131. [[multitasking]]
+	3132. [[multivariable function]]
+	3133. [[multivibrator]]
+	3134. musa
+		1. Acronym for multiple unit steerable antenna. See steerable antenna.
+	3135. mush area
+		1. See service area
+	3136. mushroom gate
+		1. See T-gate
+	3137. musical instrument digital interface
+		1. See MIDI
+	3138. muting
+		1. See automatic gain control
+	3139. [[muting switch]]
+	3140. mutual-inductance coupling
+		1. See coupling
+
+	3141. mutual branch
+		1. (common branch) See network
+	3142. [[mutual capacitance]]
+	3143. mutual inductance
+		1. See inductance; electromagnetic induction
+	3144. [[Mylar]]
+	3145. [[n-channel]]
+	3146. n-p-n transistor
+		1. (NPN transistor) See bipolar junction transistor
+	3147. n-p junction
+		1. A p-n junction
+	3148. [[n-type conductivity]]
+	3149. [[n-type semiconductor]]
+	3150. NAK signal
+		1. (negative acknowledgement signal) See digital communications
+
+	3151. NAND circuit
+		1. (gate) See logic circuit
+	3152. [[NAND flash device]]
+	3153. [[nano-]]
+	3154. [[nanoceramic]]
+	3155. [[nanocircuitry]]
+	3156. [[nanodevice]]
+	3157. [[nanoelectromechanical systems]]
+	3158. [[nanoelectronics]]
+	3159. [[nanofabrication]]
+	3160. [[nanoimprint lithography]]
+
+	3161. [[nanomagnetism]]
+	3162. [[nanorod]]
+	3163. [[nanostructure]]
+	3164. [[nanotechnology]]
+	3165. [[nanowire]]
+	3166. [[narrowband]]
+	3167. narrowband FM
+		1. See frequency modulation
+	3168. narrowband FSK
+		1. See frequency modulation
+	3169. National Institute of Standards and Technology
+		1. (NIST) See standardization
+	3170. [[natural frequency]]
+
+	3171. NDR
+		1. (negative differential resistance) See negative resistance
+	3172. NDR effect
+		1. See Gunn effect
+	3173. NDT
+		1. See non-destructive testing
+	3174. near-end crosstalk
+		1. See crosstalk
+	3175. [[near-field communication]]
+	3176. near-field region
+		1. See far-field region
+	3177. Néel temperature
+		1. See ANTIFERROMAGNETISM; FERRIMAGNETISM.
+	3178. negative-resistance oscillator
+		1. See oscillator
+	3179. [[negative bias]]
+	3180. negative booster
+		1. See booster
+
+	3181. negative charge
+		1. See charge
+	3182. negative feedback
+		1. (inverse feedback; degeneration) See feedback
+	3183. negative ion
+		1. See ion
+	3184. negative logic
+		1. See logic circuit
+	3185. negative phase sequence
+		1. See phase sequence
+	3186. negative photoresist
+		1. See photoresist
+	3187. [[negative resistance]]
+	3188. negative sequence
+		1. See phase sequence
+	3189. negative transmission
+		1. See television
+	3190. NEMS
+		1. See NANOELECTROMECHANICAL SYSTEMS.
+
+	3191. [[neon]]
+	3192. [[neon lamp]]
+	3193. [[neper]]
+	3194. [[Nernst effect]]
+	3195. [[nesting]]
+	3196. [[netlist]]
+	3197. [[net loss]]
+	3198. [[network]]
+	3199. [[network access]]
+	3200. [[network analyzer]]
+
+	3201. [[network analysis]]
+	3202. network constants
+		1. (network parameters) See network
+	3203. [[network synthesis]]
+	3204. [[network traffic measurement]]
+	3205. [[neural network]]
+	3206. [[neuroelectricity]]
+	3207. [[neurogaming]]
+	3208. [[neuroimaging]]
+	3209. [[neutral]]
+	3210. [[neutralization]]
+
+	3211. neutral temperature
+		1. See thermocouple
+	3212. [[newton]]
+	3213. NFC
+		1. See near-field communication
+	3214. [[nibble]]
+	3215. [[near instantaneously compounded audio multiplex|NICAM]]
+	3216. [[Nichrome]]
+	3217. [[nickel]]
+	3218. [[nickel-cadmium cell]]
+	3219. [[nickel-iron cell]]
+	3220. [[night vision system]]
+
+	3221. NIL
+		1. See nanoimprint lithography
+	3222. NIST
+		1. (National Institute of Standards and Technology) See standardization
+	3223. NMOS
+		1. See MOSFET
+	3224. [[no-load]]
+	3225. [[noctovision]]
+	3226. [[nodal analysis]]
+	3227. [[node]]
+	3228. node voltage
+		1. See network
+	3229. [[noise]]
+	3230. [[noise factor]]
+
+	3231. [[noise figure]]
+	3232. [[noise margin]]
+	3233. [[noise temperature]]
+	3234. [[non-contact sensing]]
+	3235. [[non-destructive testing]]
+	3236. noncoherent detection
+		1. (noncoherent demodulation) See modulation
+	3237. nondestructive read operation
+		1. See read
+	3238. [[noninverting amplifier]]
+	3239. nonlinear amplifier
+		1. See amplifier
+	3240. [[nonlinear circuit]]
+
+	3241. [[nonlinear component]]
+	3242. nonlinear distortion
+		1. See distortion
+	3243. nonlinear network
+		1. See network
+	3244. [[nonlinear system]]
+	3245. nonperiodic signal
+		1. See aperiodic signal
+	3246. [[nonreactive]]
+	3247. [[nonreactive load]]
+	3248. nonrecursive filters
+		1. See digital filter
+	3249. nonresonant line
+		1. See transmission line
+	3250. [[nonreturn to zero]]
+
+	3251. nonsaturated mode
+		1. See saturated mode
+	3252. [[nonthreshold logic]]
+	3253. [[nonvolatile memory]]
+	3254. NOR circuit
+		1. (gate) See logic circuit
+	3255. normal distribution
+		1. See gaussian distribution
+	3256. [[normalized filter]]
+	3257. [[normal mode]]
+	3258. [[normal vector]]
+	3259. Norton's theorem
+		1. See Thévenin's theorem.
+	3260. [[notch filter]]
+
+	3261. NOT circuit
+		1. (gate; inverter) See logic circuit
+	3262. note frequency
+		1. (beat frequency) See beats
+	3263. NRZ
+		1. See nonreturn to zero
+	3264. NRZ codes
+		1. (nonreturn to zero codes) See digital codes; nonreturn to zero
+	3265. NRZ PCM
+		1. (NRZ pulse code modulation) See pulse modulation
+	3266. NTL
+		1. See nonthreshold logic
+	3267. [[National Television System Committee]]
+	3268. [[nucleus]]
+	3269. [[null]]
+	3270. [[null-point detector]]
+
+	3271. [[null method]]
+	3272. [[number density]]
+	3273. [[number of poles]]
+	3274. [[numerical control]]
+	3275. [[Nyquist noise theorem]]
+	3276. [[Nyquist plot]]
+	3277. Nyquist point
+		1. See gain margin
+	3278. [[Nyquist rate]]
+	3279. O-network
+		1. See two-port network
+	3280. O-type microwave tube
+		1. (linear-beam microwave tube) See microwave tube
+
+	3281. [[object code]]
+	3282. [[object recognition]]
+	3283. observed failure rate
+		1. See failure rate
+	3284. observed mean life
+		1. See mean life
+	3285. OCR
+		1. See optical character reader
+	3286. [[octal]]
+	3287. [[octave]]
+	3288. [[oersted]]
+	3289. OFC
+		1. See oxygen-free copper
+	3290. OFDM
+		1. See orthogonal frequency division modulation
+
+	3291. [[offline]]
+	3292. offset QPSK
+		1. (OQPSK) see amplitude modulation.
+	3293. [[ohm]]
+	3294. [[Ohm's law]]
+	3295. ohmic
+		1. See ohm's law
+	3296. [[ohmic contact]]
+	3297. [[ohmic loss]]
+	3298. [[ohmmeter]]
+	3299. [[ohm meter]]
+	3300. ohms per square
+		1. See sheet resistance
+
+	3301. OLED
+		1. See organic light-emitting diode
+	3302. [[omnidirectional antenna]]
+	3303. [[omnidirectional microphone]]
+	3304. OMVPE
+		1. (organo-metallic vapor phase epitaxy) See CHEMICAL VAPOR DEPOSITION.
+	3305. on-off keying
+		1. (OOK) See amplitude modulation
+	3306. [[one's-complement notation]]
+	3307. [[one-port]]
+	3308. one-shot multivibrator
+		1. (single-shot multivibrator) See monostable
+	3309. one-sided abrupt junction
+		1. See abrupt junction
+	3310. [[online]]
+
+	3311. OOK
+		1. (on-off keying) See amplitude modulation
+	3312. op-amp
+		1. See operational amplifier
+	3313. op-code
+		1. See operation code
+	3314. [[open-area test site]]
+	3315. open-circuit impedance
+		1. See network
+	3316. [[open-circuit voltage]]
+	3317. [[open-ended]]
+	3318. open-field test site
+		1. See open-area test site.
+	3319. [[open-loop gain]]
+	3320. open circuit
+		1. See circuit
+
+	3321. open systems interconnection
+		1. See OSI
+	3322. [[operand]]
+	3323. [[operating point]]
+	3324. [[operating system]]
+	3325. [[operational amplifier]]
+	3326. [[operational range]]
+	3327. operational transconductance amplifier
+		1. (OTA) See dependent sources
+	3328. [[operation code]]
+	3329. [[optical ammeter]]
+	3330. [[optical character reader]]
+
+	3331. [[optical disk]]
+	3332. [[optical electronics]]
+	3333. [[optical fiber]]
+	3334. optical stepper
+		1. See PHOTOLITHOGRAPHY.
+	3335. [[optical storage]]
+	3336. [[optical switch]]
+	3337. [[optoelectronics]]
+	3338. OQPSK
+		1. (offset quadrature phase shift keying) see modulation
+	3339. OR circuit
+		1. (gate) See logic circuit
+	3340. [[order]]
+
+	3341. [[organic light-emitting diode]]
+	3342. [[orthogonal]]
+	3343. orthogonal codes
+		1. See digital codes
+	3344. [[orthogonal frequency division modulation]]
+	3345. [[orthophoto]]
+	3346. [[oscillating current]]
+	3347. [[oscillation]]
+	3348. [[oscillator]]
+	3349. oscillatory circuit
+		1. See oscillation
+	3350. [[oscilloscope]]
+
+	3351. [[open systems interconnection|OSI]]
+	3352. OTA
+		1. (operational transconductance amplifier) See dependent sources.
+	3353. OTDR
+		1. (optical time delay reflectometer) See REFLECTOMETER.
+	3354. out of phase
+		1. See phase
+	3355. [[output]]
+	3356. [[output gap]]
+	3357. [[output impedance]]
+	3358. [[output transformer]]
+	3359. [[overall efficiency]]
+	3360. overbunching
+		1. See velocity modulation
+
+	3361. overcoupling
+		1. See coupling
+	3362. [[overcurrent release]]
+	3363. overdamping
+		1. (periodic damping) See damped
+	3364. [[overdriven amplifier]]
+	3365. [[overflow]]
+	3366. [[overlay network]]
+	3367. [[overload]]
+	3368. overload level
+		1. See dynamic range; overload.
+	3369. [[overload management]]
+	3370. overload release
+		1. See overcurrent release.
+
+	3371. overmodulation
+		1. See scanning
+	3372. overscanning
+		1. See scanning
+	3373. overshoot
+		1. See pulse
+	3374. [[overtone]]
+	3375. [[overvoltage]]
+	3376. [[overvoltage release]]
+	3377. [[Owen bridge]]
+	3378. [[oxidation]]
+	3379. [[oxide]]
+	3380. [[oxide masking]]
+
+	3381. [[oxygen-free copper]]
+	3382. [[p-channel]]
+	3383. p-n-p transistor
+		1. (p-n-p-n device) See thyristor
+	3384. [[p-n junction]]
+	3385. [[p-type conductivity]]
+	3386. [[p-type semiconductor]]
+	3387. p.d.
+		1. See potential difference
+	3388. P/E cycle
+		1. See program-erase cycle
+	3389. PABX
+		1. (private automatic branch exchange) See telephony
+	3390. [[package]]
+
+	3391. [[packet]]
+	3392. [[packet switching]]
+	3393. [[packing density]]
+	3394. pad
+		1. (1) See attenuator
+		2. (2) See bonding pad
+	3395. [[PAD]]
+	3396. [[pair]]
+	3397. [[paired cable]]
+	3398. [[pairing]]
+	3399. [[PAL]]
+	3400. PAM
+		1. (pulse-amplitude modulation) See pulse modulation
+
+	3401. [[panoramic display]]
+	3402. panoramic radar indicator
+		1. See radar indicator
+	3403. [[Panoramic receiver]]
+	3404. [[paper capacitor]]
+	3405. PAR
+		1. See precision approach radar
+	3406. [[parabolic reflector]]
+	3407. [[parallel]]
+	3408. [[parallel-plate capacitor]]
+	3409. parallel-T network
+		1. (twin-T network) See two-port network
+	3410. [[parallel circuit]]
+
+	3411. parallel network
+		1. (shunt network) See network
+	3412. [[parallel processing]]
+	3413. parallel resistance
+		1. See resonant frequency
+	3414. parallel resonant circuit
+		1. (rejector) See resonant circuit; resonant frequency.
+	3415. parallel supply
+		1. See series supply
+	3416. [[parallel system]]
+	3417. [[parallel transmission]]
+	3418. [[paramagnetism]]
+	3419. [[parameter]]
+	3420. [[parametric amplifier]]
+
+	3421. [[parametric model]]
+	3422. [[paraphase amplifier]]
+	3423. parasitic antenna
+		1. (passive antenna) See directional antenna.
+	3424. [[parasitic capacitance]]
+	3425. [[parasitic inductance]]
+	3426. [[parasitic oscillations]]
+	3427. parasitic radiator
+		1. (passive antenna) See directional antenna.
+	3428. [[parity]]
+	3429. [[parity check]]
+	3430. [[Parseval's theorem]]
+
+	3431. [[partial fractions expansion]]
+	3432. partial node
+		1. See node
+	3433. [[particular integral]]
+	3434. [[partition]]
+	3435. [[partition noise]]
+	3436. [[pascal]]
+	3437. [[Paschen's law]]
+	3438. pass band
+		1. See filter
+	3439. [[passivation]]
+	3440. [[passive]]
+
+	3441. passive antenna
+		1. (secondary radiator; parasitic antenna; parasitic radiator) See DIRECTIONAL ANTENNA.
+	3442. passive filter
+		1. See filter
+	3443. passive network
+		1. See network
+	3444. [[passive sensor]]
+	3445. [[passive substrate]]
+	3446. passive transducer
+		1. See transducer
+	3447. [[patch]]
+	3448. [[patchbay]]
+	3449. path loss
+		1. See FRIIS TRANSMISSION EQUATION.
+	3450. [[patterned media recording]]
+
+	3451. [[Pauli exclusion principle]]
+	3452. Pauli paramagnetism
+		1. See PARAMAGNETISM.
+	3453. PBT
+		1. (permeable base transistor) See VERTICAL FET.
+	3454. PBX
+		1. (private branch exchange) See TELEPHONY.
+	3455. PC
+		1. (1) See personal computer
+		2. (2) See program counter
+	3456. [[printed circuit board|PCB]]
+	3457. [[PCI Express]]
+	3458. PCM
+		1. (1) (pulse code modulation) See pulse modulation
+		2. (2) (portable conformable mask) See multilevel resist
+	3459. [[personal computer memory card international association|PCMCIA]]
+	3460. PDA
+		1. (1) See personal digital assistant
+		2. (2) (pitch determination algorithm) see fundamental frequency estimation
+
+	3461. PDM
+		1. (pulse-duration modulation) See pulse modulation
+	3462. [[peak-riding clipper]]
+	3463. peak-to-peak amplitude
+		1. See amplitude 
+	3464. [[peak factor]]
+	3465. [[peak forward voltage]]
+	3466. [[peak inverse voltage]]
+	3467. peak limiter
+		1. (clipper) See limiter
+	3468. peak load
+		1. See load
+	3469. [[peak picker]]
+	3470. peak point
+		1. See tunnel diode
+
+	3471. peak pulse amplitude
+		1. See peak value
+	3472. [[peak value]]
+	3473. PECVD
+		1. (plasma-enhanced chemical vapor deposition) See CHEMICAL VAPOR DEPOSITION.
+	3474. [[pedestal]]
+	3475. Peltier effect
+		1. See THERMOELECTRIC EFFECTS.
+	3476. [[pentode]]
+	3477. PEP
+		1. (peak envelope power) A measure of the power rating of single-sideband transmitters. It is calculated by multiplying the maximum (peak) envelope voltage by 0.707, squaring the result, and dividing by the load resistance.
+	3478. [[percentage error]]
+	3479. percentage modulation
+		1. See amplitude modulation
+	3480. percentile life
+		1. See mean life
+
+	3481. perfect dielectric
+		1. See dielectric
+	3482. perfect transformer
+		1. (ideal transformer) see transformer
+	3483. [[period]]
+	3484. [[periodic]]
+	3485. periodic damping
+		1. (overdamping) See damped.
+	3486. periodic duty
+		1. See duty
+	3487. [[periodic signal]]
+	3488. [[periodic table]]
+	3489. [[periodic waveform]]
+	3490. [[peripheral devices]]
+
+	3491. [[periphonic surround sound]]
+	3492. [[permanent magnet]]
+	3493. [[permeability]]
+	3494. permeability tuning
+		1. (slug tuning) See tuned circuit
+	3495. permeable base transistor
+		1. (PBT) See vertical FET
+	3496. [[permeameter]]
+	3497. [[permeance]]
+	3498. [[permittivity]]
+	3499. [[persistence]]
+	3500. [[persistor]]
+
+	3501. [[personal area network]]
+	3502. personal communications device
+		1. See cellular communications
+	3503. [[personal computer]]
+	3504. Personal Computer Memory Card International Association
+		1. See PCMCIA
+	3505. [[personal digital assistant]]
+	3506. [[perveance]]
+	3507. PET
+		1. (positron emission tomography) See NEUROIMAGING.
+	3508. PFM
+		1. (pulse-frequency modulation) See PULSE MODULATION.
+	3509. PGA
+		1. See pin grid array
+	3510. [[phase]]
+
+	3511. phase-change coefficient
+		1. (phase constant; wavelength constant) See propagation coefficient
+	3512. phase-detect autofocus system
+		1. See autofocus
+	3513. [[phase-lock loop]]
+	3514. phase-shift oscillator
+		1. See oscillator
+	3515. [[phase angle]]
+	3516. [[phase center]]
+	3517. phase constant
+		1. (phase-change coefficient) See propagation coefficient
+	3518. [[phase corrector]]
+	3519. [[phase delay]]
+	3520. [[phase detector]]
+
+	3521. phase deviation
+		1. See phase modulation
+	3522. [[phase difference]]
+	3523. [[phase discriminator]]
+	3524. phase distortion
+		1. See distortion
+	3525. phased linear array
+		1. See linear array antenna
+	3526. [[phase inverter]]
+	3527. phase lag
+		1. See LAG
+	3528. [[phase modulation]]
+	3529. phase of a complex number
+		1. See argument of a complex number
+	3530. [[phase response]]
+
+	3531. [[phase sequence]]
+	3532. [[phase shift]]
+	3533. phase shift keying
+		1. (PSK) See phase modulation
+	3534. [[phase splitter]]
+	3535. [[phase velocity]]
+	3536. [[phase voltage]]
+	3537. [[phasing]]
+	3538. [[phasor]]
+	3539. [[phonon]]
+	3540. phosphor
+		1. A luminescent material. See luminescence.
+
+	3541. [[phosphor-bronze]]
+	3542. phosphorescence
+		1. See luminescence
+	3543. [[photocathode]]
+	3544. [[photocell]]
+	3545. [[photoconductivity]]
+	3546. [[photoconverter]]
+	3547. [[photocurrent]]
+	3548. [[photodetachment]]
+	3549. [[photodetector]]
+	3550. [[photodiode]]
+
+	3551. photoelectric cell
+		1. See photocell
+	3552. [[photoelectric constant]]
+	3553. [[photoelectric effect]]
+	3554. photoelectric galvanometer
+		1. See galvanometer
+	3555. [[photoelectric sensor]]
+	3556. [[photoelectron spectroscopy]]
+	3557. [[photoemission]]
+	3558. [[photogeneration]]
+	3559. photoglow tube
+		1. See phototube
+	3560. [[photoionization]]
+
+	3561. [[photolithography]]
+	3562. [[photometer]]
+	3563. [[photomultiplier]]
+	3564. [[photon]]
+	3565. [[photoresist]]
+	3566. photosensitive recording
+		1. See recording of sound
+	3567. [[photosensitivity]]
+	3568. [[phototransistor]]
+	3569. [[phototube]]
+	3570. [[photovoltaic cell]]
+
+	3571. [[photovoltaic effect]]
+	3572. [[photovoltaic system]]
+	3573. pi circuit
+		1. ($\pi$ circuit) See delta circuit
+	3574. [[pick-up]]
+	3575. picket-fence effect
+		1. See discrete fourier transform
+	3576. [[PIC microcontroller]]
+	3577. [[pico-]]
+	3578. [[picocell]]
+	3579. picture carrier
+		1. See television
+	3580. [[picture element]]
+
+	3581. [[PID control]]
+	3582. [[piece-wise linear function]]
+	3583. Pierce crystal oscillator
+		1. See PIEZOELECTRIC OSCILLATOR (Figs. $b, c$ ).
+	3584. [[piezoelectric crystal]]
+	3585. [[piezoelectric effect]]
+	3586. [[piezoelectric hysteresis]]
+	3587. [[piezoelectricity]]
+	3588. [[piezoelectric oscillator]]
+	3589. [[piezoelectric sensor]]
+	3590. piezoelectric strain constant
+		1. See PIEZOELECTRIC EFFECT.
+
+	3591. piezoelectric strain gauge
+		1. See strain gauge
+	3592. [[pigtails]]
+	3593. pincushion distortion
+		1. See distortion
+	3594. [[PIN diode]]
+	3595. [[ping-pong]]
+	3596. [[pin grid array]]
+	3597. [[pinout]]
+	3598. PIN photodiode
+		1. (p-i-n photodiode) See PHOTODIODE.
+	3599. [[Pirani gauge]]
+	3600. [[pitch]]
+
+	3601. [[pitch bend]]
+	3602. pitch determination algorithm
+		1. (PDA) See fundamental frequency estimation
+	3603. pitch estimation
+		1. See fundamental frequency estimation
+	3604. pitch extraction
+		1. See fundamental frequency estimation
+	3605. [[pixel]]
+	3606. [[programmable logic array|PLA]]
+	3607. [[planar array antenna]]
+	3608. [[planar process]]
+	3609. [[Planck constant]]
+	3610. [[plane-polarized wave]]
+
+	3611. [[plan position indicator]]
+	3612. plant
+		1. See controlled system
+	3613. plant load factor
+		1. See load factor
+	3614. [[plasma]]
+	3615. plasma-enhanced CVD
+		1. (PECVD) See chemical vapor deposition
+	3616. plasma etching
+		1. See etching
+	3617. [[plasmon]]
+	3618. [[plastic-film capacitor]]
+	3619. [[plastic leaded chip carrier]]
+	3620. [[plate]]
+
+	3621. [[plateau]]
+	3622. [[plated-through-hole]]
+	3623. [[plated heat sink]]
+	3624. [[plated magnetic wire]]
+	3625. plating
+		1. See ELECTROPLATING.
+	3626. [[platinum]]
+	3627. platinum resistance thermometer
+		1. See RESISTANCE THERMOMETER.
+	3628. [[platter]]
+	3629. [[personal locator beacon]]
+	3630. [[Programmable Logic Controller|PLC]]
+
+	3631. PLCC
+		1. See plastic leaded chip carrier
+	3632. [[programmable logic device|PLD]]
+	3633. PLL
+		1. See phase-lock loop
+	3634. PLM
+		1. (pulse-length modulation) See pulse modulation
+	3635. [[plug and socket]]
+	3636. PM
+		1. See phase modulation
+	3637. PMBX
+		1. (private manual branch exchange) See telephony
+	3638. PMMA
+		1. See POLYMETHYLMETHACRYLATE.
+	3639. PMOS
+		1. See MOSFET
+	3640. pnpn device
+		1. (p-n-p-n device) See thyristor
+
+	3641. PN sequence
+		1. (pseudonoise sequence) See DIGITAL CODES.
+	3642. Pockel's effect
+		1. See kerr effects
+	3643. [[point-contact diode]]
+	3644. [[point-contact transistor]]
+	3645. point cloud
+		1. See 3D point cloud
+	3646. [[point contact]]
+	3647. [[Poisson's equation]]
+	3648. [[polar]]
+	3649. [[polar coordinates]]
+	3650. [[polar form of a complex number]]
+
+	3651. [[polarity]]
+	3652. [[polarization]]
+	3653. polarization diversity
+		1. See diversity system
+	3654. polarized plug
+		1. See plug and socket
+	3655. polarized relay
+		1. (directional relay) See relay
+	3656. [[polarizer]]
+	3657. polarizing angle
+		1. See brewster angle
+	3658. [[polar plot]]
+	3659. [[pole]]
+	3660. [[pole-zero plot]]
+
+	3661. poles
+		1. (and zeros) See s-domain circuit analysis
+	3662. [[polling]]
+	3663. [[polychromatic radiation]]
+	3664. polycrystalline silicon
+		1. See POLYSILICON.
+	3665. polyester-film capacitor
+		1. See PLASTIC-FILM CAPACITOR.
+	3666. [[polymethylmethacrylate]]
+	3667. [[polyphase system]]
+	3668. [[polyphase transformer]]
+	3669. [[polyphonic]]
+	3670. [[polysilicon]]
+
+	3671. polystyrene-film capacitor
+		1. See PLASTIC-FILM CAPACITOR.
+	3672. POP
+		1. See PUSH
+	3673. population inversion
+		1. See laser
+	3674. [[porous silicon]]
+	3675. [[port]]
+	3676. portable conformable mask
+		1. (PCM) See multilevel 
+	3677. positive booster
+		1. See booster
+	3678. positive charge
+		1. See charge
+	3679. positive column
+		1. (positive glow) See gas-discharge tube
+	3680. positive feedback
+		1. (direct feedback; regeneration) See feedback
+
+	3681. positive glow
+		1. (positive column; plasma) See gas-discharge tube
+	3682. positive ion
+		1. See ion
+	3683. positive logic
+		1. See logic circuit
+	3684. positive phase sequence
+		1. See phase sequence
+	3685. positive photoresist
+		1. See photoresist
+	3686. positive sequence
+		1. See phase sequence
+	3687. [[positron]]
+	3688. positron emission tomography
+		1. (PET) See neuroimaging.
+	3689. pot
+		1. Informal A potentiometer.
+	3690. potential
+		1. See electric potential
+
+	3691. [[potential barrier]]
+	3692. [[potential difference]]
+	3693. [[potential divider]]
+	3694. potential transformer
+		1. (voltage transformer) See transformer
+	3695. [[potentiometer]]
+	3696. [[powdered-iron core]]
+	3697. [[power]]
+	3698. power amplifier
+		1. See amplifier
+	3699. power component
+		1. (1) (of a current or voltage) See active current; active voltage
+		2. (2) (of the volt-amperes) See active volt-amperes
+	3700. [[power consumption]]
+
+	3701. [[power control]]
+	3702. [[power density]]
+	3703. [[power efficiency]]
+	3704. [[power factor]]
+	3705. [[power frequency]]
+	3706. power line
+		1. See transmission line
+	3707. power loss
+		1. See power efficiency
+	3708. [[power pack]]
+	3709. [[power saving]]
+	3710. [[power station]]
+
+	3711. [[power supply]]
+	3712. power supply rail
+		1. (power rail) See rails.
+	3713. power transformer
+		1. See transformer
+	3714. [[power transistor]]
+	3715. [[power waves]]
+	3716. power winding
+		1. See transductor
+	3717. Poynting vector
+		1. See power density
+	3718. [[PPI]]
+	3719. PPM
+		1. (pulse-position modulation) See pulse modulation
+	3720. [[pre-emphasis]]
+
+	3721. [[preamplifier]]
+	3722. [[precision approach radar]]
+	3723. [[precision rectifier]]
+	3724. [[predistortion]]
+	3725. preferred values
+		1. See standardization
+	3726. [[preselector]]
+	3727. PRF
+		1. (pulse repetition frequency) See pulse
+	3728. primary cell
+		1. See cell
+	3729. [[primary electrons]]
+	3730. [[primary emission]]
+
+	3731. primary failure
+		1. See failure
+	3732. primary radiator
+		1. (active antenna) See directional antenna
+	3733. [[primary standard]]
+	3734. [[primary voltage]]
+	3735. primary winding
+		1. See transformer
+	3736. principle of superposition
+		1. See superposition principle
+	3737. [[print-through]]
+	3738. [[printed circuit]]
+	3739. [[privacy]]
+	3740. private branch exchange
+		1. (PBX) See telephony
+
+	3741. private exchange
+		1. See telephony
+	3742. [[probe]]
+	3743. process-control system
+		1. (regulator) See control system
+	3744. [[processor]]
+	3745. [[program]]
+	3746. [[program-erase cycle]]
+	3747. [[program counter]]
+	3748. programmable array logic
+		1. See PAL
+	3749. programmable logic array
+		1. See PLA
+	3750. programmable logic controller
+		1. See PLC
+
+	3751. programmable logic device
+		1. See PLD
+	3752. [[programmable matter]]
+	3753. programmable read-only memory
+		1. (PROM) See ROM
+	3754. [[programming language]]
+	3755. projection lithography
+		1. See PHOTOLITHOGRAPHY.
+	3756. PROM
+		1. (programmable ROM) See ROM
+	3757. [[propagation coefficient]]
+	3758. propagation delay
+	3759. propagation loss
+	3760. proportional-integral-derivative control
+
+	3761. proportional control
+	3762. protective horn
+	3763. protocol
+	3764. proton
+	3765. prototype filter
+	3766. proximity card
+	3767. proximity effect
+	3768. proximity printing
+	3769. PSD
+	3770. PSK
+
+	3771. psophometer
+	3772. PSPICE
+	3773. PTFE
+	3774. PTH
+	3775. PTM
+	3776. pulling
+	3777. pulsating current
+	3778. pulse
+	3779. pulse-amplitude modulation
+	3780. pulse-duration modulation
+
+	3781. pulse-flatness deviation
+	3782. pulse-forming line
+	3783. pulse-frequency modulation
+	3784. pulse-height analyser
+	3785. pulse-time modulation
+	3786. pulse-width modulation
+	3787. pulse carrier
+	3788. pulse code modulation
+	3789. pulse coder
+	3790. pulse communications
+
+	3791. pulse detector
+	3792. pulse discriminator
+	3793. pulse duration
+	3794. pulse generator
+	3795. pulse height
+	3796. pulse interval
+	3797. pulse jamming
+	3798. pulse length
+	3799. pulse modulation
+	3800. pulse operation
+
+	3801. pulse oximeter
+	3802. pulser
+	3803. pulse radar
+	3804. pulse regeneration
+	3805. pulse repetition frequency
+	3806. pulse repetition period
+	3807. pulse separation
+	3808. pulse shaper
+	3809. pulse spacing
+	3810. pulse tilt
+
+	3811. pulse train
+	3812. pulse width
+	3813. pump
+	3814. punch-through
+	3815. puncture voltage
+	3816. purple plague
+	3817. PUSH
+	3818. push-pull operation
+	3819. PWM
+	3820. QAM
+
+	3821. Q channel
+	3822. Q factor(symbol: Q)
+	3823. QFN
+	3824. QHD
+	3825. Q point
+	3826. QPSK
+	3827. quad-flat no-leads package
+	3828. quadcopter
+	3829. quad high-definition
+	3830. quadrant electrometer
+
+	3831. quadraphony
+	3832. quadrature
+	3833. quadrature amplitude modulation
+	3834. quadrature component
+	3835. quadrature phase shift keying
+	3836. quadripole
+	3837. quality factor
+	3838. quantization
+	3839. quantization noise
+	3840. quantizer
+
+	3841. quantum computer
+	3842. quantum dot
+	3843. quantum efficiency
+	3844. quantum mechanics
+	3845. quantum numbers
+	3846. quantum theory
+	3847. quantum well
+	3848. quantum wire
+	3849. quantum yield
+	3850. quarter-phase system
+
+	3851. quarter-wavelength line
+	3852. quartz
+	3853. quartz-crystal oscillator
+	3854. quasi-bistable circuit
+	3855. quasi-complementary push-pull amplifier
+	3856. quasi-peak detector
+	3857. quasi-periodicity
+	3858. quefrency
+	3859. quench
+	3860. quench frequency
+
+	3861. quiescent-carrier telephony
+	3862. quiescent component
+	3863. quiescent current
+	3864. quiescent period
+	3865. quiescent point
+	3866. quiescent push-pull amplifier
+	3867. quieting circuit
+	3868. quieting sensitivity
+	3869. Quine-McCluskey
+	3870. R-C
+
+	3871. R-C network
+	3872. R-S flip-flop
+	3873. r.m.s.
+	3874. radar
+	3875. radar beacon
+	3876. radar cross section
+	3877. radar equation
+	3878. radar indicator
+	3879. radial-beam tube
+	3880. radian
+
+	3881. radiated emissions
+	3882. radiated interference
+	3883. radiated power
+	3884. radiated susceptibility
+	3885. radiation
+	3886. radiation counter
+	3887. radiation efficiency
+	3888. radiation noise
+	3889. radiation pattern
+	3890. radiation potential
+
+	3891. radiation resistance
+	3892. radiative recombination
+	3893. radio
+	3894. radio astronomy
+	3895. radio beacon
+	3896. radio compass
+	3897. radio direction finding
+	3898. radiofrequency
+	3899. radiofrequency choke
+	3900. radiofrequency heating
+
+	3901. radiofrequency identification
+	3902. radiofrequency interference
+	3903. radiography
+	3904. radio horizon
+	3905. radio interferometer
+	3906. radio noise
+	3907. radio receiver
+	3908. radio set
+	3909. radiosonde
+	3910. radio spectroscope
+
+	3911. radio telegraphy
+	3912. radio telemetry
+	3913. radio telephone
+	3914. radio telescope
+	3915. radiotherapy
+	3916. radiowave
+	3917. radio window
+	3918. radome
+	3919. rahmonic
+	3920. rail
+
+	3921. raised cosine window
+	3922. RAM
+	3923. RAM disk
+	3924. random access
+	3925. random logic
+	3926. range
+	3927. range finding
+	3928. range tracking
+	3929. Raspberry Pi
+	3930. raster scanning
+
+	3931. rat-race
+	3932. rating
+	3933. ratio adjuster
+	3934. ratio circuit
+	3935. ratioless circuit
+	3936. rationalized MKS system
+	3937. Rayleigh fading
+	3938. RBS
+	3939. RC circuit
+	3940. RCT
+
+	3941. reactance(symbol: X; unit: ohm)
+	3942. reactance chart
+	3943. reactance drop
+	3944. reactance modulator
+	3945. reactance transformer
+	3946. reactivation
+	3947. reactive current
+	3948. reactive factor
+	3949. reactive ion beam etching
+	3950. reactive ion etching
+
+	3951. reactive load
+	3952. reactive power
+	3953. reactive sputtering
+	3954. reactive volt-amperes
+	3955. reactive voltage
+	3956. reactor
+	3957. read
+	3958. read-only memory
+	3959. read-out pulse
+	3960. read-write head
+
+	3961. read-write memory
+	3962. Read diode
+	3963. real-time operation
+	3964. real-time system
+	3965. real number
+	3966. real part of a complex number
+	3967. receiver
+	3968. receiving antenna
+	3969. recessed gate FET
+	3970. rechargeable battery
+
+	3971. reciprocity theorem
+	3972. recombination processes
+	3973. recombination rate
+	3974. recording channel
+	3975. recording head
+	3976. recording of sound
+	3977. rectangular pulse
+	3978. rectangular window
+	3979. rectifier
+	3980. rectifier filter
+
+	3981. rectifier instrument
+	3982. rectifier voltmeter
+	3983. rectilinear scanner
+	3984. recurrent-surge oscilloscope
+	3985. recursive filters
+	3986. reduced instruction set computer
+	3987. redundancy
+	3988. Reed-Solomon code
+	3989. reflected impedance
+	3990. reflected power
+
+	3991. reflected wave
+	3992. reflection coefficient
+	3993. reflection error
+	3994. reflection factor
+	3995. reflectometer
+	3996. reflector
+	3997. reflex bunching
+	3998. reflex circuit
+	3999. reflex klystron
+	4000. refresh
+
+	4001. regeneration
+	4002. regenerative receiver
+	4003. region of convergence
+	4004. register
+	4005. register set
+	4006. regulator
+	4007. reignition voltage
+	4008. rejector
+	4009. relative error
+	4010. relative permeability
+
+	4011. relative permittivity
+	4012. relaxation oscillator
+	4013. relaxation time(symbol: τ)
+	4014. relay
+	4015. reliability
+	4016. reluctance(symbol: R; unit: henry−1)
+	4017. reluctivity
+	4018. remanence
+	4019. remote control
+	4020. remotely operated vehicle
+
+	4021. remote sensing
+	4022. renewable energy system
+	4023. repeater
+	4024. repeating coil
+	4025. reproduction of sound
+	4026. Request for Comments
+	4027. request to send
+	4028. reset
+	4029. residual charge
+	4030. residual current
+
+	4031. residual pulse linear predictive coding
+	4032. residual resistance
+	4033. resist
+	4034. resistance
+	4035. resistance-capacitance coupling
+	4036. resistance coupling
+	4037. resistance drop
+	4038. resistance gauge
+	4039. resistance strain gauge
+	4040. resistance thermometer
+
+	4041. resistance wire
+	4042. resistive component
+	4043. resistive coupling
+	4044. resistive touchscreen
+	4045. resistivity(symbol: ρ; unit: ohm metres)
+	4046. resistivity surveying
+	4047. resistor
+	4048. resistor-transistor logic
+	4049. resolution
+	4050. resolving time
+
+	4051. resonance
+	4052. resonance bridge
+	4053. resonant cavity
+	4054. resonant circuit
+	4055. resonant frequency(symbols: ω0, f0)
+	4056. resonant line
+	4057. resonator
+	4058. response time
+	4059. restore
+	4060. retentivity
+
+	4061. return-current coefficient
+	4062. return current
+	4063. return interval
+	4064. return loss
+	4065. return stroke
+	4066. return to zero
+	4067. return trace
+	4068. reverse active operation
+	4069. reverse conducting thyristor
+	4070. reverse direction
+
+	4071. reverse saturation current
+	4072. reversible transducer
+	4073. revolutions per minute
+	4074. RF
+	4075. RFC
+	4076. RF heating
+	4077. RFI
+	4078. RFID
+	4079. RHEED
+	4080. rhumbatron
+
+	4081. ribbon microphone
+	4082. Richardson-Dushman equation
+	4083. ridged waveguide
+	4084. Rieke diagram
+	4085. Righi-Leduc effect
+	4086. right-hand rule(for a dynamo)
+	4087. ringing
+	4088. ring junction
+	4089. ring modulator
+	4090. ring network
+
+	4091. ripple
+	4092. ripple filter
+	4093. RISC
+	4094. rise time
+	4095. RLC circuit
+	4096. RL circuit
+	4097. robotics
+	4098. robustness
+	4099. ROC
+	4100. ROM
+
+	4101. root-mean-square
+	4102. rope
+	4103. rotational latency
+	4104. rotator
+	4105. rotor
+	4106. router
+	4107. routing
+	4108. routing control plane
+	4109. ROV
+	4110. RPLPC
+
+	4111. rpm
+	4112. RS-232 interface
+	4113. RTL
+	4114. RTS
+	4115. rumble
+	4116. run-length codes
+	4117. Rutherford back scattering
+	4118. RZ
+	4119. RZ PCM
+	4120. s-domain circuit analysis
+
+	4121. s-parameters
+	4122. s-plane
+	4123. S-R flip-flop
+	4124. SAINT process
+	4125. Sallen-Key filter
+	4126. SAM
+	4127. sampling
+	4128. sampling period
+	4129. sampling synthesis
+	4130. sapphire
+
+	4131. SAR
+	4132. sat
+	4133. SATA
+	4134. satellite
+	4135. satellite navigation system
+	4136. saturated mode
+	4137. saturated velocity
+	4138. saturation
+	4139. saturation current
+	4140. saturation resistance
+
+	4141. saturation signal
+	4142. saturation voltage
+	4143. SAW
+	4144. SAW filter
+	4145. sawing
+	4146. sawtooth oscillator
+	4147. sawtooth pulse
+	4148. sawtooth waveform
+	4149. S band
+	4150. scaler
+
+	4151. scaling tube
+	4152. scanner
+	4153. scanning
+	4154. scanning-probe microscopy
+	4155. scanning-transmission electron microscope
+	4156. scanning-tunnelling microscopy
+	4157. scanning Auger microprobe
+	4158. scanning electron microscope
+	4159. scanning laser
+	4160. scattering loss
+
+	4161. scattering parameters
+	4162. schematic
+	4163. Schering bridge
+	4164. SCH laser
+	4165. Schmitt trigger
+	4166. Schottky-gate field-effect transistor
+	4167. Schottky barrier
+	4168. Schottky clamp
+	4169. Schottky diode
+	4170. Schottky effect
+
+	4171. Schottky I2L
+	4172. Schottky noise
+	4173. Schottky photodiode
+	4174. Schottky TTL
+	4175. Schrödinger equation
+	4176. scintillation
+	4177. scintillation counter
+	4178. SCR
+	4179. scrambling
+	4180. screen
+
+	4181. screened pair
+	4182. screen grid
+	4183. screening test
+	4184. screen resolution
+	4185. scribing
+	4186. scribing channel
+	4187. SCSI
+	4188. SD
+	4189. SDTV
+	4190. search coil
+
+	4191. SECAM
+	4192. second(symbol: s)
+	4193. second-order circuit
+	4194. secondary-ion mass spectroscopy
+	4195. secondary cell
+	4196. secondary electron
+	4197. secondary emission
+	4198. secondary failure
+	4199. secondary radiator
+	4200. secondary service area
+
+	4201. secondary standard
+	4202. secondary voltage
+	4203. secondary winding
+	4204. secondary X-rays
+	4205. second breakdown
+	4206. sector
+	4207. sectorization
+	4208. Seebeck effect
+	4209. seed crystal
+	4210. seek time
+
+	4211. segmentation
+	4212. selective fading
+	4213. selective interference
+	4214. selective repeat ARQ
+	4215. selectivity
+	4216. selenium(symbol: Se)
+	4217. selenium rectifier
+	4218. self-aligned gate
+	4219. self-bias
+	4220. self-capacitance
+
+	4221. self-excited
+	4222. self-inductance
+	4223. self-quieting
+	4224. self-sustaining oscillations
+	4225. SEM
+	4226. semianechoic chamber
+	4227. semiconductor
+	4228. semiconductor device
+	4229. semiconductor diode
+	4230. semiconductor laser
+
+	4231. semiconductor memory
+	4232. sensing element
+	4233. sensitivity
+	4234. sensor
+	4235. sensor network
+	4236. separate confinement heterostructure laser
+	4237. sequencer
+	4238. sequential circuit
+	4239. sequential control
+	4240. sequential scanning
+
+	4241. serial ATA
+	4242. serial port
+	4243. serial transfer
+	4244. serial transmission
+	4245. series
+	4246. series-gated ECL
+	4247. series-parallel connection
+	4248. series feedback
+	4249. series resonant circuit
+	4250. series stabilization
+
+	4251. series supply
+	4252. series system
+	4253. series transformer
+	4254. service area
+	4255. servomechanism
+	4256. set-top box
+	4257. set-up scale instrument
+	4258. settling time
+	4259. shading
+	4260. shadow effect
+
+	4261. Shannon-Hartley theorem
+	4262. shaped-beam tube
+	4263. sheet resistance
+	4264. shell-type transformer
+	4265. SHF
+	4266. shield
+	4267. shielded pair
+	4268. shielded room
+	4269. shielding effectiveness(of a barrier or enclosure)
+	4270. shift operator
+
+	4271. shift register
+	4272. Shockley emitter resistance
+	4273. Shockley equation
+	4274. short
+	4275. short-circuit impedance
+	4276. short-time duty
+	4277. short-wave
+	4278. short-wave converter
+	4279. short circuit
+	4280. shot noise
+
+	4281. shunt
+	4282. shunt feedback
+	4283. shunt network
+	4284. shunt stabilization
+	4285. side-looking airborne radar
+	4286. sideband
+	4287. sideband splatter
+	4288. side frequency
+	4289. side lobe
+	4290. Siemen's electrodynamometer
+
+	4291. siemens(symbol: S)
+	4292. signal
+	4293. signal-to-noise ratio
+	4294. signal flowgraph
+	4295. signal generator
+	4296. signal level
+	4297. signal processing
+	4298. signal strength
+	4299. signal tester
+	4300. signal winding
+
+	4301. sign bit
+	4302. silent discharge
+	4303. silent zone
+	4304. silica(symbol: SiO2)
+	4305. silicon(symbol: Si)
+	4306. silicon-controlled rectifier
+	4307. silicon-gate technology
+	4308. silicon-on-insulator
+	4309. silicon compiler
+	4310. silver(symbol: Ag)
+
+	4311. silver mica capacitor
+	4312. simple magnet
+	4313. simplex operation
+	4314. SIMS
+	4315. simulation diagram
+	4316. simulator
+	4317. simultaneous equations
+	4318. sinc function
+	4319. sine potentiometer
+	4320. sine wave
+
+	4321. singing point
+	4322. single-current system
+	4323. single-electron device
+	4324. single-ended
+	4325. single-loop feedback
+	4326. single-mode fibre
+	4327. single-phase system
+	4328. single-shot multivibrator
+	4329. single-shot trigger
+	4330. single-sideband transmission
+
+	4331. single-tuned circuit
+	4332. single crystal
+	4333. single drift device
+	4334. single in, single out
+	4335. sink
+	4336. sinusoidal
+	4337. SIS
+	4338. SISO
+	4339. SI units
+	4340. size effect
+
+	4341. size quantization
+	4342. skew
+	4343. skin effect
+	4344. skip distance
+	4345. skip zone
+	4346. sky wave
+	4347. SLAR
+	4348. slave circuit
+	4349. slew rate
+	4350. slice
+
+	4351. slicer
+	4352. slicing
+	4353. slide wire
+	4354. sliding window
+	4355. slope modulation
+	4356. slope overload
+	4357. slope resistance
+	4358. slot antenna
+	4359. slotted line
+	4360. slotted waveguide
+
+	4361. slow-break switch
+	4362. slow-wave structure
+	4363. slug tuning
+	4364. small-outline package
+	4365. small-scale integration
+	4366. small-signal
+	4367. small-signal parameters
+	4368. small computer system interface
+	4369. smart antenna
+	4370. smart appliance
+
+	4371. smart display
+	4372. smart glasses
+	4373. smart materials
+	4374. smart meter
+	4375. smartphone
+	4376. smart TV
+	4377. smartwatch
+	4378. smearer
+	4379. S meter
+	4380. Smith chart
+
+	4381. smoothing choke
+	4382. smoothing circuit
+	4383. snapback diode
+	4384. snow
+	4385. SoC
+	4386. SOD
+	4387. soft clipping
+	4388. software
+	4389. software-defined networking
+	4390. solar cell
+
+	4391. solar power
+	4392. solenoid
+	4393. solid-state camera
+	4394. solid-state device
+	4395. solid-state drive
+	4396. solid-state hybrid drive
+	4397. solid-state memory
+	4398. solid-state physics
+	4399. solid conductor
+	4400. sonar
+
+	4401. sonde
+	4402. sonogram
+	4403. sonograph
+	4404. SOT
+	4405. sound-level meter
+	4406. sound carrier
+	4407. sound pressure level
+	4408. sound recording
+	4409. sound reproduction
+	4410. soundtrack
+
+	4411. sound wave
+	4412. source
+	4413. source code
+	4414. source follower
+	4415. source impedance
+	4416. source routing
+	4417. space-charge density
+	4418. space-charge limited region
+	4419. space charge
+	4420. space diversity
+
+	4421. space wave
+	4422. spark
+	4423. spark interference
+	4424. spatial resolution
+	4425. speaker
+	4426. specific conductance
+	4427. specific contact resistance
+	4428. specific resistance
+	4429. spectral analysis
+	4430. spectral characteristic
+
+	4431. spectral density
+	4432. spectral leakage
+	4433. spectral resolution
+	4434. spectral response
+	4435. spectrograph
+	4436. spectrum
+	4437. spectrum analyser
+	4438. speech coder
+	4439. speech recognition device
+	4440. speech synthesis
+
+	4441. speed camera
+	4442. speed of light(symbol: c)
+	4443. spherical polar coordinates
+	4444. SPICE model
+	4445. spike
+	4446. spin
+	4447. spin-dependent electron scattering
+	4448. spin field-effect transistor
+	4449. spintronics
+	4450. spiral inductor
+
+	4451. spiral scanning
+	4452. SPL
+	4453. SPM
+	4454. spontaneous emission
+	4455. spot
+	4456. spot speed
+	4457. spreading
+	4458. spreading resistance
+	4459. spread spectrum
+	4460. spurious rejection
+
+	4461. sputtering
+	4462. square-law detector
+	4463. square-wave response
+	4464. square wave
+	4465. squegging oscillator
+	4466. squelch circuit
+	4467. SRAM
+	4468. SS/TDMA
+	4469. SSB
+	4470. SSD
+
+	4471. SSHD
+	4472. SSI
+	4473. stability
+	4474. stabilization
+	4475. stable circuit
+	4476. stable oscillations
+	4477. stack
+	4478. stage
+	4479. staggered antenna
+	4480. stagger tuned amplifier
+
+	4481. standard-definition
+	4482. standard cell
+	4483. standard deviation
+	4484. standardization
+	4485. standby power
+	4486. standing wave
+	4487. star-delta transformation
+	4488. star circuit
+	4489. star network
+	4490. start-oscillation current
+
+	4491. start-stop apparatus
+	4492. starter electrode
+	4493. starting current
+	4494. state diagram
+	4495. state space
+	4496. state space control
+	4497. state table
+	4498. state transition matrix
+	4499. state variable
+	4500. state variable filter
+
+	4501. static
+	4502. static characteristic
+	4503. static memory
+	4504. static RAM
+	4505. stationary orbit
+	4506. stationary state
+	4507. stationary wave
+	4508. stator
+	4509. status register
+	4510. STD
+
+	4511. steady state
+	4512. stealth technology
+	4513. steepness factor
+	4514. steerable antenna
+	4515. step-down transformer
+	4516. step-recovery diode
+	4517. step-stress life test
+	4518. step-up transformer
+	4519. step function
+	4520. step response
+
+	4521. stereophonic
+	4522. stimulated emission
+	4523. stochastic process
+	4524. Stokes' law
+	4525. stop band
+	4526. stopper
+	4527. stopping potential
+	4528. storage battery
+	4529. storage capacity
+	4530. storage cell
+
+	4531. storage device
+	4532. storage time
+	4533. storage tube
+	4534. store
+	4535. STP
+	4536. strain gauge
+	4537. straintronics
+	4538. stray capacitance
+	4539. streaming media
+	4540. string electrometer
+
+	4541. string galvanometer
+	4542. stripline
+	4543. strong electrolyte
+	4544. structured light
+	4545. stub
+	4546. subcarrier
+	4547. subcarrier modulation
+	4548. subharmonic
+	4549. subroutine
+	4550. subsonic frequency
+
+	4551. substation
+	4552. substrate
+	4553. subsystem
+	4554. subtractive synthesis
+	4555. sum-of-products
+	4556. summation instrument
+	4557. summing amplifier
+	4558. super-regenerative reception
+	4559. superconductivity
+	4560. superconductor
+
+	4561. superheterodyne reception
+	4562. superhigh frequency
+	4563. Supermalloy
+	4564. Supermendur
+	4565. superparamagnetic limit
+	4566. superposition
+	4567. superposition principle
+	4568. supersensitive relay
+	4569. suppressed-carrier modulation
+	4570. suppressed-zero instrument
+
+	4571. suppressor
+	4572. suppressor grid
+	4573. surface-channel FET
+	4574. surface acoustic wave
+	4575. surface charge density
+	4576. surface conductivity
+	4577. surface integral
+	4578. surface leakage
+	4579. surface mount technology
+	4580. surface resistance
+
+	4581. surface resistivity
+	4582. surface wave
+	4583. surge
+	4584. susceptance(symbol: B; unit: siemens)
+	4585. susceptibility
+	4586. sweep
+	4587. sweep frequency
+	4588. sweep generator
+	4589. sweep voltage
+	4590. swell pedal
+
+	4591. swinging choke
+	4592. switch
+	4593. switched-mode power supply
+	4594. switched capacitor filter
+	4595. switching system
+	4596. switching tube
+	4597. syllable articulation score
+	4598. symbols
+	4599. symmetric mode
+	4600. symmetric transducer
+
+	4601. symmetric two-port network
+	4602. synchronism
+	4603. synchronizing pulses
+	4604. synchronometer
+	4605. synchronous
+	4606. synchronous alternating-current generator
+	4607. synchronous clock
+	4608. synchronous communications satellite
+	4609. synchronous computer
+	4610. synchronous detection
+
+	4611. synchronous gate
+	4612. synchronous generator
+	4613. synchronous logic
+	4614. synchronous motor
+	4615. synchronous orbit
+	4616. synchronous transmission
+	4617. synchrotron
+	4618. sync separator
+	4619. Synopsys
+	4620. syntax
+
+	4621. synthesis
+	4622. synthesizer
+	4623. synthetic aperture radar
+	4624. system identification
+	4625. system modelling
+	4626. system on a chip
+	4627. systems software
+	4628. T-gate
+	4629. T-junction
+	4630. T-section
+
+	4631. tablet computer
+	4632. tandem
+	4633. tandem exchange
+	4634. tank network
+	4635. tantalum(symbol: Ta)
+	4636. tantalum capacitor
+	4637. tap changer
+	4638. tape automated bonding
+	4639. tape recording
+	4640. tapered window
+
+	4641. tape unit
+	4642. tapping
+	4643. tap weight
+	4644. target
+	4645. target voltage
+	4646. Tchebyshev filter
+	4647. T circuit
+	4648. TCP
+	4649. TCP/IP
+	4650. TCS
+
+	4651. TDM
+	4652. TDMA
+	4653. TDR
+	4654. TED
+	4655. tee-pi (T-π) transform
+	4656. tee circuit
+	4657. Teflon
+	4658. telecommunications
+	4659. telecommunication system
+	4660. teleconference
+
+	4661. telegraphy
+	4662. telemetry
+	4663. telephony
+	4664. telepresence
+	4665. teleprinter
+	4666. telerobotics
+	4667. teletext
+	4668. television
+	4669. television camera
+	4670. television receiver
+
+	4671. telex
+	4672. temperature coefficient of resistance
+	4673. temperature saturation
+	4674. TEM wave
+	4675. tera-
+	4676. terahertz technology
+	4677. terminal
+	4678. terminal impedance
+	4679. terminal repeater
+	4680. termination
+
+	4681. tertiary winding
+	4682. tesla(symbol: T)
+	4683. test pattern
+	4684. tetrode
+	4685. TE wave
+	4686. T flip-flop
+	4687. TFT
+	4688. THD
+	4689. thermal battery
+	4690. thermal breakdown
+
+	4691. thermal imaging
+	4692. thermal instrument
+	4693. thermal noise
+	4694. thermal protection
+	4695. thermal resistance
+	4696. thermal runaway
+	4697. thermionic-field emission
+	4698. thermionic cathode
+	4699. thermionic emission
+	4700. thermionic valve
+
+	4701. thermistor
+	4702. thermocouple
+	4703. thermodynamic temperature(symbol: T)
+	4704. thermoelectric effects
+	4705. thermoelectric series
+	4706. thermoelectron
+	4707. thermography
+	4708. thermojunction
+	4709. thermoluminescence
+	4710. thermopile
+
+	4711. thermostat
+	4712. Thévenin's theorem
+	4713. thick-film circuit
+	4714. thin-film circuit
+	4715. thin-film transistor
+	4716. thin quad-flat no-leads package
+	4717. Thomson bridge
+	4718. Thomson effect
+	4719. thrashing
+	4720. three-phase system
+
+	4721. three-phase transformer
+	4722. threshold
+	4723. threshold frequency
+	4724. threshold signal
+	4725. threshold voltage
+	4726. throat microphone
+	4727. through path
+	4728. throughput
+	4729. thyratron
+	4730. thyristor
+
+	4731. tie line
+	4732. tightly coupled multiprocessor
+	4733. timbre
+	4734. time-division duplexing
+	4735. time-division multiple access
+	4736. time-division multiplexing
+	4737. time-division switching
+	4738. timebase
+	4739. timebase generator
+	4740. time constant
+
+	4741. time delay
+	4742. time discriminator
+	4743. time diversity
+	4744. time domain
+	4745. time domain reflectometer
+	4746. time lag
+	4747. time of flight
+	4748. time sharing
+	4749. timestamp
+	4750. time to flashover
+
+	4751. time to puncture
+	4752. time to trip
+	4753. timing diagram
+	4754. tin(symbol: Sn)
+	4755. tint control
+	4756. TM wave
+	4757. toggle switch
+	4758. token ring
+	4759. tolerance
+	4760. tone control
+
+	4761. tone jamming
+	4762. top-down hierarchical design
+	4763. top-down nanofabrication
+	4764. topside ionosphere
+	4765. total capacitance
+	4766. total emission
+	4767. total harmonic distortion
+	4768. touch-sensitive keyboard
+	4769. touchscreen
+	4770. Townsend avalanche
+
+	4771. Townsend discharge
+	4772. TQFN
+	4773. trace
+	4774. trace interval
+	4775. track
+	4776. tracking
+	4777. tracking generator
+	4778. traction control system
+	4779. traffic intensity
+	4780. trailing edge((of a pulse))
+
+	4781. training sequence
+	4782. transadmittance
+	4783. transadmittance amplifier
+	4784. transceiver
+	4785. transconductance(symbol: gm)
+	4786. transconductance amplifier
+	4787. transducer
+	4788. transductor
+	4789. transfer characteristic
+	4790. transfer constant
+
+	4791. transfer current
+	4792. transfer function
+	4793. transfer layer
+	4794. transfer length
+	4795. transfer parameter
+	4796. transfer rate
+	4797. transferred-electron device
+	4798. transformer
+	4799. transformer ratio
+	4800. transient
+
+	4801. transient suppression
+	4802. transimpedance
+	4803. transimpedance amplifier
+	4804. transistor
+	4805. transistor-transistor logic
+	4806. transistor parameters
+	4807. transition
+	4808. transition band
+	4809. transition flux density
+	4810. transition table
+
+	4811. transition temperature
+	4812. transit time
+	4813. transit time mode
+	4814. translator
+	4815. transmission
+	4816. Transmission Control Protocol
+	4817. transmission electron microscope
+	4818. transmission gain
+	4819. transmission level
+	4820. transmission line
+
+	4821. transmission line matrix
+	4822. transmission loss
+	4823. transmission mode
+	4824. transmission primary
+	4825. transmit-receive switch
+	4826. transmittance
+	4827. transmitted-carrier transmission
+	4828. transmitted-reference spread spectrum
+	4829. transmitter
+	4830. transmitting antenna
+
+	4831. transponder
+	4832. transport stream
+	4833. transposed transmission line
+	4834. transresistance
+	4835. transversal filter
+	4836. transverse wave
+	4837. trapezium distortion
+	4838. trapping recombination
+	4839. travelling-wave amplifier
+	4840. travelling-wave tube
+
+	4841. travelling wave
+	4842. trellis code
+	4843. triac
+	4844. triboelectricity
+	4845. triboluminescence
+	4846. trickle charge
+	4847. trigger
+	4848. trigonometric functions
+	4849. trilevel resist
+	4850. trimmer
+
+	4851. triode
+	4852. triode-hexode
+	4853. triode region
+	4854. triple integral
+	4855. tripler
+	4856. tripping device
+	4857. tristate logic gate
+	4858. tropospheric ducting
+	4859. tropospheric scattering
+	4860. TR switch
+
+	4861. truncate
+	4862. truncated test
+	4863. trunk feeder
+	4864. truth table
+	4865. TS
+	4866. TTL
+	4867. tube
+	4868. tunable magnetron
+	4869. tuned amplifier
+	4870. tuned circuit
+
+	4871. tuner
+	4872. tungsten(symbol: W)
+	4873. tuning
+	4874. tuning screw
+	4875. tunnel diode
+	4876. tunnel effect
+	4877. turbo-codes
+	4878. Turing machine
+	4879. turns ratio(symbol: n)
+	4880. turret tuner
+
+	4881. tweeter
+	4882. twin-T network
+	4883. twin cable
+	4884. twisted pair
+	4885. two's-complement notation
+	4886. two-phase system
+	4887. two-port analysis
+	4888. two-port network
+	4889. two-port parameters
+	4890. two-tone modulation
+
+	4891. two-wire circuit
+	4892. TWT
+	4893. u-law
+	4894. UART
+	4895. UDF
+	4896. UHD
+	4897. UHF
+	4898. UJT
+	4899. ultra-wide band transmission
+	4900. ultra extended graphics array
+
+	4901. ultra high-definition
+	4902. ultrahigh frequency
+	4903. ultrasonic communication
+	4904. ultrasonic delay line
+	4905. ultrasonic range finding
+	4906. ultrasonics
+	4907. ultrasonography
+	4908. ultraviolet photoelectron spectroscopy
+	4909. ultraviolet radiation
+	4910. unabsorbed field strength
+
+	4911. unbalanced two-port network
+	4912. unclocked flip-flop
+	4913. undercoupling
+	4914. undercurrent release
+	4915. underdamping
+	4916. underscanning
+	4917. undershoot
+	4918. unicast
+	4919. uniconductor waveguide
+	4920. unidirectional current
+
+	4921. unidirectional microphone
+	4922. unidirectional transducer
+	4923. uniform cable
+	4924. uniform line
+	4925. uniform waveguide
+	4926. uniform window
+	4927. unijunction transistor
+	4928. unilateral network
+	4929. unilateral transducer
+	4930. uninterrupted duty
+
+	4931. unipotential cathode
+	4932. unit
+	4933. unit-step function
+	4934. unit circle
+	4935. unit delta function
+	4936. unit sample
+	4937. unit vector
+	4938. universal active filter
+	4939. universal asynchronous receiver/transmitter
+	4940. universal disk format
+
+	4941. universal motor
+	4942. universal serial bus
+	4943. universal shunt
+	4944. univibrator
+	4945. unstable oscillation
+	4946. upconvert
+	4947. uplink
+	4948. upper sideband
+	4949. UPS
+	4950. upsampling
+
+	4951. USB
+	4952. USB flash drive
+	4953. useful life
+	4954. UTP
+	4955. UWB
+	4956. UXGA
+	4957. V+
+	4958. V-
+	4959. V-beam radar
+	4960. V-groove technique
+
+	4961. vacancy
+	4962. vacuum evaporation
+	4963. vacuum microelectronics
+	4964. vacuum tube
+	4965. VAD
+	4966. valence band
+	4967. valence electrons
+	4968. valency
+	4969. valley
+	4970. valley point
+
+	4971. valve
+	4972. valve diode
+	4973. valve voltmeter
+	4974. Van de Graaff generator
+	4975. vapour phase epitaxy
+	4976. vapour plating
+	4977. var
+	4978. varactor
+	4979. varactor tuning
+	4980. variable capacitance gauge
+
+	4981. variable impedances
+	4982. variable inductance gauge
+	4983. variable resistance gauge
+	4984. Variac
+	4985. variation
+	4986. varistor
+	4987. varying duty
+	4988. VCA
+	4989. VCCS
+	4990. VCO
+
+	4991. VCR
+	4992. VCVS
+	4993. VCVS filter
+	4994. VDR
+	4995. VDU
+	4996. vector area
+	4997. vector field
+	4998. velocity
+	4999. velocity-modulated tube
+	5000. velocity-sensitive keyboard
+
+	5001. velocity microphone
+	5002. velocity modulation
+	5003. vertical blanking
+	5004. vertical FET
+	5005. vertical surround sound
+	5006. very high frequency
+	5007. very large scale integration
+	5008. very low frequency
+	5009. very small aperture terminal
+	5010. vestigial-sideband transmission
+
+	5011. vestigial sideband
+	5012. VFET
+	5013. VHDL
+	5014. VHF
+	5015. via
+	5016. vibration galvanometer
+	5017. vibrator
+	5018. video card
+	5019. videoconference
+	5020. video IF system
+
+	5021. video on demand
+	5022. videotape
+	5023. video tracking
+	5024. vidicon
+	5025. virtual address
+	5026. virtual cathode
+	5027. virtual circuit
+	5028. virtual earth
+	5029. virtual memory
+	5030. virtual reality systems
+
+	5031. virtual surround sound
+	5032. virtual value
+	5033. virus
+	5034. visibility factor
+	5035. visual display unit
+	5036. VLF
+	5037. VLSI
+	5038. VMOS
+	5039. vocoder
+	5040. voder
+
+	5041. voice-grade channel
+	5042. voice activity detection
+	5043. voiced
+	5044. voiceless
+	5045. VoIP
+	5046. volatile memory
+	5047. volt(symbol: V)
+	5048. volt-ampere(symbol: VA)
+	5049. voltage(symbol: V; unit: volt)
+	5050. voltage-controlled amplifier
+
+	5051. voltage-controlled current source
+	5052. voltage-controlled voltage source
+	5053. voltage-mode circuits
+	5054. voltage-regulator diode
+	5055. voltage amplifier
+	5056. voltage between lines
+	5057. voltage divider
+	5058. voltage doubler
+	5059. voltage drop
+	5060. voltage feedback
+
+	5061. voltage gain
+	5062. voltage generator
+	5063. voltage jump
+	5064. voltage law
+	5065. voltage level
+	5066. voltage multiplier
+	5067. voltage reference diode
+	5068. voltage regulator
+	5069. voltage relay
+	5070. voltage selector
+
+	5071. voltage source
+	5072. voltage stabilizer
+	5073. voltage transformer
+	5074. volt efficiency
+	5075. voltmeter
+	5076. volt per metre
+	5077. volume
+	5078. volume charge density
+	5079. volume compressor
+	5080. volume control
+
+	5081. volume element
+	5082. volume integral
+	5083. volume lifetime
+	5084. volume limiter
+	5085. volume resistivity
+	5086. volumetric radar
+	5087. von Hann window
+	5088. von Neumann machine
+	5089. VPE
+	5090. VSAT
+
+	5091. VSWR
+	5092. wafer
+	5093. Wagner earth connection
+	5094. wait state
+	5095. walk-out
+	5096. WAN
+	5097. warble
+	5098. warm-up
+	5099. watt(symbol: W)
+	5100. watt-hour
+
+	5101. watt-hour meter
+	5102. wattmeter
+	5103. wave
+	5104. wave analyser
+	5105. wave equation
+	5106. wavefront
+	5107. wavefunction
+	5108. waveguide
+	5109. wave impedance
+	5110. wavelength
+
+	5111. wavelength constant
+	5112. wave mechanics
+	5113. wave surface
+	5114. wavetail
+	5115. wavetrain
+	5116. wavetrap
+	5117. wave vector
+	5118. WCDMA
+	5119. weak electrolyte
+	5120. wear-out failure
+
+	5121. wear-out failure period
+	5122. wearable technology
+	5123. wear levelling
+	5124. weber(symbol: Wb)
+	5125. Weiss constant
+	5126. Weston standard cell
+	5127. wet cell
+	5128. wet etching
+	5129. Wheatstone bridge
+	5130. white compression
+
+	5131. white noise
+	5132. white peak
+	5133. white recording
+	5134. Wi-fi
+	5135. wide area network
+	5136. wideband
+	5137. wideband code division multiple access
+	5138. wideband FSK
+	5139. widescreen television
+	5140. widescreen ultra extended graphics array
+
+	5141. Wiedemann effect
+	5142. Wien bridge
+	5143. Wiener-Hopf equation
+	5144. Wiener filtering
+	5145. Wilson effect
+	5146. Wimshurst machine
+	5147. winding
+	5148. window
+	5149. windowing
+	5150. wire-wound resistor
+
+	5151. wire bonding
+	5152. wireless
+	5153. wireless personal area network
+	5154. wiring diagram
+	5155. WLAN
+	5156. wobbulator
+	5157. Wollaston wire
+	5158. woofer
+	5159. word
+	5160. word-addressable
+
+	5161. word line
+	5162. work function(symbol: Φ; unit: electronvolt)
+	5163. wound core
+	5164. wow
+	5165. WPAN
+	5166. wrist strap
+	5167. write
+	5168. WUXGA
+	5169. wye circuit
+	5170. X-axis
+
+	5171. X-guide
+	5172. X-ray crystallography
+	5173. X-ray fluorescence
+	5174. X-ray lithography
+	5175. X-ray photoelectron spectroscopy
+	5176. X-rays
+	5177. X-ray topography
+	5178. X-ray tube
+	5179. X-Y plotter
+	5180. X.21
+
+	5181. X.25
+	5182. X band
+	5183. XPS
+	5184. XRF
+	5185. X series
+	5186. Y-axis
+	5187. Yagi antenna
+	5188. Y circuit
+	5189. YIG
+	5190. yoke
+
+	5191. y parameters
+	5192. z-modulation((of a cathode-ray tube))
+	5193. Zener breakdown
+	5194. Zener diode
+	5195. zero-crossing detector
+	5196. zero crossing
+	5197. zero error
+	5198. zero IF
+	5199. zero level
+	5200. zero padding
+
+	5201. zero potential
+	5202. zeros(and poles)
+	5203. ZigBee
+	5204. zinc(symbol: Zn)
+	5205. zirconium(symbol: Zr)
+	5206. zone refining
+	5207. z parameters
+	5208. z transform
+	5209. π-mode operation
+	5210. π-section
