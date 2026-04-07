@@ -20,22 +20,19 @@
 		- Output (low impedence)
 		- Output (high impedence)
 		- #question Misspelling? Should be impedance?
-
-  
-
-![[[Oxford quick reference] Butterfield, Andrew_Szymanski, John_John Szymanski - A Dictionary of Electronics and Electrical Engineering (2018, Oxford University Press, Incorporated) - libgen.li [part 8]_img_67.jpeg]]
-
-(c) Pierce crystal oscillator using a FET
-
-  
-
-In the crystal-controlled oscillator the crystal is coupled to the oscillator circuit, which is tuned approximately to the crystal frequency. The crystal controls the oscillator frequency by pulling the frequency to its own natural frequency and thus preventing frequency drift. The Hartley crystal-controlled oscillator is an example (Fig. d).
-
-  
-
-![[[Oxford quick reference] Butterfield, Andrew_Szymanski, John_John Szymanski - A Dictionary of Electronics and Electrical Engineering (2018, Oxford University Press, Incorporated) - libgen.li [part 8]_img_68.jpeg]]
-
-(d) Harley crystal-controlled oscillator
+- ![[Pasted image 20260405224230.png|400]]
+	- (c) Pierce crystal oscillator using a FET
+	- Parts
+		- Crystal
+		- Feedback capacitor
+		- FET
+		- output (low impedence)
+		- output (high impedence)
+- In the crystal-controlled oscillator the crystal is coupled to the oscillator circuit, which is tuned approximately to the crystal frequency. The crystal controls the oscillator frequency by pulling the frequency to its own natural frequency and thus preventing frequency drift. The Hartley crystal-controlled oscillator is an example (Fig. d).
+- ![[Pasted image 20260405224309.png|400]]
+	- (d) Harley crystal-controlled oscillator
+	- Parts
+		- Output
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -7,7 +7,10 @@
 	- (2) Protection of data owned by an individual or corporate entity. Where data is deemed to be in some sense the property of someone (or some group) there may exist a right to limit access to that data. This form of privacy exists for data belonging to someone, and exists to protect the rights of the owner of the data. See TRADE SECRETS. See also INTEGRITY, SECURITY.
 ## Source[^2]
 - $n$. the condition of being apart from public view. The law recognizes privacy as a human right by virtue of the Human Rights Act 1998, although there are occasions when this right may be overridden (for example, in legal proceedings). In medical ethics, the concept is associated with maintaining a patient's dignity and autonomy and with the doctor's duty of confidentiality.
+## Source[^3]
+- In communications, protection against unauthorized access to communicated data. There is often the desire to communicate such that others cannot understand the message being sent. Privacy may be acquired by the coding of an information message such that unauthorized users cannot gain access to the information.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

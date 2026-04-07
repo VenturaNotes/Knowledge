@@ -10,8 +10,15 @@
 - (2) The formation of products of the chemical reaction in a voltaic cell in the vicinity of the electrodes resulting in increased resistance to current flow and, frequently, to a reduction in the e.m.f. of the cell. See also depolarization. 
 - (3) The partial separation of electric charges in an insulator subjected to an electric field. 
 - (4) The separation of charge in a polar chemical bond.
+## Source[^4]
+- (1) A phenomenon occurring in a simple electrolytic cell containing dissimilar electrodes. The current obtained from the cell decreases substantially soon after commencing the operation of the cell. This is due to the accumulation of bubbles of hydrogen gas, released from the electrolyte, around one of the electrodes. The bubbles partially cover the plate and thus increase the internal resistance of the cell and also create an e.m.f. of opposite polarity to the cell e.m.f. Cells such as the Leclanché cell are designed to minimize polarization. 
+- (2) The property of a radiated electromagnetic wave that describes the time-varying direction and relative magnitude of the electric field vector; specifically, it is the figure traced as a function of time by the end-point of the vector at a fixed point in space (and the sense - clockwise or anticlockwise - in which it is traced), as observed along the direction of wave propagation. Polarization may be classified as linear, circular, or elliptical, depending on the shape of the figure traced by the electric field vector. In general the field is elliptically polarized. If the vector is always directed along a line that is perpendicular to the propagation direction, then the field is linearly polarized (or plane-polarized). 
+- (3) See ANTENNA POLARIZATION. 
+- (4) Short for dielectric polarization. 
+- (5) Polarization of electron spin.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
