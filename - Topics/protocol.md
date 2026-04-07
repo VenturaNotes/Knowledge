@@ -12,7 +12,10 @@ aliases:
 - See also SEVEN-LAYER REFERENCE MODEL.
 ## Source[^2]
 - The rules governing the communications between different computers or computer peripherals. The protocol is a formal statement of how data is to be set out when messages are exchanged, the order and priority of various messages, and so on.
+## Source[^3]
+- In the transfer of digital signals across a switched system, the structure to which a digital message must conform if it is to be acceptable to the switching network: the message must be able to be identified as a valid message and must have a sender and recipient identifier. A typical example would be where the message has a header block of digits giving information about the sender and the recipient and possibly the length of the message. It will also have a terminating block of digits that indicate the end of the message and, optionally, further information to verify the accuracy of the message.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
