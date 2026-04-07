@@ -5403,59 +5403,85 @@ tags:
 	3756. PROM
 		1. (programmable ROM) See ROM
 	3757. [[propagation coefficient]]
-	3758. propagation delay
-	3759. propagation loss
+	3758. [[propagation delay]]
+	3759. [[propagation loss]]
 	3760. proportional-integral-derivative control
+		1. See PID control
 
-	3761. proportional control
+	3761. [[proportional control]]
 	3762. protective horn
-	3763. protocol
-	3764. proton
+		1. See arcing horn
+	3763. [[protocol]]
+	3764. [[proton]]
 	3765. prototype filter
+		1. See normalized filter
 	3766. proximity card
-	3767. proximity effect
+		1. See contactless smartcards
+	3767. [[proximity effect]]
 	3768. proximity printing
-	3769. PSD
+		1. See PHOTOLITHOGRAPHY.
+	3769. [[power spectral density|PSD]]
 	3770. PSK
+		1. (phase shift keying) See phase modulation
 
-	3771. psophometer
-	3772. PSPICE
+	3771. [[psophometer]]
+	3772. [[PSPICE]]
 	3773. PTFE
+		1. (polytetrafluoroethylene) See TEFLON.
 	3774. PTH
+		1. See PLATED-THROUGH HOLE.
 	3775. PTM
-	3776. pulling
-	3777. pulsating current
-	3778. pulse
+		1. (pulse-time modulation) See PULSE MODULATION.
+	3776. [[pulling]]
+	3777. [[pulsating current]]
+	3778. [[pulse]]
 	3779. pulse-amplitude modulation
+		1. (PAM) See pulse modulation
 	3780. pulse-duration modulation
+		1. (PCM) See pulse modulation
 
 	3781. pulse-flatness deviation
-	3782. pulse-forming line
+		1. (pulse tilt) See pulse
+	3782. [[pulse-forming line]]
 	3783. pulse-frequency modulation
-	3784. pulse-height analyser
+		1. (PFM) See pulse modulation
+	3784. pulse-height analyzer
+		1. See multichannel analyzer
 	3785. pulse-time modulation
+		1. (PTM) See pulse modulation
 	3786. pulse-width modulation
+		1. (PWM) See pulse modulation
 	3787. pulse carrier
+		1. See pulse modulation
 	3788. pulse code modulation
+		1. (PCM) See pulse modulation
 	3789. pulse coder
-	3790. pulse communications
+		1. (coder) See pulse modulation
+	3790. [[pulse communications]]
 
 	3791. pulse detector
-	3792. pulse discriminator
+		1. (decoder) See pulse modulation
+	3792. [[pulse discriminator]]
 	3793. pulse duration
-	3794. pulse generator
+		1. (pulse width) See pulse
+	3794. [[pulse generator]]
 	3795. pulse height
+		1. (pulse amplitude) See pulse
 	3796. pulse interval
-	3797. pulse jamming
+		1. (pulse spacing) See pulse
+	3797. [[pulse jamming]]
 	3798. pulse length
-	3799. pulse modulation
-	3800. pulse operation
+		1. (pulse width) See pulse
+	3799. [[pulse modulation]]
+	3800. [[pulse operation]]
 
-	3801. pulse oximeter
+	3801. [[pulse oximeter]]
 	3802. pulser
+		1. See pulse generator
 	3803. pulse radar
-	3804. pulse regeneration
-	3805. pulse repetition frequency
+		1. See radar
+	3804. [[pulse regeneration]]
+	3805. [[pulse repetition frequency]]
 	3806. pulse repetition period
 	3807. pulse separation
 	3808. pulse shaper
