@@ -1,6 +1,6 @@
 ---
 status: open
-priority: normal
+priority: "2"
 dateCreated: 2026-02-13T20:36:36.064-05:00
 dateModified: 2026-02-13T20:36:36.064-05:00
 reminders:

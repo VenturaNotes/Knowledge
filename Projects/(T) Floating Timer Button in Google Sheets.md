@@ -1,7 +1,8 @@
 ---
 tags:
-  - type/project
   - status/complete
+  - project
+  - personal
 ---
 ## Solutions
 ### Solution 1

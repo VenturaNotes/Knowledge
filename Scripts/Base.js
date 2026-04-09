@@ -3,7 +3,7 @@ module.exports = async (params) => {
 
     // --- CONFIGURATION ---
     // Updated extension to .base
-    const filePath = "Private/TaskNotes/Views/kanban-default.base"; 
+    const filePath = "Private/(B) Main.base"; 
     // ---------------------
 
     // 1. Find the file in the vault

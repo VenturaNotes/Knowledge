@@ -4200,7 +4200,7 @@ Reviewed: false
 	4138. rad
 	4139. [[radial distribution function]]
 	4140. radiation
-	4141. radiationless decay
+	4141. [[radiationless decay]]
 	4142. radiation units
 	4143. radiative capture
 	4144. radical
@@ -4217,7 +4217,7 @@ Reviewed: false
 	4155. radiogenic
 	4156. radioimmunoassay
 	4157. radioisotope
-	4158. radiolysis
+	4158. [[radiolysis]]
 	4159. radiometric dating
 	4160. radionuclide
 	4161. radiopharmaceuticals
@@ -4451,7 +4451,7 @@ Reviewed: false
 	4389. [[selenium cell]]
 	4390. self-assembly
 		1. See Self-Organization
-	4391. self-consistent field
+	4391. [[self-consistent field]]
 	4392. self-organization
 	4393. [[Seliwanoff's test]]
 	4394. semi-empirical calculations

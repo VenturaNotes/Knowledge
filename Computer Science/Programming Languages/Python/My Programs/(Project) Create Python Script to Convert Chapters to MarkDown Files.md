@@ -1,7 +1,7 @@
 ---
 tags:
   - status/complete
-  - type/project
+  - project
 ---
 
 - Copy and paste chapters from textbook to text file
@@ -92,7 +92,6 @@ test.close()
 Flaws:
 - Can only have a single period in the line
 - Line will not end if there are no periods / numbers at the end of line
-
 ## References
 
 [^1]: https://stackoverflow.com/questions/56776521/python-in-vscode-set-working-directory-to-python-files-path-everytime#:~:text=17-,Modify%20this%20setting%3A,Execute%20in%20File%20Dir,-Share

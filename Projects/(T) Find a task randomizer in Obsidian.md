@@ -1,10 +1,11 @@
 ---
 status: done
-priority: normal
+priority: "2"
 dateCreated: 2025-12-04T09:03:07.960-05:00
 dateModified: 2025-12-04T11:06:50.082-05:00
 tags:
-  - task/project
+  - task
+  - project
 completedDate: 2025-12-04
 ---
 ## Synthesis
