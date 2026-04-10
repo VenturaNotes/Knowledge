@@ -4290,7 +4290,7 @@ Reviewed: false
 	4228. release agent
 	4229. rem
 	4230. renaturation
-	4231. renewable energy sources
+	4231. [[renewable energy sources]]
 	4232. Renner effect
 	4233. [[rennin]]
 	4234. Reppe processes
@@ -4307,7 +4307,7 @@ Reviewed: false
 	4245. retrosynthetic analysis
 	4246. [[reverberatory furnace]]
 	4247. reverse osmosis
-	4248. reversible process
+	4248. [[reversible process]]
 	4249. RFvalue((in chromatography))
 	4250. rhe
 	4251. rhenium
@@ -4366,7 +4366,7 @@ Reviewed: false
 	4304. rusting
 	4305. ruthenium
 	4306. Rutherford, Ernest, Lord (1871-1937)
-	4307. Rutherford backscattering spectrometry
+	4307. [[Rutherford backscattering spectrometry]]
 	4308. rutherfordium
 	4309. Rutherford model
 	4310. rutile
