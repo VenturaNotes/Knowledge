@@ -5483,18 +5483,25 @@ tags:
 	3804. [[pulse regeneration]]
 	3805. [[pulse repetition frequency]]
 	3806. pulse repetition period
+		1. (pulse spacing) See pulse
 	3807. pulse separation
-	3808. pulse shaper
+		1. (pulse spacing) See pulse
+	3808. [[pulse shaper]]
 	3809. pulse spacing
+		1. (pulse separation; pulse interval; pulse repetition period) See PULSE.
 	3810. pulse tilt
+		1. (pulse flatness deviation) See pulse
 
 	3811. pulse train
+		1. See pulse
 	3812. pulse width
+		1. (pulse duration; pulse length) See pulse
 	3813. pump
-	3814. punch-through
-	3815. puncture voltage
-	3816. purple plague
-	3817. PUSH
+		1. See parametric amplifier
+	3814. [[punch-through]]
+	3815. [[puncture voltage]]
+	3816. [[purple plague]]
+	3817. [[PUSH]]
 	3818. push-pull operation
 	3819. PWM
 	3820. QAM
