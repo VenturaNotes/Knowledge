@@ -98,6 +98,19 @@ aliases:
 - RAM is fast, [[volatile memory]]
 	- It is volatile because it requires power to store data
 - RAM does not store instructions to load up the computer
+## Source[^2]
+- (random-access memory) A solid-state memory device which allows reading and writing of data and to which there is random access to the individual memory locations. The memory is arranged as a rectangular array of memory cells forming rows and columns. Each memory cell in the array forms an intersection between the rows and columns. A simple array of 16 storage cells arranged as a $4 \times 4$ matrix is shown in the diagram. Any individual cell in the array, such as the cell indicated, is defined by the address of one row and one column, as shown, since each row and column intersect once only. Each cell can store one bit of information.
+- In order to retrieve information from a particular location, the address codes of the row and column are specified. The output is sampled by suitable sensing devices that are attached to each row and the rows are therefore termed bit lines. The columns are known as word lines.
+- ![[Pasted image 20260411015424.png|400]]
+	- RAM: array of 4 $\times$ 4 storage cells
+	- Parts
+		- Unit memory locations
+		- Row address
+		- bit/sense lines
+		- Word lines
+		- Column address
+		- Cell 01, 10 accessed
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-2-memory-and-storage-quizzes/ks4-ocr-j277-1-2-memory-quiz/
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

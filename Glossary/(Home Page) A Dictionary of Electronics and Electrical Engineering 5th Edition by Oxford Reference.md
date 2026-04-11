@@ -5502,222 +5502,305 @@ tags:
 	3815. [[puncture voltage]]
 	3816. [[purple plague]]
 	3817. [[PUSH]]
-	3818. push-pull operation
+	3818. [[push-pull operation]]
 	3819. PWM
+		1. (pulse-width modulation) See pulse modulation
 	3820. QAM
+		1. (quadrature amplitude modulation) See amplitude modulation
 
 	3821. Q channel
-	3822. Q factor(symbol: Q)
+		1. See I channel
+	3822. [[Q factor]]
 	3823. QFN
+		1. See quad-flat no-leads package
 	3824. QHD
+		1. See quad high-definition
 	3825. Q point
+		1. See QUIESCENT POINT.
 	3826. QPSK
-	3827. quad-flat no-leads package
-	3828. quadcopter
-	3829. quad high-definition
-	3830. quadrant electrometer
+		1. (quadrature phase shift keying) See AMPLITUDE MODULATION.
+	3827. [[quad-flat no-leads package]]
+	3828. [[quadcopter]]
+	3829. [[quad high-definition]]
+	3830. [[quadrant electrometer]]
 
-	3831. quadraphony
-	3832. quadrature
+	3831. [[quadraphony]]
+	3832. [[quadrature]]
 	3833. quadrature amplitude modulation
+		1. (QAM) See amplitude modulation
 	3834. quadrature component
+		1. (1) (of current) See reactive current
+		2. (2) (of voltage) See reactive voltage
+		3. (3) (of volt-amperes) See reactive volt-amperes
 	3835. quadrature phase shift keying
+		1. (QPSK) See amplitude modulation
 	3836. quadripole
+		1. See two-port network
 	3837. quality factor
-	3838. quantization
+		1. See Q Factor
+	3838. [[quantization]]
 	3839. quantization noise
-	3840. quantizer
+		1. See noise
+	3840. [[quantizer]]
 
-	3841. quantum computer
-	3842. quantum dot
-	3843. quantum efficiency
-	3844. quantum mechanics
-	3845. quantum numbers
-	3846. quantum theory
-	3847. quantum well
-	3848. quantum wire
+	3841. [[quantum computer]]
+	3842. [[quantum dot]]
+	3843. [[quantum efficiency]]
+	3844. [[quantum mechanics]]
+	3845. [[quantum numbers]]
+	3846. [[quantum theory]]
+	3847. [[quantum well]]
+	3848. [[quantum wire]]
 	3849. quantum yield
+		1. See quantum efficiency
 	3850. quarter-phase system
+		1. (two-phase system) See polyphase system
 
-	3851. quarter-wavelength line
-	3852. quartz
+	3851. [[quarter-wavelength line]]
+	3852. [[quartz]]
 	3853. quartz-crystal oscillator
-	3854. quasi-bistable circuit
-	3855. quasi-complementary push-pull amplifier
-	3856. quasi-peak detector
-	3857. quasi-periodicity
-	3858. quefrency
-	3859. quench
+		1. See PIEZOELECTRIC OSCILLATOR.
+	3854. [[quasi-bistable circuit]]
+	3855. [[quasi-complementary push-pull amplifier]]
+	3856. [[quasi-peak detector]]
+	3857. [[quasi-periodicity]]
+	3858. [[quefrency]]
+	3859. [[quench]]
 	3860. quench frequency
+		1. See SUPER-REGENERATIVE RECEPTION.
 
 	3861. quiescent-carrier telephony
-	3862. quiescent component
-	3863. quiescent current
-	3864. quiescent period
-	3865. quiescent point
+		1. See telephony
+	3862. [[quiescent component]]
+	3863. [[quiescent current]]
+	3864. [[quiescent period]]
+	3865. [[quiescent point]]
 	3866. quiescent push-pull amplifier
+		1. See PUSH-PULL OPERATION.
 	3867. quieting circuit
+		1. See SQUELCH CIRCUIT.
 	3868. quieting sensitivity
-	3869. Quine-McCluskey
-	3870. R-C
+		1. See radio receiver
+	3869. [[Quine-McCluskey]]
+	3870. [[R-C]]
 
 	3871. R-C network
+		1. (resistance-capacitance network) See network
 	3872. R-S flip-flop
+		1. See flip-flop
 	3873. r.m.s.
-	3874. radar
+		1. (RMS) root mean square
+	3874. [[radar]]
 	3875. radar beacon
-	3876. radar cross section
-	3877. radar equation
-	3878. radar indicator
-	3879. radial-beam tube
-	3880. radian
+		1. See beacon
+	3876. [[radar cross section]]
+	3877. [[radar equation]]
+	3878. [[radar indicator]]
+	3879. [[radial-beam tube]]
+	3880. [[radian]]
 
 	3881. radiated emissions
+		1. See ELECTROMAGNETIC COMPATIBILITY.
 	3882. radiated interference
-	3883. radiated power
+		1. See ELECTROMAGNETIC COMPATIBILITY.
+	3883. [[radiated power]]
 	3884. radiated susceptibility
-	3885. radiation
+		1. See ELECTROMAGNETIC COMPATIBILITY.
+	3885. [[radiation]]
 	3886. radiation counter
+		1. See counter
 	3887. radiation efficiency
+		1. See antenna efficiency
 	3888. radiation noise
+		1. See noise
 	3889. radiation pattern
+		1. See antenna pattern
 	3890. radiation potential
+		1. See ionization potential
 
 	3891. radiation resistance
+		1. See antenna radiation resistance
 	3892. radiative recombination
-	3893. radio
-	3894. radio astronomy
+		1. See recombination process
+	3893. [[radio]]
+	3894. [[radio astronomy]]
 	3895. radio beacon
-	3896. radio compass
+		1. See beacon
+	3896. [[radio compass]]
 	3897. radio direction finding
-	3898. radiofrequency
-	3899. radiofrequency choke
-	3900. radiofrequency heating
+		1. See direction finding
+	3898. [[radiofrequency]]
+	3899. [[radiofrequency choke]]
+	3900. [[radiofrequency heating]]
 
-	3901. radiofrequency identification
+	3901. [[radiofrequency identification]]
 	3902. radiofrequency interference
+		1. (RFI) See ELECTROMAGNETIC COMPATIBILITY; NOISE.
 	3903. radiography
-	3904. radio horizon
+		1. See X-RAYS.
+	3904. [[radio horizon]]
 	3905. radio interferometer
-	3906. radio noise
-	3907. radio receiver
-	3908. radio set
-	3909. radiosonde
-	3910. radio spectroscope
+		1. See radio telescope
+	3906. [[radio noise]]
+	3907. [[radio receiver]]
+	3908. [[radio set]]
+	3909. [[radiosonde]]
+	3910. [[radio spectroscope]]
 
 	3911. radio telegraphy
-	3912. radio telemetry
+		1. See TELEGRAPHY.
+	3912. [[radio telemetry]]
 	3913. radio telephone
-	3914. radio telescope
+		1. See telephony
+	3914. [[radio telescope]]
 	3915. radiotherapy
-	3916. radiowave
-	3917. radio window
-	3918. radome
-	3919. rahmonic
-	3920. rail
+		1. See X-rays
+	3916. [[radiowave]]
+	3917. [[radio window]]
+	3918. [[radome]]
+	3919. [[rahmonic]]
+	3920. [[rail]]
 
 	3921. raised cosine window
-	3922. RAM
-	3923. RAM disk
-	3924. random access
-	3925. random logic
-	3926. range
-	3927. range finding
-	3928. range tracking
-	3929. Raspberry Pi
-	3930. raster scanning
+		1. (Hanning window) See windowing
+	3922. [[RAM]]
+	3923. [[RAM disk]]
+	3924. [[random access]]
+	3925. [[random logic]]
+	3926. [[range]]
+	3927. [[range finding]]
+	3928. [[range tracking]]
+	3929. [[Raspberry Pi]]
+	3930. [[raster scanning]]
 
 	3931. rat-race
-	3932. rating
+		1. Informal term for ring junction. See hybrid junction
+	3932. [[rating]]
 	3933. ratio adjuster
+		1. See tap changer
 	3934. ratio circuit
+		1. See MOS logic circuit
 	3935. ratioless circuit
+		1. See MOS logic circuit
 	3936. rationalized MKS system
-	3937. Rayleigh fading
+		1. See MKS system
+	3937. [[Rayleigh fading]]
 	3938. RBS
-	3939. RC circuit
+		1. See RUTHERFORD BACK SCATTERING.
+	3939. [[RC circuit]]
 	3940. RCT
+		1. (reverse conducting thryristor) See thyristor.
+			1. #question Why is it spelled `thryristor`?
 
-	3941. reactance(symbol: X; unit: ohm)
-	3942. reactance chart
+	3941. [[reactance]]
+	3942. [[reactance chart]]
 	3943. reactance drop
+		1. See voltage drop
 	3944. reactance modulator
-	3945. reactance transformer
-	3946. reactivation
-	3947. reactive current
-	3948. reactive factor
+		1. See modulator
+	3945. [[reactance transformer]]
+	3946. [[reactivation]]
+	3947. [[reactive current]]
+	3948. [[reactive factor]]
 	3949. reactive ion beam etching
+		1. See etching
 	3950. reactive ion etching
+		1. See etching
 
-	3951. reactive load
+	3951. [[reactive load]]
 	3952. reactive power
+		1. See power
 	3953. reactive sputtering
-	3954. reactive volt-amperes
-	3955. reactive voltage
-	3956. reactor
-	3957. read
+		1. See sputtering
+	3954. [[reactive volt-amperes]]
+	3955. [[reactive voltage]]
+	3956. [[reactor]]
+	3957. [[read]]
 	3958. read-only memory
-	3959. read-out pulse
+		1. See ROM
+	3959. [[read-out pulse]]
 	3960. read-write head
+		1. See MAGNETIC RECORDING; MAGNETIC DISK.
 
-	3961. read-write memory
+	3961. [[read-write memory]]
 	3962. Read diode
-	3963. real-time operation
-	3964. real-time system
-	3965. real number
-	3966. real part of a complex number
-	3967. receiver
+		1. See IMPATT Diode
+	3963. [[real-time operation]]
+	3964. [[real-time system]]
+	3965. [[real number]]
+	3966. [[real part of a complex number]]
+	3967. [[receiver]]
 	3968. receiving antenna
-	3969. recessed gate FET
+		1. See antenna
+	3969. [[recessed gate FET]]
 	3970. rechargeable battery
+		1. See battery
 
-	3971. reciprocity theorem
-	3972. recombination processes
-	3973. recombination rate
-	3974. recording channel
+	3971. [[reciprocity theorem]]
+	3972. [[recombination processes]]
+	3973. [[recombination rate]]
+	3974. [[recording channel]]
 	3975. recording head
-	3976. recording of sound
+		1. See MAGNETIC RECORDING.
+	3976. [[recording of sound]]
 	3977. rectangular pulse
+		1. See pulse
 	3978. rectangular window
-	3979. rectifier
+		1. See windowing
+	3979. [[rectifier]]
 	3980. rectifier filter
+		1. See smoothing circuit
 
-	3981. rectifier instrument
-	3982. rectifier voltmeter
+	3981. [[rectifier instrument]]
+	3982. [[rectifier voltmeter]]
 	3983. rectilinear scanner
-	3984. recurrent-surge oscilloscope
+		1. See scanner
+	3984. [[recurrent-surge oscilloscope]]
 	3985. recursive filters
+		1. See digital filter
 	3986. reduced instruction set computer
-	3987. redundancy
-	3988. Reed-Solomon code
+		1. See RISC
+	3987. [[redundancy]]
+	3988. [[Reed-Solomon code]]
 	3989. reflected impedance
-	3990. reflected power
+		1. See transformer
+	3990. [[reflected power]]
 
 	3991. reflected wave
-	3992. reflection coefficient
-	3993. reflection error
-	3994. reflection factor
-	3995. reflectometer
+		1. (1) See traveling wave
+		2. (2) See indirect wave
+	3992. [[reflection coefficient]]
+	3993. [[reflection error]]
+	3994. [[reflection factor]]
+	3995. [[reflectometer]]
 	3996. reflector
+		1. See DIRECTIONAL ANTENNA.
 	3997. reflex bunching
-	3998. reflex circuit
+		1. See VELOCITY MODULATION.
+	3998. [[reflex circuit]]
 	3999. reflex klystron
-	4000. refresh
+		1. See KLYSTRON.
+	4000. [[refresh]]
 
 	4001. regeneration
-	4002. regenerative receiver
-	4003. region of convergence
-	4004. register
-	4005. register set
-	4006. regulator
-	4007. reignition voltage
+		1. (positive feedback) See feedback
+	4002. [[regenerative receiver]]
+	4003. [[region of convergence]]
+	4004. [[register]]
+	4005. [[register set]]
+	4006. [[regulator]]
+	4007. [[reignition voltage]]
 	4008. rejector
+		1. (parallel resonant circuit) See resonant circuit; resonant frequency. 
 	4009. relative error
+		1. See absolute error
 	4010. relative permeability
+		1. See permeability
 
 	4011. relative permittivity
-	4012. relaxation oscillator
-	4013. relaxation time(symbol: τ)
+		1. See PERMITIVITY.
+	4012. [[relaxation oscillator]]
+	4013. [[relaxation time]]
 	4014. relay
 	4015. reliability
 	4016. reluctance(symbol: R; unit: henry−1)

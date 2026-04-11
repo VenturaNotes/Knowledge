@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A telescope used in radio astronomy to record and measure extraterrestrial radio signals. It consists of an antenna, or system of antennas, connected by feeders to one or more receivers, where the signals are amplified and analyzed, usually by a computer. The antennas may be in the form of dishes, linear dipoles, or Yagi antennas. A dish is a large generally parabolic metal reflector that brings radiowaves to a focus above the dish centre. The focused waves are collected by a secondary feed antenna that is connected to the receiver. Dishes can usually be steered to point to different regions of the sky.
+- The antenna system may form a radio interferometer, in which the electrical signals from two separated antenna units are fed to a common receiver. The antenna units are often mounted on an E-W line, pointing in the same direction, so that the earth's rotation causes an extraterrestrial radio source to move through the antenna beam. The two identical signals from the antenna units travel a different pathlength; when combined, the amplitude of the summed signal changes periodically producing interference fringes at the receiver output. An interferometer is generally used to improve the resolution of the telescope, i.e. to allow finer detail to be distinguished. Analysis of the fringes allows the structure of a radio source to be determined.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
