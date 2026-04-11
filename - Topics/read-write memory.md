@@ -6,6 +6,9 @@ aliases:
 - 
 ## Source [^1]
 - A type of memory that, in normal operation, allows the user to access (read from) or alter (write to) individual storage locations within the device. The choice of read or write operation is normally determined by a read/write signal applied to the device. RAM devices are typical read/write memories. Compare ROM.
+## Source[^2]
+- A memory used in computing in which the stored information can be readily altered. See SOLID-STATE MEMORY.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -2,7 +2,6 @@
 - 
 ## Source [^1]
 - The provision of additional components in a system, over and above the minimum set of components needed to perform the functions of the system, for purposes of reliability or robustness. For example, with triple modular redundancy three components are deployed in parallel, all performing the same function. Their outputs are compared, and when one component produces a different result from the other two, this item is assumed to be faulty and is ignored. Redundancy covers not only the incorporation of duplicate or triplicate hardware for backup in case of failure, but also the inclusion of excess symbols in messages sent through communication systems in order to combat the effects of noise (see ERROR-CORRECTING CODE, ERROR-DETECTING CODE).
-
 ## Source[^2]
 - In a business setting, redundancy occurs when employers dismiss employees because a specific position in their workforce is no longer deemed necessary. For example, if a company buys a machine that can automatically perform the duties of an employee, that employeeʻs job would be deemed redundant.
 - In the tech industry, the term redundancy is used to describe the duplication of a computer component such as computer data or a computerized device to prevent it from becoming unavailable in the future. In other words, redundancy is a system design that duplicates a computer component so that if it fails, there is a reliable backup. However, redundancy can be used in a negative manner when referring to duplicating a computer component unnecessarily or due to poor planning.
@@ -11,9 +10,13 @@
 - (2) See COMPENSATION FOR LOSS OF OFFICE.
 ## Source[^4]
 - Termination of employment without any fault on the part of the employees concerned, because of a fall in the employer's need for labor. Some UK workers have a legal right to compensation for redundancy. Employers may make redundancy payments in excess of legal requirements to induce workers to accept offers of voluntary redundancy and so avoid the need for compulsory redundancies.
+## Source[^5]
+- (1) The fraction of the information in a transmission system that may be eliminated without loss of essential information. The excess information is often deliberately included to allow for loss in the transmission system. 
+- (2) The extra components, devices, or circuits included in an electronic circuit or apparatus to increase the reliability of the system. If therefore a fault develops in one portion of the system the redundant circuits or components provided can take over the function of the faulty part. Redundancy is very important in systems, such as aircraft systems, in which high reliability is essential.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

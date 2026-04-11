@@ -5,6 +5,9 @@
 - The term random-access memory has also been used to describe memory implemented on magnetic disk to distinguish it from serially accessed devices such as magnetic tape.
 - See also RAM DISK.
 - (2) A method of access to a file (especially a data file): a file is said to be randomly accessed if the sequence of transactions submitted to it does not match any sequence in which records may be organized.
+## Source[^2]
+- A form of access to computer memory in which individual memory locations can be directly accessed in any order to allow reading or writing of data. The access time to any location is substantially constant and is independent of the address of the location or of the previously accessed location.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

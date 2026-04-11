@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A four-channel sound-reproduction system that is an extension of stereophonic sound reproduction (see REPRODUCTION OF SOUND) using four separate loudspeakers. The sound may be recorded either using four coincident directional microphones at right angles to each other and placed at the position of the listener, or using separated microphones whose outputs are divided between the channels and combined in the correct proportions to achieve the desired effect.
+- Various methods exist for recording and reproducing quadraphonic signals, all of which combine the signals to produce two channels that may be recorded by stereophonic techniques. Compatible discrete four-channel recording has four separate channels. Each stereo channel contains signals from two of the quadraphonic channels, multiplexed together. The sum signal of the two channels occupies one frequency band and the difference signal another frequency band. On playback, the sum and difference signals in each of the stereo channels are detected and the original information extracted. Matrix recording systems combine the outputs of the four channels together in fixed proportions and phase relationships in order to produce two channels of information. The two channels are then decoded during reproduction in order to restore the original four channels.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

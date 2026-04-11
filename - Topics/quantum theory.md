@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- A theory introduced by Max Planck in 1900 to explain the emission and absorption of radiation (black-body radiation) by material bodies. Planck postulated that the atoms in the body behaved as tiny oscillators, which could radiate or absorb energy only in discrete packages. He called these packages light quanta, known today as photons, whose energy is given by$$E = h \nu = \hbar \omega$$where $\hbar$ is the rationalized Planck constant, equal to $h / 2\pi$, $\nu$ is the frequency of the absorbed or emitted radiation, and $\omega$ is the angular frequency.
+- The quantum theory was a profound departure from classical physics, which presumed energy to be continuous and hence infinitely divisible into smaller and smaller quantities. Quantum theory was used successfully by Einstein in 1905 to explain the photoelectric effect: if the frequency of the irradiating light is less than some threshold frequency $\nu_{0}$, then no matter how intense the light no photoelectric effect would be observed; for incident light of frequency greater than $\nu_{0}$, photoelectrons are emitted in numbers directly proportional to the intensity of the light - in other words, proportional to the number of incident light quanta or photons.
+- Quantum theory is used to describe physical behavior on the atomic scale of matter - at the level of individual atoms, electrons, or photons - or in solids where the dimensions approach those of a few atomic diameters, say less than about 10 nanometers. The mathematical framework describing quantum theory is found in quantum mechanics.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
