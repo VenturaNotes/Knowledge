@@ -1,3 +1,7 @@
+---
+aliases:
+  - trademarking
+---
 ## Synthesis
 - 
 ## Source [^1]

@@ -10,7 +10,11 @@
 	- (a) The degree to which a pest can withstand the effects of a pesticide. It depends on the selection and spread within a pest population of genes that confer the ability to destroy, or minimize the effects of, a pesticide. 
 	- (b) See ENVIRONMENTAL RESISTANCE. 
 - (3) (in immunology) The degree of immunity to infection that an animal possesses.
+## Source[^3]
+- (1) (symbol: $R$; unit: ohm) The tendency of a material to resist the passage of an electric current and to convert electrical energy into heat energy. It is the ratio of the applied potential difference across a conductor to the current flowing through it (see OHM'S LAW). If the current is an alternating current the resistance is the real part - the resistive component - of the electrical impedance, $Z$:$$Z = R + jX$$where $j$ is equal to $\sqrt{-1}$ and $X$ is the reactance. 
+- (2) See RESISTOR.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

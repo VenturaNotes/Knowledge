@@ -5823,61 +5823,92 @@ tags:
 	4030. [[residual current]]
 
 	4031. residual pulse linear predictive coding
-	4032. residual resistance
-	4033. resist
-	4034. resistance
+		1. (RPLPC) See linear prediction
+	4032. [[residual resistance]]
+	4033. [[resist]]
+	4034. [[resistance]]
 	4035. resistance-capacitance coupling
+		1. (RC coupling) See coupling
 	4036. resistance coupling
+		1. See direct coupling
 	4037. resistance drop
-	4038. resistance gauge
+		1. See voltage drop
+	4038. [[resistance gauge]]
 	4039. resistance strain gauge
-	4040. resistance thermometer
+		1. See strain gauge
+	4040. [[resistance thermometer]]
 
-	4041. resistance wire
+	4041. [[resistance wire]]
 	4042. resistive component
+		1. (complex impedance) See resistance
 	4043. resistive coupling
-	4044. resistive touchscreen
-	4045. resistivity(symbol: ρ; unit: ohm metres)
-	4046. resistivity surveying
-	4047. resistor
-	4048. resistor-transistor logic
+		1. (resistance coupling) See coupling
+	4044. [[resistive touchscreen]]
+	4045. [[resistivity]]
+	4046. [[resistivity surveying]]
+	4047. [[resistor]]
+	4048. [[resistor-transistor logic]]
 	4049. resolution
+		1. (1) See spatial resolution
+		2. (2) See screen resolution
 	4050. resolving time
+		1. See counter
 
-	4051. resonance
-	4052. resonance bridge
+	4051. [[resonance]]
+	4052. [[resonance bridge]]
 	4053. resonant cavity
-	4054. resonant circuit
-	4055. resonant frequency(symbols: ω0, f0)
-	4056. resonant line
-	4057. resonator
-	4058. response time
+		1. See cavity resonator
+	4054. [[resonant circuit]]
+	4055. [[resonant frequency]]
+	4056. [[resonant line]]
+	4057. [[resonator]]
+	4058. [[response time]]
 	4059. restore
+		1. See clear
 	4060. retentivity
+		1. (remanence) See magnetic hysteresis
 
 	4061. return-current coefficient
+		1. See reflection coefficient
 	4062. return current
+		1. (reflected current) Se reflection coefficient
 	4063. return interval
-	4064. return loss
+		1. (flyback) See sawtooth wave; timebase
+	4064. [[return loss]]
 	4065. return stroke
+		1. See lighting stroke
 	4066. return to zero
+		1. (RZ) See nonreturn to zero
 	4067. return trace
+		1. (flyback) See timebase
 	4068. reverse active operation
+		1. See bipolar junction transistor
 	4069. reverse conducting thyristor
-	4070. reverse direction
+		1. (RCT) See thyristor
+	4070. [[reverse direction]]
 
 	4071. reverse saturation current
+		1. See p-n junction; reverse direction.
 	4072. reversible transducer
-	4073. revolutions per minute
+		1. See transducer
+	4073. [[revolutions per minute]]
 	4074. RF
+		1. (r.f.) See radiofrequency
 	4075. RFC
+		1. (1) (Request for Comments) The standards controlling the transmission of packets over the Internet
+		2. (2) See RadioFrequency Choke
 	4076. RF heating
+		1. See induction heating
 	4077. RFI
+		1. (radiofrequency interference) See ELECTROMAGNETIC COMPATIBILITY.
 	4078. RFID
+		1. See radiofrequency identification
 	4079. RHEED
+		1. (reflection high-energy electron diffraction) See DIFFRACTION.
 	4080. rhumbatron
+		1. See cavity resonator
 
-	4081. ribbon microphone
+	4081. [[ribbon microphone]]
 	4082. Richardson-Dushman equation
 	4083. ridged waveguide
 	4084. Rieke diagram
