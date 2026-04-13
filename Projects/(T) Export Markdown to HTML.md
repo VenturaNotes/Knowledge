@@ -12,6 +12,9 @@ reminders:
 tags:
   - task
 completedDate: 2026-02-03
+aliases:
+  - Zotero HTML Image Zoom
+  - Zotero Code Extraction
 ---
 ## Synthesis
 ### Solution

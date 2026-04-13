@@ -4,7 +4,6 @@
 	- This sorts a list of type Length by descending order
 - Could use anki tag to determine if a 
 - Will use Studied tag to indicate if a topic has been thoroughly practiced or researched to by degree
-
 ## Returns List of backlinks  in order within document where \#studied not found and no duplicates returned
 ```dataviewjs
 // Get the current file content
