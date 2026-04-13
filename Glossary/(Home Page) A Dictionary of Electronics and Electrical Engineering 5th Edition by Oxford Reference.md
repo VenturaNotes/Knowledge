@@ -5801,24 +5801,26 @@ tags:
 		1. See PERMITIVITY.
 	4012. [[relaxation oscillator]]
 	4013. [[relaxation time]]
-	4014. relay
-	4015. reliability
-	4016. reluctance(symbol: R; unit: henry−1)
-	4017. reluctivity
+	4014. [[relay]]
+	4015. [[reliability]]
+	4016. [[reluctance]]
+	4017. [[reluctivity]]
 	4018. remanence
-	4019. remote control
-	4020. remotely operated vehicle
+		1. (retentivity) See MAGNETIC HYSTERESIS.
+	4019. [[remote control]]
+	4020. [[remotely operated vehicle]]
 
-	4021. remote sensing
-	4022. renewable energy system
-	4023. repeater
-	4024. repeating coil
-	4025. reproduction of sound
+	4021. [[remote sensing]]
+	4022. [[renewable energy system]]
+	4023. [[repeater]]
+	4024. [[repeating coil]]
+	4025. [[reproduction of sound]]
 	4026. Request for Comments
-	4027. request to send
-	4028. reset
-	4029. residual charge
-	4030. residual current
+		1. See RFC
+	4027. [[request to send]]
+	4028. [[reset]]
+	4029. [[residual charge]]
+	4030. [[residual current]]
 
 	4031. residual pulse linear predictive coding
 	4032. residual resistance
