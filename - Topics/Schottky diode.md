@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (metal-semiconductor diode) A rectifying diode formed from a junction between a metal and a semiconductor - a Schottky barrier (see SCHOTTKY EFFECT). The term is reserved for Schottky barriers in which the energy gap and doping level of the semiconductor are such that minority carriers in the semiconductor do not contribute significantly to the current flowing in the diode.
+- If a forward bias is applied across the junction, majority carriers (electrons in an n-type semiconductor) that have energies greater than the Schottky barrier height can cross the barrier and current flows (thermionic emission). Carriers may also cross the barrier by tunnelling if it is sufficiently narrow (field emission). A mixture of these mechanisms often occurs and is known as thermionic-field emission, but thermionic emission is the dominant process in Schottky diodes. As the forward bias increases more hot carriers are present and the current increases rapidly. With sufficiently large voltages all the free carriers in the semiconductor can cross the barrier; the current can then only increase with increasing voltage as a result of acceleration of free majority carriers. The current-voltage characteristic is then linear in this region. Under reverse bias conditions the current falls to a small reverse saturation current. Since the minority carriers have a negligible contribution to the current in either the forward or reverse directions carrier storage at the junction is negligible and the diode has very fast switching speeds.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

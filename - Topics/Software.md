@@ -9,9 +9,12 @@
 ## Source[^4]
 - The programs used with a computer, together with their documentation, as opposed to the physical parts of the computer system (hardware).
 - A distinction is made between systems software, or those programs that control the functioning of the computer itself, and applications software, such as accounting or audit software, which is designed to serve a particular specialized function. See BUSINESS SOFTWARE PACKAGE.
+## Source[^5]
+- The programs that can be run on a computer system, as opposed to the physical components (the hardware) of the system. A distinction can be drawn between systems software, which is an essential accompaniment to the hardware in providing an effective overall computer system, and applications software, which makes a direct contribution to meeting the needs of the computer user(s).
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

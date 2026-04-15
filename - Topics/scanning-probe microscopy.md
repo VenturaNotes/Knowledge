@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (SPM) A technique used to map the surface morphology and electronic and magnetic profiles of an object with a sharp tip mounted on a flexible cantilever, which is then attached to a scanning stage of a microscope. There are three main operating modes of a SPM machine: atomic force microscopy (AFM), magnetic force microscopy (MFM), and scanning-tunnelling microscopy (STM). In the AFM mode, the deflection of the cantilever, caused by the interatomic van de Waals forces between the tip and the device surface, is monitored by a laser beam and a position-sensitive detector. AFM is capable of mapping the surface morphology of both conducting and non-conducting materials, such as polymers, ceramics, and glass, while STM can only probe metals and semiconductors as tunnelling current between the tip and the sample surface is monitored in the STM mode. Both AFM and STM can have atomic resolution. In the MFM mode, the tip is coated with a magnetic material, such as soft magnetic NiFe alloys. By monitoring the magnetic force between the tip and a magnetic sample, the magnetic structure of the device can be mapped at a resolution of 50-100 nm. Scanning-probe microscopy is a key tool in nanotechnology with a wide range of applications in nanoelectronics, materials science, biology, life sciences, physics, and chemistry.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

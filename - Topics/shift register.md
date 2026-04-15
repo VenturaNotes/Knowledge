@@ -11,6 +11,9 @@
 		- x depends on previous output
 		- clock
 - Shift register. An n-bit shift register
+## Source[^2]
+- A digital circuit that can store a set of information in the form of pulses and displace it either to the left or right upon application of a shift pulse. If the information consists of the digits of a numerical expression, a shift of position to the left (or right) is equivalent to multiplying (or dividing) by a power of the base. Shift registers are extensively used in computers and data processing systems as storage or delay elements. See also DELAY LINE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
