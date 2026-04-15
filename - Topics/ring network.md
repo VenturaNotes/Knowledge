@@ -16,7 +16,10 @@ aliases:
 	- (a) token ring—a special bit pattern identifies control information: a station, upon receiving the control token, may insert a message into the ring and reissue the token;
 	- (b) [[slotted ring]]-a series of 'slots' are continuously transmitted around the ring: a station detecting an unused slot may mark it 'in use' and fill it with a message;
 	- (c) [[register insertion ring]]-a station loads a message into a shift register, then inserts the register into the ring when the ring is idle or at the end of any message; the register contents are shifted onto the ring. When the message returns to the register, the register may be removed from the ring.
+## Source[^3]
+- In digital communication networks, particularly local area networks, a network that forms a closed loop. Each piece of equipment connected to the ring is connected in series and so makes contact with both halves of the loop.
 ## References
 
 [^1]: https://en.wikipedia.org/wiki/Ring_network#:~:text=A%20ring%20network%20is%20a,the%20way%20handling%20every%20packet.
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

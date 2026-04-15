@@ -5909,81 +5909,107 @@ tags:
 		1. See cavity resonator
 
 	4081. [[ribbon microphone]]
-	4082. Richardson-Dushman equation
+	4082. [[Richardson-Dushman equation]]
 	4083. ridged waveguide
-	4084. Rieke diagram
-	4085. Righi-Leduc effect
-	4086. right-hand rule(for a dynamo)
-	4087. ringing
+		1. See waveguide
+	4084. [[Rieke diagram]]
+	4085. [[Righi-Leduc effect]]
+	4086. right-hand rule
+		1. (for a dynamo) See Fleming's Rules
+	4087. [[ringing]]
 	4088. ring junction
-	4089. ring modulator
-	4090. ring network
+		1. (hybrid ring junction; rat-race) See hybrid junction
+	4089. [[ring modulator]]
+	4090. [[ring network]]
 
-	4091. ripple
+	4091. [[ripple]]
 	4092. ripple filter
-	4093. RISC
+		1. See smoothing circuit
+	4093. [[Reduced Instruction Set Computer|RISC]]
 	4094. rise time
-	4095. RLC circuit
-	4096. RL circuit
-	4097. robotics
-	4098. robustness
+		1. (a pulse) See pulse
+	4095. [[RLC circuit]]
+	4096. [[RL circuit]]
+	4097. [[robotics]]
+	4098. [[robustness]]
 	4099. ROC
-	4100. ROM
+		1. See region of convergence
+	4100. [[Real Only Memory|ROM]]
 
-	4101. root-mean-square
+	4101. [[root-mean-square]]
 	4102. rope
-	4103. rotational latency
+		1. See CONFUSION REFLECTOR.
+	4103. [[rotational latency]]
 	4104. rotator
+		1. See waveguide
 	4105. rotor
-	4106. router
-	4107. routing
+		1. See motor
+	4106. [[router]]
+	4107. [[routing]]
 	4108. routing control plane
+		1. See control plane
 	4109. ROV
+		1. See remotely operated vehicle
 	4110. RPLPC
+		1. (residual pulse linear predictive coding) See linear prediction
 
 	4111. rpm
-	4112. RS-232 interface
+		1. See revolutions per minute
+	4112. [[RS-232 interface]]
 	4113. RTL
+		1. See RESISTOR-TRANSISTOR LOGIC.
 	4114. RTS
-	4115. rumble
+		1. See REQUEST TO SEND.
+	4115. [[rumble]]
 	4116. run-length codes
-	4117. Rutherford back scattering
+		1. See digital codes
+	4117. [[Rutherford back scattering]]
 	4118. RZ
+		1. (return to zero) See nonreturn to zero
 	4119. RZ PCM
-	4120. s-domain circuit analysis
+		1. (return to zero pulse code modulation) See pulse modulation
+	4120. [[s-domain circuit analysis]]
 
 	4121. s-parameters
+		1. See scattering parameters
 	4122. s-plane
+		1. See s-domain circuit analysis
 	4123. S-R flip-flop
-	4124. SAINT process
-	4125. Sallen-Key filter
+		1. (R-S flip-flop) See flip-flop
+	4124. [[SAINT process]]
+	4125. [[Sallen-Key filter]]
 	4126. SAM
-	4127. sampling
-	4128. sampling period
-	4129. sampling synthesis
-	4130. sapphire
+		1. (scanning Auger microprobe) See AUGER ELECTRON SPECTROSCOPY.
+	4127. [[sampling]]
+	4128. [[sampling period]]
+	4129. [[sampling synthesis]]
+	4130. [[sapphire]]
 
 	4131. SAR
+		1. See SYNTHETIC APERTURE RADAR.
 	4132. sat
+		1. See SATURATED MODE.
 	4133. SATA
-	4134. satellite
-	4135. satellite navigation system
-	4136. saturated mode
-	4137. saturated velocity
-	4138. saturation
-	4139. saturation current
-	4140. saturation resistance
+		1. See SERIAL ATA.
+	4134. [[satellite]]
+	4135. [[satellite navigation system]]
+	4136. [[saturated mode]]
+	4137. [[saturated velocity]]
+	4138. [[saturation]]
+	4139. [[saturation current]]
+	4140. [[saturation resistance]]
 
-	4141. saturation signal
-	4142. saturation voltage
+	4141. [[saturation signal]]
+	4142. [[saturation voltage]]
 	4143. SAW
-	4144. SAW filter
-	4145. sawing
-	4146. sawtooth oscillator
-	4147. sawtooth pulse
-	4148. sawtooth waveform
-	4149. S band
-	4150. scaler
+		1. (surface acoustic wave) See acoustic wave device
+	4144. [[SAW filter]]
+	4145. [[sawing]]
+	4146. [[sawtooth oscillator]]
+	4147. [[sawtooth pulse]]
+	4148. [[sawtooth waveform]]
+	4149. [[S band]]
+	4150. [[scaler]]
 
 	4151. scaling tube
 	4152. scanner
