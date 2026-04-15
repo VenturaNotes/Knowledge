@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- A nonuniform distribution of current over the cross section of a conductor when carrying alternating current, with the greater current density located at the surface (or 'skin') of the conductor. The skin effect is caused by electromagnetic induction in the wire and increases in magnitude with increasing frequency. At sufficiently high frequencies the current is almost entirely confined to the surface of the conductor and results in a greater $I^2R$ loss than when the current is uniformly distributed. The skin depth of the conductor, $d$, is that distance from the surface that the current has decreased to $1/e$ of its surface value. It is given by$$d = \left(\frac {2}{\mu \omega \sigma}\right) ^ {\frac {1}{2}}$$for a metal, where $\mu$ is the magnetic permeability, $\omega$ the angular frequency, and $\sigma$ the conductivity.
+- The effective resistance of the conductor is therefore greater than the d.c. or ohmic resistance, when carrying alternating current, and for high-frequency applications the high-frequency resistance of a conductor can be substantially greater than the nominal d.c. value. The surface resistance of a metal, $R_{\text{surface}}$, is given by$$R _ {\text {surface}} = \frac {1}{\sigma d}$$A metallic conductor of thickness less than one skin depth will have a radiofrequency current distributed fairly uniformly throughout. The high-frequency resistance will be at a minimum in a conductor of a few skin depths cross section, with most of the current flow within one skin depth of the surface.
+- The skin effect may be minimized for high-frequency uses by employing hollow conductors or stranded conductors, such as Litzendraht wire.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -6,8 +6,11 @@
 - A smartphone is a cell phone with an integrated computer. It features an operating system like iOS or Android, web browsing ability, and software applications, as well as voice call and text message functions. Smartphones employ virtual touchscreen keyboards to function.Smartphones facilitate wireless communication protocols like Wi-Fi, Bluetooth, and Satnav. Their broad mobile operating systems and hardware capabilities facilitate multimedia functionality.
 ## Source[^3]
 - A mobile phone with computing features over and above the ability to make and take calls, and send or receive text messages. The extra features generally include data storage, Bluetooth, GPS, location-aware applications, and touchscreen user interfaces. Many current smartphones are essentially compact personal computers.
+## Source[^4]
+- A mobile phone that has computing facilities in addition to the basic features of sending and receiving calls and text messages. Typically it will also have several ways of connecting to the Internet, plus one or more digital cameras of varying resolution, capable of recording both still and moving images. All modern smartphones run some kind of operating system that allows the user to install and run application programs, usually downloaded via the Internet.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

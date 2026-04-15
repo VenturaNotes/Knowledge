@@ -5298,7 +5298,7 @@ tags:
 	3688. positron emission tomography
 		1. (PET) See neuroimaging.
 	3689. pot
-		1. Informal A potentiometer.
+		1. Informal term for a potentiometer.
 	3690. potential
 		1. See electric potential
 
@@ -6011,305 +6011,409 @@ tags:
 	4149. [[S band]]
 	4150. [[scaler]]
 
-	4151. scaling tube
-	4152. scanner
-	4153. scanning
-	4154. scanning-probe microscopy
+	4151. [[scaling tube]]
+	4152. [[scanner]]
+	4153. [[scanning]]
+	4154. [[scanning-probe microscopy]]
 	4155. scanning-transmission electron microscope
-	4156. scanning-tunnelling microscopy
+		1. (STEM) See electron microscope
+	4156. [[scanning-tunnelling microscopy]]
 	4157. scanning Auger microprobe
+		1. (SAM) See AUGER ELECTRON SPECTROSCOPY.
 	4158. scanning electron microscope
-	4159. scanning laser
-	4160. scattering loss
+		1. (SEM) See electron microscope
+	4159. [[scanning laser]]
+	4160. [[scattering loss]]
 
-	4161. scattering parameters
+	4161. [[scattering parameters]]
 	4162. schematic
-	4163. Schering bridge
+		1. Informal term for a circuit diagram 
+	4163. [[Schering bridge]]
 	4164. SCH laser
-	4165. Schmitt trigger
+		1. (separate confinement heterostructure laser) See SEMICONDUCTOR LASER.
+	4165. [[Schmitt trigger]]
 	4166. Schottky-gate field-effect transistor
-	4167. Schottky barrier
-	4168. Schottky clamp
-	4169. Schottky diode
-	4170. Schottky effect
+		1. See MESFET
+	4167. [[Schottky barrier]]
+	4168. [[Schottky clamp]]
+	4169. [[Schottky diode]]
+	4170. [[Schottky effect]]
 
-	4171. Schottky I2L
+	4171. Schottky $I^2L$
+		1. See $I^2L$
 	4172. Schottky noise
+		1. See shot noise
 	4173. Schottky photodiode
+		1. See photodiode
 	4174. Schottky TTL
-	4175. Schrödinger equation
-	4176. scintillation
-	4177. scintillation counter
+		1. See transistor-transistor logic
+	4175. [[Schrödinger equation]]
+	4176. [[scintillation]]
+	4177. [[scintillation counter]]
 	4178. SCR
-	4179. scrambling
-	4180. screen
+		1. (silicon-controlled rectifier) See THYRISTOR.
+	4179. [[scrambling]]
+	4180. [[screen]]
 
 	4181. screened pair
+		1. See shielded pair
 	4182. screen grid
+		1. See thermionic valve; tetrode
 	4183. screening test
-	4184. screen resolution
-	4185. scribing
-	4186. scribing channel
+		1. See life test
+	4184. [[screen resolution]]
+	4185. [[scribing]]
+	4186. [[scribing channel]]
 	4187. SCSI
+		1. See SMALL COMPUTER SYSTEM INTERFACE.
 	4188. SD
-	4189. SDTV
+		1. See standard-definition
+	4189. [[SDTV]]
 	4190. search coil
+		1. (exploring coil) See flip-coil
 
-	4191. SECAM
-	4192. second(symbol: s)
-	4193. second-order circuit
-	4194. secondary-ion mass spectroscopy
+	4191. [[SECAM]]
+	4192. [[second]]
+	4193. [[second-order circuit]]
+	4194. [[secondary-ion mass spectroscopy]]
 	4195. secondary cell
-	4196. secondary electron
-	4197. secondary emission
+		1. (accumulator; storage cell) See CELL.
+	4196. [[secondary electron]]
+	4197. [[secondary emission]]
 	4198. secondary failure
+		1. See failure
 	4199. secondary radiator
+		1. (passive antenna) See DIRECTIONAL ANTENNA.
 	4200. secondary service area
+		1. See service area
 
-	4201. secondary standard
-	4202. secondary voltage
+	4201. [[secondary standard]]
+	4202. [[secondary voltage]]
 	4203. secondary winding
+		1. See transformer
 	4204. secondary X-rays
-	4205. second breakdown
-	4206. sector
-	4207. sectorization
+		1. See X-Rays
+	4205. [[second breakdown]]
+	4206. [[sector]]
+	4207. [[sectorization]]
 	4208. Seebeck effect
-	4209. seed crystal
-	4210. seek time
+		1. See THERMOELECTRIC EFFECTS.
+	4209. [[seed crystal]]
+	4210. [[seek time]]
 
-	4211. segmentation
+	4211. [[segmentation]]
 	4212. selective fading
-	4213. selective interference
-	4214. selective repeat ARQ
-	4215. selectivity
-	4216. selenium(symbol: Se)
-	4217. selenium rectifier
+		1. See fading
+	4213. [[selective interference]]
+	4214. [[selective repeat ARQ]]
+	4215. [[selectivity]]
+	4216. [[selenium]]
+	4217. [[selenium rectifier]]
 	4218. self-aligned gate
-	4219. self-bias
-	4220. self-capacitance
+		1. See MOS INTEGRATED CIRCUIT.
+	4219. [[self-bias]]
+	4220. [[self-capacitance]]
 
-	4221. self-excited
+	4221. [[self-excited]]
 	4222. self-inductance
-	4223. self-quieting
+		1. See INDUCTANCE; ELECTROMAGNETIC INDUCTION.
+	4223. [[self-quieting]]
 	4224. self-sustaining oscillations
+		1. See OSCILLATION.
 	4225. SEM
+		1. (scanning electron microscope) See ELECTRON MICROSCOPE.
 	4226. semianechoic chamber
-	4227. semiconductor
-	4228. semiconductor device
-	4229. semiconductor diode
-	4230. semiconductor laser
+		1. See ANECHOIC CHAMBER.
+	4227. [[semiconductor]]
+	4228. [[semiconductor device]]
+	4229. [[semiconductor diode]]
+	4230. [[semiconductor laser]]
 
 	4231. semiconductor memory
+		1. See solid-state memory
 	4232. sensing element
-	4233. sensitivity
+		1. See transducer
+	4233. [[sensitivity]]
 	4234. sensor
-	4235. sensor network
+		1. See transducer
+	4235. [[sensor network]]
 	4236. separate confinement heterostructure laser
-	4237. sequencer
-	4238. sequential circuit
-	4239. sequential control
+		1. (SCH laser) See semiconductor laser
+	4237. [[sequencer]]
+	4238. [[sequential circuit]]
+	4239. [[sequential control]]
 	4240. sequential scanning
+		1. See television
 
-	4241. serial ATA
-	4242. serial port
-	4243. serial transfer
-	4244. serial transmission
-	4245. series
+	4241. [[serial ATA]]
+	4242. [[serial port]]
+	4243. [[serial transfer]]
+	4244. [[serial transmission]]
+	4245. [[series]]
 	4246. series-gated ECL
-	4247. series-parallel connection
+		1. See emitter-coupled logic
+	4247. [[series-parallel connection]]
 	4248. series feedback
+		1. (current feedback) See feedback
 	4249. series resonant circuit
+		1. (acceptor) see resonant circuit; resonant frequency. 
 	4250. series stabilization
+		1. See stabilization
 
-	4251. series supply
-	4252. series system
+	4251. [[series supply]]
+	4252. [[series system]]
 	4253. series transformer
-	4254. service area
+		1. (current transformer) See transformer
+	4254. [[service area]]
 	4255. servomechanism
-	4256. set-top box
+		1. See CONTROL SYSTEM.
+	4256. [[set-top box]]
 	4257. set-up scale instrument
-	4258. settling time
-	4259. shading
-	4260. shadow effect
+		1. See SUPPRESSED-ZERO INSTRUMENT.
+	4258. [[settling time]]
+	4259. [[shading]]
+	4260. [[shadow effect]]
 
-	4261. Shannon-Hartley theorem
-	4262. shaped-beam tube
-	4263. sheet resistance
-	4264. shell-type transformer
+	4261. [[Shannon-Hartley theorem]]
+	4262. [[shaped-beam tube]]
+	4263. [[sheet resistance]]
+	4264. [[shell-type transformer]]
 	4265. SHF
-	4266. shield
-	4267. shielded pair
-	4268. shielded room
-	4269. shielding effectiveness(of a barrier or enclosure)
+		1. (superhigh frequency) See frequency band
+	4266. [[shield]]
+	4267. [[shielded pair]]
+	4268. [[shielded room]]
+	4269. [[shielding effectiveness]]
 	4270. shift operator
+		1. See Z Transform
 
-	4271. shift register
-	4272. Shockley emitter resistance
+	4271. [[shift register]]
+	4272. [[Shockley emitter resistance]]
 	4273. Shockley equation
+		1. (ideal diode equation) See P-N JUNCTION.
 	4274. short
+		1. Informal term for a short circuit
 	4275. short-circuit impedance
+		1. See network
 	4276. short-time duty
-	4277. short-wave
-	4278. short-wave converter
-	4279. short circuit
-	4280. shot noise
+		1. See duty
+	4277. [[short-wave]]
+	4278. [[short-wave converter]]
+	4279. [[short circuit]]
+	4280. [[shot noise]]
 
-	4281. shunt
+	4281. [[shunt]]
 	4282. shunt feedback
+		1. (voltage feedback) See feedback
 	4283. shunt network
+		1. (parallel network) See network
 	4284. shunt stabilization
-	4285. side-looking airborne radar
+		1. See stabilization
+	4285. [[side-looking airborne radar]]
 	4286. sideband
-	4287. sideband splatter
+		1. See CARRIER WAVE; AMPLITUDE MODULATION.
+	4287. [[sideband splatter]]
 	4288. side frequency
+		1. See carrier wave
 	4289. side lobe
-	4290. Siemen's electrodynamometer
+		1. See antenna pattern
+	4290. [[Siemen's electrodynamometer]]
 
-	4291. siemens(symbol: S)
-	4292. signal
-	4293. signal-to-noise ratio
-	4294. signal flowgraph
-	4295. signal generator
-	4296. signal level
-	4297. signal processing
-	4298. signal strength
+	4291. [[siemens]]
+	4292. [[signal]]
+	4293. [[signal-to-noise ratio]]
+	4294. [[signal flowgraph]]
+	4295. [[signal generator]]
+	4296. [[signal level]]
+	4297. [[signal processing]]
+	4298. [[signal strength]]
 	4299. signal tester
+		1. See cable tester
 	4300. signal winding
+		1. See transductor
 
-	4301. sign bit
-	4302. silent discharge
-	4303. silent zone
-	4304. silica(symbol: SiO2)
-	4305. silicon(symbol: Si)
+	4301. [[sign bit]]
+	4302. [[silent discharge]]
+	4303. [[silent zone]]
+	4304. [[silica]]
+	4305. [[silicon]]
 	4306. silicon-controlled rectifier
+		1. (SCR) See thyristor
 	4307. silicon-gate technology
-	4308. silicon-on-insulator
+		1. See MOS integrated circuit
+	4308. [[silicon-on-insulator]]
 	4309. silicon compiler
-	4310. silver(symbol: Ag)
+		1. See design automation
+	4310. [[silver]]
 
 	4311. silver mica capacitor
+		1. (bonded silvered mica capacitor) See MICA CAPACITOR.
 	4312. simple magnet
-	4313. simplex operation
+		1. See PERMANENT MAGNET.
+	4313. [[simplex operation]]
 	4314. SIMS
+		1. See secondary-ion mass spectroscopy
 	4315. simulation diagram
-	4316. simulator
-	4317. simultaneous equations
-	4318. sinc function
+		1. See block diagram
+	4316. [[simulator]]
+	4317. [[simultaneous equations]]
+	4318. [[sinc function]]
 	4319. sine potentiometer
+		1. See POTENTIOMETER.
 	4320. sine wave
+		1. See SINUSOIDAL.
 
 	4321. singing point
-	4322. single-current system
-	4323. single-electron device
-	4324. single-ended
+		1. See feedback
+	4322. [[single-current system]]
+	4323. [[single-electron device]]
+	4324. [[single-ended]]
 	4325. single-loop feedback
-	4326. single-mode fibre
-	4327. single-phase system
+		1. (multistage feedback) See feedback
+	4326. [[single-mode fiber]]
+	4327. [[single-phase system]]
 	4328. single-shot multivibrator
-	4329. single-shot trigger
-	4330. single-sideband transmission
+		1. (one-shot multivibrator) See monostable
+	4329. [[single-shot trigger]]
+	4330. [[single-sideband transmission]]
 
-	4331. single-tuned circuit
-	4332. single crystal
+	4331. [[single-tuned circuit]]
+	4332. [[single crystal]]
 	4333. single drift device
-	4334. single in, single out
+		1. See IMPATT Diode
+	4334. [[single in, single out]]
 	4335. sink
-	4336. sinusoidal
-	4337. SIS
+		1. (1) See heat sink
+		2. (2) See source
+	4336. [[sinusoidal]]
+	4337. [[superconductor-insulator-superconductor mixer]]
 	4338. SISO
-	4339. SI units
-	4340. size effect
+		1. See single in, single out
+	4339. [[SI units]]
+	4340. [[size effect]]
 
 	4341. size quantization
-	4342. skew
-	4343. skin effect
-	4344. skip distance
+		1. See quantum dot; quantum wire.
+	4342. [[skew]]
+	4343. [[skin effect]]
+	4344. [[skip distance]]
 	4345. skip zone
+		1. See silent zone 
 	4346. sky wave
+		1. See ionospheric wave
 	4347. SLAR
-	4348. slave circuit
-	4349. slew rate
-	4350. slice
+		1. See side-looking airborne radar
+	4348. [[slave circuit]]
+	4349. [[slew rate]]
+	4350. [[slice]]
 
 	4351. slicer
+		1. See limiter
 	4352. slicing
-	4353. slide wire
-	4354. sliding window
+		1. See compact disc system
+	4353. [[slide wire]]
+	4354. [[sliding window]]
 	4355. slope modulation
+		1. (delta modulation) See PULSE MODULATION.
 	4356. slope overload
-	4357. slope resistance
+		1. See pulse modulation
+	4357. [[slope resistance]]
 	4358. slot antenna
-	4359. slotted line
+		1. See aperture antenna
+	4359. [[slotted line]]
 	4360. slotted waveguide
+		1. See waveguide
 
-	4361. slow-break switch
+	4361. [[slow-break switch]]
 	4362. slow-wave structure
+		1. See traveling-wave tube
 	4363. slug tuning
-	4364. small-outline package
+		1. (permeability tuning) See tuned circuit
+	4364. [[small-outline package]]
 	4365. small-scale integration
-	4366. small-signal
+		1. (SSI) See integrated circuit
+	4366. [[small-signal]]
 	4367. small-signal parameters
-	4368. small computer system interface
-	4369. smart antenna
-	4370. smart appliance
+		1. See network; transistor parameters
+	4368. [[small computer system interface]]
+	4369. [[smart antenna]]
+	4370. [[smart appliance]]
 
-	4371. smart display
-	4372. smart glasses
-	4373. smart materials
-	4374. smart meter
-	4375. smartphone
-	4376. smart TV
-	4377. smartwatch
+	4371. [[smart display]]
+	4372. [[smart glasses]]
+	4373. [[smart materials]]
+	4374. [[smart meter]]
+	4375. [[smartphone]]
+	4376. [[smart TV]]
+	4377. [[smartwatch]]
 	4378. smearer
-	4379. S meter
-	4380. Smith chart
+		1. See pulse
+	4379. [[S meter]]
+	4380. [[Smith chart]]
 
 	4381. smoothing choke
-	4382. smoothing circuit
+		1. See choke
+	4382. [[smoothing circuit]]
 	4383. snapback diode
-	4384. snow
+		1. (snap-off diode) See STEP-RECOVERY DIODE.
+	4384. [[snow]]
 	4385. SoC
+		1. See system on a chip
 	4386. SOD
-	4387. soft clipping
-	4388. software
+		1. See small-outline diode package
+	4387. [[soft clipping]]
+	4388. [[software]]
 	4389. software-defined networking
-	4390. solar cell
+		1. (SDN) See control plane
+	4390. [[solar cell]]
 
-	4391. solar power
-	4392. solenoid
-	4393. solid-state camera
-	4394. solid-state device
-	4395. solid-state drive
-	4396. solid-state hybrid drive
-	4397. solid-state memory
-	4398. solid-state physics
-	4399. solid conductor
-	4400. sonar
+	4391. [[solar power]]
+	4392. [[solenoid]]
+	4393. [[solid-state camera]]
+	4394. [[solid-state device]]
+	4395. [[solid-state drive]]
+	4396. [[solid-state hybrid drive]]
+	4397. [[solid-state memory]]
+	4398. [[solid-state physics]]
+	4399. [[solid conductor]]
+	4400. [[sonar]]
 
 	4401. sonde
+		1. See RADIOSONDE.
 	4402. sonogram
+		1. (spectrogram) See SPECTROGRAPH.
 	4403. sonograph
+		1. See SPECTROGRAPH.
 	4404. SOT
-	4405. sound-level meter
+		1. See SMALL-OUTLINE TRANSISTOR PACKAGE.
+	4405. [[sound-level meter]]
 	4406. sound carrier
-	4407. sound pressure level
+		1. See television
+	4407. [[sound pressure level]]
 	4408. sound recording
+		1. See recording of sound
 	4409. sound reproduction
+		1. See reproduction of sound
 	4410. soundtrack
+		1. See recording of sound
 
 	4411. sound wave
-	4412. source
-	4413. source code
+		1. See acoustic wave
+	4412. [[source]]
+	4413. [[source code]]
 	4414. source follower
-	4415. source impedance
-	4416. source routing
-	4417. space-charge density
+		1. See emitter follower
+	4415. [[source impedance]]
+	4416. [[source routing]]
+	4417. [[space-charge density]]
 	4418. space-charge limited region
-	4419. space charge
+		1. See thermionic valve
+	4419. [[space charge]]
 	4420. space diversity
+		1. See diversity system
 
-	4421. space wave
-	4422. spark
+	4421. [[space wave]]
+	4422. [[spark]]
 	4423. spark interference
 	4424. spatial resolution
 	4425. speaker
