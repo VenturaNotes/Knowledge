@@ -2082,3 +2082,6 @@ Reviewed: false
 	- [[(585) Investments in 2016]]
 	- [[(1327) List the Products Ordered in a Period]]
 	- [[(1517) Find Users With Valid E-Mails]]
+	- [[(3898) Find the Degree of Each Vertex]]
+	- [[(3894) Traffic Signal Color]]
+	- [[(3455) Shortest Matching Substring]]

@@ -33,11 +33,11 @@ completedDate: 2026-02-21
 	    - Thinning: 0
 	    - Smoothing: 0.25
 	    - Streamline: 0.25
-	  - Do not set “stroke width” because then it won’t save the settings for thinning, smoothing, and streamline
-		  - Actually this seems wrong. Make sure to press (apply) when selecting "default" and then make the necessary changes before exiting
+	  - Set Stroke Width = 0.5 (but might be by default?)
+		  - Make sure to press (apply) when selecting "default" and then make the necessary changes before exiting
 	  - This result is not perfect (as sometimes the ending of a line turns into a circle), but works well enough to use. OneNote does seem a bit better but doesn't have good native integration into Obsidian as this Excalidraw plugin does
 		  - Maybe there is a OneNote plugin but not interested. 
-  - Use screen mirroring on iPad to draw in Excalidraw if you need to. 
+  - Use extended display on iPad and have canvas as a separate window
   - You can pan on your IPad by using two fingers
 	  - You can also zoom in and out by pinching two fingers
 ### Solution
