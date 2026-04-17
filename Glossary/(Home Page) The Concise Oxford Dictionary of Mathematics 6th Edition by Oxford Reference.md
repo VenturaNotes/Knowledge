@@ -3500,7 +3500,7 @@ Year: 2021-09-01
 	2320. repeating decimal
 	
 	2321. repelling fixed point
-	2322. repetition codes
+	2322. [[repetition codes]]
 	2323. replicable
 	2324. representation(of a vector)
 	2325. representation
@@ -3956,7 +3956,7 @@ Year: 2021-09-01
 	2732. sum to infinity
 	2733. sup
 	2734. superadditive
-	2735. supersink(in a network)
+	2735. [[supersink]]
 	2736. supersource(in a network)
 	2737. supplementary angles
 	2738. supplementary unit
@@ -3983,7 +3983,7 @@ Year: 2021-09-01
 	2757. symmetric function
 	2758. symmetric group
 	2759. symmetric matrix
-	2760. symmetric relation
+	2760. [[symmetric relation]]
 	
 	2761. symmetry(of a geometrical figure)
 	2762. symmetry group(of a geometrical figure)
