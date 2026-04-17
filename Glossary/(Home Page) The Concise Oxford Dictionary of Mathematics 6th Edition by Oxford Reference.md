@@ -3006,7 +3006,7 @@ Year: 2021-09-01
 	
 	1871. pair
 	1872. paired-sample tests(in statistics)
-	1873. pairwise
+	1873. [[pairwise]]
 	1874. pairwise disjoint
 	1875. Pappus' Centroid Theorems
 	1876. Pappus' Hexagon Theorem
@@ -3471,7 +3471,7 @@ Year: 2021-09-01
 	2293. regression
 	2294. regression to the mean
 	2295. regular function
-	2296. regular graph
+	2296. [[regular graph]]
 	2297. regular polygon
 	2298. regular polyhedron
 	2299. regular space
@@ -3483,7 +3483,7 @@ Year: 2021-09-01
 	2304. relative complement
 	2305. relative efficiency
 	2306. relative error
-	2307. relative frequency
+	2307. [[relative frequency]]
 	2308. relatively prime
 	2309. relative measure of dispersion
 	2310. relative position

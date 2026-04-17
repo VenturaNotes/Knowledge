@@ -1,5 +1,5 @@
 module.exports = async (params) => {
-    // 1. Check if this is the very first run of the session
+    // 1. Detect if this is the startup run or a manual toggle
     const isFirstRun = window.__DARK_MODE_GLOBAL_STATE === undefined;
 
     // 2. Set the state
@@ -10,12 +10,12 @@ module.exports = async (params) => {
     }
 
     const isActivating = window.__DARK_MODE_GLOBAL_STATE;
-    const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview';
+    const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview, webview';
 
-    async function updateWebview(webview, forceState) {
+    async function updateWebview(webview) {
         if (!webview || typeof webview.executeJavaScript !== 'function') return;
 
-        if (forceState) {
+        if (isActivating) {
             await webview.executeJavaScript(`
                 (function() {
                     const inject = () => {
@@ -39,31 +39,33 @@ module.exports = async (params) => {
         }
     }
 
-    // 3. Setup the Observer (One-time setup)
-    if (!window.__DARK_MODE_OBSERVER_SET) {
-        const observer = new MutationObserver(() => {
-            if (window.__DARK_MODE_GLOBAL_STATE === true) {
-                const webviews = document.querySelectorAll(WEBVIEW_SELECTOR);
-                webviews.forEach(wv => {
+    // 3. Optimized Event Listener (Layout-change instead of MutationObserver)
+    if (!window.__DARK_MODE_EVENT_SET) {
+        app.workspace.on('layout-change', () => {
+            if (window.__DARK_MODE_GLOBAL_STATE) {
+                document.querySelectorAll(WEBVIEW_SELECTOR).forEach(wv => {
                     if (!wv._dmAttached) {
-                        wv.addEventListener('dom-ready', () => {
-                            updateWebview(wv, window.__DARK_MODE_GLOBAL_STATE);
-                        });
-                        updateWebview(wv, true);
+                        wv.addEventListener('dom-ready', () => updateWebview(wv));
+                        updateWebview(wv);
                         wv._dmAttached = true;
                     }
                 });
             }
         });
-        observer.observe(document.body, { childList: true, subtree: true });
-        window.__DARK_MODE_OBSERVER_SET = true;
+        window.__DARK_MODE_EVENT_SET = true;
     }
 
-    // 4. Apply to active webviews
+    // 4. Apply immediately to active webviews
     const activeWebviews = document.querySelectorAll(WEBVIEW_SELECTOR);
-    activeWebviews.forEach(wv => updateWebview(wv, isActivating));
+    activeWebviews.forEach(wv => {
+        if (!wv._dmAttached) {
+            wv.addEventListener('dom-ready', () => updateWebview(wv));
+            wv._dmAttached = true;
+        }
+        updateWebview(wv);
+    });
 
-    // 5. THE FIX: Only show Notice if it's NOT the first run
+    // 5. THE FIX: Only show Notice if it's NOT the first run (manual toggle only)
     if (!isFirstRun) {
         new Notice(isActivating ? "🌙 Webview Dark Mode: ON" : "☀️ Webview Dark Mode: OFF");
     }
