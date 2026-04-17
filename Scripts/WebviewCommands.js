@@ -1,4 +1,3 @@
-
 module.exports = async (params) => {
     if (window.__WEBVIEW_SHORTCUTS_INIT) return;
     window.__WEBVIEW_SHORTCUTS_INIT = true;
@@ -23,8 +22,6 @@ module.exports = async (params) => {
     // =========================================================================
     let cachedHotkeyMap = null;
 
-    // Refresh the map once and cache it. 
-    // If you change hotkeys, you'll need to restart Obsidian.
     function getHotkeyMap() {
         if (cachedHotkeyMap) return cachedHotkeyMap;
 
@@ -55,6 +52,7 @@ module.exports = async (params) => {
         let foundLeaf = null;
         app.workspace.iterateAllLeaves(leaf => {
             const container = leaf.view?.containerEl || leaf.containerEl;
+            // Check if this leaf's DOM contains the webview element
             if (container && container.contains(webview)) foundLeaf = leaf;
         });
         return foundLeaf;
@@ -64,19 +62,28 @@ module.exports = async (params) => {
     // 3. ATTACHMENT LOGIC
     // =========================================================================
     async function attachToWebview(webview) {
-        // Safety: Don't attach to destroyed or already-attached webviews
         if (!webview || !webview.isConnected || webview._hotkeysAttached) return;
         webview._hotkeysAttached = true; 
 
+        // Helper to focus the correct window and leaf before command execution
+        const focusContext = () => {
+            const leaf = getLeafForWebview(webview);
+            if (leaf) {
+                // 1. Get the specific window object for this leaf (handles pop-outs)
+                const targetWindow = leaf.view.containerEl.win; 
+                if (targetWindow) targetWindow.focus();
+
+                // 2. Set active leaf and force focus so the command knows the context
+                app.workspace.setActiveLeaf(leaf, { focus: true });
+            }
+            return leaf;
+        };
+
         webview.addEventListener('console-message', (e) => {
-            // Safety: If the webview was destroyed mid-communication, ignore it
             if (!webview.isConnected) return;
 
             if (e.message === 'OBS_ACTIVATE') {
-                const leaf = getLeafForWebview(webview);
-                if (leaf && app.workspace.activeLeaf !== leaf) {
-                    app.workspace.setActiveLeaf(leaf, { focus: false });
-                }
+                focusContext();
                 return;
             }
 
@@ -86,17 +93,14 @@ module.exports = async (params) => {
                 const commandId = hotkeys.get(combo);
 
                 if (commandId && !recentlyFired.has(commandId)) {
-                    const leaf = getLeafForWebview(webview);
-                    if (leaf && app.workspace.activeLeaf !== leaf) {
-                        app.workspace.setActiveLeaf(leaf, { focus: false });
-                    }
+                    focusContext();
+                    // Running the command via ID now targets the newly focused leaf
                     app.commands.executeCommandById(commandId);
                 }
             }
         });
 
         const inject = () => {
-            // Safety: Ensure webview still exists and is ready
             if (!webview.isConnected) return;
             
             webview.executeJavaScript(`
@@ -119,19 +123,13 @@ module.exports = async (params) => {
                         if (key === ' ') key = 'space'; 
                         
                         const combo = parts.sort().join('+') + ':' + key;
-                        
-                        // We send the RAW combo to the host.
-                        // The host checks the hotkey map, keeping your plugins secret.
                         console.log('OBS_RAW_KEY:' + combo);
                     }, true);
                 })();
-            `).catch(() => { /* Silence errors from destroyed/busy webviews */ });
+            `).catch(() => {});
         };
 
-        // Only inject when the webview is actually ready to receive JS
         webview.addEventListener('dom-ready', inject);
-        
-        // If it's already loaded, try to inject, but catch the error if it's not ready
         try { inject(); } catch(e) {}
     }
 
@@ -143,7 +141,6 @@ module.exports = async (params) => {
     const findAndAttach = () => {
         const webviews = document.querySelectorAll(WEBVIEW_SELECTOR);
         webviews.forEach(webview => {
-            // Add a small safety check to ensure the object isn't dead
             try {
                 if (webview && webview.isConnected) attachToWebview(webview);
             } catch(e) {}
