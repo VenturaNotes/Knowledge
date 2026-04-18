@@ -14,10 +14,222 @@ tags:
   - task
 completedDate: 2026-04-17
 ---
-## Conversation
+## Conversations
 - [AI Google Studio](https://aistudio.google.com/prompts/16nz5sza7s9TU1n_K_kwN_jXIO37-Kk3n)
+- [AI Google Studio](https://aistudio.google.com/prompts/10PDojjH29gt-7m_To6afozWeh3OrOtOD)
+## Solution: JavaScript QuickAdd Strategy
+```javascript
+/**
+ * WebviewCommands.js
+ * Version: 2.2 - Modal Focus & Multi-Monitor Logic
+ */
 
-## Plugin Strategy 
+module.exports = async (params) => {
+    if (window.__WEBVIEW_SHORTCUTS_INIT) return;
+    window.__WEBVIEW_SHORTCUTS_INIT = true;
+    //console.log("%c Webview Shortcuts: System Active ", "background: #1e1e2e; color: #cba6f7; font-weight: bold; border: 1px solid #cba6f7; padding: 2px 5px;");
+
+    // =========================================================================
+    // 1. THE COMMAND SHIELD (Per-Command Debounce)
+    // =========================================================================
+    const lastFired = new Map();
+    const origExecute = app.commands.executeCommand;
+    
+    app.commands.executeCommand = function(command) {
+        const id = command?.id || arguments[0]?.id || (typeof arguments[0] === 'string' ? arguments[0] : null);
+        
+        if (id) {
+            const now = performance.now();
+            const lastTime = lastFired.get(id) || 0;
+            
+            if (now - lastTime < 50) {
+                // console.log(`Shield: Blocked duplicate [${id}]`);
+                return false; 
+            }
+            lastFired.set(id, now);
+        }
+        return origExecute.apply(this, arguments);
+    };
+
+    // =========================================================================
+    // 2. DYNAMIC HOTKEY MAPPING
+    // =========================================================================
+    let cachedHotkeyMap = null;
+    function getHotkeyMap() {
+        if (cachedHotkeyMap) return cachedHotkeyMap;
+        const map = new Map();
+        const hkm = app.hotkeyManager;
+        const isMac = navigator.platform.toUpperCase().includes('MAC');
+        
+        for (const [id, command] of Object.entries(app.commands.commands)) {
+            const keys = [...(hkm.customKeys?.[id] || []), ...(hkm.defaultKeys?.[id] || [])];
+            for (const hk of keys) {
+                const parts = [];
+                if (hk.modifiers.includes('Mod')) parts.push(isMac ? 'meta' : 'ctrl');
+                if (hk.modifiers.includes('Ctrl')) parts.push('ctrl');
+                if (hk.modifiers.includes('Meta')) parts.push('meta');
+                if (hk.modifiers.includes('Shift')) parts.push('shift');
+                if (hk.modifiers.includes('Alt')) parts.push('alt');
+                let key = (hk.key || '').toLowerCase();
+                if (key === 'space') key = ' ';
+                const combo = [...new Set(parts)].sort().join('+') + ':' + key;
+                map.set(combo, id);
+            }
+        }
+        cachedHotkeyMap = map;
+        setTimeout(() => { cachedHotkeyMap = null; }, 5000); 
+        return map;
+    }
+
+    function getLeafForWebview(webview) {
+        let foundLeaf = null;
+        app.workspace.iterateAllLeaves(leaf => {
+            const container = leaf.view?.containerEl || leaf.containerEl;
+            if (container && container.contains(webview)) foundLeaf = leaf;
+        });
+        return foundLeaf;
+    }
+
+    // =========================================================================
+    // 3. ATTACHMENT & MODAL FOCUS SYNC
+    // =========================================================================
+    async function attachToWebview(webview) {
+        if (!webview || !webview.isConnected || webview._hotkeysAttached) return;
+        webview._hotkeysAttached = true; 
+
+        webview.addEventListener('console-message', (e) => {
+            const leaf = getLeafForWebview(webview);
+            if (!leaf) return;
+
+            // SYNC ON CLICK (Multi-Monitor / Full Screen Fix)
+            if (e.message === 'OBS_ACTIVATE') {
+                const targetWindow = leaf.view.containerEl.win;
+                if (app.workspace.activeLeaf !== leaf || window.activeWindow !== targetWindow) {
+                    //console.log("Focus: Syncing Context");
+                    if (window.activeWindow !== targetWindow) targetWindow.focus();
+                    // focus: false keeps cursor in Google/LeetCode
+                    app.workspace.setActiveLeaf(leaf, { focus: false });
+                }
+                return;
+            }
+
+            // HOTKEY EXECUTION
+            if (e.message?.startsWith('OBS_RAW_KEY:')) {
+                const combo = e.message.split('OBS_RAW_KEY:')[1];
+                const commandId = getHotkeyMap().get(combo);
+
+                if (commandId) {
+                    const targetWindow = leaf.view.containerEl.win;
+                    
+                    //console.group(`Command: ${commandId}`);
+                    
+                    // 1. Ensure the window is active (for monitor/space switching)
+                    if (window.activeWindow !== targetWindow) targetWindow.focus();
+
+                    // 2. Set active leaf. We use focus:false because forcing focus:true 
+                    // on the LEAF can cause the Webview to re-steal focus from the Modal.
+                    app.workspace.setActiveLeaf(leaf, { focus: false });
+
+                    // 3. THE FIX: Blur the webview process. This forces focus back to 
+                    // the Obsidian window context so the search query modal can grab the cursor.
+                    webview.blur();
+                    
+                    // 4. Fire command
+                    app.commands.executeCommandById(commandId);
+                    
+                    //console.groupEnd();
+                }
+            }
+        });
+
+        const inject = () => {
+            if (!webview.isConnected) return;
+            webview.executeJavaScript(`
+                (function() {
+                    if (window._obsHotkeysActive) return;
+                    window._obsHotkeysActive = true;
+                    
+                    window.addEventListener('mousedown', () => {
+                        console.log('OBS_ACTIVATE');
+                    }, { capture: true });
+                    
+                    window.addEventListener('keydown', (e) => {
+                        const parts = [];
+                        if (e.ctrlKey) parts.push('ctrl');
+                        if (e.metaKey) parts.push('meta');
+                        if (e.shiftKey) parts.push('shift');
+                        if (e.altKey) parts.push('alt');
+                        
+                        if (parts.length === 0) return;
+
+                        let key = (e.key || '').toLowerCase();
+                        if (key === ' ') key = 'space'; 
+                        
+                        const combo = parts.sort().join('+') + ':' + key;
+                        console.log('OBS_RAW_KEY:' + combo);
+                        
+                        // If it's a modifier combo, we blur the inner element immediately
+                        // to help Obsidian's modal catch the focus.
+                        if (parts.length > 0) {
+                             // document.activeElement.blur(); 
+                        }
+                    }, { capture: true });
+                })();
+            `).catch(() => {});
+        };
+
+        webview.addEventListener('dom-ready', inject);
+        try { inject(); } catch(e) {}
+    }
+
+    // =========================================================================
+    // 4. THE OBSERVERS (Covers Sidebars & New Windows)
+    // =========================================================================
+    const findAndAttach = () => {
+        app.workspace.iterateAllLeaves(leaf => {
+            const webview = leaf.view?.containerEl?.querySelector('webview');
+            if (webview && !webview._hotkeysAttached) {
+                //console.log(`%c Attached: ${leaf.view.getViewType()} `, "color: #94e2d5");
+                attachToWebview(webview);
+            }
+        });
+    };
+
+    app.workspace.on('layout-change', findAndAttach);
+    app.workspace.on('active-leaf-change', findAndAttach);
+    app.workspace.on('window-open', () => setTimeout(findAndAttach, 500));
+
+    // Fallback Heartbeat
+    const heartbeat = setInterval(findAndAttach, 1000);
+    window.__WEBVIEW_SHORTCUTS_CLEANUP = () => clearInterval(heartbeat);
+
+    findAndAttach();
+};
+```
+### Feature Requests
+- Improve Security `Build_code`
+- Make shortcuts pop in the window your cursor is in?
+### Bugs
+- When generating a new tab, it snaps back to previous window
+- When rotating through tabs, need to press "Command + Option + Left" twice for it to work
+### Conversation
+- [Google AI Studio](https://aistudio.google.com/prompts/1YhiQuBAkpg8NL72_MKTGx0QjS1zErrwa)
+- Always feel free to add console logs within the prompt to help with making all the features work together. 
+- Ensure Features Work
+	- Inside a web viewer, I should be able to interact with the page such as typing in a search query on Google’s Search Engine or a textbox for a leetcode problem
+	- If multiple web viewer tabs are split between different panes in an active window, I should be able to focus on one of them and still be able to use an obsidian shortcut (such as ``Command + N`)``
+	    - Note: A right-pane web viewer tab might need to be treated differently than a left-pane web viewer tab in the same window
+	    - Note: Never hard-code commands to work 
+	- When I press a command such as `Command + N` , only one search query popup should occur. Prevent duplicate popups. 
+	    - Note: Right-split panes seem to be treated differently than left-split panes in obsidian, so bugs can occur where the right-pane will not have duplicate popups but the left-pane will.
+	- When I am in an active Web view and press `Command + T` to create a new tab in obsidian, the view should switch to the new view created rather than staying in the web viewer I’m currently focused on
+	- When I click on a web viewer body, then that tab is focused and any obsidian shortcut query boxes created will appear in that window.
+	    - Note: Make sure this works with windows on external monitors (including when a window is screen mirrored as extended display from Mac to iPad) and it should work in full screen mode as well
+	    - Note: Clicking on the tabs or tab strip should let me have access to obsidian shortcuts as well (like a regular markdown note would)
+	    - Note: If there is a query box popup from a shortcut, the cursor blinker should be within the query box ready to type
+	- The maximum timeout for a command in an open window is 50ms. I need to be able to press shortcuts fast.
+
+## Plugin Strategy (Not Working)
 - Just turn on and off the plugin to make it work
 ### Version 2
 ```json
@@ -229,921 +441,6 @@ module.exports = class HotkeyFixPlugin extends Plugin {
   }
 };
 ```
-
-## JavaScript QuickAdd Strategy
-### Feature Requests
-- Command function does not work split view in second window
-- Zoom function weird in second window
-- Improve security
-#### Solution
-##### Iteration 6
-```javascript
-module.exports = async (params) => {
-    if (window.__WEBVIEW_SHORTCUTS_INIT) return;
-    window.__WEBVIEW_SHORTCUTS_INIT = true;
-
-    // =========================================================================
-    // 1. THE DEBOUNCE (50ms)
-    // =========================================================================
-    const origExecute = app.commands.executeCommand;
-    const recentlyFired = new Set();
-    
-    app.commands.executeCommand = function(command) {
-        if (command && command.id) {
-            if (recentlyFired.has(command.id)) return false; 
-            recentlyFired.add(command.id);
-            setTimeout(() => recentlyFired.delete(command.id), 50); 
-        }
-        return origExecute.apply(this, arguments);
-    };
-
-    // =========================================================================
-    // 2. HELPERS & CACHING
-    // =========================================================================
-    let cachedHotkeyMap = null;
-
-    function getHotkeyMap() {
-        if (cachedHotkeyMap) return cachedHotkeyMap;
-
-        const map = new Map();
-        const hkm = app.hotkeyManager;
-        const isMac = navigator.platform.toUpperCase().includes('MAC');
-
-        for (const [id, command] of Object.entries(app.commands.commands)) {
-            const keys = [...(hkm.customKeys?.[id] || []), ...(hkm.defaultKeys?.[id] || [])];
-            for (const hk of keys) {
-                const parts = [];
-                if (hk.modifiers.includes('Mod')) parts.push(isMac ? 'meta' : 'ctrl');
-                if (hk.modifiers.includes('Ctrl')) parts.push('ctrl');
-                if (hk.modifiers.includes('Meta')) parts.push('meta');
-                if (hk.modifiers.includes('Shift')) parts.push('shift');
-                if (hk.modifiers.includes('Alt')) parts.push('alt');
-                let key = (hk.key || '').toLowerCase();
-                if (key === 'space') key = ' ';
-                const combo = [...new Set(parts)].sort().join('+') + ':' + key;
-                map.set(combo, id);
-            }
-        }
-        cachedHotkeyMap = map;
-        return map;
-    }
-
-    function getLeafForWebview(webview) {
-        let foundLeaf = null;
-        app.workspace.iterateAllLeaves(leaf => {
-            const container = leaf.view?.containerEl || leaf.containerEl;
-            // Check if this leaf's DOM contains the webview element
-            if (container && container.contains(webview)) foundLeaf = leaf;
-        });
-        return foundLeaf;
-    }
-
-    // =========================================================================
-    // 3. ATTACHMENT LOGIC
-    // =========================================================================
-    async function attachToWebview(webview) {
-        if (!webview || !webview.isConnected || webview._hotkeysAttached) return;
-        webview._hotkeysAttached = true; 
-
-        // Helper to focus the correct window and leaf before command execution
-        const focusContext = () => {
-            const leaf = getLeafForWebview(webview);
-            if (leaf) {
-                // 1. Get the specific window object for this leaf (handles pop-outs)
-                const targetWindow = leaf.view.containerEl.win; 
-                if (targetWindow) targetWindow.focus();
-
-                // 2. Set active leaf and force focus so the command knows the context
-                app.workspace.setActiveLeaf(leaf, { focus: true });
-            }
-            return leaf;
-        };
-
-        webview.addEventListener('console-message', (e) => {
-            if (!webview.isConnected) return;
-
-            if (e.message === 'OBS_ACTIVATE') {
-                focusContext();
-                return;
-            }
-
-            if (e.message?.startsWith('OBS_RAW_KEY:')) {
-                const combo = e.message.split('OBS_RAW_KEY:')[1];
-                const hotkeys = getHotkeyMap();
-                const commandId = hotkeys.get(combo);
-
-                if (commandId && !recentlyFired.has(commandId)) {
-                    focusContext();
-                    // Running the command via ID now targets the newly focused leaf
-                    app.commands.executeCommandById(commandId);
-                }
-            }
-        });
-
-        const inject = () => {
-            if (!webview.isConnected) return;
-            
-            webview.executeJavaScript(`
-                (function() {
-                    if (window._obsHotkeysActive) return;
-                    window._obsHotkeysActive = true;
-                    
-                    window.addEventListener('mousedown', () => console.log('OBS_ACTIVATE'), true);
-                    
-                    window.addEventListener('keydown', (e) => {
-                        const parts = [];
-                        if (e.ctrlKey) parts.push('ctrl');
-                        if (e.metaKey) parts.push('meta');
-                        if (e.shiftKey) parts.push('shift');
-                        if (e.altKey) parts.push('alt');
-                        
-                        if (parts.length === 0) return;
-
-                        let key = (e.key || '').toLowerCase();
-                        if (key === ' ') key = 'space'; 
-                        
-                        const combo = parts.sort().join('+') + ':' + key;
-                        console.log('OBS_RAW_KEY:' + combo);
-                    }, true);
-                })();
-            `).catch(() => {});
-        };
-
-        webview.addEventListener('dom-ready', inject);
-        try { inject(); } catch(e) {}
-    }
-
-    // =========================================================================
-    // 4. THE TRIGGERS
-    // =========================================================================
-    const WEBVIEW_SELECTOR = 'webview, .external-link-view webview, .webviewer-content webview';
-    
-    const findAndAttach = () => {
-        const webviews = document.querySelectorAll(WEBVIEW_SELECTOR);
-        webviews.forEach(webview => {
-            try {
-                if (webview && webview.isConnected) attachToWebview(webview);
-            } catch(e) {}
-        });
-    };
-
-    app.workspace.on('layout-change', findAndAttach);
-    app.workspace.on('active-leaf-change', findAndAttach);
-    app.workspace.on('window-open', () => setTimeout(findAndAttach, 50));
-
-    findAndAttach();
-};
-```
-### Iteration 5 
-- Has a glitch with external monitors where commands not made properly
-```javascript
-module.exports = async (params) => {
-    if (window.__WEBVIEW_SHORTCUTS_INIT) return;
-    window.__WEBVIEW_SHORTCUTS_INIT = true;
-
-    // =========================================================================
-    // 1. THE DEBOUNCE (50ms)
-    // =========================================================================
-    const origExecute = app.commands.executeCommand;
-    const recentlyFired = new Set();
-    
-    app.commands.executeCommand = function(command) {
-        if (command && command.id) {
-            if (recentlyFired.has(command.id)) return false; 
-            recentlyFired.add(command.id);
-            setTimeout(() => recentlyFired.delete(command.id), 50); 
-        }
-        return origExecute.apply(this, arguments);
-    };
-
-    // =========================================================================
-    // 2. HELPERS & CACHING
-    // =========================================================================
-    let cachedHotkeyMap = null;
-
-    // Refresh the map once and cache it. 
-    // If you change hotkeys, you'll need to restart Obsidian.
-    function getHotkeyMap() {
-        if (cachedHotkeyMap) return cachedHotkeyMap;
-
-        const map = new Map();
-        const hkm = app.hotkeyManager;
-        const isMac = navigator.platform.toUpperCase().includes('MAC');
-
-        for (const [id, command] of Object.entries(app.commands.commands)) {
-            const keys = [...(hkm.customKeys?.[id] || []), ...(hkm.defaultKeys?.[id] || [])];
-            for (const hk of keys) {
-                const parts = [];
-                if (hk.modifiers.includes('Mod')) parts.push(isMac ? 'meta' : 'ctrl');
-                if (hk.modifiers.includes('Ctrl')) parts.push('ctrl');
-                if (hk.modifiers.includes('Meta')) parts.push('meta');
-                if (hk.modifiers.includes('Shift')) parts.push('shift');
-                if (hk.modifiers.includes('Alt')) parts.push('alt');
-                let key = (hk.key || '').toLowerCase();
-                if (key === 'space') key = ' ';
-                const combo = [...new Set(parts)].sort().join('+') + ':' + key;
-                map.set(combo, id);
-            }
-        }
-        cachedHotkeyMap = map;
-        return map;
-    }
-
-    function getLeafForWebview(webview) {
-        let foundLeaf = null;
-        app.workspace.iterateAllLeaves(leaf => {
-            const container = leaf.view?.containerEl || leaf.containerEl;
-            if (container && container.contains(webview)) foundLeaf = leaf;
-        });
-        return foundLeaf;
-    }
-
-    // =========================================================================
-    // 3. ATTACHMENT LOGIC
-    // =========================================================================
-    async function attachToWebview(webview) {
-        // Safety: Don't attach to destroyed or already-attached webviews
-        if (!webview || !webview.isConnected || webview._hotkeysAttached) return;
-        webview._hotkeysAttached = true; 
-
-        webview.addEventListener('console-message', (e) => {
-            // Safety: If the webview was destroyed mid-communication, ignore it
-            if (!webview.isConnected) return;
-
-            if (e.message === 'OBS_ACTIVATE') {
-                const leaf = getLeafForWebview(webview);
-                if (leaf && app.workspace.activeLeaf !== leaf) {
-                    app.workspace.setActiveLeaf(leaf, { focus: false });
-                }
-                return;
-            }
-
-            if (e.message?.startsWith('OBS_RAW_KEY:')) {
-                const combo = e.message.split('OBS_RAW_KEY:')[1];
-                const hotkeys = getHotkeyMap();
-                const commandId = hotkeys.get(combo);
-
-                if (commandId && !recentlyFired.has(commandId)) {
-                    const leaf = getLeafForWebview(webview);
-                    if (leaf && app.workspace.activeLeaf !== leaf) {
-                        app.workspace.setActiveLeaf(leaf, { focus: false });
-                    }
-                    app.commands.executeCommandById(commandId);
-                }
-            }
-        });
-
-        const inject = () => {
-            // Safety: Ensure webview still exists and is ready
-            if (!webview.isConnected) return;
-            
-            webview.executeJavaScript(`
-                (function() {
-                    if (window._obsHotkeysActive) return;
-                    window._obsHotkeysActive = true;
-                    
-                    window.addEventListener('mousedown', () => console.log('OBS_ACTIVATE'), true);
-                    
-                    window.addEventListener('keydown', (e) => {
-                        const parts = [];
-                        if (e.ctrlKey) parts.push('ctrl');
-                        if (e.metaKey) parts.push('meta');
-                        if (e.shiftKey) parts.push('shift');
-                        if (e.altKey) parts.push('alt');
-                        
-                        if (parts.length === 0) return;
-
-                        let key = (e.key || '').toLowerCase();
-                        if (key === ' ') key = 'space'; 
-                        
-                        const combo = parts.sort().join('+') + ':' + key;
-                        
-                        // We send the RAW combo to the host.
-                        // The host checks the hotkey map, keeping your plugins secret.
-                        console.log('OBS_RAW_KEY:' + combo);
-                    }, true);
-                })();
-            `).catch(() => { /* Silence errors from destroyed/busy webviews */ });
-        };
-
-        // Only inject when the webview is actually ready to receive JS
-        webview.addEventListener('dom-ready', inject);
-        
-        // If it's already loaded, try to inject, but catch the error if it's not ready
-        try { inject(); } catch(e) {}
-    }
-
-    // =========================================================================
-    // 4. THE TRIGGERS
-    // =========================================================================
-    const WEBVIEW_SELECTOR = 'webview, .external-link-view webview, .webviewer-content webview';
-    
-    const findAndAttach = () => {
-        const webviews = document.querySelectorAll(WEBVIEW_SELECTOR);
-        webviews.forEach(webview => {
-            // Add a small safety check to ensure the object isn't dead
-            try {
-                if (webview && webview.isConnected) attachToWebview(webview);
-            } catch(e) {}
-        });
-    };
-
-    app.workspace.on('layout-change', findAndAttach);
-    app.workspace.on('active-leaf-change', findAndAttach);
-    app.workspace.on('window-open', () => setTimeout(findAndAttach, 50));
-
-    findAndAttach();
-};
-```
-
-### Iteration 4
-```javascript
-module.exports = async (params) => {
-    if (window.__WEBVIEW_SHORTCUTS_INIT) return;
-    window.__WEBVIEW_SHORTCUTS_INIT = true;
-
-    // =========================================================================
-    // 1. THE DEBOUNCE (100ms)
-    // Prevents double-firing commands when shortcuts leak from webview to host.
-    // =========================================================================
-    const origExecute = app.commands.executeCommand;
-    const recentlyFired = new Set();
-    
-    app.commands.executeCommand = function(command) {
-        if (command && command.id) {
-            if (recentlyFired.has(command.id)) return false; 
-            recentlyFired.add(command.id);
-            setTimeout(() => recentlyFired.delete(command.id), 50); 
-        }
-        return origExecute.apply(this, arguments);
-    };
-
-    // =========================================================================
-    // 2. HELPERS & CACHING
-    // =========================================================================
-    let cachedHotkeyMap = null;
-
-    function getLeafForWebview(webview) {
-        let foundLeaf = null;
-        app.workspace.iterateAllLeaves(leaf => {
-            const container = leaf.view?.containerEl || leaf.containerEl;
-            if (container && container.contains(webview)) foundLeaf = leaf;
-        });
-        return foundLeaf;
-    }
-
-    function getHotkeyMap() {
-        if (cachedHotkeyMap) return cachedHotkeyMap;
-        const map = new Map();
-        const hkm = app.hotkeyManager;
-        const isMac = navigator.platform.toUpperCase().includes('MAC');
-
-        for (const [id, command] of Object.entries(app.commands.commands)) {
-            const keys = [...(hkm.customKeys?.[id] || []), ...(hkm.defaultKeys?.[id] || [])];
-            for (const hk of keys) {
-                const parts = [];
-                if (hk.modifiers.includes('Mod')) parts.push(isMac ? 'meta' : 'ctrl');
-                if (hk.modifiers.includes('Ctrl')) parts.push('ctrl');
-                if (hk.modifiers.includes('Meta')) parts.push('meta');
-                if (hk.modifiers.includes('Shift')) parts.push('shift');
-                if (hk.modifiers.includes('Alt')) parts.push('alt');
-                let key = (hk.key || '').toLowerCase();
-                if (key === 'space') key = ' ';
-                const combo = [...new Set(parts)].sort().join('+') + ':' + key;
-                map.set(combo, id);
-            }
-        }
-        cachedHotkeyMap = map;
-        return map;
-    }
-
-    // =========================================================================
-    // 3. ATTACHMENT LOGIC
-    // =========================================================================
-    async function attachToWebview(webview) {
-        if (!webview || webview._hotkeysAttached) return;
-        webview._hotkeysAttached = true; 
-
-        webview.addEventListener('console-message', (e) => {
-            // Sync Active Tab on Click
-            if (e.message === 'OBS_ACTIVATE') {
-                const leaf = getLeafForWebview(webview);
-                if (leaf && app.workspace.activeLeaf !== leaf) {
-                    app.workspace.setActiveLeaf(leaf, { focus: false });
-                }
-                return;
-            }
-
-            // Handle Keydown relay
-            if (e.message?.startsWith('OBS_KEY:')) {
-                const commandId = e.message.split('OBS_KEY:')[1];
-                if (commandId && !recentlyFired.has(commandId)) {
-                    const leaf = getLeafForWebview(webview);
-                    if (leaf && app.workspace.activeLeaf !== leaf) {
-                        app.workspace.setActiveLeaf(leaf, { focus: false });
-                    }
-                    app.commands.executeCommandById(commandId);
-                }
-            }
-        });
-
-        const inject = () => {
-            const hotkeys = getHotkeyMap();
-            webview.executeJavaScript(`
-                (function() {
-                    if (window._obsHotkeysActive) return;
-                    window._obsHotkeysActive = true;
-                    
-                    window.addEventListener('mousedown', () => console.log('OBS_ACTIVATE'), true);
-                    
-                    const map = ${JSON.stringify(Object.fromEntries(hotkeys))};
-                    window.addEventListener('keydown', (e) => {
-                        const parts = [];
-                        if (e.ctrlKey) parts.push('ctrl');
-                        if (e.metaKey) parts.push('meta');
-                        if (e.shiftKey) parts.push('shift');
-                        if (e.altKey) parts.push('alt');
-                        const combo = parts.sort().join('+') + ':' + (e.key || '').toLowerCase();
-                        const commandId = map[combo === ' : ' ? ' :space' : combo];
-                        
-                        if (commandId) {
-                            e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation();
-                            console.log('OBS_KEY:' + commandId);
-                        }
-                    }, true);
-                })();
-            `).catch(() => {});
-        };
-
-        webview.addEventListener('dom-ready', inject);
-        inject();
-    }
-
-    // =========================================================================
-    // 4. THE TRIGGERS (NATIVE ONLY)
-    // No MutationObserver. We only check when Obsidian says the UI changed.
-    // =========================================================================
-    const WEBVIEW_SELECTOR = 'webview, .external-link-view webview, .webviewer-content webview';
-    
-    const findAndAttach = () => {
-        const webviews = document.querySelectorAll(WEBVIEW_SELECTOR);
-        if (webviews.length > 0) {
-            webviews.forEach(attachToWebview);
-        }
-    };
-
-    // Trigger on tab switches, splits, and layout adjustments
-    app.workspace.on('layout-change', findAndAttach);
-    app.workspace.on('active-leaf-change', findAndAttach);
-    
-    // Trigger when a new window is opened (for multi-window users)
-    app.workspace.on('window-open', (win) => {
-        // Give the window a moment to initialize its DOM
-        setTimeout(findAndAttach, 50);
-    });
-
-    // Run once on startup
-    findAndAttach();
-};
-```
-### Iteration 3
-- Now just speed up shortcuts again
-```javascript
-module.exports = async (params) => {
-    if (window.__WEBVIEW_SHORTCUTS_INIT) return;
-    window.__WEBVIEW_SHORTCUTS_INIT = true;
-
-    // =========================================================================
-    // 1. THE ULTIMATE DEBOUNCE
-    // Prevents overlapping modals like Quick Switcher or Search.
-    // =========================================================================
-    const origExecute = app.commands.executeCommand;
-    const recentlyFired = new Set();
-    
-    app.commands.executeCommand = function(command) {
-        if (command && command.id) {
-            if (recentlyFired.has(command.id)) return false; 
-            recentlyFired.add(command.id);
-            setTimeout(() => recentlyFired.delete(command.id), 50); 
-        }
-        return origExecute.apply(this, arguments);
-    };
-
-    // =========================================================================
-    // 2. HELPER: Find the exact Obsidian Tab (Leaf) that owns a webview
-    // =========================================================================
-    function getLeafForWebview(webview) {
-        let foundLeaf = null;
-        app.workspace.iterateAllLeaves(leaf => {
-            const container = leaf.view?.containerEl || leaf.containerEl;
-            if (container && container.contains(webview)) {
-                foundLeaf = leaf;
-            }
-        });
-        return foundLeaf;
-    }
-
-    // =========================================================================
-    // 3. Build the Hotkey Map
-    // =========================================================================
-    function getHotkeyMap() {
-        const map = new Map();
-        const hkm = app.hotkeyManager;
-        const isMac = navigator.platform.toUpperCase().includes('MAC');
-
-        for (const[id, command] of Object.entries(app.commands.commands)) {
-            const keys =[
-                ...(hkm.customKeys?.[id] ||[]), 
-                ...(hkm.defaultKeys?.[id] ||[])
-            ];
-            
-            for (const hk of keys) {
-                const parts =[];
-                if (hk.modifiers.includes('Mod')) parts.push(isMac ? 'meta' : 'ctrl');
-                if (hk.modifiers.includes('Ctrl')) parts.push('ctrl');
-                if (hk.modifiers.includes('Meta')) parts.push('meta');
-                if (hk.modifiers.includes('Shift')) parts.push('shift');
-                if (hk.modifiers.includes('Alt')) parts.push('alt');
-                
-                let key = (hk.key || '').toLowerCase();
-                if (key === 'space') key = ' ';
-                
-                const combo =[...new Set(parts)].sort().join('+') + ':' + key;
-                map.set(combo, id);
-            }
-        }
-        return map;
-    }
-
-    // =========================================================================
-    // 4. Guest Webview Injection & Syncing
-    // =========================================================================
-    async function attachToWebview(webview) {
-        if (!webview || webview._hotkeysAttached) return;
-
-        // Listen for messages relayed from inside the webview
-        webview.addEventListener('console-message', (e) => {
-            
-            // 1. User clicked inside the webpage. Update Active Tab!
-            if (e.message === 'OBS_ACTIVATE') {
-                const leaf = getLeafForWebview(webview);
-                if (leaf && app.workspace.activeLeaf !== leaf) {
-                    app.workspace.setActiveLeaf(leaf, { focus: false });
-                }
-                return;
-            }
-
-            // 2. User pressed an Obsidian Hotkey.
-            if (e.message?.startsWith('OBS_KEY:')) {
-                const commandId = e.message.split('OBS_KEY:')[1];
-                if (commandId) {
-                    // FIX: If the OS/Electron natively caught this shortcut (like Cmd+T) 
-                    // a millisecond ago, it will already be in recentlyFired. 
-                    // We MUST abort immediately so we don't yank focus back to the old tab!
-                    if (recentlyFired.has(commandId)) return;
-
-                    const leaf = getLeafForWebview(webview);
-                    // Guarantee this tab is set as active right before executing
-                    if (leaf && app.workspace.activeLeaf !== leaf) {
-                        app.workspace.setActiveLeaf(leaf, { focus: false });
-                    }
-                    app.commands.executeCommandById(commandId);
-                }
-            }
-        });
-
-        const inject = () => {
-            const currentHotkeys = getHotkeyMap();
-            const guestScript = `
-            (function() {
-                if (window._obsHotkeysActive) return;
-                window._obsHotkeysActive = true;
-                
-                // Track mouse clicks to tell Obsidian to make this tab active
-                window.addEventListener('mousedown', () => {
-                    console.log('OBS_ACTIVATE');
-                }, true);
-                
-                const map = ${JSON.stringify(Object.fromEntries(currentHotkeys))};
-                
-                window.addEventListener('keydown', (e) => {
-                    const parts =[];
-                    if (e.ctrlKey) parts.push('ctrl');
-                    if (e.metaKey) parts.push('meta');
-                    if (e.shiftKey) parts.push('shift');
-                    if (e.altKey) parts.push('alt');
-                    
-                    let key = (e.key || '').toLowerCase();
-                    if (key === 'space') key = ' ';
-                    
-                    const combo = parts.sort().join('+') + ':' + key;
-                    const commandId = map[combo];
-
-                    // If it's a known Obsidian hotkey, kill it inside the webpage and notify host
-                    if (commandId) {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        e.stopImmediatePropagation();
-                        console.log('OBS_KEY:' + commandId);
-                    }
-                }, true);
-            })();`;
-
-            webview.executeJavaScript(guestScript).catch(() => {});
-        };
-
-        // Inject script when webview navigates
-        webview.addEventListener('dom-ready', inject);
-        webview._hotkeysAttached = true;
-        inject();
-    }
-
-    // =========================================================================
-    // 5. Catch new webviews automatically
-    // =========================================================================
-    const WEBVIEW_SELECTOR = 'webview, .external-link-view webview, .webviewer-content webview';
-    
-    const attachAll = () => {
-        document.querySelectorAll(WEBVIEW_SELECTOR).forEach(attachToWebview);
-    };
-
-    const observer = new MutationObserver(attachAll);
-    observer.observe(document.body, { childList: true, subtree: true });
-    app.workspace.on('layout-change', attachAll);
-    attachAll();
-};
-```
-
-### Iteration 2
-```js
-module.exports = async (params) => {
-    // Prevent multiple initializations if QuickAdd runs this twice
-    if (window.__WEBVIEW_SHORTCUTS_INIT) return;
-    window.__WEBVIEW_SHORTCUTS_INIT = true;
-
-    // =========================================================================
-    // 1. THE ULTIMATE DEBOUNCE: Patch app.commands.executeCommand
-    // Obsidian's native hotkey manager calls `executeCommand` directly. 
-    // By patching this, NO command can execute twice within 500ms, 
-    // completely eliminating overlapping modals from community plugins.
-    // =========================================================================
-    const origExecute = app.commands.executeCommand;
-    const recentlyFired = new Set();
-    
-    app.commands.executeCommand = function(command) {
-        if (command && command.id) {
-            // If we already fired this command in the last 500ms, destroy this request
-            if (recentlyFired.has(command.id)) {
-                return false; 
-            }
-            
-            // Lock this command out for 500ms
-            recentlyFired.add(command.id);
-            setTimeout(() => recentlyFired.delete(command.id), 500); 
-        }
-        
-        // Proceed with actual execution
-        return origExecute.apply(this, arguments);
-    };
-
-    // =========================================================================
-    // 2. Build the Hotkey Map
-    // =========================================================================
-    function getHotkeyMap() {
-        const map = new Map();
-        const hkm = app.hotkeyManager;
-        const isMac = navigator.platform.toUpperCase().includes('MAC');
-
-        for (const [id, command] of Object.entries(app.commands.commands)) {
-            const keys = [
-                ...(hkm.customKeys?.[id] ||[]), 
-                ...(hkm.defaultKeys?.[id] ||[])
-            ];
-            
-            for (const hk of keys) {
-                const parts =[];
-                if (hk.modifiers.includes('Mod')) parts.push(isMac ? 'meta' : 'ctrl');
-                if (hk.modifiers.includes('Ctrl')) parts.push('ctrl');
-                if (hk.modifiers.includes('Meta')) parts.push('meta');
-                if (hk.modifiers.includes('Shift')) parts.push('shift');
-                if (hk.modifiers.includes('Alt')) parts.push('alt');
-                
-                let key = (hk.key || '').toLowerCase();
-                if (key === 'space') key = ' ';
-                
-                const combo = [...new Set(parts)].sort().join('+') + ':' + key;
-                map.set(combo, id);
-            }
-        }
-        return map;
-    }
-
-    // =========================================================================
-    // 3. Guest Webview Injection
-    // Forces websites that eat keystrokes (like Google Docs/Notion) to obey Obsidian
-    // =========================================================================
-    async function attachToWebview(webview) {
-        if (!webview || webview._hotkeysAttached) return;
-
-        // Listen for keys caught inside the webview
-        webview.addEventListener('console-message', (e) => {
-            if (e.message?.startsWith('OBS_KEY:')) {
-                const commandId = e.message.split('OBS_KEY:')[1];
-                if (commandId) {
-                    // Drop focus from the webview so the newly opening modal 
-                    // (like Quick Switcher) can immediately accept keyboard typing
-                    if (document.activeElement === webview) {
-                        webview.blur();
-                    }
-                    app.commands.executeCommandById(commandId);
-                }
-            }
-        });
-
-        const inject = () => {
-            const currentHotkeys = getHotkeyMap();
-            const guestScript = `
-            (function() {
-                if (window._obsHotkeysActive) return;
-                window._obsHotkeysActive = true;
-                
-                const map = ${JSON.stringify(Object.fromEntries(currentHotkeys))};
-                
-                window.addEventListener('keydown', (e) => {
-                    const parts =[];
-                    if (e.ctrlKey) parts.push('ctrl');
-                    if (e.metaKey) parts.push('meta');
-                    if (e.shiftKey) parts.push('shift');
-                    if (e.altKey) parts.push('alt');
-                    
-                    let key = (e.key || '').toLowerCase();
-                    if (key === 'space') key = ' ';
-                    
-                    const combo = parts.sort().join('+') + ':' + key;
-                    const commandId = map[combo];
-
-                    // If it's a known Obsidian hotkey, kill it inside the webpage and notify host
-                    if (commandId) {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        console.log('OBS_KEY:' + commandId);
-                    }
-                }, true);
-            })();`;
-
-            webview.executeJavaScript(guestScript).catch(() => {});
-        };
-
-        // Inject script when webview navigates
-        webview.addEventListener('dom-ready', inject);
-        webview._hotkeysAttached = true;
-        inject();
-    }
-
-    // =========================================================================
-    // 4. Catch new webviews automatically
-    // =========================================================================
-    const WEBVIEW_SELECTOR = 'webview, .external-link-view webview, .webviewer-content webview';
-    
-    const attachAll = () => {
-        document.querySelectorAll(WEBVIEW_SELECTOR).forEach(attachToWebview);
-    };
-
-    const observer = new MutationObserver(attachAll);
-    observer.observe(document.body, { childList: true, subtree: true });
-    app.workspace.on('layout-change', attachAll);
-    attachAll();
-};
-```
-
-### Iteration 1
-```javascript
-module.exports = async (params) => {
-    if (window.__HOTKEY_OBSERVER_SET) return;
-
-    const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview, webview';
-
-    function buildHotkeyMap() {
-        const map = new Map();
-        const hkm = app.hotkeyManager;
-        const isMac = navigator.platform.toUpperCase().includes('MAC');
-
-        for (const commandId of Object.keys(app.commands.commands)) {
-            const keys = [
-                ...((hkm.customKeys?.[commandId])  ||[]),
-                ...((hkm.defaultKeys?.[commandId]) ||[]),
-            ];
-            for (const hk of keys) {
-                const mods = hk.modifiers ||[];
-                let key  = (hk.key || '').toLowerCase();
-                if (!key) continue;
-                
-                // Obsidian natively calls it "space", but the browser keystroke calls it " "
-                if (key === 'space') key = ' '; 
-
-                const parts =[];
-                if (mods.includes('Mod'))   parts.push(isMac ? 'Meta' : 'Control');
-                if (mods.includes('Ctrl'))  parts.push('Control');
-                if (mods.includes('Shift')) parts.push('Shift');
-                if (mods.includes('Alt'))   parts.push('Alt');
-                parts.push(key);
-                map.set(parts.join('+'), commandId);
-            }
-        }
-        return map;
-    }
-
-    const hotkeyMap = buildHotkeyMap();
-    const knownCombos = JSON.stringify([...hotkeyMap.keys()]);
-
-    async function attachHotkeyListener(webview) {
-        if (!webview || typeof webview.executeJavaScript !== 'function' || webview._hotkeysAttached) return;
-
-        webview.addEventListener('console-message', (e) => {
-            if (!e.message?.startsWith('OBS_KEY:')) return;
-            try {
-                // Instantly blur the webview to return keyboard focus context to Obsidian 
-                // so visual menus (like the Command Palette) render correctly.
-                document.activeElement?.blur(); 
-                
-                const { key, metaKey, ctrlKey, shiftKey, altKey } = JSON.parse(e.message.slice(8));
-                const parts =[];
-                if (metaKey)  parts.push('Meta');
-                if (ctrlKey)  parts.push('Control');
-                if (shiftKey) parts.push('Shift');
-                if (altKey)   parts.push('Alt');
-                parts.push(key.toLowerCase());
-                
-                const commandId = hotkeyMap.get(parts.join('+'));
-                if (commandId) app.commands.executeCommandById(commandId);
-            } catch (_) {}
-        });
-
-        const guestScript = `
-        (function() {
-            if (window._obsidianHotkeysInjected) return;
-            const known = new Set(${knownCombos});
-            
-            window.addEventListener('keydown', function(e) {
-                // Ignore keys without modifiers so normal typing works
-                if (!e.metaKey && !e.ctrlKey && !e.altKey) return;
-                
-                const parts =[];
-                if (e.metaKey)  parts.push('Meta');
-                if (e.ctrlKey)  parts.push('Control');
-                if (e.shiftKey) parts.push('Shift');
-                if (e.altKey)   parts.push('Alt');
-                parts.push(e.key.toLowerCase());
-                
-                const combo = parts.join('+');
-                if (!known.has(combo)) return; // not an Obsidian shortcut — leave it alone
-                
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                
-                console.log('OBS_KEY:' + JSON.stringify({
-                    key: e.key, metaKey: e.metaKey, ctrlKey: e.ctrlKey,
-                    shiftKey: e.shiftKey, altKey: e.altKey
-                }));
-            }, true);
-            
-            window._obsidianHotkeysInjected = true;
-        })();`;
-
-        const inject = () => webview.executeJavaScript(guestScript).catch(() => {});
-        webview.addEventListener('dom-ready', inject);
-        webview.addEventListener('did-navigate', inject); // full page loads only
-
-        webview._hotkeysAttached = true;
-        inject();
-    }
-
-    // THE LAG FIX: We deleted the heavy MutationObserver that was running on every keystroke.
-    // Instead, we use Obsidian's native workspace events. It only scans for webviews 
-    // when you actually open, close, or switch tabs! (0% CPU while typing)
-    
-    function findAndAttachWebviews() {
-        document.querySelectorAll(WEBVIEW_SELECTOR).forEach(attachHotkeyListener);
-    }
-
-    // 1. Run it once immediately for any already-open tabs
-    findAndAttachWebviews();
-
-    // 2. Tell Obsidian to run it automatically whenever the UI layout changes
-    app.workspace.on('layout-change', findAndAttachWebviews);
-
-    window.__HOTKEY_OBSERVER_SET = true;
-};
-```
-
-### Problems
-- If a note has the same domain, then they both zoom in when they shouldn't
-### Tests
-- Split-screen
-- Extended monitor
-- Leetcode website
-#### Ideas
-- The zoom works easily in the second window (so it is the problem of the script.)
 #### Notes
 - When zooming in or out on a google search engine, no matter what page you're on, it will also zoom in and out for you.
 	- In happens in Google Chrome as well! I think it saves you zoom view for a particular website.

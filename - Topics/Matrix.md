@@ -1,6 +1,8 @@
 ---
 aliases:
   - matrices
+tags:
+  - in-progress
 ---
 ## Synthesis
 - The position of an element in a matrix is typically referred to using its index or indices

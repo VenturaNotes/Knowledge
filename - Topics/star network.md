@@ -18,7 +18,10 @@ aliases:
 	- (c) the cost of having every user directly connected to the central site may be very high for geographically distant (dispersed) nodes;
 	- (d) total communication capacity is often limited by the speed of the central switch.
 - The main advantage of a star network is that the design of the end terminals may be very simple. See also NETWORK ARCHITECTURE.
+## Source[^3]
+- In digital communication networks, a configuration that consists of a single central hub node with various terminal nodes connected to the hub.
 ## References
 
 [^1]: https://en.wikipedia.org/wiki/Star_network
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

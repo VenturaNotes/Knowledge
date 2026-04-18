@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- The action of dislodging particles from the surface of a solid by striking the surface with energetic heavy particles. The mechanism is one of momentum exchange, requiring the striking particles to be massive and traveling at high velocity. Uncharged inert particles, such as argon atoms, are commonly used. The argon atoms are accelerated towards the target from a glow discharge, being neutralized on the way. Accelerating voltages of a few hundred volts to several kilovolts are common. The process can be used for sputter etching features on semiconductor integrated circuits. The characteristics of the etching are almost uniform etching rate, independent of the sample material, and highly anisotropic features can be realized. The process can also be used for thin film sputter deposition, dislodging material from a target so that it is redeposited on a sample close by. This deposition process is very versatile, as alloys can be deposited without changing their composition in the process, and even dielectric and insulating layers can be deposited.
+- By using a reactive gas instead of inert argon, reactive sputtering is carried out, giving a wider range of etching and deposition processes for semiconductor device and integrated circuit manufacture.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
