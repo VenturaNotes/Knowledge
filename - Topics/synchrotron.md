@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A cyclic particle accelerator that is used to accelerate a beam of electrons - electron synchrotron - or protons - proton synchrotron - to very high energies. The particles travel along a circular evacuated tube of fixed radius: an applied magnetic flux density causes them to travel in the circular orbit. They are accelerated by a radiofrequency electric field applied across a gap in a metallic cavity inside the evacuated chamber. Acceleration also occurs as a result of electromagnetic induction within the acceleration chamber between the electric vector associated with the magnetic flux density and the beam current. In order to maintain the correct relationship between the magnetic flux density, the energy of the particles, and the radius of the chamber, the magnetic flux density is made to increase with time and the frequency of the applied r.f. field modulated. This prevents loss of synchronism due to the relativistic mass increase.
+- The particles are usually injected at high energies from a linear accelerator in order to minimize the range of modulation of the r.f. field. An alternative method is to operate the machine without the r.f. field at lower energies; acceleration is then the result of the electromagnetic induction only.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

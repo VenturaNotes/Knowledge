@@ -1,6 +1,8 @@
 ---
 aliases:
   - Transmission Control Protocol
+tags:
+  - in-progress
 ---
 ## Synthesis
 - They are defined by [[Request for Comments|requests for comments]] (RFCs). 
@@ -129,8 +131,11 @@ class TCPClient {
 	- Python version incomplete because the `read` method assumes everything sent by other side has been received and read
 ## Source[^3]
 - Trade name. a solution of halogenated phenols: an effective antiseptic for minor skin injuries and irritations. It may also be used as a gargle for colds and sore throats.
+## Source[^4]
+- (Transmission Control Protocol) One of the two fundamental communications protocols used in the Internet (see TCP/IP). TCP is a transport layer protocol that provides a reliable connection-oriented service to applications requiring data transmission.
 ## References
 
 [^1]: [[(Home Page) Computer Networking A Top-Down Approach 8th Edition by James F. Kurose and Keith W. Ross#1 1 What is the Internet]]
 [^2]: [README: Getting Started with TCP](zotero://open-pdf/library/items/Z39YA2G3?page=1&annotation=8KH2BLT2)
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

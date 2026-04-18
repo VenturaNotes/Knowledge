@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The study and control of the spin of electrons in relation to the operation of information circuits. Spintronics can largely be viewed as composed of two closely related topics, according to the material systems explored: (1) magnetic/nonmagnetic multilayers, granular films, magnetic/oxide tunneling junctions, etc., which are used in giant magnetoresistance heads, MRAM, etc.; and (2) mesoscopic magnetic/semiconductor heterostructures, which are used in spin field-effect transistors, etc. As the conventional solid-state electronic devices are based on semiconductors, the ability to inject and manipulate spin electrons in mesoscopic ferromagnetic/semiconductor heterostructures is leading to the development of next-generation spintronic devices for simultaneous data storage and processing. Spintronic devices have three advantages over conventional semiconductor devices: (1) it is faster to switch the electron spin than to charge a device; (2) these devices consume less energy; and (3) they are nonvolatile, i.e. the information will remain when the power is off.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

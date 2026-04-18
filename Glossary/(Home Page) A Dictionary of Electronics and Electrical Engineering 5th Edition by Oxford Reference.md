@@ -6415,275 +6415,362 @@ tags:
 	4421. [[space wave]]
 	4422. [[spark]]
 	4423. spark interference
-	4424. spatial resolution
+		1. See noise
+	4424. [[spatial resolution]]
 	4425. speaker
+		1. See loudspeaker
 	4426. specific conductance
+		1. A former term for conductivity
 	4427. specific contact resistance
+		1. See contact
 	4428. specific resistance
-	4429. spectral analysis
-	4430. spectral characteristic
+		1. A former term for resistivity
+	4429. [[spectral analysis]]
+	4430. [[spectral characteristic]]
 
-	4431. spectral density
-	4432. spectral leakage
-	4433. spectral resolution
-	4434. spectral response
-	4435. spectrograph
-	4436. spectrum
-	4437. spectrum analyser
-	4438. speech coder
-	4439. speech recognition device
-	4440. speech synthesis
+	4431. [[spectral density]]
+	4432. [[spectral leakage]]
+	4433. [[spectral resolution]]
+	4434. [[spectral response]]
+	4435. [[spectrograph]]
+	4436. [[spectrum]]
+	4437. [[spectrum analyzer]]
+	4438. [[speech coder]]
+	4439. [[speech recognition device]]
+	4440. [[speech synthesis]]
 
-	4441. speed camera
-	4442. speed of light(symbol: c)
-	4443. spherical polar coordinates
+	4441. [[speed camera]]
+	4442. [[speed of light]]
+	4443. [[spherical polar coordinates]]
 	4444. SPICE model
+		1. See TRANSISTOR PARAMETERS.
 	4445. spike
-	4446. spin
+		1. See pulse
+	4446. [[spin]]
 	4447. spin-dependent electron scattering
-	4448. spin field-effect transistor
-	4449. spintronics
-	4450. spiral inductor
+		1. See GIANT MAGNETORESISTANCE.
+	4448. [[spin field-effect transistor]]
+	4449. [[spintronics]]
+	4450. [[spiral inductor]]
 
 	4451. spiral scanning
+		1. See scanning
 	4452. SPL
+		1. See sound pressure level
 	4453. SPM
+		1. See scanning-probe microscopy
 	4454. spontaneous emission
-	4455. spot
-	4456. spot speed
-	4457. spreading
-	4458. spreading resistance
-	4459. spread spectrum
-	4460. spurious rejection
+		1. See laser
+	4455. [[spot]]
+	4456. [[spot speed]]
+	4457. [[spreading]]
+	4458. [[spreading resistance]]
+	4459. [[spread spectrum]]
+	4460. [[spurious rejection]]
 
-	4461. sputtering
-	4462. square-law detector
-	4463. square-wave response
-	4464. square wave
-	4465. squegging oscillator
-	4466. squelch circuit
+	4461. [[sputtering]]
+	4462. [[square-law detector]]
+	4463. [[square-wave response]]
+	4464. [[square wave]]
+	4465. [[squegging oscillator]]
+	4466. [[squelch circuit]]
 	4467. SRAM
-	4468. SS/TDMA
+		1. (static RAM) See solid-state memory
+	4468. [[satellite-switched time-division multiple access|SS/TDMA]]
 	4469. SSB
+		1. See single sideband (transmission)
 	4470. SSD
+		1. See solid-state drive
 
 	4471. SSHD
+		1. See solid-state hybrid drive
 	4472. SSI
-	4473. stability
-	4474. stabilization
-	4475. stable circuit
-	4476. stable oscillations
+		1. (small-scale integration) See integrated circuit
+	4473. [[stability]]
+	4474. [[stabilization]]
+	4475. [[stable circuit]]
+	4476. [[stable oscillations]]
 	4477. stack
+		1. See PUSH
 	4478. stage
+		1. See amplifier stage
 	4479. staggered antenna
+		1. (endfire array) See antenna array
 	4480. stagger tuned amplifier
+		1. See tuned amplifier
 
-	4481. standard-definition
-	4482. standard cell
-	4483. standard deviation
-	4484. standardization
-	4485. standby power
-	4486. standing wave
-	4487. star-delta transformation
-	4488. star circuit
-	4489. star network
+	4481. [[standard-definition]]
+	4482. [[standard cell]]
+	4483. [[standard deviation]]
+	4484. [[standardization]]
+	4485. [[standby power]]
+	4486. [[standing wave]]
+	4487. [[star-delta transformation]]
+	4488. [[star circuit]]
+	4489. [[star network]]
 	4490. start-oscillation current
+		1. See traveling-wave tube
 
-	4491. start-stop apparatus
-	4492. starter electrode
-	4493. starting current
-	4494. state diagram
-	4495. state space
-	4496. state space control
-	4497. state table
-	4498. state transition matrix
-	4499. state variable
-	4500. state variable filter
+	4491. [[start-stop apparatus]]
+	4492. [[starter electrode]]
+	4493. [[starting current]]
+	4494. [[state diagram]]
+	4495. [[state space]]
+	4496. [[state space control]]
+	4497. [[state table]]
+	4498. [[state transition matrix]]
+	4499. [[state variable]]
+	4500. [[state variable filter]]
 
-	4501. static
+	4501. [[static]]
 	4502. static characteristic
-	4503. static memory
+		1. See characteristic
+	4503. [[static memory]]
 	4504. static RAM
+		1. See solid-state memory
 	4505. stationary orbit
-	4506. stationary state
+		1. See geostationary earth orbit
+	4506. [[stationary state]]
 	4507. stationary wave
+		1. See standing wave
 	4508. stator
-	4509. status register
+		1. See motor
+	4509. [[status register]]
 	4510. STD
+		1. (subscriber trunk dialling) The name given to the UK's national subscriber telephone
 
-	4511. steady state
-	4512. stealth technology
-	4513. steepness factor
-	4514. steerable antenna
+	4511. [[steady state]]
+	4512. [[stealth technology]]
+	4513. [[steepness factor]]
+	4514. [[steerable antenna]]
 	4515. step-down transformer
-	4516. step-recovery diode
-	4517. step-stress life test
+		1. See transformer
+	4516. [[step-recovery diode]]
+	4517. [[step-stress life test]]
 	4518. step-up transformer
+		1. See transformer
 	4519. step function
-	4520. step response
+		1. See unit step function
+	4520. [[step response]]
 
-	4521. stereophonic
+	4521. [[stereophonic]]
 	4522. stimulated emission
-	4523. stochastic process
+		1. See laser
+	4523. [[stochastic process]]
 	4524. Stokes' law
+		1. See LUMINESCENCE.
 	4525. stop band
+		1. See filter
 	4526. stopper
+		1. (1) See PARASITIC OSCILLATIONS. 
+		2. (2) See CHANNEL STOPPER.
 	4527. stopping potential
-	4528. storage battery
+		1. See PHOTOELECTRIC EFFECT.
+	4528. [[storage battery]]
 	4529. storage capacity
+		1. (memory capacity) See memory.
 	4530. storage cell
+		1. (secondary cell) See cell
 
-	4531. storage device
-	4532. storage time
-	4533. storage tube
+	4531. [[storage device]]
+	4532. [[storage time]]
+	4533. [[storage tube]]
 	4534. store
+		1. See memory
 	4535. STP
-	4536. strain gauge
-	4537. straintronics
-	4538. stray capacitance
-	4539. streaming media
-	4540. string electrometer
+		1. (shielded twisted pair) See shielded pair
+	4536. [[strain gauge]]
+	4537. [[straintronics]]
+	4538. [[stray capacitance]]
+	4539. [[streaming media]]
+	4540. [[string electrometer]]
 
 	4541. string galvanometer
-	4542. stripline
+		1. See EINTHOVEN GALVANOMETER.
+	4542. [[stripline]]
 	4543. strong electrolyte
-	4544. structured light
-	4545. stub
-	4546. subcarrier
+		1. See ELECTROLYTE.
+	4544. [[structured light]]
+	4545. [[stub]]
+	4546. [[subcarrier]]
 	4547. subcarrier modulation
+		1. See telegraphy
 	4548. subharmonic
+		1. See harmonic
 	4549. subroutine
-	4550. subsonic frequency
+		1. See program
+	4550. [[subsonic frequency]]
 
-	4551. substation
-	4552. substrate
-	4553. subsystem
+	4551. [[substation]]
+	4552. [[substrate]]
+	4553. [[subsystem]]
 	4554. subtractive synthesis
-	4555. sum-of-products
-	4556. summation instrument
-	4557. summing amplifier
-	4558. super-regenerative reception
-	4559. superconductivity
-	4560. superconductor
+		1. See synthesis
+	4555. [[sum-of-products]]
+	4556. [[summation instrument]]
+	4557. [[summing amplifier]]
+	4558. [[super-regenerative reception]]
+	4559. [[superconductivity]]
+	4560. [[superconductor]]
 
-	4561. superheterodyne reception
+	4561. [[superheterodyne reception]]
 	4562. superhigh frequency
-	4563. Supermalloy
-	4564. Supermendur
-	4565. superparamagnetic limit
+		1. (SHF) See frequency band
+	4563. [[Supermalloy]]
+	4564. [[Supermendur]]
+	4565. [[superparamagnetic limit]]
 	4566. superposition
-	4567. superposition principle
-	4568. supersensitive relay
-	4569. suppressed-carrier modulation
-	4570. suppressed-zero instrument
+		1. See linear system
+	4567. [[superposition principle]]
+	4568. [[supersensitive relay]]
+	4569. [[suppressed-carrier modulation]]
+	4570. [[suppressed-zero instrument]]
 
 	4571. suppressor
+		1. See INTERFERENCE.
 	4572. suppressor grid
+		1. See THERMIONIC VALVE; PENTODE.
 	4573. surface-channel FET
+		1. See FIELD-EFFECT TRANSISTOR.
 	4574. surface acoustic wave
+		1. See acoustic wave device
 	4575. surface charge density
-	4576. surface conductivity
-	4577. surface integral
-	4578. surface leakage
-	4579. surface mount technology
+		1. See charge density
+	4576. [[surface conductivity]]
+	4577. [[surface integral]]
+	4578. [[surface leakage]]
+	4579. [[surface mount technology]]
 	4580. surface resistance
+		1. See skin effect
 
-	4581. surface resistivity
-	4582. surface wave
-	4583. surge
-	4584. susceptance(symbol: B; unit: siemens)
-	4585. susceptibility
+	4581. [[surface resistivity]]
+	4582. [[surface wave]]
+	4583. [[surge]]
+	4584. [[susceptance]]
+	4585. [[susceptibility]]
 	4586. sweep
+		1. See timebase
 	4587. sweep frequency
+		1. See timebase
 	4588. sweep generator
-	4589. sweep voltage
-	4590. swell pedal
+		1. (timebase generator) See timebase
+	4589. [[sweep voltage]]
+	4590. [[swell pedal]]
 
 	4591. swinging choke
-	4592. switch
-	4593. switched-mode power supply
-	4594. switched capacitor filter
-	4595. switching system
-	4596. switching tube
+		1. See choke
+	4592. [[switch]]
+	4593. [[switched-mode power supply]]
+	4594. [[switched capacitor filter]]
+	4595. [[switching system]]
+	4596. [[switching tube]]
 	4597. syllable articulation score
-	4598. symbols
-	4599. symmetric mode
+		1. See INTELLIGIBILITY.
+	4598. [[symbols]]
+	4599. [[symmetric mode]]
 	4600. symmetric transducer
+		1. See transducer
 
 	4601. symmetric two-port network
-	4602. synchronism
+		1. See two-port network
+	4602. [[synchronism]]
 	4603. synchronizing pulses
-	4604. synchronometer
-	4605. synchronous
-	4606. synchronous alternating-current generator
-	4607. synchronous clock
+		1. See television
+	4604. [[synchronometer]]
+	4605. [[synchronous]]
+	4606. [[synchronous alternating-current generator]]
+	4607. [[synchronous clock]]
 	4608. synchronous communications satellite
-	4609. synchronous computer
+		1. See communications satellite
+	4609. [[synchronous computer]]
 	4610. synchronous detection
+		1. See SUPPRESSED-CARRIER TRANSMISSION.
 
-	4611. synchronous gate
+	4611. [[synchronous gate]]
 	4612. synchronous generator
-	4613. synchronous logic
-	4614. synchronous motor
+		1. See SYNCHRONOUS ALTERNATING-CURRENT GENERATOR.
+	4613. [[synchronous logic]]
+	4614. [[synchronous motor]]
 	4615. synchronous orbit
-	4616. synchronous transmission
-	4617. synchrotron
+		1. See GEOSYNCHRONOUS ORBIT.
+	4616. [[synchronous transmission]]
+	4617. [[synchrotron]]
 	4618. sync separator
-	4619. Synopsys
-	4620. syntax
+		1. See television
+	4619. [[Synopsys]]
+	4620. [[syntax]]
 
-	4621. synthesis
-	4622. synthesizer
-	4623. synthetic aperture radar
-	4624. system identification
-	4625. system modelling
-	4626. system on a chip
+	4621. [[synthesis]]
+	4622. [[synthesizer]]
+	4623. [[synthetic aperture radar]]
+	4624. [[system identification]]
+	4625. system modeling
+		1. See DESIGN AUTOMATION.
+	4626. [[system on a chip]]
 	4627. systems software
-	4628. T-gate
+		1. See software
+	4628. [[T-gate]]
 	4629. T-junction
+		1. (hybrid T-junction) See hybrid junction
 	4630. T-section
+		1. See two-port network; filter;
 
-	4631. tablet computer
-	4632. tandem
+	4631. [[tablet computer]]
+	4632. [[tandem]]
 	4633. tandem exchange
-	4634. tank network
-	4635. tantalum(symbol: Ta)
+		1. See telephony
+	4634. [[tank network]]
+	4635. [[tantalum]]
 	4636. tantalum capacitor
-	4637. tap changer
-	4638. tape automated bonding
+		1. See ELECTROLYTIC CAPACITOR.
+	4637. [[tap changer]]
+	4638. [[tape automated bonding]]
 	4639. tape recording
+		1. See magnetic recording
 	4640. tapered window
+		1. See windowing
 
 	4641. tape unit
-	4642. tapping
+		1. (tape transport) See magnetic tape
+	4642. [[tapping]]
 	4643. tap weight
-	4644. target
-	4645. target voltage
+		1. See digital filter
+	4644. [[target]]
+	4645. [[target voltage]]
 	4646. Tchebyshev filter
+		1. See CHEBYSHEV FILTER.
 	4647. T circuit
-	4648. TCP
-	4649. TCP/IP
+		1. See star circuit
+	4648. [[TCP]]
+	4649. [[Transmission Control Protocol-Internet Protocol|TCP/IP]]
 	4650. TCS
+		1. See traction control system
 
 	4651. TDM
+		1. See TIME-DIVISION MULTIPLEXING.
 	4652. TDMA
+		1. (time-division multiple access) See DIGITAL COMMUNICATIONS.
 	4653. TDR
+		1. (time domain reflectometer) See REFLECTOMETER.
 	4654. TED
-	4655. tee-pi (T-π) transform
+		1. See TRANSFERRED-ELECTRON DEVICE.
+	4655. tee-pi
+		1. (T-π) transform See STAR-DELTA TRANSFORMATION.
 	4656. tee circuit
-	4657. Teflon
-	4658. telecommunications
-	4659. telecommunication system
-	4660. teleconference
+		1. See star circuit
+	4657. [[Teflon]]
+	4658. [[telecommunications]]
+	4659. [[telecommunication system]]
+	4660. [[teleconference]]
 
-	4661. telegraphy
-	4662. telemetry
-	4663. telephony
-	4664. telepresence
-	4665. teleprinter
-	4666. telerobotics
-	4667. teletext
-	4668. television
+	4661. [[telegraphy]]
+	4662. [[telemetry]]
+	4663. [[telephony]]
+	4664. [[telepresence]]
+	4665. [[teleprinter]]
+	4666. [[telerobotics]]
+	4667. [[teletext]]
+	4668. [[television]]
 	4669. television camera
 	4670. television receiver
 
