@@ -1,7 +1,7 @@
 ---
 title: (T) Excalidraw Blinking Cursor Fix
 status: done
-priority: "2"
+priority: "0"
 dateCreated: 2026-04-15T20:42:16.888-04:00
 dateModified: 2026-04-15T20:47:12.573-04:00
 reminders:

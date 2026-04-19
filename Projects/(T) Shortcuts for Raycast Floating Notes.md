@@ -1,6 +1,6 @@
 ---
 status: done
-priority: "2"
+priority: "0"
 dateCreated: 2025-12-28T22:34:06.744-05:00
 dateModified: 2025-12-28T23:50:25.750-05:00
 reminders:

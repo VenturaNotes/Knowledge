@@ -3981,7 +3981,7 @@ Year: 2021-09-01
 	2755. symmetric design
 	2756. symmetric difference
 	2757. symmetric function
-	2758. symmetric group
+	2758. [[symmetric group]]
 	2759. symmetric matrix
 	2760. [[symmetric relation]]
 	
@@ -4267,7 +4267,7 @@ Year: 2021-09-01
 	3015. vector product
 	3016. vector projection(of a vector on a vector)
 	3017. vector space
-	3018. vector subspace
+	3018. [[vector subspace]]
 	3019. vector sum
 	3020. vector triple product
 	
@@ -4289,7 +4289,7 @@ Year: 2021-09-01
 	3035. Viète, François (1540-1603)
 	3036. vinculum
 	3037. Vinogradov's Theorem
-	3038. virtual work principle(in mechanics)
+	3038. [[virtual work principle]]
 	3039. viscous
 	3040. Vitali set
 	

@@ -255,7 +255,6 @@ fn main() -> ! {
 	- #question What does the code inside HAL look like?
 - No Standard Library: Because many embedded systems don't have operating systems, you work with Rust's standard library, using only what's provided by the hardware
 	- #question How do I know what is provided by the hardware?
-
 #### Conclusion
 - This example shows how Rust can interact with hardware by controlling an LED on a microcontroller. Involves setting up GPIO pins, writing to those pins to turn the LED on and off and using a delay to make the LED blink. 
 - Rust's strong typing and safety guarantees help make it robust even in low-level systems programming
@@ -267,5 +266,5 @@ fn main() -> ! {
 - Work carried out by systems programmers, i.e. the production of systems software.
 ## References
 
-[^1]:[[(Home Page) Programming Rust 2nd Edition by O'Reilly#Intro]]
+[^1]: [[(Home Page) Programming Rust 2nd Edition by O'Reilly#Intro]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
