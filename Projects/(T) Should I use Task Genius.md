@@ -1,6 +1,6 @@
 ---
 status: done
-priority: "2"
+priority: "0"
 scheduled: 2025-12-10
 dateCreated: 2025-12-10T14:06:10.349-05:00
 dateModified: 2025-12-27T01:24:54.890-05:00

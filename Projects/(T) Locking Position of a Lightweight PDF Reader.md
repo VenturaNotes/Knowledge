@@ -1,7 +1,7 @@
 ---
 title: (T) Locking Position of a Lightweight PDF Reader
 status: done
-priority: "2"
+priority: "0"
 dateCreated: 2026-03-21T05:41:16.440-04:00
 dateModified: 2026-03-26T10:26:14.681-04:00
 reminders:

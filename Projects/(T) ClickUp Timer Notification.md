@@ -1,6 +1,6 @@
 ---
 status: done
-priority: "2"
+priority: "0"
 dateCreated: 2025-10-30T12:41:05.957-04:00
 dateModified: 2025-12-29T15:24:59.239-05:00
 tags:
