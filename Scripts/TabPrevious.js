@@ -8,6 +8,6 @@ module.exports = async (params) => {
         app.commands.executeCommandById(commandId);
     } else {
         // 3. Alert if something is wrong
-        new Notice("Error: 'Topic Search' command not found. Is Another Quick Switcher enabled?");
+        new Notice("Error: 'Previous Tab' command not found. Is Another Quick Switcher enabled?");
     }
 };
