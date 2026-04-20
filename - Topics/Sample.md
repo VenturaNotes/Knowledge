@@ -9,8 +9,11 @@
 - Sampling is also important in auditing, as it is not usually feasible to inspect all the available documentation.
 ## Source[^3]
 - A selection of examples of a class of objects, whose characteristics are used to infer those of the whole class or population. Sampling is used where it would be impossible, too slow, or too costly to examine the entire population. Inference from sample to population constitutes the subject matter of statistics. See also QUOTA SAMPLE; RANDOM SAMPLE; STRATIFIED SAMPLE.
+## Source[^4]
+- A subset of a population selected in order to make inferences about the population. (Strictly speaking, it is not a subset because elements may be repeated.) It is a random sample if it is chosen in such a way that every sample of the same size has an equal chance of being selected. If the sample is chosen in such a way that no member of the population can be selected more than once, this is sampling without replacement. In sampling with replacement, an element has a chance of being selected more than once. A quota sample is a sample in which a predetermined number of elements have to be selected from each category in a specified list. See also stratified sample.
 ## References
 
 [^1]: [[(1) Statistics - 1.1 Intro to Statistics]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

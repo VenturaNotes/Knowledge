@@ -212,6 +212,9 @@ module.exports = async (params) => {
 ### Bugs
 - When generating a new tab, it snaps back to previous window
 - When rotating through tabs, need to press "Command + Option + Left" twice for it to work
+	- (Fixed by just creating a separate script for that)
+### Information
+- You needed to create this script because even if you created a command to run a script for you, the web viewer would eat that command anyway if obsidian is trying to focus on a split web viewer pane.
 ### Conversation
 - [Google AI Studio](https://aistudio.google.com/prompts/1YhiQuBAkpg8NL72_MKTGx0QjS1zErrwa)
 - Always feel free to add console logs within the prompt to help with making all the features work together. 

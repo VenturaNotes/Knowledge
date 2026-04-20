@@ -3611,7 +3611,7 @@ Year: 2021-09-01
 	
 	2421. rv
 	2422. saddle-point
-	2423. sample
+	2423. [[sample]]
 	2424. sample space
 	2425. sampling distribution
 	2426. sandwich theorem
@@ -4312,11 +4312,16 @@ Year: 2021-09-01
 	3056. wave equation
 	3057. wave function
 	3058. wavelength
+		1. See wave
 	3059. wavenumber
+		1. See wave
 	3060. weak convergence
+		1. A synonym for convergence in distribution
 	
 	3061. weaker statement
+		1. See stronger statement
 	3062. weak inequality
+		1. See inequality
 	3063. weak law of large numbers
 	3064. weakly hereditary property(of spaces)
 	3065. Wedderburn's little theorem
@@ -4327,11 +4332,11 @@ Year: 2021-09-01
 	3070. weighted graph
 	
 	3071. weighted mean
-	3072. Weil conjectures
+	3072. [[Weil conjectures]]
 	3073. well-conditioned problem
 	3074. well-formed formula
 	3075. well defined
-	3076. well ordered
+	3076. [[well ordered]]
 	3077. Weyl, Hermann (1885-1955)
 	3078. wff
 	3079. Whitehead, Alfred North (1861-1947)
