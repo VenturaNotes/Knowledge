@@ -1,9 +1,9 @@
 ---
 title: (T) Dark Mode Web Viewer Obsidian
-status: done
+status: open
 priority: "0"
 dateCreated: 2026-02-22T14:38:39.146-05:00
-dateModified: 2026-02-22T17:00:27.311-05:00
+dateModified: 2026-04-21T13:08:08.900-04:00
 reminders:
   - id: rem_1771789115047_fffer2aa0
     type: relative
@@ -12,14 +12,14 @@ reminders:
     offset: -PT0H
 tags:
   - task
-completedDate: 2026-02-22
 ---
 ## Synthesis
 ### Solution
 - I have a dark mode script for QuickAdd which runs on startup. However, if I want a webpage with light mode, i can just manually turn it off with the shortcut. 
 - It doesn't seem to affect Google Spreadsheets but that's okay.
-#### Iteration 2
+#### Iteration 2 (Not Really Working)
 - Runs faster by removing MutationObserver and only using a `layout-change` listener
+- When I refresh a page with dark mode set to off, it still runs dark mode
 ```javascript
 module.exports = async (params) => {
     // 1. Detect if this is the startup run or a manual toggle
@@ -94,7 +94,7 @@ module.exports = async (params) => {
     }
 };
 ```
-#### Iteration 1
+#### Iteration 1 (Working but inefficient?)
 ```javascript
 module.exports = async (params) => {
     // 1. Check if this is the very first run of the session
