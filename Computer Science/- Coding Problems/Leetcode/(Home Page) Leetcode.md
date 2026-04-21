@@ -2085,3 +2085,4 @@ Reviewed: false
 	- [[(3898) Find the Degree of Each Vertex]]
 	- [[(3894) Traffic Signal Color]]
 	- [[(3455) Shortest Matching Substring]]
+	- [[(3212) Count Submatrices With Equal Frequency of X and Y]]

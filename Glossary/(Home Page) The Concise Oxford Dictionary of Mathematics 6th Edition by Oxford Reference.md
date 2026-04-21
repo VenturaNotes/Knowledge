@@ -3610,10 +3610,10 @@ Year: 2021-09-01
 	2420. Rutherford, Lord (1871-1937)
 	
 	2421. rv
-	2422. saddle-point
+	2422. [[saddle-point]]
 	2423. [[sample]]
-	2424. sample space
-	2425. sampling distribution
+	2424. [[sample space]]
+	2425. [[sampling distribution]]
 	2426. sandwich theorem
 	2427. SAS
 	2428. saturated(in networks)
