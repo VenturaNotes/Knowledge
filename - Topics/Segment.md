@@ -7,7 +7,10 @@
 - (4) of an Ethernet. A part of an Ethernet that consists of a single length of cable, usually coaxial cable. There are strict limits on the total length of cable that can be used. See also Ethernet, THICK WIRE.
 ## Source[^2]
 - $n$. (in anatomy) a portion of a tissue or organ, usually distinguishable from other portions by lines of demarcation. For example, the uterus consists of upper and lower segments. The anterior segment of the eye is the front portion, including the cornea, anterior chamber, iris, and lens. See also SOMITE.
+## Source[^3]
+- A segment of a circle is the smaller region bounded by an arc $AB$ of the circle and the chord $AB$.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

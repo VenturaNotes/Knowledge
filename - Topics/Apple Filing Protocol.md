@@ -1,3 +1,7 @@
+---
+aliases:
+  - AFP
+---
 ## Synthesis
 - 
 ## Source [^1]

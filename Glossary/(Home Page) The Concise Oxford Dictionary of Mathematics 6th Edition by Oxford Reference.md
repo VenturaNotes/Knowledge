@@ -3620,7 +3620,7 @@ Year: 2021-09-01
 	2429. scalar
 	2430. scalar(for vectors and matrices)
 	
-	2431. scalar field
+	2431. [[scalar field]]
 	2432. scalar matrix
 	2433. scalar multiplication
 	2434. scalar product
@@ -3659,7 +3659,7 @@ Year: 2021-09-01
 	2464. section
 	2465. section formulae
 	2466. sector
-	2467. segment
+	2467. [[segment]]
 	2468. selection
 	2469. self-adjoint
 	2470. self-inverse
@@ -3678,7 +3678,7 @@ Year: 2021-09-01
 	2481. semi-regular tessellation
 	2482. semi-vertical angle
 	2483. semicircle
-	2484. semigroup
+	2484. [[semigroup]]
 	2485. semiprime
 	2486. sense
 	2487. separable(of a function)

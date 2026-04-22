@@ -1,3 +1,7 @@
+---
+aliases:
+  - SMB
+---
 ## Synthesis
 - 
 ## Source [^1]

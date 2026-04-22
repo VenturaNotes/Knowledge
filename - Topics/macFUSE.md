@@ -3,11 +3,21 @@ tags:
   - in-progress
 ---
 ## Synthesis
-- A Software component which extends macOS's native file system capabilities
+- A software component which extends macOS's native file system capabilities
+- Enables macOS to mount and interact with file systems that it doesn't natively support including network
+	- [[network file system|Network file systems]]
+	- Encrypted file systems
+	- Specialized archives
 ---
 - Enables macOS to mount and interact with file systems that it doesn't natively support, such as various network file systems, encrypted file systems, or specialized archives by acting as a bridge between the macOS kernel and these non-native file systems
 	- Specialized archives are file formats that are not treated as standard file systems by macOS, but can be accessed and manipulated as if they were a mounted drive or folder through the use of a FUSE-based file system. You can modify the files within the archive without needing to extract the entire archive first
-		- #question What is meant by extracting the archive?
+		- In the context of archives (like .zip, .tar, or .`rar` files), extracting refers to the process of decompressing and copying the files out of the archive and onto your actual hard drive.
+			- Standard Extraction
+				- macOS must "unpack" the entire file. If you have a 10GB archive and only need one photo, you usually have to wait for the system to extract the data to a folder before you can use it.
+					- #question Is "unpack" a technical term? How does it unpack?
+			- With macFUSE 
+				- The archive is "mounted" like a virtual USB drive. You can open that one photo instantly because the system reads it directly from the archive without creating a separate, uncompressed copy on your disk.
+					- #question But. how is macFUSE able to read it if the archive is compressed (like .zip?)
 		- #question What does a FUSE-based file system look like? 
 		- #question But what makes specialized archives different from network file systems and encrypted file systems? Are network file systems and encrypted file systems a type of specialized archives?
 		- #question What is an example of these types of file systems?
@@ -38,7 +48,6 @@ tags:
 	- #question Why did it update or rather why did they change their name? Is it similar to how the developers worked on Dynalist and then created something called Obsidian?
 - macFUSE provides the framework for developers to define how macOS should interact with data sources that aren't inherently designed to be file systems, but make them behave like one
 	- #question What software do you need to develop something which uses the macFUSE framework? 
-
 ## Organize
 Here are the answers to your questions:
 
@@ -84,9 +93,6 @@ Here are the answers to your questions:
 
 -   **#question Would VeraCrypt be an example?**
     Yes, VeraCrypt is an excellent example. VeraCrypt is free and open-source disk encryption software that can create encrypted virtual disk drives (containers) or encrypt entire partitions/storage devices. On macOS (and Linux), VeraCrypt can utilize FUSE to mount these encrypted containers or partitions, making their contents accessible as a regular file system.
-
--   **#question What is FUSE?**
-    FUSE stands for **Filesystem in Userspace**. It's a software interface for Unix-like operating systems that allows non-privileged users to create their own file systems without needing to modify the operating system's kernel code. It provides a bridge between the kernel's file system interface and a user-space program that implements the actual file system logic. This enables developers to create file systems for virtually any data source, making them appear as regular directories or drives.
 
 -   **#question Which cloud storage solutions do this?**
     Several cloud storage solutions use FUSE or similar kernel extensions to integrate with macOS:

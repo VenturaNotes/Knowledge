@@ -3,8 +3,29 @@ tags:
   - in-progress
 ---
 ## Synthesis
+### Description
+- It is a single file that contains one or more files (and often their metadata) bundled together for easier storage or transfer.
+	- #question What is metadata?
+	- #question How is the archive bundled together?
+### Common Archive Formats
+- [[zip]]
+	- `.zip`: The most universal format; it bundles and compresses files. macOS supports this natively.
+		- #question How does it bundle and compress a file?
+- [[tar]]
+	- `.tar`: Short for "Tape Archive." It bundles files together without compressing them (though it is often paired with compression to become `.tar.gz`).
+		- #question What is the point of an archive which is not compressed? Isn't that just a normal folder then? What benefit does it have?
+		- #question How do you compress it to a `.tar.gz`?
+- [[rar]]
+	- `.rar`: A proprietary format known for high compression ratios. macOS can generally open these, but often needs third-party tools or macFUSE-based systems to modify them.
+		- #question What is meant by high compression ratio?
+		- #question What are some macFUSE-based systems?
+		- #question What third-party tools can open them on mac?
+- [[7z]]
+	- `.7z`: A modern, high-compression open-source format.
+		- #question How is this different than the other ones mentioned?
+		- #question What is the algorithm for compression on this one?
 ### Extracting an Archive
-- This is when you decompress or unpack the file contents 
+- This is when you decompress or unpack the file contents
 ## Source [^1]
 - An archive is a collection of data moved to a repository for long-term retention, to be kept separate for compliance reasons or moved off primary storage media.
 ## Source[^2]
