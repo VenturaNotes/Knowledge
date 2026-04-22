@@ -7,8 +7,13 @@ tags:
   - type/website
 Reviewed: false
 ---
-- [Python Easy Array Not Solved Problems](https://leetcode.com/problem-list/vtvjjiog/)
-- [Solutions](https://walkccc.me/LeetCode/topics/special-topics/simulation/)
+- Source
+	- [Python Easy Array Not Solved Problems](https://leetcode.com/problem-list/vtvjjiog/)
+	- [Solutions](https://walkccc.me/LeetCode/topics/special-topics/simulation/)
+- Tips
+	- If using Obsidian Web Clipper, make sure to catch terms which are hoverable
+		- Pending GitHub Issue
+			- [[(T) Report Bug on Obsidian Web Clipper for not Capturing LeetCode Content]]
 
 - Complete
 	- [[(1) Two Sum]]

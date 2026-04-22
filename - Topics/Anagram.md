@@ -1,20 +1,60 @@
 ---
 aliases:
   - anagrams
+tags:
+  - in-progress
 ---
 ## Synthesis
 ### Definition
 - A word formed by rearranging the letters of a different word or phrase
 ### Example
 - `anagram` $\to$ `nagaram`
-
 - A word formed by rearranging the letters
+
+## Organize
+### Checking If Two Strings Are Anagrams
+The best and most efficient way to check if two strings are anagrams in Python is by using the **Frequency Counting** method, specifically utilizing the `collections.Counter` class.
+### 1. The Frequency Counting Method (Recommended)
+This method is considered the best because it is highly readable and performs in linear time, $O(n)$. It counts the occurrences of each character in both strings and compares the resulting dictionaries.
+
+```python
+from collections import Counter
+
+def is_anagram(str1, str2):
+    # Anagrams must have the same length
+    if len(str1) != len(str2):
+        return False
+    return Counter(str1) == Counter(str2)
+```
+
+- **Time Complexity:** $O(n)$, where $n$ is the length of the strings.
+- **Space Complexity:** $O(k)$, where $k$ is the number of unique characters.
+
+### 2. The Sorting Method
+Another common approach is the **Sorting** method. While it is very concise (often a one-liner), it is slightly less efficient for very large strings due to the overhead of sorting.
+
+```python
+def is_anagram(str1, str2):
+    return sorted(str1) == sorted(str2)
+```
+
+- **Time Complexity:** $O(n \log n)$ due to the sorting algorithm (Timsort in Python).
+- **Space Complexity:** $O(n)$ or $O(1)$ depending on the implementation of the sorting algorithm's space requirements.
+
+### Summary Table
+
+| Method | Name | Time Complexity | Best For |
+| --- | --- | --- | --- |
+| `collections.Counter` | Frequency Counting | $O(n)$ | Performance and large datasets |
+| `sorted()` | Sorting | $O(n \log n)$ | Quick scripts and readability |
+
+If you are storing these snippets in your vault, you might want to create a note titled [[Python String Algorithms]] to keep track of these patterns!
+
 ## Source [^1]
 - It's a word or phrase formed by rearranging the letters of a different word or phrase
 	- Example:
 		- anagram 
 		- nagaram
-
 ## Source[^2]
 - When determining if one string is an anagram of another, ignore
 	- Spaces

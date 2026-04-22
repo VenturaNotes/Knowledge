@@ -61,6 +61,8 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 - [[frozenset() (Python)|frozenset()]]
 - [[dictionary (Python)|dictionaries]]
 - [[string (python)|string]]
+### Infinity
+- To. get negative infinity, do `neg_inf = float("-inf")`
 ## Source [^1]
 - [[syntax (python)|syntax]]
 - [[comments (python)|comments]]
