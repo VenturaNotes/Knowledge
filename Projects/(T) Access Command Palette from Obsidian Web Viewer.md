@@ -208,6 +208,7 @@ module.exports = async (params) => {
 ```
 ### Feature Requests
 - Improve Security `Build_code`
+	- [Gemini Conversation](https://aistudio.google.com/prompts/10PDojjH29gt-7m_To6afozWeh3OrOtOD)
 - Make shortcuts pop in the window your cursor is in?
 ### Bugs
 - When generating a new tab, it snaps back to previous window

@@ -12,6 +12,8 @@ reminders:
     offset: -PT0H
 tags:
   - task
+parent:
+  - "[[(T) Optimize]]"
 ---
 ## Synthesis
 ### Solution
@@ -95,6 +97,7 @@ module.exports = async (params) => {
 };
 ```
 #### Iteration 1 (Working but inefficient?)
+- Add optimization to the web viewer so that it doesn’t poll every second? It does slow down my computer then.
 ```javascript
 module.exports = async (params) => {
     // 1. Check if this is the very first run of the session

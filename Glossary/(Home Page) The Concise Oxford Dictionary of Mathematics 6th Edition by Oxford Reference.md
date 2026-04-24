@@ -3725,7 +3725,7 @@ Year: 2021-09-01
 	2524. Sierpinski triangle
 	2525. sifting property
 	2526. sigma
-	2527. sigma function
+	2527. [[sigma function]]
 	2528. sign
 	2529. signed area
 	2530. signed minor
@@ -3749,7 +3749,7 @@ Year: 2021-09-01
 	2546. simple pole
 	2547. simple root
 	2548. simplest form
-	2549. simplex
+	2549. [[simplex]]
 	2550. simplex method
 	
 	2551. simplex tableau
@@ -3757,7 +3757,7 @@ Year: 2021-09-01
 	2553. simplify
 	2554. simply connected
 	2555. Simpson's paradox
-	2556. Simson line
+	2556. [[Simson line]]
 	2557. simulation
 	2558. simultaneity
 	2559. simultaneous linear differential equations
