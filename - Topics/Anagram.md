@@ -10,7 +10,6 @@ tags:
 ### Example
 - `anagram` $\to$ `nagaram`
 - A word formed by rearranging the letters
-
 ## Organize
 ### Checking If Two Strings Are Anagrams
 The best and most efficient way to check if two strings are anagrams in Python is by using the **Frequency Counting** method, specifically utilizing the `collections.Counter` class.

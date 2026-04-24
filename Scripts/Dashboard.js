@@ -1,6 +1,6 @@
 "use strict";
 
-const SKIP_PATHS = ["Templates", "- Templates"];
+const SKIP_PATHS = ["Templates", "- Templates", "Archive"];
 
 async function collectTasks(app) {
     const allTasks = [];
@@ -12,34 +12,45 @@ async function collectTasks(app) {
         const cache = app.metadataCache.getFileCache(file);
         if (!cache) continue;
 
-        const fmTags = cache.frontmatter?.tags || [];
-        const allTags = (Array.isArray(fmTags) ? fmTags : [fmTags]).map(t => String(t).toLowerCase());
-        if (!allTags.some(t => t.includes("task"))) continue;
-        if (["done", "canceled"].includes(String(cache.frontmatter?.status || "").toLowerCase())) continue;
+        const fm = cache.frontmatter || {};
+        const cacheTags = (cache.tags || []).map(t => t.tag.toLowerCase());
+        const fmTags = (Array.isArray(fm.tags) ? fm.tags : [fm.tags]).map(t => String(t).toLowerCase());
+        const combinedTags = [...new Set([...cacheTags, ...fmTags])];
+        
+        const isTask = combinedTags.some(t => t.includes("task"));
+        const isGoal = combinedTags.some(t => t.includes("goal"));
+        
+        if (!isTask && !isGoal) continue;
+        if (["done", "canceled"].includes(String(fm.status || "").toLowerCase())) continue;
 
-        const rawBlocked = cache.frontmatter?.blockedBy || cache.frontmatter?.["blocked-by"] || [];
-        const blockedBy = (Array.isArray(rawBlocked) ? rawBlocked : [rawBlocked])
-            .map(s => String(s).replace(/[\[\]"]/g, "").split("|")[0].trim());
+        const rawParent = fm.parent || [];
+        const parentNames = (Array.isArray(rawParent) ? rawParent : [rawParent])
+            .map(p => String(p).replace(/[\[\]]/g, "").split("|")[0].trim())
+            .filter(p => p.length > 0);
 
         const task = {
             id: file.path,
             file: file,
-            title: cache.frontmatter?.title || file.basename,
-            priority: parseInt(cache.frontmatter?.priority) || 0,
-            tags: allTags.filter(t => t !== "task"),
-            blockedBy: blockedBy.filter(b => b.length > 0),
-            unlocks: [],
-            parents: [],
+            title: fm.title || file.basename,
+            isGoal: isGoal,
+            isTask: isTask,
+            parentNames: parentNames,
+            children: [], 
+            parents: [],  
             level: 0
         };
         allTasks.push(task);
         titleToTask.set(task.title.toLowerCase().trim(), task);
+        titleToTask.set(file.basename.toLowerCase().trim(), task);
     }
 
     allTasks.forEach(task => {
-        task.blockedBy.forEach(bTitle => {
-            const parent = titleToTask.get(bTitle.toLowerCase());
-            if (parent) { parent.unlocks.push(task); task.parents.push(parent); }
+        task.parentNames.forEach(pName => {
+            const parentObj = titleToTask.get(pName.toLowerCase());
+            if (parentObj) {
+                if (!parentObj.children.includes(task)) parentObj.children.push(task);
+                if (!task.parents.includes(parentObj)) task.parents.push(parentObj);
+            }
         });
     });
 
@@ -52,234 +63,372 @@ async function collectTasks(app) {
             if (maxParentLevel + 1 > task.level) { task.level = maxParentLevel + 1; changed = true; }
         });
     }
-    return { allTasks, titleToTask };
-}
-
-async function updateYAML(app, file, key, value) {
-    await app.fileManager.processFrontMatter(file, (fm) => {
-        fm[key] = value;
-    });
+    return { allTasks };
 }
 
 const CSS = `
-.tq-root { display: flex; width: 100%; height: 100%; background: var(--background-primary); overflow: hidden; font-family: var(--font-interface); }
-.tq-sidebar { width: 320px; border-right: 1px solid var(--background-modifier-border); display: flex; flex-direction: column; background: var(--background-secondary); z-index: 20; }
-.tq-sidebar-header { padding: 12px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; opacity: 0.5; border-bottom: 1px solid var(--background-modifier-border); background: var(--background-secondary-alt); }
-.tq-inbox { flex: 1; overflow-y: auto; padding: 10px; }
-.tq-inbox-item { padding: 10px; margin-bottom: 6px; background: var(--background-primary); border-radius: 6px; font-size: 0.85rem; cursor: pointer; border: 1px solid var(--background-modifier-border); }
-.tq-inbox-item.selected { border-color: var(--interactive-accent); background: rgba(var(--interactive-accent-rgb), 0.1); }
-.tq-bases-editor { padding: 18px; background: var(--background-secondary-alt); border-top: 2px solid var(--background-modifier-border); display: flex; flex-direction: column; gap: 12px; }
-.tq-field { display: flex; flex-direction: column; gap: 5px; }
-.tq-field label { font-size: 0.65rem; font-weight: bold; opacity: 0.5; text-transform: uppercase; }
-.tq-field input, .tq-field select { background: var(--background-primary); border: 1px solid var(--background-modifier-border); color: var(--text-normal); padding: 5px; border-radius: 4px; font-size: 0.8rem; }
+.tq-root { display: block; width: 100%; height: 100%; background: var(--background-primary); overflow: hidden; font-family: var(--font-interface); color: var(--text-normal); position: relative; }
 
-.tq-map { flex: 1; position: relative; overflow: hidden; background: var(--background-primary); cursor: grab; }
-.tq-map:active { cursor: grabbing; }
-.tq-world { position: absolute; transform-origin: 0 0; width: 10000px; height: 10000px; pointer-events: auto; }
-.tq-node { position: absolute; background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 10px; cursor: pointer; z-index: 10; box-shadow: var(--shadow-s); display: flex; align-items: center; justify-content: center; padding: 10px; pointer-events: auto; transition: opacity 0.3s; }
+.tq-sidebar { 
+    position: absolute; left: 0; top: 0; bottom: 0; width: 300px; 
+    border-right: 1px solid var(--background-modifier-border); 
+    display: flex; flex-direction: column; background: var(--background-secondary); 
+    z-index: 100; 
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), background 0.3s ease, border-color 0.3s ease; 
+    overflow: hidden; 
+}
+.tq-root.is-collapsed .tq-sidebar { width: 45px; background: transparent; border-right: 1px solid transparent; pointer-events: none; }
 
-.tq-ready { border: 2px solid var(--text-success); box-shadow: 0 0 15px rgba(74, 222, 128, 0.1); opacity: 1; }
-.tq-blocked { opacity: 0.45; border-style: dashed; }
-.tq-blocked:hover { opacity: 0.8; }
+.tq-sidebar-inner { width: 300px; height: 100%; display: flex; flex-direction: column; transition: opacity 0.2s ease; }
+.tq-root.is-collapsed .tq-sidebar-inner { opacity: 0; }
 
-.tq-node-title { font-size: 0.85rem; font-weight: 600; text-align: center; pointer-events: none; color: var(--text-normal); line-height: 1.2; }
-.tq-line { stroke: var(--background-modifier-border); stroke-width: 2.5; fill: none; opacity: 0.7; }
-.tq-arrowhead { fill: var(--background-modifier-border); opacity: 0.9; }
-.tq-priority-dot { position: absolute; top: 6px; right: 6px; width: 7px; height: 7px; border-radius: 50%; }
+.tq-collapse-btn { 
+    position: absolute; right: 10px; top: 7px; width: 26px; height: 26px; 
+    display: flex; align-items: center; justify-content: center; 
+    cursor: pointer; border-radius: 4px; background: var(--background-secondary); 
+    border: 1px solid var(--background-modifier-border); font-size: 0.8rem; z-index: 110;
+    transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1); pointer-events: auto;
+}
+.tq-collapse-btn:hover { background: var(--background-modifier-hover); }
+
+.tq-main { 
+    position: absolute; left: 0; top: 0; width: 100%; height: 100%; 
+    display: flex; flex-direction: column; 
+    transition: padding-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 300px;
+}
+.tq-root.is-collapsed .tq-main { padding-left: 0; }
+
+.tq-sidebar-section { display: flex; flex-direction: column; min-height: 0; flex: 1; border-bottom: 1px solid var(--background-modifier-border); }
+.tq-sidebar-header { padding: 6px 10px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; opacity: 0.8; background: var(--background-secondary-alt); min-height: 40px; display: flex; align-items: center; white-space: nowrap; }
+.tq-search-container { padding: 5px 10px; background: var(--background-secondary-alt); }
+.tq-small-input { width: 100%; background: var(--background-primary); border: 1px solid var(--background-modifier-border); color: var(--text-normal); border-radius: 4px; padding: 4px 8px; font-size: 0.75rem; }
+.tq-scroll-list { flex: 1; overflow-y: auto; padding: 10px; }
+
+.tq-inspector-title { padding: 15px 10px; font-weight: bold; font-size: 1.1rem; border-bottom: 1px solid var(--background-modifier-border); color: var(--interactive-accent); text-align:center; }
+.tq-back-btn { cursor: pointer; opacity: 0.6; font-size: 0.7rem; text-decoration: underline; margin-left: auto; margin-right: 35px; }
+
+.tq-parent-pill { display: flex; justify-content: space-between; align-items: center; background: var(--background-primary); padding: 6px 10px; margin-bottom: 5px; border-radius: 4px; border: 1px solid var(--background-modifier-border); font-size: 0.85rem; }
+.tq-remove-btn { cursor: pointer; color: var(--text-error); font-weight: bold; padding: 0 5px; }
+.tq-add-parent-btn { width: 100%; margin-top: 10px; padding: 8px; cursor: pointer; background: var(--interactive-accent); color: white; border: none; border-radius: 4px; font-size: 0.8rem; }
+
+.tq-map { flex: 1; position: relative; overflow: hidden; cursor: grab; }
+.tq-world { position: absolute; transform-origin: 0 0; width: 20000px; height: 10000px; }
+
+/* NODE STYLES */
+.tq-node { 
+    position: absolute; 
+    background: var(--background-secondary); 
+    border: 1px solid var(--background-modifier-border); 
+    border-radius: 8px; 
+    cursor: pointer; 
+    z-index: 10; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 10px; 
+    box-shadow: var(--shadow-s); 
+    transition: transform 0.2s ease, border 0.2s ease, background 0.2s ease; 
+}
+
+/* THE HOVER EFFECT YOU ASKED FOR */
+.tq-node:hover {
+    border-color: var(--interactive-accent);
+    background: var(--background-modifier-hover);
+    transform: translateY(-2px); /* Slight lift to indicate it's active */
+}
+
+.tq-node.is-goal { border-top: 3px solid var(--interactive-accent); background: var(--background-secondary-alt); }
+.tq-node.is-active { border: 2px solid var(--interactive-accent); box-shadow: 0 0 10px var(--interactive-accent); }
+.tq-node.drop-hover { border: 2px dashed var(--interactive-accent) !important; background: rgba(var(--interactive-accent-rgb), 0.15) !important; transform: scale(1.05); z-index: 20; }
+.tq-node-title { font-size: 0.8rem; font-weight: 600; pointer-events: none; text-align: center; line-height: 1.2; }
+.tq-line { stroke: var(--background-modifier-border); stroke-width: 2; fill: none; opacity: 0.3; }
+
+.tq-inbox-item { padding: 10px; margin-bottom: 8px; background: var(--background-primary); border-radius: 6px; font-size: 0.85rem; cursor: grab; border: 1px solid var(--background-modifier-border); box-shadow: var(--shadow-s); transition: border-color 0.2s ease; }
+.tq-inbox-item:hover { border-color: var(--interactive-accent); }
+.tq-goal-filter-item { display: flex; align-items: center; gap: 8px; padding: 4px 0; font-size: 0.85rem; cursor: pointer; }
 `;
 
-async function startDashboard(app, dashboardLeaf) {
+async function startDashboard(params, dashboardLeaf) {
+    const { app, quickAddApi } = params;
     const container = dashboardLeaf.view.containerEl;
     container.empty();
     container.createEl("style", { text: CSS });
 
     const root = container.createDiv("tq-root");
-    const sidebar = root.createDiv("tq-sidebar");
-    const mapArea = root.createDiv("tq-map");
+    const main = root.createDiv("tq-main");
+    const mapArea = main.createDiv("tq-map");
     const world = mapArea.createDiv("tq-world");
     const svg = world.createSvg("svg", { cls: "tq-svg" });
-    svg.setAttribute("width", "10000"); svg.setAttribute("height", "10000");
+    svg.setAttribute("width", "20000"); svg.setAttribute("height", "10000");
 
+    const sidebar = root.createDiv("tq-sidebar");
+    const collapseBtn = sidebar.createDiv("tq-collapse-btn");
+    collapseBtn.innerText = "◀";
+    collapseBtn.onclick = () => {
+        const isCollapsed = root.classList.toggle("is-collapsed");
+        collapseBtn.innerText = isCollapsed ? "▶" : "◀";
+    };
+
+    const sidebarInner = sidebar.createDiv("tq-sidebar-inner");
+    
     let allTasks = [];
-    let selectedTask = null;
-    let scale = 0.8, offsetX = 0, offsetY = 0;
+    let selectedGoalPaths = new Set(["all"]); 
+    let activeNodeId = null;
+    let goalQuery = "", inboxQuery = "";
+    let scale = 0.8, offsetX = 100, offsetY = 100;
 
-    const openInNewTab = async (file) => {
-        const newLeaf = app.workspace.createLeafInParent(dashboardLeaf.parent, dashboardLeaf.parent.children.length);
-        await newLeaf.openFile(file);
+    const updateWorldTransform = () => {
+        world.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
+    };
+
+    const renderSidebar = () => {
+        sidebarInner.empty();
+        
+        if (activeNodeId) {
+            const task = allTasks.find(t => t.id === activeNodeId);
+            if (!task) { activeNodeId = null; renderSidebar(); return; }
+
+            const header = sidebarInner.createDiv("tq-sidebar-header");
+            header.createSpan({ text: "Node Inspector" });
+            const back = header.createSpan({ text: "Close", cls: "tq-back-btn" });
+            back.onclick = () => { activeNodeId = null; render(); };
+
+            sidebarInner.createDiv({ text: task.title, cls: "tq-inspector-title" });
+            const scroll = sidebarInner.createDiv("tq-scroll-list");
+            scroll.createDiv({ text: "Current Parents", cls: "tq-sidebar-header", style: "background:transparent; padding: 10px 0;" });
+            
+            task.parentNames.forEach(pName => {
+                const pill = scroll.createDiv("tq-parent-pill");
+                pill.createSpan({ text: pName });
+                const remove = pill.createSpan({ text: "✕", cls: "tq-remove-btn" });
+                remove.onclick = async () => {
+                    await app.fileManager.processFrontMatter(task.file, (fm) => {
+                        let p = fm["parent"] || [];
+                        if (!Array.isArray(p)) p = [p];
+                        fm["parent"] = p.filter(linkStr => {
+                            const clean = String(linkStr).replace(/[\[\]]/g, "").split("|")[0].trim();
+                            return clean.toLowerCase() !== pName.toLowerCase();
+                        });
+                    });
+                    setTimeout(() => render(), 200);
+                };
+            });
+
+            const addBtn = scroll.createEl("button", { text: "+ Add Parent", cls: "tq-add-parent-btn" });
+            addBtn.onclick = async () => {
+                const choices = allTasks.filter(t => t.id !== task.id).map(t => t.title);
+                const choice = await quickAddApi.suggester(choices, choices);
+                if (choice) {
+                    await app.fileManager.processFrontMatter(task.file, (fm) => {
+                        let p = fm["parent"] || [];
+                        if (!Array.isArray(p)) p = [p];
+                        const link = `[[${choice}]]`;
+                        if (!p.includes(link)) { p.push(link); fm["parent"] = p; }
+                    });
+                    setTimeout(() => render(), 200);
+                }
+            };
+        } else {
+            const inboxSec = sidebarInner.createDiv("tq-sidebar-section");
+            const inboxHead = inboxSec.createDiv("tq-sidebar-header");
+            const inboxTitle = inboxHead.createSpan();
+            const inboxInput = inboxSec.createDiv("tq-search-container").createEl("input", { cls: "tq-small-input", placeholder: "Search inbox..." });
+            inboxInput.value = inboxQuery;
+            const inboxList = inboxSec.createDiv("tq-scroll-list");
+
+            const goalSec = sidebarInner.createDiv("tq-sidebar-section");
+            goalSec.createDiv("tq-sidebar-header").createSpan({ text: "Goal Filters" });
+            const goalInput = goalSec.createDiv("tq-search-container").createEl("input", { cls: "tq-small-input", placeholder: "Search goals..." });
+            goalInput.value = goalQuery;
+            const goalList = goalSec.createDiv("tq-scroll-list");
+
+            const updateInboxList = () => {
+                inboxQuery = inboxInput.value;
+                inboxList.empty();
+                const unparented = allTasks.filter(t => t.isTask && !t.isGoal && t.parents.length === 0);
+                const filtered = unparented.filter(t => t.title.toLowerCase().includes(inboxQuery.toLowerCase()));
+                inboxTitle.innerText = `Task Inbox (${filtered.length})`;
+                filtered.forEach(t => {
+                    const item = inboxList.createDiv({ text: t.title, cls: "tq-inbox-item" });
+                    item.draggable = true;
+                    item.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", t.id));
+                    item.onclick = (e) => {
+                        if (e.metaKey || e.ctrlKey) { activeNodeId = t.id; render(); }
+                        else app.workspace.getLeaf(false).openFile(t.file);
+                    };
+                });
+            };
+
+            const updateGoalList = () => {
+                goalQuery = goalInput.value;
+                goalList.empty();
+                const createFilter = (label, id) => {
+                    const item = goalList.createDiv("tq-goal-filter-item");
+                    const cb = item.createEl("input", { type: "checkbox" });
+                    cb.checked = selectedGoalPaths.has(id);
+                    item.createSpan({ text: label });
+                    item.onclick = () => {
+                        if (id === "all") { selectedGoalPaths.clear(); selectedGoalPaths.add("all"); }
+                        else { 
+                            selectedGoalPaths.delete("all");
+                            selectedGoalPaths.has(id) ? selectedGoalPaths.delete(id) : selectedGoalPaths.add(id);
+                            if (selectedGoalPaths.size === 0) selectedGoalPaths.add("all");
+                        }
+                        render();
+                    };
+                };
+                createFilter("Show All Goals", "all");
+                allTasks.filter(t => t.isGoal && t.title.toLowerCase().includes(goalQuery.toLowerCase()))
+                        .forEach(g => createFilter(g.title, g.id));
+            };
+
+            inboxInput.oninput = updateInboxList;
+            goalInput.oninput = updateGoalList;
+            updateInboxList(); updateGoalList();
+        }
     };
 
     const render = async () => {
         const data = await collectTasks(app);
         allTasks = data.allTasks;
+        renderSidebar();
 
-        sidebar.empty();
-        sidebar.createDiv({ text: "Inbox (Unlinked)", cls: "tq-sidebar-header" });
-        const inbox = sidebar.createDiv("tq-inbox");
-        
-        const unlinked = allTasks.filter(t => t.parents.length === 0 && t.unlocks.length === 0);
-        unlinked.forEach(t => {
-            const item = inbox.createDiv({ text: t.title, cls: "tq-inbox-item" });
-            if (selectedTask?.id === t.id) item.classList.add("selected");
-            item.onclick = () => { selectedTask = t; render(); };
-        });
+        world.querySelectorAll('.tq-node, .tq-line').forEach(n => n.remove());
+        let visibleTasksSet = new Set();
+        let roots = [];
 
-        if (selectedTask) {
-            sidebar.createDiv({ text: "Triage Properties", cls: "tq-sidebar-header" });
-            const editor = sidebar.createDiv("tq-bases-editor");
-            const pF = editor.createDiv("tq-field");
-            pF.createEl("label", { text: "Priority" });
-            const pS = pF.createEl("select");
-            [0,1,2,3].forEach(v => pS.createEl("option", { text: `P${v}`, value: v }));
-            pS.value = selectedTask.priority;
-            pS.onchange = async () => { await updateYAML(app, selectedTask.file, "priority", parseInt(pS.value)); render(); };
-
-            const bF = editor.createDiv("tq-field");
-            bF.createEl("label", { text: "Blocked By" });
-            const bI = bF.createEl("input", { value: selectedTask.blockedBy.join(", ") });
-            bI.onblur = async () => {
-                const val = bI.value.split(",").map(s => s.trim()).filter(s => s);
-                await updateYAML(app, selectedTask.file, "blockedBy", val);
-                render();
-            };
-            const openBtn = editor.createEl("button", { text: "Open Note ↗", style: "margin-top:5px; cursor:pointer;" });
-            openBtn.onclick = () => openInNewTab(selectedTask.file);
+        if (selectedGoalPaths.has("all")) {
+            allTasks.filter(t => t.isGoal || t.parents.length > 0 || t.children.length > 0).forEach(t => visibleTasksSet.add(t));
+            roots = allTasks.filter(t => t.parents.length === 0 && visibleTasksSet.has(t));
+        } else {
+            selectedGoalPaths.forEach(id => {
+                const rg = allTasks.find(t => t.id === id);
+                if (rg) {
+                    const walk = (n) => { if (!visibleTasksSet.has(n)) { visibleTasksSet.add(n); n.children.forEach(walk); } };
+                    roots.push(rg); walk(rg);
+                }
+            });
         }
 
-        // --- MAP RENDER (SUMMIT VIEW) ---
-        world.querySelectorAll('.tq-node, .tq-line, .tq-arrowhead').forEach(n => n.remove());
-        const treeTasks = allTasks.filter(t => t.parents.length > 0 || t.unlocks.length > 0);
-        if (treeTasks.length === 0) return;
-
-        const nodeCount = treeTasks.length;
-        const NODE_W = nodeCount > 50 ? 140 : (nodeCount > 20 ? 160 : 180);
-        const NODE_H = nodeCount > 50 ? 50 : 60;
-        const HORIZ_GAP = NODE_W + (nodeCount > 50 ? 30 : 60);
-        const VERT_GAP = NODE_H + (nodeCount > 50 ? 80 : 120);
-
+        const visibleTasks = Array.from(visibleTasksSet);
         const coords = new Map();
-        const levels = {};
-        treeTasks.forEach(t => { if (!levels[t.level]) levels[t.level] = []; levels[t.level].push(t); });
+        const NODE_W = 160, NODE_H = 50, HORIZ_GAP = 200, VERT_GAP = 120;
+        let currentTreeX = 150;
 
-        const maxLevel = Math.max(...treeTasks.map(t => t.level));
-        const maxNodesInLevel = Math.max(...Object.values(levels).map(l => l.length));
+        const initialPassX = (node) => {
+            if (coords.has(node.id)) return coords.get(node.id).x;
+            const validChildren = node.children.filter(c => visibleTasksSet.has(c));
+            if (validChildren.length === 0) {
+                const x = currentTreeX;
+                coords.set(node.id, { x, y: node.level * VERT_GAP + 100 });
+                currentTreeX += HORIZ_GAP;
+                return x;
+            } else {
+                const childXs = validChildren.map(c => initialPassX(c));
+                const minX = Math.min(...childXs);
+                const maxX = Math.max(...childXs);
+                const centerX = (minX + maxX) / 2;
+                coords.set(node.id, { x: centerX, y: node.level * VERT_GAP + 100 });
+                return centerX;
+            }
+        };
 
-        Object.keys(levels).forEach(lvl => {
-            levels[lvl].forEach((t, i) => {
-                const x = i * HORIZ_GAP + 100;
-                const y = (maxLevel - t.level) * VERT_GAP + 100; 
-                coords.set(t.id, { x, y });
+        roots.forEach(root => { initialPassX(root); currentTreeX += HORIZ_GAP; });
 
-                const node = world.createDiv("tq-node");
-                node.style.width = `${NODE_W}px`;
-                node.style.height = `${NODE_H}px`;
-                node.style.left = `${x}px`; node.style.top = `${y}px`;
-                
-                // DIMMING LOGIC
-                if (t.level === 0) node.classList.add("tq-ready");
-                else node.classList.add("tq-blocked");
+        const lvls = [...new Set(visibleTasks.map(t => t.level))].sort((a,b) => a-b);
+        lvls.forEach(lvl => {
+            const levelNodes = visibleTasks.filter(t => t.level === lvl).sort((a,b) => (coords.get(a.id)?.x || 0) - (coords.get(b.id)?.x || 0));
+            for(let i=1; i<levelNodes.length; i++) {
+                const prev = coords.get(levelNodes[i-1].id);
+                const curr = coords.get(levelNodes[i].id);
+                if (curr && prev && curr.x < prev.x + HORIZ_GAP) curr.x = prev.x + HORIZ_GAP;
+            }
+        });
 
-                const colors = ["transparent", "var(--text-muted)", "var(--text-warning)", "var(--text-error)"];
-                node.createDiv({ cls: "tq-priority-dot" }).style.background = colors[t.priority] || "grey";
-                node.createDiv({ text: t.title, cls: "tq-node-title" });
-                node.onclick = () => openInNewTab(t.file);
+        visibleTasks.forEach(t => {
+            const pos = coords.get(t.id);
+            if (!pos) return;
+            const node = world.createDiv("tq-node");
+            if (t.isGoal) node.classList.add("is-goal");
+            if (t.id === activeNodeId) node.classList.add("is-active");
+            node.style.width = `${NODE_W}px`;
+            node.style.left = `${pos.x}px`; node.style.top = `${pos.y}px`;
+            node.createDiv({ text: t.title, cls: "tq-node-title" });
+            
+            node.onclick = (e) => {
+                e.stopPropagation();
+                if (e.metaKey || e.ctrlKey) {
+                    activeNodeId = t.id;
+                    root.classList.remove("is-collapsed");
+                    render();
+                } else app.workspace.getLeaf(false).openFile(t.file);
+            };
+
+            node.addEventListener("dragover", (e) => { e.preventDefault(); node.classList.add("drop-hover"); });
+            node.addEventListener("dragleave", () => node.classList.remove("drop-hover"));
+            node.addEventListener("drop", async (e) => {
+                e.preventDefault();
+                node.classList.remove("drop-hover");
+                const childId = e.dataTransfer.getData("text/plain");
+                const childFile = app.vault.getAbstractFileByPath(childId);
+                if (childFile) {
+                    await app.fileManager.processFrontMatter(childFile, (fm) => { 
+                        let p = fm["parent"] || [];
+                        if (!Array.isArray(p)) p = [p];
+                        const link = `[[${t.file.basename}]]`;
+                        if (!p.includes(link)) { p.push(link); fm["parent"] = p; }
+                    });
+                    setTimeout(() => render(), 150);
+                }
             });
         });
 
-        // --- ARROW LOGIC (Pointing UP from Foundation to Goal) ---
-        treeTasks.forEach(parent => {
+        visibleTasks.forEach(parent => {
             const p = coords.get(parent.id);
-            parent.unlocks.forEach(child => {
+            parent.children.forEach(child => {
+                if (!visibleTasksSet.has(child)) return;
                 const c = coords.get(child.id);
-                
-                // Ensure perfect center-alignment
-                const x1 = p.x + (NODE_W / 2);
-                const y1 = p.y; 
-                const x2 = c.x + (NODE_W / 2);
-                const y2 = c.y + NODE_H + 3; // Gap for the arrow base
-
+                if (!p || !c) return;
+                const x1 = p.x + (NODE_W/2), y1 = p.y + NODE_H;
+                const x2 = c.x + (NODE_W/2), y2 = c.y;
                 const path = svg.createSvg("path", { cls: "tq-line" });
-                path.setAttribute("d", `M ${x1} ${y1} C ${x1} ${y1-60}, ${x2} ${y2+60}, ${x2} ${y2}`);
-
-                const arrowSize = 14;
-                const triangle = svg.createSvg("polygon", { cls: "tq-arrowhead" });
-                const points = [
-                    `${x2},${y2-2}`,                     // Tip
-                    `${x2 - arrowSize/2},${y2 + arrowSize}`, // Left
-                    `${x2 + arrowSize/2},${y2 + arrowSize}`  // Right
-                ].join(" ");
-                triangle.setAttribute("points", points);
+                path.setAttribute("d", `M ${x1} ${y1} C ${x1} ${y1+40}, ${x2} ${y2-40}, ${x2} ${y2}`);
             });
         });
 
-        // --- AUTO-FIT ON LOAD ---
-        const graphW = maxNodesInLevel * HORIZ_GAP;
-        const graphH = (maxLevel + 1) * VERT_GAP;
-        const viewW = mapArea.clientWidth;
-        const viewH = mapArea.clientHeight;
-
-        const scaleW = (viewW - 100) / graphW;
-        const scaleH = (viewH - 100) / graphH;
-        scale = Math.min(scaleW, scaleH, 1.0);
-        if (scale < 0.2) scale = 0.2;
-
-        offsetX = (viewW - (graphW * scale)) / 2;
-        offsetY = (viewH - (graphH * scale)) / 2;
-        world.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
+        updateWorldTransform();
     };
 
-    // --- PAN/ZOOM (ZOOM TO CURSOR) ---
-    let isPanning = false, startX, startY;
-    mapArea.onmousedown = (e) => { 
-        if (e.target.closest('.tq-node') || e.target.closest('button') || e.target.closest('select') || e.target.closest('input')) return;
-        isPanning = true; startX = e.clientX; startY = e.clientY;
-        mapArea.style.cursor = 'grabbing';
-    };
+    mapArea.onclick = () => { activeNodeId = null; render(); };
 
-    window.onmousemove = (e) => { 
-        if (!isPanning) return;
-        offsetX += e.clientX - startX; offsetY += e.clientY - startY; 
-        startX = e.clientX; startY = e.clientY; 
-        world.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
-    };
-
-    window.onmouseup = () => { isPanning = false; mapArea.style.cursor = 'grab'; };
+    let isPanning = false, sx, sy;
+    mapArea.onmousedown = (e) => { if (e.target === mapArea || e.target === world || e.target === svg) { isPanning = true; sx = e.clientX; sy = e.clientY; } };
+    window.onmousemove = (e) => { if (isPanning) { offsetX += e.clientX - sx; offsetY += e.clientY - sy; sx = e.clientX; sy = e.clientY; updateWorldTransform(); } };
+    window.onmouseup = () => isPanning = false;
 
     mapArea.onwheel = (e) => {
         e.preventDefault();
         const rect = mapArea.getBoundingClientRect();
-        
-        // Mouse position relative to the mapArea
-        const mouseX = e.clientX - rect.left;
-        const mouseY = e.clientY - rect.top;
-
-        // "World" coordinates under the mouse (before new scale)
-        const worldX = (mouseX - offsetX) / scale;
-        const worldY = (mouseY - offsetY) / scale;
-
-        // Apply new scale
-        const delta = e.deltaY > 0 ? 0.9 : 1.1;
-        const newScale = Math.min(Math.max(0.1, scale * delta), 4.0);
-
-        // Adjust offsets so the world point stays under the mouse
-        offsetX = mouseX - worldX * newScale;
-        offsetY = mouseY - worldY * newScale;
-        scale = newScale;
-
-        world.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
+        const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+        const zoom = e.deltaY > 0 ? 0.9 : 1.1;
+        const oldS = scale;
+        scale = Math.min(Math.max(0.1, scale * zoom), 4.0);
+        if (scale !== oldS) {
+            const ratio = scale / oldS;
+            offsetX = mx - (mx - offsetX) * ratio;
+            offsetY = my - (my - offsetY) * ratio;
+            updateWorldTransform();
+        }
     };
 
     render();
-    setTimeout(render, 100);
 }
 
 module.exports = async (params) => {
     const { app } = params;
     const leaf = app.workspace.getLeaf("tab");
-    leaf.view.getDisplayText = () => "Dashboard";
-    leaf.getDisplayText = () => "Dashboard";
+    leaf.view.getDisplayText = () => "Goals Graph";
     if (leaf.updateHeader) leaf.updateHeader();
     app.workspace.trigger("view-titles-changed");
-    app.workspace.setActiveLeaf(leaf, { focus: true });
-    await startDashboard(app, leaf);
+    await startDashboard(params, leaf);
 };
