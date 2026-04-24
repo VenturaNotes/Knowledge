@@ -115,28 +115,9 @@ const CSS = `
 .tq-map { flex: 1; position: relative; overflow: hidden; cursor: grab; }
 .tq-world { position: absolute; transform-origin: 0 0; width: 20000px; height: 10000px; }
 
-/* NODE STYLES */
-.tq-node { 
-    position: absolute; 
-    background: var(--background-secondary); 
-    border: 1px solid var(--background-modifier-border); 
-    border-radius: 8px; 
-    cursor: pointer; 
-    z-index: 10; 
-    display: flex; 
-    flex-direction: column; 
-    padding: 10px; 
-    box-shadow: var(--shadow-s); 
-    transition: transform 0.2s ease, border 0.2s ease, background 0.2s ease; 
-}
-
-/* THE HOVER EFFECT YOU ASKED FOR */
-.tq-node:hover {
-    border-color: var(--interactive-accent);
-    background: var(--background-modifier-hover);
-    transform: translateY(-2px); /* Slight lift to indicate it's active */
-}
-
+/* HOVER EFFECT ON NODES */
+.tq-node { position: absolute; background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 8px; cursor: pointer; z-index: 10; display: flex; flex-direction: column; padding: 10px; box-shadow: var(--shadow-s); transition: transform 0.2s ease, border 0.2s ease, background 0.2s ease; }
+.tq-node:hover { border-color: var(--interactive-accent); background: var(--background-modifier-hover); }
 .tq-node.is-goal { border-top: 3px solid var(--interactive-accent); background: var(--background-secondary-alt); }
 .tq-node.is-active { border: 2px solid var(--interactive-accent); box-shadow: 0 0 10px var(--interactive-accent); }
 .tq-node.drop-hover { border: 2px dashed var(--interactive-accent) !important; background: rgba(var(--interactive-accent-rgb), 0.15) !important; transform: scale(1.05); z-index: 20; }
@@ -176,12 +157,21 @@ async function startDashboard(params, dashboardLeaf) {
     let activeNodeId = null;
     let goalQuery = "", inboxQuery = "";
     let scale = 0.8, offsetX = 100, offsetY = 100;
+    
+    // PERSISTENT SCROLL TRACKER
+    let lastInboxScroll = 0;
 
     const updateWorldTransform = () => {
         world.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
     };
 
     const renderSidebar = () => {
+        // SAVE SCROLL POSITION BEFORE CLEARING
+        const existingInboxList = sidebarInner.querySelector(".tq-sidebar-section:first-child .tq-scroll-list");
+        if (existingInboxList) {
+            lastInboxScroll = existingInboxList.scrollTop;
+        }
+
         sidebarInner.empty();
         
         if (activeNodeId) {
@@ -257,6 +247,9 @@ async function startDashboard(params, dashboardLeaf) {
                         else app.workspace.getLeaf(false).openFile(t.file);
                     };
                 });
+                
+                // RESTORE SCROLL POSITION AFTER FILLING
+                inboxList.scrollTop = lastInboxScroll;
             };
 
             const updateGoalList = () => {
