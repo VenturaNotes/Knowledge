@@ -3758,7 +3758,7 @@ Year: 2021-09-01
 	2554. simply connected
 	2555. Simpson's paradox
 	2556. [[Simson line]]
-	2557. simulation
+	2557. [[simulation]]
 	2558. simultaneity
 	2559. simultaneous linear differential equations
 	2560. simultaneous linear equations
@@ -3797,7 +3797,7 @@ Year: 2021-09-01
 	2590. Smith normal form
 	
 	2591. smooth
-	2592. smoothly hinged
+	2592. [[smoothly hinged]]
 	2593. smoothness condition
 	2594. smooth surface(in mechanics)
 	2595. Sn
@@ -3841,7 +3841,7 @@ Year: 2021-09-01
 	2630. spherical angle
 	
 	2631. spherical cap
-	2632. spherically symmetric
+	2632. [[spherically symmetric]]
 	2633. spherical polar coordinates
 	2634. spherical triangle
 	2635. spherical trigonometry
