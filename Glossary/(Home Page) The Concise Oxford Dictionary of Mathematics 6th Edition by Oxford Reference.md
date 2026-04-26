@@ -3867,7 +3867,7 @@ Year: 2021-09-01
 	2653. SSS
 	2654. stabilizer
 	2655. stable equilibrium
-	2656. stable numerical analysis
+	2656. [[stable numerical analysis]]
 	2657. stagnation point
 	2658. standard basis
 	2659. standard deviation
@@ -3921,7 +3921,7 @@ Year: 2021-09-01
 	2701. string
 	2702. string
 	2703. strong convergence
-	2704. stronger statement
+	2704. [[stronger statement]]
 	2705. strong law of large numbers
 	2706. structuralism
 	2707. Structure Theorem(for modules)
@@ -3944,7 +3944,7 @@ Year: 2021-09-01
 	2722. subsequence
 	2723. subset
 	2724. subspace
-	2725. subspace topology
+	2725. [[subspace topology]]
 	2726. substitution group
 		1. A synonym for Permutation Group
 	2727. sufficiently large

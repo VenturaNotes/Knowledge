@@ -1,9 +1,11 @@
 "use strict";
 
-const SKIP_PATHS = ["Templates", "- Templates", "Archive"];
+const SKIP_PATHS =["Templates", "- Templates", "Archive"];
+const FILTER_STORAGE_KEY = "tq-goals-graph-filters";
+const VIEW_STORAGE_KEY = "tq-goals-graph-view-state";
 
 async function collectTasks(app) {
-    const allTasks = [];
+    const allTasks =[];
     const titleToTask = new Map();
     const files = app.vault.getMarkdownFiles();
 
@@ -13,9 +15,9 @@ async function collectTasks(app) {
         if (!cache) continue;
 
         const fm = cache.frontmatter || {};
-        const cacheTags = (cache.tags || []).map(t => t.tag.toLowerCase());
+        const cacheTags = (cache.tags ||[]).map(t => t.tag.toLowerCase());
         const fmTags = (Array.isArray(fm.tags) ? fm.tags : [fm.tags]).map(t => String(t).toLowerCase());
-        const combinedTags = [...new Set([...cacheTags, ...fmTags])];
+        const combinedTags =[...new Set([...cacheTags, ...fmTags])];
         
         const isTask = combinedTags.some(t => t.includes("task"));
         const isGoal = combinedTags.some(t => t.includes("goal"));
@@ -36,7 +38,7 @@ async function collectTasks(app) {
             isTask: isTask,
             parentNames: parentNames,
             children: [], 
-            parents: [],  
+            parents:[],  
             level: 0
         };
         allTasks.push(task);
@@ -112,17 +114,20 @@ const CSS = `
 .tq-remove-btn { cursor: pointer; color: var(--text-error); font-weight: bold; padding: 0 5px; }
 .tq-add-parent-btn { width: 100%; margin-top: 10px; padding: 8px; cursor: pointer; background: var(--interactive-accent); color: white; border: none; border-radius: 4px; font-size: 0.8rem; }
 
-.tq-map { flex: 1; position: relative; overflow: hidden; cursor: grab; }
-.tq-world { position: absolute; transform-origin: 0 0; width: 20000px; height: 10000px; }
+.tq-map { flex: 1; position: relative; overflow: hidden; cursor: grab; touch-action: none; }
+.tq-root.is-grabbing, .tq-root.is-grabbing * { cursor: grabbing !important; }
 
-/* HOVER EFFECT ON NODES */
+.tq-world { position: absolute; transform-origin: 0 0; width: 20000px; height: 10000px; }
+.tq-svg { position: absolute; top: 0; left: 0; z-index: 5; pointer-events: none; }
 .tq-node { position: absolute; background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 8px; cursor: pointer; z-index: 10; display: flex; flex-direction: column; padding: 10px; box-shadow: var(--shadow-s); transition: transform 0.2s ease, border 0.2s ease, background 0.2s ease; }
 .tq-node:hover { border-color: var(--interactive-accent); background: var(--background-modifier-hover); }
+
 .tq-node.is-goal { border-top: 3px solid var(--interactive-accent); background: var(--background-secondary-alt); }
 .tq-node.is-active { border: 2px solid var(--interactive-accent); box-shadow: 0 0 10px var(--interactive-accent); }
 .tq-node.drop-hover { border: 2px dashed var(--interactive-accent) !important; background: rgba(var(--interactive-accent-rgb), 0.15) !important; transform: scale(1.05); z-index: 20; }
 .tq-node-title { font-size: 0.8rem; font-weight: 600; pointer-events: none; text-align: center; line-height: 1.2; }
-.tq-line { stroke: var(--background-modifier-border); stroke-width: 2; fill: none; opacity: 0.3; }
+.tq-line { stroke: var(--text-muted); stroke-width: 1.5; fill: none; opacity: 0.5; }
+.tq-arrowhead { fill: var(--text-muted); opacity: 0.5; }
 
 .tq-inbox-item { padding: 10px; margin-bottom: 8px; background: var(--background-primary); border-radius: 6px; font-size: 0.85rem; cursor: grab; border: 1px solid var(--background-modifier-border); box-shadow: var(--shadow-s); transition: border-color 0.2s ease; }
 .tq-inbox-item:hover { border-color: var(--interactive-accent); }
@@ -139,6 +144,7 @@ async function startDashboard(params, dashboardLeaf) {
     const main = root.createDiv("tq-main");
     const mapArea = main.createDiv("tq-map");
     const world = mapArea.createDiv("tq-world");
+    
     const svg = world.createSvg("svg", { cls: "tq-svg" });
     svg.setAttribute("width", "20000"); svg.setAttribute("height", "10000");
 
@@ -152,28 +158,43 @@ async function startDashboard(params, dashboardLeaf) {
 
     const sidebarInner = sidebar.createDiv("tq-sidebar-inner");
     
-    let allTasks = [];
-    let selectedGoalPaths = new Set(["all"]); 
+    let allTasks =[];
+    const savedFilters = localStorage.getItem(FILTER_STORAGE_KEY);
+    let selectedGoalPaths = new Set(savedFilters ? JSON.parse(savedFilters) : ["all"]);
+
+    const savedView = localStorage.getItem(VIEW_STORAGE_KEY);
+    const viewState = savedView ? JSON.parse(savedView) : { scale: 0.8, offsetX: 100, offsetY: 100 };
+    
+    let scale = viewState.scale;
+    let offsetX = viewState.offsetX;
+    let offsetY = viewState.offsetY;
+
     let activeNodeId = null;
     let goalQuery = "", inboxQuery = "";
-    let scale = 0.8, offsetX = 100, offsetY = 100;
     
-    // PERSISTENT SCROLL TRACKER
+    // ADDED BACK: Tracks the scroll position of the inbox list
     let lastInboxScroll = 0;
 
     const updateWorldTransform = () => {
         world.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
     };
 
+    const saveGoalFilters = () => {
+        localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(Array.from(selectedGoalPaths)));
+    };
+
+    const saveViewState = () => {
+        localStorage.setItem(VIEW_STORAGE_KEY, JSON.stringify({ scale, offsetX, offsetY }));
+    };
+
     const renderSidebar = () => {
-        // SAVE SCROLL POSITION BEFORE CLEARING
+        // ADDED BACK: Capture the current scroll state before clearing the sidebar
         const existingInboxList = sidebarInner.querySelector(".tq-sidebar-section:first-child .tq-scroll-list");
         if (existingInboxList) {
             lastInboxScroll = existingInboxList.scrollTop;
         }
 
         sidebarInner.empty();
-        
         if (activeNodeId) {
             const task = allTasks.find(t => t.id === activeNodeId);
             if (!task) { activeNodeId = null; renderSidebar(); return; }
@@ -193,7 +214,7 @@ async function startDashboard(params, dashboardLeaf) {
                 const remove = pill.createSpan({ text: "✕", cls: "tq-remove-btn" });
                 remove.onclick = async () => {
                     await app.fileManager.processFrontMatter(task.file, (fm) => {
-                        let p = fm["parent"] || [];
+                        let p = fm["parent"] ||[];
                         if (!Array.isArray(p)) p = [p];
                         fm["parent"] = p.filter(linkStr => {
                             const clean = String(linkStr).replace(/[\[\]]/g, "").split("|")[0].trim();
@@ -210,7 +231,7 @@ async function startDashboard(params, dashboardLeaf) {
                 const choice = await quickAddApi.suggester(choices, choices);
                 if (choice) {
                     await app.fileManager.processFrontMatter(task.file, (fm) => {
-                        let p = fm["parent"] || [];
+                        let p = fm["parent"] ||[];
                         if (!Array.isArray(p)) p = [p];
                         const link = `[[${choice}]]`;
                         if (!p.includes(link)) { p.push(link); fm["parent"] = p; }
@@ -243,12 +264,12 @@ async function startDashboard(params, dashboardLeaf) {
                     item.draggable = true;
                     item.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", t.id));
                     item.onclick = (e) => {
-                        if (e.metaKey || e.ctrlKey) { activeNodeId = t.id; render(); }
+                        if (e.metaKey || e.ctrlKey) { activeNodeId = t.id; root.classList.remove("is-collapsed"); render(); }
                         else app.workspace.getLeaf(false).openFile(t.file);
                     };
                 });
                 
-                // RESTORE SCROLL POSITION AFTER FILLING
+                // ADDED BACK: Restore the saved scroll position
                 inboxList.scrollTop = lastInboxScroll;
             };
 
@@ -267,12 +288,12 @@ async function startDashboard(params, dashboardLeaf) {
                             selectedGoalPaths.has(id) ? selectedGoalPaths.delete(id) : selectedGoalPaths.add(id);
                             if (selectedGoalPaths.size === 0) selectedGoalPaths.add("all");
                         }
+                        saveGoalFilters();
                         render();
                     };
                 };
                 createFilter("Show All Goals", "all");
-                allTasks.filter(t => t.isGoal && t.title.toLowerCase().includes(goalQuery.toLowerCase()))
-                        .forEach(g => createFilter(g.title, g.id));
+                allTasks.filter(t => t.isGoal && t.title.toLowerCase().includes(goalQuery.toLowerCase())).forEach(g => createFilter(g.title, g.id));
             };
 
             inboxInput.oninput = updateInboxList;
@@ -286,79 +307,108 @@ async function startDashboard(params, dashboardLeaf) {
         allTasks = data.allTasks;
         renderSidebar();
 
-        world.querySelectorAll('.tq-node, .tq-line').forEach(n => n.remove());
+        svg.empty();
+        world.querySelectorAll('.tq-node').forEach(n => n.remove());
+        
         let visibleTasksSet = new Set();
-        let roots = [];
-
         if (selectedGoalPaths.has("all")) {
             allTasks.filter(t => t.isGoal || t.parents.length > 0 || t.children.length > 0).forEach(t => visibleTasksSet.add(t));
-            roots = allTasks.filter(t => t.parents.length === 0 && visibleTasksSet.has(t));
         } else {
             selectedGoalPaths.forEach(id => {
                 const rg = allTasks.find(t => t.id === id);
                 if (rg) {
                     const walk = (n) => { if (!visibleTasksSet.has(n)) { visibleTasksSet.add(n); n.children.forEach(walk); } };
-                    roots.push(rg); walk(rg);
+                    walk(rg);
                 }
             });
         }
 
         const visibleTasks = Array.from(visibleTasksSet);
         const coords = new Map();
-        const NODE_W = 160, NODE_H = 50, HORIZ_GAP = 200, VERT_GAP = 120;
-        let currentTreeX = 150;
+        const NODE_W = 160, NODE_H = 50;
 
-        const initialPassX = (node) => {
-            if (coords.has(node.id)) return coords.get(node.id).x;
-            const validChildren = node.children.filter(c => visibleTasksSet.has(c));
-            if (validChildren.length === 0) {
-                const x = currentTreeX;
-                coords.set(node.id, { x, y: node.level * VERT_GAP + 100 });
-                currentTreeX += HORIZ_GAP;
-                return x;
-            } else {
-                const childXs = validChildren.map(c => initialPassX(c));
-                const minX = Math.min(...childXs);
-                const maxX = Math.max(...childXs);
-                const centerX = (minX + maxX) / 2;
-                coords.set(node.id, { x: centerX, y: node.level * VERT_GAP + 100 });
-                return centerX;
+        let seed = 42;
+        function seededRandom() { let x = Math.sin(seed++) * 10000; return x - Math.floor(x); }
+
+        visibleTasks.forEach(t => {
+            coords.set(t.id, { x: (seededRandom() - 0.5) * 1200, y: (seededRandom() - 0.5) * 1200, vx: 0, vy: 0 });
+        });
+
+        const ITERATIONS = 400;
+        const SPRING_LEN = 130;
+        const K_REPEL = 600000;
+        const K_SPRING = 0.25;
+        const DAMPING = 0.70;
+
+        for (let iter = 0; iter < ITERATIONS; iter++) {
+            for (let i = 0; i < visibleTasks.length; i++) {
+                let t1 = visibleTasks[i]; let p1 = coords.get(t1.id);
+                for (let j = i + 1; j < visibleTasks.length; j++) {
+                    let t2 = visibleTasks[j]; let p2 = coords.get(t2.id);
+                    let dx = p1.x - p2.x, dy = p1.y - p2.y;
+                    let distSq = dx*dx + dy*dy;
+                    if (distSq < 10) { dx = seededRandom() * 10 - 5; dy = seededRandom() * 10 - 5; distSq = dx*dx + dy*dy + 10; }
+                    let forceMult = (t1.parents.length === 0 && t2.parents.length === 0) ? 5.0 : 1.0;
+                    if (distSq < (3000000 * forceMult)) { 
+                        let dist = Math.sqrt(distSq); let f = (K_REPEL * forceMult) / distSq;
+                        p1.vx += (dx / dist) * f; p1.vy += (dy / dist) * f;
+                        p2.vx -= (dx / dist) * f; p2.vy -= (dy / dist) * f;
+                    }
+                }
             }
-        };
+            visibleTasks.forEach(parent => {
+                let p1 = coords.get(parent.id);
+                parent.children.forEach(child => {
+                    if (!visibleTasksSet.has(child)) return;
+                    let p2 = coords.get(child.id);
+                    let dx = p2.x - p1.x, dy = p2.y - p1.y;
+                    let dist = Math.sqrt(dx*dx + dy*dy) || 1;
+                    let f = (dist - SPRING_LEN) * K_SPRING;
+                    p2.vx -= (dx / dist) * f; p2.vy -= (dy / dist) * f;
+                    p1.vx += (dx / dist) * f; p1.vy += (dy / dist) * f;
+                });
+            });
+            visibleTasks.forEach(t => {
+                let p = coords.get(t.id);
+                let grav = t.parents.length === 0 ? 0.02 : 0.005;
+                p.vx -= p.x * grav; p.vy -= p.y * grav;
+                p.vx -= p.y * 0.005; p.vy += p.x * 0.005;
+                p.x += p.vx; p.y += p.vy;
+                p.vx *= DAMPING; p.vy *= DAMPING;
+            });
+        }
 
-        roots.forEach(root => { initialPassX(root); currentTreeX += HORIZ_GAP; });
-
-        const lvls = [...new Set(visibleTasks.map(t => t.level))].sort((a,b) => a-b);
-        lvls.forEach(lvl => {
-            const levelNodes = visibleTasks.filter(t => t.level === lvl).sort((a,b) => (coords.get(a.id)?.x || 0) - (coords.get(b.id)?.x || 0));
-            for(let i=1; i<levelNodes.length; i++) {
-                const prev = coords.get(levelNodes[i-1].id);
-                const curr = coords.get(levelNodes[i].id);
-                if (curr && prev && curr.x < prev.x + HORIZ_GAP) curr.x = prev.x + HORIZ_GAP;
-            }
+        let minX = Infinity, minY = Infinity;
+        visibleTasks.forEach(t => {
+            let p = coords.get(t.id);
+            if (p.x < minX) minX = p.x; if (p.y < minY) minY = p.y;
+        });
+        visibleTasks.forEach(t => {
+            let p = coords.get(t.id); p.x += (400 - minX); p.y += (400 - minY);
         });
 
         visibleTasks.forEach(t => {
             const pos = coords.get(t.id);
-            if (!pos) return;
             const node = world.createDiv("tq-node");
             if (t.isGoal) node.classList.add("is-goal");
             if (t.id === activeNodeId) node.classList.add("is-active");
             node.style.width = `${NODE_W}px`;
-            node.style.left = `${pos.x}px`; node.style.top = `${pos.y}px`;
+            node.style.left = `${pos.x - NODE_W/2}px`; node.style.top = `${pos.y - NODE_H/2}px`;
             node.createDiv({ text: t.title, cls: "tq-node-title" });
             
             node.onclick = (e) => {
                 e.stopPropagation();
-                if (e.metaKey || e.ctrlKey) {
-                    activeNodeId = t.id;
-                    root.classList.remove("is-collapsed");
-                    render();
-                } else app.workspace.getLeaf(false).openFile(t.file);
+                if (e.metaKey || e.ctrlKey) { activeNodeId = t.id; root.classList.remove("is-collapsed"); render(); }
+                else app.workspace.getLeaf(false).openFile(t.file);
             };
 
-            node.addEventListener("dragover", (e) => { e.preventDefault(); node.classList.add("drop-hover"); });
+            node.addEventListener("dragover", (e) => { 
+                e.preventDefault(); 
+                node.classList.add("drop-hover"); 
+            });
+            
             node.addEventListener("dragleave", () => node.classList.remove("drop-hover"));
+            
             node.addEventListener("drop", async (e) => {
                 e.preventDefault();
                 node.classList.remove("drop-hover");
@@ -369,23 +419,62 @@ async function startDashboard(params, dashboardLeaf) {
                         let p = fm["parent"] || [];
                         if (!Array.isArray(p)) p = [p];
                         const link = `[[${t.file.basename}]]`;
-                        if (!p.includes(link)) { p.push(link); fm["parent"] = p; }
+                        if (!p.includes(link)) { 
+                            p.push(link); 
+                            fm["parent"] = p; 
+                        }
                     });
                     setTimeout(() => render(), 150);
                 }
             });
         });
 
+        // DRAWING EDGES MANUALLY WITH CALCULATED ARROWHEADS
         visibleTasks.forEach(parent => {
             const p = coords.get(parent.id);
             parent.children.forEach(child => {
                 if (!visibleTasksSet.has(child)) return;
                 const c = coords.get(child.id);
-                if (!p || !c) return;
-                const x1 = p.x + (NODE_W/2), y1 = p.y + NODE_H;
-                const x2 = c.x + (NODE_W/2), y2 = c.y;
+                
+                const dx = p.x - c.x;
+                const dy = p.y - c.y;
+                const dist = Math.sqrt(dx*dx + dy*dy);
+                if (dist < 20) return;
+
+                // Intersection Logic for Rectangle
+                const absDx = Math.max(Math.abs(dx), 0.001);
+                const absDy = Math.max(Math.abs(dy), 0.001);
+                const scaleToEdge = Math.min((NODE_W/2) / absDx, (NODE_H/2) / absDy);
+                
+                // Coordinates at the boundary of parent and child
+                const startX = c.x + dx * scaleToEdge;
+                const startY = c.y + dy * scaleToEdge;
+                const endX = p.x - dx * scaleToEdge;
+                const endY = p.y - dy * scaleToEdge;
+
+                // Main Line
                 const path = svg.createSvg("path", { cls: "tq-line" });
-                path.setAttribute("d", `M ${x1} ${y1} C ${x1} ${y1+40}, ${x2} ${y2-40}, ${x2} ${y2}`);
+                path.setAttribute("d", `M ${startX} ${startY} L ${endX} ${endY}`);
+
+                // Manual Arrowhead (Triangle)
+                const arrowSize = 10;
+                const ux = dx / dist; // Unit vector
+                const uy = dy / dist;
+                
+                // Backtrack from end point to find base of triangle
+                const baseCenterX = endX - ux * arrowSize;
+                const baseCenterY = endY - uy * arrowSize;
+                
+                // Perpendicular vector for the "wings" of the triangle
+                const perpX = -uy * (arrowSize * 0.6);
+                const perpY = ux * (arrowSize * 0.6);
+                
+                const p1 = `${endX},${endY}`;
+                const p2 = `${baseCenterX + perpX},${baseCenterY + perpY}`;
+                const p3 = `${baseCenterX - perpX},${baseCenterY - perpY}`;
+
+                const arrowhead = svg.createSvg("polygon", { cls: "tq-arrowhead" });
+                arrowhead.setAttribute("points", `${p1} ${p2} ${p3}`);
             });
         });
 
@@ -394,10 +483,33 @@ async function startDashboard(params, dashboardLeaf) {
 
     mapArea.onclick = () => { activeNodeId = null; render(); };
 
-    let isPanning = false, sx, sy;
-    mapArea.onmousedown = (e) => { if (e.target === mapArea || e.target === world || e.target === svg) { isPanning = true; sx = e.clientX; sy = e.clientY; } };
-    window.onmousemove = (e) => { if (isPanning) { offsetX += e.clientX - sx; offsetY += e.clientY - sy; sx = e.clientX; sy = e.clientY; updateWorldTransform(); } };
-    window.onmouseup = () => isPanning = false;
+    let isPanning = false, sx, sy, moveTimeout;
+    const endPanning = () => {
+        if (isPanning) {
+            isPanning = false; clearTimeout(moveTimeout);
+            root.classList.remove("is-grabbing"); saveViewState();
+        }
+    };
+    mapArea.onpointerdown = (e) => {
+        if (e.target === mapArea || e.target === world || e.target === svg) {
+            isPanning = true; sx = e.clientX; sy = e.clientY;
+            mapArea.setPointerCapture(e.pointerId);
+            root.classList.add("is-grabbing");
+        }
+    };
+    window.onpointermove = (e) => {
+        if (isPanning) {
+            offsetX += e.clientX - sx; offsetY += e.clientY - sy;
+            sx = e.clientX; sy = e.clientY;
+            updateWorldTransform();
+            root.classList.add("is-grabbing");
+            clearTimeout(moveTimeout);
+            moveTimeout = setTimeout(() => { if (isPanning) root.classList.remove("is-grabbing"); }, 100);
+        }
+    };
+    window.onpointerup = endPanning;
+    window.onpointercancel = endPanning;
+    window.onblur = endPanning;
 
     mapArea.onwheel = (e) => {
         e.preventDefault();
@@ -411,6 +523,7 @@ async function startDashboard(params, dashboardLeaf) {
             offsetX = mx - (mx - offsetX) * ratio;
             offsetY = my - (my - offsetY) * ratio;
             updateWorldTransform();
+            saveViewState();
         }
     };
 
