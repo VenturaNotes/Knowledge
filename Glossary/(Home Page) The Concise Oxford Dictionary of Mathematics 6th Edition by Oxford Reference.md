@@ -3434,7 +3434,7 @@ Year: 2021-09-01
 	2260. real axis
 	
 	2261. real function
-	2262. realism
+	2262. [[realism]]
 	2263. real line
 	2264. real number
 	2265. real part
@@ -4280,7 +4280,7 @@ Year: 2021-09-01
 	3027. [[verification]]
 	3028. vertex
 	3029. vertex(of a graph)
-	3030. vertex-transitive
+	3030. [[vertex-transitive]]
 	
 	3031. [[vertex method]]
 	3032. vertical angles
@@ -4355,10 +4355,10 @@ Year: 2021-09-01
 	
 	3091. Witten, Edward (1957- )
 	3092. Wolf Prize
-	3093. word
+	3093. [[word]]
 	3094. word problem
 	3095. work
-	3096. work-energy principle
+	3096. [[work-energy principle]]
 	3097. wrt
 	3098. X
 	3099. x-axis
