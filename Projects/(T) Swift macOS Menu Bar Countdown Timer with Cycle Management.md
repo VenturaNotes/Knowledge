@@ -726,6 +726,7 @@ class MenuBarController {
 	- Able to have different times for the label rotations
 	- Merged the Countdown timer (so within Manage Cycle)
 	- Tells you how much time is left for given task when pressing `Control + Space`
+	- Modified "Stacking" case so that it replicates my habit tracking feature. You just need to work at least 80% of your current working speed. That's it.
 ```swift
 import Cocoa
 import SwiftUI
@@ -744,7 +745,8 @@ class MenuBarController {
                 sendNotification()
             }
 
-            if commandRCount >= 0 {
+            // In stacking mode the timer is managed manually by the event handler
+            if commandRCount >= 0 && currentMode == .default {
                 startCountdownTimer()
             }
         }
@@ -800,6 +802,27 @@ class MenuBarController {
     private var previousCount: Int = 0
     private var previousTimeLeft: Int = 0
     private var previousCycleIndex: Int = 0
+
+    // MARK: - Stacking Mode state
+    // stackingIsActive: true after the first Ctrl+Space in stacking mode
+    // stackingTotalElapsedSeconds / stackingCompletedTaskCount: running sum and count for the rolling average
+    // stackingTaskStartSectionTime: value of stackingSectionTimeLeft when the current task began
+    // stackingTotalTimeLeft: accumulated time budget (ticks down; increases on each press once budget is established)
+    // stackingSectionTimeLeft: per-task countdown; resets to avg*1.25 on each press; can go negative
+    private var stackingIsActive: Bool = false
+    private var stackingTotalTimeLeft: Int = 0
+    private var stackingSectionTimeLeft: Int = 0
+    private var stackingTotalElapsedSeconds: Double = 0   // running sum of all completed task durations
+    private var stackingCompletedTaskCount: Int = 0       // number of tasks completed (divisor for avg)
+    private var stackingTaskStartSectionTime: Int = 0
+
+    // Undo snapshot for stacking state
+    private var previousStackingIsActive: Bool = false
+    private var previousStackingTotalTimeLeft: Int = 0
+    private var previousStackingSectionTimeLeft: Int = 0
+    private var previousStackingTotalElapsedSeconds: Double = 0
+    private var previousStackingCompletedTaskCount: Int = 0
+    private var previousStackingTaskStartSectionTime: Int = 0
 
     // MARK: - Cycle
 
@@ -1048,6 +1071,16 @@ class MenuBarController {
 
     @objc private func toggleMode() {
         currentMode = (currentMode == .default) ? .stacking : .default
+        // Reset stacking state whenever mode switches
+        countdownTimer?.invalidate()
+        countdownTimer = nil
+        stackingIsActive = false
+        stackingTotalTimeLeft = 0
+        stackingSectionTimeLeft = 0
+        stackingTotalElapsedSeconds = 0
+        stackingCompletedTaskCount = 0
+        stackingTaskStartSectionTime = 0
+        updateStatusBarTitle()
     }
 
     private func updateModeMenuItem() {
@@ -1063,14 +1096,49 @@ class MenuBarController {
 
     // MARK: - Status bar title
 
+    /// Formats seconds as M:SS, allowing negatives (e.g. -1:05 for -65s).
+    private func formatTimeAllowNeg(_ seconds: Int) -> String {
+        let neg = seconds < 0
+        let abs_s = abs(seconds)
+        let m = abs_s / 60
+        let s = abs_s % 60
+        return "\(neg ? "-" : "")\(m):\(String(format: "%02d", s))"
+    }
+
     private func updateStatusBarTitle() {
-        var title = "\(currentCycleLabel): \(commandRCount)"
-        if countdownTimer != nil && timeLeft > 0 {
-            let minutes = timeLeft / 60
-            let seconds = timeLeft % 60
-            let icon = isPaused ? "⏸" : "⏳"
-            title += " | \(icon) \(String(format: "%d:%02d", minutes, seconds))"
+        let title: String
+
+        switch currentMode {
+        case .default:
+            var t = "\(currentCycleLabel): \(commandRCount)"
+            if countdownTimer != nil && timeLeft > 0 {
+                let minutes = timeLeft / 60
+                let seconds = timeLeft % 60
+                let icon = isPaused ? "⏸" : "⏳"
+                t += " | \(icon) \(String(format: "%d:%02d", minutes, seconds))"
+            }
+            title = t
+
+        case .stacking:
+            if stackingIsActive {
+                if stackingCompletedTaskCount > 0 {
+                    // Budget established (≥2 presses): full format
+                    let totalNeg = stackingTotalTimeLeft < 0
+                    let totalStr = formatTimeAllowNeg(stackingTotalTimeLeft)
+                    let sectionStr = formatTimeAllowNeg(stackingSectionTimeLeft)
+                    let icon = isPaused ? "⏸ " : "⏳"
+                    let totalDisplay = totalNeg ? "⚠️\(totalStr)" : "\(icon)\(totalStr)"
+                    title = "Counting: \(commandRCount) | \(totalDisplay) | \(sectionStr)"
+                } else {
+                    // First task in progress: show elapsed time counting up from 0:00
+                    let elapsed = stackingTaskStartSectionTime - stackingSectionTimeLeft
+                    title = "Counting: \(commandRCount) | \(formatTimeAllowNeg(elapsed))"
+                }
+            } else {
+                title = "Counting: \(commandRCount)"
+            }
         }
+
         statusBarItem.button?.title = title
     }
 
@@ -1081,12 +1149,24 @@ class MenuBarController {
         previousCount = commandRCount
         previousTimeLeft = timeLeft
         previousCycleIndex = cycleIndex
+        previousStackingIsActive = stackingIsActive
+        previousStackingTotalTimeLeft = stackingTotalTimeLeft
+        previousStackingSectionTimeLeft = stackingSectionTimeLeft
+        previousStackingTotalElapsedSeconds = stackingTotalElapsedSeconds
+        previousStackingCompletedTaskCount = stackingCompletedTaskCount
+        previousStackingTaskStartSectionTime = stackingTaskStartSectionTime
 
         commandRCount = 0
         stopSound()
         countdownTimer?.invalidate()
         countdownTimer = nil
         timeLeft = 0
+        stackingIsActive = false
+        stackingTotalTimeLeft = 0
+        stackingSectionTimeLeft = 0
+        stackingTotalElapsedSeconds = 0
+        stackingCompletedTaskCount = 0
+        stackingTaskStartSectionTime = 0
         isPaused = false
         updateStatusBarTitle()
     }
@@ -1239,17 +1319,39 @@ class MenuBarController {
                 self.commandRCount = self.previousCount
                 self.timeLeft = self.previousTimeLeft
                 self.cycleIndex = self.previousCycleIndex
+                // Restore stacking state snapshot
+                self.stackingIsActive = self.previousStackingIsActive
+                self.stackingTotalTimeLeft = self.previousStackingTotalTimeLeft
+                self.stackingSectionTimeLeft = self.previousStackingSectionTimeLeft
+                self.stackingTotalElapsedSeconds = self.previousStackingTotalElapsedSeconds
+                self.stackingCompletedTaskCount = self.previousStackingCompletedTaskCount
+                self.stackingTaskStartSectionTime = self.previousStackingTaskStartSectionTime
                 self.isPaused = false
-                if self.timeLeft > 0 {
-                    self.startCountdownTimer()
+                if self.currentMode == .stacking {
+                    if self.stackingIsActive {
+                        self.startCountdownTimer()
+                    } else {
+                        self.updateStatusBarTitle()
+                    }
                 } else {
-                    self.updateStatusBarTitle()
+                    if self.timeLeft > 0 {
+                        self.startCountdownTimer()
+                    } else {
+                        self.updateStatusBarTitle()
+                    }
                 }
 
             } else if isCtrlSpace {
                 self.previousCount = self.commandRCount
                 self.previousTimeLeft = self.timeLeft
                 self.previousCycleIndex = self.cycleIndex
+                // Snapshot stacking state for undo
+                self.previousStackingIsActive = self.stackingIsActive
+                self.previousStackingTotalTimeLeft = self.stackingTotalTimeLeft
+                self.previousStackingSectionTimeLeft = self.stackingSectionTimeLeft
+                self.previousStackingTotalElapsedSeconds = self.stackingTotalElapsedSeconds
+                self.previousStackingCompletedTaskCount = self.stackingCompletedTaskCount
+                self.previousStackingTaskStartSectionTime = self.stackingTaskStartSectionTime
 
                 self.stopSound()
                 if self.commandRCount > 0 {
@@ -1262,16 +1364,43 @@ class MenuBarController {
                 switch self.currentMode {
                 case .default:
                     self.timeLeft = self.currentCycleDuration
+
                 case .stacking:
-                    if self.timeLeft == 0 {
-                        self.timeLeft = self.currentCycleDuration
+                    if !self.stackingIsActive {
+                        // ── First press: initialise and start the continuous timer ──
+                        self.stackingIsActive = true
+                        self.stackingTotalTimeLeft = 0
+                        self.stackingTotalElapsedSeconds = 0
+                        self.stackingCompletedTaskCount = 0
+                        self.stackingSectionTimeLeft = self.currentCycleDuration
+                        self.stackingTaskStartSectionTime = self.currentCycleDuration
+                        self.startCountdownTimer()
                     } else {
-                        self.timeLeft += self.currentCycleDuration
+                        // ── Subsequent presses: record elapsed, recompute average, add budget ──
+                        // Elapsed = how many seconds the section counted from its start to now
+                        // (section starts positive and may go negative, so elapsed = start − current)
+                        let elapsed = Double(self.stackingTaskStartSectionTime - self.stackingSectionTimeLeft)
+                        self.stackingTotalElapsedSeconds += elapsed
+                        self.stackingCompletedTaskCount += 1
+                        let avg = self.stackingTotalElapsedSeconds / Double(self.stackingCompletedTaskCount)
+                        let addTime = Int((avg * 1.25).rounded())
+                        self.stackingTotalTimeLeft += addTime
+                        self.stackingSectionTimeLeft = addTime
+                        self.stackingTaskStartSectionTime = addTime
+                        if self.stackingTotalTimeLeft >= self.timeNotificationThreshold {
+                            self.sendTimeNotification()
+                        }
+                        // Timer is already running — no restart needed
                     }
-                    if self.timeLeft >= self.timeNotificationThreshold {
-                        self.sendTimeNotification()
+
+                    if self.showCycleLabelOverlay && !self.cycleItems.isEmpty {
+                        let sectionStr = self.formatTimeAllowNeg(self.stackingSectionTimeLeft)
+                        self.showOverlay("\(self.currentCycleLabel) : \(sectionStr)")
                     }
+                    return // skip the default overlay below
                 }
+
+                // Default mode overlay
                 self.startCountdownTimer()
                 if self.showCycleLabelOverlay && !self.cycleItems.isEmpty {
                     let mins = self.timeLeft / 60
@@ -1334,6 +1463,25 @@ class MenuBarController {
     private func startCountdownTimer() {
         updateStatusBarTitle()
 
+        // MARK: Stacking mode timer — runs continuously, never auto-stops
+        if currentMode == .stacking {
+            guard countdownTimer == nil else { return } // already running
+            countdownTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
+                guard let self = self else { return }
+                if self.isPaused { return }
+
+                self.stackingSectionTimeLeft -= 1
+                // Only tick total budget down once budget is established; never go below 0
+                if self.stackingCompletedTaskCount > 0 {
+                    self.stackingTotalTimeLeft -= 1
+                }
+                self.updateStatusBarTitle()
+            }
+            RunLoop.main.add(countdownTimer!, forMode: .common)
+            return
+        }
+
+        // MARK: Default mode timer — counts down to zero then stops
         countdownTimer?.invalidate()
         countdownTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
             if self.isPaused { return }
@@ -1360,12 +1508,21 @@ class MenuBarController {
             stopSound()
             showOverlay("⏸ Paused")
         } else {
-            if countdownTimer == nil && timeLeft > 0 {
-                startCountdownTimer()
+            if currentMode == .stacking {
+                if countdownTimer == nil && stackingIsActive {
+                    startCountdownTimer()
+                }
+                let sectionStr = formatTimeAllowNeg(stackingSectionTimeLeft)
+                let resumeLabel = cycleItems.isEmpty ? "▶ Resumed | \(sectionStr)" : "▶ \(currentCycleLabel) | \(sectionStr)"
+                showOverlay(resumeLabel)
+            } else {
+                if countdownTimer == nil && timeLeft > 0 {
+                    startCountdownTimer()
+                }
+                let timeStr = timeLeft > 0 ? " | \(timeLeft / 60):\(String(format: "%02d", timeLeft % 60))" : ""
+                let resumeLabel = cycleItems.isEmpty ? "▶ Resumed\(timeStr)" : "▶ \(currentCycleLabel)\(timeStr)"
+                showOverlay(resumeLabel)
             }
-            let timeStr = timeLeft > 0 ? " | \(timeLeft / 60):\(String(format: "%02d", timeLeft % 60))" : ""
-            let resumeLabel = cycleItems.isEmpty ? "▶ Resumed\(timeStr)" : "▶ \(currentCycleLabel)\(timeStr)"
-            showOverlay(resumeLabel)
         }
     }
 

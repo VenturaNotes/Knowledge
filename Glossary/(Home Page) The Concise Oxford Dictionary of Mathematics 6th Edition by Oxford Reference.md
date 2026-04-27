@@ -3957,7 +3957,7 @@ Year: 2021-09-01
 	2733. sup
 	2734. superadditive
 	2735. [[supersink]]
-	2736. supersource(in a network)
+	2736. [[supersource]]
 	2737. supplementary angles
 	2738. supplementary unit
 	2739. support
@@ -4277,12 +4277,12 @@ Year: 2021-09-01
 	3024. velocity ratio
 	3025. Venn, John (1834-1923)
 	3026. Venn diagram
-	3027. verification(of a simulation model)
+	3027. [[verification]]
 	3028. vertex
 	3029. vertex(of a graph)
 	3030. vertex-transitive
 	
-	3031. vertex method
+	3031. [[vertex method]]
 	3032. vertical angles
 	3033. Viète's formulae
 	3034. Viète's substitution
