@@ -35,6 +35,59 @@ aliases:
 		- #question What is RAM
 		- #question What is VRAM
 		- #question What is meant by large-scale memory? 
+### Interpretability
+- This refers to being able to explain the internal mechanics, logic, and "reasoning" behind a model's output. 
+	- #question Is there a difference between mechanics, logic, and "reasoning" here?
+- Since LLMs are essential black boxes consisting of billions of parameters and complex non-linear transformations, it is often impossible to know exactly why a model chose one word over another just by looking at the raw numbers.
+	- #question Do all LLMs consist of billions of parameters?
+	- #question What is meant by "black box?"
+	- #question What would a complex non-linear transformation look like?
+	- #question Is there a way to interpret the raw numbers so interpretability is possible (or are they still just guesses)?
+- Interpretability aims to bridge the gap between the model's mathematical operations and human-understandable concepts.
+	- #question What would an example of this look like?
+#### Aspects of Interpretability
+- [[Mechanistic Interpretability]]
+	- This involves reverse-engineering the model's neural network to understand how specific circuits or neurons represent certain concepts (e.g., identifying which part of the model handles "syntax" vs. "sentiment").
+		- #question Does an LLM always run on a neural network?
+		- #question Could you give an example of the circuits vs neurons situation?
+		- #question How can we tell what part of the model handles syntax vs sentiment? Is it possible for a model to have every part handle syntax and sentiment? 
+		- #question What does reverse-engineering look like here? Could you give an example?
+- Feature Attribution
+	- Identifying which parts of the input text (tokens) were most influential in generating a specific response.
+		- #question Could you give a specific example for this?
+- Transparency
+	- The degree to which the model's architecture and training data are documented and understood.
+		- #question I would need an example of this as well
+#### Attention Maps Example
+- Attention Maps are a common way to demonstrate interpretability
+- If you give an LLM this sentence:
+	- "The bank was closed because it was a holiday"
+- We can look at the attention weights of the model to understand why it correctly identified "bank" as a financial institution rather than a river bank
+	- #question What is an attention weight?
+- Parts
+	- Mechanism
+		- During processing, the model assigns a "weight" to every word in the sentence relative to every other word. This is calculated using the formula:
+			- $Attention(Q, K, V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V$
+				- #question Is it always calculated using this formula?
+				- #question Could you show me an example using this formula?
+				- #question What is this formula called?
+	- Interpretation
+		- If we visualize the attention for the word "bank," we might see a strong connection (high weight) to the word "closed" and "holiday."
+			- #question What kind of visualization can we make so that "bank" has a high weight to "closed" and "holiday"?
+			- #question If "closed" and "holiday" were in a different sentence, would this create a lower weight to the word "bank"
+				- #question Is this weight directed in once direction or both directions? 
+	- Explanation
+		- This tells us that the model is using the context of "business hours" (implied by "closed" and "holiday") to disambiguate the meaning of "bank."
+			- #question But how do we know that "business hours" is the context the model is using?
+#### Importance of Interpretability
+- In the context of summarizing or generating ideas, interpretability helps us
+	- trust the model isn't just hallucinating due to a random statistical fluke
+		- #question What kind of statistical fluke could cause a model to hallucinate?
+	- ensure safety that the model isn't using biased or harmful logic
+		- #question What would an example of this look like? Would this be based on the sources the model trained from or the context given to it?
+		- #question What types of mathematical models induce more unsafe bias than others?
+	- debug efficiently to refine prompt engineering techniques
+		- #question What kind of prompt engineering techniques are there? 
 ## Source [^1]
 ### Common Challenges
 - Computational resources: LLMs require significant computational power and memory, making training and deployment resource-intensive.
@@ -47,7 +100,6 @@ aliases:
 - Interpretability: Understanding and explaining the decisions made by LLMs can be difficult due to their complex and opaque nature.
 	- #question What is complex about an LLM? 
 	- #question What exactly is an LLM? 
-	- #question What does interpretability mean in terms of LLMs? 
 	- #question Is it difficult to understand because it is like a black box? 
 - Data privacy: Using large datasets for training can raise concerns about data privacy and security.
 	- #question How are the large datasets retrieved?
