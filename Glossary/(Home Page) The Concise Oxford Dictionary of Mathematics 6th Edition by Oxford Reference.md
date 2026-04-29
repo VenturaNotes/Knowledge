@@ -3479,7 +3479,7 @@ Year: 2021-09-01
 	
 	2301. relation
 	2302. relation
-	2303. relational understanding
+	2303. [[relational understanding]]
 	2304. relative complement
 	2305. relative efficiency
 	2306. relative error
@@ -3488,7 +3488,7 @@ Year: 2021-09-01
 	2309. relative measure of dispersion
 	2310. relative position
 	
-	2311. relative risk
+	2311. [[relative risk]]
 	2312. relativity theory
 	2313. reliability
 	2314. remainder
@@ -3501,7 +3501,7 @@ Year: 2021-09-01
 	
 	2321. repelling fixed point
 	2322. [[repetition codes]]
-	2323. replicable
+	2323. [[replicable]]
 	2324. representation(of a vector)
 	2325. representation
 	2326. representative
