@@ -3441,7 +3441,7 @@ Year: 2021-09-01
 	2266. real projective plane
 	2267. real world
 	2268. rearrangement
-	2269. reciprocal
+	2269. [[reciprocal]]
 	2270. rectangle
 	
 	2271. rectangular
@@ -3450,7 +3450,7 @@ Year: 2021-09-01
 	2274. rectangular number
 	2275. rectilinear motion
 	2276. recurrence relation
-	2277. recurrent
+	2277. [[recurrent]]
 	2278. recurring decimal
 	2279. recursion theory
 	2280. reduce
@@ -3459,7 +3459,7 @@ Year: 2021-09-01
 	2282. reduced set of residues
 	2283. reductio ad absurdum
 	2284. reduction formula
-	2285. redundancy
+	2285. [[redundancy]]
 	2286. redundant
 	2287. reflection
 	2288. reflex angle

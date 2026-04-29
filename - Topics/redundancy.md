@@ -13,6 +13,8 @@
 ## Source[^5]
 - (1) The fraction of the information in a transmission system that may be eliminated without loss of essential information. The excess information is often deliberately included to allow for loss in the transmission system. 
 - (2) The extra components, devices, or circuits included in an electronic circuit or apparatus to increase the reliability of the system. If therefore a fault develops in one portion of the system the redundant circuits or components provided can take over the function of the faulty part. Redundancy is very important in systems, such as aircraft systems, in which high reliability is essential.
+## Source[^6]
+- In coding, the presence of code, such as checksums, that is surplus to the encoded message but provides means to error-detect or error-correct. The term also relates to unintentional redundancy where a code is simply suboptimal.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -20,3 +22,4 @@
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
