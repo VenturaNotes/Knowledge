@@ -1,3 +1,7 @@
+---
+tags:
+  - in-progress
+---
 ## Synthesis
 - 
 ## Source [^1]
@@ -18,8 +22,7 @@
 - The database system most commonly used to store activity stream data would be NoSQL databases, like MongoDB, which can scale easily and store unstructured data
 - A software engineer ensures that an activity stream remains responsive under heavy traffic by using load balancing and horizontal scaling to distribute the load across multiple servers
 - The role caching plays in improving performance of an activity stream is that caching can store frequently accessed data temporarily, reducing database queries and improving load times
-- A potential issue when designing an activity stream for social media platforms would be overloading the user interface with too much information. 
-- Activity filters and sorting options are features in an activity stream which are often used to help users find relevant content
+- A potential issue when designing an activity stream for social media platforms would be overloading the user interface with too muc
 ## References
 
 [^1]: https://www.capterra.com/glossary/activity-stream/
