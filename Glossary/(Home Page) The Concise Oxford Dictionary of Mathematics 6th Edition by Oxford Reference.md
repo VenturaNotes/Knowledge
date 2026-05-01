@@ -3503,7 +3503,7 @@ Year: 2021-09-01
 	2322. [[repetition codes]]
 	2323. [[replicable]]
 	2324. representation(of a vector)
-	2325. representation
+	2325. [[representation]]
 	2326. representative
 	2327. representative sample
 	2328. residual
@@ -3514,12 +3514,12 @@ Year: 2021-09-01
 	2332. resistive force
 	2333. resolution
 	2334. resonance
-	2335. response bias
+	2335. [[response bias]]
 	2336. response variable
-	2337. rest frame
+	2337. [[rest frame]]
 	2338. rest mass
 	2339. restriction(of a function)
-	2340. resultant
+	2340. [[resultant]]
 	
 	2341. retardation
 	2342. retraction
