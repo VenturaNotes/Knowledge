@@ -48,6 +48,7 @@ class Solution:
         return max_average 
 ```
 - I used fixed sliding window here
+- ![[(643) Maximum Average Subarray I 2026-04-30 03.10.37.excalidraw]]
 ## Source [^1]
 - 
 ## References

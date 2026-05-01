@@ -1,8 +1,6 @@
 ---
 aliases:
   - anagrams
-tags:
-  - in-progress
 ---
 ## Synthesis
 ### Definition
@@ -27,11 +25,15 @@ def is_anagram(str1, str2):
     return Counter(str1) == Counter(str2)
 ```
 - Time Complexity: $O(n)$, $n$ is length of strings.
+	- This is because creating a frequency map requires iterating through the entire string which is an $O(n)$ operation
 - Space Complexity: $O(k)$,  $k$ is # of unique characters.
 	- #question Is it really $2k$ since you're making two dictionaries but since factors drop in Big O, it's just $O(k)$? 
 - Note
-	- The `len(str1) != len(str2)` is not necessary 
-### (2) Sorting Method
+	- The `len(str1) != len(str2)` is not necessary for frequency counting method. However, it's great for efficiency since checking the length of a string is $O(1)$ time because the length is stored as an attribute of the string object. 
+		- #question Is there a difference between attribute vs metadata here?
+		- It acts as a [[guard clause]] which provides a significant performance boost for negative cases (where strings aren't the same length) at almost zero cost. 
+			- #question What is a guard clause?
+#### (2) Sorting Method
 - Concise (one-liner), slightly less efficient for large strings due to overhead of sorting
 
 ```python

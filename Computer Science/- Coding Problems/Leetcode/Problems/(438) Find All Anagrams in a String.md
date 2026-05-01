@@ -44,6 +44,9 @@ class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         
 ```
+- So the sliding window size seems to be based on 
+- Do we know if `p` is always greater than `s`? Maybe not. 
+- So we use a pattern called sliding window fixed 
 ## Source [^1]
 - 
 ## References
