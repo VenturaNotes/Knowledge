@@ -3537,7 +3537,7 @@ Year: 2021-09-01
 	2353. Riemann, (Georg Friedrich) Bernhard (1826-66)
 	2354. Riemann-Lebesgue lemma
 	2355. Riemann-Roch Theorem
-	2356. Riemann hypothesis
+	2356. [[Riemann hypothesis]]
 	2357. Riemannian manifold
 	2358. Riemann integral
 	2359. Riemann mapping theorem
@@ -3569,7 +3569,7 @@ Year: 2021-09-01
 	2382. Rodrigues' formula
 	2383. Rolle's Theorem
 	2384. Rolle, Michel (1652-1719)
-	2385. rolling condition
+	2385. [[rolling condition]]
 	2386. Roman numeral
 	2387. root(of an equation)
 	2388. root(of a tree)
@@ -3600,7 +3600,7 @@ Year: 2021-09-01
 	
 	2411. RRE form
 	2412. RSA(public-key cryptography)
-	2413. ruled surface
+	2413. [[ruled surface]]
 	2414. ruler and compass construction
 	2415. run(in a coordinate system)
 	2416. run(in statistics)
