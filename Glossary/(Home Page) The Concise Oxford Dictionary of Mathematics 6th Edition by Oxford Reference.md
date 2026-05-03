@@ -3621,7 +3621,7 @@ Year: 2021-09-01
 	2430. 
 	
 	2431. [[scalar field]]
-	2432. scalar matrix
+	2432. [[scalar matrix]]
 	2433. scalar multiplication
 	2434. scalar product
 	2435. scalar quadratic product
@@ -3661,7 +3661,7 @@ Year: 2021-09-01
 	2466. sector
 	2467. [[segment]]
 	2468. selection
-	2469. self-adjoint
+	2469. [[self-adjoint]]
 	2470. self-inverse
 	
 	2471. self-reference
@@ -3727,7 +3727,7 @@ Year: 2021-09-01
 	2526. sigma
 	2527. [[sigma function]]
 	2528. sign
-	2529. signed area
+	2529. [[signed area]]
 	2530. signed minor
 	
 	2531. signed rank test
