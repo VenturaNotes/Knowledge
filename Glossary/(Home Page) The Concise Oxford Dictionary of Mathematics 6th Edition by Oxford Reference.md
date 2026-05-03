@@ -3602,8 +3602,8 @@ Year: 2021-09-01
 	2412. RSA(public-key cryptography)
 	2413. [[ruled surface]]
 	2414. ruler and compass construction
-	2415. run(in a coordinate system)
-	2416. run(in statistics)
+	2415. [[run]]
+	2416. 
 	2417. Runge-Kutta methods
 	2418. Russell's paradox
 	2419. Russell, Bertrand Arthur William (1872-1970)
@@ -3614,11 +3614,11 @@ Year: 2021-09-01
 	2423. [[sample]]
 	2424. [[sample space]]
 	2425. [[sampling distribution]]
-	2426. sandwich theorem
+	2426. [[sandwich theorem]]
 	2427. SAS
 	2428. saturated(in networks)
-	2429. scalar
-	2430. scalar(for vectors and matrices)
+	2429. [[scalar]]
+	2430. 
 	
 	2431. [[scalar field]]
 	2432. scalar matrix

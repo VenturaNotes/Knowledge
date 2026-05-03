@@ -32,6 +32,7 @@ completedDate: 2026-04-04
 
 ### Script Archives Checkboxes with Title as Top Header
 - Also is able to archive a task without a `##` subheading but if it's below a `###` subheading or less, the parent must be `##`. 
+- Also makes sense to make a markdown filename a `#` header because that usually indicates the filename anyway. 
 - Ensures prepending
 - Tasks without a heading can now get archived as well (aside from markdown title)
 ```javascript
