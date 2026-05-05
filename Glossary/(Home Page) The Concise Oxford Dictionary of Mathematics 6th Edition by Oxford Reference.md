@@ -3741,7 +3741,7 @@ Year: 2021-09-01
 	2539. simple curve
 	2540. simple extension
 	
-	2541. simple fraction
+	2541. [[simple fraction]]
 	2542. simple graph
 	2543. simple group
 	2544. simple interest
@@ -3766,8 +3766,8 @@ Year: 2021-09-01
 	2561. sine
 	2562. sine rule
 	2563. singleton
-	2564. Singmaster's conjecture
-	2565. singular
+	2564. [[Singmaster's conjecture]]
+	2565. [[singular]]
 	2566. singularity
 	2567. singular point
 	2568. singular point(complex analysis)
