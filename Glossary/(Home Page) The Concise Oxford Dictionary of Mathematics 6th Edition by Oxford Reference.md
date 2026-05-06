@@ -3769,7 +3769,7 @@ Year: 2021-09-01
 	2564. [[Singmaster's conjecture]]
 	2565. [[singular]]
 	2566. singularity
-	2567. singular point
+	2567. [[singular point]]
 	2568. singular point(complex analysis)
 	2569. singular value decomposition
 	2570. sinh
@@ -3790,13 +3790,13 @@ Year: 2021-09-01
 	2583. slant height
 	2584. slash
 	2585. slide rule
-	2586. sliding-toppling condition
+	2586. [[sliding-toppling condition]]
 	2587. slope
 	2588. small circle
 	2589. Smith, Adrian Frederick Melhuish (1946- )
 	2590. Smith normal form
 	
-	2591. smooth
+	2591. [[smooth]]
 	2592. [[smoothly hinged]]
 	2593. smoothness condition
 	2594. smooth surface(in mechanics)
