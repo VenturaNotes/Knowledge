@@ -3813,7 +3813,7 @@ Year: 2021-09-01
 	2604. soluble group
 	2605. solution
 	2606. solution of triangles
-	2607. solution set
+	2607. [[solution set]]
 	2608. solvable by radicals
 	2609. solvable group
 	2610. sorting algorithms
@@ -3827,10 +3827,10 @@ Year: 2021-09-01
 	2617. span
 	2618. spanning set
 	2619. spanning tree
-	2620. sparse matrix
+	2620. [[sparse matrix]]
 	
 	2621. Spearman's rank correlation coefficient
-	2622. special function
+	2622. [[special function]]
 	2623. special linear group
 	2624. special relativity
 	2625. spectral theorem
