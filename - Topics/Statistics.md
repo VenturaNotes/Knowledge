@@ -8,8 +8,11 @@
 - (2) The numbers by which information is expressed. See also Office for National Statistics.
 ## Source[^3]
 - A branch of mathematics dealing with the methods of collection and analysis of samples of data, used to infer the properties, or the unobserved characteristics, of the population.
+## Source[^4]
+- Quantitative data on any subject, usually collected with a purpose such as recording performance of bodies for comparison, or for public record and which can then be analyzed by a variety of statistical methods. Statistics also refers to the study of collecting, analyzing, and displaying such data, a discipline which has grown enormously since the start of the 20th century. Statistics might be seen as the reverse of probability; in probability, a random scenario or process is understood, and conclusions are made about data that might arise from that process while, with statistics, data have been collected and conclusions are drawn about the underlying random processes (see inference).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -3833,7 +3833,7 @@ Year: 2021-09-01
 	2622. [[special function]]
 	2623. special linear group
 	2624. special relativity
-	2625. spectral theorem
+	2625. [[spectral theorem]]
 	2626. spectrum
 	2627. speed
 	2628. speed of light
@@ -3868,7 +3868,7 @@ Year: 2021-09-01
 	2654. stabilizer
 	2655. stable equilibrium
 	2656. [[stable numerical analysis]]
-	2657. stagnation point
+	2657. [[stagnation point]]
 	2658. standard basis
 	2659. standard deviation
 	2660. standard form(of a linear programming problem)
@@ -3876,7 +3876,7 @@ Year: 2021-09-01
 	2661. standard form(of a number)
 	2662. standardize
 	2663. standard normal distribution
-	2664. stars and bars
+	2664. [[stars and bars]]
 	2665. state
 	2666. static friction
 	2667. stationary point(in one variable)
@@ -3888,7 +3888,7 @@ Year: 2021-09-01
 	2672. statistical mechanics
 	2673. statistical model
 	2674. statistical tables
-	2675. statistics
+	2675. [[statistics]]
 	2676. steady
 	2677. Steinitz exchange lemma
 	2678. stem-and-leaf plot
