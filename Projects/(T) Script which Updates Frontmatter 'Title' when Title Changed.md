@@ -22,6 +22,34 @@ completedDate: 2026-04-30
 	- It does not interfere with files that do not already have an existing `title` frontmatter
 	- Probably something similar could be done with the linter plugin.
 
+## V2
+- This one just makes sure to remove old listeners before re-registering in case you accidentally run the script again aside from startup.
+```javascript
+module.exports = async (params) => {
+    // Remove old listeners before re-registering
+    app.vault.off('rename', syncTitle);
+    app.vault.off('create', syncTitle);
+
+    function syncTitle(file) {
+        if (!file || file.extension !== 'md') return;
+        setTimeout(() => {
+            app.fileManager.processFrontMatter(file, (frontmatter) => {
+                if (frontmatter?.hasOwnProperty('title')) {
+                    if (frontmatter['title'] !== file.basename) {
+                        frontmatter['title'] = file.basename;
+                    }
+                }
+            }).catch(err => console.debug("Sync Error:", err));
+        }, 50);
+    }
+
+    app.vault.on('rename', syncTitle);
+    app.vault.on('create', syncTitle);
+
+    console.log("Frontmatter Title Sync: active.");
+};
+```
+## V1
 ```javascript
 module.exports = async (params) => {
     
