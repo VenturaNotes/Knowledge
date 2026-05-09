@@ -3900,7 +3900,7 @@ Year: 2021-09-01
 	2683. stiffness
 	2684. Stirling number of the first kind
 	2685. Stirling number of the second kind
-	2686. stochastic differential equation
+	2686. [[stochastic differential equation]]
 	2687. stochastic process
 	2688. stochastic variable
 	2689. Stokes' Theorem(generalized form)
@@ -3910,7 +3910,7 @@ Year: 2021-09-01
 	2692. straight line
 		1. See LINE (in two dimensions), LINE (in three dimensions)
 	2693. strain
-	2694. stratified sample
+	2694. [[stratified sample]]
 	2695. stress
 	2696. strictly decreasing
 	2697. strictly determined game
@@ -3923,7 +3923,7 @@ Year: 2021-09-01
 	2703. strong convergence
 	2704. [[stronger statement]]
 	2705. strong law of large numbers
-	2706. structuralism
+	2706. [[structuralism]]
 	2707. Structure Theorem(for modules)
 	2708. strut
 	2709. Student
