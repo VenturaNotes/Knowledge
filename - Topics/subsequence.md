@@ -19,6 +19,10 @@
 \end{aligned}
 
 $$See also SEQUENCE.
+## Source[^2]
+- A subsequence $\{x_{n_k}\}_{k \ge 1}$ of a sequence $\{x_n\}_{n \ge 1}$ is an sequence selected from $\{x_n\}$ in order. Specifically the map $k \mapsto n_k$ is a strictly increasing map from $\mathbb{N}$ to $\mathbb{N}$. If $\{x_n\}$ converges to L, then all of its subsequences also converge to $L$. See Bolzano-Weierstrass Theorem. 
+	- #question Is 'an sequence' correct?
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
