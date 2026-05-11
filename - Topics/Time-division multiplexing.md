@@ -16,7 +16,10 @@ aliases:
 - Asynchronous TDM allows devices to send data as it is ready, without a prearranged ordering. Data must carry with it the identity of the sending device. Since devices may send data at the same time, collisions may occur, making the messages unreadable. Many networks that utilize asynchronous TDM use CSMA/CD (carrier sense multiple access with collision detection) to sense when messages have collided and must be retransmitted.
 - TDM is used in baseband networking, and may also be used on channels of a broadband networking system.
 - See also FREQUENCY DIVISION MULTIPLEXING, MULTIPLEXING.
+## Source[^3]
+- (TDM) In communication systems, the division of a single channel into time slots which are allocated to different users or input signals. The time slots can be allocated to each input signal in turn, an approach called polling, or to each as it has information to transmit. On reception, each carrier can be distinguished from the others by its time position within the received signal, thereby allowing the original signal to be demodulated. Time-division multiplexing is extensively used in local area networks and satellite communication systems.
 ## References
 
 [^1]: https://nordvpn.com/cybersecurity/glossary/time-division-multiplexing/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
