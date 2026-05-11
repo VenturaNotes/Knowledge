@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The time required for a unidirectional electrical quantity, such as voltage or current, to decrease to $1/e$ (approximately 0.368) of its initial value or to increase to $(1 - 1/e)$ (approximately 0.632) of its final value in response to a change in the electrical conditions in an electronic circuit or device. Thus at any instant following initiation of the change in electrical equilibrium, such as switching a d.c. supply voltage on or off, the instantaneous change of a quantity, $V$, is given by$$\frac{\mathrm{d}V}{\mathrm{d}t} = \frac{(V_{\mathrm{f}} - V)}{\tau}$$where $V_{\mathrm{f}}$ is the final value of the quantity and $\tau$ the time constant. In the case of a decreasing quantity $V_{\mathrm{f}}$ is usually zero and the expression becomes$$\frac{\mathrm{d}V}{\mathrm{d}t} = -\frac{V}{\tau}$$The time constant is a measure of the speed of operation of any circuit or device; circuits that contain capacitance or inductance can have very long time constants (of about a few seconds). For example, the time constant of a circuit containing a resistance of $R$ ohms in series with a capacitance of $C$ farads is given by$$\tau = RC \text{ seconds}$$One that contains a resistance, $R$, in series with an inductance of $L$ henries has a time constant given by$$\tau = \frac{L}{R} \text{ seconds}$$
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

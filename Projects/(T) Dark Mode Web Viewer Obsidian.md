@@ -1,9 +1,9 @@
 ---
 title: (T) Dark Mode Web Viewer Obsidian
-status: open
+status: done
 priority: "0"
 dateCreated: 2026-02-22T14:38:39.146-05:00
-dateModified: 2026-04-21T13:08:08.900-04:00
+dateModified: 2026-05-09T22:48:17.816-04:00
 reminders:
   - id: rem_1771789115047_fffer2aa0
     type: relative
@@ -14,11 +14,86 @@ tags:
   - task
 parent:
   - "[[(T) Optimize]]"
+completedDate: 2026-05-09
 ---
 ## Synthesis
 ### Solution
 - I have a dark mode script for QuickAdd which runs on startup. However, if I want a webpage with light mode, i can just manually turn it off with the shortcut. 
 - It doesn't seem to affect Google Spreadsheets but that's okay.
+#### Iteration 1 (Working but inefficient?)
+- [ ] Add optimization to the web viewer so that it doesn’t poll every second? It does slow down my computer then.
+```javascript
+module.exports = async (params) => {
+    // 1. Check if this is the very first run of the session
+    const isFirstRun = window.__DARK_MODE_GLOBAL_STATE === undefined;
+
+    // 2. Set the state
+    if (isFirstRun) {
+        window.__DARK_MODE_GLOBAL_STATE = true; // Default to ON at startup
+    } else {
+        window.__DARK_MODE_GLOBAL_STATE = !window.__DARK_MODE_GLOBAL_STATE;
+    }
+
+    const isActivating = window.__DARK_MODE_GLOBAL_STATE;
+    const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview';
+
+    async function updateWebview(webview, forceState) {
+        if (!webview || typeof webview.executeJavaScript !== 'function') return;
+
+        if (forceState) {
+            await webview.executeJavaScript(`
+                (function() {
+                    const inject = () => {
+                        DarkReader.setFetchMethod(window.fetch);
+                        DarkReader.enable({ brightness: 100, contrast: 95, sepia: 0 });
+                    };
+                    if (window.DarkReader) {
+                        inject();
+                    } else {
+                        const script = document.createElement('script');
+                        script.src = 'https://cdn.jsdelivr.net/npm/darkreader/darkreader.min.js';
+                        script.onload = inject;
+                        document.head.appendChild(script);
+                    }
+                })();
+            `).catch(e => {});
+        } else {
+            await webview.executeJavaScript(`
+                if (window.DarkReader) { DarkReader.disable(); }
+            `).catch(e => {});
+        }
+    }
+
+    // 3. Setup the Observer (One-time setup)
+    if (!window.__DARK_MODE_OBSERVER_SET) {
+        const observer = new MutationObserver(() => {
+            if (window.__DARK_MODE_GLOBAL_STATE === true) {
+                const webviews = document.querySelectorAll(WEBVIEW_SELECTOR);
+                webviews.forEach(wv => {
+                    if (!wv._dmAttached) {
+                        wv.addEventListener('dom-ready', () => {
+                            updateWebview(wv, window.__DARK_MODE_GLOBAL_STATE);
+                        });
+                        updateWebview(wv, true);
+                        wv._dmAttached = true;
+                    }
+                });
+            }
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
+        window.__DARK_MODE_OBSERVER_SET = true;
+    }
+
+    // 4. Apply to active webviews
+    const activeWebviews = document.querySelectorAll(WEBVIEW_SELECTOR);
+    activeWebviews.forEach(wv => updateWebview(wv, isActivating));
+
+    // 5. THE FIX: Only show Notice if it's NOT the first run
+    if (!isFirstRun) {
+        new Notice(isActivating ? "🌙 Webview Dark Mode: ON" : "☀️ Webview Dark Mode: OFF");
+    }
+};
+```
 #### Iteration 2 (Not Really Working)
 - Runs faster by removing MutationObserver and only using a `layout-change` listener
 - When I refresh a page with dark mode set to off, it still runs dark mode
@@ -91,80 +166,6 @@ module.exports = async (params) => {
     });
 
     // 5. THE FIX: Only show Notice if it's NOT the first run (manual toggle only)
-    if (!isFirstRun) {
-        new Notice(isActivating ? "🌙 Webview Dark Mode: ON" : "☀️ Webview Dark Mode: OFF");
-    }
-};
-```
-#### Iteration 1 (Working but inefficient?)
-- Add optimization to the web viewer so that it doesn’t poll every second? It does slow down my computer then.
-```javascript
-module.exports = async (params) => {
-    // 1. Check if this is the very first run of the session
-    const isFirstRun = window.__DARK_MODE_GLOBAL_STATE === undefined;
-
-    // 2. Set the state
-    if (isFirstRun) {
-        window.__DARK_MODE_GLOBAL_STATE = true; // Default to ON at startup
-    } else {
-        window.__DARK_MODE_GLOBAL_STATE = !window.__DARK_MODE_GLOBAL_STATE;
-    }
-
-    const isActivating = window.__DARK_MODE_GLOBAL_STATE;
-    const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview';
-
-    async function updateWebview(webview, forceState) {
-        if (!webview || typeof webview.executeJavaScript !== 'function') return;
-
-        if (forceState) {
-            await webview.executeJavaScript(`
-                (function() {
-                    const inject = () => {
-                        DarkReader.setFetchMethod(window.fetch);
-                        DarkReader.enable({ brightness: 100, contrast: 95, sepia: 0 });
-                    };
-                    if (window.DarkReader) {
-                        inject();
-                    } else {
-                        const script = document.createElement('script');
-                        script.src = 'https://cdn.jsdelivr.net/npm/darkreader/darkreader.min.js';
-                        script.onload = inject;
-                        document.head.appendChild(script);
-                    }
-                })();
-            `).catch(e => {});
-        } else {
-            await webview.executeJavaScript(`
-                if (window.DarkReader) { DarkReader.disable(); }
-            `).catch(e => {});
-        }
-    }
-
-    // 3. Setup the Observer (One-time setup)
-    if (!window.__DARK_MODE_OBSERVER_SET) {
-        const observer = new MutationObserver(() => {
-            if (window.__DARK_MODE_GLOBAL_STATE === true) {
-                const webviews = document.querySelectorAll(WEBVIEW_SELECTOR);
-                webviews.forEach(wv => {
-                    if (!wv._dmAttached) {
-                        wv.addEventListener('dom-ready', () => {
-                            updateWebview(wv, window.__DARK_MODE_GLOBAL_STATE);
-                        });
-                        updateWebview(wv, true);
-                        wv._dmAttached = true;
-                    }
-                });
-            }
-        });
-        observer.observe(document.body, { childList: true, subtree: true });
-        window.__DARK_MODE_OBSERVER_SET = true;
-    }
-
-    // 4. Apply to active webviews
-    const activeWebviews = document.querySelectorAll(WEBVIEW_SELECTOR);
-    activeWebviews.forEach(wv => updateWebview(wv, isActivating));
-
-    // 5. THE FIX: Only show Notice if it's NOT the first run
     if (!isFirstRun) {
         new Notice(isActivating ? "🌙 Webview Dark Mode: ON" : "☀️ Webview Dark Mode: OFF");
     }
