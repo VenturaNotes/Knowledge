@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- (TED; Gunn diode) A negative-resistance microwave oscillator that operates by means of the Gunn effect. It is a diode formed from a sample of low-resistivity n-type gallium arsenide that produces coherent microwave oscillations when a large electric field is applied across it. The most fundamental form of operation of the device is transmit time mode in which the output frequency of the oscillations is determined by the time taken for a domain of high-energy low-mobility carriers to drift across the length of the semiconductor (see GUNN EFFECT). This mode has several disadvantages, including fixed frequency and low efficiency.
+- Delayed domain mode of operation is a more efficient and useful operating mode. The diode is connected to an external tuned circuit that determines the operating frequency of the diode. The field across the diode is biased by a radiofrequency (r.f.) field so that the threshold voltage is only exceeded during the positive cycles of the r.f. fields. Domains can only form during the positive cycles and therefore the output current pulses are forced to occur at an externally determined frequency.
+- Limited space-charge accumulation (LSA) mode is an operating mode that produces an output frequency much greater than the transit time frequency. The frequency of the r.f. bias, determined by the external tuned circuit, is high and therefore stable domains do not have time to form. The field within the device remains above the threshold value for most of the operating cycle because stable domains are not present, and the electrons experience a negative resistance as they flow across the diode.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

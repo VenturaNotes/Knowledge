@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- An electromagnetic wave that is propagated along and is guided by a transmission line. In the case of a hypothetical lossless line of uniform cross section and infinite length, a sinusoidal a.c. supply at one end of the line (the sending end) causes electrical energy to be transmitted along the line with instantaneous values of current and voltage at any given point varying sinusoidally. If the line is situated in a medium of relative permittivity $\varepsilon_{\mathrm{r}}$ and relative permeability $\mu_{\mathrm{r}}$ , the sine waves are propagated along the line with a velocity $v$ given by$$v = c / \sqrt {\left(\varepsilon_ {\mathrm {r}} \mu_ {\mathrm {r}}\right)}$$where $c$ is the speed of light. In the case of a lossless line of finite length terminated with a load impedance equal to the characteristic impedance of the line the above equation holds. In practice dissipation in the line causes both a reduction in the velocity and attenuation. Nonsinusoidal traveling waves, such as an impulse or surge voltage, may also be propagated.
+- Impedance discontinuities at any point on the line result in partial reflection of the initial wave, which then consists of two waves: the reflected wave, which travels in a backward direction towards the sending end, and the transmitted wave, which travels forward towards the receiving (output) end of the line. 
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

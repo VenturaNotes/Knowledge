@@ -43,9 +43,11 @@
 | V     | RNA              | one or several positive-sense RNA strands                            | genomic RNA is template for viral mRNAs                                                                                                                                                                               | orthomyxoviruses (e.g. influenza virus), paramyxoviruses, rhabdoviruses (e.g. rabies virus) |
 | VI    | RNA              | two identical positive-sense RNA strands                             | the enzyme reverse transcriptase copies a genomic RNA strand into a single negative DNA strand, and then into dsDNA, which becomes integrated into the host genome. The host transcribes this into positive viral RNA | retroviruses (e.g. HIV)                                                                     |
 | VII   | DNA              | circular, part dsDNA, part                                           | host transcribes viral DNA into mRNA, some of which ssDNA encodes viral proteins; some becomes 'pregenomic RNA', which is copied by reverse transcriptase inside the virion into viral DNA                            | hepadnaviruses (e.g. hepatitis B virus)                                                     |
-
+## Source[^4]
+- A program or piece of code that is loaded onto a computer without the user's knowledge and runs against the user's wishes. All computer viruses are man-made and can replicate themselves. Recently many antivirus programs have become available. These programs periodically check the computer systems on which they are installed for known types of viruses and can disinfect the system if a virus is found.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

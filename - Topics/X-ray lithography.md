@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A method of lithography that uses X-rays rather than light beams. The basic process uses soft X-rays to expose appropriate resists. Because of the low wavelength (0.2-1.0 nanometre), diffraction effects are virtually nonexistent, and back scattering or reflection from the substrate material is almost nonexistent. Masks can be placed proximal to the substrate rather than in contact with it, and most dust is transparent to X-rays and therefore does not affect the process. X-ray lithography offers the advantages of excellent resolution combined with a large depth of field, vertical-walled patterns, and simplicity of the system $\textendash$ no complex lenses, mirrors, or electron-beam lenses are required. Disadvantages have arisen in the development of suitable X-ray sources, masks, and alignment procedures.
+- The optimum X-ray source is the synchrotron, which produces highly collimated intense beams of X-rays; these machines, however, are scarce and expensive. Masks must be opaque to X-rays and therefore must be made from high atomic number materials such as gold. The resulting masks are very fragile and require careful handling. X-ray resists also present problems. With the exception of synchrotron-produced X-rays, most other sources of X-rays do not produce a collimated intense beam and few suitable resist materials exist with sufficient sensitivity, particularly positive resists. Multilevel resist techniques must be used, where the pattern is produced in the very thin top layer of resist and transferred to the lower layers by dry etching.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

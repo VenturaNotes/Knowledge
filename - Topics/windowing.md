@@ -2,6 +2,20 @@
 - 
 ## Source [^1]
 - $n$. a technique of image manipulation commonly used in cross-sectional imaging to manipulate a grey scale image. Typically there is too much data obtained in a scan to see on a single image: the radiologist therefore chooses the window level centered on the density of the tissue of interest and a window width wide enough to include the densities of all the tissues that need to be seen. Tissues denser than this window usually appear white, and tissues darker appear black. Sometimes several different images of the same scan are required at different window settings to assess adequately all the necessary detail (for example, window settings to observe the lung are different from those for the bones or the soft tissues in the chest on CT). See also Hounsfield unit.
+## Source[^2]
+- The tapering of a sampled signal prior to a transformation being applied in order to reduce the effect of any discontinuities at the edges. This is achieved in practice by multiplying the portion of the time domain signal to be transformed by a window function, which is equivalent to convolution in the frequency domain. When, for example, a Fourier transform is being applied, the choice of a suitable window is made as a compromise between keeping local spreading of individual spectral components to a minimum as well as keeping spectral spreading elsewhere low. A number of window functions have been proposed, which are defined for $$-\frac{1}{2} (N - 1) \leq n \leq \frac{1}{2} (N - 1)$$and zero elsewhere (see table).
+
+| Window Functions                | Equation                                                                                                                                                                                              |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Blackman window                 | $w_B[n] = 0.42 + 0.5 \cos\left(\frac{2\pi n}{[N-1]}\right) + 0.08 \cos\left(\frac{4\pi n}{[N-1]}\right)$                                                                                              |
+| Bartlett or triangular window   | $w_T[n] = 1 - \frac{2 \lvert n\rvert}{[N-1]}$                                                                                                                                                         |
+| Hamming window                  | $w_H[n] = 0.54 + 0.46 \cos\left(\frac{2\pi n}{[N-1]}\right)$                                                                                                                                          |
+| Hanning or raised cosine window | $w_C[n] = 0.5 + 0.5 \cos\left(\frac{2\pi n}{[N-1]}\right)$                                                                                                                                            |
+| Kaiser window                   | $w_K[n] = \frac{I_0\left( \alpha \sqrt{1 - \left(\frac{2n}{[N-1]}\right)^2} \right)}{I_0(\alpha)}$<br><br>  <br><br>(where $I_0$ is a Bessel function and $\alpha$ controls the degree of edge taper) |
+| Rectangular or uniform window   | $w_R[n] = 1$                                                                                                                                                                                          |
+| Tapered window                  | $w_t[n] = 1$ for $-\frac{1}{2}(N-1) < n < \frac{1}{2}(N-1)$<br><br>  <br><br>$w_t[n] = 0.5$ for $n = -\frac{1}{2}(N-1)$ and $n = \frac{1}{2}(N-1)$                                                    |
+| von Hann window                 | $w_V[n] = 0.5 + 0.5 \cos\left(\frac{2\pi n}{[N+1]}\right)$                                                                                                                                            |
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
