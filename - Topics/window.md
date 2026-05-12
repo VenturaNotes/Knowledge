@@ -8,7 +8,13 @@
 ## Source[^2]
 - (1) An opportunity to borrow or invest that may be only temporary and should therefore be taken while it is available. 
 - (2) A period during the day during which interbank transfers and clearance may be enacted.
+## Source[^3]
+- (1) The thin sheet of material, usually mica, that covers the end of a Geiger counter and through which the radiation enters the instrument. 
+- (2) See RADIO WINDOW. 
+- (3) See CONFUSION REFLECTOR. 
+- (4) See WINDOWING.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

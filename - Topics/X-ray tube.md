@@ -1,0 +1,12 @@
+## Synthesis
+- 
+## Source [^1]
+- An electron tube that produces X-rays. Early X-ray tubes were gas-filled tubes but only electron beams of relatively low energy could be produced because of disruptive discharges occurring through the gas. Modern X-ray tubes are invariably hard tubes (i.e. evacuated to a high vacuum) developed from the Coolidge type of tube; they are more stable than the earlier gas-filled sort.
+- A beam of electrons, produced by thermionic emission from the cathode, is accelerated and focused on to a target electrode. The target electrode is usually the anode of the tube. The X-ray spectrum produced from the target contains frequencies that are characteristic of the target material and in addition contains a continuous range of frequencies of which the short-wave (high-energy) limit is determined by the energy of the electrons and hence by the accelerating voltage across the tube. The current in a vacuum tube can be controlled by varying the temperature of the cathode and hence the numbers of electrons emitted from it.
+- In order to produce high-energy X-rays the voltage across the tube must be very large: values of greater than one megavolt have been used. These extremely high voltages are usually supplied by a step-up transformer: if the secondary winding is connected across the tube it can act as its own rectifier. If this mode of operation is not suitable, for example when a continuous steady output is required, separate rectifying and smoothing circuits are necessary.
+- When operated at such energies cooling of the target is important. The extremely small size of the focal spot causes the generation of localized high temperature. The target is therefore constructed of a metal, such as tungsten, that has an extremely high melting point. The rest of the target electrode is usually made from a metal, such as copper, that is a good conductor of heat. A rotating-anode tube contains an anode that rotates about a centre that is not the focal spot of the electron beam; the same part of the target is thus not always bombarded. A rotating hollow cylinder with water cooling can also be used.
+- http://www.crtsite.com/page5.html
+	- A gallery of historical X-ray tubes
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

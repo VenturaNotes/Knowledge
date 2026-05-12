@@ -9,6 +9,9 @@ aliases: Universal Serial Bus
 - The USB 2.0 specification, released in 2000, allows USB to compete with FireWire, etc. USB 2.0 is backward-compatible with USB 1.1 but works at 480 Mbps . The next version, USB 3.0, is expected to work at about 5 Gbps. Most, if not all, modern systems support hot swapping of USB devices.
 - http://www.usb.org/developers/docs
 	- The USB (version 2) specification
+## Source[^2]
+- (universal serial bus) An interface on a computer where serial transmission is used to exchange data. The bus consists of four wires, two for the data and two that deliver power to connected devices. The most commonly found standards are USB 1.1, which has a data rate of 12 Mbits/s, USB 2.0, which can achieve data rates of 480Mbits/s, and USB 3.0, capable of 4Gbits/s.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

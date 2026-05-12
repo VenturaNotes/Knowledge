@@ -3,12 +3,12 @@ Source:
   - https://www.oxfordreference.com/display/10.1093/acref/9780198725725.001.0001/acref-9780198725725
 tags:
   - type/textbook
-  - status/incomplete
+  - status/prepared
 ---
 - Research
 - Question
 - Create
-	1. a.c.
+	1. a.c.-
 		1. (AC) see alternating current
 	2. a.c.-coupled amplifier
 		1. See amplifier
@@ -6905,497 +6905,690 @@ tags:
 	4759. [[tolerance]]
 	4760. [[tone control]]
 
-	4761. tone jamming
-	4762. top-down hierarchical design
-	4763. top-down nanofabrication
+	4761. [[tone jamming]]
+	4762. [[top-down hierarchical design]]
+	4763. [[top-down nanofabrication]]
 	4764. topside ionosphere
-	4765. total capacitance
-	4766. total emission
+		1. See ionosphere
+	4765. [[total capacitance]]
+	4766. [[total emission]]
 	4767. total harmonic distortion
+		1. (THD) See harmonic distortion
 	4768. touch-sensitive keyboard
-	4769. touchscreen
+		1. See VELOCITY-SENSITIVE KEYBOARD.
+	4769. [[touchscreen]]
 	4770. Townsend avalanche
+		1. See avalanche
 
 	4771. Townsend discharge
+		1. See gas-discharge tube
 	4772. TQFN
-	4773. trace
+		1. See quad-flat no-leads.
+	4773. [[trace]]
 	4774. trace interval
-	4775. track
-	4776. tracking
-	4777. tracking generator
-	4778. traction control system
+		1. (active interval) See sawtooth waveform
+	4775. [[track]]
+	4776. [[tracking]]
+	4777. [[tracking generator]]
+	4778. [[traction control system]]
 	4779. traffic intensity
-	4780. trailing edge((of a pulse))
+		1. See NETWORK TRAFFIC MEASUREMENT.
+	4780. trailing edge
+		1. (of a pulse) See pulse
 
-	4781. training sequence
-	4782. transadmittance
-	4783. transadmittance amplifier
-	4784. transceiver
-	4785. transconductance(symbol: gm)
-	4786. transconductance amplifier
-	4787. transducer
-	4788. transductor
-	4789. transfer characteristic
+	4781. [[training sequence]]
+	4782. [[transadmittance]]
+	4783. [[transadmittance amplifier]]
+	4784. [[transceiver]]
+	4785. [[transconductance]]
+	4786. [[transconductance amplifier]]
+	4787. [[transducer]]
+	4788. [[transductor]]
+	4789. [[transfer characteristic]]
 	4790. transfer constant
+		1. See image transfer constant
 
-	4791. transfer current
-	4792. transfer function
+	4791. [[transfer current]]
+	4792. [[transfer function]]
 	4793. transfer layer
+		1. See multilevel resist
 	4794. transfer length
-	4795. transfer parameter
-	4796. transfer rate
-	4797. transferred-electron device
-	4798. transformer
+		1. See contact
+	4795. [[transfer parameter]]
+	4796. [[transfer rate]]
+	4797. [[transferred-electron device]]
+	4798. [[transformer]]
 	4799. transformer ratio
-	4800. transient
+		1. See turns ratio
+	4800. [[transient]]
 
-	4801. transient suppression
-	4802. transimpedance
-	4803. transimpedance amplifier
-	4804. transistor
-	4805. transistor-transistor logic
-	4806. transistor parameters
-	4807. transition
-	4808. transition band
+	4801. [[transient suppression]]
+	4802. [[transimpedance]]
+	4803. [[transimpedance amplifier]]
+	4804. [[transistor]]
+	4805. [[transistor-transistor logic]]
+	4806. [[transistor parameters]]
+	4807. [[transition]]
+	4808. [[transition band]]
 	4809. transition flux density
+		1. See superconductivity
 	4810. transition table
+		1. See state table
 
 	4811. transition temperature
-	4812. transit time
+		1. See superconductivity
+	4812. [[transit time]]
 	4813. transit time mode
-	4814. translator
-	4815. transmission
+		1. See TRANSFERRED ELECTRON DEVICE.
+	4814. [[translator]]
+	4815. [[transmission]]
 	4816. Transmission Control Protocol
+		1. See TCP; TCP/IP
 	4817. transmission electron microscope
+		1. See electron microscope
 	4818. transmission gain
-	4819. transmission level
-	4820. transmission line
+		1. See transmission loss
+	4819. [[transmission level]]
+	4820. [[transmission line]]
 
-	4821. transmission line matrix
-	4822. transmission loss
+	4821. [[transmission line matrix]]
+	4822. [[transmission loss]]
 	4823. transmission mode
-	4824. transmission primary
-	4825. transmit-receive switch
+		1. See mode
+	4824. [[transmission primary]]
+	4825. [[transmit-receive switch]]
 	4826. transmittance
-	4827. transmitted-carrier transmission
+		1. See SIGNAL FLOWGRAPH.
+	4827. [[transmitted-carrier transmission]]
 	4828. transmitted-reference spread spectrum
-	4829. transmitter
+		1. See digital communications
+	4829. [[transmitter]]
 	4830. transmitting antenna
+		1. See antenna
 
-	4831. transponder
-	4832. transport stream
-	4833. transposed transmission line
-	4834. transresistance
-	4835. transversal filter
-	4836. transverse wave
+	4831. [[transponder]]
+	4832. [[transport stream]]
+	4833. [[transposed transmission line]]
+	4834. [[transresistance]]
+	4835. [[transversal filter]]
+	4836. [[transverse wave]]
 	4837. trapezium distortion
+		1. See DISTORTION.
 	4838. trapping recombination
-	4839. travelling-wave amplifier
-	4840. travelling-wave tube
+		1. See RECOMBINATION PROCESSES.
+	4839. traveling-wave amplifier
+		1. See distributed amplifier
+	4840. [[traveling-wave tube]]
 
-	4841. travelling wave
+	4841. [[traveling wave]]
 	4842. trellis code
+		1. See digital codes
 	4843. triac
+		1. (triode a.c. switch) See thyristor
 	4844. triboelectricity
+		1. See frictional electricity
 	4845. triboluminescence
-	4846. trickle charge
-	4847. trigger
-	4848. trigonometric functions
+		1. See LUMINESCENCE.
+	4846. [[trickle charge]]
+	4847. [[trigger]]
+	4848. [[trigonometric functions]]
 	4849. trilevel resist
-	4850. trimmer
+		1. See multilevel resist
+	4850. [[trimmer]]
 
-	4851. triode
-	4852. triode-hexode
+	4851. [[triode]]
+	4852. [[triode-hexode]]
 	4853. triode region
+		1. See field-effect transistor; saturated mode
 	4854. triple integral
+		1. See double integral
 	4855. tripler
-	4856. tripping device
-	4857. tristate logic gate
-	4858. tropospheric ducting
-	4859. tropospheric scattering
+		1. See frequency multiplier
+	4856. [[tripping device]]
+	4857. [[tristate logic gate]]
+	4858. [[tropospheric ducting]]
+	4859. [[tropospheric scattering]]
 	4860. TR switch
+		1. See transmit-receive switch
 
-	4861. truncate
+	4861. [[truncate]]
 	4862. truncated test
-	4863. trunk feeder
-	4864. truth table
+		1. See life test
+	4863. [[trunk feeder]]
+	4864. [[truth table]]
 	4865. TS
+		1. See transport stream
 	4866. TTL
+		1. See transistor-transistor logic
 	4867. tube
+		1. Short for electron tube, especially a vacuum tube
 	4868. tunable magnetron
-	4869. tuned amplifier
-	4870. tuned circuit
+		1. See magnetron
+	4869. [[tuned amplifier]]
+	4870. [[tuned circuit]]
 
-	4871. tuner
-	4872. tungsten(symbol: W)
+	4871. [[tuner]]
+	4872. [[tungsten]]
 	4873. tuning
+		1. See TUNED CIRCUIT; ELECTRONIC TUNING.
 	4874. tuning screw
-	4875. tunnel diode
-	4876. tunnel effect
-	4877. turbo-codes
-	4878. Turing machine
-	4879. turns ratio(symbol: n)
-	4880. turret tuner
+		1. See waveguide
+	4875. [[tunnel diode]]
+	4876. [[tunnel effect]]
+	4877. [[turbo-codes]]
+	4878. [[Turing machine]]
+	4879. [[turns ratio]]
+	4880. [[turret tuner]]
 
-	4881. tweeter
+	4881. [[tweeter]]
 	4882. twin-T network
+		1. (parallel-T network) See two-port network.
 	4883. twin cable
+		1. See paired cable.
 	4884. twisted pair
-	4885. two's-complement notation
+		1. See pair.
+	4885. [[two's-complement notation]]
 	4886. two-phase system
+		1. (quarter-phase system) See polyphase system
 	4887. two-port analysis
-	4888. two-port network
+		1. See network
+	4888. [[two-port network]]
 	4889. two-port parameters
+		1. See network
 	4890. two-tone modulation
+		1. See amplitude modulation; frequency modulation.
 
-	4891. two-wire circuit
+	4891. [[two-wire circuit]]
 	4892. TWT
-	4893. u-law
-	4894. UART
+		1. See traveling-wave tube
+	4893. [[u-law]]
+	4894. [[universal asynchronous receiver-transmitter|UART]]
 	4895. UDF
+		1. See universal disk format
 	4896. UHD
+		1. See ultra high-definition
 	4897. UHF
+		1. (ultrahigh frequency) See frequency band
 	4898. UJT
-	4899. ultra-wide band transmission
-	4900. ultra extended graphics array
+		1. See unijunction transistor
+	4899. [[ultra-wide band transmission]]
+	4900. [[ultra extended graphics array]]
 
-	4901. ultra high-definition
+	4901. [[ultra high-definition]]
 	4902. ultrahigh frequency
-	4903. ultrasonic communication
-	4904. ultrasonic delay line
-	4905. ultrasonic range finding
-	4906. ultrasonics
-	4907. ultrasonography
+		1. (UHF) See frequency band
+	4903. [[ultrasonic communication]]
+	4904. [[ultrasonic delay line]]
+	4905. [[ultrasonic range finding]]
+	4906. [[ultrasonics]]
+	4907. [[ultrasonography]]
 	4908. ultraviolet photoelectron spectroscopy
-	4909. ultraviolet radiation
-	4910. unabsorbed field strength
+		1. (UPS) See PHOTOELECTRON SPECTROSCOPY.
+	4909. [[ultraviolet radiation]]
+	4910. [[unabsorbed field strength]]
 
 	4911. unbalanced two-port network
+		1. See two-port network
 	4912. unclocked flip-flop
+		1. See flip-flop
 	4913. undercoupling
-	4914. undercurrent release
+		1. See coupling
+	4914. [[undercurrent release]]
 	4915. underdamping
+		1. See damped
 	4916. underscanning
-	4917. undershoot
-	4918. unicast
+		1. See scanning
+	4917. [[undershoot]]
+	4918. [[unicast]]
 	4919. uniconductor waveguide
+		1. See waveguide
 	4920. unidirectional current
+		1. See current
 
 	4921. unidirectional microphone
+		1. See cardioid microphone
 	4922. unidirectional transducer
-	4923. uniform cable
-	4924. uniform line
-	4925. uniform waveguide
+		1. (unilateral transducer) See transducer
+	4923. [[uniform cable]]
+	4924. [[uniform line]]
+	4925. [[uniform waveguide]]
 	4926. uniform window
-	4927. unijunction transistor
+		1. See windowing
+	4927. [[unijunction transistor]]
 	4928. unilateral network
+		1. See network
 	4929. unilateral transducer
+		1. (unidirectional transducer) See transducer
 	4930. uninterrupted duty
+		1. See duty 
 
-	4931. unipotential cathode
-	4932. unit
-	4933. unit-step function
-	4934. unit circle
+	4931. [[unipotential cathode]]
+	4932. [[unit]]
+	4933. [[unit-step function]]
+	4934. [[unit circle]]
 	4935. unit delta function
-	4936. unit sample
-	4937. unit vector
+		1. See dirac delta function
+	4936. [[unit sample]]
+	4937. [[unit vector]]
 	4938. universal active filter
+		1. See state variable filter
 	4939. universal asynchronous receiver/transmitter
-	4940. universal disk format
+		1. See UART
+	4940. [[universal disk format]]
 
-	4941. universal motor
+	4941. [[universal motor]]
 	4942. universal serial bus
-	4943. universal shunt
+		1. See USB
+	4943. [[universal shunt]]
 	4944. univibrator
+		1. See monostable
 	4945. unstable oscillation
-	4946. upconvert
-	4947. uplink
+		1. See oscillation
+	4946. [[upconvert]]
+	4947. [[uplink]]
 	4948. upper sideband
+		1. See carrier wave
 	4949. UPS
-	4950. upsampling
+		1. (ultraviolet photoelectron spectroscopy) See PHOTOELECTRON SPECTROSCOPY.
+	4950. [[upsampling]]
 
-	4951. USB
-	4952. USB flash drive
+	4951. [[USB]]
+	4952. [[USB flash drive]]
 	4953. useful life
+		1. See failure rate
 	4954. UTP
+		1. (unshielded twisted pair) See pair
 	4955. UWB
+		1. See ultra-wide band transmission
 	4956. UXGA
+		1. See ultra extended graphics array
 	4957. V+
+		1. See voiced
 	4958. V-
+		1. See voiceless
 	4959. V-beam radar
-	4960. V-groove technique
+		1. See radar
+	4960. [[V-groove technique]]
 
-	4961. vacancy
-	4962. vacuum evaporation
-	4963. vacuum microelectronics
-	4964. vacuum tube
+	4961. [[vacancy]]
+	4962. [[vacuum evaporation]]
+	4963. [[vacuum microelectronics]]
+	4964. [[vacuum tube]]
 	4965. VAD
-	4966. valence band
-	4967. valence electrons
-	4968. valency
+		1. See voice activity detection
+	4966. [[valence band]]
+	4967. [[valence electrons]]
+	4968. [[valency]]
 	4969. valley
+		1. See pulse
 	4970. valley point
+		1. (1) See unijunction transistor
+		2. (2) See tunnel diode
 
-	4971. valve
+	4971. [[valve]]
 	4972. valve diode
-	4973. valve voltmeter
-	4974. Van de Graaff generator
-	4975. vapour phase epitaxy
-	4976. vapour plating
-	4977. var
-	4978. varactor
-	4979. varactor tuning
+		1. (vacuum diode) See thermionic valve
+	4973. [[valve voltmeter]]
+	4974. [[Van de Graaff generator]]
+	4975. [[vapor phase epitaxy]]
+	4976. [[vapor plating]]
+	4977. [[var]]
+	4978. [[varactor]]
+	4979. [[varactor tuning]]
 	4980. variable capacitance gauge
+		1. See strain gauge
 
-	4981. variable impedances
+	4981. [[variable impedances]]
 	4982. variable inductance gauge
+		1. (electromagnetic strain gauge) See strain gauge
 	4983. variable resistance gauge
-	4984. Variac
+		1. (resistance strain gauge) See strain gauge
+	4984. [[Variac]]
 	4985. variation
-	4986. varistor
+		1. See deviation
+	4986. [[varistor]]
 	4987. varying duty
+		1. See duty
 	4988. VCA
+		1. See voltage-controlled amplifier
 	4989. VCCS
+		1. (voltage-controlled current source) See DEPENDENT SOURCES.
 	4990. VCO
+		1. (voltage-controlled oscillator) See OSCILLATOR.
 
 	4991. VCR
+		1. (video cassette recorder) See VIDEOTAPE.
 	4992. VCVS
+		1. (voltage-controlled voltage source) See DEPENDENT SOURCES.
 	4993. VCVS filter
+		1. See sallen-key filter
 	4994. VDR
+		1. (voltage-dependent resistor) See transient suppression
 	4995. VDU
-	4996. vector area
+		1. See visual display unit
+	4996. [[vector area]]
 	4997. vector field
-	4998. velocity
+		1. See FIELD.
+	4998. [[velocity]]
 	4999. velocity-modulated tube
-	5000. velocity-sensitive keyboard
+		1. See velocity modulation
+	5000. [[velocity-sensitive keyboard]]
 
-	5001. velocity microphone
-	5002. velocity modulation
+	5001. [[velocity microphone]]
+	5002. [[velocity modulation]]
 	5003. vertical blanking
-	5004. vertical FET
-	5005. vertical surround sound
+		1. See blanking
+	5004. [[vertical FET]]
+	5005. [[vertical surround sound]]
 	5006. very high frequency
+		1. (VHF) See frequency band
 	5007. very large scale integration
+		1. See VLSI
 	5008. very low frequency
-	5009. very small aperture terminal
-	5010. vestigial-sideband transmission
+		1. (VLF) See Frequency Band
+	5009. [[very small aperture terminal]]
+	5010. [[vestigial-sideband transmission]]
 
 	5011. vestigial sideband
+		1. See carrier wave
 	5012. VFET
-	5013. VHDL
+		1. See vertical FET (field-effect transistor)
+	5013. [[VHDL]]
 	5014. VHF
-	5015. via
+		1. (very high frequency) See frequency band
+	5015. [[via]]
 	5016. vibration galvanometer
-	5017. vibrator
-	5018. video card
+		1. See galvanometer
+	5017. [[vibrator]]
+	5018. [[video card]]
 	5019. videoconference
+		1. See TELECONFERENCE.
 	5020. video IF system
+		1. See INTERCARRIER SYSTEM.
 
-	5021. video on demand
-	5022. videotape
-	5023. video tracking
-	5024. vidicon
+	5021. [[video on demand]]
+	5022. [[videotape]]
+	5023. [[video tracking]]
+	5024. [[vidicon]]
 	5025. virtual address
-	5026. virtual cathode
-	5027. virtual circuit
-	5028. virtual earth
-	5029. virtual memory
-	5030. virtual reality systems
+		1. See logical address
+	5026. [[virtual cathode]]
+	5027. [[virtual circuit]]
+	5028. [[virtual earth]]
+	5029. [[virtual memory]]
+	5030. [[virtual reality systems]]
 
-	5031. virtual surround sound
+	5031. [[virtual surround sound]]
 	5032. virtual value
-	5033. virus
-	5034. visibility factor
-	5035. visual display unit
+		1. See root-mean-square value
+	5033. [[virus]]
+	5034. [[visibility factor]]
+	5035. [[visual display unit]]
 	5036. VLF
-	5037. VLSI
-	5038. VMOS
-	5039. vocoder
+		1. (very low frequency) See frequency band
+	5037. [[very large-scale integration|VLSI]]
+	5038. [[VMOS]]
+	5039. [[vocoder]]
 	5040. voder
+		1. (voice coder) See vocoder
 
-	5041. voice-grade channel
-	5042. voice activity detection
-	5043. voiced
-	5044. voiceless
-	5045. VoIP
-	5046. volatile memory
-	5047. volt(symbol: V)
-	5048. volt-ampere(symbol: VA)
-	5049. voltage(symbol: V; unit: volt)
+	5041. [[voice-grade channel]]
+	5042. [[voice activity detection]]
+	5043. [[voiced]]
+	5044. [[voiceless]]
+	5045. [[VoIP]]
+	5046. [[volatile memory]]
+	5047. [[volt]]
+	5048. [[volt-ampere]]
+	5049. [[voltage]]
 	5050. voltage-controlled amplifier
+		1. (VCA) An amplifier whose gain is controlled by a voltage
 
 	5051. voltage-controlled current source
+		1. (VCCS) See DEPENDENT SOURCES.
 	5052. voltage-controlled voltage source
+		1. (VCVS) See DEPENDENT SOURCES.
 	5053. voltage-mode circuits
+		1. See CURRENT-MODE CIRCUITS.
 	5054. voltage-regulator diode
-	5055. voltage amplifier
-	5056. voltage between lines
+		1. See ZENER DIODE.
+	5055. [[voltage amplifier]]
+	5056. [[voltage between lines]]
 	5057. voltage divider
-	5058. voltage doubler
-	5059. voltage drop
+		1. See potential divider
+	5058. [[voltage doubler]]
+	5059. [[voltage drop]]
 	5060. voltage feedback
+		1. (shunt feedback) See feedback
 
 	5061. voltage gain
-	5062. voltage generator
-	5063. voltage jump
+		1. See gain
+	5062. [[voltage generator]]
+	5063. [[voltage jump]]
 	5064. voltage law
-	5065. voltage level
-	5066. voltage multiplier
+		1. See KIRCHHOFF'S LAWS.
+	5065. [[voltage level]]
+	5066. [[voltage multiplier]]
 	5067. voltage reference diode
+		1. See diode forward voltage
 	5068. voltage regulator
+		1. See regulator
 	5069. voltage relay
+		1. See relay
 	5070. voltage selector
+		1. See limiter
 
-	5071. voltage source
-	5072. voltage stabilizer
+	5071. [[voltage source]]
+	5072. [[voltage stabilizer]]
 	5073. voltage transformer
+		1. (potential transformer) See TRANSFORMER; INSTRUMENT TRANSFORMER.
 	5074. volt efficiency
-	5075. voltmeter
-	5076. volt per metre
-	5077. volume
+		1. See cell
+	5075. [[voltmeter]]
+	5076. [[volt per meter]]
+	5077. [[volume]]
 	5078. volume charge density
-	5079. volume compressor
+		1. See charge density
+	5079. [[volume compressor]]
 	5080. volume control
+		1. See AUTOMATIC GAIN CONTROL; GAIN CONTROL.
 
-	5081. volume element
-	5082. volume integral
+	5081. [[volume element]]
+	5082. [[volume integral]]
 	5083. volume lifetime
-	5084. volume limiter
+		1. (bulk lifetime) See SEMICONDUCTOR.
+	5084. [[volume limiter]]
 	5085. volume resistivity
+		1. See resistivity
 	5086. volumetric radar
+		1. See radar
 	5087. von Hann window
-	5088. von Neumann machine
+		1. See windowing
+	5088. [[von Neumann machine]]
 	5089. VPE
+		1. (vapor phase epitaxy) See also CHEMICAL VAPOR DEPOSITION.
 	5090. VSAT
+		1. See VERY SMALL APERTURE TERMINAL.
 
 	5091. VSWR
-	5092. wafer
-	5093. Wagner earth connection
-	5094. wait state
-	5095. walk-out
+		1. (voltage standing-wave ratio) See STANDING WAVE.
+	5092. [[wafer]]
+	5093. [[Wagner earth connection]]
+	5094. [[wait state]]
+	5095. [[walk-out]]
 	5096. WAN
-	5097. warble
-	5098. warm-up
-	5099. watt(symbol: W)
-	5100. watt-hour
+		1. See wide area network
+	5097. [[warble]]
+	5098. [[warm-up]]
+	5099. [[watt]]
+	5100. [[watt-hour]]
 
-	5101. watt-hour meter
-	5102. wattmeter
-	5103. wave
-	5104. wave analyser
+	5101. [[watt-hour meter]]
+	5102. [[wattmeter]]
+	5103. [[wave]]
+	5104. [[wave analyzer]]
 	5105. wave equation
+		1. See quantum mechanics
 	5106. wavefront
+		1. (1) (wave surface) See wave
+		2. (2) See impulse voltage
 	5107. wavefunction
-	5108. waveguide
-	5109. wave impedance
+		1. See quantum mechanics
+	5108. [[waveguide]]
+	5109. [[wave impedance]]
 	5110. wavelength
+		1. See wave
 
 	5111. wavelength constant
+		1. (phase-change coefficient) See propagation coefficient
 	5112. wave mechanics
+		1. See quantum mechanics
 	5113. wave surface
+		1. (wavefront) See wave
 	5114. wavetail
-	5115. wavetrain
-	5116. wavetrap
+		1. See impulse voltage
+	5115. [[wavetrain]]
+	5116. [[wavetrap]]
 	5117. wave vector
+		1. See momentum space
 	5118. WCDMA
+		1. See wideband code division multiple access
 	5119. weak electrolyte
+		1. See electrolyte
 	5120. wear-out failure
+		1. See failure
 
 	5121. wear-out failure period
-	5122. wearable technology
-	5123. wear levelling
-	5124. weber(symbol: Wb)
+		1. See failure rate 
+	5122. [[wearable technology]]
+	5123. [[wear leveling]]
+	5124. [[weber]]
 	5125. Weiss constant
-	5126. Weston standard cell
+		1. (paramagnetic Curie temperature) See PARAMAGNETISM.
+	5126. [[Weston standard cell]]
 	5127. wet cell
+		1. See cell
 	5128. wet etching
-	5129. Wheatstone bridge
-	5130. white compression
+		1. See etching
+	5129. [[Wheatstone bridge]]
+	5130. [[white compression]]
 
-	5131. white noise
+	5131. [[white noise]]
 	5132. white peak
+		1. (picture white) See television
 	5133. white recording
+		1. See recording of sound
 	5134. Wi-fi
-	5135. wide area network
-	5136. wideband
-	5137. wideband code division multiple access
+		1. Informal IEEE 802.11b, the wireless local area network standard.
+	5135. [[wide area network]]
+	5136. [[wideband]]
+	5137. [[wideband code division multiple access]]
 	5138. wideband FSK
-	5139. widescreen television
-	5140. widescreen ultra extended graphics array
+		1. See frequency modulation
+	5139. [[widescreen television]]
+	5140. [[widescreen ultra extended graphics array]]
 
 	5141. Wiedemann effect
-	5142. Wien bridge
-	5143. Wiener-Hopf equation
-	5144. Wiener filtering
-	5145. Wilson effect
-	5146. Wimshurst machine
-	5147. winding
-	5148. window
-	5149. windowing
+		1. See MAGNETOSTRICTION.
+	5142. [[Wien bridge]]
+	5143. [[Wiener-Hopf equation]]
+	5144. [[Wiener filtering]]
+	5145. [[Wilson effect]]
+	5146. [[Wimshurst machine]]
+	5147. [[winding]]
+	5148. [[window]]
+	5149. [[windowing]]
 	5150. wire-wound resistor
+		1. See resistor
 
-	5151. wire bonding
-	5152. wireless
-	5153. wireless personal area network
-	5154. wiring diagram
+	5151. [[wire bonding]]
+	5152. [[wireless]]
+	5153. [[wireless personal area network]]
+	5154. [[wiring diagram]]
 	5155. WLAN
-	5156. wobbulator
-	5157. Wollaston wire
-	5158. woofer
-	5159. word
+		1. (wireless local area network) See LOCAL AREA NETWORK; WIRELESS.
+	5156. [[wobbulator]]
+	5157. [[Wollaston wire]]
+	5158. [[woofer]]
+	5159. [[word]]
 	5160. word-addressable
+		1. See address 
 
 	5161. word line
-	5162. work function(symbol: Φ; unit: electronvolt)
+		1. See RAM
+	5162. [[work function]]
 	5163. wound core
-	5164. wow
+		1. See core
+	5164. [[wow]]
 	5165. WPAN
+		1. See WIRELESS PERSONAL AREA NETWORK.
 	5166. wrist strap
-	5167. write
+		1. See ELECTROMAGNETIC COMPATIBILITY.
+	5167. [[write]]
 	5168. WUXGA
+		1. See WIDESCREEN ULTRA EXTENDED GRAPHICS ARRAY.
 	5169. wye circuit
-	5170. X-axis
+		1. See star circuit
+	5170. [[X-axis]]
 
-	5171. X-guide
+	5171. [[X-guide]]
 	5172. X-ray crystallography
+		1. See X-RAYS.
 	5173. X-ray fluorescence
-	5174. X-ray lithography
+		1. (XRF) See electron microprobe
+	5174. [[X-ray lithography]]
 	5175. X-ray photoelectron spectroscopy
-	5176. X-rays
+		1. (XPS) See PHOTOELECTRON SPECTROSCOPY.
+	5176. [[X-rays]]
 	5177. X-ray topography
-	5178. X-ray tube
-	5179. X-Y plotter
+		1. See diffraction
+	5178. [[X-ray tube]]
+	5179. [[X-Y plotter]]
 	5180. X.21
+		1. See X series
 
 	5181. X.25
-	5182. X band
+		1. See X Series
+	5182. [[X band]]
 	5183. XPS
+		1. (X-ray photoelectron spectroscopy) See PHOTOELECTRON SPECTROSCOPY.
 	5184. XRF
-	5185. X series
-	5186. Y-axis
-	5187. Yagi antenna
+		1. (X-ray fluorescence) See ELECTRON MICROPROBE.
+	5185. [[X series]]
+	5186. [[Y-axis]]
+	5187. [[Yagi antenna]]
 	5188. Y circuit
-	5189. YIG
-	5190. yoke
+		1. See star circuit
+	5189. [[YIG]]
+	5190. [[yoke]]
 
 	5191. y parameters
-	5192. z-modulation((of a cathode-ray tube))
-	5193. Zener breakdown
-	5194. Zener diode
-	5195. zero-crossing detector
-	5196. zero crossing
+		1. See network
+	5192. z-modulation
+		1. (of a cathode-ray tube) See INTENSITY MODULATION.
+	5193. [[Zener breakdown]]
+	5194. [[Zener diode]]
+	5195. [[zero-crossing detector]]
+	5196. [[zero crossing]]
 	5197. zero error
+		1. See index error
 	5198. zero IF
-	5199. zero level
-	5200. zero padding
+		1. See direct conversion receiver
+	5199. [[zero level]]
+	5200. [[zero padding]]
 
 	5201. zero potential
-	5202. zeros(and poles)
-	5203. ZigBee
-	5204. zinc(symbol: Zn)
-	5205. zirconium(symbol: Zr)
-	5206. zone refining
+		1. See earth potential
+	5202. zeros
+		1. (and poles) See s-domain circuit analysis
+	5203. [[ZigBee]]
+	5204. [[zinc]]
+	5205. [[zirconium]]
+	5206. [[zone refining]]
 	5207. z parameters
-	5208. z transform
+		1. See network
+	5208. [[z transform]]
 	5209. π-mode operation
+		1. See magnetron
 	5210. π-section
+		1. See two-port network; filter

@@ -24,7 +24,10 @@ $$
 WORD:  Trademark A major word processing system developed over many years by the Microsoft Corporation. There are versions for Windows and Macintosh operating environments.
 ## Source[^2]
 - A word is a finite string of symbols from an alphabet. A binary word uses an alphabet {0, 1}. When a group has a presentation, the alphabet consists of the generators and their inverses. Words can be combined using concatenation. 
+## Source[^3]
+- A string of bits that stores a unit of information in a computer. The length of the word depends on the particular machine. Typical word lengths contain 32, 64, or 128 bits.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
