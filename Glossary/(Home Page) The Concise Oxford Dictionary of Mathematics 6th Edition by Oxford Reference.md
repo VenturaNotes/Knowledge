@@ -3981,7 +3981,7 @@ Year: 2021-09-01
 	2752. [[symbolic logic]]
 	2753. symmetrical about a line
 	2754. symmetrical about a point
-	2755. symmetric design
+	2755. [[symmetric design]]
 	2756. symmetric difference
 	2757. symmetric function
 	2758. [[symmetric group]]
@@ -4077,7 +4077,7 @@ Year: 2021-09-01
 	2840. tonne
 	
 	2841. topological group
-	2842. topologically distinguishable
+	2842. [[topologically distinguishable]]
 	2843. topological space
 	2844. topological vector space
 	2845. topology
@@ -4090,7 +4090,7 @@ Year: 2021-09-01
 	2851. torus
 	2852. total differential
 	2853. total expectation law
-	2854. total force
+	2854. [[total force]]
 	2855. totally bounded(of a metric space)
 	2856. totally disconnected(of a space)
 	2857. total order

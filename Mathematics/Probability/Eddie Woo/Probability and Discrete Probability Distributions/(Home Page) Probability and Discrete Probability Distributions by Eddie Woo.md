@@ -8,8 +8,8 @@ tags:
 Reviewed: false
 ---
 - Complete
-- Incomplete
 	- [[(1) Venn Diagrams for Probability (1 of 2 - When are they useful.)]]
+- Incomplete
 	- [[(2) Venn Diagrams for Probability (2 of 2 - Filling the sets)]]
 	- [[(3) Multi-Stage Probability Events (1 of 2 - Addition or Multiplication.)]]
 	- [[(4) Multi-Stage Probability Events (2 of 2 - Reframing for easier calculations)]]
