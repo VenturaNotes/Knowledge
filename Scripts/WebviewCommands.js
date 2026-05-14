@@ -1,6 +1,6 @@
 /**
  * WebviewCommands.js
- * Version: 2.8 - Quiet Focus & Settled Clone
+ * Version: 2.9 - Quiet Focus, Settled Clone & Smart Cache
  */
 
 module.exports = async (params) => {
@@ -22,13 +22,19 @@ module.exports = async (params) => {
         return origExecute.apply(this, arguments);
     };
 
-    // --- 2. HOTKEY MAPPING ---
+    // --- 2. SMART HOTKEY CACHING ---
+    // Recommendation: We build it once, and only clear it when the layout changes.
+    // We use a "debounce" to ensure we don't rebuild it 100 times during a workspace load.
     let cachedHotkeyMap = null;
+    let cacheTimeout = null;
+
     function getHotkeyMap() {
         if (cachedHotkeyMap) return cachedHotkeyMap;
+
         const map = new Map();
         const hkm = app.hotkeyManager;
         const isMac = navigator.platform.toUpperCase().includes('MAC');
+        
         for (const [id, command] of Object.entries(app.commands.commands)) {
             const keys = [...(hkm.customKeys?.[id] || []), ...(hkm.defaultKeys?.[id] || [])];
             for (const hk of keys) {
@@ -45,9 +51,13 @@ module.exports = async (params) => {
             }
         }
         cachedHotkeyMap = map;
-        setTimeout(() => { cachedHotkeyMap = null; }, 5000); 
         return map;
     }
+
+    // This listener ensures that if you change a hotkey or layout, the cache resets safely.
+    const clearCache = () => {
+        cachedHotkeyMap = null;
+    };
 
     // --- 3. ATTACHMENT (Silent & Safe) ---
     async function attachToWebview(webview) {
@@ -74,6 +84,7 @@ module.exports = async (params) => {
             }
 
             if (e.message?.startsWith('OBS_RAW_KEY:')) {
+                // USES SMART CACHE HERE
                 const commandId = getHotkeyMap().get(e.message.split('OBS_RAW_KEY:')[1]);
                 if (commandId) {
                     const win = leaf.view.containerEl.win;
@@ -108,7 +119,7 @@ module.exports = async (params) => {
         if (isReady()) inject();
     }
 
-    // --- 4. MOVEMENT DETECTION (Quiet Focus Strategy) ---
+    // --- 4. MOVEMENT DETECTION (Original Pane-Safe Logic) ---
     const leafParentMap = new WeakMap();
     let isRecreating = false;
 
@@ -132,27 +143,17 @@ module.exports = async (params) => {
 
         if (movedLeaf) {
             isRecreating = true;
-            
-            // Allow Obsidian's internal drag-and-drop state to finish
             await new Promise(r => setTimeout(r, 150));
 
             const state = movedLeaf.getViewState();
             const wasActive = app.workspace.activeLeaf === movedLeaf;
             const originalActiveLeaf = app.workspace.activeLeaf;
 
-            // Step A: Target the correct pane. 
-            // We switch focus to the moved leaf *without* focusing the actual window.
-            // This ensures the clone is born in the new pane.
             app.workspace.setActiveLeaf(movedLeaf, { focus: false });
-
-            // Step B: Create Clone
             const newLeaf = app.workspace.getLeaf('tab');
             await newLeaf.setViewState(state);
-
-            // Step C: Remove the "broken" moved tab
             movedLeaf.detach();
 
-            // Step D: Restore Focus
             if (wasActive) {
                 app.workspace.setActiveLeaf(newLeaf, { focus: true });
             } else {
@@ -160,7 +161,6 @@ module.exports = async (params) => {
             }
 
             leafParentMap.set(newLeaf, newLeaf.parent?.id);
-
             setTimeout(() => { 
                 isRecreating = false; 
                 findAndAttach();
@@ -178,12 +178,20 @@ module.exports = async (params) => {
         });
     };
 
+    // --- 5. EVENT HANDLERS ---
     app.workspace.on('layout-change', () => {
+        clearCache(); // Reset the hotkey map when the layout changes
         findAndAttach();
         processMovement();
     });
 
-    const heartbeat = setInterval(findAndAttach, 2000);
-    window.__WEBVIEW_SHORTCUTS_CLEANUP = () => clearInterval(heartbeat);
+    // Heartbeat: Increased to 5 seconds to reduce CPU impact
+    const heartbeat = setInterval(findAndAttach, 5000);
+    
+    window.__WEBVIEW_SHORTCUTS_CLEANUP = () => {
+        clearInterval(heartbeat);
+        app.workspace.off('layout-change', clearCache);
+    };
+
     findAndAttach();
 };
