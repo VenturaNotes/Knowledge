@@ -24,7 +24,10 @@ aliases:
 ## Source[^2]
 - (1) A permanent heritable change in a cell, particularly a bacterial cell, that occurs as a result of its acquiring foreign DNA. For example, nonvirulent bacterial cells can be transformed into virulent forms if cultured in a medium containing killed virulent bacteria. In cloning, the host cells are transformed by the insertion of recombinant DNA. See GENE Cloning. 
 - (2) The conversion of a normal cell into a malignant cell (see CANCER), which is brought about by mutation of genes and consequent cellular changes, sometimes through the action of carcinogens or oncogenic viruses.
+## Source[^3]
+- A term loosely synonymous with function, particularly a function mapping a set to itself. A linear transformation is a linear map.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

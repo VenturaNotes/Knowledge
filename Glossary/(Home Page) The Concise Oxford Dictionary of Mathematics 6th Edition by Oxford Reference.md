@@ -4092,7 +4092,7 @@ Year: 2021-09-01
 	2853. total expectation law
 	2854. [[total force]]
 	2855. totally bounded(of a metric space)
-	2856. totally disconnected(of a space)
+	2856. [[totally disconnected]]
 	2857. total order
 	2858. total probability law
 	2859. total relation
@@ -4107,9 +4107,9 @@ Year: 2021-09-01
 	2867. trail
 	2868. trajectory
 	2869. transcendental number
-	2870. transfinite number
+	2870. [[transfinite number]]
 	
-	2871. transformation
+	2871. [[transformation]]
 	2872. transformation group
 	2873. transformation matrix
 	2874. transition map

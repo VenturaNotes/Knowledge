@@ -7,4 +7,5 @@ Reviewed: false
 	- Eigenvectors and Eigenvalues Theorems
 	- Slide 1 (Theorem 1)
 		- The eigenvalues of a triangular matrix are the entries on its main diagonal.
-		- The proof is showing on a $3 \times 3$ matrix but it's easy to generalize on an $n \times n$ matrix. 
+		- The proof is showing on a $3 \times 3$ matrix but it's easy to generalize on an $n \times n$ matrix.
+	- 
