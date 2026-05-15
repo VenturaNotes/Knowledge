@@ -3,6 +3,7 @@ Source:
   - https://youtube.com/watch?v=zCwmvEntR6M
 Reviewed: false
 ---
+- 
 - Write a logical expression for the following English Sentences
 	- Good Practice for working with logical connectives
 		- Write logical expressions for English sentences

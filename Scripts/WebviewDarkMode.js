@@ -1,7 +1,10 @@
 module.exports = async (params) => {
     const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview';
     
-    if (window.__DARK_MODE_GLOBAL_STATE === undefined) {
+    // Check if this is the first time the script is running this session
+    const isFirstRun = window.__DARK_MODE_GLOBAL_STATE === undefined;
+
+    if (isFirstRun) {
         window.__DARK_MODE_GLOBAL_STATE = true; 
     } else {
         window.__DARK_MODE_GLOBAL_STATE = !window.__DARK_MODE_GLOBAL_STATE;
@@ -52,5 +55,9 @@ module.exports = async (params) => {
     }
 
     applyToAll();
-    new Notice(isActivating ? "🌙 Webview Dark Mode: ON" : "☀️ Webview Dark Mode: OFF");
+
+    // Only show the notice if it is a manual toggle (not the first run on startup)
+    if (!isFirstRun) {
+        new Notice(isActivating ? "🌙 Webview Dark Mode: ON" : "☀️ Webview Dark Mode: OFF");
+    }
 };

@@ -4114,18 +4114,18 @@ Year: 2021-09-01
 	2873. transformation matrix
 	2874. transition map
 	2875. transition matrix
-	2876. transitive
+	2876. [[transitive]]
 	2877. transitive relation
 	2878. translation(of Cartesian space)
 	2879. translation of axes(in Cartesian space)
 	2880. transportation problem
 	
 	2881. transpose
-	2882. transposition
+	2882. [[transposition]]
 	2883. transversal
 	2884. transverse axis
 	2885. transverse component
-	2886. transverse wave
+	2886. [[transverse wave]]
 	2887. trapezium
 	2888. trapezium rule
 	2889. trapezoidal rule

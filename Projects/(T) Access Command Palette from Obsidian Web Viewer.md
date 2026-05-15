@@ -16,6 +16,9 @@ completedDate: 2026-04-17
 ---
 ## Testing
 - When testing, you can't just run the script again. You need to restart all of Obsidian again
+## ToDo
+- [ ] I would like to be able to click on the Tab Strip (within a pane) and be able to access my command palette
+	- This does not work natively in Obsidian Web Viewer when split into panes (only opens new tabs in one pane)
 ## Conversations
 - [AI Google Studio](https://aistudio.google.com/prompts/16nz5sza7s9TU1n_K_kwN_jXIO37-Kk3n)
 - [AI Google Studio](https://aistudio.google.com/prompts/10PDojjH29gt-7m_To6afozWeh3OrOtOD)
