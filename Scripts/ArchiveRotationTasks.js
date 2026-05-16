@@ -127,6 +127,28 @@ module.exports = async (params) => {
     let yamlHeader = archiveLines.slice(0, insertStartIndex);
     let body = archiveLines.slice(insertStartIndex).filter(l => l.trim() !== "");
 
+    // --- FRONTMATTER LOGIC START ---
+    if (yamlHeader.length === 0) {
+        // Create new frontmatter if none exists
+        yamlHeader = ['---', 'tags:', '  - task', '---', ''];
+    } else {
+        // Check if the 'task' tag already exists in the frontmatter
+        const headerString = yamlHeader.join('\n');
+        const hasTaskTag = /tags:.*?\btask\b/s.test(headerString) || /^\s*-\s+task\b/m.test(headerString);
+        
+        if (!hasTaskTag) {
+            const tagsIndex = yamlHeader.findIndex(l => l.trim().startsWith('tags:'));
+            if (tagsIndex !== -1) {
+                // Add to existing tags section
+                yamlHeader.splice(tagsIndex + 1, 0, '  - task');
+            } else {
+                // Add tags section before the closing '---'
+                yamlHeader.splice(yamlHeader.length - 1, 0, 'tags:', '  - task');
+            }
+        }
+    }
+    // --- FRONTMATTER LOGIC END ---
+
     // 1. Ensure Root Note Header (# Title) exists
     let h1Index = body.findIndex(l => l.trim() === `# ${sourceTitle}`);
     if (h1Index === -1) {
@@ -135,7 +157,6 @@ module.exports = async (params) => {
     }
 
     // 2. Process tasks in REVERSE (Bottom-up from original file)
-    // This maintains original order when prepending to the archive sections
     for (const taskObj of archivedTasks.reverse()) {
         let currentParentIndex = h1Index;
         let currentLevel = 1;
@@ -143,7 +164,6 @@ module.exports = async (params) => {
         for (const headerTitle of taskObj.headerPath) {
             const headerLevel = headerTitle.match(/^(#+)/)[1].length;
 
-            // Find boundary of current parent
             let boundaryIndex = body.findIndex((l, idx) => {
                 if (idx <= currentParentIndex) return false;
                 const m = l.match(/^(#+)/);
@@ -151,7 +171,6 @@ module.exports = async (params) => {
             });
             if (boundaryIndex === -1) boundaryIndex = body.length;
 
-            // Look for header in this section
             let foundIndex = -1;
             for (let k = currentParentIndex + 1; k < boundaryIndex; k++) {
                 if (body[k].trim() === headerTitle) {
@@ -161,7 +180,6 @@ module.exports = async (params) => {
             }
 
             if (foundIndex === -1) {
-                // Prepend header to the parent section
                 body.splice(currentParentIndex + 1, 0, headerTitle);
                 foundIndex = currentParentIndex + 1;
             }
@@ -170,7 +188,6 @@ module.exports = async (params) => {
             currentLevel = headerLevel;
         }
 
-        // Insert task at the top of the final header section
         body.splice(currentParentIndex + 1, 0, ...taskObj.tree);
     }
 
