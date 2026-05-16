@@ -6,7 +6,7 @@ Reviewed: false
 - ![[Screenshot 2023-11-27 at 12.24.23 AM.png]]
 	- What is a [[docker]]?
 		- Can make developing applications much easier to manage
-	- Uses [[containers]] to run applications in isolated environments on a computer
+	- Uses [[container|containers]] to run applications in isolated environments on a computer
 		- [[Node]] app
 		- [[React]] app
 		- [[MongoDB]]
@@ -18,7 +18,7 @@ Reviewed: false
 			- They'd need the same version of Node.js installed
 			- Would need to install all project dependencies (and setup any configuration-like environment variables)
 		- Would cause a significant setup process.
-	- Think of a [[containers|container]] as a box or package that contains everything application needs to run. All source code, dependencies, correct run time environment, versions, etc.
+	- Think of a [[container]] as a box or package that contains everything application needs to run. All source code, dependencies, correct run time environment, versions, etc.
 		- Container can run application in isolation (away from other processes on computer)
 			- Node 17
 			- dependencies

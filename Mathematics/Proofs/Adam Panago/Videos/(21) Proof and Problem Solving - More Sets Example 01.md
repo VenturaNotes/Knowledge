@@ -3,3 +3,29 @@ Source:
   - https://youtube.com/watch?v=kXW59uSt31g
 Reviewed: false
 ---
+- ![[Pasted image 20260515022927.png]]
+	- Write a logical expression for the following statements involving sets.
+		- Sometimes we say write down or analyze the logical form of the expression or statement
+		- "Ok" symbols: $\forall, \exists, \land, \lor, =, \ne, \in, \notin, \implies \iff$ 
+			- $\implies$ is a conditional connective
+			- $\iff$ is a biconditional connective
+			- Symbols we want
+			- These are the logical symbols we want to use
+		- "Bad" symbols: $\{\}, \cup, \cap, \subseteq, \mathcal{P}$ 
+			- Symbols we want to get rid of 
+			- #question If the "ok" symbols are called logical symbols, what are the other symbols called? Just set symbols?
+	- (a) $x \in \cup_{i \in I} (A_i \cup B_i)$ 
+		- x is an element of the set (union over all little 'i' in the set 'I') of $A_i$ union $B_i$ 
+			- Indexed families of sets
+			- They are indexed on the set $I$, and for every element $i$ in $I$, $A_i$ is a set and $B_i$ is a set. 
+			- So if $I = \{1, 2, 3, 4, 5\}$ for example, that would mean every element of $i$ would be something like {1} or {2} or {3}.
+				- And so $A_1$ would be a set. $A_2$ would be a set (and same thing for B)
+		- To translate to logic, there has to exist at least one set that it is in. 
+			- There has to be some index $i$ in $I$ where $x$ is in the set $(A_i \cup B_i)$ 
+		- Next just need to use the definition of union to get $(x \in A_i \lor x \in B_i)$  from $(x \in (A_i \cup B_i))$ 
+		- $\exists$ distributes over $\lor$ 
+	- (b) $A \cap (B \backslash C) = \varnothing$
+		- Could use the associative property to group all the $\land$ 
+		- Then can use the quantifier negation law (when distributing the $\lnot$ symbol in the 3rd step)
+		- Can use [[conditional connective]] in last statement.
+		- Don't necessarily need to go to the last step compared to the 2nd step but just showing what you can do

@@ -1,11 +1,7 @@
----
-aliases:
-  - container
----
 ## Synthesis
 - 
 ## Source [^1]
 - 
 ## References
 
-[^1]:
+[^1]: 
