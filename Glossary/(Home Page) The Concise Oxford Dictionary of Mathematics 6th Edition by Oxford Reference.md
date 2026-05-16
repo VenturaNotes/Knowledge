@@ -4143,7 +4143,7 @@ Year: 2021-09-01
 	2900. triangle of forces(in mechanics)
 	
 	2901. triangularizable
-	2902. triangular matrix
+	2902. [[triangular matrix]]
 	2903. triangular number
 	2904. triangulation
 	2905. triangulation(in topology)
@@ -4226,8 +4226,8 @@ Year: 2021-09-01
 	2975. universal gravitational constant
 	2976. universal machine
 	2977. universal quantifier
-	2978. universal set
-	2979. unknot
+	2978. [[universal set]]
+	2979. [[unknot]]
 	2980. unknown
 	
 	2981. unstable equilibrium
