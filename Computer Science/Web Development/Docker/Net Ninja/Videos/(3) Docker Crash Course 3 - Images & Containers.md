@@ -3,3 +3,42 @@ Source:
   - https://www.youtube.com/watch?v=hhfrFvuHRPU
 Reviewed: false
 ---
+- ![[Pasted image 20260515033317.png]]
+	- Slide 1 (Docker Images)
+		- Images are like blueprints for containers. They contain the following things stored inside them (they don't actually have them running inside them, but just store them inside of them)
+			- Runtime environment (like a specific node version)
+				- #question What is meant by node version? 
+			- Application code
+			- Any dependencies
+			- Extra configuration (e.g. env variables)
+			- Commands
+				- Additional instructions that may need to run for the application to work. 
+		- Images also have a file system of their own which is independent from rest of computer. 
+		- Images are read only. 
+			- You'd need to create a brand new image to incorporate that change if you want to change something. 
+		- Images include every single thing that the application might need to run. 
+	- Slide 2 (Containers)
+		- Description
+			- Running instance of an image
+			- Runs our application
+		- Containers are runnable instances of those images
+			- #question Are there multiple images?
+		- We create an image which is a blueprint for a container, then running the image creates a container which is a process that can run our application exactly as outlined in the image. 
+			- So it's going to have the correct runtime environment. Access to the image file system dependencies, etc.
+		- So a container is a process which runs our application as outlined by the image we created. 
+	- Slide 3 (Containers)
+		- Containers are also known as an isolated process (meaning that they run independently from any other process on your computer)
+			- So it's like our application is being run in its own box somewhere on our computer packaged away with everything it needs to run inside it. 
+			- Completely isolated from any other processes on our computer.
+	- Slide 4 (Containers)
+		- Description
+			- Image
+				- Node 17, Source code, dependencies
+		- So this means we can create an image which contains everything an application needs to run (operating system, correct node or python version, dependencies, source code, etc. )
+		- Then we can run that image to create a container to run application. And it doesn't matter what version of node or python or whatever it is you're using for the application that's installed on your computer because it's all running inside the container (which has the correct versions of everything inside it that it needs for the application to run)
+			- This means you can share this docker image with anyone who needs to run this application on their computer. They can just run the image to make a container to run that application. 
+			- And it wouldn't matter what versions of anything they have installed on their own computer because that's all pre-packed inside the image and container. 
+			- So when they run it, the app will run exactly the same way as it would on my computer, someone else's computer, or on a production server. 
+				- #question What is a production server?
+				- #question Will they need a docker as well to run this application?
+		- So we will learn in this series how to create images and then how to run containers based on those images. 

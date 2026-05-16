@@ -27,4 +27,5 @@ Reviewed: false
 			- Prove: If a number a is even, then $a^2$ is even
 			- Proof: A number is even, if 2 is a factor of the number. Since it is given that a is even, then a = 2k for some integer k. We thus have $a^2$ = $(2k)^2$ = $4k^2$ = $2(2k^2)$. Since 2 is a [[factor]] of $a^2$, then $a^2$ is even. QED
 				- #comment "2 is a factor of $a^2$" is mathematically correct and is the standard way to conclude that a number is even in a direct proof
+				- ![[(4) Implications and Truth Conditions for Implications 2026-05-15 02.34.55.excalidraw]]
 				- [[QED]] usually stands for the latin phrase quod erat demonstrandum, which translates to "which was to be demonstrated"

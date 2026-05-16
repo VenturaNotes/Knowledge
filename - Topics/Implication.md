@@ -6,7 +6,23 @@ aliases:
   - conditional
 ---
 ## Synthesis
-- 
+- A conditional statement consists of two parts
+	- [[Antecedent]]: The "if" part (condition)
+	- [[Consequent]]: The "then" part (result)
+- Example
+	- "If it rains, then the grass is wet"
+		- Antecedent = it rains
+		- Consequent = The grass is wet
+### Truth Table for $P \implies Q$
+
+| P (Antecedent) | Q (Consequent) | P $\to$ Q |
+| -------------- | -------------- | --------- |
+| True           | True           | True      |
+| True           | False          | False     |
+| False          | True           | True      |
+| False          | False          | True      |
+
+
 ## Source[^1]
 ### Truth Table
 

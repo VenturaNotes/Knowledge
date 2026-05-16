@@ -9,10 +9,10 @@ Reviewed: false
 ---
 - Complete
 	- [[(1) Docker Crash Course 1 - What is Docker.]]
-- Incomplete
 	- [[(2) Docker Crash Course 2 - Installing Docker]]
 	- [[(3) Docker Crash Course 3 - Images & Containers]]
 	- [[(4) Docker Crash Course 4 - Parent Images & Docker Hub]]
+- Incomplete
 	- [[(5) Docker Crash Course 5 - The Dockerfile]]
 	- [[(6) Docker Crash Course 6 - dockerignore]]
 	- [[(7) Docker Crash Course 7 - Starting & Stopping Containers]]

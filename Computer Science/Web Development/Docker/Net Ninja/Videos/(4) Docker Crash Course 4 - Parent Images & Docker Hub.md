@@ -3,3 +3,42 @@ Source:
   - https://www.youtube.com/watch?v=ZVQmnziXEpA
 Reviewed: false
 ---
+- ![[Pasted image 20260515034046.png]]
+	- Slide 1 (Docker Images) 
+		- Will talk about now how images are made 
+		- Images are made up from several "layers" where each layer adds something else to the image incrementally. So the order of the layers does matter. 
+	- Slide 2 (Docker Images)
+		- We typically start with a parent image (includes the OS & sometimes the runtime environment of the container we want) as the first layer in our own image. 
+		- So we could have a parent image which has a specific node version installed (like node 17 or 16) on a Linux distribution. 
+			- This layer itself is a docker image (already pre-made). So we're just creating a new image on top of that. That's the initial layer normally
+			- A parent image typically includes a lightweight operating system and a runtime environment
+				- #question What is a runtime environment. 
+	- Slide 3 (Docker Images)
+		- The next layers we add can be anything else that we would add to our image such as copying source code to the image. Installing dependencies or specifying any initial scripts that need to run (etc.)
+		- Will first talk about how we get this parent image 
+	- Slide 4 (Docker Hub)
+		- When working with docker and parent images, you'll also be working with something called docker hub (at https://hub.docker.com)
+			- It's an online repository of docker images. It's like GitHub but for docker instead. 
+			- It contains a ton of pre-made parent images that we can use as the first layer in our own images. We can search for and download these pre-made images to our computer if we want to.
+- ![[Pasted image 20260515041236.png]]
+	- Slide 1 
+		- Let's say we need to create a new docker image for a project, and it needs to run in a node environment. 
+			- Then the initial layer of our image would be a parent node image. We can get that image from docker hub. 
+			- Just need to type `node` into search bar and hit enter to search for node images. You can find an image for MongoDB as well. Many images for Strapi, WordPress, MySQL, etc. 
+		- We can pull the image by typing the command `docker pull node` into a terminal. We can see the different tags supported by this node image such as `17-alpine3.14` and `17-stretch`. They are different variations of the node image that we can use. They specify a specific node version and also an underlying Linux distribution. 
+			- So when we specify, we want to use the node image, we can add a tag as well to specify which version of the node we want and which linux distribution it should run on top of. 
+			- One of those is called `alpine` which is a really lightweight Linux distribution. This is the one we will be using. It is always beneficial to specify a node version to lock that node version into your image because otherwise it will always grab the latest one and that can change over time. 
+		- So when we make our own images, the first layer of those images is normally a parent image like the supported tags shown. And it doesn't have to be a node image. It could be python, php, ruby, or something else entirely image. But if we are making a node application, it would be the node image that we use. 
+		- So we can paste `docker pull node` wherever you are in the terminal. It doesn't install the image into the directory. Docker will store it in a special place. It will use the default tag `latest` if you don't specify. 
+	- Slide 2
+		- Now you should see the image in your docker desktop within the `images` tab. The tag we got is `latest`. This is because we didn't specify a specific version of node or linux distribution. This will include the latest version of `node.js` as well. We can already press `run` to run the image to create a container. 
+			- This will be used as the initial layer in our own image (this parent image here). So if we run it as is, it will create a container which contains a linux environment or a linux distribution and node installed into it (possible to run from command line as well)
+				- #question What is the difference between a linux environment and linux distribution? 
+	- Slide 3
+		- After running it, we can see it being run within the Containers/Apps tab. There are several different options. We can stop, restart or delete the container. You can also enter into a command line interface to interact with the container as well. 
+		- So we can interact with linux environment and also use node inside there
+			- #question What is meant by "using node" inside it? 
+	- Slide 4 
+		- So clicking the CLI button will open the terminal and you can use any linux commands inside it such as using `ls` to list out the contents of the current root directory. Could also type `node` which would tell us the current version of node we're using. Then we can type any kind of node commands inside the interactive terminal. So doing `5+10` would give 15. 
+		- So pretty useless right now, but now we can use this as a parent image inside our own images that we make ourselves. So remember that images are made up of layers. And this parent image would be the first layer in our own image. Then we'd have the correct node version running for it and then we'd build up additional layers on top of that like copying in our source code to the image, installing dependencies to the image, etc. 
+- Next up, we'll see how to create our own image using a node image as a parent image. But we may pull a different version of the node image to specify a specific linux distribution `alpine` and also a specific node version as well. To do this, we will need to use a Dockerfile and we will talk about that in the next lesson. 

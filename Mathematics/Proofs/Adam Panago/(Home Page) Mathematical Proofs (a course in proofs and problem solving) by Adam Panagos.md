@@ -27,9 +27,9 @@ Reviewed: false
 	- [[(17) Proof and Problem Solving - Quantifiers Example 03]]
 	- [[(18) Proof and Problem Solving - Quantifiers Example 04]]
 	- [[(19) Proof and Problem Solving - Quantifiers Example 05]]
-- Incomplete
 	- [[(20) Proof and Problem Solving - Quantifiers Example 06]]
 	- [[(21) Proof and Problem Solving - More Sets Example 01]]
+- Incomplete
 	- [[(22) Proof and Problem Solving - More Sets Example 02]]
 	- [[(23) Proof and Problem Solving - More Sets Example 03]]
 	- [[(24) Proof and Problem Solving - More Sets Example 04]]
