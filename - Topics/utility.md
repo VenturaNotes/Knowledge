@@ -9,8 +9,11 @@
 ## Source[^3]
 - (1) A synonym for individual welfare. Utility can be interpreted literally as a measure of an individual's happiness or, more functionally, as an economist's summary of what guides individual choice. In the first interpretation the writings of 19th-century economists suggest an expectation that a device for measuring utility would eventually emerge from psychological research. This has not yet been realized, but monitoring of brain activity is increasingly part of joint neurological, psychological, and economic research. In the second interpretation utility is used as a tool for constructing a model of individual choice based on the argument that a rational individual will act as if decisions are made to maximize utility. See also CARDINAL UTILITY; EXPECTED UTILITY; MARGINAL UTILITY; ORDINAL UTILITY.
 - (2) A public utility, that is, a company that maintains the infrastructure for a public service, and often provides the service using that infrastructure. The public services involving utilities include electricity, water, gas, and transport.
+## Source[^4]
+- A measure of the total perceived value resulting from an outcome or course of action. This may be negative; for example, if an oil exploration company undertakes a survey showing that no oil can be extracted, the costs of undertaking the survey will be reflected in a negative utility for that outcome.
 ## References
 
 [^1]: https://www.investopedia.com/terms/u/utility.asp#:~:text=In%20economics%2C%20utility%20is%20a,strive%20to%20maximize%20their%20utility.
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -4235,7 +4235,7 @@ Year: 2021-09-01
 	2983. upper limit
 	2984. upper triangular matrix
 	2985. Urysohn's lemma
-	2986. utility
+	2986. [[utility]]
 	2987. utility function
 	2988. V
 	2989. V4
@@ -4259,7 +4259,7 @@ Year: 2021-09-01
 	3005. varies directly
 	3006. variety
 	3007. vector
-	3008. vector analysis
+	3008. [[vector analysis]]
 	3009. vector bundle
 	3010. vector equation(of a line)
 	
@@ -4290,7 +4290,7 @@ Year: 2021-09-01
 	3033. Viète's formulae
 	3034. Viète's substitution
 	3035. Viète, François (1540-1603)
-	3036. vinculum
+	3036. [[vinculum]]
 	3037. Vinogradov's Theorem
 	3038. [[virtual work principle]]
 	3039. viscous
