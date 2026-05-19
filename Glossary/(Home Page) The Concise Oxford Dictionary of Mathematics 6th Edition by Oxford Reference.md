@@ -4288,7 +4288,7 @@ Year: 2021-09-01
 	3031. [[vertex method]]
 	3032. vertical angles
 	3033. Viète's formulae
-	3034. Viète's substitution
+	3034. [[Vieta's Substitution|Viète's substitution]]
 	3035. Viète, François (1540-1603)
 	3036. [[vinculum]]
 	3037. Vinogradov's Theorem
@@ -4313,7 +4313,7 @@ Year: 2021-09-01
 	3054. watt
 	3055. wave
 	3056. wave equation
-	3057. wave function
+	3057. [[wave function]]
 	3058. wavelength
 		1. See wave
 	3059. wavenumber
@@ -4343,7 +4343,7 @@ Year: 2021-09-01
 	3077. Weyl, Hermann (1885-1955)
 	3078. wff
 	3079. Whitehead, Alfred North (1861-1947)
-	3080. Whitney embedding theorem
+	3080. [[Whitney embedding theorem]]
 	
 	3081. whole angle
 	3082. whole number
