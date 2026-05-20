@@ -4346,7 +4346,7 @@ Year: 2021-09-01
 	3080. [[Whitney embedding theorem]]
 	
 	3081. whole angle
-	3082. whole number
+	3082. [[whole number]]
 	3083. Wiener, Norbert (1894-1964)
 	3084. Wilcoxon paired sample test
 	3085. Wilcoxon rank-sum test
@@ -4390,7 +4390,7 @@ Year: 2021-09-01
 	3120. zero
 	
 	3121. zero(of a function)
-	3122. zero-dimensional(of a space)
+	3122. [[zero-dimensional]]
 	3123. zero-divisor
 	3124. zero-sum game
 	3125. zero element
@@ -4404,7 +4404,7 @@ Year: 2021-09-01
 	3132. ZFC
 	3133. ℤn
 	3134. zone
-	3135. Zorn's lemma
+	3135. [[Zorn's lemma]]
 	3136. δ(x)
 	3137. δij
 	3138. μ(mu)
