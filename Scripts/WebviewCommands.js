@@ -1,6 +1,6 @@
 /**
  * WebviewCommands.js
- * Version: 2.9 - Quiet Focus, Settled Clone & Smart Cache
+ * Version: 3.4 - Bulletproof Focus, Reverted TabNext Fix, and Swallowed Electron remote Crashes
  */
 
 module.exports = async (params) => {
@@ -9,9 +9,40 @@ module.exports = async (params) => {
     }
     window.__WEBVIEW_SHORTCUTS_INIT = true;
 
-    // --- 1. THE COMMAND SHIELD ---
+    // --- 1. SILENT EXCEPTION SWALLOWER ---
+    // Swallows the native Electron/remote uncaught exceptions when closing focused webviews
+    const errorHandler = (event) => {
+        const msg = event.message || event.error?.message;
+        if (msg && (msg.includes('setIgnoreMenuShortcuts') || msg.includes('Object has been destroyed'))) {
+            event.preventDefault(); // Swallows the uncaught exception
+        }
+    };
+
+    const rejectionHandler = (event) => {
+        const msg = event.reason?.message || event.reason;
+        if (msg && (msg.includes('setIgnoreMenuShortcuts') || msg.includes('Object has been destroyed'))) {
+            event.preventDefault(); // Swallows the uncaught promise rejection
+        }
+    };
+
+    const registerWindowErrorHandlers = (win) => {
+        if (!win || win._errorHandlersBound) return;
+        win._errorHandlersBound = true;
+        win.addEventListener('error', errorHandler);
+        win.addEventListener('unhandledrejection', rejectionHandler);
+    };
+
+    // Register on the main window immediately
+    registerWindowErrorHandlers(window);
+
+    // --- 2. THE COMMAND SHIELD (Memory-Leak Free) ---
     const lastFired = new Map();
-    const origExecute = app.commands.executeCommand;
+    
+    // Prevent recursive nesting by saving the true original only once globally
+    if (!window.__ORIGINAL_EXECUTE_COMMAND) {
+        window.__ORIGINAL_EXECUTE_COMMAND = app.commands.executeCommand;
+    }
+
     app.commands.executeCommand = function(command) {
         const id = command?.id || arguments[0]?.id || (typeof arguments[0] === 'string' ? arguments[0] : null);
         if (id) {
@@ -19,14 +50,11 @@ module.exports = async (params) => {
             if (now - (lastFired.get(id) || 0) < 50) return false; 
             lastFired.set(id, now);
         }
-        return origExecute.apply(this, arguments);
+        return window.__ORIGINAL_EXECUTE_COMMAND.apply(this, arguments);
     };
 
-    // --- 2. SMART HOTKEY CACHING ---
-    // Recommendation: We build it once, and only clear it when the layout changes.
-    // We use a "debounce" to ensure we don't rebuild it 100 times during a workspace load.
+    // --- 3. SMART HOTKEY CACHING ---
     let cachedHotkeyMap = null;
-    let cacheTimeout = null;
 
     function getHotkeyMap() {
         if (cachedHotkeyMap) return cachedHotkeyMap;
@@ -54,12 +82,11 @@ module.exports = async (params) => {
         return map;
     }
 
-    // This listener ensures that if you change a hotkey or layout, the cache resets safely.
     const clearCache = () => {
         cachedHotkeyMap = null;
     };
 
-    // --- 3. ATTACHMENT (Silent & Safe) ---
+    // --- 4. ATTACHMENT (Silent & Safe) ---
     async function attachToWebview(webview) {
         if (!webview || !webview.isConnected || webview._hotkeysAttached) return;
 
@@ -74,8 +101,11 @@ module.exports = async (params) => {
             app.workspace.iterateAllLeaves(l => { if (l.view?.containerEl?.contains(webview)) leaf = l; });
             if (!leaf) return;
 
+            // Register error handlers on the parent window of this leaf (supports popout windows)
+            const win = leaf.view.containerEl.win;
+            registerWindowErrorHandlers(win);
+
             if (e.message === 'OBS_ACTIVATE') {
-                const win = leaf.view.containerEl.win;
                 if (app.workspace.activeLeaf !== leaf || window.activeWindow !== win) {
                     if (window.activeWindow !== win) win.focus();
                     app.workspace.setActiveLeaf(leaf, { focus: false });
@@ -84,10 +114,16 @@ module.exports = async (params) => {
             }
 
             if (e.message?.startsWith('OBS_RAW_KEY:')) {
-                // USES SMART CACHE HERE
                 const commandId = getHotkeyMap().get(e.message.split('OBS_RAW_KEY:')[1]);
                 if (commandId) {
-                    const win = leaf.view.containerEl.win;
+                    
+                    // CRITICAL V3.1 RESTORATION:
+                    // If the native event has already switched the active tab (e.g. Next Tab / Previous Tab),
+                    // we MUST abort immediately. Do not snap back to the webview leaf!
+                    if (app.workspace.activeLeaf !== leaf) {
+                        return;
+                    }
+
                     if (window.activeWindow !== win) win.focus();
                     app.workspace.setActiveLeaf(leaf, { focus: false });
                     webview.blur();
@@ -119,7 +155,7 @@ module.exports = async (params) => {
         if (isReady()) inject();
     }
 
-    // --- 4. MOVEMENT DETECTION (Original Pane-Safe Logic) ---
+    // --- 5. MOVEMENT DETECTION (Original Pane-Safe Logic) ---
     const leafParentMap = new WeakMap();
     let isRecreating = false;
 
@@ -178,19 +214,29 @@ module.exports = async (params) => {
         });
     };
 
-    // --- 5. EVENT HANDLERS ---
+    // --- 6. EVENT HANDLERS ---
     app.workspace.on('layout-change', () => {
         clearCache(); // Reset the hotkey map when the layout changes
         findAndAttach();
         processMovement();
     });
 
-    // Heartbeat: Increased to 5 seconds to reduce CPU impact
     const heartbeat = setInterval(findAndAttach, 5000);
     
     window.__WEBVIEW_SHORTCUTS_CLEANUP = () => {
         clearInterval(heartbeat);
         app.workspace.off('layout-change', clearCache);
+
+        // Remove error listeners from main window on cleanup
+        window.removeEventListener('error', errorHandler);
+        window.removeEventListener('unhandledrejection', rejectionHandler);
+        delete window._errorHandlersBound;
+
+        // Safely restore the command shield to prevent recursion crashes
+        if (window.__ORIGINAL_EXECUTE_COMMAND) {
+            app.commands.executeCommand = window.__ORIGINAL_EXECUTE_COMMAND;
+            delete window.__ORIGINAL_EXECUTE_COMMAND;
+        }
     };
 
     findAndAttach();
