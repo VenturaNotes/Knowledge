@@ -2207,8 +2207,8 @@ Year: 2021-09-01
 	1153. index(permutations)
 	1154. index(vector fields)
 	1155. index set
-	1156. indicator function
-	1157. indifference curve
+	1156. [[indicator function]]
+	1157. [[indifference curve]]
 	1158. indirect isometry
 	1159. indirect proof
 	1160. indirect proportion
@@ -2419,7 +2419,7 @@ Year: 2021-09-01
 	1345. Lie, (Marius) Sophus (1842-99)
 	1346. Lie correspondence
 	1347. Lie group
-	1348. life tables
+	1348. [[life tables]]
 	1349. lift
 	1350. lim inf
 	
