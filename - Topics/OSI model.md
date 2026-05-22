@@ -1,6 +1,8 @@
 ---
 aliases:
   - Open Systems Interconnection
+tags:
+  - in-progress
 ---
 ## Synthesis
 ### Description
