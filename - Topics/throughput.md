@@ -1,5 +1,7 @@
 ## Synthesis
-- 
+- The actual rate at which a computer, network, or storage system successfully processes or transfers data over a specific period of time.
+- The basic formula to calculate throughput rate $$\frac{\text{Total Units Processed}}{\text{Total Time Taken}}$$
+	- #question What is a unit considered to be?
 ## Source [^1]
 - A figure-of-merit for a computer system in which some description of operating rate such as instructions per minute, jobs per day, etc., is used. It is a measure of how much work gets done in a given time interval. See also BANDWIDTH, LATENCY.
 ## Source[^2]

@@ -15,7 +15,8 @@
 - Generally, functional requirements describe system behavior under specific conditions
 ## Source[^2]
 - If you were to create a URL shortener, some required functional requirements may include
-	- Generating a unique short URL which redirects the user to a long URL
+	- Generating a unique short URL for a long URL
+	- Redirecting the user to the long URL through the short URL
 	- Supporting short URL expiration where they are no longer accessible after a certain period. 
 ## References
 
