@@ -2210,21 +2210,24 @@ Year: 2021-09-01
 	1156. [[indicator function]]
 	1157. [[indifference curve]]
 	1158. indirect isometry
-	1159. indirect proof
+		1. See direct isometry
+	1159. [[indirect proof]]
 	1160. indirect proportion
+		1. See proportion
 	
 	1161. indivisible by
+		1. A synonym for not divisible by
 	1162. induce
 	1163. induction
 	1164. inequality
 	1165. inertia
 	1166. inertial frame of reference
-	1167. inertial mass
+	1167. [[inertial mass]]
 	1168. inertia matrix
 	1169. inextensible string
 	1170. inf
 	
-	1171. infeasible
+	1171. [[infeasible]]
 	1172. inference
 	1173. infimum
 	1174. infinite
