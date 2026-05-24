@@ -2256,7 +2256,7 @@ Year: 2021-09-01
 	1195. instance
 	1196. instantaneous code
 		1. A synonym for prefix code
-	1197. integer
+	1197. [[integer]]
 	1198. [[integer factorization]]
 	1199. integer part
 	1200.  
@@ -2301,9 +2301,9 @@ Year: 2021-09-01
 	1235. invertible function
 	1236. invertible matrix
 	1237. inviscid
-	1238. involution
+	1238. [[involution]]
 	1239. irrational number
-	1240. irreducible
+	1240. [[irreducible]]
 	
 	1241. irreducible(Markov chains)
 	1242. irreducible fraction
