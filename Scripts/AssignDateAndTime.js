@@ -13,13 +13,37 @@ module.exports = async (params) => {
         return;
     }
 
+    // --- (1) Parse existing date, time, and recurrence values ---
+    let defaultDate = window.moment().format("YYYY-MM-DD");
+    const dateMatch = lineText.match(/📅\s*(\d{4}-\d{2}-\d{2})/);
+    if (dateMatch) {
+        defaultDate = dateMatch[1];
+    }
+
+    let defaultTime = "";
+    const timeMatch = lineText.match(/⏰\s*(\d{1,2}:\d{2}\s*(?:AM|PM)?)/i);
+    if (timeMatch) {
+        // Parse format safely (handles 12h or 24h formats)
+        const parsedTime = window.moment(timeMatch[1].trim(), ["h:mmA", "HH:mm", "h:mm A"]);
+        if (parsedTime.isValid()) {
+            defaultTime = parsedTime.format("HH:mm");
+        }
+    }
+
+    let defaultRecurrence = "";
+    const recurrenceMatch = lineText.match(/🔁\s*([^📅⏰\n]+)/);
+    if (recurrenceMatch) {
+        defaultRecurrence = recurrenceMatch[1].trim();
+    }
+
     const getDateAndTime = () => {
         return new Promise((resolve) => {
             class DateTimeModal extends Modal {
                 constructor(app) {
                     super(app);
-                    this.date = window.moment().format("YYYY-MM-DD");
-                    this.time = "";
+                    this.date = defaultDate;
+                    this.time = defaultTime;
+                    this.recurrence = defaultRecurrence;
                     this.submitted = false;
                 }
 
@@ -66,6 +90,20 @@ module.exports = async (params) => {
                         return row;
                     };
 
+                    // --- (2) Recurrence row ---
+                    const recurrenceRow = makeRow("Recurrence (Optional)", "Empty = No 🔁 icon");
+                    const recurrenceInput = recurrenceRow.createEl("input", {
+                        type: "text",
+                        value: this.recurrence,
+                        placeholder: "e.g., every day",
+                    });
+                    Object.assign(recurrenceInput.style, {
+                        padding: "4px 6px",
+                        width: "130px", // space for recurrence text input
+                        flexShrink: "0",
+                    });
+                    recurrenceInput.onchange = (e) => (this.recurrence = e.target.value);
+
                     // Date row
                     const dateRow = makeRow("Date", "Pick a date");
                     const dateInput = dateRow.createEl("input", {
@@ -108,7 +146,7 @@ module.exports = async (params) => {
 
                 onClose() {
                     if (this.submitted) {
-                        resolve({ date: this.date, time: this.time });
+                        resolve({ date: this.date, time: this.time, recurrence: this.recurrence });
                     } else {
                         resolve(null);
                     }
@@ -122,10 +160,11 @@ module.exports = async (params) => {
     const result = await getDateAndTime();
     if (!result || !result.date) return;
 
-    // Remove old data — regex covers both HH:MM (legacy) and h:mmAM/PM
+    // Clean out existing tags from the line (removing recurrence first, then date & time)
     let cleanText = lineText
+        .replace(/🔁\s*[^📅⏰\n]+/g, "")
         .replace(/📅\s*\d{4}-\d{2}-\d{2}/g, "")
-        .replace(/⏰\s*\d{1,2}:\d{2}(AM|PM)?/gi, "")
+        .replace(/⏰\s*\d{1,2}:\d{2}\s*(?:AM|PM)?/gi, "")
         .trim();
 
     // Convert 24h "HH:mm" → 12h "h:mmAM/PM" for the written output
@@ -134,7 +173,15 @@ module.exports = async (params) => {
         const formatted = window.moment(result.time, "HH:mm").format("h:mmA");
         timeString = ` ⏰ ${formatted}`;
     }
-    const newText = `${cleanText} 📅 ${result.date}${timeString}`;
+
+    // Build the recurrence output string
+    let recurrenceString = "";
+    if (result.recurrence) {
+        recurrenceString = ` 🔁 ${result.recurrence.trim()}`;
+    }
+
+    // Combine components back into the task line
+    const newText = `${cleanText}${recurrenceString} 📅 ${result.date}${timeString}`;
 
     editor.setLine(cursor.line, newText);
 };
