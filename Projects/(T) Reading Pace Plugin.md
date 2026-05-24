@@ -14,6 +14,10 @@ tags:
 parent:
   - "[[(T) Task Date Visualizer]]"
 ---
+## V8
+```ts
+
+```
 ## V7
 ```ts
 import { App, Editor, MarkdownFileInfo, MarkdownView, Modal, Notice, Plugin } from "obsidian";

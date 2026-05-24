@@ -2224,7 +2224,7 @@ Year: 2021-09-01
 	1166. inertial frame of reference
 	1167. [[inertial mass]]
 	1168. inertia matrix
-	1169. inextensible string
+	1169. [[inextensible string]]
 	1170. inf
 	
 	1171. [[infeasible]]
@@ -2244,13 +2244,13 @@ Year: 2021-09-01
 	1184. [[initial conditions]]
 	1185. initialize
 	1186. initial line
-	1187. initial value
+	1187. [[initial value]]
 	1188. initial value problem
 	1189. injection
 	1190. inner product
 	
 	1191. input
-	1192. inscribe
+	1192. [[inscribe]]
 	1193. inscribed circle(of a triangle)
 	1194. insoluble
 	1195. instance
