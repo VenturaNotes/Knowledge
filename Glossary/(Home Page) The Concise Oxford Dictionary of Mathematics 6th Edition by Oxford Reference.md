@@ -2302,15 +2302,16 @@ Year: 2021-09-01
 	1236. invertible matrix
 	1237. inviscid
 	1238. [[involution]]
-	1239. irrational number
+	1239. [[irrational number]]
 	1240. [[irreducible]]
 	
-	1241. irreducible(Markov chains)
+	1241. irreducible
+		1. (Markov Chains) see Communicating Class
 	1242. irreducible fraction
 	1243. irreducible representation
-	1244. irrotational
+	1244. [[irrotational]]
 	1245. isoclines
-	1246. isogon
+	1246. [[isogon]]
 	1247. isolate
 	1248. isolated point(of a curve)
 	1249. isolated point(of a space)
