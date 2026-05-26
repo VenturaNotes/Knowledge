@@ -1,6 +1,6 @@
 /**
  * WebviewCommands.js
- * Version: 3.4 - Bulletproof Focus, Reverted TabNext Fix, and Swallowed Electron remote Crashes
+ * Version: 3.5 - Google OAuth Popup Handler
  */
 
 module.exports = async (params) => {
@@ -129,6 +129,63 @@ module.exports = async (params) => {
                     webview.blur();
                     app.commands.executeCommandById(commandId);
                 }
+            }
+        });
+
+        // --- OAUTH POPUP HANDLER ---
+        // Electron fires 'new-window' whenever the guest page calls window.open().
+        // Without allowpopups the window silently dies — this catches it first
+        // and spawns a real BrowserWindow sharing the same session partition,
+        // so Google can set cookies that the parent webview will see on reload.
+        webview.addEventListener('new-window', (e) => {
+            const isGoogleAuth = e.url.includes('accounts.google.com')
+                              || e.url.includes('google.com/o/oauth2');
+            if (!isGoogleAuth) return;
+
+            try {
+                const { BrowserWindow } = require('@electron/remote');
+
+                // Inherit parent webview's partition so cookies are shared.
+                // If partition is an empty string, pass undefined — Electron
+                // treats '' and undefined differently ('' = default session).
+                const partition = webview.partition || undefined;
+
+                const popup = new BrowserWindow({
+                    width: 480,
+                    height: 640,
+                    title: 'Sign in with Google',
+                    webPreferences: {
+                        partition,
+                        nodeIntegration: false,
+                        contextIsolation: true,
+                    }
+                });
+
+                popup.loadURL(e.url);
+
+                // Both will-navigate (pre-redirect) and did-navigate (post-load)
+                // are covered because the redirect chain varies by account type.
+                const onNav = (_, navUrl) => {
+                    if (navUrl.includes('duolingo.com')
+                        && !navUrl.includes('accounts.google.com')) {
+                        setTimeout(() => {
+                            try { popup.destroy(); } catch (_) {}
+                            webview.reload(); // picks up the authenticated session
+                        }, 400);
+                    }
+                };
+
+                popup.webContents.on('will-navigate', onNav);
+                popup.webContents.on('did-navigate',  onNav);
+
+                // Clean up listeners if user closes popup manually mid-auth.
+                popup.on('closed', () => {
+                    popup.webContents.removeListener('will-navigate', onNav);
+                    popup.webContents.removeListener('did-navigate',  onNav);
+                });
+
+            } catch (err) {
+                console.error('WebviewCommands: OAuth popup failed:', err);
             }
         });
 

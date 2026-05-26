@@ -11,11 +11,27 @@ let selectedDateLabel = "";
 
 const isOccurringOn = (rrule, dateMoment) => {
     if (!rrule) return false;
+
+    // Handle DTSTART starting point constraint if provided
+    const dtstartMatch = rrule.match(/DTSTART:(\d{8})/);
+    if (dtstartMatch) {
+        const dtstart = window.moment(dtstartMatch[1], "YYYYMMDD");
+        if (dateMoment.isBefore(dtstart, 'day')) {
+            return false;
+        }
+    }
+
     if (rrule.includes("FREQ=YEARLY")) {
         const monthMatch = rrule.match(/BYMONTH=(\d+)/);
         const dayMatch = rrule.match(/BYMONTHDAY=(\d+)/);
         if (monthMatch && dayMatch) {
             return (dateMoment.month() + 1 === parseInt(monthMatch[1]) && dateMoment.date() === parseInt(dayMatch[1]));
+        }
+    }
+    if (rrule.includes("FREQ=MONTHLY")) {
+        const dayMatch = rrule.match(/BYMONTHDAY=(\d+)/);
+        if (dayMatch) {
+            return (dateMoment.date() === parseInt(dayMatch[1]));
         }
     }
     if (rrule.includes("FREQ=WEEKLY")) {
@@ -71,6 +87,15 @@ async function collectData(app) {
         const rrule = fm.recurrence || fm.RRULE || null;
         const isFileDone = ["done", "canceled"].includes(String(fm.status).toLowerCase());
 
+        // Parse complete_instances if available
+        const rawCompleteInstances = fm.complete_instances;
+        const completeInstances = Array.isArray(rawCompleteInstances)
+            ? rawCompleteInstances.map(d => {
+                const m = window.moment(d);
+                return m.isValid() ? m.format("YYYY-MM-DD") : null;
+              }).filter(Boolean)
+            : [];
+
         allItems.push({
             text: cleanText(fm.title || file.basename),
             status: isFileDone ? "x" : " ",
@@ -78,7 +103,8 @@ async function collectData(app) {
             rrule: rrule,
             time: parseTime(fileTimeStr),
             tags: projectTags,
-            line: 0, isProject: true, file: file.basename, path: file.path
+            line: 0, isProject: true, file: file.basename, path: file.path,
+            completeInstances: completeInstances
         });
 
         const content = await app.vault.cachedRead(file);
@@ -105,7 +131,8 @@ async function collectData(app) {
                     rrule: null, 
                     time: parseTime(tM ? tM[1] : null), 
                     tags: inlineTags,
-                    line: i, isProject: false, file: file.basename, path: file.path
+                    line: i, isProject: false, file: file.basename, path: file.path,
+                    completeInstances: []
                 });
             }
         });
@@ -298,6 +325,14 @@ async function render(params, leaf) {
         dayBox.createDiv({ cls: "v7-day-num", text: day.format("D") });
 
         const dayItems = allData.filter(i => i.date === dateStr || isOccurringOn(i.rrule, dayRef))
+                                .map(i => {
+                                    // If this specific date is part of the complete_instances array, set status to complete
+                                    const isInstanceDone = Array.isArray(i.completeInstances) && i.completeInstances.includes(dateStr);
+                                    return {
+                                        ...i,
+                                        status: (i.status !== " " || isInstanceDone) ? "x" : " "
+                                    };
+                                })
                                 .sort((a,b) => {
                                     if (!a.time) return 1;
                                     if (!b.time) return -1;
