@@ -14,6 +14,8 @@ tags:
 parent:
   - "[[(T) Task Date Visualizer]]"
 ---
+## Ideas
+- [ ] Make an option to delete session in my reading pacer
 ## Description
 - The shortcut works so whichever hotkey used to open "Open Sections Panel", the shortcut will also be used to close it
 ## V8
