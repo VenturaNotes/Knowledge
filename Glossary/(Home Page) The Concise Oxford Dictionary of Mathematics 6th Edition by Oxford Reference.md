@@ -1032,7 +1032,7 @@ Year: 2021-09-01
 	
 	91. chaos
 	92. character
-	93. characteristic of a field
+	93. [[characteristic of a field]]
 	94. characteristic polynomial
 	95. character table
 	96. Chebyshev's inequality
@@ -2314,10 +2314,10 @@ Year: 2021-09-01
 	1246. [[isogon]]
 	1247. isolate
 	1248. isolated point(of a curve)
-	1249. isolated point(of a space)
+	1249. [[isolated point]]
 	1250. isolated singularity
 	
-	1251. isometric graph paper
+	1251. [[isometric graph paper]]
 	1252. isometry
 	1253. isomorphic
 	1254. isomorphism theorems
