@@ -55,9 +55,13 @@ module.exports = async (params) => {
                 style = document.createElement('style');
                 style.id = '__yt-fs-styles';
                 style.textContent = \`
+                    /* Disable scrollbars during fullscreen to allow horizontal expansion */
+                    html, body, ytd-app {
+                        overflow: hidden !important;
+                    }
                     ytd-app, #content, #page-manager, ytd-watch-flexy,
                     #player, #player-container, #player-container-inner,
-                    .html5-video-player, video {
+                    .html5-video-player {
                         width: 100vw !important;
                         height: 100vh !important;
                         max-width: 100vw !important;
@@ -66,6 +70,17 @@ module.exports = async (params) => {
                         left: 0 !important;
                         position: fixed !important;
                         z-index: 999999 !important;
+                    }
+                    video {
+                        width: 100vw !important;
+                        height: 100vh !important;
+                        max-width: 100vw !important;
+                        max-height: 100vh !important;
+                        top: 0 !important;
+                        left: 0 !important;
+                        position: fixed !important;
+                        z-index: 999999 !important;
+                        object-fit: contain !important;
                     }
                     ytd-masthead, #masthead-container,
                     #secondary, #below, #comments,
@@ -85,6 +100,9 @@ module.exports = async (params) => {
             if (!video) return;
 
             const key = e.key.toLowerCase();
+
+            // Ignore playback shortcut keys if any modifier keys are held (such as Cmd+F or Ctrl+F)
+            if (e.metaKey || e.ctrlKey || e.altKey) return;
 
             switch (key) {
                 case 'd':
@@ -111,13 +129,35 @@ module.exports = async (params) => {
                 case 'f':
                     e.stopPropagation();
                     e.preventDefault();
-                    // Signal to the host wrapper that we want to toggle fullscreen
                     console.log('YT_ENHANCER_TOGGLE_FULLSCREEN');
                     break;
+                case 'h': {
+                    // Toggles the visibility of the YouTube control overlays
+                    e.stopPropagation();
+                    let style = document.getElementById('__yt-hyde-styles');
+                    if (style) {
+                        style.remove();
+                    } else {
+                        style = document.createElement('style');
+                        style.id = '__yt-hyde-styles';
+                        style.textContent = \`
+                            .ytp-chrome-bottom,
+                            .ytp-chrome-top,
+                            .ytp-gradient-bottom,
+                            .ytp-gradient-top,
+                            .ytp-pause-overlay {
+                                opacity: 0 !important;
+                                pointer-events: none !important;
+                                transition: opacity 0.15s ease-in-out !important;
+                            }
+                        \`;
+                        document.body.appendChild(style);
+                    }
+                    break;
+                }
                 case 'escape':
                     e.stopPropagation();
                     e.preventDefault();
-                    // Signal to the host wrapper to exit fullscreen
                     console.log('YT_ENHANCER_EXIT_FULLSCREEN');
                     break;
             }
@@ -141,7 +181,6 @@ module.exports = async (params) => {
             if (!leaf) return;
             isFullscreen = true;
 
-            // Cache leaf styles
             originalStyles = {
                 position: leaf.style.position,
                 top: leaf.style.top,
@@ -149,9 +188,9 @@ module.exports = async (params) => {
                 width: leaf.style.width,
                 height: leaf.style.height,
                 zIndex: leaf.style.zIndex,
+                overflow: leaf.style.overflow,
             };
 
-            // Cache webview styles
             originalWvStyles = {
                 position: webview.style.position,
                 top: webview.style.top,
@@ -159,9 +198,9 @@ module.exports = async (params) => {
                 width: webview.style.width,
                 height: webview.style.height,
                 zIndex: webview.style.zIndex,
+                overflow: webview.style.overflow,
             };
 
-            // Position the workspace leaf fixed
             Object.assign(leaf.style, {
                 position: 'fixed',
                 top: '0',
@@ -169,9 +208,9 @@ module.exports = async (params) => {
                 width: '100vw',
                 height: '100vh',
                 zIndex: '9999',
+                overflow: 'hidden',
             });
 
-            // Position the webview fixed so it overlays local tab and address bars
             Object.assign(webview.style, {
                 position: 'fixed',
                 top: '0',
@@ -179,9 +218,9 @@ module.exports = async (params) => {
                 width: '100vw',
                 height: '100vh',
                 zIndex: '99999',
+                overflow: 'hidden',
             });
 
-            // Tell the YouTube page context to apply the video expansion CSS
             try {
                 webview.executeJavaScript(`window.__ytEnhancerSetFullscreen && window.__ytEnhancerSetFullscreen(true);`);
             } catch (err) {
@@ -194,19 +233,16 @@ module.exports = async (params) => {
             const leaf = getLeaf();
             isFullscreen = false;
 
-            // Restore leaf styles
             if (leaf && originalStyles) {
                 Object.assign(leaf.style, originalStyles);
             }
             originalStyles = null;
 
-            // Restore webview styles
             if (originalWvStyles) {
                 Object.assign(webview.style, originalWvStyles);
             }
             originalWvStyles = null;
 
-            // Tell the YouTube page context to remove the CSS styling overrides
             try {
                 webview.executeJavaScript(`window.__ytEnhancerSetFullscreen && window.__ytEnhancerSetFullscreen(false);`);
             } catch (err) {
@@ -216,11 +252,9 @@ module.exports = async (params) => {
 
         const toggleFullscreen = () => isFullscreen ? exitFullscreen() : enterFullscreen();
 
-        // Listen for native HTML5 fullscreen triggers inside the webview (if allowed)
         webview.addEventListener('enter-html-full-screen', enterFullscreen);
         webview.addEventListener('leave-html-full-screen', exitFullscreen);
 
-        // Listen for console bridge signals from the guest webview page
         webview.addEventListener('console-message', (e) => {
             if (e.message === 'YT_ENHANCER_TOGGLE_FULLSCREEN') {
                 toggleFullscreen();
@@ -231,7 +265,16 @@ module.exports = async (params) => {
 
         // Keydown listener for the Obsidian parent window context (when webview is not focused)
         window.addEventListener('keydown', (e) => {
-            if (e.key !== 'f' && e.key !== 'F') return;
+            if (e.key.toLowerCase() !== 'f') return;
+
+            // Ignore shortcut if hotkey modifiers are active (e.g. Cmd+F, Ctrl+F, Alt+F)
+            if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+            // Safe Guards: Do not toggle if typing in search inputs, note editors, or settings inside Obsidian
+            if (['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) return;
+            if (e.target.isContentEditable) return;
+            if (e.target.closest('.cm-editor') || e.target.closest('.cm-content')) return;
+
             if (!document.contains(webview)) return;
             if (!webview.offsetParent) return;
             const activeLeaf = document.querySelector('.workspace-leaf.mod-active');
