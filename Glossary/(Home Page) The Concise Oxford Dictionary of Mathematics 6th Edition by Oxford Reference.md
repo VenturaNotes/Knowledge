@@ -1033,7 +1033,7 @@ Year: 2021-09-01
 	91. chaos
 	92. character
 	93. [[characteristic of a field]]
-	94. characteristic polynomial
+	94. [[characteristic polynomial]]
 	95. character table
 	96. Chebyshev's inequality
 	97. Chebyshev's Theorem
@@ -1058,7 +1058,7 @@ Year: 2021-09-01
 	114. cipher
 	115. ciphertext
 	116. circle
-	117. circle of convergence
+	117. [[circle of convergence]]
 	118. circle of curvature
 	119. circle theorems
 	120. circline
@@ -1078,7 +1078,7 @@ Year: 2021-09-01
 	132. class
 	133. class boundaries
 	134. class equation
-	135. classical mechanics
+	135. [[classical mechanics]]
 	136. Classification Theorem for Surfaces
 	137. class interval
 	138. clock arithmetic
