@@ -1,14 +1,15 @@
 module.exports = async (params) => {
     const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview';
 
-    const isFirstRun = window.__AD_BLOCK_GLOBAL_STATE === undefined;
+    // Store global state on the app object so it's shared across all pop-out windows
+    const isFirstRun = app.__AD_BLOCK_GLOBAL_STATE === undefined;
     if (isFirstRun) {
-        window.__AD_BLOCK_GLOBAL_STATE = true;
+        app.__AD_BLOCK_GLOBAL_STATE = true;
     } else {
-        window.__AD_BLOCK_GLOBAL_STATE = !window.__AD_BLOCK_GLOBAL_STATE;
+        app.__AD_BLOCK_GLOBAL_STATE = !app.__AD_BLOCK_GLOBAL_STATE;
     }
 
-    const isActivating = window.__AD_BLOCK_GLOBAL_STATE;
+    const isActivating = app.__AD_BLOCK_GLOBAL_STATE;
 
     const ACTIVATE_SCRIPT = `(function() {
         if (!window.location.hostname.includes('youtube.com')) return;
@@ -145,27 +146,44 @@ module.exports = async (params) => {
         webview._abEventSet = true;
 
         // Re-inject on navigation (e.g. user clicks another YT video)
-        const onReady = () => updateWebview(webview, window.__AD_BLOCK_GLOBAL_STATE);
+        const onReady = () => updateWebview(webview, app.__AD_BLOCK_GLOBAL_STATE);
         webview.addEventListener('dom-ready', onReady);
         webview.addEventListener('did-navigate', onReady);
         webview.addEventListener('did-navigate-in-page', onReady);
     }
 
     const applyToAll = () => {
-        document.querySelectorAll(WEBVIEW_SELECTOR).forEach(wv => {
-            attachListeners(wv);
-            updateWebview(wv, window.__AD_BLOCK_GLOBAL_STATE);
+        // Collect all unique active windows (main window + any pop-out/floating windows)
+        const windows = new Set([window]);
+        const floatingSplit = app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+
+        // Apply listeners and injection scripts to webviews in all gathered windows
+        windows.forEach(win => {
+            if (!win || !win.document) return;
+            win.document.querySelectorAll(WEBVIEW_SELECTOR).forEach(wv => {
+                attachListeners(wv);
+                updateWebview(wv, app.__AD_BLOCK_GLOBAL_STATE);
+            });
         });
     };
 
-    // Set up workspace listener once per session
-    if (!window.__AD_BLOCK_INIT) {
-        window.__AD_BLOCK_INIT = true;
+    // Set up workspace listeners once per session on the shared global app object
+    if (!app.__AD_BLOCK_INIT) {
+        app.__AD_BLOCK_INIT = true;
         let timer;
-        app.workspace.on('layout-change', () => {
+        const triggerApply = () => {
             clearTimeout(timer);
             timer = setTimeout(applyToAll, 500);
-        });
+        };
+        app.workspace.on('layout-change', triggerApply);
+        app.workspace.on('window-open', triggerApply);
     }
 
     applyToAll();

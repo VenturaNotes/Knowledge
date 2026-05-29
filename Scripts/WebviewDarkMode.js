@@ -1,16 +1,16 @@
 module.exports = async (params) => {
     const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview';
     
-    // Check if this is the first time the script is running this session
-    const isFirstRun = window.__DARK_MODE_GLOBAL_STATE === undefined;
+    // Shift state storage to the shared app object so all windows stay synchronized
+    const isFirstRun = app.__DARK_MODE_GLOBAL_STATE === undefined;
 
     if (isFirstRun) {
-        window.__DARK_MODE_GLOBAL_STATE = true; 
+        app.__DARK_MODE_GLOBAL_STATE = true; 
     } else {
-        window.__DARK_MODE_GLOBAL_STATE = !window.__DARK_MODE_GLOBAL_STATE;
+        app.__DARK_MODE_GLOBAL_STATE = !app.__DARK_MODE_GLOBAL_STATE;
     }
 
-    const isActivating = window.__DARK_MODE_GLOBAL_STATE;
+    const isActivating = app.__DARK_MODE_GLOBAL_STATE;
 
     async function updateWebview(webview, forceState) {
         if (!webview || typeof webview.executeJavaScript !== 'function' || webview._dmBusy) return;
@@ -32,26 +32,46 @@ module.exports = async (params) => {
         webview._dmBusy = false;
     }
 
-    // Optimized scanning: only runs when called or on specific layout changes
+    // Gathers all open DOM windows (main window + any pop-outs)
+    const getActiveWindows = () => {
+        const windows = new Set([window]);
+        const floatingSplit = app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+        return Array.from(windows);
+    };
+
+    // Scans all discovered windows and applies dark mode configuration to webviews
     const applyToAll = () => {
-        const webviews = document.querySelectorAll(WEBVIEW_SELECTOR);
-        webviews.forEach(wv => {
-            updateWebview(wv, window.__DARK_MODE_GLOBAL_STATE);
-            if (!wv._dmEventSet) {
-                wv.addEventListener('dom-ready', () => updateWebview(wv, window.__DARK_MODE_GLOBAL_STATE));
-                wv._dmEventSet = true;
-            }
+        const windows = getActiveWindows();
+        windows.forEach(win => {
+            if (!win || !win.document) return;
+            const webviews = win.document.querySelectorAll(WEBVIEW_SELECTOR);
+            webviews.forEach(wv => {
+                updateWebview(wv, app.__DARK_MODE_GLOBAL_STATE);
+                if (!wv._dmEventSet) {
+                    wv.addEventListener('dom-ready', () => updateWebview(wv, app.__DARK_MODE_GLOBAL_STATE));
+                    wv._dmEventSet = true;
+                }
+            });
         });
     };
 
-    // Replace the heavy MutationObserver with a light Layout listener
-    if (!window.__DARK_MODE_INIT) {
+    // Set up workspace listeners once per session on the shared global app object
+    if (!app.__DARK_MODE_INIT) {
+        app.__DARK_MODE_INIT = true;
         let timer;
-        app.workspace.on('layout-change', () => {
+        const triggerApply = () => {
             clearTimeout(timer);
             timer = setTimeout(applyToAll, 500); // Wait until layout settles
-        });
-        window.__DARK_MODE_INIT = true;
+        };
+        app.workspace.on('layout-change', triggerApply);
+        app.workspace.on('window-open', triggerApply);
     }
 
     applyToAll();

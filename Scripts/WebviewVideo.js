@@ -173,13 +173,13 @@ module.exports = async (params) => {
 
         let originalStyles = null;
         let originalWvStyles = null;
-        let isFullscreen = false;
+        webview._isFullscreen = false;
 
         const enterFullscreen = () => {
-            if (isFullscreen) return;
+            if (webview._isFullscreen) return;
             const leaf = getLeaf();
             if (!leaf) return;
-            isFullscreen = true;
+            webview._isFullscreen = true;
 
             originalStyles = {
                 position: leaf.style.position,
@@ -229,9 +229,9 @@ module.exports = async (params) => {
         };
 
         const exitFullscreen = () => {
-            if (!isFullscreen) return;
+            if (!webview._isFullscreen) return;
             const leaf = getLeaf();
-            isFullscreen = false;
+            webview._isFullscreen = false;
 
             if (leaf && originalStyles) {
                 Object.assign(leaf.style, originalStyles);
@@ -250,7 +250,12 @@ module.exports = async (params) => {
             }
         };
 
-        const toggleFullscreen = () => isFullscreen ? exitFullscreen() : enterFullscreen();
+        const toggleFullscreen = () => webview._isFullscreen ? exitFullscreen() : enterFullscreen();
+
+        // Bind control triggers directly to the webview element so parent listeners can interact with them
+        webview._enterFullscreen = enterFullscreen;
+        webview._exitFullscreen = exitFullscreen;
+        webview._toggleFullscreen = toggleFullscreen;
 
         webview.addEventListener('enter-html-full-screen', enterFullscreen);
         webview.addEventListener('leave-html-full-screen', exitFullscreen);
@@ -262,36 +267,54 @@ module.exports = async (params) => {
                 exitFullscreen();
             }
         });
+    }
 
-        // Keydown listener for the Obsidian parent window context (when webview is not focused)
-        window.addEventListener('keydown', (e) => {
+    // Registers a single keydown parent interface per window (prevents memory leaks & handles pop-out focus)
+    const registerParentListeners = (win) => {
+        if (win.__YT_PARENT_LISTENERS_SET) return;
+        win.__YT_PARENT_LISTENERS_SET = true;
+
+        // Parent 'F' Keydown handler (toggles fullscreen if webview is inside the active leaf)
+        win.addEventListener('keydown', (e) => {
             if (e.key.toLowerCase() !== 'f') return;
-
-            // Ignore shortcut if hotkey modifiers are active (e.g. Cmd+F, Ctrl+F, Alt+F)
             if (e.metaKey || e.ctrlKey || e.altKey) return;
 
-            // Safe Guards: Do not toggle if typing in search inputs, note editors, or settings inside Obsidian
+            // Safe Guards: Bypass shortcut during input field focus inside Obsidian
             if (['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) return;
             if (e.target.isContentEditable) return;
             if (e.target.closest('.cm-editor') || e.target.closest('.cm-content')) return;
 
-            if (!document.contains(webview)) return;
-            if (!webview.offsetParent) return;
-            const activeLeaf = document.querySelector('.workspace-leaf.mod-active');
-            if (!activeLeaf?.contains(webview)) return;
+            const activeLeaf = win.document.querySelector('.workspace-leaf.mod-active');
+            if (!activeLeaf) return;
+
+            const webview = activeLeaf.querySelector(WEBVIEW_SELECTOR);
+            if (!webview || typeof webview._toggleFullscreen !== 'function') return;
+
             e.preventDefault();
             e.stopPropagation();
-            toggleFullscreen();
+            webview._toggleFullscreen();
         }, true);
 
-        // Escape listener for the Obsidian parent context
-        window.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && isFullscreen) {
-                e.preventDefault();
-                exitFullscreen();
+        // Parent 'Escape' Keydown handler (exits any fullscreen video webviews)
+        win.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const webviews = win.document.querySelectorAll(WEBVIEW_SELECTOR);
+                let captured = false;
+
+                webviews.forEach(wv => {
+                    if (wv._isFullscreen && typeof wv._exitFullscreen === 'function') {
+                        wv._exitFullscreen();
+                        captured = true;
+                    }
+                });
+
+                if (captured) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
             }
         }, true);
-    }
+    };
 
     async function updateWebview(webview) {
         if (!webview || typeof webview.executeJavaScript !== 'function') return;
@@ -313,20 +336,41 @@ module.exports = async (params) => {
         webview.addEventListener('did-navigate-in-page', onReady);
     }
 
+    // Gathers all open DOM windows (main window + any pop-outs)
+    const getActiveWindows = () => {
+        const windows = new Set([window]);
+        const floatingSplit = app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+        return Array.from(windows);
+    };
+
     const applyToAll = () => {
-        document.querySelectorAll(WEBVIEW_SELECTOR).forEach(wv => {
-            attachListeners(wv);
-            updateWebview(wv);
+        const windows = getActiveWindows();
+        windows.forEach(win => {
+            if (!win || !win.document) return;
+            registerParentListeners(win);
+            win.document.querySelectorAll(WEBVIEW_SELECTOR).forEach(wv => {
+                attachListeners(wv);
+                updateWebview(wv);
+            });
         });
     };
 
-    if (!window.__YT_ENHANCER_INIT) {
-        window.__YT_ENHANCER_INIT = true;
+    if (!app.__YT_ENHANCER_INIT) {
+        app.__YT_ENHANCER_INIT = true;
         let timer;
-        app.workspace.on('layout-change', () => {
+        const triggerApply = () => {
             clearTimeout(timer);
             timer = setTimeout(applyToAll, 500);
-        });
+        };
+        app.workspace.on('layout-change', triggerApply);
+        app.workspace.on('window-open', triggerApply);
     }
 
     applyToAll();
