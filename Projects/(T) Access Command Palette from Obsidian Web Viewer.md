@@ -24,7 +24,6 @@ completedDate: 2026-04-17
 ## Conversations
 - [AI Google Studio](https://aistudio.google.com/prompts/16nz5sza7s9TU1n_K_kwN_jXIO37-Kk3n)
 - [AI Google Studio](https://aistudio.google.com/prompts/10PDojjH29gt-7m_To6afozWeh3OrOtOD)
-
 ## V5 Solution
 - Simply Swallows electron remote crashes
 - The exceptions (setIgnoreMenuShortcuts, Object has been destroyed) are Electron lifecycle artifacts — the webview's renderer process is already torn down when the close sequence fires, so the error is structurally unavoidable, not a logic bug. Swallowing it doesn't mask real failure; the close succeeds regardless.

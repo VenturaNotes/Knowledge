@@ -3,7 +3,6 @@ tags:
   - status/complete
   - project
 ---
-
 - Copy and paste chapters from textbook to text file
 - Insert text file into VS Code Python Folder
 - In VS Code, go to Code > Preferences > Settings and type `Execute in File Dir`. Make sure this checkmark is turned on [^1]

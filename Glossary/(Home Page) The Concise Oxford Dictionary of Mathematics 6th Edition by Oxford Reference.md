@@ -1087,24 +1087,28 @@ Year: 2021-09-01
 	
 	141. closed(in geometry and graph theory)
 	142. closed disc
-	143. closed interval
+	143. [[closed interval]]
 	144. closed set(in topology)
 	145. closed surface
 	146. closure
 	147. cluster point
-	148. cluster sampling
+	148. [[cluster sampling]]
 	149. coaxial
 	150. cobweb plot
 	
 	151. code
 	152. codomain
+		1. See function
 	153. coefficient
+		1. See binomial coefficient, polynomial
 	154. coefficient of correlation
+		1. See correlation
 	155. coefficient of determination
 	156. coefficient of friction
+		1. See friction
 	157. coefficient of restitution
 	158. coefficient of skewness
-	159. coefficient of variation
+	159. [[coefficient of variation]]
 	160. cofactor
 	
 	161. Collatz conjecture
