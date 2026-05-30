@@ -1111,9 +1111,9 @@ Year: 2021-09-01
 	159. [[coefficient of variation]]
 	160. cofactor
 	
-	161. Collatz conjecture
-	162. collinear
-	163. collision
+	161. [[Collatz conjecture]]
+	162. [[collinear]]
+	163. [[collision]]
 	164. colorable
 	165. column equivalence
 	166. column operation

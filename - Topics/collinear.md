@@ -11,7 +11,7 @@
 	- #question Why can't both lines be shifted away from the origin? 
 - 
 ## Source [^1]
-- 
+- Any number of points are said to be collinear if there is a straight line passing through all of them.
 ## References
 
-[^1]: 
+[^1]: [[(T) Github Knowledge Commit Titles]]
