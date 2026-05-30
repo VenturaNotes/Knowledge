@@ -2,13 +2,27 @@ module.exports = async (params) => {
     const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview';
 
     const INJECT_SCRIPT = `(function() {
-        if (!window.location.hostname.includes('youtube.com')) return;
-        if (window.__ytEnhancerActive) return;
-        window.__ytEnhancerActive = true;
+        const hostname = window.location.hostname;
+        const isYouTube = hostname.includes('youtube.com');
+        const isTikTok = hostname.includes('tiktok.com');
+        if (!isYouTube && !isTikTok) return;
+
+        // Per-host guard so re-injection on navigation doesn't double-bind
+        const guardKey = '__enhancerActive_' + hostname.replace(/\\.+/g, '_');
+        if (window[guardKey]) return;
+        window[guardKey] = true;
 
         let preResetSpeed = null;
 
-        const getVideo = () => document.querySelector('video');
+        // TikTok autoplays the visible feed video; grab the first playing one,
+        // fallback to any video if none is actively playing.
+        const getVideo = () => {
+            if (isTikTok) {
+                const videos = Array.from(document.querySelectorAll('video'));
+                return videos.find(v => !v.paused) || videos[0] || null;
+            }
+            return document.querySelector('video');
+        };
 
         const setSpeed = (speed) => {
             const video = getVideo();
@@ -46,7 +60,7 @@ module.exports = async (params) => {
             badge.__hideTimer = setTimeout(() => badge.style.opacity = '0', 1200);
         };
 
-        // Fullscreen style injection control within the guest page
+        // Fullscreen style injection — host-aware CSS targets
         window.__ytEnhancerSetFullscreen = (enable) => {
             let style = document.getElementById('__yt-fs-styles');
             if (style) style.remove();
@@ -54,8 +68,8 @@ module.exports = async (params) => {
             if (enable) {
                 style = document.createElement('style');
                 style.id = '__yt-fs-styles';
-                style.textContent = \`
-                    /* Disable scrollbars during fullscreen to allow horizontal expansion */
+
+                const youtubeCSS = \`
                     html, body, ytd-app {
                         overflow: hidden !important;
                     }
@@ -88,6 +102,31 @@ module.exports = async (params) => {
                         display: none !important;
                     }
                 \`;
+
+                // TikTok: the playing video lives inside a swiper slide; hide surrounding feed chrome
+                const tiktokCSS = \`
+                    html, body {
+                        overflow: hidden !important;
+                    }
+                    video {
+                        width: 100vw !important;
+                        height: 100vh !important;
+                        max-width: 100vw !important;
+                        max-height: 100vh !important;
+                        top: 0 !important;
+                        left: 0 !important;
+                        position: fixed !important;
+                        z-index: 999999 !important;
+                        object-fit: contain !important;
+                    }
+                    header, footer, [class*="DivHeader"], [class*="DivSideBar"],
+                    [class*="DivActionItem"], [class*="DivInfoContainer"],
+                    [class*="DivVideoInfoContainer"], [class*="DivBrowserModeContainer"] {
+                        display: none !important;
+                    }
+                \`;
+
+                style.textContent = isYouTube ? youtubeCSS : tiktokCSS;
                 document.head.appendChild(style);
             }
         };
@@ -95,6 +134,9 @@ module.exports = async (params) => {
         document.addEventListener('keydown', (e) => {
             if (['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) return;
             if (e.target.isContentEditable) return;
+
+            // TikTok search/comment boxes use shadow DOM descendants; closest() catches them
+            if (e.target.closest('input, textarea, [contenteditable="true"]')) return;
 
             const video = getVideo();
             if (!video) return;

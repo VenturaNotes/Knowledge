@@ -13,6 +13,9 @@ tags:
   - task
 completedDate: 2026-05-28
 ---
+## Potential Problems
+- [ ] Currently there is a file called `obsidian_last_code_temp.txt` which references the temp file saved. If `obsidian_last_code_temp.txt` is deleted first, does this mean we have no reference to the other temp file saved and just have to trust that the computer cleans it up? Would that become a problem?
+## Versions
 ### V2
 - This solution is a bit better. It creates the desired file in a temporary directory which is reliably saved to your clipboard. 
 ```javascript
