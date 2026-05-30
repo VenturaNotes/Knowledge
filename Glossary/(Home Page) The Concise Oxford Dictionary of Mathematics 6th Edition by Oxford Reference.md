@@ -1115,7 +1115,7 @@ Year: 2021-09-01
 	162. [[collinear]]
 	163. [[collision]]
 	164. colorable
-	165. column equivalence
+	165. [[column equivalence]]
 	166. column operation
 	167. column rank
 	168. column space
@@ -1124,9 +1124,9 @@ Year: 2021-09-01
 	
 	171. combinatorial analysis
 	172. combinatorial logic
-	173. combinatorial topology
+	173. [[combinatorial topology]]
 	174. commensurable
-	175. common denominator
+	175. [[common denominator]]
 	176. common difference
 	177. common factor
 	178. common fraction
