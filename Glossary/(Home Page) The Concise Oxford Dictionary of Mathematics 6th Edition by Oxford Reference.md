@@ -1128,18 +1128,18 @@ Year: 2021-09-01
 	174. commensurable
 	175. [[common denominator]]
 	176. common difference
-	177. common factor
+	177. [[common factor]]
 	178. common fraction
 	179. common logarithm
 	180. common ratio
 	
-	181. commutative
+	181. [[commutative]]
 	182. commutative algebra
 	183. commutative diagram
 	184. commutative ring
 	185. commutator
 	186. commute
-	187. compactification
+	187. [[compactification]]
 	188. compact operator
 	189. companion matrix
 	190. compass
