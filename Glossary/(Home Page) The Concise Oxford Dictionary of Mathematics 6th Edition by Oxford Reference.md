@@ -1138,9 +1138,9 @@ Year: 2021-09-01
 	183. commutative diagram
 	184. commutative ring
 	185. commutator
-	186. commute
+	186. [[commute]]
 	187. [[compactification]]
-	188. compact operator
+	188. [[compact operator]]
 	189. companion matrix
 	190. compass
 	
@@ -1153,7 +1153,7 @@ Year: 2021-09-01
 	197. complete graph
 	198. complete lattice
 	199. completely balanced block design
-	200. completely normal space
+	200. [[completely normal space]]
 	
 	201. completeness axiom of the real numbers
 	202. complete orthonormal basis
@@ -1164,7 +1164,7 @@ Year: 2021-09-01
 	207. completion
 	208. complex analytic
 	209. complex conjugate
-	210. complex exponential
+	210. [[complex exponential]]
 	
 	211. complexity(of an algorithm)
 	212. complex logarithm
