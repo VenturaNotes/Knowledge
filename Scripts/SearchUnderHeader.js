@@ -95,10 +95,16 @@ module.exports = async (params) => {
             
             if (query) {
                 const words = query.split(/\s+/).filter(w => w.length > 0);
-                words.forEach(word => {
-                    const regex = new RegExp(`(${word})`, "gi");
+                if (words.length > 0) {
+                    // Escape special characters so regex doesn't break on punctuation
+                    const escapedWords = words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+                    // Sort words by length descending so longer phrases match first
+                    escapedWords.sort((a, b) => b.length - a.length);
+                    
+                    // Combine all terms with "|" and perform a single-pass replacement
+                    const regex = new RegExp(`(${escapedWords.join("|")})`, "gi");
                     contentHtml = contentHtml.replace(regex, `<span style="color: #a371f7; font-weight: bold;">$1</span>`);
-                });
+                }
             }
 
             container.createSpan().innerHTML = contentHtml;
