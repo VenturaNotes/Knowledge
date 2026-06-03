@@ -915,102 +915,93 @@ Year: 2021-09-01
 	902. [[Morley's Theorem]]
 	903. [[multigraph]]
 	904. [[multiplication]]
-- Created
-	1. [[Georg Cantor]]
-	2. [[Cantor-Schröder-Bernstein Theorem]]
-	3. [[Cantor distribution]]
-	4. [[Cantor set]]
-	5. [[cap]]
-	6. capacity
+	905. [[Georg Cantor]]
+	906. [[Cantor-Schröder-Bernstein Theorem]]
+	907. [[Cantor distribution]]
+	908. [[Cantor set]]
+	909. [[cap]]
+	910. capacity
 		1. A synonym for volume
-	7. [[capacity]]
-	8. Carathéodory measurable
+	911. [[capacity]]
+	912. Carathéodory measurable
 		1. See outer measure
-	9. 
-	10.  
-	
-	11. [[Gerolamo Cardano]]
-	12. [[cardinal arithmetic]]
-	13. [[cardinality]]
-	14. [[cardinal number]]
-	15. [[cardioid]]
-	16. Carmichael number
+	913. [[Gerolamo Cardano]]
+	914. [[cardinal arithmetic]]
+	915. [[cardinality]]
+	916. [[cardinal number]]
+	917. [[cardioid]]
+	918. Carmichael number
 		1. A synonym for pseudoprime.
-	17. [[Cartesian]]
-	18. Cartesian coordinates
+	919. [[Cartesian]]
+	920. Cartesian coordinates
 		1. See coordinates (in Euclidean space).
-	19. [[Cartesian distance]]
-	20. [[Cartesian plane]]
-	
-	21. [[Cartesian product]]
-	22. [[Cartesian space]]
-	23. Cartesian tensor
+	921. [[Cartesian distance]]
+	922. [[Cartesian plane]]
+	923. [[Cartesian product]]
+	924. [[Cartesian space]]
+	925. Cartesian tensor
 		1. See tensor
-	24. [[cascade charts]]
-	25. [[case control studies]]
-	26. [[casting out nines]]
-	27. [[Catalan's conjecture]]
-	28. [[Catalan numbers]]
-	29. [[catastrophe theory]]
-	30. categorical data
+	926. [[cascade charts]]
+	927. [[case control studies]]
+	928. [[casting out nines]]
+	929. [[Catalan's conjecture]]
+	930. [[Catalan numbers]]
+	931. [[catastrophe theory]]
+	932. categorical data
 		1. A synonym for nominal data
-	
-	31. [[categorical proposition]]
-	32. [[category]]
-	33. [[Cauchy's formula for derivatives]]
-	34. Cauchy's integral formula
+	933. [[categorical proposition]]
+	934. [[category]]
+	935. [[Cauchy's formula for derivatives]]
+	936. Cauchy's integral formula
 		1. See Cauchy's Formula for Derivatives
-	35. [[Cauchy's Integral Theorem]]
-	36. [[Cauchy's mean value theorem]]
-	37. [[Cauchy's Residue Theorem]]
-	38. Cauchy's test
+	937. [[Cauchy's Integral Theorem]]
+	938. [[Cauchy's mean value theorem]]
+	939. [[Cauchy's Residue Theorem]]
+	940. Cauchy's test
 		1. See root test
-	39. [[Cauchy's Theorem]]
-	40. Cauchy's Theorem
+	941. [[Cauchy's Theorem]]
+	942. Cauchy's Theorem
 		1. (complex analysis) A synonym for Cauchy's Integral Theorem
-	
-	41. [[Augustin-Louis Cauchy]]
-	42. Cauchy-Frobenius lemma
+	943. [[Augustin-Louis Cauchy]]
+	944. Cauchy-Frobenius lemma
 		1. See orbit-counting formula
-	43. [[Cauchy-Riemann equations]]
-	44. [[Cauchy-Schwarz inequality]]
-	45. [[Cauchy-Schwarz inequality for integrals]]
-	46. [[Cauchy-Schwarz inequality for sums]]
-	47. [[Cauchy convergence criterion]]
-	48. [[Cauchy distribution]]
-	49. Cauchy integral test
+	945. [[Cauchy-Riemann equations]]
+	946. [[Cauchy-Schwarz inequality]]
+	947. [[Cauchy-Schwarz inequality for integrals]]
+	948. [[Cauchy-Schwarz inequality for sums]]
+	949. [[Cauchy convergence criterion]]
+	950. [[Cauchy distribution]]
+	951. Cauchy integral test
 		1. See integral test
-	50. [[Cauchy sequence]]
-	
-	51. [[causation]]
-	52. [[Bonaventura Cavalieri]]
-	53. [[Cayley's Theorem]]
-	54. [[Arthur Cayley]]
-	55. [[Cayley-Hamilton Theorem]]
-	56. [[ceiling]]
-	57. [[Celsius]]
-	58. [[centesimal]]
-	59. [[centi-]]
-	60. centile
+	952. [[Cauchy sequence]]
+	953. [[causation]]
+	954. [[Bonaventura Cavalieri]]
+	955. [[Cayley's Theorem]]
+	956. [[Arthur Cayley]]
+	957. [[Cayley-Hamilton Theorem]]
+	958. [[ceiling]]
+	959. [[Celsius]]
+	960. [[centesimal]]
+	961. [[centi-]]
+	962. centile
 		1. A synonym for percentile. See quantile.
-
-
-	61. [[central angle]]
-	62. [[central conic]]
-	63. [[central difference]]
-	64. [[central difference approximation]]
-	65. [[central force]]
-	66. [[centralizer]]
-	67. [[central quadric]]
-	68. [[central vertex]]
-	69. [[centre]]
-	70. centre
+	963. [[central angle]]
+	964. [[central conic]]
+	965. [[central difference]]
+	966. [[central difference approximation]]
+	967. [[central force]]
+	968. [[centralizer]]
+	969. [[central quadric]]
+	970. [[central vertex]]
+	971. [[centre]]
+	972. centre
 		1. See circle, ellipse, hyperbola
-	
-	71. center of curvature
+	973. center of curvature
 		1. See curvature
-	72. [[center of gravity]]
-	73. [[center of mass]]
+	974. [[center of gravity]]
+	975. [[center of mass]]
+- Created
+
 	74. center of symmetry
 	75. centrifugal force
 	76. centripetal force
@@ -1182,9 +1173,9 @@ Year: 2021-09-01
 	223. compound interest
 	224. compound number
 	225. compound pendulum
-	226. compound statement
+	226. [[compound statement]]
 	227. compression
-	228. computable number
+	228. [[computable number]]
 	229. computation
 	230. compute
 		1. A synonym for calculate
@@ -1195,7 +1186,7 @@ Year: 2021-09-01
 	234. conclusion(in logic)
 	235. conclusion(in statistics)
 	236. concrete number
-	237. concurrent
+	237. [[concurrent]]
 	238. concyclic
 	239. condition, necessary and sufficient
 	240. conditional
