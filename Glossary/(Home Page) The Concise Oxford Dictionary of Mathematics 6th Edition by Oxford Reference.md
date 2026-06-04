@@ -1185,13 +1185,13 @@ Year: 2021-09-01
 	233. concentric
 	234. conclusion(in logic)
 	235. conclusion(in statistics)
-	236. concrete number
+	236. [[concrete number]]
 	237. [[concurrent]]
-	238. concyclic
+	238. [[concyclic]]
 	239. condition, necessary and sufficient
 	240. conditional
 	
-	241. conditional distribution
+	241. [[conditional distribution]]
 	242. conditional equation
 	243. conditional expectation
 	244. conditionally convergent
