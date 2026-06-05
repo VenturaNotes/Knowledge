@@ -28,6 +28,8 @@ module.exports = async ({ app, obsidian }) => {
                     // Allow submitting by pressing Enter
                     text.inputEl.addEventListener('keydown', (e) => {
                         if (e.key === 'Enter') {
+                            e.preventDefault();
+                            e.stopPropagation();
                             this.onSubmit(this.value);
                             this.close();
                         }

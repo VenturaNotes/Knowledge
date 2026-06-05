@@ -186,8 +186,11 @@ export class VideoEnhancerModule {
       webview._isFullscreen = true;
       originalStyles = { position: leaf.style.position, top: leaf.style.top, left: leaf.style.left, width: leaf.style.width, height: leaf.style.height, zIndex: leaf.style.zIndex, overflow: leaf.style.overflow };
       originalWvStyles = { position: webview.style.position, top: webview.style.top, left: webview.style.left, width: webview.style.width, height: webview.style.height, zIndex: webview.style.zIndex, overflow: webview.style.overflow };
-      Object.assign(leaf.style, { position:'fixed', top:'0', left:'0', width:'100vw', height:'100vh', zIndex:'9999', overflow:'hidden' });
-      Object.assign(webview.style, { position:'fixed', top:'0', left:'0', width:'100vw', height:'100vh', zIndex:'99999', overflow:'hidden' });
+      
+      // Restructured layering constraints (VaporNote is zIndex: 35)
+      Object.assign(leaf.style, { position:'fixed', top:'0', left:'0', width:'100vw', height:'100vh', zIndex:'25', overflow:'hidden' });
+      Object.assign(webview.style, { position:'fixed', top:'0', left:'0', width:'100vw', height:'100vh', zIndex:'26', overflow:'hidden' });
+      
       try { webview.executeJavaScript(`window.__ytEnhancerSetFullscreen && window.__ytEnhancerSetFullscreen(true);`); } catch(err) {}
     };
 
@@ -249,7 +252,6 @@ export class VideoEnhancerModule {
   async _inject(webview) {
     if (!webview || typeof webview.executeJavaScript !== 'function') return;
 
-    // Check DOM-ready, active connection, and active parent
     const isReady = () => {
       try { return webview.isConnected && webview.parentElement && !!webview.getWebContentsId(); }
       catch(e) { return false; }
@@ -260,7 +262,6 @@ export class VideoEnhancerModule {
       await webview.executeJavaScript(INJECT_SCRIPT);
     } catch(err) {
       const msg = err?.message || '';
-      // Suppress benign unmounting/destruction warnings
       if (!msg.includes('reply was never sent') && !msg.includes('destroyed')) {
         console.error('[VideoEnhancer] executeJavaScript failed:', err);
       }
