@@ -1222,17 +1222,17 @@ Year: 2021-09-01
 	267. conjugate diameters
 	268. conjugate subgroups
 	269. conjugate surds
-	270. conjugation
+	270. [[conjugation]]
 	
 	271. conjunction
 	272. conjunctive normal form
-	273. connected(of a relation)
+	273. [[connected]]
 	274. connected(of a space)
 	275. connected component
 	276. connected graph
 	277. connected sum
 	278. connective
-	279. consequent
+	279. [[consequent]]
 	280. conservation condition(in network flows)
 	
 	281. conservation of angular momentum

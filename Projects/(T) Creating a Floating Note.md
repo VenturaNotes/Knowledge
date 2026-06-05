@@ -26,6 +26,19290 @@ parent:
 ### For later
 - [ ] Make "Command + O" behave a little differently or neater
 	- At least make it appear in front of the floating note
+
+## V24 (Stable)
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() { return this.app.vault.getFiles(); }
+    getItemText(file) { return file.path; }
+    onChooseItem(file, evt) { this.onSelect(file); }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => { this.value = value; });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) setTimeout(() => inputEl.focus(), 50);
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl).addButton((btn) => {
+            btn.setButtonText("Confirm").setCta().onClick(() => {
+                this.onSubmit(this.value);
+                this.close();
+            });
+        });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     
+        this.activeLeafIndex      = 0;      
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     
+        this._prevActiveLeaf    = null;     
+        this._origSetActiveLeaf = null;     
+        this._origGetLeaf       = null;     
+        this._targetWin         = null;     
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler    = null;     
+        this._globalClickHandler = null;    
+        this._keydownHandler     = null;    
+        this._globalMousedownHandler = null; 
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    
+        this._isOpening         = false;    
+        this._isMinimized       = false;    
+        this._focusListeners    = [];       
+        this._resizeHandles     = [];       
+        this._closedTabsHistory = [];       
+        this.opacityValue       = '0.95';   
+        this._lastCloseTime     = 0;        
+        this._moveTimeout       = null;     
+        this._isClosingTab      = false;    
+        this._isCreatingTab     = false;
+        this._isSwitchingTab    = false;
+        this._isReopeningTab    = false;
+        this._queuedWin         = null;
+
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];
+        this._savedEphemeral     = [];       
+        this._isVaporActive      = false;    
+
+        this._dragMode          = null;     
+        this._activeHandleDir   = null;     
+        this._origModalOpen     = null;     
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this._setupWindowFocusListeners();
+
+        // Intercept global Modal.open transitions to force modal targeting alignment
+        const self = this;
+        this._origModalOpen = Modal.prototype.open;
+        Modal.prototype.open = function(...args) {
+            if (self._isOpen() && self._isVaporFocused() && self._targetWin) {
+                const origActiveWindow = window.activeWindow;
+                const origActiveDocument = window.activeDocument;
+                try {
+                    window.activeWindow = self._targetWin;
+                    window.activeDocument = self._targetWin.document;
+                } catch (_) {}
+                try {
+                    return self._origModalOpen.apply(this, args);
+                } finally {
+                    try {
+                        window.activeWindow = origActiveWindow;
+                        window.activeDocument = origActiveDocument;
+                    } catch (_) {}
+                }
+            }
+            return self._origModalOpen.apply(this, args);
+        };
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                // During closing/switching, ignore completely to avoid thrash
+                if (this._isClosingTab || this._isSwitchingTab) return;
+
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this.activeLeafIndex = idx; // sync index without full _switchTab during creation
+                        if (!this._isCreatingTab) this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf && !this._isCreatingTab) {
+                    this._prevActiveLeaf = leaf;
+                    this._isVaporActive = false; 
+
+                    // Teleport VaporNote if the newly focused leaf resides in a different window
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && leafWin !== this._targetWin && this._isOpen() &&
+                        this._dragMode === null && this._activeHandleDir === null &&
+                        !this._isMigrating &&
+                        !this._isOpening &&
+                        !this._isCreatingTab &&
+                        !this._isSwitchingTab &&
+                        !this._isReopeningTab &&
+                        !this._isClosingTab) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        const styleId = 'vapornote-translucency-style';
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+        windows.forEach(win => {
+            try {
+                const el = win.document.getElementById(styleId);
+                if (el) el.remove();
+            } catch (_) {}
+            try { delete win._vaporFocusHooked; } catch (_) {}
+        });
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, event, listener, useCapture }) => {
+                try {
+                    if (bwin && event === 'focus') {
+                        bwin.off('focus', listener);
+                    } else {
+                        win.removeEventListener(event, listener, !!useCapture);
+                    }
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+
+        if (this._origModalOpen) {
+            Modal.prototype.open = this._origModalOpen;
+            this._origModalOpen = null;
+        }
+    }
+
+    // ─── ELECTRON WINDOW FOCUS SUPPRESSION ───────────────────────────────────
+    _makeLeafWindowNeutral(leaf) {
+        // 1. Give the leaf a fake parent whose getContainer() returns a stub
+        //    that dynamically maps to our current target window.
+        const self = this;
+        const noopContainer = {
+            requestFocus: () => {},
+            focus:        () => {},
+            get win() { return self._targetWin; },
+            get doc() { return self._targetWin?.document; },
+            containerEl:  leaf.containerEl,
+        };
+
+        const fakeParent = {
+            get win() { return self._targetWin; },
+            get doc() { return self._targetWin?.document; },
+            getContainer: () => noopContainer,
+            children:     [leaf],
+            // Obsidian sometimes reads .type on the parent
+            type:         'split',
+        };
+
+        // Only set if the leaf has no real parent yet (it's a fresh floating leaf)
+        if (!leaf.parent) {
+            leaf.parent = fakeParent;
+        }
+
+        // 2. Patch openFile so we can suppress focus DURING the await, releasing early via timeout
+        const origOpenFile = leaf.openFile?.bind(leaf);
+        if (origOpenFile) {
+            leaf.openFile = async (file, state) => {
+                const restore = this._suppressWinFocusViaDOM();
+                const timeoutId = setTimeout(restore, 200); // Prevent long lockups during slow loads
+                try {
+                    return await origOpenFile(file, state);
+                } finally {
+                    clearTimeout(timeoutId);
+                    restore();
+                }
+            };
+        }
+
+        // 3. Patch setViewState similarly
+        const origSetViewState = leaf.setViewState?.bind(leaf);
+        if (origSetViewState) {
+            leaf.setViewState = async (...args) => {
+                const restore = this._suppressWinFocusViaDOM();
+                const timeoutId = setTimeout(restore, 200); // Prevent long lockups during slow loads
+                try {
+                    return await origSetViewState(...args);
+                } finally {
+                    clearTimeout(timeoutId);
+                    restore();
+                }
+            };
+        }
+    }
+
+    // Temporarily redirect window.focus() and BrowserWindow.focus() calls so
+    // that any internal Obsidian code that tries to focus a window during
+    // openFile/setViewState is silently dropped.
+    _suppressWinFocusViaDOM() {
+        const targetWin = this._targetWin;
+        const patched = [];
+
+        // Collect all windows Obsidian knows about
+        const wins = new Set([window]);
+        try {
+            const floatingSplit = this.app.workspace.floatingSplit;
+            if (floatingSplit?.children) {
+                floatingSplit.children.forEach(c => { if (c.win) wins.add(c.win); });
+            }
+        } catch (_) {}
+
+        wins.forEach(win => {
+            if (win === targetWin) return; // don't suppress the window we WANT
+            try {
+                const orig = win.focus.bind(win);
+                win.focus = () => {}; // swallow focus calls
+                patched.push({ win, orig });
+            } catch (_) {}
+        });
+
+        // Also suppress via Electron if available
+        const electronPatched = [];
+        try {
+            const remote = window.require?.('@electron/remote') || require('@electron/remote');
+            if (remote) {
+                remote.BrowserWindow.getAllWindows().forEach(bwin => {
+                    try {
+                        const targetWcId = targetWin?.require?.('@electron/remote')
+                            ?.getCurrentWindow()?.webContents?.id;
+                        if (bwin.webContents?.id === targetWcId) return;
+                        const origFocus = bwin.focus.bind(bwin);
+                        bwin.focus = () => {};
+                        electronPatched.push({ bwin, origFocus });
+                    } catch (_) {}
+                });
+            }
+        } catch (_) {}
+
+        let restored = false;
+        return () => {
+            if (restored) return;
+            restored = true;
+            patched.forEach(({ win, orig }) => {
+                try { win.focus = orig; } catch (_) {}
+            });
+            electronPatched.forEach(({ bwin, origFocus }) => {
+                try { bwin.focus = origFocus; } catch (_) {}
+            });
+        };
+    }
+
+    // ─── FOCUS MANAGEMENT HELPERS ────────────────────────────────────────────
+    _forceFocusActiveLeaf() {
+        if (!this._isOpen() || !this.floatingLeaves) return;
+        const leaf = this.floatingLeaves[this.activeLeafIndex];
+        if (!leaf) return;
+
+        // Synchronously set active state once
+        if (this.app.workspace.activeLeaf !== leaf) {
+            try {
+                if (this._origSetActiveLeaf) {
+                    this._origSetActiveLeaf(leaf, { focus: false });
+                } else {
+                    this.app.workspace.setActiveLeaf(leaf, { focus: false });
+                }
+            } catch (e) {}
+        }
+
+        // Single DOM focus — no retries; retries cause focusin to re-fire
+        // which fights with click handling and requires multiple clicks to settle.
+        if (!leaf.containerEl) return;
+        if (leaf.view && leaf.view.editor && typeof leaf.view.editor.focus === 'function') {
+            leaf.view.editor.focus();
+        } else {
+            const content = leaf.containerEl.querySelector('.cm-content, webview, .markdown-source-view');
+            if (content) content.focus();
+            else leaf.containerEl.focus();
+        }
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, event, listener, useCapture }) => {
+                if (win.closed) {
+                    try {
+                        if (bwin && event === 'focus') bwin.off('focus', listener);
+                        else win.removeEventListener(event, listener, !!useCapture);
+                    } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                // Do not teleport VaporNote when the focus event is a side-effect of an
+                // internal operation or while the user is dragging/resizing
+                if (this._dragMode !== null || this._activeHandleDir !== null) return;
+                if (this._isOpen() && this._targetWin !== win &&
+                    !this._isMigrating &&
+                    !this._isOpening &&
+                    !this._isCreatingTab &&
+                    !this._isSwitchingTab &&
+                    !this._isReopeningTab &&
+                    !this._isClosingTab) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            const onWindowMousedown = () => {
+                // Instantly teleport if a click lands inside a background window and we are not dragging
+                if (this._dragMode !== null || this._activeHandleDir !== null) return;
+                if (this._isOpen() && this._targetWin !== win &&
+                    !this._isMigrating &&
+                    !this._isOpening &&
+                    !this._isCreatingTab &&
+                    !this._isSwitchingTab &&
+                    !this._isReopeningTab &&
+                    !this._isClosingTab) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, event: 'focus', listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, event: 'focus', listener: onWindowFocus });
+            }
+
+            // Capture mousedown at window level to handle clicking inside out-of-process webviews
+            win.addEventListener('mousedown', onWindowMousedown, true);
+            this._focusListeners.push({ win, bwin: null, event: 'mousedown', listener: onWindowMousedown, useCapture: true });
+        });
+    }
+
+    _injectStyles(doc) {
+        if (!doc) return;
+        const styleId = 'vapornote-translucency-style';
+        if (doc.getElementById(styleId)) return;
+
+        const style = doc.createElement('style');
+        style.id = styleId;
+        style.textContent = `
+            .vapornote-container .workspace-leaf,
+            .vapornote-container .workspace-leaf-content,
+            .vapornote-container .view-content,
+            .vapornote-container .markdown-source-view,
+            .vapornote-container .markdown-preview-view,
+            .vapornote-container .cm-scroller {
+                background-color: transparent !important;
+                background: transparent !important;
+            }
+        `;
+        doc.head.appendChild(style);
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+
+        const doc = this._targetWin?.document || activeDocument;
+        const activeEl = doc.activeElement;
+
+        if (!activeEl) return false;
+
+        // Bail out if focus is inside a modal (e.g. Settings, command palette)
+        if (activeEl.closest && activeEl.closest('.modal-container')) {
+            return false;
+        }
+
+        // Physical containment check. Also catches webview tabs: when a webview
+        // has focus, activeElement in the parent doc is the webview element itself.
+        const isPhysicallyInVapor = this.floatingContainer.contains(activeEl) ||
+            (this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl)) ?? false);
+
+        if (isPhysicallyInVapor) {
+            this._isVaporActive = true;
+            return true;
+        }
+
+        // If the user is actively focused on a specific background element (like a background webview)
+        // that is not physically inside VaporNote, we are definitely no longer focused on VaporNote.
+        const isSpecificBackgroundFocus = activeEl && 
+            activeEl !== doc.body && 
+            activeEl !== doc.documentElement;
+            
+        if (isSpecificBackgroundFocus) {
+            this._isVaporActive = false;
+            return false;
+        }
+
+        // Fallback: keep returning true if VaporNote was last interacted with.
+        return this._isVaporActive;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            // Suppress non-target window focus calls for the entire open sequence
+            const restoreOpenFocus = this._suppressWinFocusViaDOM();
+            setTimeout(restoreOpenFocus, 800);
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            container.classList.add('vapornote-container');
+            this.floatingContainer = container;
+            this._injectStyles(doc);
+            this._styleContainer(container);
+
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex; align-items: center; overflow-x: auto; overflow-y: hidden;
+                height: 100%; flex: 1; margin-left: 12px; margin-right: 12px;
+                scrollbar-width: none; -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            this._buildChrome(container);
+
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex; flex-direction: column; flex: 1; min-height: 0;
+                overflow: hidden; height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    try {
+                        const hadParent = !!targetLeaf.parent;
+                        if (!hadParent) targetLeaf.parent = ws.rootSplit;
+                        this._origSetActiveLeaf(targetLeaf, ...args);
+                        if (!hadParent) targetLeaf.parent = null;
+                    } catch (err) {
+                        try { Object.defineProperty(ws, 'activeLeaf', { value: targetLeaf, writable: true, configurable: true }); } catch (e) { ws.activeLeaf = targetLeaf; }
+                        ws.trigger('active-leaf-change', targetLeaf);
+                    }
+                    const params = args[0];
+                    if (params && params.focus) {
+                        this._forceFocusActiveLeaf();
+                    }
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && activeWindow === this._targetWin && (newSplit === 'tab' || newSplit === true)) {
+                    this._isCreatingTab = true;
+                    const _restoreWinFocus = this._suppressWinFocusViaDOM();
+                    const leaf = new WorkspaceLeaf(this.app);
+                    this._makeLeafWindowNeutral(leaf);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) {
+                            origDetach();
+                        } else {
+                            const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+                            if (idx !== -1) {
+                                this._closeTab(idx);
+                            } else {
+                                this._assertDOMPosition();
+                            }
+                        }
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        try { ws.setActiveLeaf(leaf, { focus: false }); } catch (e) {}
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1', minHeight: '0', height: '100%',
+                        display: 'flex', flexDirection: 'column', overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    this._switchTab(this.activeLeafIndex);
+
+                    // The caller (e.g. SmartWebSearch) will call leaf.setViewState()
+                    // after we return. Wrap it so we re-assert this leaf as active
+                    // once that settles — otherwise activeLeaf drifts back to Window 1.
+                    const origSVS = leaf.setViewState.bind(leaf);
+                    leaf.setViewState = async (...svArgs) => {
+                        const result = await origSVS(...svArgs);
+                        // Restore our own setViewState wrapper (from _makeLeafWindowNeutral)
+                        // has already run; now re-assert VaporNote focus
+                        const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+                        if (idx !== -1) {
+                            this.activeLeafIndex = idx;
+                            this._switchTab(idx);
+                        }
+                        return result;
+                    };
+
+                    setTimeout(() => { _restoreWinFocus(); this._isCreatingTab = false; }, 300);
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer', state: { url: href, navigate: true }, active: true
+                            }).then(() => this._renderTabs());
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            this._globalMousedownHandler = (e) => {
+                if ((this.floatingContainer && this.floatingContainer.contains(e.target)) || 
+                    e.target.closest('.modal-container')) {
+                    // Click is inside VaporNote or a modal — mark as active
+                    this._isVaporActive = true;
+                    const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                    if (activeLeaf && ws.activeLeaf !== activeLeaf) {
+                        try { ws.setActiveLeaf(activeLeaf, { focus: false }); } catch (err) {}
+                    }
+                } else {
+                    // Click is outside VaporNote. Only clear _isVaporActive if the
+                    // click target is a real background workspace element — NOT body/html
+                    // (which is what gets targeted when a webview steals focus, meaning
+                    // the user is still effectively "in" VaporNote's webview tab).
+                    const t = e.target;
+                    const isRealBackgroundClick = t &&
+                        t !== t.ownerDocument.body &&
+                        t !== t.ownerDocument.documentElement &&
+                        !t.closest('.vapornote-container') &&
+                        (t.closest('.workspace-leaf') || t.closest('.workspace-tab-header') ||
+                         t.closest('.workspace-ribbon') || t.closest('.side-dock') ||
+                         t.closest('.status-bar'));
+                    if (isRealBackgroundClick) {
+                        this._isVaporActive = false;
+                    }
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            this._keydownHandler = (e) => {
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                // Intercept Cmd+W / Ctrl+W to close VaporNote tab instead of closing windows/popouts
+                if (isCmdOrCtrl && key === 'w') {
+                    if (this._isOpen() && this._isVaporFocused()) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this._closeTab(this.activeLeafIndex);
+                        return;
+                    }
+                }
+
+                if (isCmdOrCtrl && isShift && key === 't' && this._isOpen() && this._isVaporFocused()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                    return;
+                }
+
+                if (!this._isVaporFocused()) return;
+
+                if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right' || e.key === 'arrowright')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left' || e.key === 'arrowleft')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+
+                // If the user is currently focused on a background leaf (outside VaporNote),
+                // and focus tracking is inactive, ignore programmatic webview load events 
+                // that would otherwise pull the active leaf state back to VaporNote.
+                if (!this._isVaporActive) {
+                    const activeLeaf = this.app.workspace.activeLeaf;
+                    if (activeLeaf && !this.floatingLeaves.includes(activeLeaf)) {
+                        return;
+                    }
+                }
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf && ws.activeLeaf !== activeLeaf) {
+                    try { ws.setActiveLeaf(activeLeaf, { focus: false }); } catch (e) {}
+                }
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {};
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) await this._addNewTab('file', path);
+                else await this._addNewTab('empty');
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        this._isCreatingTab = true;
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            // Neutralize any internal window-focus calls that openFile/setViewState
+            // would otherwise make against Window 1 (the macOS Space-switch trigger)
+            this._makeLeafWindowNeutral(leaf);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) {
+                    origDetach();
+                } else {
+                    const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+                    if (idx !== -1) {
+                        this._closeTab(idx);
+                    } else {
+                        this._assertDOMPosition();
+                    }
+                }
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1', minHeight: '0', height: '100%',
+                display: 'flex', flexDirection: 'column', overflow: 'hidden'
+            });
+
+            this.floatingLeaves.push(leaf);
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer', state: { url: pathOrUrl, navigate: true }, active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } catch (err) {
+            const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+            if (idx !== -1) {
+                this.floatingLeaves.splice(idx, 1);
+            }
+            throw err;
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+            setTimeout(() => {
+                this._isCreatingTab = false;
+            }, 300);
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            try { ws.setActiveLeaf(leaf, { focus: false }); } catch (e) {}
+        });
+
+        this._switchTab(this.activeLeafIndex);
+        setTimeout(() => this._hookWebviews(), 0);
+    }
+
+    _switchTab(index) {
+        if (this._isSwitchingTab) return;
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        
+        this._isSwitchingTab = true;
+        try {
+            this.activeLeafIndex = index;
+
+            this.floatingLeaves.forEach((leaf, idx) => {
+                if (idx === index) {
+                    Object.assign(leaf.containerEl.style, {
+                        display: 'flex', flexDirection: 'column', flex: '1',
+                        height: '100%', minHeight: '0', overflow: 'hidden'
+                    });
+                    
+                    this._forceFocusActiveLeaf();
+
+                    try { leaf.view?.onShow?.(); } catch (_) {}
+                    try { leaf.view?.editor?.refresh(); } catch (_) {}
+                } else {
+                    leaf.containerEl.style.display = 'none';
+                }
+            });
+
+            const activeLeaf = this.floatingLeaves[index];
+            if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+                this.savedFilePath = activeLeaf.view.file.path;
+            }
+        } finally {
+            this._isSwitchingTab = false;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index, skipHistory = false) {
+        if (!this.floatingLeaves) return;
+
+        this._isClosingTab = true; // Block intermediate cleanup events during teardown
+
+        const leafToClose = this.floatingLeaves[index];
+
+        if (!skipHistory) {
+            let viewState = null;
+            try { viewState = leafToClose.getViewState(); } catch(e){}
+            const type = viewState?.type || 'empty';
+            let pathOrUrl = null;
+            if (type === 'markdown' && leafToClose.view?.file) {
+                pathOrUrl = leafToClose.view.file.path;
+            } else if (type === 'webviewer') {
+                pathOrUrl = viewState?.state?.url;
+            }
+
+            if (!this._closedTabsHistory) this._closedTabsHistory = [];
+            this._closedTabsHistory.push({ type, pathOrUrl });
+            if (this._closedTabsHistory.length > 30) this._closedTabsHistory.shift(); 
+        }
+
+        this._allowDetach = true;
+        try { leafToClose.detach(); } catch (_) {}
+        this._allowDetach = false;
+
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            this._isClosingTab = false; 
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+
+        // Release the focus tracking block almost instantly so closing tabs is responsive
+        setTimeout(() => {
+            this._isClosingTab = false;
+        }, 10);
+    }
+
+    async reopenClosedTab() {
+        if (this._isReopeningTab) return;
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        
+        this._isReopeningTab = true;
+        try {
+            const lastTab = this._closedTabsHistory.pop();
+            if (!lastTab) return;
+            
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+            
+            if (isEmpty) {
+                this._closeTab(this.activeLeafIndex, true); 
+            }
+            
+            if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+                await this._addNewTab('file', lastTab.pathOrUrl);
+            } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+                await this._addNewTab('web', lastTab.pathOrUrl);
+            } else {
+                await this._addNewTab('empty');
+            }
+        } finally {
+            this._isReopeningTab = false;
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) nextIdx = 0; 
+        else if (nextIdx < 0) nextIdx = this.floatingLeaves.length - 1; 
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (!hasProtocol && isDomain) targetUrl = 'https://' + targetUrl;
+                else if (!hasProtocol) targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer', state: { url: targetUrl, navigate: true }, active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveViewStateData() {
+        this._savedScrolls = [];
+        this._savedEphemeral = [];
+        
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            
+            if (typeof leaf.getEphemeralState === 'function') {
+                this._savedEphemeral[idx] = leaf.getEphemeralState();
+            }
+
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({ index: index, top: el.scrollTop, left: el.scrollLeft });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreViewStateData() {
+        if (!this._savedScrolls && !this._savedEphemeral) return;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            
+            if (this._savedEphemeral && this._savedEphemeral[idx] && typeof leaf.setEphemeralState === 'function') {
+                leaf.setEphemeralState(this._savedEphemeral[idx]);
+            }
+
+            const scrollStates = this._savedScrolls ? this._savedScrolls[idx] : null;
+            if (scrollStates) {
+                const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+                scrollStates.forEach(state => {
+                    const el = scrollers[state.index];
+                    if (el) { el.scrollTop = state.top; el.scrollLeft = state.left; }
+                });
+            }
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            // 1. Electron Native Input Hook
+            const tryHookElectron = () => {
+                if (webview._electronHooked) return;
+                try {
+                    const wcId = typeof webview.getWebContentsId === 'function' ? webview.getWebContentsId() : null;
+                    if (wcId) {
+                        const remote = window.require?.('@electron/remote') || require('@electron/remote');
+                        if (remote) {
+                            const wc = remote.webContents.fromId(wcId);
+                            if (wc) {
+                                wc.on('before-input-event', (event, input) => {
+                                    const isCmdOrCtrl = input.control || input.meta;
+                                    const isShift = input.shift;
+                                    const isAlt = input.alt;
+                                    const key = input.key.toLowerCase();
+
+                                    if (input.type === 'keyDown') {
+                                        if (isCmdOrCtrl && key === 'w') {
+                                            event.preventDefault();
+                                            setTimeout(() => this._closeTab(this.activeLeafIndex), 0);
+                                        } else if (isCmdOrCtrl && isShift && key === 't') {
+                                            event.preventDefault();
+                                            setTimeout(() => this.reopenClosedTab(), 0);
+                                        } else if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right')) {
+                                            event.preventDefault();
+                                            setTimeout(() => this.navigateTab(1), 0);
+                                        } else if (isCmdOrCtrl && isAlt && (key === 'arrowleft' || key === 'left')) {
+                                            event.preventDefault();
+                                            setTimeout(() => this.navigateTab(-1), 0);
+                                        }
+                                    }
+                                });
+                                webview._electronHooked = true;
+                            }
+                        }
+                    }
+                } catch (e) {}
+            };
+
+            webview.addEventListener('did-attach', tryHookElectron);
+            webview.addEventListener('did-start-loading', tryHookElectron);
+            
+            // Defensively poll to make absolutely sure Electron connects quickly
+            let attempts = 0;
+            const poll = setInterval(() => {
+                attempts++;
+                if (webview._electronHooked || attempts > 15) {
+                    clearInterval(poll);
+                } else {
+                    tryHookElectron();
+                }
+            }, 100);
+
+            // 2. Fallback JS Injection
+            const injectScript = () => {
+                if (webview._electronHooked) return; 
+
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right')) {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && (key === 'arrowleft' || key === 'left')) {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('load-commit', injectScript);
+            webview.addEventListener('dom-ready', injectScript);
+
+            // Respond to fallback messages
+            webview.addEventListener('console-message', (e) => {
+                if (webview._electronHooked) return; 
+
+                if (e.message === 'VAPORNOTE_CMD_W') this._closeTab(this.activeLeafIndex);
+                else if (e.message === 'VAPORNOTE_CMD_T') this.reopenClosedTab();
+                else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') this.navigateTab(1);
+                else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') this.navigateTab(-1);
+            });
+
+            webview.addEventListener('page-title-updated', () => this._renderTabs());
+            webview.addEventListener('did-stop-loading', () => this._renderTabs());
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px; font-size: 10px; cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px; display: flex; align-items: center; gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'}; height: 24px;
+                box-sizing: border-box; margin-right: 4px; flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap; max-width: 90px;
+                overflow: hidden; text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer; font-size: 8px; opacity: 0.5; padding: 2px; line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => { e.stopPropagation(); this._closeTab(idx); });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => { this._switchTab(idx); });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') parent.recomputeLayout();
+                }
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        // Block teleportation while the user is actively dragging or resizing
+        if (this._dragMode !== null || this._activeHandleDir !== null) return;
+
+        if (this._queuedWin === newWin) return;
+        this._queuedWin = newWin;
+
+        // Clear any previous queued transitions to prevent double/glitched moves
+        if (this._moveTimeout) {
+            clearTimeout(this._moveTimeout);
+        }
+
+        // Processing the teleportation at a minimal 10ms settles layouts synchronously without human lag
+        this._moveTimeout = setTimeout(() => {
+            this._queuedWin = null;
+            if (this._targetWin === newWin) return;
+
+            this._isMigrating = true;
+            this._isVaporActive = false; // Clear active focus when moving to a background window
+
+            // Clean up listeners from OLD window
+            if (this._globalMoveHandler) {
+                try {
+                    this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                    this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+                } catch (_) {}
+            }
+            if (this._globalClickHandler) {
+                try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            }
+            if (this._globalMousedownHandler) {
+                try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            }
+            if (this._keydownHandler) {
+                try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            }
+
+            // Capture currently focused element in target window so we can restore it post-teleport
+            const targetDoc = newWin.document;
+            const prevActiveEl = targetDoc.activeElement;
+
+            try { if (this.floatingContainer.parentElement) this.floatingContainer.remove(); } catch (_) {}
+
+            this._targetWin = newWin;
+
+            // Inject styles & Append container to new window
+            this._injectStyles(targetDoc);
+            targetDoc.body.appendChild(this.floatingContainer);
+
+            // Bind listeners to NEW window
+            if (this._globalMoveHandler) {
+                try {
+                    this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                    this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+                } catch (_) {}
+            }
+            if (this._globalClickHandler) {
+                try { this._targetWin.addEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            }
+            if (this._globalMousedownHandler) {
+                try { this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            }
+            if (this._keydownHandler) {
+                try { this._targetWin.addEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            }
+
+            this._assertDOMPosition();
+
+            // Safely restore target window's original cursor focus
+            if (prevActiveEl && typeof prevActiveEl.focus === 'function') {
+                try { prevActiveEl.focus(); } catch (_) {}
+            }
+
+            this.floatingLeaves.forEach((leaf) => {
+                try { leaf.view?.onShow?.(); }        catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            });
+
+            setTimeout(() => { this._isMigrating = false; }, 50);
+        }, 10); 
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1', minHeight: '0', height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column', overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    `color-mix(in srgb, var(--background-primary) ${pct}%, transparent)`,
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'background-color 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: color-mix(in srgb, var(--background-secondary) ${pct}%, transparent);
+            padding: 8px 12px; cursor: move; font-size: 11px; font-weight: bold;
+            color: var(--text-muted); border-bottom: 1px solid var(--border-color);
+            display: flex; justify-content: space-between; align-items: center;
+            user-select: none; flex-shrink: 0; height: 36px; box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) dragBar.appendChild(this.tabBar);
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px; height: 3px; cursor: pointer; margin: 0; accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            const currentPct = Math.round(parseFloat(this.opacityValue) * 100);
+            container.style.background = `color-mix(in srgb, var(--background-primary) ${currentPct}%, transparent)`;
+            if (this.dragBar) {
+                this.dragBar.style.background = `color-mix(in srgb, var(--background-secondary) ${currentPct}%, transparent)`;
+            }
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+            display: inline-flex; align-items: center; justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `cursor: pointer; padding: 0 4px; font-size: 11px;`;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `position: absolute; z-index: 100000; user-select: none; ${styleCss}`;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `position: fixed; inset: 0; z-index: 999999; background: transparent; cursor: ${cursor};`;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+            currentDoc.querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = 'none');
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+            getActiveDoc().querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = '');
+        };
+
+        const onMouseDown = (e, direction) => {
+            this._activeHandleDir = direction; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top; startW = r.width; startH = r.height;
+            e.preventDefault(); e.stopPropagation(); showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (this._dragMode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (this._activeHandleDir) {
+                const dx = e.clientX - startX, dy = e.clientY - startY;
+                let newW = startW, newH = startH, newLeft = startLeft, newTop = startTop;
+
+                if (this._activeHandleDir.includes('e')) newW = Math.max(250, startW + dx);
+                else if (this._activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) newLeft = startLeft + dx;
+                }
+                if (this._activeHandleDir.includes('s')) newH = Math.max(200, startH + dy);
+                else if (this._activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) newTop = startTop + dy;
+                }
+
+                container.style.width = newW + 'px'; container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px'; container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { this._dragMode = null; this._activeHandleDir = null; removeOverlay(); };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            this._dragMode = 'drag'; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect(); startLeft = r.left; startTop = r.top;
+            e.preventDefault(); showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            this._saveViewStateData();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; 
+
+            if (this.tabContentContainer) this.tabContentContainer.style.display = 'none';
+
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0'; this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; margin: 0; padding: 0;`;
+            }
+
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'none');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐'; this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+                    width: 20px; height: 20px; border-radius: 4px; background: var(--background-modifier-border);
+                    font-size: 11px; line-height: 1; box-sizing: border-box; font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            if (this._savedLeftVal) this.floatingContainer.style.left = this._savedLeftVal;
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px'; this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+            }
+
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'block');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−'; this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+                    display: inline-flex; align-items: center; justify-content: center;
+                    background: none; width: auto; height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) this._switchTab(this.activeLeafIndex);
+
+            setTimeout(() => {
+                this._restoreViewStateData();
+                this._forceFocusActiveLeaf();
+            }, 150);
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) { this._resizeObserver.disconnect(); this._resizeObserver = null; }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null; this._globalUpHandler = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px'; this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove(); this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                let viewState = null;
+                try { viewState = leaf.getViewState(); } catch(e){}
+                const type = viewState?.type || 'empty';
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
+                else if (type === 'webviewer') pathOrUrl = viewState?.state?.url;
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => { try { leaf.detach(); } catch (_) {} });
+            this.floatingLeaves = []; this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try { this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+        this._dragMode = null;
+        this._activeHandleDir = null;
+
+        if (this._origModalOpen) {
+            Modal.prototype.open = this._origModalOpen;
+            this._origModalOpen = null;
+        }
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V23
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() { return this.app.vault.getFiles(); }
+    getItemText(file) { return file.path; }
+    onChooseItem(file, evt) { this.onSelect(file); }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => { this.value = value; });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) setTimeout(() => inputEl.focus(), 50);
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl).addButton((btn) => {
+            btn.setButtonText("Confirm").setCta().onClick(() => {
+                this.onSubmit(this.value);
+                this.close();
+            });
+        });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     
+        this.activeLeafIndex      = 0;      
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     
+        this._prevActiveLeaf    = null;     
+        this._origSetActiveLeaf = null;     
+        this._origGetLeaf       = null;     
+        this._targetWin         = null;     
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler    = null;     
+        this._globalClickHandler = null;    
+        this._keydownHandler     = null;    
+        this._globalMousedownHandler = null; 
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    
+        this._isOpening         = false;    
+        this._isMinimized       = false;    
+        this._focusListeners    = [];       
+        this._resizeHandles     = [];       
+        this._closedTabsHistory = [];       
+        this.opacityValue       = '0.95';   
+        this._lastCloseTime     = 0;        
+        this._moveTimeout       = null;     
+        this._isClosingTab      = false;    
+        this._isCreatingTab     = false;
+        this._isSwitchingTab    = false;
+        this._isReopeningTab    = false;
+        this._queuedWin         = null;
+
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];
+        this._savedEphemeral     = [];       
+        this._isVaporActive      = false;    
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                // During closing/switching, ignore completely to avoid thrash
+                if (this._isClosingTab || this._isSwitchingTab) return;
+
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this.activeLeafIndex = idx; // sync index without full _switchTab during creation
+                        if (!this._isCreatingTab) this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf && !this._isCreatingTab) {
+                    this._prevActiveLeaf = leaf;
+                    this._isVaporActive = false; 
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        const styleId = 'vapornote-translucency-style';
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+        windows.forEach(win => {
+            try {
+                const el = win.document.getElementById(styleId);
+                if (el) el.remove();
+            } catch (_) {}
+        });
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) bwin.off('focus', listener);
+                    else if (win && listener) win.removeEventListener('focus', listener);
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    // ─── ELECTRON WINDOW FOCUS SUPPRESSION ───────────────────────────────────
+    // On macOS fullscreen, Obsidian internally calls requestFocus() / win.focus()
+    // on Window 1's BrowserWindow from inside openFile() and setViewState(),
+    // walking up the leaf's parent chain to find the window.  Since VaporNote
+    // leaves have no real parent, Obsidian falls back to the main workspace
+    // window (Window 1) — causing macOS to switch Spaces.
+    //
+    // Strategy: patch each floating leaf so that any internal window-focus
+    // call is a no-op, without touching Electron APIs.
+
+    _makeLeafWindowNeutral(leaf) {
+        // 1. Give the leaf a fake parent whose getContainer() returns a stub
+        //    that does nothing on requestFocus / focus.
+        const noopContainer = {
+            requestFocus: () => {},
+            focus:        () => {},
+            win:          this._targetWin,
+            doc:          this._targetWin?.document,
+            containerEl:  leaf.containerEl,
+        };
+
+        const fakeParent = {
+            win:          this._targetWin,
+            doc:          this._targetWin?.document,
+            getContainer: () => noopContainer,
+            children:     [leaf],
+            // Obsidian sometimes reads .type on the parent
+            type:         'split',
+        };
+
+        // Only set if the leaf has no real parent yet (it's a fresh floating leaf)
+        if (!leaf.parent) {
+            leaf.parent = fakeParent;
+        }
+
+        // 2. Patch openFile so we can suppress focus DURING the await
+        const origOpenFile = leaf.openFile?.bind(leaf);
+        if (origOpenFile) {
+            leaf.openFile = async (file, state) => {
+                const restore = this._suppressWinFocusViaDOM();
+                try {
+                    return await origOpenFile(file, state);
+                } finally {
+                    restore();
+                }
+            };
+        }
+
+        // 3. Patch setViewState similarly
+        const origSetViewState = leaf.setViewState?.bind(leaf);
+        if (origSetViewState) {
+            leaf.setViewState = async (...args) => {
+                const restore = this._suppressWinFocusViaDOM();
+                try {
+                    return await origSetViewState(...args);
+                } finally {
+                    restore();
+                }
+            };
+        }
+    }
+
+    // Temporarily redirect window.focus() and BrowserWindow.focus() calls so
+    // that any internal Obsidian code that tries to focus a window during
+    // openFile/setViewState is silently dropped.
+    _suppressWinFocusViaDOM() {
+        const targetWin = this._targetWin;
+        const patched = [];
+
+        // Collect all windows Obsidian knows about
+        const wins = new Set([window]);
+        try {
+            const floatingSplit = this.app.workspace.floatingSplit;
+            if (floatingSplit?.children) {
+                floatingSplit.children.forEach(c => { if (c.win) wins.add(c.win); });
+            }
+        } catch (_) {}
+
+        wins.forEach(win => {
+            if (win === targetWin) return; // don't suppress the window we WANT
+            try {
+                const orig = win.focus.bind(win);
+                win.focus = () => {}; // swallow focus calls
+                patched.push({ win, orig });
+            } catch (_) {}
+        });
+
+        // Also suppress via Electron if available
+        const electronPatched = [];
+        try {
+            const remote = window.require?.('@electron/remote') || require('@electron/remote');
+            if (remote) {
+                remote.BrowserWindow.getAllWindows().forEach(bwin => {
+                    try {
+                        const targetWcId = targetWin?.require?.('@electron/remote')
+                            ?.getCurrentWindow()?.webContents?.id;
+                        if (bwin.webContents?.id === targetWcId) return;
+                        const origFocus = bwin.focus.bind(bwin);
+                        bwin.focus = () => {};
+                        electronPatched.push({ bwin, origFocus });
+                    } catch (_) {}
+                });
+            }
+        } catch (_) {}
+
+        return () => {
+            patched.forEach(({ win, orig }) => {
+                try { win.focus = orig; } catch (_) {}
+            });
+            electronPatched.forEach(({ bwin, origFocus }) => {
+                try { bwin.focus = origFocus; } catch (_) {}
+            });
+        };
+    }
+
+    // ─── FOCUS MANAGEMENT HELPERS ────────────────────────────────────────────
+    _forceFocusActiveLeaf() {
+        if (!this._isOpen() || !this.floatingLeaves) return;
+        const leaf = this.floatingLeaves[this.activeLeafIndex];
+        if (!leaf) return;
+
+        // Synchronously set active state once
+        if (this.app.workspace.activeLeaf !== leaf) {
+            try {
+                if (this._origSetActiveLeaf) {
+                    this._origSetActiveLeaf(leaf, { focus: false });
+                } else {
+                    this.app.workspace.setActiveLeaf(leaf, { focus: false });
+                }
+            } catch (e) {}
+        }
+
+        // DOM focuses can be safely retried without re-triggering workspace events
+        const focusDOM = () => {
+            if (!leaf.containerEl) return;
+            if (leaf.view && leaf.view.editor && typeof leaf.view.editor.focus === 'function') {
+                leaf.view.editor.focus();
+            } else {
+                const content = leaf.containerEl.querySelector('.cm-content, webview, .markdown-source-view');
+                if (content) content.focus();
+                else leaf.containerEl.focus();
+            }
+        };
+
+        focusDOM();
+        setTimeout(focusDOM, 50);
+        setTimeout(focusDOM, 200);
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try { if (bwin && listener) bwin.off('focus', listener); } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                // Do not teleport VaporNote when the focus event is a side-effect of an
+                // internal operation (creating/switching/reopening tabs, migrating between
+                // windows, or the initial open sequence).  All of these can momentarily
+                // tickle the OS-level window-focus machinery without the user having
+                // deliberately clicked into a different window.
+                if (this._isOpen() && this._targetWin !== win &&
+                    !this._isMigrating &&
+                    !this._isOpening &&
+                    !this._isCreatingTab &&
+                    !this._isSwitchingTab &&
+                    !this._isReopeningTab &&
+                    !this._isClosingTab) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _injectStyles(doc) {
+        if (!doc) return;
+        const styleId = 'vapornote-translucency-style';
+        if (doc.getElementById(styleId)) return;
+
+        const style = doc.createElement('style');
+        style.id = styleId;
+        style.textContent = `
+            .vapornote-container .workspace-leaf,
+            .vapornote-container .workspace-leaf-content,
+            .vapornote-container .view-content,
+            .vapornote-container .markdown-source-view,
+            .vapornote-container .markdown-preview-view,
+            .vapornote-container .cm-scroller {
+                background-color: transparent !important;
+                background: transparent !important;
+            }
+        `;
+        doc.head.appendChild(style);
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+
+        const doc = this._targetWin?.document || activeDocument;
+        const activeEl = doc.activeElement;
+
+        if (!activeEl) return false;
+
+        // 1. Explicitly bail out if focus is inside Settings or any other modal
+        if (activeEl.closest && activeEl.closest('.modal-container')) {
+            return false;
+        }
+
+        // 2. Physical containment check: is focus physically inside VaporNote or its tabs?
+        const isPhysicallyInVapor = this.floatingContainer.contains(activeEl) ||
+            (this.floatingLeaves && this.floatingLeaves.some(leaf => leaf.containerEl?.contains(activeEl)));
+        
+        if (isPhysicallyInVapor) {
+            this._isVaporActive = true;
+            return true;
+        }
+
+        return this._isVaporActive;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            // Suppress non-target window focus calls for the entire open sequence
+            const restoreOpenFocus = this._suppressWinFocusViaDOM();
+            setTimeout(restoreOpenFocus, 800);
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            container.classList.add('vapornote-container');
+            this.floatingContainer = container;
+            this._injectStyles(doc);
+            this._styleContainer(container);
+
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex; align-items: center; overflow-x: auto; overflow-y: hidden;
+                height: 100%; flex: 1; margin-left: 12px; margin-right: 12px;
+                scrollbar-width: none; -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            this._buildChrome(container);
+
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex; flex-direction: column; flex: 1; min-height: 0;
+                overflow: hidden; height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    try {
+                        const hadParent = !!targetLeaf.parent;
+                        if (!hadParent) targetLeaf.parent = ws.rootSplit;
+                        this._origSetActiveLeaf(targetLeaf, ...args);
+                        if (!hadParent) targetLeaf.parent = null;
+                    } catch (err) {
+                        try { Object.defineProperty(ws, 'activeLeaf', { value: targetLeaf, writable: true, configurable: true }); } catch (e) { ws.activeLeaf = targetLeaf; }
+                        ws.trigger('active-leaf-change', targetLeaf);
+                    }
+                    const params = args[0];
+                    if (params && params.focus) {
+                        this._forceFocusActiveLeaf();
+                    }
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && activeWindow === this._targetWin && (newSplit === 'tab' || newSplit === true)) {
+                    this._isCreatingTab = true;
+                    const _restoreWinFocus = this._suppressWinFocusViaDOM();
+                    const leaf = new WorkspaceLeaf(this.app);
+                    this._makeLeafWindowNeutral(leaf);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) {
+                            origDetach();
+                        } else {
+                            const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+                            if (idx !== -1) {
+                                this._closeTab(idx);
+                            } else {
+                                this._assertDOMPosition();
+                            }
+                        }
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        try { ws.setActiveLeaf(leaf, { focus: false }); } catch (e) {}
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1', minHeight: '0', height: '100%',
+                        display: 'flex', flexDirection: 'column', overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    this._switchTab(this.activeLeafIndex);
+
+                    // The caller (e.g. SmartWebSearch) will call leaf.setViewState()
+                    // after we return. Wrap it so we re-assert this leaf as active
+                    // once that settles — otherwise activeLeaf drifts back to Window 1.
+                    const origSVS = leaf.setViewState.bind(leaf);
+                    leaf.setViewState = async (...svArgs) => {
+                        const result = await origSVS(...svArgs);
+                        // Restore our own setViewState wrapper (from _makeLeafWindowNeutral)
+                        // has already run; now re-assert VaporNote focus
+                        const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+                        if (idx !== -1) {
+                            this.activeLeafIndex = idx;
+                            this._switchTab(idx);
+                        }
+                        return result;
+                    };
+
+                    setTimeout(() => { _restoreWinFocus(); this._isCreatingTab = false; }, 300);
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer', state: { url: href, navigate: true }, active: true
+                            }).then(() => this._renderTabs());
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            this._globalMousedownHandler = (e) => {
+                if ((this.floatingContainer && this.floatingContainer.contains(e.target)) || 
+                    e.target.closest('.modal-container')) {
+                    this._isVaporActive = true;
+                    
+                    const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                    if (activeLeaf && ws.activeLeaf !== activeLeaf) {
+                        try { ws.setActiveLeaf(activeLeaf, { focus: false }); } catch (err) {}
+                    }
+                } else {
+                    this._isVaporActive = false;
+                    
+                    setTimeout(() => {
+                        const currentActive = ws.activeLeaf;
+                        if (currentActive && this.floatingLeaves && this.floatingLeaves.includes(currentActive)) {
+                            if (this._prevActiveLeaf) {
+                                try { ws.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+                            }
+                        }
+                    }, 50);
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            this._keydownHandler = (e) => {
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                // Intercept Cmd+W / Ctrl+W to close VaporNote tab instead of closing windows/popouts
+                if (isCmdOrCtrl && key === 'w') {
+                    if (this._isOpen() && this._isVaporFocused()) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this._closeTab(this.activeLeafIndex);
+                        return;
+                    }
+                }
+
+                if (isCmdOrCtrl && isShift && key === 't' && this._isOpen() && this._isVaporFocused()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                    return;
+                }
+
+                if (!this._isVaporFocused()) return;
+
+                if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right' || e.key === 'arrowright')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left' || e.key === 'arrowleft')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf && ws.activeLeaf !== activeLeaf) {
+                    try { ws.setActiveLeaf(activeLeaf, { focus: false }); } catch (e) {}
+                }
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating || this._isVaporActive || this._isClosingTab) return;
+
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) return;
+                if (newFocusTarget && newFocusTarget.closest?.('.modal-container')) return;
+                
+                const currentDoc = this._targetWin?.document || activeDocument;
+                if (!newFocusTarget || newFocusTarget === currentDoc.body || newFocusTarget === currentDoc.documentElement) return;
+                
+                setTimeout(() => {
+                    const currentActive = ws.activeLeaf;
+                    if (currentActive && this.floatingLeaves && this.floatingLeaves.includes(currentActive)) {
+                        if (this._prevActiveLeaf) {
+                            try { ws.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+                        }
+                    }
+                }, 50);
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) await this._addNewTab('file', path);
+                else await this._addNewTab('empty');
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        this._isCreatingTab = true;
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            // Neutralize any internal window-focus calls that openFile/setViewState
+            // would otherwise make against Window 1 (the macOS Space-switch trigger)
+            this._makeLeafWindowNeutral(leaf);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) {
+                    origDetach();
+                } else {
+                    const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+                    if (idx !== -1) {
+                        this._closeTab(idx);
+                    } else {
+                        this._assertDOMPosition();
+                    }
+                }
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1', minHeight: '0', height: '100%',
+                display: 'flex', flexDirection: 'column', overflow: 'hidden'
+            });
+
+            this.floatingLeaves.push(leaf);
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer', state: { url: pathOrUrl, navigate: true }, active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } catch (err) {
+            const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+            if (idx !== -1) {
+                this.floatingLeaves.splice(idx, 1);
+            }
+            throw err;
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+            setTimeout(() => {
+                this._isCreatingTab = false;
+            }, 300);
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            try { ws.setActiveLeaf(leaf, { focus: false }); } catch (e) {}
+        });
+
+        this._switchTab(this.activeLeafIndex);
+        setTimeout(() => this._hookWebviews(), 0);
+    }
+
+    _switchTab(index) {
+        if (this._isSwitchingTab) return;
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        
+        this._isSwitchingTab = true;
+        try {
+            this.activeLeafIndex = index;
+
+            this.floatingLeaves.forEach((leaf, idx) => {
+                if (idx === index) {
+                    Object.assign(leaf.containerEl.style, {
+                        display: 'flex', flexDirection: 'column', flex: '1',
+                        height: '100%', minHeight: '0', overflow: 'hidden'
+                    });
+                    
+                    this._forceFocusActiveLeaf();
+
+                    try { leaf.view?.onShow?.(); } catch (_) {}
+                    try { leaf.view?.editor?.refresh(); } catch (_) {}
+                } else {
+                    leaf.containerEl.style.display = 'none';
+                }
+            });
+
+            const activeLeaf = this.floatingLeaves[index];
+            if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+                this.savedFilePath = activeLeaf.view.file.path;
+            }
+        } finally {
+            this._isSwitchingTab = false;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index, skipHistory = false) {
+        if (!this.floatingLeaves) return;
+
+        this._isClosingTab = true; // NEW: Block intermediate cleanup events during teardown
+
+        const leafToClose = this.floatingLeaves[index];
+
+        if (!skipHistory) {
+            let viewState = null;
+            try { viewState = leafToClose.getViewState(); } catch(e){}
+            const type = viewState?.type || 'empty';
+            let pathOrUrl = null;
+            if (type === 'markdown' && leafToClose.view?.file) {
+                pathOrUrl = leafToClose.view.file.path;
+            } else if (type === 'webviewer') {
+                pathOrUrl = viewState?.state?.url;
+            }
+
+            if (!this._closedTabsHistory) this._closedTabsHistory = [];
+            this._closedTabsHistory.push({ type, pathOrUrl });
+            if (this._closedTabsHistory.length > 30) this._closedTabsHistory.shift(); 
+        }
+
+        this._allowDetach = true;
+        try { leafToClose.detach(); } catch (_) {}
+        this._allowDetach = false;
+
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            this._isClosingTab = false; 
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+
+        // Release the focus tracking block almost instantly so closing tabs is responsive
+        setTimeout(() => {
+            this._isClosingTab = false;
+        }, 10);
+    }
+
+    async reopenClosedTab() {
+        if (this._isReopeningTab) return;
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        
+        this._isReopeningTab = true;
+        try {
+            const lastTab = this._closedTabsHistory.pop();
+            if (!lastTab) return;
+            
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+            
+            if (isEmpty) {
+                this._closeTab(this.activeLeafIndex, true); 
+            }
+            
+            if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+                await this._addNewTab('file', lastTab.pathOrUrl);
+            } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+                await this._addNewTab('web', lastTab.pathOrUrl);
+            } else {
+                await this._addNewTab('empty');
+            }
+        } finally {
+            this._isReopeningTab = false;
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) nextIdx = 0; 
+        else if (nextIdx < 0) nextIdx = this.floatingLeaves.length - 1; 
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (!hasProtocol && isDomain) targetUrl = 'https://' + targetUrl;
+                else if (!hasProtocol) targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer', state: { url: targetUrl, navigate: true }, active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveViewStateData() {
+        this._savedScrolls = [];
+        this._savedEphemeral = [];
+        
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            
+            if (typeof leaf.getEphemeralState === 'function') {
+                this._savedEphemeral[idx] = leaf.getEphemeralState();
+            }
+
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({ index: index, top: el.scrollTop, left: el.scrollLeft });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreViewStateData() {
+        if (!this._savedScrolls && !this._savedEphemeral) return;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            
+            if (this._savedEphemeral && this._savedEphemeral[idx] && typeof leaf.setEphemeralState === 'function') {
+                leaf.setEphemeralState(this._savedEphemeral[idx]);
+            }
+
+            const scrollStates = this._savedScrolls ? this._savedScrolls[idx] : null;
+            if (scrollStates) {
+                const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+                scrollStates.forEach(state => {
+                    const el = scrollers[state.index];
+                    if (el) { el.scrollTop = state.top; el.scrollLeft = state.left; }
+                });
+            }
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            // 1. Electron Native Input Hook
+            const tryHookElectron = () => {
+                if (webview._electronHooked) return;
+                try {
+                    const wcId = typeof webview.getWebContentsId === 'function' ? webview.getWebContentsId() : null;
+                    if (wcId) {
+                        const remote = window.require?.('@electron/remote') || require('@electron/remote');
+                        if (remote) {
+                            const wc = remote.webContents.fromId(wcId);
+                            if (wc) {
+                                wc.on('before-input-event', (event, input) => {
+                                    const isCmdOrCtrl = input.control || input.meta;
+                                    const isShift = input.shift;
+                                    const isAlt = input.alt;
+                                    const key = input.key.toLowerCase();
+
+                                    if (input.type === 'keyDown') {
+                                        if (isCmdOrCtrl && key === 'w') {
+                                            event.preventDefault();
+                                            setTimeout(() => this._closeTab(this.activeLeafIndex), 0);
+                                        } else if (isCmdOrCtrl && isShift && key === 't') {
+                                            event.preventDefault();
+                                            setTimeout(() => this.reopenClosedTab(), 0);
+                                        } else if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right')) {
+                                            event.preventDefault();
+                                            setTimeout(() => this.navigateTab(1), 0);
+                                        } else if (isCmdOrCtrl && isAlt && (key === 'arrowleft' || key === 'left')) {
+                                            event.preventDefault();
+                                            setTimeout(() => this.navigateTab(-1), 0);
+                                        }
+                                    }
+                                });
+                                webview._electronHooked = true;
+                            }
+                        }
+                    }
+                } catch (e) {}
+            };
+
+            webview.addEventListener('did-attach', tryHookElectron);
+            webview.addEventListener('did-start-loading', tryHookElectron);
+            
+            // Defensively poll to make absolutely sure Electron connects quickly
+            let attempts = 0;
+            const poll = setInterval(() => {
+                attempts++;
+                if (webview._electronHooked || attempts > 15) {
+                    clearInterval(poll);
+                } else {
+                    tryHookElectron();
+                }
+            }, 100);
+
+            // 2. Fallback JS Injection
+            const injectScript = () => {
+                if (webview._electronHooked) return; 
+
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right')) {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && (key === 'arrowleft' || key === 'left')) {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('load-commit', injectScript);
+            webview.addEventListener('dom-ready', injectScript);
+
+            // Respond to fallback messages
+            webview.addEventListener('console-message', (e) => {
+                if (webview._electronHooked) return; 
+
+                if (e.message === 'VAPORNOTE_CMD_W') this._closeTab(this.activeLeafIndex);
+                else if (e.message === 'VAPORNOTE_CMD_T') this.reopenClosedTab();
+                else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') this.navigateTab(1);
+                else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') this.navigateTab(-1);
+            });
+
+            webview.addEventListener('page-title-updated', () => this._renderTabs());
+            webview.addEventListener('did-stop-loading', () => this._renderTabs());
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px; font-size: 10px; cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px; display: flex; align-items: center; gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'}; height: 24px;
+                box-sizing: border-box; margin-right: 4px; flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap; max-width: 90px;
+                overflow: hidden; text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer; font-size: 8px; opacity: 0.5; padding: 2px; line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => { e.stopPropagation(); this._closeTab(idx); });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => { this._switchTab(idx); });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') parent.recomputeLayout();
+                }
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        if (this._queuedWin === newWin) return;
+        this._queuedWin = newWin;
+
+        // Clear any previous queued transitions to prevent double/glitched moves
+        if (this._moveTimeout) {
+            clearTimeout(this._moveTimeout);
+        }
+
+        // Processing the teleportation at a minimal 10ms settles layouts synchronously without human lag
+        this._moveTimeout = setTimeout(() => {
+            this._queuedWin = null;
+            if (this._targetWin === newWin) return;
+
+            this._isMigrating = true;
+
+            // Clean up listeners from OLD window
+            if (this._globalMoveHandler) {
+                try {
+                    this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                    this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+                } catch (_) {}
+            }
+            if (this._globalClickHandler) {
+                try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            }
+            if (this._globalMousedownHandler) {
+                try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            }
+            if (this._keydownHandler) {
+                try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            }
+
+            // Capture currently focused element in target window so we can restore it post-teleport
+            const targetDoc = newWin.document;
+            const prevActiveEl = targetDoc.activeElement;
+
+            try { if (this.floatingContainer.parentElement) this.floatingContainer.remove(); } catch (_) {}
+
+            this._targetWin = newWin;
+
+            // Inject styles & Append container to new window
+            this._injectStyles(targetDoc);
+            targetDoc.body.appendChild(this.floatingContainer);
+
+            // Bind listeners to NEW window
+            if (this._globalMoveHandler) {
+                try {
+                    this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                    this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+                } catch (_) {}
+            }
+            if (this._globalClickHandler) {
+                try { this._targetWin.addEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            }
+            if (this._globalMousedownHandler) {
+                try { this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            }
+            if (this._keydownHandler) {
+                try { this._targetWin.addEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            }
+
+            this._assertDOMPosition();
+
+            // Safely restore target window's original cursor focus
+            if (prevActiveEl && typeof prevActiveEl.focus === 'function') {
+                try { prevActiveEl.focus(); } catch (_) {}
+            }
+
+            this.floatingLeaves.forEach((leaf) => {
+                try { leaf.view?.onShow?.(); }        catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            });
+
+            setTimeout(() => { this._isMigrating = false; }, 50);
+        }, 10); 
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1', minHeight: '0', height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column', overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    `color-mix(in srgb, var(--background-primary) ${pct}%, transparent)`,
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'background-color 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: color-mix(in srgb, var(--background-secondary) ${pct}%, transparent);
+            padding: 8px 12px; cursor: move; font-size: 11px; font-weight: bold;
+            color: var(--text-muted); border-bottom: 1px solid var(--border-color);
+            display: flex; justify-content: space-between; align-items: center;
+            user-select: none; flex-shrink: 0; height: 36px; box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) dragBar.appendChild(this.tabBar);
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px; height: 3px; cursor: pointer; margin: 0; accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            const currentPct = Math.round(parseFloat(this.opacityValue) * 100);
+            container.style.background = `color-mix(in srgb, var(--background-primary) ${currentPct}%, transparent)`;
+            if (this.dragBar) {
+                this.dragBar.style.background = `color-mix(in srgb, var(--background-secondary) ${currentPct}%, transparent)`;
+            }
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+            display: inline-flex; align-items: center; justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `cursor: pointer; padding: 0 4px; font-size: 11px;`;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `position: absolute; z-index: 100000; user-select: none; ${styleCss}`;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null, activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `position: fixed; inset: 0; z-index: 999999; background: transparent; cursor: ${cursor};`;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+            currentDoc.querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = 'none');
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+            getActiveDoc().querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = '');
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top; startW = r.width; startH = r.height;
+            e.preventDefault(); e.stopPropagation(); showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX, dy = e.clientY - startY;
+                let newW = startW, newH = startH, newLeft = startLeft, newTop = startTop;
+
+                if (activeHandleDir.includes('e')) newW = Math.max(250, startW + dx);
+                else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) newLeft = startLeft + dx;
+                }
+                if (activeHandleDir.includes('s')) newH = Math.max(200, startH + dy);
+                else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) newTop = startTop + dy;
+                }
+
+                container.style.width = newW + 'px'; container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px'; container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { mode = null; activeHandleDir = null; removeOverlay(); };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag'; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect(); startLeft = r.left; startTop = r.top;
+            e.preventDefault(); showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            this._saveViewStateData();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; 
+
+            if (this.tabContentContainer) this.tabContentContainer.style.display = 'none';
+
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0'; this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; margin: 0; padding: 0;`;
+            }
+
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'none');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐'; this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+                    width: 20px; height: 20px; border-radius: 4px; background: var(--background-modifier-border);
+                    font-size: 11px; line-height: 1; box-sizing: border-box; font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            if (this._savedLeftVal) this.floatingContainer.style.left = this._savedLeftVal;
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px'; this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+            }
+
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'block');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−'; this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+                    display: inline-flex; align-items: center; justify-content: center;
+                    background: none; width: auto; height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) this._switchTab(this.activeLeafIndex);
+
+            setTimeout(() => {
+                this._restoreViewStateData();
+                this._forceFocusActiveLeaf();
+            }, 150);
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) { this._resizeObserver.disconnect(); this._resizeObserver = null; }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null; this._globalUpHandler = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px'; this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove(); this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                let viewState = null;
+                try { viewState = leaf.getViewState(); } catch(e){}
+                const type = viewState?.type || 'empty';
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
+                else if (type === 'webviewer') pathOrUrl = viewState?.state?.url;
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => { try { leaf.detach(); } catch (_) {} });
+            this.floatingLeaves = []; this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try { this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V22 (Stable)
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() { return this.app.vault.getFiles(); }
+    getItemText(file) { return file.path; }
+    onChooseItem(file, evt) { this.onSelect(file); }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => { this.value = value; });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) setTimeout(() => inputEl.focus(), 50);
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl).addButton((btn) => {
+            btn.setButtonText("Confirm").setCta().onClick(() => {
+                this.onSubmit(this.value);
+                this.close();
+            });
+        });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     
+        this.activeLeafIndex      = 0;      
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     
+        this._prevActiveLeaf    = null;     
+        this._origSetActiveLeaf = null;     
+        this._origGetLeaf       = null;     
+        this._targetWin         = null;     
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler    = null;     
+        this._globalClickHandler = null;    
+        this._keydownHandler     = null;    
+        this._globalMousedownHandler = null; 
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    
+        this._isOpening         = false;    
+        this._isMinimized       = false;    
+        this._focusListeners    = [];       
+        this._resizeHandles     = [];       
+        this._closedTabsHistory = [];       
+        this.opacityValue       = '0.95';   
+        this._lastCloseTime     = 0;        
+        this._moveTimeout       = null;     
+        this._isClosingTab      = false;    
+        this._isCreatingTab     = false;
+        this._isSwitchingTab    = false;
+        this._isReopeningTab    = false;
+        this._queuedWin         = null;
+
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];
+        this._savedEphemeral     = [];       
+        this._isVaporActive      = false;    
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (this._isClosingTab || this._isCreatingTab || this._isSwitchingTab) return; 
+
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+                    this._isVaporActive = false; 
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        const styleId = 'vapornote-translucency-style';
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+        windows.forEach(win => {
+            try {
+                const el = win.document.getElementById(styleId);
+                if (el) el.remove();
+            } catch (_) {}
+        });
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) bwin.off('focus', listener);
+                    else if (win && listener) win.removeEventListener('focus', listener);
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    // ─── ELECTRON WINDOW FOCUS SUPPRESSION ───────────────────────────────────
+    // On macOS fullscreen, Obsidian internally calls requestFocus() / win.focus()
+    // on Window 1's BrowserWindow from inside openFile() and setViewState(),
+    // walking up the leaf's parent chain to find the window.  Since VaporNote
+    // leaves have no real parent, Obsidian falls back to the main workspace
+    // window (Window 1) — causing macOS to switch Spaces.
+    //
+    // Strategy: patch each floating leaf so that any internal window-focus
+    // call is a no-op, without touching Electron APIs.
+
+    _makeLeafWindowNeutral(leaf) {
+        // 1. Give the leaf a fake parent whose getContainer() returns a stub
+        //    that does nothing on requestFocus / focus.
+        const noopContainer = {
+            requestFocus: () => {},
+            focus:        () => {},
+            win:          this._targetWin,
+            doc:          this._targetWin?.document,
+            containerEl:  leaf.containerEl,
+        };
+
+        const fakeParent = {
+            win:          this._targetWin,
+            doc:          this._targetWin?.document,
+            getContainer: () => noopContainer,
+            children:     [leaf],
+            // Obsidian sometimes reads .type on the parent
+            type:         'split',
+        };
+
+        // Only set if the leaf has no real parent yet (it's a fresh floating leaf)
+        if (!leaf.parent) {
+            leaf.parent = fakeParent;
+        }
+
+        // 2. Patch openFile so we can suppress focus DURING the await
+        const origOpenFile = leaf.openFile?.bind(leaf);
+        if (origOpenFile) {
+            leaf.openFile = async (file, state) => {
+                const restore = this._suppressWinFocusViaDOM();
+                try {
+                    return await origOpenFile(file, state);
+                } finally {
+                    restore();
+                }
+            };
+        }
+
+        // 3. Patch setViewState similarly
+        const origSetViewState = leaf.setViewState?.bind(leaf);
+        if (origSetViewState) {
+            leaf.setViewState = async (...args) => {
+                const restore = this._suppressWinFocusViaDOM();
+                try {
+                    return await origSetViewState(...args);
+                } finally {
+                    restore();
+                }
+            };
+        }
+    }
+
+    // Temporarily redirect window.focus() and BrowserWindow.focus() calls so
+    // that any internal Obsidian code that tries to focus a window during
+    // openFile/setViewState is silently dropped.
+    _suppressWinFocusViaDOM() {
+        const targetWin = this._targetWin;
+        const patched = [];
+
+        // Collect all windows Obsidian knows about
+        const wins = new Set([window]);
+        try {
+            const floatingSplit = this.app.workspace.floatingSplit;
+            if (floatingSplit?.children) {
+                floatingSplit.children.forEach(c => { if (c.win) wins.add(c.win); });
+            }
+        } catch (_) {}
+
+        wins.forEach(win => {
+            if (win === targetWin) return; // don't suppress the window we WANT
+            try {
+                const orig = win.focus.bind(win);
+                win.focus = () => {}; // swallow focus calls
+                patched.push({ win, orig });
+            } catch (_) {}
+        });
+
+        // Also suppress via Electron if available
+        const electronPatched = [];
+        try {
+            const remote = window.require?.('@electron/remote') || require('@electron/remote');
+            if (remote) {
+                remote.BrowserWindow.getAllWindows().forEach(bwin => {
+                    try {
+                        const targetWcId = targetWin?.require?.('@electron/remote')
+                            ?.getCurrentWindow()?.webContents?.id;
+                        if (bwin.webContents?.id === targetWcId) return;
+                        const origFocus = bwin.focus.bind(bwin);
+                        bwin.focus = () => {};
+                        electronPatched.push({ bwin, origFocus });
+                    } catch (_) {}
+                });
+            }
+        } catch (_) {}
+
+        return () => {
+            patched.forEach(({ win, orig }) => {
+                try { win.focus = orig; } catch (_) {}
+            });
+            electronPatched.forEach(({ bwin, origFocus }) => {
+                try { bwin.focus = origFocus; } catch (_) {}
+            });
+        };
+    }
+
+    // ─── FOCUS MANAGEMENT HELPERS ────────────────────────────────────────────
+    _forceFocusActiveLeaf() {
+        if (!this._isOpen() || !this.floatingLeaves) return;
+        const leaf = this.floatingLeaves[this.activeLeafIndex];
+        if (!leaf) return;
+
+        // Synchronously set active state once
+        if (this.app.workspace.activeLeaf !== leaf) {
+            try {
+                if (this._origSetActiveLeaf) {
+                    this._origSetActiveLeaf(leaf, { focus: false });
+                } else {
+                    this.app.workspace.setActiveLeaf(leaf, { focus: false });
+                }
+            } catch (e) {}
+        }
+
+        // DOM focuses can be safely retried without re-triggering workspace events
+        const focusDOM = () => {
+            if (!leaf.containerEl) return;
+            if (leaf.view && leaf.view.editor && typeof leaf.view.editor.focus === 'function') {
+                leaf.view.editor.focus();
+            } else {
+                const content = leaf.containerEl.querySelector('.cm-content, webview, .markdown-source-view');
+                if (content) content.focus();
+                else leaf.containerEl.focus();
+            }
+        };
+
+        focusDOM();
+        setTimeout(focusDOM, 50);
+        setTimeout(focusDOM, 200);
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try { if (bwin && listener) bwin.off('focus', listener); } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                // Do not teleport VaporNote when the focus event is a side-effect of an
+                // internal operation (creating/switching/reopening tabs, migrating between
+                // windows, or the initial open sequence).  All of these can momentarily
+                // tickle the OS-level window-focus machinery without the user having
+                // deliberately clicked into a different window.
+                if (this._isOpen() && this._targetWin !== win &&
+                    !this._isMigrating &&
+                    !this._isOpening &&
+                    !this._isCreatingTab &&
+                    !this._isSwitchingTab &&
+                    !this._isReopeningTab &&
+                    !this._isClosingTab) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _injectStyles(doc) {
+        if (!doc) return;
+        const styleId = 'vapornote-translucency-style';
+        if (doc.getElementById(styleId)) return;
+
+        const style = doc.createElement('style');
+        style.id = styleId;
+        style.textContent = `
+            .vapornote-container .workspace-leaf,
+            .vapornote-container .workspace-leaf-content,
+            .vapornote-container .view-content,
+            .vapornote-container .markdown-source-view,
+            .vapornote-container .markdown-preview-view,
+            .vapornote-container .cm-scroller {
+                background-color: transparent !important;
+                background: transparent !important;
+            }
+        `;
+        doc.head.appendChild(style);
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+
+        const doc = this._targetWin?.document || activeDocument;
+        const activeEl = doc.activeElement;
+
+        if (!activeEl) return false;
+
+        // 1. Explicitly bail out if focus is inside Settings or any other modal
+        if (activeEl.closest && activeEl.closest('.modal-container')) {
+            return false;
+        }
+
+        // 2. Physical containment check: is focus physically inside VaporNote or its tabs?
+        const isPhysicallyInVapor = this.floatingContainer.contains(activeEl) ||
+            (this.floatingLeaves && this.floatingLeaves.some(leaf => leaf.containerEl?.contains(activeEl)));
+        
+        if (isPhysicallyInVapor) {
+            this._isVaporActive = true;
+            return true;
+        }
+
+        return this._isVaporActive;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            // Suppress non-target window focus calls for the entire open sequence
+            const restoreOpenFocus = this._suppressWinFocusViaDOM();
+            setTimeout(restoreOpenFocus, 800);
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            container.classList.add('vapornote-container');
+            this.floatingContainer = container;
+            this._injectStyles(doc);
+            this._styleContainer(container);
+
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex; align-items: center; overflow-x: auto; overflow-y: hidden;
+                height: 100%; flex: 1; margin-left: 12px; margin-right: 12px;
+                scrollbar-width: none; -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            this._buildChrome(container);
+
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex; flex-direction: column; flex: 1; min-height: 0;
+                overflow: hidden; height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    try {
+                        const hadParent = !!targetLeaf.parent;
+                        if (!hadParent) targetLeaf.parent = ws.rootSplit;
+                        this._origSetActiveLeaf(targetLeaf, ...args);
+                        if (!hadParent) targetLeaf.parent = null;
+                    } catch (err) {
+                        try { Object.defineProperty(ws, 'activeLeaf', { value: targetLeaf, writable: true, configurable: true }); } catch (e) { ws.activeLeaf = targetLeaf; }
+                        ws.trigger('active-leaf-change', targetLeaf);
+                    }
+                    const params = args[0];
+                    if (params && params.focus) {
+                        this._forceFocusActiveLeaf();
+                    }
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && activeWindow === this._targetWin && (newSplit === 'tab' || newSplit === true)) {
+                    this._isCreatingTab = true;
+                    const _restoreWinFocus = this._suppressWinFocusViaDOM();
+                    const leaf = new WorkspaceLeaf(this.app);
+                    this._makeLeafWindowNeutral(leaf);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) {
+                            origDetach();
+                        } else {
+                            const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+                            if (idx !== -1) {
+                                this._closeTab(idx);
+                            } else {
+                                this._assertDOMPosition();
+                            }
+                        }
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        try { ws.setActiveLeaf(leaf, { focus: false }); } catch (e) {}
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1', minHeight: '0', height: '100%',
+                        display: 'flex', flexDirection: 'column', overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    this._switchTab(this.activeLeafIndex);
+                    setTimeout(() => { _restoreWinFocus(); this._isCreatingTab = false; }, 300);
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer', state: { url: href, navigate: true }, active: true
+                            }).then(() => this._renderTabs());
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            this._globalMousedownHandler = (e) => {
+                if ((this.floatingContainer && this.floatingContainer.contains(e.target)) || 
+                    e.target.closest('.modal-container')) {
+                    this._isVaporActive = true;
+                    
+                    const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                    if (activeLeaf && ws.activeLeaf !== activeLeaf) {
+                        try { ws.setActiveLeaf(activeLeaf, { focus: false }); } catch (err) {}
+                    }
+                } else {
+                    this._isVaporActive = false;
+                    
+                    setTimeout(() => {
+                        const currentActive = ws.activeLeaf;
+                        if (currentActive && this.floatingLeaves && this.floatingLeaves.includes(currentActive)) {
+                            if (this._prevActiveLeaf) {
+                                try { ws.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+                            }
+                        }
+                    }, 50);
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            this._keydownHandler = (e) => {
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                // Intercept Cmd+W / Ctrl+W to close VaporNote tab instead of closing windows/popouts
+                if (isCmdOrCtrl && key === 'w') {
+                    if (this._isOpen() && this._isVaporFocused()) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this._closeTab(this.activeLeafIndex);
+                        return;
+                    }
+                }
+
+                if (isCmdOrCtrl && isShift && key === 't' && this._isOpen() && this._isVaporFocused()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                    return;
+                }
+
+                if (!this._isVaporFocused()) return;
+
+                if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right' || e.key === 'arrowright')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left' || e.key === 'arrowleft')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf && ws.activeLeaf !== activeLeaf) {
+                    try { ws.setActiveLeaf(activeLeaf, { focus: false }); } catch (e) {}
+                }
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating || this._isVaporActive || this._isClosingTab) return;
+
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) return;
+                if (newFocusTarget && newFocusTarget.closest?.('.modal-container')) return;
+                
+                const currentDoc = this._targetWin?.document || activeDocument;
+                if (!newFocusTarget || newFocusTarget === currentDoc.body || newFocusTarget === currentDoc.documentElement) return;
+                
+                setTimeout(() => {
+                    const currentActive = ws.activeLeaf;
+                    if (currentActive && this.floatingLeaves && this.floatingLeaves.includes(currentActive)) {
+                        if (this._prevActiveLeaf) {
+                            try { ws.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+                        }
+                    }
+                }, 50);
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) await this._addNewTab('file', path);
+                else await this._addNewTab('empty');
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        this._isCreatingTab = true;
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            // Neutralize any internal window-focus calls that openFile/setViewState
+            // would otherwise make against Window 1 (the macOS Space-switch trigger)
+            this._makeLeafWindowNeutral(leaf);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) {
+                    origDetach();
+                } else {
+                    const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+                    if (idx !== -1) {
+                        this._closeTab(idx);
+                    } else {
+                        this._assertDOMPosition();
+                    }
+                }
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1', minHeight: '0', height: '100%',
+                display: 'flex', flexDirection: 'column', overflow: 'hidden'
+            });
+
+            this.floatingLeaves.push(leaf);
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer', state: { url: pathOrUrl, navigate: true }, active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } catch (err) {
+            const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
+            if (idx !== -1) {
+                this.floatingLeaves.splice(idx, 1);
+            }
+            throw err;
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+            setTimeout(() => {
+                this._isCreatingTab = false;
+            }, 300);
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            try { ws.setActiveLeaf(leaf, { focus: false }); } catch (e) {}
+        });
+
+        this._switchTab(this.activeLeafIndex);
+        setTimeout(() => this._hookWebviews(), 0);
+    }
+
+    _switchTab(index) {
+        if (this._isSwitchingTab) return;
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        
+        this._isSwitchingTab = true;
+        try {
+            this.activeLeafIndex = index;
+
+            this.floatingLeaves.forEach((leaf, idx) => {
+                if (idx === index) {
+                    Object.assign(leaf.containerEl.style, {
+                        display: 'flex', flexDirection: 'column', flex: '1',
+                        height: '100%', minHeight: '0', overflow: 'hidden'
+                    });
+                    
+                    this._forceFocusActiveLeaf();
+
+                    try { leaf.view?.onShow?.(); } catch (_) {}
+                    try { leaf.view?.editor?.refresh(); } catch (_) {}
+                } else {
+                    leaf.containerEl.style.display = 'none';
+                }
+            });
+
+            const activeLeaf = this.floatingLeaves[index];
+            if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+                this.savedFilePath = activeLeaf.view.file.path;
+            }
+        } finally {
+            this._isSwitchingTab = false;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index, skipHistory = false) {
+        if (!this.floatingLeaves) return;
+
+        this._isClosingTab = true; // NEW: Block intermediate cleanup events during teardown
+
+        const leafToClose = this.floatingLeaves[index];
+
+        if (!skipHistory) {
+            let viewState = null;
+            try { viewState = leafToClose.getViewState(); } catch(e){}
+            const type = viewState?.type || 'empty';
+            let pathOrUrl = null;
+            if (type === 'markdown' && leafToClose.view?.file) {
+                pathOrUrl = leafToClose.view.file.path;
+            } else if (type === 'webviewer') {
+                pathOrUrl = viewState?.state?.url;
+            }
+
+            if (!this._closedTabsHistory) this._closedTabsHistory = [];
+            this._closedTabsHistory.push({ type, pathOrUrl });
+            if (this._closedTabsHistory.length > 30) this._closedTabsHistory.shift(); 
+        }
+
+        this._allowDetach = true;
+        try { leafToClose.detach(); } catch (_) {}
+        this._allowDetach = false;
+
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            this._isClosingTab = false; 
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+
+        // Release the focus tracking block almost instantly so closing tabs is responsive
+        setTimeout(() => {
+            this._isClosingTab = false;
+        }, 10);
+    }
+
+    async reopenClosedTab() {
+        if (this._isReopeningTab) return;
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        
+        this._isReopeningTab = true;
+        try {
+            const lastTab = this._closedTabsHistory.pop();
+            if (!lastTab) return;
+            
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+            
+            if (isEmpty) {
+                this._closeTab(this.activeLeafIndex, true); 
+            }
+            
+            if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+                await this._addNewTab('file', lastTab.pathOrUrl);
+            } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+                await this._addNewTab('web', lastTab.pathOrUrl);
+            } else {
+                await this._addNewTab('empty');
+            }
+        } finally {
+            this._isReopeningTab = false;
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) nextIdx = 0; 
+        else if (nextIdx < 0) nextIdx = this.floatingLeaves.length - 1; 
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (!hasProtocol && isDomain) targetUrl = 'https://' + targetUrl;
+                else if (!hasProtocol) targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer', state: { url: targetUrl, navigate: true }, active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveViewStateData() {
+        this._savedScrolls = [];
+        this._savedEphemeral = [];
+        
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            
+            if (typeof leaf.getEphemeralState === 'function') {
+                this._savedEphemeral[idx] = leaf.getEphemeralState();
+            }
+
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({ index: index, top: el.scrollTop, left: el.scrollLeft });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreViewStateData() {
+        if (!this._savedScrolls && !this._savedEphemeral) return;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            
+            if (this._savedEphemeral && this._savedEphemeral[idx] && typeof leaf.setEphemeralState === 'function') {
+                leaf.setEphemeralState(this._savedEphemeral[idx]);
+            }
+
+            const scrollStates = this._savedScrolls ? this._savedScrolls[idx] : null;
+            if (scrollStates) {
+                const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+                scrollStates.forEach(state => {
+                    const el = scrollers[state.index];
+                    if (el) { el.scrollTop = state.top; el.scrollLeft = state.left; }
+                });
+            }
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            // 1. Electron Native Input Hook
+            const tryHookElectron = () => {
+                if (webview._electronHooked) return;
+                try {
+                    const wcId = typeof webview.getWebContentsId === 'function' ? webview.getWebContentsId() : null;
+                    if (wcId) {
+                        const remote = window.require?.('@electron/remote') || require('@electron/remote');
+                        if (remote) {
+                            const wc = remote.webContents.fromId(wcId);
+                            if (wc) {
+                                wc.on('before-input-event', (event, input) => {
+                                    const isCmdOrCtrl = input.control || input.meta;
+                                    const isShift = input.shift;
+                                    const isAlt = input.alt;
+                                    const key = input.key.toLowerCase();
+
+                                    if (input.type === 'keyDown') {
+                                        if (isCmdOrCtrl && key === 'w') {
+                                            event.preventDefault();
+                                            setTimeout(() => this._closeTab(this.activeLeafIndex), 0);
+                                        } else if (isCmdOrCtrl && isShift && key === 't') {
+                                            event.preventDefault();
+                                            setTimeout(() => this.reopenClosedTab(), 0);
+                                        } else if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right')) {
+                                            event.preventDefault();
+                                            setTimeout(() => this.navigateTab(1), 0);
+                                        } else if (isCmdOrCtrl && isAlt && (key === 'arrowleft' || key === 'left')) {
+                                            event.preventDefault();
+                                            setTimeout(() => this.navigateTab(-1), 0);
+                                        }
+                                    }
+                                });
+                                webview._electronHooked = true;
+                            }
+                        }
+                    }
+                } catch (e) {}
+            };
+
+            webview.addEventListener('did-attach', tryHookElectron);
+            webview.addEventListener('did-start-loading', tryHookElectron);
+            
+            // Defensively poll to make absolutely sure Electron connects quickly
+            let attempts = 0;
+            const poll = setInterval(() => {
+                attempts++;
+                if (webview._electronHooked || attempts > 15) {
+                    clearInterval(poll);
+                } else {
+                    tryHookElectron();
+                }
+            }, 100);
+
+            // 2. Fallback JS Injection
+            const injectScript = () => {
+                if (webview._electronHooked) return; 
+
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right')) {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && (key === 'arrowleft' || key === 'left')) {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('load-commit', injectScript);
+            webview.addEventListener('dom-ready', injectScript);
+
+            // Respond to fallback messages
+            webview.addEventListener('console-message', (e) => {
+                if (webview._electronHooked) return; 
+
+                if (e.message === 'VAPORNOTE_CMD_W') this._closeTab(this.activeLeafIndex);
+                else if (e.message === 'VAPORNOTE_CMD_T') this.reopenClosedTab();
+                else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') this.navigateTab(1);
+                else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') this.navigateTab(-1);
+            });
+
+            webview.addEventListener('page-title-updated', () => this._renderTabs());
+            webview.addEventListener('did-stop-loading', () => this._renderTabs());
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px; font-size: 10px; cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px; display: flex; align-items: center; gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'}; height: 24px;
+                box-sizing: border-box; margin-right: 4px; flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap; max-width: 90px;
+                overflow: hidden; text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer; font-size: 8px; opacity: 0.5; padding: 2px; line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => { e.stopPropagation(); this._closeTab(idx); });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => { this._switchTab(idx); });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') parent.recomputeLayout();
+                }
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        if (this._queuedWin === newWin) return;
+        this._queuedWin = newWin;
+
+        // Clear any previous queued transitions to prevent double/glitched moves
+        if (this._moveTimeout) {
+            clearTimeout(this._moveTimeout);
+        }
+
+        // Processing the teleportation at a minimal 10ms settles layouts synchronously without human lag
+        this._moveTimeout = setTimeout(() => {
+            this._queuedWin = null;
+            if (this._targetWin === newWin) return;
+
+            this._isMigrating = true;
+
+            // Clean up listeners from OLD window
+            if (this._globalMoveHandler) {
+                try {
+                    this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                    this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+                } catch (_) {}
+            }
+            if (this._globalClickHandler) {
+                try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            }
+            if (this._globalMousedownHandler) {
+                try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            }
+            if (this._keydownHandler) {
+                try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            }
+
+            // Capture currently focused element in target window so we can restore it post-teleport
+            const targetDoc = newWin.document;
+            const prevActiveEl = targetDoc.activeElement;
+
+            try { if (this.floatingContainer.parentElement) this.floatingContainer.remove(); } catch (_) {}
+
+            this._targetWin = newWin;
+
+            // Inject styles & Append container to new window
+            this._injectStyles(targetDoc);
+            targetDoc.body.appendChild(this.floatingContainer);
+
+            // Bind listeners to NEW window
+            if (this._globalMoveHandler) {
+                try {
+                    this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                    this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+                } catch (_) {}
+            }
+            if (this._globalClickHandler) {
+                try { this._targetWin.addEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            }
+            if (this._globalMousedownHandler) {
+                try { this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            }
+            if (this._keydownHandler) {
+                try { this._targetWin.addEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            }
+
+            this._assertDOMPosition();
+
+            // Safely restore target window's original cursor focus
+            if (prevActiveEl && typeof prevActiveEl.focus === 'function') {
+                try { prevActiveEl.focus(); } catch (_) {}
+            }
+
+            this.floatingLeaves.forEach((leaf) => {
+                try { leaf.view?.onShow?.(); }        catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            });
+
+            setTimeout(() => { this._isMigrating = false; }, 50);
+        }, 10); 
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1', minHeight: '0', height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column', overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    `color-mix(in srgb, var(--background-primary) ${pct}%, transparent)`,
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'background-color 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: color-mix(in srgb, var(--background-secondary) ${pct}%, transparent);
+            padding: 8px 12px; cursor: move; font-size: 11px; font-weight: bold;
+            color: var(--text-muted); border-bottom: 1px solid var(--border-color);
+            display: flex; justify-content: space-between; align-items: center;
+            user-select: none; flex-shrink: 0; height: 36px; box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) dragBar.appendChild(this.tabBar);
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px; height: 3px; cursor: pointer; margin: 0; accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            const currentPct = Math.round(parseFloat(this.opacityValue) * 100);
+            container.style.background = `color-mix(in srgb, var(--background-primary) ${currentPct}%, transparent)`;
+            if (this.dragBar) {
+                this.dragBar.style.background = `color-mix(in srgb, var(--background-secondary) ${currentPct}%, transparent)`;
+            }
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+            display: inline-flex; align-items: center; justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `cursor: pointer; padding: 0 4px; font-size: 11px;`;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `position: absolute; z-index: 100000; user-select: none; ${styleCss}`;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null, activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `position: fixed; inset: 0; z-index: 999999; background: transparent; cursor: ${cursor};`;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+            currentDoc.querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = 'none');
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+            getActiveDoc().querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = '');
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top; startW = r.width; startH = r.height;
+            e.preventDefault(); e.stopPropagation(); showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX, dy = e.clientY - startY;
+                let newW = startW, newH = startH, newLeft = startLeft, newTop = startTop;
+
+                if (activeHandleDir.includes('e')) newW = Math.max(250, startW + dx);
+                else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) newLeft = startLeft + dx;
+                }
+                if (activeHandleDir.includes('s')) newH = Math.max(200, startH + dy);
+                else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) newTop = startTop + dy;
+                }
+
+                container.style.width = newW + 'px'; container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px'; container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { mode = null; activeHandleDir = null; removeOverlay(); };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag'; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect(); startLeft = r.left; startTop = r.top;
+            e.preventDefault(); showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            this._saveViewStateData();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; 
+
+            if (this.tabContentContainer) this.tabContentContainer.style.display = 'none';
+
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0'; this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; margin: 0; padding: 0;`;
+            }
+
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'none');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐'; this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+                    width: 20px; height: 20px; border-radius: 4px; background: var(--background-modifier-border);
+                    font-size: 11px; line-height: 1; box-sizing: border-box; font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            if (this._savedLeftVal) this.floatingContainer.style.left = this._savedLeftVal;
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px'; this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+            }
+
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'block');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−'; this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+                    display: inline-flex; align-items: center; justify-content: center;
+                    background: none; width: auto; height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) this._switchTab(this.activeLeafIndex);
+
+            setTimeout(() => {
+                this._restoreViewStateData();
+                this._forceFocusActiveLeaf();
+            }, 150);
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) { this._resizeObserver.disconnect(); this._resizeObserver = null; }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null; this._globalUpHandler = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px'; this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove(); this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                let viewState = null;
+                try { viewState = leaf.getViewState(); } catch(e){}
+                const type = viewState?.type || 'empty';
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
+                else if (type === 'webviewer') pathOrUrl = viewState?.state?.url;
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => { try { leaf.detach(); } catch (_) {} });
+            this.floatingLeaves = []; this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try { this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V21
+- Another problem is that all settings open here even weh nnot active.
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() { return this.app.vault.getFiles(); }
+    getItemText(file) { return file.path; }
+    onChooseItem(file, evt) { this.onSelect(file); }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => { this.value = value; });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) setTimeout(() => inputEl.focus(), 50);
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl).addButton((btn) => {
+            btn.setButtonText("Confirm").setCta().onClick(() => {
+                this.onSubmit(this.value);
+                this.close();
+            });
+        });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     
+        this.activeLeafIndex      = 0;      
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     
+        this._prevActiveLeaf    = null;     
+        this._origSetActiveLeaf = null;     
+        this._origGetLeaf       = null;     
+        this._targetWin         = null;     
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;     
+        this._globalClickHandler = null;    
+        this._keydownHandler     = null;    
+        this._globalMousedownHandler = null; 
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    
+        this._isOpening         = false;    
+        this._isMinimized       = false;    
+        this._focusListeners    = [];       
+        this._resizeHandles     = [];       
+        this._closedTabsHistory = [];       
+        this.opacityValue       = '0.95';   
+
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];
+        this._savedEphemeral     = [];       // New state to hold cursor position
+        this._isVaporActive      = false;    
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        // Inject our lightweight interceptor for native undo close tab
+        this._hookNativeUndo();
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+        this._unhookNativeUndo();
+
+        const styleId = 'vapornote-translucency-style';
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+        windows.forEach(win => {
+            try {
+                const el = win.document.getElementById(styleId);
+                if (el) el.remove();
+            } catch (_) {}
+        });
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) bwin.off('focus', listener);
+                    else if (win && listener) win.removeEventListener('focus', listener);
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    // ─── NATIVE COMMAND INTERCEPTOR ──────────────────────────────────────────
+    _hookNativeUndo() {
+        const cmd = this.app.commands?.commands?.['workspace:undo-close-tab'];
+        if (!cmd || cmd._vaporHooked) return;
+
+        this._origUndoCheck = cmd.checkCallback;
+        this._origUndoCall = cmd.callback;
+
+        if (cmd.checkCallback) {
+            cmd.checkCallback = (checking) => {
+                if (this._isOpen() && this._isVaporFocused()) {
+                    if (!checking) this.reopenClosedTab();
+                    return true; // Claim the hotkey event
+                }
+                return this._origUndoCheck ? this._origUndoCheck(checking) : false;
+            };
+        } else if (cmd.callback) {
+            cmd.callback = () => {
+                if (this._isOpen() && this._isVaporFocused()) {
+                    this.reopenClosedTab();
+                } else if (this._origUndoCall) {
+                    this._origUndoCall();
+                }
+            };
+        }
+        cmd._vaporHooked = true;
+    }
+
+    _unhookNativeUndo() {
+        const cmd = this.app.commands?.commands?.['workspace:undo-close-tab'];
+        if (!cmd || !cmd._vaporHooked) return;
+        if (this._origUndoCheck) cmd.checkCallback = this._origUndoCheck;
+        if (this._origUndoCall) cmd.callback = this._origUndoCall;
+        delete cmd._vaporHooked;
+    }
+
+    // ─── FOCUS MANAGEMENT HELPERS ────────────────────────────────────────────
+    _forceFocusActiveLeaf() {
+        if (!this._isOpen() || !this.floatingLeaves) return;
+        const leaf = this.floatingLeaves[this.activeLeafIndex];
+        if (!leaf) return;
+
+        const focusElement = () => {
+            // Update workspace property safely without triggering infinite loops
+            if (this.app.workspace.activeLeaf !== leaf) {
+                this.app.workspace.activeLeaf = leaf;
+            }
+            if (!leaf.containerEl) return;
+            
+            // Prefer explicitly invoking Obsidian's editor focus to preserve caret
+            if (leaf.view && leaf.view.editor && typeof leaf.view.editor.focus === 'function') {
+                leaf.view.editor.focus();
+            } else {
+                const content = leaf.containerEl.querySelector('.cm-content, webview, .markdown-source-view');
+                if (content) content.focus();
+                else leaf.containerEl.focus();
+            }
+        };
+
+        // Fire once immediately, and again after Obsidian finishes loading the modal data
+        focusElement();
+        setTimeout(focusElement, 50);
+        setTimeout(focusElement, 200);
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try { if (bwin && listener) bwin.off('focus', listener); } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _injectStyles(doc) {
+        if (!doc) return;
+        const styleId = 'vapornote-translucency-style';
+        if (doc.getElementById(styleId)) return;
+
+        const style = doc.createElement('style');
+        style.id = styleId;
+        style.textContent = `
+            .vapornote-container .workspace-leaf,
+            .vapornote-container .workspace-leaf-content,
+            .vapornote-container .view-content,
+            .vapornote-container .markdown-source-view,
+            .vapornote-container .markdown-preview-view,
+            .vapornote-container .cm-scroller {
+                background-color: transparent !important;
+                background: transparent !important;
+            }
+        `;
+        doc.head.appendChild(style);
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+        const doc = this._targetWin?.document || activeDocument;
+        const activeEl = doc.activeElement;
+
+        const insideModal = activeEl?.closest('.modal-container');
+        if (insideModal) {
+            const activeLeaf = this.app.workspace.activeLeaf;
+            if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+                return true;
+            }
+            return false;
+        }
+
+        if (activeEl && activeEl.tagName === 'WEBVIEW' && !this.floatingContainer.contains(activeEl)) {
+            return false;
+        }
+
+        const hasDomFocus = this.floatingContainer.contains(activeEl) ||
+            this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl));
+        if (hasDomFocus) return true;
+
+        const activeLeaf = this.app.workspace.activeLeaf;
+        if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+            const isNeutralElement = !activeEl || activeEl === doc.body || activeEl === doc.documentElement;
+            if (!isNeutralElement) {
+                const insideVapor = this.floatingContainer.contains(activeEl) || 
+                                    this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl));
+                if (!insideVapor) return false;
+            }
+            return true;
+        }
+
+        return false;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            container.classList.add('vapornote-container');
+            this.floatingContainer = container;
+            this._injectStyles(doc);
+            this._styleContainer(container);
+
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex; align-items: center; overflow-x: auto; overflow-y: hidden;
+                height: 100%; flex: 1; margin-left: 12px; margin-right: 12px;
+                scrollbar-width: none; -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            this._buildChrome(container);
+
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex; flex-direction: column; flex: 1; min-height: 0;
+                overflow: hidden; height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            
+            // Intercept Focus Event Requests Cleanly
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    ws.activeLeaf = targetLeaf;
+                    const params = args[0];
+                    if (params && params.focus) {
+                        this._forceFocusActiveLeaf();
+                    }
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && (newSplit === 'tab' || newSplit === true)) {
+                    const leaf = new WorkspaceLeaf(this.app);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) origDetach();
+                        else this._assertDOMPosition();
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        ws.activeLeaf = leaf;
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1', minHeight: '0', height: '100%',
+                        display: 'flex', flexDirection: 'column', overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    this._switchTab(this.activeLeafIndex);
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer', state: { url: href, navigate: true }, active: true
+                            }).then(() => this._renderTabs());
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            this._isVaporActive = true;
+            this._globalMousedownHandler = (e) => {
+                // Keep VaporNote active if interacting with its elements OR any modals (like quick switchers)
+                if ((this.floatingContainer && this.floatingContainer.contains(e.target)) || 
+                    e.target.closest('.modal-container')) {
+                    this._isVaporActive = true;
+                } else {
+                    this._isVaporActive = false;
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            this._keydownHandler = (e) => {
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                // If user uses literal shortcut
+                if (isCmdOrCtrl && isShift && key === 't' && this._isOpen() && this._isVaporFocused()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                    return;
+                }
+
+                if (!this._isVaporFocused()) return;
+
+                if (isCmdOrCtrl && key === 'w') {
+                    e.preventDefault(); e.stopPropagation();
+                    this._closeTab(this.activeLeafIndex);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) ws.activeLeaf = activeLeaf; 
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                // Do not yield focus if the user is explicitly interacting with VaporNote or its modals
+                if (this._isMigrating || this._isVaporActive) return;
+
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) return;
+                if (newFocusTarget && newFocusTarget.closest?.('.modal-container')) return;
+                
+                const currentDoc = this._targetWin?.document || activeDocument;
+                if (!newFocusTarget || newFocusTarget === currentDoc.body || newFocusTarget === currentDoc.documentElement) return;
+                
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (ws.activeLeaf === activeLeaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) await this._addNewTab('file', path);
+                else await this._addNewTab('empty');
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1', minHeight: '0', height: '100%',
+                display: 'flex', flexDirection: 'column', overflow: 'hidden'
+            });
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer', state: { url: pathOrUrl, navigate: true }, active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            ws.activeLeaf = leaf;
+        });
+
+        this.floatingLeaves.push(leaf);
+        this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+        this._switchTab(this.activeLeafIndex);
+        setTimeout(() => this._hookWebviews(), 0);
+    }
+
+    _switchTab(index) {
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        this.activeLeafIndex = index;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (idx === index) {
+                Object.assign(leaf.containerEl.style, {
+                    display: 'flex', flexDirection: 'column', flex: '1',
+                    height: '100%', minHeight: '0', overflow: 'hidden'
+                });
+                
+                this._forceFocusActiveLeaf();
+
+                try { leaf.view?.onShow?.(); } catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            } else {
+                leaf.containerEl.style.display = 'none';
+            }
+        });
+
+        const activeLeaf = this.floatingLeaves[index];
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+            this.savedFilePath = activeLeaf.view.file.path;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index) {
+        if (!this.floatingLeaves) return;
+
+        const leafToClose = this.floatingLeaves[index];
+
+        // Ensure we serialize state BEFORE detaching to prevent empty ghost tab states
+        let viewState = null;
+        try { viewState = leafToClose.getViewState(); } catch(e){}
+        
+        const type = viewState?.type || 'empty';
+        let pathOrUrl = null;
+        if (type === 'markdown' && leafToClose.view?.file) {
+            pathOrUrl = leafToClose.view.file.path;
+        } else if (type === 'webviewer') {
+            pathOrUrl = viewState?.state?.url;
+        }
+
+        if (!this._closedTabsHistory) this._closedTabsHistory = [];
+        this._closedTabsHistory.push({ type, pathOrUrl });
+        if (this._closedTabsHistory.length > 30) this._closedTabsHistory.shift(); 
+
+        this._allowDetach = true;
+        try { leafToClose.detach(); } catch (_) {}
+        this._allowDetach = false;
+
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    reopenClosedTab() {
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        const lastTab = this._closedTabsHistory.pop();
+        
+        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+        const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+        
+        if (isEmpty) {
+            this._closeTab(this.activeLeafIndex);
+        }
+        
+        if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+            this._addNewTab('file', lastTab.pathOrUrl);
+        } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+            this._addNewTab('web', lastTab.pathOrUrl);
+        } else {
+            this._addNewTab('empty');
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) nextIdx = 0; 
+        else if (nextIdx < 0) nextIdx = this.floatingLeaves.length - 1; 
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (!hasProtocol && isDomain) targetUrl = 'https://' + targetUrl;
+                else if (!hasProtocol) targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer', state: { url: targetUrl, navigate: true }, active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveViewStateData() {
+        this._savedScrolls = [];
+        this._savedEphemeral = [];
+        
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            
+            // Native ephemeral state (cursor, scroll height, current selection, fold state)
+            if (typeof leaf.getEphemeralState === 'function') {
+                this._savedEphemeral[idx] = leaf.getEphemeralState();
+            }
+
+            // Fallback for custom views (webviews/emptys)
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({ index: index, top: el.scrollTop, left: el.scrollLeft });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreViewStateData() {
+        if (!this._savedScrolls && !this._savedEphemeral) return;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            
+            // Restore exact cursor location and native scroll
+            if (this._savedEphemeral && this._savedEphemeral[idx] && typeof leaf.setEphemeralState === 'function') {
+                leaf.setEphemeralState(this._savedEphemeral[idx]);
+            }
+
+            // Restore custom DOM fallbacks
+            const scrollStates = this._savedScrolls ? this._savedScrolls[idx] : null;
+            if (scrollStates) {
+                const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+                scrollStates.forEach(state => {
+                    const el = scrollers[state.index];
+                    if (el) { el.scrollTop = state.top; el.scrollLeft = state.left; }
+                });
+            }
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            const injectScript = () => {
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowRight') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowLeft') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('dom-ready', injectScript);
+            webview.addEventListener('did-navigate', injectScript);
+            webview.addEventListener('did-frame-finish-load', injectScript);
+
+            webview.addEventListener('console-message', (e) => {
+                if (e.message === 'VAPORNOTE_CMD_W') this._closeTab(this.activeLeafIndex);
+                else if (e.message === 'VAPORNOTE_CMD_T') this.reopenClosedTab();
+                else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') this.navigateTab(1);
+                else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') this.navigateTab(-1);
+            });
+
+            webview.addEventListener('page-title-updated', () => this._renderTabs());
+            webview.addEventListener('did-stop-loading', () => this._renderTabs());
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px; font-size: 10px; cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px; display: flex; align-items: center; gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'}; height: 24px;
+                box-sizing: border-box; margin-right: 4px; flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap; max-width: 90px;
+                overflow: hidden; text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer; font-size: 8px; opacity: 0.5; padding: 2px; line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => { e.stopPropagation(); this._closeTab(idx); });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => { this._switchTab(idx); });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') parent.recomputeLayout();
+                }
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+        }
+
+        try { if (this.floatingContainer.parentElement) this.floatingContainer.remove(); } catch (_) {}
+
+        this._targetWin = newWin;
+
+        const doc = newWin.document;
+        this._injectStyles(doc);
+        doc.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try { this._targetWin.addEventListener('click', this._globalClickHandler, true); } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try { this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try { this._targetWin.addEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        this.floatingLeaves.forEach((leaf) => {
+            try { leaf.view?.onShow?.(); }        catch (_) {}
+            try { leaf.view?.editor?.refresh(); } catch (_) {}
+        });
+
+        setTimeout(() => { this._isMigrating = false; }, 150);
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1', minHeight: '0', height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column', overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    `color-mix(in srgb, var(--background-primary) ${pct}%, transparent)`,
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'background-color 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: color-mix(in srgb, var(--background-secondary) ${pct}%, transparent);
+            padding: 8px 12px; cursor: move; font-size: 11px; font-weight: bold;
+            color: var(--text-muted); border-bottom: 1px solid var(--border-color);
+            display: flex; justify-content: space-between; align-items: center;
+            user-select: none; flex-shrink: 0; height: 36px; box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) dragBar.appendChild(this.tabBar);
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px; height: 3px; cursor: pointer; margin: 0; accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            const currentPct = Math.round(parseFloat(this.opacityValue) * 100);
+            container.style.background = `color-mix(in srgb, var(--background-primary) ${currentPct}%, transparent)`;
+            if (this.dragBar) {
+                this.dragBar.style.background = `color-mix(in srgb, var(--background-secondary) ${currentPct}%, transparent)`;
+            }
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+            display: inline-flex; align-items: center; justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `cursor: pointer; padding: 0 4px; font-size: 11px;`;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `position: absolute; z-index: 100000; user-select: none; ${styleCss}`;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null, activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `position: fixed; inset: 0; z-index: 999999; background: transparent; cursor: ${cursor};`;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+            currentDoc.querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = 'none');
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+            getActiveDoc().querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = '');
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top; startW = r.width; startH = r.height;
+            e.preventDefault(); e.stopPropagation(); showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX, dy = e.clientY - startY;
+                let newW = startW, newH = startH, newLeft = startLeft, newTop = startTop;
+
+                if (activeHandleDir.includes('e')) newW = Math.max(250, startW + dx);
+                else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) newLeft = startLeft + dx;
+                }
+                if (activeHandleDir.includes('s')) newH = Math.max(200, startH + dy);
+                else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) newTop = startTop + dy;
+                }
+
+                container.style.width = newW + 'px'; container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px'; container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { mode = null; activeHandleDir = null; removeOverlay(); };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag'; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect(); startLeft = r.left; startTop = r.top;
+            e.preventDefault(); showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            // Save Editor state (cursor position) and layout scroll before collapsing 
+            this._saveViewStateData();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; 
+
+            if (this.tabContentContainer) this.tabContentContainer.style.display = 'none';
+
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0'; this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; margin: 0; padding: 0;`;
+            }
+
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'none');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐'; this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+                    width: 20px; height: 20px; border-radius: 4px; background: var(--background-modifier-border);
+                    font-size: 11px; line-height: 1; box-sizing: border-box; font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            if (this._savedLeftVal) this.floatingContainer.style.left = this._savedLeftVal;
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px'; this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) this.controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'block');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−'; this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+                    display: inline-flex; align-items: center; justify-content: center;
+                    background: none; width: auto; height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) this._switchTab(this.activeLeafIndex);
+
+            // Defer restore logic heavily to let the UI finish flexing back out,
+            // then apply the exact cursor/selection/scroll values
+            setTimeout(() => {
+                this._restoreViewStateData();
+                this._forceFocusActiveLeaf();
+            }, 150);
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) { this._resizeObserver.disconnect(); this._resizeObserver = null; }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null; this._globalUpHandler = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px'; this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove(); this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                let viewState = null;
+                try { viewState = leaf.getViewState(); } catch(e){}
+                const type = viewState?.type || 'empty';
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
+                else if (type === 'webviewer') pathOrUrl = viewState?.state?.url;
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => { try { leaf.detach(); } catch (_) {} });
+            this.floatingLeaves = []; this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try { this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V20 (Repair)
+- PRoblems below sort of worked
+- Create new script to undo tabs
+- Create script to fix posiition
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() { return this.app.vault.getFiles(); }
+    getItemText(file) { return file.path; }
+    onChooseItem(file, evt) { this.onSelect(file); }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => { this.value = value; });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) setTimeout(() => inputEl.focus(), 50);
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl).addButton((btn) => {
+            btn.setButtonText("Confirm").setCta().onClick(() => {
+                this.onSubmit(this.value);
+                this.close();
+            });
+        });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     
+        this.activeLeafIndex      = 0;      
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     
+        this._prevActiveLeaf    = null;     
+        this._origSetActiveLeaf = null;     
+        this._origGetLeaf       = null;     
+        this._targetWin         = null;     
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;     
+        this._globalClickHandler = null;    
+        this._keydownHandler     = null;    
+        this._globalMousedownHandler = null; 
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    
+        this._isOpening         = false;    
+        this._isMinimized       = false;    
+        this._focusListeners    = [];       
+        this._resizeHandles     = [];       
+        this._closedTabsHistory = [];       
+        this.opacityValue       = '0.95';   
+
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];       
+        this._isVaporActive      = false;    
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        // Inject our lightweight interceptor for native undo close tab
+        this._hookNativeUndo();
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+        this._unhookNativeUndo();
+
+        const styleId = 'vapornote-translucency-style';
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+        windows.forEach(win => {
+            try {
+                const el = win.document.getElementById(styleId);
+                if (el) el.remove();
+            } catch (_) {}
+        });
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) bwin.off('focus', listener);
+                    else if (win && listener) win.removeEventListener('focus', listener);
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    // ─── NATIVE COMMAND INTERCEPTOR ──────────────────────────────────────────
+    _hookNativeUndo() {
+        const cmd = this.app.commands?.commands?.['workspace:undo-close-tab'];
+        if (!cmd || cmd._vaporHooked) return;
+
+        this._origUndoCheck = cmd.checkCallback;
+        this._origUndoCall = cmd.callback;
+
+        if (cmd.checkCallback) {
+            cmd.checkCallback = (checking) => {
+                if (this._isOpen() && this._isVaporFocused()) {
+                    if (!checking) this.reopenClosedTab();
+                    return true; // Claim the hotkey event
+                }
+                return this._origUndoCheck ? this._origUndoCheck(checking) : false;
+            };
+        } else if (cmd.callback) {
+            cmd.callback = () => {
+                if (this._isOpen() && this._isVaporFocused()) {
+                    this.reopenClosedTab();
+                } else if (this._origUndoCall) {
+                    this._origUndoCall();
+                }
+            };
+        }
+        cmd._vaporHooked = true;
+    }
+
+    _unhookNativeUndo() {
+        const cmd = this.app.commands?.commands?.['workspace:undo-close-tab'];
+        if (!cmd || !cmd._vaporHooked) return;
+        if (this._origUndoCheck) cmd.checkCallback = this._origUndoCheck;
+        if (this._origUndoCall) cmd.callback = this._origUndoCall;
+        delete cmd._vaporHooked;
+    }
+
+    // ─── FOCUS MANAGEMENT HELPERS ────────────────────────────────────────────
+    _forceFocusActiveLeaf() {
+        if (!this._isOpen() || !this.floatingLeaves) return;
+        const leaf = this.floatingLeaves[this.activeLeafIndex];
+        if (!leaf) return;
+
+        const focusElement = () => {
+            // Update workspace property safely without triggering infinite loops
+            if (this.app.workspace.activeLeaf !== leaf) {
+                this.app.workspace.activeLeaf = leaf;
+            }
+            if (!leaf.containerEl) return;
+            // Target the actual interactable part of the DOM directly
+            const content = leaf.containerEl.querySelector('.cm-content, webview, .markdown-source-view');
+            if (content) content.focus();
+            else leaf.containerEl.focus();
+        };
+
+        // Fire once immediately, and again after Obsidian finishes loading the modal data
+        focusElement();
+        setTimeout(focusElement, 50);
+        setTimeout(focusElement, 200);
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try { if (bwin && listener) bwin.off('focus', listener); } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _injectStyles(doc) {
+        if (!doc) return;
+        const styleId = 'vapornote-translucency-style';
+        if (doc.getElementById(styleId)) return;
+
+        const style = doc.createElement('style');
+        style.id = styleId;
+        style.textContent = `
+            .vapornote-container .workspace-leaf,
+            .vapornote-container .workspace-leaf-content,
+            .vapornote-container .view-content,
+            .vapornote-container .markdown-source-view,
+            .vapornote-container .markdown-preview-view,
+            .vapornote-container .cm-scroller {
+                background-color: transparent !important;
+                background: transparent !important;
+            }
+        `;
+        doc.head.appendChild(style);
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+        const doc = this._targetWin?.document || activeDocument;
+        const activeEl = doc.activeElement;
+
+        const insideModal = activeEl?.closest('.modal-container');
+        if (insideModal) {
+            const activeLeaf = this.app.workspace.activeLeaf;
+            if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+                return true;
+            }
+            return false;
+        }
+
+        if (activeEl && activeEl.tagName === 'WEBVIEW' && !this.floatingContainer.contains(activeEl)) {
+            return false;
+        }
+
+        const hasDomFocus = this.floatingContainer.contains(activeEl) ||
+            this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl));
+        if (hasDomFocus) return true;
+
+        const activeLeaf = this.app.workspace.activeLeaf;
+        if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+            const isNeutralElement = !activeEl || activeEl === doc.body || activeEl === doc.documentElement;
+            if (!isNeutralElement) {
+                const insideVapor = this.floatingContainer.contains(activeEl) || 
+                                    this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl));
+                if (!insideVapor) return false;
+            }
+            return true;
+        }
+
+        return false;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            container.classList.add('vapornote-container');
+            this.floatingContainer = container;
+            this._injectStyles(doc);
+            this._styleContainer(container);
+
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex; align-items: center; overflow-x: auto; overflow-y: hidden;
+                height: 100%; flex: 1; margin-left: 12px; margin-right: 12px;
+                scrollbar-width: none; -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            this._buildChrome(container);
+
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex; flex-direction: column; flex: 1; min-height: 0;
+                overflow: hidden; height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            
+            // Intercept Focus Event Requests Cleanly
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    ws.activeLeaf = targetLeaf;
+                    const params = args[0];
+                    if (params && params.focus) {
+                        this._forceFocusActiveLeaf();
+                    }
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && (newSplit === 'tab' || newSplit === true)) {
+                    const leaf = new WorkspaceLeaf(this.app);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) origDetach();
+                        else this._assertDOMPosition();
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        ws.activeLeaf = leaf;
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1', minHeight: '0', height: '100%',
+                        display: 'flex', flexDirection: 'column', overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    this._switchTab(this.activeLeafIndex);
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer', state: { url: href, navigate: true }, active: true
+                            }).then(() => this._renderTabs());
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            this._isVaporActive = true;
+            this._globalMousedownHandler = (e) => {
+                // Keep VaporNote active if interacting with its elements OR any modals (like quick switchers)
+                if ((this.floatingContainer && this.floatingContainer.contains(e.target)) || 
+                    e.target.closest('.modal-container')) {
+                    this._isVaporActive = true;
+                } else {
+                    this._isVaporActive = false;
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            this._keydownHandler = (e) => {
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                // If user uses literal shortcut
+                if (isCmdOrCtrl && isShift && key === 't' && this._isOpen() && this._isVaporFocused()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                    return;
+                }
+
+                if (!this._isVaporFocused()) return;
+
+                if (isCmdOrCtrl && key === 'w') {
+                    e.preventDefault(); e.stopPropagation();
+                    this._closeTab(this.activeLeafIndex);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left')) {
+                    e.preventDefault(); e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) ws.activeLeaf = activeLeaf; 
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                // Do not yield focus if the user is explicitly interacting with VaporNote or its modals
+                if (this._isMigrating || this._isVaporActive) return;
+
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) return;
+                if (newFocusTarget && newFocusTarget.closest?.('.modal-container')) return;
+                
+                const currentDoc = this._targetWin?.document || activeDocument;
+                if (!newFocusTarget || newFocusTarget === currentDoc.body || newFocusTarget === currentDoc.documentElement) return;
+                
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (ws.activeLeaf === activeLeaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) await this._addNewTab('file', path);
+                else await this._addNewTab('empty');
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1', minHeight: '0', height: '100%',
+                display: 'flex', flexDirection: 'column', overflow: 'hidden'
+            });
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer', state: { url: pathOrUrl, navigate: true }, active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            ws.activeLeaf = leaf;
+        });
+
+        this.floatingLeaves.push(leaf);
+        this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+        this._switchTab(this.activeLeafIndex);
+        setTimeout(() => this._hookWebviews(), 0);
+    }
+
+    _switchTab(index) {
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        this.activeLeafIndex = index;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (idx === index) {
+                Object.assign(leaf.containerEl.style, {
+                    display: 'flex', flexDirection: 'column', flex: '1',
+                    height: '100%', minHeight: '0', overflow: 'hidden'
+                });
+                
+                this._forceFocusActiveLeaf();
+
+                try { leaf.view?.onShow?.(); } catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            } else {
+                leaf.containerEl.style.display = 'none';
+            }
+        });
+
+        const activeLeaf = this.floatingLeaves[index];
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+            this.savedFilePath = activeLeaf.view.file.path;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index) {
+        if (!this.floatingLeaves) return;
+
+        const leafToClose = this.floatingLeaves[index];
+
+        // Ensure we serialize state BEFORE detaching to prevent empty ghost tab states
+        let viewState = null;
+        try { viewState = leafToClose.getViewState(); } catch(e){}
+        
+        const type = viewState?.type || 'empty';
+        let pathOrUrl = null;
+        if (type === 'markdown' && leafToClose.view?.file) {
+            pathOrUrl = leafToClose.view.file.path;
+        } else if (type === 'webviewer') {
+            pathOrUrl = viewState?.state?.url;
+        }
+
+        if (!this._closedTabsHistory) this._closedTabsHistory = [];
+        this._closedTabsHistory.push({ type, pathOrUrl });
+        if (this._closedTabsHistory.length > 30) this._closedTabsHistory.shift(); 
+
+        this._allowDetach = true;
+        try { leafToClose.detach(); } catch (_) {}
+        this._allowDetach = false;
+
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    reopenClosedTab() {
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        const lastTab = this._closedTabsHistory.pop();
+        
+        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+        const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+        
+        if (isEmpty) {
+            this._closeTab(this.activeLeafIndex);
+        }
+        
+        if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+            this._addNewTab('file', lastTab.pathOrUrl);
+        } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+            this._addNewTab('web', lastTab.pathOrUrl);
+        } else {
+            this._addNewTab('empty');
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) nextIdx = 0; 
+        else if (nextIdx < 0) nextIdx = this.floatingLeaves.length - 1; 
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (!hasProtocol && isDomain) targetUrl = 'https://' + targetUrl;
+                else if (!hasProtocol) targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer', state: { url: targetUrl, navigate: true }, active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveScrollPositions() {
+        this._savedScrolls = [];
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({ index: index, top: el.scrollTop, left: el.scrollLeft });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreScrollPositions() {
+        if (!this._savedScrolls) return;
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = this._savedScrolls[idx];
+            if (!scrollStates) return;
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollStates.forEach(state => {
+                const el = scrollers[state.index];
+                if (el) { el.scrollTop = state.top; el.scrollLeft = state.left; }
+            });
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            const injectScript = () => {
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowRight') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowLeft') {
+                                e.preventDefault(); e.stopPropagation(); console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('dom-ready', injectScript);
+            webview.addEventListener('did-navigate', injectScript);
+            webview.addEventListener('did-frame-finish-load', injectScript);
+
+            webview.addEventListener('console-message', (e) => {
+                if (e.message === 'VAPORNOTE_CMD_W') this._closeTab(this.activeLeafIndex);
+                else if (e.message === 'VAPORNOTE_CMD_T') this.reopenClosedTab();
+                else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') this.navigateTab(1);
+                else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') this.navigateTab(-1);
+            });
+
+            webview.addEventListener('page-title-updated', () => this._renderTabs());
+            webview.addEventListener('did-stop-loading', () => this._renderTabs());
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px; font-size: 10px; cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px; display: flex; align-items: center; gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'}; height: 24px;
+                box-sizing: border-box; margin-right: 4px; flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap; max-width: 90px;
+                overflow: hidden; text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer; font-size: 8px; opacity: 0.5; padding: 2px; line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => { e.stopPropagation(); this._closeTab(idx); });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => { this._switchTab(idx); });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') parent.recomputeLayout();
+                }
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+        }
+
+        try { if (this.floatingContainer.parentElement) this.floatingContainer.remove(); } catch (_) {}
+
+        this._targetWin = newWin;
+
+        const doc = newWin.document;
+        this._injectStyles(doc);
+        doc.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try { this._targetWin.addEventListener('click', this._globalClickHandler, true); } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try { this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try { this._targetWin.addEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        this.floatingLeaves.forEach((leaf) => {
+            try { leaf.view?.onShow?.(); }        catch (_) {}
+            try { leaf.view?.editor?.refresh(); } catch (_) {}
+        });
+
+        setTimeout(() => { this._isMigrating = false; }, 150);
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1', minHeight: '0', height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column', overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    `color-mix(in srgb, var(--background-primary) ${pct}%, transparent)`,
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'background-color 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: color-mix(in srgb, var(--background-secondary) ${pct}%, transparent);
+            padding: 8px 12px; cursor: move; font-size: 11px; font-weight: bold;
+            color: var(--text-muted); border-bottom: 1px solid var(--border-color);
+            display: flex; justify-content: space-between; align-items: center;
+            user-select: none; flex-shrink: 0; height: 36px; box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) dragBar.appendChild(this.tabBar);
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px; height: 3px; cursor: pointer; margin: 0; accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            const currentPct = Math.round(parseFloat(this.opacityValue) * 100);
+            container.style.background = `color-mix(in srgb, var(--background-primary) ${currentPct}%, transparent)`;
+            if (this.dragBar) {
+                this.dragBar.style.background = `color-mix(in srgb, var(--background-secondary) ${currentPct}%, transparent)`;
+            }
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+            display: inline-flex; align-items: center; justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `cursor: pointer; padding: 0 4px; font-size: 11px;`;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `position: absolute; z-index: 100000; user-select: none; ${styleCss}`;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null, activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `position: fixed; inset: 0; z-index: 999999; background: transparent; cursor: ${cursor};`;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+            currentDoc.querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = 'none');
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+            getActiveDoc().querySelectorAll('webview').forEach(wv => wv.style.pointerEvents = '');
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top; startW = r.width; startH = r.height;
+            e.preventDefault(); e.stopPropagation(); showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX, dy = e.clientY - startY;
+                let newW = startW, newH = startH, newLeft = startLeft, newTop = startTop;
+
+                if (activeHandleDir.includes('e')) newW = Math.max(250, startW + dx);
+                else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) newLeft = startLeft + dx;
+                }
+                if (activeHandleDir.includes('s')) newH = Math.max(200, startH + dy);
+                else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) newTop = startTop + dy;
+                }
+
+                container.style.width = newW + 'px'; container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px'; container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { mode = null; activeHandleDir = null; removeOverlay(); };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag'; startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect(); startLeft = r.left; startTop = r.top;
+            e.preventDefault(); showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            this._saveScrollPositions();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; 
+
+            if (this.tabContentContainer) this.tabContentContainer.style.display = 'none';
+
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0'; this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; margin: 0; padding: 0;`;
+            }
+
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'none');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐'; this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+                    width: 20px; height: 20px; border-radius: 4px; background: var(--background-modifier-border);
+                    font-size: 11px; line-height: 1; box-sizing: border-box; font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            if (this._savedLeftVal) this.floatingContainer.style.left = this._savedLeftVal;
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px'; this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center'; this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) this.controls.style.cssText = `display: flex; align-items: center; gap: 8px; margin-left: auto;`;
+
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) this._resizeHandles.forEach(h => h.style.display = 'block');
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−'; this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer; padding: 0 4px; font-weight: bold; font-size: 12px;
+                    display: inline-flex; align-items: center; justify-content: center;
+                    background: none; width: auto; height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) this._switchTab(this.activeLeafIndex);
+
+            setTimeout(() => this._restoreScrollPositions(), 150);
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) { this._resizeObserver.disconnect(); this._resizeObserver = null; }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null; this._globalUpHandler = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('click', this._globalClickHandler, true); } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true); } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try { this._targetWin.removeEventListener('keydown', this._keydownHandler, true); } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px'; this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove(); this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                let viewState = null;
+                try { viewState = leaf.getViewState(); } catch(e){}
+                const type = viewState?.type || 'empty';
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
+                else if (type === 'webviewer') pathOrUrl = viewState?.state?.url;
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => { try { leaf.detach(); } catch (_) {} });
+            this.floatingLeaves = []; this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try { this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false }); } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V19
+- Fixed the new web viewer tab name rendering the proper name
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() {
+        return this.app.vault.getFiles(); 
+    }
+
+    getItemText(file) {
+        return file.path; 
+    }
+
+    onChooseItem(file, evt) {
+        this.onSelect(file);
+    }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => {
+                    this.value = value;
+                });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) {
+            setTimeout(() => inputEl.focus(), 50);
+        }
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .setDesc("Path relative to vault root")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     // Holds active tab leaf references
+        this.activeLeafIndex      = 0;      // Track current active index
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     // null until user picks a file once
+        this._prevActiveLeaf    = null;     // background leaf active before we opened
+        this._origSetActiveLeaf = null;     // real setActiveLeaf, intercepted for float lifetime
+        this._origGetLeaf       = null;     // real getLeaf, intercepted for routing scripts internally
+        this._targetWin         = null;     // window context where the float is currently attached
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;     // Tracks blur events to safely revert activeLeaf
+        this._globalClickHandler = null;    // Capture phase link clicks
+        this._keydownHandler     = null;    // High-priority capture phase tab closing shortcut
+        this._globalMousedownHandler = null; // High-priority pointer interaction capture
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    // Flag to suppress focus changes during window-swapping
+        this._isOpening         = false;    // Lock to completely prevent rapid toggling race conditions
+        this._isMinimized       = false;    // Keep track of collapse status
+        this._focusListeners    = [];       // Cache registry of native focus hooks for cleanup
+        this._resizeHandles     = [];       // Cache multi-edge resize handles
+        this._closedTabsHistory = [];       // List history of closed tabs
+        this.opacityValue       = '0.95';   // Initial opacity slider context
+
+        // State persistence cache across toggles
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    // Cache for right-alignment restoration coordinates
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];       // Stores scroll heights before minimization
+        this._isVaporActive      = false;    // Tracks active interaction focus state
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        // Remove injected style elements
+        const styleId = 'vapornote-translucency-style';
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+        windows.forEach(win => {
+            try {
+                const el = win.document.getElementById(styleId);
+                if (el) el.remove();
+            } catch (_) {}
+        });
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) {
+                        bwin.off('focus', listener);
+                    } else if (win && listener) {
+                        win.removeEventListener('focus', listener);
+                    }
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try {
+                        if (bwin && listener) bwin.off('focus', listener);
+                    } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _injectStyles(doc) {
+        if (!doc) return;
+        const styleId = 'vapornote-translucency-style';
+        if (doc.getElementById(styleId)) return;
+
+        const style = doc.createElement('style');
+        style.id = styleId;
+        style.textContent = `
+            .vapornote-container .workspace-leaf,
+            .vapornote-container .workspace-leaf-content,
+            .vapornote-container .view-content,
+            .vapornote-container .markdown-source-view,
+            .vapornote-container .markdown-preview-view,
+            .vapornote-container .cm-scroller {
+                background-color: transparent !important;
+                background: transparent !important;
+            }
+        `;
+        doc.head.appendChild(style);
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+        const doc = this._targetWin?.document || activeDocument;
+        const activeEl = doc.activeElement;
+
+        // 1. Check if the active element is inside an Obsidian modal (e.g. SmartWebSearch or command palette)
+        const insideModal = activeEl?.closest('.modal-container');
+        if (insideModal) {
+            const activeLeaf = this.app.workspace.activeLeaf;
+            if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+                return true;
+            }
+            return false;
+        }
+
+        // 2. Check if a background webview is actively focused
+        if (activeEl && activeEl.tagName === 'WEBVIEW' && !this.floatingContainer.contains(activeEl)) {
+            return false;
+        }
+
+        // 3. Check if the active element is explicitly inside the floating note container
+        const hasDomFocus = this.floatingContainer.contains(activeEl) ||
+            this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl));
+        if (hasDomFocus) return true;
+
+        // 4. Check if the active workspace leaf belongs to VaporNote
+        const activeLeaf = this.app.workspace.activeLeaf;
+        if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+            // If the DOM focus has moved to an explicit background element, we are NOT focused on VaporNote
+            const isNeutralElement = !activeEl || activeEl === doc.body || activeEl === doc.documentElement;
+            if (!isNeutralElement) {
+                const insideVapor = this.floatingContainer.contains(activeEl) || 
+                                    this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl));
+                if (!insideVapor) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        return false;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            container.classList.add('vapornote-container');
+            this.floatingContainer = container;
+            this._injectStyles(doc);
+            this._styleContainer(container);
+
+            // Build Tab Switcher bar container (nested inside dragBar)
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex;
+                align-items: center;
+                overflow-x: auto;
+                overflow-y: hidden;
+                height: 100%;
+                flex: 1;
+                margin-left: 12px;
+                margin-right: 12px;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            // 1. Build Header Controls, Tabs list, and Buttons Group
+            this._buildChrome(container);
+
+            // 2. Content layout utilizing standard layout container styling
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                min-height: 0;
+                overflow: hidden;
+                height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    ws.activeLeaf = targetLeaf;
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            // Intercept app.workspace.getLeaf to route external scripts internally
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && (newSplit === 'tab' || newSplit === true)) {
+                    const leaf = new WorkspaceLeaf(this.app);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) origDetach();
+                        else this._assertDOMPosition();
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        ws.activeLeaf = leaf;
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1',
+                        minHeight: '0',
+                        height: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    // Consolidated switch and focus assignment
+                    this._switchTab(this.activeLeafIndex);
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            // Global capture-phase click handler (Intercepts browser router to load pages locally)
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer',
+                                state: { url: href, navigate: true },
+                                active: true
+                            }).then(() => {
+                                this._renderTabs();
+                            });
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            // Active frame capture mouse state tracking
+            this._isVaporActive = true;
+            this._globalMousedownHandler = (e) => {
+                if (this.floatingContainer && this.floatingContainer.contains(e.target)) {
+                    this._isVaporActive = true;
+                } else {
+                    this._isVaporActive = false;
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            // High-priority window event listener to capture shortcuts securely
+            this._keydownHandler = (e) => {
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                // Bug fix: always consume Cmd+Shift+T while VaporNote is open, regardless of
+                // _isVaporFocused(). Focus may have temporarily shifted to a modal or the OS,
+                // but the native Obsidian handler must never fire while we're active.
+                if (isCmdOrCtrl && isShift && key === 't' && this._isOpen()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                    return;
+                }
+
+                const isVaporFocused = this._isVaporFocused();
+                if (!isVaporFocused) return;
+
+                if (isCmdOrCtrl && key === 'w') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this._closeTab(this.activeLeafIndex);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) ws.activeLeaf = activeLeaf; 
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating) return;
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) {
+                    return;
+                }
+
+                // Bug fix: if focus moved into an Obsidian modal (e.g. SmartWebSearch, command palette),
+                // preserve the vapor activeLeaf so getLeaf interception stays active through the modal lifecycle.
+                if (newFocusTarget && newFocusTarget.closest?.('.modal-container')) {
+                    return;
+                }
+                
+                // If focus is temporarily lost (e.g., during tab closure or DOM changes), 
+                // do not revert activeLeaf to the background. Only revert if focus explicitly 
+                // moves to a valid background focusable element.
+                const currentDoc = this._targetWin?.document || activeDocument;
+                if (!newFocusTarget || newFocusTarget === currentDoc.body || newFocusTarget === currentDoc.documentElement) {
+                    return;
+                }
+                
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (ws.activeLeaf === activeLeaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            // Reconstruct tabs layout from cached toggle state
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) {
+                    await this._addNewTab('file', path);
+                } else {
+                    await this._addNewTab('empty');
+                }
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1',
+                minHeight: '0',
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                overflow: 'hidden'
+            });
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer',
+                    state: { url: pathOrUrl, navigate: true },
+                    active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            ws.activeLeaf = leaf;
+        });
+
+        this.floatingLeaves.push(leaf);
+        this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+        this._switchTab(this.activeLeafIndex);
+        // Bug fix: defer _hookWebviews so the webview element is in the DOM before
+        // we attempt to attach page-title-updated / did-stop-loading listeners.
+        setTimeout(() => this._hookWebviews(), 0);
+    }
+
+    _switchTab(index) {
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        this.activeLeafIndex = index;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (idx === index) {
+                Object.assign(leaf.containerEl.style, {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    flex: '1',
+                    height: '100%',
+                    minHeight: '0',
+                    overflow: 'hidden'
+                });
+                
+                this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                leaf.containerEl.focus();
+                
+                // Defensively force active view state focus after async modal closures
+                setTimeout(() => {
+                    if (this.floatingLeaves && this.floatingLeaves[this.activeLeafIndex] === leaf) {
+                        this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                        leaf.containerEl.focus();
+                        const cmContent = leaf.containerEl.querySelector('.cm-content');
+                        if (cmContent) {
+                            cmContent.focus();
+                        } else {
+                            const webview = leaf.containerEl.querySelector('webview');
+                            if (webview) webview.focus();
+                        }
+                    }
+                }, 100);
+
+                try { leaf.view?.onShow?.(); } catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            } else {
+                leaf.containerEl.style.display = 'none';
+            }
+        });
+
+        const activeLeaf = this.floatingLeaves[index];
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+            this.savedFilePath = activeLeaf.view.file.path;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index) {
+        if (!this.floatingLeaves) return;
+
+        const leafToClose = this.floatingLeaves[index];
+        this._allowDetach = true;
+        try {
+            leafToClose.detach();
+        } catch (_) {}
+        this._allowDetach = false;
+
+        // Push serialization details to reopening history cache
+        const viewState = leafToClose.getViewState();
+        const type = viewState.type;
+        let pathOrUrl = null;
+        if (type === 'markdown' && leafToClose.view?.file) {
+            pathOrUrl = leafToClose.view.file.path;
+        } else if (type === 'webviewer') {
+            pathOrUrl = viewState.state?.url;
+        }
+        if (!this._closedTabsHistory) this._closedTabsHistory = [];
+        this._closedTabsHistory.push({ type, pathOrUrl });
+        if (this._closedTabsHistory.length > 30) {
+            this._closedTabsHistory.shift(); 
+        }
+
+        // Clear DOM structure explicitly to prevent layout shrinking
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    reopenClosedTab() {
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        const lastTab = this._closedTabsHistory.pop();
+        
+        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+        const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+        
+        if (isEmpty) {
+            this._closeTab(this.activeLeafIndex);
+        }
+        
+        if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+            this._addNewTab('file', lastTab.pathOrUrl);
+        } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+            this._addNewTab('web', lastTab.pathOrUrl);
+        } else {
+            this._addNewTab('empty');
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) {
+            nextIdx = 0; 
+        } else if (nextIdx < 0) {
+            nextIdx = this.floatingLeaves.length - 1; 
+        }
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (hasProtocol) {
+                    // Keep as-is
+                } else if (isDomain) {
+                    targetUrl = 'https://' + targetUrl;
+                } else {
+                    targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+                }
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer',
+                        state: { url: targetUrl, navigate: true },
+                        active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveScrollPositions() {
+        this._savedScrolls = [];
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({
+                    index: index,
+                    top: el.scrollTop,
+                    left: el.scrollLeft
+                });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreScrollPositions() {
+        if (!this._savedScrolls) return;
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = this._savedScrolls[idx];
+            if (!scrollStates) return;
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollStates.forEach(state => {
+                const el = scrollers[state.index];
+                if (el) {
+                    el.scrollTop = state.top;
+                    el.scrollLeft = state.left;
+                }
+            });
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            const injectScript = () => {
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowRight') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowLeft') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('dom-ready', injectScript);
+            webview.addEventListener('did-navigate', injectScript);
+            webview.addEventListener('did-frame-finish-load', injectScript);
+
+            webview.addEventListener('console-message', (e) => {
+                if (e.message === 'VAPORNOTE_CMD_W') {
+                    this._closeTab(this.activeLeafIndex);
+                } else if (e.message === 'VAPORNOTE_CMD_T') {
+                    this.reopenClosedTab();
+                } else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') {
+                    this.navigateTab(1);
+                } else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') {
+                    this.navigateTab(-1);
+                }
+            });
+
+            // Bug fix: re-render tabs when the page title resolves so the tab name
+            // updates immediately rather than waiting for a manual tab switch.
+            webview.addEventListener('page-title-updated', () => {
+                this._renderTabs();
+            });
+            webview.addEventListener('did-stop-loading', () => {
+                this._renderTabs();
+            });
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px;
+                font-size: 10px;
+                cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'};
+                height: 24px;
+                box-sizing: border-box;
+                margin-right: 4px;
+                flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap;
+                max-width: 90px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer;
+                font-size: 8px;
+                opacity: 0.5;
+                padding: 2px;
+                line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this._closeTab(idx);
+            });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => {
+                this._switchTab(idx);
+            });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') {
+                        parent.recomputeLayout();
+                    }
+                }
+            }
+            if (leaf.containerEl.parentElement) {
+                leaf.containerEl.remove();
+            }
+            // Trigger layout event to clean up layout artifacts/misalignments in other windows
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try {
+                this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        try {
+            if (this.floatingContainer.parentElement) {
+                this.floatingContainer.remove();
+            }
+        } catch (_) {}
+
+        this._targetWin = newWin;
+
+        const doc = newWin.document;
+        this._injectStyles(doc);
+        doc.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.addEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try {
+                this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        this.floatingLeaves.forEach((leaf) => {
+            try { leaf.view?.onShow?.(); }        catch (_) {}
+            try { leaf.view?.editor?.refresh(); } catch (_) {}
+        });
+
+        setTimeout(() => {
+            this._isMigrating = false;
+        }, 150);
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1',
+                    minHeight: '0',
+                    height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column',
+                    overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    `color-mix(in srgb, var(--background-primary) ${pct}%, transparent)`,
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'background-color 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: color-mix(in srgb, var(--background-secondary) ${pct}%, transparent);
+            padding: 8px 12px;
+            cursor: move;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            flex-shrink: 0;
+            height: 36px;
+            box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) {
+            dragBar.appendChild(this.tabBar);
+        }
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        `;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px;
+            height: 3px;
+            cursor: pointer;
+            margin: 0;
+            accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            const currentPct = Math.round(parseFloat(this.opacityValue) * 100);
+            container.style.background = `color-mix(in srgb, var(--background-primary) ${currentPct}%, transparent)`;
+            if (this.dragBar) {
+                this.dragBar.style.background = `color-mix(in srgb, var(--background-secondary) ${currentPct}%, transparent)`;
+            }
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-weight: bold;
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-size: 11px;
+        `;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        // Omnidirectional Resize Grab Handles
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `
+                position: absolute;
+                z-index: 100000;
+                user-select: none;
+                ${styleCss}
+            `;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        // Borders
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+
+        // Corners
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null;
+        let activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `
+                position: fixed; inset: 0;
+                z-index: 999999;
+                background: transparent;
+                cursor: ${cursor};
+            `;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = 'none';
+            });
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { 
+                this._dragOverlay.remove(); 
+                this._dragOverlay = null; 
+            }
+            const currentDoc = getActiveDoc();
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = '';
+            });
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction;
+            startX = e.clientX;
+            startY = e.clientY;
+            
+            const r = container.getBoundingClientRect();
+            startLeft = r.left;
+            startTop = r.top;
+            startW = r.width;
+            startH = r.height;
+            
+            e.preventDefault();
+            e.stopPropagation();
+            showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+
+                let newW = startW;
+                let newH = startH;
+                let newLeft = startLeft;
+                let newTop = startTop;
+
+                // Horizontal Calculations
+                if (activeHandleDir.includes('e')) {
+                    newW = Math.max(250, startW + dx);
+                } else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) {
+                        newLeft = startLeft + dx;
+                    }
+                }
+
+                // Vertical Calculations
+                if (activeHandleDir.includes('s')) {
+                    newH = Math.max(200, startH + dy);
+                } else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) {
+                        newTop = startTop + dy;
+                    }
+                }
+
+                container.style.width = newW + 'px';
+                container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px';
+                container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { 
+            mode = null; 
+            activeHandleDir = null; 
+            removeOverlay(); 
+        };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top;
+            e.preventDefault();
+            showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            // Save scroller offset position data before layout collapses
+            this._saveScrollPositions();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            // Calculate right-aligned shift
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; // Save original left style
+
+            // Lock height of inner tab content container to prevent CodeMirror from triggering layout reflow
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'none';
+            }
+
+            // Collapse Chrome UI Elements
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0';
+                this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center';
+                this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                `;
+            }
+
+            // Compact layout size directly on parent container (only show the minimize button)
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+
+            // Shift left border to right-align the minimized widget
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'none');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐';
+                this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 4px;
+                    background: var(--background-modifier-border);
+                    font-size: 11px;
+                    line-height: 1;
+                    box-sizing: border-box;
+                    font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            // Restore Chrome Layout Components
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            // Restore left edge to its original place
+            if (this._savedLeftVal) {
+                this.floatingContainer.style.left = this._savedLeftVal;
+            }
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px';
+                this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center';
+                this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-left: auto;
+                `;
+            }
+
+            // Unlock and return height control to normal flex values
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'block');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−';
+                this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer;
+                    padding: 0 4px;
+                    font-weight: bold;
+                    font-size: 12px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: none;
+                    width: auto;
+                    height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) {
+                this._switchTab(this.activeLeafIndex);
+            }
+
+            // Restore scroll positions once rendering settles
+            setTimeout(() => {
+                this._restoreScrollPositions();
+            }, 150);
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) {
+            this._resizeObserver.disconnect();
+            this._resizeObserver = null;
+        }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null;
+            this._globalUpHandler   = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) {
+            this._dragOverlay.remove();
+            this._dragOverlay = null;
+        }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px';
+                this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                // Return cached restored left coordinates upon close if currently minimized
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove();
+            this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                const viewState = leaf.getViewState();
+                const type = viewState.type;
+                let pathOrUrl = null;
+                if (type === 'markdown' && leafToClose.view?.file) {
+                    pathOrUrl = leafToClose.view.file.path;
+                } else if (type === 'webviewer') {
+                    pathOrUrl = viewState.state?.url;
+                }
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => {
+                try {
+                    leaf.detach();
+                } catch (_) {}
+            });
+            this.floatingLeaves = [];
+            this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        // Clean up and restore default getLeaf interceptor safely
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try {
+                const ws = this.app.workspace;
+                this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false });
+            } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V18
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() {
+        return this.app.vault.getFiles(); 
+    }
+
+    getItemText(file) {
+        return file.path; 
+    }
+
+    onChooseItem(file, evt) {
+        this.onSelect(file);
+    }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => {
+                    this.value = value;
+                });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) {
+            setTimeout(() => inputEl.focus(), 50);
+        }
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .setDesc("Path relative to vault root")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     // Holds active tab leaf references
+        this.activeLeafIndex      = 0;      // Track current active index
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     // null until user picks a file once
+        this._prevActiveLeaf    = null;     // background leaf active before we opened
+        this._origSetActiveLeaf = null;     // real setActiveLeaf, intercepted for float lifetime
+        this._origGetLeaf       = null;     // real getLeaf, intercepted for routing scripts internally
+        this._targetWin         = null;     // window context where the float is currently attached
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;     // Tracks blur events to safely revert activeLeaf
+        this._globalClickHandler = null;    // Capture phase link clicks
+        this._keydownHandler     = null;    // High-priority capture phase tab closing shortcut
+        this._globalMousedownHandler = null; // High-priority pointer interaction capture
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    // Flag to suppress focus changes during window-swapping
+        this._isOpening         = false;    // Lock to completely prevent rapid toggling race conditions
+        this._isMinimized       = false;    // Keep track of collapse status
+        this._focusListeners    = [];       // Cache registry of native focus hooks for cleanup
+        this._resizeHandles     = [];       // Cache multi-edge resize handles
+        this._closedTabsHistory = [];       // List history of closed tabs
+        this.opacityValue       = '0.95';   // Initial opacity slider context
+
+        // State persistence cache across toggles
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    // Cache for right-alignment restoration coordinates
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];       // Stores scroll heights before minimization
+        this._isVaporActive      = false;    // Tracks active interaction focus state
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        // Remove injected style elements
+        const styleId = 'vapornote-translucency-style';
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+        windows.forEach(win => {
+            try {
+                const el = win.document.getElementById(styleId);
+                if (el) el.remove();
+            } catch (_) {}
+        });
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) {
+                        bwin.off('focus', listener);
+                    } else if (win && listener) {
+                        win.removeEventListener('focus', listener);
+                    }
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try {
+                        if (bwin && listener) bwin.off('focus', listener);
+                    } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _injectStyles(doc) {
+        if (!doc) return;
+        const styleId = 'vapornote-translucency-style';
+        if (doc.getElementById(styleId)) return;
+
+        const style = doc.createElement('style');
+        style.id = styleId;
+        style.textContent = `
+            .vapornote-container .workspace-leaf,
+            .vapornote-container .workspace-leaf-content,
+            .vapornote-container .view-content,
+            .vapornote-container .markdown-source-view,
+            .vapornote-container .markdown-preview-view,
+            .vapornote-container .cm-scroller {
+                background-color: transparent !important;
+                background: transparent !important;
+            }
+        `;
+        doc.head.appendChild(style);
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+        const doc = this._targetWin?.document || activeDocument;
+        const activeEl = doc.activeElement;
+
+        // 1. Check if the active element is inside an Obsidian modal (e.g. SmartWebSearch or command palette)
+        const insideModal = activeEl?.closest('.modal-container');
+        if (insideModal) {
+            const activeLeaf = this.app.workspace.activeLeaf;
+            if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+                return true;
+            }
+            return false;
+        }
+
+        // 2. Check if a background webview is actively focused
+        if (activeEl && activeEl.tagName === 'WEBVIEW' && !this.floatingContainer.contains(activeEl)) {
+            return false;
+        }
+
+        // 3. Check if the active element is explicitly inside the floating note container
+        const hasDomFocus = this.floatingContainer.contains(activeEl) ||
+            this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl));
+        if (hasDomFocus) return true;
+
+        // 4. Check if the active workspace leaf belongs to VaporNote
+        const activeLeaf = this.app.workspace.activeLeaf;
+        if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+            // If the DOM focus has moved to an explicit background element, we are NOT focused on VaporNote
+            const isNeutralElement = !activeEl || activeEl === doc.body || activeEl === doc.documentElement;
+            if (!isNeutralElement) {
+                const insideVapor = this.floatingContainer.contains(activeEl) || 
+                                    this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl));
+                if (!insideVapor) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        return false;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            container.classList.add('vapornote-container');
+            this.floatingContainer = container;
+            this._injectStyles(doc);
+            this._styleContainer(container);
+
+            // Build Tab Switcher bar container (nested inside dragBar)
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex;
+                align-items: center;
+                overflow-x: auto;
+                overflow-y: hidden;
+                height: 100%;
+                flex: 1;
+                margin-left: 12px;
+                margin-right: 12px;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            // 1. Build Header Controls, Tabs list, and Buttons Group
+            this._buildChrome(container);
+
+            // 2. Content layout utilizing standard layout container styling
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                min-height: 0;
+                overflow: hidden;
+                height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    ws.activeLeaf = targetLeaf;
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            // Intercept app.workspace.getLeaf to route external scripts internally
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && (newSplit === 'tab' || newSplit === true)) {
+                    const leaf = new WorkspaceLeaf(this.app);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) origDetach();
+                        else this._assertDOMPosition();
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        ws.activeLeaf = leaf;
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1',
+                        minHeight: '0',
+                        height: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    // Consolidated switch and focus assignment
+                    this._switchTab(this.activeLeafIndex);
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            // Global capture-phase click handler (Intercepts browser router to load pages locally)
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer',
+                                state: { url: href, navigate: true },
+                                active: true
+                            }).then(() => {
+                                this._renderTabs();
+                            });
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            // Active frame capture mouse state tracking
+            this._isVaporActive = true;
+            this._globalMousedownHandler = (e) => {
+                if (this.floatingContainer && this.floatingContainer.contains(e.target)) {
+                    this._isVaporActive = true;
+                } else {
+                    this._isVaporActive = false;
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            // High-priority window event listener to capture shortcuts securely
+            this._keydownHandler = (e) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (!isVaporFocused) return;
+
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                if (isCmdOrCtrl && isShift && key === 't') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                }
+                else if (isCmdOrCtrl && key === 'w') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this._closeTab(this.activeLeafIndex);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) ws.activeLeaf = activeLeaf; 
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating) return;
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) {
+                    return;
+                }
+                
+                // If focus is temporarily lost (e.g., during tab closure or DOM changes), 
+                // do not revert activeLeaf to the background. Only revert if focus explicitly 
+                // moves to a valid background focusable element.
+                const currentDoc = this._targetWin?.document || activeDocument;
+                if (!newFocusTarget || newFocusTarget === currentDoc.body || newFocusTarget === currentDoc.documentElement) {
+                    return;
+                }
+                
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (ws.activeLeaf === activeLeaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            // Reconstruct tabs layout from cached toggle state
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) {
+                    await this._addNewTab('file', path);
+                } else {
+                    await this._addNewTab('empty');
+                }
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1',
+                minHeight: '0',
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                overflow: 'hidden'
+            });
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer',
+                    state: { url: pathOrUrl, navigate: true },
+                    active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            ws.activeLeaf = leaf;
+        });
+
+        this.floatingLeaves.push(leaf);
+        this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+        this._switchTab(this.activeLeafIndex);
+        this._hookWebviews();
+    }
+
+    _switchTab(index) {
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        this.activeLeafIndex = index;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (idx === index) {
+                Object.assign(leaf.containerEl.style, {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    flex: '1',
+                    height: '100%',
+                    minHeight: '0',
+                    overflow: 'hidden'
+                });
+                
+                this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                leaf.containerEl.focus();
+                
+                // Defensively force active view state focus after async modal closures
+                setTimeout(() => {
+                    if (this.floatingLeaves && this.floatingLeaves[this.activeLeafIndex] === leaf) {
+                        this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                        leaf.containerEl.focus();
+                        const cmContent = leaf.containerEl.querySelector('.cm-content');
+                        if (cmContent) {
+                            cmContent.focus();
+                        } else {
+                            const webview = leaf.containerEl.querySelector('webview');
+                            if (webview) webview.focus();
+                        }
+                    }
+                }, 100);
+
+                try { leaf.view?.onShow?.(); } catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            } else {
+                leaf.containerEl.style.display = 'none';
+            }
+        });
+
+        const activeLeaf = this.floatingLeaves[index];
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+            this.savedFilePath = activeLeaf.view.file.path;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index) {
+        if (!this.floatingLeaves) return;
+
+        const leafToClose = this.floatingLeaves[index];
+        this._allowDetach = true;
+        try {
+            leafToClose.detach();
+        } catch (_) {}
+        this._allowDetach = false;
+
+        // Push serialization details to reopening history cache
+        const viewState = leafToClose.getViewState();
+        const type = viewState.type;
+        let pathOrUrl = null;
+        if (type === 'markdown' && leafToClose.view?.file) {
+            pathOrUrl = leafToClose.view.file.path;
+        } else if (type === 'webviewer') {
+            pathOrUrl = viewState.state?.url;
+        }
+        if (!this._closedTabsHistory) this._closedTabsHistory = [];
+        this._closedTabsHistory.push({ type, pathOrUrl });
+        if (this._closedTabsHistory.length > 30) {
+            this._closedTabsHistory.shift(); 
+        }
+
+        // Clear DOM structure explicitly to prevent layout shrinking
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    reopenClosedTab() {
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        const lastTab = this._closedTabsHistory.pop();
+        
+        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+        const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+        
+        if (isEmpty) {
+            this._closeTab(this.activeLeafIndex);
+        }
+        
+        if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+            this._addNewTab('file', lastTab.pathOrUrl);
+        } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+            this._addNewTab('web', lastTab.pathOrUrl);
+        } else {
+            this._addNewTab('empty');
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) {
+            nextIdx = 0; 
+        } else if (nextIdx < 0) {
+            nextIdx = this.floatingLeaves.length - 1; 
+        }
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (hasProtocol) {
+                    // Keep as-is
+                } else if (isDomain) {
+                    targetUrl = 'https://' + targetUrl;
+                } else {
+                    targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+                }
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer',
+                        state: { url: targetUrl, navigate: true },
+                        active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveScrollPositions() {
+        this._savedScrolls = [];
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({
+                    index: index,
+                    top: el.scrollTop,
+                    left: el.scrollLeft
+                });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreScrollPositions() {
+        if (!this._savedScrolls) return;
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = this._savedScrolls[idx];
+            if (!scrollStates) return;
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollStates.forEach(state => {
+                const el = scrollers[state.index];
+                if (el) {
+                    el.scrollTop = state.top;
+                    el.scrollLeft = state.left;
+                }
+            });
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            const injectScript = () => {
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowRight') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowLeft') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('dom-ready', injectScript);
+            webview.addEventListener('did-navigate', injectScript);
+            webview.addEventListener('did-frame-finish-load', injectScript);
+
+            webview.addEventListener('console-message', (e) => {
+                if (e.message === 'VAPORNOTE_CMD_W') {
+                    this._closeTab(this.activeLeafIndex);
+                } else if (e.message === 'VAPORNOTE_CMD_T') {
+                    this.reopenClosedTab();
+                } else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') {
+                    this.navigateTab(1);
+                } else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') {
+                    this.navigateTab(-1);
+                }
+            });
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px;
+                font-size: 10px;
+                cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'};
+                height: 24px;
+                box-sizing: border-box;
+                margin-right: 4px;
+                flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap;
+                max-width: 90px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer;
+                font-size: 8px;
+                opacity: 0.5;
+                padding: 2px;
+                line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this._closeTab(idx);
+            });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => {
+                this._switchTab(idx);
+            });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') {
+                        parent.recomputeLayout();
+                    }
+                }
+            }
+            if (leaf.containerEl.parentElement) {
+                leaf.containerEl.remove();
+            }
+            // Trigger layout event to clean up layout artifacts/misalignments in other windows
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try {
+                this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        try {
+            if (this.floatingContainer.parentElement) {
+                this.floatingContainer.remove();
+            }
+        } catch (_) {}
+
+        this._targetWin = newWin;
+
+        const doc = newWin.document;
+        this._injectStyles(doc);
+        doc.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.addEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try {
+                this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        this.floatingLeaves.forEach((leaf) => {
+            try { leaf.view?.onShow?.(); }        catch (_) {}
+            try { leaf.view?.editor?.refresh(); } catch (_) {}
+        });
+
+        setTimeout(() => {
+            this._isMigrating = false;
+        }, 150);
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1',
+                    minHeight: '0',
+                    height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column',
+                    overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    `color-mix(in srgb, var(--background-primary) ${pct}%, transparent)`,
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'background-color 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const pct = Math.round(parseFloat(this.opacityValue) * 100);
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: color-mix(in srgb, var(--background-secondary) ${pct}%, transparent);
+            padding: 8px 12px;
+            cursor: move;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            flex-shrink: 0;
+            height: 36px;
+            box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) {
+            dragBar.appendChild(this.tabBar);
+        }
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        `;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px;
+            height: 3px;
+            cursor: pointer;
+            margin: 0;
+            accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            const currentPct = Math.round(parseFloat(this.opacityValue) * 100);
+            container.style.background = `color-mix(in srgb, var(--background-primary) ${currentPct}%, transparent)`;
+            if (this.dragBar) {
+                this.dragBar.style.background = `color-mix(in srgb, var(--background-secondary) ${currentPct}%, transparent)`;
+            }
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-weight: bold;
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-size: 11px;
+        `;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        // Omnidirectional Resize Grab Handles
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `
+                position: absolute;
+                z-index: 100000;
+                user-select: none;
+                ${styleCss}
+            `;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        // Borders
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+
+        // Corners
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null;
+        let activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `
+                position: fixed; inset: 0;
+                z-index: 999999;
+                background: transparent;
+                cursor: ${cursor};
+            `;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = 'none';
+            });
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { 
+                this._dragOverlay.remove(); 
+                this._dragOverlay = null; 
+            }
+            const currentDoc = getActiveDoc();
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = '';
+            });
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction;
+            startX = e.clientX;
+            startY = e.clientY;
+            
+            const r = container.getBoundingClientRect();
+            startLeft = r.left;
+            startTop = r.top;
+            startW = r.width;
+            startH = r.height;
+            
+            e.preventDefault();
+            e.stopPropagation();
+            showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+
+                let newW = startW;
+                let newH = startH;
+                let newLeft = startLeft;
+                let newTop = startTop;
+
+                // Horizontal Calculations
+                if (activeHandleDir.includes('e')) {
+                    newW = Math.max(250, startW + dx);
+                } else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) {
+                        newLeft = startLeft + dx;
+                    }
+                }
+
+                // Vertical Calculations
+                if (activeHandleDir.includes('s')) {
+                    newH = Math.max(200, startH + dy);
+                } else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) {
+                        newTop = startTop + dy;
+                    }
+                }
+
+                container.style.width = newW + 'px';
+                container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px';
+                container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { 
+            mode = null; 
+            activeHandleDir = null; 
+            removeOverlay(); 
+        };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top;
+            e.preventDefault();
+            showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            // Save scroller offset position data before layout collapses
+            this._saveScrollPositions();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            // Calculate right-aligned shift
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; // Save original left style
+
+            // Lock height of inner tab content container to prevent CodeMirror from triggering layout reflow
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'none';
+            }
+
+            // Collapse Chrome UI Elements
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0';
+                this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center';
+                this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                `;
+            }
+
+            // Compact layout size directly on parent container (only show the minimize button)
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+
+            // Shift left border to right-align the minimized widget
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'none');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐';
+                this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 4px;
+                    background: var(--background-modifier-border);
+                    font-size: 11px;
+                    line-height: 1;
+                    box-sizing: border-box;
+                    font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            // Restore Chrome Layout Components
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            // Restore left edge to its original place
+            if (this._savedLeftVal) {
+                this.floatingContainer.style.left = this._savedLeftVal;
+            }
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px';
+                this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center';
+                this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-left: auto;
+                `;
+            }
+
+            // Unlock and return height control to normal flex values
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'block');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−';
+                this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer;
+                    padding: 0 4px;
+                    font-weight: bold;
+                    font-size: 12px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: none;
+                    width: auto;
+                    height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) {
+                this._switchTab(this.activeLeafIndex);
+            }
+
+            // Restore scroll positions once rendering settles
+            setTimeout(() => {
+                this._restoreScrollPositions();
+            }, 150);
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) {
+            this._resizeObserver.disconnect();
+            this._resizeObserver = null;
+        }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null;
+            this._globalUpHandler   = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) {
+            this._dragOverlay.remove();
+            this._dragOverlay = null;
+        }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px';
+                this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                // Return cached restored left coordinates upon close if currently minimized
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove();
+            this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                const viewState = leaf.getViewState();
+                const type = viewState.type;
+                let pathOrUrl = null;
+                if (type === 'markdown' && leafToClose.view?.file) {
+                    pathOrUrl = leafToClose.view.file.path;
+                } else if (type === 'webviewer') {
+                    pathOrUrl = viewState.state?.url;
+                }
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => {
+                try {
+                    leaf.detach();
+                } catch (_) {}
+            });
+            this.floatingLeaves = [];
+            this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        // Clean up and restore default getLeaf interceptor safely
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try {
+                const ws = this.app.workspace;
+                this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false });
+            } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V16
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() {
+        return this.app.vault.getFiles(); 
+    }
+
+    getItemText(file) {
+        return file.path; 
+    }
+
+    onChooseItem(file, evt) {
+        this.onSelect(file);
+    }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => {
+                    this.value = value;
+                });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) {
+            setTimeout(() => inputEl.focus(), 50);
+        }
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .setDesc("Path relative to vault root")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     // Holds active tab leaf references
+        this.activeLeafIndex      = 0;      // Track current active index
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     // null until user picks a file once
+        this._prevActiveLeaf    = null;     // background leaf active before we opened
+        this._origSetActiveLeaf = null;     // real setActiveLeaf, intercepted for float lifetime
+        this._origGetLeaf       = null;     // real getLeaf, intercepted for routing scripts internally
+        this._targetWin         = null;     // window context where the float is currently attached
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;     // Tracks blur events to safely revert activeLeaf
+        this._globalClickHandler = null;    // Capture phase link clicks
+        this._keydownHandler     = null;    // High-priority capture phase tab closing shortcut
+        this._globalMousedownHandler = null; // High-priority pointer interaction capture
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    // Flag to suppress focus changes during window-swapping
+        this._isOpening         = false;    // Lock to completely prevent rapid toggling race conditions
+        this._isMinimized       = false;    // Keep track of collapse status
+        this._focusListeners    = [];       // Cache registry of native focus hooks for cleanup
+        this._resizeHandles     = [];       // Cache multi-edge resize handles
+        this._closedTabsHistory = [];       // List history of closed tabs
+        this.opacityValue       = '0.95';   // Initial opacity slider context
+
+        // State persistence cache across toggles
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    // Cache for right-alignment restoration coordinates
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];       // Stores scroll heights before minimization
+        this._isVaporActive      = false;    // Tracks active interaction focus state
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) {
+                        bwin.off('focus', listener);
+                    } else if (win && listener) {
+                        win.removeEventListener('focus', listener);
+                    }
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try {
+                        if (bwin && listener) bwin.off('focus', listener);
+                    } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+        const doc = this._targetWin?.document || activeDocument;
+
+        // Context check 1: If a background webview is actively focused, VaporNote is NOT focused
+        if (doc.activeElement && doc.activeElement.tagName === 'WEBVIEW' && !this.floatingContainer.contains(doc.activeElement)) {
+            return false;
+        }
+
+        // Context check 2: If the active workspace leaf belongs to VaporNote, keep focus routed locally
+        const activeLeaf = this.app.workspace.activeLeaf;
+        if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+            return true;
+        }
+
+        const hasDomFocus = this.floatingContainer.contains(doc.activeElement) ||
+            this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(doc.activeElement));
+
+        if (hasDomFocus) return true;
+
+        // Fallback checks pointer activity (when clicking non-input chrome/tabs)
+        return !!this._isVaporActive;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            this.floatingContainer = container;
+            this._styleContainer(container);
+            container.style.opacity = this.opacityValue;
+
+            // Build Tab Switcher bar container (nested inside dragBar)
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex;
+                align-items: center;
+                overflow-x: auto;
+                overflow-y: hidden;
+                height: 100%;
+                flex: 1;
+                margin-left: 12px;
+                margin-right: 12px;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            // 1. Build Header Controls, Tabs list, and Buttons Group
+            this._buildChrome(container);
+
+            // 2. Content layout utilizing standard layout container styling
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                min-height: 0;
+                overflow: hidden;
+                height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    ws.activeLeaf = targetLeaf;
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            // Intercept app.workspace.getLeaf to route external scripts internally
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && (newSplit === 'tab' || newSplit === true)) {
+                    const leaf = new WorkspaceLeaf(this.app);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) origDetach();
+                        else this._assertDOMPosition();
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        ws.activeLeaf = leaf;
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1',
+                        minHeight: '0',
+                        height: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    // Consolidated switch and focus assignment
+                    this._switchTab(this.activeLeafIndex);
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            // Global capture-phase click handler (Intercepts browser router to load pages locally)
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer',
+                                state: { url: href, navigate: true },
+                                active: true
+                            }).then(() => {
+                                this._renderTabs();
+                            });
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            // Active frame capture mouse state tracking
+            this._isVaporActive = true;
+            this._globalMousedownHandler = (e) => {
+                if (this.floatingContainer && this.floatingContainer.contains(e.target)) {
+                    this._isVaporActive = true;
+                } else {
+                    this._isVaporActive = false;
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            // High-priority window event listener to capture shortcuts securely
+            this._keydownHandler = (e) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (!isVaporFocused) return;
+
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                if (isCmdOrCtrl && isShift && key === 't') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                }
+                else if (isCmdOrCtrl && key === 'w') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this._closeTab(this.activeLeafIndex);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) ws.activeLeaf = activeLeaf; 
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating) return;
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) {
+                    return;
+                }
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (ws.activeLeaf === activeLeaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            // Reconstruct tabs layout from cached toggle state
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) {
+                    await this._addNewTab('file', path);
+                } else {
+                    await this._addNewTab('empty');
+                }
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1',
+                minHeight: '0',
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                overflow: 'hidden'
+            });
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer',
+                    state: { url: pathOrUrl, navigate: true },
+                    active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            ws.activeLeaf = leaf;
+        });
+
+        this.floatingLeaves.push(leaf);
+        this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+        this._switchTab(this.activeLeafIndex);
+        this._hookWebviews();
+    }
+
+    _switchTab(index) {
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        this.activeLeafIndex = index;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (idx === index) {
+                Object.assign(leaf.containerEl.style, {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    flex: '1',
+                    height: '100%',
+                    minHeight: '0',
+                    overflow: 'hidden'
+                });
+                
+                this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                leaf.containerEl.focus();
+                
+                // Defensively force active view state focus after async modal closures
+                setTimeout(() => {
+                    if (this.floatingLeaves && this.floatingLeaves[this.activeLeafIndex] === leaf) {
+                        this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                        leaf.containerEl.focus();
+                        const cmContent = leaf.containerEl.querySelector('.cm-content');
+                        if (cmContent) {
+                            cmContent.focus();
+                        } else {
+                            const webview = leaf.containerEl.querySelector('webview');
+                            if (webview) webview.focus();
+                        }
+                    }
+                }, 100);
+
+                try { leaf.view?.onShow?.(); } catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            } else {
+                leaf.containerEl.style.display = 'none';
+            }
+        });
+
+        const activeLeaf = this.floatingLeaves[index];
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+            this.savedFilePath = activeLeaf.view.file.path;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index) {
+        if (!this.floatingLeaves) return;
+
+        const leafToClose = this.floatingLeaves[index];
+        this._allowDetach = true;
+        try {
+            leafToClose.detach();
+        } catch (_) {}
+        this._allowDetach = false;
+
+        // Push serialization details to reopening history cache
+        const viewState = leafToClose.getViewState();
+        const type = viewState.type;
+        let pathOrUrl = null;
+        if (type === 'markdown' && leafToClose.view?.file) {
+            pathOrUrl = leafToClose.view.file.path;
+        } else if (type === 'webviewer') {
+            pathOrUrl = viewState.state?.url;
+        }
+        if (!this._closedTabsHistory) this._closedTabsHistory = [];
+        this._closedTabsHistory.push({ type, pathOrUrl });
+        if (this._closedTabsHistory.length > 30) {
+            this._closedTabsHistory.shift(); 
+        }
+
+        // Clear DOM structure explicitly to prevent layout shrinking
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    reopenClosedTab() {
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        const lastTab = this._closedTabsHistory.pop();
+        
+        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+        const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+        
+        if (isEmpty) {
+            this._closeTab(this.activeLeafIndex);
+        }
+        
+        if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+            this._addNewTab('file', lastTab.pathOrUrl);
+        } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+            this._addNewTab('web', lastTab.pathOrUrl);
+        } else {
+            this._addNewTab('empty');
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) {
+            nextIdx = 0; 
+        } else if (nextIdx < 0) {
+            nextIdx = this.floatingLeaves.length - 1; 
+        }
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (hasProtocol) {
+                    // Keep as-is
+                } else if (isDomain) {
+                    targetUrl = 'https://' + targetUrl;
+                } else {
+                    targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+                }
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer',
+                        state: { url: targetUrl, navigate: true },
+                        active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveScrollPositions() {
+        this._savedScrolls = [];
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({
+                    index: index,
+                    top: el.scrollTop,
+                    left: el.scrollLeft
+                });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreScrollPositions() {
+        if (!this._savedScrolls) return;
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = this._savedScrolls[idx];
+            if (!scrollStates) return;
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollStates.forEach(state => {
+                const el = scrollers[state.index];
+                if (el) {
+                    el.scrollTop = state.top;
+                    el.scrollLeft = state.left;
+                }
+            });
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            const injectScript = () => {
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowRight') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowLeft') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('dom-ready', injectScript);
+            webview.addEventListener('did-navigate', injectScript);
+            webview.addEventListener('did-frame-finish-load', injectScript);
+
+            webview.addEventListener('console-message', (e) => {
+                if (e.message === 'VAPORNOTE_CMD_W') {
+                    this._closeTab(this.activeLeafIndex);
+                } else if (e.message === 'VAPORNOTE_CMD_T') {
+                    this.reopenClosedTab();
+                } else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') {
+                    this.navigateTab(1);
+                } else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') {
+                    this.navigateTab(-1);
+                }
+            });
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px;
+                font-size: 10px;
+                cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'};
+                height: 24px;
+                box-sizing: border-box;
+                margin-right: 4px;
+                flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap;
+                max-width: 90px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer;
+                font-size: 8px;
+                opacity: 0.5;
+                padding: 2px;
+                line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this._closeTab(idx);
+            });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => {
+                this._switchTab(idx);
+            });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') {
+                        parent.recomputeLayout();
+                    }
+                }
+            }
+            if (leaf.containerEl.parentElement) {
+                leaf.containerEl.remove();
+            }
+            // Trigger layout event to clean up layout artifacts/misalignments in other windows
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try {
+                this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        try {
+            if (this.floatingContainer.parentElement) {
+                this.floatingContainer.remove();
+            }
+        } catch (_) {}
+
+        this._targetWin = newWin;
+
+        const doc = newWin.document;
+        doc.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.addEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try {
+                this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        this.floatingLeaves.forEach((leaf) => {
+            try { leaf.view?.onShow?.(); }        catch (_) {}
+            try { leaf.view?.editor?.refresh(); } catch (_) {}
+        });
+
+        setTimeout(() => {
+            this._isMigrating = false;
+        }, 150);
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1',
+                    minHeight: '0',
+                    height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column',
+                    overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    'var(--background-primary)',
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'opacity 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: var(--background-secondary);
+            padding: 8px 12px;
+            cursor: move;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            flex-shrink: 0;
+            height: 36px;
+            box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) {
+            dragBar.appendChild(this.tabBar);
+        }
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        `;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px;
+            height: 3px;
+            cursor: pointer;
+            margin: 0;
+            accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            container.style.opacity = this.opacityValue;
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-weight: bold;
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-size: 11px;
+        `;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        // Omnidirectional Resize Grab Handles
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `
+                position: absolute;
+                z-index: 100000;
+                user-select: none;
+                ${styleCss}
+            `;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        // Borders
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+
+        // Corners
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null;
+        let activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `
+                position: fixed; inset: 0;
+                z-index: 999999;
+                background: transparent;
+                cursor: ${cursor};
+            `;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = 'none';
+            });
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { 
+                this._dragOverlay.remove(); 
+                this._dragOverlay = null; 
+            }
+            const currentDoc = getActiveDoc();
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = '';
+            });
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction;
+            startX = e.clientX;
+            startY = e.clientY;
+            
+            const r = container.getBoundingClientRect();
+            startLeft = r.left;
+            startTop = r.top;
+            startW = r.width;
+            startH = r.height;
+            
+            e.preventDefault();
+            e.stopPropagation();
+            showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+
+                let newW = startW;
+                let newH = startH;
+                let newLeft = startLeft;
+                let newTop = startTop;
+
+                // Horizontal Calculations
+                if (activeHandleDir.includes('e')) {
+                    newW = Math.max(250, startW + dx);
+                } else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) {
+                        newLeft = startLeft + dx;
+                    }
+                }
+
+                // Vertical Calculations
+                if (activeHandleDir.includes('s')) {
+                    newH = Math.max(200, startH + dy);
+                } else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) {
+                        newTop = startTop + dy;
+                    }
+                }
+
+                container.style.width = newW + 'px';
+                container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px';
+                container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { 
+            mode = null; 
+            activeHandleDir = null; 
+            removeOverlay(); 
+        };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top;
+            e.preventDefault();
+            showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            // Save scroller offset position data before layout collapses
+            this._saveScrollPositions();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            // Calculate right-aligned shift
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; // Save original left style
+
+            // Lock height of inner tab content container to prevent CodeMirror from triggering layout reflow
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'none';
+            }
+
+            // Collapse Chrome UI Elements
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0';
+                this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center';
+                this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                `;
+            }
+
+            // Compact layout size directly on parent container (only show the minimize button)
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+
+            // Shift left border to right-align the minimized widget
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'none');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐';
+                this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 4px;
+                    background: var(--background-modifier-border);
+                    font-size: 11px;
+                    line-height: 1;
+                    box-sizing: border-box;
+                    font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            // Restore Chrome Layout Components
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            // Restore left edge to its original place
+            if (this._savedLeftVal) {
+                this.floatingContainer.style.left = this._savedLeftVal;
+            }
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px';
+                this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center';
+                this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-left: auto;
+                `;
+            }
+
+            // Unlock and return height control to normal flex values
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'block');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−';
+                this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer;
+                    padding: 0 4px;
+                    font-weight: bold;
+                    font-size: 12px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: none;
+                    width: auto;
+                    height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) {
+                this._switchTab(this.activeLeafIndex);
+            }
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) {
+            this._resizeObserver.disconnect();
+            this._resizeObserver = null;
+        }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null;
+            this._globalUpHandler   = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) {
+            this._dragOverlay.remove();
+            this._dragOverlay = null;
+        }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px';
+                this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                // Return cached restored left coordinates upon close if currently minimized
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove();
+            this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                const viewState = leaf.getViewState();
+                const type = viewState.type;
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) {
+                    pathOrUrl = leaf.view.file.path;
+                } else if (type === 'webviewer') {
+                    pathOrUrl = viewState.state?.url;
+                }
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => {
+                try {
+                    leaf.detach();
+                } catch (_) {}
+            });
+            this.floatingLeaves = [];
+            this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        // Clean up and restore default getLeaf interceptor safely
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try {
+                const ws = this.app.workspace;
+                this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false });
+            } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V15
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() {
+        return this.app.vault.getFiles(); 
+    }
+
+    getItemText(file) {
+        return file.path; 
+    }
+
+    onChooseItem(file, evt) {
+        this.onSelect(file);
+    }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => {
+                    this.value = value;
+                });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) {
+            setTimeout(() => inputEl.focus(), 50);
+        }
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .setDesc("Path relative to vault root")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { 
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.onSubmit(this.value); 
+                        this.close(); 
+                    }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     // Holds active tab leaf references
+        this.activeLeafIndex      = 0;      // Track current active index
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     // null until user picks a file once
+        this._prevActiveLeaf    = null;     // background leaf active before we opened
+        this._origSetActiveLeaf = null;     // real setActiveLeaf, intercepted for float lifetime
+        this._origGetLeaf       = null;     // real getLeaf, intercepted for routing scripts internally
+        this._targetWin         = null;     // window context where the float is currently attached
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;     // Tracks blur events to safely revert activeLeaf
+        this._globalClickHandler = null;    // Capture phase link clicks
+        this._keydownHandler     = null;    // High-priority capture phase tab closing shortcut
+        this._globalMousedownHandler = null; // High-priority pointer interaction capture
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    // Flag to suppress focus changes during window-swapping
+        this._isOpening         = false;    // Lock to completely prevent rapid toggling race conditions
+        this._isMinimized       = false;    // Keep track of collapse status
+        this._focusListeners    = [];       // Cache registry of native focus hooks for cleanup
+        this._resizeHandles     = [];       // Cache multi-edge resize handles
+        this._closedTabsHistory = [];       // List history of closed tabs
+        this.opacityValue       = '0.95';   // Initial opacity slider context
+
+        // State persistence cache across toggles
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedLeftVal       = null;    // Cache for right-alignment restoration coordinates
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+        this._savedScrolls       = [];       // Stores scroll heights before minimization
+        this._isVaporActive      = false;    // Tracks active interaction focus state
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) {
+                        bwin.off('focus', listener);
+                    } else if (win && listener) {
+                        win.removeEventListener('focus', listener);
+                    }
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try {
+                        if (bwin && listener) bwin.off('focus', listener);
+                    } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    _isVaporFocused() {
+        if (!this.floatingContainer) return false;
+        const doc = this._targetWin?.document || activeDocument;
+
+        // Context check 1: If a background webview is actively focused, VaporNote is NOT focused
+        if (doc.activeElement && doc.activeElement.tagName === 'WEBVIEW' && !this.floatingContainer.contains(doc.activeElement)) {
+            return false;
+        }
+
+        // Context check 2: If the active workspace leaf belongs to VaporNote, keep focus routed locally
+        const activeLeaf = this.app.workspace.activeLeaf;
+        if (activeLeaf && this.floatingLeaves && this.floatingLeaves.includes(activeLeaf)) {
+            return true;
+        }
+
+        const hasDomFocus = this.floatingContainer.contains(doc.activeElement) ||
+            this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(doc.activeElement));
+
+        if (hasDomFocus) return true;
+
+        // Fallback checks pointer activity (when clicking non-input chrome/tabs)
+        return !!this._isVaporActive;
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            this.floatingContainer = container;
+            this._styleContainer(container);
+            container.style.opacity = this.opacityValue;
+
+            // Build Tab Switcher bar container (nested inside dragBar)
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex;
+                align-items: center;
+                overflow-x: auto;
+                overflow-y: hidden;
+                height: 100%;
+                flex: 1;
+                margin-left: 12px;
+                margin-right: 12px;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            // 1. Build Header Controls, Tabs list, and Buttons Group
+            this._buildChrome(container);
+
+            // 2. Content layout utilizing standard layout container styling
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                min-height: 0;
+                overflow: hidden;
+                height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    ws.activeLeaf = targetLeaf;
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            // Intercept app.workspace.getLeaf to route external scripts internally
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (this._isOpen() && isVaporFocused && (newSplit === 'tab' || newSplit === true)) {
+                    const leaf = new WorkspaceLeaf(this.app);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) origDetach();
+                        else this._assertDOMPosition();
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        ws.activeLeaf = leaf;
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1',
+                        minHeight: '0',
+                        height: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    this.floatingLeaves.forEach((l, idx) => {
+                        l.containerEl.style.display = (idx === this.activeLeafIndex) ? 'flex' : 'none';
+                    });
+
+                    this._renderTabs();
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            // Global capture-phase click handler (Intercepts browser router to load pages locally)
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer',
+                                state: { url: href, navigate: true },
+                                active: true
+                            }).then(() => {
+                                this._renderTabs();
+                            });
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            // Active frame capture mouse state tracking
+            this._isVaporActive = true;
+            this._globalMousedownHandler = (e) => {
+                if (this.floatingContainer && this.floatingContainer.contains(e.target)) {
+                    this._isVaporActive = true;
+                } else {
+                    this._isVaporActive = false;
+                }
+            };
+            this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+
+            // High-priority window event listener to capture shortcuts securely
+            this._keydownHandler = (e) => {
+                const isVaporFocused = this._isVaporFocused();
+
+                if (!isVaporFocused) return;
+
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const isAlt = e.altKey;
+                const key = e.key.toLowerCase();
+
+                if (isCmdOrCtrl && isShift && key === 't') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                }
+                else if (isCmdOrCtrl && key === 'w') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this._closeTab(this.activeLeafIndex);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) ws.activeLeaf = activeLeaf; 
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating) return;
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) {
+                    return;
+                }
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (ws.activeLeaf === activeLeaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            // Reconstruct tabs layout from cached toggle state
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) {
+                    await this._addNewTab('file', path);
+                } else {
+                    await this._addNewTab('empty');
+                }
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = new WorkspaceLeaf(this.app);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1',
+                minHeight: '0',
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                overflow: 'hidden'
+            });
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer',
+                    state: { url: pathOrUrl, navigate: true },
+                    active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            ws.activeLeaf = leaf;
+        });
+
+        this.floatingLeaves.push(leaf);
+        this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+        this._switchTab(this.activeLeafIndex);
+        this._hookWebviews();
+    }
+
+    _switchTab(index) {
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        this.activeLeafIndex = index;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (idx === index) {
+                Object.assign(leaf.containerEl.style, {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    flex: '1',
+                    height: '100%',
+                    minHeight: '0',
+                    overflow: 'hidden'
+                });
+                
+                this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                leaf.containerEl.focus();
+                
+                try { leaf.view?.onShow?.(); } catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            } else {
+                leaf.containerEl.style.display = 'none';
+            }
+        });
+
+        const activeLeaf = this.floatingLeaves[index];
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+            this.savedFilePath = activeLeaf.view.file.path;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index) {
+        if (!this.floatingLeaves) return;
+
+        const leafToClose = this.floatingLeaves[index];
+        this._allowDetach = true;
+        try {
+            leafToClose.detach();
+        } catch (_) {}
+        this._allowDetach = false;
+
+        // Push serialization details to reopening history cache
+        const viewState = leafToClose.getViewState();
+        const type = viewState.type;
+        let pathOrUrl = null;
+        if (type === 'markdown' && leafToClose.view?.file) {
+            pathOrUrl = leafToClose.view.file.path;
+        } else if (type === 'webviewer') {
+            pathOrUrl = viewState.state?.url;
+        }
+        if (!this._closedTabsHistory) this._closedTabsHistory = [];
+        this._closedTabsHistory.push({ type, pathOrUrl });
+        if (this._closedTabsHistory.length > 30) {
+            this._closedTabsHistory.shift(); 
+        }
+
+        // Clear DOM structure explicitly to prevent layout shrinking
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    reopenClosedTab() {
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        const lastTab = this._closedTabsHistory.pop();
+        
+        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+        const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+        
+        if (isEmpty) {
+            this._closeTab(this.activeLeafIndex);
+        }
+        
+        if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+            this._addNewTab('file', lastTab.pathOrUrl);
+        } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+            this._addNewTab('web', lastTab.pathOrUrl);
+        } else {
+            this._addNewTab('empty');
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) {
+            nextIdx = 0; 
+        } else if (nextIdx < 0) {
+            nextIdx = this.floatingLeaves.length - 1; 
+        }
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (hasProtocol) {
+                    // Keep as-is
+                } else if (isDomain) {
+                    targetUrl = 'https://' + targetUrl;
+                } else {
+                    targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+                }
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer',
+                        state: { url: targetUrl, navigate: true },
+                        active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _saveScrollPositions() {
+        this._savedScrolls = [];
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = [];
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollers.forEach((el, index) => {
+                scrollStates.push({
+                    index: index,
+                    top: el.scrollTop,
+                    left: el.scrollLeft
+                });
+            });
+            this._savedScrolls[idx] = scrollStates;
+        });
+    }
+
+    _restoreScrollPositions() {
+        if (!this._savedScrolls) return;
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (!leaf || !leaf.containerEl) return;
+            const scrollStates = this._savedScrolls[idx];
+            if (!scrollStates) return;
+            const scrollers = leaf.containerEl.querySelectorAll('.cm-scroller, .markdown-preview-view, .view-content, .markdown-source-view');
+            scrollStates.forEach(state => {
+                const el = scrollers[state.index];
+                if (el) {
+                    el.scrollTop = state.top;
+                    el.scrollLeft = state.left;
+                }
+            });
+        });
+    }
+
+    _hookWebviews() {
+        if (!this.floatingContainer) return;
+        const webviews = this.floatingContainer.querySelectorAll('webview');
+        webviews.forEach(webview => {
+            if (webview._vaporHooked) return;
+            webview._vaporHooked = true;
+
+            const injectScript = () => {
+                webview.executeJavaScript(`
+                    if (!window._vaporNoteKeyHooked) {
+                        window._vaporNoteKeyHooked = true;
+                        window.addEventListener('keydown', (e) => {
+                            const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                            const isShift = e.shiftKey;
+                            const isAlt = e.altKey;
+                            const key = e.key.toLowerCase();
+                            
+                            if (isCmdOrCtrl && key === 'w') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_W');
+                            } else if (isCmdOrCtrl && isShift && key === 't') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_T');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowRight') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_NAV_NEXT');
+                            } else if (isCmdOrCtrl && isAlt && e.key === 'ArrowLeft') {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('VAPORNOTE_CMD_NAV_PREV');
+                            }
+                        }, true);
+                    }
+                `).catch(() => {});
+            };
+
+            webview.addEventListener('dom-ready', injectScript);
+            webview.addEventListener('did-navigate', injectScript);
+            webview.addEventListener('did-frame-finish-load', injectScript);
+
+            webview.addEventListener('console-message', (e) => {
+                if (e.message === 'VAPORNOTE_CMD_W') {
+                    this._closeTab(this.activeLeafIndex);
+                } else if (e.message === 'VAPORNOTE_CMD_T') {
+                    this.reopenClosedTab();
+                } else if (e.message === 'VAPORNOTE_CMD_NAV_NEXT') {
+                    this.navigateTab(1);
+                } else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') {
+                    this.navigateTab(-1);
+                }
+            });
+        });
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px;
+                font-size: 10px;
+                cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'};
+                height: 24px;
+                box-sizing: border-box;
+                margin-right: 4px;
+                flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap;
+                max-width: 90px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer;
+                font-size: 8px;
+                opacity: 0.5;
+                padding: 2px;
+                line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this._closeTab(idx);
+            });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => {
+                this._switchTab(idx);
+            });
+
+            this.tabBar.appendChild(tab);
+        });
+
+        this._hookWebviews();
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) {
+                    parent.children.splice(idx, 1);
+                    if (typeof parent.recomputeLayout === 'function') {
+                        parent.recomputeLayout();
+                    }
+                }
+            }
+            if (leaf.containerEl.parentElement) {
+                leaf.containerEl.remove();
+            }
+            // Trigger layout event to clean up layout artifacts/misalignments in other windows
+            this.app.workspace.trigger('layout-change');
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try {
+                this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        try {
+            if (this.floatingContainer.parentElement) {
+                this.floatingContainer.remove();
+            }
+        } catch (_) {}
+
+        this._targetWin = newWin;
+
+        const doc = newWin.document;
+        doc.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.addEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._globalMousedownHandler) {
+            try {
+                this._targetWin.addEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        this.floatingLeaves.forEach((leaf) => {
+            try { leaf.view?.onShow?.(); }        catch (_) {}
+            try { leaf.view?.editor?.refresh(); } catch (_) {}
+        });
+
+        setTimeout(() => {
+            this._isMigrating = false;
+        }, 150);
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1',
+                    minHeight: '0',
+                    height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column',
+                    overflow: 'hidden'
+                });
+            }
+        });
+
+        this._hookWebviews();
+    }
+
+    _styleContainer(el) {
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    'var(--background-primary)',
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'opacity 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: var(--background-secondary);
+            padding: 8px 12px;
+            cursor: move;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            flex-shrink: 0;
+            height: 36px;
+            box-sizing: border-box;
+        `;
+        this.dragBar = dragBar;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+        this.titleSpan = titleSpan;
+
+        if (this.tabBar) {
+            dragBar.appendChild(this.tabBar);
+        }
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        `;
+        this.controls = controls;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+        this.sliderLabel = sliderLabel;
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px;
+            height: 3px;
+            cursor: pointer;
+            margin: 0;
+            accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            container.style.opacity = this.opacityValue;
+        });
+        controls.appendChild(opacitySlider);
+        this.opacitySlider = opacitySlider;
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-weight: bold;
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-size: 11px;
+        `;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+        this.closeBtn = closeBtn;
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        // Omnidirectional Resize Grab Handles
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `
+                position: absolute;
+                z-index: 100000;
+                user-select: none;
+                ${styleCss}
+            `;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        // Borders
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+
+        // Corners
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null;
+        let activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `
+                position: fixed; inset: 0;
+                z-index: 999999;
+                background: transparent;
+                cursor: ${cursor};
+            `;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = 'none';
+            });
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { 
+                this._dragOverlay.remove(); 
+                this._dragOverlay = null; 
+            }
+            const currentDoc = getActiveDoc();
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = '';
+            });
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction;
+            startX = e.clientX;
+            startY = e.clientY;
+            
+            const r = container.getBoundingClientRect();
+            startLeft = r.left;
+            startTop = r.top;
+            startW = r.width;
+            startH = r.height;
+            
+            e.preventDefault();
+            e.stopPropagation();
+            showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+
+                let newW = startW;
+                let newH = startH;
+                let newLeft = startLeft;
+                let newTop = startTop;
+
+                // Horizontal Calculations
+                if (activeHandleDir.includes('e')) {
+                    newW = Math.max(250, startW + dx);
+                } else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) {
+                        newLeft = startLeft + dx;
+                    }
+                }
+
+                // Vertical Calculations
+                if (activeHandleDir.includes('s')) {
+                    newH = Math.max(200, startH + dy);
+                } else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) {
+                        newTop = startTop + dy;
+                    }
+                }
+
+                container.style.width = newW + 'px';
+                container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px';
+                container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { 
+            mode = null; 
+            activeHandleDir = null; 
+            removeOverlay(); 
+        };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top;
+            e.preventDefault();
+            showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            // Save scroller offset position data before layout collapses
+            this._saveScrollPositions();
+
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            // Calculate right-aligned shift
+            const currentLeft = parseFloat(this.floatingContainer.style.left) || r.left;
+            this._savedLeftVal = currentLeft + 'px'; // Save original left style
+
+            // Lock height of inner tab content container to prevent CodeMirror from triggering layout reflow
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'none';
+            }
+
+            // Collapse Chrome UI Elements
+            if (this.titleSpan) this.titleSpan.style.display = 'none';
+            if (this.tabBar) this.tabBar.style.display = 'none';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'none';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'none';
+            if (this.closeBtn) this.closeBtn.style.display = 'none';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '0';
+                this.dragBar.style.justifyContent = 'center';
+                this.dragBar.style.alignItems = 'center';
+                this.dragBar.style.height = '100%';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                `;
+            }
+
+            // Compact layout size directly on parent container (only show the minimize button)
+            this.floatingContainer.style.width = '40px';
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minWidth = '40px';
+            this.floatingContainer.style.minHeight = '36px';
+
+            // Shift left border to right-align the minimized widget
+            this.floatingContainer.style.left = (currentLeft + r.width - 40) + 'px';
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'none');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐';
+                this.minimizeBtn.title = "Restore";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 4px;
+                    background: var(--background-modifier-border);
+                    font-size: 11px;
+                    line-height: 1;
+                    box-sizing: border-box;
+                    font-weight: bold;
+                `;
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            // Restore Chrome Layout Components
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.minWidth = '250px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            // Restore left edge to its original place
+            if (this._savedLeftVal) {
+                this.floatingContainer.style.left = this._savedLeftVal;
+            }
+
+            if (this.titleSpan) this.titleSpan.style.display = 'inline';
+            if (this.tabBar) this.tabBar.style.display = 'flex';
+            if (this.sliderLabel) this.sliderLabel.style.display = 'inline';
+            if (this.opacitySlider) this.opacitySlider.style.display = 'inline-block';
+            if (this.closeBtn) this.closeBtn.style.display = 'inline';
+
+            if (this.dragBar) {
+                this.dragBar.style.padding = '8px 12px';
+                this.dragBar.style.justifyContent = 'space-between';
+                this.dragBar.style.alignItems = 'center';
+                this.dragBar.style.height = '36px';
+            }
+
+            if (this.controls) {
+                this.controls.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-left: auto;
+                `;
+            }
+
+            // Unlock and return height control to normal flex values
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.display = 'flex';
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'block');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−';
+                this.minimizeBtn.title = "Minimize";
+                this.minimizeBtn.style.cssText = `
+                    cursor: pointer;
+                    padding: 0 4px;
+                    font-weight: bold;
+                    font-size: 12px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: none;
+                    width: auto;
+                    height: auto;
+                `;
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(activeLeaf, { focus: true });
+                    activeLeaf.containerEl?.focus();
+
+                    const cmEditor = activeLeaf.containerEl.querySelector('.cm-content');
+                    if (cmEditor) {
+                        cmEditor.focus();
+                    }
+                } catch (_) {}
+                try { activeLeaf?.view?.onShow?.(); } catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            }
+
+            // Return scroller offset coordinates back safely to their values
+            setTimeout(() => {
+                this._restoreScrollPositions();
+            }, 50);
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) {
+            this._resizeObserver.disconnect();
+            this._resizeObserver = null;
+        }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null;
+            this._globalUpHandler   = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._globalMousedownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('mousedown', this._globalMousedownHandler, true);
+            } catch (_) {}
+            this._globalMousedownHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) {
+            this._dragOverlay.remove();
+            this._dragOverlay = null;
+        }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px';
+                this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                // Return cached restored left coordinates upon close if currently minimized
+                this._savedLeft = this._savedLeftVal || this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove();
+            this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                const viewState = leaf.getViewState();
+                const type = viewState.type;
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) {
+                    pathOrUrl = leaf.view.file.path;
+                } else if (type === 'webviewer') {
+                    pathOrUrl = viewState.state?.url;
+                }
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => {
+                try {
+                    leaf.detach();
+                } catch (_) {}
+            });
+            this.floatingLeaves = [];
+            this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        // Clean up and restore default getLeaf interceptor safely
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try {
+                const ws = this.app.workspace;
+                this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false });
+            } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+        this._isVaporActive = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V14
+- 
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() {
+        return this.app.vault.getFiles(); 
+    }
+
+    getItemText(file) {
+        return file.path; 
+    }
+
+    onChooseItem(file, evt) {
+        this.onSelect(file);
+    }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => {
+                    this.value = value;
+                });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) {
+            setTimeout(() => inputEl.focus(), 50);
+        }
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .setDesc("Path relative to vault root")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { this.onSubmit(this.value); this.close(); }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     // Holds active tab leaf references
+        this.activeLeafIndex      = 0;      // Track current active index
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     // null until user picks a file once
+        this._prevActiveLeaf    = null;     // background leaf active before we opened
+        this._origSetActiveLeaf = null;     // real setActiveLeaf, intercepted for float lifetime
+        this._origGetLeaf       = null;     // real getLeaf, intercepted for routing scripts internally
+        this._targetWin         = null;     // window context where the float is currently attached
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;     // Tracks blur events to safely revert activeLeaf
+        this._globalClickHandler = null;    // Capture phase link clicks
+        this._keydownHandler     = null;    // High-priority capture phase tab closing shortcut
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    // Flag to suppress focus changes during window-swapping
+        this._isOpening         = false;    // Lock to completely prevent rapid toggling race conditions
+        this._isMinimized       = false;    // Keep track of collapse status
+        this._focusListeners    = [];       // Cache registry of native focus hooks for cleanup
+        this._resizeHandles     = [];       // Cache multi-edge resize handles
+        this._closedTabsHistory = [];       // List history of closed tabs
+        this.opacityValue       = '0.95';   // Initial opacity slider context
+
+        // State persistence cache across toggles
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this.addCommand({
+            id: 'reopen-closed-tab-vapornote',
+            name: 'Reopen Closed Tab',
+            callback: () => this.reopenClosedTab()
+        });
+
+        this.addCommand({
+            id: 'next-tab-vapornote',
+            name: 'Go to Next Tab',
+            callback: () => this.navigateTab(1)
+        });
+
+        this.addCommand({
+            id: 'prev-tab-vapornote',
+            name: 'Go to Previous Tab',
+            callback: () => this.navigateTab(-1)
+        });
+
+        // Built-in shortcut command (no external scripts needed)
+        this.addCommand({
+            id: 'search-web-vapornote',
+            name: 'Web Search & Navigation',
+            callback: () => this.triggerWebSearchPrompt()
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) {
+                        bwin.off('focus', listener);
+                    } else if (win && listener) {
+                        win.removeEventListener('focus', listener);
+                    }
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try {
+                        if (bwin && listener) bwin.off('focus', listener);
+                    } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            this.floatingContainer = container;
+            this._styleContainer(container);
+            container.style.opacity = this.opacityValue;
+
+            // Build Tab Switcher bar container (nested inside dragBar)
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex;
+                align-items: center;
+                overflow-x: auto;
+                overflow-y: hidden;
+                height: 100%;
+                flex: 1;
+                margin-left: 12px;
+                margin-right: 12px;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            // 1. Build Header Controls, Tabs list, and Buttons Group
+            this._buildChrome(container);
+
+            // 2. Content layout utilizing standard layout container styling
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                min-height: 0;
+                overflow: hidden;
+                height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    ws.activeLeaf = targetLeaf;
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            // Intercept app.workspace.getLeaf to route external scripts (like SmartWebSearch.js) internally (Requests 1 & 2)
+            if (this._origGetLeaf) {
+                ws.getLeaf = this._origGetLeaf;
+                this._origGetLeaf = null;
+            }
+            this._origGetLeaf = ws.getLeaf.bind(ws);
+            ws.getLeaf = (newSplit, ...args) => {
+                const isVaporFocused = this.floatingContainer && (
+                    this.floatingContainer.contains(doc.activeElement) || 
+                    (this.floatingLeaves && this.floatingLeaves.includes(ws.activeLeaf))
+                );
+
+                if (this._isOpen() && isVaporFocused && (newSplit === 'tab' || newSplit === true)) {
+                    const leaf = this._origGetLeaf(true);
+                    this._orphanLeafFromWorkspace(leaf);
+
+                    const origDetach = leaf.detach.bind(leaf);
+                    leaf.detach = () => {
+                        if (this._allowDetach) origDetach();
+                        else this._assertDOMPosition();
+                    };
+
+                    leaf.containerEl.addEventListener('focusin', () => {
+                        if (this._isMigrating) return;
+                        ws.activeLeaf = leaf;
+                    });
+
+                    this.tabContentContainer.appendChild(leaf.containerEl);
+                    Object.assign(leaf.containerEl.style, {
+                        flex: '1',
+                        minHeight: '0',
+                        height: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        overflow: 'hidden'
+                    });
+
+                    this.floatingLeaves.push(leaf);
+                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+                    this.floatingLeaves.forEach((l, idx) => {
+                        l.containerEl.style.display = (idx === this.activeLeafIndex) ? 'flex' : 'none';
+                    });
+
+                    this._renderTabs();
+                    return leaf;
+                }
+                return this._origGetLeaf(newSplit, ...args);
+            };
+
+            // Global capture-phase click handler (Intercepts browser router to load pages locally)
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer',
+                                state: { url: href, navigate: true },
+                                active: true
+                            }).then(() => {
+                                this._renderTabs();
+                            });
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            // High-priority window event listener to capture shortcuts securely
+            this._keydownHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(doc.activeElement)) {
+                    const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                    if (!activeLeaf || !activeLeaf.containerEl.contains(doc.activeElement)) {
+                        return;
+                    }
+                }
+
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const key = e.key.toLowerCase();
+
+                if (isCmdOrCtrl && isShift && key === 't') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                }
+                else if (isCmdOrCtrl && !isShift && key === 'w') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this._closeTab(this.activeLeafIndex);
+                }
+                else if (isCmdOrCtrl && e.key === 'ArrowRight') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                else if (isCmdOrCtrl && e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) ws.activeLeaf = activeLeaf; 
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating) return;
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) {
+                    return;
+                }
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (ws.activeLeaf === activeLeaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            // Reconstruct tabs layout from cached toggle state
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) {
+                    await this._addNewTab('file', path);
+                } else {
+                    await this._addNewTab('empty');
+                }
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = ws.getLeaf(true);
+            this._orphanLeafFromWorkspace(leaf);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1',
+                minHeight: '0',
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                overflow: 'hidden'
+            });
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer',
+                    state: { url: pathOrUrl, navigate: true },
+                    active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            ws.activeLeaf = leaf;
+        });
+
+        this.floatingLeaves.push(leaf);
+        this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    _switchTab(index) {
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        this.activeLeafIndex = index;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (idx === index) {
+                Object.assign(leaf.containerEl.style, {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    flex: '1',
+                    height: '100%',
+                    minHeight: '0',
+                    overflow: 'hidden'
+                });
+                
+                this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                leaf.containerEl.focus();
+                
+                try { leaf.view?.onShow?.(); } catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            } else {
+                leaf.containerEl.style.display = 'none';
+            }
+        });
+
+        const activeLeaf = this.floatingLeaves[index];
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+            this.savedFilePath = activeLeaf.view.file.path;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index) {
+        if (!this.floatingLeaves) return;
+
+        const leafToClose = this.floatingLeaves[index];
+        this._allowDetach = true;
+        try {
+            leafToClose.detach();
+        } catch (_) {}
+        this._allowDetach = false;
+
+        // Push serialization details to reopening history cache
+        const viewState = leafToClose.getViewState();
+        const type = viewState.type;
+        let pathOrUrl = null;
+        if (type === 'markdown' && leafToClose.view?.file) {
+            pathOrUrl = leafToClose.view.file.path;
+        } else if (type === 'webviewer') {
+            pathOrUrl = viewState.state?.url;
+        }
+        if (!this._closedTabsHistory) this._closedTabsHistory = [];
+        this._closedTabsHistory.push({ type, pathOrUrl });
+        if (this._closedTabsHistory.length > 30) {
+            this._closedTabsHistory.shift(); 
+        }
+
+        // Clear DOM structure explicitly to prevent layout shrinking
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    reopenClosedTab() {
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        const lastTab = this._closedTabsHistory.pop();
+        
+        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+        const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+        
+        if (isEmpty) {
+            this._closeTab(this.activeLeafIndex);
+        }
+        
+        if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+            this._addNewTab('file', lastTab.pathOrUrl);
+        } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+            this._addNewTab('web', lastTab.pathOrUrl);
+        } else {
+            this._addNewTab('empty');
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) {
+            nextIdx = 0; 
+        } else if (nextIdx < 0) {
+            nextIdx = this.floatingLeaves.length - 1; 
+        }
+        this._switchTab(nextIdx);
+    }
+
+    triggerWebSearchPrompt() {
+        if (!this._isOpen()) return;
+
+        new UrlPromptModal(this.app, async (userInput) => {
+            let targetUrl = userInput.trim();
+            if (targetUrl) {
+                const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                if (hasProtocol) {
+                    // Keep as-is
+                } else if (isDomain) {
+                    targetUrl = 'https://' + targetUrl;
+                } else {
+                    targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+                }
+
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) {
+                    await activeLeaf.setViewState({
+                        type: 'webviewer',
+                        state: { url: targetUrl, navigate: true },
+                        active: true
+                    });
+                    this._renderTabs();
+                }
+            }
+        }).open();
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px;
+                font-size: 10px;
+                cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'};
+                height: 24px;
+                box-sizing: border-box;
+                margin-right: 4px;
+                flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap;
+                max-width: 90px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer;
+                font-size: 8px;
+                opacity: 0.5;
+                padding: 2px;
+                line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this._closeTab(idx);
+            });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => {
+                this._switchTab(idx);
+            });
+
+            this.tabBar.appendChild(tab);
+        });
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) parent.children.splice(idx, 1);
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        try {
+            if (this.floatingContainer.parentElement) {
+                this.floatingContainer.remove();
+            }
+        } catch (_) {}
+
+        this._targetWin = newWin;
+
+        const doc = newWin.document;
+        doc.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.addEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        this.floatingLeaves.forEach((leaf) => {
+            try { leaf.view?.onShow?.(); }        catch (_) {}
+            try { leaf.view?.editor?.refresh(); } catch (_) {}
+        });
+
+        setTimeout(() => {
+            this._isMigrating = false;
+        }, 150);
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1',
+                    minHeight: '0',
+                    height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column',
+                    overflow: 'hidden'
+                });
+            }
+        });
+    }
+
+    _styleContainer(el) {
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    'var(--background-primary)',
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'opacity 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: var(--background-secondary);
+            padding: 8px 12px;
+            cursor: move;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            flex-shrink: 0;
+            height: 36px;
+            box-sizing: border-box;
+        `;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+
+        if (this.tabBar) {
+            dragBar.appendChild(this.tabBar);
+        }
+
+        const createTinyBtn = (html, onClick) => {
+            const btn = doc.createElement('button');
+            btn.className = 'clickable-icon nav-action-button';
+            btn.style.cssText = `
+                padding: 2px 6px;
+                font-size: 10px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                background: var(--background-modifier-border);
+                border: none;
+                border-radius: 4px;
+                color: var(--text-normal);
+                height: 20px;
+                line-height: 1;
+            `;
+            btn.innerHTML = html;
+            btn.addEventListener('click', onClick);
+            return btn;
+        };
+
+        const btnGroup = doc.createElement('div');
+        btnGroup.style.cssText = `
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-right: 8px;
+        `;
+
+        const fileBtn = createTinyBtn('📄 File', () => {
+            const commandId = 'obsidian-another-quick-switcher:search-command_topic-search';
+            if (this.app.commands.commands[commandId]) {
+                this.app.commands.executeCommandById(commandId);
+            } else {
+                new FileSuggestModal(this.app, async (file) => {
+                    if (file) {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            this.savedFilePath = file.path;
+                            await activeLeaf.openFile(file);
+                            this._renderTabs();
+                        }
+                    }
+                }).open();
+            }
+        });
+        btnGroup.appendChild(fileBtn);
+
+        const webBtn = createTinyBtn('🌐 Web', () => {
+            this.triggerWebSearchPrompt();
+        });
+        btnGroup.appendChild(webBtn);
+
+        const newTabBtn = createTinyBtn('＋ Tab', () => {
+            this._addNewTab('empty');
+        });
+        btnGroup.appendChild(newTabBtn);
+
+        dragBar.appendChild(btnGroup);
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        `;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px;
+            height: 3px;
+            cursor: pointer;
+            margin: 0;
+            accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            container.style.opacity = this.opacityValue;
+        });
+        controls.appendChild(opacitySlider);
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-weight: bold;
+            font-size: 12px;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-size: 11px;
+        `;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        // Omnidirectional Resize Grab Handles
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `
+                position: absolute;
+                z-index: 100000;
+                user-select: none;
+                ${styleCss}
+            `;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        // Borders
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+
+        // Corners
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null;
+        let activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `
+                position: fixed; inset: 0;
+                z-index: 999999;
+                background: transparent;
+                cursor: ${cursor};
+            `;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = 'none';
+            });
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { 
+                this._dragOverlay.remove(); 
+                this._dragOverlay = null; 
+            }
+            const currentDoc = getActiveDoc();
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = '';
+            });
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction;
+            startX = e.clientX;
+            startY = e.clientY;
+            
+            const r = container.getBoundingClientRect();
+            startLeft = r.left;
+            startTop = r.top;
+            startW = r.width;
+            startH = r.height;
+            
+            e.preventDefault();
+            e.stopPropagation();
+            showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+
+                let newW = startW;
+                let newH = startH;
+                let newLeft = startLeft;
+                let newTop = startTop;
+
+                // Horizontal Calculations
+                if (activeHandleDir.includes('e')) {
+                    newW = Math.max(250, startW + dx);
+                } else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) {
+                        newLeft = startLeft + dx;
+                    }
+                }
+
+                // Vertical Calculations
+                if (activeHandleDir.includes('s')) {
+                    newH = Math.max(200, startH + dy);
+                } else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) {
+                        newTop = startTop + dy;
+                    }
+                }
+
+                container.style.width = newW + 'px';
+                container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px';
+                container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { 
+            mode = null; 
+            activeHandleDir = null; 
+            removeOverlay(); 
+        };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top;
+            e.preventDefault();
+            showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            // Lock height of inner tab content container to prevent CodeMirror from triggering layout reflow
+            if (this.tabContentContainer) {
+                const currentHeight = this.tabContentContainer.offsetHeight;
+                this.tabContentContainer.style.height = currentHeight + 'px';
+                this.tabContentContainer.style.flex = 'none';
+            }
+
+            // Minimized height set directly on parent container
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minHeight = '36px';
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'none');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐';
+                this.minimizeBtn.title = "Restore";
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            // Unlock and return height control to normal flex values
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'block');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−';
+                this.minimizeBtn.title = "Minimize";
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(activeLeaf, { focus: true });
+                    activeLeaf.containerEl?.focus();
+
+                    const cmEditor = activeLeaf.containerEl.querySelector('.cm-content');
+                    if (cmEditor) {
+                        cmEditor.focus();
+                    }
+                } catch (_) {}
+                try { activeLeaf?.view?.onShow?.(); } catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            }
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) {
+            this._resizeObserver.disconnect();
+            this._resizeObserver = null;
+        }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null;
+            this._globalUpHandler   = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) {
+            this._dragOverlay.remove();
+            this._dragOverlay = null;
+        }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px';
+                this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                this._savedLeft = this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove();
+            this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                const viewState = leaf.getViewState();
+                const type = viewState.type;
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) {
+                    pathOrUrl = leaf.view.file.path;
+                } else if (type === 'webviewer') {
+                    pathOrUrl = viewState.state?.url;
+                }
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => {
+                try {
+                    leaf.detach();
+                } catch (_) {}
+            });
+            this.floatingLeaves = [];
+            this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        // Clean up and restore default getLeaf interceptor safely
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try {
+                const ws = this.app.workspace;
+                this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false });
+            } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V13
+- Seems pretty stable
+```javascript
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal } = require('obsidian');
+
+// ─── File Search / Query Modal (Fallback) ──────────────────────────────────
+class FileSuggestModal extends FuzzySuggestModal {
+    constructor(app, onSelect) {
+        super(app);
+        this.onSelect = onSelect;
+    }
+
+    getItems() {
+        return this.app.vault.getFiles(); 
+    }
+
+    getItemText(file) {
+        return file.path; 
+    }
+
+    onChooseItem(file, evt) {
+        this.onSelect(file);
+    }
+}
+
+// ─── Prompt Modal for Web URL ──────────────────────────────────────────────
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl('h3', { text: 'Web Search & Navigation', attr: { style: 'margin-top: 0;' } });
+
+        let inputEl;
+
+        new Setting(contentEl)
+            .setName('Search Google or enter a URL')
+            .addText(text => {
+                inputEl = text.inputEl;
+                inputEl.style.width = '100%';
+                
+                text.onChange(value => {
+                    this.value = value;
+                });
+                
+                text.inputEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        this.onSubmit(this.value);
+                        this.close();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText('Go')
+                .setCta()
+                .onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                })
+            );
+
+        if (inputEl) {
+            setTimeout(() => inputEl.focus(), 50);
+        }
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
+
+// ─── Optional Prompt Modal (Preserved for compatibility) ───────────────────
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .setDesc("Path relative to vault root")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { this.onSubmit(this.value); this.close(); }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── VaporNote Plugin Core ───────────────────────────────────────────────
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaves       = [];     // Holds active tab leaf references
+        this.activeLeafIndex      = 0;      // Track current active index
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;     // null until user picks a file once
+        this._prevActiveLeaf    = null;     // background leaf active before we opened
+        this._origSetActiveLeaf = null;     // real setActiveLeaf, intercepted for float lifetime
+        this._targetWin         = null;     // window context where the float is currently attached
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;     // Tracks blur events to safely revert activeLeaf
+        this._globalClickHandler = null;    // Capture phase link clicks
+        this._keydownHandler     = null;    // High-priority capture phase tab closing shortcut
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;    // Flag to suppress focus changes during window-swapping
+        this._isOpening         = false;    // Lock to completely prevent rapid toggling race conditions
+        this._isMinimized       = false;    // Keep track of collapse status
+        this._focusListeners    = [];       // Cache registry of native focus hooks for cleanup
+        this._resizeHandles     = [];       // Cache multi-edge resize handles
+        this._closedTabsHistory = [];       // List history of closed tabs (Request 2)
+        this.opacityValue       = '0.95';   // Initial opacity slider context
+
+        // State persistence cache across toggles
+        this._savedWidth         = null;
+        this._savedHeight        = null;
+        this._savedLeft          = null;
+        this._savedTop           = null;
+        this._savedTabsState     = null;
+        this._savedActiveLeafIndex = null;
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-minimize-vapornote',
+            name: 'Minimize / Restore VaporNote',
+            callback: () => this.toggleMinimizeCommand()
+        });
+
+        this.addCommand({
+            id: 'reopen-closed-tab-vapornote',
+            name: 'Reopen Closed Tab',
+            callback: () => this.reopenClosedTab()
+        });
+
+        this.addCommand({
+            id: 'next-tab-vapornote',
+            name: 'Go to Next Tab',
+            callback: () => this.navigateTab(1)
+        });
+
+        this.addCommand({
+            id: 'prev-tab-vapornote',
+            name: 'Go to Previous Tab',
+            callback: () => this.navigateTab(-1)
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+                this._renderTabs();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
+                    const idx = this.floatingLeaves.indexOf(leaf);
+                    if (idx !== -1 && idx !== this.activeLeafIndex) {
+                        this._switchTab(idx);
+                    }
+                    this._renderTabs();
+                } else if (leaf) {
+                    this._prevActiveLeaf = leaf;
+
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) {
+                        bwin.off('focus', listener);
+                    } else if (win && listener) {
+                        win.removeEventListener('focus', listener);
+                    }
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try {
+                        if (bwin && listener) bwin.off('focus', listener);
+                    } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; 
+        
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+
+        await this._openVaporNote(this.savedFilePath);
+    }
+
+    toggleMinimizeCommand() {
+        if (!this._isOpen()) {
+            this.toggleVaporNote();
+            return;
+        }
+        this.toggleMinimize();
+    }
+
+    async _openVaporNote(path = null) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const container = doc.createElement('div');
+            this.floatingContainer = container;
+            this._styleContainer(container);
+            container.style.opacity = this.opacityValue;
+
+            // Build Tab Switcher bar container (nested inside dragBar)
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex;
+                align-items: center;
+                overflow-x: auto;
+                overflow-y: hidden;
+                height: 100%;
+                flex: 1;
+                margin-left: 12px;
+                margin-right: 12px;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            `;
+            this.tabBar = tabBar;
+
+            // 1. Build Header Controls, Tabs list, and Buttons Group
+            this._buildChrome(container);
+
+            // 2. Content layout utilizing standard layout container styling
+            const tabContentContainer = doc.createElement('div');
+            tabContentContainer.style.cssText = `
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                min-height: 0;
+                overflow: hidden;
+                height: 100%;
+            `;
+            this.tabContentContainer = tabContentContainer;
+            container.appendChild(tabContentContainer);
+
+            doc.body.appendChild(container);
+
+            this.floatingLeaves = [];
+            this.activeLeafIndex = 0;
+
+            const ws = this.app.workspace;
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
+                    ws.activeLeaf = targetLeaf;
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            // Global capture-phase click handler (Intercepts browser router to load pages locally)
+            this._globalClickHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
+
+                const anchor = e.target.closest('a');
+                if (!anchor) return;
+
+                const href = anchor.getAttribute('href') || anchor.href;
+                if (!href) return;
+
+                if (href.startsWith('http://') || href.startsWith('https://')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                    if (isCmdOrCtrl) {
+                        this._addNewTab('web', href);
+                    } else {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            activeLeaf.setViewState({
+                                type: 'webviewer',
+                                state: { url: href, navigate: true },
+                                active: true
+                            }).then(() => {
+                                this._renderTabs();
+                            });
+                        }
+                    }
+                }
+            };
+            this._targetWin.addEventListener('click', this._globalClickHandler, true);
+
+            // High-priority window event listener to capture shortcuts securely (Requests 1, 2 & 3)
+            this._keydownHandler = (e) => {
+                if (!this.floatingContainer || !this.floatingContainer.contains(doc.activeElement)) {
+                    const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                    if (!activeLeaf || !activeLeaf.containerEl.contains(doc.activeElement)) {
+                        return;
+                    }
+                }
+
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
+                const isShift = e.shiftKey;
+                const key = e.key.toLowerCase();
+
+                // Command + Shift + T -> Reopen Tab
+                if (isCmdOrCtrl && isShift && key === 't') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.reopenClosedTab();
+                }
+                // Command + W -> Close Tab
+                else if (isCmdOrCtrl && !isShift && key === 'w') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this._closeTab(this.activeLeafIndex);
+                }
+                // Command + Right Arrow -> Next Tab
+                else if (isCmdOrCtrl && e.key === 'ArrowRight') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(1);
+                }
+                // Command + Left Arrow -> Previous Tab
+                else if (isCmdOrCtrl && e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.navigateTab(-1);
+                }
+            };
+            this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+
+            this._focusinHandler = () => { 
+                if (this._isMigrating) return;
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (activeLeaf) ws.activeLeaf = activeLeaf; 
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating) return;
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) {
+                    return;
+                }
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                if (ws.activeLeaf === activeLeaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            // Reconstruct tabs layout from cached toggle state
+            if (this._savedTabsState && this._savedTabsState.length > 0) {
+                for (let i = 0; i < this._savedTabsState.length; i++) {
+                    const tab = this._savedTabsState[i];
+                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+                        await this._addNewTab('file', tab.pathOrUrl);
+                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else {
+                        await this._addNewTab('empty');
+                    }
+                }
+                const restoreIdx = this._savedActiveLeafIndex ?? 0;
+                this._switchTab(restoreIdx);
+            } else {
+                if (path) {
+                    await this._addNewTab('file', path);
+                } else {
+                    await this._addNewTab('empty');
+                }
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    async _addNewTab(type = 'empty', pathOrUrl = null) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = ws.getLeaf(true);
+            this._orphanLeafFromWorkspace(leaf);
+
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            this.tabContentContainer.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, {
+                flex: '1',
+                minHeight: '0',
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                overflow: 'hidden'
+            });
+
+            if (type === 'file' && pathOrUrl) {
+                let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
+                if (!file) {
+                    file = await this.app.vault.create(pathOrUrl, `# ${pathOrUrl.replace('.md', '')}\n\n`);
+                }
+                await leaf.openFile(file);
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } else if (type === 'web' && pathOrUrl) {
+                await leaf.setViewState({
+                    type: 'webviewer',
+                    state: { url: pathOrUrl, navigate: true },
+                    active: true
+                });
+            } else {
+                await leaf.setViewState({ type: 'empty' });
+            }
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+
+        leaf.containerEl.addEventListener('focusin', () => {
+            if (this._isMigrating) return;
+            ws.activeLeaf = leaf;
+        });
+
+        this.floatingLeaves.push(leaf);
+        this.activeLeafIndex = this.floatingLeaves.length - 1;
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    _switchTab(index) {
+        if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
+        this.activeLeafIndex = index;
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (idx === index) {
+                Object.assign(leaf.containerEl.style, {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    flex: '1',
+                    height: '100%',
+                    minHeight: '0',
+                    overflow: 'hidden'
+                });
+                
+                this.app.workspace.setActiveLeaf(leaf, { focus: true });
+                leaf.containerEl.focus();
+                
+                try { leaf.view?.onShow?.(); } catch (_) {}
+                try { leaf.view?.editor?.refresh(); } catch (_) {}
+            } else {
+                leaf.containerEl.style.display = 'none';
+            }
+        });
+
+        const activeLeaf = this.floatingLeaves[index];
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.file) {
+            this.savedFilePath = activeLeaf.view.file.path;
+        }
+
+        this._renderTabs();
+    }
+
+    _closeTab(index) {
+        if (!this.floatingLeaves) return;
+
+        const leafToClose = this.floatingLeaves[index];
+        this._allowDetach = true;
+        try {
+            leafToClose.detach();
+        } catch (_) {}
+        this._allowDetach = false;
+
+        // Push serialization details to reopening history cache (Request 2)
+        const viewState = leafToClose.getViewState();
+        const type = viewState.type;
+        let pathOrUrl = null;
+        if (type === 'markdown' && leafToClose.view?.file) {
+            pathOrUrl = leafToClose.view.file.path;
+        } else if (type === 'webviewer') {
+            pathOrUrl = viewState.state?.url;
+        }
+        if (!this._closedTabsHistory) this._closedTabsHistory = [];
+        this._closedTabsHistory.push({ type, pathOrUrl });
+        if (this._closedTabsHistory.length > 30) {
+            this._closedTabsHistory.shift(); 
+        }
+
+        // Clear DOM structure explicitly to prevent layout shrinking
+        if (leafToClose.containerEl && leafToClose.containerEl.parentElement) {
+            leafToClose.containerEl.remove();
+        }
+
+        this.floatingLeaves.splice(index, 1);
+
+        if (this.floatingLeaves.length === 0) {
+            this._addNewTab('empty');
+            return;
+        }
+
+        if (this.activeLeafIndex >= this.floatingLeaves.length) {
+            this.activeLeafIndex = this.floatingLeaves.length - 1;
+        } else if (this.activeLeafIndex === index) {
+            this.activeLeafIndex = Math.max(0, index - 1);
+        }
+
+        this._switchTab(this.activeLeafIndex);
+    }
+
+    reopenClosedTab() {
+        if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
+        const lastTab = this._closedTabsHistory.pop();
+        
+        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+        const isEmpty = this.floatingLeaves.length === 1 && activeLeaf && activeLeaf.getViewState().type === 'empty';
+        
+        if (isEmpty) {
+            this._closeTab(this.activeLeafIndex);
+        }
+        
+        if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
+            this._addNewTab('file', lastTab.pathOrUrl);
+        } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+            this._addNewTab('web', lastTab.pathOrUrl);
+        } else {
+            this._addNewTab('empty');
+        }
+    }
+
+    navigateTab(direction) {
+        if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+        let nextIdx = this.activeLeafIndex + direction;
+        if (nextIdx >= this.floatingLeaves.length) {
+            nextIdx = 0; 
+        } else if (nextIdx < 0) {
+            nextIdx = this.floatingLeaves.length - 1; 
+        }
+        this._switchTab(nextIdx);
+    }
+
+    _renderTabs() {
+        if (!this.tabBar || !this.floatingLeaves) return;
+
+        const doc = this.tabBar.ownerDocument || activeDocument;
+        this.tabBar.empty();
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            const isActive = idx === this.activeLeafIndex;
+
+            const tab = doc.createElement('div');
+            tab.style.cssText = `
+                padding: 2px 8px;
+                font-size: 10px;
+                cursor: pointer;
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+                font-weight: ${isActive ? 'bold' : 'normal'};
+                height: 24px;
+                box-sizing: border-box;
+                margin-right: 4px;
+                flex-shrink: 0;
+            `;
+
+            const titleSpan = doc.createElement('span');
+            titleSpan.textContent = leaf.getDisplayText() || 'New Tab';
+            titleSpan.style.cssText = `
+                white-space: nowrap;
+                max-width: 90px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            `;
+            tab.appendChild(titleSpan);
+
+            const closeBtn = doc.createElement('span');
+            closeBtn.textContent = '✕';
+            closeBtn.style.cssText = `
+                cursor: pointer;
+                font-size: 8px;
+                opacity: 0.5;
+                padding: 2px;
+                line-height: 1;
+            `;
+            closeBtn.addEventListener('mouseenter', () => { closeBtn.style.opacity = '1'; });
+            closeBtn.addEventListener('mouseleave', () => { closeBtn.style.opacity = '0.5'; });
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this._closeTab(idx);
+            });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => {
+                this._switchTab(idx);
+            });
+
+            this.tabBar.appendChild(tab);
+        });
+    }
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) parent.children.splice(idx, 1);
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        try {
+            if (this.floatingContainer.parentElement) {
+                this.floatingContainer.remove();
+            }
+        } catch (_) {}
+
+        this._targetWin = newWin;
+
+        const doc = newWin.document;
+        doc.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+        if (this._globalClickHandler) {
+            try {
+                this._targetWin.addEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+        }
+        if (this._keydownHandler) {
+            try {
+                this._targetWin.addEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        this.floatingLeaves.forEach((leaf) => {
+            try { leaf.view?.onShow?.(); }        catch (_) {}
+            try { leaf.view?.editor?.refresh(); } catch (_) {}
+        });
+
+        setTimeout(() => {
+            this._isMigrating = false;
+        }, 150);
+    }
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaves || !this._targetWin) return;
+        
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer)) {
+            doc.body.appendChild(this.floatingContainer);
+        }
+
+        this.floatingLeaves.forEach((leaf, idx) => {
+            if (this.tabContentContainer && !this.tabContentContainer.contains(leaf.containerEl)) {
+                this.tabContentContainer.appendChild(leaf.containerEl);
+                
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1',
+                    minHeight: '0',
+                    height: '100%',
+                    display: idx === this.activeLeafIndex ? 'flex' : 'none',
+                    flexDirection: 'column',
+                    overflow: 'hidden'
+                });
+            }
+        });
+    }
+
+    _styleContainer(el) {
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           this._savedTop || '100px',
+            left:          this._savedLeft || 'auto',
+            right:         this._savedLeft ? 'auto' : '50px',
+            width:         this._savedWidth || '380px',
+            height:        this._savedHeight || '500px',
+            zIndex:        '35', 
+            background:    'var(--background-primary)',
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            transition:    'opacity 0.15s ease-in-out',
+        });
+    }
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: var(--background-secondary);
+            padding: 8px 12px;
+            cursor: move;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            flex-shrink: 0;
+            height: 36px;
+            box-sizing: border-box;
+        `;
+        
+        const titleSpan = doc.createElement('span');
+        titleSpan.textContent = "VaporNote";
+        dragBar.appendChild(titleSpan);
+
+        if (this.tabBar) {
+            dragBar.appendChild(this.tabBar);
+        }
+
+        const createTinyBtn = (html, onClick) => {
+            const btn = doc.createElement('button');
+            btn.className = 'clickable-icon nav-action-button';
+            btn.style.cssText = `
+                padding: 2px 6px;
+                font-size: 10px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                background: var(--background-modifier-border);
+                border: none;
+                border-radius: 4px;
+                color: var(--text-normal);
+                height: 20px;
+                line-height: 1;
+            `;
+            btn.innerHTML = html;
+            btn.addEventListener('click', onClick);
+            return btn;
+        };
+
+        const btnGroup = doc.createElement('div');
+        btnGroup.style.cssText = `
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-right: 8px;
+        `;
+
+        const fileBtn = createTinyBtn('📄 File', () => {
+            const commandId = 'obsidian-another-quick-switcher:search-command_topic-search';
+            if (this.app.commands.commands[commandId]) {
+                this.app.commands.executeCommandById(commandId);
+            } else {
+                new FileSuggestModal(this.app, async (file) => {
+                    if (file) {
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            this.savedFilePath = file.path;
+                            await activeLeaf.openFile(file);
+                            this._renderTabs();
+                        }
+                    }
+                }).open();
+            }
+        });
+        btnGroup.appendChild(fileBtn);
+
+        const webBtn = createTinyBtn('🌐 Web', () => {
+            new UrlPromptModal(this.app, async (userInput) => {
+                let targetUrl = userInput.trim();
+                if (targetUrl) {
+                    const hasProtocol = /^(https?:\/\/)/i.test(targetUrl);
+                    const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
+
+                    if (hasProtocol) {
+                        // Keeps as-is if protocol is present
+                    } else if (isDomain) {
+                        targetUrl = 'https://' + targetUrl;
+                    } else {
+                        targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
+                    }
+
+                    const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                    if (activeLeaf) {
+                        await activeLeaf.setViewState({
+                            type: 'webviewer',
+                            state: { url: targetUrl, navigate: true },
+                            active: true
+                        });
+                        this._renderTabs();
+                    }
+                }
+            }).open();
+        });
+        btnGroup.appendChild(webBtn);
+
+        const newTabBtn = createTinyBtn('＋ Tab', () => {
+            this._addNewTab('empty');
+        });
+        btnGroup.appendChild(newTabBtn);
+
+        dragBar.appendChild(btnGroup);
+
+        const controls = doc.createElement('div');
+        controls.style.cssText = `
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        `;
+
+        const sliderLabel = doc.createElement('span');
+        sliderLabel.textContent = "☀";
+        sliderLabel.title = "Opacity";
+        sliderLabel.style.cssText = "font-size: 10px; opacity: 0.7;";
+        controls.appendChild(sliderLabel);
+
+        const opacitySlider = doc.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.min = '0.2';
+        opacitySlider.max = '1.0';
+        opacitySlider.step = '0.05';
+        opacitySlider.value = this.opacityValue;
+        opacitySlider.style.cssText = `
+            width: 50px;
+            height: 3px;
+            cursor: pointer;
+            margin: 0;
+            accent-color: var(--interactive-accent);
+        `;
+        opacitySlider.addEventListener('input', (e) => {
+            this.opacityValue = e.target.value;
+            container.style.opacity = this.opacityValue;
+        });
+        controls.appendChild(opacitySlider);
+
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '−';
+        minimizeBtn.title = "Minimize";
+        minimizeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-weight: bold;
+            font-size: 12px;
+        `;
+        minimizeBtn.addEventListener('click', () => this.toggleMinimize());
+        this.minimizeBtn = minimizeBtn;
+        controls.appendChild(minimizeBtn);
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = "Close";
+        closeBtn.style.cssText = `
+            cursor: pointer;
+            padding: 0 4px;
+            font-size: 11px;
+        `;
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        controls.appendChild(closeBtn);
+
+        dragBar.appendChild(controls);
+        container.appendChild(dragBar);
+
+        // Omnidirectional Resize Grab Handles (Request 4 - Resizing visual handle SVG completely removed)
+        this._resizeHandles = [];
+        const thickness = '6px';
+        const offset = '-3px'; 
+        const cornerSize = '12px';
+        const cornerOffset = '-6px';
+
+        const createResizeHandle = (direction, styleCss) => {
+            const handle = doc.createElement('div');
+            handle.style.cssText = `
+                position: absolute;
+                z-index: 100000;
+                user-select: none;
+                ${styleCss}
+            `;
+            handle.setAttribute('data-direction', direction);
+            container.appendChild(handle);
+            this._resizeHandles.push(handle);
+        };
+
+        // Borders
+        createResizeHandle('n', `top: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: n-resize;`);
+        createResizeHandle('s', `bottom: ${offset}; left: 0; right: 0; height: ${thickness}; cursor: s-resize;`);
+        createResizeHandle('e', `top: 0; bottom: 0; right: ${offset}; width: ${thickness}; cursor: e-resize;`);
+        createResizeHandle('w', `top: 0; bottom: 0; left: ${offset}; width: ${thickness}; cursor: w-resize;`);
+
+        // Corners
+        createResizeHandle('nw', `top: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: nw-resize;`);
+        createResizeHandle('ne', `top: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: ne-resize;`);
+        createResizeHandle('sw', `bottom: ${cornerOffset}; left: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: sw-resize;`);
+        createResizeHandle('se', `bottom: ${cornerOffset}; right: ${cornerOffset}; width: ${cornerSize}; height: ${cornerSize}; cursor: se-resize;`);
+
+        let mode = null;
+        let activeHandleDir = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `
+                position: fixed; inset: 0;
+                z-index: 999999;
+                background: transparent;
+                cursor: ${cursor};
+            `;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = 'none';
+            });
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) { 
+                this._dragOverlay.remove(); 
+                this._dragOverlay = null; 
+            }
+            const currentDoc = getActiveDoc();
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = '';
+            });
+        };
+
+        const onMouseDown = (e, direction) => {
+            activeHandleDir = direction;
+            startX = e.clientX;
+            startY = e.clientY;
+            
+            const r = container.getBoundingClientRect();
+            startLeft = r.left;
+            startTop = r.top;
+            startW = r.width;
+            startH = r.height;
+            
+            e.preventDefault();
+            e.stopPropagation();
+            showOverlay(direction + '-resize');
+        };
+
+        this._resizeHandles.forEach(h => {
+            const dir = h.getAttribute('data-direction');
+            h.addEventListener('mousedown', (e) => onMouseDown(e, dir));
+        });
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (activeHandleDir) {
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+
+                let newW = startW;
+                let newH = startH;
+                let newLeft = startLeft;
+                let newTop = startTop;
+
+                // Horizontal Calculations
+                if (activeHandleDir.includes('e')) {
+                    newW = Math.max(250, startW + dx);
+                } else if (activeHandleDir.includes('w')) {
+                    newW = Math.max(250, startW - dx);
+                    if (newW > 250) {
+                        newLeft = startLeft + dx;
+                    }
+                }
+
+                // Vertical Calculations
+                if (activeHandleDir.includes('s')) {
+                    newH = Math.max(200, startH + dy);
+                } else if (activeHandleDir.includes('n')) {
+                    newH = Math.max(200, startH - dy);
+                    if (newH > 200) {
+                        newTop = startTop + dy;
+                    }
+                }
+
+                container.style.width = newW + 'px';
+                container.style.height = newH + 'px';
+                container.style.left = newLeft + 'px';
+                container.style.top = newTop + 'px';
+                container.style.right = 'auto';
+            }
+        };
+
+        const onMouseUp = () => { 
+            mode = null; 
+            activeHandleDir = null; 
+            removeOverlay(); 
+        };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn || e.target === minimizeBtn || e.target === opacitySlider || e.target.closest('button') || e.target.closest('.hide-scrollbar') || e.target.closest('div[style*="cursor: pointer"]')) return;
+            mode = 'drag';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top;
+            e.preventDefault();
+            showOverlay('move');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    toggleMinimize() {
+        if (!this.floatingContainer) return;
+        this._isMinimized = !this._isMinimized;
+
+        if (this._isMinimized) {
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+
+            // Lock height of inner tab content container to prevent CodeMirror from triggering layout reflow (Request 1)
+            if (this.tabContentContainer) {
+                const currentHeight = this.tabContentContainer.offsetHeight;
+                this.tabContentContainer.style.height = currentHeight + 'px';
+                this.tabContentContainer.style.flex = 'none';
+            }
+
+            // Minimized height set directly on parent container (Request 1)
+            this.floatingContainer.style.height = '36px';
+            this.floatingContainer.style.minHeight = '36px';
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'none');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '❐';
+                this.minimizeBtn.title = "Restore";
+            }
+
+            if (this._prevActiveLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: true });
+                    this._prevActiveLeaf.containerEl?.focus();
+                } catch (_) {}
+            }
+        } else {
+            this.floatingContainer.style.height = this._savedHeight || '500px';
+            this.floatingContainer.style.width = this._savedWidth || '380px';
+            this.floatingContainer.style.minHeight = '200px';
+
+            // Unlock and return height control to normal flex values (Request 1)
+            if (this.tabContentContainer) {
+                this.tabContentContainer.style.height = '100%';
+                this.tabContentContainer.style.flex = '1';
+            }
+
+            if (this._resizeHandles) {
+                this._resizeHandles.forEach(h => h.style.display = 'block');
+            }
+
+            if (this.minimizeBtn) {
+                this.minimizeBtn.textContent = '−';
+                this.minimizeBtn.title = "Minimize";
+            }
+
+            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+            if (activeLeaf) {
+                try {
+                    this.app.workspace.setActiveLeaf(activeLeaf, { focus: true });
+                    activeLeaf.containerEl?.focus();
+
+                    const cmEditor = activeLeaf.containerEl.querySelector('.cm-content');
+                    if (cmEditor) {
+                        cmEditor.focus();
+                    }
+                } catch (_) {}
+                try { activeLeaf?.view?.onShow?.(); } catch (_) {}
+                try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+            }
+        }
+    }
+
+    closeVaporNote() {
+        if (this._resizeObserver) {
+            this._resizeObserver.disconnect();
+            this._resizeObserver = null;
+        }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null;
+            this._globalUpHandler   = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._globalClickHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('click', this._globalClickHandler, true);
+            } catch (_) {}
+            this._globalClickHandler = null;
+        }
+        if (this._keydownHandler && this._targetWin) {
+            try {
+                this._targetWin.removeEventListener('keydown', this._keydownHandler, true);
+            } catch (_) {}
+            this._keydownHandler = null;
+        }
+        if (this._dragOverlay) {
+            this._dragOverlay.remove();
+            this._dragOverlay = null;
+        }
+
+        if (this.floatingContainer) {
+            if (!this._isMinimized) {
+                const r = this.floatingContainer.getBoundingClientRect();
+                this._savedWidth = r.width + 'px';
+                this._savedHeight = r.height + 'px';
+                this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+            } else {
+                this._savedLeft = this.floatingContainer.style.left;
+                this._savedTop = this.floatingContainer.style.top;
+            }
+            this.floatingContainer.remove();
+            this.floatingContainer = null;
+        }
+
+        if (this.floatingLeaves) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => {
+                const viewState = leaf.getViewState();
+                const type = viewState.type;
+                let pathOrUrl = null;
+                if (type === 'markdown' && leaf.view?.file) {
+                    pathOrUrl = leaf.view.file.path;
+                } else if (type === 'webviewer') {
+                    pathOrUrl = viewState.state?.url;
+                }
+                return { type, pathOrUrl };
+            });
+            this._savedActiveLeafIndex = this.activeLeafIndex;
+        }
+
+        if (this.floatingLeaves) {
+            this._allowDetach = true;
+            this.floatingLeaves.forEach((leaf) => {
+                try {
+                    leaf.detach();
+                } catch (_) {}
+            });
+            this.floatingLeaves = [];
+            this._allowDetach = false;
+        }
+
+        this._resizeHandles = [];
+
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try {
+                const ws = this.app.workspace;
+                this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false });
+            } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+        this._isMinimized = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V12.5
+- Has opacity changer and minimizer included, but a little buggy and the new tabs doesn't really work the way I want them to. Maybe could build something within it would be great
+```javascript
+const { Plugin, Modal, Setting, Notice } = require('obsidian');
+
+// ─── File Prompt Modal ────────────────────────────────────────────────────────
+
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .setDesc("Path relative to vault root (e.g. VaporNote.md or Notes/VaporNote.md)")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { this.onSubmit(this.value); this.close(); }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        // ── Core state ────────────────────────────────────────────────────────
+        this.floatingContainer  = null;
+        this._prevActiveLeaf    = null;
+        this._origSetActiveLeaf = null;
+        this._origGetLeaf       = null;   // intercepted for command-routing (feature 5)
+        this._targetWin         = null;
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;
+        this._isOpening         = false;
+        this._focusListeners    = [];
+
+        // ── Multi-tab state (feature 4) ───────────────────────────────────────
+        // Each entry: { leaf, title }
+        this._tabs              = [];
+        this._activeTabIndex    = -1;
+        this._tabBar            = null;
+        this._contentArea       = null;
+
+        // ── Minimize state (feature 2) ────────────────────────────────────────
+        this._isMinimized       = false;
+        this._savedHeight       = null;
+        this._savedWidth        = null;
+        this._minimizeBtn       = null;
+
+        // ── Opacity state (feature 3) ─────────────────────────────────────────
+        this._opacity           = 1.0;
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf && !this._isVaporLeaf(leaf)) {
+                    this._prevActiveLeaf = leaf;
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+                const activeLeaf = this._getActiveLeaf();
+                if (!activeLeaf?.view) return;
+                try { activeLeaf.view.onShow?.(); }        catch (_) {}
+                try { activeLeaf.view.editor?.refresh(); } catch (_) {}
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) bwin.off('focus', listener);
+                    else if (win && listener) win.removeEventListener('focus', listener);
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    // ─── Helpers ──────────────────────────────────────────────────────────────
+
+    _isVaporLeaf(leaf) {
+        return this._tabs.some(t => t.leaf === leaf);
+    }
+
+    _getActiveLeaf() {
+        if (this._activeTabIndex < 0 || this._activeTabIndex >= this._tabs.length) return null;
+        return this._tabs[this._activeTabIndex]?.leaf ?? null;
+    }
+
+    // ─── Native Window Focus Tracker ──────────────────────────────────────────
+
+    _setupWindowFocusListeners() {
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try { if (bwin && listener) bwin.off('focus', listener); } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit?.children) {
+            floatingSplit.children.forEach(child => { if (child.win) windows.add(child.win); });
+        }
+
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {}
+
+            if (bwin) {
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    // ─── Open-state guard ─────────────────────────────────────────────────────
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    // ─── Toggle ───────────────────────────────────────────────────────────────
+
+    async toggleVaporNote() {
+        if (this._isOpening) return;
+
+        if (this._isOpen()) {
+            if (this._isMinimized) {
+                this._restoreFromMinimize();
+                return;
+            }
+            this.closeVaporNote();
+            return;
+        }
+
+        // Open directly with a blank new-tab view — no file prompt on first open
+        await this._openVaporNote(null);
+    }
+
+    // ─── Open ─────────────────────────────────────────────────────────────────
+
+    async _openVaporNote(path) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const ws = this.app.workspace;
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            // Build outer container
+            const container = doc.createElement('div');
+            this.floatingContainer = container;
+            this._styleContainer(container);
+            doc.body.appendChild(container);
+
+            // Build chrome (drag bar, opacity toggle, minimize, close)
+            this._buildChrome(container);
+
+            // Build tab bar
+            const tabBar = doc.createElement('div');
+            tabBar.style.cssText = `
+                display: flex;
+                align-items: center;
+                background: var(--background-secondary);
+                border-bottom: 1px solid var(--border-color);
+                flex-shrink: 0;
+                overflow-x: auto;
+                min-height: 30px;
+                padding: 0 4px;
+                gap: 2px;
+            `;
+            this._tabBar = tabBar;
+            container.appendChild(tabBar);
+
+            // Content area — active leaf renders here
+            const contentArea = doc.createElement('div');
+            contentArea.style.cssText = 'flex:1; min-height:0; overflow:hidden; display:flex; flex-direction:column;';
+            this._contentArea = contentArea;
+            container.appendChild(contentArea);
+
+            // Install workspace interceptors
+            this._installSetActiveLeafInterceptor();
+            this._installGetLeafInterceptor();
+
+            // Focus handlers
+            this._focusinHandler = () => {
+                if (this._isMigrating) return;
+                const al = this._getActiveLeaf();
+                if (al) ws.activeLeaf = al;
+            };
+            container.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating) return;
+                const newTarget = e.relatedTarget;
+                if (container && newTarget && container.contains(newTarget)) return;
+                const al = this._getActiveLeaf();
+                if (al && ws.activeLeaf === al && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            container.addEventListener('focusout', this._focusoutHandler);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                const al = this._getActiveLeaf();
+                if (!al) return;
+                try { al.view?.onResize?.(); }        catch (_) {}
+                try { al.view?.editor?.refresh(); }   catch (_) {}
+            });
+            this._resizeObserver.observe(container);
+
+            // Open initial tab
+            if (path) {
+                await this._addTab(path);
+            } else {
+                await this._addBlankTab();
+            }
+
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    // ─── Tab Management (feature 4) ───────────────────────────────────────────
+
+    async _addBlankTab() {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = ws.getLeaf(true);
+            this._orphanLeafFromWorkspace(leaf);
+            this._contentArea.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, { flex: '1', minHeight: '0', overflow: 'hidden' });
+            // Open Obsidian's native new-tab view (shows "Create new note", "Go to file", etc.)
+            await leaf.setViewState({ type: 'empty', state: {} });
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        this._protectLeaf(leaf);
+        this._tabs.push({ leaf, title: 'New tab' });
+        this._renderTabBar();
+        this._switchToTab(this._tabs.length - 1);
+    }
+
+    async _addTab(path) {
+        const ws = this.app.workspace;
+        const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = () => {};
+
+        let leaf;
+        try {
+            leaf = ws.getLeaf(true);
+            this._orphanLeafFromWorkspace(leaf);
+            this._contentArea.appendChild(leaf.containerEl);
+            Object.assign(leaf.containerEl.style, { flex: '1', minHeight: '0', overflow: 'hidden' });
+
+            let file = this.app.vault.getAbstractFileByPath(path);
+            if (!file) {
+                file = await this.app.vault.create(path, `# ${path.replace('.md', '')}\n\n`);
+            }
+            await leaf.openFile(file);
+
+            const state = leaf.getViewState();
+            state.state.mode   = 'source';
+            state.state.source = false;
+            await leaf.setViewState(state);
+        } finally {
+            ws.setActiveLeaf = realSetActiveLeaf;
+        }
+
+        if (leaf.view) leaf.view.onHide = () => {};
+        this._protectLeaf(leaf);
+
+        const title = path.split('/').pop() || path;
+        this._tabs.push({ leaf, title });
+        this._renderTabBar();
+        this._switchToTab(this._tabs.length - 1);
+        return leaf;
+    }
+
+    // Called by the getLeaf interceptor when a command opens a new leaf while vapor is focused
+    async _addTabFromLeaf(leaf) {
+        this._orphanLeafFromWorkspace(leaf);
+        this._contentArea.appendChild(leaf.containerEl);
+        Object.assign(leaf.containerEl.style, { flex: '1', minHeight: '0', overflow: 'hidden' });
+        this._protectLeaf(leaf);
+
+        this._tabs.push({ leaf, title: 'New tab' });
+        this._renderTabBar();
+        this._switchToTab(this._tabs.length - 1);
+
+        // Watch for the view to settle so we can update the tab title
+        setTimeout(() => {
+            const viewTitle = leaf.view?.getDisplayText?.() || leaf.view?.file?.name || null;
+            if (viewTitle) this._updateTabTitle(leaf, viewTitle);
+        }, 300);
+
+        return leaf;
+    }
+
+    _switchToTab(index) {
+        if (index < 0 || index >= this._tabs.length) return;
+
+        this._tabs.forEach((t, i) => {
+            t.leaf.containerEl.style.display = i === index ? 'flex' : 'none';
+        });
+
+        this._activeTabIndex = index;
+        this._renderTabBar();
+
+        const leaf = this._tabs[index].leaf;
+        this.app.workspace.activeLeaf = leaf;
+
+        try { leaf.view?.onShow?.(); }        catch (_) {}
+        try { leaf.view?.editor?.refresh(); } catch (_) {}
+        leaf.containerEl.focus();
+    }
+
+    _closeTab(index) {
+        if (this._tabs.length <= 1) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const tab = this._tabs[index];
+        this._allowDetach = true;
+        try { tab.leaf.detach(); } catch (_) {}
+        this._allowDetach = false;
+
+        this._tabs.splice(index, 1);
+        const nextIndex = Math.min(index, this._tabs.length - 1);
+        this._activeTabIndex = -1;
+        this._renderTabBar();
+        this._switchToTab(nextIndex);
+    }
+
+    _updateTabTitle(leaf, title) {
+        const tab = this._tabs.find(t => t.leaf === leaf);
+        if (tab) { tab.title = title; this._renderTabBar(); }
+    }
+
+    _renderTabBar() {
+        if (!this._tabBar) return;
+        const doc = this._tabBar.ownerDocument;
+        this._tabBar.innerHTML = '';
+
+        this._tabs.forEach((tab, i) => {
+            const pill = doc.createElement('div');
+            const isActive = i === this._activeTabIndex;
+            pill.style.cssText = `
+                display: inline-flex;
+                align-items: center;
+                gap: 4px;
+                padding: 3px 8px 3px 10px;
+                border-radius: 4px;
+                font-size: 11px;
+                cursor: pointer;
+                white-space: nowrap;
+                max-width: 140px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                flex-shrink: 0;
+                background: ${isActive ? 'var(--background-primary)' : 'transparent'};
+                border: 1px solid ${isActive ? 'var(--border-color)' : 'transparent'};
+            `;
+
+            const label = doc.createElement('span');
+            label.textContent = tab.title;
+            label.style.cssText = `
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: ${isActive ? 'var(--text-normal)' : 'var(--text-muted)'};
+            `;
+            pill.appendChild(label);
+
+            const x = doc.createElement('span');
+            x.textContent = '×';
+            x.style.cssText = 'cursor:pointer; padding:0 2px; opacity:0.6; flex-shrink:0;';
+            x.addEventListener('click', (e) => { e.stopPropagation(); this._closeTab(i); });
+            pill.appendChild(x);
+
+            pill.addEventListener('click', () => this._switchToTab(i));
+            this._tabBar.appendChild(pill);
+        });
+
+        // "+" new tab button
+        const addBtn = doc.createElement('div');
+        addBtn.textContent = '+';
+        addBtn.title = 'New tab';
+        addBtn.style.cssText = `
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+            line-height: 1;
+            cursor: pointer;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        `;
+        addBtn.addEventListener('click', () => this._addBlankTab());
+        this._tabBar.appendChild(addBtn);
+    }
+
+    // ─── Leaf Protection ──────────────────────────────────────────────────────
+
+    _protectLeaf(leaf) {
+        const origDetach = leaf.detach.bind(leaf);
+        leaf.detach = () => {
+            if (this._allowDetach) origDetach();
+            else this._assertDOMPosition();
+        };
+    }
+
+    // ─── setActiveLeaf Interceptor ────────────────────────────────────────────
+
+    _installSetActiveLeafInterceptor() {
+        const ws = this.app.workspace;
+        if (this._origSetActiveLeaf) {
+            ws.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+        this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+        ws.setActiveLeaf = (targetLeaf, ...args) => {
+            if (this._isVaporLeaf(targetLeaf)) {
+                ws.activeLeaf = targetLeaf;
+                return;
+            }
+            return this._origSetActiveLeaf(targetLeaf, ...args);
+        };
+    }
+
+    // ─── getLeaf Interceptor (feature 5) ─────────────────────────────────────
+    //
+    // When the float has DOM focus and a command requests a new leaf (getLeaf(true)),
+    // we let the original create it, then adopt it into a new vapor tab.
+    // getLeaf('window'), getLeaf('split'), etc. pass through unchanged — those
+    // explicitly target non-float destinations.
+
+    _installGetLeafInterceptor() {
+        const ws = this.app.workspace;
+        if (this._origGetLeaf) {
+            ws.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+        this._origGetLeaf = ws.getLeaf.bind(ws);
+        ws.getLeaf = (newLeaf, ...args) => {
+            if (this._floatHasFocus() && newLeaf === true) {
+                const leaf = this._origGetLeaf(true, ...args);
+                setTimeout(() => {
+                    if (leaf && !this._isVaporLeaf(leaf)) {
+                        this._addTabFromLeaf(leaf);
+                    }
+                }, 0);
+                return leaf;
+            }
+            return this._origGetLeaf(newLeaf, ...args);
+        };
+    }
+
+    _floatHasFocus() {
+        if (!this.floatingContainer) return false;
+        return this.floatingContainer.contains(activeDocument.activeElement);
+    }
+
+    // ─── Minimize (feature 2) ─────────────────────────────────────────────────
+
+    _minimize() {
+        if (!this.floatingContainer || this._isMinimized) return;
+        const r = this.floatingContainer.getBoundingClientRect();
+        this._savedHeight = this.floatingContainer.style.height || r.height + 'px';
+        this._savedWidth  = this.floatingContainer.style.width  || r.width  + 'px';
+        this._isMinimized = true;
+
+        this.floatingContainer.style.height    = '34px';
+        this.floatingContainer.style.minHeight = '34px';
+        this.floatingContainer.style.overflow  = 'hidden';
+        if (this._tabBar)      this._tabBar.style.display      = 'none';
+        if (this._contentArea) this._contentArea.style.display = 'none';
+        this._updateMinimizeBtn(true);
+    }
+
+    _restoreFromMinimize() {
+        if (!this.floatingContainer || !this._isMinimized) return;
+        this._isMinimized = false;
+
+        this.floatingContainer.style.height    = this._savedHeight || '500px';
+        this.floatingContainer.style.width     = this._savedWidth  || '380px';
+        this.floatingContainer.style.minHeight = '200px';
+        this.floatingContainer.style.overflow  = 'hidden';
+        if (this._tabBar)      this._tabBar.style.display      = '';
+        if (this._contentArea) this._contentArea.style.display = '';
+        this._updateMinimizeBtn(false);
+
+        const al = this._getActiveLeaf();
+        try { al?.view?.onResize?.(); }        catch (_) {}
+        try { al?.view?.editor?.refresh(); }   catch (_) {}
+    }
+
+    _updateMinimizeBtn(minimized) {
+        if (!this._minimizeBtn) return;
+        this._minimizeBtn.textContent = minimized ? '▲' : '▬';
+        this._minimizeBtn.title = minimized ? 'Restore' : 'Minimize';
+    }
+
+    // ─── Orphan leaf ──────────────────────────────────────────────────────────
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) parent.children.splice(idx, 1);
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    // ─── DOM Migration Engine ─────────────────────────────────────────────────
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+        this._isMigrating = true;
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+
+        try { if (this.floatingContainer.parentElement) this.floatingContainer.remove(); } catch (_) {}
+
+        this._targetWin = newWin;
+        newWin.document.body.appendChild(this.floatingContainer);
+
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+
+        this._assertDOMPosition();
+
+        const al = this._getActiveLeaf();
+        try { al?.view?.onShow?.(); }        catch (_) {}
+        try { al?.view?.editor?.refresh(); } catch (_) {}
+
+        setTimeout(() => { this._isMigrating = false; }, 150);
+    }
+
+    // ─── DOM guard ────────────────────────────────────────────────────────────
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this._targetWin) return;
+        if (this._targetWin.closed) { this.closeVaporNote(); return; }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer))
+            doc.body.appendChild(this.floatingContainer);
+
+        const al = this._getActiveLeaf();
+        if (al && this._contentArea && !this._contentArea.contains(al.containerEl)) {
+            this._contentArea.appendChild(al.containerEl);
+            Object.assign(al.containerEl.style, { flex: '1', minHeight: '0', overflow: 'hidden' });
+        }
+    }
+
+    // ─── Styles ───────────────────────────────────────────────────────────────
+
+    _styleContainer(el) {
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           '100px',
+            right:         '50px',
+            width:         '380px',
+            height:        '500px',
+            zIndex:        '200000',
+            background:    'var(--background-primary)',
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+            opacity:       String(this._opacity),
+        });
+    }
+
+    // ─── Chrome (drag bar + controls) ─────────────────────────────────────────
+
+    _buildChrome(container) {
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        // ── Drag bar ──────────────────────────────────────────────────────────
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: var(--background-secondary);
+            padding: 0 8px;
+            cursor: move;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            flex-shrink: 0;
+            height: 34px;
+            box-sizing: border-box;
+        `;
+
+        const title = doc.createElement('span');
+        title.textContent = 'VaporNote';
+        title.style.cssText = 'flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;';
+        dragBar.appendChild(title);
+
+        const btns = doc.createElement('div');
+        btns.style.cssText = 'display:flex; align-items:center; gap:6px; flex-shrink:0;';
+
+        // ◑ Opacity toggle
+        const opacityBtn = doc.createElement('span');
+        opacityBtn.textContent = '◑';
+        opacityBtn.title = 'Opacity';
+        opacityBtn.style.cssText = 'cursor:pointer; padding:0 2px; font-size:12px;';
+
+        // ▬ Minimize
+        const minimizeBtn = doc.createElement('span');
+        minimizeBtn.textContent = '▬';
+        minimizeBtn.title = 'Minimize';
+        minimizeBtn.style.cssText = 'cursor:pointer; padding:0 2px; font-size:10px;';
+        this._minimizeBtn = minimizeBtn;
+
+        // ✕ Close
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.title = 'Close';
+        closeBtn.style.cssText = 'cursor:pointer; padding:0 2px;';
+
+        btns.appendChild(opacityBtn);
+        btns.appendChild(minimizeBtn);
+        btns.appendChild(closeBtn);
+        dragBar.appendChild(btns);
+        container.appendChild(dragBar);
+
+        // ── Opacity slider row (feature 3) ────────────────────────────────────
+        const opacityRow = doc.createElement('div');
+        opacityRow.style.cssText = `
+            display: none;
+            align-items: center;
+            gap: 8px;
+            padding: 4px 10px;
+            background: var(--background-secondary);
+            border-bottom: 1px solid var(--border-color);
+            flex-shrink: 0;
+        `;
+
+        const opacityLabel = doc.createElement('span');
+        opacityLabel.textContent = 'Opacity';
+        opacityLabel.style.cssText = 'font-size:11px; color:var(--text-muted); white-space:nowrap;';
+
+        const slider = doc.createElement('input');
+        slider.type  = 'range';
+        slider.min   = '0.1';
+        slider.max   = '1';
+        slider.step  = '0.05';
+        slider.value = String(this._opacity);
+        slider.style.cssText = 'flex:1; cursor:pointer;';
+        slider.addEventListener('input', () => {
+            this._opacity = parseFloat(slider.value);
+            container.style.opacity = String(this._opacity);
+        });
+
+        opacityRow.appendChild(opacityLabel);
+        opacityRow.appendChild(slider);
+        container.appendChild(opacityRow);
+
+        opacityBtn.addEventListener('click', () => {
+            opacityRow.style.display = opacityRow.style.display === 'none' ? 'flex' : 'none';
+        });
+
+        minimizeBtn.addEventListener('click', () => {
+            if (this._isMinimized) this._restoreFromMinimize();
+            else this._minimize();
+        });
+
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+
+        // ── Resize handle ─────────────────────────────────────────────────────
+        const resizeHandle = doc.createElement('div');
+        resizeHandle.style.cssText = `
+            position: absolute;
+            right: 0; bottom: 0;
+            width: 18px; height: 18px;
+            cursor: se-resize;
+            z-index: 10;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            padding: 3px;
+            box-sizing: border-box;
+        `;
+        resizeHandle.innerHTML = `
+            <svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"
+                 style="opacity:0.45;pointer-events:none;">
+                <line x1="1" y1="8" x2="8" y2="1" stroke="var(--text-muted)" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="4" y1="8" x2="8" y2="4" stroke="var(--text-muted)" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="7" y1="8" x2="8" y2="7" stroke="var(--text-muted)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>`;
+        container.appendChild(resizeHandle);
+
+        // ── Drag + resize logic ───────────────────────────────────────────────
+        let mode = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `position:fixed; inset:0; z-index:999999; background:transparent; cursor:${cursor};`;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+            currentDoc.querySelectorAll('webview').forEach(wv => { wv.style.pointerEvents = 'none'; });
+        };
+
+        const removeOverlay = () => {
+            if (this._dragOverlay) { this._dragOverlay.remove(); this._dragOverlay = null; }
+            const currentDoc = getActiveDoc();
+            currentDoc.querySelectorAll('webview').forEach(wv => { wv.style.pointerEvents = ''; });
+        };
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (mode === 'resize') {
+                if (this._isMinimized) return;
+                container.style.width  = Math.max(250, startW + e.clientX - startX) + 'px';
+                container.style.height = Math.max(200, startH + e.clientY - startY) + 'px';
+            }
+        };
+
+        const onMouseUp = () => { mode = null; removeOverlay(); };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (btns.contains(e.target)) return;
+            mode = 'drag';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top;
+            e.preventDefault();
+            showOverlay('move');
+        });
+
+        resizeHandle.addEventListener('mousedown', (e) => {
+            if (this._isMinimized) return;
+            mode = 'resize';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startW = r.width; startH = r.height;
+            e.preventDefault();
+            e.stopPropagation();
+            showOverlay('se-resize');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    // ─── Close ────────────────────────────────────────────────────────────────
+
+    closeVaporNote() {
+        if (this._resizeObserver) {
+            this._resizeObserver.disconnect();
+            this._resizeObserver = null;
+        }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null;
+            this._globalUpHandler   = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._dragOverlay) {
+            this._dragOverlay.remove();
+            this._dragOverlay = null;
+        }
+
+        // Detach all tabs
+        this._allowDetach = true;
+        this._tabs.forEach(tab => { try { tab.leaf.detach(); } catch (_) {} });
+        this._allowDetach = false;
+        this._tabs         = [];
+        this._activeTabIndex = -1;
+        this._tabBar       = null;
+        this._contentArea  = null;
+
+        if (this.floatingContainer) {
+            this.floatingContainer.remove();
+            this.floatingContainer = null;
+        }
+
+        // Restore intercepted workspace methods
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+        if (this._origGetLeaf) {
+            this.app.workspace.getLeaf = this._origGetLeaf;
+            this._origGetLeaf = null;
+        }
+
+        if (this._prevActiveLeaf) {
+            try {
+                const ws = this.app.workspace;
+                if (!ws.activeLeaf || this._isVaporLeaf(ws.activeLeaf)) {
+                    ws.setActiveLeaf(this._prevActiveLeaf, { focus: false });
+                }
+            } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin   = null;
+        this._isOpening   = false;
+        this._isMinimized = false;
+        this._minimizeBtn = null;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
+## V12 (Create Floating Note for Timer)
+- It is able to access the web. 
+```javascript
+const { Plugin, Modal, Setting, Notice } = require('obsidian');
+
+// ─── File Prompt Modal (markdown mode) ───────────────────────────────────────
+
+class FilePromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "VaporNote.md";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote" });
+        new Setting(contentEl)
+            .setName("File path")
+            .setDesc("Path relative to vault root (e.g. VaporNote.md or Notes/VaporNote.md)")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { this.onSubmit(this.value); this.close(); }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+// ─── URL Prompt Modal (web viewer mode) ──────────────────────────────────────
+
+class UrlPromptModal extends Modal {
+    constructor(app, onSubmit, defaultValue) {
+        super(app);
+        this.onSubmit = onSubmit;
+        this.value = defaultValue || "https://";
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.createEl("h2", { text: "Open VaporNote: Web" });
+        new Setting(contentEl)
+            .setName("URL")
+            .setDesc("Full URL including https://")
+            .addText((text) => {
+                text.setValue(this.value);
+                text.onChange((val) => { this.value = val; });
+                text.inputEl.style.width = "100%";
+                text.inputEl.focus();
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") { this.onSubmit(this.value); this.close(); }
+                });
+            });
+        new Setting(contentEl)
+            .addButton((btn) => {
+                btn.setButtonText("Confirm").setCta().onClick(() => {
+                    this.onSubmit(this.value);
+                    this.close();
+                });
+            });
+    }
+
+    onClose() { this.contentEl.empty(); }
+}
+
+
+class VaporNotePlugin extends Plugin {
+    async onload() {
+        this.floatingLeaf       = null;
+        this.floatingContainer  = null;
+        this.savedFilePath      = null;   // null until user picks a file once
+        this.savedWebUrl        = null;   // null until user picks a URL once
+        this._prevActiveLeaf    = null;   // background leaf active before we opened
+        this._origSetActiveLeaf = null;   // real setActiveLeaf, intercepted for float lifetime
+        this._targetWin         = null;   // window context where the float is currently attached
+        this._globalMoveHandler = null;
+        this._globalUpHandler   = null;
+        this._resizeObserver    = null;
+        this._focusinHandler    = null;
+        this._focusoutHandler   = null;   // Tracks blur events to safely revert activeLeaf
+        this._dragOverlay       = null;
+        this._allowDetach       = false;
+        this._isMigrating       = false;  // Flag to suppress focus changes during window-swapping
+        this._isOpening         = false;  // Lock to completely prevent rapid toggling race conditions
+        this._focusListeners    = [];     // Cache registry of native focus hooks for cleanup
+
+        this.addCommand({
+            id: 'toggle-vapornote',
+            name: 'Toggle VaporNote',
+            callback: () => this.toggleVaporNote()
+        });
+
+        this.addCommand({
+            id: 'toggle-vapornote-web',
+            name: 'Toggle VaporNote: Web',
+            callback: () => this.toggleVaporNoteWeb()
+        });
+
+        // Initialize focus listeners for currently open windows
+        this._setupWindowFocusListeners();
+
+        this.registerEvent(
+            this.app.workspace.on('layout-change', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('window-open', () => {
+                this._setupWindowFocusListeners();
+                this._assertDOMPosition();
+            })
+        );
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                // If a background leaf is activated while VaporNote is open, track it as our reference
+                if (leaf && leaf !== this.floatingLeaf) {
+                    this._prevActiveLeaf = leaf;
+
+                    // Backup automatic follow logic if tab active shifts
+                    const leafWin = leaf.containerEl?.ownerDocument?.defaultView;
+                    if (leafWin && this._targetWin && leafWin !== this._targetWin) {
+                        this._moveContainerToWindow(leafWin);
+                    }
+                }
+
+                if (!this.floatingLeaf?.view) return;
+                try { this.floatingLeaf.view.onShow?.(); }                    catch (_) {}
+                try { this.floatingLeaf.view.editor?.refresh(); }             catch (_) {}
+            })
+        );
+    }
+
+    async onunload() {
+        this._allowDetach = true;
+        this.closeVaporNote();
+
+        // Safely unbind focus hooks on all open/surviving windows during plugin disable
+        if (this._focusListeners) {
+            this._focusListeners.forEach(({ win, bwin, listener }) => {
+                try {
+                    if (bwin && listener) {
+                        bwin.off('focus', listener);
+                    } else if (win && listener) {
+                        win.removeEventListener('focus', listener);
+                    }
+                    delete win._vaporFocusHooked;
+                } catch (_) {}
+            });
+            this._focusListeners = [];
+        }
+    }
+
+    // ─── Native Window Focus Tracker ──────────────────────────────────────────
+
+    _setupWindowFocusListeners() {
+        // Sweep out dead references from closed window frames
+        if (this._focusListeners) {
+            this._focusListeners = this._focusListeners.filter(({ win, bwin, listener }) => {
+                if (win.closed) {
+                    try {
+                        if (bwin && listener) bwin.off('focus', listener);
+                    } catch (_) {}
+                    return false;
+                }
+                return true;
+            });
+        } else {
+            this._focusListeners = [];
+        }
+
+        // Collect all currently open active window DOM frames (main + popouts)
+        const windows = new Set([window]);
+        const floatingSplit = this.app.workspace.floatingSplit;
+        if (floatingSplit && floatingSplit.children) {
+            floatingSplit.children.forEach(child => {
+                if (child.win) {
+                    windows.add(child.win);
+                }
+            });
+        }
+
+        // Bind focus-detection triggers to all target windows
+        windows.forEach(win => {
+            if (win._vaporFocusHooked) return;
+            win._vaporFocusHooked = true;
+
+            const onWindowFocus = () => {
+                // Instantly follow focus to the newly activated full-screen window on space swipe
+                if (this._isOpen() && this._targetWin !== win) {
+                    this._moveContainerToWindow(win);
+                }
+            };
+
+            let bwin = null;
+            try {
+                // Get the remote Electron BrowserWindow representing this DOM window context
+                const remote = win.require?.('@electron/remote') || require('@electron/remote');
+                bwin = remote.getCurrentWindow();
+            } catch (e) {
+                // Electron context lookup omitted if not running in desktop node frame
+            }
+
+            if (bwin) {
+                // Bind to Electron-level BrowserWindow focus event (100% bulletproof even with focused guest webviews)
+                bwin.on('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin, listener: onWindowFocus });
+            } else {
+                // Safe DOM-level focus event fallback
+                win.addEventListener('focus', onWindowFocus);
+                this._focusListeners.push({ win, bwin: null, listener: onWindowFocus });
+            }
+        });
+    }
+
+    // ─── Open-state guard ─────────────────────────────────────────────────────
+
+    _isOpen() {
+        if (!this.floatingContainer || !this._targetWin) return false;
+        const doc = this.floatingContainer.ownerDocument || this._targetWin.document;
+        return !!(doc && doc.body.contains(this.floatingContainer));
+    }
+
+    // ─── Toggle (markdown) ────────────────────────────────────────────────────
+
+    async toggleVaporNote() {
+        if (this._isOpening) return; // Prevent rapid-fire opening race conditions
+
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+        if (this.savedFilePath) {
+            await this._openVaporNote(this.savedFilePath);
+            return;
+        }
+        new FilePromptModal(
+            this.app,
+            async (path) => { if (path) await this._openVaporNote(path); },
+            "VaporNote.md"
+        ).open();
+    }
+
+    // ─── Toggle (web) ─────────────────────────────────────────────────────────
+
+    async toggleVaporNoteWeb() {
+        if (this._isOpening) return;
+
+        if (this._isOpen()) {
+            this.closeVaporNote();
+            return;
+        }
+        if (this.savedWebUrl) {
+            await this._openVaporNoteWeb(this.savedWebUrl);
+            return;
+        }
+        new UrlPromptModal(
+            this.app,
+            async (url) => { if (url) await this._openVaporNoteWeb(url); },
+            "https://"
+        ).open();
+    }
+
+    // ─── Open (markdown) ──────────────────────────────────────────────────────
+
+    async _openVaporNote(path) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this.savedFilePath = path;
+
+            let file = this.app.vault.getAbstractFileByPath(path);
+            if (!file) {
+                file = await this.app.vault.create(path, `# ${path.replace('.md', '')}\n\n`);
+            }
+
+            // Save what the user was on so we can restore it on close.
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const ws = this.app.workspace;
+
+            // Capture window/document environment of the actively focused window
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            // ── Phase 1: no-op stub for creation + file-open ──────────────────────
+            const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = () => {};
+
+            let leaf;
+            try {
+                leaf = ws.getLeaf(true);
+                this.floatingLeaf = leaf; // Assign immediately to prevent active-leaf-change from treating it as a background leaf
+                this._orphanLeafFromWorkspace(leaf);
+
+                // Container must be in the DOM before openFile so CM6 has a real
+                // layout box to measure against when it initialises.
+                const container = doc.createElement('div');
+                this.floatingContainer = container;
+                this._styleContainer(container);
+                container.appendChild(leaf.containerEl);
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1', minHeight: '0', overflow: 'hidden'
+                });
+                doc.body.appendChild(container);
+
+                await leaf.openFile(file);
+
+                // source:false = Live Preview (MathJax, Dataview, etc.)
+                const state = leaf.getViewState();
+                state.state.mode   = 'source';
+                state.state.source = false;
+                await leaf.setViewState(state);
+            } finally {
+                // Always restore even if openFile throws.
+                ws.setActiveLeaf = realSetActiveLeaf;
+            }
+
+            // Prevent tab-switch from suspending the CM6 editor.
+            if (leaf.view) leaf.view.onHide = () => {};
+
+            // Prevent workspace GC from destroying the leaf.
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            // ── Phase 2: permanent selective interceptor on setActiveLeaf ─────────
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (targetLeaf === leaf) {
+                    ws.activeLeaf = leaf;   // hotkeys read this; no tab walk needed
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            this._focusinHandler = () => {
+                if (this._isMigrating) return; // Prevent focus hijacking during document transfers
+                ws.activeLeaf = leaf;
+            };
+            this.floatingContainer.addEventListener('focusin', this._focusinHandler);
+
+            this._focusoutHandler = (e) => {
+                if (this._isMigrating) return;
+                const newFocusTarget = e.relatedTarget;
+                if (this.floatingContainer && newFocusTarget && this.floatingContainer.contains(newFocusTarget)) {
+                    return; // Still focused inside the float
+                }
+                // Focus has completely left the floating note. Restore activeLeaf to background leaf.
+                if (ws.activeLeaf === leaf && this._prevActiveLeaf) {
+                    ws.activeLeaf = this._prevActiveLeaf;
+                }
+            };
+            this.floatingContainer.addEventListener('focusout', this._focusoutHandler);
+
+            this._buildChrome(file.name, this.floatingContainer);
+
+            this._resizeObserver = new ResizeObserver(() => {
+                try { this.floatingLeaf?.view?.onResize?.(); }        catch (_) {}
+                try { this.floatingLeaf?.view?.editor?.refresh(); }   catch (_) {}
+            });
+            this._resizeObserver.observe(this.floatingContainer);
+
+            leaf.containerEl.focus();
+            new Notice("VaporNote popped in.");
+        } catch (e) {
+            console.error("VaporNote opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    // ─── Open (web viewer) ────────────────────────────────────────────────────
+
+    async _openVaporNoteWeb(url) {
+        if (this._isOpening) return;
+        this._isOpening = true;
+
+        try {
+            this.savedWebUrl = url;
+
+            // Save what the user was on so we can restore it on close.
+            this._prevActiveLeaf = this.app.workspace.activeLeaf ?? null;
+
+            const ws = this.app.workspace;
+
+            // Capture window/document environment of the actively focused window
+            this._targetWin = activeWindow;
+            const doc = activeDocument;
+
+            // ── Phase 1: no-op stub for leaf creation + setViewState ──────────────
+            const realSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = () => {};
+
+            let leaf;
+            try {
+                leaf = ws.getLeaf(true);
+                this.floatingLeaf = leaf; // Assign immediately to prevent active-leaf-change from treating it as a background leaf
+                this._orphanLeafFromWorkspace(leaf);
+
+                const container = doc.createElement('div');
+                this.floatingContainer = container;
+                this._styleContainer(container);
+                container.appendChild(leaf.containerEl);
+                Object.assign(leaf.containerEl.style, {
+                    flex: '1', minHeight: '0', overflow: 'hidden'
+                });
+                doc.body.appendChild(container);
+
+                // KEY DIFFERENCE from markdown mode: use webviewer view type instead of openFile
+                await leaf.setViewState({
+                    type: 'webviewer',
+                    state: { url }
+                });
+
+                // Sanity check — webviewer is an internal undocumented type; bail if it didn't load
+                if (leaf.view?.getViewType?.() !== 'webviewer') {
+                    new Notice("VaporNote Web: webviewer failed to load. Is the Web Viewer core plugin enabled?");
+                    this.closeVaporNote();
+                    return;
+                }
+            } finally {
+                // Always restore even if setViewState throws.
+                ws.setActiveLeaf = realSetActiveLeaf;
+            }
+
+            // Prevent workspace GC from destroying the leaf.
+            const origDetach = leaf.detach.bind(leaf);
+            leaf.detach = () => {
+                if (this._allowDetach) origDetach();
+                else this._assertDOMPosition();
+            };
+
+            // ── Phase 2: permanent selective interceptor on setActiveLeaf ─────────
+            if (this._origSetActiveLeaf) {
+                ws.setActiveLeaf = this._origSetActiveLeaf;
+                this._origSetActiveLeaf = null;
+            }
+            this._origSetActiveLeaf = ws.setActiveLeaf.bind(ws);
+            ws.setActiveLeaf = (targetLeaf, ...args) => {
+                if (targetLeaf === leaf) {
+                    ws.activeLeaf = leaf;   // hotkeys read this; no tab walk needed
+                    return;
+                }
+                return this._origSetActiveLeaf(targetLeaf, ...args);
+            };
+
+            this._focusinHandler = () => {
+                if (this._isMigrating) return; // Prevent focus hijacking during document transfers
+                ws.activeLeaf = leaf;
+            };
+            this.floatingContainer.addEventListener('focusin', this._focusinHandler);
+
+            // Note: focusout is intentionally omitted for web mode — the webview's
+            // internal focus model makes it unreliable and unnecessary here.
+
+            // Extract hostname for a clean title bar label
+            let displayTitle = url;
+            try { displayTitle = new URL(url).hostname; } catch (_) {}
+
+            this._buildChrome(displayTitle, this.floatingContainer);
+
+            // webviewer has no CM6 editor, so ResizeObserver only calls onResize
+            this._resizeObserver = new ResizeObserver(() => {
+                try { this.floatingLeaf?.view?.onResize?.(); } catch (_) {}
+            });
+            this._resizeObserver.observe(this.floatingContainer);
+
+            leaf.containerEl.focus();
+            new Notice("VaporNote Web popped in.");
+        } catch (e) {
+            console.error("VaporNote Web opening failed", e);
+            this.closeVaporNote();
+        } finally {
+            this._isOpening = false;
+        }
+    }
+
+    // ─── Orphan leaf (remove from workspace tab group, keep parent ref) ───────
+
+    _orphanLeafFromWorkspace(leaf) {
+        try {
+            const parent = leaf.parent;
+            if (parent && Array.isArray(parent.children)) {
+                const idx = parent.children.indexOf(leaf);
+                if (idx !== -1) parent.children.splice(idx, 1);
+            }
+            if (leaf.containerEl.parentElement) leaf.containerEl.remove();
+        } catch (e) {
+            console.warn('VaporNote: _orphanLeafFromWorkspace failed', e);
+        }
+    }
+
+    // ─── DOM Migration Engine (Follow User Across Windows) ────────────────────
+
+    _moveContainerToWindow(newWin) {
+        if (!this.floatingContainer || !this._targetWin || !newWin || this._targetWin === newWin) return;
+
+        this._isMigrating = true;
+
+        // 1. Unbind mouse move/up listeners from old window document
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+
+        // 2. Remove container from old window's body
+        try {
+            if (this.floatingContainer.parentElement) {
+                this.floatingContainer.remove();
+            }
+        } catch (_) {}
+
+        // 3. Re-assign the target window pointer
+        this._targetWin = newWin;
+
+        // 4. Mount container to the new window's body
+        const doc = newWin.document;
+        doc.body.appendChild(this.floatingContainer);
+
+        // 5. Re-bind mouse move/up listeners to the new window document
+        if (this._globalMoveHandler) {
+            try {
+                this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+        }
+
+        // 6. Force-assert position and focus metrics
+        this._assertDOMPosition();
+
+        // 7. Force CodeMirror 6 context measurement to redraw nicely in the new document split
+        try { this.floatingLeaf?.view?.onShow?.(); }                    catch (_) {}
+        try { this.floatingLeaf?.view?.editor?.refresh(); }             catch (_) {}
+
+        // 8. Safely exit migration mode after DOM settles to avoid intercepting browser focus changes
+        setTimeout(() => {
+            this._isMigrating = false;
+        }, 150);
+    }
+
+    // ─── DOM guard ────────────────────────────────────────────────────────────
+
+    _assertDOMPosition() {
+        if (!this.floatingContainer || !this.floatingLeaf || !this._targetWin) return;
+
+        // Handle window closure gracefully
+        if (this._targetWin.closed) {
+            this.closeVaporNote();
+            return;
+        }
+
+        const doc = this._targetWin.document;
+        if (!doc.body.contains(this.floatingContainer))
+            doc.body.appendChild(this.floatingContainer);
+        if (!this.floatingContainer.contains(this.floatingLeaf.containerEl)) {
+            this.floatingContainer.appendChild(this.floatingLeaf.containerEl);
+            Object.assign(this.floatingLeaf.containerEl.style, {
+                flex: '1', minHeight: '0', overflow: 'hidden'
+            });
+        }
+    }
+
+    // ─── Styles ───────────────────────────────────────────────────────────────
+
+    _styleContainer(el) {
+        Object.assign(el.style, {
+            position:      'fixed',
+            top:           '100px',
+            right:         '50px',
+            width:         '380px',
+            height:        '500px',
+            zIndex:        '200000',
+            background:    'var(--background-primary)',
+            border:        '1px solid var(--border-color)',
+            borderRadius:  '8px',
+            boxShadow:     '0 4px 16px rgba(0,0,0,0.4)',
+            overflow:      'hidden',
+            minWidth:      '250px',
+            minHeight:     '200px',
+            display:       'flex',
+            flexDirection: 'column',
+        });
+    }
+
+    // ─── Drag bar + resize handle ─────────────────────────────────────────────
+
+    _buildChrome(fileName, container) {
+        // Dynamically resolve owner document and window contexts so drag listeners
+        // always target the exact window the container is currently rendered in
+        const getActiveDoc = () => container.ownerDocument || activeDocument;
+        const getActiveWin = () => container.ownerDocument?.defaultView || activeWindow;
+
+        const doc = getActiveDoc();
+        const win = getActiveWin();
+
+        const dragBar = doc.createElement('div');
+        dragBar.style.cssText = `
+            background: var(--background-secondary);
+            padding: 8px 12px;
+            cursor: move;
+            font-size: 11px;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            flex-shrink: 0;
+        `;
+        dragBar.textContent = `VaporNote: ${fileName}`;
+
+        const closeBtn = doc.createElement('span');
+        closeBtn.textContent = '✕';
+        closeBtn.style.cssText = 'cursor:pointer; padding:0 4px;';
+        closeBtn.addEventListener('click', () => this.closeVaporNote());
+        dragBar.appendChild(closeBtn);
+        container.prepend(dragBar);
+
+        const resizeHandle = doc.createElement('div');
+        resizeHandle.style.cssText = `
+            position: absolute;
+            right: 0; bottom: 0;
+            width: 18px; height: 18px;
+            cursor: se-resize;
+            z-index: 10;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            padding: 3px;
+            box-sizing: border-box;
+        `;
+        resizeHandle.innerHTML = `
+            <svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"
+                 style="opacity:0.45;pointer-events:none;">
+                <line x1="1" y1="8" x2="8" y2="1" stroke="var(--text-muted)" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="4" y1="8" x2="8" y2="4" stroke="var(--text-muted)" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="7" y1="8" x2="8" y2="7" stroke="var(--text-muted)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>`;
+        container.appendChild(resizeHandle);
+
+        let mode = null;
+        let startX, startY, startLeft, startTop, startW, startH;
+
+        const showOverlay = (cursor) => {
+            if (this._dragOverlay) return;
+            const currentDoc = getActiveDoc();
+            const ov = currentDoc.createElement('div');
+            ov.style.cssText = `
+                position: fixed; inset: 0;
+                z-index: 999999;
+                background: transparent;
+                cursor: ${cursor};
+            `;
+            currentDoc.body.appendChild(ov);
+            this._dragOverlay = ov;
+
+            // Temporarily disable pointer events on all webviews inside the CURRENT window context
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = 'none';
+            });
+        };
+        const removeOverlay = () => {
+            if (this._dragOverlay) {
+                this._dragOverlay.remove();
+                this._dragOverlay = null;
+            }
+            const currentDoc = getActiveDoc();
+            // Restore normal pointer behavior inside the CURRENT window context
+            currentDoc.querySelectorAll('webview').forEach(wv => {
+                wv.style.pointerEvents = '';
+            });
+        };
+
+        const onMouseMove = (e) => {
+            if (mode === 'drag') {
+                container.style.left  = (startLeft + e.clientX - startX) + 'px';
+                container.style.top   = (startTop  + e.clientY - startY) + 'px';
+                container.style.right = 'auto';
+            } else if (mode === 'resize') {
+                container.style.width  = Math.max(250, startW + e.clientX - startX) + 'px';
+                container.style.height = Math.max(200, startH + e.clientY - startY) + 'px';
+            }
+        };
+
+        const onMouseUp = () => { mode = null; removeOverlay(); };
+
+        dragBar.addEventListener('mousedown', (e) => {
+            if (e.target === closeBtn) return;
+            mode = 'drag';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startLeft = r.left; startTop = r.top;
+            e.preventDefault();
+            showOverlay('move');
+        });
+
+        resizeHandle.addEventListener('mousedown', (e) => {
+            mode = 'resize';
+            startX = e.clientX; startY = e.clientY;
+            const r = container.getBoundingClientRect();
+            startW = r.width; startH = r.height;
+            e.preventDefault();
+            e.stopPropagation();
+            showOverlay('se-resize');
+        });
+
+        win.document.addEventListener('mousemove', onMouseMove);
+        win.document.addEventListener('mouseup',   onMouseUp);
+
+        this._globalMoveHandler = onMouseMove;
+        this._globalUpHandler   = onMouseUp;
+    }
+
+    // ─── Close ────────────────────────────────────────────────────────────────
+
+    closeVaporNote() {
+        if (this._resizeObserver) {
+            this._resizeObserver.disconnect();
+            this._resizeObserver = null;
+        }
+        if (this._globalMoveHandler && this._targetWin) {
+            try {
+                this._targetWin.document.removeEventListener('mousemove', this._globalMoveHandler);
+                this._targetWin.document.removeEventListener('mouseup',   this._globalUpHandler);
+            } catch (_) {}
+            this._globalMoveHandler = null;
+            this._globalUpHandler   = null;
+        }
+        if (this._focusinHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusin', this._focusinHandler);
+            this._focusinHandler = null;
+        }
+        if (this._focusoutHandler && this.floatingContainer) {
+            this.floatingContainer.removeEventListener('focusout', this._focusoutHandler);
+            this._focusoutHandler = null;
+        }
+        if (this._dragOverlay) {
+            this._dragOverlay.remove();
+            this._dragOverlay = null;
+        }
+        if (this.floatingContainer) {
+            this.floatingContainer.remove();
+            this.floatingContainer = null;
+        }
+        if (this.floatingLeaf) {
+            this._allowDetach = true;
+            this.floatingLeaf.detach();
+            this.floatingLeaf = null;
+            this._allowDetach = false;
+        }
+
+        // Restore the real setActiveLeaf BEFORE using it to reactivate the
+        // previous background leaf — otherwise the interceptor would swallow it.
+        if (this._origSetActiveLeaf) {
+            this.app.workspace.setActiveLeaf = this._origSetActiveLeaf;
+            this._origSetActiveLeaf = null;
+        }
+
+        // Put the workspace back exactly where the user left it.
+        if (this._prevActiveLeaf) {
+            try {
+                const ws = this.app.workspace;
+                // Only programmatically restore focus if the floating leaf is the currently active focus target
+                if (ws.activeLeaf === this.floatingLeaf || !ws.activeLeaf) {
+                    this.app.workspace.setActiveLeaf(this._prevActiveLeaf, { focus: false });
+                }
+            } catch (_) {}
+            this._prevActiveLeaf = null;
+        }
+
+        this._targetWin = null;
+        this._isOpening = false;
+
+        new Notice("VaporNote closed.");
+    }
+}
+
+module.exports = VaporNotePlugin;
+```
 ## V11 (Probably Stable)
 - Not completely. I am unable to traverse the different tabs quickly within the second window. 
 	- Actually this seems to be caused by something else. Not sure what but it works better now? Was able to get rid of the tab right and left stuff
