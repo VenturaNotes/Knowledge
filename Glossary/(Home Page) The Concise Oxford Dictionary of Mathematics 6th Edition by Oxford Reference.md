@@ -1192,14 +1192,14 @@ Year: 2021-09-01
 	240. conditional
 	
 	241. [[conditional distribution]]
-	242. conditional equation
+	242. [[conditional equation]]
 	243. conditional expectation
 	244. conditionally convergent
 	245. conditional probability
 	246. cone
 	247. confidence interval
-	248. confidentiality(of data)
-	249. configuration
+	248. [[confidentiality]]
+	249. [[configuration]]
 	250. configuration space
 	
 	251. confirm(of a statistical experiment)
@@ -1208,7 +1208,7 @@ Year: 2021-09-01
 	254. congruence(modulo n)
 	255. congruence class
 	256. congruence equation
-	257. congruent figures
+	257. [[congruent figures]]
 	258. conic
 	259. conical pendulum
 	260. conjecture

@@ -8,8 +8,11 @@
 ## Source[^3]
 - (1) The arrangement of atoms or groups in a molecule. 
 - (2) The arrangement of electrons about the nucleus of an atom.
+## Source[^4]
+- A particular geometrical arrangement of points, lines, curves, and, in three dimensions, planes and surfaces.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
