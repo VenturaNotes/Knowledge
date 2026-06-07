@@ -7,8 +7,11 @@
 - A condition that data held in a relational database must satisfy in order to be valid. Constraints are enforced by the database management system, and any attempted changes to data that would violate a constraint are rejected. Types of constraint include: primary keys; referential integrity; forbidding null values in a field; specifying that a field's values must be different in every row of a table; and arbitrary logical expressions, constructed from the values of one or more fields in the same row, that must evaluate to true.
 ## Source[^3]
 - A circumstance that prevents an organization achieving higher levels of performance. A constraint results from the impact of a limiting factor (or principal budget factor), which must be eliminated or reduced before the constraint is removed. For example, at various times a shortage of skilled labor, materials, production capacity, or sales volume may constitute a limiting factor. Constraints are also brought into the statement of problems in linear programming. See THEORY OF CONSTRAINTS.
+## Source[^4]
+- A condition that causes a restriction. For example, if $f(t)$ describes the motion of a pendulum which is released at $t=0$, then $f(t)$ is only valid when $t \ge 0$. In a probability distribution if $p_i = Pr\{X = x_i\}$ then the values $p_i$ are subject to two axiomatic constraints: $p_i \ge 0$ for each $i$ and $\sum p_i = 1$ 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
