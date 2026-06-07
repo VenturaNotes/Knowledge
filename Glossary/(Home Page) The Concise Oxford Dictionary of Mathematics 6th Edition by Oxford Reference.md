@@ -1240,8 +1240,9 @@ Year: 2021-09-01
 	283. conservation of linear momentum
 	284. conservative force
 	285. conservative strategy
-	286. consistent(in logic)
+	286. [[consistent]]
 	287. consistent estimator
+		1. See estimator
 	288. constant(in physical laws)
 	289. constant acceleration
 	290. constant function
@@ -1252,10 +1253,10 @@ Year: 2021-09-01
 	294. constant speed
 	295. constant term
 	296. constrained optimization
-	297. constraint
+	297. [[constraint]]
 	298. constructible number
 	299. construction with ruler and compass
-	300. constructivism
+	300. [[constructivism]]
 	
 	301. contact
 	302. contact force
