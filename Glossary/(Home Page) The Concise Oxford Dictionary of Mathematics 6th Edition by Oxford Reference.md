@@ -1261,8 +1261,8 @@ Year: 2021-09-01
 	301. contact
 	302. contact force
 	303. contained in
-	304. content
-	305. contingent(in logic)
+	304. [[content]]
+	305. [[contingent]]
 	306. continued fraction
 	307. continuity equation
 	308. continuous data
@@ -1271,7 +1271,7 @@ Year: 2021-09-01
 	
 	311. continuous random variable
 	312. continuum
-	313. continuum hypothesis
+	313. [[continuum hypothesis]]
 	314. contour integration
 	315. contraction mapping
 	316. contraction mapping theorem
