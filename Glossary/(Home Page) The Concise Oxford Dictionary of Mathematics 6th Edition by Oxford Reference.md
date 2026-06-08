@@ -1282,11 +1282,11 @@ Year: 2021-09-01
 	
 	321. control chart
 	322. control group
-	323. convective derivative
+	323. [[convective derivative]]
 	324. converge(sequence)
 	325. converge(series)
 	326. convergence almost surely
-	327. convergence in distribution
+	327. [[convergence in distribution]]
 	328. convergence in mean square
 	329. convergence in probability
 	330. convergence of functions
@@ -1296,7 +1296,7 @@ Year: 2021-09-01
 	333. converse relation
 	334. convert
 	335. convex function
-	336. convex hull
+	336. [[convex hull]]
 	337. convex set
 	338. convex up and down
 	339. convolution
