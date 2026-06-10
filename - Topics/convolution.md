@@ -14,9 +14,14 @@
 - A mathematical method of analyzing the response of a linear system to any input function. If an input $x(t)$ to a linear system is split up into a succession of rectangular pulses of width $\Delta \tau$ so that the area of a typical pulse at $t = \tau$ is $x(\tau)\Delta \tau$ (see diagram) then this pulse will give rise to a response$$\left[ x (\tau) \Delta \tau \right] h (t - \tau)$$The total response $y(t)$ can be expressed as an integral, known as the convolution integral, given by$$y (t) = \int_ {- \infty} ^ {+ \infty} x (\tau) h (t - \tau) d \tau$$The physical interpretation of the integral can be expressed as follows: the value of the output at a given time $t$ is the integrated effect of the values of the input at all previous times $t$. This combining of two functions of the same variable is known as convolution and is expressed by the special symbol $\otimes$. Therefore, the general expression which defines $\otimes$, known as the convolution operator, is given by$$a (t) \otimes b (t) = \int_ {- \infty} ^ {+ \infty} a (\tau) b (t - \tau) d \tau$$
 - ![[Screenshot 2026-03-09 at 6.11.25 AM.png|400]]
 	- Convolution
+
+## Source[^5]
+- Convolution-like products occur variously in mathematics. For the Fourier transform and Laplace transform they are respectively defined by $$(f*g)(x) = \int_{-\infty}^{\infty}f(t)g(x-t)~dt,~~ (f*g)(x)=\int_0^\infty f(t)g(x-t) dt,$$and each is defined so that the transform of the convolution is the product of the transforms. The convolution product is commutative and the sifting property of the Dirac delta functions shows it to be the identity. In probability, if $f$ and $g$ are the pdfs of two continuous distributions, $X$ and $Y$ on $\mathbb{R}$, then the pdf of their sum $Z = X + Y$ is the first integral above.
+	- #question Might be mistake in the second equation? Should be $\int_0^x$? 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

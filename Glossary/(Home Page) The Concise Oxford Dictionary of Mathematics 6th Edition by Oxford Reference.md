@@ -1297,13 +1297,13 @@ Year: 2021-09-01
 	334. convert
 	335. convex function
 	336. [[convex hull]]
-	337. convex set
+	337. [[convex set]]
 	338. convex up and down
-	339. convolution
+	339. [[convolution]]
 	340. Conway, John Horton (1937-2020)
 	
 	341. Conway circle
-	342. coordinate geometry
+	342. [[coordinate geometry]]
 	343. coordinates(in projective space)
 	344. coordinates(in Euclidean space)
 	345. coordinate system
