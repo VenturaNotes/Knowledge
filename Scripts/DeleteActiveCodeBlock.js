@@ -36,26 +36,17 @@ module.exports = async ({ app, obsidian }) => {
 
     const startLine = currentCodeSection.position.start.line;
     const endLine = currentCodeSection.position.end.line;
-    const totalLines = editor.lineCount();
 
-    let from, to;
+    // Define the range starting at the end of the opening fence line
+    // and ending at the start of the closing fence line
+    const from = { line: startLine, ch: editor.getLine(startLine).length };
+    const to = { line: endLine, ch: 0 };
 
-    // Determine the deletion range while avoiding leaving trailing blank lines
-    if (endLine < totalLines - 1) {
-        // If there is text below the block, delete up to the start of the next line
-        from = { line: startLine, ch: 0 };
-        to = { line: endLine + 1, ch: 0 };
-    } else if (startLine > 0) {
-        // If the block is at the very end of the file, delete from the end of the previous line
-        from = { line: startLine - 1, ch: editor.getLine(startLine - 1).length };
-        to = { line: endLine, ch: editor.getLine(endLine).length };
-    } else {
-        // If the code block is the entire content of the file
-        from = { line: startLine, ch: 0 };
-        to = { line: endLine, ch: editor.getLine(endLine).length };
-    }
+    // Replace the content with two newlines to leave a clean empty line in the middle
+    editor.replaceRange("\n\n", from, to);
 
-    // Execute the deletion
-    editor.replaceRange("", from, to);
-    new Notice("Code block deleted.");
+    // Position the cursor on the empty line inside the code block
+    editor.setCursor({ line: startLine + 1, ch: 0 });
+
+    new Notice("Code block cleared.");
 };
