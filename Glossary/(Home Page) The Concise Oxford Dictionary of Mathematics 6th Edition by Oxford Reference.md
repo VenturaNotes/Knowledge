@@ -1307,21 +1307,21 @@ Year: 2021-09-01
 	343. coordinates(in projective space)
 	344. coordinates(in Euclidean space)
 	345. coordinate system
-	346. coordinate vector
+	346. [[coordinate vector]]
 	347. [[coplanar]]
 	348. coplanar vectors
 	349. [[coprime]]
 	350. Coriolis force
 	
 	351. corollary
-	352. correction
+	352. [[correction]]
 	353. correlation
 	354. correspondence
 	355. corresponding angles
 	356. cosecant
 	357. cosech
 	358. coset(group)
-	359. coset(ring)
+	359. [[coset]]
 	360. cosine
 		1. See Trigonometric Functions
 
