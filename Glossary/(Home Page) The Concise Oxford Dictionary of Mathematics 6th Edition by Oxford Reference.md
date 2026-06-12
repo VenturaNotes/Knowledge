@@ -1346,7 +1346,7 @@ Year: 2021-09-01
 	374. coupled equations
 	375. covariance
 	376. covariance matrix
-	377. covariant derivative
+	377. [[covariant derivative]]
 	378. covariant functor
 	379. covariant tensor
 	380. cover
@@ -1367,13 +1367,13 @@ Year: 2021-09-01
 	393. critical region
 	394. critical value
 	395. cross-multiply
-	396. crossing number
+	396. [[crossing number]]
 	397. cross product
 	398. cross ratio
 	399. crude data
 	400. cryptogram
 	
-	401. cryptography
+	401. [[cryptography]]
 	402. crystallographic groups
 	403. cube
 	404. cube root
