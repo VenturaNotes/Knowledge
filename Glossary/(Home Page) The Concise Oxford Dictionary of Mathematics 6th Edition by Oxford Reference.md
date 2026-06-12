@@ -1378,17 +1378,17 @@ Year: 2021-09-01
 	403. cube
 	404. cube root
 	405. cube root of unity
-	406. cubic polynomial
+	406. [[cubic polynomial]]
 	407. cuboctahedron
 	408. cuboid
-	409. cumulative frequency distribution
+	409. [[cumulative frequency distribution]]
 	410. cup
 	
 	411. curl
 	412. curvature(of a surface)
 	413. curvature(of a planar curve)
 	414. curve
-	415. curve sketching
+	415. [[curve sketching]]
 	416. curvilinear coordinates
 	417. cusp
 	418. cut(in a network)
