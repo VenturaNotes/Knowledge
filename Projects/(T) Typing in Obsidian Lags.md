@@ -1,9 +1,5 @@
 ---
-title: (T) Typing in Obsidian Lags
 status: done
-priority: "0"
-dateCreated: 2026-05-19T01:03:21.401-04:00
-dateModified: 2026-05-20T21:44:36.920-04:00
 reminders:
   - id: rem_1779166993586_6stxi6f7v
     type: relative

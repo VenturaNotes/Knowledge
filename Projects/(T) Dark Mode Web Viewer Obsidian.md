@@ -1,9 +1,5 @@
 ---
-title: (T) Dark Mode Web Viewer Obsidian
 status: done
-priority: "0"
-dateCreated: 2026-02-22T14:38:39.146-05:00
-dateModified: 2026-05-09T22:48:17.816-04:00
 reminders:
   - id: rem_1771789115047_fffer2aa0
     type: relative

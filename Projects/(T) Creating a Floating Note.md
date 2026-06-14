@@ -1,8 +1,5 @@
 ---
 status: open
-priority: "0"
-dateCreated: 2026-05-27T02:40:46.366-04:00
-dateModified: 2026-05-27T02:40:46.366-04:00
 reminders:
   - id: rem_1779864036623_19j3rueb9
     type: relative

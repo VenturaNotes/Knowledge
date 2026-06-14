@@ -1,8 +1,5 @@
 ---
 status: done
-priority: "0"
-dateCreated: 2025-12-04T09:03:07.960-05:00
-dateModified: 2025-12-04T11:06:50.082-05:00
 tags:
   - task
   - project

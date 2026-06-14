@@ -1390,10 +1390,10 @@ Year: 2021-09-01
 	414. curve
 	415. [[curve sketching]]
 	416. curvilinear coordinates
-	417. cusp
+	417. [[cusp]]
 	418. cut(in a network)
 	419. cyclic data
-	420. cyclic group
+	420. [[cyclic group]]
 	
 	421. cyclic module
 	422. cyclic polygon
@@ -1419,8 +1419,8 @@ Year: 2021-09-01
 	
 	441. da
 	442. damped oscillations
-	443. Darboux's theorem
-	444. Darboux's theorem(Darboux integral)
+	443. [[Darboux's theorem]]
+	444. 
 	445. dashpot
 	446. data
 	447. data logging

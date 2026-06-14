@@ -1,8 +1,5 @@
 ---
 status: done
-priority: "0"
-dateCreated: 2026-01-03T11:11:15.241-05:00
-dateModified: 2026-01-03T11:15:57.978-05:00
 reminders:
   - id: rem_1767456662478_3fmxg4v65
     type: relative

@@ -1,9 +1,5 @@
 ---
-title: (T) Access Command Palette from Obsidian Web Viewer
 status: done
-priority: "0"
-dateCreated: 2026-04-16T01:39:32.874-04:00
-dateModified: 2026-04-17T05:25:38.430-04:00
 reminders:
   - id: rem_1776317959404_ucpsuxt8w
     type: relative
