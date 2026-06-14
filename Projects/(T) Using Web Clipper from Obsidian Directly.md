@@ -1,8 +1,5 @@
 ---
 status: done
-priority: "0"
-dateCreated: 2026-05-24T02:55:59.722-04:00
-dateModified: 2026-05-24T06:46:01.993-04:00
 reminders:
   - id: rem_1779605731195_9h4jt4461
     type: relative

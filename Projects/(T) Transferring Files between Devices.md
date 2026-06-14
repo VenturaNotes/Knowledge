@@ -1,8 +1,5 @@
 ---
 status: done
-priority: "0"
-dateCreated: 2025-10-25T21:06:31.769-04:00
-dateModified: 2025-11-02T06:07:21.575-05:00
 tags:
   - task
   - personal

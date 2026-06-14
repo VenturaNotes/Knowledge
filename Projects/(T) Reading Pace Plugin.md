@@ -1,8 +1,5 @@
 ---
 status: open
-priority: "0"
-dateCreated: 2026-05-22T03:45:31.186-04:00
-dateModified: 2026-05-22T03:45:31.186-04:00
 reminders:
   - id: rem_1779435883723_ryde5n1t7
     type: relative

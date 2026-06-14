@@ -1,8 +1,5 @@
 ---
 status: done
-priority: "0"
-dateCreated: 2026-01-28T10:40:29.013-05:00
-dateModified: 2026-05-19T00:51:58.927-04:00
 reminders:
   - id: rem_1769614825802_94ozn2p2b
     type: relative

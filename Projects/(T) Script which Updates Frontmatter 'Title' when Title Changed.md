@@ -1,9 +1,5 @@
 ---
-title: (T) Script which Updates Frontmatter 'Title' when Title Changed
 status: done
-priority: "0"
-dateCreated: 2026-04-29T23:40:37.840-04:00
-dateModified: 2026-04-30T02:40:12.963-04:00
 reminders:
   - id: rem_1777520400715_uivs3fkgk
     type: relative
