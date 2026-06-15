@@ -1452,10 +1452,11 @@ Year: 2021-09-01
 	470. Dedekind, (Julius Wilhelm) Richard (1831-1916)
 	
 	471. [[Dedekind cut]]
-	472. deduction
-	473. deficient number
+	472. [[deduction]]
+	473. [[deficient number]]
 	474. definite integral
-	475. deformation
+		1. See integral
+	475. [[deformation]]
 	476. degenerate
 	477. degenerate conic
 	478. degenerate quadric
