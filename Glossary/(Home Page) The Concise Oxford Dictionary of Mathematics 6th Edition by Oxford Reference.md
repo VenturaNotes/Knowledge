@@ -1424,13 +1424,14 @@ Year: 2021-09-01
 	445. dashpot
 	446. data
 	447. data logging
-	448. data science
+	448. [[data science]]
 	449. deca-
-	450. decagon
+		1. A synonym for DEKA-
+	450. [[decagon]]
 	
-	451. deceleration
+	451. [[deceleration]]
 	452. deci-
-	453. decidable
+	453. [[decidable]]
 	454. decile
 	455. decimal expansion
 	456. decimalize
@@ -1450,7 +1451,7 @@ Year: 2021-09-01
 	469. decreasing sequence
 	470. Dedekind, (Julius Wilhelm) Richard (1831-1916)
 	
-	471. Dedekind cut
+	471. [[Dedekind cut]]
 	472. deduction
 	473. deficient number
 	474. definite integral
