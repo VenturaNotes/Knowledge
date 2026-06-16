@@ -8,9 +8,15 @@
 - In data samples, degrees of freedom are the maximum number of logically independent values that have the freedom to vary. The degrees of freedom are calculated by subtracting one from the number of items provided in the data sample. Calculating the degrees of freedom when making business decisions is important since it determines the lack of constraint in a data set. For example, say a business is trying to decide how much output a company wants to produce and the number of employees they need to do so, these are two variables that are intertwined. Freely deciding one, determines the fate of the other.
 ## Source[^4]
 - $n$. In statistics, a quantity associated with many significance tests and with estimates of variability such as the sample variance, defined as the number of observations minus the number of restrictions on the freedom of the observations to vary. For example, in estimating the variance in a sample of $n$ scores with a known mean, there are $n-1$ degrees of freedom, because having calculated $n-1$ deviations from the mean, the last deviation is not free to vary but can assume only one value. Similarly, in a $2 \times 2$ contingency table with fixed row and column totals (marginals), there is only 1 degree of freedom, because if a value is assigned to any of the four cells, then the other three are determined by the constraints and have no freedom to vary. df abbrev.
+## Source[^5]
+- (In mechanics) The number of degrees of freedom of a body is the minimum number of independent coordinates required to describe the position of the body at any instant, relative to a frame of reference. A particle in straight‐line motion or circular motion has one degree of freedom. So too does a rigid body rotating about a fixed axis. A particle moving in a plane, such as a projectile, or a particle moving on a cylindrical or spherical surface has two degrees of freedom. A rigid body in general motion has six degrees of freedom, say, three to specify the position of the center of gravity and three more to orient the body.
+---
+- (in statistics) A positive integer normally equal to the number of independent observations in a sample minus the number of population parameters to be estimated from the sample. When the chi-squared test is applied to a contingency table with $h$ rows and $k$ columns, the number of degrees of freedom equals $(h-1)(k-1).$
+- For a number of distributions, the number of degrees of freedom is required to identify which of a family of distributions is to be used. The chi-squared distribution and t-distribution each have a single degrees of freedom parameter, and the F-distribution has two such parameters. 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

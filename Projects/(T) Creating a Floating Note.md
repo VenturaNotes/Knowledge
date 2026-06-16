@@ -13,7 +13,9 @@ aliases:
 parent:
   - "[[(T) Create Task Priority within Document]]"
 ---
-## ToDo
+## Feature Requests
+- [ ] Change my floating note so that when it compiles, it is always at 100% opacitcy (or rather not cleared at all)
+## Complete
 - [x] Make the floating note transparent (so you can see through it). You have an optional slider and you can toggle this feature on or off ✅ 2026-06-08
 - [x] I'm not sure if I want multiple screens (but I'm unsure what to do with the excalidraw plugin creating a new document. It would be fine if it's the current document (but then I lose my place in the view as well. Maybe there is a way to jump back to that view? I honestly might need to make a multi-document tab system)) ✅ 2026-06-08
 	- Need to modify the script so that I can access different tabs within the floating note?
@@ -22,9 +24,7 @@ parent:
 - [x] Make "Command + O" behave a little differently or neater ✅ 2026-06-08
 	- At least make it appear in front of the floating note
 - [x] Not able to open up tabs easily which isn't good (especially when pressing the open file button) ✅ 2026-06-10
-## Feature Requests
-- [Latest Conversation](https://claude.ai/chat/4accbbf6-fe74-4a07-b888-fcd965a952d2)
-	- [ ] When I maximize the floating note, i want to be able to press "Command + option + left" or "Command + option + right". Right now, it seems to focus the window, but these commands are just not in use. 
+- [x] When I maximize the floating note, i want to be able to press "Command + option + left" or "Command + option + right". Right now, it seems to focus the window, but these commands are just not in use. ✅ 2026-06-16
 ## V35 (Stable)
 - Added ability to open note from your personal quick switcher in same tab within VaporNote
 ```javascript

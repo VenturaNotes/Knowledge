@@ -18,6 +18,236 @@ completedDate: 2026-05-19
 	- Private: https://colab.research.google.com/drive/154to5pu0QtyG-d0BI055li6GOxu8pCgw#scrollTo=7c75f39c
 	- Public: https://colab.research.google.com/drive/1cZ7O5GWfZiLKO5O0h_N6FSCxgy0vKe0E#scrollTo=QxCadXZhlOBz
 - Don't save builds because you want to make sure you get the most up-to-date one
+
+#### V6
+- This one lets me split up a large textbook into parts (but honestly it doesn't work too well.)
+```python
+!pip install marker-pdf[full] pypdf -q
+
+import torch
+
+assert torch.cuda.is_available(), (
+    "❌ No GPU detected! Go to Runtime → Change runtime type → T4 GPU and reconnect."
+)
+print(f"✅ GPU confirmed: {torch.cuda.get_device_name(0)}")
+print(f"   VRAM: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
+```
+
+```python
+import os
+import pathlib
+import shutil
+import gc
+from google.colab import files
+
+import torch
+from pypdf import PdfReader, PdfWriter
+from marker.converters.pdf import PdfConverter
+from marker.models import create_model_dict
+
+print("🧹 Cleaning up old files...")
+shutil.rmtree("input_pdfs", ignore_errors=True)
+shutil.rmtree("output_results", ignore_errors=True)
+os.makedirs("input_pdfs", exist_ok=True)
+os.makedirs("output_results", exist_ok=True)
+
+# ── Upload ─────────────────────────────────────────────────────
+print("📤 Upload your PDF:")
+uploaded = files.upload()
+
+uploaded_filename = list(uploaded.keys())[0]
+dest = f"input_pdfs/{uploaded_filename}"
+os.rename(uploaded_filename, dest)
+print(f"✅ Saved strictly as → {dest}")
+
+# ── Load models onto GPU ───────────────────────────────────────
+print("\nLoading models onto GPU…")
+model_dict = create_model_dict()
+print("✅ Models loaded")
+
+# ── Convert in Chunks ──────────────────────────────────────────
+PDF_PATH = pathlib.Path(dest)
+print(f"\n🚀 CONVERTING EXACT FILE: {PDF_PATH.name}")
+
+# Read the PDF to determine page count
+reader = PdfReader(PDF_PATH)
+total_pages = len(reader.pages)
+print(f"📄 Total pages in PDF: {total_pages}")
+
+# Batch size configuration
+CHUNK_SIZE = 30  # Adjust this if you experience memory issues (e.g., to 20 or 25)
+print(f"⚙️ Using batch chunk size of {CHUNK_SIZE} pages to manage memory.")
+
+# Initialize the native marker converter
+converter = PdfConverter(
+    config = {
+        "output_format"    : "markdown",
+        "extract_images"   : True,
+        "lowres_image_dpi" : 144,
+        "highres_image_dpi": 300,
+    },
+    artifact_dict = model_dict,
+)
+
+all_markdown_chunks = []
+image_count = 0
+
+out_dir = pathlib.Path("output_results") / PDF_PATH.stem
+out_dir.mkdir(parents=True, exist_ok=True)
+
+for start_idx in range(0, total_pages, CHUNK_SIZE):
+    end_idx = min(start_idx + CHUNK_SIZE, total_pages)
+    chunk_idx = start_idx // CHUNK_SIZE
+    print(f"\nProcessing chunk {chunk_idx + 1} (Pages {start_idx + 1} to {end_idx})...")
+
+    # Create temporary chunk PDF
+    writer = PdfWriter()
+    for page_num in range(start_idx, end_idx):
+        writer.add_page(reader.pages[page_num])
+
+    temp_chunk_path = f"temp_chunk_{chunk_idx}.pdf"
+    with open(temp_chunk_path, "wb") as f_out:
+        writer.write(f_out)
+
+    try:
+        # Convert the chunk PDF
+        rendered = converter(temp_chunk_path)
+        chunk_markdown = rendered.markdown
+
+        # Save images for this chunk with unique naming to prevent collisions
+        for img_filename, img in rendered.images.items():
+            old_stem = pathlib.Path(img_filename).stem
+            new_filename = f"chunk_{chunk_idx}_{old_stem}.png"
+            img_path = out_dir / new_filename
+
+            # Convert mode for PNG
+            if img.mode not in ("RGB", "RGBA"):
+                img = img.convert("RGBA" if "A" in img.mode else "RGB")
+
+            img.save(str(img_path), format="PNG")
+
+            # Replace local image references in markdown
+            chunk_markdown = chunk_markdown.replace(img_filename, new_filename)
+            image_count += 1
+
+        all_markdown_chunks.append(chunk_markdown)
+
+    except Exception as e:
+        print(f"❌ Error processing chunk {chunk_idx + 1}: {e}")
+        all_markdown_chunks.append(f"\n\n--- [ERROR: Failed to convert pages {start_idx + 1} to {end_idx}] ---\n\n")
+
+    finally:
+        # Clean up temporary chunk file
+        if os.path.exists(temp_chunk_path):
+            os.remove(temp_chunk_path)
+
+        # Clean up memory to avoid leaks
+        gc.collect()
+        torch.cuda.empty_cache()
+
+# Merge all chunks
+markdown = "\n\n".join(all_markdown_chunks)
+
+# ── Save markdown + images ─────────────────────────────────────
+md_path = out_dir / (PDF_PATH.stem + ".md")
+md_path.write_text(markdown, encoding="utf-8")
+
+print(f"\n✅ Done!")
+print(f"   Markdown  →  {md_path}  ({len(markdown):,} chars)")
+print(f"   Images    →  {out_dir}/  ({image_count} files)")
+
+zip_path = str(pathlib.Path("output_results") / PDF_PATH.stem)
+shutil.make_archive(zip_path, "zip", out_dir)
+files.download(f"{zip_path}.zip")
+```
+#### V5 (For Copying)
+```python
+!pip install marker-pdf[full] -q
+import os
+import pathlib
+import shutil
+from google.colab import files
+
+import torch
+from marker.converters.pdf import PdfConverter
+from marker.models import create_model_dict
+
+assert torch.cuda.is_available(), (
+    "❌ No GPU detected! Go to Runtime → Change runtime type → T4 GPU and reconnect."
+)
+print(f"✅ GPU confirmed: {torch.cuda.get_device_name(0)}")
+print(f"   VRAM: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
+
+print("🧹 Cleaning up old files...")
+shutil.rmtree("input_pdfs", ignore_errors=True)
+shutil.rmtree("output_results", ignore_errors=True)
+os.makedirs("input_pdfs", exist_ok=True)
+os.makedirs("output_results", exist_ok=True)
+
+# ── Upload ─────────────────────────────────────────────────────
+print("📤 Upload your PDF:")
+uploaded = files.upload()
+
+uploaded_filename = list(uploaded.keys())[0]
+dest = f"input_pdfs/{uploaded_filename}"
+os.rename(uploaded_filename, dest)
+print(f"✅ Saved strictly as → {dest}")
+
+# ── Load models onto GPU ───────────────────────────────────────
+print("\nLoading models onto GPU…")
+model_dict = create_model_dict()
+print("✅ Models loaded")
+
+# ── Convert ────────────────────────────────────────────────────
+PDF_PATH = pathlib.Path(dest)
+print(f"\n🚀 CONVERTING EXACT FILE: {PDF_PATH.name}")
+
+# Using only the native marker DPI settings
+converter = PdfConverter(
+    config = {
+        "output_format"    : "markdown",
+        "extract_images"   : True,
+        "lowres_image_dpi" : 144, 
+        "highres_image_dpi": 300, # This is the parameter meant to force high-res rendering
+    },
+    artifact_dict = model_dict,
+)
+
+rendered = converter(str(PDF_PATH))
+
+# ── Save markdown + images ─────────────────────────────────────
+out_dir = pathlib.Path("output_results") / PDF_PATH.stem
+out_dir.mkdir(parents=True, exist_ok=True)
+
+markdown = rendered.markdown
+
+image_count = 0
+for img_filename, img in rendered.images.items():
+    old_stem = pathlib.Path(img_filename).stem
+    new_filename = old_stem + ".png"
+    img_path = out_dir / new_filename
+
+    # Convert mode for PNG
+    if img.mode not in ("RGB", "RGBA"):
+        img = img.convert("RGBA" if "A" in img.mode else "RGB")
+    
+    # 🚫 NO PILLOW UPSCALER HERE. Saving raw extraction result.
+    img.save(str(img_path), format="PNG")
+    
+    markdown = markdown.replace(img_filename, new_filename)
+    image_count += 1
+
+md_path = out_dir / (PDF_PATH.stem + ".md")
+md_path.write_text(markdown, encoding="utf-8")
+
+print(f"\n✅ Done!")
+print(f"   Markdown  →  {md_path}  ({len(markdown):,} chars)")
+print(f"   Images    →  {out_dir}/  ({image_count} files)")
+
+zip_path = str(pathlib.Path("output_results") / PDF_PATH.stem)
+shutil.make_archive(zip_path, "zip", out_dir)
+files.download(f"{zip_path}.zip")
+```
 #### V5
 ```python
 !pip install marker-pdf[full] -q
