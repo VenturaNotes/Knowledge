@@ -1024,16 +1024,17 @@ Year: 2021-09-01
 	79. change of observer
 	80. change of variable(in integration)
 	
-	81. chaos
+	81. [[chaos]]
 	82. character
 	83. [[characteristic of a field]]
 	84. [[characteristic polynomial]]
 	85. character table
-	86. Chebyshev's inequality
+	86. [[Chebyshev's inequality]]
 	87. Chebyshev's Theorem
+		1. See Bertrand's postulate
 	88. Chebyshev, Pafnuty Lvovich (1821-94)
 	89. Chebyshev polynomials
-	90. check digit
+	90. [[check digit]]
 	
 	91. Chen's theorem
 	92. chi-squared contingency table test

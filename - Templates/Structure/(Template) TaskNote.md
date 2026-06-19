@@ -1,5 +1,0 @@
----
-status: open
-tags:
-  - task
----
