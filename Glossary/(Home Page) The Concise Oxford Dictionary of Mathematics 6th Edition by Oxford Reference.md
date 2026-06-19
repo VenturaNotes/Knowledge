@@ -1206,7 +1206,7 @@ Year: 2021-09-01
 	240. configuration space
 	
 	241. confirm(of a statistical experiment)
-	242. conformable
+	242. [[conformable]]
 	243. conformally equivalent
 	244. congruence(modulo n)
 	245. congruence class
@@ -1369,6 +1369,7 @@ Year: 2021-09-01
 	382. critical point
 	383. critical region
 	384. critical value
+		1. A synonym for stationary value
 	385. cross-multiply
 	386. [[crossing number]]
 	387. cross product
@@ -1398,9 +1399,9 @@ Year: 2021-09-01
 	409. cyclic data
 	410. [[cyclic group]]
 	
-	411. cyclic module
+	411. [[cyclic module]]
 	412. cyclic polygon
-	413. cyclic redundancy checks
+	413. [[cyclic redundancy checks]]
 	414. [[cyclic vector]]
 	415. cycling
 	416. cycloid
