@@ -2669,7 +2669,7 @@ Year: 2021-09-01
 	1549. minimal polynomial(of an algebraic number)
 	
 	1550. minimal polynomial(of a square matrix)
-	1551. minimal surface
+	1551. [[minimal surface]]
 	1552. minimax strategy
 	1553. Minimax Theorem
 	1554. minimum
@@ -2679,16 +2679,22 @@ Year: 2021-09-01
 	1558. Minkowski's inequality
 	1559. Minkowski, Hermann (1864-1909)
 	
-	1560. Minkowski space
+	1560. [[Minkowski space]]
 	1561. minor arc
+		1. See arc
 	1562. minor axis
-	1563. minus
+		1. See ellipse
+	1563. [[minus]]
 	1564. minus or plus
-	1565. minus sign
-	1566. minute(angular measure)
+		1. See plus or minus
+	1565. [[minus sign]]
+	1566. minute (angular measure)
+		1. See degree (angular measure)
 	1567. mirror-image
-	1568. Mirzakhani, Maryam (1977-2017)
+		1. See reflection (of the plane)
+	1568. [[Maryam Mirzakhani]]
 	1569. mixed boundary condition
+		1. See ROBIN BOUNDARY CONDITION.
 	
 	1570. mixed derivative
 	1571. mixed numbers
@@ -2702,7 +2708,7 @@ Year: 2021-09-01
 	1579. modular arithmetic
 	
 	1580. modular group
-	1581. modularity theorem
+	1581. [[modularity theorem]]
 	1582. module
 	1583. modulonarithmetic
 	1584. modulus
