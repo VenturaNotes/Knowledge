@@ -12,13 +12,16 @@ completedDate: 2026-05-19
 ---
 ## Synthesis
 
+### Details
+- This solution is worse than OCR with Gemma 4. 
+	- Didn't convert symbols in large 400 page textbook
+		- (d) ∀_x_∀_y_(_x_ 3 _y_ 3 → _x y_).
 ### Solution
 - Use `marker-pdf 1.10.2` or whichever is the most updated version
 - Can find the code here 
 	- Private: https://colab.research.google.com/drive/154to5pu0QtyG-d0BI055li6GOxu8pCgw#scrollTo=7c75f39c
 	- Public: https://colab.research.google.com/drive/1cZ7O5GWfZiLKO5O0h_N6FSCxgy0vKe0E#scrollTo=QxCadXZhlOBz
 - Don't save builds because you want to make sure you get the most up-to-date one
-
 #### V6
 - This one lets me split up a large textbook into parts (but honestly it doesn't work too well.)
 ```python
