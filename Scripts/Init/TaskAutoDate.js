@@ -32,15 +32,38 @@ module.exports = function(context) {
         // and check if any changes actually occurred in the document.
         if (isModifying || !update.docChanged) return;
 
-        const linesToProcess = new Set();
+        const linesToAddDate = new Set();
+        const linesToRemoveDate = new Set();
 
-        // Identify exactly which line numbers in the new document state were modified
-        update.changes.iterChanges((fromA, toA, fromB, toB, inserted) => {
+        const checkedRegex = /^\s*([-*+]|\d+\.)\s+\[[xX]\]/;
+        const uncheckedRegex = /^\s*([-*+]|\d+\.)\s+\[\s\]/;
+
+        // Analyze changes to detect checkbox transitions
+        update.changes.iterChanges((fromA, toA, fromB, toB) => {
             try {
-                const startLine = update.state.doc.lineAt(fromB).number;
-                const endLine = update.state.doc.lineAt(toB).number;
-                for (let i = startLine; i <= endLine; i++) {
-                    linesToProcess.add(i);
+                const startLineA = update.startState.doc.lineAt(fromA).number;
+                const endLineA = update.startState.doc.lineAt(toA).number;
+                const startLineB = update.state.doc.lineAt(fromB).number;
+                const endLineB = update.state.doc.lineAt(toB).number;
+
+                // Ensure we are comparing matching lines within a stable block structure
+                if (endLineA - startLineA === endLineB - startLineB) {
+                    for (let i = 0; i <= (endLineA - startLineA); i++) {
+                        const lineA = update.startState.doc.line(startLineA + i);
+                        const lineB = update.state.doc.line(startLineB + i);
+
+                        const wasChecked = checkedRegex.test(lineA.text);
+                        const wasUnchecked = uncheckedRegex.test(lineA.text);
+                        const isChecked = checkedRegex.test(lineB.text);
+                        const isUnchecked = uncheckedRegex.test(lineB.text);
+
+                        // Only queue additions/removals if the checkbox state transitioned
+                        if (!wasChecked && isChecked) {
+                            linesToAddDate.add(startLineB + i);
+                        } else if (wasChecked && isUnchecked) {
+                            linesToRemoveDate.add(startLineB + i);
+                        }
+                    }
                 }
             } catch (e) {
                 // Safely handle potential boundary errors
@@ -49,37 +72,38 @@ module.exports = function(context) {
 
         const today = new Date().toISOString().split('T')[0];
         const dateMarkerRegex = /\s*✅\s*\d{4}-\d{2}-\d{2}/g;
-        
-        const checkedRegex = /^\s*([-*+]|\d+\.)\s+\[[xX]\]/;
-        const uncheckedRegex = /^\s*([-*+]|\d+\.)\s+\[\s\]/;
-
         const changesToDispatch = [];
 
-        for (const lineNum of linesToProcess) {
+        // Process additions
+        for (const lineNum of linesToAddDate) {
             try {
                 const line = update.state.doc.line(lineNum);
                 const lineText = line.text;
+                if (!dateMarkerRegex.test(lineText)) {
+                    const newLineText = lineText + ` ✅ ${today}`;
+                    changesToDispatch.push({
+                        from: line.from,
+                        to: line.to,
+                        insert: newLineText
+                    });
+                }
+            } catch (e) {
+                // Safely handle indexing edge cases
+            }
+        }
 
-                if (checkedRegex.test(lineText)) {
-                    // Task is checked. If it lacks a completion date, queue it to be appended.
-                    if (!dateMarkerRegex.test(lineText)) {
-                        const newLineText = lineText + ` ✅ ${today}`;
-                        changesToDispatch.push({
-                            from: line.from,
-                            to: line.to,
-                            insert: newLineText
-                        });
-                    }
-                } else if (uncheckedRegex.test(lineText)) {
-                    // Task is unchecked. If it has a completion date, queue it to be stripped.
-                    if (dateMarkerRegex.test(lineText)) {
-                        const newLineText = lineText.replace(dateMarkerRegex, '');
-                        changesToDispatch.push({
-                            from: line.from,
-                            to: line.to,
-                            insert: newLineText
-                        });
-                    }
+        // Process removals
+        for (const lineNum of linesToRemoveDate) {
+            try {
+                const line = update.state.doc.line(lineNum);
+                const lineText = line.text;
+                if (dateMarkerRegex.test(lineText)) {
+                    const newLineText = lineText.replace(dateMarkerRegex, '');
+                    changesToDispatch.push({
+                        from: line.from,
+                        to: line.to,
+                        insert: newLineText
+                    });
                 }
             } catch (e) {
                 // Safely handle indexing edge cases

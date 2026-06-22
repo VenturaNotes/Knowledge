@@ -1566,7 +1566,8 @@ Year: 2021-09-01
 	556. discrete logarithm
 	557. discrete metric
 	558. discrete random variable
-	559. discrete space
+		1. See random variable
+	559. [[discrete space]]
 	
 	560. discretization
 	561. discriminant
@@ -1596,7 +1597,7 @@ Year: 2021-09-01
 	583. distribution function
 	584. distributive
 	585. diverge(divergent)
-	586. divergence theorem
+	586. [[divergence theorem]]
 	587. divides
 	588. divisible
 	589. division
@@ -1660,6 +1661,7 @@ Year: 2021-09-01
 	641. edge
 	642. edge-transitive
 	643. education theory
+		1. See mathematics education
 	644. efficiency
 	645. efficiency(in statistics)
 	646. effort
@@ -1670,7 +1672,7 @@ Year: 2021-09-01
 	650. eigenfunction
 	651. eigenspace
 	652. eigenvalue
-	653. Einstein's notation
+	653. [[Einstein's notation]]
 	654. Einstein, Albert (1879-1955)
 	655. Eisenstein's criterion
 	656. elastic
