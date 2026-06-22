@@ -1297,7 +1297,7 @@ Year: 2021-09-01
 	
 	321. convergence test(for series)
 	322. converse
-	323. converse relation
+	323. [[converse relation]]
 	324. convert
 	325. convex function
 	326. [[convex hull]]
@@ -1945,7 +1945,7 @@ Year: 2021-09-01
 	900. Galois, Évariste (1811-32)
 	901. Galois correspondence
 	902. Galois field
-	903. Galois group
+	903. [[Galois group]]
 	904. Galton, Francis (1822-1911)
 	905. gambler's ruin
 	906. game
@@ -1960,8 +1960,9 @@ Year: 2021-09-01
 	914. Gauss flux theorem
 	915. Gaussian curvature
 	916. Gaussian distribution
+		1. A synonym for normal distribution
 	917. Gaussian elimination
-	918. Gaussian function
+	918. [[Gaussian function]]
 	919. Gaussian integer
 	
 	920. Gaussian quadrature
@@ -2048,7 +2049,7 @@ Year: 2021-09-01
 	994. Halley's method
 	995. Halley, Edmond (1656-1742)
 	996. Halmos, Paul Richard (1916-2006)
-	997. Halting problem
+	997. [[Halting problem]]
 	998. Hamilton, William Rowan (1805-65)
 	999. Hamiltonian
 	
