@@ -23,9 +23,9 @@ module.exports = function({ app, obsidian }) {
                 // Style alignment to match the visual spacing of the other buttons
                 btn.style.marginLeft = "12px";
 
-                // Add the toggle action (silently, without Notices)
+                // Add the toggle action locally to this specific pane
                 btn.addEventListener("click", () => {
-                    document.body.classList.toggle(className);
+                    view.containerEl.classList.toggle(className);
                 });
 
                 // Appending it to the toolbar automatically places it to the right of "of [Total]"
