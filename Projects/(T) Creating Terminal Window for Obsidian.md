@@ -3,10 +3,12 @@ status: done
 tags:
   - task
 ---
-## Tutorial
+## Guide
 - Use the `edit` command to modify a file such as a script
 - `pbcopy < filename.txt`
 	- This copies the text within a document to your clipboard.
+- `ls -l` command: The standard way to see a file's last modified time (mtime) in a long list format.
+	- So `ls -l sample.txt`
 ## Stabe V1
 
 ### TerminalModal
