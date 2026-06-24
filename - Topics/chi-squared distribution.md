@@ -5,6 +5,9 @@
 	- (a) testing for interactions between different classifications of data using contingency tables;
 	- (b) testing goodness-of-fit;
 	- (c) forming confidence intervals for estimates of variance.
+## Source[^2]
+- A type of non-negative continuous probability distribution, normally written as the $\chi^2$-distribution, with one parameter $\nu$ called the degrees of freedom. The distribution (see APPENDIX 15) is skewed to the right and has the property that the sum of independent random variables each having a $\chi^2$-distribution also has a $\chi^2$-distribution. It is used in the chi-squared test for measuring goodness of fit, in tests on variance and in testing for independence in contingency tables. It has mean $\nu$ and variance $2\nu$.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

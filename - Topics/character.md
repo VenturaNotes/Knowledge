@@ -12,8 +12,11 @@
 - (2) Any genetically determined structure, function, or phenotypic characteristic of an organism. 
 - (3) A symbol, such as a letter of the alphabet, used in a system of writing; or in computer technology, any unit of information in the form of a symbol that can be represented by a unique binary code.
 - \[From Latin character a distinguishing mark, from Greek charakter an engraver's tool, from charassein to cut or engrave]
+## Source[^4]
+- (character theory) Character theory is an important tool in the study of finite groups. The character $\chi_\varphi: G \to F$ of a representation $\varphi: G \to \text{GL}(V)$ is the map $\chi_\varphi(g) = \text{trace}\varphi(g)$. Here $G$ is a group and $V$ is a finite-dimensional vector space over a field $F$. The degree of the character is the dimension of $V$. A character is called irreducible if the representation is irreducible. See CHARACTER TABLE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
