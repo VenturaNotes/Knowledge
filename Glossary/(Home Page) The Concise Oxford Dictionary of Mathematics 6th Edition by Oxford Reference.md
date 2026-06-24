@@ -1995,7 +1995,7 @@ Year: 2021-09-01
 	939. geometric multiplicity
 	940. geometric sequence
 	941. geometric series
-	942. geometric topology
+	942. [[geometric topology]]
 	943. geometry
 	944. Germain, (Marie) Sophie (1776-1831)
 	945. Germain prime, Sophie
@@ -2029,6 +2029,7 @@ Year: 2021-09-01
 	970. gravity
 	971. greatest integer function
 	972. greatest lower bound
+		1. A synonym for INFIMUM.
 	973. greatest value
 	974. greedy algorithm
 	975. Green, George (1793-1841)
@@ -2115,9 +2116,9 @@ Year: 2021-09-01
 	1048. homogeneous linear differential equation
 	1049. homogeneous polynomial
 	1050. homogeneous set of linear equations
-	1051. homomorphism
-	1052. homoscedastic
-	1053. homotopy equivalence
+	1051. [[homomorphism]]
+	1052. [[homoscedastic]]
+	1053. [[homotopy equivalence]]
 	1054. Hooke's law
 	1055. Horner's rule
 	

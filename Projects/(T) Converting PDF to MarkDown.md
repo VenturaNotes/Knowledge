@@ -11,7 +11,6 @@ tags:
 completedDate: 2026-05-19
 ---
 ## Synthesis
-
 ### Details
 - This solution is worse than OCR with Gemma 4. 
 	- Didn't convert symbols in large 400 page textbook
