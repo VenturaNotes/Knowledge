@@ -80,6 +80,10 @@ $$
   
 
 These language-mappings are also homomorphisms, between the monoids of languages over $S$ and over $T$, the binary operation being concatenation of languages.
+
+## Source[^2]
+- A function between two similar algebraic structures which preserves the relational properties of elements in the two structures. So if $f$ is a homomorphism, and $*$ and $\circ$ are corresponding binary operations in the two structures, $f(x * y) = f(x) \circ f(y)$.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
