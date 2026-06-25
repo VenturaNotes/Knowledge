@@ -5,12 +5,15 @@ tags:
 ---
 ## Guide
 - Use the `edit` command to modify a file such as a script
-- `pbcopy < filename.txt`
-	- This copies the text within a document to your clipboard.
+- Actually don't us the below
+	- `pbcopy < filename.txt`
+		- This copies the text within a document to your clipboard.
+	- Creates weird characters within the file 
+		- `// ‚îÄ‚îÄ CONFIGURATION & CONSTANTS ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚î`
+		- Just copy file through your `edit` for now
 - `ls -l` command: The standard way to see a file's last modified time (mtime) in a long list format.
 	- So `ls -l sample.txt`
-## Stabe V1
-
+## Stable V1
 ### TerminalModal
 ```ts
 import { App, Modal } from 'obsidian';

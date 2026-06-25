@@ -3144,10 +3144,10 @@ Year: 2021-09-01
 	1965. Picard's little theorem
 	
 	1966. Picard's theorem
-	1967. Pick's theorem
+	1967. [[Pick's theorem]]
 	1968. pico-
 	1969. PID
-	1970. piecewise continuous
+	1970. [[piecewise continuous]]
 	1971. pie chart
 	1972. pigeonhole principle
 	1973. pilot survey
@@ -3166,7 +3166,7 @@ Year: 2021-09-01
 	1985. Platonism
 	
 	1986. platykurtic
-	1987. Playfair's axiom
+	1987. [[Playfair's axiom]]
 	1988. plot
 	1989. plus
 	1990. Plusmagazine
