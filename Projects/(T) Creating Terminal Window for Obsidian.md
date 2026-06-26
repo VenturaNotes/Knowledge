@@ -13,6 +13,15 @@ tags:
 		- Just copy file through your `edit` for now
 - `ls -l` command: The standard way to see a file's last modified time (mtime) in a long list format.
 	- So `ls -l sample.txt`
+- `CopyFile.js` Syntax
+	- `copyFile <filename> [new_filename]`
+	- Copy file as-is
+		- `copyFile report.pdf`
+	- Copy file and rename on clipboard
+		- `copyFile report.pdf final_presentation.pdf`
+## ToDo
+- [ ] Need to implement the scripts I have made into the help section 
+- [ ] Be able to modify the "Help" file itself. It would be nice if it was just a `.txt` file that the program pulled from (although I'm not sure where that would be saved.)
 ## Stable V1
 ### TerminalModal
 ```ts
