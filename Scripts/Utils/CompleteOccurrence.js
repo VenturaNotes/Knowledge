@@ -106,21 +106,5 @@ module.exports = async (params) => {
         } else {
             new Notice("Completed. No recurrence rule found to reschedule.");
         }
-        
-        // Update dateModified timestamp
-        const now = new Date();
-        const tzOffset = -now.getTimezoneOffset();
-        const diff = tzOffset >= 0 ? '+' : '-';
-        const pad = num => String(Math.floor(Math.abs(num))).padStart(2, '0');
-        
-        frontmatter.dateModified = now.getFullYear() +
-            '-' + pad(now.getMonth() + 1) +
-            '-' + pad(now.getDate()) +
-            'T' + pad(now.getHours()) +
-            ':' + pad(now.getMinutes()) +
-            ':' + pad(now.getSeconds()) +
-            '.' + String(now.getMilliseconds()).padStart(3, '0') +
-            diff + pad(tzOffset / 60) +
-            ':' + pad(tzOffset % 60);
     });
 };

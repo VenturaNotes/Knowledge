@@ -5,11 +5,20 @@ tags:
 ---
 - To achieve this, we can introduce Auto-File Patching to the Kinetic Companion plugin.
 	- We can make this completely toggleable. You can trigger it automatically on stream completion, or manually via an Obsidian command so your workspace remains protected from accidental overwrites.
+	- Oh, I think this is the code that would directly change the existing code that I have! 
 ## ToDo
-- [ ] When writing question, have it fall below it
-- [ ] Be able to type within its own line! 
+- [ ] When writing question, have it fall below the highlight you made 
+- [ ] Be able to type within its own line!
+	- Of course make sure that you can't send anything though if there is nothing to send. So if you press enter, nothing is sent through. 
+- [ ] Expand the input so that it wraps around multiple lines and pressing command + shift sends me to the next line. 
+- [ ] Probably should make the window resizable
+	- And by that I mean the floating window for my Kinetic Companion (but there should be a minimum size as not to be too small. Like the current dimensions that exist should not be smaller than they are)
+- [ ] Remove the sparkle + slamdown affect in the settings
+- [ ] Make it so the its 100% visible on initial load.
+- [ ] Need to remove the "debug" things (or I could maybe change that to a notification? Just to make sure that it's not stuck)
 ## V11
 - Fixed problem with making it work consistently. Just layered back.
+- Also the below has the debug mode in-case we need to add it back later for future development. 
 ### FloatingCompanion
 ```typescript
 import { App, Editor, Notice, htmlToMarkdown, WorkspaceLeaf } from 'obsidian';
