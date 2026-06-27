@@ -1886,7 +1886,7 @@ Year: 2021-09-01
 	841. fourth root of unity
 	842. 𝔽q
 	843. fractal
-	844. fractal dimension
+	844. [[fractal dimension]]
 	845. fraction
 	
 	846. fractional part
@@ -1907,7 +1907,7 @@ Year: 2021-09-01
 	860. Freudenthal, Hans (1905-90)
 	861. Frey's curve
 	862. friction
-	863. frieze group
+	863. [[frieze group]]
 	864. Frobenius, (Ferdinand) Georg (1849-1917)
 	865. Frobenius endomorphism
 	
@@ -1922,7 +1922,7 @@ Year: 2021-09-01
 	874. fulcrum
 	875. full angle
 	
-	876. full measure
+	876. [[full measure]]
 	877. full rank
 	878. function
 	879. functional
