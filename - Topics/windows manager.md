@@ -1,3 +1,7 @@
+---
+aliases:
+  - window manager
+---
 ## Synthesis
 - 
 ## Source [^1]
