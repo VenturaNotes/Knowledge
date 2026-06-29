@@ -4,7 +4,14 @@
 
 function parseFlashcards(content) {
   const cards = [];
-  const body = content.replace(/^---[\s\S]*?---\n?/, "");
+  
+  // Locate the "## Flashcards" header (case-insensitive, allowing trailing spaces)
+  const headerMatch = content.match(/^##\s+Flashcards\s*$/mi);
+  if (!headerMatch) return [];
+
+  // Slice the content to only parse text appearing after this header
+  const headerIndex = content.indexOf(headerMatch[0]);
+  const body = content.slice(headerIndex + headerMatch[0].length);
 
   for (const block of body.split(/\n{2,}/)) {
     const lines = block.split("\n").map(l => l.trim()).filter(Boolean);
@@ -278,16 +285,6 @@ function makeBtn(label, cls, onClick) {
 async function startFlashcardSession(app, cards, sourcePath, leaf) {
   injectStyles();
 
-  // Obsidian's tab DOM (simplified):
-  //   .workspace-leaf
-  //     .workspace-leaf-content    ← Obsidian sets an explicit height here
-  //       .view-header
-  //       .view-content            ← leaf.view.containerEl (often no height)
-  //
-  // We walk UP from containerEl until we hit .workspace-leaf-content,
-  // then inject fc-root (position:absolute, inset:0) directly into it.
-  // That way fc-root fills the real sized element, not an unsized wrapper.
-
   const containerEl = leaf.view.containerEl;
   containerEl.empty();
 
@@ -312,21 +309,14 @@ async function startFlashcardSession(app, cards, sourcePath, leaf) {
   let nextRoundQueue = [];
 
   // Tracks what the Space/1/2 keys should do right now.
-  // "question" → Space reveals answer
-  // "answer"   → 1 = got it, 2 = missed it
-  // "done"     → no card shortcuts active
   let phase = "question";
 
   // Single persistent keyboard handler for the whole session.
-  // Uses event.code (physical key position) so it works on any layout,
-  // including Programmer Dvorak where the number row produces & and [.
   function onKey(e) {
-    // Don't fire if the user is typing in an input/textarea
     if (e.target.matches("input, textarea, select, [contenteditable]")) return;
 
     if (phase === "question" && e.code === "Space") {
       e.preventDefault();
-      // Click the Show Answer button
       const btn = footer.querySelector(".fc-show");
       if (btn) btn.click();
     } else if (phase === "answer") {
@@ -344,7 +334,6 @@ async function startFlashcardSession(app, cards, sourcePath, leaf) {
   document.addEventListener("keydown", onKey);
 
   // Clean up the listener if the leaf is closed via the tab × button.
-  // We wrap leaf.detach so cleanup always runs.
   const _origDetach = leaf.detach.bind(leaf);
   leaf.detach = () => {
     document.removeEventListener("keydown", onKey);
@@ -353,7 +342,7 @@ async function startFlashcardSession(app, cards, sourcePath, leaf) {
   };
 
   async function showAnswer(btnRow) {
-    phase = "answer"; // switch keyboard mode before awaiting render
+    phase = "answer";
     btnRow.innerHTML = "";
 
     box.appendChild(mkEl("hr", "fc-divider"));
@@ -373,7 +362,6 @@ async function startFlashcardSession(app, cards, sourcePath, leaf) {
     }));
   }
 
-  // card is referenced inside showAnswer — hoist it to function scope
   let card;
 
   async function renderCard() {
@@ -395,19 +383,16 @@ async function startFlashcardSession(app, cards, sourcePath, leaf) {
     card = currentQueue[0];
     const btnRow = footer.appendChild(mkEl("div", "fc-btn-row"));
 
-    // Progress — two spans, space-between
     const prog   = box.appendChild(mkEl("div", "fc-progress"));
     const pLeft  = prog.appendChild(mkEl("span"));
     const pRight = prog.appendChild(mkEl("span"));
     pLeft.textContent  = `${currentQueue.length} left this round`;
     pRight.textContent = `${currentQueue.length + nextRoundQueue.length} remaining`;
 
-    // Question
     box.appendChild(mkEl("div", "fc-tag", "Question"));
     const qBody = box.appendChild(mkEl("div", "fc-body-q"));
     await renderInto(qBody, card.question, app, sourcePath);
 
-    // Show Answer button — Space shortcut hint in label
     btnRow.appendChild(makeBtn("Show Answer  [Space]", "fc-show", () => showAnswer(btnRow)));
   }
 
@@ -446,19 +431,13 @@ module.exports = async (params) => {
   const leaf = app.workspace.getLeaf("tab");
   app.workspace.setActiveLeaf(leaf, { focus: true });
 
-  // Set the tab title by directly finding and updating the tab header DOM element.
-  // We try multiple strategies since Obsidian's internals vary across versions.
   function setTabTitle(title) {
-    // Strategy 1: walk up from containerEl to .workspace-leaf, then find the
-    // sibling .workspace-tab-header that belongs to this leaf.
     try {
       let leafEl = leaf.view.containerEl;
       while (leafEl && !leafEl.classList.contains("workspace-leaf")) {
         leafEl = leafEl.parentElement;
       }
       if (leafEl) {
-        // The tab header is in the same .workspace-tabs parent, in a
-        // .workspace-tab-header-container sibling.
         const tabsEl = leafEl.parentElement;
         if (tabsEl) {
           const headers = tabsEl.querySelectorAll(".workspace-tab-header");
@@ -471,21 +450,17 @@ module.exports = async (params) => {
       }
     } catch(e) {}
 
-    // Strategy 2: leaf.tabHeaderEl is set on some Obsidian versions
     try {
       const titleEl = leaf.tabHeaderEl?.querySelector(".workspace-tab-header-inner-title");
       if (titleEl) { titleEl.textContent = title; return; }
     } catch(e) {}
 
-    // Strategy 3: patch getDisplayText and force a refresh
     try {
       leaf.view.getDisplayText = () => title;
       app.workspace.trigger("layout-change");
     } catch(e) {}
   }
 
-  // Run immediately, then retry after a short delay in case the tab DOM
-  // isn't fully painted yet when the script first runs.
   setTabTitle("Flashcard Practice");
   setTimeout(() => setTabTitle("Flashcard Practice"), 100);
 
