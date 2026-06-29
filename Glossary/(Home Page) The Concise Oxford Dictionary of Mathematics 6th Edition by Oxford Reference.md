@@ -1604,7 +1604,7 @@ Year: 2021-09-01
 	
 	586. division(of a segment)
 	587. division algebra
-	588. Division Algorithm
+	588. [[Division Algorithm]]
 	589. division ring
 	590. divisor
 	591. divisor function
@@ -1815,7 +1815,7 @@ Year: 2021-09-01
 	776. fictitious force
 	777. field
 	778. field extension
-	779. field of force
+	779. [[field of force]]
 	780. field of fractions
 	781. Fields Medal
 	782. figurate numbers
@@ -1901,7 +1901,7 @@ Year: 2021-09-01
 	855. frequency(in mechanics)
 	
 	856. frequency(in statistics)
-	857. frequency analysis
+	857. [[frequency analysis]]
 	858. frequency distribution
 	859. frequentist inference
 	860. Freudenthal, Hans (1905-90)

@@ -1,4 +1,4 @@
-## Synthesis
+ m## Synthesis
 - 
 ## Source [^1]
 - A frieze pattern is a planar pattern that is repeating in one direction. As such they are common in decorations and architecture. Formally a frieze pattern is such that its group of symmetries—called a frieze group—has a subgroup of translations that is isomorphic to the integers.
