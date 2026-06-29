@@ -1,5 +1,5 @@
 /**
- * Pacing Timer Visual Sandbox (V24 - Minimalist Immersive Overlay)
+ * Pacing Timer Visual Sandbox (V26 - Minimalist Immersive Overlay)
  * Interactive Prototypes for:
  * 1. Zen Play Mode (Transparent fixed canvas overlay, zero shadow blurs for fast frame rendering)
  * 2. Distinct Galactic Overlays: Unique full-screen gradients, solar washes, and scanline grids per sector
@@ -16,7 +16,7 @@ const runSandbox = async (params) => {
         try {
             const { MarkdownView, Notice } = require("obsidian");
             view = app.workspace.getActiveViewOfType(MarkdownView);
-            new Notice("🌌 Space Shooter Overlay Active.\n• Tap Ctrl+Space: Reflector (Fox's Shine)\n• Drag Ctrl+Space: Laser (Asteroids)\n• Ctrl+Cmd+C: Charge Super Cursor\n• Press Escape to exit safely.");
+            new Notice("🌌 Space Shooter Overlay Active.\n• Tap Ctrl+Space: Reflector (Shine)\n• Drag Ctrl+Space: Laser (Asteroids)\n• Ctrl+Cmd+C: Charge Super Cursor\n• Press Escape to exit safely.");
         } catch (e) {
             console.warn("Obsidian workspace modules could not be initialized:", e);
         }
@@ -24,8 +24,19 @@ const runSandbox = async (params) => {
 
     const CANVAS_OVERLAY_ID = "pacing-timer-sandbox-canvas";
 
-    // Leak-Proof Kill Switch
-    let isDeactivated = false;
+    // --- Global Context Registry ---
+    const context = {
+        isDeactivated: false,
+        loopId: null,
+        audioCtx: null,
+        attachedWebviews: [],
+        attachedIframes: [],
+        activeTimeouts: []
+    };
+
+    // Reusable canvas context to prevent high-frequency C++ heap allocations
+    const parentMeasureCanvas = document.createElement("canvas");
+    const parentMeasureCtx = parentMeasureCanvas ? parentMeasureCanvas.getContext("2d") : null;
 
     // Dynamic Game State
     let mouseX = window.innerWidth / 2;
@@ -40,7 +51,6 @@ const runSandbox = async (params) => {
     let webviewCaretY = 0;
     let webviewCaretActive = false;
     let isMouseCursorVisible = true;
-
 
     // Progression
     let currentSectorIndex = 0;
@@ -71,10 +81,6 @@ const runSandbox = async (params) => {
     const slingshotAnchor = { x: 0, y: 0 };
     let activeShine = null; // Fox's Shine animation state
 
-    // Track attached listeners on elements to prevent memory leaks on close
-    const attachedWebviews = [];
-    const attachedIframes = [];
-
     // Target Spacecraft Stats
     const targetShip = {
         x: window.innerWidth / 2,
@@ -87,9 +93,6 @@ const runSandbox = async (params) => {
     };
 
     const triggerMouseVisible = () => {
-        // Mouse mode: engaged by any mouse movement or click.
-        // Caret mode re-engages only when the user starts typing (keydown).
-        // No timer — the switch is purely event-driven, not time-based.
         isMouseCursorVisible = true;
     };
 
@@ -99,14 +102,114 @@ const runSandbox = async (params) => {
         triggerMouseVisible();
     };
 
-    // dynamically pull selection caret bounds to override mouse positioning when actively typing
+    // Helper to calculate caret coordinates in multiline textareas safely
+    const getTextareaCaretCoordinates = (el, activeWin = window) => {
+        const doc = activeWin.document;
+        let mirror = doc.getElementById("pacing-timer-caret-mirror");
+        if (!mirror) {
+            mirror = doc.createElement("div");
+            mirror.id = "pacing-timer-caret-mirror";
+            Object.assign(mirror.style, {
+                position: "absolute",
+                visibility: "hidden",
+                whiteSpace: "pre-wrap",
+                wordBreak: "break-all",
+                top: "0",
+                left: "0",
+                height: "auto"
+            });
+            doc.body.appendChild(mirror);
+        }
+
+        const styles = activeWin.getComputedStyle(el);
+        const rect = el.getBoundingClientRect();
+        
+        mirror.style.width = el.clientWidth + "px";
+        mirror.style.font = styles.font;
+        mirror.style.lineHeight = styles.lineHeight;
+        mirror.style.padding = styles.padding;
+        mirror.style.boxSizing = styles.boxSizing;
+
+        const textUpToCaret = el.value.substring(0, el.selectionStart);
+        mirror.textContent = textUpToCaret;
+
+        const marker = doc.createElement("span");
+        marker.textContent = "|";
+        mirror.appendChild(marker);
+
+        const markerRect = marker.getBoundingClientRect();
+        const mirrorRect = mirror.getBoundingClientRect();
+
+        const x = rect.left + (markerRect.left - mirrorRect.left) - el.scrollLeft;
+        const y = rect.top + (markerRect.top - mirrorRect.top) - el.scrollTop;
+
+        return { x, y };
+    };
+
+    // Cached Google Docs caret lookup — re-queries DOM at most every 500ms
+    let _cachedGDocsEl = undefined;
+    let _gDocsCacheTime = 0;
+
+    // Helper to query and track Google Docs blinking caret element
+    const getGoogleDocsCaret = (activeWin = window) => {
+        const doc = activeWin.document;
+        const now = Date.now();
+        if (now - _gDocsCacheTime > 500) {
+            _gDocsCacheTime = now;
+            _cachedGDocsEl = doc.querySelector('#kix-current-user-cursor-caret') ||
+                             doc.querySelector('.kix-cursor-caret') ||
+                             doc.querySelector('.kix-cursor') ||
+                             doc.querySelector('.docs-text-ui-cursor-blink') ||
+                             null;
+        }
+        if (!_cachedGDocsEl || !_cachedGDocsEl.isConnected) {
+            _cachedGDocsEl = null;
+            return null;
+        }
+
+        const caretEl = _cachedGDocsEl;
+        const cursorContainer = caretEl.closest('.kix-cursor') || caretEl.parentElement;
+        let rect = caretEl.getBoundingClientRect();
+
+        // Overcome "display: none" layout exclusion when blinking off-phase
+        if (rect.width === 0 && rect.height === 0 && cursorContainer) {
+            const origParentDisplay = cursorContainer.style.display;
+            const origParentVisibility = cursorContainer.style.visibility;
+            const origParentOpacity = cursorContainer.style.opacity;
+
+            const origChildDisplay = caretEl.style.display;
+            const origChildVisibility = caretEl.style.visibility;
+            const origChildOpacity = caretEl.style.opacity;
+
+            cursorContainer.style.setProperty("display", "block", "important");
+            cursorContainer.style.setProperty("visibility", "hidden", "important");
+            cursorContainer.style.setProperty("opacity", "0", "important");
+
+            caretEl.style.setProperty("display", "block", "important");
+            caretEl.style.setProperty("visibility", "hidden", "important");
+            caretEl.style.setProperty("opacity", "0", "important");
+
+            rect = caretEl.getBoundingClientRect();
+
+            cursorContainer.style.display = origParentDisplay;
+            cursorContainer.style.visibility = origParentVisibility;
+            cursorContainer.style.opacity = origParentOpacity;
+
+            caretEl.style.display = origChildDisplay;
+            caretEl.style.visibility = origChildVisibility;
+            caretEl.style.opacity = origChildOpacity;
+        }
+
+        if (rect.width === 0 && rect.height === 0) return null;
+        if (rect.left === 0 && rect.top === 0) return null;
+        return { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
+    };
+
     const updatePositionFromCaret = () => {
-        // If the cursor is visible and active, we ignore the caret completely
         if (isMouseCursorVisible) return;
 
         let activeEl = document.activeElement;
         
-        // If typing inside Webview, utilize cached guest coordinates
         if (activeEl && activeEl.tagName === "WEBVIEW") {
             if (webviewCaretActive) {
                 mouseX = webviewCaretX;
@@ -117,7 +220,6 @@ const runSandbox = async (params) => {
 
         let activeWindow = window;
 
-        // Traverse into frame elements if typing in same-origin iframe components
         try {
             while (activeEl && (activeEl.tagName === "IFRAME")) {
                 if (activeEl.contentDocument) {
@@ -128,6 +230,13 @@ const runSandbox = async (params) => {
                 }
             }
         } catch (err) {}
+
+        const gDocsCaret = getGoogleDocsCaret(activeWindow);
+        if (gDocsCaret) {
+            mouseX = gDocsCaret.x;
+            mouseY = gDocsCaret.y;
+            return;
+        }
 
         if (!activeEl) return;
         
@@ -140,35 +249,10 @@ const runSandbox = async (params) => {
         if (!isEditable) return;
 
         try {
-            // Canvas measureText for inputs/textareas — mirror divs fail because
-            // copying width/overflow from the input constrains measurement. measureText()
-            // is layout-independent and matches glyph advance width exactly.
             if (activeEl.tagName === "INPUT" || activeEl.tagName === "TEXTAREA") {
-                const rect = activeEl.getBoundingClientRect();
-                const styles = activeWindow.getComputedStyle(activeEl);
-                const measureCanvas = activeWindow.document.createElement("canvas");
-                const mctx = measureCanvas.getContext("2d");
-                mctx.font = styles.fontStyle + " " + styles.fontVariant + " " +
-                            styles.fontWeight + " " + styles.fontSize + " " +
-                            styles.fontFamily;
-                const textUpToCaret = (activeEl.value || "").substring(0, activeEl.selectionStart);
-                const textWidth = mctx.measureText(textUpToCaret).width;
-                const paddingLeft = parseFloat(styles.paddingLeft) || 0;
-                let x = rect.left + paddingLeft + textWidth - activeEl.scrollLeft;
-                x = Math.min(Math.max(x, rect.left + paddingLeft), rect.right - 4);
-                let y = rect.top + rect.height / 2;
-
-                if (activeWindow !== window) {
-                    let currentEl = activeWindow.frameElement;
-                    while (currentEl) {
-                        const r = currentEl.getBoundingClientRect();
-                        x += r.left;
-                        y += r.top;
-                        currentEl = currentEl.ownerDocument.defaultView.frameElement;
-                    }
-                }
-                mouseX = x;
-                mouseY = y;
+                const coords = getTextareaCaretCoordinates(activeEl, activeWindow);
+                mouseX = coords.x;
+                mouseY = coords.y;
                 return;
             }
 
@@ -176,51 +260,118 @@ const runSandbox = async (params) => {
             if (selection && selection.rangeCount > 0) {
                 const range = selection.getRangeAt(0);
                 const rects = range.getClientRects();
+                let rect = null;
                 if (rects && rects.length > 0) {
-                    const rect = rects[rects.length - 1]; // last rect = actual caret position
-                    if (rect.left !== 0 || rect.top !== 0) {
-                        if (activeWindow !== window) {
-                            // Account for iframe element viewport offset boundaries
-                            let currentEl = activeWindow.frameElement;
-                            let offsetX = 0;
-                            let offsetY = 0;
-                            while (currentEl) {
-                                const r = currentEl.getBoundingClientRect();
-                                offsetX += r.left;
-                                offsetY += r.top;
-                                currentEl = currentEl.ownerDocument.defaultView.frameElement;
+                    rect = rects[rects.length - 1];
+                }
+                
+                // Fallback for empty-rect in contenteditable (e.g. Claude chatbox, empty line after Shift+Enter)
+                if (!rect || (rect.left === 0 && rect.top === 0)) {
+                    const rangeBound = range.getBoundingClientRect();
+                    if (rangeBound && (rangeBound.left !== 0 || rangeBound.top !== 0)) {
+                        rect = rangeBound;
+                    } else {
+                        let node = range.startContainer;
+                        if (node) {
+                            if (node.nodeType === Node.TEXT_NODE) {
+                                node = node.parentNode;
                             }
-                            mouseX = rect.left + offsetX;
-                            mouseY = rect.top + offsetY;
-                        } else {
-                            mouseX = rect.left;
-                            mouseY = rect.top;
+                            if (node && typeof node.getBoundingClientRect === "function") {
+                                // Find a BR inside if it's an empty line element
+                                let br = node.querySelector("br");
+                                let measuredRect = br ? br.getBoundingClientRect() : null;
+                                
+                                if (measuredRect && (measuredRect.left !== 0 || measuredRect.top !== 0)) {
+                                    rect = measuredRect;
+                                } else {
+                                    const nodeRect = node.getBoundingClientRect();
+                                    const style = activeWindow.getComputedStyle(node);
+                                    const paddingLeft = parseFloat(style.paddingLeft) || 0;
+                                    const borderLeft = parseFloat(style.borderLeftWidth) || 0;
+                                    
+                                    rect = {
+                                        left: nodeRect.left + paddingLeft + borderLeft,
+                                        top: nodeRect.top
+                                    };
+                                }
+                            }
                         }
+                    }
+                }
+
+                if (rect && (rect.left !== 0 || rect.top !== 0)) {
+                    if (activeWindow !== window) {
+                        let currentEl = activeWindow.frameElement;
+                        let offsetX = 0;
+                        let offsetY = 0;
+                        while (currentEl) {
+                            const r = currentEl.getBoundingClientRect();
+                            offsetX += r.left;
+                            offsetY += r.top;
+                            currentEl = currentEl.ownerDocument.defaultView.frameElement;
+                        }
+                        mouseX = rect.left + offsetX;
+                        mouseY = rect.top + offsetY;
+                    } else {
+                        mouseX = rect.left;
+                        mouseY = rect.top;
                     }
                 }
             }
         } catch (e) {}
     };
 
-    // Hoisted here so cleanUp() can reference both without relying on declaration order.
-    let audioCtx = null;
-    let loopId = null;
-
-    // 1. Clean up old sandbox instances and global listeners (leak-proof)
     const cleanUp = () => {
-        isDeactivated = true;
+        const prevContext = window._sandboxContext;
+        if (prevContext) {
+            prevContext.isDeactivated = true;
 
-        if (loopId) {
-            cancelAnimationFrame(loopId);
-            loopId = null;
-        }
+            if (prevContext.loopId) {
+                cancelAnimationFrame(prevContext.loopId);
+                prevContext.loopId = null;
+            }
 
-        const ctxToClose = window._sandboxAudioCtx || audioCtx;
-        if (ctxToClose) {
-            ctxToClose.close().catch(() => {});
+            if (prevContext.audioCtx) {
+                prevContext.audioCtx.close().catch(() => {});
+                prevContext.audioCtx = null;
+            }
+
+            if (prevContext.activeTimeouts) {
+                prevContext.activeTimeouts.forEach(clearTimeout);
+                prevContext.activeTimeouts.length = 0;
+            }
+
+            if (prevContext.attachedWebviews) {
+                prevContext.attachedWebviews.forEach(({ element, keydown, keyup, consoleMsg, domReady, didNavigate }) => {
+                    if (element) {
+                        element.removeEventListener("keydown", keydown, { capture: true });
+                        element.removeEventListener("keyup", keyup, { capture: true });
+                        element.removeEventListener("console-message", consoleMsg);
+                        if (domReady) element.removeEventListener("dom-ready", domReady);
+                        if (didNavigate) element.removeEventListener("did-start-navigation", didNavigate);
+                        delete element._hasSandboxKeys;
+                    }
+                });
+                prevContext.attachedWebviews.length = 0;
+            }
+
+            if (prevContext.attachedIframes) {
+                prevContext.attachedIframes.forEach(({ documentEl, mousemove, mousedown, keydown, keyup }) => {
+                    if (documentEl) {
+                        documentEl.removeEventListener("mousemove", mousemove, { capture: true });
+                        documentEl.removeEventListener("pointermove", mousemove, { capture: true });
+                        documentEl.removeEventListener("mousedown", mousedown, { capture: true });
+                        documentEl.removeEventListener("pointerdown", mousedown, { capture: true });
+                        documentEl.removeEventListener("keydown", keydown, { capture: true });
+                        documentEl.removeEventListener("keyup", keyup, { capture: true });
+                        if (documentEl.defaultView && documentEl.defaultView.frameElement) {
+                            delete documentEl.defaultView.frameElement._hasSandboxListeners;
+                        }
+                    }
+                });
+                prevContext.attachedIframes.length = 0;
+            }
         }
-        window._sandboxAudioCtx = null;
-        audioCtx = null;
 
         const existingCanvas = document.getElementById(CANVAS_OVERLAY_ID);
         if (existingCanvas) existingCanvas.remove();
@@ -251,51 +402,19 @@ const runSandbox = async (params) => {
             delete window._sandboxWebviewScanInterval;
         }
 
-        // Deep-clean and detach all listeners from DOM Webviews in the document
-        attachedWebviews.forEach(({ element, keydown, keyup, consoleMsg }) => {
-            if (element) {
-                element.removeEventListener("keydown", keydown, { capture: true });
-                element.removeEventListener("keyup", keyup, { capture: true });
-                element.removeEventListener("console-message", consoleMsg);
-                delete element._hasSandboxKeys;
-            }
-        });
-        attachedWebviews.length = 0;
-
-        // Deep-clean and detach all listeners from standard same-origin Iframes
-        attachedIframes.forEach(({ documentEl, mousemove, mousedown, keydown, keyup }) => {
-            if (documentEl) {
-                documentEl.removeEventListener("mousemove", mousemove, { capture: true });
-                documentEl.removeEventListener("pointermove", mousemove, { capture: true });
-                documentEl.removeEventListener("mousedown", mousedown, { capture: true });
-                documentEl.removeEventListener("pointerdown", mousedown, { capture: true });
-                documentEl.removeEventListener("keydown", keydown, { capture: true });
-                documentEl.removeEventListener("keyup", keyup, { capture: true });
-                if (documentEl.defaultView && documentEl.defaultView.frameElement) {
-                    delete documentEl.defaultView.frameElement._hasSandboxListeners;
-                }
-            }
-        });
-        attachedIframes.length = 0;
-        
-        const cmWrapper = view && view.contentEl ? view.contentEl.querySelector(".cm-editor") : null;
-        if (cmWrapper) {
-            cmWrapper.style.boxShadow = "none";
-            cmWrapper.style.border = "none";
-        }
-
-        // Remove injected keyframe <style> tag
         const styleEl = document.getElementById("pacing-timer-sandbox-styles");
         if (styleEl) styleEl.remove();
 
-        // Remove global charge grant hook
+        const mirrorEl = document.getElementById("pacing-timer-caret-mirror");
+        if (mirrorEl) mirrorEl.remove();
+
         delete window.sandboxGrantCharge;
     };
     
     cleanUp();
-    isDeactivated = false; 
+    
+    window._sandboxContext = context;
 
-    // Register high-coverage mouse & pointer listeners on parent window and document
     window._sandboxMouseMoveHandler = trackMouse;
     window.addEventListener("mousemove", window._sandboxMouseMoveHandler, { capture: true });
     window.addEventListener("pointermove", window._sandboxMouseMoveHandler, { capture: true });
@@ -307,7 +426,6 @@ const runSandbox = async (params) => {
     document.addEventListener("mousedown", triggerMouseVisible, { capture: true });
     document.addEventListener("pointerdown", triggerMouseVisible, { capture: true });
 
-    // Inject shake keyframes
     const injectStyles = () => {
         const styleId = "pacing-timer-sandbox-styles";
         if (!document.getElementById(styleId)) {
@@ -332,7 +450,6 @@ const runSandbox = async (params) => {
     };
     injectStyles();
 
-    // 2. Setup Transparent Canvas Overlay across viewport
     const canvas = document.createElement("canvas");
     canvas.id = CANVAS_OVERLAY_ID;
     Object.assign(canvas.style, {
@@ -354,7 +471,6 @@ const runSandbox = async (params) => {
     const activeAsteroids = [];
     let lastAsteroidSpawn = 0;
 
-    // Segment to Point Distance formula (Guarantees zero projectile tunneling)
     const getDistanceToSegment = (px, py, x1, y1, x2, y2) => {
         const A = px - x1;
         const B = py - y1;
@@ -383,33 +499,35 @@ const runSandbox = async (params) => {
         return Math.hypot(dx, dy);
     };
 
-    // 3. Procedural Sound Synthesizer
     const playSound = (type) => {
-        if (!audioCtx) {
-            audioCtx = window._sandboxAudioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (context.isDeactivated) return;
+        if (!context.audioCtx) {
+            const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+            context.audioCtx = new AudioContextClass();
         }
-        if (audioCtx.state === 'suspended') {
-            audioCtx.resume();
+        if (context.audioCtx.state === 'closed') return;
+        if (context.audioCtx.state === 'suspended') {
+            context.audioCtx.resume();
         }
         try {
-            const now = audioCtx.currentTime;
+            const now = context.audioCtx.currentTime;
             
             if (type === "laser") {
-                const osc = audioCtx.createOscillator();
-                const gain = audioCtx.createGain();
+                const osc = context.audioCtx.createOscillator();
+                const gain = context.audioCtx.createGain();
                 osc.type = "sine";
                 osc.frequency.setValueAtTime(1200, now);
                 osc.frequency.exponentialRampToValueAtTime(100, now + 0.1);
                 gain.gain.setValueAtTime(0.15, now);
                 gain.gain.exponentialRampToValueAtTime(0.001, now + 0.1);
                 osc.connect(gain);
-                gain.connect(audioCtx.destination);
+                gain.connect(context.audioCtx.destination);
                 osc.start(now);
                 osc.stop(now + 0.11);
             } 
             else if (type === "plasma") {
-                const osc = audioCtx.createOscillator();
-                const gain = audioCtx.createGain();
+                const osc = context.audioCtx.createOscillator();
+                const gain = context.audioCtx.createGain();
                 osc.type = "triangle";
                 osc.frequency.setValueAtTime(100, now);
                 osc.frequency.linearRampToValueAtTime(600, now + 0.15);
@@ -417,34 +535,34 @@ const runSandbox = async (params) => {
                 gain.gain.setValueAtTime(0.35, now);
                 gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
                 osc.connect(gain);
-                gain.connect(audioCtx.destination);
+                gain.connect(context.audioCtx.destination);
                 osc.start(now);
                 osc.stop(now + 0.31);
             }
             else if (type === "shine") {
-                const osc = audioCtx.createOscillator();
-                const gain = audioCtx.createGain();
+                const osc = context.audioCtx.createOscillator();
+                const gain = context.audioCtx.createGain();
                 osc.type = "sine";
                 osc.frequency.setValueAtTime(2500, now);
                 osc.frequency.exponentialRampToValueAtTime(300, now + 0.08);
                 gain.gain.setValueAtTime(0.2, now);
                 gain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
                 osc.connect(gain);
-                gain.connect(audioCtx.destination);
+                gain.connect(context.audioCtx.destination);
                 osc.start(now);
                 osc.stop(now + 0.09);
             }
             else if (type === "powerup") {
                 const triggerNote = (freq, start, dur) => {
-                    const osc = audioCtx.createOscillator();
-                    const gain = audioCtx.createGain();
+                    const osc = context.audioCtx.createOscillator();
+                    const gain = context.audioCtx.createGain();
                     osc.type = "sine";
                     osc.frequency.setValueAtTime(freq, start);
                     gain.gain.setValueAtTime(0, start);
                     gain.gain.linearRampToValueAtTime(0.2, start + 0.01);
                     gain.gain.exponentialRampToValueAtTime(0.001, start + dur);
                     osc.connect(gain);
-                    gain.connect(audioCtx.destination);
+                    gain.connect(context.audioCtx.destination);
                     osc.start(start);
                     osc.stop(start + dur + 0.05);
                 };
@@ -454,28 +572,28 @@ const runSandbox = async (params) => {
                 triggerNote(1046.50, now + 0.15, 0.25);
             }
             else if (type === "deflect") {
-                const osc = audioCtx.createOscillator();
-                const gain = audioCtx.createGain();
+                const osc = context.audioCtx.createOscillator();
+                const gain = context.audioCtx.createGain();
                 osc.type = "sine";
                 osc.frequency.setValueAtTime(800, now);
                 osc.frequency.linearRampToValueAtTime(1400, now + 0.05);
                 gain.gain.setValueAtTime(0.1, now);
                 gain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
                 osc.connect(gain);
-                gain.connect(audioCtx.destination);
+                gain.connect(context.audioCtx.destination);
                 osc.start(now);
                 osc.stop(now + 0.09);
             }
             else if (type === "explosion") {
-                const osc = audioCtx.createOscillator();
-                const gain = audioCtx.createGain();
+                const osc = context.audioCtx.createOscillator();
+                const gain = context.audioCtx.createGain();
                 osc.type = "triangle";
                 osc.frequency.setValueAtTime(120, now);
                 osc.frequency.exponentialRampToValueAtTime(20, now + 0.35);
                 gain.gain.setValueAtTime(0.4, now);
                 gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
                 osc.connect(gain);
-                gain.connect(audioCtx.destination);
+                gain.connect(context.audioCtx.destination);
                 osc.start(now);
                 osc.stop(now + 0.36);
             }
@@ -484,17 +602,29 @@ const runSandbox = async (params) => {
         }
     };
 
+    // Self-pruning timeout wrapper — removes ID from activeTimeouts after firing
+    const safeTimeout = (fn, delay) => {
+        const id = setTimeout(() => {
+            fn();
+            const idx = context.activeTimeouts.indexOf(id);
+            if (idx !== -1) context.activeTimeouts.splice(idx, 1);
+        }, delay);
+        context.activeTimeouts.push(id);
+        return id;
+    };
+
     const triggerScreenShake = () => {
+        if (context.isDeactivated) return;
         const canvasEl = document.getElementById(CANVAS_OVERLAY_ID);
         if (!canvasEl) return;
         canvasEl.style.animation = "none";
         canvasEl.offsetHeight; 
         canvasEl.style.animation = "pacing-sandbox-shake 0.15s cubic-bezier(.36,.07,.19,.97) both";
-        setTimeout(() => { canvasEl.style.animation = "none"; }, 150);
+        safeTimeout(() => { canvasEl.style.animation = "none"; }, 150);
     };
 
     const triggerFloatingText = (label, x, y, color = "#ff2a6d") => {
-        if (isDeactivated) return;
+        if (context.isDeactivated) return;
         const floatText = document.createElement("div");
         floatText.textContent = label;
         Object.assign(floatText.style, {
@@ -518,20 +648,20 @@ const runSandbox = async (params) => {
         floatText.style.transform = `translate(calc(-50% + ${(Math.random() - 0.5) * 30}px), -40px) scale(1.1)`;
         floatText.style.opacity = "1";
 
-        setTimeout(() => {
+        const t1 = safeTimeout(() => {
+            if (context.isDeactivated) { floatText.remove(); return; }
             floatText.style.opacity = "0";
             floatText.style.transform += " translateY(-15px)";
-            setTimeout(() => floatText.remove(), 600);
+            safeTimeout(() => floatText.remove(), 600);
         }, 350);
     };
 
     const spawnAsteroid = () => {
         if (isWarpActive) return; 
-        const side = Math.random() < 0.5 ? "left" : "right";
         const ast = {
-            x: side === "left" ? -30 : window.innerWidth + 30,
+            x: Math.random() < 0.5 ? -30 : window.innerWidth + 30,
             y: Math.random() * (window.innerHeight - 350) + 100,
-            vx: side === "left" ? Math.random() * 0.8 + 0.4 : -(Math.random() * 0.8 + 0.4),
+            vx: Math.random() < 0.5 ? Math.random() * 0.8 + 0.4 : -(Math.random() * 0.8 + 0.4),
             vy: Math.random() * 0.4 + 0.1,
             size: Math.random() * 15 + 15,
             sprite: Math.random() < 0.5 ? "🪨" : "☄️",
@@ -549,7 +679,6 @@ const runSandbox = async (params) => {
         playSound("powerup");
     };
 
-    // Activate Fox's Melee Shine Reflector
     const triggerFoxShine = () => {
         playSound("shine");
         
@@ -563,7 +692,6 @@ const runSandbox = async (params) => {
             maxLife: 10
         };
 
-        // Reflect asteroids within shine boundaries
         activeAsteroids.forEach(ast => {
             const dist = Math.hypot(mouseX - ast.x, mouseY - ast.y);
             if (dist < 65) {
@@ -574,7 +702,6 @@ const runSandbox = async (params) => {
                 
                 triggerFloatingText("⭐️ REFLECTED!", ast.x, ast.y, "#54ebff");
                 
-                // Spawn sparkling energy particles
                 for (let p = 0; p < 5; p++) {
                     activeParticles.push({
                         type: "spark",
@@ -592,7 +719,6 @@ const runSandbox = async (params) => {
         });
     };
 
-    // Handle standard or special release of the slingshot targeting vector
     const triggerSlingshotRelease = () => {
         if (isSlingshotActive) {
             const isSpecial = slingshotType === "special";
@@ -617,13 +743,10 @@ const runSandbox = async (params) => {
         }
     };
 
-    // 4. Game Physics Loop (With loop closure protection)
+    // Game Physics Loop
     const updatePhysics = () => {
-        if (isDeactivated) return; // Exit and cancel frame schedule if closed
+        if (context.isDeactivated) return; 
 
-        // FIX 2: Call every frame, not just on key events.
-        // Previously only called on keydown/keyup, causing the hurtbox to lag
-        // behind the actual caret position while typing between key events.
         updatePositionFromCaret();
 
         if (canvas.width !== window.innerWidth || canvas.height !== window.innerHeight) {
@@ -631,13 +754,16 @@ const runSandbox = async (params) => {
             canvas.height = window.innerHeight;
         }
 
+        // Cap arrays to prevent unbounded growth during long idle sessions
+        if (activeParticles.length > 300) activeParticles.splice(0, activeParticles.length - 300);
+        if (activeProjectiles.length > 50) activeProjectiles.splice(0, activeProjectiles.length - 50);
+
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         targetY = window.innerHeight; 
         const now = Date.now();
 
         const activeSector = SECTORS[currentSectorIndex];
 
-        // --- Render Sector-Specific Graphic Overlays ---
         if (!isWarpActive) {
             if (activeSector.name === "Orion Nebula") {
                 const grad = ctx.createRadialGradient(canvas.width * 0.7, canvas.height * 0.4, 0, canvas.width * 0.7, canvas.height * 0.4, canvas.width * 0.8);
@@ -671,7 +797,6 @@ const runSandbox = async (params) => {
             }
         }
 
-        // --- Render Scrolling Starfield (With warp stretch) ---
         ctx.strokeStyle = SECTORS[currentSectorIndex].bgParticlesColor;
         ctx.lineWidth = 1.5;
         stars.forEach(star => {
@@ -708,7 +833,6 @@ const runSandbox = async (params) => {
             lastAsteroidSpawn = now;
         }
 
-        // --- Render Target Spaceship on Canvas ---
         if (!isWarpActive) {
             const speed = targetShip.isBoss ? 0.35 : 0.65;
             alienPercent += alienDirection * speed;
@@ -758,7 +882,6 @@ const runSandbox = async (params) => {
             }
         }
 
-        // --- Render Sweeper Asteroids ---
         let nearestAsteroidDist = Infinity; 
         for (let i = activeAsteroids.length - 1; i >= 0; i--) {
             const ast = activeAsteroids[i];
@@ -793,7 +916,6 @@ const runSandbox = async (params) => {
             }
         }
 
-        // --- Render Proximity Shield Ring around Cursor ---
         if (nearestAsteroidDist < 120) {
             const proximityFactor = Math.max(0, 1 - nearestAsteroidDist / 120);
             ctx.save();
@@ -805,7 +927,6 @@ const runSandbox = async (params) => {
             ctx.restore();
         }
 
-        // --- Render Fox's Shine Reflector Hexagons ---
         if (activeShine) {
             activeShine.life++;
             const progress = activeShine.life / activeShine.maxLife;
@@ -855,7 +976,6 @@ const runSandbox = async (params) => {
             }
         }
 
-        // --- Render Super Cursor Charged State ---
         if (superCursorActive) {
             ctx.save();
             ctx.strokeStyle = "rgba(255, 215, 0, 0.6)"; 
@@ -876,7 +996,6 @@ const runSandbox = async (params) => {
             ctx.restore();
         }
 
-        // Spark and Wave Particles
         for (let i = activeParticles.length - 1; i >= 0; i--) {
             const p = activeParticles[i];
             p.life++;
@@ -906,7 +1025,6 @@ const runSandbox = async (params) => {
             }
         }
 
-        // --- Render Slingshot Aiming Reticle (Hold State) ---
         if (isSlingshotActive) {
             const dx = mouseX - slingshotAnchor.x;
             const dy = mouseY - slingshotAnchor.y;
@@ -938,7 +1056,6 @@ const runSandbox = async (params) => {
             ctx.restore();
         }
 
-        // --- Slingshot Projectiles (Segment-Based Collision) ---
         for (let i = activeProjectiles.length - 1; i >= 0; i--) {
             const proj = activeProjectiles[i];
 
@@ -967,7 +1084,6 @@ const runSandbox = async (params) => {
                 ctx.stroke();
                 ctx.restore();
 
-                // --- Segment-Based Collision Check against Target Spacecraft ---
                 if (!isWarpActive) {
                     const distToShip = getDistanceToSegment(targetShip.x, targetShip.y, prevX, prevY, proj.x, proj.y);
                     const shipHitRadius = targetShip.isBoss ? 45 : 26; 
@@ -978,7 +1094,6 @@ const runSandbox = async (params) => {
                     }
                 }
 
-                // --- Segment-Based Collision Check against Drifting Asteroids ---
                 let hitAsteroid = false;
                 for (let a = activeAsteroids.length - 1; a >= 0; a--) {
                     const ast = activeAsteroids[a];
@@ -1019,7 +1134,7 @@ const runSandbox = async (params) => {
             }
         }
 
-        loopId = requestAnimationFrame(updatePhysics);
+        context.loopId = requestAnimationFrame(updatePhysics);
     };
 
     // Collision Handler
@@ -1124,7 +1239,7 @@ const runSandbox = async (params) => {
         }
     };
 
-    // 5. Manual Weapon Launchers
+    // Manual Weapon Launchers
     const triggerLaserStrike = (vx = 0, vy = -55, isSpecialShot = false) => {
         playSound(isSpecialShot ? "plasma" : "laser");
 
@@ -1144,21 +1259,26 @@ const runSandbox = async (params) => {
     };
 
     // Start rendering loops
-    loopId = requestAnimationFrame(updatePhysics);
+    context.loopId = requestAnimationFrame(updatePhysics);
 
-    // 6. Global Keyboard Event Hooks
+    // Global Keyboard Event Hooks
+    let ctrlPressed = false;
+
     window._sandboxKeyDownHandler = (e) => {
-        // FIX 3 (parent context): Only mark mouse invisible for printable typing keys,
-        // not modifier keys or game shortcuts like Ctrl+Space / Ctrl+Cmd+C.
+        if (e.key === "Control" || e.key === "Meta") {
+            ctrlPressed = true;
+        }
+
         const isModifierOnly = e.key === "Control" || e.key === "Meta" || e.key === "Shift" || e.key === "Alt";
-        const isGameShortcut = (e.ctrlKey && (e.key === " " || e.code === "Space")) ||
-                               (e.ctrlKey && (e.metaKey || e.altKey) && (e.key === "c" || e.code === "KeyC"));
+        const isGameShortcut = ((e.ctrlKey || ctrlPressed) && (e.key === " " || e.code === "Space")) ||
+                               ((e.ctrlKey || ctrlPressed) && (e.metaKey || e.altKey) && (e.key === "c" || e.code === "KeyC"));
+        
         if (!isModifierOnly && !isGameShortcut) {
             isMouseCursorVisible = false;
         }
         updatePositionFromCaret();
 
-        const isCtrl = e.metaKey || e.ctrlKey;
+        const isCtrl = e.metaKey || e.ctrlKey || ctrlPressed;
         const isSpace = e.key === " " || e.key === "Spacebar" || e.code === "Space";
 
         // Deactivate overlay completely
@@ -1167,8 +1287,7 @@ const runSandbox = async (params) => {
             return;
         }
 
-        // Special Shot triggers and charges the Super Cursor on Cmd+Ctrl+C (Mac) or Ctrl+Alt+C (Win)
-        const isSpecialTrigger = e.ctrlKey && (e.metaKey || e.altKey) && (e.key === "c" || e.key === "C" || e.code === "KeyC");
+        const isSpecialTrigger = isCtrl && (e.metaKey || e.altKey) && (e.key === "c" || e.key === "C" || e.code === "KeyC");
         if (isSpecialTrigger) {
             e.preventDefault();
             e.stopPropagation();
@@ -1180,7 +1299,6 @@ const runSandbox = async (params) => {
         }
 
         if (isSpace) {
-            // Anchor Slingshot vector for standard sweeping (Ctrl+Space only)
             if (isCtrl && !isSlingshotActive) {
                 e.preventDefault();
                 e.stopPropagation();
@@ -1194,6 +1312,10 @@ const runSandbox = async (params) => {
     };
 
     window._sandboxKeyUpHandler = (e) => {
+        if (e.key === "Control" || e.key === "Meta") {
+            ctrlPressed = false;
+        }
+
         updatePositionFromCaret();
 
         if (isSlingshotActive) {
@@ -1209,8 +1331,11 @@ const runSandbox = async (params) => {
     window.addEventListener("keydown", window._sandboxKeyDownHandler, { capture: true });
     window.addEventListener("keyup", window._sandboxKeyUpHandler, { capture: true });
 
-    // 7. Same-Origin Iframe Listener Injector & Electron Webview IPC Bridge (Leak-Proof)
+    // Same-Origin Iframe Listener Injector & Electron Webview IPC Bridge (Leak-Proof)
     const scanAndBindWebviews = () => {
+        const attachedWebviews = context.attachedWebviews;
+        const attachedIframes = context.attachedIframes;
+
         // Deep-clean registry of detached Webviews before processing to free heap memory
         for (let i = attachedWebviews.length - 1; i >= 0; i--) {
             const item = attachedWebviews[i];
@@ -1219,6 +1344,8 @@ const runSandbox = async (params) => {
                     item.element.removeEventListener("keydown", item.keydown, { capture: true });
                     item.element.removeEventListener("keyup", item.keyup, { capture: true });
                     item.element.removeEventListener("console-message", item.consoleMsg);
+                    if (item.domReady) item.element.removeEventListener("dom-ready", item.domReady);
+                    if (item.didNavigate) item.element.removeEventListener("did-start-navigation", item.didNavigate);
                 } catch (e) {}
                 attachedWebviews.splice(i, 1);
             }
@@ -1227,7 +1354,8 @@ const runSandbox = async (params) => {
         // Deep-clean registry of standard detached Iframes before processing to prevent memory leak
         for (let i = attachedIframes.length - 1; i >= 0; i--) {
             const item = attachedIframes[i];
-            if (!item.documentEl || (item.documentEl.defaultView && !item.documentEl.defaultView.frameElement)) {
+            const iframe = (item.documentEl && item.documentEl.defaultView) ? item.documentEl.defaultView.frameElement : null;
+            if (!iframe || !iframe.isConnected) {
                 try {
                     item.documentEl.removeEventListener("mousemove", item.mousemove, { capture: true });
                     item.documentEl.removeEventListener("pointermove", item.mousemove, { capture: true });
@@ -1245,7 +1373,11 @@ const runSandbox = async (params) => {
             if (!wv._hasSandboxKeys) {
                 wv._hasSandboxKeys = true;
 
-                const boundKeyDown = window._sandboxKeyDownHandler;
+                const boundKeyDown = (e) => {
+                    // Stamp the webview element so OBS_MOUSE_VISIBLE debounce knows a keydown just happened
+                    wv._lastSandboxKeydown = Date.now();
+                    window._sandboxKeyDownHandler(e);
+                };
                 const boundKeyUp = window._sandboxKeyUpHandler;
 
                 wv.addEventListener("keydown", boundKeyDown, { capture: true });
@@ -1259,10 +1391,17 @@ const runSandbox = async (params) => {
                             const rect = wv.getBoundingClientRect();
                             mouseX = rect.left + parseFloat(coords[0]);
                             mouseY = rect.top + parseFloat(coords[1]);
-                            isMouseCursorVisible = true; // Any mouse move inside guest immediately restores parent tracking state
+                            // Only restore mouse-cursor mode if no keydown happened recently.
+                            // Prevents the race: keydown sets isMouseCursorVisible=false,
+                            // then an in-flight OBS_MOUSE_MOVE immediately flips it back.
+                            if (Date.now() - (wv._lastSandboxKeydown || 0) > 300) {
+                                isMouseCursorVisible = true;
+                            }
                         }
                         else if (e.message === 'OBS_MOUSE_VISIBLE:true') {
-                            isMouseCursorVisible = true;
+                            if (Date.now() - (wv._lastSandboxKeydown || 0) > 300) {
+                                isMouseCursorVisible = true;
+                            }
                         }
                         else if (e.message === 'OBS_MOUSE_VISIBLE:false') {
                             isMouseCursorVisible = false;
@@ -1271,10 +1410,12 @@ const runSandbox = async (params) => {
                             const coordsStr = e.message.split('OBS_CARET_MOVE:')[1];
                             const coords = coordsStr.split(',');
                             const rect = wv.getBoundingClientRect();
-                            webviewCaretX = rect.left + parseFloat(coords[0]);
-                            webviewCaretY = rect.top + parseFloat(coords[1]);
+                            // Coords from injected script are already viewport-relative inside the webview.
+                            // Only add the webview's own offset if it's not full-viewport (e.g. a panel/split).
+                            const isFullViewport = rect.left < 2 && rect.top < 2;
+                            webviewCaretX = isFullViewport ? parseFloat(coords[0]) : rect.left + parseFloat(coords[0]);
+                            webviewCaretY = isFullViewport ? parseFloat(coords[1]) : rect.top + parseFloat(coords[1]);
                             webviewCaretActive = true;
-                            // Instant update if cursor is invisible
                             if (!isMouseCursorVisible) {
                                 mouseX = webviewCaretX;
                                 mouseY = webviewCaretY;
@@ -1307,26 +1448,28 @@ const runSandbox = async (params) => {
 
                 wv.addEventListener('console-message', handleConsoleMsg);
 
-                attachedWebviews.push({
-                    element: wv,
-                    keydown: boundKeyDown,
-                    keyup: boundKeyUp,
-                    consoleMsg: handleConsoleMsg
-                });
-
                 const injectScript = () => {
                     wv.executeJavaScript(`
                         if (!window._obsMouseTrackerInjected) {
                             window._obsMouseTrackerInjected = true;
 
                             let lastLoggedMove = 0;
+                            let lastMouseX = -1;
+                            let lastMouseY = -1;
 
-                            // Standard cursor movements & pointer adjustments inside guest
                             const registerMove = (e) => {
                                 const now = Date.now();
                                 if (now - lastLoggedMove > 16) {
-                                    console.log('OBS_MOUSE_MOVE:' + e.clientX + ',' + e.clientY);
-                                    console.log('OBS_MOUSE_VISIBLE:true');
+                                    const mx = e.clientX;
+                                    const my = e.clientY;
+                                    // Only send OBS_MOUSE_VISIBLE:true if the mouse actually moved.
+                                    // Suppressing it on stationary-but-firing pointermove events
+                                    // prevents the race that overrides caret tracking while typing.
+                                    const didMove = mx !== lastMouseX || my !== lastMouseY;
+                                    lastMouseX = mx;
+                                    lastMouseY = my;
+                                    console.log('OBS_MOUSE_MOVE:' + mx + ',' + my);
+                                    if (didMove) console.log('OBS_MOUSE_VISIBLE:true');
                                     lastLoggedMove = now;
                                 }
                             };
@@ -1340,16 +1483,12 @@ const runSandbox = async (params) => {
                             window.addEventListener('mousedown', forceVisible, { capture: true });
                             window.addEventListener('pointerdown', forceVisible, { capture: true });
 
-                            // Canvas text measurement: the most reliable way to get caret x
-                            // inside <input> elements. Mirror divs fail because copying width/overflow
-                            // from the input constrains the div and corrupts the measurement.
-                            // canvas.measureText() is unaffected by layout constraints — it measures
-                            // raw glyph advance width using the same font stack as the input.
                             const getInputCaretX = (el) => {
                                 const styles = window.getComputedStyle(el);
-                                const canvas = document.createElement('canvas');
-                                const ctx2d = canvas.getContext('2d');
-                                // Match the input font exactly
+                                if (!window._obsMeasureCanvas) {
+                                    window._obsMeasureCanvas = document.createElement('canvas');
+                                }
+                                const ctx2d = window._obsMeasureCanvas.getContext('2d');
                                 ctx2d.font = styles.fontStyle + ' ' + styles.fontVariant + ' ' +
                                              styles.fontWeight + ' ' + styles.fontSize + ' ' +
                                              styles.fontFamily;
@@ -1358,34 +1497,142 @@ const runSandbox = async (params) => {
 
                                 const rect = el.getBoundingClientRect();
                                 const paddingLeft = parseFloat(styles.paddingLeft) || 0;
-                                // Subtract scrollLeft: browser scrolls text left when input overflows
                                 const x = rect.left + paddingLeft + textWidth - el.scrollLeft;
                                 return Math.min(Math.max(x, rect.left + paddingLeft), rect.right - 4);
                             };
 
-                            // Helper to extract caret positions within isolation boundary (including standard input elements)
+                            const getGoogleDocsCaret = () => {
+                                const caretEl = document.querySelector('#kix-current-user-cursor-caret') || 
+                                                document.querySelector('.kix-cursor-caret') || 
+                                                document.querySelector('.kix-cursor') ||
+                                                document.querySelector('.docs-text-ui-cursor-blink');
+                                if (!caretEl) return null;
+                                
+                                const cursorContainer = caretEl.closest('.kix-cursor') || caretEl.parentElement;
+                                let rect = caretEl.getBoundingClientRect();
+
+                                if (rect.width === 0 && rect.height === 0 && cursorContainer) {
+                                    const origParentDisplay = cursorContainer.style.display;
+                                    const origParentVisibility = cursorContainer.style.visibility;
+                                    const origParentOpacity = cursorContainer.style.opacity;
+
+                                    const origChildDisplay = caretEl.style.display;
+                                    const origChildVisibility = caretEl.style.visibility;
+                                    const origChildOpacity = caretEl.style.opacity;
+
+                                    cursorContainer.style.setProperty("display", "block", "important");
+                                    cursorContainer.style.setProperty("visibility", "hidden", "important");
+                                    cursorContainer.style.setProperty("opacity", "0", "important");
+
+                                    caretEl.style.setProperty("display", "block", "important");
+                                    caretEl.style.setProperty("visibility", "hidden", "important");
+                                    caretEl.style.setProperty("opacity", "0", "important");
+
+                                    rect = caretEl.getBoundingClientRect();
+
+                                    cursorContainer.style.display = origParentDisplay;
+                                    cursorContainer.style.visibility = origParentVisibility;
+                                    cursorContainer.style.opacity = origParentOpacity;
+
+                                    caretEl.style.display = origChildDisplay;
+                                    caretEl.style.visibility = origChildVisibility;
+                                    caretEl.style.opacity = origChildOpacity;
+                                }
+
+                                if (rect.width === 0 && rect.height === 0) return null;
+                                if (rect.left === 0 && rect.top === 0) return null;
+                                return { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
+                            };
+
                             const getCaretCoordinates = () => {
                                 try {
+                                    const gDocsCaret = getGoogleDocsCaret();
+                                    if (gDocsCaret) return gDocsCaret;
+
                                     const activeEl = document.activeElement;
                                     if (!activeEl) return null;
 
-                                    // Use mirror div for inputs/textareas — getSelection() always
-                                    // returns element-start coords for these in Chromium.
                                     if (activeEl.tagName === "INPUT" || activeEl.tagName === "TEXTAREA") {
+                                        const styles = window.getComputedStyle(activeEl);
                                         const rect = activeEl.getBoundingClientRect();
-                                        const x = getInputCaretX(activeEl);
-                                        return { x, y: rect.top + rect.height / 2 };
+                                        
+                                        if (!window._obsMirrorDiv) {
+                                            window._obsMirrorDiv = document.createElement('div');
+                                            Object.assign(window._obsMirrorDiv.style, {
+                                                position: 'absolute',
+                                                visibility: 'hidden',
+                                                whiteSpace: 'pre-wrap',
+                                                wordBreak: 'break-all',
+                                                top: '0',
+                                                left: '0',
+                                                height: 'auto'
+                                            });
+                                            document.body.appendChild(window._obsMirrorDiv);
+                                        }
+
+                                        window._obsMirrorDiv.style.width = activeEl.clientWidth + 'px';
+                                        window._obsMirrorDiv.style.font = styles.font;
+                                        window._obsMirrorDiv.style.lineHeight = styles.lineHeight;
+                                        window._obsMirrorDiv.style.padding = styles.padding;
+                                        window._obsMirrorDiv.style.boxSizing = styles.boxSizing;
+
+                                        const textUpToCaret = activeEl.value.substring(0, activeEl.selectionStart);
+                                        window._obsMirrorDiv.textContent = textUpToCaret;
+
+                                        const marker = document.createElement('span');
+                                        marker.textContent = '|';
+                                        window._obsMirrorDiv.appendChild(marker);
+
+                                        const markerRect = marker.getBoundingClientRect();
+                                        const mirrorRect = window._obsMirrorDiv.getBoundingClientRect();
+
+                                        const x = rect.left + (markerRect.left - mirrorRect.left) - activeEl.scrollLeft;
+                                        const y = rect.top + (markerRect.top - mirrorRect.top) - activeEl.scrollTop;
+
+                                        return { x, y };
                                     }
 
                                     const selection = window.getSelection();
                                     if (selection && selection.rangeCount > 0) {
                                         const range = selection.getRangeAt(0);
                                         const rects = range.getClientRects();
+                                        let rect = null;
                                         if (rects && rects.length > 0) {
-                                            const rect = rects[rects.length - 1];
-                                            if (rect.left !== 0 || rect.top !== 0) {
-                                                return { x: rect.left, y: rect.top };
+                                            rect = rects[rects.length - 1];
+                                        }
+                                        
+                                        if (!rect || (rect.left === 0 && rect.top === 0)) {
+                                            const rangeBound = range.getBoundingClientRect();
+                                            if (rangeBound && (rangeBound.left !== 0 || rangeBound.top !== 0)) {
+                                                rect = rangeBound;
+                                            } else {
+                                                let node = range.startContainer;
+                                                if (node) {
+                                                    if (node.nodeType === Node.TEXT_NODE) {
+                                                        node = node.parentNode;
+                                                    }
+                                                    if (node && typeof node.getBoundingClientRect === "function") {
+                                                        let br = node.querySelector("br");
+                                                        let measuredRect = br ? br.getBoundingClientRect() : null;
+                                                        if (measuredRect && (measuredRect.left !== 0 || measuredRect.top !== 0)) {
+                                                            rect = measuredRect;
+                                                        } else {
+                                                            const nodeRect = node.getBoundingClientRect();
+                                                            const style = window.getComputedStyle(node);
+                                                            const paddingLeft = parseFloat(style.paddingLeft) || 0;
+                                                            const borderLeft = parseFloat(style.borderLeftWidth) || 0;
+                                                            rect = {
+                                                                left: nodeRect.left + paddingLeft + borderLeft,
+                                                                top: nodeRect.top
+                                                            };
+                                                        }
+                                                    }
+                                                }
                                             }
+                                        }
+
+                                        if (rect && (rect.left !== 0 || rect.top !== 0)) {
+                                            return { x: rect.left, y: rect.top };
                                         }
                                     }
                                 } catch (e) {}
@@ -1401,23 +1648,50 @@ const runSandbox = async (params) => {
                                 }
                             };
 
+                            // Event-based triggers for standard inputs/textareas
                             document.addEventListener('selectionchange', updateCaret, { capture: true });
                             window.addEventListener('input', updateCaret, { capture: true });
                             window.addEventListener('keyup', updateCaret, { capture: true });
                             window.addEventListener('click', updateCaret, { capture: true });
 
-                            // KeyDown event routing bypassing active command blocker layers inside 'Commands.js'
-                            window.addEventListener('keydown', (e) => {
-                                const isCtrl = e.metaKey || e.ctrlKey;
+                            let _lastCaretX = -1;
+                            let _lastCaretY = -1;
+                            let _rafFrame = 0;
+
+                            const pollGDocsCaret = () => {
+                                _rafFrame++;
+                                if (_rafFrame % 2 === 0) {
+                                    const caret = getGoogleDocsCaret();
+                                    if (caret) {
+                                        const cx = Math.round(caret.x);
+                                        const cy = Math.round(caret.y);
+                                        // Only emit if position actually changed (avoid console spam)
+                                        if (cx !== _lastCaretX || cy !== _lastCaretY) {
+                                            _lastCaretX = cx;
+                                            _lastCaretY = cy;
+                                            console.log('OBS_CARET_MOVE:' + cx + ',' + cy);
+                                        }
+                                    }
+                                }
+                                window.requestAnimationFrame(pollGDocsCaret);
+                            };
+                            window.requestAnimationFrame(pollGDocsCaret);
+
+                            let ctrlPressed = false;
+
+                            const handleGuestKeydown = (e) => {
+                                if (e.key === "Control" || e.key === "Meta") {
+                                    ctrlPressed = true;
+                                }
+
+                                const isCtrl = e.metaKey || e.ctrlKey || ctrlPressed;
                                 const isSpace = e.key === " " || e.code === "Space";
                                 const isSpecialTrigger = e.ctrlKey && (e.metaKey || e.altKey) && (e.key === "c" || e.code === "KeyC");
                                 const isEscape = e.key === "Escape";
 
-                                // FIX 3: Only suppress mouse cursor for printable typing keys.
-                                // Previously fired on ALL keydowns including Ctrl, Shift, game shortcuts —
-                                // which hid the cursor indicator immediately after firing a shot.
                                 const isModifierOnly = e.key === "Control" || e.key === "Meta" || e.key === "Shift" || e.key === "Alt";
                                 const isGameKey = isSpecialTrigger || (isCtrl && isSpace) || isEscape;
+                                
                                 if (!isModifierOnly && !isGameKey) {
                                     console.log('OBS_MOUSE_VISIBLE:false');
                                 }
@@ -1435,29 +1709,99 @@ const runSandbox = async (params) => {
                                 if (isEscape) {
                                     console.log('OBS_KEY_DOWN:ESCAPE');
                                 }
-                            }, { capture: true });
+                            };
 
-                            // KeyUp event routing
-                            window.addEventListener('keyup', (e) => {
+                            const handleGuestKeyup = (e) => {
+                                if (e.key === "Control" || e.key === "Meta") {
+                                    ctrlPressed = false;
+                                }
+
                                 const isSpace = e.key === " " || e.code === "Space";
                                 const isCtrlModifier = e.key === "Control" || e.key === "Meta";
-                                if (isSpace || isCtrlModifier) {
+                                const isCtrlActive = e.ctrlKey || e.metaKey || ctrlPressed;
+
+                                if (isSpace && isCtrlActive) {
+                                    // Bypass swallowed keydowns in GDocs by triggering down and up sequences sequentially on keyup
+                                    console.log('OBS_KEY_DOWN:SPACE:');
+                                    console.log('OBS_KEY_UP');
+                                } else if (isSpace || isCtrlModifier) {
                                     console.log('OBS_KEY_UP');
                                 }
-                            }, { capture: true });
+                            };
+
+                            const attachToFrame = (iframe) => {
+                                if (!iframe) return;
+                                // Abort previous listeners on this iframe before re-attaching
+                                if (iframe._obsFrameController) {
+                                    iframe._obsFrameController.abort();
+                                }
+                                const controller = new AbortController();
+                                iframe._obsFrameController = controller;
+                                const { signal } = controller;
+                                try {
+                                    const win = iframe.contentWindow;
+                                    if (win) {
+                                        win.addEventListener('keydown', handleGuestKeydown, { capture: true, signal });
+                                        win.addEventListener('keyup', handleGuestKeyup, { capture: true, signal });
+                                    }
+                                } catch (err) {}
+
+                                iframe.addEventListener('load', () => {
+                                    try {
+                                        const win = iframe.contentWindow;
+                                        if (win) {
+                                            // Re-abort and re-attach on each load (new JS context)
+                                            if (iframe._obsFrameController) iframe._obsFrameController.abort();
+                                            const c2 = new AbortController();
+                                            iframe._obsFrameController = c2;
+                                            win.addEventListener('keydown', handleGuestKeydown, { capture: true, signal: c2.signal });
+                                            win.addEventListener('keyup', handleGuestKeyup, { capture: true, signal: c2.signal });
+                                        }
+                                    } catch (e) {}
+                                });
+                            };
+
+                            window.addEventListener('keydown', handleGuestKeydown, { capture: true });
+                            window.addEventListener('keyup', handleGuestKeyup, { capture: true });
+
+                            document.querySelectorAll('iframe').forEach(attachToFrame);
+
+                            if (window._obsMutationObserver) {
+                                window._obsMutationObserver.disconnect();
+                            }
+                            window._obsMutationObserver = new MutationObserver((mutations) => {
+                                for (const mutation of mutations) {
+                                    for (const node of mutation.addedNodes) {
+                                        if (node.tagName === 'IFRAME') {
+                                            attachToFrame(node);
+                                        }
+                                    }
+                                }
+                            });
+                            window._obsMutationObserver.observe(document.body, { childList: true, subtree: true });
                         }
                     `).catch(() => {});
                 };
 
+                // Inject immediate execution to capture fully-loaded active Webviews
+                injectScript();
+
                 wv.addEventListener('dom-ready', injectScript);
                 wv.addEventListener('did-start-navigation', injectScript);
-                try {
-                    if (wv.getWebContentsId()) injectScript();
-                } catch(e){}
+                wv.addEventListener('did-finish-load', injectScript);
+
+                attachedWebviews.push({
+                    element: wv,
+                    keydown: boundKeyDown,
+                    keyup: boundKeyUp,
+                    consoleMsg: handleConsoleMsg,
+                    domReady: injectScript,
+                    didNavigate: injectScript
+                });
             }
         });
 
-        // B. Handle static standard same-origin iframes
+        // Handle static standard same-origin iframes
         const iframes = document.querySelectorAll("iframe");
         iframes.forEach(iframe => {
             try {
@@ -1496,7 +1840,6 @@ const runSandbox = async (params) => {
         });
     };
 
-    // Run scans every 2 seconds to capture newly rendered Webview containers and dynamic page loads safely
     window._sandboxWebviewScanInterval = setInterval(scanAndBindWebviews, 2000);
     scanAndBindWebviews();
 };
