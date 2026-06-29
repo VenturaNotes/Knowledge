@@ -14,7 +14,8 @@ parent:
   - "[[(T) Create Task Priority within Document]]"
 ---
 ## Feature Requests
-- [ ] Change my floating note so that when it compiles, it is always at 100% opacitcy (or rather not cleared at all)
+- [ ] Change my floating note so that when it compiles, it is always at 100% opacity (or rather not cleared at all)
+- [ ] It seems like if I delete a file, the focus comes back to VaporNote?
 ## Complete
 - [x] Make the floating note transparent (so you can see through it). You have an optional slider and you can toggle this feature on or off ✅ 2026-06-08
 - [x] I'm not sure if I want multiple screens (but I'm unsure what to do with the excalidraw plugin creating a new document. It would be fine if it's the current document (but then I lose my place in the view as well. Maybe there is a way to jump back to that view? I honestly might need to make a multi-document tab system)) ✅ 2026-06-08
