@@ -21,7 +21,9 @@ tags:
 		- `copyFile report.pdf final_presentation.pdf`
 ## ToDo
 - [ ] Need to implement the scripts I have made into the help section 
-- [ ] Be able to modify the "Help" file itself. It would be nice if it was just a `.txt` file that the program pulled from (although I'm not sure where that would be saved.)
+- [ ] Be able to modify the "Help" file itself. It would be nice if it kkwas just a `.txt` file that the program pulled from (although I'm not sure where that would be saved.)
+- [ ] Option B: The $PATH Method (Recommended for multiple custom scripts)
+	- [ ] Make it so I can interact with the background
 ## Stable V1
 ### TerminalModal
 ```ts
