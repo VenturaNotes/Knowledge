@@ -1067,11 +1067,11 @@ Year: 2021-09-01
 	113. circulation
 	114. circumcentre
 	115. circumference
-	116. circumscribe
+	116. [[circumscribe]]
 	
 	117. cis
 	118. class
-	119. class boundaries
+	119. [[class boundaries]]
 	120. class equation
 	121. [[classical mechanics]]
 	122. Classification Theorem for Surfaces
@@ -1112,7 +1112,9 @@ Year: 2021-09-01
 	150. colorable
 	151. [[column equivalence]]
 	152. column operation
+		1. See elementary column operation
 	153. column rank
+		1. See rank
 	154. column space
 	155. column vector
 	156. combination
@@ -2640,7 +2642,7 @@ Year: 2021-09-01
 	1512. Menelaus of Alexandria (ad 100)
 	1513. mensuration
 	1514. meridian
-	1515. meromorphic function
+	1515. [[meromorphic function]]
 	1516. Mersenne, Marin (1588-1648)
 	1517. Mersenne prime
 	1518. mesh

@@ -25,7 +25,6 @@ module.exports = async ({ app, obsidian }) => {
                         this.value = value;
                     });
                     
-                    // Allow submitting by pressing Enter
                     text.inputEl.addEventListener('keydown', (e) => {
                         if (e.key === 'Enter') {
                             e.preventDefault();
@@ -46,7 +45,6 @@ module.exports = async ({ app, obsidian }) => {
                     })
                 );
 
-            // Automatically focus the text field after opening
             if (inputEl) {
                 setTimeout(() => inputEl.focus(), 50);
             }
@@ -57,7 +55,6 @@ module.exports = async ({ app, obsidian }) => {
         }
     }
 
-    // Wrap the modal interaction in a Promise so we can await it
     const promptUser = () => {
         return new Promise((resolve) => {
             let submitted = false;
@@ -66,7 +63,6 @@ module.exports = async ({ app, obsidian }) => {
                 resolve(val);
             });
             
-            // Handle cases where the user closes the modal without submitting
             const originalOnClose = modal.onClose.bind(modal);
             modal.onClose = () => {
                 originalOnClose();
@@ -77,7 +73,6 @@ module.exports = async ({ app, obsidian }) => {
         });
     };
 
-    // Prompt user and wait for their input
     const userInput = await promptUser();
     if (!userInput) return;
 
@@ -91,18 +86,23 @@ module.exports = async ({ app, obsidian }) => {
         // Prepends https:// for standard domains
         targetUrl = 'https://' + targetUrl;
     } else {
-        // Otherwise, converts the input into a Google search query
+        // Converts input into a Google search query
         targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
     }
 
-    // Open Obsidian's native Web Viewer in a new tab
-    const leaf = app.workspace.getLeaf('tab');
-    await leaf.setViewState({
-        type: 'webviewer',
-        state: {
-            url: targetUrl,
-            navigate: true,
-        },
-        active: true,
-    });
+    // Call the custom web viewer plugin directly, or fallback to the native one if it's inactive
+    if (window.customWebview) {
+        await window.customWebview.openUrl(targetUrl);
+    } else {
+        const leaf = app.workspace.getLeaf('tab');
+        await leaf.setViewState({
+            type: 'webviewer',
+            state: {
+                url: targetUrl,
+                navigate: true,
+            },
+            active: true,
+        });
+        app.workspace.revealLeaf(leaf);
+    }
 };
