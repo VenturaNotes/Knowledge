@@ -3,6 +3,11 @@ status: done
 tags:
   - task
 ---
+## New
+- `cd "$(dirname "$(fzf)")"`
+	- This lets me find a file and immediately cd into that directory
+- `pwd`
+	- Print working directory
 ## Guide
 - Use the `edit` command to modify a file such as a script
 - Actually don't us the below
