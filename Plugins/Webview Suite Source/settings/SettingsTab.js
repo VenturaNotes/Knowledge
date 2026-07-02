@@ -164,17 +164,18 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
       }
     }
 
-    // ── COMMANDS BYPASS RULES ──────────────────────────────────────────────
-    containerEl.createEl('h3', { text: 'Webview Commands — Domain Interception Blocklist' });
+    const commandsModule = this.plugin.modules.commands;
+
+    // ── COMMANDS BYPASS RULES ────────────────────────────────────────────────
+    containerEl.createEl('h3', { text: 'Webview Commands — Domain Settings' });
     containerEl.createEl('p', {
-      text: 'Add domains and keyboard shortcuts that you want to block inside webviews, allowing Obsidian to capture them instead of the webpage (e.g. Command+O on docs.google.com). For configured domains, only the shortcuts added below will be blocked inside the webview; all other shortcuts will be processed natively by the webpage.',
+      text: 'Configure custom keyboard behaviors per domain. For each website, you can block shortcuts inside the webview (sending them to Obsidian instead) or bypass Obsidian (allowing the webpage to handle them natively).',
       cls: 'setting-item-description',
     });
 
-    const commandsModule = this.plugin.modules.commands;
     const rules = commandsModule.rules;
 
-    // Render existing rules
+    // Render unified domain rules
     for (let i = 0; i < rules.length; i++) {
       this._renderRule(containerEl, rules, i, commandsModule);
     }
@@ -185,7 +186,7 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
         .setButtonText('+ Add domain rule')
         .setCta()
         .onClick(async () => {
-          rules.push({ domain: '', enabled: true, chords: [] });
+          rules.push({ domain: '', enabled: true, chords: [], obsidianChords: [] });
           await this._saveRules(commandsModule);
           this.display(); // Re-render
         })
@@ -196,15 +197,16 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
     const rule = rules[index];
     const ruleEl = containerEl.createDiv({ cls: 'webview-suite-rule' });
 
-    // Style the rule container
+    // Style the rule container card
     ruleEl.style.cssText = `
       border: 1px solid var(--background-modifier-border);
       border-radius: 6px;
       padding: 12px 16px;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
+      background: var(--background-primary);
     `;
 
-    // Row 1: domain input + enabled toggle + delete button
+    // Row 1: Domain input + enabled toggle + delete button
     new Setting(ruleEl)
       .setName('Domain')
       .setDesc('e.g. docs.google.com')
@@ -235,26 +237,75 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
         })
       );
 
-    // Row 2: blocked chords list
-    if (rule.chords.length > 0) {
-      const chordsEl = ruleEl.createDiv({ cls: 'webview-suite-chords' });
-      chordsEl.style.cssText = 'display:flex; flex-wrap:wrap; gap:6px; margin: 8px 0 8px 0;';
+    // Inner container to hold sections neatly
+    const sectionsWrapper = ruleEl.createDiv();
+    sectionsWrapper.style.cssText = `
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--background-modifier-border);
+    `;
 
-      for (let ci = 0; ci < rule.chords.length; ci++) {
+    // Section 1: Bypass Web Shortcuts
+    this._renderChordSection(
+      sectionsWrapper, 
+      rule, 
+      'chords', 
+      'Bypass Web Shortcuts', 
+      'These shortcuts will be blocked inside the webview, forcing Obsidian to handle them instead of the webpage.',
+      commandsModule
+    );
+
+    // Visual divider between sections
+    const divider = sectionsWrapper.createEl('hr');
+    divider.style.cssText = 'margin: 12px 0; border: none; border-top: 1px dashed var(--background-modifier-border);';
+
+    // Section 2: Bypass Obsidian Shortcuts
+    this._renderChordSection(
+      sectionsWrapper, 
+      rule, 
+      'obsidianChords', 
+      'Bypass Obsidian Shortcuts', 
+      'These shortcuts will be blocked in Obsidian, letting the webpage handle them natively.',
+      commandsModule
+    );
+  }
+
+  _renderChordSection(container, rule, chordKey, title, desc, commandsModule) {
+    const chords = rule[chordKey] || [];
+
+    const sectionHeader = container.createDiv();
+    sectionHeader.createEl('div', { 
+      text: title, 
+      style: 'font-weight: var(--font-semibold); margin-bottom: 2px; font-size: 13px;' 
+    });
+    sectionHeader.createEl('p', {
+      text: desc,
+      cls: 'setting-item-description',
+      style: 'margin-bottom: 8px;'
+    });
+
+    const chordsEl = container.createDiv({ cls: 'webview-suite-chords' });
+    chordsEl.style.cssText = 'display:flex; flex-wrap:wrap; gap:6px; margin-bottom: 8px; min-height: 24px;';
+
+    if (chords.length === 0) {
+      const noChords = chordsEl.createEl('span', { text: 'No shortcuts defined.' });
+      noChords.style.cssText = 'color: var(--text-muted); font-size: 11px; font-style: italic; align-self: center;';
+    } else {
+      for (let ci = 0; ci < chords.length; ci++) {
         const tag = chordsEl.createEl('span');
         tag.style.cssText = `
           display:inline-flex; align-items:center; gap:4px;
           background: var(--background-modifier-hover);
           border: 1px solid var(--background-modifier-border);
           border-radius: 4px; padding: 2px 8px;
-          font-family: var(--font-monospace); font-size: 12px;
+          font-family: var(--font-monospace); font-size: 11px;
         `;
-        tag.createSpan({ text: rule.chords[ci] });
+        tag.createSpan({ text: chords[ci] });
 
         const removeBtn = tag.createEl('button', { text: '×' });
         removeBtn.style.cssText = 'background:none; border:none; cursor:pointer; padding:0 2px; color:var(--text-muted);';
         removeBtn.addEventListener('click', async () => {
-          rule.chords.splice(ci, 1);
+          chords.splice(ci, 1);
           await this._saveRules(commandsModule);
           commandsModule.reinjectAll();
           this.display();
@@ -262,14 +313,16 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
       }
     }
 
-    // Row 3: chord capture input
-    const captureRow = new Setting(ruleEl)
+    const captureRow = new Setting(container)
       .setName('Add shortcut')
-      .setDesc('Click the field and press the key combination you want to block');
+      .setDesc('Click here, then press the key combination');
+    
+    captureRow.settingEl.style.cssText = 'border-top: none; padding: 4px 0;';
 
     captureRow.addText(text => {
       text.setPlaceholder('Click here then press shortcut...');
       text.inputEl.style.fontFamily = 'var(--font-monospace)';
+      text.inputEl.style.fontSize = '12px';
       text.inputEl.readOnly = true;
 
       text.inputEl.addEventListener('focus', () => {
@@ -281,7 +334,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
         e.preventDefault();
         e.stopPropagation();
 
-        // Ignore bare modifier keypresses
         if (['Meta','Control','Shift','Alt'].includes(e.key)) return;
 
         const chord = this._buildChordFromEvent(e);
@@ -289,19 +341,19 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
 
         text.setValue(chord);
 
-        // Small delay so user sees the chord before it clears
         setTimeout(async () => {
-          if (!rule.chords.includes(chord)) {
-            rule.chords.push(chord);
+          if (!chords.includes(chord)) {
+            chords.push(chord);
+            rule[chordKey] = chords;
             await this._saveRules(commandsModule);
             commandsModule.reinjectAll();
-            new Notice(`Blocked: ${chord} on ${rule.domain || 'this domain'}`);
+            new Notice(`Added shortcut: ${chord} → ${title}`);
           }
           text.setValue('');
           text.setPlaceholder('Click here then press shortcut...');
           text.inputEl.blur();
           this.display();
-        }, 600);
+        }, 400);
       });
     });
   }

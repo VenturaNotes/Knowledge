@@ -2108,7 +2108,7 @@ Year: 2021-09-01
 	1039. history of mathematics
 	1040. Hölder's inequality
 	1041. holomorphic
-	1042. holonomic
+	1042. [[holonomic]]
 	1043. Hom
 	1044. homogeneous(statistics)
 	1045. homogeneous(Markov chains)
@@ -2898,7 +2898,7 @@ Year: 2021-09-01
 	1737. normal form of conics
 	1738. normalize
 	
-	1739. normalizer
+	1739. [[normalizer]]
 	1740. normal mode
 	1741. normal number
 	1742. normal operator
@@ -2922,7 +2922,8 @@ Year: 2021-09-01
 	
 	1759. nth root of unity
 	1760. null hypothesis
-	1761. nullity
+		1. See hypothesis testing
+	1761. [[nullity]]
 	1762. null matrix
 	1763. null measure
 	1764. null sequence

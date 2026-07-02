@@ -12,7 +12,7 @@ export class CommandsModule {
     this.description = 'Fires Obsidian hotkeys while focus is inside a webview, with domain-specific shortcut bypassing';
     this.enabled = true;
 
-    // Domain bypass rules: Array<{ domain: string, enabled: boolean, chords: string[] }>
+    // Domain configuration rules: Array<{ domain: string, enabled: boolean, chords: string[], obsidianChords: string[] }>
     this.rules = [];
 
     this._lastFired = new Map();
@@ -47,6 +47,11 @@ export class CommandsModule {
 
   setRules(rules) {
     this.rules = rules || [];
+    // Dynamic schema fallback mapping to handle legacy or newly created records safely
+    for (const rule of this.rules) {
+      if (!rule.chords) rule.chords = [];
+      if (!rule.obsidianChords) rule.obsidianChords = [];
+    }
   }
 
   // Called by WebviewManager whenever a webview is ready
@@ -89,9 +94,14 @@ export class CommandsModule {
     }
     const lastFired = this._lastFired;
     const original = window.__ORIGINAL_EXECUTE_COMMAND;
+    const self = this;
+
     this._app.commands.executeCommand = function(command) {
       const id = command?.id || (typeof arguments[0] === 'string' ? arguments[0] : null);
       if (id) {
+        if (self._shouldBlockCommandInActiveWebview(id)) {
+          return false;
+        }
         const now = performance.now();
         if (now - (lastFired.get(id) || 0) < 50) return false;
         lastFired.set(id, now);
@@ -105,6 +115,52 @@ export class CommandsModule {
       this._app.commands.executeCommand = window.__ORIGINAL_EXECUTE_COMMAND;
       delete window.__ORIGINAL_EXECUTE_COMMAND;
     }
+  }
+
+  _shouldBlockCommandInActiveWebview(commandId) {
+    if (!this.rules || this.rules.length === 0) return false;
+
+    const activeLeaf = this._app.workspace.activeLeaf;
+    if (!activeLeaf) return false;
+
+    const webview = activeLeaf.view?.containerEl?.querySelector('webview');
+    if (!webview) return false;
+
+    const activeEl = document.activeElement;
+    const isWebviewFocused = activeEl === webview || webview.contains(activeEl);
+    if (!isWebviewFocused) return false;
+
+    let hostname = '';
+    try {
+      const urlStr = webview.getURL() || webview.src || '';
+      if (urlStr) {
+        hostname = new URL(urlStr).hostname.toLowerCase();
+      }
+    } catch (e) {
+      return false;
+    }
+    if (!hostname) return false;
+
+    const rule = this.rules.find(r => {
+      if (!r.enabled || !r.domain) return false;
+      const dom = r.domain.toLowerCase().trim();
+      return hostname === dom || hostname.endsWith('.' + dom);
+    });
+    if (!rule) return false;
+
+    const blockedChords = rule.obsidianChords || [];
+    if (blockedChords.length === 0) return false;
+
+    const hotkeyMap = this._getHotkeyMap();
+    for (const [chord, mappedId] of hotkeyMap.entries()) {
+      if (mappedId === commandId) {
+        if (blockedChords.includes(chord)) {
+          return true;
+        }
+      }
+    }
+
+    return false;
   }
 
   // ─── ERROR HANDLERS ────────────────────────────────────────────────────────
@@ -191,7 +247,8 @@ export class CommandsModule {
       }
 
       if (e.message?.startsWith('OBS_RAW_KEY:')) {
-        const chord = e.message.split('OBS_RAW_KEY:')[1];
+        const rawChord = e.message.split('OBS_RAW_KEY:')[1];
+        const chord = rawChord.includes(':') ? rawChord.replace(':', '+') : rawChord;
         const commandId = this._getHotkeyMap().get(chord);
         if (commandId) {
           if (this._app.workspace.activeLeaf !== leaf) return; // Tab already switched — abort
@@ -206,14 +263,43 @@ export class CommandsModule {
     const inject = () => {
       if (!isReady()) return;
 
+      let hasObsidianBlockRules = false;
+      try {
+        const urlStr = webview.getURL() || webview.src || '';
+        if (urlStr) {
+          const url = new URL(urlStr);
+          const host = url.hostname.toLowerCase();
+          hasObsidianBlockRules = this.rules?.some(r => {
+            if (!r.enabled || !r.domain) return false;
+            const dom = r.domain.toLowerCase().trim();
+            const matchesDomain = host === dom || host.endsWith('.' + dom);
+            return matchesDomain && r.obsidianChords && r.obsidianChords.length > 0;
+          }) || false;
+        }
+      } catch (e) {}
+
+      // Temporarily bypass main menu accelerators if custom Obsidian block rules are active on this page
+      try {
+        if (typeof webview.setIgnoreMenuShortcuts === 'function') {
+          webview.setIgnoreMenuShortcuts(hasObsidianBlockRules);
+        }
+      } catch (err) {}
+
       // Filter out empty rules and pass valid ones to the webview
       const serializedRules = JSON.stringify(
-        this.rules.filter(r => r.enabled && r.domain).map(r => ({ domain: r.domain, chords: r.chords }))
+        this.rules.filter(r => r.enabled && r.domain).map(r => ({
+          domain: r.domain,
+          chords: r.chords || [],
+          obsidianChords: r.obsidianChords || []
+        }))
       );
+
+      const hotkeyChords = JSON.stringify(Array.from(this._getHotkeyMap().keys()));
 
       webview.executeJavaScript(`
         (function() {
-          window._obsBlockRules = ${serializedRules};
+          window._obsRules = ${serializedRules};
+          window._obsHotkeyChords = ${hotkeyChords};
 
           if (window._obsHotkeysActive) return;
           window._obsHotkeysActive = true;
@@ -237,16 +323,31 @@ export class CommandsModule {
 
             const hostname = window.location.hostname;
             
-            // Match exact domain or subdomain
-            const rule = window._obsBlockRules?.find(r => {
+            // Match exact domain or subdomain rule settings
+            const rule = window._obsRules?.find(r => {
               if (!r.domain) return false;
               const dom = r.domain.toLowerCase().trim();
               const host = hostname.toLowerCase();
               return host === dom || host.endsWith('.' + dom);
             });
 
-            // Intercept ONLY if a rule matching this domain is active and covers this chord
-            if (rule && rule.chords.includes(ruleChord)) {
+            // 1. If matching "Bypass Obsidian Shortcuts" rule, allow natively and exit
+            if (rule && rule.obsidianChords && rule.obsidianChords.includes(ruleChord)) {
+              return;
+            }
+
+            // 2. If matching "Bypass Web Shortcuts" rule, intercept event and forward to Obsidian
+            if (rule && rule.chords && rule.chords.includes(ruleChord)) {
+              e.preventDefault();
+              e.stopImmediatePropagation();
+              console.log('OBS_RAW_KEY:' + hotkeyChord);
+              return;
+            }
+
+            // 3. If Obsidian-blocked rules are active on this domain for other shortcuts, 
+            // we must manually forward this non-blocked shortcut if it is an Obsidian hotkey
+            const hasObsidianBlockedAny = rule && rule.obsidianChords && rule.obsidianChords.length > 0;
+            if (hasObsidianBlockedAny && window._obsHotkeyChords?.includes(ruleChord)) {
               e.preventDefault();
               e.stopImmediatePropagation();
               console.log('OBS_RAW_KEY:' + hotkeyChord);
