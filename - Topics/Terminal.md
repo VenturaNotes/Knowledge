@@ -2,6 +2,8 @@
 - Mac's Terminal
 	- `Control + U` 
 		- Deletes the entire line from your current cursor position backward to the beginning of the prompt. Will remove a multi-line block of text as well
+	- When doing `cd <folder>`, you could `tab` after the `cd` to match a folder you want to enter.
+		- The `tab` is case-sensitive
 ## Source [^1]
 - A point at which data enters or leaves the computer
 ## Source[^2]
