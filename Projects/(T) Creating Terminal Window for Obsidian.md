@@ -3,6 +3,10 @@ status: done
 tags:
   - task
 ---
+## Ideas
+- [ ] Using a namespace prefix might not be a bad idea
+	- `o-copy` and `o-sync` could be my custom commands since the `o-` could start with Obsidian. 
+	- Also doing `o-` and pressing `Tab` would instantly list my entire custom toolkit
 ## New
 - `cd "$(dirname "$(fzf)")"`
 	- This lets me find a file and immediately cd into that directory
