@@ -1,9 +1,27 @@
 ## Synthesis
-- Mac's Terminal
+### Mac's Terminal
+- Deletes the entire line from your current cursor position backward to the beginning of the prompt. Will remove a multi-line block of text as well
 	- `Control + U` 
-		- Deletes the entire line from your current cursor position backward to the beginning of the prompt. Will remove a multi-line block of text as well
-	- When doing `cd <folder>`, you could `tab` after the `cd` to match a folder you want to enter.
-		- The `tab` is case-sensitive
+- When doing `cd <folder>`, you could `tab` after the `cd` to match a folder you want to enter.
+	- The `tab` is case-sensitive
+- Pastes message in your clipboard into the file
+	- `pbpaste > o-copyFile`
+- Lets you create a folder within the directory you're currently in
+	- `mkdir <folder_name>`
+- Great for searching for files within a terminal 
+	- `fzf`
+- Copy file contents to your clipboard
+	- `pbcopy < sample.txt`
+- Copy file contents to your clipboard using `fzf`
+	- `pbcopy < "$(fzf)"`
+		- This ensures that even if the path contains spaces, the file at the result will copy it
+		- `pbcopy` stands for pasteboard copy
+- Delete word
+	- `Command + w`
+- Go to brand new empty prompt
+	- `Ctrl + C`
+- Rename a file
+	- `mv old-name.txt new-name.txt`
 ## Source [^1]
 - A point at which data enters or leaves the computer
 ## Source[^2]

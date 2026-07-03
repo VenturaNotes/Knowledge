@@ -2673,11 +2673,14 @@ Year: 2021-09-01
 	1540. minimal polynomial(of a square matrix)
 	1541. [[minimal surface]]
 	1542. minimax strategy
+		1. See CONSERVATIVE STRATEGY.
 	1543. Minimax Theorem
+		1. A synonym for FUNDAMENTAL THEOREM OF GAME THEORY.
 	1544. minimum
-	1545. minimum capacity(in a network)
+		1. See GLOBAL MINIMUM, LOCAL MINIMUM.
+	1545. [[minimum capacity]]
 	1546. minimum connector problem
-	1547. minimum cost spanning tree
+	1547. [[minimum cost spanning tree]]
 	1548. Minkowski's inequality
 	1549. Minkowski, Hermann (1864-1909)
 	
@@ -2750,7 +2753,7 @@ Year: 2021-09-01
 	1605. multifunction
 	1606. multilinear
 	1607. multinomial
-	1608. multinomial coefficient
+	1608. [[multinomial coefficient]]
 	1609. multinomial distribution
 	
 	1610. multinomial theorem
