@@ -1561,7 +1561,7 @@ Year: 2021-09-01
 	
 	546. disconnected
 	547. discontinuity
-	548. discontinuous function
+	548. [[discontinuous function]]
 	549. discrete
 	550. discrete data
 	551. discrete Fourier transform
@@ -1640,7 +1640,7 @@ Year: 2021-09-01
 	616. dual basis
 	617. dual graph
 	618. duality
-	619. dual map
+	619. [[dual map]]
 	620. dual space (analytic)
 	621. dummy activity(in critical path analysis)
 	622. dummy variable
@@ -2803,9 +2803,10 @@ Year: 2021-09-01
 	1648. nand
 	1649. nano-
 	
-	1650. Napier's bones
+	1650. [[Napier's bones]]
 	1651. Napier, John (1550-1617)
 	1652. Napierian logarithm
+		1. See logarithm
 	1653. Napoleon's theorem
 	1654. Nash, John Forbes (1928-2015)
 	1655. Nash equilibrium
