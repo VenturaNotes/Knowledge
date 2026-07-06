@@ -44,7 +44,6 @@ print(p1.x)
 - [[Instance Attribute (Python)|instance attribute]] are specific to each instance of the class
 ##### Methods
 - #question What are some details about methods?
-
 #### Instantiating and Initializing
 ```python
 class Dog:

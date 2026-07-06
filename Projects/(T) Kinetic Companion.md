@@ -16,6 +16,7 @@ tags:
 - [ ] Remove the sparkle + slamdown affect in the settings
 - [ ] Make it so the its 100% visible on initial load.
 - [ ] Need to remove the "debug" things (or I could maybe change that to a notification? Just to make sure that it's not stuck)
+- [ ] Implement ChatGPT into the menu I've built as well. 
 ## V11
 - Fixed problem with making it work consistently. Just layered back.
 - Also the below has the debug mode in-case we need to add it back later for future development. 

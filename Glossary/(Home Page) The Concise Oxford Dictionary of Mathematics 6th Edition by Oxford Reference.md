@@ -1950,7 +1950,7 @@ Year: 2021-09-01
 	
 	896. Galois, Évariste (1811-32)
 	897. Galois correspondence
-	898. Galois field
+	898. [[Galois field]]
 	899. [[Galois group]]
 	900. Galton, Francis (1822-1911)
 	901. gambler's ruin
@@ -1972,7 +1972,7 @@ Year: 2021-09-01
 	915. Gaussian integer
 	
 	916. Gaussian quadrature
-	917. Gauss map
+	917. [[Gauss map]]
 	918. gcd
 	919. Gelfond-Schneider theorem
 	920. generalization
@@ -2059,6 +2059,7 @@ Year: 2021-09-01
 	993. [[Halting problem]]
 	994. Hamilton, William Rowan (1805-65)
 	995. Hamiltonian
+		1. See HAMILTONIAN MECHANICS.
 	
 	996. hardware
 	997. Hardy, Godfrey Harold (1877-1947)
@@ -2099,7 +2100,7 @@ Year: 2021-09-01
 	1029. higher arithmetic
 	1030. higher derivative
 	1031. highest common factor
-	1032. Hilbert's basis theorem
+	1032. [[Hilbert's basis theorem]]
 	1033. Hilbert's programme
 	1034. Hilbert's tenth problem
 	1035. Hilbert, David (1862-1943)
