@@ -17,10 +17,27 @@
 	- `:wq`
 - Copy All in Neovim Normal mode
 	- `ggVG"+y`
+	- `:%y+`
 - Go to function definition
-	- `gd`
+	- `gd` and `control + t` returns back
+- Indent + Un-indent
+	- `Control + t`
+	- `Control + d` or `control + h` or backspace?
+- Switching between windows
+	- `ctrl + w`
+		- Then do `j` or `k` (to go down or up)
+- Renaming a file in neo-tree
+	- After `Command + e`, just need to press `r` to rename a specific file with proper extension
+- Add a file in neo-tree
+	- `command + e` $\to$ `a`
 
+### fzf + neo-tree
+- Space + e : Toggles the Neo-tree sidebar.
+- Space + f + f : Triggers fzf-lua to find files by typing their names.
+- Space + f + g : Triggers fzf-lua to do a live text search (live_grep) across your files.
+- Space + f + b : Triggers fzf-lua to list and switch between your currently open files/buffers.
 ### My Configuration
+- Indent guides included
 ```lua
 -- ==========================================================================
 -- 1. CORE SETTINGS & DISABLE UNUSED PROVIDERS (Fixes health warnings)
@@ -76,6 +93,33 @@ require("lazy").setup({
         end,
       })
     end
+  },
+
+  -- 📏 Indent guides (VS Code Style)
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
+    opts = {
+      indent = {
+        char = "│", -- Thin, clean vertical line
+      },
+      scope = {
+        enabled = false, -- Turn off active block highlighting to keep it minimal
+      },
+    },
+    config = function(_, opts)
+      -- Create a custom highlight group linked to your line numbers
+      -- This ensures the indent guides automatically match your theme's muted color
+      vim.api.nvim_create_autocmd("ColorScheme", {
+        callback = function()
+          vim.api.nvim_set_hl(0, "IblIndentCustom", { link = "LineNr" })
+        end,
+      })
+      vim.api.nvim_set_hl(0, "IblIndentCustom", { link = "LineNr" })
+
+      opts.indent.highlight = { "IblIndentCustom" }
+      require("ibl").setup(opts)
+    end,
   },
 
   -- 🧠 LSP Backend & Mason (The brains)
@@ -154,6 +198,7 @@ require("lazy").setup({
     end
   }
 })
+
 ```
 ## Source [^1]
 - 

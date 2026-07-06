@@ -34,6 +34,12 @@
 ## Source[^5]
 - (1) Any of the points at which interconnecting leads may be attached to an electronic circuit or device and at which signals may be input or output. 
 - (2) A device that provides input/output facilities to a computer, often from a remote location. It may be used interactively and usually contains a keyboard and/or visual display unit. An intelligent terminal contains some local storage and processing ability and can perform simple tasks independently of the main computer.
+## Source[^6]
+- He does not recommend using "Oh My ZSH". 
+	1. Unnecessary bloat (as a plugin manager)
+	2. Naming conflict increases difficulty
+	3. Unnecessary updates
+	4. Potential startup performance hit
 ## References
 
 [^1]: https://youtu.be/HGYOEeik844?si=7KJaPkDktjARENM4
@@ -41,3 +47,4 @@
 [^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^6]: https://www.youtube.com/watch?v=21_WkzBErQk #source/noted
