@@ -9,7 +9,10 @@
 - (3) Collateral given against a loan or credit, as in option dealing. 
 - (4) A hedge purchased to safeguard an open position. 
 - (5) Money set aside from income to meet potential bad debts or losses.
+## Source[^3]
+- A cover of a set $X$ is a collection of sets whose union contains $X$ as a subset. See COMPACT.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -6,6 +6,41 @@ tags:
 ---
 ## Synthesis
 
+### My Configuration
+```zsh
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+
+# ==========================================================
+# 1. Unified Vault Loader with Command Clash Protection
+# ==========================================================
+_load_vault_scripts() {
+    local file filename check cmd_type
+    
+    for file in /Users/julianventura/Desktop/Knowledge/Scripts/Terminal/*.(sh|zsh)(N); do
+        filename="${file:t:r}"
+        
+        # Check how the filename would be interpreted by the shell (filename should match function name)
+        check=$(whence -w "$filename" 2>/dev/null)
+        cmd_type="${check#*: }" # Extracts the type (e.g. 'builtin', 'command', 'none')
+        
+        # Safety Check: Prevent overwriting vital system commands/keywords
+        if [[ "$cmd_type" == "builtin" || "$cmd_type" == "reserved" || "$cmd_type" == "command" ]]; then
+            echo "Warning: Skipped loading '$filename.zsh' because it conflicts with a system $check" >&2
+        else
+            source "$file"
+        fi
+    done
+}
+_load_vault_scripts
+unfunction _load_vault_scripts # Deletes this loader function from memory so your shell stays clean
+
+# ==========================================================
+# 2. Manual Reload Alias
+# ==========================================================
+alias src="source ~/.zshrc"
+
+```
 ## Organize
 ### Deconstructing the Name
 * **`.` (The Dot):** In macOS and Linux, any file that begins with a period is a hidden file. This prevents your home folder from looking cluttered, though you can still open and edit it directly by name.

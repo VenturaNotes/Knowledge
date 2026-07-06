@@ -1265,7 +1265,7 @@ Year: 2021-09-01
 	286. [[constructivism]]
 	
 	287. contact
-	288. contact force
+	288. [[contact force]]
 	289. contained in
 	290. [[content]]
 	291. [[contingent]]
@@ -1287,7 +1287,7 @@ Year: 2021-09-01
 	306. control
 	
 	307. control chart
-	308. control group
+	308. [[control group]]
 	309. [[convective derivative]]
 	310. converge(sequence)
 	311. converge(series)
@@ -1354,8 +1354,10 @@ Year: 2021-09-01
 	362. covariance matrix
 	363. [[covariant derivative]]
 	364. covariant functor
+		1. See functor
 	365. covariant tensor
-	366. cover
+		1. See tensor
+	366. [[cover]]
 	
 	367. covering space
 	368. Cox, Sir David (1924- )
