@@ -7,7 +7,7 @@ aliases:
 ### Description
 - Special method called when an object of a class is created
 - Used to initialize the object's attributes and perform any setup required for the object
-
+- #question Is the constructor required for every class?
 ### Example
 ```python
 class Person:

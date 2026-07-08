@@ -55,6 +55,33 @@ class Dog:
 d = Dog("Fido")
 ```
 - #question What does the `__new__()` method look like? 
+
+### Are Parentheses Required when Defining a Class?
+- You must use parentheses when your class inherits attributes and methods from another class (inheritance). You place the parent class names inside the parentheses
+	- #question What does an attribute vs method look like?
+
+```python
+class Animal:
+    pass
+
+# Parentheses are required to inherit from Animal
+class Dog(Animal):
+    pass
+```
+- #question What is a metaclass?
+- If your class does not inherit from another custom class, adding empty parentheses is completely optional. Both of the following styles are syntactically valid and behave identically in modern Python:
+	- #question Does this only apply to custom classes?
+```python
+# Style A: Without parentheses (Highly Recommended)
+class Car:
+    pass
+
+# Style B: With empty parentheses (Valid, but redundant)
+class Car():
+    pass
+```
+- Best Practice: The standard convention (outlined by PEP 8 style guidelines) prefers omitting the parentheses entirely (class Car:) if there is no inheritance. It keeps the code cleaner.
+
 ## Source [^1]
 ```python
 # Creating a class
