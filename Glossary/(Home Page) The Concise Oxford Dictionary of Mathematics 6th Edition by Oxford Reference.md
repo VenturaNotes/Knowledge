@@ -1792,10 +1792,11 @@ Year: 2021-09-01
 	752. factorize
 	753. factor space
 	754. factor theorem
-	755. false position
+	755. [[false position]]
 	
 	756. fast Fourier transform
-	757. Fatou's lemma
+		1. See DISCRETE FOURIER TRANSFORM.
+	757. [[Fatou's lemma]]
 	758. feasible
 	759. feasible region
 	760. Feigenbaum, Mitchell (1944-2019)
@@ -4159,9 +4160,12 @@ Year: 2021-09-01
 	2870. tree
 	2871. trefoil
 	2872. trend
-	2873. tri-
+		1. See time series
+	2873. [[tri-]]
 	2874. trial(in statistics)
+		1. A single observation or experiment.
 	2875. trial and improvement
+		1. See false position
 	2876. triangle
 	2877. triangle inequality
 	2878. triangle of forces(in mechanics)
@@ -4224,7 +4228,7 @@ Year: 2021-09-01
 	2929. underdetermined
 	2930. uniform
 	2931. uniform convergence
-	2932. uniform distribution
+	2932. [[uniform distribution]]
 	2933. uniform gravitational force
 	2934. uniformization theorem
 	2935. uniformly continuous
