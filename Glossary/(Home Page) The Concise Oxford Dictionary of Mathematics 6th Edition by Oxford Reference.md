@@ -1934,7 +1934,7 @@ Year: 2021-09-01
 	880. functional analysis
 	881. functionally separable
 	882. function of a function
-	883. function space
+	883. [[function space]]
 	884. functor
 	885. fundamental group
 	
@@ -1964,6 +1964,7 @@ Year: 2021-09-01
 	907. Gauss-Jordan elimination
 	908. Gauss-Seidel iterative method
 	909. Gauss error function
+		1.  See ERROR FUNCTION.
 	910. Gauss flux theorem
 	911. Gaussian curvature
 	912. Gaussian distribution
@@ -2008,9 +2009,10 @@ Year: 2021-09-01
 	946. Gibbs, (Josiah) Willard (1839-1903)
 	947. giga-
 	948. Girard's theorem
+		1. See SPHERICAL TRIANGLE.
 	949. given
 	950. glb
-	951. glide reflection
+	951. [[glide reflection]]
 	952. global maximum(global minimum)
 	953. Gödel's Completeness Theorem
 	954. Gödel's Incompleteness Theorems
@@ -2030,6 +2032,7 @@ Year: 2021-09-01
 	966. graph(of a relation)
 	967. graph theory
 	968. gravitational potential
+		1. See POTENTIAL.
 	969. gravitational potential energy
 	970. gravity
 	971. greatest integer function
@@ -2716,7 +2719,7 @@ Year: 2021-09-01
 	1568. model
 	1569. modular arithmetic
 	
-	1570. modular group
+	1570. [[modular group]]
 	1571. [[modularity theorem]]
 	1572. module
 	1573. modulonarithmetic
