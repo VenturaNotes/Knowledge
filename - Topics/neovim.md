@@ -18,9 +18,14 @@
 - Copy All in Neovim Normal mode
 	- `ggVG"+y`
 	- `:%y+`
+- Just copy selection
+	- Original: `"+y`
+	- Custom: `Space + y` in normal mode
+- Paste selection (custom)
+	- `Space + p` in normal mode
 - Go to function definition
 	- `gd` and `control + t` returns back
-- Indent + Un-indent
+- Indent + Un-indent (tab replacement)
 	- `Control + t`
 	- `Control + d` or `control + h` or backspace?
 - Switching between windows
@@ -30,7 +35,62 @@
 	- After `Command + e`, just need to press `r` to rename a specific file with proper extension
 - Add a file in neo-tree
 	- `command + e` $\to$ `a`
-
+- Delete a word that the cursor is on
+	- `ciw`
+		- `c` = change
+		- `i` = inner (word itself, excluding surrounding whitespace)
+		- `w` = word
+- Delete the current line and enter insert mode
+	- `cc`
+		- `S` used to do this but this was replaced for the `flash.nvim` plugin
+- Delete character under cursor and enter insert mode
+	- `cl`
+		- `s` used to do this but this was replaced for the `flash.nvim` plugin
+- Change a word within a specific block
+	1. Visually select the block of lines (press `V` and use arrow keys or `j/k` to select the lines).
+		- You can also highlight with `S` and then choose the range because you have `flash.nvim` plugin installed. 
+	2. Type `:s/car/model/g`
+		- `g` stands for global. Otherwise it would just replace the first match it finds on each line. 
+	3. Press `Enter`
+This
+```python
+def __init__(self, color, car):
+	self.color = color
+	self.car = car
+```
+Turns into this
+```python
+    def __init__(self, color, model):
+        self.color = color
+        self.model = model
+```
+- Save all modified background files at once
+	- `:q`
+- Fast Copy and Fast Delete
+	- `dS` and then choose what you want deleted
+	- `yS` choose the section you want copied
+- Repeat last action
+	- `.`
+		- Great for if you want to indent or dedent text more than once.
+- Indent and dedent text in normal mode
+	- `>>` indent
+	- `<<` dedent
+- Renaming words (will replace it with every instance across file and projects. Do `:wa` to write all)
+	- `space + c + r` Think of `Code Rename`. Lazy Vim uses this configuration
+	- `:wa`
+- Hide the current search highlighting
+	- `:noh`
+	- Could implement the below within nvim so that when you press enter as well, it will hide the search
+```lua
+-- Clear search highlight on pressing <Esc> in normal mode
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "Clear search highlight" })
+```
+- View suggested commands
+	- Press `ctrl + n`
+		- Then can navigate down with `ctrl + n` or up with `ctrl + p`
+			- `Tab` works as well for going down and `Shift + Tab` for 
+- Enter Insert mode and start typing on new line below
+	- `o`
 ### fzf + neo-tree
 - Space + e : Toggles the Neo-tree sidebar.
 - Space + f + f : Triggers fzf-lua to find files by typing their names.

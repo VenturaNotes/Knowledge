@@ -2,7 +2,7 @@
 tags:
   - in-progress
 ---
-[^3]## Synthesis
+## Synthesis
 ### Example
 ```python
 def recursive_function(parameters):
