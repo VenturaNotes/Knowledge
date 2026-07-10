@@ -16,8 +16,11 @@
 ## Source[^3]
 - In a technical sense, code can be described as the system of rules written using the protocol of a specific programming language. Computer code is commonly used by programmers to build computer programs, web applications, and mobile applications, in addition to developing artificial intelligence and machine learning technologies.
 - There are several types of coding languages used by computer programmers, includingJavascript, C#, C++, and Python.
+## Source[^4]
+- (codeword, coding theory) Data and information, which may take many forms, are often encoded for the purpose of storage and/or transmission. Abstractly, this involves turning source words into codewords, which are usually binary strings of $0\text{s}$ and $1\text{s}$ (see BINARY CODE). This may be done optimally to minimize the average length of a codeword (as with Huffman coding) or may involve redundancy as with error-correcting and error-detecting codes, used if the chance of transmission errors is not negligible. See BLOCK CODES, ENTROPY, HAMMING DISTANCE, INFORMATION THEORY, LINEAR CODES, SHANNON’S THEOREM.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-3-producing-robust-programs-quizzes/2-3-producing-robust-programs-quiz-10-questions/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

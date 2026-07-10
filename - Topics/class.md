@@ -9,8 +9,11 @@
 - (1) Members of a society sharing a similar social rank and certain economic and cultural characteristics in common, also called a social class or a socio-economic class ; in Marxist theory, members of a society sharing a common relationship to the means of production, the three major classes being capitalists, landlords, and workers or proletarians. 
 - (2) In biology, any taxonomic group into which a phylum is divided, containing one or more orders (3). Examples are the classes of Amphibia, Mammalia, and Reptilia within the phylum Chordata.
 - \[From Latin classis a class or rank]
+## Source[^4]
+- A collection of sets, in particular a collection of sets which is not itself a set, in which case it is referred to as a proper class. There is no ‘set of all sets’, and so this is a proper class. In Zermelo-Fraenkel set theory, classes are treated informally, but Von Neumann formally integrated classes into his set theory. See also RUSSELL’S PARADOX.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -1,7 +1,10 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- Motion of a particle in a circular path. Suppose that the path of the particle $P$ is a circle in the Cartesian plane, with centre at the origin $O$ and radius $r_0$. Let $\mathbf{r}, \mathbf{v},$ and $\mathbf{a}$ be the position vector, velocity, and acceleration of $P$. If $P$ has polar coordinates $(r_0, \theta)$, then$$\begin{aligned} \mathbf{r} &= r_0(\mathbf{i} \cos \theta + \mathbf{j} \sin \theta), \\ \mathbf{v} &= \dot{\mathbf{r}} = r_0(-\dot{\theta} \mathbf{i} \sin \theta + \dot{\theta} \mathbf{j} \cos \theta), \\ \mathbf{a} &= \ddot{\mathbf{r}} = r_0(-\ddot{\theta} \mathbf{i} \sin \theta - \dot{\theta}^2 \mathbf{i} \cos \theta + \ddot{\theta} \mathbf{j} \cos \theta - \dot{\theta}^2 \mathbf{j} \sin \theta). \end{aligned}$$
+- Let $\mathbf{e}_r = \mathbf{i} \cos \theta + \mathbf{j} \sin \theta$ and $\mathbf{e}_\theta = -\mathbf{i} \sin \theta + \mathbf{j} \cos \theta$, so that $\mathbf{e}_r$ and $\mathbf{e}_\theta$ are rotations of $\mathbf{i}$ and $\mathbf{j}$ by $\theta$ anticlockwise. Then the previous equations become$$\begin{aligned} \mathbf{r} &= r_0 \mathbf{e}_r, & \mathbf{v} &= \dot{\mathbf{r}} = r_0 \dot{\theta} \mathbf{e}_\theta, \\ \mathbf{a} &= \ddot{\mathbf{r}} = -r_0 \dot{\theta}^2 \mathbf{e}_r + r_0 \ddot{\theta} \mathbf{e}_\theta. \end{aligned}$$
+- If the particle, of mass $m$, is acted on by a force $\mathbf{F}$, where $\mathbf{F} = F_1 \mathbf{e}_r + F_2 \mathbf{e}_\theta$, then the equation of motion $m\ddot{\mathbf{r}} = \mathbf{F}$ gives $-m r_0 \dot{\theta}^2 = F_1$ and $m r_0 \ddot{\theta} = F_2$. If the transverse component $F_2$ of the force is zero, then $\dot{\theta} = \text{constant}$ and the particle has constant speed.
+- See also ANGULAR ACCELERATION, ANGULAR VELOCITY, RADIAL AND TRANSVERSE COMPONENTS.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

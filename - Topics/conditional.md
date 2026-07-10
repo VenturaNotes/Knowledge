@@ -6,6 +6,9 @@
 
 - ![[Screenshot 2025-03-29 at 8.54.40 PM.png]]
 	- conditional. Truth Table
+## Source[^2]
+- A statement that something—the consequent clause—will be true provided that something—else the antecedent clause—is true. For example ‘if $n$ is divisible by 2, $n$ is even’ is a conditional statement, in which the antecedent is ‘$n$ is divisible by 2’ and the consequent is ‘$n$ is even’.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
