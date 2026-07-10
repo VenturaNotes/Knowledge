@@ -3,6 +3,7 @@ aliases:
   - self
 tags:
   - in-progress
+  - current
 ---
 ## Synthesis
 - **Self** represents the specific **instance of a class**.

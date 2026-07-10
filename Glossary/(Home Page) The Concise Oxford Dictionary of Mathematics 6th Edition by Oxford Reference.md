@@ -1988,7 +1988,7 @@ Year: 2021-09-01
 	927. general position
 	928. general relativity
 	929. general solution
-	930. general topology
+	930. [[general topology]]
 	931. generating function
 	932. generator
 	933. generator(group theory)
@@ -2036,10 +2036,12 @@ Year: 2021-09-01
 	969. gravitational potential energy
 	970. gravity
 	971. greatest integer function
+		1. A synonym for FLOOR and INTEGER PART.
 	972. greatest lower bound
 		1. A synonym for INFIMUM.
 	973. greatest value
-	974. greedy algorithm
+		1. See GLOBAL MAXIMUM.
+	974. [[greedy algorithm]]
 	975. Green, George (1793-1841)
 	
 	976. Green-Tao theorem
@@ -2123,7 +2125,7 @@ Year: 2021-09-01
 	1046. homogeneous coordinates
 	1047. homogeneous first-order differential equation
 	1048. homogeneous linear differential equation
-	1049. homogeneous polynomial
+	1049. [[homogeneous polynomial]]
 	1050. homogeneous set of linear equations
 	1051. [[homomorphism]]
 	1052. [[homoscedastic]]
@@ -2143,6 +2145,7 @@ Year: 2021-09-01
 	1065. hyperbolic function
 	
 	1066. hyperbolic geometry
+		1. See HYPERBOLIC PLANE, NON-EUCLIDEAN GEOMETRY.
 	1067. hyperbolic paraboloid
 	1068. hyperbolic partial differential equation
 	1069. hyperbolic plane
@@ -2154,7 +2157,8 @@ Year: 2021-09-01
 	1075. hypergeometric series
 	
 	1076. hyperplane
-	1077. hyperreals
+		1. See N-DIMENSIONAL SPACE.
+	1077. [[hyperreals]]
 	1078. hypothesis testing
 	1079. i
 	1080. i
@@ -3188,6 +3192,7 @@ Year: 2021-09-01
 	1989. Poincaré group
 	1990. point
 	1991. point-set topology
+		1. A synonym for GENERAL TOPOLOGY.
 	1992. point estimate
 	1993. points at infinity
 	1994. pointwise convergence

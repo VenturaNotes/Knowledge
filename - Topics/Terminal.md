@@ -22,6 +22,8 @@
 	- `Ctrl + C`
 - Rename a file
 	- `mv old-name.txt new-name.txt`
+- Create a directory
+	- `mkdir MyNewFolder`
 ## Source [^1]
 - A point at which data enters or leaves the computer
 ## Source[^2]

@@ -1,6 +1,7 @@
 ---
 tags:
   - in-progress
+  - current
 ---
 ## Synthesis
 ### Example

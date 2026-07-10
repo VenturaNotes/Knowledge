@@ -1,0 +1,9 @@
+{
+    "id": "vapornote",
+    "name": "VaporNote",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "An ultra-lightweight floating WYSIWYG note overlay for quick capture.",
+    "author": "Julian Ventura",
+    "isDesktopOnly": true
+}
