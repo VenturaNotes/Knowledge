@@ -6,6 +6,9 @@ tags:
 - To achieve this, we can introduce Auto-File Patching to the Kinetic Companion plugin.
 	- We can make this completely toggleable. You can trigger it automatically on stream completion, or manually via an Obsidian command so your workspace remains protected from accidental overwrites.
 	- Oh, I think this is the code that would directly change the existing code that I have! 
+- Maybe could use a tree like this?
+	- ![[Pasted image 20260709174650.png]]
+	- But don't know if that's the best way to show that they exist in the file 
 ## ToDo
 - [ ] When writing question, have it fall below the highlight you made 
 - [ ] Be able to type within its own line!

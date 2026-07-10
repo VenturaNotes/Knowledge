@@ -3,6 +3,7 @@ aliases:
   - chained list
 tags:
   - in-progress
+  - current
 ---
 ## Synthesis
 
