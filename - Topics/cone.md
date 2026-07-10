@@ -7,8 +7,16 @@
 - (2) (in animal anatomy) A type of light-sensitive receptor cell, found in the retinas of all diurnal vertebrates. Cones are specialized to transmit information about color (see COLOR VISION) and are responsible for the visual acuity of the eye. They function best in bright light. They are not evenly distributed on the retina, being concentrated in the fovea and absent on the margin of the retina. Compare Rod.
 ## Source[^3]
 - $n$. One of the two classes of photoreceptors at the back of the retina, mediating photopic vision, responsive to bright light, color-sensitive and found especially abundantly in the fovea, with an outer segment at its back end containing photosensitive membranes stacked like an orderly pile of discs decreasing in diameter towards the tip, studded with light-absorbing molecules of visual pigment, and a synapse (1) at the other end transmitting nerve impulses to bipolar cells and horizontal cells in the retina. Cones are divided into three types containing different visual pigments having broad and overlapping sensitivity curves with peak absorption at about 430, 530, and 560 nanometers, loosely called blue, green, and red cones, respectively. Because of the overlap, signals from one type of cone are not sufficient to give rise to a specific sensation of color, light of any wavelength invariably causing two or more types to respond in different degrees, and the relative strengths of the signals from all three types providing the necessary information for sensations of color, as when weak signals from red and green cones accompanied by strong signals from blue cones evoke the sensation of blue, or when equal signals from red and green cones accompanied by weak signals from blue cones evoke the sensation of yellow. The human retina contains approximately 6 million cones, far outnumbered by the 120 million rods. Also called a retinal cone . See also dominator, ganglion Cell, MODULATOR, PIGMENT, TRICHROMATIC THEORY. Compare Rod. \[So called because it is cone-shaped, with a tapering outer segment]
+## Source[^4]
+- A circular cone has a circle (radius $r$) as base, a vertex lying at height $h$ directly above the centre of the circle, and the curved surface formed by the line segments (length $l$, the slant height) joining the vertex to the points of the circle. The cone’s interior has volume $\frac{1}{3} \pi r^2 h$ and the area of the curved surface equals $\pi rl$.
+- More generally, a cone is the surface consisting of the points of the lines, called generators, drawn through a fixed point $V$, the vertex, and the points of a fixed curve. The generators may be extended indefinitely in both directions to form a double cone. See also QUADRIC CONE.
+- ![[Pasted image 20260710012833.png|200]]
+	- A right circular cone
+- ![[Pasted image 20260710012906.png|200]]
+	- A double cone over a curve
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

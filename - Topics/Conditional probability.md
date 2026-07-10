@@ -45,10 +45,12 @@ aliases: conditional probabilities
 - #question what kind of application could I use for this?
 ## Source[^4]
 - $n$. Another name for posterior probability: the probability assigned to an event in accordance with Bayes' theorem in the light of empirical evidence as to its observed relative frequency. See also CONDITIONAL REASONING. Compare PRIOR PROBABILITY (2).
-
+## Source[^5]
+- For two events $A$ and $B$, the probability that $A$ occurs, given that $B$ has occurred, is denoted by $\text{Pr}(A | B)$, read as ‘the probability of $A$ given $B$’. This is called a conditional probability. Provided that $\text{Pr}(B) > 0$, $\text{Pr}(A | B) = \text{Pr}(A \cap B)/\text{Pr}(B)$. If $A$ and $B$ are independent events, $\text{Pr}(A|B) = \text{Pr}(A)$, which rearranges to the product law for independent events: $\text{Pr}(A \cap B) = \text{Pr}(A) \text{Pr}(B)$.
 ## References
 
 [^1]: [[(45) L04.6 A Coin Tossing Example#^6e5c6f]]
 [^2]: [[(55) Probability & Statistics (55 of 62) Conditional Probability - Example]]
 [^3]: [[(56) Probability & Statistics (56 of 62) Conditional Probability - 'Theorem 1']]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
