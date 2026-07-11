@@ -40,8 +40,10 @@ With reference to a directed graph, a weakly connected graph is one in which the
 More formally, let $G$ be a directed graph with vertices $V$ and edges $E$. The set $V$ can be partitioned into equivalence classes $V_{1}, V_{2}, \ldots$ under the relation that vertices $u$ and $v$ are equivalent iff there is a path from $u$ to $v$ and another from $v$ to $u$. Let $E_{1}, E_{2}, \ldots$ be the sets of edges connecting vertices within $V_{1}, V_{2}, \ldots$ Then each of the graphs $G_{i}$ with vertices $V_{i}$ and edges $E_{i}$ is a strongly connected component of $G$. A strongly connected graph has precisely one strongly connected component.
 
   
-
 The process of replacing each of the strongly connected components of a directed graph by a single vertex is known as condensation.
+## Source[^2]
+- A graph in which there is a path from any vertex to any other.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
