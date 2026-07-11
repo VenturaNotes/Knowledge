@@ -42,8 +42,19 @@ where $\vee$ is the OR operation and $y_{i}$ is equal to $x_{i}$ or the compleme
 - (1) The act or process of joining together, or the state of being joined. 
 - (2) In logic, two propositions (1) connected by an operator denoting and to form a single compound proposition, usually written $p \wedge q$, where $p$ and $q$ represent the component propositions or conjuncts, the compound proposition being true only if both of its conjuncts are true. See also CONJunction fallacy. Compare disJunction (2).
 - \[From Latin con- with + iunctio joining + -ion indicating an action, process, or state]
+## Source[^4]
+- If $p$ and $q$ are statements, then the statement ‘$p$ and $q$’, denoted by $p \wedge q$, is the conjunction of $p$ and $q$. For example, if $p$ is ‘It is raining’ and $q$ is ‘It is Monday’, then $p \wedge q$ is ‘It is raining and it is Monday’. The conjunction of $p$ and $q$ is true only when $p$ and $q$ are both true, and so the truth table is as follows:
+
+| $p$ | $q$ | $p \wedge q$ |
+| :--- | :--- | :--- |
+| T | T | T |
+| T | F | F |
+| F | T | F |
+| F | F | F |
+
 ## References
 
 [^1]: [[(2) Start Learning Logic - Part 1 - Logical Statements, Negation and Conjunction]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
