@@ -2425,7 +2425,7 @@ Year: 2021-09-01
 	1305. laws of large numbers(in statistics)
 	1306. lcm
 	
-	1307. leading coefficient
+	1307. [[leading coefficient]]
 	1308. leading diagonal
 	1309. least squares
 	1310. least squares theorem
@@ -2579,7 +2579,7 @@ Year: 2021-09-01
 	1437. magnetic field
 	1438. magnitude(of a vector)
 	1439. magnitude
-	1440. main diagonal
+	1440. [[main diagonal]]
 	
 	1441. major arc
 	1442. major axis
@@ -2596,7 +2596,7 @@ Year: 2021-09-01
 	1452. [[map projection]]
 	1453. marginal distribution
 	1454. Markov, Andrei Andreevich (1856-1922)
-	1455. Markov chain
+	1455. [[Markov chain]]
 	1456. mass
 	1457. mass-energy equation
 	1458. matched-pairs design
