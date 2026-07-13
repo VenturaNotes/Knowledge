@@ -1,0 +1,11 @@
+{
+	"id": "script-runner",
+	"name": "Script Runner",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Runs JS scripts from vault as commands",
+	"author": "Julian Ventura",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}
