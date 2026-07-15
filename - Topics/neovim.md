@@ -69,6 +69,7 @@ Turns into this
 - Fast Copy and Fast Delete
 	- `dS` and then choose what you want deleted
 	- `yS` choose the section you want copied
+	- #question This doesn't seem to work properly? How does it really work? I think it only works with nvim.flash?
 - Repeat last action
 	- `.`
 		- Great for if you want to indent or dedent text more than once.

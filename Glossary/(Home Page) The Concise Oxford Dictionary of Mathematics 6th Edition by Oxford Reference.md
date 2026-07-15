@@ -3319,9 +3319,9 @@ Year: 2021-09-01
 	
 	2090. probability measure
 	2091. probability paper
-	2092. probability space
-	2093. probability vector
-	2094. probable error(in statistics)
+	2092. [[probability space]]
+	2093. [[probability vector]]
+	2094. [[probable error]]
 	2095. product
 	2096. product group
 	2097. product moment correlation coefficient

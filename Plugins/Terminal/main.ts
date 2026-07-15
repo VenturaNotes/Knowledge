@@ -216,10 +216,14 @@ export default class CustomTerminalPlugin extends Plugin {
             return;
         }
 
+        // Kill orphaned servers to avoid a security token mismatch
         if (this.isServerRunning()) {
-            console.log('[terminal] Server already running on port', WS_PORT);
-            this.serverReady = true;
-            return;
+            console.log('[terminal] Server already running on port, killing old process to refresh token...');
+            try {
+                execSync(`kill -9 $(lsof -t -i:${WS_PORT})`, { stdio: 'ignore' });
+            } catch (err: any) {
+                console.error('[terminal] Failed to kill existing server:', err.message);
+            }
         }
 
         const pythonBin = this.resolvePython();
