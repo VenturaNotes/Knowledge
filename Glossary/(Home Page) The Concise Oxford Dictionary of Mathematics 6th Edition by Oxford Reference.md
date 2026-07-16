@@ -1966,6 +1966,7 @@ Year: 2021-09-01
 	902. gambler's ruin
 	903. game
 	904. Gantt charts
+		1. See CASCADE CHARTS.
 	905. Gauss' Lemma
 	906. Gauss, Carl Friedrich (1777-1855)
 	
@@ -1975,7 +1976,7 @@ Year: 2021-09-01
 	910. Gauss error function
 		1.  See ERROR FUNCTION.
 	911. Gauss flux theorem
-	912. Gaussian curvature
+	912. [[Gaussian curvature]]
 	913. Gaussian distribution
 		1. A synonym for normal distribution
 	914. Gaussian elimination
@@ -3127,6 +3128,7 @@ Year: 2021-09-01
 	1916. pedal triangle
 	1917. Pell's equation
 	1918. pendulum
+		1. See COMPOUND PENDULUM, CONICAL PENDULUM, FOUCAULT PENDULUM, SIMPLE PENDULUM.
 	1919. Penrose, Sir Roger (1931- )
 	
 	1920. Penrose tiling
@@ -3138,14 +3140,14 @@ Year: 2021-09-01
 	1926. percentage
 	1927. percentage error
 	1928. percentile
-	1929. perfectly normal
+	1929. [[perfectly normal]]
 	
 	1930. perfect number
 	1931. perfect square
 	1932. perigee
 	1933. perigon
 	1934. perihelion
-	1935. perimeter
+	1935. [[perimeter]]
 	1936. period
 	1937. periodic point
 	1938. peripheral vertex(in a graph)

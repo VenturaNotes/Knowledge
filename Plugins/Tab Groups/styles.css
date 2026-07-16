@@ -1,0 +1,14 @@
+/* Hide tab headers, content panes, and empty split containers */
+.vtg-hidden {
+    display: none !important;
+}
+
+/* Hide the vertical or horizontal resize handle if the panel after it is hidden */
+.vtg-hidden + .workspace-leaf-resize-handle {
+    display: none !important;
+}
+
+/* Hide the vertical or horizontal resize handle if the panel before it is hidden */
+.workspace-leaf-resize-handle:has(+ .vtg-hidden) {
+    display: none !important;
+}

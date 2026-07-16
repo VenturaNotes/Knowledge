@@ -17,6 +17,7 @@ export class TerminalModal extends Modal {
     private wsReady = false;
     private inputQueue: string[] = [];
     private reconnectTimeout: any = null;
+    private isExited = false; // Tracks if the terminal process has terminated
 
     private dragState = { dragging: false, startX: 0, startY: 0, origLeft: 0, origTop: 0 };
     private dragOverlay: HTMLDivElement | null = null;
@@ -262,12 +263,23 @@ export class TerminalModal extends Modal {
                 if (msg.type === 'output') {
                     this.terminal?.write(msg.data);
                 } else if (msg.type === 'exit') {
-                    this.terminal?.write('\r\n\x1b[1;33m[Process exited]\x1b[0m\r\n');
+                    this.terminal?.write('\r\n\x1b[1;33m[Process exited. Press any key to restart.]\x1b[0m\r\n');
                     const spawnedKey = this.isInline ? '_termSpawned_pane' : '_termSpawned_float';
                     const s = (this.plugin as any)[spawnedKey] as Set<string> | undefined;
                     s?.delete(this.sessionId);
+                    this.isExited = true;
                 } else if (msg.type === 'error') {
                     this.terminal?.write(`\r\n\x1b[1;31m[Error] ${msg.message}\x1b[0m\r\n`);
+                    
+                    // Recover automatically if the session was lost on the backend
+                    if (msg.message === 'Session not found') {
+                        const spawnedKey = this.isInline ? '_termSpawned_pane' : '_termSpawned_float';
+                        const s = (this.plugin as any)[spawnedKey] as Set<string> | undefined;
+                        s?.delete(this.sessionId);
+
+                        this.terminal?.write('\x1b[1;33m[System] Spawning a new terminal session...\x1b[0m\r\n');
+                        this.spawnNewSession();
+                    }
                 }
             } catch {}
         };
@@ -302,6 +314,33 @@ export class TerminalModal extends Modal {
         if (this.ws?.readyState === WebSocket.OPEN) {
             this.ws.send(JSON.stringify({ type: 'resize', sessionId: this.sessionId, cols, rows }));
         }
+    }
+
+    private spawnNewSession() {
+        if (!this.ws || this.ws.readyState !== WebSocket.OPEN) {
+            this.connectWS();
+            return;
+        }
+
+        const cols = this.terminal && this.terminal.cols > 0 ? this.terminal.cols : 80;
+        const rows = this.terminal && this.terminal.rows > 0 ? this.terminal.rows : 24;
+        const cwd = this.plugin.settings.currentDir || this.plugin.getVaultPath() || os.homedir();
+
+        const spawnedKey = this.isInline ? '_termSpawned_pane' : '_termSpawned_float';
+        let spawned = (this.plugin as any)[spawnedKey] as Set<string> | undefined;
+        if (!spawned) {
+            spawned = new Set();
+            (this.plugin as any)[spawnedKey] = spawned;
+        }
+        spawned.add(this.sessionId);
+
+        this.ws.send(JSON.stringify({
+            type: 'spawn',
+            sessionId: this.sessionId,
+            cols,
+            rows,
+            cwd,
+        }));
     }
 
     // ── Keyboard interception ─────────────────────────────────────────────
@@ -484,7 +523,7 @@ export class TerminalModal extends Modal {
             },
             fontFamily: 'Menlo, Monaco, "Courier New", monospace',
             fontSize: 13,
-			lineHeight: 1.1,
+            lineHeight: 1.1,
             scrollback: 10000,
             allowProposedApi: true,
         });
@@ -505,7 +544,16 @@ export class TerminalModal extends Modal {
             this.terminal?.focus();
         });
 
-        this.terminal.onData((data: string) => this.sendInput(data));
+        this.terminal.onData((data: string) => {
+            if (this.isExited) {
+                this.isExited = false;
+                this.terminal?.reset();
+                this.spawnNewSession();
+            } else {
+                this.sendInput(data);
+            }
+        });
+
         this.terminal.onResize(({ cols, rows }) => this.sendResize(cols, rows));
 
         this.resizeObserver = new ResizeObserver(() => this.fitAddon?.fit());

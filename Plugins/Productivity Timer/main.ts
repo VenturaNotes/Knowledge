@@ -1,6 +1,14 @@
-import { App, Plugin, PluginSettingTab, Setting, Notice } from "obsidian";
+import { App, Plugin, PluginSettingTab, Setting, Notice, Modal } from "obsidian";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
+
+interface TimerSegment {
+	id: string;
+	timer_id: string;
+	started_at: string;
+	ended_at: string;
+	duration_seconds: number;
+}
 
 interface Timer {
 	id: string;
@@ -16,6 +24,7 @@ interface Timer {
 	last_started_at: string | null;
 	created_at: string;
 	visual_seconds?: number; // Local runtime visual helper
+	segments?: TimerSegment[]; // Holds active tracking segments
 }
 
 interface SessionEntry {
@@ -188,26 +197,311 @@ class SupabaseClient {
 	}
 }
 
+// ─── Time Log Modal (History entries list) ───────────────────────────────────
+
+class TimeLogModal extends Modal {
+	private getTimer: () => Timer;
+	private db: SupabaseClient;
+	private onUpdate: () => Promise<void>;
+	private listContainer: HTMLElement;
+	private tickInterval: number | null = null;
+
+	constructor(app: App, getTimer: () => Timer, db: SupabaseClient, onUpdate: () => Promise<void>) {
+		super(app);
+		this.getTimer = getTimer;
+		this.db = db;
+		this.onUpdate = onUpdate;
+	}
+
+	async onOpen() {
+		const { contentEl } = this;
+		this.titleEl.setText(`Logs: ${this.getTimer().name}`);
+		this.renderLogs();
+
+		// Start interval to tick the active segment timer every second in the UI
+		this.tickInterval = window.setInterval(() => {
+			const liveBadge = this.listContainer?.querySelector(".pt-modal-live-duration");
+			if (liveBadge) {
+				const timer = this.getTimer();
+				if (timer && timer.last_started_at) {
+					const elapsed = Math.floor((Date.now() - new Date(timer.last_started_at).getTime()) / 1000);
+					liveBadge.textContent = this.formatTime(elapsed);
+				}
+			}
+		}, 1000);
+	}
+
+	private toLocalDateTimeString(date: Date): string {
+		const pad = (n: number) => n.toString().padStart(2, "0");
+		const yyyy = date.getFullYear();
+		const mm = pad(date.getMonth() + 1);
+		const dd = pad(date.getDate());
+		const hh = pad(date.getHours());
+		const min = pad(date.getMinutes());
+		return `${yyyy}-${mm}-${dd}T${hh}:${min}`;
+	}
+
+	private parseTimeInput(input: string): number | null {
+		input = input.trim().toLowerCase();
+		if (!input) return null;
+
+		let totalSeconds = 0;
+		let matched = false;
+
+		// Match hours (e.g. 15h, 15hrs, 1.5h)
+		const hMatch = input.match(/(\d+(?:\.\d+)?)\s*h(?:rs?)?/);
+		if (hMatch && hMatch[1]) {
+			totalSeconds += parseFloat(hMatch[1]) * 3600;
+			matched = true;
+		}
+
+		// Match minutes (e.g. 30m, 30mins)
+		const mMatch = input.match(/(\d+(?:\.\d+)?)\s*m(?:ins?)?/);
+		if (mMatch && mMatch[1]) {
+			totalSeconds += parseFloat(mMatch[1]) * 60;
+			matched = true;
+		}
+
+		// Match seconds (e.g. 45s, 45secs)
+		const sMatch = input.match(/(\d+)\s*s(?:ecs?)?/);
+		if (sMatch && sMatch[1]) {
+			totalSeconds += parseInt(sMatch[1]);
+			matched = true;
+		}
+
+		if (matched) return Math.round(totalSeconds);
+
+		// Fallback: If it's a plain number, treat it as minutes
+		const plainNum = parseFloat(input);
+		if (!isNaN(plainNum)) {
+			return Math.round(plainNum * 60);
+		}
+
+		return null;
+	}
+
+	private renderLogs() {
+		const { contentEl } = this;
+		contentEl.empty();
+
+		// ── Section: Manual Entry Log ──
+		const addLogSection = contentEl.createDiv({ cls: "pt-modal-add-log" });
+		addLogSection.createEl("h4", { text: "Add Manual Entry" });
+		
+		const addInputs = addLogSection.createDiv({ cls: "pt-modal-add-row" });
+		const manualInput = addInputs.createEl("input", { type: "text", placeholder: "e.g. 30m, 1.5h, 15hrs" });
+		manualInput.style.width = "100%";
+		manualInput.style.flex = "1";
+
+		const submitManualLog = async () => {
+			const rawVal = manualInput.value.trim();
+			const totalSeconds = this.parseTimeInput(rawVal);
+			if (totalSeconds === null || totalSeconds <= 0) {
+				new Notice("Please enter a valid format (e.g., 30m, 1.5h, 15hrs).");
+				return;
+			}
+			const ended = new Date();
+			const started = new Date(ended.getTime() - totalSeconds * 1000);
+
+			const currentTimer = this.getTimer();
+			try {
+				await this.db.insert("timer_segments", {
+					timer_id: currentTimer.id,
+					started_at: started.toISOString(),
+					ended_at: ended.toISOString(),
+					duration_seconds: totalSeconds
+				});
+
+				const updatedTracked = currentTimer.tracked_seconds + totalSeconds;
+				await this.db.update("timers", { tracked_seconds: updatedTracked }, `id=eq.${currentTimer.id}`);
+				
+				new Notice(`Added manual entry: ${rawVal}`);
+				manualInput.value = "";
+				await this.onUpdate();
+				this.renderLogsListOnly();
+			} catch (e) {
+				new Notice("Failed to add log entry.");
+			}
+		};
+
+		// Submit on Enter or Cmd/Ctrl + Enter
+		manualInput.addEventListener("keydown", async (e: KeyboardEvent) => {
+			if (e.key === "Enter") {
+				e.preventDefault();
+				await submitManualLog();
+			}
+		});
+
+		// ── Section: Dynamic logs list container ──
+		contentEl.createEl("h4", { text: "Time Entries History" });
+		this.listContainer = contentEl.createDiv({ cls: "pt-modal-logs-list" });
+		
+		this.renderLogsListOnly();
+	}
+
+	private renderLogsListOnly() {
+		if (!this.listContainer) return;
+		this.listContainer.empty();
+
+		const timer = this.getTimer();
+		const segments = timer.segments || [];
+
+		// ── Prepend Active Running Segment (If running) ──
+		if (timer.is_running && timer.last_started_at) {
+			const activeRow = this.listContainer.createDiv({ cls: "pt-modal-log-row pt-modal-log-row--active" });
+			
+			const startPicker = activeRow.createEl("input", { type: "datetime-local" });
+			startPicker.value = this.toLocalDateTimeString(new Date(timer.last_started_at));
+			
+			startPicker.addEventListener("blur", async () => {
+				const newStart = new Date(startPicker.value);
+				if (isNaN(newStart.getTime())) return;
+				try {
+					await this.db.update("timers", { last_started_at: newStart.toISOString() }, `id=eq.${timer.id}`);
+					new Notice("Active segment start time updated.");
+					await this.onUpdate();
+				} catch {
+					new Notice("Failed to update active segment start time.");
+				}
+			});
+
+			activeRow.createEl("span", { text: "to", cls: "pt-modal-to-label" });
+			activeRow.createEl("span", { text: "Present (Active)", cls: "pt-modal-active-label" });
+
+			const durDisp = activeRow.createEl("span", { 
+				cls: "pt-modal-duration-badge pt-modal-live-duration", 
+				text: "Calculating..." 
+			});
+
+			// Set initial value
+			const elapsed = Math.floor((Date.now() - new Date(timer.last_started_at).getTime()) / 1000);
+			durDisp.textContent = this.formatTime(elapsed);
+
+			// Placeholder delete to indicate it is locked while active
+			const stopBtn = activeRow.createEl("button", { cls: "pt-btn-del-seg", title: "Active timer running" });
+			stopBtn.innerHTML = "⏸";
+			stopBtn.style.opacity = "0.4";
+			stopBtn.style.pointerEvents = "none";
+		}
+
+		if (segments.length === 0 && (!timer.is_running || !timer.last_started_at)) {
+			this.listContainer.createEl("p", { cls: "pt-empty", text: "No logs recorded yet for this task." });
+			return;
+		}
+
+		// Sort segments desc (newest first)
+		const sorted = [...segments].sort((a, b) => new Date(b.started_at).getTime() - new Date(a.started_at).getTime());
+
+		for (const seg of sorted) {
+			const row = this.listContainer.createDiv({ cls: "pt-modal-log-row" });
+			const start = new Date(seg.started_at);
+			const end = new Date(seg.ended_at);
+
+			// Start Date Picker
+			const startPicker = row.createEl("input", { type: "datetime-local" });
+			startPicker.value = this.toLocalDateTimeString(start);
+
+			row.createEl("span", { text: "to", cls: "pt-modal-to-label" });
+
+			// End Date Picker
+			const endPicker = row.createEl("input", { type: "datetime-local" });
+			endPicker.value = this.toLocalDateTimeString(end);
+
+			// Duration display
+			const durDisp = row.createEl("span", { cls: "pt-modal-duration-badge", text: this.formatTime(seg.duration_seconds) });
+
+			// Save updates on picker blur
+			const updateTimes = async () => {
+				const newStart = new Date(startPicker.value);
+				const newEnd = new Date(endPicker.value);
+				if (isNaN(newStart.getTime()) || isNaN(newEnd.getTime())) return;
+				if (newEnd < newStart) {
+					new Notice("End time cannot be before start time.");
+					endPicker.value = this.toLocalDateTimeString(end);
+					return;
+				}
+
+				const newDuration = Math.round((newEnd.getTime() - newStart.getTime()) / 1000);
+				if (newDuration === seg.duration_seconds && newStart.toISOString() === seg.started_at) return;
+
+				const diff = newDuration - seg.duration_seconds;
+				try {
+					await this.db.update("timer_segments", {
+						started_at: newStart.toISOString(),
+						ended_at: newEnd.toISOString(),
+						duration_seconds: newDuration
+					}, `id=eq.${seg.id}`);
+
+					const currentTimer = this.getTimer();
+					const updatedTracked = Math.max(0, currentTimer.tracked_seconds + diff);
+					currentTimer.tracked_seconds = updatedTracked;
+					await this.db.update("timers", { tracked_seconds: updatedTracked }, `id=eq.${currentTimer.id}`);
+
+					seg.started_at = newStart.toISOString();
+					seg.ended_at = newEnd.toISOString();
+					seg.duration_seconds = newDuration;
+					durDisp.textContent = this.formatTime(newDuration);
+
+					new Notice("Segment log updated.");
+					await this.onUpdate();
+					this.renderLogsListOnly();
+				} catch {
+					new Notice("Failed to save times.");
+				}
+			};
+
+			startPicker.addEventListener("blur", updateTimes);
+			endPicker.addEventListener("blur", updateTimes);
+
+			// Delete segment button
+			const delBtn = row.createEl("button", { cls: "pt-btn-del-seg", title: "Delete segment" });
+			delBtn.innerHTML = "✕";
+			delBtn.addEventListener("click", async () => {
+				try {
+					await this.db.delete("timer_segments", `id=eq.${seg.id}`);
+
+					const currentTimer = this.getTimer();
+					const updatedTracked = Math.max(0, currentTimer.tracked_seconds - seg.duration_seconds);
+					currentTimer.tracked_seconds = updatedTracked;
+					await this.db.update("timers", { tracked_seconds: updatedTracked }, `id=eq.${currentTimer.id}`);
+
+					new Notice("Segment log entry deleted.");
+					await this.onUpdate();
+					this.renderLogsListOnly();
+				} catch {
+					new Notice("Failed to delete segment entry.");
+				}
+			});
+		}
+	}
+
+	private formatTime(seconds: number): string {
+		const h = Math.floor(seconds / 3600);
+		const m = Math.floor((seconds % 3600) / 60);
+		const s = seconds % 60;
+		if (h > 0) return `${h}h ${m.toString().padStart(2, "0")}m`;
+		if (m > 0) return `${m}m ${s.toString().padStart(2, "0")}s`;
+		return `${s}s`;
+	}
+
+	onClose() {
+		if (this.tickInterval) {
+			window.clearInterval(this.tickInterval);
+			this.tickInterval = null;
+		}
+		this.contentEl.empty();
+	}
+}
+
 // ─── Floating Window ─────────────────────────────────────────────────────────
 
 class ProductivityTimerWindow {
 	private plugin: ProductivityTimerPlugin;
-	private db: SupabaseClient;
-	private el: HTMLElement;
-	private timers: Timer[] = [];
-	private sessions: Session[] = [];
-	private tickInterval: number | null = null;
+	public isWriting = false;
 	private showArchive = false;
+	private draggedTimerId: string | null = null; // Lightweight local Drag-and-drop ID tracker
 
-	// Locks and sync guards to prevent race conditions
-	private isWriting = false;
-	private lastSyncTime = Date.now();
-	private lastWriteTimes: Map<string, { is_running: boolean, last_started_at: string | null, tracked_seconds: number, time: number }> = new Map();
-	
-	// Global temporal Notice guard shared across reloading instances
-	static activeNotices = new Set<string>();
-
-	// Drag state
+	// Drag state (floating window drag)
 	private isDragging = false;
 	private dragOffsetX = 0;
 	private dragOffsetY = 0;
@@ -219,9 +513,10 @@ class ProductivityTimerWindow {
 	private resizeStartW = 0;
 	private resizeStartH = 0;
 
+	private el: HTMLElement;
+
 	constructor(plugin: ProductivityTimerPlugin) {
 		this.plugin = plugin;
-		this.db = new SupabaseClient(plugin.settings.supabaseUrl, plugin.settings.supabaseKey);
 		this.el = document.createElement("div");
 		this.el.id = "pt-floating-window";
 		document.body.appendChild(this.el);
@@ -247,44 +542,12 @@ class ProductivityTimerWindow {
 	}
 
 	private async init() {
-		await this.loadTimers();
-		await this.loadSessions();
 		this.render();
-		this.startTick();
-		this.db.subscribeToTable("timers", () => {
-			if (this.isWriting) return; // Ignore events triggered by local transition writes to prevent overwrites
-
-			// Focus Protection: Do not wipe out DOM elements or re-render if user is editing or focusing inside the window
-			const activeEl = document.activeElement;
-			if (activeEl && this.el.contains(activeEl)) return;
-
-			this.loadTimers().then(() => this.render());
-		});
-	}
-
-	private getActiveTrackedSeconds(timer: Timer): number {
-		if (timer.is_running && timer.last_started_at) {
-			const elapsed = Math.floor((Date.now() - new Date(timer.last_started_at).getTime()) / 1000);
-			const trueSeconds = timer.tracked_seconds + Math.max(0, elapsed);
-
-			// Adaptive visual timer: Snaps back to true database-time if drift is larger than 2 seconds
-			if (timer.visual_seconds === undefined) {
-				timer.visual_seconds = trueSeconds;
-			} else {
-				const diff = Math.abs(timer.visual_seconds - trueSeconds);
-				if (diff >= 2) {
-					timer.visual_seconds = trueSeconds;
-				}
-			}
-			return timer.visual_seconds;
-		}
-		
-		timer.visual_seconds = undefined;
-		return timer.tracked_seconds;
 	}
 
 	private async runWriteAction(action: () => Promise<void>) {
 		this.isWriting = true;
+		this.plugin.isWriting = true;
 		try {
 			await action();
 		} catch (e) {
@@ -293,284 +556,12 @@ class ProductivityTimerWindow {
 			// Keeping a debounce ensures reflected WebSocket events have completed and been swallowed
 			setTimeout(() => {
 				this.isWriting = false;
+				this.plugin.isWriting = false;
 			}, 800);
 		}
 	}
 
-	private showDeduplicatedNotice(text: string) {
-		const globalNotices = (window as any).ptActiveNotices = (window as any).ptActiveNotices || new Set<string>();
-		const now = Date.now();
-		const lastTime = (window as any).ptLastNoticeTime || 0;
-
-		// 1. Text-based exact duplicate check
-		if (globalNotices.has(text)) return;
-
-		// 2. Strict system-wide cooldown check (Prevents double notices on rapid lag rotation skips)
-		if (now - lastTime < 2500) return;
-
-		globalNotices.add(text);
-		(window as any).ptLastNoticeTime = now;
-		new Notice(text);
-
-		window.setTimeout(() => {
-			globalNotices.delete(text);
-		}, 3000);
-	}
-
-	private startTick() {
-		// Clean up any old developer reload background intervals
-		if ((window as any).ptTickInterval) {
-			window.clearInterval((window as any).ptTickInterval);
-			(window as any).ptTickInterval = null;
-		}
-
-		this.tickInterval = window.setInterval(async () => {
-			const running = this.timers.find(t => t.is_running);
-			if (running) {
-				// Smooth Visual Increment: keeps visual ticking skip-free by incrementing precisely by 1s
-				const trueSeconds = this.getActiveTrackedSeconds(running);
-				if (running.visual_seconds === undefined) {
-					running.visual_seconds = trueSeconds;
-				} else {
-					running.visual_seconds += 1;
-				}
-			}
-
-			// 1. Immediately update visual elements (0ms latency, perfectly smooth)
-			this.renderTimerRowsOnly();
-
-			// 2. Perform background checks without blocking the visual loop
-			const now = Date.now();
-			if (now - this.lastSyncTime >= 5000) {
-				this.lastSyncTime = now;
-				this.syncActiveTimer(); // Fire-and-forget background database sync
-			}
-
-			this.checkSubtaskRotation(); // Fire-and-forget background subtask rotation swapper
-		}, 1000);
-
-		(window as any).ptTickInterval = this.tickInterval;
-	}
-
-	private async syncActiveTimer() {
-		const running = this.timers.find(t => t.is_running);
-		if (!running) return;
-
-		const activeTracked = this.getActiveTrackedSeconds(running);
-		const currentNow = new Date().toISOString();
-
-		// Record the local write state to prevent intermediate database reloads from causing lag reverts
-		this.lastWriteTimes.set(running.id, {
-			is_running: true,
-			last_started_at: currentNow,
-			tracked_seconds: activeTracked,
-			time: Date.now()
-		});
-
-		running.tracked_seconds = activeTracked;
-		running.last_started_at = currentNow;
-
-		await this.safeDbUpdate({ tracked_seconds: activeTracked, last_started_at: currentNow }, `id=eq.${running.id}`);
-	}
-
-	private async checkSubtaskRotation() {
-		const running = this.timers.find(t => t.is_running);
-		if (!running || running.parent_id === null) return;
-
-		const parent = this.timers.find(t => t.id === running.parent_id);
-		if (!parent || !parent.is_rotation_running || running.estimate_seconds <= 0 || !running.last_started_at) return;
-
-		const activeTracked = this.getActiveTrackedSeconds(running);
-		const currentMultiple = Math.floor(activeTracked / running.estimate_seconds);
-		const startMultiple = Math.floor(running.tracked_seconds / running.estimate_seconds);
-
-		if (currentMultiple > startMultiple) {
-			const sibs = this.timers.filter(t => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
-			if (sibs.length > 1) {
-				const idx = sibs.findIndex(t => t.id === running.id);
-				const nextIdx = (idx + 1) % sibs.length;
-				const nextSubtask = sibs[nextIdx];
-
-				if (nextSubtask) {
-					// Prepare next-now timestamp
-					const nextNow = new Date().toISOString();
-
-					// Optimistically pause current subtask in memory
-					running.is_running = false;
-					running.is_last_active = false;
-					running.tracked_seconds = activeTracked;
-					running.last_started_at = null;
-
-					// Optimistically play next subtask in memory
-					nextSubtask.is_running = true;
-					nextSubtask.is_last_active = true;
-					nextSubtask.last_started_at = nextNow;
-
-					// Record local write cache values to block stale reloads during transitions
-					this.lastWriteTimes.set(running.id, {
-						is_running: false,
-						last_started_at: null,
-						tracked_seconds: activeTracked,
-						time: Date.now()
-					});
-					this.lastWriteTimes.set(nextSubtask.id, {
-						is_running: true,
-						last_started_at: nextNow,
-						tracked_seconds: nextSubtask.tracked_seconds,
-						time: Date.now()
-					});
-
-					// Render local switch instantly
-					this.render();
-
-					// Sync the state changes to Supabase in the background
-					await this.runWriteAction(async () => {
-						await Promise.all([
-							this.db.update("timers", { is_running: false, is_last_active: false, tracked_seconds: activeTracked, last_started_at: null }, `id=eq.${running.id}`),
-							this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: nextNow }, `id=eq.${nextSubtask.id}`)
-						]);
-
-						this.showDeduplicatedNotice(`Switched to subtask: ${nextSubtask.name}`);
-						await this.loadTimers();
-						this.render();
-					});
-				}
-			}
-		}
-	}
-
-	private async safeDbUpdate(data: any, match: string) {
-		try {
-			await this.db.update("timers", data, match);
-		} catch (e) {
-			// Silent background logger prevents popping notices on periodic internet drops
-			console.error("Database Background Sync Failed:", e);
-		}
-	}
-
-	private stopTick() {
-		if (this.tickInterval !== null) {
-			window.clearInterval(this.tickInterval);
-			this.tickInterval = null;
-		}
-		if ((window as any).ptTickInterval) {
-			window.clearInterval((window as any).ptTickInterval);
-			(window as any).ptTickInterval = null;
-		}
-	}
-
-	private async loadTimers() {
-		try {
-			const dbTimers: Timer[] = await this.db.select("timers", "order=sort_order.asc,created_at.asc");
-			
-			// Safe Local Sync: merges database list, using local write maps to ignore lagging database values
-			const localRunning = this.timers.find(t => t.is_running);
-			this.timers = dbTimers.map(dbTimer => {
-				const localWrite = this.lastWriteTimes.get(dbTimer.id);
-				
-				// If a timer was edited locally less than 3 seconds ago, ignore lagging DB state values
-				if (localWrite && Date.now() - localWrite.time < 3000) {
-					return {
-						...dbTimer,
-						is_running: localWrite.is_running,
-						last_started_at: localWrite.last_started_at,
-						tracked_seconds: localWrite.tracked_seconds
-					};
-				}
-
-				if (localRunning && dbTimer.id === localRunning.id) {
-					if (!dbTimer.is_running) {
-						return dbTimer; // Honour pause event triggered on another client
-					}
-					return {
-						...dbTimer,
-						tracked_seconds: Math.max(dbTimer.tracked_seconds, localRunning.tracked_seconds)
-					};
-				}
-				return dbTimer;
-			});
-		} catch {
-			new Notice("Productivity Timer: failed to load. Check settings.");
-		}
-	}
-
-	private async loadSessions() {
-		try {
-			const sessionRows = await this.db.select("timer_sessions", "order=completed_at.desc&limit=30");
-			const entries = await this.db.select("timer_session_entries", "");
-			this.sessions = sessionRows.map((s: any) => ({
-				...s,
-				entries: entries.filter((e: any) => e.session_id === s.id),
-			}));
-		} catch {}
-	}
-
-	private formatTime(seconds: number): string {
-		const h = Math.floor(seconds / 3600);
-		const m = Math.floor((seconds % 3600) / 60);
-		const s = seconds % 60;
-		if (h > 0) return `${h}h ${m.toString().padStart(2, "0")}m`;
-		if (m > 0) return `${m}m ${s.toString().padStart(2, "0")}s`;
-		return `${s}s`;
-	}
-
-	private formatDate(dateStr: string): string {
-		return new Date(dateStr).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-	}
-
-	private totalEstimate(): number {
-		return this.timers.reduce((sum, t) => sum + t.estimate_seconds, 0);
-	}
-
-	private totalTracked(): number {
-		return this.timers.reduce((sum, t) => sum + this.getActiveTrackedSeconds(t), 0);
-	}
-
-	private parseTimeInput(input: string): number | null {
-		input = input.trim().toLowerCase();
-		if (!input) return 0;
-		const hm = input.match(/(?:(\d+)h)?\s*(?:(\d+)m)?\s*(?:(\d+)s)?/);
-		if (hm && (hm[1] || hm[2] || hm[3])) {
-			return parseInt(hm[1] || "0") * 3600 + parseInt(hm[2] || "0") * 60 + parseInt(hm[3] || "0");
-		}
-		const num = parseInt(input);
-		if (!isNaN(num)) return num * 60;
-		return null;
-	}
-
-	private getTimerDisplayTimes(timer: Timer) {
-		if (timer.parent_id !== null) {
-			return {
-				tracked: this.getActiveTrackedSeconds(timer),
-				estimate: timer.estimate_seconds
-			};
-		} else {
-			const subtasks = this.timers.filter(t => t.parent_id === timer.id);
-			const sumTracked = subtasks.reduce((sum, s) => sum + this.getActiveTrackedSeconds(s), 0);
-			const sumEstimate = subtasks.reduce((sum, s) => sum + s.estimate_seconds, 0);
-			return {
-				tracked: this.getActiveTrackedSeconds(timer) + sumTracked,
-				estimate: timer.estimate_seconds + sumEstimate,
-				sumTracked,
-				sumEstimate
-			};
-		}
-	}
-
-	private getFlattenedRenderedTimers(): Timer[] {
-		const list: Timer[] = [];
-		const parents = this.timers.filter(t => t.parent_id === null);
-		for (const parent of parents) {
-			list.push(parent);
-			const subtasks = this.timers.filter(t => t.parent_id === parent.id);
-			for (const sub of subtasks) {
-				list.push(sub);
-			}
-		}
-		return list;
-	}
-
-	private renderTimerRowsOnly() {
+	public renderTimerRowsOnly() {
 		const flattened = this.getFlattenedRenderedTimers();
 		const rows = this.el.querySelectorAll(".pt-row");
 		rows.forEach((row, i) => {
@@ -599,10 +590,10 @@ class ProductivityTimerWindow {
 			}
 		});
 		const rollupTracked = this.el.querySelector(".pt-rollup-tracked");
-		if (rollupTracked) rollupTracked.textContent = this.formatTime(this.totalTracked());
+		if (rollupTracked) rollupTracked.textContent = this.formatTime(this.plugin.totalTracked());
 	}
 
-	private render() {
+	public render() {
 		this.el.empty();
 
 		// ── Title bar (drag handle) ──
@@ -633,9 +624,9 @@ class ProductivityTimerWindow {
 		const rollup = body.createDiv({ cls: "pt-rollup" });
 		rollup.createEl("span", { cls: "pt-rollup-label", text: "Total" });
 		const rollupRight = rollup.createDiv({ cls: "pt-rollup-right" });
-		rollupRight.createEl("span", { cls: "pt-rollup-tracked", text: this.formatTime(this.totalTracked()) });
+		rollupRight.createEl("span", { cls: "pt-rollup-tracked", text: this.formatTime(this.plugin.totalTracked()) });
 		rollupRight.createEl("span", { cls: "pt-rollup-divider", text: "/" });
-		rollupRight.createEl("span", { cls: "pt-rollup-estimate", text: this.formatTime(this.totalEstimate()) });
+		rollupRight.createEl("span", { cls: "pt-rollup-estimate", text: this.formatTime(this.plugin.totalEstimate()) });
 
 		// ── Column headers ──
 		const colHeaders = body.createDiv({ cls: "pt-col-headers" });
@@ -655,10 +646,10 @@ class ProductivityTimerWindow {
 		if (this.showArchive) {
 			const archive = body.createDiv({ cls: "pt-archive" });
 			archive.createEl("h5", { cls: "pt-archive-title", text: "Archive" });
-			if (this.sessions.length === 0) {
+			if (this.plugin.sessions.length === 0) {
 				archive.createEl("p", { cls: "pt-empty", text: "No completed sessions yet." });
 			}
-			for (const session of this.sessions) {
+			for (const session of this.plugin.sessions) {
 				const sessionEl = archive.createDiv({ cls: "pt-session" });
 				const sessionHeader = sessionEl.createDiv({ cls: "pt-session-header" });
 				sessionHeader.createEl("span", { cls: "pt-session-date", text: this.formatDate(session.completed_at) });
@@ -681,10 +672,10 @@ class ProductivityTimerWindow {
 	}
 
 	private buildTimerRows(container: HTMLElement) {
-		const parents = this.timers.filter(t => t.parent_id === null);
+		const parents = this.plugin.timers.filter(t => t.parent_id === null);
 		for (const parent of parents) {
 			this.renderRow(container, parent);
-			const subtasks = this.timers.filter(t => t.parent_id === parent.id);
+			const subtasks = this.plugin.timers.filter(t => t.parent_id === parent.id);
 			for (const sub of subtasks) {
 				this.renderRow(container, sub);
 			}
@@ -697,6 +688,80 @@ class ProductivityTimerWindow {
 			cls: `pt-row ${isSubtask ? "pt-row--subtask" : ""} ${timer.is_running || timer.is_rotation_running ? "pt-row--running" : ""}`
 		});
 
+		// Make row HTML5 draggable
+		row.setAttribute("draggable", "true");
+
+		// Drag Start
+		row.addEventListener("dragstart", (e: DragEvent) => {
+			const target = e.target as HTMLElement;
+			// Prevent initiating dragging if focusing on text edits or inputs/buttons
+			if (target.closest("button") || target.closest("input") || target.closest(".pt-name")) {
+				e.preventDefault();
+				return;
+			}
+			this.draggedTimerId = timer.id; // Store in local memory to prevent clipboard blocks
+			row.classList.add("pt-row--dragging");
+		});
+
+		// Drag Over
+		row.addEventListener("dragover", (e: DragEvent) => {
+			e.preventDefault();
+			row.classList.add("pt-row--drag-over");
+		});
+
+		// Drag Leave
+		row.addEventListener("dragleave", () => {
+			row.classList.remove("pt-row--drag-over");
+		});
+
+		// Drag End
+		row.addEventListener("dragend", () => {
+			row.classList.remove("pt-row--dragging");
+			row.classList.remove("pt-row--drag-over");
+			this.draggedTimerId = null;
+		});
+
+		// Drop
+		row.addEventListener("drop", async (e: DragEvent) => {
+			e.preventDefault();
+			row.classList.remove("pt-row--drag-over");
+
+			const draggedId = this.draggedTimerId;
+			if (!draggedId || draggedId === timer.id) return; // Dropped on itself
+
+			const draggedTimer = this.plugin.timers.find(t => t.id === draggedId);
+			if (!draggedTimer) return;
+
+			// Limit sorting strictly to same hierarchial level
+			if (draggedTimer.parent_id !== timer.parent_id) {
+				new Notice("Reordering is only supported within the same task/subtask level.");
+				return;
+			}
+
+			const sibs = this.plugin.timers
+				.filter(t => t.parent_id === timer.parent_id)
+				.sort((a, b) => a.sort_order - b.sort_order);
+
+			const draggedIdx = sibs.findIndex(t => t.id === draggedId);
+			const targetIdx = sibs.findIndex(t => t.id === timer.id);
+
+			if (draggedIdx !== -1 && targetIdx !== -1) {
+				// Reorder the local array slice
+				sibs.splice(draggedIdx, 1);
+				sibs.splice(targetIdx, 0, draggedTimer);
+
+				// Update database sorting orders
+				await this.runWriteAction(async () => {
+					await Promise.all(sibs.map((t, idx) => {
+						t.sort_order = idx;
+						return this.plugin.db.update("timers", { sort_order: idx }, `id=eq.${t.id}`);
+					}));
+					await this.plugin.loadTimers();
+					this.render();
+				});
+			}
+		});
+
 		// 1. Name
 		const nameEl = row.createEl("span", { cls: "pt-name", text: timer.name });
 		nameEl.contentEditable = "true";
@@ -704,9 +769,9 @@ class ProductivityTimerWindow {
 			const newName = nameEl.textContent?.trim();
 			if (newName && newName !== timer.name) {
 				await this.runWriteAction(async () => {
-					await this.db.update("timers", { name: newName }, `id=eq.${timer.id}`);
+					await this.plugin.db.update("timers", { name: newName }, `id=eq.${timer.id}`);
 					timer.name = newName;
-					await this.loadTimers();
+					await this.plugin.loadTimers();
 				});
 			}
 		});
@@ -729,64 +794,31 @@ class ProductivityTimerWindow {
 		});
 
 		// Calculate displaying data totals
-		const { tracked, estimate, sumTracked, sumEstimate } = this.getTimerDisplayTimes(timer);
+		const { tracked, estimate } = this.getTimerDisplayTimes(timer);
 
-		// 3. Tracked Time Input
-		const trackedInput = row.createEl("input", { cls: "pt-tracked-input", type: "text" });
-		trackedInput.value = tracked > 0 ? this.formatTime(tracked) : "0s";
-		trackedInput.placeholder = "0s";
-		trackedInput.addEventListener("blur", async () => {
-			const parsed = this.parseTimeInput(trackedInput.value);
-			if (parsed !== null) {
-				await this.runWriteAction(async () => {
-					const nowStr = new Date().toISOString();
-					
-					if (isSubtask) {
-						timer.tracked_seconds = parsed;
-						if (timer.is_running) {
-							timer.last_started_at = nowStr;
-						}
-						this.lastWriteTimes.set(timer.id, {
-							is_running: timer.is_running,
-							last_started_at: timer.is_running ? nowStr : null,
-							tracked_seconds: parsed,
-							time: Date.now()
-						});
-						if (timer.is_running) {
-							await this.db.update("timers", { tracked_seconds: parsed, last_started_at: nowStr }, `id=eq.${timer.id}`);
-						} else {
-							await this.db.update("timers", { tracked_seconds: parsed }, `id=eq.${timer.id}`);
-						}
-					} else {
-						const newParentTracked = Math.max(0, parsed - (sumTracked || 0));
-						timer.tracked_seconds = newParentTracked;
-						if (timer.is_running) {
-							timer.last_started_at = nowStr;
-						}
-						this.lastWriteTimes.set(timer.id, {
-							is_running: timer.is_running,
-							last_started_at: timer.is_running ? nowStr : null,
-							tracked_seconds: newParentTracked,
-							time: Date.now()
-						});
-						if (timer.is_running) {
-							await this.db.update("timers", { tracked_seconds: newParentTracked, last_started_at: nowStr }, `id=eq.${timer.id}`);
-						} else {
-							await this.db.update("timers", { tracked_seconds: newParentTracked }, `id=eq.${timer.id}`);
-						}
-					}
-					await this.loadTimers();
-					const { tracked: latestTracked } = this.getTimerDisplayTimes(timer);
-					trackedInput.value = latestTracked > 0 ? this.formatTime(latestTracked) : "0s";
-				});
-			}
+		// 3. Tracked Time Input (Read-only, acts as a button to launch logs modal)
+		const trackedInput = row.createEl("input", { cls: "pt-tracked-input", type: "text", value: tracked > 0 ? this.formatTime(tracked) : "0s" });
+		trackedInput.readOnly = true;
+		trackedInput.title = "Click to view and edit time logs";
+
+		trackedInput.addEventListener("click", () => {
+			new TimeLogModal(
+				this.plugin.app, 
+				() => this.plugin.timers.find(t => t.id === timer.id)!, // Always references latest sync data
+				this.plugin.db, 
+				async () => {
+					await this.plugin.loadTimers();
+					this.render();
+				}
+			).open();
 		});
-		trackedInput.addEventListener("keydown", (e) => { if (e.key === "Enter") trackedInput.blur(); });
 
 		// 4. Estimate Time Input
 		const estimateInput = row.createEl("input", { cls: "pt-estimate-input", type: "text" });
 		estimateInput.value = estimate > 0 ? this.formatTime(estimate) : "";
 		estimateInput.placeholder = "0h 00m";
+		
+		const sumEstimate = this.plugin.timers.filter(t => t.parent_id === timer.id).reduce((sum, s) => sum + s.estimate_seconds, 0);
 		estimateInput.addEventListener("blur", async () => {
 			const parsed = this.parseTimeInput(estimateInput.value);
 			if (parsed !== null) {
@@ -794,16 +826,16 @@ class ProductivityTimerWindow {
 					if (isSubtask) {
 						if (parsed !== timer.estimate_seconds) {
 							timer.estimate_seconds = parsed;
-							await this.db.update("timers", { estimate_seconds: parsed }, `id=eq.${timer.id}`);
+							await this.plugin.db.update("timers", { estimate_seconds: parsed }, `id=eq.${timer.id}`);
 						}
 					} else {
 						const newParentEstimate = Math.max(0, parsed - (sumEstimate || 0));
 						if (newParentEstimate !== timer.estimate_seconds) {
 							timer.estimate_seconds = newParentEstimate;
-							await this.db.update("timers", { estimate_seconds: newParentEstimate }, `id=eq.${timer.id}`);
+							await this.plugin.db.update("timers", { estimate_seconds: newParentEstimate }, `id=eq.${timer.id}`);
 						}
 					}
-					await this.loadTimers();
+					await this.plugin.loadTimers();
 					const { estimate: latestEstimate } = this.getTimerDisplayTimes(timer);
 					estimateInput.value = latestEstimate > 0 ? this.formatTime(latestEstimate) : "";
 				});
@@ -822,7 +854,7 @@ class ProductivityTimerWindow {
 			title: "Toggle Subtask Rotation"
 		});
 		rotationBtn.innerHTML = timer.is_rotation_running ? this.pauseIcon() : this.loopIcon();
-		const subtasks = this.timers.filter(t => t.parent_id === timer.id);
+		const subtasks = this.plugin.timers.filter(t => t.parent_id === timer.id);
 		if (isSubtask || subtasks.length === 0) {
 			rotationBtn.style.opacity = "0";
 			rotationBtn.style.pointerEvents = "none";
@@ -902,14 +934,80 @@ class ProductivityTimerWindow {
 		});
 	}
 
+	// ── Visual/Formatting Local Helpers ───────────────────────────────────────
+
+	private getActiveTrackedSeconds(timer: Timer): number {
+		return this.plugin.getActiveTrackedSeconds(timer);
+	}
+
+	private formatTime(seconds: number): string {
+		return this.plugin.formatTime(seconds);
+	}
+
+	private formatDate(dateStr: string): string {
+		return new Date(dateStr).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+	}
+
+	private parseTimeInput(input: string): number | null {
+		return this.plugin.parseTimeInput(input);
+	}
+
+	private getTimerDisplayTimes(timer: Timer) {
+		if (timer.parent_id !== null) {
+			return {
+				tracked: this.getActiveTrackedSeconds(timer),
+				estimate: timer.estimate_seconds
+			};
+		} else {
+			const subtasks = this.plugin.timers.filter(t => t.parent_id === timer.id);
+			const sumTracked = subtasks.reduce((sum, s) => sum + this.getActiveTrackedSeconds(s), 0);
+			const sumEstimate = subtasks.reduce((sum, s) => sum + s.estimate_seconds, 0);
+			return {
+				tracked: this.getActiveTrackedSeconds(timer) + sumTracked,
+				estimate: timer.estimate_seconds + sumEstimate,
+				sumTracked,
+				sumEstimate
+			};
+		}
+	}
+
+	private getFlattenedRenderedTimers(): Timer[] {
+		const list: Timer[] = [];
+		const parents = this.plugin.timers.filter(t => t.parent_id === null);
+		for (const parent of parents) {
+			list.push(parent);
+			const subtasks = this.plugin.timers.filter(t => t.parent_id === parent.id);
+			for (const sub of subtasks) {
+				list.push(sub);
+			}
+		}
+		return list;
+	}
+
 	// ── Timer Actions ─────────────────────────────────────────────────────────
 
 	private async stopAllTimers() {
-		for (const t of this.timers) {
+		const nowStr = new Date().toISOString();
+		
+		// Securely pre-capture segment details before mutating the active objects
+		const segmentsToRecord = this.plugin.timers.filter(t => t.is_running && t.last_started_at).map(t => {
+			const start = t.last_started_at as string;
+			const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
+			return {
+				timer_id: t.id,
+				started_at: start,
+				ended_at: nowStr,
+				duration_seconds: duration,
+				timer: t
+			};
+		});
+
+		for (const t of this.plugin.timers) {
 			let changed = false;
 			const updateObj: any = {};
 			if (t.is_running) {
-				const finalTracked = this.getActiveTrackedSeconds(t);
+				const segment = segmentsToRecord.find(s => s.timer_id === t.id);
+				const finalTracked = segment ? t.tracked_seconds + segment.duration_seconds : t.tracked_seconds;
 				t.is_running = false;
 				t.last_started_at = null;
 				t.tracked_seconds = finalTracked;
@@ -925,18 +1023,65 @@ class ProductivityTimerWindow {
 				changed = true;
 			}
 			if (changed) {
-				await this.db.update("timers", updateObj, `id=eq.${t.id}`);
+				await this.plugin.db.update("timers", updateObj, `id=eq.${t.id}`);
 			}
 		}
+
+		// Save the segment details to Supabase
+		await Promise.all(segmentsToRecord.map(seg => 
+			this.plugin.db.insert("timer_segments", {
+				timer_id: seg.timer_id,
+				started_at: seg.started_at,
+				ended_at: seg.ended_at,
+				duration_seconds: seg.duration_seconds
+			})
+		));
 	}
 
 	private async playParent(parent: Timer) {
 		const isPlaying = !parent.is_running;
-		const timersToStop = this.timers.filter(t => t.is_running || t.is_rotation_running);
+		const timersToStop = this.plugin.timers.filter(t => t.is_running || t.is_rotation_running);
+		const nowStr = new Date().toISOString();
+
+		// Securely pre-capture segment details before mutating the active objects
+		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
+			const start = t.last_started_at as string;
+			// Use the smooth visual clock value to determine segment duration and avoid 1s rounding truncation
+			const finalTracked = t.visual_seconds !== undefined ? t.visual_seconds : this.plugin.getActiveTrackedSeconds(t);
+			const duration = Math.max(0, finalTracked - t.tracked_seconds);
+			return {
+				timer_id: t.id,
+				started_at: start,
+				ended_at: nowStr,
+				duration_seconds: duration,
+				timer: t
+			};
+		});
 
 		// 1. Calculate final tracked seconds for stopped timers (captured before local state mutations)
 		for (const t of timersToStop) {
-			t.tracked_seconds = this.getActiveTrackedSeconds(t);
+			const segment = segmentsToRecord.find(s => s.timer_id === t.id);
+			if (segment) {
+				t.tracked_seconds = t.tracked_seconds + segment.duration_seconds; // Match exactly
+			} else {
+				t.tracked_seconds = this.plugin.getActiveTrackedSeconds(t);
+			}
+
+			// 0ms Optimistic segment update (local UI rendering)
+			if (t.is_running && t.last_started_at) {
+				const start = t.last_started_at;
+				const duration = segment ? segment.duration_seconds : 0;
+				if (duration > 0) {
+					t.segments = t.segments || [];
+					t.segments.push({
+						id: `temp-${Date.now()}`,
+						timer_id: t.id,
+						started_at: start,
+						ended_at: nowStr,
+						duration_seconds: duration
+					});
+				}
+			}
 		}
 
 		// 2. Optimistic Local update (0ms delay instant UI transition)
@@ -944,7 +1089,7 @@ class ProductivityTimerWindow {
 			t.is_running = false;
 			t.is_rotation_running = false;
 			t.last_started_at = null;
-			this.lastWriteTimes.set(t.id, {
+			this.plugin.lastWriteTimes.set(t.id, {
 				is_running: false,
 				last_started_at: null,
 				tracked_seconds: t.tracked_seconds,
@@ -954,8 +1099,8 @@ class ProductivityTimerWindow {
 
 		if (isPlaying) {
 			parent.is_running = true;
-			parent.last_started_at = new Date().toISOString();
-			this.lastWriteTimes.set(parent.id, {
+			parent.last_started_at = nowStr;
+			this.plugin.lastWriteTimes.set(parent.id, {
 				is_running: true,
 				last_started_at: parent.last_started_at,
 				tracked_seconds: parent.tracked_seconds,
@@ -967,9 +1112,19 @@ class ProductivityTimerWindow {
 
 		// 3. Background Database Persistence
 		await this.runWriteAction(async () => {
+			// Record segment logs for active tasks before stopping them
+			await Promise.all(segmentsToRecord.map(seg => 
+				this.plugin.db.insert("timer_segments", {
+					timer_id: seg.timer_id,
+					started_at: seg.started_at,
+					ended_at: seg.ended_at,
+					duration_seconds: seg.duration_seconds
+				})
+			));
+
 			// Persist stops using pre-mutation captured states
 			await Promise.all(timersToStop.map(t => 
-				this.db.update("timers", { 
+				this.plugin.db.update("timers", { 
 					is_running: false, 
 					is_rotation_running: false, 
 					tracked_seconds: t.tracked_seconds, 
@@ -978,20 +1133,57 @@ class ProductivityTimerWindow {
 			));
 
 			if (isPlaying) {
-				await this.db.update("timers", { is_running: true, last_started_at: parent.last_started_at }, `id=eq.${parent.id}`);
+				await this.plugin.db.update("timers", { is_running: true, last_started_at: parent.last_started_at }, `id=eq.${parent.id}`);
 			}
-			await this.loadTimers();
+			await this.plugin.loadTimers();
 			this.render();
 		});
 	}
 
 	private async playSubtaskDirectly(subtask: Timer) {
 		const isPlaying = !subtask.is_running;
-		const timersToStop = this.timers.filter(t => t.is_running || t.is_rotation_running);
+		const timersToStop = this.plugin.timers.filter(t => t.is_running || t.is_rotation_running);
+		const nowStr = new Date().toISOString();
+
+		// Securely pre-capture segment details before mutating the active objects
+		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
+			const start = t.last_started_at as string;
+			// Use the smooth visual clock value to determine segment duration and avoid 1s rounding truncation
+			const finalTracked = t.visual_seconds !== undefined ? t.visual_seconds : this.plugin.getActiveTrackedSeconds(t);
+			const duration = Math.max(0, finalTracked - t.tracked_seconds);
+			return {
+				timer_id: t.id,
+				started_at: start,
+				ended_at: nowStr,
+				duration_seconds: duration,
+				timer: t
+			};
+		});
 
 		// 1. Calculate final tracked seconds for stopped timers (captured before local state mutations)
 		for (const t of timersToStop) {
-			t.tracked_seconds = this.getActiveTrackedSeconds(t);
+			const segment = segmentsToRecord.find(s => s.timer_id === t.id);
+			if (segment) {
+				t.tracked_seconds = t.tracked_seconds + segment.duration_seconds; // Match exactly
+			} else {
+				t.tracked_seconds = this.plugin.getActiveTrackedSeconds(t);
+			}
+
+			// 0ms Optimistic segment update (local UI rendering)
+			if (t.is_running && t.last_started_at) {
+				const start = t.last_started_at;
+				const duration = segment ? segment.duration_seconds : 0;
+				if (duration > 0) {
+					t.segments = t.segments || [];
+					t.segments.push({
+						id: `temp-${Date.now()}`,
+						timer_id: t.id,
+						started_at: start,
+						ended_at: nowStr,
+						duration_seconds: duration
+					});
+				}
+			}
 		}
 
 		// 2. Optimistic Local update (0ms delay instant UI transition)
@@ -999,7 +1191,7 @@ class ProductivityTimerWindow {
 			t.is_running = false;
 			t.is_rotation_running = false;
 			t.last_started_at = null;
-			this.lastWriteTimes.set(t.id, {
+			this.plugin.lastWriteTimes.set(t.id, {
 				is_running: false,
 				last_started_at: null,
 				tracked_seconds: t.tracked_seconds,
@@ -1010,15 +1202,15 @@ class ProductivityTimerWindow {
 		if (isPlaying) {
 			subtask.is_running = true;
 			subtask.is_last_active = true;
-			subtask.last_started_at = new Date().toISOString();
-			this.lastWriteTimes.set(subtask.id, {
+			subtask.last_started_at = nowStr;
+			this.plugin.lastWriteTimes.set(subtask.id, {
 				is_running: true,
 				last_started_at: subtask.last_started_at,
 				tracked_seconds: subtask.tracked_seconds,
 				time: Date.now()
 			});
 
-			const siblings = this.timers.filter(t => t.parent_id === subtask.parent_id && t.id !== subtask.id);
+			const siblings = this.plugin.timers.filter(t => t.parent_id === subtask.parent_id && t.id !== subtask.id);
 			for (const sib of siblings) {
 				sib.is_last_active = false;
 			}
@@ -1028,9 +1220,19 @@ class ProductivityTimerWindow {
 
 		// 3. Background Database Save
 		await this.runWriteAction(async () => {
+			// Record segments for active tasks before stopping them
+			await Promise.all(segmentsToRecord.map(seg => 
+				this.plugin.db.insert("timer_segments", {
+					timer_id: seg.timer_id,
+					started_at: seg.started_at,
+					ended_at: seg.ended_at,
+					duration_seconds: seg.duration_seconds
+				})
+			));
+
 			// Persist stops using pre-mutation captured states
 			await Promise.all(timersToStop.map(t => 
-				this.db.update("timers", { 
+				this.plugin.db.update("timers", { 
 					is_running: false, 
 					is_rotation_running: false, 
 					tracked_seconds: t.tracked_seconds, 
@@ -1039,30 +1241,66 @@ class ProductivityTimerWindow {
 			));
 
 			if (isPlaying) {
-				await this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: subtask.last_started_at }, `id=eq.${subtask.id}`);
+				await this.plugin.db.update("timers", { is_running: true, is_last_active: true, last_started_at: subtask.last_started_at }, `id=eq.${subtask.id}`);
 
-				const siblings = this.timers.filter(t => t.parent_id === subtask.parent_id && t.id !== subtask.id);
+				const siblings = this.plugin.timers.filter(t => t.parent_id === subtask.parent_id && t.id !== subtask.id);
 				await Promise.all(siblings.map(sib => 
-					this.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
+					this.plugin.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
 				));
 			}
-			await this.loadTimers();
+			await this.plugin.loadTimers();
 			this.render();
 		});
 	}
 
 	private async toggleRotation(parent: Timer) {
-		const subtasks = this.timers.filter(t => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
+		const subtasks = this.plugin.timers.filter(t => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
 		if (subtasks.length === 0) {
 			new Notice("Add subtasks first before starting rotation.");
 			return;
 		}
 		const isPlaying = !parent.is_rotation_running;
-		const timersToStop = this.timers.filter(t => t.is_running || t.is_rotation_running);
+		const timersToStop = this.plugin.timers.filter(t => t.is_running || t.is_rotation_running);
+		const nowStr = new Date().toISOString();
 
-		// 1. Calculate final tracked seconds for stopped timers (captured before local state mutations)
+		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
+			const start = t.last_started_at as string;
+			// Use the smooth visual clock value to determine segment duration and avoid 1s rounding truncation
+			const finalTracked = t.visual_seconds !== undefined ? t.visual_seconds : this.plugin.getActiveTrackedSeconds(t);
+			const duration = Math.max(0, finalTracked - t.tracked_seconds);
+			return {
+				timer_id: t.id,
+				started_at: start,
+				ended_at: nowStr,
+				duration_seconds: duration,
+				timer: t
+			};
+		});
+
+		// 1. Calculate final tracked seconds for stopped timers
 		for (const t of timersToStop) {
-			t.tracked_seconds = this.getActiveTrackedSeconds(t);
+			const segment = segmentsToRecord.find(s => s.timer_id === t.id);
+			if (segment) {
+				t.tracked_seconds = t.tracked_seconds + segment.duration_seconds;
+			} else {
+				t.tracked_seconds = this.plugin.getActiveTrackedSeconds(t);
+			}
+
+			// 0ms Optimistic segment update (local UI rendering)
+			if (t.is_running && t.last_started_at) {
+				const start = t.last_started_at;
+				const duration = segment ? segment.duration_seconds : 0;
+				if (duration > 0) {
+					t.segments = t.segments || [];
+					t.segments.push({
+						id: `temp-${Date.now()}`,
+						timer_id: t.id,
+						started_at: start,
+						ended_at: nowStr,
+						duration_seconds: duration
+					});
+				}
+			}
 		}
 
 		// 2. Optimistic Local update (0ms delay instant UI transition)
@@ -1070,7 +1308,7 @@ class ProductivityTimerWindow {
 			t.is_running = false;
 			t.is_rotation_running = false;
 			t.last_started_at = null;
-			this.lastWriteTimes.set(t.id, {
+			this.plugin.lastWriteTimes.set(t.id, {
 				is_running: false,
 				last_started_at: null,
 				tracked_seconds: t.tracked_seconds,
@@ -1079,9 +1317,11 @@ class ProductivityTimerWindow {
 		}
 
 		const activeSub = subtasks.find(t => t.is_last_active) || subtasks[0];
-		if (isPlaying && activeSub) {
+		if (!activeSub) return; // Type guard resolving TS18048
+
+		if (isPlaying) {
 			parent.is_rotation_running = true;
-			this.lastWriteTimes.set(parent.id, {
+			this.plugin.lastWriteTimes.set(parent.id, {
 				is_running: false,
 				last_started_at: null,
 				tracked_seconds: parent.tracked_seconds,
@@ -1095,8 +1335,8 @@ class ProductivityTimerWindow {
 			}
 			activeSub.is_running = true;
 			activeSub.is_last_active = true;
-			activeSub.last_started_at = new Date().toISOString();
-			this.lastWriteTimes.set(activeSub.id, {
+			activeSub.last_started_at = nowStr;
+			this.plugin.lastWriteTimes.set(activeSub.id, {
 				is_running: true,
 				last_started_at: activeSub.last_started_at,
 				tracked_seconds: activeSub.tracked_seconds,
@@ -1108,9 +1348,19 @@ class ProductivityTimerWindow {
 
 		// 3. Background Database Persistence
 		await this.runWriteAction(async () => {
+			// Record segment logs for active tasks before stopping them
+			await Promise.all(segmentsToRecord.map(seg => 
+				this.plugin.db.insert("timer_segments", {
+					timer_id: seg.timer_id,
+					started_at: seg.started_at,
+					ended_at: seg.ended_at,
+					duration_seconds: seg.duration_seconds
+				})
+			));
+
 			// Persist stops using pre-mutation captured states
 			await Promise.all(timersToStop.map(t => 
-				this.db.update("timers", { 
+				this.plugin.db.update("timers", { 
 					is_running: false, 
 					is_rotation_running: false, 
 					tracked_seconds: t.tracked_seconds, 
@@ -1118,40 +1368,40 @@ class ProductivityTimerWindow {
 				}, `id=eq.${t.id}`)
 			));
 
-			if (isPlaying && activeSub) {
-				await this.db.update("timers", { is_rotation_running: true }, `id=eq.${parent.id}`);
+			if (isPlaying) {
+				await this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${parent.id}`);
 
-				const siblings = subtasks.filter(sub => sub.id !== activeSub.id);
+				const siblings = this.plugin.timers.filter(t => t.parent_id === activeSub.parent_id && t.id !== activeSub.id); // Fixed typo from subtask to activeSub
 				await Promise.all(siblings.map(sib => 
-					this.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
+					this.plugin.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
 				));
 
-				await this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: activeSub.last_started_at }, `id=eq.${activeSub.id}`);
+				await this.plugin.db.update("timers", { is_running: true, is_last_active: true, last_started_at: activeSub.last_started_at }, `id=eq.${activeSub.id}`);
 			}
-			await this.loadTimers();
+			await this.plugin.loadTimers();
 			this.render();
 		});
 	}
 
 	private async addTimer() {
 		await this.runWriteAction(async () => {
-			const maxSort = this.timers.filter(t => t.parent_id === null).reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
-			const result = await this.db.insert("timers", {
+			const maxSort = this.plugin.timers.filter(t => t.parent_id === null).reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
+			const result = await this.plugin.db.insert("timers", {
 				name: "New Timer",
 				estimate_seconds: 0,
 				tracked_seconds: 0,
 				is_running: false,
 				sort_order: maxSort + 1
 			});
-			if (Array.isArray(result) && result[0]) this.timers.push(result[0]);
+			if (Array.isArray(result) && result[0]) this.plugin.timers.push(result[0]);
 			this.render();
 		});
 	}
 
 	private async addSubtask(parent: Timer) {
 		await this.runWriteAction(async () => {
-			const maxSort = this.timers.filter(t => t.parent_id === parent.id).reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
-			await this.db.insert("timers", {
+			const maxSort = this.plugin.timers.filter(t => t.parent_id === parent.id).reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
+			await this.plugin.db.insert("timers", {
 				parent_id: parent.id,
 				name: "New Subtask",
 				estimate_seconds: 0,
@@ -1159,7 +1409,7 @@ class ProductivityTimerWindow {
 				is_running: false,
 				sort_order: maxSort + 1
 			});
-			await this.loadTimers();
+			await this.plugin.loadTimers();
 			this.render();
 		});
 	}
@@ -1167,19 +1417,19 @@ class ProductivityTimerWindow {
 	private async deleteTimer(timer: Timer) {
 		await this.runWriteAction(async () => {
 			if (timer.is_running) {
-				await this.db.update("timers", { is_running: false }, `id=eq.${timer.id}`);
+				await this.plugin.db.update("timers", { is_running: false }, `id=eq.${timer.id}`);
 			}
-			await this.db.delete("timers", `id=eq.${timer.id}`);
-			await this.loadTimers();
+			await this.plugin.db.delete("timers", `id=eq.${timer.id}`);
+			await this.plugin.loadTimers();
 			this.render();
 		});
 	}
 
 	private async completeAll() {
-		if (this.timers.length === 0) { new Notice("No timers to complete."); return; }
+		if (this.plugin.timers.length === 0) { new Notice("No timers to complete."); return; }
 		await this.runWriteAction(async () => {
 			await this.stopAllTimers();
-			const sessionResult = await this.db.insert("timer_sessions", {
+			const sessionResult = await this.plugin.db.insert("timer_sessions", {
 				date: new Date().toISOString().split("T")[0],
 				completed_at: new Date().toISOString(),
 			});
@@ -1190,21 +1440,24 @@ class ProductivityTimerWindow {
 				return;
 			}
 
-			for (const timer of this.timers) {
+			for (const timer of this.plugin.timers) {
 				let entryName = timer.name;
 				if (timer.parent_id) {
-					const parent = this.timers.find(p => p.id === timer.parent_id);
+					const parent = this.plugin.timers.find(p => p.id === timer.parent_id);
 					if (parent) entryName = `${parent.name} > ${timer.name}`;
 				}
 
-				await this.db.insert("timer_session_entries", {
+				await this.plugin.db.insert("timer_session_entries", {
 					session_id: session.id,
 					timer_name: entryName,
 					estimate_seconds: timer.estimate_seconds,
 					tracked_seconds: timer.tracked_seconds,
 				});
 
-				await this.db.update("timers", {
+				// Wipe out segment logs for active trackers on session archive complete
+				await this.plugin.db.delete("timer_segments", `timer_id=eq.${timer.id}`);
+
+				await this.plugin.db.update("timers", {
 					tracked_seconds: 0,
 					estimate_seconds: 0,
 					is_running: false,
@@ -1213,34 +1466,22 @@ class ProductivityTimerWindow {
 					last_started_at: null
 				}, `id=eq.${timer.id}`);
 			}
-			await this.loadTimers();
-			await this.loadSessions();
+			await this.plugin.loadTimers();
+			await this.plugin.loadSessions();
 			new Notice("Session completed and archived.");
 			this.render();
 		});
 	}
 
 	private async deleteSession(session: Session) {
-		await this.db.delete("timer_sessions", `id=eq.${session.id}`);
-		this.sessions = this.sessions.filter(s => s.id !== session.id);
-		this.render();
-	}
-
-	private async flushActiveTimer() {
-		const running = this.timers.find(t => t.is_running);
-		if (running) {
-			try {
-				const activeTracked = this.getActiveTrackedSeconds(running);
-				const currentNow = new Date().toISOString();
-				// Shift the start-point forward on close without stopping the run state
-				await this.db.update("timers", { tracked_seconds: activeTracked, last_started_at: currentNow }, `id=eq.${running.id}`);
-			} catch (e) {
-				console.error("Failed to flush active timer on close:", e);
-			}
+		try {
+			await this.plugin.db.delete("timer_sessions", `id=eq.${session.id}`);
+			this.plugin.sessions = this.plugin.sessions.filter(s => s.id !== session.id);
+			this.render();
+		} catch (e) {
+			new Notice("Failed to delete session.");
 		}
 	}
-
-	// ── Icons ─────────────────────────────────────────────────────────────────
 
 	private playIcon() {
 		return `<svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>`;
@@ -1258,17 +1499,12 @@ class ProductivityTimerWindow {
 		return `<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>`;
 	}
 
-	// ── Cleanup ───────────────────────────────────────────────────────────────
-
 	destroy() {
-		this.stopTick();
-		this.flushActiveTimer(); // Runs asynchronously in background to avoid blocking DOM destruction
-		this.db.disconnect();
 		this.el.remove();
 		this.plugin.floatingWindow = null;
 	}
 
-	// ── Styles ────────────────────────────────────────────────────────────────
+	// ── Cleanup ───────────────────────────────────────────────────────────────
 
 	private injectStyles() {
 		const styleId = "pt-styles";
@@ -1394,6 +1630,103 @@ class ProductivityTimerWindow {
 				border-left: 3px solid var(--interactive-accent) !important;
 				background: var(--background-primary);
 			}
+			.pt-row[draggable="true"] {
+				cursor: grab;
+			}
+			.pt-row--dragging {
+				opacity: 0.45;
+				border: 1px dashed var(--interactive-accent) !important;
+			}
+			.pt-row--drag-over {
+				border-top: 2px solid var(--interactive-accent) !important;
+				background: var(--background-secondary-alt) !important;
+			}
+			.pt-modal-add-log {
+				background: var(--background-secondary-alt);
+				border: 1px solid var(--background-modifier-border);
+				border-radius: 6px;
+				padding: 12px;
+				margin-bottom: 20px;
+			}
+			.pt-modal-add-log h4 {
+				margin-top: 0;
+				margin-bottom: 10px;
+				font-size: 12px;
+				text-transform: uppercase;
+				color: var(--text-muted);
+			}
+			.pt-modal-add-row {
+				display: flex;
+				gap: 8px;
+				align-items: center;
+			}
+			.pt-modal-add-row input {
+				background: var(--background-primary);
+				border: 1px solid var(--background-modifier-border);
+				border-radius: 4px;
+				padding: 4px 8px;
+				color: var(--text-normal);
+			}
+			.pt-modal-logs-list {
+				display: flex;
+				flex-direction: column;
+				gap: 6px;
+				max-height: 250px;
+				overflow-y: auto;
+				border: 1px solid var(--background-modifier-border);
+				border-radius: 6px;
+				padding: 8px;
+				background: var(--background-primary-alt);
+			}
+			.pt-modal-log-row {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 8px;
+				background: var(--background-primary);
+				border: 1px solid var(--background-modifier-border);
+				border-radius: 4px;
+				padding: 6px 10px;
+			}
+			.pt-modal-log-row--active {
+				border: 1px dashed var(--interactive-accent) !important;
+				background: var(--background-secondary-alt) !important;
+			}
+			.pt-modal-active-label {
+				font-size: 11px;
+				font-weight: 600;
+				color: var(--color-green);
+				animation: pt-pulse 2s infinite;
+			}
+			@keyframes pt-pulse {
+				0% { opacity: 0.6; }
+				50% { opacity: 1; }
+				100% { opacity: 0.6; }
+			}
+			.pt-modal-log-row input[type="datetime-local"] {
+				background: var(--background-secondary-alt);
+				border: 1px solid var(--background-modifier-border);
+				color: var(--text-normal);
+				border-radius: 3px;
+				padding: 2px 4px;
+				font-size: 11px;
+				font-family: var(--font-monospace);
+			}
+			.pt-modal-to-label {
+				font-size: 10px;
+				color: var(--text-faint);
+				text-transform: uppercase;
+			}
+			.pt-modal-duration-badge {
+				font-family: var(--font-monospace);
+				font-weight: 600;
+				color: var(--interactive-accent);
+				font-size: 11px;
+				background: var(--background-secondary-alt);
+				padding: 2px 6px;
+				border-radius: 3px;
+				border: 1px solid var(--background-modifier-border);
+			}
 			.pt-name {
 				font-size: 13px;
 				color: var(--text-normal);
@@ -1426,6 +1759,12 @@ class ProductivityTimerWindow {
 			.pt-tracked-input {
 				color: var(--text-normal);
 				font-weight: 600;
+				cursor: pointer !important;
+				transition: all 0.1s ease;
+			}
+			.pt-tracked-input:hover {
+				border-color: var(--interactive-accent);
+				background: var(--background-modifier-border-hover);
 			}
 			.pt-estimate-input:focus, .pt-tracked-input:focus {
 				border-color: var(--interactive-accent);
@@ -1459,6 +1798,25 @@ class ProductivityTimerWindow {
 			.pt-btn--play.pt-btn--active, .pt-btn--rotation.pt-btn--active {
 				color: var(--interactive-accent);
 				border-color: var(--interactive-accent);
+			}
+			.pt-btn-del-seg {
+				background: none;
+				border: none;
+				color: var(--text-faint);
+				cursor: pointer;
+				padding: 0;
+				font-size: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 16px;
+				height: 16px;
+				border-radius: 50%;
+				transition: all 0.1s;
+			}
+			.pt-btn-del-seg:hover {
+				background: var(--background-modifier-border-hover);
+				color: var(--color-red);
 			}
 			.pt-btn--delete {
 				width: 22px; height: 22px; padding: 0;
@@ -1575,9 +1933,21 @@ class ProductivityTimerSettingsTab extends PluginSettingTab {
 export default class ProductivityTimerPlugin extends Plugin {
 	settings: PluginSettings = DEFAULT_SETTINGS;
 	floatingWindow: ProductivityTimerWindow | null = null;
+	db: SupabaseClient;
+	timers: Timer[] = [];
+	sessions: Session[] = [];
+	statusBarEl: HTMLElement;
+	bgTickInterval: number | null = null;
+	isWriting = false;
+	public lastWriteTimes: Map<string, { is_running: boolean, last_started_at: string | null, tracked_seconds: number, time: number }> = new Map();
+	private rotationOverlay: HTMLElement | null = null;
+	private overlayKeydownListener: ((e: KeyboardEvent) => void) | null = null;
 
 	async onload() {
 		await this.loadSettings();
+		this.db = new SupabaseClient(this.settings.supabaseUrl, this.settings.supabaseKey);
+		this.statusBarEl = this.addStatusBarItem();
+		this.statusBarEl.classList.add("pt-status-bar-item");
 
 		this.addCommand({
 			id: "open-productivity-timer",
@@ -1586,6 +1956,29 @@ export default class ProductivityTimerPlugin extends Plugin {
 		});
 
 		this.addSettingTab(new ProductivityTimerSettingsTab(this.app, this));
+
+		this.injectGlobalStyles();
+		this.startBackgroundTick();
+
+		// Move Realtime WebSocket listener to Plugin level so background sync always runs
+		if (this.settings.supabaseUrl && this.settings.supabaseKey) {
+			this.db.subscribeToTable("timers", (payload) => {
+				if (this.floatingWindow && this.floatingWindow.isWriting) return;
+
+				const eventType = payload.eventType || payload.event || "UPDATE";
+
+				this.loadTimers().then(() => {
+					if (this.floatingWindow) {
+						if (eventType === "INSERT" || eventType === "DELETE") {
+							this.floatingWindow.render();
+						} else {
+							this.floatingWindow.renderTimerRowsOnly();
+						}
+					}
+					this.updateStatusBar();
+				});
+			});
+		}
 	}
 
 	onunload() {
@@ -1593,11 +1986,362 @@ export default class ProductivityTimerPlugin extends Plugin {
 			this.floatingWindow.destroy();
 			this.floatingWindow = null;
 		}
+		if (this.bgTickInterval) {
+			window.clearInterval(this.bgTickInterval);
+			this.bgTickInterval = null;
+		}
+		if (this.rotationOverlay) {
+			this.rotationOverlay.remove();
+			this.rotationOverlay = null;
+		}
+		if (this.overlayKeydownListener) {
+			window.removeEventListener("keydown", this.overlayKeydownListener, true);
+			this.overlayKeydownListener = null;
+		}
 		const style = document.getElementById("pt-styles");
 		if (style) style.remove();
+		const globalStyle = document.getElementById("pt-global-styles");
+		if (globalStyle) globalStyle.remove();
+		this.db.disconnect();
 	}
 
-	toggleWindow() {
+	private injectGlobalStyles() {
+		const styleId = "pt-global-styles";
+		if (document.getElementById(styleId)) return;
+		const style = document.createElement("style");
+		style.id = styleId;
+		style.textContent = `
+			.pt-status-bar-item {
+				order: 999999 !important;
+				padding-left: 4px !important;
+				padding-right: 4px !important;
+				margin: 0 !important;
+			}
+		`;
+		document.head.appendChild(style);
+	}
+
+	private startBackgroundTick() {
+		if (this.bgTickInterval) window.clearInterval(this.bgTickInterval);
+
+		this.loadTimers().then(() => {
+			if (this.floatingWindow) this.floatingWindow.render();
+			this.updateStatusBar();
+		});
+
+		this.bgTickInterval = window.setInterval(async () => {
+			const running = this.timers.find(t => t.is_running);
+			if (running) {
+				const trueSeconds = this.getActiveTrackedSeconds(running);
+				if (running.visual_seconds === undefined) {
+					running.visual_seconds = trueSeconds;
+				} else {
+					running.visual_seconds += 1;
+				}
+			}
+
+			// 1. Tell window to update clock elements inline
+			if (this.floatingWindow) {
+				this.floatingWindow.renderTimerRowsOnly();
+			}
+
+			// 2. Perform rotation swaps in the background
+			await this.checkSubtaskRotation();
+
+			// 3. Update the Obsidian status bar
+			this.updateStatusBar();
+		}, 1000);
+	}
+
+	public async checkSubtaskRotation() {
+		const running = this.timers.find(t => t.is_running);
+		if (!running || running.parent_id === null) return;
+
+		const parent = this.timers.find(t => t.id === running.parent_id);
+		if (!parent || !parent.is_rotation_running || running.estimate_seconds <= 0 || !running.last_started_at) return;
+
+		const activeTracked = this.getActiveTrackedSeconds(running);
+		const currentMultiple = Math.floor(activeTracked / running.estimate_seconds);
+		const startMultiple = Math.floor(running.tracked_seconds / running.estimate_seconds);
+
+		if (currentMultiple > startMultiple) {
+			const sibs = this.timers.filter(t => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
+			if (sibs.length > 1) {
+				const idx = sibs.findIndex(t => t.id === running.id);
+				const nextIdx = (idx + 1) % sibs.length;
+				const nextSubtask = sibs[nextIdx];
+
+				if (nextSubtask) {
+					const nextNow = new Date().toISOString();
+					const localStart = running.last_started_at;
+					
+					// To prevent browser-drift truncation (e.g. 29s), we align the duration 
+					// directly with the visual_seconds value that triggered the threshold switch
+					const finalTracked = running.visual_seconds !== undefined ? running.visual_seconds : activeTracked;
+					const localDur = finalTracked - running.tracked_seconds;
+
+					if (localDur > 0) {
+						running.segments = running.segments || [];
+						running.segments.push({
+							id: `temp-${Date.now()}`,
+							timer_id: running.id,
+							started_at: localStart,
+							ended_at: nextNow,
+							duration_seconds: localDur
+						});
+					}
+
+					// Optimistically pause current subtask in memory
+					running.is_running = false;
+					running.is_last_active = false;
+					running.tracked_seconds = finalTracked;
+					running.last_started_at = null;
+
+					// Optimistically play next subtask in memory
+					nextSubtask.is_running = true;
+					nextSubtask.is_last_active = true;
+					nextSubtask.last_started_at = nextNow;
+
+					if (this.floatingWindow) {
+						this.floatingWindow.render();
+					}
+
+					// Trigger the fullscreen rotation alert overlay optimistically
+					this.showRotationOverlay(nextSubtask);
+
+					// Sync the state changes to Supabase in the background
+					try {
+						await this.db.insert("timer_segments", {
+							timer_id: running.id,
+							started_at: localStart,
+							ended_at: nextNow,
+							duration_seconds: localDur
+						});
+
+						await Promise.all([
+							this.db.update("timers", { is_running: false, is_last_active: false, tracked_seconds: finalTracked, last_started_at: null }, `id=eq.${running.id}`),
+							this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: nextNow }, `id=eq.${nextSubtask.id}`)
+						]);
+
+						await this.loadTimers();
+						if (this.floatingWindow) {
+							this.floatingWindow.render();
+						}
+					} catch (e) {
+						console.error("Background subtask rotation failed:", e);
+					}
+				}
+			}
+		}
+	}
+
+	private showRotationOverlay(nextSubtask: Timer) {
+		// Prevent duplicate overlays
+		if (this.rotationOverlay) {
+			this.rotationOverlay.remove();
+		}
+		if (this.overlayKeydownListener) {
+			window.removeEventListener("keydown", this.overlayKeydownListener, true);
+		}
+
+		// Create full-screen dimmed container
+		const overlay = document.createElement("div");
+		overlay.id = "pt-rotation-overlay";
+		Object.assign(overlay.style, {
+			position: "fixed",
+			top: "0",
+			left: "0",
+			width: "100vw",
+			height: "100vh",
+			backgroundColor: "rgba(0, 0, 0, 0.88)",
+			zIndex: "9999",
+			display: "flex",
+			flexDirection: "column",
+			alignItems: "center",
+			justifyContent: "center",
+			fontFamily: "var(--font-interface)",
+			color: "var(--text-normal)"
+		});
+
+		const label = overlay.createDiv({ cls: "pt-overlay-label" });
+		
+		const spanEl = label.createEl("span", { 
+			text: "UP NEXT:"
+		});
+		spanEl.style.cssText = "font-size: 13px; font-weight: 600; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 8px; display: block; text-align: center;";
+
+		const h1El = label.createEl("h1", { 
+			text: nextSubtask.name
+		});
+		h1El.style.cssText = "font-size: 34px; font-weight: 700; color: var(--interactive-accent); margin: 0; text-align: center;";
+
+		const pEl = overlay.createEl("p", { 
+			text: "Press [ Ctrl + Space ] to acknowledge"
+		});
+		pEl.style.cssText = "font-size: 11px; color: var(--text-muted); margin-top: 36px; text-transform: uppercase; letter-spacing: 0.05em;";
+
+		document.body.appendChild(overlay);
+		this.rotationOverlay = overlay;
+
+		// Shift focus away from writing workspace so key inputs don't bleed
+		const activeEl = document.activeElement as HTMLElement;
+		if (activeEl) activeEl.blur();
+
+		// Specific key listener capturing phase to prevent Neovim/Vim intercepting Ctrl + Space
+		this.overlayKeydownListener = (e: KeyboardEvent) => {
+			if (e.ctrlKey && (e.code === "Space" || e.key === " ")) {
+				e.preventDefault();
+				e.stopPropagation();
+				
+				// Cleanup
+				if (this.rotationOverlay) {
+					this.rotationOverlay.remove();
+					this.rotationOverlay = null;
+				}
+				if (this.overlayKeydownListener) {
+					window.removeEventListener("keydown", this.overlayKeydownListener, true);
+					this.overlayKeydownListener = null;
+				}
+			}
+		};
+
+		window.addEventListener("keydown", this.overlayKeydownListener, true);
+	}
+
+	private updateStatusBar() {
+		const running = this.timers.find(t => t.is_running);
+		if (!running) {
+			this.statusBarEl.setText(""); // Keep status bar clean when idle
+			return;
+		}
+
+		const activeTracked = this.getActiveTrackedSeconds(running);
+
+		// Determine if a subtask is running inside a rotation
+		const isSubtask = running.parent_id !== null;
+		const parent = isSubtask ? this.timers.find(t => t.id === running.parent_id) : null;
+		const isRotationActive = parent ? parent.is_rotation_running : false;
+
+		if (isSubtask && isRotationActive && running.estimate_seconds > 0) {
+			// Calculate time left until the next multiple of the estimate_seconds is reached
+			const currentElapsedInBlock = activeTracked % running.estimate_seconds;
+			const timeLeft = running.estimate_seconds - currentElapsedInBlock;
+
+			// Time of switch clock display (e.g. 12:48 AM)
+			const switchTimeEpoch = Date.now() + (timeLeft * 1000);
+			const switchDate = new Date(switchTimeEpoch);
+			const switchTimeStr = switchDate.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+
+			this.statusBarEl.setText(`[${running.name} : ${this.formatTime(timeLeft)} : ${switchTimeStr}]`);
+		} else {
+			// If it's a standard timer or no rotation is active, show status text
+			this.statusBarEl.setText(`[${running.name} : ${this.formatTime(activeTracked)}]`);
+		}
+	}
+
+	public getActiveTrackedSeconds(timer: Timer): number {
+		if (timer.is_running && timer.last_started_at) {
+			const elapsed = Math.floor((Date.now() - new Date(timer.last_started_at).getTime()) / 1000);
+			const trueSeconds = timer.tracked_seconds + Math.max(0, elapsed);
+
+			// Adaptive visual timer: Snaps back to true database-time if drift is larger than 2 seconds
+			if (timer.visual_seconds === undefined) {
+				timer.visual_seconds = trueSeconds;
+			} else {
+				const diff = Math.abs(timer.visual_seconds - trueSeconds);
+				if (diff >= 2) {
+					timer.visual_seconds = trueSeconds;
+				}
+			}
+			return timer.visual_seconds;
+		}
+		
+		timer.visual_seconds = undefined;
+		return timer.tracked_seconds;
+	}
+
+	public totalEstimate(): number {
+		const rendered = this.getFlattenedRenderedTimers();
+		return rendered.reduce((sum, t) => sum + t.estimate_seconds, 0);
+	}
+
+	public totalTracked(): number {
+		const rendered = this.getFlattenedRenderedTimers();
+		return rendered.reduce((sum, t) => sum + this.getActiveTrackedSeconds(t), 0);
+	}
+
+	private getFlattenedRenderedTimers(): Timer[] {
+		const list: Timer[] = [];
+		const parents = this.timers.filter(t => t.parent_id === null);
+		for (const parent of parents) {
+			list.push(parent);
+			const subtasks = this.timers.filter(t => t.parent_id === parent.id);
+			for (const sub of subtasks) {
+				list.push(sub);
+			}
+		}
+		return list;
+	}
+
+	public async loadTimers() {
+		try {
+			const dbTimers: Timer[] = await this.db.select("timers", "order=sort_order.asc,created_at.asc");
+			let dbSegments: TimerSegment[] = [];
+			try {
+				dbSegments = await this.db.select("timer_segments", "order=started_at.asc");
+			} catch (e) {
+				console.error("Failed to load segments", e);
+			}
+			
+			// Database self-healing: Find subtasks with invalid parent_ids and delete them
+			const parentIds = dbTimers.filter(t => t.parent_id === null).map(t => t.id);
+			const orphans = dbTimers.filter(t => t.parent_id !== null && !parentIds.includes(t.parent_id));
+			if (orphans.length > 0) {
+				for (const orphan of orphans) {
+					await this.db.delete("timers", `id=eq.${orphan.id}`);
+					// Also clean up any segments belonging to orphans
+					await this.db.delete("timer_segments", `timer_id=eq.${orphan.id}`);
+				}
+				// Reload timers to ensure clean memory sync
+				await this.loadTimers();
+				return;
+			}
+			
+			// Safe Central Sync: merges database list
+			const localRunning = this.timers.find(t => t.is_running);
+			this.timers = dbTimers.map(dbTimer => {
+				const segments = dbSegments.filter(s => s.timer_id === dbTimer.id);
+				
+				if (localRunning && dbTimer.id === localRunning.id) {
+					if (!dbTimer.is_running) {
+						return { ...dbTimer, segments }; // Honour pause event triggered on another client
+					}
+					return {
+						...dbTimer,
+						tracked_seconds: Math.max(dbTimer.tracked_seconds, localRunning.tracked_seconds),
+						visual_seconds: localRunning.visual_seconds, // Prevent visual ticking snapping during reloads
+						segments
+					};
+				}
+				return { ...dbTimer, segments };
+			});
+		} catch {
+			console.error("Productivity Timer: failed to load timers.");
+		}
+	}
+
+	public async loadSessions() {
+		try {
+			const sessionRows = await this.db.select("timer_sessions", "order=completed_at.desc&limit=30");
+			const entries = await this.db.select("timer_session_entries", "");
+			this.sessions = sessionRows.map((s: any) => ({
+				...s,
+				entries: entries.filter((e: any) => e.session_id === s.id),
+			}));
+		} catch {}
+	}
+
+	private toggleWindow() {
 		if (this.floatingWindow) {
 			this.floatingWindow.destroy();
 			this.floatingWindow = null;
@@ -1608,6 +2352,27 @@ export default class ProductivityTimerPlugin extends Plugin {
 			return;
 		}
 		this.floatingWindow = new ProductivityTimerWindow(this);
+	}
+
+	public formatTime(seconds: number): string {
+		const h = Math.floor(seconds / 3600);
+		const m = Math.floor((seconds % 3600) / 60);
+		const s = seconds % 60;
+		if (h > 0) return `${h}h ${m.toString().padStart(2, "0")}m`;
+		if (m > 0) return `${m}m ${s.toString().padStart(2, "0")}s`;
+		return `${s}s`;
+	}
+
+	public parseTimeInput(input: string): number | null {
+		input = input.trim().toLowerCase();
+		if (!input) return 0;
+		const hm = input.match(/(?:(\d+)h)?\s*(?:(\d+)m)?\s*(?:(\d+)s)?/);
+		if (hm && (hm[1] || hm[2] || hm[3])) {
+			return parseInt(hm[1] || "0") * 3600 + parseInt(hm[2] || "0") * 60 + parseInt(hm[3] || "0");
+		}
+		const num = parseInt(input);
+		if (!isNaN(num)) return num * 60;
+		return null;
 	}
 
 	async loadSettings() {
