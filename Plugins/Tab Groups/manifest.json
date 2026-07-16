@@ -1,0 +1,11 @@
+{
+	"id": "tab-groups",
+	"name": "Tab Groups",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Organize your active tabs into virtual groups without unloading them from memory.",
+	"author": "Julian Ventura",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

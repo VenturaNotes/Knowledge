@@ -1,4 +1,4 @@
-# pasteFile.zsh (Sourced Function Version)
+# pasteFile.zsh
 
 pasteFile() {
     # Declare all variables as local to prevent leaking into terminal memory
@@ -13,24 +13,32 @@ pasteFile() {
         return 1
     fi
 
-    # Retrieve file system paths from the system clipboard using macOS JXA
+    # Retrieve native file system paths from the system clipboard using macOS JXA.
+    # We strictly check for actual native file objects (no plain text fallbacks).
     applescript_out=$(osascript -l JavaScript -e '
-        ObjC.import("AppKit");
-        var pb = $.NSPasteboard.generalPasteboard;
-        var plist = pb.propertyListForType("NSFilenamesPboardType");
-        if (plist) {
-            var files = ObjC.deepUnwrap(plist);
-            if (files && files.length > 0) {
-                files.join("\n");
+        function run() {
+            ObjC.import("AppKit");
+            var pb = $.NSPasteboard.generalPasteboard;
+            
+            // 1. Check for native Finder files
+            var plist = pb.propertyListForType("NSFilenamesPboardType");
+            if (plist) {
+                var files = ObjC.deepUnwrap(plist);
+                if (files && files.length > 0) {
+                    return files.join("\n");
+                }
             }
-        } else {
+            
+            // 2. Check for public.file-url
             var fileUrl = pb.stringForType("public.file-url");
             if (fileUrl) {
                 var url = $.NSURL.URLWithString(fileUrl);
                 if (url && url.path) {
-                    url.path.js;
+                    return ObjC.unwrap(url.path);
                 }
             }
+            
+            return "";
         }
     ' 2>/dev/null)
 
@@ -55,7 +63,6 @@ pasteFile() {
 
         # Copy recursively (-R), preserve attributes (-p), run verbosely (-v),
         # and prompt before overwriting (-i).
-        # Note: If you choose 'n' to a prompt, cp will skip that file and proceed with others.
         cp -Rpiv "$clean_path" "$target_dir/"
     done
 }

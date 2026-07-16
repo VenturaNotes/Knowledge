@@ -6,6 +6,8 @@
 	- The `tab` is case-sensitive
 - Pastes message in your clipboard into the file
 	- `pbpaste > o-copyFile`
+- View text currently saved in clipboard
+	- `pbpaste`
 - Lets you create a folder within the directory you're currently in
 	- `mkdir <folder_name>`
 - Great for searching for files within a terminal 
@@ -24,6 +26,21 @@
 	- `mv old-name.txt new-name.txt`
 - Create a directory
 	- `mkdir MyNewFolder`
+- Copying a git diff within directory on Mac
+	- `git diff | pbcopy`
+- Copying in the same location: To create an exact duplicate of a folder in the same directory under a new name
+	- `cp -R original_folder duplicate_folder`
+- (Custom) How to refresh my terminal `.zshrc` commands?
+	- `src`
+- Check how many shells deep I'm nested in
+	- `echo $SHLVL`
+- Return to parent shell
+	- `exit`
+- Your active shell process terminates its own memory and immediately loads a completely fresh zsh process in its place.
+	- `exec zsh`
+- It would start a new shell inside your current shell (nesting them), meaning your old environment would still be waiting in the background.
+	- `zsh`
+
 ## Source [^1]
 - A point at which data enters or leaves the computer
 ## Source[^2]
