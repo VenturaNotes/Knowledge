@@ -2586,17 +2586,22 @@ Year: 2021-09-01
 	1436. magma
 	1437. magnetic field
 	1438. magnitude(of a vector)
-	1439. magnitude
+	1439. [[magnitude]]
 	1440. [[main diagonal]]
 	
 	1441. major arc
+		1. See ARC.
 	1442. major axis
+		1. See ELLIPSE.
 	1443. Mandelbrot, Benoît (1924-2010)
-	1444. Mandelbrot set
+	1444. [[Mandelbrot set]]
 	1445. Manhattan norm
 	1446. Mann-Whitney U test
+		1. See WILCOXON RANK-SUM TEST.
 	1447. MANOVA
+		1. See MULTIVARIATE ANALYSIS OF VARIANCE.
 	1448. mantissa
+		1. See CHARACTERISTIC.
 	1449. many-to-one
 	1450. many-valued function
 	
@@ -2608,7 +2613,7 @@ Year: 2021-09-01
 	1456. mass
 	1457. mass-energy equation
 	1458. matched-pairs design
-	1459. matching
+	1459. [[matching]]
 	1460. material derivative
 	
 	1461. [[mathematical biology]]
