@@ -18,6 +18,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 	private overlayKeydownListener: ((e: KeyboardEvent) => void) | null = null;
 	
 	public collapsedParentIds: Set<string> = new Set();
+	public notifiedCompletes: Set<string> = new Set();
+	
+	public activeMobileView: ProductivityTimerView | null = null;
 
 	async onload() {
 		await this.loadSettings();
@@ -44,15 +47,14 @@ export default class ProductivityTimerPlugin extends Plugin {
 		if (this.settings.supabaseUrl && this.settings.supabaseKey) {
 			this.db.subscribeToTable("timers", async (payload) => {
 				if (this.isWriting) return;
-				const eventType = payload.eventType || payload.event || "UPDATE";
+				const data = payload.data || payload;
+				const eventType = (data.eventType || payload.eventType || payload.event || payload.type || "UPDATE").toUpperCase();
 
-				// Safe Overwrite Guard: Check if another client started a new timer
-				if (eventType === "UPDATE" && payload.new) {
-					const incoming = payload.new;
+				if (eventType === "UPDATE" && (data.new || payload.new)) {
+					const incoming = data.new || payload.new;
 					const localRunning = this.timers.find(t => t.is_running);
 					
 					if (localRunning && incoming.is_running && incoming.id !== localRunning.id) {
-						// Another client has hijacked the active state. Flush local timer state to database before reloading
 						const nowStr = this.getCalibratedISOString();
 						const start = localRunning.last_started_at;
 						if (start) {
@@ -79,11 +81,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 				}
 
 				this.loadTimers().then(() => {
-					if (eventType === "INSERT" || eventType === "DELETE") {
-						this.refreshUI();
-					} else {
-						this.tickUI();
-					}
+					this.refreshUI();
 				});
 			});
 		}
@@ -119,12 +117,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public getMobileView(): ProductivityTimerView | null {
-		const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_PRODUCTIVITY_TIMER);
-		const firstLeaf = leaves[0];
-		if (firstLeaf && firstLeaf.view instanceof ProductivityTimerView) {
-			return firstLeaf.view;
-		}
-		return null;
+		return this.activeMobileView;
 	}
 
 	public refreshUI() {
@@ -269,12 +262,131 @@ export default class ProductivityTimerPlugin extends Plugin {
 			color: "var(--text-normal)"
 		});
 
+		const closeBtn = overlay.createEl("button", { text: "✕" });
+		Object.assign(closeBtn.style, {
+			position: "absolute",
+			top: "20px",
+			right: "20px",
+			width: "40px",
+			height: "40px",
+			borderRadius: "50%",
+			border: "none",
+			background: "rgba(255, 255, 255, 0.15)",
+			color: "var(--text-normal)",
+			fontSize: "18px",
+			cursor: "pointer",
+			display: "flex",
+			alignItems: "center",
+			justifyContent: "center",
+			transition: "background 0.1s"
+		});
+		closeBtn.addEventListener("click", () => {
+			if (this.rotationOverlay) {
+				this.rotationOverlay.remove();
+				this.rotationOverlay = null;
+			}
+			if (this.overlayKeydownListener) {
+				window.removeEventListener("keydown", this.overlayKeydownListener, true);
+				this.overlayKeydownListener = null;
+			}
+		});
+
 		const label = overlay.createDiv({ cls: "pt-overlay-label" });
 		const spanEl = label.createEl("span", { text: "UP NEXT:" });
 		spanEl.style.cssText = "font-size: 13px; font-weight: 600; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 8px; display: block; text-align: center;";
 
 		const h1El = label.createEl("h1", { text: nextSubtask.name });
 		h1El.style.cssText = "font-size: 34px; font-weight: 700; color: var(--interactive-accent); margin: 0; text-align: center;";
+
+		const pEl = overlay.createEl("p", { text: "Press [ Ctrl + Space ] to acknowledge" });
+		pEl.style.cssText = "font-size: 11px; color: var(--text-muted); margin-top: 36px; text-transform: uppercase; letter-spacing: 0.05em;";
+
+		document.body.appendChild(overlay);
+		this.rotationOverlay = overlay;
+
+		const activeEl = document.activeElement as HTMLElement;
+		if (activeEl) activeEl.blur();
+
+		this.overlayKeydownListener = (e: KeyboardEvent) => {
+			if (e.ctrlKey && (e.code === "Space" || e.key === " ")) {
+				e.preventDefault();
+				e.stopPropagation();
+				
+				if (this.rotationOverlay) {
+					this.rotationOverlay.remove();
+					this.rotationOverlay = null;
+				}
+				if (this.overlayKeydownListener) {
+					window.removeEventListener("keydown", this.overlayKeydownListener, true);
+					this.overlayKeydownListener = null;
+				}
+			}
+		};
+
+		window.addEventListener("keydown", this.overlayKeydownListener, true);
+	}
+
+	public showCompleteOverlay(taskName: string) {
+		if (this.rotationOverlay) {
+			this.rotationOverlay.remove();
+		}
+		if (this.overlayKeydownListener) {
+			window.removeEventListener("keydown", this.overlayKeydownListener, true);
+		}
+
+		const overlay = document.createElement("div");
+		overlay.id = "pt-complete-overlay";
+		Object.assign(overlay.style, {
+			position: "fixed",
+			top: "0",
+			left: "0",
+			width: "100vw",
+			height: "100vh",
+			backgroundColor: "rgba(0, 0, 0, 0.90)",
+			zIndex: "9999",
+			display: "flex",
+			flexDirection: "column",
+			alignItems: "center",
+			justifyContent: "center",
+			fontFamily: "var(--font-interface)",
+			color: "var(--text-normal)"
+		});
+
+		const closeBtn = overlay.createEl("button", { text: "✕" });
+		Object.assign(closeBtn.style, {
+			position: "absolute",
+			top: "20px",
+			right: "20px",
+			width: "40px",
+			height: "40px",
+			borderRadius: "50%",
+			border: "none",
+			background: "rgba(16, 185, 129, 0.20)",
+			color: "#10B981",
+			fontSize: "18px",
+			cursor: "pointer",
+			display: "flex",
+			alignItems: "center",
+			justifyContent: "center",
+			transition: "background 0.1s"
+		});
+		closeBtn.addEventListener("click", () => {
+			if (this.rotationOverlay) {
+				this.rotationOverlay.remove();
+				this.rotationOverlay = null;
+			}
+			if (this.overlayKeydownListener) {
+				window.removeEventListener("keydown", this.overlayKeydownListener, true);
+				this.overlayKeydownListener = null;
+			}
+		});
+
+		const label = overlay.createDiv({ cls: "pt-overlay-label" });
+		const spanEl = label.createEl("span", { text: "TASK COMPLETE" });
+		spanEl.style.cssText = "font-size: 13px; font-weight: 700; color: #10B981; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 8px; display: block; text-align: center;";
+
+		const h1El = label.createEl("h1", { text: taskName });
+		h1El.style.cssText = "font-size: 34px; font-weight: 700; color: #10B981; margin: 0; text-align: center; text-shadow: 0 0 10px rgba(16, 185, 129, 0.3);";
 
 		const pEl = overlay.createEl("p", { text: "Press [ Ctrl + Space ] to acknowledge" });
 		pEl.style.cssText = "font-size: 11px; color: var(--text-muted); margin-top: 36px; text-transform: uppercase; letter-spacing: 0.05em;";
@@ -312,6 +424,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		}
 
 		const activeTracked = this.getActiveTrackedSeconds(running);
+		const displayTracked = this.getTimerDisplayTimes(running).tracked;
 		const isSubtask = running.parent_id !== null;
 		const parent = isSubtask ? this.timers.find(t => t.id === running.parent_id) : null;
 		const isRotationActive = parent ? parent.is_rotation_running : false;
@@ -326,7 +439,26 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 			this.statusBarEl.setText(`[${running.name} : ${this.formatTime(timeLeft)} : ${switchTimeStr}]`);
 		} else {
-			this.statusBarEl.setText(`[${running.name} : ${this.formatTime(activeTracked)}]`);
+			const estimate = running.estimate_seconds;
+			if (estimate > 0 && displayTracked < estimate) {
+				const timeLeft = estimate - displayTracked;
+				const doneTimeEpoch = Date.now() + (timeLeft * 1000);
+				const doneDate = new Date(doneTimeEpoch);
+				const doneTimeStr = doneDate.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+
+				this.statusBarEl.setText(`[${running.name} : ${this.formatTime(timeLeft)} : ${doneTimeStr}]`);
+				
+				// Reset notified state automatically if tracked time drops below estimate (2)
+				this.notifiedCompletes.delete(running.id);
+			} else {
+				if (estimate > 0 && displayTracked >= estimate) {
+					if (!this.notifiedCompletes.has(running.id)) {
+						this.notifiedCompletes.add(running.id);
+						this.showCompleteOverlay(running.name); // Triggers full-screen completed overlay on crossing transition (2)
+					}
+				}
+				this.statusBarEl.setText(`[${running.name} : ${this.formatTime(displayTracked)}]`);
+			}
 		}
 	}
 
@@ -350,6 +482,77 @@ export default class ProductivityTimerPlugin extends Plugin {
 		
 		timer.visual_seconds = undefined;
 		return timer.tracked_seconds;
+	}
+
+	public getRollupDetails() {
+		const parentsWithEstimate = this.timers.filter(t => t.parent_id === null && t.estimate_seconds > 0);
+		const totalEstimateSeconds = parentsWithEstimate.reduce((sum, t) => sum + t.estimate_seconds, 0);
+		const totalTrackedSeconds = parentsWithEstimate.reduce((sum, t) => sum + this.getTimerDisplayTimes(t).tracked, 0);
+
+		let totalTimeLeftSeconds = 0;
+		for (const t of parentsWithEstimate) {
+			const tracked = this.getTimerDisplayTimes(t).tracked;
+			if (tracked < t.estimate_seconds) {
+				totalTimeLeftSeconds += (t.estimate_seconds - tracked);
+			}
+		}
+
+		const doneTimeEpoch = Date.now() + (totalTimeLeftSeconds * 1000);
+		const doneDate = new Date(doneTimeEpoch);
+		const month = doneDate.getMonth() + 1;
+		const day = doneDate.getDate();
+		const doneTimeStr = doneDate.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+
+		return {
+			totalEstimateSeconds,
+			totalTrackedSeconds,
+			totalTimeLeftSeconds,
+			month,
+			day,
+			doneTimeStr
+		};
+	}
+
+	public getRunningTaskDetails() {
+		const running = this.timers.find(t => t.is_running);
+		if (!running) {
+			return {
+				name: "No Task Running",
+				rightText: "",
+				isRunning: false
+			};
+		}
+
+		const activeParent = running.parent_id ? this.timers.find(p => p.id === running.parent_id) : running;
+		const displayName = activeParent ? activeParent.name : running.name;
+		const { tracked, estimate } = this.getTimerDisplayTimes(activeParent || running);
+
+		if (estimate > 0) {
+			if (tracked < estimate) {
+				const timeLeft = estimate - tracked;
+				const doneTimeEpoch = Date.now() + (timeLeft * 1000);
+				const doneDate = new Date(doneTimeEpoch);
+				const doneTimeStr = doneDate.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+				return {
+					name: displayName,
+					rightText: `${this.formatTime(timeLeft)} (Done @ ${doneTimeStr})`,
+					isRunning: true
+				};
+			} else {
+				const overtime = tracked - estimate;
+				return {
+					name: displayName,
+					rightText: `+${this.formatTime(overtime)}`,
+					isRunning: true
+				};
+			}
+		} else {
+			return {
+				name: displayName,
+				rightText: "No Time Estimate",
+				isRunning: true
+			};
+		}
 	}
 
 	public totalEstimate(): number {
@@ -386,12 +589,11 @@ export default class ProductivityTimerPlugin extends Plugin {
 		} else {
 			const subtasks = this.timers.filter(t => t.parent_id === timer.id);
 			const sumTracked = subtasks.reduce((sum, s) => sum + this.getActiveTrackedSeconds(s), 0);
-			const sumEstimate = subtasks.reduce((sum, s) => sum + s.estimate_seconds, 0);
 			return {
 				tracked: this.getActiveTrackedSeconds(timer) + sumTracked,
-				estimate: timer.estimate_seconds + sumEstimate,
+				estimate: timer.estimate_seconds,
 				sumTracked,
-				sumEstimate
+				sumEstimate: subtasks.reduce((sum, s) => sum + s.estimate_seconds, 0)
 			};
 		}
 	}
@@ -451,6 +653,16 @@ export default class ProductivityTimerPlugin extends Plugin {
 				}
 				return { ...dbTimer, segments };
 			});
+
+			// Reconcile and prime the complete-state mapping with the loaded data (2)
+			for (const t of this.timers) {
+				const { tracked, estimate } = this.getTimerDisplayTimes(t);
+				if (estimate > 0 && tracked >= estimate) {
+					this.notifiedCompletes.add(t.id);
+				} else {
+					this.notifiedCompletes.delete(t.id);
+				}
+			}
 		} catch {
 			console.error("Productivity Timer: failed to load timers.");
 		}
@@ -843,19 +1055,14 @@ export default class ProductivityTimerPlugin extends Plugin {
 	public async addTimer() {
 		await this.runWriteAction(async () => {
 			const maxSort = this.timers.filter(t => t.parent_id === null).reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
-			const result = await this.db.insert("timers", {
+			await this.db.insert("timers", {
 				name: "New Timer",
 				estimate_seconds: 0,
 				tracked_seconds: 0,
 				is_running: false,
 				sort_order: maxSort + 1
 			});
-			if (Array.isArray(result)) {
-				const firstResult = result[0];
-				if (firstResult) {
-					this.timers.push(firstResult);
-				}
-			}
+			await this.loadTimers();
 			this.refreshUI();
 		});
 	}
@@ -920,7 +1127,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 				await this.db.update("timers", {
 					tracked_seconds: 0,
-					estimate_seconds: 0,
 					is_running: false,
 					is_rotation_running: false,
 					is_last_active: false,
@@ -999,9 +1205,11 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 	async loadSettings() {
 		this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+		this.collapsedParentIds = new Set(this.settings.collapsedParentIds || []);
 	}
 
 	async saveSettings() {
+		this.settings.collapsedParentIds = Array.from(this.collapsedParentIds);
 		await this.saveData(this.settings);
 	}
 
@@ -1023,15 +1231,30 @@ export default class ProductivityTimerPlugin extends Plugin {
 				min-width: 380px !important;
 				min-height: 300px !important;
 				position: fixed !important;
-				z-index: 99 !important;
+				z-index: 50 !important;
 			}
 			.pt-mobile-wrapper {
 				display: flex !important;
 				flex-direction: column !important;
 				background-color: var(--background-primary) !important;
 				height: 100% !important;
+				max-height: 100% !important;
 				overflow: hidden !important;
 				font-family: var(--font-interface) !important;
+				box-sizing: border-box !important;
+			}
+			/* Disable parent view-content or sidebar leaf scroll fade overlays (1) */
+			.view-content:has(.pt-mobile-wrapper)::after,
+			.view-content:has(.pt-mobile-wrapper)::before,
+			.workspace-leaf-content:has(.pt-mobile-wrapper)::after,
+			.workspace-leaf-content:has(.pt-mobile-wrapper)::before,
+			.pt-mobile-wrapper::after,
+			.pt-mobile-wrapper::before {
+				display: none !important;
+				content: none !important;
+				background: none !important;
+				background-image: none !important;
+				box-shadow: none !important;
 			}
 			.pt-titlebar {
 				display: flex;
@@ -1069,12 +1292,13 @@ export default class ProductivityTimerPlugin extends Plugin {
 			}
 			.pt-close-btn:hover { background: var(--color-red); color: white; }
 			.pt-body {
-				flex: 1;
-				overflow-y: auto;
-				padding: 12px;
+				flex: 1 1 auto !important;
+				overflow-y: auto !important;
+				padding: 12px 12px 40px 12px !important;
 				display: flex;
 				flex-direction: column;
 				gap: 8px;
+				min-height: 0 !important;
 			}
 			.pt-actions { display: flex; gap: 6px; flex-wrap: wrap; }
 			.pt-rollup {
@@ -1106,7 +1330,12 @@ export default class ProductivityTimerPlugin extends Plugin {
 			.pt-rollup-divider { color: var(--text-faint); }
 			.pt-rollup-estimate { color: var(--text-muted); }
 			
-			.pt-timer-rows { display: flex; flex-direction: column; gap: 6px; }
+			.pt-timer-rows { 
+				display: flex; 
+				flex-direction: column; 
+				gap: 6px; 
+				padding-bottom: 80px !important;
+			}
 			.pt-row {
 				display: flex;
 				align-items: center;
@@ -1195,22 +1424,31 @@ export default class ProductivityTimerPlugin extends Plugin {
 				display: flex;
 				flex-direction: column;
 				gap: 6px;
-				max-height: 250px;
+				max-height: 350px;
 				overflow-y: auto;
 				border: 1px solid var(--background-modifier-border);
 				border-radius: 6px;
 				padding: 8px;
 				background: var(--background-primary-alt);
+				box-sizing: border-box !important;
 			}
 			.pt-modal-log-row {
-				display: flex;
-				align-items: center;
-				justify-content: space-between;
-				gap: 8px;
-				background: var(--background-primary);
-				border: 1px solid var(--background-modifier-border);
-				border-radius: 4px;
-				padding: 6px 10px;
+				display: flex !important;
+				align-items: center !important;
+				justify-content: space-between !important;
+				gap: 6px !important;
+				background: var(--background-primary) !important;
+				border: 1px solid var(--background-modifier-border) !important;
+				border-radius: 4px !important;
+				padding: 6px 10px !important;
+				flex-wrap: wrap !important;
+				box-sizing: border-box !important;
+			}
+			
+			/* Shift datetime-local text fields wrapper to make room for native calendar icon (2) */
+			.pt-modal-log-row input[type="datetime-local"]::-webkit-datetime-edit,
+			.pt-modal-log-row input[type="datetime-local"]::-webkit-datetime-edit-fields-wrapper {
+				padding-left: 10px !important; /* Adjusted to 10px to resolve right-side truncation (PM) */
 			}
 			.pt-modal-log-row--active {
 				border: 1px dashed var(--interactive-accent) !important;
@@ -1537,13 +1775,13 @@ export default class ProductivityTimerPlugin extends Plugin {
 			}
 			
 			/* Disable pointer events on nested row elements during active drag actions */
-			body:has(.pt-row--dragging) .pt-row * {
+			body.pt-is-row-dragging .pt-row * {
 				pointer-events: none !important;
 			}
 			
 			/* Bypass Electron webview interception boundaries during active drag, resize, and title-dragging actions */
-			body:has(.pt-row--dragging) webview,
-			body:has(.pt-row--dragging) iframe,
+			body.pt-is-row-dragging webview,
+			body.pt-is-row-dragging iframe,
 			body.pt-is-window-dragging webview,
 			body.pt-is-window-dragging iframe,
 			body.pt-is-window-resizing webview,

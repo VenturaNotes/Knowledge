@@ -3,6 +3,7 @@ export class SupabaseClient {
 	private key: string;
 	private realtimeWs: WebSocket | null = null;
 	private realtimeCallbacks: Map<string, (payload: any) => void> = new Map();
+	private heartbeatInterval: any = null;
 
 	constructor(url: string, key: string) {
 		this.url = url.replace(/\/$/, "");
@@ -87,6 +88,10 @@ export class SupabaseClient {
 		}
 
 		if (this.realtimeWs) this.realtimeWs.close();
+		if (this.heartbeatInterval) {
+			clearInterval(this.heartbeatInterval);
+			this.heartbeatInterval = null;
+		}
 		this.realtimeCallbacks.set(table, callback);
 
 		const ws = new WebSocket(wsUrl);
@@ -111,6 +116,18 @@ export class SupabaseClient {
 				},
 				ref: "1",
 			}));
+
+			let refCounter = 2;
+			this.heartbeatInterval = setInterval(() => {
+				if (ws.readyState === WebSocket.OPEN) {
+					ws.send(JSON.stringify({
+						topic: "phoenix",
+						event: "heartbeat",
+						payload: {},
+						ref: String(refCounter++)
+					}));
+				}
+			}, 20000);
 		};
 
 		ws.onmessage = (event) => {
@@ -127,6 +144,10 @@ export class SupabaseClient {
 
 		ws.onerror = () => {};
 		ws.onclose = () => {
+			if (this.heartbeatInterval) {
+				clearInterval(this.heartbeatInterval);
+				this.heartbeatInterval = null;
+			}
 			setTimeout(() => {
 				if (this.realtimeCallbacks.has(table)) this.subscribeToTable(table, callback);
 			}, 3000);
@@ -135,6 +156,10 @@ export class SupabaseClient {
 
 	disconnect() {
 		this.realtimeCallbacks.clear();
+		if (this.heartbeatInterval) {
+			clearInterval(this.heartbeatInterval);
+			this.heartbeatInterval = null;
+		}
 		if (this.realtimeWs) {
 			this.realtimeWs.close();
 			this.realtimeWs = null;

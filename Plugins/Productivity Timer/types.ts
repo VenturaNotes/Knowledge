@@ -43,6 +43,7 @@ export interface PluginSettings {
 	windowY: number;
 	windowWidth: number;
 	windowHeight: number;
+	collapsedParentIds?: string[]; // Persists collapsed states across mobile and desktop (10)
 }
 
 export const DEFAULT_SETTINGS: PluginSettings = {
@@ -52,6 +53,7 @@ export const DEFAULT_SETTINGS: PluginSettings = {
 	windowY: 100,
 	windowWidth: 480,
 	windowHeight: 520,
+	collapsedParentIds: []
 };
 
 export const ICONS = {
