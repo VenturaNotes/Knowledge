@@ -1683,12 +1683,12 @@ Year: 2021-09-01
 	646. eigenbasis
 	
 	647. eigenfunction
-	648. eigenspace
+	648. [[eigenspace]]
 	649. eigenvalue
 	650. [[Einstein's notation]]
 	651. Einstein, Albert (1879-1955)
 	652. Eisenstein's criterion
-	653. elastic
+	653. [[elastic]]
 	654. elasticity
 	655. elastic potential energy
 	656. electromagnetic potentials
@@ -2578,7 +2578,7 @@ Year: 2021-09-01
 	1429. m
 	1430. M
 	
-	1431. machine
+	1431. [[machine]]
 	1432. machine learning
 	1433. Maclaurin, Colin (1698-1746)
 	1434. Maclaurin series
@@ -3710,7 +3710,9 @@ Year: 2021-09-01
 	2439. second-order partial derivative
 	
 	2440. second derivative
+		1. See HIGHER DERIVATIVE.
 	2441. second derivative test
+		1. See DERIVATIVE TEST.
 	2442. second fundamental form
 	2443. section
 	2444. section formulae

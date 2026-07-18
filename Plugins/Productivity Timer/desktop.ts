@@ -157,11 +157,35 @@ export class ProductivityTimerWindow {
 				rotationBtn.innerHTML = timer.is_rotation_running ? ICONS.pause : ICONS.loop;
 			}
 		});
+
+		// Live total bar calculation (8)
+		const rollupInfo = this.plugin.getRollupDetails();
 		const rollupTracked = this.el.querySelector(".pt-rollup-tracked");
-		if (rollupTracked) rollupTracked.textContent = this.plugin.formatTime(this.plugin.totalTracked());
+		if (rollupTracked) rollupTracked.textContent = this.plugin.formatTime(rollupInfo.totalTrackedSeconds);
+		const rollupEstimate = this.el.querySelector(".pt-rollup-estimate");
+		if (rollupEstimate) rollupEstimate.textContent = this.plugin.formatTime(rollupInfo.totalEstimateSeconds);
+		const rollupLeftDetails = this.el.querySelector(".pt-rollup-left-details");
+		if (rollupLeftDetails) {
+			rollupLeftDetails.textContent = ` (Left: ${this.plugin.formatTime(rollupInfo.totalTimeLeftSeconds)} - ${rollupInfo.month}/${rollupInfo.day} ${rollupInfo.doneTimeStr})`;
+		}
+
+		// Live running task bar below TOTAL (9)
+		const runningInfo = this.plugin.getRunningTaskDetails();
+		const runningLabel = this.el.querySelector(".pt-rollup--running-info .pt-rollup-label") as HTMLElement;
+		if (runningLabel) {
+			runningLabel.textContent = runningInfo.name;
+		}
+		const runningRightText = this.el.querySelector(".pt-rollup--running-info .pt-running-right-text");
+		if (runningRightText) {
+			runningRightText.textContent = runningInfo.rightText;
+		}
 	}
 
 	public render() {
+		// Preserves current scroll position before rebuilding the DOM
+		const bodyEl = this.el.querySelector(".pt-body") as HTMLElement;
+		const savedScrollTop = bodyEl ? bodyEl.scrollTop : 0;
+
 		this.el.empty();
 
 		const titleBar = this.el.createDiv({ cls: "pt-titlebar" });
@@ -185,12 +209,36 @@ export class ProductivityTimerWindow {
 		const archiveBtn = actions.createEl("button", { cls: "pt-btn pt-btn--archive", text: this.showArchive ? "Hide Archive" : "Archive" });
 		archiveBtn.addEventListener("click", () => { this.showArchive = !this.showArchive; this.render(); });
 
+		// Custom TOTAL row calculations (8)
 		const rollup = body.createDiv({ cls: "pt-rollup" });
 		rollup.createEl("span", { cls: "pt-rollup-label", text: "Total" });
 		const rollupRight = rollup.createDiv({ cls: "pt-rollup-right" });
-		rollupRight.createEl("span", { cls: "pt-rollup-tracked", text: this.plugin.formatTime(this.plugin.totalTracked()) });
+
+		const rollupInfo = this.plugin.getRollupDetails();
+		rollupRight.createEl("span", { cls: "pt-rollup-tracked", text: this.plugin.formatTime(rollupInfo.totalTrackedSeconds) });
 		rollupRight.createEl("span", { cls: "pt-rollup-divider", text: "/" });
-		rollupRight.createEl("span", { cls: "pt-rollup-estimate", text: this.plugin.formatTime(this.plugin.totalEstimate()) });
+		rollupRight.createEl("span", { cls: "pt-rollup-estimate", text: this.plugin.formatTime(rollupInfo.totalEstimateSeconds) });
+		
+		const rollupLeftDetails = rollupRight.createEl("span", { 
+			cls: "pt-rollup-left-details", 
+			text: ` (Left: ${this.plugin.formatTime(rollupInfo.totalTimeLeftSeconds)} - ${rollupInfo.month}/${rollupInfo.day} ${rollupInfo.doneTimeStr})`
+		});
+		rollupLeftDetails.style.cssText = "font-size: 11px; color: var(--text-muted); margin-left: 6px; font-weight: normal;";
+
+		// Custom live running task indicator directly below TOTAL (9)
+		const runningLine = body.createDiv({ cls: "pt-rollup pt-rollup--running-info" });
+		runningLine.style.cssText = "border-left-color: var(--color-green);";
+		
+		const runningInfo = this.plugin.getRunningTaskDetails();
+		const runningLabel = runningLine.createEl("span", { cls: "pt-rollup-label", text: runningInfo.name });
+		runningLabel.style.cssText = "font-weight: 600; text-transform: none; font-size: 12px; color: var(--text-normal);";
+		
+		const runningRight = runningLine.createDiv({ cls: "pt-rollup-right" });
+		const runningRightText = runningRight.createEl("span", { 
+			cls: "pt-running-right-text", 
+			text: runningInfo.rightText
+		});
+		runningRightText.style.cssText = "font-size: 12px; font-weight: 600; color: var(--text-muted);";
 
 		const timerRows = body.createDiv({ cls: "pt-timer-rows" });
 		this.buildTimerRows(timerRows);
@@ -220,6 +268,9 @@ export class ProductivityTimerWindow {
 
 		// Setup transparent border handles around edges and corners
 		this.setupMultiResize();
+
+		// Restores saved scroll position dynamically after DOM rendering completes
+		body.scrollTop = savedScrollTop;
 	}
 
 	private buildTimerRows(container: HTMLElement) {
@@ -261,6 +312,7 @@ export class ProductivityTimerWindow {
 				e.dataTransfer.setData("text/plain", timer.id);
 			}
 			row.classList.add("pt-row--dragging");
+			document.body.classList.add("pt-is-row-dragging");
 		});
 
 		row.addEventListener("dragover", (e: DragEvent) => {
@@ -280,6 +332,7 @@ export class ProductivityTimerWindow {
 			row.classList.remove("pt-row--dragging");
 			row.classList.remove("pt-row--drag-over");
 			row.setAttribute("draggable", "false");
+			document.body.classList.remove("pt-is-row-dragging");
 			setTimeout(() => {
 				this.draggedTimerId = null;
 			}, 100);
@@ -332,13 +385,14 @@ export class ProductivityTimerWindow {
 					text: isCollapsed ? "▸" : "▾",
 					title: isCollapsed ? "Expand subtasks" : "Collapse subtasks"
 				});
-				toggleBtn.addEventListener("click", (e) => {
+				toggleBtn.addEventListener("click", async (e) => {
 					e.stopPropagation();
 					if (isCollapsed) {
 						this.plugin.collapsedParentIds.delete(timer.id);
 					} else {
 						this.plugin.collapsedParentIds.add(timer.id);
 					}
+					await this.plugin.saveSettings(); // Persist collapsed list (10)
 					this.render();
 				});
 			} else {
@@ -408,26 +462,19 @@ export class ProductivityTimerWindow {
 		estimateInput.value = estimate > 0 ? this.plugin.formatTime(estimate) : "";
 		estimateInput.placeholder = "0h 00m";
 		
-		const sumEstimate = this.plugin.timers.filter(t => t.parent_id === timer.id).reduce((sum, s) => sum + s.estimate_seconds, 0);
 		estimateInput.addEventListener("blur", async () => {
 			const parsed = this.plugin.parseTimeInput(estimateInput.value);
 			if (parsed !== null) {
 				await this.plugin.runWriteAction(async () => {
-					if (isSubtask) {
-						if (parsed !== timer.estimate_seconds) {
-							timer.estimate_seconds = parsed;
-							await this.plugin.db.update("timers", { estimate_seconds: parsed }, `id=eq.${timer.id}`);
-						}
-					} else {
-						const newParentEstimate = Math.max(0, parsed - (sumEstimate || 0));
-						if (newParentEstimate !== timer.estimate_seconds) {
-							timer.estimate_seconds = newParentEstimate;
-							await this.plugin.db.update("timers", { estimate_seconds: newParentEstimate }, `id=eq.${timer.id}`);
-						}
+					// Parent estimates do not offset with subtask estimates (11)
+					if (parsed !== timer.estimate_seconds) {
+						timer.estimate_seconds = parsed;
+						await this.plugin.db.update("timers", { estimate_seconds: parsed }, `id=eq.${timer.id}`);
 					}
 					await this.plugin.loadTimers();
 					const { estimate: latestEstimate } = this.plugin.getTimerDisplayTimes(timer);
 					estimateInput.value = latestEstimate > 0 ? this.plugin.formatTime(latestEstimate) : "";
+					this.plugin.refreshUI(); // Refreshes Total row immediately on blur (2)
 				});
 			}
 		});

@@ -18,6 +18,12 @@ export class TimeLogModal extends Modal {
 
 	async onOpen() {
 		this.titleEl.setText(`Logs: ${this.getTimer().name}`);
+		
+		// Configure a larger, more comfortable modal geometry to display columns inline
+		this.modalEl.style.width = "650px";
+		this.modalEl.style.maxWidth = "95vw";
+		this.modalEl.style.boxSizing = "border-box";
+		
 		this.renderLogs();
 
 		this.tickInterval = window.setInterval(() => {
@@ -39,7 +45,8 @@ export class TimeLogModal extends Modal {
 		const dd = pad(date.getDate());
 		const hh = pad(date.getHours());
 		const min = pad(date.getMinutes());
-		return `${yyyy}-${mm}-${dd}T${hh}:${min}`;
+		const ss = pad(date.getSeconds());
+		return `${yyyy}-${mm}-${dd}T${hh}:${min}:${ss}`;
 	}
 
 	private parseTimeInput(input: string): number | null {
@@ -142,8 +149,19 @@ export class TimeLogModal extends Modal {
 
 		if (timer.is_running && timer.last_started_at) {
 			const activeRow = this.listContainer.createDiv({ cls: "pt-modal-log-row pt-modal-log-row--active" });
+			
+			// 1. Live duration badge is rendered as the first column
+			const durDisp = activeRow.createEl("span", { 
+				cls: "pt-modal-duration-badge pt-modal-live-duration", 
+				text: "Calculating..." 
+			});
+			durDisp.style.cssText = "width: 75px; text-align: center; border: 1px dashed var(--interactive-accent); border-radius: 3px; font-family: var(--font-monospace); font-size: 11px; padding: 2px 6px; font-weight: bold; background: var(--background-secondary-alt); color: var(--interactive-accent); display: inline-block; box-sizing: border-box;";
+
+			// 2. Start DateTime Picker (minimum width increased to 155px to prevent PM clipping)
 			const startPicker = activeRow.createEl("input", { type: "datetime-local" });
+			startPicker.setAttribute("step", "1");
 			startPicker.value = this.toLocalDateTimeString(new Date(timer.last_started_at));
+			startPicker.style.cssText = "flex: 1 1 auto; min-width: 155px; font-size: 11px; padding: 4px 8px !important; box-sizing: border-box; background: var(--background-secondary-alt); color: var(--text-normal); border: 1px solid var(--background-modifier-border); border-radius: 4px; margin: 0;";
 			
 			startPicker.addEventListener("blur", async () => {
 				const newStart = new Date(startPicker.value);
@@ -157,21 +175,18 @@ export class TimeLogModal extends Modal {
 				}
 			});
 
-			activeRow.createEl("span", { text: "to", cls: "pt-modal-to-label" });
-			activeRow.createEl("span", { text: "Present (Active)", cls: "pt-modal-active-label" });
+			// 3. TO separator label
+			const toLabel = activeRow.createEl("span", { text: "to", cls: "pt-modal-to-label" });
+			toLabel.style.cssText = "font-size: 10px; color: var(--text-faint); text-transform: uppercase;";
 
-			const durDisp = activeRow.createEl("span", { 
-				cls: "pt-modal-duration-badge pt-modal-live-duration", 
-				text: "Calculating..." 
-			});
+			// 4. Live PRESENT indicator
+			const activeLabel = activeRow.createEl("span", { text: "Present (Active)", cls: "pt-modal-active-label" });
+			activeLabel.style.cssText = "font-size: 11px; font-weight: 600; color: var(--color-green); animation: pt-pulse 2s infinite; flex: 1 1 auto; text-align: center;";
 
-			const elapsed = Math.floor((Date.now() - new Date(timer.last_started_at).getTime()) / 1000);
-			durDisp.textContent = this.formatTime(elapsed);
-
+			// 5. Spacer active button
 			const stopBtn = activeRow.createEl("button", { cls: "pt-btn-del-seg", title: "Active timer running" });
 			stopBtn.innerHTML = "⏸";
-			stopBtn.style.opacity = "0.4";
-			stopBtn.style.pointerEvents = "none";
+			stopBtn.style.cssText = "opacity: 0.4; pointer-events: none; margin-left: auto;";
 		}
 
 		if (segments.length === 0 && (!timer.is_running || !timer.last_started_at)) {
@@ -186,15 +201,29 @@ export class TimeLogModal extends Modal {
 			const start = new Date(seg.started_at);
 			const end = new Date(seg.ended_at);
 
+			// 1. Editable logged duration badge is rendered as the first column
+			const durInput = row.createEl("input", { 
+				type: "text", 
+				cls: "pt-modal-duration-badge", 
+				value: this.formatTime(seg.duration_seconds) 
+			});
+			durInput.style.cssText = "width: 75px; text-align: center; border: 1px solid var(--background-modifier-border); border-radius: 3px; font-family: var(--font-monospace); font-size: 11px; background: var(--background-secondary-alt); color: var(--interactive-accent); cursor: text; font-weight: bold; padding: 2px 6px; box-sizing: border-box;";
+
+			// 2. Start DateTime Picker (minimum width increased to 155px to prevent PM clipping)
 			const startPicker = row.createEl("input", { type: "datetime-local" });
+			startPicker.setAttribute("step", "1");
 			startPicker.value = this.toLocalDateTimeString(start);
+			startPicker.style.cssText = "flex: 1 1 auto; min-width: 155px; font-size: 11px; padding: 4px 8px !important; box-sizing: border-box; background: var(--background-secondary-alt); color: var(--text-normal); border: 1px solid var(--background-modifier-border); border-radius: 4px; margin: 0;";
 
-			row.createEl("span", { text: "to", cls: "pt-modal-to-label" });
+			// 3. TO separator label
+			const toLabel = row.createEl("span", { text: "to", cls: "pt-modal-to-label" });
+			toLabel.style.cssText = "font-size: 10px; color: var(--text-faint); text-transform: uppercase;";
 
+			// 4. End DateTime Picker (minimum width increased to 155px to prevent PM clipping)
 			const endPicker = row.createEl("input", { type: "datetime-local" });
+			endPicker.setAttribute("step", "1");
 			endPicker.value = this.toLocalDateTimeString(end);
-
-			const durDisp = row.createEl("span", { cls: "pt-modal-duration-badge", text: this.formatTime(seg.duration_seconds) });
+			endPicker.style.cssText = "flex: 1 1 auto; min-width: 155px; font-size: 11px; padding: 4px 8px !important; box-sizing: border-box; background: var(--background-secondary-alt); color: var(--text-normal); border: 1px solid var(--background-modifier-border); border-radius: 4px; margin: 0;";
 
 			const updateTimes = async () => {
 				const newStart = new Date(startPicker.value);
@@ -225,7 +254,7 @@ export class TimeLogModal extends Modal {
 					seg.started_at = newStart.toISOString();
 					seg.ended_at = newEnd.toISOString();
 					seg.duration_seconds = newDuration;
-					durDisp.textContent = this.formatTime(newDuration);
+					durInput.value = this.formatTime(newDuration);
 
 					new Notice("Segment log updated.");
 					await this.onUpdate();
@@ -235,9 +264,50 @@ export class TimeLogModal extends Modal {
 				}
 			};
 
+			durInput.addEventListener("blur", async () => {
+				const parsed = this.parseTimeInput(durInput.value);
+				if (parsed !== null && parsed > 0 && parsed !== seg.duration_seconds) {
+					const diff = parsed - seg.duration_seconds;
+					const currentStart = new Date(startPicker.value);
+					const newEnd = new Date(currentStart.getTime() + parsed * 1000);
+					endPicker.value = this.toLocalDateTimeString(newEnd);
+					
+					try {
+						await this.db.update("timer_segments", {
+							ended_at: newEnd.toISOString(),
+							duration_seconds: parsed
+						}, `id=eq.${seg.id}`);
+
+						const currentTimer = this.getTimer();
+						const updatedTracked = Math.max(0, currentTimer.tracked_seconds + diff);
+						currentTimer.tracked_seconds = updatedTracked;
+						await this.db.update("timers", { tracked_seconds: updatedTracked }, `id=eq.${currentTimer.id}`);
+
+						seg.ended_at = newEnd.toISOString();
+						seg.duration_seconds = parsed;
+						
+						new Notice("Duration and end time updated.");
+						await this.onUpdate();
+						this.renderLogsListOnly();
+					} catch {
+						new Notice("Failed to update duration.");
+						durInput.value = this.formatTime(seg.duration_seconds);
+					}
+				} else {
+					durInput.value = this.formatTime(seg.duration_seconds);
+				}
+			});
+
+			durInput.addEventListener("keydown", (e) => {
+				if (e.key === "Enter") {
+					durInput.blur();
+				}
+			});
+
 			startPicker.addEventListener("blur", updateTimes);
 			endPicker.addEventListener("blur", updateTimes);
 
+			// 5. Delete Button
 			const delBtn = row.createEl("button", { cls: "pt-btn-del-seg", title: "Delete segment" });
 			delBtn.innerHTML = "✕";
 			delBtn.addEventListener("click", async () => {
