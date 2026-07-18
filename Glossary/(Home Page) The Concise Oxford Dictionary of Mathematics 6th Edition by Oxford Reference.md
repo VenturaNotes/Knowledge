@@ -2507,14 +2507,14 @@ Year: 2021-09-01
 	1370. linear theory of equilibria
 	1371. linear transformation
 	1372. [[line integral]]
-	1373. line of action
+	1373. [[line of action]]
 	1374. line of symmetry
-	1375. line segment
+	1375. [[line segment]]
 	1376. Liouville's Theorem
 	
 	1377. Liouville, Joseph (1809-82)
 	1378. Liouville numbers
-	1379. Lipschitz condition
+	1379. [[Lipschitz condition]]
 	1380. Lissajous curve
 	1381. litre
 	1382. Littlewood, John Edensor (1885-1977)

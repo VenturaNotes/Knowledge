@@ -36,6 +36,15 @@ export interface Session {
 	entries: SessionEntry[];
 }
 
+export interface OfflineAction {
+	id: string;
+	type: "INSERT" | "UPDATE" | "DELETE";
+	table: string;
+	data?: any;
+	match?: string;
+	timestamp: number;
+}
+
 export interface PluginSettings {
 	supabaseUrl: string;
 	supabaseKey: string;
@@ -43,7 +52,9 @@ export interface PluginSettings {
 	windowY: number;
 	windowWidth: number;
 	windowHeight: number;
-	collapsedParentIds?: string[]; // Persists collapsed states across mobile and desktop (10)
+	collapsedParentIds?: string[];
+	offlineQueue: OfflineAction[];
+	localTimersCache?: Timer[];
 }
 
 export const DEFAULT_SETTINGS: PluginSettings = {
@@ -53,7 +64,9 @@ export const DEFAULT_SETTINGS: PluginSettings = {
 	windowY: 100,
 	windowWidth: 480,
 	windowHeight: 520,
-	collapsedParentIds: []
+	collapsedParentIds: [],
+	offlineQueue: [],
+	localTimersCache: []
 };
 
 export const ICONS = {

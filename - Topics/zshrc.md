@@ -39,7 +39,6 @@ unfunction _load_vault_scripts # Deletes this loader function from memory so you
 # 2. Manual Reload Alias
 # ==========================================================
 alias src="source ~/.zshrc"
-
 ```
 ## Organize
 ### Deconstructing the Name
