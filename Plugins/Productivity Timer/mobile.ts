@@ -108,15 +108,35 @@ export class ProductivityTimerView extends ItemView {
 
 		const body = this.contentWrapper.createDiv({ cls: "pt-body" });
 
+		// Restructured Action Bar with status badge right-aligned
 		const actions = body.createDiv({ cls: "pt-actions" });
-		const addBtn = actions.createEl("button", { cls: "pt-btn pt-btn--add", text: "+ Add Timer" });
+		actions.style.cssText = "display: flex; justify-content: space-between; align-items: center; width: 100%; flex-wrap: wrap; gap: 6px;";
+
+		const actionsLeft = actions.createDiv({ cls: "pt-actions-left" });
+		actionsLeft.style.cssText = "display: flex; gap: 6px; flex-wrap: wrap;";
+
+		const addBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--add", text: "+ Add Timer" });
 		addBtn.addEventListener("click", () => this.plugin.addTimer());
 
-		const completeBtn = actions.createEl("button", { cls: "pt-btn pt-btn--complete", text: "Done" });
+		const completeBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--complete", text: "Done" });
 		completeBtn.addEventListener("click", () => this.plugin.completeAll());
 
-		const archiveBtn = actions.createEl("button", { cls: "pt-btn pt-btn--archive", text: this.showArchive ? "Hide Archive" : "Archive" });
+		const archiveBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--archive", text: this.showArchive ? "Hide Archive" : "Archive" });
 		archiveBtn.addEventListener("click", () => { this.showArchive = !this.showArchive; this.render(); });
+
+		const statusIndicator = actions.createDiv({ cls: "pt-status-indicator" });
+		statusIndicator.style.cssText = "font-size: 11px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: 4px; margin-left: auto; border: 1px solid transparent;";
+		if (navigator.onLine) {
+			statusIndicator.textContent = "● Online";
+			statusIndicator.style.color = "#10B981";
+			statusIndicator.style.backgroundColor = "rgba(16, 185, 129, 0.1)";
+			statusIndicator.style.borderColor = "rgba(16, 185, 129, 0.2)";
+		} else {
+			statusIndicator.textContent = "● Offline";
+			statusIndicator.style.color = "#F59E0B";
+			statusIndicator.style.backgroundColor = "rgba(245, 158, 11, 0.1)";
+			statusIndicator.style.borderColor = "rgba(245, 158, 11, 0.2)";
+		}
 
 		const rollup = body.createDiv({ cls: "pt-rollup" });
 		rollup.createEl("span", { cls: "pt-rollup-label", text: "Total" });

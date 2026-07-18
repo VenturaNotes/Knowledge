@@ -1,98 +1,80 @@
-# copyFileAppend.zsh (Sourced Function Version)
-
+# Function to copy file objects and append them to the clipboard
 copyFileAppend() {
-    # Rule 2: Declare all variables as local to prevent leaking into terminal memory
-    local existing_files_str=""
-    local -a existing_files=()
-    local -a new_files=()
-    local -Ua combined_files=() # -U keeps elements unique and preserves original order
-    local arg=""
-    local abs_path=""
-    local count=0
-    local f=""
-
-    # Retrieve all files currently in the clipboard using native JXA
-    existing_files_str=$(osascript -l JavaScript -e '
-        ObjC.import("AppKit");
-        var pb = $.NSPasteboard.generalPasteboard;
-        var fileURLs = pb.readObjectsForClassesOptions([$.NSURL], null);
-        if (fileURLs && fileURLs.count > 0) {
-            var paths = [];
-            for (var i = 0; i < fileURLs.count; i++) {
-                paths.push(fileURLs.objectAtIndex(i).path.js);
-            }
-            paths.join("\n");
-        } else {
-            "";
-        }
-    ' 2>/dev/null)
-
-    if [[ -n "$existing_files_str" ]]; then
-        existing_files=("${(f)existing_files_str}")
-    fi
-
-    # Handle clear flag
-    if [[ "$1" == "--clear" || "$1" == "-c" ]]; then
-        osascript -l JavaScript -e '
-            ObjC.import("AppKit");
-            $.NSPasteboard.generalPasteboard.clearContents;
-        ' >/dev/null 2>&1
-        echo "Clipboard cleared."
-        return 0
-    fi
-
-    # Inspect current state: If no arguments are passed, show currently copied files
     if [[ $# -eq 0 ]]; then
-        if (( ${#existing_files} > 0 )); then
-            echo "Current files in clipboard (${#existing_files}):"
-            for f in "${existing_files[@]}"; do
-                echo "  - ${f:t}"
-            done
-            return 0
-        else
-            echo "Usage: copyFileAppend <file1> [file2 ...]" >&2
-            echo "       copyFileAppend --clear | -c" >&2
-            return 1
-        fi
+        echo "Usage: copyFileAppend <file_or_folder1> [file_or_folder2 ...]" >&2
+        return 1
     fi
 
-    # Resolve absolute paths and validate existence (Rule 1: We use 'return' instead of 'exit'!)
-    for arg in "$@"; do
-        abs_path="${arg:A}"
-        if [[ ! -e "$abs_path" ]]; then
-            echo "Error: File or directory not found: $arg" >&2
+    # Verify all specified files/folders exist
+    local item
+    for item in "$@"; do
+        if [[ ! -e "$item" ]]; then
+            echo "Error: File or folder '$item' not found." >&2
             return 1
         fi
-        new_files+=("$abs_path")
     done
 
-    # Merge lists (Zsh -U attribute automatically handles duplicate filtering)
-    combined_files=("${existing_files[@]}" "${new_files[@]}")
+    # 1. Read existing file paths from the clipboard
+    local raw_output
+    raw_output=$(osascript << 'EOF' 2>/dev/null
+use framework "AppKit"
 
-    # Write the combined files to the pasteboard using native JXA
-    if osascript -l JavaScript -e '
-        ObjC.import("AppKit");
-        function run(argv) {
-            var pb = $.NSPasteboard.generalPasteboard;
-            pb.clearContents;
-            var fileURLs = $.NSMutableArray.alloc.init;
-            argv.forEach(function(path) {
-                fileURLs.addObject($.NSURL.fileURLWithPath(path));
-            });
-            pb.writeObjects(fileURLs);
-        }
-    ' "${combined_files[@]}" >/dev/null 2>&1; then
-        count=${#combined_files}
-        if (( count == 1 )); then
-            echo "Copied 1 file to clipboard:"
-        else
-            echo "Copied $count files to clipboard:"
-        fi
-        for f in "${combined_files[@]}"; do
-            echo "  - ${f:t}"
-        done
+set pb to current application's NSPasteboard's generalPasteboard()
+set fs to pb's readObjectsForClasses:{current application's |NSURL|} options:(missing value)
+if fs is missing value then
+    set fs to {}
+else
+    set fs to fs as list
+end if
+
+repeat with f in fs
+    set f's contents to POSIX path of f
+end repeat
+
+set {oldTID, AppleScript's text item delimiters} to {AppleScript's text item delimiters, linefeed}
+set outText to fs as text
+set AppleScript's text item delimiters to oldTID
+return outText
+EOF
+)
+
+    local existing_paths=()
+    if [[ -n "$raw_output" ]]; then
+        existing_paths=(${(f)raw_output})
+    fi
+
+    # 2. Combine existing paths with the new paths, keeping unique items
+    local -U all_paths
+    all_paths=("${existing_paths[@]}")
+    for item in "$@"; do
+        all_paths+=("${item:A}")
+    done
+
+    # 3. Write the combined file objects back to the clipboard
+    osascript - "${all_paths[@]}" << 'EOF' >/dev/null 2>&1
+use framework "Foundation"
+use framework "AppKit"
+use scripting additions
+
+on run argv
+    set pb to current application's NSPasteboard's generalPasteboard()
+    set allURLs to current application's |NSMutableArray|'s array()
+    
+    repeat with thePath in argv
+        set thePathStr to thePath as text
+        set theURL to current application's |NSURL|'s fileURLWithPath:thePathStr
+        allURLs's addObject:theURL
+    end repeat
+    
+    pb's clearContents()
+    pb's writeObjects:allURLs
+    return ""
+end run
+EOF
+
+    if [[ $# -eq 1 ]]; then
+        echo "Successfully appended 1 file object to the clipboard."
     else
-        echo "Error: Failed to write files to the clipboard." >&2
-        return 1
+        echo "Successfully appended $# file objects to the clipboard."
     fi
 }
