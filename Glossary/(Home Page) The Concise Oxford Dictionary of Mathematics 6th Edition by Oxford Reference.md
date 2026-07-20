@@ -2094,13 +2094,14 @@ Year: 2021-09-01
 	1010. hendecagon
 	1011. hepta-
 	1012. heptagon
-	1013. hereditary property
+	1013. [[hereditary property]]
 	1014. Hermite, Charles (1822-1901)
 	1015. Hermite polynomials
-	1016. Hermitian
+	1016. [[Hermitian]]
 	
-	1017. Hermitian conjugate
+	1017. [[Hermitian conjugate]]
 	1018. Hero's formula
+		1. See TRIANGLE.
 	1019. Hero's method
 	1020. Hero (Heron) of Alexandria
 	1021. hertz
@@ -2179,7 +2180,8 @@ Year: 2021-09-01
 	1086. ideal
 	
 	1087. ideal point
-	1088. identically distributed
+		1. A synonym for POINT AT INFINITY.
+	1088. [[identically distributed]]
 	1089. identification space
 	1090. identity
 	1091. identity

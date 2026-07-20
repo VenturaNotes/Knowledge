@@ -17,12 +17,18 @@ const DEFAULTS = {
       'slides.google.com',
       'drive.google.com',
       'canva.com',
-      'aistudio.google.com' // Pre-populated to allow Google AI Studio's native dark mode
+      'aistudio.google.com'
     ]
   },
   videoEnhancer:  { enabled: false },
   incognito:      { enabled: false },
   commands:       { enabled: true  },
+
+  // Cloudflare Bypass: starts completely empty by default
+  cloudflareBypass: {
+    enabled: true,
+    bypassDomains: []
+  },
 
   // ShortcutBlocker: array of domain rule objects
   // { domain: string, enabled: bool, chords: string[] }
