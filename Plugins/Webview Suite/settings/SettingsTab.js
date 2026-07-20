@@ -22,15 +22,18 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
     // ── MODULE TOGGLES ──────────────────────────────────────────────────────
     containerEl.createEl('h3', { text: 'Modules' });
 
+    // "commands" is removed from this initial list so we can render it in its own section below
     const modules = [
       this.plugin.modules.adBlocker,
       this.plugin.modules.darkMode,
       this.plugin.modules.videoEnhancer,
       this.plugin.modules.incognito,
-      this.plugin.modules.commands,
+      this.plugin.modules.cloudflareBypass,
     ];
 
     for (const mod of modules) {
+      if (!mod) continue;
+
       new Setting(containerEl)
         .setName(mod.name)
         .setDesc(mod.description)
@@ -58,7 +61,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           border-left: 2px solid var(--background-modifier-border);
         `;
 
-        // Style container with lower opacity if module is disabled (remains editable)
         if (!mod.enabled) {
           nestedContainer.style.opacity = '0.7';
         }
@@ -73,7 +75,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           style: 'margin-bottom: 10px;'
         });
 
-        // Compact, scrollable list container for bypass domains
         const listContainer = nestedContainer.createDiv({ cls: 'webview-suite-bypass-list' });
         listContainer.style.cssText = `
           max-height: 150px;
@@ -103,7 +104,7 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
             `;
             
             if (idx === bypassDomains.length - 1) {
-              row.style.marginBottom = '0'; // Remove extra spacing from bottom item
+              row.style.marginBottom = '0';
             }
             
             row.createEl('span', { 
@@ -122,7 +123,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           });
         }
 
-        // Form settings row to add new domain to list
         new Setting(nestedContainer)
           .setName('Add bypass domain')
           .setDesc('Type domain name and click Add or press Enter')
@@ -162,42 +162,198 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
             })
           );
       }
+
+      // Render Bypass List nested directly below the Cloudflare Bypass Toggle
+      if (mod.id === 'cloudflareBypass') {
+        const cbState = this.plugin.state.get('cloudflareBypass');
+        const bypassDomains = cbState?.bypassDomains || [];
+
+        const nestedContainer = containerEl.createDiv({ cls: 'webview-suite-nested-cloudflare' });
+        nestedContainer.style.cssText = `
+          margin-left: 24px;
+          margin-bottom: 18px;
+          padding-left: 14px;
+          border-left: 2px solid var(--background-modifier-border);
+        `;
+
+        if (!mod.enabled) {
+          nestedContainer.style.opacity = '0.7';
+        }
+
+        nestedContainer.createEl('div', { 
+          text: 'Bypass Domains', 
+          style: 'font-weight: var(--font-semibold); margin-bottom: 6px; font-size: 14px;' 
+        });
+        nestedContainer.createEl('p', {
+          text: "Websites where Cloudflare Turnstile or WAF blocks standard Electron headers (e.g., leetcode.com, stackoverflow.com). The plugin will dynamically strip Electron/Obsidian strings from the User Agent, helping pass challenges.",
+          cls: 'setting-item-description',
+          style: 'margin-bottom: 10px;'
+        });
+
+        const listContainer = nestedContainer.createDiv({ cls: 'webview-suite-cf-bypass-list' });
+        listContainer.style.cssText = `
+          max-height: 150px;
+          overflow-y: auto;
+          margin-bottom: 12px;
+          border: 1px solid var(--background-modifier-border);
+          border-radius: 4px;
+          padding: 6px;
+          background: var(--background-secondary-alt);
+        `;
+
+        if (bypassDomains.length === 0) {
+          const emptyMsg = listContainer.createDiv({ text: 'No bypassed domains added.' });
+          emptyMsg.style.cssText = 'color: var(--text-muted); font-size: 12px; padding: 8px; text-align: center;';
+        } else {
+          bypassDomains.forEach((domain, idx) => {
+            const row = listContainer.createDiv();
+            row.style.cssText = `
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 4px 8px;
+              margin-bottom: 4px;
+              border: 1px solid var(--background-modifier-border);
+              border-radius: 3px;
+              background: var(--background-primary);
+            `;
+            
+            if (idx === bypassDomains.length - 1) {
+              row.style.marginBottom = '0';
+            }
+            
+            row.createEl('span', { 
+              text: domain, 
+              style: 'font-family: var(--font-monospace); font-size: 13px;' 
+            });
+            
+            const deleteBtn = row.createEl('button', { text: 'Remove' });
+            deleteBtn.style.cssText = 'cursor: pointer; padding: 2px 6px; font-size: 11px;';
+            deleteBtn.addEventListener('click', async () => {
+              bypassDomains.splice(idx, 1);
+              await this.plugin.state.save();
+              this.plugin.modules.cloudflareBypass.setBypassDomains(bypassDomains);
+              this.display();
+            });
+          });
+        }
+
+        new Setting(nestedContainer)
+          .setName('Add bypass domain')
+          .setDesc('Type domain name and click Add or press Enter')
+          .addText(text => {
+            text.setPlaceholder('leetcode.com');
+            text.inputEl.style.width = '200px';
+            
+            let tempDomain = '';
+            text.onChange(val => {
+              tempDomain = val.trim();
+            });
+
+            text.inputEl.addEventListener('keydown', async (e) => {
+              if (e.key === 'Enter') {
+                e.preventDefault();
+                if (tempDomain && !bypassDomains.includes(tempDomain)) {
+                  bypassDomains.push(tempDomain);
+                  await this.plugin.state.save();
+                  this.plugin.modules.cloudflareBypass.setBypassDomains(bypassDomains);
+                  this.display();
+                }
+              }
+            });
+          })
+          .addButton(btn => btn
+            .setButtonText('Add')
+            .setCta()
+            .onClick(async () => {
+              const inputEl = nestedContainer.querySelector('input[type="text"]');
+              const val = inputEl?.value?.trim();
+              if (val && !bypassDomains.includes(val)) {
+                bypassDomains.push(val);
+                await this.plugin.state.save();
+                this.plugin.modules.cloudflareBypass.setBypassDomains(bypassDomains);
+                this.display();
+              }
+            })
+          );
+      }
     }
 
     const commandsModule = this.plugin.modules.commands;
 
-    // ── COMMANDS BYPASS RULES ────────────────────────────────────────────────
-    containerEl.createEl('h3', { text: 'Webview Commands — Domain Settings' });
-    containerEl.createEl('p', {
+    // ── DEDICATED WEBVIEW COMMANDS SECTION ────────────────────────────────────
+    containerEl.createEl('h3', { text: 'Webview Commands' });
+
+    new Setting(containerEl)
+      .setName(commandsModule.name)
+      .setDesc(commandsModule.description)
+      .addToggle(toggle => toggle
+        .setValue(commandsModule.enabled)
+        .onChange(async (value) => {
+          commandsModule.enabled = value;
+          if (value) commandsModule.onEnable(this.app);
+          else commandsModule.onDisable();
+          await this.plugin.state.setModuleEnabled(commandsModule.id, value);
+          this.display(); // Re-render to update the disabled state block below
+        })
+      );
+
+    // Render Rules Container and grey it out if command forwarding is disabled
+    const rulesContainer = containerEl.createDiv({ cls: 'webview-suite-commands-rules-container' });
+    rulesContainer.style.marginTop = '16px';
+
+    if (!commandsModule.enabled) {
+      rulesContainer.style.opacity = '0.5';
+      rulesContainer.style.pointerEvents = 'none'; // Lock modifications while disabled
+      
+      const banner = rulesContainer.createDiv();
+      banner.style.cssText = `
+        padding: 10px;
+        background: var(--background-secondary-alt);
+        border: 1px solid var(--background-modifier-border);
+        border-radius: 4px;
+        margin-bottom: 14px;
+        color: var(--text-muted);
+        font-size: 13px;
+        font-style: italic;
+        text-align: center;
+      `;
+      banner.setText('⚠️ Webview Commands are currently disabled. Turn on the toggle above to configure rules.');
+    }
+
+    rulesContainer.createEl('div', { 
+      text: 'Webview Commands — Domain Settings', 
+      style: 'font-weight: var(--font-semibold); font-size: 14px; margin-bottom: 4px;' 
+    });
+
+    rulesContainer.createEl('p', {
       text: 'Configure custom keyboard behaviors per domain. For each website, you can block shortcuts inside the webview (sending them to Obsidian instead) or bypass Obsidian (allowing the webpage to handle them natively).',
       cls: 'setting-item-description',
+      style: 'margin-bottom: 14px;'
     });
 
     const rules = commandsModule.rules;
 
-    // Render unified domain rules
     for (let i = 0; i < rules.length; i++) {
-      this._renderRule(containerEl, rules, i, commandsModule);
+      this._renderRule(rulesContainer, rules, i, commandsModule);
     }
 
-    // Add new rule button
-    new Setting(containerEl)
+    new Setting(rulesContainer)
       .addButton(btn => btn
         .setButtonText('+ Add domain rule')
         .setCta()
         .onClick(async () => {
           rules.push({ domain: '', enabled: true, chords: [], obsidianChords: [] });
           await this._saveRules(commandsModule);
-          this.display(); // Re-render
+          this.display();
         })
       );
   }
 
-  _renderRule(containerEl, rules, index, commandsModule) {
+  _renderRule(parentEl, rules, index, commandsModule) {
     const rule = rules[index];
-    const ruleEl = containerEl.createDiv({ cls: 'webview-suite-rule' });
+    const ruleEl = parentEl.createDiv({ cls: 'webview-suite-rule' });
 
-    // Style the rule container card
     ruleEl.style.cssText = `
       border: 1px solid var(--background-modifier-border);
       border-radius: 6px;
@@ -206,7 +362,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
       background: var(--background-primary);
     `;
 
-    // Row 1: Domain input + enabled toggle + delete button
     new Setting(ruleEl)
       .setName('Domain')
       .setDesc('e.g. docs.google.com')
@@ -237,7 +392,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
         })
       );
 
-    // Inner container to hold sections neatly
     const sectionsWrapper = ruleEl.createDiv();
     sectionsWrapper.style.cssText = `
       margin-top: 12px;
@@ -245,7 +399,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
       border-top: 1px solid var(--background-modifier-border);
     `;
 
-    // Section 1: Bypass Web Shortcuts
     this._renderChordSection(
       sectionsWrapper, 
       rule, 
@@ -255,11 +408,9 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
       commandsModule
     );
 
-    // Visual divider between sections
     const divider = sectionsWrapper.createEl('hr');
     divider.style.cssText = 'margin: 12px 0; border: none; border-top: 1px dashed var(--background-modifier-border);';
 
-    // Section 2: Bypass Obsidian Shortcuts
     this._renderChordSection(
       sectionsWrapper, 
       rule, 
