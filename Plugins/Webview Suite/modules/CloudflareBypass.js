@@ -9,12 +9,9 @@
  *
  * Exposes a highly minimal, full-width address bar user interface with native
  * Obsidian header elements disabled to maximize vertical screen space.
- *
- * Utilizes main-frame guarded listeners to prevent subframe iframe traffic
- * from locking the reload button in an infinite spinning animation.
  */
 
-import { ItemView, setIcon, Notice } from 'obsidian';
+import { ItemView, setIcon, Notice, WorkspaceLeaf } from 'obsidian';
 
 // Registered to perfectly match the data-type selector used in your styles.css
 export const VIEW_TYPE_ISOLATED_WEBVIEW = 'custom-webview-view';
@@ -237,6 +234,14 @@ export class IsolatedWebView extends ItemView {
   }
 
   attachWebviewListeners() {
+    const startSpinner = () => {
+      this.reloadBtn.classList.add('is-loading');
+    };
+
+    const stopSpinner = () => {
+      this.reloadBtn.classList.remove('is-loading');
+    };
+
     const updateNavState = () => {
       try {
         const activeUrl = this.webviewEl.getURL() || this.webviewEl.src;
@@ -250,39 +255,42 @@ export class IsolatedWebView extends ItemView {
 
         this.backBtn.disabled = !this.webviewEl.canGoBack();
         this.forwardBtn.disabled = !this.webviewEl.canGoForward();
+        
+        // Failsafe: if the navigation resolves and the webview isn't loading anymore, force stop
+        if (!this.webviewEl.isLoading()) {
+          stopSpinner();
+        }
       } catch (e) {}
     };
 
     this.webviewEl.addEventListener('did-navigate', updateNavState);
     this.webviewEl.addEventListener('did-navigate-in-page', updateNavState);
 
-    // ─── MAIN-FRAME GUARDED LOADING EVENT LISTENERS ───
+    // ─── ROBUST LOADING SPINNER EVENTS ───
+    this.webviewEl.addEventListener('did-start-loading', startSpinner);
     this.webviewEl.addEventListener('did-start-navigation', (e) => {
-      if (e.isMainFrame) {
-        this.reloadBtn.classList.add('is-loading');
-      }
+      if (e.isMainFrame) startSpinner();
     });
 
-    const stopSpinner = () => {
-      this.reloadBtn.classList.remove('is-loading');
-    };
-
+    this.webviewEl.addEventListener('did-stop-loading', stopSpinner);
     this.webviewEl.addEventListener('did-finish-load', stopSpinner);
     this.webviewEl.addEventListener('did-fail-load', stopSpinner);
-    
+
     // NATIVE HOTKEY BUBBLER: Replicates Obsidian core webview functionality. 
     this.webviewEl.addEventListener('dom-ready', () => {
-      stopSpinner();
-      
       try {
         const remote = require('@electron/remote');
         if (!remote || !remote.webContents) return;
         
         const wcId = this.webviewEl.getWebContentsId();
+        
+        // Prevent duplicate ghost listeners from @electron/remote proxies across URL navigations
+        if (this.webviewEl.__bubblerAttachedTo === wcId) return;
+        this.webviewEl.__bubblerAttachedTo = wcId;
+        
         const wc = remote.webContents.fromId(wcId);
         
-        if (wc && !wc.__nativeHotkeyBubbler) {
-          wc.__nativeHotkeyBubbler = true;
+        if (wc) {
           wc.on('before-input-event', (event, input) => {
             if (input.type !== 'keyDown') return;
             
@@ -334,12 +342,16 @@ export class CloudflareBypassModule {
     this._commands = [];
     this._unhandledRejectionHandler = null;
     this.preloadFileUrl = '';
+
+    this._globalClickHandler = null;
+    this._windowOpenRef = null;
   }
 
   onEnable(app) {
     this.app = app;
     this._registerCommands();
     this._installGlobalErrorShield();
+    this._installGlobalLinkInterceptor();
     this._injectCSSStyles();
     
     // Write preload script to disk first, then set up webviews
@@ -359,6 +371,7 @@ export class CloudflareBypassModule {
   onDisable() {
     this._unregisterCommands();
     this._removeGlobalErrorShield();
+    this._removeGlobalLinkInterceptor();
     this._removeCSSStyles();
     this.removeHeaderInterceptor();
     this.restoreOriginalUAs();
@@ -371,6 +384,126 @@ export class CloudflareBypassModule {
       this.reapplyToExistingWebviews();
     }
   }
+
+  _shouldInterceptUrl(urlStr) {
+    if (!this.enabled || !urlStr) return false;
+    try {
+      const hostname = new URL(urlStr).hostname.toLowerCase();
+      const isBypass = this.bypassDomains.some(domain => {
+        const cleanDom = domain.toLowerCase().trim();
+        return hostname === cleanDom || hostname.endsWith('.' + cleanDom);
+      });
+      return isBypass || hostname.includes('cloudflare.com');
+    } catch(e) {
+      return false;
+    }
+  }
+
+  // ─── GLOBAL BACKGROUND LINK INTERCEPTORS ───
+  _installGlobalLinkInterceptor() {
+    // 1. Monkey-patch window.open to catch programmatic opens (e.g. from plugins)
+    if (!window.__ORIGINAL_WINDOW_OPEN) {
+      window.__ORIGINAL_WINDOW_OPEN = window.open;
+    }
+
+    window.open = (url, name, features) => {
+      if (this._shouldInterceptUrl(url)) {
+        const newLeaf = this.app.workspace.getLeaf('tab');
+        newLeaf.setViewState({
+          type: VIEW_TYPE_ISOLATED_WEBVIEW,
+          active: true,
+          state: { url: url }
+        });
+        return null; // Stop the native window from spawning
+      }
+      return window.__ORIGINAL_WINDOW_OPEN(url, name, features);
+    };
+
+    // 2. Global capture-phase click listener to intercept Markdown/UI links instantly
+    this._globalClickHandler = (e) => {
+      const anchor = e.target.closest('a');
+      if (!anchor) return;
+      
+      const url = anchor.href || anchor.getAttribute('href');
+      if (!url || !url.startsWith('http')) return;
+
+      if (this._shouldInterceptUrl(url)) {
+        e.preventDefault();
+        e.stopPropagation(); // Stops Obsidian from processing the link
+
+        const newLeaf = this.app.workspace.getLeaf('tab');
+        newLeaf.setViewState({
+          type: VIEW_TYPE_ISOLATED_WEBVIEW,
+          active: true,
+          state: { url: url }
+        });
+      }
+    };
+
+    // Apply to main window and any current floating popout windows
+    const windows = this._getActiveWindows();
+    windows.forEach(win => {
+      if (!win._cfLinkInterceptorAttached) {
+        win._cfLinkInterceptorAttached = true;
+        win.document.addEventListener('click', this._globalClickHandler, { capture: true });
+      }
+    });
+    
+    // Automatically attach to any new popout windows created in the future
+    this._windowOpenRef = this.app.workspace.on('window-open', (child) => {
+      const win = child.win;
+      if (win && !win._cfLinkInterceptorAttached) {
+        win._cfLinkInterceptorAttached = true;
+        win.document.addEventListener('click', this._globalClickHandler, { capture: true });
+      }
+    });
+
+    // 3. THE CORE BOTTLENECK: Monkey-patch WorkspaceLeaf.prototype.setViewState
+    // Intercepts any programmatic tab creations (like target="_blank" inside webviews)
+    // and seamlessly morphs the tab into our IsolatedWebView before any standard webview initializes.
+    if (!WorkspaceLeaf.prototype.__originalSetViewState) {
+      WorkspaceLeaf.prototype.__originalSetViewState = WorkspaceLeaf.prototype.setViewState;
+    }
+
+    const self = this;
+    WorkspaceLeaf.prototype.setViewState = function(state, ...args) {
+      if (state && state.type !== VIEW_TYPE_ISOLATED_WEBVIEW) {
+        const url = state.state?.url || state.state?.src || state.url || '';
+        if (url && self._shouldInterceptUrl(url)) {
+          state.type = VIEW_TYPE_ISOLATED_WEBVIEW;
+        }
+      }
+      return this.__originalSetViewState(state, ...args);
+    };
+  }
+
+  _removeGlobalLinkInterceptor() {
+    if (window.__ORIGINAL_WINDOW_OPEN) {
+      window.open = window.__ORIGINAL_WINDOW_OPEN;
+      delete window.__ORIGINAL_WINDOW_OPEN;
+    }
+    
+    if (this._globalClickHandler) {
+      const windows = this._getActiveWindows();
+      windows.forEach(win => {
+        if (win._cfLinkInterceptorAttached) {
+          win.document.removeEventListener('click', this._globalClickHandler, { capture: true });
+          delete win._cfLinkInterceptorAttached;
+        }
+      });
+    }
+
+    if (this._windowOpenRef) {
+      this.app.workspace.offref(this._windowOpenRef);
+      this._windowOpenRef = null;
+    }
+
+    if (WorkspaceLeaf.prototype.__originalSetViewState) {
+      WorkspaceLeaf.prototype.setViewState = WorkspaceLeaf.prototype.__originalSetViewState;
+      delete WorkspaceLeaf.prototype.__originalSetViewState;
+    }
+  }
+  // ──────────────────────────────────────────
 
   _cleanUAString(ua) {
     if (!ua) return '';
@@ -479,23 +612,16 @@ export class CloudflareBypassModule {
         if (!leaf) return;
 
         const viewType = leaf.view?.getViewType() || '';
-        const hostname = new URL(urlStr).hostname.toLowerCase();
-        const isBypass = this.bypassDomains.some(domain => {
-          const cleanDom = domain.toLowerCase().trim();
-          return hostname === cleanDom || hostname.endsWith('.' + cleanDom);
-        });
 
-        // ─── 2. TRIGGER REDIRECTION IF WEBVIEW IS NATIVE & IS BYPASS DOMAIN ───
-        if (isBypass && viewType !== VIEW_TYPE_ISOLATED_WEBVIEW) {
+        // ─── 2. TRIGGER REDIRECTION (FALLBACK) IF WEBVIEW IS NATIVE & IS BYPASS DOMAIN ───
+        if (this._shouldInterceptUrl(urlStr) && viewType !== VIEW_TYPE_ISOLATED_WEBVIEW) {
           if (webview._redirected) return;
           webview._redirected = true;
 
-          new Notice(`Redirecting ${hostname} to Built-in Isolated Browser...`);
+          new Notice(`Redirecting to Built-in Isolated Browser...`);
           
           try { webview.stop(); } catch(e) {}
 
-          // Wait a fraction of a second, then convert the CURRENT tab into an isolated web view 
-          // without touching any other tabs
           setTimeout(async () => {
             try {
               await leaf.setViewState({
@@ -516,12 +642,11 @@ export class CloudflareBypassModule {
         }
 
         const isIsolated = viewType === VIEW_TYPE_ISOLATED_WEBVIEW;
-        const shouldApplyBypass = isIsolated || isBypass || hostname.includes('cloudflare.com');
+        const shouldApplyBypass = isIsolated || this._shouldInterceptUrl(urlStr);
 
         if (shouldApplyBypass && this.preloadFileUrl) {
           const currentPreload = webview.getAttribute('preload') || '';
           
-          // Inject native preload reference and force-reload once if not already present
           if (currentPreload !== this.preloadFileUrl) {
             webview.setAttribute('preload', this.preloadFileUrl);
             webview.setAttribute('useragent', FIREFOX_UA);
@@ -617,8 +742,8 @@ export class CloudflareBypassModule {
       await this.app.vault.adapter.write(localPath, preloadCode);
       
       let absolutePath = '';
-      if (typeof this.app.vault.adapter.getFullPath === 'function') {
-        absolutePath = this.app.vault.adapter.getFullPath(localPath);
+      if (typeof this.app.vault.adapter.getAbsoluteFilePath === 'function') {
+        absolutePath = this.app.vault.adapter.getAbsoluteFilePath(localPath);
       } else {
         const basePath = this.app.vault.adapter.getBasePath();
         absolutePath = require('path').join(basePath, localPath);
@@ -926,16 +1051,21 @@ export class CloudflareBypassModule {
     }
   }
 
-  _getActiveWebview() {
-    if (!this.app) return null;
+  _getActiveWindows() {
     const windows = new Set([window]);
-    const floatingSplit = this.app.workspace.floatingSplit;
+    const floatingSplit = this.app?.workspace?.floatingSplit;
     if (floatingSplit?.children) {
       floatingSplit.children.forEach(child => {
         if (child.win) windows.add(child.win);
       });
     }
-    const activeWindows = Array.from(windows);
+    return Array.from(windows);
+  }
+
+  _getActiveWebview() {
+    if (!this.app) return null;
+    const activeWindows = this._getActiveWindows();
+    
     for (const win of activeWindows) {
       if (!win?.document) continue;
       const activeEl = win.document.activeElement;

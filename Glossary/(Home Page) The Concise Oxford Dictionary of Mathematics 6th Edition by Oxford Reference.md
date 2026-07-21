@@ -1491,7 +1491,7 @@ Year: 2021-09-01
 	475. delta
 	476. delta function
 	
-	477. demography
+	477. [[demography]]
 	478. De Moivre's Theorem
 	479. De Moivre, Abraham (1667-1754)
 	480. De Morgan's laws(logical version)
@@ -2213,14 +2213,15 @@ Year: 2021-09-01
 	1115. inclined plane
 	1116. include
 	
-	1117. inclusion
+	1117. [[inclusion]]
 	1118. inclusion-exclusion principle
 	1119. inclusive disjunction
 	1120. incommensurable
 	1121. incompatible
+		1. A synonym for INCONSISTENT.
 	1122. incompressible
 	1123. inconsistent
-	1124. increasing function
+	1124. [[increasing function]]
 	1125. increasing sequence
 	1126. increment
 	

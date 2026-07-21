@@ -6,8 +6,11 @@
 - $n$. the study of populations on a national, regional, or local basis in terms of age, sex, and other variables, including patterns of migration and survival. It is used in public health medicine to help identify health needs and risk factors. See also BIOSTATISTICS.
 ## Source[^3]
 - $n$. The study of human populations, especially as regards size, structure, density, and distribution. demographic adj. \[From Greek demos the people + graphein to write]
+## Source[^4]
+- In statistics, the study of human populations, in particular focusing on birth and date rates, age, movement of people, employment, education, ethnicity, religion, etc.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
