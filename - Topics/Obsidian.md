@@ -2,6 +2,8 @@
 - A note-taking and personal knowledge management application that stores notes as plain text markdown files on your local machine
 - When doing `tags.isType("list")`, this returns true
 	- So `tags` is type list which I assume holds all the different types of tags within the list. Each element within `tags` is a string
+### Tips
+- When debugging, need to completely quit Obsidian and then re-open for all changes to take affect. Refreshing within the Obsidian Developer Console is not enough. 
 ### Filtering out Nested Tags in Bases
 - `!tags.filter(value.startsWith("#task/"))`
 	- This removes all documents with a nested tag
@@ -47,7 +49,6 @@
 	- `query` is the string to check at the beginning
 	- Returns true if this string starts with `query`
 	- Example: `"hello".startsWith("he")` returns `true`
-
 ## References
 
 [^1]: https://help.obsidian.md/bases/functions
