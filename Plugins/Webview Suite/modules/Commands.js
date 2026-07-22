@@ -47,7 +47,6 @@ export class CommandsModule {
 
   setRules(rules) {
     this.rules = rules || [];
-    // Dynamic schema fallback mapping to handle legacy or newly created records safely
     for (const rule of this.rules) {
       if (!rule.chords) rule.chords = [];
       if (!rule.obsidianChords) rule.obsidianChords = [];
@@ -174,8 +173,8 @@ export class CommandsModule {
       }
     };
     this._rejectionHandler = (event) => {
-      const msg = event.reason?.message || event.reason;
-      if (msg && (msg.includes('setIgnoreMenuShortcuts') || msg.includes('Object has been destroyed'))) {
+      const msg = event.reason?.message || String(event.reason);
+      if (msg && (msg.includes('setIgnoreMenuShortcuts') || msg.includes('Object has been destroyed') || msg.includes('GUEST_VIEW_MANAGER_CALL'))) {
         event.preventDefault();
       }
     };
@@ -219,7 +218,52 @@ export class CommandsModule {
   async _attachToWebview(webview) {
     if (!webview || !webview.isConnected) return;
 
-    // Prevent duplicate listeners or immediate injections from stacking
+    // 1. Native Hardware Hotkey Bubbler
+    const tryHookBubbler = () => {
+      try {
+        const remote = window.require?.('@electron/remote') || require('@electron/remote');
+        if (!remote || !remote.webContents) return;
+
+        const wcId = typeof webview.getWebContentsId === 'function' ? webview.getWebContentsId() : null;
+        if (!wcId) return;
+
+        if (webview.__bubblerAttachedTo === wcId) return;
+        webview.__bubblerAttachedTo = wcId;
+
+        const wc = remote.webContents.fromId(wcId);
+        if (wc) {
+          wc.on('before-input-event', (event, input) => {
+            let eventType = null;
+            if (input.type === 'keyDown') eventType = 'keydown';
+            else if (input.type === 'keyUp') eventType = 'keyup';
+            else return;
+
+            const win = webview.ownerDocument?.defaultView || window;
+            const target = webview || win.document.activeElement || win.document.body;
+
+            const kbEvent = new win.KeyboardEvent(eventType, {
+              key: input.key,
+              code: input.code,
+              bubbles: true,
+              cancelable: true,
+              ctrlKey: input.control,
+              altKey: input.alt,
+              shiftKey: input.shift,
+              metaKey: input.meta,
+              repeat: input.isAutoRepeat
+            });
+
+            target.dispatchEvent(kbEvent);
+          });
+        }
+      } catch (e) {}
+    };
+
+    tryHookBubbler();
+    webview.addEventListener('dom-ready', tryHookBubbler);
+    webview.addEventListener('did-attach', tryHookBubbler);
+
+    // 2. Injected Script Attachment
     if (webview._commandsAttached) return;
     webview._commandsAttached = true;
 
@@ -251,7 +295,7 @@ export class CommandsModule {
         const chord = rawChord.includes(':') ? rawChord.replace(':', '+') : rawChord;
         const commandId = this._getHotkeyMap().get(chord);
         if (commandId) {
-          if (this._app.workspace.activeLeaf !== leaf) return; // Tab already switched — abort
+          if (this._app.workspace.activeLeaf !== leaf) return;
           if (window.activeWindow !== win) win.focus();
           this._app.workspace.setActiveLeaf(leaf, { focus: false });
           webview.blur();
@@ -278,14 +322,12 @@ export class CommandsModule {
         }
       } catch (e) {}
 
-      // Temporarily bypass main menu accelerators if custom Obsidian block rules are active on this page
       try {
         if (typeof webview.setIgnoreMenuShortcuts === 'function') {
           webview.setIgnoreMenuShortcuts(hasObsidianBlockRules);
         }
       } catch (err) {}
 
-      // Filter out empty rules and pass valid ones to the webview
       const serializedRules = JSON.stringify(
         this.rules.filter(r => r.enabled && r.domain).map(r => ({
           domain: r.domain,
@@ -323,7 +365,6 @@ export class CommandsModule {
 
             const hostname = window.location.hostname;
             
-            // Match exact domain or subdomain rule settings
             const rule = window._obsRules?.find(r => {
               if (!r.domain) return false;
               const dom = r.domain.toLowerCase().trim();
@@ -331,12 +372,10 @@ export class CommandsModule {
               return host === dom || host.endsWith('.' + dom);
             });
 
-            // 1. If matching "Bypass Obsidian Shortcuts" rule, allow natively and exit
             if (rule && rule.obsidianChords && rule.obsidianChords.includes(ruleChord)) {
               return;
             }
 
-            // 2. If matching "Bypass Web Shortcuts" rule, intercept event and forward to Obsidian
             if (rule && rule.chords && rule.chords.includes(ruleChord)) {
               e.preventDefault();
               e.stopImmediatePropagation();
@@ -344,8 +383,6 @@ export class CommandsModule {
               return;
             }
 
-            // 3. If Obsidian-blocked rules are active on this domain for other shortcuts, 
-            // we must manually forward this non-blocked shortcut if it is an Obsidian hotkey
             const hasObsidianBlockedAny = rule && rule.obsidianChords && rule.obsidianChords.length > 0;
             if (hasObsidianBlockedAny && window._obsHotkeyChords?.includes(ruleChord)) {
               e.preventDefault();
@@ -374,15 +411,12 @@ export class CommandsModule {
             }, { once: false });
           }
 
-          // 1. Intercept keys in the parent document window
           window.addEventListener('keydown', handleKeydown, { capture: true });
 
-          // 2. Intercept keys inside existing static same-origin iframes
           document.querySelectorAll('iframe').forEach((iframe) => {
             attachToFrame(iframe);
           });
 
-          // 3. Monitor for newly added dynamic same-origin iframes (e.g. Google Docs' inputs)
           const observer = new MutationObserver((mutations) => {
             for (const mutation of mutations) {
               for (const node of mutation.addedNodes) {
@@ -402,12 +436,10 @@ export class CommandsModule {
     if (isReady()) inject();
   }
 
-  // Force-updates injected rules across all active webviews (invoked during settings alterations)
   reinjectAll() {
     this._cachedHotkeyMap = null;
     document.querySelectorAll('div.external-link-view webview, .webviewer-content webview')
       .forEach(wv => {
-        // Reset attached flag to trigger rule re-injection
         if (wv._commandsAttached) {
           wv._commandsAttached = false;
           this._attachToWebview(wv);
@@ -415,7 +447,6 @@ export class CommandsModule {
       });
   }
 
-  // ─── MOVEMENT DETECTION ────────────────────────────────────────────────────
   async _processMovement() {
     if (this._isRecreating) return;
     let movedLeaf = null;

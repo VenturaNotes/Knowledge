@@ -7,8 +7,11 @@ module.exports = async ({ app, obsidian }) => {
 
     const viewType = view.getViewType();
 
-    // Exit silently if the active tab is not a Web Viewer
-    if (viewType !== 'webviewer') return;
+    // Allowed webview view types (Obsidian core Web Viewer & Custom Isolated Browser)
+    const allowedTypes = ['webviewer', 'custom-webview-view'];
+
+    // Exit silently if the active tab is not an approved browser view
+    if (!allowedTypes.includes(viewType)) return;
 
     // 1. Try to find the Electron <webview> element (Desktop)
     const webview = view.containerEl.querySelector('webview');
