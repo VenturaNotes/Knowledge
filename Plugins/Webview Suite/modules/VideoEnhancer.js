@@ -216,25 +216,11 @@ export class VideoEnhancerModule {
       else if (e.message === 'YT_ENHANCER_EXIT_FULLSCREEN') exitFullscreen();
     });
 
-    // Register parent window F/Escape handlers once per window
+    // Register parent window Escape handler once per window
     const win = webview.ownerDocument?.defaultView;
     if (win && !win.__YT_PARENT_LISTENERS_SET) {
       win.__YT_PARENT_LISTENERS_SET = true;
       const WEBVIEW_SELECTOR = 'div.external-link-view webview, .webviewer-content webview';
-
-      win.addEventListener('keydown', (e) => {
-        if (e.key.toLowerCase() !== 'f') return;
-        if (e.metaKey || e.ctrlKey || e.altKey) return;
-        if (['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) return;
-        if (e.target.isContentEditable) return;
-        if (e.target.closest('.cm-editor') || e.target.closest('.cm-content')) return;
-        const activeLeaf = win.document.querySelector('.workspace-leaf.mod-active');
-        if (!activeLeaf) return;
-        const wv = activeLeaf.querySelector(WEBVIEW_SELECTOR);
-        if (!wv || typeof wv._toggleFullscreen !== 'function') return;
-        e.preventDefault(); e.stopPropagation();
-        wv._toggleFullscreen();
-      }, true);
 
       win.addEventListener('keydown', (e) => {
         if (e.key !== 'Escape') return;

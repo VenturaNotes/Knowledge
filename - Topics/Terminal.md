@@ -40,6 +40,8 @@
 	- `exec zsh`
 - It would start a new shell inside your current shell (nesting them), meaning your old environment would still be waiting in the background.
 	- `zsh`
+- Command to jump back to previous folder
+	- `cd -`
 
 ## Source [^1]
 - A point at which data enters or leaves the computer

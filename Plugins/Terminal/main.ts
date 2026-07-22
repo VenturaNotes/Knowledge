@@ -2,7 +2,7 @@ import { Plugin, PluginSettingTab, Setting, App, WorkspaceLeaf, ItemView, Scope,
 import * as path from 'path';
 import * as fs from 'fs';
 import * as os from 'os';
-import * as crypto from 'crypto'; // Added to support cryptographically secure token generation
+import * as crypto from 'crypto'; 
 import { spawn, execSync, ChildProcess } from 'child_process';
 import { TerminalModal } from './TerminalModal';
 
@@ -17,10 +17,10 @@ export interface TerminalSettings {
     height: string;
     left: string;
     top: string;
-    bookmarks: Record<string, string>;
     commandHistory: string[];
     currentDir: string;
     scriptsFolder: string;
+    serverToken: string; // Token persisted inside data.json
 }
 
 const DEFAULT_SETTINGS: TerminalSettings = {
@@ -28,18 +28,19 @@ const DEFAULT_SETTINGS: TerminalSettings = {
     height: '560px',
     left: '',
     top: '',
-    bookmarks: {},
     commandHistory: [],
     currentDir: '',
     scriptsFolder: 'TerminalScripts',
+    serverToken: '',
 };
 
 export default class CustomTerminalPlugin extends Plugin {
     settings: TerminalSettings = DEFAULT_SETTINGS;
     modal: TerminalModal | null = null;
+    public paneModal: TerminalModal | null = null; // Persists split-pane terminal modal
     private serverProcess: ChildProcess | null = null;
     private serverReady = false;
-    public serverToken = ''; // Holds the security token for this session
+    public serverToken = ''; // Holds the active token for this session
     public backdropActive = false; // Persistent backdrop active state across modal sessions
 
     async onload() {
@@ -86,11 +87,11 @@ export default class CustomTerminalPlugin extends Plugin {
             },
         });
 
-        this.app.workspace.onLayoutReady(() => {
+        this.app.workspace.onLayoutReady(async () => {
             const vaultPath = this.getVaultPath();
             if (vaultPath) {
                 this.ensureScriptsDir(vaultPath);
-                this.startServer(vaultPath);
+                await this.startServer(vaultPath);
             }
         });
 
@@ -101,6 +102,7 @@ export default class CustomTerminalPlugin extends Plugin {
             const plugins = (this.app as any).plugins;
             const wasOpen = this.modal?.isOpen ?? false;
             if (this.modal) this.modal.close();
+            if (this.paneModal) this.paneModal.close();
             await plugins.disablePlugin(id);
             await plugins.enablePlugin(id);
             if (wasOpen) plugins.__terminalReopenAfterReload = true;
@@ -115,6 +117,7 @@ export default class CustomTerminalPlugin extends Plugin {
 
     onunload() {
         if (this.modal) this.modal.close();
+        if (this.paneModal) this.paneModal.close(); // Clean up active split pane on unload
         this.stopServer();
     }
 
@@ -127,7 +130,11 @@ export default class CustomTerminalPlugin extends Plugin {
 
     openFloat() {
         if (this.modal) {
-            this.modal.close();
+            if (this.modal.isVisible) {
+                this.modal.hide();
+            } else {
+                this.modal.show();
+            }
             return;
         }
         this.modal = new TerminalModal(this.app, this);
@@ -205,7 +212,7 @@ export default class CustomTerminalPlugin extends Plugin {
         }
     }
 
-    private startServer(vaultPath: string) {
+    private async startServer(vaultPath: string) {
         const serverPath = this.getServerPath(vaultPath);
 
         // Write the embedded Python server to disk
@@ -216,15 +223,30 @@ export default class CustomTerminalPlugin extends Plugin {
             return;
         }
 
-        // Kill orphaned servers to avoid a security token mismatch
-        if (this.isServerRunning()) {
-            console.log('[terminal] Server already running on port, killing old process to refresh token...');
-            try {
-                execSync(`kill -9 $(lsof -t -i:${WS_PORT})`, { stdio: 'ignore' });
-            } catch (err: any) {
-                console.error('[terminal] Failed to kill existing server:', err.message);
+        const running = this.isServerRunning();
+
+        if (running) {
+            // Server is active. Retrieve the existing token from plugin settings to connect to it.
+            if (this.settings.serverToken) {
+                this.serverToken = this.settings.serverToken;
+                console.log('[terminal] Server already running on port', WS_PORT, 'attaching with active token.');
+                this.serverReady = true;
+                return;
+            } else {
+                // Stale process check: If server is running but no token is found in settings,
+                // terminate the process and allow a fresh start.
+                console.log('[terminal] Server active but no token found in settings. Restarting server...');
+                try {
+                    execSync(`kill -9 $(lsof -t -i:${WS_PORT})`, { stdio: 'ignore' });
+                } catch {}
             }
         }
+
+        // Fresh server startup. Generate a brand new cryptographically secure token.
+        const token = crypto.randomBytes(32).toString('hex');
+        this.settings.serverToken = token;
+        await this.saveSettings();
+        this.serverToken = token;
 
         const pythonBin = this.resolvePython();
 
@@ -233,9 +255,6 @@ export default class CustomTerminalPlugin extends Plugin {
             console.error('[terminal] Could not install websockets package. Run: pip3 install websockets');
             return;
         }
-
-        // Generate a 32-byte secure random hex string
-        this.serverToken = crypto.randomBytes(32).toString('hex');
 
         try {
             this.serverProcess = spawn(pythonBin, [serverPath], {
@@ -249,17 +268,15 @@ export default class CustomTerminalPlugin extends Plugin {
             });
             this.serverProcess.unref();
             this.serverReady = true;
-            console.log('[terminal] Python PTY server started');
+            console.log('[terminal] Python PTY server started with fresh token');
         } catch (err: any) {
             console.error('[terminal] Failed to start server:', err.message);
         }
     }
 
     private stopServer() {
-        if (this.serverProcess) {
-            try { this.serverProcess.kill('SIGTERM'); } catch {}
-            this.serverProcess = null;
-        }
+        // Maintain background server process to protect persistent Neovim sessions.
+        this.serverProcess = null;
         this.serverReady = false;
     }
 
@@ -297,14 +314,22 @@ export class TerminalPaneView extends ItemView {
     getIcon() { return 'terminal'; }
 
     async onOpen() {
-        // Render the terminal inside this leaf's content element
-        this.modal = new TerminalModal(this.app, this.plugin, this.contentEl);
-        this.modal.openInline();
+        // If a split-pane terminal was already created, remount it seamlessly
+        if (this.plugin.paneModal) {
+            this.modal = this.plugin.paneModal;
+            this.modal.remount(this.contentEl);
+        } else {
+            this.modal = new TerminalModal(this.app, this.plugin, this.contentEl);
+            this.plugin.paneModal = this.modal;
+            this.modal.openInline();
+        }
     }
 
     async onClose() {
-        this.modal?.destroy();
-        this.modal = null;
+        if (this.modal) {
+            this.modal.detach(); // Detach and preserve the DOM element
+            this.modal = null;
+        }
     }
 }
 

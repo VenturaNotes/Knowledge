@@ -22,7 +22,6 @@ const FIREFOX_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Geck
 // ─── STEALTH INJECTION CODE (SPOOFS BROWSER OBJECTS BEFORE PAGE EXECUTION) ──
 const STEALTH_PRELOAD_CODE = `
   (function() {
-    // Stealth helper to mask spoofed getters with standard native signatures
     const makeNative = (fn, name) => {
       try {
         Object.defineProperty(fn, 'name', { value: name, configurable: true });
@@ -33,7 +32,6 @@ const STEALTH_PRELOAD_CODE = `
       } catch (e) {}
     };
 
-    // 1. Force Firefox User Agent on Prototype
     try {
       const uaGetter = () => "${FIREFOX_UA}";
       makeNative(uaGetter, "get userAgent");
@@ -43,7 +41,6 @@ const STEALTH_PRELOAD_CODE = `
       });
     } catch (e) {}
 
-    // 2. Delete and nullify userAgentData (Not supported in Firefox)
     try {
       const uadGetter = () => undefined;
       makeNative(uadGetter, "get userAgentData");
@@ -53,7 +50,6 @@ const STEALTH_PRELOAD_CODE = `
       });
     } catch (e) {}
 
-    // 3. Clear window.chrome (Not supported in Firefox)
     try {
       if (window.chrome) {
         delete window.chrome;
@@ -66,7 +62,6 @@ const STEALTH_PRELOAD_CODE = `
       });
     } catch (e) {}
 
-    // 4. Force webdriver automated browser flag to false
     try {
       const webdriverGetter = () => false;
       makeNative(webdriverGetter, "get webdriver");
@@ -76,7 +71,6 @@ const STEALTH_PRELOAD_CODE = `
       });
     } catch (e) {}
 
-    // 5. Force standard languages list
     try {
       const langGetter = () => ['en-US', 'en'];
       makeNative(langGetter, "get languages");
@@ -97,8 +91,6 @@ export class IsolatedWebView extends ItemView {
     this.plugin = plugin;
     this.currentUrl = '';
     this.currentTitle = 'Isolated Browser';
-    
-    // Disables Obsidian's native view header/action bar completely to reclaim space
     this.navigation = false; 
   }
 
@@ -110,7 +102,6 @@ export class IsolatedWebView extends ItemView {
     return this.currentTitle;
   }
 
-  // ─── OBSIDIAN STATE MANAGEMENT (UNDO CLOSE TAB / WORKSPACE RESTORE) ───
   getState() {
     return {
       url: this.currentUrl,
@@ -137,17 +128,20 @@ export class IsolatedWebView extends ItemView {
       }
     }
   }
-  // ────────────────────────────────────────────────────────────────────────
 
   async onOpen() {
     const container = this.containerEl.children[1];
     container.empty();
     container.addClass('custom-webview-container');
 
-    // Create the navigation header (Minimal layout styled via styles.css)
-    const header = container.createEl('div', { cls: 'custom-webview-header' });
+    // Active leaf safeguard: ensures activeLeaf is maintained when interacting with webviews
+    container.addEventListener('mousedown', () => {
+      if (this.app.workspace.activeLeaf !== this.leaf) {
+        this.app.workspace.setActiveLeaf(this.leaf, { focus: false });
+      }
+    });
 
-    // Left Navigation Icon Buttons
+    const header = container.createEl('div', { cls: 'custom-webview-header' });
     const navLeft = header.createEl('div', { cls: 'custom-webview-nav-buttons' });
 
     this.backBtn = navLeft.createEl('button', { cls: 'custom-webview-btn', title: 'Go back' });
@@ -170,7 +164,6 @@ export class IsolatedWebView extends ItemView {
       if (this.webviewEl) this.webviewEl.reload();
     });
 
-    // Native Obsidian Address Bar Input
     this.addressBar = header.createEl('input', {
       type: 'text',
       cls: 'custom-webview-addressbar',
@@ -187,9 +180,7 @@ export class IsolatedWebView extends ItemView {
       }
     });
 
-    // Appending 'webviewer-content' allows Commands.js & DarkMode.js to find this element
     this.webviewWrapper = container.createEl('div', { cls: 'custom-webview-wrapper webviewer-content' });
-
     this.rebuildWebview(this.currentUrl);
   }
 
@@ -213,7 +204,6 @@ export class IsolatedWebView extends ItemView {
     this.webviewEl.setAttribute('partition', isolatedPartition);
     this.webviewEl.setAttribute('allowpopups', 'true');
     this.webviewEl.setAttribute('webpreferences', 'contextIsolation=no, sandbox=no, nodeIntegration=no');
-
     this.webviewEl.setAttribute('useragent', FIREFOX_UA);
 
     const bypassModule = this.plugin.modules.cloudflareBypass;
@@ -234,88 +224,33 @@ export class IsolatedWebView extends ItemView {
   }
 
   attachWebviewListeners() {
-    const startSpinner = () => {
-      this.reloadBtn.classList.add('is-loading');
-    };
-
-    const stopSpinner = () => {
-      this.reloadBtn.classList.remove('is-loading');
-    };
+    const startSpinner = () => this.reloadBtn.classList.add('is-loading');
+    const stopSpinner = () => this.reloadBtn.classList.remove('is-loading');
 
     const updateNavState = () => {
       try {
         const activeUrl = this.webviewEl.getURL() || this.webviewEl.src;
-        
-        // If the URL changed, update state and ask Obsidian to record it for undo history
         if (this.currentUrl !== activeUrl) {
           this.currentUrl = activeUrl;
           this.addressBar.value = activeUrl;
           this.app.workspace.requestSaveLayout();
         }
-
         this.backBtn.disabled = !this.webviewEl.canGoBack();
         this.forwardBtn.disabled = !this.webviewEl.canGoForward();
         
-        // Failsafe: if the navigation resolves and the webview isn't loading anymore, force stop
-        if (!this.webviewEl.isLoading()) {
-          stopSpinner();
-        }
+        if (!this.webviewEl.isLoading()) stopSpinner();
       } catch (e) {}
     };
 
     this.webviewEl.addEventListener('did-navigate', updateNavState);
     this.webviewEl.addEventListener('did-navigate-in-page', updateNavState);
-
-    // ─── ROBUST LOADING SPINNER EVENTS ───
     this.webviewEl.addEventListener('did-start-loading', startSpinner);
     this.webviewEl.addEventListener('did-start-navigation', (e) => {
       if (e.isMainFrame) startSpinner();
     });
-
     this.webviewEl.addEventListener('did-stop-loading', stopSpinner);
     this.webviewEl.addEventListener('did-finish-load', stopSpinner);
     this.webviewEl.addEventListener('did-fail-load', stopSpinner);
-
-    // NATIVE HOTKEY BUBBLER: Replicates Obsidian core webview functionality. 
-    this.webviewEl.addEventListener('dom-ready', () => {
-      try {
-        const remote = require('@electron/remote');
-        if (!remote || !remote.webContents) return;
-        
-        const wcId = this.webviewEl.getWebContentsId();
-        
-        // Prevent duplicate ghost listeners from @electron/remote proxies across URL navigations
-        if (this.webviewEl.__bubblerAttachedTo === wcId) return;
-        this.webviewEl.__bubblerAttachedTo = wcId;
-        
-        const wc = remote.webContents.fromId(wcId);
-        
-        if (wc) {
-          wc.on('before-input-event', (event, input) => {
-            if (input.type !== 'keyDown') return;
-            
-            const win = this.webviewEl.ownerDocument?.defaultView || window;
-            const target = this.webviewEl || win.document.activeElement || win.document.body;
-            
-            const kbEvent = new win.KeyboardEvent('keydown', {
-              key: input.key,
-              code: input.code,
-              bubbles: true,
-              cancelable: true,
-              ctrlKey: input.control,
-              altKey: input.alt,
-              shiftKey: input.shift,
-              metaKey: input.meta,
-              repeat: input.isAutoRepeat
-            });
-            
-            target.dispatchEvent(kbEvent);
-          });
-        }
-      } catch (err) {
-        console.error('[IsolatedWebView] Failed to bind hotkey bubbler:', err);
-      }
-    });
 
     this.webviewEl.addEventListener('page-title-updated', (e) => {
       this.currentTitle = e.title || 'Isolated Browser';
@@ -345,6 +280,9 @@ export class CloudflareBypassModule {
 
     this._globalClickHandler = null;
     this._windowOpenRef = null;
+    this._lastShiftState = false;
+    this._shiftTrackerKey = null;
+    this._shiftTrackerMouse = null;
   }
 
   onEnable(app) {
@@ -354,7 +292,6 @@ export class CloudflareBypassModule {
     this._installGlobalLinkInterceptor();
     this._injectCSSStyles();
     
-    // Write preload script to disk first, then set up webviews
     this._writePreloadScript().then(() => {
       const electronSession = this._getElectronSession();
       if (electronSession) {
@@ -399,27 +336,37 @@ export class CloudflareBypassModule {
     }
   }
 
+  _getSafeTabLeaf() {
+    const active = this.app.workspace.activeLeaf;
+    if (active && active.parent) {
+      return this.app.workspace.getLeaf('tab');
+    }
+    return this.app.workspace.getLeaf(false);
+  }
+
   // ─── GLOBAL BACKGROUND LINK INTERCEPTORS ───
   _installGlobalLinkInterceptor() {
-    // 1. Monkey-patch window.open to catch programmatic opens (e.g. from plugins)
     if (!window.__ORIGINAL_WINDOW_OPEN) {
       window.__ORIGINAL_WINDOW_OPEN = window.open;
     }
 
     window.open = (url, name, features) => {
       if (this._shouldInterceptUrl(url)) {
-        const newLeaf = this.app.workspace.getLeaf('tab');
+        const newLeaf = this._getSafeTabLeaf();
         newLeaf.setViewState({
           type: VIEW_TYPE_ISOLATED_WEBVIEW,
           active: true,
           state: { url: url }
         });
-        return null; // Stop the native window from spawning
+        return null;
       }
       return window.__ORIGINAL_WINDOW_OPEN(url, name, features);
     };
 
-    // 2. Global capture-phase click listener to intercept Markdown/UI links instantly
+    // Synchronously track Shift key state across window events and mouse clicks
+    this._shiftTrackerKey = (e) => { this._lastShiftState = !!e.shiftKey; };
+    this._shiftTrackerMouse = (e) => { this._lastShiftState = !!e.shiftKey; };
+
     this._globalClickHandler = (e) => {
       const anchor = e.target.closest('a');
       if (!anchor) return;
@@ -429,9 +376,9 @@ export class CloudflareBypassModule {
 
       if (this._shouldInterceptUrl(url)) {
         e.preventDefault();
-        e.stopPropagation(); // Stops Obsidian from processing the link
+        e.stopPropagation(); 
 
-        const newLeaf = this.app.workspace.getLeaf('tab');
+        const newLeaf = this._getSafeTabLeaf();
         newLeaf.setViewState({
           type: VIEW_TYPE_ISOLATED_WEBVIEW,
           active: true,
@@ -440,27 +387,29 @@ export class CloudflareBypassModule {
       }
     };
 
-    // Apply to main window and any current floating popout windows
     const windows = this._getActiveWindows();
     windows.forEach(win => {
       if (!win._cfLinkInterceptorAttached) {
         win._cfLinkInterceptorAttached = true;
+        win.document.addEventListener('keydown', this._shiftTrackerKey, { capture: true });
+        win.document.addEventListener('keyup', this._shiftTrackerKey, { capture: true });
+        win.document.addEventListener('mousedown', this._shiftTrackerMouse, { capture: true });
         win.document.addEventListener('click', this._globalClickHandler, { capture: true });
       }
     });
     
-    // Automatically attach to any new popout windows created in the future
     this._windowOpenRef = this.app.workspace.on('window-open', (child) => {
       const win = child.win;
       if (win && !win._cfLinkInterceptorAttached) {
         win._cfLinkInterceptorAttached = true;
+        win.document.addEventListener('keydown', this._shiftTrackerKey, { capture: true });
+        win.document.addEventListener('keyup', this._shiftTrackerKey, { capture: true });
+        win.document.addEventListener('mousedown', this._shiftTrackerMouse, { capture: true });
         win.document.addEventListener('click', this._globalClickHandler, { capture: true });
       }
     });
 
-    // 3. THE CORE BOTTLENECK: Monkey-patch WorkspaceLeaf.prototype.setViewState
-    // Intercepts any programmatic tab creations (like target="_blank" inside webviews)
-    // and seamlessly morphs the tab into our IsolatedWebView before any standard webview initializes.
+    // 1. Monkey-patch WorkspaceLeaf.prototype.setViewState
     if (!WorkspaceLeaf.prototype.__originalSetViewState) {
       WorkspaceLeaf.prototype.__originalSetViewState = WorkspaceLeaf.prototype.setViewState;
     }
@@ -475,6 +424,24 @@ export class CloudflareBypassModule {
       }
       return this.__originalSetViewState(state, ...args);
     };
+
+    // 2. Shift-aware getLeaf patch: overrides default 'window' popouts from webviews
+    // unless the user was physically holding Shift during the click.
+    if (!this.app.workspace.__originalGetLeaf) {
+      this.app.workspace.__originalGetLeaf = this.app.workspace.getLeaf;
+    }
+
+    this.app.workspace.getLeaf = function(type, ...args) {
+      if (type === 'window') {
+        const activeType = self.app.workspace.activeLeaf?.view?.getViewType();
+        const isWebviewActive = activeType === 'webviewer' || activeType === VIEW_TYPE_ISOLATED_WEBVIEW;
+        
+        if (isWebviewActive && !self._lastShiftState) {
+          type = 'tab';
+        }
+      }
+      return self.app.workspace.__originalGetLeaf.call(this, type, ...args);
+    };
   }
 
   _removeGlobalLinkInterceptor() {
@@ -487,6 +454,9 @@ export class CloudflareBypassModule {
       const windows = this._getActiveWindows();
       windows.forEach(win => {
         if (win._cfLinkInterceptorAttached) {
+          win.document.removeEventListener('keydown', this._shiftTrackerKey, { capture: true });
+          win.document.removeEventListener('keyup', this._shiftTrackerKey, { capture: true });
+          win.document.removeEventListener('mousedown', this._shiftTrackerMouse, { capture: true });
           win.document.removeEventListener('click', this._globalClickHandler, { capture: true });
           delete win._cfLinkInterceptorAttached;
         }
@@ -502,54 +472,16 @@ export class CloudflareBypassModule {
       WorkspaceLeaf.prototype.setViewState = WorkspaceLeaf.prototype.__originalSetViewState;
       delete WorkspaceLeaf.prototype.__originalSetViewState;
     }
+
+    if (this.app.workspace.__originalGetLeaf) {
+      this.app.workspace.getLeaf = this.app.workspace.__originalGetLeaf;
+      delete this.app.workspace.__originalGetLeaf;
+    }
   }
-  // ──────────────────────────────────────────
 
   _cleanUAString(ua) {
     if (!ua) return '';
-    return ua
-      .replace(/\s*(Electron|obsidian|Obsidian)\/[^\s]+/ig, '')
-      .replace(/\s{2,}/g, ' ')
-      .trim();
-  }
-
-  _injectChromeClientHints(headers, cleanUA) {
-    try {
-      const match = cleanUA.match(/Chrome\/([^\s]+)/i);
-      let fullVersion = "120.0.6099.291"; 
-      if (match && match[1]) {
-        fullVersion = match[1];
-      }
-      const majorVersion = fullVersion.split('.')[0];
-
-      const rawPlatform = typeof process !== 'undefined' ? process.platform : 'darwin';
-      const platformMap = { darwin: '"macOS"', win32: '"Windows"', linux: '"Linux"' };
-      const platformStr = platformMap[rawPlatform] || '"macOS"';
-
-      const hints = {
-        'Sec-CH-UA': `"Not_A Brand";v="8", "Chromium";v="${majorVersion}", "Google Chrome";v="${majorVersion}"`,
-        'Sec-CH-UA-Mobile': '?0',
-        'Sec-CH-UA-Platform': platformStr,
-        'Sec-CH-UA-Platform-Version': rawPlatform === 'darwin' ? '"15.0.0"' : '"10.0.0"',
-        'Sec-CH-UA-Full-Version-List': `"Not_A Brand";v="8.0.0.0", "Chromium";v="${fullVersion}", "Google Chrome";v="${fullVersion}"`
-      };
-
-      const headerKeysLower = Object.keys(headers).reduce((acc, key) => {
-        acc[key.toLowerCase()] = key;
-        return acc;
-      }, {});
-
-      Object.entries(hints).forEach(([hintKey, hintVal]) => {
-        const lowerKey = hintKey.toLowerCase();
-        if (headerKeysLower[lowerKey]) {
-          headers[headerKeysLower[lowerKey]] = hintVal;
-        } else {
-          headers[hintKey] = hintVal;
-        }
-      });
-    } catch (e) {
-      console.error('[CloudflareBypass] Error injecting Client Hints:', e);
-    }
+    return ua.replace(/\s*(Electron|obsidian|Obsidian)\/[^\s]+/ig, '').replace(/\s{2,}/g, ' ').trim();
   }
 
   _getElectronSession() {
@@ -582,6 +514,33 @@ export class CloudflareBypassModule {
   onWebviewReady(webview) {
     if (!this.enabled) return;
 
+    if (!webview._cfNewWindowAttached) {
+      webview._cfNewWindowAttached = true;
+      webview.addEventListener('new-window', async (e) => {
+        const targetUrl = e.url;
+        if (!targetUrl) return;
+
+        const isBypass = this._shouldInterceptUrl(targetUrl);
+        let leaf = null;
+        this.app.workspace.iterateAllLeaves(l => {
+          if (l.view?.containerEl?.contains(webview)) leaf = l;
+        });
+        const isIsolatedSource = leaf && leaf.view?.getViewType() === VIEW_TYPE_ISOLATED_WEBVIEW;
+
+        if (isBypass || isIsolatedSource) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+
+          const newLeaf = this._getSafeTabLeaf();
+          await newLeaf.setViewState({
+            type: VIEW_TYPE_ISOLATED_WEBVIEW,
+            active: true,
+            state: { url: targetUrl }
+          });
+        }
+      }, { capture: true }); 
+    }
+
     const partitionStr = webview.getAttribute('partition') || '';
     const electronSession = this._getElectronSession();
     if (!electronSession) return;
@@ -602,23 +561,17 @@ export class CloudflareBypassModule {
         const urlStr = webview.getURL() || webview.src || '';
         if (!urlStr || urlStr.startsWith('about:blank')) return;
 
-        // ─── 1. RESOLVE THE CONTAINING LEAF ───
         let leaf = null;
         this.app.workspace.iterateAllLeaves(l => {
-          if (l.view?.containerEl?.contains(webview)) {
-            leaf = l;
-          }
+          if (l.view?.containerEl?.contains(webview)) leaf = l;
         });
         if (!leaf) return;
 
         const viewType = leaf.view?.getViewType() || '';
 
-        // ─── 2. TRIGGER REDIRECTION (FALLBACK) IF WEBVIEW IS NATIVE & IS BYPASS DOMAIN ───
         if (this._shouldInterceptUrl(urlStr) && viewType !== VIEW_TYPE_ISOLATED_WEBVIEW) {
           if (webview._redirected) return;
           webview._redirected = true;
-
-          new Notice(`Redirecting to Built-in Isolated Browser...`);
           
           try { webview.stop(); } catch(e) {}
 
@@ -630,12 +583,8 @@ export class CloudflareBypassModule {
                 state: { url: urlStr }
               });
               const view = leaf.view;
-              if (view && typeof view.navigateTo === 'function') {
-                view.navigateTo(urlStr);
-              }
-            } catch (err) {
-              console.error('[CloudflareBypass] Failed to redirect leaf:', err);
-            }
+              if (view && typeof view.navigateTo === 'function') view.navigateTo(urlStr);
+            } catch (err) {}
           }, 50);
 
           return;
@@ -646,7 +595,6 @@ export class CloudflareBypassModule {
 
         if (shouldApplyBypass && this.preloadFileUrl) {
           const currentPreload = webview.getAttribute('preload') || '';
-          
           if (currentPreload !== this.preloadFileUrl) {
             webview.setAttribute('preload', this.preloadFileUrl);
             webview.setAttribute('useragent', FIREFOX_UA);
@@ -665,81 +613,12 @@ export class CloudflareBypassModule {
     applyUA();
   }
 
-  // Safely writes a Firefox stealth script to your local plugin directory
   async _writePreloadScript() {
     const pluginDir = this.app.vault.configDir + '/plugins/webview-suite';
     const localPath = `${pluginDir}/preload.js`;
     
-    // Stealth code with native Object.defineProperty and function toString override
-    const preloadCode = `
-      (function() {
-        const makeNative = (fn, name) => {
-          try {
-            Object.defineProperty(fn, 'name', { value: name, configurable: true });
-            Object.defineProperty(fn, 'toString', {
-              value: () => "function " + name + "() { [native code] }",
-              configurable: true
-            });
-          } catch (e) {}
-        };
-
-        // 1. Force Firefox User Agent on Prototype
-        try {
-          const uaGetter = () => "${FIREFOX_UA}";
-          makeNative(uaGetter, "get userAgent");
-          Object.defineProperty(Navigator.prototype, 'userAgent', {
-            get: uaGetter,
-            configurable: true
-          });
-        } catch (e) {}
-
-        // 2. Delete and nullify userAgentData (Not supported in Firefox)
-        try {
-          const uadGetter = () => undefined;
-          makeNative(uadGetter, "get userAgentData");
-          Object.defineProperty(Navigator.prototype, 'userAgentData', {
-            get: uadGetter,
-            configurable: true
-          });
-        } catch (e) {}
-
-        // 3. Delete window.chrome (Firefox does not support Extension runtime globals)
-        try {
-          if (window.chrome) {
-            delete window.chrome;
-          }
-          const chromeGetter = () => undefined;
-          makeNative(chromeGetter, "get chrome");
-          Object.defineProperty(window, 'chrome', {
-            get: chromeGetter,
-            configurable: true
-          });
-        } catch (e) {}
-
-        // 4. Force webdriver automated browser flag to false
-        try {
-          const webdriverGetter = () => false;
-          makeNative(webdriverGetter, "get webdriver");
-          Object.defineProperty(Navigator.prototype, 'webdriver', {
-            get: webdriverGetter,
-            configurable: true
-          });
-        } catch (e) {}
-
-        // 5. Force standard languages list
-        try {
-          const langGetter = () => ['en-US', 'en'];
-          makeNative(langGetter, "get languages");
-          Object.defineProperty(Navigator.prototype, 'languages', {
-            get: langGetter,
-            configurable: true
-          });
-        } catch (e) {}
-      })();
-    `;
-
     try {
-      await this.app.vault.adapter.write(localPath, preloadCode);
+      await this.app.vault.adapter.write(localPath, STEALTH_PRELOAD_CODE);
       
       let absolutePath = '';
       if (typeof this.app.vault.adapter.getAbsoluteFilePath === 'function') {
@@ -749,16 +628,11 @@ export class CloudflareBypassModule {
         absolutePath = require('path').join(basePath, localPath);
       }
       
-      // Standardize Windows backslashes and construct a clean file-schema URL
       let fileUrl = absolutePath.replace(/\\/g, '/');
-      if (!fileUrl.startsWith('/')) {
-        fileUrl = '/' + fileUrl;
-      }
+      if (!fileUrl.startsWith('/')) fileUrl = '/' + fileUrl;
+      
       this.preloadFileUrl = 'file://' + fileUrl;
-      console.log('[CloudflareBypass] Written local preload script:', this.preloadFileUrl);
-    } catch (err) {
-      console.error('[CloudflareBypass] Failed to write local preload script:', err);
-    }
+    } catch (err) {}
   }
 
   _hookSessionWebRequest(sess) {
@@ -774,13 +648,10 @@ export class CloudflareBypassModule {
     sess.webRequest.onBeforeSendHeaders(
       { urls: ['*://*/*'] },
       (details, callback) => {
-        if (!this.enabled) {
-          return callback({ requestHeaders: details.requestHeaders });
-        }
+        if (!this.enabled) return callback({ requestHeaders: details.requestHeaders });
+        
         try {
           const hostname = new URL(details.url).hostname.toLowerCase();
-          
-          // Force environment override for bypass domains, Cloudflare frame URLs, or ALL traffic inside the isolated sandbox
           const isBypass = isIsolated || hostname.includes('cloudflare.com') || this.bypassDomains.some(domain => {
             const cleanDom = domain.toLowerCase().trim();
             return hostname === cleanDom || hostname.endsWith('.' + cleanDom);
@@ -788,8 +659,6 @@ export class CloudflareBypassModule {
 
           if (isBypass) {
             details.requestHeaders['User-Agent'] = FIREFOX_UA;
-
-            // Completely strip Chrome-specific Client Hints to match clean native Firefox
             delete details.requestHeaders['Sec-CH-UA'];
             delete details.requestHeaders['Sec-CH-UA-Mobile'];
             delete details.requestHeaders['Sec-CH-UA-Platform'];
@@ -834,7 +703,6 @@ export class CloudflareBypassModule {
       });
   }
 
-  // ─── DYNAMIC CSS INJECTOR (APPLIES OVERRIDES WITHOUT AN EXTERNAL STYLES.CSS)
   _injectCSSStyles() {
     const windows = new Set([window]);
     const floatingSplit = this.app?.workspace?.floatingSplit;
@@ -845,134 +713,27 @@ export class CloudflareBypassModule {
     }
 
     const styleId = 'webview-suite-cloudflare-bypass-styles';
-
     Array.from(windows).forEach(win => {
       if (!win?.document || win.document.getElementById(styleId)) return;
-
       const styleEl = win.document.createElement('style');
       styleEl.id = styleId;
       styleEl.textContent = `
-        /* Remove the default 16px padding so the browser reaches the screen edges */
-        .workspace-leaf-content[data-type="${VIEW_TYPE_ISOLATED_WEBVIEW}"] .view-content {
-            padding: 0 !important;
-        }
-
-        /* Hide Obsidian's native view title header to prevent duplicate navbars */
-        .workspace-leaf-content[data-type="${VIEW_TYPE_ISOLATED_WEBVIEW}"] .view-header {
-            display: none !important;
-        }
-
-        /* Custom Web Browser Container & Wrapper */
-        .custom-webview-container {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
-            background-color: var(--background-primary);
-        }
-
-        .custom-webview-wrapper {
-            flex-grow: 1;
-            position: relative;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        /* Custom Webviewer Wrapper overrides to avoid any clashing with native Obsidian classes */
-        .custom-webview-wrapper.webviewer-content {
-            display: block !important;
-            padding: 0 !important;
-            margin: 0 !important;
-            border: none !important;
-            flex-grow: 1;
-            position: relative;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        .custom-webview-wrapper webview {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        /* Navigation Toolbar (Header) */
-        .custom-webview-header {
-            display: flex;
-            align-items: center;
-            padding: var(--size-4-1) var(--size-4-2); 
-            border-bottom: 1px solid var(--border-color);
-            background-color: var(--background-secondary);
-            gap: var(--size-4-1); 
-            flex-shrink: 0;
-        }
-
-        .custom-webview-nav-buttons {
-            display: flex;
-            gap: var(--size-4-1);
-            align-items: center;
-        }
-
-        /* Toolbar Buttons */
-        .custom-webview-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: transparent;
-            border: none;
-            cursor: pointer;
-            width: 24px;
-            height: 24px;
-            padding: 4px;
-            border-radius: var(--radius-s);
-            color: var(--text-muted);
-            box-sizing: border-box;
-        }
-
-        .custom-webview-btn svg {
-            width: 16px;
-            height: 16px;
-        }
-
-        .custom-webview-btn:hover {
-            background-color: var(--background-modifier-hover);
-            color: var(--text-normal);
-        }
-
-        .custom-webview-btn:disabled {
-            opacity: 0.3;
-            cursor: not-allowed;
-        }
-
-        /* Address Bar Input */
-        .custom-webview-addressbar {
-            flex-grow: 1;
-            height: 24px; 
-            border-radius: var(--radius-s); 
-            border: 1px solid var(--border-color);
-            background-color: var(--background-primary);
-            color: var(--text-normal);
-            padding: 0 var(--size-4-2); 
-            font-size: var(--font-ui-small);
-        }
-
-        .custom-webview-addressbar:focus {
-            border-color: var(--interactive-accent);
-            outline: none;
-        }
-
-        /* Loading Spinner Animation */
-        @keyframes webview-spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .custom-webview-btn.is-loading svg {
-            animation: webview-spin 1s linear infinite;
-        }
+        .workspace-leaf-content[data-type="${VIEW_TYPE_ISOLATED_WEBVIEW}"] .view-content { padding: 0 !important; }
+        .workspace-leaf-content[data-type="${VIEW_TYPE_ISOLATED_WEBVIEW}"] .view-header { display: none !important; }
+        .custom-webview-container { display: flex; flex-direction: column; height: 100%; width: 100%; overflow: hidden; background-color: var(--background-primary); }
+        .custom-webview-wrapper { flex-grow: 1; position: relative; width: 100%; height: 100%; overflow: hidden; }
+        .custom-webview-wrapper.webviewer-content { display: block !important; padding: 0 !important; margin: 0 !important; border: none !important; flex-grow: 1; position: relative; width: 100%; height: 100%; overflow: hidden; }
+        .custom-webview-wrapper webview { width: 100%; height: 100%; border: none; }
+        .custom-webview-header { display: flex; align-items: center; padding: var(--size-4-1) var(--size-4-2); border-bottom: 1px solid var(--border-color); background-color: var(--background-secondary); gap: var(--size-4-1); flex-shrink: 0; }
+        .custom-webview-nav-buttons { display: flex; gap: var(--size-4-1); align-items: center; }
+        .custom-webview-btn { display: flex; align-items: center; justify-content: center; background: transparent; border: none; cursor: pointer; width: 24px; height: 24px; padding: 4px; border-radius: var(--radius-s); color: var(--text-muted); box-sizing: border-box; }
+        .custom-webview-btn svg { width: 16px; height: 16px; }
+        .custom-webview-btn:hover { background-color: var(--background-modifier-hover); color: var(--text-normal); }
+        .custom-webview-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        .custom-webview-addressbar { flex-grow: 1; height: 24px; border-radius: var(--radius-s); border: 1px solid var(--border-color); background-color: var(--background-primary); color: var(--text-normal); padding: 0 var(--size-4-2); font-size: var(--font-ui-small); }
+        .custom-webview-addressbar:focus { border-color: var(--interactive-accent); outline: none; }
+        @keyframes webview-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .custom-webview-btn.is-loading svg { animation: webview-spin 1s linear infinite; }
       `;
       win.document.head.appendChild(styleEl);
     });
@@ -980,7 +741,6 @@ export class CloudflareBypassModule {
 
   _removeCSSStyles() {
     const styleId = 'webview-suite-cloudflare-bypass-styles';
-    
     const windows = new Set([window]);
     const floatingSplit = this.app?.workspace?.floatingSplit;
     if (floatingSplit?.children) {
@@ -988,34 +748,24 @@ export class CloudflareBypassModule {
         if (child.win) windows.add(child.win);
       });
     }
-
-    Array.from(windows).forEach(win => {
-      win?.document?.getElementById(styleId)?.remove();
-    });
+    Array.from(windows).forEach(win => win?.document?.getElementById(styleId)?.remove());
   }
 
-  // ─── ERROR SHIELD ─────────────────────────────────────────────────────────
   _installGlobalErrorShield() {
     this._unhandledRejectionHandler = (e) => {
       const msg = e.reason?.message || '';
-      if (msg.includes('GUEST_VIEW_MANAGER_CALL') && msg.includes('ERR_ABORTED')) {
-        e.preventDefault();
-      }
+      if (msg.includes('GUEST_VIEW_MANAGER_CALL')) e.preventDefault();
     };
     window.addEventListener('unhandledrejection', this._unhandledRejectionHandler);
   }
 
   _removeGlobalErrorShield() {
-    if (this._unhandledRejectionHandler) {
-      window.removeEventListener('unhandledrejection', this._unhandledRejectionHandler);
-    }
+    if (this._unhandledRejectionHandler) window.removeEventListener('unhandledrejection', this._unhandledRejectionHandler);
   }
 
-  // ─── UTILITY COMMANDS (COHESIVELY MANAGED BY CLOUDFLARE BYPASS) ───────────
   _registerCommands() {
     this._unregisterCommands();
     if (!this.app) return;
-
     try {
       const clearCmd = this.app.commands.addCommand({
         id: 'webview-suite:clear-active-webview-storage',
@@ -1030,9 +780,7 @@ export class CloudflareBypassModule {
         callback: () => this.toggleActiveWebviewSessionMode()
       });
       if (toggleCmd) this._commands.push(toggleCmd);
-    } catch (e) {
-      console.error('[CloudflareBypass] Failed to register commands:', e);
-    }
+    } catch (e) {}
   }
 
   _unregisterCommands() {
@@ -1040,13 +788,9 @@ export class CloudflareBypassModule {
       try {
         const appCommands = this.app?.commands;
         if (appCommands) {
-          for (const cmd of this._commands) {
-            appCommands.removeCommand(cmd.id);
-          }
+          for (const cmd of this._commands) appCommands.removeCommand(cmd.id);
         }
-      } catch (e) {
-        console.error('[CloudflareBypass] Error unregistering commands:', e);
-      }
+      } catch (e) {}
       this._commands = [];
     }
   }
@@ -1065,13 +809,10 @@ export class CloudflareBypassModule {
   _getActiveWebview() {
     if (!this.app) return null;
     const activeWindows = this._getActiveWindows();
-    
     for (const win of activeWindows) {
       if (!win?.document) continue;
       const activeEl = win.document.activeElement;
-      if (activeEl && activeEl.tagName === 'WEBVIEW') {
-        return activeEl;
-      }
+      if (activeEl && activeEl.tagName === 'WEBVIEW') return activeEl;
     }
     const activeLeaf = this.app.workspace.activeLeaf;
     if (activeLeaf?.view?.containerEl) {
@@ -1089,47 +830,34 @@ export class CloudflareBypassModule {
     }
     try {
       const urlStr = webview.getURL() || webview.src;
-      if (!urlStr) {
-        new Notice('The active webview does not have an active URL.');
-        return;
-      }
+      if (!urlStr) return new Notice('The active webview does not have an active URL.');
+      
       const url = new URL(urlStr);
-      const origin = url.origin;
       const partition = webview.getAttribute('partition') || '';
-
       const electronSession = this._getElectronSession();
-      if (!electronSession) {
-        new Notice('Error: Electron Session API is unavailable.');
-        return;
-      }
+      if (!electronSession) return new Notice('Error: Electron Session API is unavailable.');
+      
       const sess = partition ? electronSession.fromPartition(partition) : electronSession.defaultSession;
       if (sess) {
-        await sess.clearStorageData({
-          origin: origin,
-          storages: ['cookies', 'localstorage', 'indexdb', 'cache', 'serviceworkers']
-        });
+        await sess.clearStorageData({ origin: url.origin, storages: ['cookies', 'localstorage', 'indexdb', 'cache', 'serviceworkers'] });
         new Notice(`Cleared cookies & storage data for ${url.hostname}. Reloading...`);
         webview.reload();
       }
     } catch (err) {
-      console.error('[CloudflareBypass] Error clearing active webview storage:', err);
       new Notice('Failed to complete storage deletion.');
     }
   }
 
   async toggleActiveWebviewSessionMode() {
     const webview = this._getActiveWebview();
-    if (!webview) {
-      new Notice('Please click inside your webview tab first to focus it.');
-      return;
-    }
+    if (!webview) return new Notice('Please click inside your webview tab first to focus it.');
+    
     const parent = webview.parentElement;
     if (!parent) return;
 
     try {
       const urlStr = webview.getURL() || webview.src;
       const currentPartition = webview.getAttribute('partition') || '';
-      
       const appId = this.app?.appId || '';
       const normalPartition = `persist:vault-${appId}`;
       const tempPartition = 'persist:webview-suite-isolated-session';
@@ -1146,23 +874,17 @@ export class CloudflareBypassModule {
       newWebview.setAttribute('partition', targetPartition);
       newWebview.setAttribute('allowpopups', 'true');
       newWebview.setAttribute('webpreferences', 'contextIsolation=no, sandbox=no, nodeIntegration=no');
-
       newWebview.setAttribute('useragent', FIREFOX_UA);
-      if (this.preloadFileUrl) {
-        newWebview.setAttribute('preload', this.preloadFileUrl);
-      }
+      if (this.preloadFileUrl) newWebview.setAttribute('preload', this.preloadFileUrl);
 
       parent.replaceChild(newWebview, webview);
 
       setTimeout(() => {
-        if (this.app?.workspace) {
-          this.app.workspace.trigger('layout-change');
-        }
+        if (this.app?.workspace) this.app.workspace.trigger('layout-change');
         if (urlStr) newWebview.src = urlStr;
       }, 150);
 
     } catch (err) {
-      console.error('[CloudflareBypass] Error executing partition toggle:', err);
       new Notice('Failed to transition session container.');
     }
   }

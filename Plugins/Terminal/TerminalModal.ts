@@ -1,4 +1,4 @@
-import { App, Modal, Scope } from 'obsidian';
+import { App, Modal, Scope, ItemView } from 'obsidian';
 import * as os from 'os';
 import { execSync } from 'child_process';
 import { Terminal } from '@xterm/xterm';
@@ -7,6 +7,7 @@ import CustomTerminalPlugin, { WS_PORT } from './main';
 
 export class TerminalModal extends Modal {
     isOpen = false;
+    public isVisible = true; // Tracks if the modal is currently unhidden in the workspace
 
     private terminal: Terminal | null = null;
     private fitAddon: FitAddon | null = null;
@@ -17,6 +18,8 @@ export class TerminalModal extends Modal {
     private wsReady = false;
     private inputQueue: string[] = [];
     private reconnectTimeout: any = null;
+    private observerTimeout: any = null; // Debounce timer for layout changes
+    private isResizing = false; // Lock out layout fits during active resizing
     private isExited = false; // Tracks if the terminal process has terminated
 
     private dragState = { dragging: false, startX: 0, startY: 0, origLeft: 0, origTop: 0 };
@@ -26,8 +29,10 @@ export class TerminalModal extends Modal {
     private inlineContainer: HTMLElement | null = null;
     private isInline = false;
 
-    private bookmarkSelect: HTMLSelectElement | null = null;
     private focusBackdrop: HTMLDivElement | null = null;
+
+    private persistentPaneEl: HTMLDivElement | null = null; // Preserves split-pane HTML layout
+    private xtermWrapEl: HTMLElement | null = null; // Reference to the active text viewport wrapper
 
     constructor(
         app: App,
@@ -53,10 +58,119 @@ export class TerminalModal extends Modal {
         }
     }
 
+    // ── Persistence API (Hide / Show / Remount) ──────────────────────────
+
+    hide() {
+        if (this.isInline) return;
+        this.isVisible = false;
+        this.containerEl.style.display = 'none';
+        if (this.focusBackdrop) {
+            this.focusBackdrop.style.display = 'none';
+        }
+        
+        // Pop the active modal keyboard scope so Obsidian's hotkeys (e.g. Cmd+P) work again
+        if (this.scope) {
+            try {
+                this.app.keymap.popScope(this.scope);
+            } catch (err) {
+                console.error('[terminal] failed to pop scope on hide:', err);
+            }
+        }
+
+        // Return focus to the active Obsidian view
+        const activeView = this.app.workspace.getActiveViewOfType(ItemView);
+        if (activeView) {
+            activeView.containerEl.focus();
+        }
+    }
+
+    show() {
+        if (this.isInline) return;
+        this.isVisible = true;
+        this.containerEl.style.display = '';
+        if (this.focusBackdrop) {
+            this.focusBackdrop.style.display = '';
+        }
+
+        // Push our modal keyboard scope back to intercept hotkeys while active
+        if (this.scope) {
+            this.app.keymap.pushScope(this.scope);
+        }
+
+        this.terminal?.focus();
+        
+        // Quick layout recalculation in case Obsidian was resized while hidden
+        try {
+            this.fitAddon?.fit();
+        } catch {}
+    }
+
+    detach() {
+        // Disconnect layout observers when a split tab is closed
+        if (this.resizeObserver) {
+            this.resizeObserver.disconnect();
+            this.resizeObserver = null;
+        }
+        if (this.observerTimeout) {
+            clearTimeout(this.observerTimeout);
+            this.observerTimeout = null;
+        }
+
+        // Move the persistent DOM element to document.body and hide it to preserve xterm's active buffer
+        if (this.persistentPaneEl) {
+            this.persistentPaneEl.style.display = 'none';
+            document.body.appendChild(this.persistentPaneEl);
+        }
+
+        this.inlineContainer = null;
+        this.isOpen = false;
+        this.isVisible = false;
+    }
+
+    remount(container: HTMLElement) {
+        this.inlineContainer = container;
+        this.isInline = true;
+        this.isOpen = true;
+        this.isVisible = true;
+
+        // Move the persistent element out of document.body and append it to the new tab leaf
+        if (this.persistentPaneEl) {
+            this.persistentPaneEl.style.display = 'flex';
+            container.appendChild(this.persistentPaneEl);
+        }
+
+        // Re-establish layout ResizeObserver on the preserved wrapper
+        if (this.xtermWrapEl) {
+            this.resizeObserver = new ResizeObserver(() => {
+                if (this.isResizing) return;
+                if (this.observerTimeout) {
+                    clearTimeout(this.observerTimeout);
+                }
+                this.observerTimeout = setTimeout(() => {
+                    try {
+                        this.fitAddon?.fit();
+                    } catch (e) {
+                        console.error('[terminal] fit failed on resize:', e);
+                    }
+                    this.observerTimeout = null;
+                }, 100);
+            });
+            this.resizeObserver.observe(this.xtermWrapEl);
+        }
+
+        requestAnimationFrame(() => {
+            try {
+                this.fitAddon?.fit();
+            } catch {}
+            this.terminal?.focus();
+        });
+    }
+
     // ── Entry points ──────────────────────────────────────────────────────
 
     onOpen() {
         this.isOpen = true;
+        this.isVisible = true;
         
         // Remove the default modal scope (which normally dismisses the window when pressing Escape)
         if (this.scope) {
@@ -78,14 +192,20 @@ export class TerminalModal extends Modal {
     openInline() {
         if (!this.inlineContainer) return;
         this.isOpen = true;
+        this.isVisible = true;
         this.buildInlineUI(this.inlineContainer);
     }
 
     onClose() {
         this.isOpen = false;
+        this.isVisible = false;
         if (this.reconnectTimeout) {
             clearTimeout(this.reconnectTimeout);
             this.reconnectTimeout = null;
+        }
+        if (this.observerTimeout) {
+            clearTimeout(this.observerTimeout);
+            this.observerTimeout = null;
         }
 
         // Cleans up backdrop DOM elements, but does NOT reset this.plugin.backdropActive
@@ -135,6 +255,12 @@ export class TerminalModal extends Modal {
         } catch (err) { 
             console.error('[terminal] removeOverlay failed during close:', err); 
         }
+
+        if (this.persistentPaneEl) {
+            try { this.persistentPaneEl.remove(); } catch (_) {}
+            this.persistentPaneEl = null;
+        }
+        this.xtermWrapEl = null;
         
         // Safely dismantle our modal's active keyboard scope
         if (this.scope) {
@@ -156,7 +282,7 @@ export class TerminalModal extends Modal {
         this.modalEl.style.height = '560px';
         this.modalEl.style.left = '50%';
         this.modalEl.style.top = '80px';
-        this.modalEl.style.transform = 'translateX(-50%)';
+        this.modalEl.style.transform = 'none';
         this.fitAddon?.fit();
         requestAnimationFrame(() => this.captureBounds());
     }
@@ -222,10 +348,10 @@ export class TerminalModal extends Modal {
                 // Attach to the existing backend session
                 ws.send(JSON.stringify({ type: 'attach', sessionId: this.sessionId }));
                 
-                // Force a non-invasive terminal SIGWINCH redraw by issuing a small resize nudge
-                // (resizing the columns slightly, and then returning to the correct size 50ms later).
-                // This triggers Neovim's layout engine to redraw line numbers and status lines cleanly.
-                const nudgeCols = Math.max(80, cols - 1);
+                // Force a single SIGWINCH redraw signal on attach by starting with a slightly
+                // different width. We then restore the correct width 50ms later. Since the screen
+                // starts completely blank, this cleanly repaints Neovim or the shell.
+                const nudgeCols = cols > 80 ? cols - 1 : cols + 1;
                 ws.send(JSON.stringify({ type: 'resize', sessionId: this.sessionId, cols: nudgeCols, rows }));
                 
                 if (this.reconnectTimeout) clearTimeout(this.reconnectTimeout);
@@ -309,7 +435,6 @@ export class TerminalModal extends Modal {
     }
 
     private sendResize(cols: number, rows: number) {
-        // Prevent sending invalid/collapsed size updates
         if (cols <= 0 || rows <= 0) return;
         if (this.ws?.readyState === WebSocket.OPEN) {
             this.ws.send(JSON.stringify({ type: 'resize', sessionId: this.sessionId, cols, rows }));
@@ -431,9 +556,10 @@ export class TerminalModal extends Modal {
         xtermWrap.style.cssText = 'flex:1; overflow:hidden; padding:4px; min-height:0;';
 
         requestAnimationFrame(() => {
-            this.initXterm(xtermWrap);
-            this.captureBounds();
-            this.connectWS(); // Connect after xterm layout calculation has run
+            this.initXterm(xtermWrap, () => {
+                this.captureBounds();
+                this.connectWS(); // Connect AFTER xterm layout fit is complete
+            });
             if (this.plugin.backdropActive) {
                 this.toggleFocusBackdrop(true);
             }
@@ -443,27 +569,31 @@ export class TerminalModal extends Modal {
     // ── Inline (pane) UI ──────────────────────────────────────────────────
 
     private buildInlineUI(container: HTMLElement) {
-        container.style.cssText = 'display:flex; flex-direction:column; width:100%; height:100%; overflow:hidden; padding:0; margin:0; background:#1a1a1a;';
-        container.empty();
+        // Create a persistent root wrapper element that is kept alive in memory on close
+        this.persistentPaneEl = document.createElement('div');
+        this.persistentPaneEl.style.cssText = 'display:flex; flex-direction:column; width:100%; height:100%; overflow:hidden; padding:0; margin:0; background:#1a1a1a;';
+        container.appendChild(this.persistentPaneEl);
 
-        this.buildTitleBar(container, true);
+        this.buildTitleBar(this.persistentPaneEl, true);
 
-        const xtermWrap = container.createEl('div');
+        const xtermWrap = this.persistentPaneEl.createEl('div');
         xtermWrap.style.cssText = 'flex:1; overflow:hidden; padding:4px; min-height:0;';
+        this.xtermWrapEl = xtermWrap;
 
         // ──────────────────────────────────────────────────────────────────
         // HARDCODED BOTTOM SPACER FOR SPLIT PANE TERMINALS
-        // Modify '32px' below to adjust the height of the physical gap at the bottom.
+        // Modify '20px' below to adjust the height of the physical gap at the bottom.
         // This pushes the terminal container up, keeping it completely clear of the status bar.
         const bottomSpacerHeight = '20px'; 
         // ──────────────────────────────────────────────────────────────────
 
-        const spacer = container.createEl('div');
+        const spacer = this.persistentPaneEl.createEl('div');
         spacer.style.cssText = `height:${bottomSpacerHeight}; flex-shrink:0; background:transparent; pointer-events:none;`;
 
         requestAnimationFrame(() => {
-            this.initXterm(xtermWrap);
-            this.connectWS(); // Connect after xterm layout calculation has run
+            this.initXterm(xtermWrap, () => {
+                this.connectWS(); // Connect AFTER layout fit is complete
+            });
         });
     }
 
@@ -485,27 +615,13 @@ export class TerminalModal extends Modal {
 
         const controls = bar.createEl('div', { attr: { style: 'display:flex; gap:6px; align-items:center;' } });
 
-        this.bookmarkSelect = controls.createEl('select');
-        this.bookmarkSelect.style.cssText = 'font-size:11px; background:#333; color:#ccc; border:1px solid #555; border-radius:3px; padding:2px; cursor:pointer; outline:none;';
-        this.updateBookmarksDropdown();
-        this.bookmarkSelect.addEventListener('mousedown', e => e.stopPropagation());
-        this.bookmarkSelect.addEventListener('change', () => {
-            const dir = this.bookmarkSelect?.value;
-            if (dir) {
-                this.sendInput(`cd "${dir}"\n`);
-                this.plugin.settings.currentDir = dir;
-                this.plugin.saveSettings();
-            }
-            if (this.bookmarkSelect) this.bookmarkSelect.value = '📂 Bookmarks';
-        });
-
         if (!isPaneMode) {
             const closeBtn = controls.createEl('button', { text: '✕' });
             closeBtn.style.cssText = 'background:transparent; border:none; color:#888; cursor:pointer; font-size:16px; padding:0 4px; line-height:1;';
             closeBtn.addEventListener('mousedown', e => e.stopPropagation());
             closeBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
-                this.close();
+                this.hide(); // Hide the modal container instead of calling destructive close()
             });
         }
 
@@ -514,7 +630,7 @@ export class TerminalModal extends Modal {
 
     // ── xterm.js ──────────────────────────────────────────────────────────
 
-    private initXterm(container: HTMLElement) {
+    private initXterm(container: HTMLElement, onReady?: () => void) {
         this.terminal = new Terminal({
             theme: {
                 background: '#1a1a1a',
@@ -540,8 +656,13 @@ export class TerminalModal extends Modal {
         this.setupKeyInterception();
 
         requestAnimationFrame(() => {
-            this.fitAddon?.fit();
+            try {
+                this.fitAddon?.fit();
+            } catch (e) {
+                console.error('[terminal] fit failed during layout:', e);
+            }
             this.terminal?.focus();
+            if (onReady) onReady();
         });
 
         this.terminal.onData((data: string) => {
@@ -556,21 +677,24 @@ export class TerminalModal extends Modal {
 
         this.terminal.onResize(({ cols, rows }) => this.sendResize(cols, rows));
 
-        this.resizeObserver = new ResizeObserver(() => this.fitAddon?.fit());
+        this.resizeObserver = new ResizeObserver(() => {
+            // Lock out fits while the floating resizer is active
+            if (this.isResizing) return;
+
+            if (this.observerTimeout) {
+                clearTimeout(this.observerTimeout);
+            }
+            // Debounce the layout fitting to align the frontend and backend resizing in time
+            this.observerTimeout = setTimeout(() => {
+                try {
+                    this.fitAddon?.fit();
+                } catch (e) {
+                    console.error('[terminal] fit failed on resize:', e);
+                }
+                this.observerTimeout = null;
+            }, 100);
+        });
         this.resizeObserver.observe(container);
-    }
-
-    // ── Bookmarks ─────────────────────────────────────────────────────────
-
-    private updateBookmarksDropdown() {
-        if (!this.bookmarkSelect) return;
-        this.bookmarkSelect.empty();
-        const ph = this.bookmarkSelect.createEl('option', { text: '📂 Bookmarks' });
-        ph.disabled = true;
-        ph.selected = true;
-        for (const [name, dir] of Object.entries(this.plugin.settings.bookmarks || {})) {
-            this.bookmarkSelect.createEl('option', { text: name, value: dir });
-        }
     }
 
     // ── Bounds / drag / resize ────────────────────────────────────────────
@@ -649,6 +773,7 @@ export class TerminalModal extends Modal {
             h.addEventListener('mousedown', (e: MouseEvent) => {
                 e.preventDefault();
                 e.stopPropagation();
+                this.isResizing = true; // Lock out layout fits during active resizing
                 const rect = modalEl.getBoundingClientRect();
                 const startX = e.clientX, startY = e.clientY;
                 this.showOverlay(cursor);
@@ -658,10 +783,21 @@ export class TerminalModal extends Modal {
                     const dy = ev.clientY - startY;
                     let { width, height, left, top } = rect;
 
-                    if (side.includes('e')) width  = Math.max(300, rect.width + dx);
-                    if (side.includes('w') && rect.width - dx >= 300) { width = rect.width - dx; left = rect.left + dx; }
-                    if (side.includes('s')) height = Math.max(200, rect.height + dy);
-                    if (side.includes('n') && rect.height - dy >= 200) { height = rect.height - dy; top = top + dy; }
+                    // Compute clamped sizing for all sides to prevent snap-back logic jumps
+                    if (side.includes('e')) {
+                        width = Math.max(300, rect.width + dx);
+                    }
+                    if (side.includes('w')) {
+                        width = Math.max(300, rect.width - dx);
+                        left = rect.left + (rect.width - width);
+                    }
+                    if (side.includes('s')) {
+                        height = Math.max(200, rect.height + dy);
+                    }
+                    if (side.includes('n')) {
+                        height = Math.max(200, rect.height - dy);
+                        top = rect.top + (rect.height - height);
+                    }
 
                     modalEl.style.width  = `${width}px`;
                     modalEl.style.height = `${height}px`;
@@ -669,12 +805,13 @@ export class TerminalModal extends Modal {
                     modalEl.style.top    = `${top}px`;
                     modalEl.style.transform = 'none';
                     this.currentBounds = { left, top, width, height };
-                    this.fitAddon?.fit();
                 };
 
                 const onUp = () => {
                     try {
                         this.removeOverlay();
+                        this.isResizing = false; // Turn off resizing lock
+                        this.fitAddon?.fit(); // Snap the terminal text layout to final bounds exactly once
                     } catch (err) {
                         console.error('[terminal] Error during resize teardown:', err);
                     } finally {

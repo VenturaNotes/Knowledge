@@ -11,6 +11,9 @@ tags:
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 
+# Initialize zoxide shell integration (tracks folder visits in the background)
+eval "$(zoxide init zsh)"
+
 # ==========================================================
 # 1. Unified Vault Loader with Command Clash Protection
 # ==========================================================

@@ -1498,11 +1498,13 @@ Year: 2021-09-01
 	481. De Morgan's laws(set theoretic version)
 	482. De Morgan, Augustus (1806-71)
 	483. denominator
-	484. dense matrix
-	485. dense set
+		1. See Fraction
+	484. [[dense matrix]]
+	485. [[dense set]]
 	486. dependent events
 	
 	487. dependent variable
+		1. See DIFFERENTIAL EQUATION, FUNCTION.
 	488. derivative
 	489. derivative test
 	490. derived unit
@@ -3911,7 +3913,7 @@ Year: 2021-09-01
 	2616. spiral
 	2617. spline
 	2618. splitting field
-	2619. sporadic group
+	2619. [[sporadic group]]
 	
 	2620. spread
 	2621. spring

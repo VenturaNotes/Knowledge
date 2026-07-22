@@ -220,6 +220,15 @@ class VaporNotePlugin extends Plugin {
 
         this._setupWindowFocusListeners();
 
+        // Global Error Shield for GUEST_VIEW_MANAGER_CALL spam
+        this._globalRejectionHandler = (e) => {
+            const msg = e.reason?.message || String(e.reason);
+            if (typeof msg === 'string' && msg.includes('GUEST_VIEW_MANAGER_CALL')) {
+                e.preventDefault();
+            }
+        };
+        window.addEventListener('unhandledrejection', this._globalRejectionHandler);
+
         // Patch app.scope.handleKey to swallow Cmd+W, Cmd+Shift+T, and tab switches
         // when VaporNote is physically focused.
         const scope = this.app.scope;
@@ -302,7 +311,6 @@ class VaporNotePlugin extends Plugin {
                     this._renderTabs();
                 } else if (leaf && !this._isCreatingTab) {
                     this._prevActiveLeaf = leaf;
-                    this._isVaporActive = false; 
                 }
             })
         );
@@ -311,6 +319,11 @@ class VaporNotePlugin extends Plugin {
     async onunload() {
         this._allowDetach = true;
         this.closeVaporNote();
+
+        if (this._globalRejectionHandler) {
+            window.removeEventListener('unhandledrejection', this._globalRejectionHandler);
+            this._globalRejectionHandler = null;
+        }
 
         const styleId = 'vapornote-translucency-style';
         const windows = new Set([window]);
@@ -617,19 +630,10 @@ class VaporNotePlugin extends Plugin {
     // Obsidian's real setActiveLeaf crashes because the fake parent has no real DOM elements.
     _isOrphanedVaporLeaf(leaf) {
         try {
-            // A VaporNote orphan is specifically a leaf that was created by VaporNote (given a
-            // fake parent) but has since been removed from floatingLeaves. We detect this by
-            // checking whether the leaf's parent is the fake object VaporNote creates — it has
-            // no real containerEl (it's a stub with a safeContainerEl object, not a DOM node).
-            // We must NOT flag newly-created real workspace leaves that haven't been attached yet,
-            // as those also temporarily have containerEls outside the workspace DOM.
             const parent = leaf.parent;
             if (!parent) return false;
-            // VaporNote's fakeParent has a safeContainerEl stub (plain object, not a DOM element).
-            // Real Obsidian parents always have a genuine HTMLElement as containerEl.
             const parentContainer = parent.containerEl;
             if (parentContainer && typeof parentContainer.nodeType === 'undefined') {
-                // parentContainer is a plain object stub (no nodeType) — this is a VaporNote fake parent
                 return true;
             }
         } catch (_) {}
@@ -659,18 +663,19 @@ class VaporNotePlugin extends Plugin {
             return true;
         }
 
-        // If the user is actively focused on a specific background element (like a background webview)
-        // that is not physically inside VaporNote, we are definitely no longer focused on VaporNote.
-        const isSpecificBackgroundFocus = activeEl && 
+        // If focus is on ANY element outside VaporNote (main workspace note, webview, tab, or sidebar),
+        // mark VaporNote as inactive immediately.
+        const isOutsideVapor = activeEl && 
             activeEl !== doc.body && 
-            activeEl !== doc.documentElement;
+            activeEl !== doc.documentElement &&
+            !this.floatingContainer.contains(activeEl) &&
+            !(this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl)) ?? false);
             
-        if (isSpecificBackgroundFocus) {
+        if (isOutsideVapor) {
             this._isVaporActive = false;
             return false;
         }
 
-        // Fallback: keep returning true if VaporNote was last interacted with.
         return this._isVaporActive;
     }
 
@@ -715,9 +720,6 @@ class VaporNotePlugin extends Plugin {
 
     async toggleVaporNote() {
         if (this._isOpening) return;
-        // Use Electron's focused window, not Obsidian's activeWindow, so that invoking
-        // the shortcut from window 2 correctly targets window 2 even before Obsidian's
-        // internal routing has caught up with the macOS Space switch.
         const currentWin = this._getElectronFocusedRendererWin();
         if (this._isOpen()) {
             if (this._targetWin !== currentWin) {
@@ -741,10 +743,7 @@ class VaporNotePlugin extends Plugin {
     resetPosition() {
         if (!this._isOpen() || !this.floatingContainer) return;
 
-        // If minimized, restore first so the full container dimensions are live
         if (this._isMinimized) this.toggleMinimize();
-
-        // Exit fullscreen first
         if (this._isFullscreen) this.toggleFullscreen();
 
         const doc = this._targetWin?.document || document;
@@ -768,14 +767,11 @@ class VaporNotePlugin extends Plugin {
         this._isOpening = true;
 
         try {
-            // If _targetWin is pre-set (e.g. by _moveContainerToWindow migration), use it.
-            // Otherwise derive from Electron's focused window.
             if (!this._targetWin) {
                 this._targetWin = this._getElectronFocusedRendererWin();
             }
             const doc = this._targetWin.document;
 
-            // Suppress non-target window focus calls for the entire open sequence
             const restoreOpenFocus = this._suppressWinFocusViaDOM();
             setTimeout(restoreOpenFocus, 800);
 
@@ -819,8 +815,6 @@ class VaporNotePlugin extends Plugin {
             
             ws.setActiveLeaf = (targetLeaf, ...args) => {
                 if (this.floatingLeaves && this.floatingLeaves.includes(targetLeaf)) {
-                    // Manually update activeLeaf and trigger change without letting Obsidian's core
-                    // layout manager pull the leaf back to Window 1's splits
                     try { 
                         Object.defineProperty(ws, 'activeLeaf', { value: targetLeaf, writable: true, configurable: true }); 
                     } catch (e) { 
@@ -834,23 +828,17 @@ class VaporNotePlugin extends Plugin {
                     }
                     return;
                 }
-                // Safety net: if this is a VaporNote leaf that has already been removed from
-                // floatingLeaves (e.g. just closed, or called by Commands.js OBS_ACTIVATE after
-                // a tab switch), its fake parent has no real DOM — forwarding to _origSetActiveLeaf
-                // would crash on addClass/removeClass. Absorb silently instead.
+
                 if (targetLeaf && this._isOrphanedVaporLeaf(targetLeaf)) {
                     return;
                 }
 
-                // Fix: swallow any background-leaf setActiveLeaf call that arrives while VaporNote
-                // is physically focused. This is the exact race that causes the double-click bug:
-                // Commands.js fires OBS_ACTIVATE on mousedown in its webview, which tries to re-seat
-                // the background webview leaf as activeLeaf — stealing focus from the markdown editor
-                // just as the user's first click lands. Dropping this call here is safe because
-                // VaporNote's own focusin handler and _forceFocusActiveLeaf() will reassert the
-                // correct active leaf immediately after.
+                // ALLOW POPOUT WINDOWS: If the target leaf lives in a separate window, do not swallow focus
+                const targetWin = targetLeaf?.containerEl?.ownerDocument?.defaultView;
+                const isPopoutWindow = targetWin && targetWin !== window && targetWin !== this._targetWin;
+
                 if (this._isOpen() && !this._isClosingTab && !this._isSwitchingTab &&
-                    !this._isCreatingTab && this._isVaporPhysicallyFocused()) {
+                    !this._isCreatingTab && this._isVaporPhysicallyFocused() && !isPopoutWindow) {
                     const wsRoot = this.app.workspace.containerEl;
                     const isRealWorkspaceLeaf = wsRoot && targetLeaf?.containerEl &&
                         wsRoot.contains(targetLeaf.containerEl);
@@ -868,44 +856,22 @@ class VaporNotePlugin extends Plugin {
             }
             this._origGetLeaf = ws.getLeaf.bind(ws);
             ws.getLeaf = (newSplit, ...args) => {
-                const isVaporFocused = this._isVaporPhysicallyFocused();
+                const isVaporFocused = this._isVaporPhysicallyFocused() || this._isVaporActive;
 
-                // getLeaf(false) returns ws.activeLeaf, which VaporNote overwrites with its own
-                // floating leaf. External scripts (e.g. Base.js / Templater) call getLeaf(false)
-                // to get the current background leaf and would receive a VaporNote leaf instead,
-                // causing them to reuse or open files inside VaporNote unintentionally.
-                // Fix: when newSplit is false (or falsy/undefined) and the current activeLeaf is
-                // a VaporNote floating leaf, return _prevActiveLeaf (the last real background leaf)
-                // so external scripts always operate on the real workspace.
+                // Return active VaporNote leaf if a script requests the current leaf (newSplit === false)
                 if (!newSplit && this._isOpen() && this._isVaporActive) {
-                    // Any getLeaf(undefined/false) call while VaporNote is active means an
-                    // external plugin (switcher, omnisearch, etc.) wants to open a file in
-                    // the "current" leaf. We return the real background leaf as normal, but
-                    // wrap its openFile so the file is redirected into the active VaporNote
-                    // tab instead of opening in the background workspace.
-                    const currentActive = ws.activeLeaf;
-                    const realLeaf = (currentActive && this.floatingLeaves && this.floatingLeaves.includes(currentActive))
-                        ? (this._prevActiveLeaf ?? this._origGetLeaf(false))
-                        : this._origGetLeaf(false);
-                    if (realLeaf) {
-                        const origOpenFile = realLeaf.openFile?.bind(realLeaf);
-                        if (origOpenFile) {
-                            realLeaf.openFile = async (file, state) => {
-                                realLeaf.openFile = origOpenFile; // restore immediately
-                                const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
-                                if (activeLeaf) {
-                                    await activeLeaf.openFile(file, state);
-                                    this._switchTab(this.activeLeafIndex);
-                                    return;
-                                }
-                                return origOpenFile(file, state);
-                            };
-                        }
-                        return realLeaf;
+                    const activeVaporLeaf = this.floatingLeaves[this.activeLeafIndex];
+                    if (activeVaporLeaf) {
+                        return activeVaporLeaf;
                     }
                 }
 
-                if (this._isOpen() && isVaporFocused && activeWindow === this._targetWin && (newSplit === 'tab' || newSplit === true)) {
+                const currentEvent = window.event;
+                const isShiftHeld = currentEvent ? !!currentEvent.shiftKey : false;
+
+                const isNewTabRequested = newSplit === 'tab' || newSplit === true || (newSplit === 'window' && !isShiftHeld);
+
+                if (this._isOpen() && isVaporFocused && isNewTabRequested) {
                     this._isCreatingTab = true;
                     const _restoreWinFocus = this._suppressWinFocusViaDOM();
                     const leaf = new WorkspaceLeaf(this.app);
@@ -943,19 +909,18 @@ class VaporNotePlugin extends Plugin {
                         display: 'flex', flexDirection: 'column', overflow: 'hidden'
                     });
 
-                    this.floatingLeaves.push(leaf);
-                    this.activeLeafIndex = this.floatingLeaves.length - 1;
+                    const insertIdx = (this.floatingLeaves && this.floatingLeaves.length > 0)
+                        ? this.activeLeafIndex + 1
+                        : 0;
+
+                    this.floatingLeaves.splice(insertIdx, 0, leaf);
+                    this.activeLeafIndex = insertIdx;
 
                     this._switchTab(this.activeLeafIndex);
 
-                    // The caller (e.g. SmartWebSearch) will call leaf.setViewState()
-                    // after we return. Wrap it so we re-assert this leaf as active
-                    // once that settles — otherwise activeLeaf drifts back to Window 1.
                     const origSVS = leaf.setViewState.bind(leaf);
                     leaf.setViewState = async (...svArgs) => {
                         const result = await origSVS(...svArgs);
-                        // Restore our own setViewState wrapper (from _makeLeafWindowNeutral)
-                        // has already run; now re-assert VaporNote focus
                         const idx = this.floatingLeaves ? this.floatingLeaves.indexOf(leaf) : -1;
                         if (idx !== -1) {
                             this.activeLeafIndex = idx;
@@ -967,36 +932,11 @@ class VaporNotePlugin extends Plugin {
                     setTimeout(() => { _restoreWinFocus(); this._isCreatingTab = false; }, 300);
                     return leaf;
                 }
-                // When VaporNote is focused and a new tab is requested by an external
-                // caller (e.g. a switcher plugin), intercept the leaf Obsidian creates and
-                // wrap its openFile so the file lands in the active VaporNote tab instead.
+
                 const newLeaf = this._origGetLeaf(newSplit, ...args);
-                if (newLeaf && this._isOpen() && this._isVaporActive && (newSplit === 'tab' || newSplit === true)) {
-                    const origOpenFile = newLeaf.openFile?.bind(newLeaf);
-                    if (origOpenFile) {
-                        newLeaf.openFile = async (file, state) => {
-                            // Restore immediately so we don't permanently break this leaf
-                            newLeaf.openFile = origOpenFile;
-                            const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
-                            if (activeLeaf) {
-                                // Silently detach the unwanted background leaf
-                                try { newLeaf.detach(); } catch (_) {}
-                                await activeLeaf.openFile(file, state);
-                                this._switchTab(this.activeLeafIndex);
-                                return;
-                            }
-                            return origOpenFile(file, state);
-                        };
-                    }
-                }
                 return newLeaf;
             };
 
-            // Patch workspace.openLinkText and workspace.openFile so that when the
-            // native empty-tab UI's quick-switcher resolves, the file opens inside the
-            // active VaporNote leaf instead of being routed to the background workspace.
-            // Obsidian uses openLinkText for wiki-link navigation and openFile for the
-            // quick switcher / file picker — both bypass our getLeaf patch internally.
             const _vaporOpenInActiveLeaf = async (file, openState) => {
                 const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
                 if (!activeLeaf) return false;
@@ -1014,7 +954,10 @@ class VaporNotePlugin extends Plugin {
                 if (this._isOpen() && this._isVaporActive) {
                     const file = this.app.metadataCache.getFirstLinkpathDest(linkText, sourcePath)
                         ?? this.app.vault.getAbstractFileByPath(linkText);
-                    if (file && await _vaporOpenInActiveLeaf(file, openState)) return;
+                    if (file) {
+                        await this._addNewTab('file', file.path);
+                        return;
+                    }
                 }
                 return this._origOpenLinkText(linkText, sourcePath, newLeaf, openState);
             };
@@ -1036,10 +979,6 @@ class VaporNotePlugin extends Plugin {
             this._globalClickHandler = (e) => {
                 if (!this.floatingContainer || !this.floatingContainer.contains(e.target)) return;
 
-                // Intercept clicks on the native empty-tab "Open file" / "Go to file" button.
-                // Obsidian renders this as a .suggestion-item or a button inside the empty view.
-                // We catch any click that lands inside an empty leaf's content area and opens
-                // the native switcher — replace it with our own modal that targets VaporNote.
                 const emptyViewBtn = e.target.closest('.empty-state-action, .workspace-empty-state button, .workspace-empty .workspace-drop-overlay button, button.mod-cta');
                 const emptyLeaf = this.floatingLeaves?.find(l => l.getViewState?.()?.type === 'empty');
                 if (emptyViewBtn && emptyLeaf && emptyLeaf.containerEl?.contains(emptyViewBtn)) {
@@ -1059,14 +998,15 @@ class VaporNotePlugin extends Plugin {
 
                 const anchor = e.target.closest('a');
                 if (!anchor) return;
-                const href = anchor.getAttribute('href') || anchor.href;
+                const href = anchor.getAttribute('href') || anchor.href || anchor.getAttribute('data-href');
                 if (!href) return;
+
+                const isCmdOrCtrl = e.metaKey || e.ctrlKey;
 
                 if (href.startsWith('http://') || href.startsWith('https://')) {
                     e.preventDefault();
                     e.stopPropagation();
 
-                    const isCmdOrCtrl = e.metaKey || e.ctrlKey;
                     if (isCmdOrCtrl) {
                         this._addNewTab('web', href);
                     } else {
@@ -1077,6 +1017,16 @@ class VaporNotePlugin extends Plugin {
                             }).then(() => this._renderTabs());
                         }
                     }
+                } else {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const targetPath = anchor.getAttribute('data-href') || href;
+                    if (targetPath) {
+                        const file = this.app.metadataCache.getFirstLinkpathDest(targetPath, '') 
+                            ?? this.app.vault.getAbstractFileByPath(targetPath);
+                        const finalPath = file ? file.path : targetPath;
+                        this._addNewTab('file', finalPath);
+                    }
                 }
             };
             this._targetWin.addEventListener('click', this._globalClickHandler, true);
@@ -1084,12 +1034,7 @@ class VaporNotePlugin extends Plugin {
             this._globalMousedownHandler = (e) => {
                 if ((this.floatingContainer && this.floatingContainer.contains(e.target)) || 
                     e.target.closest('.modal-container')) {
-                    // Click is inside VaporNote or a modal — mark as active
                     this._isVaporActive = true;
-                    // Do NOT call setActiveLeaf here when clicking the tab bar — that would
-                    // trigger a workspace event on the currently-active (outgoing) webview leaf,
-                    // which steals activeElement back and forces a second click to activate the
-                    // new tab. _switchTab handles setActiveLeaf itself for tab chip clicks.
                     const isTabBarClick = this.tabBar && this.tabBar.contains(e.target);
                     if (!isTabBarClick) {
                         const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
@@ -1098,8 +1043,6 @@ class VaporNotePlugin extends Plugin {
                         }
                     }
                 } else {
-                    // Click is outside VaporNote. Only clear _isVaporActive if the
-                    // click target is a real background workspace element — NOT body/html
                     const t = e.target;
                     const isRealBackgroundClick = t &&
                         t !== t.ownerDocument.body &&
@@ -1121,16 +1064,17 @@ class VaporNotePlugin extends Plugin {
                 const isAlt = e.altKey;
                 const key = e.key.toLowerCase();
 
-                // Intercept Cmd+W / Ctrl+W to close VaporNote tab instead of closing windows/popouts
+                const doc = this._targetWin?.document || activeDocument;
+                const activeEl = doc.activeElement;
+                const isWebviewFocused = activeEl && activeEl.tagName && activeEl.tagName.toLowerCase() === 'webview';
+
                 if (isCmdOrCtrl && key === 'w') {
                     if (this._isOpen() && this._isVaporPhysicallyFocused()) {
                         e.preventDefault();
                         e.stopPropagation();
-                        this._closeTab(this.activeLeafIndex);
-                        // Keep _isVaporActive true even if all tabs are gone.
-                        // As long as VaporNote is open, Cmd+W must never leak to the
-                        // background window — even when the auto-replenished empty tab
-                        // is the only one left.
+                        if (!isWebviewFocused) {
+                            this._closeTab(this.activeLeafIndex);
+                        }
                         this._isVaporActive = true;
                         return;
                     }
@@ -1139,7 +1083,9 @@ class VaporNotePlugin extends Plugin {
                 if (isCmdOrCtrl && isShift && key === 't' && this._isOpen() && this._isVaporPhysicallyFocused()) {
                     e.preventDefault();
                     e.stopPropagation();
-                    this.reopenClosedTab();
+                    if (!isWebviewFocused) {
+                        this.reopenClosedTab();
+                    }
                     return;
                 }
 
@@ -1147,19 +1093,21 @@ class VaporNotePlugin extends Plugin {
 
                 if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right' || e.key === 'arrowright')) {
                     e.preventDefault(); e.stopPropagation();
-                    this.navigateTab(1);
+                    if (!isWebviewFocused) {
+                        this.navigateTab(1);
+                    }
                 }
                 else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left' || e.key === 'arrowleft')) {
                     e.preventDefault(); e.stopPropagation();
-                    this.navigateTab(-1);
+                    if (!isWebviewFocused) {
+                        this.navigateTab(-1);
+                    }
                 }
             };
             this._targetWin.addEventListener('keydown', this._keydownHandler, true);
 
             this._focusinHandler = () => { 
                 if (this._isMigrating) return;
-
-                // Mark VaporNote as active whenever focus goes inside its container
                 this._isVaporActive = true;
 
                 const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
@@ -1184,8 +1132,8 @@ class VaporNotePlugin extends Plugin {
                     const tab = this._savedTabsState[i];
                     if (tab.type === 'markdown' && tab.pathOrUrl) {
                         await this._addNewTab('file', tab.pathOrUrl);
-                    } else if (tab.type === 'webviewer' && tab.pathOrUrl) {
-                        await this._addNewTab('web', tab.pathOrUrl);
+                    } else if ((tab.type === 'webviewer' || tab.type === 'custom-webview-view') && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl, tab.type);
                     } else {
                         await this._addNewTab('empty');
                     }
@@ -1206,14 +1154,9 @@ class VaporNotePlugin extends Plugin {
         }
     }
 
-    async _addNewTab(type = 'empty', pathOrUrl = null) {
+    async _addNewTab(type = 'empty', pathOrUrl = null, customViewType = null) {
         this._isCreatingTab = true;
         const ws = this.app.workspace;
-        // Capture the CURRENT setActiveLeaf — which may already be VaporNote's own
-        // patch if VaporNote is open. Using .bind() here would re-bind to whatever
-        // object ws is at call time, but we need to preserve the function reference
-        // itself so that restoring it puts back exactly what was there (the VaporNote
-        // intercept), not Obsidian's raw original.
         const savedSetActiveLeaf = ws.setActiveLeaf;
         ws.setActiveLeaf = () => {};
 
@@ -1221,8 +1164,6 @@ class VaporNotePlugin extends Plugin {
         try {
             leaf = new WorkspaceLeaf(this.app);
 
-            // Neutralize any internal window-focus calls that openFile/setViewState
-            // would otherwise make against Window 1 (the macOS Space-switch trigger)
             this._makeLeafWindowNeutral(leaf);
 
             const origDetach = leaf.detach.bind(leaf);
@@ -1251,8 +1192,13 @@ class VaporNotePlugin extends Plugin {
                 display: 'flex', flexDirection: 'column', overflow: 'hidden'
             });
 
-            this.floatingLeaves.push(leaf);
-            this.activeLeafIndex = this.floatingLeaves.length - 1;
+            // Insert the new leaf right next to the current active tab (to its right)
+            const insertIdx = (this.floatingLeaves && this.floatingLeaves.length > 0)
+                ? this.activeLeafIndex + 1
+                : 0;
+
+            this.floatingLeaves.splice(insertIdx, 0, leaf);
+            this.activeLeafIndex = insertIdx;
 
             if (type === 'file' && pathOrUrl) {
                 let file = this.app.vault.getAbstractFileByPath(pathOrUrl);
@@ -1265,8 +1211,9 @@ class VaporNotePlugin extends Plugin {
                 state.state.source = false;
                 await leaf.setViewState(state);
             } else if (type === 'web' && pathOrUrl) {
+                const targetViewType = customViewType || 'webviewer';
                 await leaf.setViewState({
-                    type: 'webviewer', state: { url: pathOrUrl, navigate: true }, active: true
+                    type: targetViewType, state: { url: pathOrUrl, navigate: true }, active: true
                 });
             } else {
                 await leaf.setViewState({ type: 'empty' });
@@ -1301,20 +1248,16 @@ class VaporNotePlugin extends Plugin {
         if (!this.floatingLeaves || index < 0 || index >= this.floatingLeaves.length) return;
         
         this._isSwitchingTab = true;
-        // Always claim VaporNote focus when switching tabs — this covers both
-        // clicking a tab chip and programmatic switches.
         this._isVaporActive = true;
         try {
             this.activeLeafIndex = index;
 
-            // Phase 1: Hide all non-active tabs first to clean up browser focus
             this.floatingLeaves.forEach((leaf, idx) => {
                 if (idx !== index) {
                     leaf.containerEl.style.display = 'none';
                 }
             });
 
-            // Phase 2: Show the active tab and defer focusing to absorb asynchronous blurs
             const activeLeaf = this.floatingLeaves[index];
             if (activeLeaf) {
                 Object.assign(activeLeaf.containerEl.style, {
@@ -1330,24 +1273,18 @@ class VaporNotePlugin extends Plugin {
                     }
                 } catch (e) {}
 
-                // For webview tabs: focus the webview immediately. This prevents the "two clicks needed"
-                // problem where the first click switches the tab but focus stays on the tab chip.
                 const webview = activeLeaf.containerEl?.querySelector('webview');
                 if (webview) {
                     try { webview.focus(); } catch (_) {}
                 }
 
-                // Defer DOM focus by 50ms so the browser fully processes the hidden tab's blur
                 setTimeout(() => {
                     this._forceFocusActiveLeaf();
                     try { activeLeaf.view?.onShow?.(); } catch (_) {}
                     try { activeLeaf.view?.editor?.refresh(); } catch (_) {}
-                    // Re-assert after async settle — webview focus can be stolen
-                    // by Obsidian's workspace events during the 50ms window.
                     this._isVaporActive = true;
                 }, 50);
 
-                // Safety-net focus passes to override focus-stealing transitions during modal close sequences
                 setTimeout(() => {
                     if (this.activeLeafIndex === index && this._isOpen()) {
                         this._forceFocusActiveLeaf();
@@ -1374,7 +1311,7 @@ class VaporNotePlugin extends Plugin {
     _closeTab(index, skipHistory = false) {
         if (!this.floatingLeaves) return;
 
-        this._isClosingTab = true; // Block intermediate cleanup events during teardown
+        this._isClosingTab = true;
 
         const leafToClose = this.floatingLeaves[index];
 
@@ -1383,12 +1320,11 @@ class VaporNotePlugin extends Plugin {
             try { viewState = leafToClose.getViewState(); } catch(e){}
             const type = viewState?.type || 'empty';
             
-            // Only record in history if it is a real tab (not an empty placeholder)
             if (type !== 'empty') {
                 let pathOrUrl = null;
                 if (type === 'markdown' && leafToClose.view?.file) {
                     pathOrUrl = leafToClose.view.file.path;
-                } else if (type === 'webviewer') {
+                } else if (type === 'webviewer' || type === 'custom-webview-view') {
                     pathOrUrl = viewState?.state?.url;
                 }
 
@@ -1412,7 +1348,6 @@ class VaporNotePlugin extends Plugin {
             this._addNewTab('empty').then(() => {
                 setTimeout(() => {
                     this._isClosingTab = false;
-                    // Force reclaim focus of the new empty tab once mounted
                     if (this._isOpen() && !this._isMinimized) {
                         this._forceFocusActiveLeaf();
                     }
@@ -1421,24 +1356,19 @@ class VaporNotePlugin extends Plugin {
             return;
         }
 
-        // Pick the next active index, preferring the tab to the right of the closed one,
-        // then left, then first available — but always skip empty placeholder leaves.
         const nonEmpty = this.floatingLeaves
             .map((leaf, i) => ({ leaf, i }))
             .filter(({ leaf }) => (leaf.getViewState?.()?.type ?? 'empty') !== 'empty');
 
         if (nonEmpty.length > 0) {
-            // Prefer the closest visible tab at or after the closed index
             const after = nonEmpty.find(({ i }) => i >= index);
             this.activeLeafIndex = after ? after.i : nonEmpty[nonEmpty.length - 1].i;
         } else {
-            // Only the empty placeholder remains
             this.activeLeafIndex = 0;
         }
 
         this._switchTab(this.activeLeafIndex);
 
-        // Absorb asynchronous focus changes from closed webviews
         setTimeout(() => {
             this._isClosingTab = false;
             if (this._isOpen() && !this._isMinimized) {
@@ -1456,9 +1386,6 @@ class VaporNotePlugin extends Plugin {
             const lastTab = this._closedTabsHistory.pop();
             if (!lastTab) return;
 
-            // If the only open tab is empty, load the restored content directly into it
-            // rather than closing it (which would trigger _closeTab's auto-replenish and
-            // create a phantom empty tab alongside the restored one).
             const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
             const soloEmpty = this.floatingLeaves.length === 1 &&
                 activeLeaf && (activeLeaf.getViewState?.()?.type ?? 'empty') === 'empty';
@@ -1476,9 +1403,9 @@ class VaporNotePlugin extends Plugin {
                             state.state.mode = 'source'; state.state.source = false;
                             await activeLeaf.setViewState(state);
                         }
-                    } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
+                    } else if ((lastTab.type === 'webviewer' || lastTab.type === 'custom-webview-view') && lastTab.pathOrUrl) {
                         await activeLeaf.setViewState({
-                            type: 'webviewer', state: { url: lastTab.pathOrUrl, navigate: true }, active: true
+                            type: lastTab.type, state: { url: lastTab.pathOrUrl, navigate: true }, active: true
                         });
                     }
                     ws2.setActiveLeaf = savedSetActiveLeaf2;
@@ -1487,14 +1414,13 @@ class VaporNotePlugin extends Plugin {
                     return;
                 } catch (_) {
                     ws2.setActiveLeaf = savedSetActiveLeaf2;
-                    /* fall through to normal add */
                 }
             }
 
             if (lastTab.type === 'markdown' && lastTab.pathOrUrl) {
                 await this._addNewTab('file', lastTab.pathOrUrl);
-            } else if (lastTab.type === 'webviewer' && lastTab.pathOrUrl) {
-                await this._addNewTab('web', lastTab.pathOrUrl);
+            } else if ((lastTab.type === 'webviewer' || lastTab.type === 'custom-webview-view') && lastTab.pathOrUrl) {
+                await this._addNewTab('web', lastTab.pathOrUrl, lastTab.type);
             } else {
                 await this._addNewTab('empty');
             }
@@ -1505,8 +1431,7 @@ class VaporNotePlugin extends Plugin {
 
     navigateTab(direction) {
         if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
-        // Build an index list of non-empty leaves (matches what _renderTabs renders).
-        // Without this, wrapping would land on the invisible empty placeholder leaf.
+
         const visibleIdxs = this.floatingLeaves
             .map((leaf, i) => ({ leaf, i }))
             .filter(({ leaf }) => (leaf.getViewState?.()?.type ?? 'empty') !== 'empty')
@@ -1599,6 +1524,11 @@ class VaporNotePlugin extends Plugin {
                             const wc = remote.webContents.fromId(wcId);
                             if (wc) {
                                 wc.on('before-input-event', (event, input) => {
+                                    let eventType = null;
+                                    if (input.type === 'keyDown') eventType = 'keydown';
+                                    else if (input.type === 'keyUp') eventType = 'keyup';
+                                    else return;
+
                                     const isCmdOrCtrl = input.control || input.meta;
                                     const isShift = input.shift;
                                     const isAlt = input.alt;
@@ -1609,28 +1539,45 @@ class VaporNotePlugin extends Plugin {
                                             event.preventDefault();
                                             this._isVaporActive = true;
                                             setTimeout(() => { this._isVaporActive = true; this._closeTab(this.activeLeafIndex); }, 0);
+                                            return;
                                         } else if (isCmdOrCtrl && isShift && key === 't') {
                                             event.preventDefault();
                                             this._isVaporActive = true;
                                             setTimeout(() => this.reopenClosedTab(), 0);
+                                            return;
                                         } else if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right')) {
                                             event.preventDefault();
-                                            setTimeout(() => this.navigateTab(1), 0);
+                                            this.navigateTab(1);
+                                            return;
                                         } else if (isCmdOrCtrl && isAlt && (key === 'arrowleft' || key === 'left')) {
                                             event.preventDefault();
-                                            setTimeout(() => this.navigateTab(-1), 0);
-                                        } else if (isCmdOrCtrl) {
-                                            // Any other Cmd+key from within a VaporNote webview:
-                                            // focus _targetWin so modals (command palette etc.)
-                                            // open in the correct window, not window 1.
-                                            try {
-                                                if (this._targetWin && this._targetWin !== activeWindow) {
-                                                    this._targetWin.focus();
-                                                    const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
-                                                    if (activeLeaf) this.app.workspace.setActiveLeaf(activeLeaf, { focus: false });
-                                                }
-                                            } catch (_) {}
+                                            this.navigateTab(-1);
+                                            return;
                                         }
+                                    }
+
+                                    // Standalone Hotkey Bubbler
+                                    if (isCmdOrCtrl || isAlt) {
+                                        if (webview.__bubblerAttachedTo) return; // Prevent conflict with Webview Suite
+                                        
+                                        const doc = this._targetWin?.document || activeDocument;
+                                        const target = doc.activeElement || doc.body;
+
+                                        this._isVaporActive = true;
+
+                                        const kbEvent = new (this._targetWin || window).KeyboardEvent(eventType, {
+                                            key: input.key,
+                                            code: input.code,
+                                            bubbles: true,
+                                            cancelable: true,
+                                            ctrlKey: input.control,
+                                            altKey: input.alt,
+                                            shiftKey: input.shift,
+                                            metaKey: input.meta,
+                                            repeat: input.isAutoRepeat
+                                        });
+
+                                        target.dispatchEvent(kbEvent);
                                     }
                                 });
                                 webview._electronHooked = true;
@@ -1643,7 +1590,6 @@ class VaporNotePlugin extends Plugin {
             webview.addEventListener('did-attach', tryHookElectron);
             webview.addEventListener('did-start-loading', tryHookElectron);
             
-            // Defensively poll to make absolutely sure Electron connects quickly
             let attempts = 0;
             const poll = setInterval(() => {
                 attempts++;
@@ -1683,7 +1629,6 @@ class VaporNotePlugin extends Plugin {
 
             webview.addEventListener('load-commit', injectScript);
             
-            // Focus the webview inside DOM once loaded and ready, checking first that no input prompt modals are open
             webview.addEventListener('dom-ready', () => {
                 injectScript();
                 const doc = this._targetWin?.document || activeDocument;
@@ -1701,7 +1646,6 @@ class VaporNotePlugin extends Plugin {
                 }
             });
 
-            // Respond to fallback messages
             webview.addEventListener('console-message', (e) => {
                 if (webview._electronHooked) return; 
 
@@ -1723,7 +1667,6 @@ class VaporNotePlugin extends Plugin {
         this.tabBar.empty();
 
         this.floatingLeaves.forEach((leaf, idx) => {
-            // Never render a tab chip for empty placeholder leaves.
             const viewType = leaf.getViewState?.()?.type ?? 'empty';
             if (viewType === 'empty') return;
 
@@ -1799,14 +1742,13 @@ class VaporNotePlugin extends Plugin {
 
             const wasFullscreen = this._isFullscreen;
 
-            // Save current state before closing
             const tabsState = this.floatingLeaves.map(leaf => {
                 let viewState = null;
                 try { viewState = leaf.getViewState(); } catch(_) {}
                 const type = viewState?.type || 'empty';
                 let pathOrUrl = null;
                 if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
-                else if (type === 'webviewer') pathOrUrl = viewState?.state?.url;
+                else if (type === 'webviewer' || type === 'custom-webview-view') pathOrUrl = viewState?.state?.url;
                 return { type, pathOrUrl };
             });
             const activeIdx = this.activeLeafIndex;
@@ -1815,21 +1757,17 @@ class VaporNotePlugin extends Plugin {
             const savedL = wasFullscreen ? this._preFullscreenLeft : (this.floatingContainer.style.left || this._savedLeft);
             const savedT = wasFullscreen ? this._preFullscreenTop : (this.floatingContainer.style.top || this._savedTop);
 
-            // Close on old window (suppress the notice)
             this._isMigrating = true;
-            const savedTabsState = this._savedTabsState;
-            const savedActiveLeafIndex = this._savedActiveLeafIndex;
 
             this.closeVaporNote();
 
-            // Restore saved state for reopen on new window
             this._savedTabsState = tabsState.filter(t => t.type !== 'empty' || tabsState.length === 1);
             this._savedActiveLeafIndex = activeIdx;
             this._savedWidth = savedW;
             this._savedHeight = savedH;
             this._savedLeft = savedL;
             this._savedTop = savedT;
-            this._targetWin = newWin; // hint to _openVaporNote which window to use
+            this._targetWin = newWin;
 
             await this._openVaporNote(null);
             if (wasFullscreen) {
@@ -1871,8 +1809,9 @@ class VaporNotePlugin extends Plugin {
         Object.assign(el.style, {
             position:      'fixed',
             top:           this._savedTop || '100px',
-            left:          this._savedLeft || 'auto',
-            right:         this._savedLeft ? 'auto' : '50px',
+            left:          this._savedLeft || '100px',
+            right:         'auto',
+            bottom:        'auto',
             width:         this._savedWidth || '380px',
             height:        this._savedHeight || '500px',
             zIndex:        '35', 
@@ -1885,7 +1824,7 @@ class VaporNotePlugin extends Plugin {
             minHeight:     '200px',
             display:       'flex',
             flexDirection: 'column',
-            opacity:       this.opacityValue, // Container-level uniform CSS opacity
+            opacity:       this.opacityValue,
         });
     }
 
@@ -1901,8 +1840,7 @@ class VaporNotePlugin extends Plugin {
             background: var(--background-secondary);
             padding: 8px 12px; cursor: move; font-size: 11px; font-weight: bold;
             color: var(--text-muted); border-bottom: 1px solid var(--border-color);
-            display: flex; justify-content: space-between; align-items: center;
-            user-select: none; flex-shrink: 0; height: 36px; box-sizing: border-box;
+            display: flex; justify-content: space-between; align-items: center; user-select: none; flex-shrink: 0; height: 36px; box-sizing: border-box;
         `;
         this.dragBar = dragBar;
         
@@ -1989,10 +1927,6 @@ class VaporNotePlugin extends Plugin {
 
         const showOverlay = (cursor) => {
             if (this._dragOverlay) return;
-            // Always pin to this._targetWin.document — the document the container actually
-            // lives in right now. getActiveDoc() / activeDocument can drift to window 1 when
-            // a webview in window 2 has focus, which would land the overlay in the wrong
-            // document and leave the webview stealing mousemove/mouseup events unblocked.
             const pinnedDoc = this._targetWin ? this._targetWin.document : getActiveDoc();
             const ov = pinnedDoc.createElement('div');
             ov.style.cssText = `position: fixed; inset: 0; z-index: 999999; background: transparent; cursor: ${cursor};`;
@@ -2002,8 +1936,6 @@ class VaporNotePlugin extends Plugin {
         };
         const removeOverlay = () => {
             if (this._dragOverlay) {
-                // Track the overlay's own document rather than re-evaluating activeDocument,
-                // which may have drifted by the time mouseup fires.
                 const overlayDoc = this._dragOverlay.ownerDocument;
                 this._dragOverlay.remove();
                 this._dragOverlay = null;
@@ -2025,27 +1957,46 @@ class VaporNotePlugin extends Plugin {
 
         const onMouseMove = (e) => {
             if (this._dragMode === 'drag') {
-                container.style.left  = (startLeft + e.clientX - startX) + 'px';
-                container.style.top   = (startTop  + e.clientY - startY) + 'px';
-                container.style.right = 'auto';
+                container.style.left   = (startLeft + e.clientX - startX) + 'px';
+                container.style.top    = (startTop  + e.clientY - startY) + 'px';
+                container.style.right  = 'auto';
+                container.style.bottom = 'auto';
             } else if (this._activeHandleDir) {
                 const dx = e.clientX - startX, dy = e.clientY - startY;
                 let newW = startW, newH = startH, newLeft = startLeft, newTop = startTop;
 
-                if (this._activeHandleDir.includes('e')) newW = Math.max(250, startW + dx);
-                else if (this._activeHandleDir.includes('w')) {
-                    newW = Math.max(250, startW - dx);
-                    if (newW > 250) newLeft = startLeft + dx;
-                }
-                if (this._activeHandleDir.includes('s')) newH = Math.max(200, startH + dy);
-                else if (this._activeHandleDir.includes('n')) {
-                    newH = Math.max(200, startH - dy);
-                    if (newH > 200) newTop = startTop + dy;
+                if (this._activeHandleDir.includes('e')) {
+                    newW = Math.max(250, startW + dx);
+                } else if (this._activeHandleDir.includes('w')) {
+                    const possibleW = startW - dx;
+                    if (possibleW >= 250) {
+                        newW = possibleW;
+                        newLeft = startLeft + dx;
+                    } else {
+                        newW = 250;
+                        newLeft = startLeft + (startW - 250);
+                    }
                 }
 
-                container.style.width = newW + 'px'; container.style.height = newH + 'px';
-                container.style.left = newLeft + 'px'; container.style.top = newTop + 'px';
-                container.style.right = 'auto';
+                if (this._activeHandleDir.includes('s')) {
+                    newH = Math.max(200, startH + dy);
+                } else if (this._activeHandleDir.includes('n')) {
+                    const possibleH = startH - dy;
+                    if (possibleH >= 200) {
+                        newH = possibleH;
+                        newTop = startTop + dy;
+                    } else {
+                        newH = 200;
+                        newTop = startTop + (startH - 200);
+                    }
+                }
+
+                container.style.width  = newW + 'px';
+                container.style.height = newH + 'px';
+                container.style.left   = newLeft + 'px';
+                container.style.top    = newTop + 'px';
+                container.style.right  = 'auto';
+                container.style.bottom = 'auto';
             }
         };
 
@@ -2063,20 +2014,9 @@ class VaporNotePlugin extends Plugin {
             e.preventDefault(); showOverlay('move');
         });
 
-        // Do NOT register mousemove/mouseup directly on win.document here.
-        // win is captured at _buildChrome time (always window 1). After the container
-        // migrates to window 2, _moveContainerToWindow rebinds _globalMoveHandler and
-        // _globalUpHandler to window 2's document — but the stale win.document listeners
-        // would remain registered, causing mouseup on window 1 to fire onMouseUp and
-        // clear _dragMode/_dragOverlay, which unblocks _moveContainerToWindow and snaps
-        // the container back to window 1. We register them lazily via _globalMoveHandler
-        // and _globalUpHandler, which _moveContainerToWindow manages correctly.
         this._globalMoveHandler = onMouseMove;
         this._globalUpHandler   = onMouseUp;
 
-        // Initial registration on the current target window (may be window 1 or 2).
-        // This is the ONLY place we register these — _moveContainerToWindow re-registers
-        // them on the new window when the container migrates.
         if (this._targetWin) {
             this._targetWin.document.addEventListener('mousemove', this._globalMoveHandler);
             this._targetWin.document.addEventListener('mouseup',   this._globalUpHandler);
@@ -2095,11 +2035,6 @@ class VaporNotePlugin extends Plugin {
                 this.floatingContainer.style.opacity = '0';
                 this.floatingContainer.style.pointerEvents = 'none';
 
-                // On minimize: return focus to whatever background leaf the user was in before
-                // VaporNote took over. _prevActiveLeaf is the last non-VaporNote leaf that became
-                // active, so it's the correct target regardless of how many panes the background has.
-                // We use _origSetActiveLeaf (bypassing VaporNote's own patch) to avoid the guard that
-                // swallows non-floatingLeaves calls while VaporNote is physically focused.
                 try {
                     const doc = this._targetWin?.document || document;
                     if (doc.activeElement && typeof doc.activeElement.blur === 'function') {
@@ -2114,8 +2049,6 @@ class VaporNotePlugin extends Plugin {
                         setFn(bgLeaf, { focus: true });
                     } catch (_) {}
 
-                    // Also push DOM focus directly to the editor/view element in case
-                    // setActiveLeaf's focus path is suppressed by any active window patches.
                     setTimeout(() => {
                         try {
                             if (bgLeaf.view?.editor?.focus) {
@@ -2172,7 +2105,6 @@ class VaporNotePlugin extends Plugin {
                     `;
                 }
 
-                // On minimize: return focus to whatever background leaf the user was in before
                 try {
                     const doc = this._targetWin?.document || document;
                     if (doc.activeElement && typeof doc.activeElement.blur === 'function') {
@@ -2232,9 +2164,6 @@ class VaporNotePlugin extends Plugin {
                     this.floatingContainer.style.width = this._savedWidth || '380px';
                     this.floatingContainer.style.height = this._savedHeight || '500px';
 
-                    // The minimized icon sits at (originalRight - 40px).
-                    // To restore so the right edge of the full container lands where the icon was,
-                    // we compute: restoredLeft = iconLeft - (restoredWidth - 40).
                     const iconLeft = parseFloat(this.floatingContainer.style.left) || 0;
                     const restoredW = parseFloat(this._savedWidth) || 380;
                     const restoredLeft = iconLeft - (restoredW - 40);
@@ -2288,20 +2217,17 @@ class VaporNotePlugin extends Plugin {
     toggleFullscreen() {
         if (!this._isOpen() || !this.floatingContainer) return;
 
-        // If minimized, restore first
         if (this._isMinimized) this.toggleMinimize();
 
         this._isFullscreen = !this._isFullscreen;
 
         if (this._isFullscreen) {
-            // Save state
             const r = this.floatingContainer.getBoundingClientRect();
             this._preFullscreenWidth  = this.floatingContainer.style.width || (r.width + 'px');
             this._preFullscreenHeight = this.floatingContainer.style.height || (r.height + 'px');
             this._preFullscreenLeft   = this.floatingContainer.style.left || (r.left + 'px');
             this._preFullscreenTop    = this.floatingContainer.style.top || (r.top + 'px');
 
-            // Apply fullscreen styling
             Object.assign(this.floatingContainer.style, {
                 top:          '0px',
                 left:         '0px',
@@ -2312,12 +2238,10 @@ class VaporNotePlugin extends Plugin {
                 borderRadius: '0px'
             });
 
-            // Hide resize handles
             if (this._resizeHandles) {
                 this._resizeHandles.forEach(h => h.style.display = 'none');
             }
         } else {
-            // Restore styles
             Object.assign(this.floatingContainer.style, {
                 width:        this._preFullscreenWidth || '380px',
                 height:       this._preFullscreenHeight || '500px',
@@ -2326,13 +2250,11 @@ class VaporNotePlugin extends Plugin {
                 borderRadius: '8px'
             });
 
-            // Show resize handles
             if (this._resizeHandles) {
                 this._resizeHandles.forEach(h => h.style.display = 'block');
             }
         }
 
-        // Trigger reflow/resize inside the active view
         const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
         try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
         try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
@@ -2394,7 +2316,7 @@ class VaporNotePlugin extends Plugin {
                 const type = viewState?.type || 'empty';
                 let pathOrUrl = null;
                 if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
-                else if (type === 'webviewer') pathOrUrl = viewState?.state?.url;
+                else if (type === 'webviewer' || type === 'custom-webview-view') pathOrUrl = viewState?.state?.url;
                 return { type, pathOrUrl };
             });
             this._savedActiveLeafIndex = this.activeLeafIndex;
