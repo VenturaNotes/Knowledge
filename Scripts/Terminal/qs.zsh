@@ -27,6 +27,7 @@ qs() {
     )
 
     # 2. Stream paths directly into fzf
+    # - '--height=100%': Uses the alternate screen buffer mode to prevent scrollback text artifacts during window resizes
     # - '--no-ignore': Ensures hidden plugin folders (like .obsidian) aren't skipped by .gitignore
     # - '--scheme=path': Forces fzf to prioritize the folder/filename at the end of the path
     target=$(
@@ -36,7 +37,7 @@ qs() {
             fi
             fd --hidden --no-ignore "${exclude_args[@]}" . ~
         } | awk 'NF && !seen[$0]++' \
-          | fzf --height=60% --layout=reverse \
+          | fzf --height=100% --layout=reverse \
                 --scheme=path \
                 --ignore-case \
                 --tiebreak=index \

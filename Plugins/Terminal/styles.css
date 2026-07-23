@@ -3,6 +3,12 @@
  * @license MIT
  */
 
+.xterm,
+.xterm-screen,
+.xterm-viewport {
+    box-sizing: border-box !important;
+}
+
 .xterm {
     cursor: text;
     position: relative;
@@ -201,7 +207,6 @@
 
 /* ── Split Pane layout overrides ────────────────────────────────────────── */
 
-/* Remove default Obsidian padding and hide scrollbars specifically on the terminal tab container */
 .workspace-leaf-content[data-type="custom-terminal-pane"],
 .workspace-leaf-content[data-type="custom-terminal-pane"] .view-content {
     overflow: hidden !important;
