@@ -2,6 +2,10 @@
 - Great for modal editing in Normal, Insert, and Visual modes
 	- #question What does visual mode look like?
 ### Commands
+- Deletes everything from the cursor to the end of the line (remains in Normal mode).
+	- `D`
+- Deletes from the cursor to the end of the line and immediately switches to **Insert mode** so you can start typing new text.
+	- `C`
 - `:set ft=python`
 	- Manually tells `neovim` you're working on a python file
 	- `:set filetype=python` is the non-shortcut way to do it
@@ -11,6 +15,9 @@
 	- `normal mode` $\to$ `Ctrl + r`
 - Force Quit (Discard Changes)
 	- `:q!`
+- Jumping to a specific line
+	- 14k: Jump up 14 lines.
+	- 14j: Jump down 14 lines.
 - Deletes entire text within file
 	- `:%d`
 - Write and Quit (Save and Quit)
@@ -99,6 +106,8 @@ vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "Clear search highl
 - Space + f + b : Triggers fzf-lua to list and switch between your currently open files/buffers.
 ### My Configuration
 - Indent guides included
+- Swapped files saved here
+	- `/Users/<your-username>/.local/state/nvim/swap/`
 ```lua
 -- ==========================================================================
 -- 1. CORE SETTINGS & DISABLE UNUSED PROVIDERS (Fixes health warnings)
@@ -115,7 +124,8 @@ vim.opt.shiftwidth = 4        -- 4 spaces for indenting
 vim.opt.expandtab = true      -- Convert tabs to spaces
 vim.opt.smartindent = true    -- Smart auto-indenting
 vim.opt.termguicolors = true  -- Enable 24-bit RGB colors
-vim.opt.swapfile = false      -- Disable swap files globally to prevent conflict warnings
+vim.opt.swapfile = true       -- ENable swap files in isolated state directory
+vim.opt.directory = vim.fn.stdpath("state") .. "/swap//"
 vim.g.mapleader = " "         -- Set leader key to Space
 
 -- ==========================================================================

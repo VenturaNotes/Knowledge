@@ -102,7 +102,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             id: 'move-tab-to-group',
             name: 'Move Active Tab to Group',
             callback: () => {
-                const activeLeaf = this.app.workspace.activeLeaf;
+                const activeLeaf = this.getActiveLeafInContainer();
                 if (activeLeaf && this.isRootLeaf(activeLeaf)) {
                     new MoveToGroupModal(this.app, this, activeLeaf).open();
                 } else {
@@ -308,10 +308,29 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     }
 
     /**
+     * Helper to get the currently active leaf, prioritizing the visually selected
+     * tab inside the active WorkspaceTabs container (e.g. after tab reordering)
+     */
+    getActiveLeafInContainer(): WorkspaceLeaf | null {
+        const activeLeaf = this.app.workspace.activeLeaf;
+        if (!activeLeaf) return null;
+
+        const parent = (activeLeaf as any).parent;
+        if (parent && typeof parent.currentTab === 'number' && Array.isArray(parent.children)) {
+            const selectedTabLeaf = parent.children[parent.currentTab];
+            if (selectedTabLeaf && this.isRootLeaf(selectedTabLeaf)) {
+                return selectedTabLeaf;
+            }
+        }
+
+        return activeLeaf;
+    }
+
+    /**
      * Gets visible leaves specifically within the active focused tab-pane split
      */
     getVisibleLeavesInActiveContainer(): WorkspaceLeaf[] {
-        const currentActive = this.app.workspace.activeLeaf;
+        const currentActive = this.getActiveLeafInContainer();
         if (!currentActive) return [];
 
         const activeParent = (currentActive as any).parent;
@@ -345,7 +364,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         const visibleLeaves = this.getVisibleLeavesInActiveContainer();
         if (visibleLeaves.length <= 1) return;
 
-        const currentActive = this.app.workspace.activeLeaf;
+        const currentActive = this.getActiveLeafInContainer();
         if (!currentActive) return;
 
         const currentIndex = visibleLeaves.findIndex(leaf => (leaf as any).id === (currentActive as any).id);
@@ -363,7 +382,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         const visibleLeaves = this.getVisibleLeavesInActiveContainer();
         if (visibleLeaves.length <= 1) return;
 
-        const currentActive = this.app.workspace.activeLeaf;
+        const currentActive = this.getActiveLeafInContainer();
         if (!currentActive) return;
 
         const currentIndex = visibleLeaves.findIndex(leaf => (leaf as any).id === (currentActive as any).id);
@@ -442,7 +461,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
 
         const activeGroup = this.settings.activeGroup;
 
-        // 1. Ensure all open root leaves have a group assignment before evaluating visibility (Fixes the race condition)
+        // 1. Ensure all open root leaves have a group assignment before evaluating visibility
         this.app.workspace.iterateRootLeaves((leaf) => {
             const leafId = (leaf as any).id;
             let assignedGroup = this.leafToGroupMap.get(leafId);
@@ -454,7 +473,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         });
 
         // 2. Check if the currently focused tab belongs to an inactive group
-        const currentActive = this.app.workspace.activeLeaf;
+        const currentActive = this.getActiveLeafInContainer();
         let activeIsHidden = false;
 
         if (currentActive && this.isRootLeaf(currentActive)) {
@@ -495,7 +514,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                 this.app.workspace.setActiveLeaf(fallbackLeaf, { focus: true });
             } else {
                 // If no visible leaves are left in the active group, open a new empty tab.
-                // This keeps your current tab group active rather than exposing hidden tabs.
                 const newLeaf = this.app.workspace.getLeaf('tab');
                 this.leafToGroupMap.set((newLeaf as any).id, activeGroup);
                 this.saveSettings();
@@ -653,7 +671,6 @@ class DeleteGroupModal extends SuggestModal<string> {
     }
 
     getSuggestions(query: string): string[] {
-        // Exclude the fallback 'Default' group from the deletion choices
         return this.plugin.settings.groups.filter(group =>
             group !== 'Default' && group.toLowerCase().includes(query.toLowerCase())
         );
@@ -703,7 +720,6 @@ class CreateGroupModal extends Modal {
                     }
                 });
 
-                // Focus the input field after transition frames settle (vital for active Webviews)
                 setTimeout(() => {
                     text.inputEl.focus();
                 }, 50);
@@ -764,14 +780,13 @@ class RenameGroupModal extends Modal {
                             this.close();
                             this.onSubmit(name.trim());
                         } else if (name.trim() === this.oldName) {
-                            this.close(); // No actual change, safely close the modal
+                            this.close();
                         } else {
                             new Notice("Group name cannot be empty.");
                         }
                     }
                 });
 
-                // Focus and select the existing input value once the transition frames settle (vital for active Webviews)
                 setTimeout(() => {
                     text.inputEl.focus();
                     text.inputEl.select();
@@ -831,13 +846,13 @@ class VirtualTabGroupsSettingTab extends PluginSettingTab {
                             }
                             this.plugin.settings.groups.push(name);
                             await this.plugin.saveSettings();
-                            this.display(); // Refresh tab UI
+                            this.display();
                         }).open();
                     });
             });
 
         this.plugin.settings.groups.forEach((group) => {
-            if (group === "Default") return; // Ensure the user cannot delete the primary fallback group
+            if (group === "Default") return;
 
             new Setting(containerEl)
                 .setName(group)
@@ -846,7 +861,7 @@ class VirtualTabGroupsSettingTab extends PluginSettingTab {
                         .setWarning()
                         .onClick(async () => {
                             await this.plugin.deleteGroup(group);
-                            this.display(); // Refresh tab UI
+                            this.display();
                         });
                 });
         });

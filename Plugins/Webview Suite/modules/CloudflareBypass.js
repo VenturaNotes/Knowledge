@@ -130,11 +130,10 @@ export class IsolatedWebView extends ItemView {
   }
 
   async onOpen() {
-    const container = this.containerEl.children[1];
+    const container = this.containerEl.children[1] || this.containerEl;
     container.empty();
     container.addClass('custom-webview-container');
 
-    // Active leaf safeguard: ensures activeLeaf is maintained when interacting with webviews
     container.addEventListener('mousedown', () => {
       if (this.app.workspace.activeLeaf !== this.leaf) {
         this.app.workspace.setActiveLeaf(this.leaf, { focus: false });
@@ -206,7 +205,7 @@ export class IsolatedWebView extends ItemView {
     this.webviewEl.setAttribute('webpreferences', 'contextIsolation=no, sandbox=no, nodeIntegration=no');
     this.webviewEl.setAttribute('useragent', FIREFOX_UA);
 
-    const bypassModule = this.plugin.modules.cloudflareBypass;
+    const bypassModule = this.plugin?.modules?.cloudflareBypass;
     if (bypassModule && bypassModule.preloadFileUrl) {
       this.webviewEl.setAttribute('preload', bypassModule.preloadFileUrl);
     }
@@ -224,19 +223,19 @@ export class IsolatedWebView extends ItemView {
   }
 
   attachWebviewListeners() {
-    const startSpinner = () => this.reloadBtn.classList.add('is-loading');
-    const stopSpinner = () => this.reloadBtn.classList.remove('is-loading');
+    const startSpinner = () => this.reloadBtn?.classList.add('is-loading');
+    const stopSpinner = () => this.reloadBtn?.classList.remove('is-loading');
 
     const updateNavState = () => {
       try {
         const activeUrl = this.webviewEl.getURL() || this.webviewEl.src;
         if (this.currentUrl !== activeUrl) {
           this.currentUrl = activeUrl;
-          this.addressBar.value = activeUrl;
+          if (this.addressBar) this.addressBar.value = activeUrl;
           this.app.workspace.requestSaveLayout();
         }
-        this.backBtn.disabled = !this.webviewEl.canGoBack();
-        this.forwardBtn.disabled = !this.webviewEl.canGoForward();
+        if (this.backBtn) this.backBtn.disabled = !this.webviewEl.canGoBack();
+        if (this.forwardBtn) this.forwardBtn.disabled = !this.webviewEl.canGoForward();
         
         if (!this.webviewEl.isLoading()) stopSpinner();
       } catch (e) {}
@@ -283,6 +282,7 @@ export class CloudflareBypassModule {
     this._lastShiftState = false;
     this._shiftTrackerKey = null;
     this._shiftTrackerMouse = null;
+    this._observer = null;
   }
 
   onEnable(app) {
@@ -291,6 +291,7 @@ export class CloudflareBypassModule {
     this._installGlobalErrorShield();
     this._installGlobalLinkInterceptor();
     this._injectCSSStyles();
+    this._setupDOMObserver();
     
     this._writePreloadScript().then(() => {
       const electronSession = this._getElectronSession();
@@ -306,6 +307,7 @@ export class CloudflareBypassModule {
   }
 
   onDisable() {
+    this._removeDOMObserver();
     this._unregisterCommands();
     this._removeGlobalErrorShield();
     this._removeGlobalLinkInterceptor();
@@ -336,12 +338,58 @@ export class CloudflareBypassModule {
     }
   }
 
+  _findLeafForWebview(webview) {
+    if (!webview) return null;
+    let foundLeaf = null;
+    this.app.workspace.iterateAllLeaves(l => {
+      if (l.view?.containerEl?.contains(webview) || l.containerEl?.contains(webview)) {
+        foundLeaf = l;
+      }
+    });
+    if (foundLeaf) return foundLeaf;
+
+    // Search floating leaves in VaporNote if available
+    const vaporPlugin = this.app.plugins?.getPlugin?.('vapornote') || this.app.plugins?.plugins?.['vapornote'];
+    if (vaporPlugin && Array.isArray(vaporPlugin.floatingLeaves)) {
+      for (const l of vaporPlugin.floatingLeaves) {
+        if (l.containerEl?.contains(webview) || l.view?.containerEl?.contains(webview)) {
+          return l;
+        }
+      }
+    }
+    return null;
+  }
+
   _getSafeTabLeaf() {
     const active = this.app.workspace.activeLeaf;
     if (active && active.parent) {
       return this.app.workspace.getLeaf('tab');
     }
     return this.app.workspace.getLeaf(false);
+  }
+
+  _setupDOMObserver() {
+    if (this._observer) return;
+    this._observer = new MutationObserver((mutations) => {
+      for (const mutation of mutations) {
+        for (const node of mutation.addedNodes) {
+          if (node.nodeType !== 1) continue;
+          if (node.tagName === 'WEBVIEW') {
+            this.onWebviewReady(node);
+          } else if (node.querySelectorAll) {
+            node.querySelectorAll('webview').forEach(wv => this.onWebviewReady(wv));
+          }
+        }
+      }
+    });
+    this._observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  _removeDOMObserver() {
+    if (this._observer) {
+      this._observer.disconnect();
+      this._observer = null;
+    }
   }
 
   // ─── GLOBAL BACKGROUND LINK INTERCEPTORS ───
@@ -363,7 +411,6 @@ export class CloudflareBypassModule {
       return window.__ORIGINAL_WINDOW_OPEN(url, name, features);
     };
 
-    // Synchronously track Shift key state across window events and mouse clicks
     this._shiftTrackerKey = (e) => { this._lastShiftState = !!e.shiftKey; };
     this._shiftTrackerMouse = (e) => { this._lastShiftState = !!e.shiftKey; };
 
@@ -409,7 +456,6 @@ export class CloudflareBypassModule {
       }
     });
 
-    // 1. Monkey-patch WorkspaceLeaf.prototype.setViewState
     if (!WorkspaceLeaf.prototype.__originalSetViewState) {
       WorkspaceLeaf.prototype.__originalSetViewState = WorkspaceLeaf.prototype.setViewState;
     }
@@ -425,8 +471,6 @@ export class CloudflareBypassModule {
       return this.__originalSetViewState(state, ...args);
     };
 
-    // 2. Shift-aware getLeaf patch: overrides default 'window' popouts from webviews
-    // unless the user was physically holding Shift during the click.
     if (!this.app.workspace.__originalGetLeaf) {
       this.app.workspace.__originalGetLeaf = this.app.workspace.getLeaf;
     }
@@ -512,7 +556,7 @@ export class CloudflareBypassModule {
   }
 
   onWebviewReady(webview) {
-    if (!this.enabled) return;
+    if (!this.enabled || !webview) return;
 
     if (!webview._cfNewWindowAttached) {
       webview._cfNewWindowAttached = true;
@@ -521,10 +565,7 @@ export class CloudflareBypassModule {
         if (!targetUrl) return;
 
         const isBypass = this._shouldInterceptUrl(targetUrl);
-        let leaf = null;
-        this.app.workspace.iterateAllLeaves(l => {
-          if (l.view?.containerEl?.contains(webview)) leaf = l;
-        });
+        const leaf = this._findLeafForWebview(webview);
         const isIsolatedSource = leaf && leaf.view?.getViewType() === VIEW_TYPE_ISOLATED_WEBVIEW;
 
         if (isBypass || isIsolatedSource) {
@@ -543,14 +584,14 @@ export class CloudflareBypassModule {
 
     const partitionStr = webview.getAttribute('partition') || '';
     const electronSession = this._getElectronSession();
-    if (!electronSession) return;
+    if (electronSession) {
+      const sess = partitionStr 
+        ? electronSession.fromPartition(partitionStr) 
+        : electronSession.defaultSession;
 
-    const sess = partitionStr 
-      ? electronSession.fromPartition(partitionStr) 
-      : electronSession.defaultSession;
-
-    if (sess) {
-      this._applyBypassToSession(sess);
+      if (sess) {
+        this._applyBypassToSession(sess);
+      }
     }
 
     if (webview._cfBypassAttached) return;
@@ -561,10 +602,7 @@ export class CloudflareBypassModule {
         const urlStr = webview.getURL() || webview.src || '';
         if (!urlStr || urlStr.startsWith('about:blank')) return;
 
-        let leaf = null;
-        this.app.workspace.iterateAllLeaves(l => {
-          if (l.view?.containerEl?.contains(webview)) leaf = l;
-        });
+        const leaf = this._findLeafForWebview(webview);
         if (!leaf) return;
 
         const viewType = leaf.view?.getViewType() || '';
@@ -681,7 +719,7 @@ export class CloudflareBypassModule {
   }
 
   reapplyToExistingWebviews() {
-    document.querySelectorAll('div.external-link-view webview, .webviewer-content webview')
+    document.querySelectorAll('webview')
       .forEach(wv => {
         if (wv._cfBypassAttached) {
           wv._cfBypassAttached = false;
@@ -692,7 +730,7 @@ export class CloudflareBypassModule {
   }
 
   restoreOriginalUAs() {
-    document.querySelectorAll('div.external-link-view webview, .webviewer-content webview')
+    document.querySelectorAll('webview')
       .forEach(wv => {
         if (wv._originalUA) {
           wv.setAttribute('useragent', wv._originalUA);

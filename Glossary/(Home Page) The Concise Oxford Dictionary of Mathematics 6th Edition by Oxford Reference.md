@@ -1989,9 +1989,9 @@ Year: 2021-09-01
 	918. [[Gauss map]]
 	919. gcd
 	920. Gelfond-Schneider theorem
-	921. generalization
-	922. generalized coordinates
-	923. generalized eigenvector
+	921. [[generalization]]
+	922. [[generalized coordinates]]
+	923. [[generalized eigenvector]]
 	924. generalized function
 	925. generalized maximum likelihood ratio test statistic
 	926. generalized mean value theorem

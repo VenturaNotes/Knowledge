@@ -1,4 +1,4 @@
-# reobs.zsh (Sourced Function to Gracefully Restart Obsidian on macOS with Full-Screen State Retention)
+# reobs.zsh (Sourced Function to Gracefully Restart Obsidian on macOS with Full-Screen Retention)
 
 reobs() {
     echo "Restarting Obsidian..."
@@ -22,10 +22,18 @@ reobs() {
         # 2. Request Obsidian to quit gracefully
         osascript -e 'quit app "Obsidian"' 2>/dev/null
 
-        # 3. Wait until the Obsidian process has completely terminated
-        while pgrep -i "Obsidian" >/dev/null 2>&1; do
+        # 3. Wait for the MAIN Obsidian process to quit (with a 5-second max timeout)
+        local count=0
+        while pgrep -x "Obsidian" >/dev/null 2>&1 && (( count < 25 )); do
             sleep 0.2
+            (( count++ ))
         done
+
+        # Safety fallback: if main process lingers past 5 seconds, force-terminate it
+        if pgrep -x "Obsidian" >/dev/null 2>&1; then
+            pkill -9 -x "Obsidian" 2>/dev/null
+            sleep 0.3
+        fi
 
         # 4. Relaunch Obsidian
         open -a "Obsidian"
