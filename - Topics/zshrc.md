@@ -10,6 +10,7 @@ tags:
 ```zsh
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$HOME/.config/emacs/bin:$PATH"
 
 # Initialize zoxide shell integration (tracks folder visits in the background)
 eval "$(zoxide init zsh)"
@@ -42,6 +43,7 @@ unfunction _load_vault_scripts # Deletes this loader function from memory so you
 # 2. Manual Reload Alias
 # ==========================================================
 alias src="source ~/.zshrc"
+
 ```
 ## Organize
 ### Deconstructing the Name

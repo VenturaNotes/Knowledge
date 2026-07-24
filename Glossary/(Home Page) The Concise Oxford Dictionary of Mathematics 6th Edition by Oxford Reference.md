@@ -4218,7 +4218,7 @@ Year: 2021-09-01
 	2886. trigonometric function
 	2887. trigonometric series expansions
 	2888. trigonometric tables
-	2889. trigonometry
+	2889. [[trigonometry]]
 	
 	2890. trillion
 	2891. trim
@@ -4228,8 +4228,8 @@ Year: 2021-09-01
 	2895. triple root
 	2896. trisect
 	2897. trisection of an angle
-	2898. trisector
-	2899. trivial
+	2898. [[trisector]]
+	2899. [[trivial]]
 	
 	2900. trivial solution
 	2901. truncated cube
