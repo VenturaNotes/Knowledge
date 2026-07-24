@@ -17,6 +17,18 @@ parent:
 - [ ] Change my floating note so that when it compiles, it is always at 100% opacity (or rather not cleared at all)
 - [ ] It seems like if I delete a file, the focus comes back to VaporNote?
 - [ ] Make it so you can move the tabs around within the floating note
+## Patch-Work
+- So this is what I need from you for VaporNote:
+	- Requirements not working anymore
+		- When a webview tab is focused, I should be able to run the command `Command + Control + L` which activates the `FocusAddressBar.js` script and interacts with the URL address bar (and should not leak into the background obsidian main window similar to `Command + shift + T`). Also this script does not currently work with the isolated sessions within the `VaporNote` isolated session tab, even though it does work in the background obsidian main window isolated session tab.
+	- Requirements that should continue to work 
+		- When I run the undo close tab command `Command + Shift + T` and a VaporNote tab is in focus, then I should only be recovering a VaporNote tab and I shouldn't be recovering a background obsidian main window tab at the same time.
+		- When VaporNote is minimized, the tabs should never hold an active view
+		- When Vapor note is unminimized/restored, the tab shown should immediately become focused
+		- I should be able to traverse VaporNote tabs with my shortcut commands when the tab is a webview
+		- When I close a Vapornote markdown tab with a close tab command, the next markdown tab in view should be able to be closed with the same command. 
+		- If I open a new tab in VaporNote (such as a markdown tab), this markdown tab should be in focus and not the tabs in the main obsidian window.
+		- When I close a Vapornote webview tab, it should not be closing any of the other adjacent tabs (whether a markdown file or another webview tab). It should only be closing the focused vapor note webview tab
 ## Complete
 - [x] Make the floating note transparent (so you can see through it). You have an optional slider and you can toggle this feature on or off ✅ 2026-06-08
 - [x] I'm not sure if I want multiple screens (but I'm unsure what to do with the excalidraw plugin creating a new document. It would be fine if it's the current document (but then I lose my place in the view as well. Maybe there is a way to jump back to that view? I honestly might need to make a multi-document tab system)) ✅ 2026-06-08

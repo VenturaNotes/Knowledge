@@ -163,6 +163,8 @@ class VaporNotePlugin extends Plugin {
         this._closedTabsHistory = [];       
         this.opacityValue       = '1.0';   
         this._lastCloseTime     = 0;        
+        this._lastNavTime       = 0;        
+        this._lastReopenTime    = 0;        
         this._moveTimeout       = null;     
         this._isClosingTab      = false;    
         this._isCreatingTab     = false;
@@ -229,25 +231,25 @@ class VaporNotePlugin extends Plugin {
         };
         window.addEventListener('unhandledrejection', this._globalRejectionHandler);
 
-        // Patch app.scope.handleKey to swallow Cmd+W, Cmd+Shift+T, and tab switches
-        // when VaporNote is physically focused.
+        // Patch app.scope.handleKey to swallow Cmd+W, Cmd+Shift+T, Cmd+Ctrl+L, and tab switches
+        // when VaporNote is active or focused.
         const scope = this.app.scope;
         if (scope && typeof scope.handleKey === 'function') {
             this._origScopeHandleKey = scope.handleKey.bind(scope);
             scope.handleKey = (evt, keyInfo) => {
-                if (this._isOpen() && this._isVaporPhysicallyFocused()) {
+                if (this._isOpen() && !this._isMinimized && (this._isVaporPhysicallyFocused() || this._isVaporActive)) {
                     const isCmdOrCtrl = evt.metaKey || evt.ctrlKey;
                     const isShift     = evt.shiftKey;
                     const isAlt       = evt.altKey;
                     const key         = (keyInfo?.key || evt.key || '').toLowerCase();
+
                     if (isCmdOrCtrl && key === 'w') return false;
                     if (isCmdOrCtrl && isShift && key === 't') return false;
+                    if (isCmdOrCtrl && evt.ctrlKey && key === 'l') return false;
 
-                    // Swallows command-palette tab navigation triggers so the background main workspace doesn't navigate simultaneously
                     if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right' || key === 'arrowleft' || key === 'left')) {
                         return false;
                     }
-
                 }
                 return this._origScopeHandleKey(evt, keyInfo);
             };
@@ -257,7 +259,7 @@ class VaporNotePlugin extends Plugin {
         const self = this;
         this._origModalOpen = Modal.prototype.open;
         Modal.prototype.open = function(...args) {
-            if (self._isOpen() && self._isVaporFocused() && self._targetWin) {
+            if (self._isOpen() && !self._isMinimized && self._isVaporFocused() && self._targetWin) {
                 const origActiveWindow = window.activeWindow;
                 const origActiveDocument = window.activeDocument;
                 try {
@@ -299,13 +301,12 @@ class VaporNotePlugin extends Plugin {
 
         this.registerEvent(
             this.app.workspace.on('active-leaf-change', (leaf) => {
-                // During closing/switching, ignore completely to avoid thrash
                 if (this._isClosingTab || this._isSwitchingTab) return;
 
                 if (leaf && this.floatingLeaves && this.floatingLeaves.includes(leaf)) {
                     const idx = this.floatingLeaves.indexOf(leaf);
                     if (idx !== -1 && idx !== this.activeLeafIndex) {
-                        this.activeLeafIndex = idx; // sync index without full _switchTab during creation
+                        this.activeLeafIndex = idx;
                         if (!this._isCreatingTab) this._switchTab(idx);
                     }
                     this._renderTabs();
@@ -364,13 +365,10 @@ class VaporNotePlugin extends Plugin {
     // ─── ELECTRON WINDOW FOCUS SUPPRESSION ───────────────────────────────────
     _makeLeafWindowNeutral(leaf) {
         if (leaf && leaf.containerEl) {
-            // Seed programmatic focus attributes early so the empty/placeholder leaf can receive focus
             leaf.containerEl.setAttribute('tabindex', '-1');
             leaf.containerEl.style.outline = 'none';
         }
 
-        // 1. Give the leaf a fake parent whose getContainer() returns a stub
-        //    that dynamically maps to our current target window.
         const self = this;
         const noopContainer = {
             requestFocus: () => {},
@@ -380,11 +378,6 @@ class VaporNotePlugin extends Plugin {
             containerEl:  leaf.containerEl,
         };
 
-        // A minimal safe containerEl stub: an object that silently absorbs any
-        // DOM-class or attribute calls Obsidian's updateLayout / recomputeLayout
-        // makes while walking up the parent chain. Using a real DOM element here
-        // would let Obsidian mutate elements it doesn't own; using `undefined`
-        // crashes on `.addClass`. This stub is the safe middle ground.
         const safeContainerEl = {
             addClass:        () => {},
             removeClass:     () => {},
@@ -415,27 +408,21 @@ class VaporNotePlugin extends Plugin {
             containerEl:     safeContainerEl,
             children:        [leaf],
             type:            'split',
-            // Excalidraw (and other plugins) call leaf.getRoot() which walks up
-            // through parent.getRoot(). Without this, it throws "getRoot is not a
-            // function", which crashes Obsidian's layout update and resets focus —
-            // causing the double-click bug on webview tab switches and close buttons.
             getRoot:         () => fakeRoot,
             isAttached:      () => true,
             recomputeLayout: () => {},
             updateLayout:    () => {},
         };
 
-        // Only set if the leaf has no real parent yet (it's a fresh floating leaf)
         if (!leaf.parent) {
             leaf.parent = fakeParent;
         }
 
-        // 2. Patch openFile so we can suppress focus DURING the await, releasing early via timeout
         const origOpenFile = leaf.openFile?.bind(leaf);
         if (origOpenFile) {
             leaf.openFile = async (file, state) => {
                 const restore = this._suppressWinFocusViaDOM();
-                const timeoutId = setTimeout(restore, 200); // Prevent long lockups during slow loads
+                const timeoutId = setTimeout(restore, 200);
                 try {
                     return await origOpenFile(file, state);
                 } finally {
@@ -445,12 +432,11 @@ class VaporNotePlugin extends Plugin {
             };
         }
 
-        // 3. Patch setViewState similarly
         const origSetViewState = leaf.setViewState?.bind(leaf);
         if (origSetViewState) {
             leaf.setViewState = async (...args) => {
                 const restore = this._suppressWinFocusViaDOM();
-                const timeoutId = setTimeout(restore, 200); // Prevent long lockups during slow loads
+                const timeoutId = setTimeout(restore, 200);
                 try {
                     return await origSetViewState(...args);
                 } finally {
@@ -461,14 +447,10 @@ class VaporNotePlugin extends Plugin {
         }
     }
 
-    // Temporarily redirect window.focus() and BrowserWindow.focus() calls so
-    // that any internal Obsidian code that tries to focus a window during
-    // openFile/setViewState is silently dropped.
     _suppressWinFocusViaDOM() {
         const targetWin = this._targetWin;
         const patched = [];
 
-        // Collect all windows Obsidian knows about
         const wins = new Set([window]);
         try {
             const floatingSplit = this.app.workspace.floatingSplit;
@@ -478,15 +460,14 @@ class VaporNotePlugin extends Plugin {
         } catch (_) {}
 
         wins.forEach(win => {
-            if (win === targetWin) return; // don't suppress the window we WANT
+            if (win === targetWin) return;
             try {
                 const orig = win.focus.bind(win);
-                win.focus = () => {}; // swallow focus calls
+                win.focus = () => {};
                 patched.push({ win, orig });
             } catch (_) {}
         });
 
-        // Also suppress via Electron if available
         const electronPatched = [];
         try {
             const remote = window.require?.('@electron/remote') || require('@electron/remote');
@@ -519,16 +500,15 @@ class VaporNotePlugin extends Plugin {
 
     // ─── FOCUS MANAGEMENT HELPERS ────────────────────────────────────────────
     _forceFocusActiveLeaf() {
-        if (!this._isOpen() || !this.floatingLeaves) return;
+        if (!this._isOpen() || this._isMinimized || !this.floatingLeaves) return;
 
-        // Skip focusing if a settings, modal container, prompt, or hotkey suggestion selector is active
         const doc = this._targetWin?.document || activeDocument;
         if (doc.querySelector('.modal-container, .prompt, .suggestion-container')) return;
 
         const leaf = this.floatingLeaves[this.activeLeafIndex];
         if (!leaf) return;
 
-        // Synchronously set active state once
+        // 1. Synchronize Obsidian workspace activeLeaf pointer
         if (this.app.workspace.activeLeaf !== leaf) {
             try {
                 if (this._origSetActiveLeaf) {
@@ -541,37 +521,42 @@ class VaporNotePlugin extends Plugin {
 
         if (!leaf.containerEl) return;
 
-        // Seed tabindex if not already present, ensuring the layout div is keyboard-focusable
         if (!leaf.containerEl.hasAttribute('tabindex')) {
             leaf.containerEl.setAttribute('tabindex', '-1');
             leaf.containerEl.style.outline = 'none';
         }
 
-        // Reclaim OS-level window focus if the active element has shifted completely out of VaporNote's window context
         try {
-            if (this._targetWin && this._targetWin !== window && !this._targetWin.closed) {
-                const activeEl = doc.activeElement;
-                const isPhysicallyInVapor = this.floatingContainer.contains(activeEl) ||
-                    (this.floatingLeaves?.some(l => l.containerEl?.contains(activeEl)) ?? false);
-                if (!isPhysicallyInVapor) {
-                    this._targetWin.focus();
-                }
+            if (this._targetWin && !this._targetWin.closed) {
+                this._targetWin.focus();
             }
         } catch (_) {}
 
+        // 2. Focus active tab view depending on view type
+        // A. Markdown Editor
         if (leaf.view && leaf.view.editor && typeof leaf.view.editor.focus === 'function') {
             leaf.view.editor.focus();
-        } else {
-            const content = leaf.containerEl.querySelector('.cm-content, webview, .markdown-source-view');
-            if (content) {
-                content.focus();
-                if (content.tagName.toLowerCase() === 'webview') {
-                    try { content.focus(); } catch (_) {}
-                }
-            } else {
-                leaf.containerEl.focus();
-            }
+            return;
         }
+
+        // B. Webview / Isolated Browser
+        const webview = leaf.containerEl.querySelector('webview');
+        if (webview) {
+            try {
+                webview.focus();
+            } catch (_) {}
+            return;
+        }
+
+        // C. CodeMirror Editor Content
+        const cmContent = leaf.containerEl.querySelector('.cm-content');
+        if (cmContent && typeof cmContent.focus === 'function') {
+            cmContent.focus();
+            return;
+        }
+
+        // D. Empty Tab or Fallback Views
+        leaf.containerEl.focus();
     }
 
     _setupWindowFocusListeners() {
@@ -615,7 +600,7 @@ class VaporNotePlugin extends Plugin {
     }
 
     _isVaporPhysicallyFocused() {
-        if (!this.floatingContainer) return false;
+        if (!this.floatingContainer || this._isMinimized) return false;
         const doc = this._targetWin?.document || activeDocument;
         const activeEl = doc.activeElement;
         if (!activeEl) return false;
@@ -625,9 +610,6 @@ class VaporNotePlugin extends Plugin {
             (this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl)) ?? false);
     }
 
-    // Returns true if this leaf was created by VaporNote (fake parent, not in Obsidian's real
-    // split tree) but has since been removed from floatingLeaves. Forwarding such a leaf to
-    // Obsidian's real setActiveLeaf crashes because the fake parent has no real DOM elements.
     _isOrphanedVaporLeaf(leaf) {
         try {
             const parent = leaf.parent;
@@ -641,20 +623,17 @@ class VaporNotePlugin extends Plugin {
     }
 
     _isVaporFocused() {
-        if (!this.floatingContainer) return false;
+        if (!this.floatingContainer || this._isMinimized) return false;
 
         const doc = this._targetWin?.document || activeDocument;
         const activeEl = doc.activeElement;
 
         if (!activeEl) return false;
 
-        // Bail out if focus is inside a modal (e.g. Settings, command palette)
         if (activeEl.closest && activeEl.closest('.modal-container')) {
             return false;
         }
 
-        // Physical containment check. Also catches webview tabs: when a webview
-        // has focus, activeElement in the parent doc is the webview element itself.
         const isPhysicallyInVapor = this.floatingContainer.contains(activeEl) ||
             (this.floatingLeaves?.some(leaf => leaf.containerEl?.contains(activeEl)) ?? false);
 
@@ -663,8 +642,6 @@ class VaporNotePlugin extends Plugin {
             return true;
         }
 
-        // If focus is on ANY element outside VaporNote (main workspace note, webview, tab, or sidebar),
-        // mark VaporNote as inactive immediately.
         const isOutsideVapor = activeEl && 
             activeEl !== doc.body && 
             activeEl !== doc.documentElement &&
@@ -679,7 +656,6 @@ class VaporNotePlugin extends Plugin {
         return this._isVaporActive;
     }
 
-    // Helper used by Electron renderer targeting
     _findRendererWinForBwin(bwin) {
         if (!bwin) return null;
         const wins = new Set([window]);
@@ -700,9 +676,6 @@ class VaporNotePlugin extends Plugin {
         return null;
     }
 
-    // Returns the renderer `window` for whichever BrowserWindow Electron considers focused.
-    // This is the ground truth — unlike Obsidian's `activeWindow`, it does not lag after
-    // a macOS Space switch or a shortcut fired before Obsidian's own routing updates.
     _getElectronFocusedRendererWin() {
         try {
             const remote = window.require?.('@electron/remote') || require('@electron/remote');
@@ -714,7 +687,6 @@ class VaporNotePlugin extends Plugin {
                 }
             }
         } catch (_) {}
-        // Fallback: trust Obsidian's activeWindow
         return activeWindow;
     }
 
@@ -823,7 +795,7 @@ class VaporNotePlugin extends Plugin {
                     ws.trigger('active-leaf-change', targetLeaf);
 
                     const params = args[0];
-                    if (params && params.focus) {
+                    if (params && params.focus && !this._isMinimized) {
                         this._forceFocusActiveLeaf();
                     }
                     return;
@@ -833,11 +805,10 @@ class VaporNotePlugin extends Plugin {
                     return;
                 }
 
-                // ALLOW POPOUT WINDOWS: If the target leaf lives in a separate window, do not swallow focus
                 const targetWin = targetLeaf?.containerEl?.ownerDocument?.defaultView;
                 const isPopoutWindow = targetWin && targetWin !== window && targetWin !== this._targetWin;
 
-                if (this._isOpen() && !this._isClosingTab && !this._isSwitchingTab &&
+                if (this._isOpen() && !this._isMinimized && !this._isClosingTab && !this._isSwitchingTab &&
                     !this._isCreatingTab && this._isVaporPhysicallyFocused() && !isPopoutWindow) {
                     const wsRoot = this.app.workspace.containerEl;
                     const isRealWorkspaceLeaf = wsRoot && targetLeaf?.containerEl &&
@@ -856,10 +827,9 @@ class VaporNotePlugin extends Plugin {
             }
             this._origGetLeaf = ws.getLeaf.bind(ws);
             ws.getLeaf = (newSplit, ...args) => {
-                const isVaporFocused = this._isVaporPhysicallyFocused() || this._isVaporActive;
+                const isVaporFocused = !this._isMinimized && (this._isVaporPhysicallyFocused() || this._isVaporActive);
 
-                // Return active VaporNote leaf if a script requests the current leaf (newSplit === false)
-                if (!newSplit && this._isOpen() && this._isVaporActive) {
+                if (!newSplit && this._isOpen() && !this._isMinimized && this._isVaporActive) {
                     const activeVaporLeaf = this.floatingLeaves[this.activeLeafIndex];
                     if (activeVaporLeaf) {
                         return activeVaporLeaf;
@@ -871,7 +841,7 @@ class VaporNotePlugin extends Plugin {
 
                 const isNewTabRequested = newSplit === 'tab' || newSplit === true || (newSplit === 'window' && !isShiftHeld);
 
-                if (this._isOpen() && isVaporFocused && isNewTabRequested) {
+                if (this._isOpen() && !this._isMinimized && isVaporFocused && isNewTabRequested) {
                     this._isCreatingTab = true;
                     const _restoreWinFocus = this._suppressWinFocusViaDOM();
                     const leaf = new WorkspaceLeaf(this.app);
@@ -898,7 +868,7 @@ class VaporNotePlugin extends Plugin {
                     };
 
                     leaf.containerEl.addEventListener('focusin', () => {
-                        if (this._isMigrating) return;
+                        if (this._isMigrating || this._isMinimized) return;
                         if (!this.floatingLeaves || !this.floatingLeaves.includes(leaf)) return;
                         try { ws.setActiveLeaf(leaf, { focus: false }); } catch (e) {}
                     });
@@ -951,7 +921,7 @@ class VaporNotePlugin extends Plugin {
             }
             this._origOpenLinkText = ws.openLinkText.bind(ws);
             ws.openLinkText = async (linkText, sourcePath, newLeaf, openState) => {
-                if (this._isOpen() && this._isVaporActive) {
+                if (this._isOpen() && !this._isMinimized && this._isVaporActive) {
                     const file = this.app.metadataCache.getFirstLinkpathDest(linkText, sourcePath)
                         ?? this.app.vault.getAbstractFileByPath(linkText);
                     if (file) {
@@ -969,7 +939,7 @@ class VaporNotePlugin extends Plugin {
             this._origOpenFile = ws.openFile?.bind(ws);
             if (this._origOpenFile) {
                 ws.openFile = async (file, openState) => {
-                    if (this._isOpen() && this._isVaporActive) {
+                    if (this._isOpen() && !this._isMinimized && this._isVaporActive) {
                         if (await _vaporOpenInActiveLeaf(file, openState)) return;
                     }
                     return this._origOpenFile(file, openState);
@@ -1064,50 +1034,66 @@ class VaporNotePlugin extends Plugin {
                 const isAlt = e.altKey;
                 const key = e.key.toLowerCase();
 
-                const doc = this._targetWin?.document || activeDocument;
-                const activeEl = doc.activeElement;
-                const isWebviewFocused = activeEl && activeEl.tagName && activeEl.tagName.toLowerCase() === 'webview';
-
                 if (isCmdOrCtrl && key === 'w') {
-                    if (this._isOpen() && this._isVaporPhysicallyFocused()) {
+                    if (this._isOpen() && !this._isMinimized && (this._isVaporPhysicallyFocused() || this._isVaporActive)) {
                         e.preventDefault();
                         e.stopPropagation();
-                        if (!isWebviewFocused) {
-                            this._closeTab(this.activeLeafIndex);
+                        this._closeTab(this.activeLeafIndex);
+                        this._isVaporActive = true;
+                        return;
+                    }
+                }
+
+                if (isCmdOrCtrl && isShift && key === 't') {
+                    if (this._isOpen() && !this._isMinimized && (this._isVaporPhysicallyFocused() || this._isVaporActive)) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.reopenClosedTab();
+                        return;
+                    }
+                }
+
+                if (isCmdOrCtrl && e.ctrlKey && key === 'l') {
+                    if (this._isOpen() && !this._isMinimized && (this._isVaporPhysicallyFocused() || this._isVaporActive)) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
+                        if (activeLeaf) {
+                            const doc = this._targetWin?.document || activeDocument;
+                            if (doc.activeElement && typeof doc.activeElement.blur === 'function') {
+                                doc.activeElement.blur();
+                            }
+                            const addressBar = activeLeaf.containerEl?.querySelector('.custom-webview-addressbar') ||
+                                               activeLeaf.containerEl?.querySelector('.view-header input[type="text"]') ||
+                                               activeLeaf.containerEl?.querySelector('.view-header input') ||
+                                               activeLeaf.containerEl?.querySelector('input');
+                            if (addressBar) {
+                                addressBar.focus();
+                                if (typeof addressBar.select === 'function') {
+                                    addressBar.select();
+                                }
+                            }
                         }
                         this._isVaporActive = true;
                         return;
                     }
                 }
 
-                if (isCmdOrCtrl && isShift && key === 't' && this._isOpen() && this._isVaporPhysicallyFocused()) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    if (!isWebviewFocused) {
-                        this.reopenClosedTab();
-                    }
-                    return;
-                }
-
                 if (!this._isVaporFocused()) return;
 
                 if (isCmdOrCtrl && isAlt && (e.key === 'ArrowRight' || e.key === 'Right' || e.key === 'arrowright')) {
                     e.preventDefault(); e.stopPropagation();
-                    if (!isWebviewFocused) {
-                        this.navigateTab(1);
-                    }
+                    this.navigateTab(1);
                 }
                 else if (isCmdOrCtrl && isAlt && (e.key === 'ArrowLeft' || e.key === 'Left' || e.key === 'arrowleft')) {
                     e.preventDefault(); e.stopPropagation();
-                    if (!isWebviewFocused) {
-                        this.navigateTab(-1);
-                    }
+                    this.navigateTab(-1);
                 }
             };
             this._targetWin.addEventListener('keydown', this._keydownHandler, true);
 
             this._focusinHandler = () => { 
-                if (this._isMigrating) return;
+                if (this._isMigrating || this._isMinimized) return;
                 this._isVaporActive = true;
 
                 const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
@@ -1192,7 +1178,6 @@ class VaporNotePlugin extends Plugin {
                 display: 'flex', flexDirection: 'column', overflow: 'hidden'
             });
 
-            // Insert the new leaf right next to the current active tab (to its right)
             const insertIdx = (this.floatingLeaves && this.floatingLeaves.length > 0)
                 ? this.activeLeafIndex + 1
                 : 0;
@@ -1228,13 +1213,22 @@ class VaporNotePlugin extends Plugin {
             ws.setActiveLeaf = savedSetActiveLeaf;
             setTimeout(() => {
                 this._isCreatingTab = false;
-            }, 300);
+                if (this._isOpen() && !this._isMinimized) {
+                    this._forceFocusActiveLeaf();
+                }
+            }, 50);
+
+            setTimeout(() => {
+                if (this._isOpen() && !this._isMinimized) {
+                    this._forceFocusActiveLeaf();
+                }
+            }, 200);
         }
 
         if (leaf.view) leaf.view.onHide = () => {};
 
         leaf.containerEl.addEventListener('focusin', () => {
-            if (this._isMigrating) return;
+            if (this._isMigrating || this._isMinimized) return;
             if (!this.floatingLeaves || !this.floatingLeaves.includes(leaf)) return;
             try { ws.setActiveLeaf(leaf, { focus: false }); } catch (e) {}
         });
@@ -1279,20 +1273,20 @@ class VaporNotePlugin extends Plugin {
                 }
 
                 setTimeout(() => {
-                    this._forceFocusActiveLeaf();
-                    try { activeLeaf.view?.onShow?.(); } catch (_) {}
+                    if (!this._isMinimized) this._forceFocusActiveLeaf();
+                    try { activeLeaf.view?.onShow?.(); }      catch (_) {}
                     try { activeLeaf.view?.editor?.refresh(); } catch (_) {}
                     this._isVaporActive = true;
                 }, 50);
 
                 setTimeout(() => {
-                    if (this.activeLeafIndex === index && this._isOpen()) {
+                    if (this.activeLeafIndex === index && this._isOpen() && !this._isMinimized) {
                         this._forceFocusActiveLeaf();
                     }
                 }, 150);
 
                 setTimeout(() => {
-                    if (this.activeLeafIndex === index && this._isOpen()) {
+                    if (this.activeLeafIndex === index && this._isOpen() && !this._isMinimized) {
                         this._forceFocusActiveLeaf();
                     }
                 }, 350);
@@ -1310,6 +1304,10 @@ class VaporNotePlugin extends Plugin {
 
     _closeTab(index, skipHistory = false) {
         if (!this.floatingLeaves) return;
+
+        const now = performance.now();
+        if (now - this._lastCloseTime < 150) return;
+        this._lastCloseTime = now;
 
         this._isClosingTab = true;
 
@@ -1381,6 +1379,10 @@ class VaporNotePlugin extends Plugin {
         if (this._isReopeningTab) return;
         if (!this._isOpen() || !this._closedTabsHistory || this._closedTabsHistory.length === 0) return;
 
+        const now = performance.now();
+        if (now - this._lastReopenTime < 150) return;
+        this._lastReopenTime = now;
+
         this._isReopeningTab = true;
         try {
             const lastTab = this._closedTabsHistory.pop();
@@ -1431,6 +1433,10 @@ class VaporNotePlugin extends Plugin {
 
     navigateTab(direction) {
         if (!this._isOpen() || !this.floatingLeaves || this.floatingLeaves.length <= 1) return;
+
+        const now = performance.now();
+        if (now - this._lastNavTime < 150) return;
+        this._lastNavTime = now;
 
         const visibleIdxs = this.floatingLeaves
             .map((leaf, i) => ({ leaf, i }))
@@ -1513,7 +1519,6 @@ class VaporNotePlugin extends Plugin {
             if (webview._vaporHooked) return;
             webview._vaporHooked = true;
 
-            // 1. Electron Native Input Hook
             const tryHookElectron = () => {
                 if (webview._electronHooked) return;
                 try {
@@ -1536,29 +1541,37 @@ class VaporNotePlugin extends Plugin {
 
                                     if (input.type === 'keyDown') {
                                         if (isCmdOrCtrl && key === 'w') {
-                                            event.preventDefault();
-                                            this._isVaporActive = true;
-                                            setTimeout(() => { this._isVaporActive = true; this._closeTab(this.activeLeafIndex); }, 0);
-                                            return;
+                                            if (!this._isMinimized) {
+                                                event.preventDefault();
+                                                this._isVaporActive = true;
+                                                setTimeout(() => { this._isVaporActive = true; this._closeTab(this.activeLeafIndex); }, 0);
+                                                return;
+                                            }
                                         } else if (isCmdOrCtrl && isShift && key === 't') {
-                                            event.preventDefault();
-                                            this._isVaporActive = true;
-                                            setTimeout(() => this.reopenClosedTab(), 0);
-                                            return;
+                                            if (!this._isMinimized) {
+                                                event.preventDefault();
+                                                this._isVaporActive = true;
+                                                setTimeout(() => this.reopenClosedTab(), 0);
+                                                return;
+                                            }
                                         } else if (isCmdOrCtrl && isAlt && (key === 'arrowright' || key === 'right')) {
-                                            event.preventDefault();
-                                            this.navigateTab(1);
-                                            return;
+                                            if (!this._isMinimized) {
+                                                event.preventDefault();
+                                                this.navigateTab(1);
+                                                return;
+                                            }
                                         } else if (isCmdOrCtrl && isAlt && (key === 'arrowleft' || key === 'left')) {
-                                            event.preventDefault();
-                                            this.navigateTab(-1);
-                                            return;
+                                            if (!this._isMinimized) {
+                                                event.preventDefault();
+                                                this.navigateTab(-1);
+                                                return;
+                                            }
                                         }
                                     }
 
-                                    // Standalone Hotkey Bubbler
                                     if (isCmdOrCtrl || isAlt) {
-                                        if (webview.__bubblerAttachedTo) return; // Prevent conflict with Webview Suite
+                                        if (webview.__bubblerAttachedTo) return;
+                                        if (this._isMinimized) return;
                                         
                                         const doc = this._targetWin?.document || activeDocument;
                                         const target = doc.activeElement || doc.body;
@@ -1600,10 +1613,7 @@ class VaporNotePlugin extends Plugin {
                 }
             }, 100);
 
-            // 2. Fallback JS Injection
             const injectScript = () => {
-                if (webview._electronHooked) return; 
-
                 webview.executeJavaScript(`
                     if (!window._vaporNoteKeyHooked) {
                         window._vaporNoteKeyHooked = true;
@@ -1639,15 +1649,17 @@ class VaporNotePlugin extends Plugin {
                     setTimeout(() => {
                         try {
                             if (doc.querySelector('.modal-container, .prompt, .suggestion-container')) return;
-                            webview.focus();
-                            this._isVaporActive = true;
+                            if (!this._isMinimized) {
+                                webview.focus();
+                                this._isVaporActive = true;
+                            }
                         } catch (_) {}
                     }, 50);
                 }
             });
 
             webview.addEventListener('console-message', (e) => {
-                if (webview._electronHooked) return; 
+                if (this._isMinimized) return; 
 
                 if (e.message === 'VAPORNOTE_CMD_W') this._closeTab(this.activeLeafIndex);
                 else if (e.message === 'VAPORNOTE_CMD_T') this.reopenClosedTab();
@@ -2028,6 +2040,7 @@ class VaporNotePlugin extends Plugin {
         this._isMinimized = !this._isMinimized;
 
         if (this._isMinimized) {
+            this._isVaporActive = false;
             this._saveViewStateData();
 
             if (this.settings.invisibleMinimize) {
@@ -2132,6 +2145,8 @@ class VaporNotePlugin extends Plugin {
                 }
             }
         } else {
+            this._isVaporActive = true;
+
             if (this._wasInvisiblyMinimized) {
                 this._wasInvisiblyMinimized = false;
                 this.floatingContainer.style.opacity = this.opacityValue;
@@ -2140,8 +2155,14 @@ class VaporNotePlugin extends Plugin {
                 const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
                 if (activeLeaf) this._switchTab(this.activeLeafIndex);
 
+                this._restoreViewStateData();
+                this._forceFocusActiveLeaf();
+
                 setTimeout(() => {
-                    this._restoreViewStateData();
+                    this._forceFocusActiveLeaf();
+                }, 50);
+
+                setTimeout(() => {
                     this._forceFocusActiveLeaf();
                 }, 150);
             } else {
@@ -2206,8 +2227,14 @@ class VaporNotePlugin extends Plugin {
                 const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
                 if (activeLeaf) this._switchTab(this.activeLeafIndex);
 
+                this._restoreViewStateData();
+                this._forceFocusActiveLeaf();
+
                 setTimeout(() => {
-                    this._restoreViewStateData();
+                    this._forceFocusActiveLeaf();
+                }, 50);
+
+                setTimeout(() => {
                     this._forceFocusActiveLeaf();
                 }, 150);
             }
