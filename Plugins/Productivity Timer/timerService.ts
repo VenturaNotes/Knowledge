@@ -79,8 +79,7 @@ export class TimerService {
 
 		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
 			const start = t.last_started_at as string;
-			const finalTracked = t.visual_seconds !== undefined ? t.visual_seconds : this.plugin.getActiveTrackedSeconds(t);
-			const duration = Math.max(0, finalTracked - t.tracked_seconds);
+			const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
 			return {
 				timer_id: t.id,
 				started_at: start,
@@ -173,8 +172,7 @@ export class TimerService {
 
 		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
 			const start = t.last_started_at as string;
-			const finalTracked = t.visual_seconds !== undefined ? t.visual_seconds : this.plugin.getActiveTrackedSeconds(t);
-			const duration = Math.max(0, finalTracked - t.tracked_seconds);
+			const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
 			return {
 				timer_id: t.id,
 				started_at: start,
@@ -283,8 +281,7 @@ export class TimerService {
 
 		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
 			const start = t.last_started_at as string;
-			const finalTracked = t.visual_seconds !== undefined ? t.visual_seconds : this.plugin.getActiveTrackedSeconds(t);
-			const duration = Math.max(0, finalTracked - t.tracked_seconds);
+			const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
 			return {
 				timer_id: t.id,
 				started_at: start,
@@ -440,6 +437,7 @@ export class TimerService {
 		if (this.plugin.timers.length === 0) { new Notice("No timers to complete."); return; }
 		await this.runWriteAction(async () => {
 			await this.stopAllTimers();
+
 			const sessionResult = await this.plugin.db.insert("timer_sessions", {
 				date: new Date().toISOString().split("T")[0],
 				completed_at: this.plugin.getCalibratedISOString(),
@@ -458,11 +456,13 @@ export class TimerService {
 					if (parent) entryName = `${parent.name} > ${timer.name}`;
 				}
 
+				const totalTracked = this.plugin.getTimerDisplayTimes(timer).tracked;
+
 				await this.plugin.db.insert("timer_session_entries", {
 					session_id: session.id,
 					timer_name: entryName,
 					estimate_seconds: timer.estimate_seconds,
-					tracked_seconds: timer.tracked_seconds,
+					tracked_seconds: totalTracked,
 				});
 
 				await this.plugin.db.delete("timer_segments", `timer_id=eq.${timer.id}`);
@@ -474,7 +474,17 @@ export class TimerService {
 					is_last_active: false,
 					last_started_at: null
 				}, `id=eq.${timer.id}`);
+
+				// Clear in-memory state completely
+				timer.tracked_seconds = 0;
+				timer.is_running = false;
+				timer.is_rotation_running = false;
+				timer.is_last_active = false;
+				timer.last_started_at = null;
+				timer.visual_seconds = undefined;
+				timer.segments = [];
 			}
+
 			await this.plugin.syncManager.loadTimers();
 			await this.plugin.syncManager.loadSessions();
 			new Notice("Session completed and archived.");

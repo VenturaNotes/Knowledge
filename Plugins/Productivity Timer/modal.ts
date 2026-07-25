@@ -108,15 +108,29 @@ export class TimeLogModal extends Modal {
 
 			const currentTimer = this.getTimer();
 			try {
-				await this.db.insert("timer_segments", {
+				const inserted = await this.db.insert("timer_segments", {
 					timer_id: currentTimer.id,
 					started_at: started.toISOString(),
 					ended_at: ended.toISOString(),
 					duration_seconds: totalSeconds
 				});
 
-				const updatedTracked = currentTimer.tracked_seconds + totalSeconds;
-				await this.db.update("timers", { tracked_seconds: updatedTracked }, `id=eq.${currentTimer.id}`);
+				currentTimer.segments = currentTimer.segments || [];
+				if (inserted) {
+					currentTimer.segments.push(Array.isArray(inserted) ? inserted[0] : inserted);
+				} else {
+					currentTimer.segments.push({
+						id: `temp-${Date.now()}`,
+						timer_id: currentTimer.id,
+						started_at: started.toISOString(),
+						ended_at: ended.toISOString(),
+						duration_seconds: totalSeconds
+					});
+				}
+
+				const sumTracked = currentTimer.segments.reduce((sum, s) => sum + s.duration_seconds, 0);
+				currentTimer.tracked_seconds = sumTracked;
+				await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`);
 				
 				new Notice(`Added manual entry: ${rawVal}`);
 				manualInput.value = "";
@@ -201,11 +215,19 @@ export class TimeLogModal extends Modal {
 			const start = new Date(seg.started_at);
 			const end = new Date(seg.ended_at);
 
+			// Auto-repair segment duration if it was saved as 0 in DB
+			let displayDuration = seg.duration_seconds;
+			if ((!displayDuration || displayDuration <= 0) && !isNaN(start.getTime()) && !isNaN(end.getTime()) && end > start) {
+				displayDuration = Math.floor((end.getTime() - start.getTime()) / 1000);
+				seg.duration_seconds = displayDuration;
+				this.db.update("timer_segments", { duration_seconds: displayDuration }, `id=eq.${seg.id}`).catch(() => {});
+			}
+
 			// 1. Editable logged duration badge is rendered as the first column
 			const durInput = row.createEl("input", { 
 				type: "text", 
 				cls: "pt-modal-duration-badge", 
-				value: this.formatTime(seg.duration_seconds) 
+				value: this.formatTime(displayDuration) 
 			});
 			durInput.style.cssText = "width: 75px; text-align: center; border: 1px solid var(--background-modifier-border); border-radius: 3px; font-family: var(--font-monospace); font-size: 11px; background: var(--background-secondary-alt); color: var(--interactive-accent); cursor: text; font-weight: bold; padding: 2px 6px; box-sizing: border-box;";
 
@@ -236,9 +258,7 @@ export class TimeLogModal extends Modal {
 				}
 
 				const newDuration = Math.round((newEnd.getTime() - newStart.getTime()) / 1000);
-				if (newDuration === seg.duration_seconds && newStart.toISOString() === seg.started_at) return;
 
-				const diff = newDuration - seg.duration_seconds;
 				try {
 					await this.db.update("timer_segments", {
 						started_at: newStart.toISOString(),
@@ -246,14 +266,15 @@ export class TimeLogModal extends Modal {
 						duration_seconds: newDuration
 					}, `id=eq.${seg.id}`);
 
-					const currentTimer = this.getTimer();
-					const updatedTracked = Math.max(0, currentTimer.tracked_seconds + diff);
-					currentTimer.tracked_seconds = updatedTracked;
-					await this.db.update("timers", { tracked_seconds: updatedTracked }, `id=eq.${currentTimer.id}`);
-
 					seg.started_at = newStart.toISOString();
 					seg.ended_at = newEnd.toISOString();
 					seg.duration_seconds = newDuration;
+
+					const currentTimer = this.getTimer();
+					const sumTracked = (currentTimer.segments || []).reduce((sum, s) => sum + s.duration_seconds, 0);
+					currentTimer.tracked_seconds = sumTracked;
+					await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`);
+
 					durInput.value = this.formatTime(newDuration);
 
 					new Notice("Segment log updated.");
@@ -267,7 +288,6 @@ export class TimeLogModal extends Modal {
 			durInput.addEventListener("blur", async () => {
 				const parsed = this.parseTimeInput(durInput.value);
 				if (parsed !== null && parsed > 0 && parsed !== seg.duration_seconds) {
-					const diff = parsed - seg.duration_seconds;
 					const currentStart = new Date(startPicker.value);
 					const newEnd = new Date(currentStart.getTime() + parsed * 1000);
 					endPicker.value = this.toLocalDateTimeString(newEnd);
@@ -278,14 +298,14 @@ export class TimeLogModal extends Modal {
 							duration_seconds: parsed
 						}, `id=eq.${seg.id}`);
 
-						const currentTimer = this.getTimer();
-						const updatedTracked = Math.max(0, currentTimer.tracked_seconds + diff);
-						currentTimer.tracked_seconds = updatedTracked;
-						await this.db.update("timers", { tracked_seconds: updatedTracked }, `id=eq.${currentTimer.id}`);
-
 						seg.ended_at = newEnd.toISOString();
 						seg.duration_seconds = parsed;
-						
+
+						const currentTimer = this.getTimer();
+						const sumTracked = (currentTimer.segments || []).reduce((sum, s) => sum + s.duration_seconds, 0);
+						currentTimer.tracked_seconds = sumTracked;
+						await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`);
+
 						new Notice("Duration and end time updated.");
 						await this.onUpdate();
 						this.renderLogsListOnly();
@@ -315,9 +335,11 @@ export class TimeLogModal extends Modal {
 					await this.db.delete("timer_segments", `id=eq.${seg.id}`);
 
 					const currentTimer = this.getTimer();
-					const updatedTracked = Math.max(0, currentTimer.tracked_seconds - seg.duration_seconds);
-					currentTimer.tracked_seconds = updatedTracked;
-					await this.db.update("timers", { tracked_seconds: updatedTracked }, `id=eq.${currentTimer.id}`);
+					currentTimer.segments = (currentTimer.segments || []).filter(s => s.id !== seg.id);
+
+					const sumTracked = currentTimer.segments.reduce((sum, s) => sum + s.duration_seconds, 0);
+					currentTimer.tracked_seconds = sumTracked;
+					await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`);
 
 					new Notice("Segment log entry deleted.");
 					await this.onUpdate();

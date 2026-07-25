@@ -2423,6 +2423,7 @@ Year: 2021-09-01
 	
 	1297. Laplace, Pierre-Simon, Marquis de (1749-1827)
 	1298. Laplace expansion
+		1. See DETERMINANT.
 	1299. Laplacian
 		1. See LAPLACE'S EQUATION.
 	1300. latent root
@@ -4266,12 +4267,12 @@ Year: 2021-09-01
 	
 	2930. underdetermined
 	2931. uniform
-	2932. uniform convergence
+	2932. [[uniform convergence]]
 	2933. [[uniform distribution]]
 	2934. uniform gravitational force
-	2935. uniformization theorem
+	2935. [[uniformization theorem]]
 	2936. uniformly continuous
-	2937. uniform space
+	2937. [[uniform space]]
 	2938. unimodal
 	2939. unimodular
 	

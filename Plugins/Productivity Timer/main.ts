@@ -101,7 +101,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 						const start = localRunning.last_started_at;
 						if (start) {
 							const activeTracked = this.getActiveTrackedSeconds(localRunning);
-							const duration = activeTracked - localRunning.tracked_seconds;
+							const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
 							if (duration > 0) {
 								await this.timerService.runWriteAction(async () => {
 									await this.db.insert("timer_segments", {
@@ -224,8 +224,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 					const nextNow = this.getCalibratedISOString();
 					const localStart = running.last_started_at;
 					
-					const finalTracked = running.visual_seconds !== undefined ? running.visual_seconds : activeTracked;
-					const localDur = finalTracked - running.tracked_seconds;
+					const localDur = Math.max(0, Math.floor((new Date(nextNow).getTime() - new Date(localStart).getTime()) / 1000));
+					const finalTracked = running.tracked_seconds + localDur;
 
 					if (localDur > 0) {
 						running.segments = running.segments || [];
@@ -499,11 +499,26 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public getActiveTrackedSeconds(timer: Timer): number {
+		// Calculate base seconds by summing active log segments (with auto-repair for 0s segment entries)
+		const baseSeconds = (timer.segments || []).reduce((sum, s) => {
+			if (s.duration_seconds && s.duration_seconds > 0) {
+				return sum + s.duration_seconds;
+			}
+			if (s.started_at && s.ended_at) {
+				const startMs = new Date(s.started_at).getTime();
+				const endMs = new Date(s.ended_at).getTime();
+				if (!isNaN(startMs) && !isNaN(endMs) && endMs > startMs) {
+					return sum + Math.floor((endMs - startMs) / 1000);
+				}
+			}
+			return sum;
+		}, 0);
+
 		if (timer.is_running && timer.last_started_at) {
 			const offset = (window as any).ptServerClockOffset || 0;
 			const calibratedNow = Date.now() + offset;
 			const elapsed = Math.floor((calibratedNow - new Date(timer.last_started_at).getTime()) / 1000);
-			const trueSeconds = timer.tracked_seconds + Math.max(0, elapsed);
+			const trueSeconds = baseSeconds + Math.max(0, elapsed);
 
 			if (timer.visual_seconds === undefined) {
 				timer.visual_seconds = trueSeconds;
@@ -517,7 +532,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		}
 		
 		timer.visual_seconds = undefined;
-		return timer.tracked_seconds;
+		return baseSeconds;
 	}
 
 	public getRollupDetails() {
