@@ -96,10 +96,7 @@ export class SyncManager {
 			this.plugin.timers = dbTimers.map(dbTimer => {
 				const segments = dbSegments.filter(s => s.timer_id === dbTimer.id);
 				
-				if (localRunning && dbTimer.id === localRunning.id) {
-					if (!dbTimer.is_running) {
-						return { ...dbTimer, segments };
-					}
+				if (localRunning && dbTimer.id === localRunning.id && dbTimer.is_running) {
 					return {
 						...dbTimer,
 						tracked_seconds: Math.max(dbTimer.tracked_seconds, localRunning.tracked_seconds),
