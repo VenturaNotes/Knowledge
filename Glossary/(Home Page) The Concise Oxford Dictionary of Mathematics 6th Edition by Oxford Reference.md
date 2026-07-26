@@ -4138,7 +4138,7 @@ Year: 2021-09-01
 	2815. time dilation
 	2816. time series
 	2817. Tn
-	2818. Tonelli's theorem
+	2818. [[Tonelli's theorem]]
 	2819. tonne
 	
 	2820. topological group
@@ -4161,6 +4161,7 @@ Year: 2021-09-01
 	2836. total order
 	2837. total probability law
 	2838. total relation
+		1. A synonym for CONNECTED RELATION.
 	2839. totient function
 	
 	2840. touch
@@ -4258,7 +4259,7 @@ Year: 2021-09-01
 	2921. UFD
 	2922. UKMT
 	2923. ultrametric
-	2924. unary operation
+	2924. [[unary operation]]
 	2925. unbiased estimator
 	2926. unbounded
 	2927. unconditional statement
@@ -4289,7 +4290,7 @@ Year: 2021-09-01
 	
 	2950. unit vector
 	2951. unity
-	2952. univalent
+	2952. [[univalent]]
 	2953. universal covering space
 	2954. universal gravitational constant
 	2955. universal machine
