@@ -3,7 +3,6 @@
 // Set as a Startup Script in Script Runner settings or execute manually to toggle on/off.
 
 module.exports = async ({ app }) => {
-  const { exec } = require("child_process");
   const { Notice } = require("obsidian");
 
   // Disable background throttling on the host Electron window
@@ -16,18 +15,32 @@ module.exports = async ({ app }) => {
     }
   } catch (e) {}
 
-  // Dispatches native macOS notification via osascript
+  // Dispatches native notifications with Obsidian's macOS App Icon
   function sendMacNotification(title, message) {
-    const script = `display notification ${JSON.stringify(message)} with title ${JSON.stringify(title)}`;
-    const command = `osascript -e ${JSON.stringify(script)}`;
-
-    exec(command, (err) => {
-      if (err) {
-        console.error("[AIStudioNotifier] Failed to dispatch macOS notification:", err);
+    try {
+      if ("Notification" in window && Notification.permission === "granted") {
+        new Notification(title, {
+          body: message,
+          silent: false
+        });
+      } else if ("Notification" in window && Notification.permission !== "denied") {
+        Notification.requestPermission().then((permission) => {
+          if (permission === "granted") {
+            new Notification(title, { body: message });
+          }
+        });
       }
-      // Show Obsidian in-app Notice as well
-      new Notice(`${title}: ${message}`);
-    });
+    } catch (err) {
+      console.error("[AIStudioNotifier] Notification error:", err);
+    }
+
+    // Also display Obsidian in-app Notice
+    new Notice(`${title}: ${message}`);
+  }
+
+  // Request Notification permission on startup if needed
+  if ("Notification" in window && Notification.permission !== "granted" && Notification.permission !== "denied") {
+    Notification.requestPermission();
   }
 
   // Toggle Off if already running
