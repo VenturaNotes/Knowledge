@@ -2010,11 +2010,12 @@ Year: 2021-09-01
 	937. geodesic polar coordinates
 	938. geometric distribution
 	939. geometric mean
-	940. geometric multiplicity
-	941. geometric sequence
+		1. See MEAN
+	940. [[geometric multiplicity]]
+	941. [[geometric sequence]]
 	942. geometric series
 	943. [[geometric topology]]
-	944. geometry
+	944. [[geometry]]
 	945. Germain, (Marie) Sophie (1776-1831)
 	946. Germain prime, Sophie
 	
@@ -2022,7 +2023,7 @@ Year: 2021-09-01
 	948. giga-
 	949. Girard's theorem
 		1. See SPHERICAL TRIANGLE.
-	950. given
+	950. [[given]]
 	951. glb
 	952. [[glide reflection]]
 	953. global maximum(global minimum)
@@ -2046,7 +2047,7 @@ Year: 2021-09-01
 	969. gravitational potential
 		1. See POTENTIAL.
 	970. gravitational potential energy
-	971. gravity
+	971. [[gravity]]
 	972. greatest integer function
 		1. A synonym for FLOOR and INTEGER PART.
 	973. greatest lower bound
