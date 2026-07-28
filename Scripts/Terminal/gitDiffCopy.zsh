@@ -9,6 +9,10 @@ gitDiffCopy() {
         return 1
     fi
 
+    # Find the repository root
+    local repo_root
+    repo_root=$(git rev-parse --show-toplevel)
+
     # 2. Check if there are actually any modifications, additions, or deletions
     if [[ -z "$(git status --porcelain)" ]]; then
         echo "idx: Repository is clean. No changes to copy."
@@ -17,19 +21,18 @@ gitDiffCopy() {
 
     local diff_output temp_added=false
 
-    # 3. Check if there are any brand-new untracked files
+    # 3. Temporarily stage all changes across the repo so git diff HEAD reads all new untracked files
     if git status --porcelain | grep -q '??'; then
-        # Use intent-to-add so Git tracks the new files' content in the upcoming diff
-        git add -N .
+        git add -A "$repo_root" >/dev/null 2>&1
         temp_added=true
     fi
 
-    # 4. Extract the complete unified diff against HEAD (covers staged, unstaged, and untracked additions)
+    # 4. Extract the complete unified diff against HEAD
     diff_output=$(git diff HEAD 2>/dev/null)
 
-    # 5. Instantly revert the intent-to-add state to keep your staging index completely untouched
+    # 5. Instantly revert staging index to keep staging environment completely untouched
     if [[ "$temp_added" == "true" ]]; then
-        git reset >/dev/null 2>&1
+        git reset "$repo_root" >/dev/null 2>&1
     fi
 
     # 6. Verify we captured a valid diff
@@ -38,8 +41,8 @@ gitDiffCopy() {
         return 1
     fi
 
-    # 7. Pipe directly to macOS clipboard
-    echo -n "$diff_output" | pbcopy
+    # 7. Pipe directly to macOS clipboard using printf (prevents Zsh echo backslash truncation)
+    printf '%s' "$diff_output" | pbcopy
 
     # 8. Report the success stats
     local file_count

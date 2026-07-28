@@ -1869,8 +1869,8 @@ Year: 2021-09-01
 	812. float of an activity(in critical path analysis)
 	813. floor
 	814. fluent
-	815. fluid mechanics
-	816. flux
+	815. [[fluid mechanics]]
+	816. [[flux]]
 	
 	817. fluxion
 	818. focus
@@ -1880,7 +1880,7 @@ Year: 2021-09-01
 	822. forced oscillations
 	823. forest
 	824. form
-	825. formalism
+	825. [[formalism]]
 	826. forward difference
 	
 	827. forward error correction
