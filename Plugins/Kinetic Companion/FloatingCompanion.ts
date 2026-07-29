@@ -10,6 +10,9 @@ export class FloatingCompanion {
     private isMinimized = false;
     private opacityValue = '0.95';
     
+    // Background auto-scroll state
+    private autoScrollInterval: any = null;
+
     // Drag/position states
     private isDragging = false;
     private dragStartX = 0;
@@ -78,12 +81,19 @@ export class FloatingCompanion {
             this.webview = webviewEl;
             this.setupConsoleMessageInterceptor();
             console.log("Obsidian KC: Native webview is ready and hooked.");
+            
+            // Start auto-scroll if webview initialized in hidden background state
+            if (!this.isVisible) {
+                this.startAutoScroll();
+            }
         } else {
             console.error("Obsidian KC: Native webview could not be located inside the leaf.");
         }
     }
 
     public cleanup() {
+        this.stopAutoScroll();
+
         if (this.leaf) {
             try {
                 // Force-allow standard layout detachment during unload
@@ -111,12 +121,77 @@ export class FloatingCompanion {
 
     public show() {
         if (!this.container) return;
+        this.stopAutoScroll();
         this.styleContainerOnscreen();
     }
 
     public hide() {
         if (!this.container) return;
         this.styleContainerOffscreen();
+        this.startAutoScroll();
+    }
+
+    private startAutoScroll() {
+        if (this.autoScrollInterval) return;
+
+        this.autoScrollInterval = setInterval(() => {
+            if (!this.webview || this.isVisible) return;
+
+            try {
+                this.webview.executeJavaScript(`
+                    (function() {
+                        function queryShadowAll(selector, root) {
+                            root = root || document;
+                            let results = Array.from(root.querySelectorAll(selector));
+                            const all = root.querySelectorAll('*');
+                            for (let i = 0; i < all.length; i++) {
+                                if (all[i].shadowRoot) {
+                                    results = results.concat(queryShadowAll(selector, all[i].shadowRoot));
+                                }
+                            }
+                            return results;
+                        }
+
+                        function queryShadowSelector(selector, root) {
+                            root = root || document;
+                            const el = root.querySelector(selector);
+                            if (el) return el;
+                            const allElements = root.querySelectorAll('*');
+                            for (let i = 0; i < allElements.length; i++) {
+                                if (allElements[i].shadowRoot) {
+                                    const found = queryShadowSelector(selector, allElements[i].shadowRoot);
+                                    if (found) return found;
+                                }
+                            }
+                            return null;
+                        }
+
+                        try {
+                            const turns = queryShadowAll('ms-chat-turn');
+                            if (turns.length > 0) {
+                                const lastTurn = turns[turns.length - 1];
+                                if (lastTurn && lastTurn.scrollIntoView) {
+                                    lastTurn.scrollIntoView({ behavior: 'instant', block: 'end' });
+                                }
+                            } else {
+                                const promptBox = queryShadowSelector('ms-prompt-box, textarea, [role="textbox"]');
+                                if (promptBox && promptBox.scrollIntoView) {
+                                    promptBox.scrollIntoView({ behavior: 'instant', block: 'end' });
+                                }
+                            }
+                            window.scrollTo(0, document.body.scrollHeight);
+                        } catch(e) {}
+                    })();
+                `).catch(() => {});
+            } catch (_) {}
+        }, 400);
+    }
+
+    private stopAutoScroll() {
+        if (this.autoScrollInterval) {
+            clearInterval(this.autoScrollInterval);
+            this.autoScrollInterval = null;
+        }
     }
 
     private toggleMinimize() {

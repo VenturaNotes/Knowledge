@@ -5,40 +5,54 @@
 module.exports = async ({ app }) => {
   const { Notice } = require("obsidian");
 
-  // Disable background throttling on the host Electron window
+  let electron = null;
+  let remote = null;
+
   try {
-    const electron = require("electron");
-    const remote = electron.remote || (electron.main ? electron.main : null);
+    electron = require("electron");
+    remote = electron.remote || (electron.main ? electron.main : null);
+    
+    // Disable background throttling on host window
     const win = remote ? remote.getCurrentWindow() : null;
     if (win && win.webContents && win.webContents.setBackgroundThrottling) {
       win.webContents.setBackgroundThrottling(false);
     }
   } catch (e) {}
 
-  // Dispatches native notifications with Obsidian's macOS App Icon
+  // Direct osascript notification with sound alert (most reliable on macOS across Spaces)
   function sendMacNotification(title, message) {
+    let sent = false;
+
+    // Tier 1: AppleScript System Notification with Ping system sound
     try {
-      if ("Notification" in window && Notification.permission === "granted") {
-        new Notification(title, {
-          body: message,
-          silent: false
+      const script = `display notification ${JSON.stringify(message)} with title ${JSON.stringify(title)} sound name "Ping"`;
+      require("child_process").exec(`osascript -e ${JSON.stringify(script)}`);
+      sent = true;
+    } catch (e) {}
+
+    // Tier 2: Electron Main Process Native Notification
+    if (!sent && remote && remote.Notification && remote.Notification.isSupported()) {
+      try {
+        const notif = new remote.Notification({ title: title, body: message, silent: false });
+        notif.on("click", () => {
+          const win = remote.getCurrentWindow();
+          if (win) win.focus();
         });
-      } else if ("Notification" in window && Notification.permission !== "denied") {
-        Notification.requestPermission().then((permission) => {
-          if (permission === "granted") {
-            new Notification(title, { body: message });
-          }
-        });
-      }
-    } catch (err) {
-      console.error("[AIStudioNotifier] Notification error:", err);
+        notif.show();
+        sent = true;
+      } catch (e) {}
     }
 
-    // Also display Obsidian in-app Notice
-    new Notice(`${title}: ${message}`);
+    // Tier 3: HTML5 Web Notification API fallback
+    if (!sent && "Notification" in window && Notification.permission === "granted") {
+      try {
+        const notif = new Notification(title, { body: message });
+        notif.onclick = () => window.focus();
+      } catch (e) {}
+    }
   }
 
-  // Request Notification permission on startup if needed
+  // Request Notification permission if needed
   if ("Notification" in window && Notification.permission !== "granted" && Notification.permission !== "denied") {
     Notification.requestPermission();
   }
@@ -53,7 +67,6 @@ module.exports = async ({ app }) => {
   }
 
   window.aiStudioNotifierActive = true;
-  new Notice("Google AI Studio Notifier active.");
 
   const stateMap = new WeakMap();
 
@@ -76,7 +89,7 @@ module.exports = async ({ app }) => {
         } catch(e) {}
       }
 
-      // 2. Spoof Page Visibility and Focus
+      // 2. Spoof Visibility & Focus
       if (!window.__aiStudioVisibilitySpoofed) {
         window.__aiStudioVisibilitySpoofed = true;
         try {
@@ -102,20 +115,20 @@ module.exports = async ({ app }) => {
         return results;
       }
 
-      // 3. Check for active Stop button
+      // 3. Check Stop button
       let stopButtonFound = false;
-      const buttons = queryShadowAll('button, ms-run-button');
+      const buttons = queryShadowAll('button, ms-run-button, [role="button"]');
       for (let i = 0; i < buttons.length; i++) {
         const btn = buttons[i];
         const label = (btn.getAttribute('aria-label') || '').toLowerCase();
         const text = (btn.textContent || '').toLowerCase();
-        if (label.includes('stop') || text.includes('stop')) {
+        if (label.includes('stop') || text.includes('stop') || label.includes('cancel') || text.includes('cancel')) {
           stopButtonFound = true;
           break;
         }
       }
 
-      // 4. Measure output text length in latest chat turn
+      // 4. Measure response text length
       const turns = queryShadowAll('ms-chat-turn');
       let latestText = "";
       for (let i = turns.length - 1; i >= 0; i--) {
@@ -141,9 +154,13 @@ module.exports = async ({ app }) => {
       const src = webview.getAttribute("src") || "";
       if (!src.includes("aistudio.google.com")) continue;
 
+      // Un-throttle webview webContents using Electron's webContents.fromId() API
       try {
-        if (webview.getWebContents && webview.getWebContents().setBackgroundThrottling) {
-          webview.getWebContents().setBackgroundThrottling(false);
+        if (remote && webview.getWebContentsId) {
+          const wc = remote.webContents.fromId(webview.getWebContentsId());
+          if (wc && wc.setBackgroundThrottling) {
+            wc.setBackgroundThrottling(false);
+          }
         }
       } catch (e) {}
 
@@ -156,6 +173,7 @@ module.exports = async ({ app }) => {
         if (!state) {
           stateMap.set(webview, {
             isGenerating: false,
+            stopButtonSeen: false,
             lastTextLength: status.textLength,
             unchangedTicks: 0,
             hasNotified: false
@@ -164,20 +182,12 @@ module.exports = async ({ app }) => {
         }
 
         const isStopActive = status.stopButtonFound;
-        const textGrew = status.textLength > state.lastTextLength;
 
-        if (status.textLength < state.lastTextLength) {
-          state.isGenerating = false;
-          state.unchangedTicks = 0;
+        // ONLY enter generation tracking state if the active "Stop" button is present
+        if (isStopActive) {
+          state.isGenerating = true;
+          state.stopButtonSeen = true;
           state.hasNotified = false;
-        }
-
-        if (isStopActive || textGrew) {
-          if (!state.isGenerating) {
-            state.isGenerating = true;
-            state.hasNotified = false;
-            state.unchangedTicks = 0;
-          }
         }
 
         if (state.isGenerating) {
@@ -187,10 +197,13 @@ module.exports = async ({ app }) => {
             state.unchangedTicks = 0;
           }
 
-          const isComplete = !isStopActive && state.unchangedTicks >= 4;
+          // Complete ONLY when: Stop button is gone AND we explicitly saw it active during this generation
+          // AND text hasn't changed for 3 ticks (~1s)
+          const isComplete = !isStopActive && state.stopButtonSeen && state.unchangedTicks >= 3;
 
           if (isComplete && !state.hasNotified) {
             state.isGenerating = false;
+            state.stopButtonSeen = false;
             state.hasNotified = true;
             state.unchangedTicks = 0;
 
@@ -203,7 +216,7 @@ module.exports = async ({ app }) => {
 
         state.lastTextLength = status.textLength;
       } catch (err) {
-        // Silently skip if webview is unmounted
+        // Skip unmounted webviews
       }
     }
   }, 300);

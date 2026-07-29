@@ -14,7 +14,9 @@
 	- $x_1 + 3x_2 + 4x_3 = 7$
 	- $x_3 = 3$ 
 - Since columns 1 and 3 have pivots, $x_1$ and $x_3$ are the [[basic variable|basic variables]]
-
+## Source[^2]
+- A description, often involving arbitrary constants or functions, of all solutions to a problem. This might be a differential equation, a system of linear equations, or a recurrence relation.
 ## References
 
 [^1]: [[(4) Linear Algebra 1.2.2 Solution Sets and Free Variables]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
