@@ -1999,7 +1999,8 @@ Year: 2021-09-01
 	927. general linear group
 	928. general position
 	929. general relativity
-	930. general solution
+		1. See RELATIVITY THEORY.
+	930. [[general solution]]
 	931. [[general topology]]
 	932. generating function
 	933. generator
@@ -3173,7 +3174,7 @@ Year: 2021-09-01
 	1945. perpendicular bisector
 	1946. perpendicular distance
 	1947. perpendicular lines
-	1948. perpendicular planes
+	1948. [[perpendicular planes]]
 	1949. Perron's paradox
 	
 	1950. perspective
@@ -3198,7 +3199,7 @@ Year: 2021-09-01
 	1968. pivot
 	1969. [[pivot table]]
 	
-	1970. placebo
+	1970. [[placebo]]
 	1971. place value
 	1972. plaintext
 	1973. planar graph

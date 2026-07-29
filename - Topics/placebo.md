@@ -6,7 +6,10 @@
 - n. 
 - (1) An assumedly inactive substance or dummy treatment administered to a control group to serve as a baseline for comparison of the effects of an active drug or treatment. See also Placebo effect, RANDOMIZED CONTROLLED TRIAL. 
 - (2) A psychological treatment, in contrast to a pharmacological treatment. \[From Latin placebo I shall please, the opening word of the Roman Catholic office or service for the dead: Placebo Domino, I shall please the Lord]
+## Source[^3]
+- A placebo appears the same as the treatment to a participant in a study, often a clinical trial of a drug or other treatment, but has no active ingredients. They are used in control groups because of the positive effects patients can experience simply from taking something they believe will make them better.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

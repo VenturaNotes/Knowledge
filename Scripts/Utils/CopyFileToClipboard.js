@@ -108,10 +108,17 @@ module.exports = async ({ app, obsidian }) => {
         return;
     }
 
-    const trimmedName = newFileName.trim();
+    let trimmedName = newFileName.trim();
     if (!trimmedName) {
         new Notice("❌ Invalid filename");
         return;
+    }
+
+    // Preserve original extension if no new extension was explicitly provided
+    const originalExt = path.extname(originalName);
+    const userExt = path.extname(trimmedName);
+    if (!userExt && originalExt) {
+        trimmedName += originalExt;
     }
 
     // Resolve the system file path of the original file

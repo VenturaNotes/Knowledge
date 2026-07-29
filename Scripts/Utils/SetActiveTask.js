@@ -1,8 +1,9 @@
 module.exports = async function ({ app, obsidian }) {
     const TAG_NAME = '#active-task';
     const STATUS_BAR_ID = 'active-task-status-item';
+    const DAILY_FILE_PATH = "Private/Tasks/(T) Daily.md";
 
-    // ─── 1. HELPER: Instant RAM Search for #active-task across 70k Cache Objects ───
+    // ─── 1. HELPER: RAM Search for #active-task across Cache ───
     function findActiveTaskInCache() {
         const files = app.vault.getMarkdownFiles();
         for (const file of files) {
@@ -20,7 +21,7 @@ module.exports = async function ({ app, obsidian }) {
         return null;
     }
 
-    // ─── 2. HELPER: Extract Clean Task Text for Status Bar ───
+    // ─── 2. HELPER: Extract Clean Task Text ───
     async function getCleanTaskText(file, lineIdx) {
         try {
             const content = await app.vault.read(file);
@@ -35,85 +36,126 @@ module.exports = async function ({ app, obsidian }) {
         }
     }
 
-    // ─── 3. HELPER: Create/Update Clickable Status Bar Item ───
-    function updateStatusBar(taskText, onJump) {
+    // ─── 3. HELPER: Non-Clickable Status Bar Item [🎯 Task Text] ───
+    function updateStatusBar(taskText) {
         let statusBarEl = document.getElementById(STATUS_BAR_ID);
+        
+        if (!taskText) {
+            if (statusBarEl) statusBarEl.remove();
+            return;
+        }
+
         if (!statusBarEl) {
             const statusBarContainer = document.querySelector('.status-bar');
             if (statusBarContainer) {
                 statusBarEl = document.createElement('div');
                 statusBarEl.id = STATUS_BAR_ID;
                 statusBarEl.className = 'status-bar-item plugin-script-runner';
-                statusBarEl.style.cssText = 'color: var(--text-accent); font-weight: bold; cursor: pointer; padding: 0 8px;';
+                statusBarEl.style.cssText = 'color: var(--text-accent); font-weight: bold; padding: 0 8px;';
                 statusBarContainer.prepend(statusBarEl);
             }
         }
 
         if (statusBarEl) {
-            statusBarEl.textContent = `🎯 ${taskText}`;
-            statusBarEl.title = 'Click to jump to active task in VaporNote';
-            statusBarEl.onclick = onJump;
+            statusBarEl.textContent = `[🎯 ${taskText}]`;
+            statusBarEl.onclick = null;
         }
     }
 
-    // ─── 4. HELPER: Jump VaporNote to File and Line ───
-    async function jumpToTaskInVapor(file, lineIdx, taskText) {
+    // ─── 4. HELPER: Smart VaporNote Opener (Protects Existing Tabs) ───
+    async function openOrSwitchInVapor(filePath, lineIdx = null) {
         const vaporPlugin = app.plugins.plugins['vapornote'];
-        if (!vaporPlugin) {
-            new obsidian.Notice("VaporNote plugin is not loaded.");
-            return;
-        }
+        if (!vaporPlugin) return;
 
-        // Open VaporNote if closed
+        const targetFile = app.vault.getAbstractFileByPath(filePath);
+        if (!targetFile) return;
+
+        // A. Open VaporNote if closed
         if (!vaporPlugin._isOpen || !vaporPlugin._isOpen()) {
             await vaporPlugin.toggleVaporNote();
         }
 
-        const vaporLeaf = vaporPlugin.floatingLeaves ? vaporPlugin.floatingLeaves[vaporPlugin.activeLeafIndex] : null;
-        if (vaporLeaf) {
-            const currentFile = vaporLeaf.view?.file;
-            if (!currentFile || currentFile.path !== file.path) {
-                await vaporLeaf.openFile(file);
-            }
+        // B. Unminimize if minimized
+        if (vaporPlugin._isMinimized) {
+            vaporPlugin.toggleMinimize();
+        }
 
+        const leaves = vaporPlugin.floatingLeaves || [];
+
+        // C. Check if target file is ALREADY open in any tab
+        const existingTabIdx = leaves.findIndex(l => l.view?.file?.path === filePath);
+
+        if (existingTabIdx !== -1) {
+            // Already open in another tab -> switch to it!
+            if (typeof vaporPlugin._switchTab === 'function') {
+                vaporPlugin._switchTab(existingTabIdx);
+            }
+        } else {
+            // Not open anywhere in VaporNote -> check current active tab
+            const activeLeaf = leaves[vaporPlugin.activeLeafIndex];
+            const activeType = activeLeaf ? (activeLeaf.getViewState?.()?.type || 'empty') : 'empty';
+
+            if (activeLeaf && activeType === 'empty') {
+                // Active tab is empty -> reuse current tab!
+                await activeLeaf.openFile(targetFile);
+            } else {
+                // Active tab is occupied -> spawn a NEW tab!
+                if (typeof vaporPlugin._addNewTab === 'function') {
+                    await vaporPlugin._addNewTab('file', filePath);
+                } else if (activeLeaf) {
+                    await activeLeaf.openFile(targetFile);
+                }
+            }
+        }
+
+        // D. Scroll & set cursor at end of line if lineIdx is specified
+        if (lineIdx !== null && lineIdx !== undefined) {
             setTimeout(() => {
-                const vaporEditor = vaporLeaf.view?.editor;
+                const currentLeaf = vaporPlugin.floatingLeaves ? vaporPlugin.floatingLeaves[vaporPlugin.activeLeafIndex] : null;
+                const vaporEditor = currentLeaf?.view?.editor;
                 if (vaporEditor) {
-                    vaporEditor.setCursor({ line: lineIdx, ch: 0 });
-                    vaporEditor.scrollIntoView({ from: { line: lineIdx, ch: 0 }, to: { line: lineIdx, ch: 0 } }, true);
+                    const lineContent = vaporEditor.getLine(lineIdx) || "";
+                    const endOfLineCh = lineContent.length;
+
+                    vaporEditor.setCursor({ line: lineIdx, ch: endOfLineCh });
+                    vaporEditor.scrollIntoView({ from: { line: lineIdx, ch: endOfLineCh }, to: { line: lineIdx, ch: endOfLineCh } }, true);
                     if (vaporEditor.focus) vaporEditor.focus();
                 }
             }, 100);
         }
-
-        if (taskText) new obsidian.Notice(`🎯 Active Task: "${taskText}"`);
     }
 
     // ───────────────────────────────────────────────────────────────────────────
     // MAIN EXECUTION FLOW
     // ───────────────────────────────────────────────────────────────────────────
 
-    // Step A: Check if #active-task ALREADY exists in the Metadata Cache
     const activeMatch = findActiveTaskInCache();
+    const activeView = app.workspace.getActiveViewOfType(obsidian.MarkdownView);
 
-    if (activeMatch) {
-        // ─── SCENARIO 1: TASK EXISTS ───> Jump to it!
-        const taskText = await getCleanTaskText(activeMatch.file, activeMatch.lineIdx);
-        
-        // Update status bar with click-to-jump handler
-        updateStatusBar(taskText, () => jumpToTaskInVapor(activeMatch.file, activeMatch.lineIdx, taskText));
-        
-        // Jump VaporNote directly to line
-        await jumpToTaskInVapor(activeMatch.file, activeMatch.lineIdx, taskText);
+    // IF CURSOR IS ON THE SAME LINE AS #active-task -> DELETE IT
+    if (activeMatch && activeView && activeView.file.path === activeMatch.file.path) {
+        const editor = activeView.editor;
+        const currentCursor = editor.getCursor();
 
-    } else {
-        // ─── SCENARIO 2: NO TASK EXISTS ───> Insert #active-task at cursor!
-        const activeView = app.workspace.getActiveViewOfType(obsidian.MarkdownView);
-        if (!activeView) {
-            new obsidian.Notice("No active task found in vault. Click into a note to set one.");
+        if (currentCursor.line === activeMatch.lineIdx) {
+            let currentLineText = editor.getLine(currentCursor.line);
+            const updatedLineText = currentLineText.replace(new RegExp(`${TAG_NAME}\\s*`, 'g'), '').trimEnd();
+            editor.setLine(currentCursor.line, updatedLineText);
+
+            // Clear status bar
+            updateStatusBar(null);
             return;
         }
+    }
 
+    if (activeMatch) {
+        // SCENARIO A: TASK EXISTS ELSEWHERE -> Switch or open in new tab & jump!
+        const taskText = await getCleanTaskText(activeMatch.file, activeMatch.lineIdx);
+        updateStatusBar(taskText);
+        await openOrSwitchInVapor(activeMatch.file.path, activeMatch.lineIdx);
+
+    } else if (activeView) {
+        // SCENARIO B: NO TASK EXISTS & IN EDITOR -> Insert #active-task at cursor!
         const editor = activeView.editor;
         const file = activeView.file;
         if (!file || !editor) return;
@@ -133,10 +175,11 @@ module.exports = async function ({ app, obsidian }) {
             .replace(TAG_NAME, '')
             .trim() || "Active Task";
 
-        // Update status bar
-        updateStatusBar(cleanText, () => jumpToTaskInVapor(file, cursor.line, cleanText));
-        
-        // Sync VaporNote
-        await jumpToTaskInVapor(file, cursor.line, cleanText);
+        updateStatusBar(cleanText);
+        await openOrSwitchInVapor(file.path, cursor.line);
+
+    } else {
+        // SCENARIO C: NO TASK EXISTS & NOT IN EDITOR -> Open Daily Note in VaporNote!
+        await openOrSwitchInVapor(DAILY_FILE_PATH);
     }
 };
