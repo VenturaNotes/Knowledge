@@ -115,18 +115,77 @@ module.exports = async ({ app }) => {
         return results;
       }
 
-      // 3. Check Stop button
+      function isInsideChatTurn(el) {
+        let curr = el;
+        while (curr) {
+          if (curr.tagName && curr.tagName.toLowerCase() === 'ms-chat-turn') {
+            return true;
+          }
+          curr = curr.parentNode || curr.host;
+        }
+        return false;
+      }
+
+      function isInsideSidebar(el) {
+        let curr = el;
+        while (curr) {
+          const name = (curr.tagName || '').toLowerCase();
+          const className = (curr.className || '').toString().toLowerCase();
+          const role = (curr.getAttribute && curr.getAttribute('role') || '').toLowerCase();
+
+          if (
+            name === 'ms-settings-panel' ||
+            name === 'ms-parameters' ||
+            name === 'aside' ||
+            role === 'complementary' ||
+            className.includes('settings') ||
+            className.includes('parameters')
+          ) {
+            return true;
+          }
+          curr = curr.parentNode || curr.host;
+        }
+        return false;
+      }
+
+      // 3. Check generating indicators (Stop button, Cancel, spinners, loaders)
       let stopButtonFound = false;
-      const buttons = queryShadowAll('button, ms-run-button, [role="button"]');
+      let spinnerFound = false;
+
+      const buttons = queryShadowAll('button, ms-run-button, [role="button"], ms-icon-button');
       for (let i = 0; i < buttons.length; i++) {
         const btn = buttons[i];
-        const label = (btn.getAttribute('aria-label') || '').toLowerCase();
-        const text = (btn.textContent || '').toLowerCase();
-        if (label.includes('stop') || text.includes('stop') || label.includes('cancel') || text.includes('cancel')) {
+
+        // Ignore buttons inside past chat messages or the settings sidebar
+        if (isInsideChatTurn(btn) || isInsideSidebar(btn)) continue;
+
+        const label = (btn.getAttribute('aria-label') || '').trim().toLowerCase();
+        const text = (btn.textContent || '').trim().toLowerCase();
+        const className = (btn.className || '').toString().toLowerCase();
+
+        // Strict regex matching for Stop / Cancel
+        const isStopLabel = /^stop(\s+generation|\s+run)?$/i.test(label) || label === 'cancel';
+        const isStopText = /^stop$/i.test(text) || text === 'cancel';
+        const isRunningClass = className.includes('running') || className.includes('is-loading');
+
+        if (isStopLabel || isStopText || isRunningClass) {
           stopButtonFound = true;
           break;
         }
       }
+
+      // Check spinners outside chat turn history and sidebar
+      if (!stopButtonFound) {
+        const spinners = queryShadowAll('mat-spinner, ms-loader, .spinner, .loading, .streaming');
+        for (let i = 0; i < spinners.length; i++) {
+          if (!isInsideChatTurn(spinners[i]) && !isInsideSidebar(spinners[i])) {
+            spinnerFound = true;
+            break;
+          }
+        }
+      }
+
+      const isGeneratingDOM = stopButtonFound || spinnerFound;
 
       // 4. Measure response text length
       const turns = queryShadowAll('ms-chat-turn');
@@ -141,7 +200,7 @@ module.exports = async ({ app }) => {
       }
 
       return {
-        stopButtonFound: stopButtonFound,
+        isGeneratingDOM: isGeneratingDOM,
         textLength: latestText.length
       };
     })();
@@ -173,7 +232,7 @@ module.exports = async ({ app }) => {
         if (!state) {
           stateMap.set(webview, {
             isGenerating: false,
-            stopButtonSeen: false,
+            growthTicks: 0,
             lastTextLength: status.textLength,
             unchangedTicks: 0,
             hasNotified: false
@@ -181,12 +240,22 @@ module.exports = async ({ app }) => {
           continue;
         }
 
-        const isStopActive = status.stopButtonFound;
+        const textGrew = status.textLength > state.lastTextLength;
 
-        // ONLY enter generation tracking state if the active "Stop" button is present
-        if (isStopActive) {
+        // Count consecutive growth ticks
+        if (textGrew) {
+          state.growthTicks++;
+        } else if (status.textLength < state.lastTextLength) {
+          state.growthTicks = 0;
+          state.unchangedTicks = 0;
+        } else {
+          state.growthTicks = 0;
+        }
+
+        const isStreaming = status.isGeneratingDOM || state.growthTicks >= 2;
+
+        if (isStreaming && !state.isGenerating) {
           state.isGenerating = true;
-          state.stopButtonSeen = true;
           state.hasNotified = false;
         }
 
@@ -197,13 +266,12 @@ module.exports = async ({ app }) => {
             state.unchangedTicks = 0;
           }
 
-          // Complete ONLY when: Stop button is gone AND we explicitly saw it active during this generation
-          // AND text hasn't changed for 3 ticks (~1s)
-          const isComplete = !isStopActive && state.stopButtonSeen && state.unchangedTicks >= 3;
+          // Complete when: DOM no longer shows generating indicators AND text hasn't changed for 3 ticks (~1s)
+          const isComplete = !status.isGeneratingDOM && state.unchangedTicks >= 3;
 
           if (isComplete && !state.hasNotified) {
             state.isGenerating = false;
-            state.stopButtonSeen = false;
+            state.growthTicks = 0;
             state.hasNotified = true;
             state.unchangedTicks = 0;
 
