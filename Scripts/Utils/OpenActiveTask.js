@@ -1,21 +1,60 @@
 module.exports = async function ({ app, obsidian }) {
     const DAILY_FILE_PATH = "Private/Tasks/(T) Daily.md";
+    const TAG_NAME = '#active-task';
 
-    // ─── 1. Get Current Tab Group & Category Tag ───
-    const vtgPlugin = app.plugins.plugins['virtual-tab-groups'];
-    const activeGroup = (vtgPlugin && vtgPlugin.settings && vtgPlugin.settings.activeGroup) ? vtgPlugin.settings.activeGroup : 'Default';
-    const groupSlug = activeGroup.toLowerCase().replace(/\s+/g, '-');
-    const TAG_NAME = '#active-task/' + groupSlug;
+    // Helper to dynamically wait until the editor on a leaf is fully ready
+    function waitUntilEditorReady(leaf, filePath, callback) {
+        const startTime = Date.now();
+        const timeoutLimit = 1000; // Prevent infinite loops by timing out after 1 second
 
-    // ─── 2. Search Live RAM Editors First (0ms Delay), then Metadata Cache ───
+        function check() {
+            if (leaf.view && leaf.view.file && leaf.view.file.path === filePath) {
+                const editor = leaf.view.editor;
+                if (editor) {
+                    try {
+                        editor.lineCount(); // Verify that the editor is queryable
+                        callback(editor);
+                        return;
+                    } catch (e) {
+                        // Editor is not fully initialized yet
+                    }
+                }
+            }
+            if (Date.now() - startTime < timeoutLimit) {
+                requestAnimationFrame(check);
+            }
+        }
+        check();
+    }
+
+    // ─── 1. Search Live RAM Editors First (0ms Delay), then Metadata Cache ───
     function findActiveTaskLive() {
-        // A. Search Main Workspace RAM Editors
+        const scannedPaths = new Set();
+
+        // Checks if the tag is a genuine tag on a live editor line (ignores backticks & HTML comments)
+        function isRealTag(line, tag) {
+            const parts = line.split('`');
+            for (let i = 0; i < parts.length; i += 2) {
+                const segment = parts[i];
+                if (segment.includes(tag)) {
+                    const cleanSegment = segment.replace(/<!--[\s\S]*?-->/g, '');
+                    if (cleanSegment.includes(tag)) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        // A. Search Main Workspace RAM Editors (Only .md files)
         let match = null;
         app.workspace.iterateRootLeaves(function (leaf) {
-            if (leaf.view && leaf.view.file && leaf.view.editor) {
+            if (leaf.view && leaf.view.file && leaf.view.file.extension === 'md' && leaf.view.editor) {
+                scannedPaths.add(leaf.view.file.path);
                 const lineCount = leaf.view.editor.lineCount();
                 for (let i = 0; i < lineCount; i++) {
-                    if (leaf.view.editor.getLine(i).includes(TAG_NAME)) {
+                    const line = leaf.view.editor.getLine(i) || "";
+                    if (line.includes(TAG_NAME) && isRealTag(line, TAG_NAME)) {
                         match = { file: leaf.view.file, lineIdx: i };
                         return;
                     }
@@ -24,15 +63,17 @@ module.exports = async function ({ app, obsidian }) {
         });
         if (match) return match;
 
-        // B. Search VaporNote Floating RAM Editors
+        // B. Search VaporNote Floating RAM Editors (Only .md files)
         const vaporPlugin = app.plugins.plugins['vapornote'];
         if (vaporPlugin && vaporPlugin.floatingLeaves) {
             for (let i = 0; i < vaporPlugin.floatingLeaves.length; i++) {
                 const leaf = vaporPlugin.floatingLeaves[i];
-                if (leaf.view && leaf.view.file && leaf.view.editor) {
+                if (leaf.view && leaf.view.file && leaf.view.file.extension === 'md' && leaf.view.editor) {
+                    scannedPaths.add(leaf.view.file.path);
                     const lineCount = leaf.view.editor.lineCount();
                     for (let j = 0; j < lineCount; j++) {
-                        if (leaf.view.editor.getLine(j).includes(TAG_NAME)) {
+                        const line = leaf.view.editor.getLine(j) || "";
+                        if (line.includes(TAG_NAME) && isRealTag(line, TAG_NAME)) {
                             return { file: leaf.view.file, lineIdx: j };
                         }
                     }
@@ -40,10 +81,12 @@ module.exports = async function ({ app, obsidian }) {
             }
         }
 
-        // C. Fallback: Search Metadata Cache for unopened/closed files
+        // C. Fallback: Search Metadata Cache for unopened/closed files (Only .md files)
         const files = app.vault.getMarkdownFiles();
         for (let i = 0; i < files.length; i++) {
             const file = files[i];
+            if (file.extension !== 'md' || scannedPaths.has(file.path)) continue;
+
             const cache = app.metadataCache.getFileCache(file);
             if (cache && cache.tags) {
                 const tagEntry = cache.tags.find(function (t) { return t.tag === TAG_NAME; });
@@ -56,8 +99,14 @@ module.exports = async function ({ app, obsidian }) {
         return null;
     }
 
-    // ─── 3. Helper: Open or Switch Tab inside VaporNote ───
+    // ─── 2. Helper: Open or Switch Tab inside VaporNote ───
     async function openInVapor(filePath, lineIdx = null) {
+        // Enforce that only markdown files can be processed
+        if (!filePath.endsWith('.md')) {
+            new Notice("Only Markdown (.md) files can be opened.");
+            return;
+        }
+
         const vaporPlugin = app.plugins.plugins['vapornote'];
         if (!vaporPlugin) {
             new Notice("VaporNote plugin is not loaded.");
@@ -91,16 +140,30 @@ module.exports = async function ({ app, obsidian }) {
         }
 
         if (lineIdx !== null && lineIdx !== undefined) {
-            setTimeout(function () {
-                const activeLeaf = vaporPlugin.floatingLeaves ? vaporPlugin.floatingLeaves[vaporPlugin.activeLeafIndex] : null;
-                const vaporEditor = activeLeaf && activeLeaf.view ? activeLeaf.view.editor : null;
-                if (vaporEditor) {
+            const currentLeaves = vaporPlugin.floatingLeaves || [];
+            
+            // Find target leaf directly by its file path
+            let targetLeaf = currentLeaves.find(function (leaf) {
+                return leaf.view && leaf.view.file && leaf.view.file.path === filePath;
+            });
+
+            // Fallback to activeLeafIndex if file path lookup fails
+            if (!targetLeaf && typeof vaporPlugin.activeLeafIndex === 'number') {
+                targetLeaf = currentLeaves[vaporPlugin.activeLeafIndex];
+            }
+
+            if (targetLeaf) {
+                // Focus the active leaf natively in Obsidian's layout immediately
+                app.workspace.setActiveLeaf(targetLeaf, { focus: true });
+
+                // Dynamically wait for editor initialization and focus immediately once ready
+                waitUntilEditorReady(targetLeaf, filePath, function (vaporEditor) {
                     const lineContent = vaporEditor.getLine(lineIdx) || "";
                     vaporEditor.setCursor({ line: lineIdx, ch: lineContent.length });
                     vaporEditor.scrollIntoView({ from: { line: lineIdx, ch: 0 }, to: { line: lineIdx, ch: 0 } }, true);
                     if (vaporEditor.focus) vaporEditor.focus();
-                }
-            }, 120);
+                });
+            }
         }
     }
 
@@ -108,10 +171,10 @@ module.exports = async function ({ app, obsidian }) {
     const activeMatch = findActiveTaskLive();
 
     if (activeMatch) {
-        // FALLBACK 1: Active Task exists -> Open directly in VaporNote
+        // Option 1: Active Task exists -> Open directly in VaporNote (0ms hardcoded delay)
         await openInVapor(activeMatch.file.path, activeMatch.lineIdx);
     } else {
-        // FALLBACK 2: No Active Task -> Check Daily Note for matching Group Heading
+        // Option 2: No Active Task -> Prompt user with Daily Note headings suggest modal
         const dailyFile = app.vault.getAbstractFileByPath(DAILY_FILE_PATH);
         if (!dailyFile) {
             new Notice("Could not find Daily file at: " + DAILY_FILE_PATH);
@@ -120,48 +183,41 @@ module.exports = async function ({ app, obsidian }) {
 
         const cache = app.metadataCache.getFileCache(dailyFile);
         const headings = cache ? (cache.headings || []) : [];
-        let matchingHeading = null;
 
-        for (let i = 0; i < headings.length; i++) {
-            if (headings[i].heading.toLowerCase().trim() === activeGroup.toLowerCase().trim()) {
-                matchingHeading = headings[i];
-                break;
-            }
+        if (headings.length === 0) {
+            // If no headings exist, just open the Daily Note at the top
+            await openInVapor(DAILY_FILE_PATH, 0);
+            return;
         }
 
-        if (matchingHeading) {
-            const targetLine = matchingHeading.position.start.line;
-            await openInVapor(DAILY_FILE_PATH, targetLine);
-        } else {
-            // FALLBACK 3: No matching heading -> Show modal FIRST, open VaporNote ONLY AFTER selection
-            let minLevel = 1;
-            if (headings.length > 0) {
-                minLevel = Math.min.apply(null, headings.map(function (h) { return h.level; }));
-            }
+        let minLevel = 1;
+        minLevel = Math.min.apply(null, headings.map(function (h) { return h.level; }));
 
-            class HeaderSuggestModal extends obsidian.SuggestModal {
-                constructor(app) {
-                    super(app);
-                    this.setPlaceholder("Pick a section in Daily Note...");
-                }
-                getSuggestions(query) {
-                    return headings.filter(function (h) {
-                        return h.heading.toLowerCase().includes(query.toLowerCase());
-                    });
-                }
-                renderSuggestion(h, el) {
-                    const indentPixels = Math.max(0, h.level - minLevel) * 20;
-                    el.style.paddingLeft = (indentPixels + 12) + "px";
-                    el.style.display = 'flex';
-                    el.style.alignItems = 'center';
-                    el.createEl("span", { text: "◦  " + h.heading });
-                }
-                async onChooseSuggestion(h) {
-                    const targetLine = h.position.start.line;
+        class HeaderSuggestModal extends obsidian.SuggestModal {
+            constructor(app) {
+                super(app);
+                this.setPlaceholder("Pick a section in Daily Note...");
+            }
+            getSuggestions(query) {
+                return headings.filter(function (h) {
+                    return h.heading.toLowerCase().includes(query.toLowerCase());
+                });
+            }
+            renderSuggestion(h, el) {
+                const indentPixels = Math.max(0, h.level - minLevel) * 20;
+                el.style.paddingLeft = (indentPixels + 12) + "px";
+                el.style.display = 'flex';
+                el.style.alignItems = 'center';
+                el.createEl("span", { text: "◦  " + h.heading });
+            }
+            async onChooseSuggestion(h) {
+                const targetLine = h.position.start.line;
+                // Defer with an imperceptible 50ms delay to let the SuggestModal close cleanly without stealing focus
+                setTimeout(async function () {
                     await openInVapor(DAILY_FILE_PATH, targetLine);
-                }
+                }, 50);
             }
-            new HeaderSuggestModal(app).open();
         }
+        new HeaderSuggestModal(app).open();
     }
 };
