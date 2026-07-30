@@ -42,6 +42,8 @@
 	- `zsh`
 - Command to jump back to previous folder
 	- `cd -`
+- Force deleting a folder
+	- `rm -rf folder_name`
 
 ## Source [^1]
 - A point at which data enters or leaves the computer

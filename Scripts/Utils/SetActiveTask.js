@@ -1,185 +1,188 @@
 module.exports = async function ({ app, obsidian }) {
-    const TAG_NAME = '#active-task';
-    const STATUS_BAR_ID = 'active-task-status-item';
-    const DAILY_FILE_PATH = "Private/Tasks/(T) Daily.md";
+    // Purge any old status bar element if one still exists
+    const oldStatus = document.getElementById('active-task-status-item');
+    if (oldStatus) oldStatus.remove();
 
-    // ─── 1. HELPER: RAM Search for #active-task across Cache ───
-    function findActiveTaskInCache() {
-        const files = app.vault.getMarkdownFiles();
-        for (const file of files) {
-            const cache = app.metadataCache.getFileCache(file);
-            if (cache && cache.tags) {
-                const tagEntry = cache.tags.find(t => t.tag === TAG_NAME);
-                if (tagEntry) {
-                    return {
-                        file: file,
-                        lineIdx: tagEntry.position.start.line
-                    };
+    // ─── 1. Get Category Tag ───
+    const vtgPlugin = app.plugins.plugins['virtual-tab-groups'];
+    const activeGroup = (vtgPlugin && vtgPlugin.settings && vtgPlugin.settings.activeGroup) ? vtgPlugin.settings.activeGroup : 'Default';
+    const groupSlug = activeGroup.toLowerCase().replace(/\s+/g, '-');
+    const TAG_NAME = '#active-task/' + groupSlug;
+
+    function getTagRegex() {
+        const escaped = TAG_NAME.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        return new RegExp(escaped + '\\s*', 'g');
+    }
+
+    // ─── 2. Get Currently Focused Editor (Prioritizes VaporNote Overlay) ───
+    function getCurrentlyFocusedEditor() {
+        const vaporPlugin = app.plugins.plugins['vapornote'];
+        if (vaporPlugin && typeof vaporPlugin._isOpen === 'function' && vaporPlugin._isOpen() && !vaporPlugin._isMinimized) {
+            const activeVaporLeaf = vaporPlugin.floatingLeaves ? vaporPlugin.floatingLeaves[vaporPlugin.activeLeafIndex] : null;
+            if (activeVaporLeaf && activeVaporLeaf.view && activeVaporLeaf.view.editor) {
+                const doc = activeVaporLeaf.containerEl ? activeVaporLeaf.containerEl.ownerDocument : document;
+                if ((activeVaporLeaf.containerEl && activeVaporLeaf.containerEl.contains(doc.activeElement)) || vaporPlugin._isVaporActive) {
+                    return { editor: activeVaporLeaf.view.editor, file: activeVaporLeaf.view.file };
                 }
             }
         }
+
+        const activeView = app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+        if (activeView && activeView.editor && activeView.file) {
+            return { editor: activeView.editor, file: activeView.file };
+        }
+
         return null;
     }
 
-    // ─── 2. HELPER: Extract Clean Task Text ───
-    async function getCleanTaskText(file, lineIdx) {
-        try {
-            const content = await app.vault.read(file);
-            const lines = content.split('\n');
-            const lineText = lines[lineIdx] || "";
-            return lineText
-                .replace(TAG_NAME, '')
-                .replace(/^[-*+]\s*(\[[ xX]\])?\s*/, '')
-                .trim() || "Active Task";
-        } catch (_) {
-            return "Active Task";
-        }
-    }
+    // ─── 3. Helper: Search for Open Editor Instance Across Workspace ───
+    function findEditorForFile(filePath) {
+        let foundEditor = null;
+        app.workspace.iterateRootLeaves(function (leaf) {
+            if (leaf.view && leaf.view.file && leaf.view.file.path === filePath && leaf.view.editor) {
+                foundEditor = leaf.view.editor;
+            }
+        });
+        if (foundEditor) return foundEditor;
 
-    // ─── 3. HELPER: Non-Clickable Status Bar Item [🎯 Task Text] ───
-    function updateStatusBar(taskText) {
-        let statusBarEl = document.getElementById(STATUS_BAR_ID);
-        
-        if (!taskText) {
-            if (statusBarEl) statusBarEl.remove();
-            return;
-        }
-
-        if (!statusBarEl) {
-            const statusBarContainer = document.querySelector('.status-bar');
-            if (statusBarContainer) {
-                statusBarEl = document.createElement('div');
-                statusBarEl.id = STATUS_BAR_ID;
-                statusBarEl.className = 'status-bar-item plugin-script-runner';
-                statusBarEl.style.cssText = 'color: var(--text-accent); font-weight: bold; padding: 0 8px;';
-                statusBarContainer.prepend(statusBarEl);
+        const vaporPlugin = app.plugins.plugins['vapornote'];
+        if (vaporPlugin && vaporPlugin.floatingLeaves) {
+            for (let i = 0; i < vaporPlugin.floatingLeaves.length; i++) {
+                const leaf = vaporPlugin.floatingLeaves[i];
+                if (leaf.view && leaf.view.file && leaf.view.file.path === filePath && leaf.view.editor) {
+                    return leaf.view.editor;
+                }
             }
         }
 
-        if (statusBarEl) {
-            statusBarEl.textContent = `[🎯 ${taskText}]`;
-            statusBarEl.onclick = null;
+        return null;
+    }
+
+    // ─── 4. Search Live RAM Editors + Metadata Cache for Tag Matches ───
+    function findAllActiveTaskMatches() {
+        const matches = [];
+        const scannedPaths = new Set();
+
+        function scanEditor(file, editor) {
+            if (!file || !editor) return;
+            scannedPaths.add(file.path);
+            const lineCount = editor.lineCount();
+            for (let i = 0; i < lineCount; i++) {
+                const line = editor.getLine(i) || "";
+                if (line.includes(TAG_NAME)) {
+                    matches.push({ file: file, lineIdx: i, editor: editor });
+                }
+            }
+        }
+
+        const vaporPlugin = app.plugins.plugins['vapornote'];
+        if (vaporPlugin && vaporPlugin.floatingLeaves) {
+            for (let i = 0; i < vaporPlugin.floatingLeaves.length; i++) {
+                const leaf = vaporPlugin.floatingLeaves[i];
+                if (leaf.view && leaf.view.file && leaf.view.editor) {
+                    scanEditor(leaf.view.file, leaf.view.editor);
+                }
+            }
+        }
+
+        app.workspace.iterateRootLeaves(function (leaf) {
+            if (leaf.view && leaf.view.file && leaf.view.editor) {
+                scanEditor(leaf.view.file, leaf.view.editor);
+            }
+        });
+
+        const files = app.vault.getMarkdownFiles();
+        for (let i = 0; i < files.length; i++) {
+            const file = files[i];
+            if (scannedPaths.has(file.path)) continue;
+
+            const cache = app.metadataCache.getFileCache(file);
+            if (cache && cache.tags) {
+                const tagEntries = cache.tags.filter(function (t) { return t.tag === TAG_NAME; });
+                for (let j = 0; j < tagEntries.length; j++) {
+                    const tagEntry = tagEntries[j];
+                    matches.push({ file: file, lineIdx: tagEntry.position.start.line, editor: null });
+                }
+            }
+        }
+
+        return matches;
+    }
+
+    // ─── 5. Helper: Strip Tag from Closed Files Safely ───
+    async function stripOldTagInClosedFile(match) {
+        if (!match || !match.file) return;
+        try {
+            await app.vault.process(match.file, function (content) {
+                const lines = content.split('\n');
+                if (lines[match.lineIdx] && lines[match.lineIdx].includes(TAG_NAME)) {
+                    lines[match.lineIdx] = lines[match.lineIdx].replace(getTagRegex(), '').trimEnd();
+                }
+                return lines.join('\n');
+            });
+        } catch (_) {}
+    }
+
+    // ─── EXECUTION FLOW ───
+    const current = getCurrentlyFocusedEditor();
+    if (!current) {
+        new Notice("Place cursor on a task line in an open note first.");
+        return;
+    }
+
+    const editor = current.editor;
+    const file = current.file;
+    const cursor = editor.getCursor();
+    const currentLineText = editor.getLine(cursor.line);
+
+    const oldMatches = findAllActiveTaskMatches();
+
+    let isSelfToggle = false;
+    for (let i = 0; i < oldMatches.length; i++) {
+        if (oldMatches[i].file.path === file.path && oldMatches[i].lineIdx === cursor.line) {
+            isSelfToggle = true;
+            break;
         }
     }
 
-    // ─── 4. HELPER: Smart VaporNote Opener (Protects Existing Tabs) ───
-    async function openOrSwitchInVapor(filePath, lineIdx = null) {
-        const vaporPlugin = app.plugins.plugins['vapornote'];
-        if (!vaporPlugin) return;
+    if (isSelfToggle) {
+        // Self-Toggle -> Complete task [x] & remove tag
+        let updatedLineText = currentLineText.replace(getTagRegex(), '').trimEnd();
+        updatedLineText = updatedLineText.replace(/^(\s*(?:[-*+]|\d+\.)\s*\[)\s*(\])/, '$1x$2');
+        editor.setLine(cursor.line, updatedLineText);
+        return;
+    }
 
-        const targetFile = app.vault.getAbstractFileByPath(filePath);
-        if (!targetFile) return;
-
-        // A. Open VaporNote if closed
-        if (!vaporPlugin._isOpen || !vaporPlugin._isOpen()) {
-            await vaporPlugin.toggleVaporNote();
-        }
-
-        // B. Unminimize if minimized
-        if (vaporPlugin._isMinimized) {
-            vaporPlugin.toggleMinimize();
-        }
-
-        const leaves = vaporPlugin.floatingLeaves || [];
-
-        // C. Check if target file is ALREADY open in any tab
-        const existingTabIdx = leaves.findIndex(l => l.view?.file?.path === filePath);
-
-        if (existingTabIdx !== -1) {
-            // Already open in another tab -> switch to it!
-            if (typeof vaporPlugin._switchTab === 'function') {
-                vaporPlugin._switchTab(existingTabIdx);
+    // Move Tag -> Strip from old locations across vault
+    for (let i = 0; i < oldMatches.length; i++) {
+        const match = oldMatches[i];
+        if (match.file.path === file.path) {
+            if (match.lineIdx !== cursor.line) {
+                const oldLineText = editor.getLine(match.lineIdx) || "";
+                if (oldLineText.includes(TAG_NAME)) {
+                    const cleanedLine = oldLineText.replace(getTagRegex(), '').trimEnd();
+                    editor.setLine(match.lineIdx, cleanedLine);
+                }
             }
         } else {
-            // Not open anywhere in VaporNote -> check current active tab
-            const activeLeaf = leaves[vaporPlugin.activeLeafIndex];
-            const activeType = activeLeaf ? (activeLeaf.getViewState?.()?.type || 'empty') : 'empty';
-
-            if (activeLeaf && activeType === 'empty') {
-                // Active tab is empty -> reuse current tab!
-                await activeLeaf.openFile(targetFile);
-            } else {
-                // Active tab is occupied -> spawn a NEW tab!
-                if (typeof vaporPlugin._addNewTab === 'function') {
-                    await vaporPlugin._addNewTab('file', filePath);
-                } else if (activeLeaf) {
-                    await activeLeaf.openFile(targetFile);
+            const openEditor = match.editor || findEditorForFile(match.file.path);
+            if (openEditor) {
+                const oldLineText = openEditor.getLine(match.lineIdx) || "";
+                if (oldLineText.includes(TAG_NAME)) {
+                    const cleanedLine = oldLineText.replace(getTagRegex(), '').trimEnd();
+                    openEditor.setLine(match.lineIdx, cleanedLine);
                 }
+            } else {
+                await stripOldTagInClosedFile(match);
             }
         }
-
-        // D. Scroll & set cursor at end of line if lineIdx is specified
-        if (lineIdx !== null && lineIdx !== undefined) {
-            setTimeout(() => {
-                const currentLeaf = vaporPlugin.floatingLeaves ? vaporPlugin.floatingLeaves[vaporPlugin.activeLeafIndex] : null;
-                const vaporEditor = currentLeaf?.view?.editor;
-                if (vaporEditor) {
-                    const lineContent = vaporEditor.getLine(lineIdx) || "";
-                    const endOfLineCh = lineContent.length;
-
-                    vaporEditor.setCursor({ line: lineIdx, ch: endOfLineCh });
-                    vaporEditor.scrollIntoView({ from: { line: lineIdx, ch: endOfLineCh }, to: { line: lineIdx, ch: endOfLineCh } }, true);
-                    if (vaporEditor.focus) vaporEditor.focus();
-                }
-            }, 100);
-        }
     }
 
-    // ───────────────────────────────────────────────────────────────────────────
-    // MAIN EXECUTION FLOW
-    // ───────────────────────────────────────────────────────────────────────────
+    // Tag current cursor line
+    const lineToTagText = editor.getLine(cursor.line);
+    const updatedLineText = lineToTagText.includes(TAG_NAME)
+        ? lineToTagText
+        : (lineToTagText.trimEnd() + ' ' + TAG_NAME);
 
-    const activeMatch = findActiveTaskInCache();
-    const activeView = app.workspace.getActiveViewOfType(obsidian.MarkdownView);
-
-    // IF CURSOR IS ON THE SAME LINE AS #active-task -> DELETE IT
-    if (activeMatch && activeView && activeView.file.path === activeMatch.file.path) {
-        const editor = activeView.editor;
-        const currentCursor = editor.getCursor();
-
-        if (currentCursor.line === activeMatch.lineIdx) {
-            let currentLineText = editor.getLine(currentCursor.line);
-            const updatedLineText = currentLineText.replace(new RegExp(`${TAG_NAME}\\s*`, 'g'), '').trimEnd();
-            editor.setLine(currentCursor.line, updatedLineText);
-
-            // Clear status bar
-            updateStatusBar(null);
-            return;
-        }
-    }
-
-    if (activeMatch) {
-        // SCENARIO A: TASK EXISTS ELSEWHERE -> Switch or open in new tab & jump!
-        const taskText = await getCleanTaskText(activeMatch.file, activeMatch.lineIdx);
-        updateStatusBar(taskText);
-        await openOrSwitchInVapor(activeMatch.file.path, activeMatch.lineIdx);
-
-    } else if (activeView) {
-        // SCENARIO B: NO TASK EXISTS & IN EDITOR -> Insert #active-task at cursor!
-        const editor = activeView.editor;
-        const file = activeView.file;
-        if (!file || !editor) return;
-
-        const cursor = editor.getCursor();
-        const currentLineText = editor.getLine(cursor.line);
-
-        // Append #active-task tag to current line
-        const updatedLineText = currentLineText.includes(TAG_NAME) 
-            ? currentLineText 
-            : `${currentLineText.trimEnd()} ${TAG_NAME}`;
-            
-        editor.setLine(cursor.line, updatedLineText);
-
-        const cleanText = currentLineText
-            .replace(/^[-*+]\s*(\[[ xX]\])?\s*/, '')
-            .replace(TAG_NAME, '')
-            .trim() || "Active Task";
-
-        updateStatusBar(cleanText);
-        await openOrSwitchInVapor(file.path, cursor.line);
-
-    } else {
-        // SCENARIO C: NO TASK EXISTS & NOT IN EDITOR -> Open Daily Note in VaporNote!
-        await openOrSwitchInVapor(DAILY_FILE_PATH);
-    }
+    editor.setLine(cursor.line, updatedLineText);
 };

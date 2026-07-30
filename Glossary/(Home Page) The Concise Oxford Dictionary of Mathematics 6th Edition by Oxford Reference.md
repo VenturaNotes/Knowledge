@@ -3761,7 +3761,7 @@ Year: 2021-09-01
 	2476. sequence space
 	2477. sequential compactness
 	2478. serial(of a relation)
-	2479. serial computation
+	2479. [[serial computation]]
 	
 	2480. serial correlation
 	2481. series
@@ -3930,6 +3930,7 @@ Year: 2021-09-01
 	2629. squaring the circle
 	
 	2630. squeeze theorem
+		1. See SANDWICH THEOREM.
 	2631. SSA
 	2632. SSS
 	2633. stabilizer
@@ -3956,7 +3957,7 @@ Year: 2021-09-01
 	2652. statistical model
 	2653. statistical tables
 	2654. [[statistics]]
-	2655. steady
+	2655. [[steady]]
 	2656. Steinitz exchange lemma
 	2657. stem-and-leaf plot
 	2658. steradian
@@ -3968,7 +3969,7 @@ Year: 2021-09-01
 	2663. Stirling number of the first kind
 	2664. Stirling number of the second kind
 	2665. [[stochastic differential equation]]
-	2666. stochastic process
+	2666. [[stochastic process]]
 	2667. stochastic variable
 	2668. Stokes' Theorem(generalized form)
 	2669. Stokes, Sir George Gabriel (1819-1903)
