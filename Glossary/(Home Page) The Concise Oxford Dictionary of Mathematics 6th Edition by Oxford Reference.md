@@ -3291,15 +3291,18 @@ Year: 2021-09-01
 	2050. predator-prey equations
 	2051. predicate(in logic)
 	2052. predicate logic
+		1. A synonym for FIRST-ORDER LOGIC.
 	2053. predicted variable
+		1. A synonym for DEPENDENT VARIABLE.
 	2054. predictor variable
+		1. A synonym for EXPLANATORY VARIABLE.
 	2055. prefix
 	2056. prefix code
-	2057. premultiplication
+	2057. [[premultiplication]]
 	2058. presentation
 	2059. pressure
 	
-	2060. Prim's algorithm(to solve the minimum connector problem)
+	2060. [[Prim's algorithm]]
 	2061. primary decomposition theorem
 	2062. prime
 	2063. prime decomposition
@@ -3316,17 +3319,21 @@ Year: 2021-09-01
 	2073. primitive root
 	2074. principal axes(in mechanics)
 	2075. principal axes(of a quadric)
-	2076. principal ideal
+	2076. [[principal ideal]]
 	2077. principal ideal domain
 	2078. principal moments of inertia
+		1. See INERTIA MATRIX.
 	2079. principal part
 	
 	2080. principal value
 	2081. principal value integral
 	2082. principle of conservation of energy
+		1. See CONSERVATION OF ENERGY.
 	2083. principle of conservation of linear momentum
+		1. See CONSERVATION OF LINEAR MOMENTUM.
 	2084. principle of mathematical induction
-	2085. principle of moments
+		1. See MATHEMATICAL INDUCTION.
+	2085. [[principle of moments]]
 	2086. principle of the excluded middle
 	2087. prism
 	2088. private key crytography

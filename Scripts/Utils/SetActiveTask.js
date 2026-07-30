@@ -4,14 +4,26 @@ module.exports = async function ({ app, obsidian }) {
     if (oldStatus) oldStatus.remove();
 
     // ─── 1. Get Category Tag ───
-    const vtgPlugin = app.plugins.plugins['virtual-tab-groups'];
-    const activeGroup = (vtgPlugin && vtgPlugin.settings && vtgPlugin.settings.activeGroup) ? vtgPlugin.settings.activeGroup : 'Default';
-    const groupSlug = activeGroup.toLowerCase().replace(/\s+/g, '-');
-    const TAG_NAME = '#active-task/' + groupSlug;
+    const TAG_NAME = '#active-task';
 
     function getTagRegex() {
         const escaped = TAG_NAME.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
         return new RegExp(escaped + '\\s*', 'g');
+    }
+
+    // Checks if the tag is a genuine tag on a live editor line (ignores backticks & HTML comments)
+    function isRealTag(line, tag) {
+        const parts = line.split('`');
+        for (let i = 0; i < parts.length; i += 2) {
+            const segment = parts[i];
+            if (segment.includes(tag)) {
+                const cleanSegment = segment.replace(/<!--[\s\S]*?-->/g, '');
+                if (cleanSegment.includes(tag)) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     // ─── 2. Get Currently Focused Editor (Prioritizes VaporNote Overlay) ───
@@ -58,7 +70,7 @@ module.exports = async function ({ app, obsidian }) {
         return null;
     }
 
-    // ─── 4. Search Live RAM Editors + Metadata Cache for Tag Matches ───
+    // ─── 4. Search Live RAM Editors + Metadata Cache for Real Tag Matches ───
     function findAllActiveTaskMatches() {
         const matches = [];
         const scannedPaths = new Set();
@@ -69,7 +81,7 @@ module.exports = async function ({ app, obsidian }) {
             const lineCount = editor.lineCount();
             for (let i = 0; i < lineCount; i++) {
                 const line = editor.getLine(i) || "";
-                if (line.includes(TAG_NAME)) {
+                if (line.includes(TAG_NAME) && isRealTag(line, TAG_NAME)) {
                     matches.push({ file: file, lineIdx: i, editor: editor });
                 }
             }
@@ -165,7 +177,7 @@ module.exports = async function ({ app, obsidian }) {
                 }
             }
         } else {
-            const openEditor = match.editor || findEditorForFile(match.file.path);
+            const openEditor = findEditorForFile(match.file.path);
             if (openEditor) {
                 const oldLineText = openEditor.getLine(match.lineIdx) || "";
                 if (oldLineText.includes(TAG_NAME)) {

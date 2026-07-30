@@ -12,13 +12,11 @@ export class CommandsModule {
     this.description = 'Fires Obsidian hotkeys while focus is inside a webview, with domain-specific shortcut bypassing';
     this.enabled = true;
 
-    // Domain configuration rules: Array<{ domain: string, enabled: boolean, chords: string[], obsidianChords: string[] }>
+    // Domain configuration rules: Array<{ domain: string, enabled: boolean, obsidianChords: string[] }>
     this.rules = [];
 
     this._lastFired = new Map();
     this._cachedHotkeyMap = null;
-    this._leafParentMap = new WeakMap();
-    this._isRecreating = false;
     this._heartbeat = null;
     this._errorHandler = null;
     this._rejectionHandler = null;
@@ -34,7 +32,6 @@ export class CommandsModule {
     this._layoutRef = app.workspace.on('layout-change', () => {
       this._cachedHotkeyMap = null;
       this._findAndAttach();
-      this._processMovement();
     });
   }
 
@@ -48,7 +45,6 @@ export class CommandsModule {
   setRules(rules) {
     this.rules = rules || [];
     for (const rule of this.rules) {
-      if (!rule.chords) rule.chords = [];
       if (!rule.obsidianChords) rule.obsidianChords = [];
     }
   }
@@ -196,7 +192,13 @@ export class CommandsModule {
     const hkm = this._app.hotkeyManager;
     const isMac = typeof process !== 'undefined' ? process.platform === 'darwin' : navigator.platform.toUpperCase().includes('MAC');
     for (const [id] of Object.entries(this._app.commands.commands)) {
-      const keys = [...(hkm.customKeys?.[id] || []), ...(hkm.defaultKeys?.[id] || [])];
+      // Obsidian's own rule: if a command has a customKeys entry at all -- even
+      // an empty array, meaning the user explicitly cleared its hotkey -- that
+      // entry is authoritative and the default is dropped. Always merging both
+      // (as before) resurrects "ghost" defaults the user removed, causing
+      // webviews to swallow keys Obsidian itself no longer treats as bound.
+      const custom = hkm.customKeys?.[id];
+      const keys = custom !== undefined ? custom : (hkm.defaultKeys?.[id] || []);
       for (const hk of keys) {
         const parts = [];
         if (hk.modifiers.includes('Mod'))   parts.push(isMac ? 'meta' : 'ctrl');
@@ -238,6 +240,25 @@ export class CommandsModule {
             else if (input.type === 'keyUp') eventType = 'keyup';
             else return;
 
+            // If this keydown is a recognized Obsidian hotkey, the injected
+            // page script (see `inject()` below) already owns forwarding it
+            // via OBS_RAW_KEY -> executeCommandById. Replaying it here too
+            // would fire the command twice, so we defer to that path instead
+            // of replaying. Non-hotkey keys still pass through normally.
+            if (eventType === 'keydown') {
+              const parts = [];
+              if (input.control) parts.push('ctrl');
+              if (input.meta)    parts.push('meta');
+              if (input.shift)   parts.push('shift');
+              if (input.alt)     parts.push('alt');
+              if (parts.length > 0) {
+                let key = (input.key || '').toLowerCase();
+                if (key === 'space' || key === ' ') key = ' ';
+                const chord = parts.sort().join('+') + '+' + key;
+                if (this._getHotkeyMap().has(chord)) return;
+              }
+            }
+
             const win = webview.ownerDocument?.defaultView || window;
             const target = webview || win.document.activeElement || win.document.body;
 
@@ -253,7 +274,13 @@ export class CommandsModule {
               repeat: input.isAutoRepeat
             });
 
-            target.dispatchEvent(kbEvent);
+            // Defer dispatching to the next tick so Chromium finishes native input routing
+            // to the webview BEFORE any Obsidian focus shifts occur
+            setTimeout(() => {
+              if (target && target.isConnected) {
+                target.dispatchEvent(kbEvent);
+              }
+            }, 0);
           });
         }
       } catch (e) {}
@@ -331,7 +358,6 @@ export class CommandsModule {
       const serializedRules = JSON.stringify(
         this.rules.filter(r => r.enabled && r.domain).map(r => ({
           domain: r.domain,
-          chords: r.chords || [],
           obsidianChords: r.obsidianChords || []
         }))
       );
@@ -376,15 +402,13 @@ export class CommandsModule {
               return;
             }
 
-            if (rule && rule.chords && rule.chords.includes(ruleChord)) {
-              e.preventDefault();
-              e.stopImmediatePropagation();
-              console.log('OBS_RAW_KEY:' + hotkeyChord);
-              return;
-            }
-
-            const hasObsidianBlockedAny = rule && rule.obsidianChords && rule.obsidianChords.length > 0;
-            if (hasObsidianBlockedAny && window._obsHotkeyChords?.includes(ruleChord)) {
+            // Default: any chord matching a real Obsidian hotkey gets forwarded
+            // here, unconditionally (not just when a domain rule configures
+            // obsidianChords). This is now the ONLY path that fires Obsidian
+            // commands from a focused webview -- the host-side hardware
+            // bubbler explicitly defers to this for these chords, so there's
+            // no double-fire and no gap on domains without configured rules.
+            if (window._obsHotkeyChords?.includes(ruleChord)) {
               e.preventDefault();
               e.stopImmediatePropagation();
               console.log('OBS_RAW_KEY:' + hotkeyChord);
@@ -447,42 +471,11 @@ export class CommandsModule {
       });
   }
 
-  async _processMovement() {
-    if (this._isRecreating) return;
-    let movedLeaf = null;
-    this._app.workspace.iterateAllLeaves(leaf => {
-      if (movedLeaf) return;
-      const webview = leaf.view?.containerEl?.querySelector('webview');
-      if (!webview) return;
-      const currentParentId = leaf.parent?.id;
-      const lastParentId = this._leafParentMap.get(leaf);
-      if (lastParentId && currentParentId !== lastParentId) movedLeaf = leaf;
-      this._leafParentMap.set(leaf, currentParentId);
-    });
-
-    if (movedLeaf) {
-      this._isRecreating = true;
-      await new Promise(r => setTimeout(r, 150));
-      const state = movedLeaf.getViewState();
-      const wasActive = this._app.workspace.activeLeaf === movedLeaf;
-      const originalActiveLeaf = this._app.workspace.activeLeaf;
-      this._app.workspace.setActiveLeaf(movedLeaf, { focus: false });
-      const newLeaf = this._app.workspace.getLeaf('tab');
-      await newLeaf.setViewState(state);
-      movedLeaf.detach();
-      if (wasActive) this._app.workspace.setActiveLeaf(newLeaf, { focus: true });
-      else this._app.workspace.setActiveLeaf(originalActiveLeaf, { focus: true });
-      this._leafParentMap.set(newLeaf, newLeaf.parent?.id);
-      setTimeout(() => { this._isRecreating = false; this._findAndAttach(); }, 400);
-    }
-  }
-
   _findAndAttach() {
     this._app.workspace.iterateAllLeaves(leaf => {
       const webview = leaf.view?.containerEl?.querySelector('webview');
       if (webview) {
         this._attachToWebview(webview);
-        if (!this._leafParentMap.has(leaf)) this._leafParentMap.set(leaf, leaf.parent?.id);
       }
     });
   }

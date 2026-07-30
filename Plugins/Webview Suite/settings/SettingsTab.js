@@ -327,7 +327,7 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
     });
 
     rulesContainer.createEl('p', {
-      text: 'Configure custom keyboard behaviors per domain. For each website, you can block shortcuts inside the webview (sending them to Obsidian instead) or bypass Obsidian (allowing the webpage to handle them natively).',
+      text: 'Configure custom keyboard behaviors per domain. For each website, you can bypass Obsidian for specific shortcuts, letting the webpage handle them natively.',
       cls: 'setting-item-description',
       style: 'margin-bottom: 14px;'
     });
@@ -343,7 +343,7 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
         .setButtonText('+ Add domain rule')
         .setCta()
         .onClick(async () => {
-          rules.push({ domain: '', enabled: true, chords: [], obsidianChords: [] });
+          rules.push({ domain: '', enabled: true, obsidianChords: [] });
           await this._saveRules(commandsModule);
           this.display();
         })
@@ -398,18 +398,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
       padding-top: 12px;
       border-top: 1px solid var(--background-modifier-border);
     `;
-
-    this._renderChordSection(
-      sectionsWrapper, 
-      rule, 
-      'chords', 
-      'Bypass Web Shortcuts', 
-      'These shortcuts will be blocked inside the webview, forcing Obsidian to handle them instead of the webpage.',
-      commandsModule
-    );
-
-    const divider = sectionsWrapper.createEl('hr');
-    divider.style.cssText = 'margin: 12px 0; border: none; border-top: 1px dashed var(--background-modifier-border);';
 
     this._renderChordSection(
       sectionsWrapper, 
