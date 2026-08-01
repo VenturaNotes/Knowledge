@@ -1698,7 +1698,7 @@ Year: 2021-09-01
 	657. electromagnetic wave
 	658. element
 	659. elementary column operation
-	660. elementary function
+	660. [[elementary function]]
 	661. elementary matrix
 	662. elementary row operation
 	663. elliptic geometry
@@ -1941,12 +1941,13 @@ Year: 2021-09-01
 	877. [[full measure]]
 	878. full rank
 	879. function
-	880. functional
-	881. functional analysis
+	880. [[functional]]
+	881. [[functional analysis]]
 	882. functionally separable
 	883. function of a function
+		1. See COMPOSITION.
 	884. [[function space]]
-	885. functor
+	885. [[functor]]
 	886. fundamental group
 	
 	887. Fundamental Theorem of Algebra

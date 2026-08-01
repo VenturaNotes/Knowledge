@@ -19,7 +19,7 @@ module.exports = async ({ app }) => {
     }
   } catch (e) {}
 
-  // Direct osascript notification with sound alert (most reliable on macOS across Spaces)
+  // Direct osascript notification with sound alert (macOS across Spaces)
   function sendMacNotification(title, message) {
     let sent = false;
 
@@ -89,12 +89,14 @@ module.exports = async ({ app }) => {
         } catch(e) {}
       }
 
-      // 2. Spoof Visibility & Focus
+      // 2. Spoof Page Visibility & Focus APIs
       if (!window.__aiStudioVisibilitySpoofed) {
         window.__aiStudioVisibilitySpoofed = true;
         try {
           Object.defineProperty(document, 'visibilityState', { get: function() { return 'visible'; }, configurable: true });
           Object.defineProperty(document, 'hidden', { get: function() { return false; }, configurable: true });
+          Object.defineProperty(document, 'webkitVisibilityState', { get: function() { return 'visible'; }, configurable: true });
+          Object.defineProperty(document, 'webkitHidden', { get: function() { return false; }, configurable: true });
         } catch (e) {}
       }
 
@@ -103,109 +105,78 @@ module.exports = async ({ app }) => {
         window.dispatchEvent(new Event('focus'));
       } catch (e) {}
 
-      function queryShadowAll(selector, root) {
+      // Shadow DOM recursive query helper
+      function queryShadowSelectorAll(selector, root, results) {
         root = root || document;
-        let results = Array.from(root.querySelectorAll(selector));
-        const all = root.querySelectorAll('*');
-        for (let i = 0; i < all.length; i++) {
-          if (all[i].shadowRoot) {
-            results = results.concat(queryShadowAll(selector, all[i].shadowRoot));
+        results = results || [];
+        const els = root.querySelectorAll(selector);
+        els.forEach(el => results.push(el));
+        const allElements = root.querySelectorAll('*');
+        for (let i = 0; i < allElements.length; i++) {
+          const element = allElements[i];
+          if (element.shadowRoot) {
+            queryShadowSelectorAll(selector, element.shadowRoot, results);
           }
         }
         return results;
       }
 
-      function isInsideChatTurn(el) {
-        let curr = el;
-        while (curr) {
-          if (curr.tagName && curr.tagName.toLowerCase() === 'ms-chat-turn') {
+      function queryShadowSelector(selector, root) {
+        root = root || document;
+        const el = root.querySelector(selector);
+        if (el) return el;
+        const allElements = root.querySelectorAll('*');
+        for (let i = 0; i < allElements.length; i++) {
+          const element = allElements[i];
+          if (element.shadowRoot) {
+            const found = queryShadowSelector(selector, element.shadowRoot);
+            if (found) return found;
+          }
+        }
+        return null;
+      }
+
+      // Targeted prompt-box stop button detection
+      function isStopButtonActive() {
+        const runButtons = queryShadowSelectorAll('ms-run-button button, ms-prompt-box button, button.run-button');
+        for (let i = 0; i < runButtons.length; i++) {
+          const btn = runButtons[i];
+          const label = (btn.getAttribute('aria-label') || '').toLowerCase();
+          const text = (btn.textContent || '').toLowerCase();
+          if (label.includes('stop') || text.includes('stop')) {
             return true;
           }
-          curr = curr.parentNode || curr.host;
         }
         return false;
       }
 
-      function isInsideSidebar(el) {
-        let curr = el;
-        while (curr) {
-          const name = (curr.tagName || '').toLowerCase();
-          const className = (curr.className || '').toString().toLowerCase();
-          const role = (curr.getAttribute && curr.getAttribute('role') || '').toLowerCase();
-
-          if (
-            name === 'ms-settings-panel' ||
-            name === 'ms-parameters' ||
-            name === 'aside' ||
-            role === 'complementary' ||
-            className.includes('settings') ||
-            className.includes('parameters')
-          ) {
-            return true;
-          }
-          curr = curr.parentNode || curr.host;
-        }
-        return false;
-      }
-
-      // 3. Check generating indicators (Stop button, Cancel, spinners, loaders)
-      let stopButtonFound = false;
-      let spinnerFound = false;
-
-      const buttons = queryShadowAll('button, ms-run-button, [role="button"], ms-icon-button');
-      for (let i = 0; i < buttons.length; i++) {
-        const btn = buttons[i];
-
-        // Ignore buttons inside past chat messages or the settings sidebar
-        if (isInsideChatTurn(btn) || isInsideSidebar(btn)) continue;
-
-        const label = (btn.getAttribute('aria-label') || '').trim().toLowerCase();
-        const text = (btn.textContent || '').trim().toLowerCase();
-        const className = (btn.className || '').toString().toLowerCase();
-
-        // Strict regex matching for Stop / Cancel
-        const isStopLabel = /^stop(\s+generation|\s+run)?$/i.test(label) || label === 'cancel';
-        const isStopText = /^stop$/i.test(text) || text === 'cancel';
-        const isRunningClass = className.includes('running') || className.includes('is-loading');
-
-        if (isStopLabel || isStopText || isRunningClass) {
-          stopButtonFound = true;
-          break;
-        }
-      }
-
-      // Check spinners outside chat turn history and sidebar
-      if (!stopButtonFound) {
-        const spinners = queryShadowAll('mat-spinner, ms-loader, .spinner, .loading, .streaming');
-        for (let i = 0; i < spinners.length; i++) {
-          if (!isInsideChatTurn(spinners[i]) && !isInsideSidebar(spinners[i])) {
-            spinnerFound = true;
-            break;
-          }
-        }
-      }
-
-      const isGeneratingDOM = stopButtonFound || spinnerFound;
-
-      // 4. Measure response text length
-      const turns = queryShadowAll('ms-chat-turn');
+      // Measure latest text specifically in active model turn
+      const turns = queryShadowSelectorAll('ms-chat-turn');
       let latestText = "";
+      let modelContainer = null;
+      
       for (let i = turns.length - 1; i >= 0; i--) {
         const turn = turns[i];
-        const contentEls = queryShadowAll('ms-cmark-node, .model-content, .markdown', turn);
-        if (contentEls.length > 0) {
-          latestText = contentEls.map(el => el.textContent || "").join("");
+        const container = queryShadowSelector('.chat-turn-container.model', turn);
+        if (container) {
+          modelContainer = container;
           break;
         }
+      }
+
+      if (modelContainer) {
+        const cmarkEls = queryShadowSelectorAll('ms-cmark-node, .model-content, .markdown', modelContainer);
+        latestText = cmarkEls.map(el => el.textContent || "").join("");
       }
 
       return {
-        isGeneratingDOM: isGeneratingDOM,
+        isStopActive: isStopButtonActive(),
         textLength: latestText.length
       };
     })();
   `;
 
+  // Poll every 250ms
   const intervalId = setInterval(async () => {
     const webviews = Array.from(document.querySelectorAll("webview"));
 
@@ -213,7 +184,6 @@ module.exports = async ({ app }) => {
       const src = webview.getAttribute("src") || "";
       if (!src.includes("aistudio.google.com")) continue;
 
-      // Un-throttle webview webContents using Electron's webContents.fromId() API
       try {
         if (remote && webview.getWebContentsId) {
           const wc = remote.webContents.fromId(webview.getWebContentsId());
@@ -232,7 +202,7 @@ module.exports = async ({ app }) => {
         if (!state) {
           stateMap.set(webview, {
             isGenerating: false,
-            growthTicks: 0,
+            stopButtonWasSeen: false,
             lastTextLength: status.textLength,
             unchangedTicks: 0,
             hasNotified: false
@@ -240,45 +210,51 @@ module.exports = async ({ app }) => {
           continue;
         }
 
-        const textGrew = status.textLength > state.lastTextLength;
-
-        // Count consecutive growth ticks
-        if (textGrew) {
-          state.growthTicks++;
-        } else if (status.textLength < state.lastTextLength) {
-          state.growthTicks = 0;
-          state.unchangedTicks = 0;
-        } else {
-          state.growthTicks = 0;
-        }
-
-        const isStreaming = status.isGeneratingDOM || state.growthTicks >= 2;
-
-        if (isStreaming && !state.isGenerating) {
-          state.isGenerating = true;
-          state.hasNotified = false;
+        // STRICT GATE: Only enter generation state when the Stop button is explicitly active.
+        // This prevents chat history loading on initial page open from triggering a false notification.
+        if (status.isStopActive) {
+          if (!state.isGenerating) {
+            state.isGenerating = true;
+            state.hasNotified = false;
+          }
+          state.stopButtonWasSeen = true;
+          state.unchangedTicks = 0; // Reset stability counter while stop button is active
         }
 
         if (state.isGenerating) {
-          if (status.textLength === state.lastTextLength) {
-            state.unchangedTicks++;
-          } else {
-            state.unchangedTicks = 0;
+          // Track content stability when Stop button has turned off
+          if (!status.isStopActive) {
+            if (status.textLength === state.lastTextLength && status.textLength > 0) {
+              state.unchangedTicks++;
+            } else {
+              state.unchangedTicks = 0;
+            }
+
+            // Completion criteria:
+            // 1. We were actively generating
+            // 2. The Stop button is no longer active
+            // 3. The Stop button WAS explicitly active during this run session
+            // 4. Content has stayed unchanged for 4 consecutive checks (~1 sec stability)
+            const isStable = state.unchangedTicks >= 4;
+            const isComplete = !status.isStopActive && state.stopButtonWasSeen && isStable;
+
+            if (isComplete && !state.hasNotified) {
+              state.isGenerating = false;
+              state.stopButtonWasSeen = false;
+              state.unchangedTicks = 0;
+              state.hasNotified = true;
+
+              sendMacNotification(
+                "Google AI Studio",
+                "Response generation complete."
+              );
+            }
           }
-
-          // Complete when: DOM no longer shows generating indicators AND text hasn't changed for 3 ticks (~1s)
-          const isComplete = !status.isGeneratingDOM && state.unchangedTicks >= 3;
-
-          if (isComplete && !state.hasNotified) {
-            state.isGenerating = false;
-            state.growthTicks = 0;
-            state.hasNotified = true;
-            state.unchangedTicks = 0;
-
-            sendMacNotification(
-              "Google AI Studio",
-              "Response generation complete."
-            );
+        } else {
+          // Reset notification lock once idle
+          if (!status.isStopActive) {
+            state.hasNotified = false;
+            state.stopButtonWasSeen = false;
           }
         }
 
@@ -287,7 +263,7 @@ module.exports = async ({ app }) => {
         // Skip unmounted webviews
       }
     }
-  }, 300);
+  }, 250);
 
   window.aiStudioNotifierCleanup = () => {
     clearInterval(intervalId);

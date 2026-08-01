@@ -29,16 +29,15 @@ module.exports = async function ({ app, obsidian }) {
 
     // ─── 1. Search Live RAM Editors First (0ms Delay), then Metadata Cache ───
     function findActiveTaskLive() {
-        const scannedPaths = new Set();
-
-        // Checks if the tag is a genuine tag on a live editor line (ignores backticks & HTML comments)
+        // Checks if the tag is a genuine tag on a live editor line (ignores backticks, HTML comments, and is case-insensitive)
         function isRealTag(line, tag) {
             const parts = line.split('`');
+            const lowerTag = tag.toLowerCase();
             for (let i = 0; i < parts.length; i += 2) {
-                const segment = parts[i];
-                if (segment.includes(tag)) {
+                const segment = parts[i].toLowerCase();
+                if (segment.includes(lowerTag)) {
                     const cleanSegment = segment.replace(/<!--[\s\S]*?-->/g, '');
-                    if (cleanSegment.includes(tag)) {
+                    if (cleanSegment.includes(lowerTag)) {
                         return true;
                     }
                 }
@@ -46,15 +45,14 @@ module.exports = async function ({ app, obsidian }) {
             return false;
         }
 
-        // A. Search Main Workspace RAM Editors (Only .md files)
+        // A. Search Main Workspace RAM Editors (Only .md files - Case-Insensitive)
         let match = null;
         app.workspace.iterateRootLeaves(function (leaf) {
             if (leaf.view && leaf.view.file && leaf.view.file.extension === 'md' && leaf.view.editor) {
-                scannedPaths.add(leaf.view.file.path);
                 const lineCount = leaf.view.editor.lineCount();
                 for (let i = 0; i < lineCount; i++) {
                     const line = leaf.view.editor.getLine(i) || "";
-                    if (line.includes(TAG_NAME) && isRealTag(line, TAG_NAME)) {
+                    if (line.toLowerCase().includes(TAG_NAME.toLowerCase()) && isRealTag(line, TAG_NAME)) {
                         match = { file: leaf.view.file, lineIdx: i };
                         return;
                     }
@@ -63,17 +61,16 @@ module.exports = async function ({ app, obsidian }) {
         });
         if (match) return match;
 
-        // B. Search VaporNote Floating RAM Editors (Only .md files)
+        // B. Search VaporNote Floating RAM Editors (Only .md files - Case-Insensitive)
         const vaporPlugin = app.plugins.plugins['vapornote'];
         if (vaporPlugin && vaporPlugin.floatingLeaves) {
             for (let i = 0; i < vaporPlugin.floatingLeaves.length; i++) {
                 const leaf = vaporPlugin.floatingLeaves[i];
                 if (leaf.view && leaf.view.file && leaf.view.file.extension === 'md' && leaf.view.editor) {
-                    scannedPaths.add(leaf.view.file.path);
                     const lineCount = leaf.view.editor.lineCount();
                     for (let j = 0; j < lineCount; j++) {
                         const line = leaf.view.editor.getLine(j) || "";
-                        if (line.includes(TAG_NAME) && isRealTag(line, TAG_NAME)) {
+                        if (line.toLowerCase().includes(TAG_NAME.toLowerCase()) && isRealTag(line, TAG_NAME)) {
                             return { file: leaf.view.file, lineIdx: j };
                         }
                     }
@@ -81,17 +78,25 @@ module.exports = async function ({ app, obsidian }) {
             }
         }
 
-        // C. Fallback: Search Metadata Cache for unopened/closed files (Only .md files)
+        // C. Universal Fallback: Search Metadata Cache (Guarantees we find tags in background/suspended tabs)
         const files = app.vault.getMarkdownFiles();
         for (let i = 0; i < files.length; i++) {
             const file = files[i];
-            if (file.extension !== 'md' || scannedPaths.has(file.path)) continue;
+            if (file.extension !== 'md') continue;
 
             const cache = app.metadataCache.getFileCache(file);
-            if (cache && cache.tags) {
-                const tagEntry = cache.tags.find(function (t) { return t.tag === TAG_NAME; });
-                if (tagEntry) {
-                    return { file: file, lineIdx: tagEntry.position.start.line };
+            if (cache) {
+                const tags = obsidian.getAllTags(cache) || [];
+                const hasTag = tags.some(function (t) { return t.toLowerCase() === TAG_NAME.toLowerCase(); });
+                if (hasTag) {
+                    let lineIdx = 0; // Default to top of file if tag is in YAML Properties
+                    if (cache.tags) {
+                        const tagEntry = cache.tags.find(function (t) { return t.tag.toLowerCase() === TAG_NAME.toLowerCase(); });
+                        if (tagEntry) {
+                            lineIdx = tagEntry.position.start.line;
+                        }
+                    }
+                    return { file: file, lineIdx: lineIdx };
                 }
             }
         }
@@ -171,6 +176,28 @@ module.exports = async function ({ app, obsidian }) {
     const activeMatch = findActiveTaskLive();
 
     if (activeMatch) {
+        // Toggle Minimize Check: If we are already editing the active task line and the cursor is at the end of the line
+        const vaporPlugin = app.plugins.plugins['vapornote'];
+        if (vaporPlugin && typeof vaporPlugin._isOpen === 'function' && vaporPlugin._isOpen() && !vaporPlugin._isMinimized) {
+            const activeVaporLeaf = vaporPlugin.floatingLeaves ? vaporPlugin.floatingLeaves[vaporPlugin.activeLeafIndex] : null;
+            if (activeVaporLeaf && activeVaporLeaf.view && activeVaporLeaf.view.file && activeVaporLeaf.view.editor) {
+                const activeFile = activeVaporLeaf.view.file;
+                const activeEditor = activeVaporLeaf.view.editor;
+                const currentCursor = activeEditor.getCursor();
+                
+                if (activeFile.path === activeMatch.file.path && currentCursor.line === activeMatch.lineIdx) {
+                    const lineContent = activeEditor.getLine(activeMatch.lineIdx) || "";
+
+                    if (currentCursor.ch === lineContent.length) {
+                        if (typeof vaporPlugin.toggleMinimize === 'function') {
+                            vaporPlugin.toggleMinimize();
+                            return; // Minimize and stop execution
+                        }
+                    }
+                }
+            }
+        }
+
         // Option 1: Active Task exists -> Open directly in VaporNote (0ms hardcoded delay)
         await openInVapor(activeMatch.file.path, activeMatch.lineIdx);
     } else {
