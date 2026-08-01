@@ -372,11 +372,6 @@ export class IsolatedWebView extends ItemView {
     const startSpinner = () => this.reloadBtn?.classList.add('is-loading');
     const stopSpinner = () => this.reloadBtn?.classList.remove('is-loading');
 
-    // Forward guest webview console logs directly to Obsidian Dev Console
-    this.webviewEl.addEventListener('console-message', (e) => {
-      console.log(`[PDF.js Guest Webview] ${e.message} (Line ${e.line})`);
-    });
-
     const updateNavState = () => {
       try {
         let activeUrl = this.webviewEl.getURL() || this.webviewEl.src;
