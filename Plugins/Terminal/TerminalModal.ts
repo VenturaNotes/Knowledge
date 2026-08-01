@@ -1,11 +1,17 @@
-import { App, Modal, Scope, ItemView } from 'obsidian';
+import { App, Scope, ItemView } from 'obsidian';
 import * as os from 'os';
 import { execSync } from 'child_process';
 import { Terminal } from '@xterm/xterm';
 import { FitAddon } from '@xterm/addon-fit';
 import CustomTerminalPlugin, { WS_PORT } from './main';
 
-export class TerminalModal extends Modal {
+export class TerminalModal {
+    app: App;
+    containerEl!: HTMLElement;
+    modalEl!: HTMLElement;
+    contentEl!: HTMLElement;
+    scope: Scope | null = null;
+
     isOpen = false;
     public isVisible = true; // Tracks if the modal is currently unhidden in the workspace
 
@@ -44,7 +50,7 @@ export class TerminalModal extends Modal {
         private plugin: CustomTerminalPlugin,
         inlineContainer?: HTMLElement,
     ) {
-        super(app);
+        this.app = app;
 
         if (inlineContainer) {
             this.isInline = true;
@@ -170,6 +176,36 @@ export class TerminalModal extends Modal {
     }
 
     // ── Entry points ──────────────────────────────────────────────────────
+
+    // Replaces Modal.open(). Builds the same floating DOM scaffold Modal used
+    // to provide, but appended directly to document.body -- deliberately NOT
+    // registered with Obsidian's Modal system. Obsidian's core appears to
+    // treat "a Modal is currently open" as a reason to avoid the current
+    // workspace when placing new leaves (e.g. a clicked link falls back to
+    // opening a new window), even when the modal is visually non-blocking.
+    // Since this is never a real Modal, that never triggers.
+    open() {
+        this.containerEl = document.createElement('div');
+        this.containerEl.style.cssText = 'position:fixed; inset:0; pointer-events:none; z-index:30;';
+        document.body.appendChild(this.containerEl);
+
+        this.modalEl = document.createElement('div');
+        this.modalEl.style.pointerEvents = 'auto';
+        this.containerEl.appendChild(this.modalEl);
+
+        this.contentEl = document.createElement('div');
+        this.modalEl.appendChild(this.contentEl);
+
+        this.onOpen();
+    }
+
+    // Full teardown -- disposes the terminal and drops the WebSocket. Only
+    // called from plugin.onunload(), never from the toggle hotkey (that's
+    // hide()/show()) -- same split as before.
+    close() {
+        this.onClose();
+        this.containerEl?.remove();
+    }
 
     onOpen() {
         this.isOpen = true;
@@ -544,6 +580,7 @@ export class TerminalModal extends Modal {
         modalEl.style.border      = '1px solid #444';
         modalEl.style.boxShadow   = '0 8px 40px rgba(0,0,0,0.6)';
         modalEl.style.padding     = '0';
+        modalEl.style.background  = '#1a1a1a';
         modalEl.style.pointerEvents = 'auto';
 
         const settings = this.plugin.settings;
@@ -577,7 +614,7 @@ export class TerminalModal extends Modal {
         this.setupResizers(modalEl);
 
         const xtermWrap = contentEl.createEl('div');
-        xtermWrap.style.cssText = 'flex:1; overflow:hidden; padding:4px; min-height:0; box-sizing:border-box;';
+        xtermWrap.style.cssText = 'flex:1; overflow:hidden; padding:4px; min-height:0; box-sizing:border-box; background:#1a1a1a;';
 
         requestAnimationFrame(() => {
             this.initXterm(xtermWrap, () => {
@@ -600,7 +637,7 @@ export class TerminalModal extends Modal {
         this.buildTitleBar(this.persistentPaneEl, true);
 
         const xtermWrap = this.persistentPaneEl.createEl('div');
-        xtermWrap.style.cssText = 'flex:1; overflow:hidden; padding:4px; min-height:0; box-sizing:border-box;';
+        xtermWrap.style.cssText = 'flex:1; overflow:hidden; padding:4px; min-height:0; box-sizing:border-box; background:#1a1a1a;';
         this.xtermWrapEl = xtermWrap;
 
         const bottomSpacerHeight = '20px'; 

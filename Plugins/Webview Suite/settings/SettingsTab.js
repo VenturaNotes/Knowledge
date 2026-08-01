@@ -2,7 +2,8 @@
  * settings/SettingsTab.js
  *
  * Unified settings tab for all Webview Suite modules.
- * Toggles for each module + full domain/chord editor integrated into Commands.
+ * Includes module toggles, bypass domain managers, shortcut rules,
+ * and a manual PDF.js update checker.
  */
 
 import { PluginSettingTab, Setting, Notice } from 'obsidian';
@@ -22,7 +23,6 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
     // ── MODULE TOGGLES ──────────────────────────────────────────────────────
     containerEl.createEl('h3', { text: 'Modules' });
 
-    // "commands" is removed from this initial list so we can render it in its own section below
     const modules = [
       this.plugin.modules.adBlocker,
       this.plugin.modules.darkMode,
@@ -44,11 +44,11 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
             if (value) mod.onEnable(this.app);
             else mod.onDisable();
             await this.plugin.state.setModuleEnabled(mod.id, value);
-            this.display(); // Re-render to visually update nested items
+            this.display();
           })
         );
 
-      // Render Bypass List nested directly below the Dark Mode Toggle
+      // Render Bypass List nested directly below Dark Mode
       if (mod.id === 'darkMode') {
         const dmState = this.plugin.state.get('darkMode');
         const bypassDomains = dmState?.bypassDomains || [];
@@ -61,9 +61,7 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           border-left: 2px solid var(--background-modifier-border);
         `;
 
-        if (!mod.enabled) {
-          nestedContainer.style.opacity = '0.7';
-        }
+        if (!mod.enabled) nestedContainer.style.opacity = '0.7';
 
         nestedContainer.createEl('div', { 
           text: 'Bypass Domains', 
@@ -102,15 +100,9 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
               border-radius: 3px;
               background: var(--background-primary);
             `;
+            if (idx === bypassDomains.length - 1) row.style.marginBottom = '0';
             
-            if (idx === bypassDomains.length - 1) {
-              row.style.marginBottom = '0';
-            }
-            
-            row.createEl('span', { 
-              text: domain, 
-              style: 'font-family: var(--font-monospace); font-size: 13px;' 
-            });
+            row.createEl('span', { text: domain, style: 'font-family: var(--font-monospace); font-size: 13px;' });
             
             const deleteBtn = row.createEl('button', { text: 'Remove' });
             deleteBtn.style.cssText = 'cursor: pointer; padding: 2px 6px; font-size: 11px;';
@@ -129,12 +121,8 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           .addText(text => {
             text.setPlaceholder('aistudio.google.com');
             text.inputEl.style.width = '200px';
-            
             let tempDomain = '';
-            text.onChange(val => {
-              tempDomain = val.trim();
-            });
-
+            text.onChange(val => tempDomain = val.trim());
             text.inputEl.addEventListener('keydown', async (e) => {
               if (e.key === 'Enter') {
                 e.preventDefault();
@@ -163,7 +151,7 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           );
       }
 
-      // Render Bypass List nested directly below the Cloudflare Bypass Toggle
+      // Render Bypass List & PDF.js Manager nested directly below Cloudflare Bypass
       if (mod.id === 'cloudflareBypass') {
         const cbState = this.plugin.state.get('cloudflareBypass');
         const bypassDomains = cbState?.bypassDomains || [];
@@ -176,16 +164,14 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           border-left: 2px solid var(--background-modifier-border);
         `;
 
-        if (!mod.enabled) {
-          nestedContainer.style.opacity = '0.7';
-        }
+        if (!mod.enabled) nestedContainer.style.opacity = '0.7';
 
         nestedContainer.createEl('div', { 
           text: 'Bypass Domains', 
           style: 'font-weight: var(--font-semibold); margin-bottom: 6px; font-size: 14px;' 
         });
         nestedContainer.createEl('p', {
-          text: "Websites where Cloudflare Turnstile or WAF blocks standard Electron headers (e.g., leetcode.com, stackoverflow.com). The plugin will dynamically strip Electron/Obsidian strings from the User Agent, helping pass challenges.",
+          text: "Websites where Cloudflare Turnstile or WAF blocks standard Electron headers (e.g., leetcode.com, stackoverflow.com).",
           cls: 'setting-item-description',
           style: 'margin-bottom: 10px;'
         });
@@ -217,15 +203,9 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
               border-radius: 3px;
               background: var(--background-primary);
             `;
+            if (idx === bypassDomains.length - 1) row.style.marginBottom = '0';
             
-            if (idx === bypassDomains.length - 1) {
-              row.style.marginBottom = '0';
-            }
-            
-            row.createEl('span', { 
-              text: domain, 
-              style: 'font-family: var(--font-monospace); font-size: 13px;' 
-            });
+            row.createEl('span', { text: domain, style: 'font-family: var(--font-monospace); font-size: 13px;' });
             
             const deleteBtn = row.createEl('button', { text: 'Remove' });
             deleteBtn.style.cssText = 'cursor: pointer; padding: 2px 6px; font-size: 11px;';
@@ -244,12 +224,8 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           .addText(text => {
             text.setPlaceholder('leetcode.com');
             text.inputEl.style.width = '200px';
-            
             let tempDomain = '';
-            text.onChange(val => {
-              tempDomain = val.trim();
-            });
-
+            text.onChange(val => tempDomain = val.trim());
             text.inputEl.addEventListener('keydown', async (e) => {
               if (e.key === 'Enter') {
                 e.preventDefault();
@@ -276,6 +252,25 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
               }
             })
           );
+
+        // ── PDF.JS VIEWER SETTINGS BLOCK ─────────────────────────────────────
+        nestedContainer.createEl('div', { 
+          text: 'PDF.js Engine Settings', 
+          style: 'font-weight: var(--font-semibold); margin-top: 18px; margin-bottom: 6px; font-size: 14px;' 
+        });
+
+        const currentPdfJsVer = mod.getPdfJsVersion();
+
+        new Setting(nestedContainer)
+          .setName('PDF.js Version')
+          .setDesc(`Currently installed: ${currentPdfJsVer}`)
+          .addButton(btn => btn
+            .setButtonText('Check for Updates')
+            .onClick(async () => {
+              await mod.checkForPdfJsUpdates(this.app);
+              this.display();
+            })
+          );
       }
     }
 
@@ -294,17 +289,16 @@ export class WebviewSuiteSettingsTab extends PluginSettingTab {
           if (value) commandsModule.onEnable(this.app);
           else commandsModule.onDisable();
           await this.plugin.state.setModuleEnabled(commandsModule.id, value);
-          this.display(); // Re-render to update the disabled state block below
+          this.display();
         })
       );
 
-    // Render Rules Container and grey it out if command forwarding is disabled
     const rulesContainer = containerEl.createDiv({ cls: 'webview-suite-commands-rules-container' });
     rulesContainer.style.marginTop = '16px';
 
     if (!commandsModule.enabled) {
       rulesContainer.style.opacity = '0.5';
-      rulesContainer.style.pointerEvents = 'none'; // Lock modifications while disabled
+      rulesContainer.style.pointerEvents = 'none';
       
       const banner = rulesContainer.createDiv();
       banner.style.cssText = `
