@@ -1,0 +1,9 @@
+{
+  "id": "image-anchor",
+  "name": "Image Anchor",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Anchors images into floating windows with drag and zoom while inherently blocking native Obsidian image zoom.",
+  "author": "Julian",
+  "isDesktopOnly": true
+}

@@ -2779,13 +2779,13 @@ Year: 2021-09-01
 	
 	1591. monomorphism
 	1592. monotone convergence theorem
-	1593. monotonic function
-	1594. monotonic sequence
+	1593. [[monotonic function]]
+	1594. [[monotonic sequence]]
 	1595. Monte Carlo methods
 	1596. Monty Hall problem
 	1597. Moore-Penrose inverse
 	1598. Morera's Theorem
-	1599. morphism
+	1599. [[morphism]]
 	1600. Morse Theory
 	
 	1601. Moser's circle problem
