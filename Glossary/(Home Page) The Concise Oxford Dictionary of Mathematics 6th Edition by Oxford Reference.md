@@ -3577,13 +3577,13 @@ Year: 2021-09-01
 	2303. representation(of a vector)
 	2304. [[representation]]
 	2305. representative
-	2306. representative sample
-	2307. residual
-	2308. residual variation
+	2306. [[representative sample]]
+	2307. [[residual]]
+	2308. [[residual variation]]
 	2309. residue
 	
 	2310. resistant statistic
-	2311. resistive force
+	2311. [[resistive force]]
 	2312. resolution
 	2313. resonance
 	2314. [[response bias]]
