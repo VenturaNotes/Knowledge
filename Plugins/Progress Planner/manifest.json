@@ -1,0 +1,11 @@
+{
+	"id": "progress-planner",
+	"name": "Progress Planner",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "A simple progress planner for Obsidian",
+	"author": "Julian Ventura",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

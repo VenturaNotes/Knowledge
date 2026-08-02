@@ -98,6 +98,16 @@ export default class ProgressPlannerPlugin extends Plugin {
         this.refreshViews();
     }
 
+    /**
+     * Goal Containers are pure view-state presets (which goals a Focus Filter
+     * selection points at) — they don't change what the cache indexes, so this
+     * skips the full taskCache.initialize() that saveSettings() does.
+     */
+    async saveGoalContainers(containers: ProgressPlannerSettings["goalContainers"]) {
+        this.settings.goalContainers = containers;
+        await this.saveData(this.settings);
+    }
+
     async activateView(viewType: string) {
         const { workspace } = this.app;
         let leaf = workspace.getLeavesOfType(viewType)[0];
@@ -162,6 +172,17 @@ class ProgressPlannerSettingTab extends PluginSettingTab {
                         .split(",")
                         .map(p => p.trim())
                         .filter(p => p.length > 0);
+                    await this.plugin.saveSettings();
+                }));
+
+        new Setting(containerEl)
+            .setName("Quick Capture File")
+            .setDesc("Full vault path to the note that double-clicking empty canvas on the Dashboard appends new checkboxes to (e.g. Private/Tasks/(T) Daily.md). New tasks are inserted right after the frontmatter block.")
+            .addText(text => text
+                .setPlaceholder("Private/Tasks/(T) Daily.md")
+                .setValue(this.plugin.settings.quickCaptureFile)
+                .onChange(async (value) => {
+                    this.plugin.settings.quickCaptureFile = value.trim();
                     await this.plugin.saveSettings();
                 }));
     }
