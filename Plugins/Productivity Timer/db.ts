@@ -4,6 +4,8 @@ export class SupabaseClient {
 	private realtimeWs: WebSocket | null = null;
 	private realtimeCallbacks: Map<string, (payload: any) => void> = new Map();
 	private heartbeatInterval: any = null;
+	private lastMessageAt: number = Date.now();
+	private onStaleConnectionCallback: (() => void) | null = null;
 
 	private queue: any[] = [];
 	private onQueueChanged: (() => void) | null = null;
@@ -16,6 +18,13 @@ export class SupabaseClient {
 	public setQueue(queue: any[], onQueueChanged: () => void) {
 		this.queue = queue;
 		this.onQueueChanged = onQueueChanged;
+	}
+
+	// Called once, at plugin load. Lets the caller react when we detect the
+	// realtime connection has gone stale (see the heartbeat check below),
+	// instead of the caller needing to poll on its own timer.
+	public onStaleConnection(callback: () => void) {
+		this.onStaleConnectionCallback = callback;
 	}
 
 	private queueAction(type: "INSERT" | "UPDATE" | "DELETE", table: string, data?: any, match?: string) {
@@ -196,6 +205,7 @@ export class SupabaseClient {
 
 		ws.onopen = () => {
 			if (ws.readyState !== WebSocket.OPEN) return;
+			this.lastMessageAt = Date.now();
 			ws.send(JSON.stringify({
 				topic: `realtime:public:${table}`,
 				event: "phx_join",
@@ -217,6 +227,18 @@ export class SupabaseClient {
 			let refCounter = 2;
 			this.heartbeatInterval = setInterval(() => {
 				if (ws.readyState === WebSocket.OPEN) {
+					// If nothing has come back from the server (including replies to
+					// our own prior heartbeats) for well over two heartbeat cycles,
+					// the socket is almost certainly a "zombie" - it still reports
+					// OPEN, but the underlying connection is actually dead (this
+					// commonly happens after sleep/lock, or when App Nap is disabled
+					// so this process never itself detects a pause). Let the caller
+					// know so it can reconnect and pull fresh state, rather than
+					// silently sending heartbeats into the void indefinitely.
+					if (Date.now() - this.lastMessageAt > 45000) {
+						this.onStaleConnectionCallback?.();
+						return;
+					}
 					ws.send(JSON.stringify({
 						topic: "phoenix",
 						event: "heartbeat",
@@ -228,6 +250,7 @@ export class SupabaseClient {
 		};
 
 		ws.onmessage = (event) => {
+			this.lastMessageAt = Date.now();
 			try {
 				const msg = JSON.parse(event.data);
 				if (msg.event === "postgres_changes") {
@@ -254,6 +277,28 @@ export class SupabaseClient {
 	}
 
 	reconnect() {
+		// Force-tear-down the current socket unconditionally, regardless of what
+		// readyState currently reports. After a sleep/suspend cycle a WebSocket
+		// can still report OPEN even though the underlying connection is dead
+		// ("zombie" socket) - subscribeToTable's "already connected" safeguard
+		// would otherwise see that stale OPEN state and skip reconnecting entirely.
+		if (this.heartbeatInterval) {
+			clearInterval(this.heartbeatInterval);
+			this.heartbeatInterval = null;
+		}
+		if (this.realtimeWs) {
+			this.realtimeWs.onopen = null;
+			this.realtimeWs.onmessage = null;
+			this.realtimeWs.onerror = null;
+			this.realtimeWs.onclose = null;
+			try { this.realtimeWs.close(); } catch {}
+			this.realtimeWs = null;
+		}
+		if ((window as any).ptRealtimeWs) {
+			try { (window as any).ptRealtimeWs.close(); } catch {}
+			(window as any).ptRealtimeWs = null;
+		}
+
 		const callbacks = new Map(this.realtimeCallbacks);
 		this.realtimeCallbacks.clear();
 		for (const [table, callback] of callbacks.entries()) {

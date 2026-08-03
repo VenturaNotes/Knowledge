@@ -185,5 +185,32 @@ class ProgressPlannerSettingTab extends PluginSettingTab {
                     this.plugin.settings.quickCaptureFile = value.trim();
                     await this.plugin.saveSettings();
                 }));
+
+        containerEl.createEl("h3", { text: "Hub Node Collapsing" });
+
+        new Setting(containerEl)
+            .setName("Hub child threshold")
+            .setDesc("A node with more children than this is treated as a \"hub\" — only children meeting the minimum impact below render on the canvas by default, and the rest collapse into a \"+N\" badge on the parent (click to expand). Nodes at or under this threshold are never affected.")
+            .addText(text => text
+                .setPlaceholder("12")
+                .setValue(String(this.plugin.settings.hubChildThreshold))
+                .onChange(async (value) => {
+                    const parsed = parseInt(value, 10);
+                    this.plugin.settings.hubChildThreshold = Number.isFinite(parsed) && parsed > 0 ? parsed : 12;
+                    await this.plugin.saveSettings();
+                }));
+
+        new Setting(containerEl)
+            .setName("Hub minimum impact")
+            .setDesc("Under a hub node, only children tagged with this impact level or higher (#impact/low|medium|high) show on the canvas by default. Untagged and lower-impact children are still reachable via search in that node's inspector panel.")
+            .addDropdown(drop => drop
+                .addOption("low", "Low")
+                .addOption("medium", "Medium")
+                .addOption("high", "High")
+                .setValue(this.plugin.settings.hubMinImpact)
+                .onChange(async (value) => {
+                    this.plugin.settings.hubMinImpact = value as "low" | "medium" | "high";
+                    await this.plugin.saveSettings();
+                }));
     }
 }

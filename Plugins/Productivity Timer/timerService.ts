@@ -9,6 +9,59 @@ export class TimerService {
 		this.plugin = plugin;
 	}
 
+	// Local state (this.plugin.timers) can be stale - e.g. this device just woke
+	// from sleep and missed a realtime update, or another device started a task
+	// milliseconds ago and the change hasn't propagated yet. Before starting any
+	// timer, ask the database directly what's actually running and force-stop it,
+	// so we never end up with two timers marked is_running at once regardless of
+	// what the local UI currently believes.
+	private async stopServerRunningTimers(excludeId: string | null) {
+		let serverRunning: Timer[] = [];
+		try {
+			serverRunning = await this.plugin.db.select("timers", "is_running=eq.true");
+		} catch {
+			return; // best-effort; local stopping logic below still applies
+		}
+
+		const nowStr = this.plugin.getCalibratedISOString();
+
+		for (const row of serverRunning) {
+			if (row.id === excludeId) continue;
+
+			let duration = 0;
+			if (row.last_started_at) {
+				duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(row.last_started_at).getTime()) / 1000));
+				if (duration > 0) {
+					await this.plugin.db.insert("timer_segments", {
+						timer_id: row.id,
+						started_at: row.last_started_at,
+						ended_at: nowStr,
+						duration_seconds: duration
+					});
+				}
+			}
+
+			await this.plugin.db.update("timers", {
+				is_running: false,
+				is_rotation_running: false,
+				tracked_seconds: row.tracked_seconds + duration,
+				last_started_at: null
+			}, `id=eq.${row.id}`);
+
+			// Keep our local mirror consistent too, in case this row also exists
+			// in the in-memory list under stale state.
+			const local = this.plugin.timers.find(t => t.id === row.id);
+			if (local) {
+				if (local.is_running && local.last_started_at) {
+					local.tracked_seconds = row.tracked_seconds + duration;
+				}
+				local.is_running = false;
+				local.is_rotation_running = false;
+				local.last_started_at = null;
+			}
+		}
+	}
+
 	public async runWriteAction(action: () => Promise<void>) {
 		this.plugin.isWriting = true;
 		try {
@@ -43,6 +96,24 @@ export class TimerService {
 			if (t.is_running) {
 				const segment = segmentsToRecord.find(s => s.timer_id === t.id);
 				const finalTracked = segment ? t.tracked_seconds + segment.duration_seconds : t.tracked_seconds;
+
+				// getActiveTrackedSeconds() derives totals purely from t.segments,
+				// not from t.tracked_seconds. Without pushing this final segment
+				// locally, the duration just accrued (right up until "Done" was
+				// clicked) would be invisible to any total computed before the
+				// next full reload from the DB - e.g. the session entry built a
+				// few lines later in completeAll().
+				if (segment && segment.duration_seconds > 0) {
+					t.segments = t.segments || [];
+					t.segments.push({
+						id: `temp-${Date.now()}`,
+						timer_id: t.id,
+						started_at: segment.started_at,
+						ended_at: segment.ended_at,
+						duration_seconds: segment.duration_seconds
+					});
+				}
+
 				t.is_running = false;
 				t.last_started_at = null;
 				t.tracked_seconds = finalTracked;
@@ -158,6 +229,7 @@ export class TimerService {
 			));
 
 			if (isPlaying) {
+				await this.stopServerRunningTimers(parent.id);
 				await this.plugin.db.update("timers", { is_running: true, last_started_at: parent.last_started_at }, `id=eq.${parent.id}`);
 			}
 			await this.plugin.syncManager.loadTimers();
@@ -257,6 +329,7 @@ export class TimerService {
 			));
 
 			if (isPlaying) {
+				await this.stopServerRunningTimers(subtask.id);
 				await this.plugin.db.update("timers", { is_running: true, is_last_active: true, last_started_at: subtask.last_started_at }, `id=eq.${subtask.id}`);
 
 				const siblings = this.plugin.timers.filter(t => t.parent_id === subtask.parent_id && t.id !== subtask.id);
@@ -377,6 +450,7 @@ export class TimerService {
 			));
 
 			if (isPlaying) {
+				await this.stopServerRunningTimers(activeSub.id);
 				await this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${parent.id}`);
 
 				const siblings = this.plugin.timers.filter(t => t.parent_id === activeSub.parent_id && t.id !== activeSub.id);

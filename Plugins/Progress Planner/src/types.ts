@@ -72,11 +72,15 @@ export interface ProgressPlannerSettings {
     targetFolders: string[]; // List of target folders to look inside (e.g., ["Private", "Work"])
     quickCaptureFile: string; // Vault path a double-click on empty canvas appends new checkboxes to
     goalContainers: GoalContainer[]; // Saved multi-goal Focus Filter presets
+    hubChildThreshold: number; // A node with more children than this is a "hub" — only impact-qualifying children render on canvas by default, the rest collapse into a "+N" badge
+    hubMinImpact: "low" | "medium" | "high"; // Minimum impact level a hub's child needs to render on canvas by default
 }
 
 export const DEFAULT_SETTINGS: ProgressPlannerSettings = {
     skipPaths: [], // No paths skipped by default
     targetFolders: ["Private"],
     quickCaptureFile: "",
-    goalContainers: []
+    goalContainers: [],
+    hubChildThreshold: 12,
+    hubMinImpact: "medium"
 };

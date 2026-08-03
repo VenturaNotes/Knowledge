@@ -41,6 +41,17 @@ export default class ProductivityTimerPlugin extends Plugin {
 			await this.saveSettings();
 		});
 
+		// Fires only when the realtime socket has gone measurably silent (missed
+		// heartbeat replies) - not on any fixed schedule. This is the actual
+		// "we're back online" signal: it catches the case where this process's
+		// JS timers never paused (e.g. NSAppSleepDisabled, or a screen lock that
+		// isn't a full system sleep) but the underlying connection still died.
+		this.db.onStaleConnection(() => {
+			this.performFullResync();
+		});
+
+		this.setupPowerMonitor();
+
 		this.registerView(
 			VIEW_TYPE_PRODUCTIVITY_TIMER,
 			(leaf) => new ProductivityTimerView(leaf, this)
@@ -58,7 +69,12 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 		// Handle raw connection-state changes
 		this.registerDomEvent(window, "online", async () => {
-			await this.syncManager.syncOfflineActions();
+			// Previously this only refreshed state if there was a queued offline
+			// action to flush, which meant a laptop that slept (wifi never truly
+			// dropped, so no queue built up) got no benefit from this listener.
+			// Always do a full resync here as a second safety net alongside the
+			// sleep/wake drift detection in startBackgroundTick.
+			await this.performFullResync();
 		});
 
 		// Instantly update the UI connection badges the moment the device goes offline
@@ -69,17 +85,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		// Listen for app-foregrounding transitions (especially on Android and iOS devices)
 		this.registerDomEvent(document, "visibilitychange", async () => {
 			if (document.visibilityState === "visible") {
-				try {
-					await this.syncManager.syncOfflineActions();
-					await this.syncManager.loadTimers();
-					await this.syncManager.loadSessions();
-					this.refreshUI();
-					if (this.db) {
-						this.db.reconnect();
-					}
-				} catch (e) {
-					console.error("Productivity Timer: failed to sync state on resume.", e);
-				}
+				await this.performFullResync();
 			}
 		});
 
@@ -93,33 +99,15 @@ export default class ProductivityTimerPlugin extends Plugin {
 				const eventType = (data.eventType || payload.eventType || payload.event || payload.type || "UPDATE").toUpperCase();
 
 				if (eventType === "UPDATE" && (data.new || payload.new)) {
-					const incoming = data.new || payload.new;
-					const localRunning = this.timers.find(t => t.is_running);
-					
-					if (localRunning && incoming.is_running && incoming.id !== localRunning.id) {
-						const nowStr = this.getCalibratedISOString();
-						const start = localRunning.last_started_at;
-						if (start) {
-							const activeTracked = this.getActiveTrackedSeconds(localRunning);
-							const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
-							if (duration > 0) {
-								await this.timerService.runWriteAction(async () => {
-									await this.db.insert("timer_segments", {
-										timer_id: localRunning.id,
-										started_at: start,
-										ended_at: nowStr,
-										duration_seconds: duration
-									});
-									await this.db.update("timers", {
-										is_running: false,
-										is_rotation_running: false,
-										tracked_seconds: activeTracked,
-										last_started_at: null
-									}, `id=eq.${localRunning.id}`);
-								});
-							}
-						}
-					}
+					// Intentionally no longer attempting to "correct" a stale locally-running
+					// timer here. This used to compute a duration from this client's own
+					// (possibly very stale, post-sleep) clock against a locally-cached
+					// last_started_at, which could produce a bogus multi-hour segment if this
+					// device's local state was out of date. Closing out a timer that's actually
+					// running elsewhere is handled authoritatively by stopServerRunningTimers()
+					// (run by whichever device starts a new timer) and reconcileRunningTimers()
+					// (which reasons from real known timestamps, not this client's current time).
+					// This handler's only job is to make sure we reload fresh state.
 				}
 
 				// Debounce the load requests on incoming events to avoid concurrent REST race conditions
@@ -145,7 +133,44 @@ export default class ProductivityTimerPlugin extends Plugin {
 			window.removeEventListener("keydown", this.overlayKeydownListener, true);
 			this.overlayKeydownListener = null;
 		}
+		if (this.powerMonitorCleanup) {
+			this.powerMonitorCleanup();
+			this.powerMonitorCleanup = null;
+		}
 		this.db.disconnect();
+	}
+
+	private powerMonitorCleanup: (() => void) | null = null;
+
+	// Electron's powerMonitor gives us genuine OS-level "resume" (woke from real
+	// sleep) and "unlock-screen" (screen unlocked, whether or not a full sleep
+	// happened) events - a real push notification from macOS, not something we
+	// have to poll or infer. This lives in Electron's main process; Obsidian
+	// exposes it to its renderer windows via the remote module, which plugins
+	// can reach too, but it's not official Obsidian API. Guarded so that if it's
+	// ever unavailable (a future Obsidian/Electron version, or mobile), the
+	// heartbeat-silence and JS-timer-drift checks already in place still cover
+	// us - just not quite as instantly for the screen-lock-without-sleep case.
+	private setupPowerMonitor() {
+		if (Platform.isMobile) return;
+		try {
+			// @ts-ignore - remote is not part of Obsidian's public type surface
+			const electron = require("electron");
+			const powerMonitor = electron?.remote?.powerMonitor;
+			if (!powerMonitor) return;
+
+			const onWake = () => { this.performFullResync(); };
+
+			powerMonitor.on("resume", onWake);
+			powerMonitor.on("unlock-screen", onWake);
+
+			this.powerMonitorCleanup = () => {
+				powerMonitor.removeListener("resume", onWake);
+				powerMonitor.removeListener("unlock-screen", onWake);
+			};
+		} catch (e) {
+			console.log("Productivity Timer: native power-monitor events unavailable, relying on heartbeat/drift detection instead.", e);
+		}
 	}
 
 	public getCalibratedISOString(): string {
@@ -179,6 +204,42 @@ export default class ProductivityTimerPlugin extends Plugin {
 		this.updateStatusBar();
 	}
 
+	private resyncInFlight = false;
+
+	public async performFullResync(attempt = 0): Promise<void> {
+		if (attempt === 0) {
+			if (this.resyncInFlight) return;
+			this.resyncInFlight = true;
+		}
+		try {
+			if (this.db) {
+				this.db.reconnect();
+			}
+			await this.syncManager.syncOfflineActions();
+			await this.syncManager.loadTimers();
+			await this.syncManager.loadSessions();
+			this.refreshUI();
+		} catch (e) {
+			// Right after a sleep/resume, the OS network interface is often not
+			// actually usable yet for a second or two even though navigator.onLine
+			// already reports true - a fetch fired immediately tends to fail once.
+			// Retry a few times with a short delay before giving up, instead of
+			// silently falling back to stale cached data.
+			console.error(`Productivity Timer: resync attempt ${attempt} failed.`, e);
+			if (attempt < 3) {
+				await new Promise(resolve => setTimeout(resolve, 1500));
+				await this.performFullResync(attempt + 1);
+				return;
+			}
+		} finally {
+			if (attempt === 0) {
+				this.resyncInFlight = false;
+			}
+		}
+	}
+
+	private lastTickTime = Date.now();
+
 	private startBackgroundTick() {
 		if (this.bgTickInterval) window.clearInterval(this.bgTickInterval);
 
@@ -186,7 +247,24 @@ export default class ProductivityTimerPlugin extends Plugin {
 			this.refreshUI();
 		});
 
+		this.lastTickTime = Date.now();
+
 		this.bgTickInterval = window.setInterval(async () => {
+			const now = Date.now();
+			const drift = now - this.lastTickTime;
+			this.lastTickTime = now;
+
+			// This interval is scheduled every 1000ms. If far more time than that
+			// actually elapsed between ticks, the device almost certainly slept
+			// (or the process was suspended) in between. Sleep/wake never fires
+			// "visibilitychange" on desktop (the window stays "visible" the whole
+			// time - only the OS is suspended), and the realtime websocket can
+			// silently go stale during that time without ever firing onclose/onerror.
+			// Treat a large gap as a resume event and force a full resync.
+			if (drift > 5000) {
+				await this.performFullResync();
+			}
+
 			const running = this.timers.find(t => t.is_running);
 			if (running) {
 				const trueSeconds = this.getActiveTrackedSeconds(running);
