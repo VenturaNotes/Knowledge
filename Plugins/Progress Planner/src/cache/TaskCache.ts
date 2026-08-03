@@ -10,8 +10,6 @@ export class TaskCache {
         agendaItems: AgendaItem[];
     }> = new Map();
 
-    // --- Checkbox graph state, kept per-file so a single edit only ever
-    // re-parses the one file that changed, never the whole vault. ---
     private checkboxNodesByFile: Map<string, CheckboxNode[]> = new Map();
     private edgesByFile: Map<string, GraphEdge[]> = new Map();
 
@@ -24,11 +22,6 @@ export class TaskCache {
         this.settings = settings;
     }
 
-    /**
-     * Reads an #impact/low|medium|high tag out of a list of already-lowercased
-     * tag strings. Optional by design — most nodes won't have one, and an
-     * untagged node just renders with no impact indicator at all.
-     */
     private parseImpact(tags: string[]): "" | "low" | "medium" | "high" {
         for (const t of tags) {
             const m = t.match(/^#?impact\/(low|medium|high)$/);
@@ -77,19 +70,29 @@ export class TaskCache {
         let dashboardNode: TaskNode | null = null;
         const agendaItems: AgendaItem[] = [];
 
-        // --- 1. Dashboard Cache Processing (unchanged from before) ---
         const statusStr = String(fm.status || "").toLowerCase();
         const hasValidStatus = !["done", "canceled"].includes(statusStr);
 
         if ((isTask || isGoal) && hasValidStatus) {
-            const rawParent = fm.parent || [];
-            const parentNames = (Array.isArray(rawParent) ? rawParent : [rawParent])
-                .map(p => {
-                    const parts = String(p).replace(/[\[\]]/g, "").split("|");
-                    const basePart = parts[0];
-                    return basePart ? basePart.trim() : "";
-                })
-                .filter(p => p.length > 0);
+            const rawParent = fm.parent || fm.parents || fm.Parent || fm.Parents || fm.up || fm.project || [];
+            const rawParentArray = Array.isArray(rawParent) ? rawParent : [rawParent];
+
+            const fmLinks = (cache.frontmatterLinks || []).map((l: any) => l.link);
+            const combinedParentStrings = [...rawParentArray, ...fmLinks];
+
+            const parentNames = [...new Set(
+                combinedParentStrings
+                    .map(p => {
+                        if (!p) return "";
+                        const clean = String(p)
+                            .replace(/[\[\]]/g, "")
+                            .split("#")[0]
+                            ?.split("|")[0]
+                            ?.trim();
+                        return clean || "";
+                    })
+                    .filter(p => p.length > 0)
+            )];
 
             dashboardNode = {
                 id: file.path,
@@ -108,7 +111,6 @@ export class TaskCache {
             };
         }
 
-        // --- 2. Agenda Cache Processing (unchanged — powers AgendaView's calendar) ---
         const parseTime = (tStr: string | null) => {
             if (!tStr) return "";
             const m = (window as any).moment(tStr, ["HH:mm", "HH:mm:ss", "h:mmA", "h:mm A", "hh:mm a", "H:mm"]);
@@ -202,12 +204,6 @@ export class TaskCache {
 
         this.fileCache.set(file.path, { dashboardNode, agendaItems });
 
-        // --- 3. Checkbox graph processing (new) ---
-        // Every checkbox line becomes a node whether or not it currently links
-        // to anything. A checkbox with no anchor and no links just ends up with
-        // parents.length === 0 && children.length === 0 once edges are wired in
-        // getGraphNodes() — that's exactly what makes it an "orphan" for the
-        // sidebar list, no separate bookkeeping required.
         const { nodes, byLine } = this.parseCheckboxNodes(file, lines, cache);
         this.checkboxNodesByFile.set(file.path, nodes);
         this.edgesByFile.set(file.path, this.resolveEdgesForFile(file, cache, byLine));
@@ -219,17 +215,13 @@ export class TaskCache {
         this.edgesByFile.delete(path);
     }
 
-    // ------------------------------------------------------------------
-    // Checkbox graph: parsing
-    // ------------------------------------------------------------------
-
     private parseCheckboxNodes(file: TFile, lines: string[], cache: any): { nodes: CheckboxNode[]; byLine: Map<number, CheckboxNode> } {
         const listItems: any[] = cache?.listItems ?? [];
         const nodes: CheckboxNode[] = [];
         const byLine = new Map<number, CheckboxNode>();
 
         for (const item of listItems) {
-            if (item.task === undefined) continue; // not a checkbox line
+            if (item.task === undefined) continue;
             const lineIdx = item.position.start.line;
             const rawLine = lines[lineIdx] ?? "";
 
@@ -244,8 +236,8 @@ export class TaskCache {
             const title = rawLine
                 .replace(/^\s*-\s*\[.\]\s*/, "")
                 .replace(/\^[a-zA-Z0-9-]+\s*$/, "")
-                .replace(/\[\[[^\]]+\]\]/g, "") // strip parent-link wikilinks from the display title
-                .replace(/(?:^|\s)#impact\/(?:low|medium|high)\b/i, "") // impact is metadata, not task text
+                .replace(/\[\[[^\]]+\]\]/g, "")
+                .replace(/(?:^|\s)#impact\/(?:low|medium|high)\b/i, "")
                 .trim();
 
             const node: CheckboxNode = {
@@ -271,19 +263,17 @@ export class TaskCache {
         return { nodes, byLine };
     }
 
-    /**
-     * Resolves the edges THIS file contributes, using cache.links (already
-     * parsed by Obsidian's own MetadataCache — no custom wikilink regex needed).
-     * A link with a #^anchor fragment means "parent is that checkbox";
-     * a plain file link means "parent is that file's TaskNode".
-     */
     private resolveEdgesForFile(file: TFile, cache: any, byLine: Map<number, CheckboxNode>): GraphEdge[] {
         const links: any[] = cache?.links ?? [];
         const edges: GraphEdge[] = [];
 
+        for (const childNode of byLine.values()) {
+            edges.push({ parentId: file.path, childId: childNode.id });
+        }
+
         for (const link of links) {
             const childNode = byLine.get(link.position.start.line);
-            if (!childNode) continue; // link isn't sitting on a checkbox line in this file
+            if (!childNode) continue;
 
             const [linkPath = "", anchor] = String(link.link).split("#^");
             if (!linkPath) continue;
@@ -302,13 +292,6 @@ export class TaskCache {
         return dest ? dest.path : null;
     }
 
-    /**
-     * Appends a new checkbox line to the configured quick-capture file, right
-     * after its frontmatter block (or at the very top if it has none). Used by
-     * the "double-click empty canvas" flow in DashboardView — this deliberately
-     * does NOT set a parent link, since the whole point is frictionless capture
-     * without having to think about hierarchy first.
-     */
     async quickCaptureTask(text: string): Promise<void> {
         const path = this.settings.quickCaptureFile;
         if (!path) {
@@ -328,22 +311,14 @@ export class TaskCache {
         const fmEndLine = cache?.frontmatterPosition?.end?.line;
 
         if (fmEndLine !== undefined && fmEndLine >= 0 && fmEndLine < lines.length) {
-            // Insert right after the closing "---" of the frontmatter block,
-            // pushing everything below it down by one line.
             lines.splice(fmEndLine + 1, 0, newLine);
         } else {
-            // No frontmatter — insert at the very top of the file.
             lines.unshift(newLine);
         }
 
         await this.app.vault.modify(file, lines.join("\n"));
     }
 
-    // ------------------------------------------------------------------
-    // Checkbox graph: write-back helpers
-    // ------------------------------------------------------------------
-
-    /** Ensures the checkbox at `line` has a block anchor, generating one if needed. Returns the anchor id. */
     async ensureBlockAnchor(file: TFile, line: number): Promise<string> {
         const content = await this.app.vault.read(file);
         const lines = content.split("\n");
@@ -356,7 +331,6 @@ export class TaskCache {
         return newId;
     }
 
-    /** Appends a new checkbox line to `file`, auto-generating its anchor, optionally pre-linked to a parent. */
     async addCheckboxSubtask(file: TFile, text: string, parentLink?: string): Promise<void> {
         const content = await this.app.vault.read(file);
         const anchor = `tsk-${Math.random().toString(36).slice(2, 8)}`;
@@ -366,10 +340,6 @@ export class TaskCache {
         await this.app.vault.modify(file, content + sep + newLine + "\n");
     }
 
-    /**
-     * Convenience wrapper: add a subtask underneath any GraphNode (file or checkbox),
-     * landing the new checkbox line in the same file the parent lives in.
-     */
     async addSubtaskUnder(parent: GraphNode, text: string): Promise<void> {
         let parentLink: string;
         let targetFile: TFile;
@@ -388,7 +358,6 @@ export class TaskCache {
         await this.addCheckboxSubtask(targetFile, text, parentLink);
     }
 
-    /** Links an existing checkbox to a new parent (file or checkbox) by inserting a wikilink into its line. */
     async linkNodeToParent(child: CheckboxNode, parent: GraphNode): Promise<void> {
         let parentLink: string;
 
@@ -403,9 +372,8 @@ export class TaskCache {
         const content = await this.app.vault.read(child.sourceFile);
         const lines = content.split("\n");
         const lineText = lines[child.sourceLine] ?? "";
-        if (lineText.includes(parentLink)) return; // already linked
+        if (lineText.includes(parentLink)) return;
 
-        // Insert the link right before the trailing block anchor (if any) so the anchor stays last on the line
         const anchorMatch = lineText.match(/(\s*\^[a-zA-Z0-9-]+)\s*$/);
         lines[child.sourceLine] = anchorMatch
             ? lineText.slice(0, anchorMatch.index) + ` ${parentLink}` + anchorMatch[0]
@@ -414,7 +382,6 @@ export class TaskCache {
         await this.app.vault.modify(child.sourceFile, lines.join("\n"));
     }
 
-    /** Removes an existing wikilink to `parent` from `child`'s line, undoing linkNodeToParent. */
     async unlinkFromParent(child: CheckboxNode, parent: GraphNode): Promise<void> {
         let parentLink: string;
 
@@ -422,7 +389,7 @@ export class TaskCache {
             parentLink = `[[${(parent as TaskNode).basename}]]`;
         } else {
             const p = parent as CheckboxNode;
-            if (!p.blockId) return; // no anchor means nothing could have linked to it
+            if (!p.blockId) return;
             parentLink = `[[${p.sourceFile.basename}#^${p.blockId}]]`;
         }
 
@@ -435,12 +402,6 @@ export class TaskCache {
         await this.app.vault.modify(child.sourceFile, lines.join("\n"));
     }
 
-    /**
-     * Toggles a checkbox's status. Prefers the live Editor when the file is
-     * already open, since that avoids racing against a stale line index if the
-     * user is actively editing the same file — falls back to a direct vault
-     * write when it's closed.
-     */
     async toggleCheckboxStatus(file: TFile, line: number): Promise<void> {
         const openLeaf = this.app.workspace.getLeavesOfType("markdown")
             .find(l => (l.view as MarkdownView)?.file?.path === file.path);
@@ -463,16 +424,6 @@ export class TaskCache {
         return lineText.replace(/\[.\]/, m => (m === "[ ]" ? "[x]" : "[ ]"));
     }
 
-    // ------------------------------------------------------------------
-    // Unified graph accessor
-    // ------------------------------------------------------------------
-
-    /**
-     * Builds the full unified graph (TaskNodes + CheckboxNodes, fully wired
-     * with children/parents) fresh on every call. This is O(total nodes +
-     * total edges) — array pushes, not re-parsing — so it's fine to call
-     * once per render(), same cost category as the old getDashboardTasks().
-     */
     getGraphNodes(): GraphNode[] {
         const allNodes: GraphNode[] = [];
         const nodesById = new Map<string, GraphNode>();
@@ -493,26 +444,53 @@ export class TaskCache {
             });
         }
 
-        // 1. Wire file-level frontmatter `parent:` edges (unchanged logic from before)
-        const titleToNode = new Map<string, GraphNode>();
+        const titleToNodes = new Map<string, TaskNode[]>();
         allNodes.forEach(n => {
             if (n.kind === "file") {
-                titleToNode.set(n.title.toLowerCase().trim(), n);
-                titleToNode.set((n as TaskNode).basename.toLowerCase().trim(), n);
+                const fileNode = n as TaskNode;
+                const keys = [
+                    fileNode.title.toLowerCase().trim(),
+                    fileNode.basename.toLowerCase().trim(),
+                    fileNode.file.path.toLowerCase().trim()
+                ];
+                keys.forEach(k => {
+                    if (k) {
+                        if (!titleToNodes.has(k)) titleToNodes.set(k, []);
+                        const arr = titleToNodes.get(k)!;
+                        if (!arr.includes(fileNode)) arr.push(fileNode);
+                    }
+                });
             }
         });
+
         allNodes.forEach(n => {
             if (n.kind !== "file") return;
-            (n as TaskNode).parentNames.forEach(pName => {
-                const parentObj = titleToNode.get(pName.toLowerCase());
-                if (parentObj) {
-                    if (!parentObj.children.includes(n)) parentObj.children.push(n);
-                    if (!n.parents.includes(parentObj)) n.parents.push(parentObj);
+            const childFileNode = n as TaskNode;
+
+            childFileNode.parentNames.forEach(pName => {
+                const matchedParents: GraphNode[] = [];
+
+                const dest = this.app.metadataCache.getFirstLinkpathDest(pName, childFileNode.file.path);
+                if (dest) {
+                    const resolved = nodesById.get(dest.path);
+                    if (resolved) matchedParents.push(resolved);
                 }
+
+                if (matchedParents.length === 0) {
+                    const cleanPName = pName.toLowerCase().trim();
+                    const candidates = titleToNodes.get(cleanPName) || [];
+                    matchedParents.push(...candidates);
+                }
+
+                matchedParents.forEach(parentObj => {
+                    if (parentObj && parentObj !== childFileNode) {
+                        if (!parentObj.children.includes(childFileNode)) parentObj.children.push(childFileNode);
+                        if (!childFileNode.parents.includes(parentObj)) childFileNode.parents.push(parentObj);
+                    }
+                });
             });
         });
 
-        // 2. Wire block-reference edges (checkbox -> checkbox, checkbox -> file)
         for (const [, edges] of this.edgesByFile.entries()) {
             edges.forEach(({ parentId, childId }) => {
                 const parent = nodesById.get(parentId);
@@ -524,8 +502,6 @@ export class TaskCache {
             });
         }
 
-        // 3. Level propagation — capped so a link cycle (possible now that
-        // multi-parent checkboxes exist) can't spin forever.
         let changed = true;
         let iterations = 0;
         while (changed && iterations++ < allNodes.length + 10) {
@@ -543,7 +519,6 @@ export class TaskCache {
         return allNodes;
     }
 
-    /** Retained for anything still keying off file-only nodes (e.g. settings UI, future use). */
     getDashboardTasks(): TaskNode[] {
         return this.getGraphNodes().filter((n): n is TaskNode => n.kind === "file");
     }

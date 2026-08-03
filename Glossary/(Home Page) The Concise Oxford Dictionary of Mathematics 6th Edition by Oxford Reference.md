@@ -3227,14 +3227,15 @@ Year: 2021-09-01
 	1992. point-set topology
 		1. A synonym for GENERAL TOPOLOGY.
 	1993. point estimate
-	1994. points at infinity
-	1995. pointwise convergence
+		1. See ESTIMATE.
+	1994. [[points at infinity]]
+	1995. [[pointwise convergence]]
 	1996. Poisson's equation
 	1997. Poisson's integral formula
 	1998. Poisson, Siméon-Denis (1781-1840)
 	1999. Poisson distribution
 	
-	2000. Poisson process
+	2000. [[Poisson process]]
 	2001. polar
 	2002. polar coordinates
 	2003. polar decomposition
