@@ -15,7 +15,7 @@ export class TimerService {
 	// timer, ask the database directly what's actually running and force-stop it,
 	// so we never end up with two timers marked is_running at once regardless of
 	// what the local UI currently believes.
-	private async stopServerRunningTimers(excludeId: string | null) {
+	private async stopServerRunningTimers(excludeIds: string[]) {
 		let serverRunning: Timer[] = [];
 		try {
 			serverRunning = await this.plugin.db.select("timers", "is_running=eq.true");
@@ -26,7 +26,7 @@ export class TimerService {
 		const nowStr = this.plugin.getCalibratedISOString();
 
 		for (const row of serverRunning) {
-			if (row.id === excludeId) continue;
+			if (excludeIds.includes(row.id)) continue;
 
 			let duration = 0;
 			if (row.last_started_at) {
@@ -229,7 +229,7 @@ export class TimerService {
 			));
 
 			if (isPlaying) {
-				await this.stopServerRunningTimers(parent.id);
+				await this.stopServerRunningTimers([parent.id, ...timersToStop.map(t => t.id)]);
 				await this.plugin.db.update("timers", { is_running: true, last_started_at: parent.last_started_at }, `id=eq.${parent.id}`);
 			}
 			await this.plugin.syncManager.loadTimers();
@@ -329,7 +329,7 @@ export class TimerService {
 			));
 
 			if (isPlaying) {
-				await this.stopServerRunningTimers(subtask.id);
+				await this.stopServerRunningTimers([subtask.id, ...timersToStop.map(t => t.id)]);
 				await this.plugin.db.update("timers", { is_running: true, is_last_active: true, last_started_at: subtask.last_started_at }, `id=eq.${subtask.id}`);
 
 				const siblings = this.plugin.timers.filter(t => t.parent_id === subtask.parent_id && t.id !== subtask.id);
@@ -450,7 +450,7 @@ export class TimerService {
 			));
 
 			if (isPlaying) {
-				await this.stopServerRunningTimers(activeSub.id);
+				await this.stopServerRunningTimers([activeSub.id, parent.id, ...timersToStop.map(t => t.id)]);
 				await this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${parent.id}`);
 
 				const siblings = this.plugin.timers.filter(t => t.parent_id === activeSub.parent_id && t.id !== activeSub.id);

@@ -4300,7 +4300,7 @@ Year: 2021-09-01
 	2948. unit matrix
 	2949. unit square
 	
-	2950. unit vector
+	2950. [[unit vector]]
 	2951. unity
 	2952. [[univalent]]
 	2953. universal covering space
@@ -4312,10 +4312,12 @@ Year: 2021-09-01
 	2959. unknown
 	
 	2960. unstable equilibrium
+		1. See EQUILIBRIUM.
 	2961. upper bound
+		1. See BOUND.
 	2962. upper limit
 	2963. upper triangular matrix
-	2964. Urysohn's lemma
+	2964. [[Urysohn's lemma]]
 	2965. [[utility]]
 	2966. utility function
 	2967. V
@@ -4381,7 +4383,7 @@ Year: 2021-09-01
 	3021. volume of a solid of revolution
 	3022. Von Neumann, John (1903-57)
 	3023. vortex
-	3024. vorticity
+	3024. [[vorticity]]
 	3025. vulgar fraction
 	3026. W
 	3027. walk(in graph theory)

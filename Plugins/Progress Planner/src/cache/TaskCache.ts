@@ -41,27 +41,43 @@ export class TaskCache {
         const skipPaths = this.settings.skipPaths;
         const targetFolders = this.settings.targetFolders;
 
-        if (skipPaths.some(p => file.path.includes(p))) {
+        if (skipPaths.some((p: string) => file.path.includes(p))) {
             this.removeFile(file.path);
             return;
         }
 
-        const isInTargetFolder = targetFolders.length === 0 || targetFolders.some(folder => file.path.startsWith(folder));
+        const isInTargetFolder = targetFolders.length === 0 || targetFolders.some((folder: string) => file.path.startsWith(folder));
 
         if (!isInTargetFolder) {
             this.removeFile(file.path);
             return;
         }
 
-        const cache = this.app.metadataCache.getFileCache(file);
+        let cache = this.app.metadataCache.getFileCache(file);
+        
+        let retries = 0;
+        while (!cache && retries < 4) {
+            await new Promise(r => setTimeout(r, 150));
+            cache = this.app.metadataCache.getFileCache(file);
+            retries++;
+        }
+
         if (!cache) {
             this.removeFile(file.path);
             return;
         }
 
         const fm = cache.frontmatter || {};
-        const cacheTags = (cache.tags || []).map(t => t.tag.toLowerCase());
-        const fmTags = (Array.isArray(fm.tags) ? fm.tags : [fm.tags]).map(t => String(t || "").toLowerCase());
+        const cacheTags = (cache.tags || []).map((t: any) => t.tag.toLowerCase());
+        
+        let rawFmTags = fm.tags || fm.tag;
+        if (typeof rawFmTags === 'string') {
+            rawFmTags = rawFmTags.split(',').map((t: string) => t.trim());
+        } else if (!Array.isArray(rawFmTags)) {
+            rawFmTags = rawFmTags ? [rawFmTags] : [];
+        }
+        const fmTags: string[] = rawFmTags.map((t: any) => String(t || "").toLowerCase());
+        
         const combinedTags = [...new Set([...cacheTags, ...fmTags])];
 
         const isTask = combinedTags.some(t => t.includes("task"));
@@ -82,7 +98,7 @@ export class TaskCache {
 
             const parentNames = [...new Set(
                 combinedParentStrings
-                    .map(p => {
+                    .map((p: any) => {
                         if (!p) return "";
                         const clean = String(p)
                             .replace(/[\[\]]/g, "")
@@ -91,7 +107,7 @@ export class TaskCache {
                             ?.trim();
                         return clean || "";
                     })
-                    .filter(p => p.length > 0)
+                    .filter((p: string) => p.length > 0)
             )];
 
             dashboardNode = {
@@ -99,7 +115,7 @@ export class TaskCache {
                 kind: "file",
                 file: file,
                 basename: file.basename,
-                title: fm.title || file.basename,
+                title: fm.title ? String(fm.title) : file.basename,
                 isGoal: isGoal,
                 isTask: isTask,
                 parentNames: parentNames,
@@ -107,7 +123,7 @@ export class TaskCache {
                 parents: [],
                 level: 0,
                 status: statusStr,
-                impact: this.parseImpact(combinedTags)
+                impact: this.parseImpact(fmTags)
             };
         }
 
@@ -126,8 +142,8 @@ export class TaskCache {
             .trim();
 
         const projectTags = fmTags
-            .filter(t => String(t).toLowerCase() !== "task" && t.length > 0)
-            .map(t => String(t).startsWith('#') ? t : '#' + t)
+            .filter((t: string) => String(t).toLowerCase() !== "task" && t.length > 0)
+            .map((t: string) => String(t).startsWith('#') ? t : '#' + t)
             .join(" ");
 
         const fileDateRaw = fm.scheduled || fm.due || fm.date;
@@ -143,14 +159,14 @@ export class TaskCache {
 
         const rawCompleteInstances = fm.complete_instances;
         const completeInstances = Array.isArray(rawCompleteInstances)
-            ? rawCompleteInstances.map(d => {
+            ? rawCompleteInstances.map((d: any) => {
                 const m = (window as any).moment(d);
                 return m.isValid() ? m.format("YYYY-MM-DD") : null;
-              }).filter((d): d is string => d !== null)
+              }).filter((d: any): d is string => d !== null)
             : [];
 
         agendaItems.push({
-            text: cleanText(fm.title || file.basename),
+            text: cleanText(fm.title ? String(fm.title) : file.basename),
             status: isFileDone ? "x" : " ",
             date: fileDate,
             rrule: rrule,
@@ -166,7 +182,7 @@ export class TaskCache {
         const content = await this.app.vault.cachedRead(file);
         const lines = content.split("\n");
 
-        lines.forEach((l, i) => {
+        lines.forEach((l: string, i: number) => {
             const m = l.match(/- \[(.)\] (.*)/);
             if (m) {
                 const statusVal = m[1] || " ";
@@ -180,7 +196,7 @@ export class TaskCache {
 
                 const inlineTagsMatch = textVal.match(/(?:^|\s)(#[^\s#]+)/g);
                 const inlineTags = inlineTagsMatch
-                    ? inlineTagsMatch.map(t => t.trim()).filter(t => t.toLowerCase() !== "#task").join(" ")
+                    ? inlineTagsMatch.map((t: string) => t.trim()).filter((t: string) => t.toLowerCase() !== "#task").join(" ")
                     : "";
 
                 const tM = textVal.match(/⏰\s*(\d{1,2}:\d{2}(?:\s?[APMapm]{2})?)/);
@@ -230,7 +246,7 @@ export class TaskCache {
             const id = blockId ? `${file.path}#^${blockId}` : `${file.path}::${lineIdx}`;
 
             const inlineTagsMatch = rawLine.match(/(?:^|\s)(#[^\s#]+)/g);
-            const inlineTags = inlineTagsMatch ? inlineTagsMatch.map(t => t.trim().toLowerCase()) : [];
+            const inlineTags = inlineTagsMatch ? inlineTagsMatch.map((t: string) => t.trim().toLowerCase()) : [];
             const impact = this.parseImpact(inlineTags);
 
             const title = rawLine
@@ -265,10 +281,30 @@ export class TaskCache {
 
     private resolveEdgesForFile(file: TFile, cache: any, byLine: Map<number, CheckboxNode>): GraphEdge[] {
         const links: any[] = cache?.links ?? [];
+        const listItems: any[] = cache?.listItems ?? [];
         const edges: GraphEdge[] = [];
 
-        for (const childNode of byLine.values()) {
-            edges.push({ parentId: file.path, childId: childNode.id });
+        const lineToItem = new Map<number, any>();
+        listItems.forEach(item => {
+            lineToItem.set(item.position.start.line, item);
+        });
+
+        for (const [lineIdx, childNode] of byLine.entries()) {
+            let parentLine = lineToItem.get(lineIdx)?.parent;
+            let foundParentCheckbox = false;
+
+            while (parentLine !== undefined && parentLine >= 0) {
+                if (byLine.has(parentLine)) {
+                    edges.push({ parentId: byLine.get(parentLine)!.id, childId: childNode.id });
+                    foundParentCheckbox = true;
+                    break;
+                }
+                parentLine = lineToItem.get(parentLine)?.parent;
+            }
+
+            if (!foundParentCheckbox) {
+                edges.push({ parentId: file.path, childId: childNode.id });
+            }
         }
 
         for (const link of links) {
@@ -424,6 +460,50 @@ export class TaskCache {
         return lineText.replace(/\[.\]/, m => (m === "[ ]" ? "[x]" : "[ ]"));
     }
 
+    async setNodeImpact(node: GraphNode, newImpact: "" | "low" | "medium" | "high"): Promise<void> {
+        if (node.kind === "file") {
+            const fileNode = node as TaskNode;
+            await this.app.fileManager.processFrontMatter(fileNode.file, (fm) => {
+                let tags = fm.tags;
+                if (!tags) {
+                    tags = [];
+                } else if (typeof tags === 'string') {
+                    tags = tags.split(',').map((t: string) => t.trim());
+                } else if (!Array.isArray(tags)) {
+                    tags = [String(tags)];
+                }
+                
+                tags = tags.filter((t: string) => !/^#?impact\/(low|medium|high)$/i.test(t));
+                
+                if (newImpact) {
+                    tags.push(`impact/${newImpact}`);
+                }
+                
+                fm.tags = tags;
+            });
+        } else {
+            const cbNode = node as CheckboxNode;
+            const content = await this.app.vault.read(cbNode.sourceFile);
+            const lines = content.split("\n");
+            let lineText = lines[cbNode.sourceLine] ?? "";
+            
+            lineText = lineText.replace(/(?:^|\s)#impact\/(low|medium|high)\b/ig, "");
+            
+            if (newImpact) {
+                const tag = ` #impact/${newImpact}`;
+                const anchorMatch = lineText.match(/(\s*\^[a-zA-Z0-9-]+)\s*$/);
+                if (anchorMatch) {
+                    lineText = lineText.slice(0, anchorMatch.index) + tag + anchorMatch[0];
+                } else {
+                    lineText += tag;
+                }
+            }
+            
+            lines[cbNode.sourceLine] = lineText;
+            await this.app.vault.modify(cbNode.sourceFile, lines.join("\n"));
+        }
+    }
+
     getGraphNodes(): GraphNode[] {
         const allNodes: GraphNode[] = [];
         const nodesById = new Map<string, GraphNode>();
@@ -437,7 +517,7 @@ export class TaskCache {
         }
 
         for (const [, nodes] of this.checkboxNodesByFile.entries()) {
-            nodes.forEach(n => {
+            nodes.forEach((n: CheckboxNode) => {
                 const clone: CheckboxNode = { ...n, children: [], parents: [] };
                 allNodes.push(clone);
                 nodesById.set(clone.id, clone);
@@ -445,7 +525,7 @@ export class TaskCache {
         }
 
         const titleToNodes = new Map<string, TaskNode[]>();
-        allNodes.forEach(n => {
+        allNodes.forEach((n: GraphNode) => {
             if (n.kind === "file") {
                 const fileNode = n as TaskNode;
                 const keys = [
@@ -453,7 +533,7 @@ export class TaskCache {
                     fileNode.basename.toLowerCase().trim(),
                     fileNode.file.path.toLowerCase().trim()
                 ];
-                keys.forEach(k => {
+                keys.forEach((k: string) => {
                     if (k) {
                         if (!titleToNodes.has(k)) titleToNodes.set(k, []);
                         const arr = titleToNodes.get(k)!;
@@ -463,11 +543,11 @@ export class TaskCache {
             }
         });
 
-        allNodes.forEach(n => {
+        allNodes.forEach((n: GraphNode) => {
             if (n.kind !== "file") return;
             const childFileNode = n as TaskNode;
 
-            childFileNode.parentNames.forEach(pName => {
+            childFileNode.parentNames.forEach((pName: string) => {
                 const matchedParents: GraphNode[] = [];
 
                 const dest = this.app.metadataCache.getFirstLinkpathDest(pName, childFileNode.file.path);
@@ -482,7 +562,7 @@ export class TaskCache {
                     matchedParents.push(...candidates);
                 }
 
-                matchedParents.forEach(parentObj => {
+                matchedParents.forEach((parentObj: GraphNode) => {
                     if (parentObj && parentObj !== childFileNode) {
                         if (!parentObj.children.includes(childFileNode)) parentObj.children.push(childFileNode);
                         if (!childFileNode.parents.includes(parentObj)) childFileNode.parents.push(parentObj);
@@ -492,7 +572,7 @@ export class TaskCache {
         });
 
         for (const [, edges] of this.edgesByFile.entries()) {
-            edges.forEach(({ parentId, childId }) => {
+            edges.forEach(({ parentId, childId }: GraphEdge) => {
                 const parent = nodesById.get(parentId);
                 const child = nodesById.get(childId);
                 if (parent && child && parent !== child) {
@@ -506,9 +586,9 @@ export class TaskCache {
         let iterations = 0;
         while (changed && iterations++ < allNodes.length + 10) {
             changed = false;
-            allNodes.forEach(node => {
+            allNodes.forEach((node: GraphNode) => {
                 let maxParentLevel = -1;
-                node.parents.forEach(p => { if (p.level > maxParentLevel) maxParentLevel = p.level; });
+                node.parents.forEach((p: GraphNode) => { if (p.level > maxParentLevel) maxParentLevel = p.level; });
                 if (maxParentLevel + 1 > node.level) {
                     node.level = maxParentLevel + 1;
                     changed = true;
@@ -520,7 +600,7 @@ export class TaskCache {
     }
 
     getDashboardTasks(): TaskNode[] {
-        return this.getGraphNodes().filter((n): n is TaskNode => n.kind === "file");
+        return this.getGraphNodes().filter((n: GraphNode): n is TaskNode => n.kind === "file");
     }
 
     getAgendaItems(): AgendaItem[] {
