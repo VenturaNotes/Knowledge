@@ -192,18 +192,23 @@ export class DashboardView extends ItemView {
     }
 
     private stepSimulation(): boolean {
-        // Run live physics frame with rigid collisions enabled (false = not initial burst)
         const stillMoving = this.calculatePhysicsStep(false);
         this.updateDomElements();
         return stillMoving;
     }
 
-    private getNodesWithinDistance(anchors: GraphNode[], maxDist: number): Set<GraphNode> {
+    private getNodesWithinDistance(anchors: GraphNode[], maxDist: number, hiddenIds: Set<string>): Set<GraphNode> {
         const dist = new Map<string, number>();
         const found = new Map<string, GraphNode>();
         const queue: GraphNode[] = [];
 
-        anchors.forEach(a => { dist.set(a.id, 0); found.set(a.id, a); queue.push(a); });
+        anchors.forEach(a => { 
+            if (!hiddenIds.has(a.id)) {
+                dist.set(a.id, 0); 
+                found.set(a.id, a); 
+                queue.push(a); 
+            }
+        });
 
         let head = 0;
         while (head < queue.length) {
@@ -213,7 +218,7 @@ export class DashboardView extends ItemView {
             if (d >= maxDist) continue;
 
             for (const nb of [...node.children, ...node.parents]) {
-                if (!dist.has(nb.id)) {
+                if (!hiddenIds.has(nb.id) && !dist.has(nb.id)) {
                     dist.set(nb.id, d + 1);
                     found.set(nb.id, nb);
                     queue.push(nb);
@@ -248,12 +253,11 @@ export class DashboardView extends ItemView {
         return 0;
     }
 
-    private computeHubHiddenIds(withinRange: Set<GraphNode>): Set<string> {
+    private computeHubHiddenIds(anchorNodeIds: Set<string>): Set<string> {
         const threshold = this.plugin.settings.hubChildThreshold;
         const minRank = this.impactRank(this.plugin.settings.hubMinImpact);
         const hidden = new Set<string>();
 
-        // 1. Mark low impact children under closed hubs
         this.allNodes.forEach(parent => {
             if (parent.children.length <= threshold) return;
             if (this.expandedHubIds.has(parent.id)) return;
@@ -265,7 +269,6 @@ export class DashboardView extends ItemView {
             });
         });
 
-        // 2. Rescue node subtrees if they have high impact children
         const descendantPassMemo = new Map<string, boolean>();
         const hasPassingDescendant = (node: GraphNode): boolean => {
             if (descendantPassMemo.has(node.id)) return descendantPassMemo.get(node.id)!;
@@ -284,20 +287,20 @@ export class DashboardView extends ItemView {
             const rescuedByNonHubParent = node.parents.some(p =>
                 p.children.length <= threshold || this.expandedHubIds.has(p.id)
             );
-            if (rescuedByNonHubParent || hasPassingDescendant(node)) {
+            
+            if (rescuedByNonHubParent || hasPassingDescendant(node) || anchorNodeIds.has(id)) {
                 hidden.delete(id);
             }
         });
 
-        // 3. Prevent Orphans: Propagate hidden status DOWNWARD to descendants of hidden nodes.
         let changed = true;
         while (changed) {
             changed = false;
             for (const node of this.allNodes) {
-                if (hidden.has(node.id) || !withinRange.has(node) || node.isGoal) continue;
+                if (hidden.has(node.id) || node.isGoal) continue;
 
                 if (node.parents.length > 0) {
-                    const allParentsMissing = node.parents.every(p => hidden.has(p.id) || !withinRange.has(p));
+                    const allParentsMissing = node.parents.every(p => hidden.has(p.id));
                     if (allParentsMissing) {
                         hidden.add(node.id);
                         changed = true;
@@ -309,10 +312,6 @@ export class DashboardView extends ItemView {
         return hidden;
     }
 
-    /**
-     * @param isInitialBurst - If true, rigid overlap constraints are disabled (annealing).
-     * This allows newly spawned layered nodes to pass through each other to find optimal spreads.
-     */
     private calculatePhysicsStep(isInitialBurst: boolean = false): boolean {
         const visibleTasksSet = new Set(this.visibleTasks);
         const coords = this.nodePositions;
@@ -338,7 +337,6 @@ export class DashboardView extends ItemView {
             }
         }
 
-        // 1. Repulsion forces
         for (let i = 0; i < this.visibleTasks.length; i++) {
             const t1 = this.visibleTasks[i];
             if (!t1) continue;
@@ -372,7 +370,6 @@ export class DashboardView extends ItemView {
             }
         }
 
-        // 2. Spring forces
         this.visibleTasks.forEach(parent => {
             const p1 = coords.get(parent.id);
             if (!p1) return;
@@ -397,7 +394,6 @@ export class DashboardView extends ItemView {
             });
         });
 
-        // 2.5 Edge-edge crossing repulsion
         this.edgeRepelFrameCounter++;
         if (this.edgeRepelFrameCounter % 3 === 0) {
             const K_EDGE_REPEL = 900;
@@ -449,7 +445,6 @@ export class DashboardView extends ItemView {
             }
         }
 
-        // 3. Radial centripetal gravity
         this.visibleTasks.forEach(t => {
             const p = coords.get(t.id);
             if (!p) return;
@@ -478,7 +473,6 @@ export class DashboardView extends ItemView {
             }
         });
 
-        // 4. Rigid push-out (Skipped during initial burst annealing to let nodes untangle)
         if (!isInitialBurst) {
             for (let i = 0; i < this.visibleTasks.length; i++) {
                 const t1 = this.visibleTasks[i];
@@ -521,7 +515,6 @@ export class DashboardView extends ItemView {
             }
         }
 
-        // 5. Idle check
         const idleThresholdSq = this.IDLE_SPEED_THRESHOLD * this.IDLE_SPEED_THRESHOLD;
         let stillMoving = false;
         for (const t of this.visibleTasks) {
@@ -575,9 +568,8 @@ export class DashboardView extends ItemView {
         type Attachment = { edgeIdx: number; end: "parent" | "child"; angle: number };
         const byNode = new Map<string, Attachment[]>();
 
-        // We determine the direction the child is located relative to the parent and vice-versa
         edges.forEach((e, idx) => {
-            const dx = e.p.x - e.c.x, dy = e.p.y - e.c.y; // Points from child TO parent
+            const dx = e.p.x - e.c.x, dy = e.p.y - e.c.y;
             const angleAtChild = Math.atan2(dy, dx);     
             const angleAtParent = Math.atan2(-dy, -dx);  
 
@@ -588,7 +580,6 @@ export class DashboardView extends ItemView {
             byNode.get(e.parent.id)!.push({ edgeIdx: idx, end: "parent", angle: angleAtParent });
         });
 
-        // Fan-out adjustments
         const adjustedAngle = new Map<string, number>();
         byNode.forEach(list => {
             if (list.length <= 1) {
@@ -632,7 +623,6 @@ export class DashboardView extends ItemView {
             const childExit = rectExitPoint(adjustedAngle.get(`${idx}-child`)!);
             const parentExit = rectExitPoint(adjustedAngle.get(`${idx}-parent`)!);
 
-            // 100% guarantee line draws from Child to Parent
             const startX = e.c.x + childExit.x;
             const startY = e.c.y + childExit.y;
             const endX = e.p.x + parentExit.x;
@@ -645,7 +635,6 @@ export class DashboardView extends ItemView {
             const dx = endX - startX, dy = endY - startY;
             const dist = Math.hypot(dx, dy);
             
-            // Safeguard against overlapping nodes resulting in NaN drawing lines
             if (dist < 5) return;
 
             const ux = dx / dist, uy = dy / dist;
@@ -693,7 +682,6 @@ export class DashboardView extends ItemView {
 
     public async render() {
         this.allNodes = this.plugin.taskCache.getGraphNodes();
-        let hubHiddenIds = new Set<string>();
 
         const container = this.contentEl;
         container.empty();
@@ -740,7 +728,7 @@ export class DashboardView extends ItemView {
             }));
         };
 
-        const renderSidebar = () => {
+        const renderSidebar = (hubHiddenIds: Set<string>) => {
             const existingInboxList = sidebarInner.querySelector(".tq-sidebar-section:first-child .tq-scroll-list");
             if (existingInboxList) {
                 this.lastInboxScroll = existingInboxList.scrollTop;
@@ -749,7 +737,7 @@ export class DashboardView extends ItemView {
             sidebarInner.empty();
             if (this.activeNodeId) {
                 const task = this.allNodes.find(n => n.id === this.activeNodeId);
-                if (!task) { this.activeNodeId = null; renderSidebar(); return; }
+                if (!task) { this.activeNodeId = null; renderSidebar(hubHiddenIds); return; }
 
                 const header = sidebarInner.createDiv("tq-sidebar-header");
                 header.createSpan({ text: "Node Inspector" });
@@ -759,8 +747,32 @@ export class DashboardView extends ItemView {
                 sidebarInner.createDiv({ text: task.title, cls: "tq-inspector-title" });
                 const scroll = sidebarInner.createDiv("tq-scroll-list");
 
+                const impactHeader = scroll.createDiv({ text: "Impact Level", cls: "tq-sidebar-header" });
+                impactHeader.setAttribute("style", "background:transparent; padding: 10px 0 5px 0; margin-top: 5px; border-bottom: none;");
+
+                const impactSelect = scroll.createEl("select", { cls: "tq-select" });
+                impactSelect.style.width = "100%";
+                impactSelect.style.marginBottom = "15px";
+
+                const options = [
+                    { val: "", text: "None" },
+                    { val: "low", text: "Low" },
+                    { val: "medium", text: "Medium" },
+                    { val: "high", text: "High" }
+                ];
+                options.forEach(o => {
+                    const opt = impactSelect.createEl("option", { value: o.val, text: o.text });
+                    if (task.impact === o.val) opt.selected = true;
+                });
+
+                impactSelect.onchange = async () => {
+                    const val = impactSelect.value as "" | "low" | "medium" | "high";
+                    await this.plugin.taskCache.setNodeImpact(task, val);
+                    setTimeout(() => this.render(), 200);
+                };
+
                 const parentsHeader = scroll.createDiv({ text: "Current Parents", cls: "tq-sidebar-header" });
-                parentsHeader.setAttribute("style", "background:transparent; padding: 10px 0;");
+                parentsHeader.setAttribute("style", "background:transparent; padding: 10px 0; border-top: 1px solid var(--background-modifier-border);");
 
                 if (task.kind === "file") {
                     const fileTask = task as TaskNode;
@@ -867,8 +879,32 @@ export class DashboardView extends ItemView {
                                 .filter(c => c.title.toLowerCase().includes(q))
                                 .forEach(c => {
                                     const item = filteredList.createDiv("tq-inbox-item");
-                                    item.setText((c.kind === "checkbox" ? "☐ " : "") + c.title);
-                                    item.onclick = () => this.openNodeInEditor(c);
+                                    item.setAttribute("style", "display: flex; justify-content: space-between; align-items: center; padding: 6px 10px; cursor: default;");
+                                    
+                                    const titleSpan = item.createSpan({ text: (c.kind === "checkbox" ? "☐ " : "") + c.title });
+                                    titleSpan.setAttribute("style", "flex: 1; word-break: break-word; line-height: 1.3; cursor: pointer;");
+                                    titleSpan.onclick = () => this.openNodeInEditor(c);
+                                    
+                                    const childImpactSelect = item.createEl("select", { cls: "tq-select" });
+                                    childImpactSelect.setAttribute("style", "flex-shrink: 0; width: 75px; padding: 2px; font-size: 0.7rem; margin-left: 10px;");
+                                    
+                                    const childOpts = [
+                                        { val: "", text: "None" },
+                                        { val: "low", text: "Low" },
+                                        { val: "medium", text: "Med" },
+                                        { val: "high", text: "High" }
+                                    ];
+                                    childOpts.forEach(o => {
+                                        const opt = childImpactSelect.createEl("option", { value: o.val, text: o.text });
+                                        if (c.impact === o.val) opt.selected = true;
+                                    });
+                                    
+                                    childImpactSelect.onclick = (e) => e.stopPropagation();
+                                    childImpactSelect.onchange = async () => {
+                                        const val = childImpactSelect.value as "" | "low" | "medium" | "high";
+                                        await this.plugin.taskCache.setNodeImpact(c, val);
+                                        setTimeout(() => this.render(), 200);
+                                    };
                                 });
                         };
                         filteredSearch.oninput = updateFilteredList;
@@ -1074,11 +1110,14 @@ export class DashboardView extends ItemView {
             anchorNodes = this.allNodes.filter(n => this.selectedGoalPaths.has(n.id));
         }
         
-        const withinRange = this.getNodesWithinDistance(anchorNodes, this.renderDistance);
-        hubHiddenIds = this.computeHubHiddenIds(withinRange);
+        const anchorNodeIds = new Set(anchorNodes.map(n => n.id));
+
+        let hubHiddenIds = this.computeHubHiddenIds(anchorNodeIds);
+        
+        const withinRange = this.getNodesWithinDistance(anchorNodes, this.renderDistance, hubHiddenIds);
         this.visibleTasks = this.allNodes.filter(n => withinRange.has(n) && this.isRenderable(n, memo) && !hubHiddenIds.has(n.id));
 
-        renderSidebar();
+        renderSidebar(hubHiddenIds);
 
         this.nodeElements.clear();
 
@@ -1090,15 +1129,12 @@ export class DashboardView extends ItemView {
 
         const newSiblingIndex = new Map<string, number>();
 
-        // 1. Check for any missing nodes in nodePositions map
         this.visibleTasks.forEach(t => {
             if (!this.nodePositions.has(t.id)) {
                 hasNewNodes = true;
             }
         });
 
-        // 2. Sequential Layer Spawning & Annealing Burst 
-        // We only perform this if new nodes are being added (e.g., unfolding a hub or starting the plugin).
         if (hasNewNodes) {
             const maxLevel = Math.max(...this.visibleTasks.map(t => t.level), 0);
             
@@ -1108,7 +1144,6 @@ export class DashboardView extends ItemView {
                 nodesInLayer.forEach(t => {
                     let parentPos = null;
                     let parentId: string | null = null;
-                    // Find the deepest parent already spawned
                     for (const parent of t.parents) {
                         if (this.nodePositions.has(parent.id)) {
                             parentPos = this.nodePositions.get(parent.id);
@@ -1120,8 +1155,8 @@ export class DashboardView extends ItemView {
                     if (parentPos && parentId) {
                         const idx = newSiblingIndex.get(parentId) ?? 0;
                         newSiblingIndex.set(parentId, idx + 1);
-                        const angle = idx * 2.399963; // Golden angle
-                        const radius = 80 + Math.sqrt(idx) * 60; // Widen spiral radius
+                        const angle = idx * 2.399963; 
+                        const radius = 80 + Math.sqrt(idx) * 60; 
 
                         this.nodePositions.set(t.id, {
                             x: parentPos.x + Math.cos(angle) * radius,
@@ -1130,7 +1165,6 @@ export class DashboardView extends ItemView {
                             vy: 0
                         });
                     } else {
-                        // Root nodes or orphans placed near the center
                         this.nodePositions.set(t.id, {
                             x: center.x + (rand() - 0.5) * 200,
                             y: center.y + (rand() - 0.5) * 200,
@@ -1140,8 +1174,6 @@ export class DashboardView extends ItemView {
                     }
                 });
 
-                // Run an annealing physics burst for THIS layer.
-                // Annealing = passing true, which disables rigid box collision allowing nodes to slide through each other.
                 if (nodesInLayer.length > 0) {
                     for (let k = 0; k < 40; k++) {
                         this.calculatePhysicsStep(true); 
@@ -1149,13 +1181,11 @@ export class DashboardView extends ItemView {
                 }
             }
 
-            // Final settling burst for all newly spawned layers acting together
             for (let k = 0; k < 100; k++) {
                 this.calculatePhysicsStep(true);
             }
         }
 
-        // 3. Render HTML Nodes
         this.visibleTasks.forEach(t => {
             const node = world.createDiv("tq-node");
             if (t.isGoal) node.classList.add("is-goal");

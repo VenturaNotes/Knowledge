@@ -75,8 +75,6 @@ export class SyncManager {
 				} catch (e) {
 					console.error("Failed to load segments", e);
 				}
-				this.plugin.settings.localTimersCache = dbTimers;
-				await this.plugin.saveSettings();
 			} catch (e) {
 				dbTimers = this.plugin.settings.localTimersCache || [];
 			}

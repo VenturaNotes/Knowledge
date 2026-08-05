@@ -1,6 +1,6 @@
 /**
- * Automatically appends completion date to checked tasks,
- * and removes it if they are unchecked, using a CodeMirror 6 Editor Extension.
+ * Automatically appends completion date and active file link to checked tasks,
+ * and removes them if they are unchecked, using a CodeMirror 6 Editor Extension.
  * This ensures it works seamlessly even when clicking checkboxes with a mouse.
  */
 module.exports = function(context) {
@@ -71,16 +71,23 @@ module.exports = function(context) {
         });
 
         const today = new Date().toISOString().split('T')[0];
-        const dateMarkerRegex = /\s*✅\s*\d{4}-\d{2}-\d{2}/g;
+        // Matches the date marker and optional trailing internal link [[Note Name]]
+        const dateMarkerRegex = /\s*✅\s*\d{4}-\d{2}-\d{2}(\s*\[\[.*?\]\])?/g;
         const changesToDispatch = [];
+
+        // Retrieve current active file basename for the link [[FileName]]
+        const activeFile = app.workspace.getActiveFile();
+        const fileName = activeFile ? activeFile.basename : '';
+        const fileLink = fileName ? ` [[${fileName}]]` : '';
 
         // Process additions
         for (const lineNum of linesToAddDate) {
             try {
                 const line = update.state.doc.line(lineNum);
                 const lineText = line.text;
+                dateMarkerRegex.lastIndex = 0;
                 if (!dateMarkerRegex.test(lineText)) {
-                    const newLineText = lineText + ` ✅ ${today}`;
+                    const newLineText = lineText + ` ✅ ${today}${fileLink}`;
                     changesToDispatch.push({
                         from: line.from,
                         to: line.to,
@@ -97,6 +104,7 @@ module.exports = function(context) {
             try {
                 const line = update.state.doc.line(lineNum);
                 const lineText = line.text;
+                dateMarkerRegex.lastIndex = 0;
                 if (dateMarkerRegex.test(lineText)) {
                     const newLineText = lineText.replace(dateMarkerRegex, '');
                     changesToDispatch.push({

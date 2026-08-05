@@ -76,7 +76,6 @@ Turns into this
 - Fast Copy and Fast Delete
 	- `dS` and then choose what you want deleted
 	- `yS` choose the section you want copied
-	- #question This doesn't seem to work properly? How does it really work? I think it only works with nvim.flash?
 - Repeat last action
 	- `.`
 		- Great for if you want to indent or dedent text more than once.
@@ -117,16 +116,17 @@ vim.g.loaded_python3_provider = 0
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
 
-vim.opt.number = true         -- Show line numbers
-vim.opt.relativenumber = true -- Relative line numbers
-vim.opt.tabstop = 4           -- 4 spaces for a tab
-vim.opt.shiftwidth = 4        -- 4 spaces for indenting
-vim.opt.expandtab = true      -- Convert tabs to spaces
-vim.opt.smartindent = true    -- Smart auto-indenting
-vim.opt.termguicolors = true  -- Enable 24-bit RGB colors
-vim.opt.swapfile = true       -- ENable swap files in isolated state directory
+vim.opt.number = true             -- Show line numbers
+vim.opt.relativenumber = true     -- Relative line numbers
+vim.opt.tabstop = 4               -- 4 spaces for a tab
+vim.opt.shiftwidth = 4            -- 4 spaces for indenting
+vim.opt.expandtab = true          -- Convert tabs to spaces
+vim.opt.smartindent = true        -- Smart auto-indenting
+vim.opt.termguicolors = true      -- Enable 24-bit RGB colors
+vim.opt.clipboard = "unnamedplus" -- Sync Neovim clipboard with system clipboard
+vim.opt.swapfile = true           -- Enable swap files in isolated state directory
 vim.opt.directory = vim.fn.stdpath("state") .. "/swap//"
-vim.g.mapleader = " "         -- Set leader key to Space
+vim.g.mapleader = " "             -- Set leader key to Space
 
 -- ==========================================================================
 -- 2. BOOTSTRAP PLUGIN MANAGER (lazy.nvim)
@@ -560,7 +560,6 @@ vim.api.nvim_create_autocmd("BufDelete", {
     end
   end
 })
-
 ```
 ## Source [^1]
 - 
