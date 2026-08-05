@@ -98,6 +98,9 @@ vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "Clear search highl
 			- `Tab` works as well for going down and `Shift + Tab` for 
 - Enter Insert mode and start typing on new line below
 	- `o`
+- Comment out code
+	- Use `S` to highlight
+	- Then press `gc` to toggle comments on the section (go comment)
 ### fzf + neo-tree
 - Space + e : Toggles the Neo-tree sidebar.
 - Space + f + f : Triggers fzf-lua to find files by typing their names.

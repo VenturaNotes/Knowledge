@@ -691,6 +691,15 @@ class VaporNotePlugin extends Plugin {
     }
 
     async toggleVaporNote() {
+        const stack = new Error().stack || '';
+        const isNativeHotkey = stack.includes("handleKey");
+
+        if (isNativeHotkey) {
+            this._lastNativeExecutionTime = Date.now();
+        } else if (Date.now() - (this._lastNativeExecutionTime || 0) < 500) {
+            return; // Drop the space-switch IPC ghost
+        }
+
         if (this._isOpening) return;
         const currentWin = this._getElectronFocusedRendererWin();
         if (this._isOpen()) {

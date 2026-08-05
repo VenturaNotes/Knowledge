@@ -20,7 +20,8 @@ aliases:
 ## Source[^6]
 - Equivalent
 	- $sec^2x = (secx)^2$
-
+## Source[^7]
+- (secant line) (of a curve) A line that cuts a given curve, in two or more points.
 ## References
 [^1]: [[(5) Trig - 0.5 Periodic and Even and Odd Function Properties#^ac0d98]]
 [^2]: [[(5) Trig - 0.5 Periodic and Even and Odd Function Properties#^71890a]]
@@ -28,3 +29,4 @@ aliases:
 [^4]: [[(10) PreCalculus - Trigonometry (10 of 54) The Trigonometry Function - Secant Explained]]
 [^5]: [[(9) Calculus 1 CH 3 Derivatives (9 of 24) Trigonometric Function (Mistake Fixed!)]]
 [^6]: [[(11) 3.6 The Chain Rule]]
+[^7]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

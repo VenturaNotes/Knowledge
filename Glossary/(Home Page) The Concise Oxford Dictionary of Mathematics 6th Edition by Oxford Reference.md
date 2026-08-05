@@ -3713,11 +3713,14 @@ Year: 2021-09-01
 	2426. Schwartz distribution
 	2427. scientific notation
 	2428. sd
+		1. Abbreviation for standard deviation.
 	2429. SDE
+		1. Abbreviation for stochastic differential equation.
 	
 	2430. se
 	2431. seasonal variation
-	2432. secant
+		1.  See TIME SERIES.
+	2432. [[secant]]
 	2433. secant(of a curve)
 	2434. secant method
 	2435. sech
@@ -3841,7 +3844,7 @@ Year: 2021-09-01
 	
 	2540. sine
 	2541. sine rule
-	2542. singleton
+	2542. [[singleton]]
 	2543. [[Singmaster's conjecture]]
 	2544. [[singular]]
 	2545. singularity
@@ -3861,7 +3864,7 @@ Year: 2021-09-01
 	2558. skewness
 	2559. slack
 	
-	2560. slack variables
+	2560. [[slack variables]]
 	2561. slant asymptote
 	2562. slant height
 	2563. slash
