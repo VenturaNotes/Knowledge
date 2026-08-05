@@ -22,8 +22,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 	private rotationOverlay: HTMLElement | null = null;
 	private overlayKeydownListener: ((e: KeyboardEvent) => void) | null = null;
 	private loadTimersDebounceTimeout: any = null;
-	private lastToggleTime: number = 0;
-	private lastFocusTime: number = 0;
+	
+	// Tracks the last time Obsidian natively executed this command
+	private lastNativeExecutionTime: number = 0;
 	
 	public collapsedParentIds: Set<string> = new Set();
 	public notifiedCompletes: Set<string> = new Set();
@@ -68,11 +69,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 		this.addSettingTab(new ProductivityTimerSettingsTab(this.app, this));
 
 		this.startBackgroundTick();
-
-		// Track exactly when the app regains focus from the OS
-		this.registerDomEvent(window, "focus", () => {
-			this.lastFocusTime = Date.now();
-		});
 
 		// Handle raw connection-state changes
 		this.registerDomEvent(window, "online", async () => {
@@ -800,17 +796,17 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	async toggleWindow() {
-		const now = Date.now();
-		const timeSinceFocus = now - this.lastFocusTime;
-		const timeSinceToggle = now - this.lastToggleTime;
+		const stack = new Error().stack || '';
+		// If the execution originated from Obsidian's native hotkey handler, update the timestamp
+		const isNativeHotkey = stack.includes("handleKey");
 
-		// ONLY debounce if the app was brought into focus within the last half-second.
-		// If you are already working inside Obsidian (timeSinceFocus > 500), there is ZERO delay.
-		if (timeSinceFocus < 500 && timeSinceToggle < 150) {
-			return; 
+		if (isNativeHotkey) {
+			this.lastNativeExecutionTime = Date.now();
+		} else if (Date.now() - this.lastNativeExecutionTime < 500) {
+			// If it originated elsewhere (like the Webview IPC event) AND it closely 
+			// follows a native execution, it is the space-switch ghost! Drop it completely.
+			return;
 		}
-		
-		this.lastToggleTime = now;
 
 		if (!this.settings.supabaseUrl || !this.settings.supabaseKey) {
 			new Notice("Productivity Timer: set your Supabase URL and key in settings first.");
