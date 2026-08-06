@@ -16,8 +16,6 @@ class Solution:
             else:
                 sum2 += i
         return sum1 - sum2
-
-
 ```
 ## Source [^1]
 - 

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #1e1f22;
+  }
+  #sidebar {
+    width: 76px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 14px;
+    gap: 10px;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .service-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: #2b2d31;
+    color: #dcddde;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.15s ease, background 0.15s ease;
+    flex-shrink: 0;
+  }
+  .service-btn:hover {
+    background: #35373c;
+  }
+  .service-btn.active {
+    border-color: #5865f2;
+    background: #35373c;
+  }
+  .service-icon-img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 6px;
+    pointer-events: none; /* clicks/drags go to the .service-btn wrapper */
+  }
+  .service-btn.dragging {
+    opacity: 0.4;
+  }
+  .service-btn.drag-over {
+    border-color: #5865f2;
+  }
+  #add-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: #6d6f78;
+    background: transparent;
+    border: 2px dashed #3a3c42;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  #add-btn:hover {
+    border-color: #5865f2;
+    color: #dcddde;
+  }
+
+  /* ── Add-service modal ── */
+  #add-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+  #add-modal.open {
+    display: flex;
+  }
+  #add-modal-box {
+    width: 280px;
+    background: #2b2d31;
+    border-radius: 10px;
+    padding: 18px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  #add-modal-box h2 {
+    margin: 0 0 14px 0;
+    font-size: 15px;
+    color: #dcddde;
+    font-weight: 600;
+  }
+  #add-modal-box label {
+    display: block;
+    font-size: 11px;
+    color: #8a8c94;
+    margin-bottom: 4px;
+    margin-top: 10px;
+  }
+  #add-modal-box input {
+    width: 100%;
+    box-sizing: border-box;
+    background: #1e1f22;
+    border: 1px solid #3a3c42;
+    border-radius: 6px;
+    color: #dcddde;
+    padding: 7px 9px;
+    font-size: 13px;
+    outline: none;
+  }
+  #add-modal-box input:focus {
+    border-color: #5865f2;
+  }
+  #add-modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  #add-modal-actions button {
+    border: none;
+    border-radius: 6px;
+    padding: 7px 12px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  #modal-cancel {
+    background: transparent;
+    color: #8a8c94;
+  }
+  #modal-cancel:hover {
+    color: #dcddde;
+  }
+  #modal-submit {
+    background: #5865f2;
+    color: white;
+    font-weight: 600;
+  }
+  #modal-submit:hover {
+    background: #4752c4;
+  }
+</style>
+</head>
+<body>
+  <div id="sidebar">
+    <div id="add-btn" title="Add service">+</div>
+  </div>
+
+  <div id="add-modal">
+    <div id="add-modal-box">
+      <h2>Add a service</h2>
+      <label for="service-name">Name</label>
+      <input id="service-name" type="text" placeholder="e.g. WhatsApp" />
+      <label for="service-url">URL</label>
+      <input id="service-url" type="text" placeholder="e.g. web.whatsapp.com" />
+      <div id="add-modal-actions">
+        <button id="modal-cancel">Cancel</button>
+        <button id="modal-submit">Add</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="sidebar.js"></script>
+</body>
+</html>

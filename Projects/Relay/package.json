@@ -1,0 +1,27 @@
+{
+  "name": "relay",
+  "version": "0.1.0",
+  "description": "Personal multi-service notification hub — isolated WebContentsViews, native macOS notifications, no <webview> tag.",
+  "main": "main.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac"
+  },
+  "devDependencies": {
+    "electron": "^43.0.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.julianventura.relay",
+    "productName": "Relay",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    }
+  }
+}
