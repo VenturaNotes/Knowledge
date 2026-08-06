@@ -13,7 +13,7 @@ max_value = max([0, 2, 45, 3, 44]) # 45
 ### Alphabetical / Strings
 - Compares strings alphabetically. "date" would be last as it comes last alphabetically.
 ```python
-words = max(["apple", "banana", "cherry", "date"]) # date
+words = max(["apple", "banana", "cherry", "date"]) # Returns date
 ```
 ### Dictionary
 - Operates on `keys` by default. 

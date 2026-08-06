@@ -3,6 +3,8 @@ status: done
 tags:
   - task
 ---
+## Feature Requests
+- [ ] Make it so you can have multiple terminals at once
 ## Ideas
 - [ ] Using a namespace prefix might not be a bad idea
 	- `o-copy` and `o-sync` could be my custom commands since the `o-` could start with Obsidian. 

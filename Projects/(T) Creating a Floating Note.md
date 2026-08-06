@@ -12,11 +12,16 @@ aliases:
   - VaporNote
 parent:
   - "[[(T) Create Task Priority within Document]]"
+  - "[[(T) Optimize]]"
 ---
-## Feature Requests
-- [ ] Change my floating note so that when it compiles, it is always at 100% opacity (or rather not cleared at all)
-- [ ] It seems like if I delete a file, the focus comes back to VaporNote?
+## ToDo
+- [ ] Convert to typescript and then publish
+	- Might need to double-check that Cloudflarebypass doesn't interfere
+### Feature Requests
 - [ ] Make it so you can move the tabs around within the floating note
+- [ ] If I use a shortcut to open the "Goals Graph" and then I open and close my VaporNote, this causes me to jump right back to
+	- Honestly a minor bug. If the goals view never gains focus, the VaporNote just sends me back to the tab that was last focused. Not a bug that would occur a lot
+- [ ] Test to see if it works between windows
 ## Patch-Work
 - So this is what I need from you for VaporNote:
 	- Requirements not working anymore
@@ -30,15 +35,6 @@ parent:
 		- If I open a new tab in VaporNote (such as a markdown tab), this markdown tab should be in focus and not the tabs in the main obsidian window.
 		- When I close a Vapornote webview tab, it should not be closing any of the other adjacent tabs (whether a markdown file or another webview tab). It should only be closing the focused vapor note webview tab
 ## Complete
-- [x] Make the floating note transparent (so you can see through it). You have an optional slider and you can toggle this feature on or off ✅ 2026-06-08
-- [x] I'm not sure if I want multiple screens (but I'm unsure what to do with the excalidraw plugin creating a new document. It would be fine if it's the current document (but then I lose my place in the view as well. Maybe there is a way to jump back to that view? I honestly might need to make a multi-document tab system)) ✅ 2026-06-08
-	- Need to modify the script so that I can access different tabs within the floating note?
-- [x] Create a command within the plugin that minimizes to a small box and then expands back to the previous size it was at? Then we wouldn't need to load it every time, but we would also know that the floating note was still active. ✅ 2026-06-08
-- [x] Modify script so that the last note that was open in the script stays open. ✅ 2026-06-08
-- [x] Make "Command + O" behave a little differently or neater ✅ 2026-06-08
-	- At least make it appear in front of the floating note
-- [x] Not able to open up tabs easily which isn't good (especially when pressing the open file button) ✅ 2026-06-10
-- [x] When I maximize the floating note, i want to be able to press "Command + option + left" or "Command + option + right". Right now, it seems to focus the window, but these commands are just not in use. ✅ 2026-06-16
 ## V35 (Stable)
 - Added ability to open note from your personal quick switcher in same tab within VaporNote
 ```javascript
