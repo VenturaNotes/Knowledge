@@ -628,7 +628,6 @@ class GroupSwitchModal extends SuggestModal<string> {
 
     async onChooseSuggestion(item: string, evt: MouseEvent | KeyboardEvent) {
         await this.plugin.switchGroup(item);
-        new Notice(`Switched to tab group: ${item}`);
     }
 }
 

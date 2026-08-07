@@ -6,6 +6,9 @@
 - An example of a binary relation is the usual 'is less than' relation defined on integers, where the subset $R$ consists of ordered pairs such as $(4,5)$; it is however more natural to write $4<5$. Other examples include: 'is equal to' defined on strings, say; 'is the square root of' defined on the nonnegative reals; 'is defined in terms of' defined on the set of subroutines within a particular program; 'is before in the queue' defined on the set of jobs awaiting execution at a particular time.
 - The function is a special kind of relation. Graphs are often used to provide a convenient pictorial representation of a relation.
 - Relations play an important part in theoretical aspects of many areas of computing, including the mathematical foundations of the subject, databases, compiling techniques, and operating systems. See also equivalence relation, partial ordering.
+## Source[^2]
+- A relation on a set $S$ is usually a binary relation on $S$, though the notion can be extended to involve more than two elements. An example of a ternary relation, involving three elements, is ‘$a$ lies between $b$ and $c$’, where $a, b$, and $c$ are real numbers. See also EQUIVALENCE RELATION.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
