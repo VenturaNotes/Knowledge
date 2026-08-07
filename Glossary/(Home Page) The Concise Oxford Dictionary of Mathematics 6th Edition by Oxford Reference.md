@@ -3515,18 +3515,21 @@ Year: 2021-09-01
 	2246. real world
 	2247. rearrangement
 	2248. [[reciprocal]]
-	2249. rectangle
+	2249. [[rectangle]]
 	
 	2250. rectangular
 	2251. rectangular distribution
+		1. A synonym for UNIFORM DISTRIBUTION.
 	2252. rectangular hyperbola
-	2253. rectangular number
-	2254. rectilinear motion
+	2253. [[rectangular number]]
+	2254. [[rectilinear motion]]
 	2255. recurrence relation
+		1. A synonym for DIFFERENCE EQUATION.
 	2256. [[recurrent]]
 	2257. recurring decimal
-	2258. recursion theory
-	2259. reduce
+		1. See DECIMAL REPRESENTATION.
+	2258. [[recursion theory]]
+	2259. [[reduce]]
 	
 	2260. reduced echelon form
 	2261. reduced set of residues
@@ -3543,19 +3546,24 @@ Year: 2021-09-01
 	2271. region
 	2272. regression
 	2273. regression to the mean
+		1. A synonym for REVERSION TO THE MEAN.
 	2274. regular function
+		1. A synonym for HOLOMORPHIC.
 	2275. [[regular graph]]
 	2276. regular polygon
+		1. See POLYGON.
 	2277. regular polyhedron
+		1. See PLATONIC SOLID.
 	2278. regular space
 	2279. regular tessellation
+		1. See TESSELLATION.
 	
-	2280. relation
+	2280. [[relation]]
 	2281. relation
 	2282. [[relational understanding]]
 	2283. relative complement
 	2284. relative efficiency
-	2285. relative error
+	2285. [[relative error]]
 	2286. [[relative frequency]]
 	2287. relatively prime
 	2288. relative measure of dispersion
