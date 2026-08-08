@@ -187,6 +187,22 @@
     box-shadow: 0 0 0 1px var(--interactive-accent);
 }
 
+.tq-select {
+    background: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    padding: 4px 6px;
+    cursor: pointer;
+    text-align: center;
+    text-align-last: center;
+}
+.tq-select:focus {
+    border-color: var(--interactive-accent);
+    outline: none;
+}
+
 .tq-map { 
     flex: 1; 
     position: relative; 
@@ -242,11 +258,6 @@
     background: var(--background-secondary-alt); 
 }
 
-.tq-node.is-active { 
-    border: 2px solid var(--interactive-accent); 
-    box-shadow: 0 0 10px var(--interactive-accent); 
-}
-
 .tq-node.is-done-node {
     opacity: 0.55;
 }
@@ -268,15 +279,24 @@
 }
 
 .tq-node.impact-high { 
-    border-left: 4px solid var(--text-error); 
+    border: 2px solid var(--text-error) !important; 
 }
 
 .tq-node.impact-medium { 
-    border-left: 4px solid #ffaa00; 
+    border: 2px solid #ffaa00 !important; 
 }
 
 .tq-node.impact-low { 
-    border-left: 4px solid var(--text-muted); 
+    border: 2px solid var(--text-muted) !important; 
+}
+
+/* 
+  Using double box-shadow to generate a thick purple glow OUTSIDE of the existing border 
+  so that it does not overwrite the red/orange/gray impact colors.
+*/
+.tq-node.is-active { 
+    box-shadow: 0 0 0 3px var(--interactive-accent), 0 0 15px var(--interactive-accent) !important; 
+    z-index: 20; 
 }
 
 .tq-node-title { 
@@ -313,6 +333,63 @@
 
 .tq-hub-badge:hover {
     filter: brightness(1.15);
+    transform: scale(1.08);
+}
+
+/*
+  Depth-cutoff badge: visually distinct from .tq-hub-badge on purpose. Hub badges mean
+  "hidden because of impact/threshold at this node"; depth badges mean "not rendered
+  yet because renderDistance ran out here" — different reasons, different fix (click
+  to expand this branch vs. tune hub settings), so they should never look the same.
+*/
+.tq-depth-badge {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    background: var(--background-secondary);
+    color: var(--text-muted);
+    border: 1px dashed var(--text-muted);
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 15;
+    box-shadow: var(--shadow-s);
+    line-height: 1.3;
+}
+
+.tq-depth-badge:hover {
+    border-color: var(--interactive-accent);
+    color: var(--interactive-accent);
+    transform: scale(1.08);
+}
+
+/*
+  Fold badge occupies the same corner as .tq-depth-badge, since a node is only ever
+  in one state or the other (freshly-cut-off frontier vs. already-expanded) — never
+  both at once. Filled/solid instead of dashed so "expanded, click to collapse" reads
+  differently from "collapsed, click to expand" at a glance.
+*/
+.tq-depth-fold-badge {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    background: var(--text-muted);
+    color: var(--background-primary);
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 15;
+    box-shadow: var(--shadow-s);
+    line-height: 1.3;
+}
+
+.tq-depth-fold-badge:hover {
+    background: var(--interactive-accent);
+    color: white;
     transform: scale(1.08);
 }
 
