@@ -83,19 +83,31 @@ export default class PacingTimerPlugin extends Plugin {
         
         this.addCommand({ id: "pacing-timer-rotation-interrupt", name: "Rotation: Toggle Quick Interrupt", checkCallback: (c) => {
             if (this.session && this.session.mode === "rotation") {
-                if (!c) ModeRegistry["rotation"]!.onInterrupt?.(this.session, this);
+                if (!c) {
+                    ModeRegistry["rotation"]!.onInterrupt?.(this.session, this);
+                    this.updateStatusBar();
+                    this.saveSettings();
+                }
                 return true;
             } return false;
         }});
         this.addCommand({ id: "pacing-timer-rotation-skip", name: "Rotation: Skip to Next Category", checkCallback: (c) => {
             if (this.session && this.session.mode === "rotation") {
-                if (!c) ModeRegistry["rotation"]!.onSkip?.(this.session, this);
+                if (!c) {
+                    ModeRegistry["rotation"]!.onSkip?.(this.session, this);
+                    this.updateStatusBar();
+                    this.saveSettings();
+                }
                 return true;
             } return false;
         }});
         this.addCommand({ id: "pacing-timer-rotation-skip-back", name: "Rotation: Skip Back a Category", checkCallback: (c) => {
             if (this.session && this.session.mode === "rotation") {
-                if (!c) ModeRegistry["rotation"]!.onSkipBack?.(this.session, this);
+                if (!c) {
+                    ModeRegistry["rotation"]!.onSkipBack?.(this.session, this);
+                    this.updateStatusBar();
+                    this.saveSettings();
+                }
                 return true;
             } return false;
         }});
@@ -154,7 +166,6 @@ export default class PacingTimerPlugin extends Plugin {
             this.lastSetupIPCExecutionTime = now;
         }
 
-        // If modal is visible, running this command closes it like pressing Escape
         if (this.activeModal) { 
             this.activeModal.close(); 
             return; 
@@ -203,6 +214,7 @@ export default class PacingTimerPlugin extends Plugin {
         } else if (this.session.isRunning) {
             ModeRegistry[this.session.mode]!.onComplete(this.session, this);
             this.updateStatusBar();
+            this.saveSettings(); // Instantly persist state change to disk
         }
     }
 

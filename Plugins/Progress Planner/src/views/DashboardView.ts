@@ -99,15 +99,15 @@ export class DashboardView extends ItemView {
     private offsetY = 100;
     private activeNodeId: string | null = null;
     private goalQuery = "";
-    private inboxQuery = "";
-    private checkboxInboxQuery = "";
-    private lastInboxScroll = 0;
     private isCollapsed = false;
 
     private renderDistance = 6;
     private hideCompletedCheckboxes = true;
 
     private expandedHubIds: Set<string> = new Set();
+    // Nodes where the user clicked the depth-cutoff badge to keep expanding that
+    // specific branch past the normal renderDistance limit.
+    private depthExpandedIds: Set<string> = new Set();
 
     private isPanning = false;
     private sx = 0;
@@ -142,6 +142,7 @@ export class DashboardView extends ItemView {
             this.offsetY = parsed.offsetY ?? 100;
             this.renderDistance = parsed.renderDistance ?? 6;
             this.hideCompletedCheckboxes = parsed.hideCompletedCheckboxes ?? true;
+            this.depthExpandedIds = new Set(parsed.depthExpandedIds ?? []);
         }
     }
 
@@ -197,16 +198,45 @@ export class DashboardView extends ItemView {
         return stillMoving;
     }
 
-    private getNodesWithinDistance(anchors: GraphNode[], maxDist: number, hiddenIds: Set<string>): Set<GraphNode> {
-        const dist = new Map<string, number>();
+    // Counts every renderable, non-hidden descendant below `node` (regardless of depth) —
+    // used to label a frontier node with exactly how many nodes are sitting below the
+    // render-distance cutoff, so nothing is invisible even when it isn't drawn.
+    private countAllDescendants(node: GraphNode, hiddenIds: Set<string>, memo: Map<string, boolean>): number {
+        const seen = new Set<string>();
+        const stack: GraphNode[] = [...node.children];
+        while (stack.length) {
+            const n = stack.pop()!;
+            if (seen.has(n.id) || hiddenIds.has(n.id) || !this.isRenderable(n, memo)) continue;
+            seen.add(n.id);
+            stack.push(...n.children);
+        }
+        return seen.size;
+    }
+
+    // Reverses a depth expansion: clears this node's expanded flag AND any deeper
+    // expansions inside its subtree, so folding always resets cleanly back to "one
+    // level at a time" rather than leaving stale expanded islands further down.
+    private foldDepthBranch(node: GraphNode, seen: Set<string> = new Set()): void {
+        if (seen.has(node.id)) return;
+        seen.add(node.id);
+        this.depthExpandedIds.delete(node.id);
+        node.children.forEach(c => this.foldDepthBranch(c, seen));
+    }
+
+    private getNodesWithinDistance(anchors: GraphNode[], maxDist: number, hiddenIds: Set<string>, memo: Map<string, boolean>): { nodes: Set<GraphNode>; frontierCutoffCounts: Map<string, number> } {
+        // Track remaining depth budget per node rather than absolute distance from the
+        // anchor, so a depth-expanded branch can be granted a fresh budget instead of
+        // simply refusing to stop (which would defeat the whole point of a cutoff).
+        const budget = new Map<string, number>();
         const found = new Map<string, GraphNode>();
+        const frontierCutoffCounts = new Map<string, number>();
         const queue: GraphNode[] = [];
 
-        anchors.forEach(a => { 
-            if (!hiddenIds.has(a.id)) {
-                dist.set(a.id, 0); 
-                found.set(a.id, a); 
-                queue.push(a); 
+        anchors.forEach(a => {
+            if (!hiddenIds.has(a.id) && this.isRenderable(a, memo)) {
+                budget.set(a.id, maxDist);
+                found.set(a.id, a);
+                queue.push(a);
             }
         });
 
@@ -214,18 +244,35 @@ export class DashboardView extends ItemView {
         while (head < queue.length) {
             const node = queue[head++];
             if (!node) continue;
-            const d = dist.get(node.id)!;
-            if (d >= maxDist) continue;
+            let remaining = budget.get(node.id)!;
 
-            for (const nb of [...node.children, ...node.parents]) {
-                if (!hiddenIds.has(nb.id) && !dist.has(nb.id)) {
-                    dist.set(nb.id, d + 1);
+            if (remaining <= 0) {
+                if (this.depthExpandedIds.has(node.id)) {
+                    // User clicked the depth badge on this node — grant exactly one more
+                    // level, not a full refill. If there's further depth beyond that one
+                    // extra level, the new frontier child gets its own badge to click.
+                    remaining = 1;
+                    budget.set(node.id, remaining);
+                } else {
+                    // Depth cutoff reached here — this node becomes a visible frontier.
+                    // Count (never hide) everything past it so the badge always reflects
+                    // the true remaining size of the branch.
+                    const hiddenCount = this.countAllDescendants(node, hiddenIds, memo);
+                    if (hiddenCount > 0) frontierCutoffCounts.set(node.id, hiddenCount);
+                    continue;
+                }
+            }
+
+            // Only traverse downstream (children) to ensure only descendants are explored
+            for (const nb of node.children) {
+                if (!hiddenIds.has(nb.id) && !budget.has(nb.id) && this.isRenderable(nb, memo)) {
+                    budget.set(nb.id, remaining - 1);
                     found.set(nb.id, nb);
                     queue.push(nb);
                 }
             }
         }
-        return new Set(found.values());
+        return { nodes: new Set(found.values()), frontierCutoffCounts };
     }
 
     private hasIncompleteDescendant(node: GraphNode, memo: Map<string, boolean>): boolean {
@@ -253,19 +300,36 @@ export class DashboardView extends ItemView {
         return 0;
     }
 
-    private computeHubHiddenIds(anchorNodeIds: Set<string>): Set<string> {
+    // Priority order for deciding which children survive a hub cap: high impact first,
+    // then files over checkboxes, then title for stable ordering (no shuffling on re-render).
+    private childPriorityRank(n: GraphNode): number {
+        // Lower number = higher priority = kept first.
+        const impactPenalty = 3 - this.impactRank(n.impact); // high=0, medium=1, low=2, none=3
+        const kindPenalty = n.kind === "file" ? 0 : 1; // files before checkboxes
+        return impactPenalty * 10 + kindPenalty;
+    }
+
+    private computeHubHiddenIds(anchorNodeIds: Set<string>, memo: Map<string, boolean>): Set<string> {
         const threshold = this.plugin.settings.hubChildThreshold;
         const minRank = this.impactRank(this.plugin.settings.hubMinImpact);
         const hidden = new Set<string>();
 
         this.allNodes.forEach(parent => {
-            if (parent.children.length <= threshold) return;
+            const visibleChildren = parent.children.filter(c => this.isRenderable(c, memo));
+            if (visibleChildren.length <= threshold) return;
             if (this.expandedHubIds.has(parent.id)) return;
 
-            parent.children.forEach(child => {
-                if (this.impactRank(child.impact) < minRank) {
-                    hidden.add(child.id);
-                }
+            // Always keep exactly `threshold` children visible, ranked by priority,
+            // instead of hiding everything under the impact floor (which could leave
+            // fewer than `threshold` visible if most children happen to be low-impact).
+            const ranked = [...visibleChildren].sort((a, b) => {
+                const rankDiff = this.childPriorityRank(a) - this.childPriorityRank(b);
+                if (rankDiff !== 0) return rankDiff;
+                return a.title.localeCompare(b.title);
+            });
+
+            ranked.slice(threshold).forEach(child => {
+                hidden.add(child.id);
             });
         });
 
@@ -284,9 +348,10 @@ export class DashboardView extends ItemView {
             const node = this.allNodes.find(n => n.id === id);
             if (!node) return;
 
-            const rescuedByNonHubParent = node.parents.some(p =>
-                p.children.length <= threshold || this.expandedHubIds.has(p.id)
-            );
+            const rescuedByNonHubParent = node.parents.some(p => {
+                const pVis = p.children.filter(c => this.isRenderable(c, memo));
+                return pVis.length <= threshold || this.expandedHubIds.has(p.id);
+            });
             
             if (rescuedByNonHubParent || hasPassingDescendant(node) || anchorNodeIds.has(id)) {
                 hidden.delete(id);
@@ -686,6 +751,8 @@ export class DashboardView extends ItemView {
         const container = this.contentEl;
         container.empty();
 
+        const memo = new Map<string, boolean>();
+
         const root = container.createDiv("tq-root");
         if (this.isCollapsed) root.classList.add("is-collapsed");
 
@@ -724,17 +791,14 @@ export class DashboardView extends ItemView {
                 offsetX: this.offsetX,
                 offsetY: this.offsetY,
                 renderDistance: this.renderDistance,
-                hideCompletedCheckboxes: this.hideCompletedCheckboxes
+                hideCompletedCheckboxes: this.hideCompletedCheckboxes,
+                depthExpandedIds: Array.from(this.depthExpandedIds)
             }));
         };
 
         const renderSidebar = (hubHiddenIds: Set<string>) => {
-            const existingInboxList = sidebarInner.querySelector(".tq-sidebar-section:first-child .tq-scroll-list");
-            if (existingInboxList) {
-                this.lastInboxScroll = existingInboxList.scrollTop;
-            }
-
             sidebarInner.empty();
+            
             if (this.activeNodeId) {
                 const task = this.allNodes.find(n => n.id === this.activeNodeId);
                 if (!task) { this.activeNodeId = null; renderSidebar(hubHiddenIds); return; }
@@ -840,8 +904,10 @@ export class DashboardView extends ItemView {
                     }).open();
                 };
 
-                const isHub = task.children.length > this.plugin.settings.hubChildThreshold;
+                const visibleChildCount = task.children.filter(c => this.isRenderable(c, memo)).length;
+                const isHub = visibleChildCount > this.plugin.settings.hubChildThreshold;
                 const filteredChildren = task.children.filter(c => hubHiddenIds.has(c.id));
+                
                 if (isHub) {
                     const filteredHeader = scroll.createDiv({
                         text: filteredChildren.length > 0
@@ -879,14 +945,24 @@ export class DashboardView extends ItemView {
                                 .filter(c => c.title.toLowerCase().includes(q))
                                 .forEach(c => {
                                     const item = filteredList.createDiv("tq-inbox-item");
-                                    item.setAttribute("style", "display: flex; justify-content: space-between; align-items: center; padding: 6px 10px; cursor: default;");
+                                    item.setAttribute("style", "display: flex; justify-content: space-between; align-items: flex-start; padding: 6px 10px; cursor: default; position: relative;");
                                     
                                     const titleSpan = item.createSpan({ text: (c.kind === "checkbox" ? "☐ " : "") + c.title });
-                                    titleSpan.setAttribute("style", "flex: 1; word-break: break-word; line-height: 1.3; cursor: pointer;");
+                                    titleSpan.setAttribute("style", "flex: 1; word-break: break-word; line-height: 1.3; cursor: pointer; padding-right: 25px;");
                                     titleSpan.onclick = () => this.openNodeInEditor(c);
                                     
-                                    const childImpactSelect = item.createEl("select", { cls: "tq-select" });
-                                    childImpactSelect.setAttribute("style", "flex-shrink: 0; width: 75px; padding: 2px; font-size: 0.7rem; margin-left: 10px;");
+                                    const getImpactColor = (imp: string) => {
+                                        if (imp === "high") return "var(--text-error)";
+                                        if (imp === "medium") return "#ffaa00";
+                                        if (imp === "low") return "var(--text-muted)";
+                                        return "transparent";
+                                    };
+
+                                    const squareWrap = item.createDiv();
+                                    squareWrap.setAttribute("style", "position: absolute; top: 6px; right: 10px; width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--background-modifier-border); cursor: pointer; background-color: " + getImpactColor(c.impact) + "; overflow: hidden;");
+                                    
+                                    const childImpactSelect = squareWrap.createEl("select");
+                                    childImpactSelect.setAttribute("style", "opacity: 0; width: 100%; height: 100%; cursor: pointer; position: absolute; top: 0; left: 0; -webkit-appearance: none; appearance: none;");
                                     
                                     const childOpts = [
                                         { val: "", text: "None" },
@@ -912,151 +988,73 @@ export class DashboardView extends ItemView {
                     }
                 }
             } else {
-                const inboxSec = sidebarInner.createDiv("tq-sidebar-section");
-                const inboxHead = inboxSec.createDiv("tq-sidebar-header");
-                const inboxTitle = inboxHead.createSpan();
-                const inboxInput = inboxSec.createDiv("tq-search-container").createEl("input", { cls: "tq-small-input", placeholder: "Search inbox..." });
-                inboxInput.value = this.inboxQuery;
-                const inboxList = inboxSec.createDiv("tq-scroll-list");
-
-                const updateInboxList = () => {
-                    this.inboxQuery = inboxInput.value;
-                    inboxList.empty();
-                    const unparented = this.allNodes.filter(n => n.kind === "file" && n.isTask && !n.isGoal && n.parents.length === 0);
-                    const filtered = unparented.filter(t => t.title.toLowerCase().includes(this.inboxQuery.toLowerCase()));
-                    inboxTitle.innerText = `Task Inbox (${filtered.length})`;
-                    filtered.forEach(t => {
-                        const item = inboxList.createDiv({ text: t.title, cls: "tq-inbox-item" });
-                        item.draggable = true;
-                        item.addEventListener("dragstart", (e: DragEvent) => {
-                            if (e.dataTransfer) {
-                                e.dataTransfer.setData("text/plain", JSON.stringify({ kind: "file", id: t.id }));
-                            }
-                        });
-                        item.onclick = (e) => {
-                            if (e.metaKey || e.ctrlKey) {
-                                this.openNodeInEditor(t);
-                            } else {
-                                this.activeNodeId = t.id;
-                                this.isCollapsed = false;
-                                root.classList.remove("is-collapsed");
-                                collapseBtn.innerText = "◀";
-                                this.render();
-                            }
-                        };
-                    });
-
-                    inboxList.scrollTop = this.lastInboxScroll;
-                };
-
-                const cbInboxSec = sidebarInner.createDiv("tq-sidebar-section");
-                const cbInboxHead = cbInboxSec.createDiv("tq-sidebar-header");
-                const cbInboxTitle = cbInboxHead.createSpan();
-                const cbInboxInput = cbInboxSec.createDiv("tq-search-container").createEl("input", { cls: "tq-small-input", placeholder: "Search orphan checkboxes..." });
-                cbInboxInput.value = this.checkboxInboxQuery;
-                const cbInboxList = cbInboxSec.createDiv("tq-scroll-list");
-
-                const updateCheckboxInboxList = () => {
-                    this.checkboxInboxQuery = cbInboxInput.value;
-                    cbInboxList.empty();
-                    const orphaned = this.allNodes.filter(n => n.kind === "checkbox" && n.parents.length === 0 && n.children.length === 0);
-                    const filtered = orphaned.filter(n => n.title.toLowerCase().includes(this.checkboxInboxQuery.toLowerCase()));
-                    cbInboxTitle.innerText = `Orphan Checkboxes (${filtered.length})`;
-                    filtered.forEach(n => {
-                        const item = cbInboxList.createDiv({ text: n.title, cls: "tq-inbox-item" });
-                        item.draggable = true;
-                        item.addEventListener("dragstart", (e: DragEvent) => {
-                            if (e.dataTransfer) {
-                                e.dataTransfer.setData("text/plain", JSON.stringify({ kind: "checkbox", id: n.id }));
-                            }
-                        });
-                        item.onclick = (e) => {
-                            if (e.metaKey || e.ctrlKey) {
-                                this.openNodeInEditor(n);
-                            } else {
-                                this.activeNodeId = n.id;
-                                this.isCollapsed = false;
-                                root.classList.remove("is-collapsed");
-                                collapseBtn.innerText = "◀";
-                                this.render();
-                            }
-                        };
-                    });
-                };
-
-                const goalSec = sidebarInner.createDiv("tq-sidebar-section");
-                goalSec.createDiv("tq-sidebar-header").createSpan({ text: "Focus Filters" });
-                const goalInput = goalSec.createDiv("tq-search-container").createEl("input", { cls: "tq-small-input", placeholder: "Search goals..." });
-                goalInput.value = this.goalQuery;
-                const goalList = goalSec.createDiv("tq-scroll-list");
-
-                const updateGoalList = () => {
-                    this.goalQuery = goalInput.value;
-                    goalList.empty();
-                    const createFilter = (label: string, id: string) => {
-                        const item = goalList.createDiv("tq-goal-filter-item");
-                        const cb = item.createEl("input", { type: "checkbox" });
-                        cb.checked = this.selectedGoalPaths.has(id);
-                        item.createSpan({ text: label });
-                        item.onclick = () => {
-                            if (id === "all") {
-                                if (this.selectedGoalPaths.has("all")) {
-                                    this.selectedGoalPaths.clear();
-                                } else {
-                                    this.selectedGoalPaths.clear();
-                                    this.selectedGoalPaths.add("all");
-                                }
-                            } else {
-                                this.selectedGoalPaths.delete("all");
-                                this.selectedGoalPaths.has(id) ? this.selectedGoalPaths.delete(id) : this.selectedGoalPaths.add(id);
-                            }
-                            saveGoalFilters();
-                            this.render();
-                        };
-                    };
-                    createFilter("Show All Goals", "all");
-                    this.allNodes
-                        .filter(n => n.isGoal && n.title.toLowerCase().includes(this.goalQuery.toLowerCase()))
-                        .forEach(n => createFilter(n.title, n.id));
-                };
-
-                const containerSec = sidebarInner.createDiv("tq-sidebar-section");
-                containerSec.createDiv("tq-sidebar-header").createSpan({ text: "Goal Containers" });
-                const containerBody = containerSec.createDiv("tq-search-container");
-
-                const isContainerActive = (c: GoalContainer) =>
-                    !this.selectedGoalPaths.has("all") &&
-                    this.selectedGoalPaths.size === c.goalIds.length &&
-                    c.goalIds.every(id => this.selectedGoalPaths.has(id));
+                const focusSec = sidebarInner.createDiv("tq-sidebar-section");
+                focusSec.createDiv("tq-sidebar-header").createSpan({ text: "Focus Filters" });
+                const filterWrap = focusSec.createDiv("tq-search-container");
+                
+                const focusInput = filterWrap.createEl("input", { cls: "tq-small-input", placeholder: "Search individual goals..." });
+                focusInput.value = this.goalQuery;
 
                 const containers = this.plugin.settings.goalContainers;
-                containers.forEach(c => {
-                    const pill = containerBody.createDiv("tq-parent-pill");
-                    if (isContainerActive(c)) pill.classList.add("is-active-container");
-                    pill.createSpan({ text: `📦 ${c.name} (${c.goalIds.length})` });
-                    const remove = pill.createSpan({ text: "✕", cls: "tq-remove-btn" });
-                    remove.onclick = async (e) => {
-                        e.stopPropagation();
-                        await this.plugin.saveGoalContainers(containers.filter(x => x !== c));
-                        this.render();
-                    };
-                    pill.onclick = () => {
-                        this.selectedGoalPaths = new Set(c.goalIds);
-                        saveGoalFilters();
-                        this.render();
-                    };
-                });
-
                 const currentGoalSelection = this.selectedGoalPaths.has("all")
                     ? []
                     : Array.from(this.selectedGoalPaths).filter(id => this.allNodes.some(n => n.id === id && n.isGoal));
 
-                const saveContainerBtn = containerBody.createEl("button", { text: "+ Save current selection as container", cls: "tq-add-parent-btn" });
+                if (containers.length > 0) {
+                    const selectWrap = filterWrap.createDiv();
+                    selectWrap.setAttribute("style", "display: flex; gap: 5px; margin-top: 8px;");
+                    
+                    const select = selectWrap.createEl("select", { cls: "tq-select" });
+                    select.setAttribute("style", "flex: 1; min-width: 0; text-align: left; text-align-last: left;");
+                    
+                    select.createEl("option", { text: "-- Saved Containers --", value: "" });
+                    
+                    let activeIndex = -1;
+                    containers.forEach((c, idx) => {
+                        const opt = select.createEl("option", { text: `📦 ${c.name}`, value: String(idx) });
+                        const isActive = !this.selectedGoalPaths.has("all") &&
+                            this.selectedGoalPaths.size === c.goalIds.length &&
+                            c.goalIds.every(id => this.selectedGoalPaths.has(id));
+                        if (isActive) {
+                            opt.selected = true;
+                            activeIndex = idx;
+                        }
+                    });
+
+                    const delBtn = selectWrap.createEl("button", { text: "✕", title: "Delete selected container" });
+                    delBtn.setAttribute("style", "background: transparent; border: 1px solid var(--background-modifier-border); color: var(--text-error); cursor: pointer; border-radius: 4px; padding: 0 8px;");
+                    delBtn.disabled = activeIndex === -1;
+                    if (activeIndex === -1) delBtn.style.opacity = "0.5";
+                    
+                    select.onchange = () => {
+                        if (select.value === "") return;
+                        const idx = parseInt(select.value, 10);
+                        const c = containers[idx];
+                        if (c) {
+                            this.selectedGoalPaths = new Set(c.goalIds);
+                            saveGoalFilters();
+                            this.render();
+                        }
+                    };
+                    
+                    delBtn.onclick = async () => {
+                        if (select.value === "") return;
+                        const idx = parseInt(select.value, 10);
+                        const c = containers[idx];
+                        if (c) {
+                            await this.plugin.saveGoalContainers(containers.filter(x => x !== c));
+                            this.render();
+                        }
+                    };
+                }
+
+                const saveContainerBtn = filterWrap.createEl("button", { text: "+ Save selection as container", cls: "tq-add-parent-btn" });
                 saveContainerBtn.setAttribute("style", "margin-top: 8px; font-size: 0.7rem;");
                 if (currentGoalSelection.length === 0) {
                     saveContainerBtn.disabled = true;
-                    saveContainerBtn.setAttribute("title", "Select one or more goals above first");
+                    saveContainerBtn.setAttribute("title", "Select one or more goals below first");
                 }
+                
                 saveContainerBtn.onclick = () => {
                     if (currentGoalSelection.length === 0) return;
                     new TextPromptModal(this.app, "Container name...", async (name) => {
@@ -1065,7 +1063,54 @@ export class DashboardView extends ItemView {
                     }).open();
                 };
 
+                const focusList = focusSec.createDiv("tq-scroll-list");
+
+                const updateFocusList = () => {
+                    this.goalQuery = focusInput.value;
+                    focusList.empty();
+
+                    const allItem = focusList.createDiv("tq-goal-filter-item");
+                    const allCb = allItem.createEl("input", { type: "checkbox" });
+                    allCb.checked = this.selectedGoalPaths.has("all");
+                    const allSpan = allItem.createSpan({ text: "Show All Goals" });
+                    allSpan.style.fontWeight = "bold";
+                    allItem.onclick = () => {
+                        if (this.selectedGoalPaths.has("all")) {
+                            this.selectedGoalPaths.clear();
+                        } else {
+                            this.selectedGoalPaths.clear();
+                            this.selectedGoalPaths.add("all");
+                        }
+                        saveGoalFilters();
+                        this.render();
+                    };
+
+                    const matchingGoals = this.allNodes
+                        .filter(n => n.isGoal && n.title.toLowerCase().includes(this.goalQuery.toLowerCase()));
+                        
+                    matchingGoals.forEach(n => {
+                        const item = focusList.createDiv("tq-goal-filter-item");
+                        const cb = item.createEl("input", { type: "checkbox" });
+                        cb.checked = this.selectedGoalPaths.has(n.id);
+                        item.createSpan({ text: n.title }).setAttribute("style", "white-space: nowrap; overflow: hidden; text-overflow: ellipsis;");
+                        item.onclick = () => {
+                            this.selectedGoalPaths.delete("all");
+                            if (this.selectedGoalPaths.has(n.id)) {
+                                this.selectedGoalPaths.delete(n.id);
+                            } else {
+                                this.selectedGoalPaths.add(n.id);
+                            }
+                            saveGoalFilters();
+                            this.render();
+                        };
+                    });
+                };
+                
+                focusInput.oninput = updateFocusList;
+                updateFocusList();
+
                 const distSec = sidebarInner.createDiv("tq-sidebar-section");
+                distSec.setAttribute("style", "flex: 0 0 auto; margin-top: auto; border-top: 1px solid var(--background-modifier-border); border-bottom: none;");
                 distSec.createDiv("tq-sidebar-header").createSpan({ text: "View Settings" });
                 const distWrap = distSec.createDiv("tq-search-container");
 
@@ -1092,17 +1137,9 @@ export class DashboardView extends ItemView {
                     saveViewState();
                     this.render();
                 };
-
-                inboxInput.oninput = updateInboxList;
-                cbInboxInput.oninput = updateCheckboxInboxList;
-                goalInput.oninput = updateGoalList;
-                updateInboxList();
-                updateCheckboxInboxList();
-                updateGoalList();
             }
         };
 
-        const memo = new Map<string, boolean>();
         let anchorNodes: GraphNode[];
         if (this.selectedGoalPaths.has("all")) {
             anchorNodes = this.allNodes.filter(n => n.isGoal);
@@ -1112,9 +1149,9 @@ export class DashboardView extends ItemView {
         
         const anchorNodeIds = new Set(anchorNodes.map(n => n.id));
 
-        let hubHiddenIds = this.computeHubHiddenIds(anchorNodeIds);
+        let hubHiddenIds = this.computeHubHiddenIds(anchorNodeIds, memo);
         
-        const withinRange = this.getNodesWithinDistance(anchorNodes, this.renderDistance, hubHiddenIds);
+        const { nodes: withinRange, frontierCutoffCounts } = this.getNodesWithinDistance(anchorNodes, this.renderDistance, hubHiddenIds, memo);
         this.visibleTasks = this.allNodes.filter(n => withinRange.has(n) && this.isRenderable(n, memo) && !hubHiddenIds.has(n.id));
 
         renderSidebar(hubHiddenIds);
@@ -1206,6 +1243,32 @@ export class DashboardView extends ItemView {
                 };
             }
 
+            // Depth-cutoff badge: this node is a frontier (renderDistance ran out here),
+            // but nothing below it is actually gone — the count reflects the true size of
+            // what's beneath, and clicking it grants this specific branch a fresh depth
+            // budget instead of raising renderDistance globally.
+            const depthHiddenCount = frontierCutoffCounts.get(t.id) ?? 0;
+            if (depthHiddenCount > 0) {
+                const depthBadge = node.createDiv({ cls: "tq-depth-badge", text: `⋯${depthHiddenCount}` });
+                depthBadge.onclick = (e) => {
+                    e.stopPropagation();
+                    this.depthExpandedIds.add(t.id);
+                    saveViewState();
+                    this.render();
+                };
+            } else if (this.depthExpandedIds.has(t.id)) {
+                // This node was previously expanded past the depth cutoff (so it isn't
+                // a frontier anymore). Offer a fold badge to collapse it — and everything
+                // expanded further down its subtree — back to the original depth badge.
+                const foldBadge = node.createDiv({ cls: "tq-depth-fold-badge", text: "⌃" });
+                foldBadge.onclick = (e) => {
+                    e.stopPropagation();
+                    this.foldDepthBranch(t);
+                    saveViewState();
+                    this.render();
+                };
+            }
+
             this.nodeElements.set(t.id, node);
 
             node.onclick = (e) => {
@@ -1226,6 +1289,11 @@ export class DashboardView extends ItemView {
             let pointerStartX = 0, pointerStartY = 0;
 
             node.onpointerdown = (pe) => {
+                // If this pointerdown started on a badge, don't set up node-drag capture.
+                // setPointerCapture() below retargets the eventual click to `node`, which
+                // would swallow the badge's own onclick before it ever fires.
+                if ((pe.target as HTMLElement).closest(".tq-hub-badge, .tq-depth-badge, .tq-depth-fold-badge")) return;
+
                 pe.stopPropagation();
                 isDraggingNode = true;
                 this.draggedNodeId = t.id;

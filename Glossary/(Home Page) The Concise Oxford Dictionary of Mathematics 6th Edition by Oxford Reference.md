@@ -1883,10 +1883,10 @@ Year: 2021-09-01
 	825. [[formalism]]
 	826. forward difference
 	
-	827. forward error correction
+	827. [[forward error correction]]
 	828. forward scan(in critical path analysis)
 	829. forward substitution
-	830. Foucault pendulum
+	830. [[Foucault pendulum]]
 	831. foundations of mathematics
 	832. Four Color Theorem
 	833. [[Fourier's law]]
@@ -1903,7 +1903,7 @@ Year: 2021-09-01
 	843. 𝔽q
 	844. fractal
 	845. [[fractal dimension]]
-	846. fraction
+	846. [[fraction]]
 	
 	847. fractional part
 	848. frame of reference
