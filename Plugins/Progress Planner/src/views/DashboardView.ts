@@ -917,22 +917,6 @@ export class DashboardView extends ItemView {
                     });
                     filteredHeader.setAttribute("style", "background:transparent; padding: 10px 0; margin-top: 10px;");
 
-                    if (!this.expandedHubIds.has(task.id)) {
-                        const expandBtn = scroll.createEl("button", { text: "Show all on canvas", cls: "tq-add-parent-btn" });
-                        expandBtn.setAttribute("style", "margin-bottom: 8px; opacity: 0.85;");
-                        expandBtn.onclick = () => {
-                            this.expandedHubIds.add(task.id);
-                            this.render();
-                        };
-                    } else {
-                        const collapseBtnEl = scroll.createEl("button", { text: "Hide all on canvas", cls: "tq-add-parent-btn" });
-                        collapseBtnEl.setAttribute("style", "margin-bottom: 8px; opacity: 0.85;");
-                        collapseBtnEl.onclick = () => {
-                            this.expandedHubIds.delete(task.id);
-                            this.render();
-                        };
-                    }
-
                     if (filteredChildren.length > 0) {
                         const filteredSearch = scroll.createEl("input", { cls: "tq-small-input", placeholder: "Search filtered children..." });
                         const filteredList = scroll.createDiv();
@@ -1241,6 +1225,16 @@ export class DashboardView extends ItemView {
                     this.expandedHubIds.add(t.id);
                     this.render();
                 };
+            } else if (this.expandedHubIds.has(t.id)) {
+                // Mirrors the "Hide all on canvas" button in the sidebar inspector, but
+                // right on the node so you don't have to open the inspector to fold a
+                // hub back up after expanding it.
+                const hubFoldBadge = node.createDiv({ cls: "tq-hub-fold-badge", text: "⌃" });
+                hubFoldBadge.onclick = (e) => {
+                    e.stopPropagation();
+                    this.expandedHubIds.delete(t.id);
+                    this.render();
+                };
             }
 
             // Depth-cutoff badge: this node is a frontier (renderDistance ran out here),
@@ -1292,7 +1286,7 @@ export class DashboardView extends ItemView {
                 // If this pointerdown started on a badge, don't set up node-drag capture.
                 // setPointerCapture() below retargets the eventual click to `node`, which
                 // would swallow the badge's own onclick before it ever fires.
-                if ((pe.target as HTMLElement).closest(".tq-hub-badge, .tq-depth-badge, .tq-depth-fold-badge")) return;
+                if ((pe.target as HTMLElement).closest(".tq-hub-badge, .tq-hub-fold-badge, .tq-depth-badge, .tq-depth-fold-badge")) return;
 
                 pe.stopPropagation();
                 isDraggingNode = true;
