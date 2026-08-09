@@ -3435,14 +3435,15 @@ Year: 2021-09-01
 	2173. quartiles
 	2174. quaternion
 	2175. quaternion group
-	2176. queuing theory
-	2177. quick sort algorithm
+	2176. [[queuing theory]]
+	2177. [[quick sort algorithm]]
 	2178. Quillen, Daniel Grey (1940-2011)
 	2179. quin-
 	
 	2180. Quine, Willard van Orman (1908-2000)
-	2181. quintic polynomial
+	2181. [[quintic polynomial]]
 	2182. quota sample
+		1. See SAMPLE.
 	2183. quotient
 	2184. quotient group
 	2185. quotient ring
