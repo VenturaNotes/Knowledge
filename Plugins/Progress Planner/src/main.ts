@@ -2,17 +2,23 @@ import { Plugin, PluginSettingTab, Setting, App, TFile } from "obsidian";
 import { TaskCache } from "./cache/TaskCache";
 import { DashboardView, VIEW_TYPE_DASHBOARD } from "./views/DashboardView";
 import { AgendaView, VIEW_TYPE_AGENDA } from "./views/AgendaView";
+import { ActiveTaskPanel } from "./panels/ActiveTaskPanel";
 import { ProgressPlannerSettings, DEFAULT_SETTINGS } from "./types";
 
 export default class ProgressPlannerPlugin extends Plugin {
     public settings: ProgressPlannerSettings;
     public taskCache: TaskCache;
+    public activeTaskPanel: ActiveTaskPanel;
 
     async onload() {
         await this.loadSettings();
 
         // 1. Instantiate the cache object
         this.taskCache = new TaskCache(this.app, this.settings);
+
+        // 1b. Status bar chip + hotkey-triggered floating editor for whatever
+        // task you're currently anchored on — independent of the goals graph.
+        this.activeTaskPanel = new ActiveTaskPanel(this);
 
         // 2. Defer heavy indexing until Obsidian's layout and metadata cache are fully ready
         this.app.workspace.onLayoutReady(async () => {
@@ -85,7 +91,9 @@ export default class ProgressPlannerPlugin extends Plugin {
         this.addSettingTab(new ProgressPlannerSettingTab(this.app, this));
     }
 
-    async onunload() {}
+    async onunload() {
+        this.activeTaskPanel?.onunload();
+    }
 
     async loadSettings() {
         this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());

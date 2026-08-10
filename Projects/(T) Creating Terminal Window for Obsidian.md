@@ -35,6 +35,8 @@ tags:
 - [ ] Be able to modify the "Help" file itself. It would be nice if it kkwas just a `.txt` file that the program pulled from (although I'm not sure where that would be saved.)
 - [ ] Option B: The $PATH Method (Recommended for multiple custom scripts)
 	- [ ] Make it so I can interact with the background
+- [ ] Might need to change height of terminal to make sure the text doesn't get cut-off (like 1.1 or something?)
+	- There might've been a neovim reddit post for this 
 ## Stable V1
 ### TerminalModal
 ```ts

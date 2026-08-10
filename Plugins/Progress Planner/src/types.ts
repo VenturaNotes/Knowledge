@@ -60,6 +60,8 @@ export interface AgendaItem {
     file: string;
     path: string;
     completeInstances: string[];
+    parentLink: string | null;     // display label for the first [[wikilink]] found in the raw task text, if any
+    parentLinkPath: string | null; // raw link target (pre-alias, pre-anchor-stripped) used to resolve/open the note
 }
 
 export interface GoalContainer {

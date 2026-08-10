@@ -81,7 +81,11 @@ export class AgendaView extends ItemView {
 
         if (isPanel) {
             const tagsHtml = item.tags ? `<span class="v7-tag-span">${item.tags}</span>` : "";
-            
+
+            const parentLinkHtml = item.parentLink
+                ? `<div class="v7-parent-link">🔗 ${item.parentLink}</div>`
+                : "";
+
             let dueLabel = "";
             if (showDueDetails && item.date) {
                 const formattedDate = (window as any).moment(item.date).format("MMM D, YYYY");
@@ -92,11 +96,24 @@ export class AgendaView extends ItemView {
 
             el.innerHTML = `<div style="font-size:0.7rem; color:var(--text-accent)">${timeDisplay} ${item.isProject ? '◈ PROJECT' : '○ TASK'}</div>
                             <div style="font-weight:bold">${isDone ? '✓ ' : ''}${item.text}</div>
+                            ${parentLinkHtml}
                             ${dueLabel}
                             <div style="font-size:0.6rem; opacity:0.6; margin-top:5px; display:flex; align-items:center;">
                                 <span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${item.file}</span>
                                 ${tagsHtml}
                             </div>`;
+
+            if (item.parentLink) {
+                const linkEl = el.querySelector<HTMLElement>(".v7-parent-link");
+                if (linkEl) {
+                    linkEl.onclick = (e) => {
+                        e.stopPropagation();
+                        const linkPath = (item.parentLinkPath ?? item.parentLink ?? "").split("#")[0] ?? "";
+                        const dest = this.app.metadataCache.getFirstLinkpathDest(linkPath, item.path);
+                        if (dest) this.app.workspace.getLeaf(false).openFile(dest);
+                    };
+                }
+            }
         } else {
             el.innerHTML = `<span>${isDone ? '✓ ' : ''}${timeDisplay} ${item.text}</span>`;
         }
