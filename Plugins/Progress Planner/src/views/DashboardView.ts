@@ -100,6 +100,11 @@ export class DashboardView extends ItemView {
     private activeNodeId: string | null = null;
     private goalQuery = "";
     private isCollapsed = false;
+    // Gear-icon dropdown panel (Focus Filters + View Settings), replacing what used
+    // to live permanently in the left sidebar. Sidebar is now inspector-only.
+    private settingsPanelOpen = false;
+    private focusSectionExpanded = true;
+    private viewSectionExpanded = true;
 
     private renderDistance = 6;
     private hideCompletedCheckboxes = true;
@@ -972,10 +977,53 @@ export class DashboardView extends ItemView {
                     }
                 }
             } else {
-                const focusSec = sidebarInner.createDiv("tq-sidebar-section");
-                focusSec.createDiv("tq-sidebar-header").createSpan({ text: "Focus Filters" });
-                const filterWrap = focusSec.createDiv("tq-search-container");
-                
+                sidebarInner.createDiv("tq-sidebar-header").createSpan({ text: "Node Inspector" });
+                const emptyMsg = sidebarInner.createDiv();
+                emptyMsg.setAttribute("style", "padding: 24px 16px; opacity: 0.55; font-size: 0.82rem; text-align: center; line-height: 1.4;");
+                emptyMsg.setText("Select a node on the canvas to inspect it here. Focus Filters and View Settings have moved to the gear icon, top right.");
+            }
+        };
+
+        // Gear-icon dropdown (Focus Filters + View Settings), mirroring Obsidian's
+        // native graph view settings panel: a small button top-right of the canvas
+        // that toggles a floating panel with collapsible sections, instead of a
+        // permanent left-side panel that ate into map space at all times.
+        const renderSettingsPanel = () => {
+            const settingsBtn = mapArea.createDiv("tq-settings-btn");
+            settingsBtn.setText("⚙");
+            settingsBtn.onclick = (e) => {
+                e.stopPropagation();
+                this.settingsPanelOpen = !this.settingsPanelOpen;
+                this.render();
+            };
+
+            if (!this.settingsPanelOpen) return;
+
+            const panel = mapArea.createDiv("tq-settings-panel");
+            panel.onpointerdown = (e) => e.stopPropagation();
+            panel.onclick = (e) => e.stopPropagation();
+
+            const panelHeader = panel.createDiv("tq-settings-panel-header");
+            panelHeader.createSpan({ text: "Graph Settings" });
+            const closeBtn = panelHeader.createSpan({ text: "✕", cls: "tq-settings-close" });
+            closeBtn.onclick = () => {
+                this.settingsPanelOpen = false;
+                this.render();
+            };
+
+            // --- Focus Filters section ---
+            const focusSec = panel.createDiv("tq-settings-section");
+            const focusHeader = focusSec.createDiv("tq-settings-section-header");
+            focusHeader.createSpan({ text: (this.focusSectionExpanded ? "▾ " : "▸ ") + "Focus Filters" });
+            focusHeader.onclick = () => {
+                this.focusSectionExpanded = !this.focusSectionExpanded;
+                this.render();
+            };
+
+            if (this.focusSectionExpanded) {
+                const focusBody = focusSec.createDiv("tq-settings-section-body");
+                const filterWrap = focusBody.createDiv("tq-search-container");
+
                 const focusInput = filterWrap.createEl("input", { cls: "tq-small-input", placeholder: "Search individual goals..." });
                 focusInput.value = this.goalQuery;
 
@@ -987,12 +1035,12 @@ export class DashboardView extends ItemView {
                 if (containers.length > 0) {
                     const selectWrap = filterWrap.createDiv();
                     selectWrap.setAttribute("style", "display: flex; gap: 5px; margin-top: 8px;");
-                    
+
                     const select = selectWrap.createEl("select", { cls: "tq-select" });
                     select.setAttribute("style", "flex: 1; min-width: 0; text-align: left; text-align-last: left;");
-                    
+
                     select.createEl("option", { text: "-- Saved Containers --", value: "" });
-                    
+
                     let activeIndex = -1;
                     containers.forEach((c, idx) => {
                         const opt = select.createEl("option", { text: `📦 ${c.name}`, value: String(idx) });
@@ -1009,7 +1057,7 @@ export class DashboardView extends ItemView {
                     delBtn.setAttribute("style", "background: transparent; border: 1px solid var(--background-modifier-border); color: var(--text-error); cursor: pointer; border-radius: 4px; padding: 0 8px;");
                     delBtn.disabled = activeIndex === -1;
                     if (activeIndex === -1) delBtn.style.opacity = "0.5";
-                    
+
                     select.onchange = () => {
                         if (select.value === "") return;
                         const idx = parseInt(select.value, 10);
@@ -1020,7 +1068,7 @@ export class DashboardView extends ItemView {
                             this.render();
                         }
                     };
-                    
+
                     delBtn.onclick = async () => {
                         if (select.value === "") return;
                         const idx = parseInt(select.value, 10);
@@ -1038,7 +1086,7 @@ export class DashboardView extends ItemView {
                     saveContainerBtn.disabled = true;
                     saveContainerBtn.setAttribute("title", "Select one or more goals below first");
                 }
-                
+
                 saveContainerBtn.onclick = () => {
                     if (currentGoalSelection.length === 0) return;
                     new TextPromptModal(this.app, "Container name...", async (name) => {
@@ -1047,7 +1095,8 @@ export class DashboardView extends ItemView {
                     }).open();
                 };
 
-                const focusList = focusSec.createDiv("tq-scroll-list");
+                const focusList = focusBody.createDiv("tq-scroll-list");
+                focusList.setAttribute("style", "max-height: 220px;");
 
                 const updateFocusList = () => {
                     this.goalQuery = focusInput.value;
@@ -1071,7 +1120,7 @@ export class DashboardView extends ItemView {
 
                     const matchingGoals = this.allNodes
                         .filter(n => n.isGoal && n.title.toLowerCase().includes(this.goalQuery.toLowerCase()));
-                        
+
                     matchingGoals.forEach(n => {
                         const item = focusList.createDiv("tq-goal-filter-item");
                         const cb = item.createEl("input", { type: "checkbox" });
@@ -1089,14 +1138,23 @@ export class DashboardView extends ItemView {
                         };
                     });
                 };
-                
+
                 focusInput.oninput = updateFocusList;
                 updateFocusList();
+            }
 
-                const distSec = sidebarInner.createDiv("tq-sidebar-section");
-                distSec.setAttribute("style", "flex: 0 0 auto; margin-top: auto; border-top: 1px solid var(--background-modifier-border); border-bottom: none;");
-                distSec.createDiv("tq-sidebar-header").createSpan({ text: "View Settings" });
-                const distWrap = distSec.createDiv("tq-search-container");
+            // --- View Settings section ---
+            const viewSec = panel.createDiv("tq-settings-section");
+            const viewHeader = viewSec.createDiv("tq-settings-section-header");
+            viewHeader.createSpan({ text: (this.viewSectionExpanded ? "▾ " : "▸ ") + "View Settings" });
+            viewHeader.onclick = () => {
+                this.viewSectionExpanded = !this.viewSectionExpanded;
+                this.render();
+            };
+
+            if (this.viewSectionExpanded) {
+                const viewBody = viewSec.createDiv("tq-settings-section-body");
+                const distWrap = viewBody.createDiv("tq-search-container");
 
                 distWrap.createSpan({ text: "Render distance", cls: "tq-view-settings-label" });
                 const distInput = distWrap.createEl("input", { type: "number", cls: "tq-small-input" });
@@ -1139,6 +1197,7 @@ export class DashboardView extends ItemView {
         this.visibleTasks = this.allNodes.filter(n => withinRange.has(n) && this.isRenderable(n, memo) && !hubHiddenIds.has(n.id));
 
         renderSidebar(hubHiddenIds);
+        renderSettingsPanel();
 
         this.nodeElements.clear();
 
@@ -1433,6 +1492,11 @@ export class DashboardView extends ItemView {
         window.onblur = endPanning;
 
         const handleWheel = (e: WheelEvent) => {
+            // Settings panel is a child of mapArea (unlike the old sidebar, which was a
+            // sibling) — without this check, scrolling its goal list would zoom the
+            // graph instead of scrolling the list.
+            if ((e.target as HTMLElement).closest(".tq-settings-panel")) return;
+
             e.preventDefault();
             const rect = mapArea.getBoundingClientRect();
             const mx = e.clientX - rect.left, my = e.clientY - rect.top;

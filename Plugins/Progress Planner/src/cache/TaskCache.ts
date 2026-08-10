@@ -141,6 +141,23 @@ export class TaskCache {
             .replace(/\s+/g, " ")
             .trim();
 
+        // Pulls the first [[wikilink]] out of raw task text (before cleanText strips
+        // anything) so the agenda view can render it as its own purple chip beneath
+        // the task, the same way inline #tags get their own treatment, instead of the
+        // link syntax just sitting inline in the task's display text.
+        const extractParentLink = (t: string): { text: string; parentLink: string | null; parentLinkPath: string | null } => {
+            const m = t.match(/\[\[([^\]]+)\]\]/);
+            if (!m || !m[1]) return { text: t, parentLink: null, parentLinkPath: null };
+            const raw = m[1];
+            const [targetPart, aliasPart] = raw.split("|");
+            const label = (aliasPart ?? (targetPart ?? raw).split("#")[0])?.trim() || raw.trim();
+            return {
+                text: t.replace(m[0], "").replace(/\s+/g, " ").trim(),
+                parentLink: label,
+                parentLinkPath: (targetPart ?? raw).trim()
+            };
+        };
+
         const projectTags = fmTags
             .filter((t: string) => String(t).toLowerCase() !== "task" && t.length > 0)
             .map((t: string) => String(t).startsWith('#') ? t : '#' + t)
@@ -165,8 +182,11 @@ export class TaskCache {
               }).filter((d: any): d is string => d !== null)
             : [];
 
+        const rawTitle = fm.title ? String(fm.title) : file.basename;
+        const { text: titleNoLink, parentLink: fileParentLink, parentLinkPath: fileParentLinkPath } = extractParentLink(rawTitle);
+
         agendaItems.push({
-            text: cleanText(fm.title ? String(fm.title) : file.basename),
+            text: cleanText(titleNoLink),
             status: isFileDone ? "x" : " ",
             date: fileDate,
             rrule: rrule,
@@ -176,7 +196,9 @@ export class TaskCache {
             isProject: true,
             file: file.basename,
             path: file.path,
-            completeInstances: completeInstances
+            completeInstances: completeInstances,
+            parentLink: fileParentLink,
+            parentLinkPath: fileParentLinkPath
         });
 
         const content = await this.app.vault.cachedRead(file);
@@ -202,8 +224,10 @@ export class TaskCache {
                 const tM = textVal.match(/⏰\s*(\d{1,2}:\d{2}(?:\s?[APMapm]{2})?)/);
                 const parsedTimeVal = tM ? (tM[1] || null) : null;
 
+                const { text: textNoLink, parentLink, parentLinkPath } = extractParentLink(textVal);
+
                 agendaItems.push({
-                    text: cleanText(textVal),
+                    text: cleanText(textNoLink),
                     status: statusVal,
                     date: dateStr,
                     rrule: null,
@@ -213,7 +237,9 @@ export class TaskCache {
                     isProject: false,
                     file: file.basename,
                     path: file.path,
-                    completeInstances: []
+                    completeInstances: [],
+                    parentLink: parentLink,
+                    parentLinkPath: parentLinkPath
                 });
             }
         });

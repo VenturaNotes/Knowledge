@@ -2852,11 +2852,13 @@ Year: 2021-09-01
 		1. See logarithm
 	1654. Napoleon's theorem
 	1655. Nash, John Forbes (1928-2015)
-	1656. Nash equilibrium
+	1656. [[Nash equilibrium]]
 	1657. National Center for Excellence in the Teaching of Mathematics
 	1658. natural frequency
+		1. See NORMAL MODE.
 	1659. natural logarithm
-	1660. natural number
+		1. See LOGARITHM.
+	1660. [[natural number]]
 	
 	1661. Navier-Stokes equations
 	1662. necessary and sufficient condition
@@ -2866,8 +2868,10 @@ Year: 2021-09-01
 	1666. negative
 	1667. negative binomial distribution
 	1668. negative correlation
+		1. See CORRELATION.
 	1669. negative direction
-	1670. negative number
+		1. See DIRECTED LINE.
+	1670. [[negative number]]
 	
 	1671. neighborhood
 	1672. neighborhood
@@ -2919,7 +2923,7 @@ Year: 2021-09-01
 	1714. non-homogeneous linear differential equation
 	1715. non-homogeneous set of linear equations
 	1716. non-linear
-	1717. non-negative
+	1717. [[non-negative]]
 	1718. non-orientable
 	1719. non-parametric methods
 	1720. non-response bias
