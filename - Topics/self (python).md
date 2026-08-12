@@ -32,7 +32,7 @@ car2 = Car("blue", "Ford")
 car1.describe()  # Output: This is a red Toyota.
 car2.describe()  # Output: This is a blue Ford.
 ```
-- #question What would the code look like without `self`?
+- [ ] #question What would the code look like without `self`?
 ### Why do we have to write self explicitly?
 - In languages like Java or C++, a similar concept called this is used, but it is often implicit (you don't have to pass it as a parameter in your method definitions).
 - Python, however, follows the philosophy that "explicit is better than implicit."
@@ -88,7 +88,7 @@ class DemoClass:
 - It is required if you want the method to be callable from both the class itself and any instances of that class.
 - Here is what happens if you omit it:
 	- **Calling via the class:** In Python 3, if you define a method with no arguments and omit @staticmethod, you can still call it directly via the class.
-		- #question How do you call via class?
+		- [ ] #question How do you call via class?
 	- **Calling via an instance:** If you try to call that same method on an instance of the class, Python will automatically attempt to pass the instance as the first argument, resulting in a TypeError.
 
 ```

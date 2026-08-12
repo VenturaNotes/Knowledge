@@ -39,7 +39,7 @@ for key, value in student_info.items():
     print(f"{key}: {value}")
 
 ```
-- #question Is `f` needed in the example above for the print line? 
+- [ ] #question Is `f` needed in the example above for the print line? 
 	- #comment I think it's just for a formatted string literal. 
 - The [[del (Python)|del]] keyword is used to delete objects. In Python, everything is an object, so the del keyword can also be used to delete variables, lists, or parts of a list etc. [^1]
 - The "f" while iterating through the dictionary stands for [[formatted string literal (Python)|formatted string literal]]
@@ -120,7 +120,7 @@ print(max_key)
 
 # Output: banana
 ```
-- #question How does the `my_dict.get` attribute work? 
+- [ ] #question How does the `my_dict.get` attribute work? 
 - This retrieves the key with the maximum value.
 ### Initialization
 - A constant time operation
@@ -155,8 +155,8 @@ car["test"] = "new value"
 
 ```
 - A `KeyError` will occur if the key doesn't exist
-	- #question Give me some details about KeyError
-	- #question Does `car.pop("model")` return the value after removal?
+	- [ ] #question Give me some details about KeyError
+	- [ ] #question Does `car.pop("model")` return the value after removal?
 #### Adding
 - Allows me to add a key-value pair to existing dictionary
 ```python
@@ -240,7 +240,7 @@ print('Copied Marks:', copied_marks)
 ```
 - Returns a shallow copy of the dictionary
 ### Dictionary fromkeys()
-#question What is the below?
+- [ ] #question What is the below?
 ### Dictionary get()
 ### Dictionary items()
 ### Dictionary keys()

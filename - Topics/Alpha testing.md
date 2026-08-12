@@ -9,10 +9,10 @@
 	- [[Quality assurance engineer|QA engineers]] / [[quality assurance tester|QA testers]]
 	- [[DevOps engineers]]
 	- [[Analyst|business analysts]] (in some cases)
-		- #question Why only in some cases?
+		- [ ] #question Why only in some cases?
 ### Internal Testers
 - Internal testers usually conduct testing in controlled environments using the below methods rather than real-world unpredictable scenarios. This is often referred to as [[pre-production testing]], [[staging]], or [[sandbox testing]]
-	- #question give an example for structured test cases, simulations, and predefined conditions
+	- [ ] #question give an example for structured test cases, simulations, and predefined conditions
 	- structured test cases
 	- simulations
 	- predefined conditions
@@ -22,7 +22,7 @@
 	- Other employees (for [[user acceptance testing|UAT]] and [[dogfooding]])
 ### Description and Real-world conditions
 - Alpha testing is done in a controlled, internal environment before releasing software to external users.
-	- #question is alpha testing after beta testing? What is the order of these tests? 
+	- [ ] #question is alpha testing after beta testing? What is the order of these tests? 
 - Real-world conditions involve unpredictable user interactions, varied hardware, internet conditions, and diverse usage scenarios.
 - Real-world testing includes:
 	- [[Beta testing]]
@@ -30,7 +30,7 @@
 	- [[Usability testing]]
 ## Source [^1]
 - Alpha testing is [[software testing]] performed by [[Internal staff#Alpha Testing|internal staff]] or developers before making it available to [[external testers]], focusing on identifying [[bug|bugs]] and [[issues#Software Development|issues]] early in the [[Software Development Life Cycle|development cycle]].
-	- #question is alpha testing a type of software testing?
+	- [ ] #question is alpha testing a type of software testing?
 ## Source[^2]
 - Alpha testing is the initial phase of validating whether a new product will perform as expected.
 ## References

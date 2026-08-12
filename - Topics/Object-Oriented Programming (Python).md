@@ -53,9 +53,9 @@ print(cat.speak())  # Output: Whiskers says Meow!
 - Code Reusability
 	- Common functionality can be defined in superclass and inherited by all subclasses reducing code duplication
 - [[polymorphism (python)|polymorphism]]
-	- #question What exactly is polymorphism? 
+	- [ ] #question What exactly is polymorphism? 
 	- Subclasses can override methods from superclass allowing for polymorphic behavior. `Dog` and `Cat` have their own implementations of the speak method
-	- #question is it considered polymorphism if an attribute from a superclass is overridden in a subclass? 
+	- [ ] #question is it considered polymorphism if an attribute from a superclass is overridden in a subclass? 
 - Maintainability
 	- Changes made in superclass can automatically be propagated to subclasses
 

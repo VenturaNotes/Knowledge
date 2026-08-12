@@ -47,8 +47,8 @@ print(get_subsets_recursive(my_set))
 | 1st Backtrack                  | Go to 2nd                             | Go to 3rd                            | Go to 4th                               |                                                     |                                 |
 | `current_subset` after popping |                                       |                                      | `[2, 5]`                                |                                                     |                                 |
 | 2nd Backtrack                  |                                       |                                      | Go to 5th                               |                                                     |                                 |
-- #question Do you have to do `list()` to make a copy? 
-- #question Does return and break do the same thing in the code? 
+- [ ] #question Do you have to do `list()` to make a copy? 
+- [ ] #question Does return and break do the same thing in the code? 
 ## Source[^1]
 - You can have a [[Proper Subset]] and an [[Improper Subset]]
 - Given an improper subset A $\subseteq$ B

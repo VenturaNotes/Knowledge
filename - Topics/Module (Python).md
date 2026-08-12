@@ -24,8 +24,8 @@ from math import sqrt as sq
 #Here we're importing the choice function from the random module which is part of the random package 
 from random import choice
 ```
-#question What does it mean to have modular code? 
-#question How to know difference between package submodule and package module. I don't exactly understand this
+- [ ] #question What does it mean to have modular code? 
+- [ ] #question How to know difference between package submodule and package module. I don't exactly understand this
 ### Examples
 - [[os (python)|os]]
 - [[datetime (python)|datetime]]
@@ -65,7 +65,7 @@ print(dir(mymodule))
 from mymodule import person1
 
 ```
-#question When importing something from a module, when using the "from" keyword, what is it exactly that we're importing. Is it another module. Is it a class. What is the vocabulary for this?
+- [ ] #question When importing something from a module, when using the "from" keyword, what is it exactly that we're importing. Is it another module. Is it a class. What is the vocabulary for this?
 ## Source[^2]
 - We can create our own modules as well
 - By creating a module in the same directory as `main.py`, we can access the 

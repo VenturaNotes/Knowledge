@@ -38,7 +38,7 @@
 		- $\epsilon * \text{"abc"} = \text{"abc"} * \epsilon = \text{"abc"}$ 
 3. Square Matrices under Multiplication
 	- Sets: All $n \times n$ matrices over a field
-		- #question What is a field?
+		- [ ] #question What is a field?
 	- Operation: Matrix multiplication
 	- Identity element: The identity matrix $I$ or ($I_n$), which is a square matrix with 1s on the main diagonal and 0s elsewhere. It satisfies $I * A = A*I = A$ 
 ### Applications of Monoids
@@ -65,10 +65,10 @@
 ## Source[^2]
 1. A monoid is a set with a [[binary operation]]
 2. Commutativity is not a requirement for a monoid; it only needs closure, associativity, and identity element
-	- #question What is commutativity, closure, associativity and identity element?
+	- [ ] #question What is commutativity, closure, associativity and identity element?
 3. Closure means that performing the binary operation on any two elements of the set will result in another element from the same set
 4. Natural numbers under addition, natural numbers under multiplication, and strings under concatenation are all examples of a monoid (because they satisfy the properties of a monoid: closure, associativity, and an identity element)
-	- #question II would like to see a practice problem for this
+	- [ ] #question II would like to see a practice problem for this
 5. The identity element for natural numbers under addition is 0 because adding 0 to any number does not change its value
 ## References
 

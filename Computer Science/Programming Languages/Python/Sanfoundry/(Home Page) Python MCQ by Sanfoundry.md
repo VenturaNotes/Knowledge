@@ -17,24 +17,24 @@ Source:
 - (1) Who developed Python Programming Language?
 	- Guido van Rossum
 		- Python language is designed by a Dutch programmer Guido van Rossum in the Netherlands
-		- #question What is the background of Guido van Rossum?
+		- [ ] #question What is the background of Guido van Rossum?
 - (2) Which type of Programming does Python support?
 	- All of the below
 		- Object-oriented programming
 		- [[structured programming]]
-			- #question What is structured programming in python? What does it look like?
+			- [ ] #question What is structured programming in python? What does it look like?
 		- Functional programming
-			- #question What is functional programming in python? What does it look like?
+			- [ ] #question What is functional programming in python? What does it look like?
 	- Python is an interpreted programming language, which supports object-oriented, structured, functional programming
 - (3)  Is python case sensitive when dealing with identifiers?
 	- Yes
 		- Case is always significant while dealing with identifiers in python.
-	- #question What are identifiers? Are these types?
+	- [ ] #question What are identifiers? Are these types?
 - (4) Which of the following is the correct extension of the python file?
 	- `.py`
 		- `.py` is the correct extension of the python file. Python programs can be written in any text editor. To save these programs we need to save in files with file extension `.py`
-			- #question What kind of text editors can you write in?
-			- #question Is Microsoft word a text editor? If I saved a docx file as a py file, would I then be able to run the code written within this software?
+			- [ ] #question What kind of text editors can you write in?
+			- [ ] #question Is Microsoft word a text editor? If I saved a docx file as a py file, would I then be able to run the code written within this software?
 - (5) Is python code compiled or interpreted
 	- Python code is both complied and interpreted
 		- Many languages have been implemented using both compilers and interpreters, including C, Pascal, and Python
@@ -123,7 +123,7 @@ while True:
 - (10) Which of the following cannot be a variable name in Python? 
 	- `in`
 		- `in` is a reserved keyword in Python used for membership testing and loops, so it cannot be used as a variable name. The other options `(__init__, it, on)` are valid identifiers
-			- #question Isn't `__init__` a type of keyword though?
+			- [ ] #question Isn't `__init__` a type of keyword though?
 ### (1.2) Python Basic Operators
 - (1) Which is the correct operator for power $(x^y)$ in python?
 	- $x^*\\^*y$
@@ -131,18 +131,18 @@ while True:
 - (2) Which one of these is floor division?
 	- `//`
 		- The `//` operator in Python performs floor division, which returns the largest integer less than or equal to the division result. For example, `5 // 2` results in 2, not 2.5. The `/` operator, on the other hand, performs true division and returns a float `(5/2 = 2.5)`. To get the integer result without the fractional part, use `//`. 
-		- #question Does double exist in python?
+		- [ ] #question Does double exist in python?
 - (3) What is the order of precedence in Python?
 	- Parentheses, Exponential, Multiplication, Division, Addition, Subtraction
 		- Python follows the PEMDAS rule (similar to BODMAS): Parentheses, Exponentiation, Multiplication/Division, and then Addition/Subtraction. Operators at the same level are evaluated left to right.
-			- #question What is BODMAS?
+			- [ ] #question What is BODMAS?
 - (4) What is the answer to this expression, `22 % 3` is?
 	- 1
 		- The modulus operator (\%) returns the remainder when one number is divided by another. In this case, `22 % 3` gives the remainder 1 (since 22 divided by 3 is 7 with a remainder of 1).
 - (5) Mathematical operations can be directly performed on a string in Python without conversion
 	- False
 		- In Python, you cannot perform mathematical operations like addition, subtraction, multiplication, or division directly on a string. To perform arithmetic operations, you must first convert the string to a numerical type (e.g., int or float). Otherwise, Python will raise a TypeErorr
-			- #question Could you give an example of a TypeError in python? 
+			- [ ] #question Could you give an example of a TypeError in python? 
 			- #comment However, I believe you can concatenate a two strings together by using `+`. 
 - (6) Operators with the same precedence are evaluated in which manner?
 	- Can't say
@@ -170,7 +170,7 @@ while True:
 - (2) Given a function that does not return any value, what is the default return value when it is executed in the Python shell?
 	- None
 		- If a function does not explicitly return a value, Python returns `None` by default. The type of `None` is `NoneType`
-			- #question What is `NoneType`?
+			- [ ] #question What is `NoneType`?
 - (3) What will be the output of the following python code?
 ```python
 str = "hello"
@@ -186,7 +186,7 @@ print(str[:2])
 - (5) What is the return type of the `id()` function in python?
 	- `int`
 		- The `id()` function returns a unique integer that shows the memory address of an object You can use `help(id)` in the Python shell to learn more?
-		- #question Why would you use `id()` in python?
+		- [ ] #question Why would you use `id()` in python?
 - (6) In Python, variable types are not explicitly declared$\textemdash$they are inferred at runtime. Consider the following incomplete operation: `x = 13 ? 2`. The objective is to ensure that `x` has an integer value. Select all options that achieve this (python 3.x): 
 	- All of the below do this
 		- `x = 13 // 2`
@@ -196,14 +196,14 @@ print(str[:2])
 		- `x = 13 % 2`
 			- Modulus returns the remainder 1, which is also an integer
 	- All three assign an integer value to x, so all are valid in Python 3.x
-		- #question Would these not work in Python 2.x? What is the main difference between 3.x and 2.x?
+		- [ ] #question Would these not work in Python 2.x? What is the main difference between 3.x and 2.x?
 - (7) What error occurs when you execute the following Python code snippet?:
 ```python
 apple = mango
 ```
 - NameError
 	- The variable mango is not defined before it is used, so Python raises a NameError indicating the name is not recognized
-		- #question When would a TypeError or ValueError show? Give me examples for both. 
+		- [ ] #question When would a TypeError or ValueError show? Give me examples for both. 
 - (8) What will be the output of the following Python code snippet?
 ```python
 def example(a):
@@ -315,15 +315,15 @@ print('hello-'+'how-are-you')
 	- Valid
 		- `float('inf')`
 		- `float('56' + '78')`
-			- #question Does it add them up together?
+			- [ ] #question Does it add them up together?
 		- `float('nan')`
-			- #question What is `nan`? Could you also just write `nan` for same effect?
+			- [ ] #question What is `nan`? Could you also just write `nan` for same effect?
 - (9) What is the result of `round(0.5) - round(-0.5)`?
 	- Value depends on Python version
 		- The behavior of the `round()` function is different in Python 2 and Python 3. 
 			- In Python 2, it rounds off numbers away from 0 when the number to be rounded off is exactly halfway through. `round(0.5)` is 1 and `round(-0.5)` is -1
 			- In Python 3, it rounds off numbers towards nearest even number when the number to be rounded is exactly halfway through. See the below output.
-				- #question The `even` number is intentional. 
+				- [ ] #question The `even` number is intentional. 
 - Here's the runtime output for Python version 2.7 interpreter
 ```
 $ python
@@ -375,7 +375,7 @@ Python 3.6.8 (default, Oct 7 2019, 12:59:55)
 - (4) Which of the following operators has its associativity from right to left? 
 	- `**`
 		- Most operators in Python are left-associative, but the exponentiation operator `***` is right-associative. So `2**3**2` is evaluated as `(2**(3**2).`
-			- #question Is this for just in python or math rules as well? I think it follows math rules as well
+			- [ ] #question Is this for just in python or math rules as well? I think it follows math rules as well
 - (5) What will be the value of `x` in the following Python expression?
 ```python
 x = int(43.55+2/2)
@@ -388,7 +388,7 @@ print(x)
 - `print(2+4.00, 2**4.0)`
 	- (6.0, 16.0)
 		- In Python, `2 + 4.00` results in `6.0 (float)`, and `2**4.0` results in `16.0` because any operation involving a float yields a float. So, the final result is `(6.0, 16.0)`
-			- #question For `2 + 4.00`, I understand that the output would be a float giving `6.0` but why doesn't the result yield `6.00`. Why is the hundredths place truncated? Is this true no matter how many 0s there are after the decimal?
+			- [ ] #question For `2 + 4.00`, I understand that the output would be a float giving `6.0` but why doesn't the result yield `6.00`. Why is the hundredths place truncated? Is this true no matter how many 0s there are after the decimal?
 - (7) Which of the following is the truncation division operator?
 	- `//`
 		- `//` is the truncation (floor) division operator in Python. It returns only the integer part of the result by discarding the decimal part. For example, `20 // 3` gives 6. 
@@ -409,7 +409,7 @@ print(8/4/2, 8/(4,2))
 ```
 - `1.0 4.0`
 	- The first parts 8/4/2 is evaluated left to right: 2.0 / 2 = 1.0. The second part 8/(4/2) becomes 8/2 = 4.0. Hence, the result is 1.0 4.0
-- #question What does a comma mean in a print statement?
+- [ ] #question What does a comma mean in a print statement?
 - (10) What is the value of the following expression?
 ```python
 print(float(22//3+3/3))
@@ -435,21 +435,21 @@ print(X)
 - (3) Which of the following expressions involves coercion when evaluated in Python?
 	- `1.7 % 2`
 		- Coercion is the implicit (automatic) conversion of operands to a common type. Coercion is automatically performed on mixed-type expressions. The expression `1.7 % 2` is evaluated as `1.7 % 2.0` (that is, automatic conversion of `int` to `float`)
-			- #question Is coercion is the same thing as implicit conversion or implicit casting? Are these terms just aliases?
+			- [ ] #question Is coercion is the same thing as implicit conversion or implicit casting? Are these terms just aliases?
 - (4) What will be the output of the following Python expression?
 ```python
 print(24//6%3, 24//4//2)
 ```
 - 1 3
 	- The expression `24 // 6 % 3, 24 // 4 // 2` evaluates to `(1, 3)` because the operations are performed from left to right, with `24 // 6` giving 4, followed by `4 % 3` resulting in 1, and `24 // 4` giving `6`, followed by `6 // 2` resulting in `3`.
-		- #question Does division and the modulus operator have the same precedence? So that if you find one, you just compute it from left to right? 
+		- [ ] #question Does division and the modulus operator have the same precedence? So that if you find one, you just compute it from left to right? 
 - (5) Which among the following list of operators has the highest precedence?
 ```
 `+, -, **, %, <<, >>, |`
 ```
 - `**`
 	- The highest precedent is that of the exponentiation operator, that is of `**`
-		- #question What is `<<`, `>>`, and `|`. I don't know what kind of operators they are. What is there order of precedence in this list of operators?
+		- [ ] #question What is `<<`, `>>`, and `|`. I don't know what kind of operators they are. What is there order of precedence in this list of operators?
 - (6) What will be the value of the following Python expression?
 ```python
 print(float(4+int(2.39)%2))
@@ -507,11 +507,11 @@ print(int(1011))
 - `1011`
 	- The result of the expression shown will be `1011`. This is because we have not specified the base in this expression. Hence it automatically takes the base as 10.
 		- #comment So basically doing `int(1011)` assumes the base to be 10
-		- #question How do we assume a base of 2 or a different number?
+		- [ ] #question How do we assume a base of 2 or a different number?
 - (5) To find the decimal value of `1111`, that is 15, we can use the function
 	- `int('1111',2)`
 		- The expression `int('1111',2)` converts the binary string `1111` to its decimal equivalent, which is 15. The expression `int('1111',10)` would interpret `1111` as a decimal number and return `1111.`
-		- #question Why wouldn't `int(1111,2)` work?
+		- [ ] #question Why wouldn't `int(1111,2)` work?
 - (6) What will be the output of the following Python expression if `x = 15` and `y=12`?
 ```
 x & y
@@ -525,7 +525,7 @@ x & y
 - (8) Which of the following represents the bitwise XOR operator?
 	- `^`
 		- The `^` operator represents the bitwise `XOR` operation. & represents bitwise AND, | represents bitwise OR, and `!` is typically used as a logical NOT in many programming languages (not a bitwise operator). 
-			- #question What does an example of each look like in python?
+			- [ ] #question What does an example of each look like in python?
 - (9) What is the value of of the following Python expression?
 ```python
 print(bin(0x8))
@@ -533,15 +533,15 @@ print(bin(0x8))
 - `0b1000`
 	- The prefix `0x` specifies that the value is in hexadecimal. When we convert `0x8` to its binary form, we get `0b1000`. 
 		- #comment This makes sense because when given hexadecimal, it goes all the way to F which has a base 10 value of 15 which in binary is `0b1111`
-		- #question Why do we use `x` to represent a hexadecimal value? Why are hexadecimal values important?
+		- [ ] #question Why do we use `x` to represent a hexadecimal value? Why are hexadecimal values important?
 - (10) What will be the output of the following Python expression?
 ```python
 print(0x35 | 0x75)
 ```
 - 117
 	- The binary value of `0x35` is 110101 and that of `0x75` is `1110101`. Performing the bitwise `OR` operation on these values results in `1110101`, which is equal to 117. Hence, the result of the expression is 117
-		- #question Why is the output in base-10 and not base 16?
-		- #question How do we find binary from hexadecimal?
+		- [ ] #question Why is the output in base-10 and not base 16?
+		- [ ] #question How do we find binary from hexadecimal?
 - ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 01.01.26.excalidraw]]
 ### (4.2) Python Bitwise - 2
 - (1) It is not possible for the two's complement value to be equal to the original value in any case
@@ -666,8 +666,8 @@ print(list(filter(bool,l)))
 []
 ```
 - In both expressions, Python evaluates operands from left to right using the `or` operator. Since both the left and right operands (`[]` and `{}`) are false, the `or` operator returns the last evaluated operand. Therefore, the first expression returns `{}` and the second returns `[]`
-	- #question What does this have to do with the System Date?
-	- #question If both operands are false, why wouldn't the `or` operator return `None`? 
+	- [ ] #question What does this have to do with the System Date?
+	- [ ] #question If both operands are false, why wouldn't the `or` operator return `None`? 
 - (7) What will be the output of the following Python code?
 ```python
 class Truth:
@@ -677,7 +677,7 @@ print(bool(x))
 ```
 - True
 	- If a class does not implement a `__bool__()` or `__len__()` method, then all its instances are considered true by default, so `bool(x)` returns True.
-		- #question Give examples of a class using `__bool__()` or `__len__()` method to make one version true and the other version false. What happens if a class implements both methods? Is that possible? 
+		- [ ] #question Give examples of a class using `__bool__()` or `__len__()` method to make one version true and the other version false. What happens if a class implements both methods? Is that possible? 
 - (8) What will be the output of the following Python code?
 ```python
 if (9 < 0) and (0 < -9):
@@ -715,7 +715,7 @@ print("05d"%X)
 ```
 - error
 	- The code snippet shown above results in an error because the above formatting option works only if `X` is a number. Since in the above case `X` is a string, an error is thrown. 
-		- #question What would the result look like if `X` was a number?
+		- [ ] #question What would the result look like if `X` was a number?
 - (2) What will be the output of the following Python code snippet?
 ```python
 X = "san-foundry"
@@ -764,7 +764,7 @@ print("%.2f"%x)
 ```
 - `56.24`
 	- The expression shown above rounds off the given number to the number of decimal places specified. Since the expression given specifies rounding off to two decimal places, the output of this expression will be `56.24`. Had the value been `x=56.234` (last digit begin any number less than 5), the output would have been `56.23`
-		- #question Is `%.2f` decimal rounding different from the `round()` function which I believe rounds to the closest even number? 
+		- [ ] #question Is `%.2f` decimal rounding different from the `round()` function which I believe rounds to the closest even number? 
 - (9) What will be the output of the following Python expression?
 ```python
 x = 22.19
@@ -785,7 +785,7 @@ print("-%5d0", 989)
 	- #comment Variation
 		- `print("-%5d0"%989)` $\to$ `-  9890`
 			- There is total 5 characters `  989` and the `0` and `-` come after and before respectively since they're outside the format specifier.
-	-  #question Does the comma guarantee a space? 
+	- [ ]  #question Does the comma guarantee a space? 
 ### (5.2) Python Formatting - 2
 ### (5.3) Python Advanced Formatting
 ### (5.4) Python Decorators
@@ -845,7 +845,7 @@ print(t[1:-1])
 ```
 - `(2,4)`
 	- `t[1:-1]` slices the tuple from index 1 up to (but not including) the last element. So it returns `(2, 4)` from `(1, 2, 4, 3)`. Negative indices count from the end, just like in lists or strings.
-		- #question Dose a `-0` exist for an index?
+		- [ ] #question Dose a `-0` exist for an index?
 - (5) What will be the output of the following Python code?
 ```python
 t = (1, 2, 4, 3, 8, 9)
@@ -889,7 +889,7 @@ for i in  filter(test, a):
     print(i,end=" ")
 ```
 - `[5, 6, 7]`
-- #question What does the filter method do in python? In this case, it seems to call a function in the first argument and the second argument seems to call an iterable. 
+- [ ] #question What does the filter method do in python? In this case, it seems to call a function in the first argument and the second argument seems to call an iterable. 
 - #comment So if `a` is `[5, 5, 6, 7, 7, 7]`, and we know that `b` will have every element that exists in `b`, then I think the answer is `5 5 6 7 7 7`
 - `5 5 6 7 7 7`
 	- The test function checks whether each element of list `a` exists in set `b`. Since all elements of `a` are present in `b`, the filter includes every item in `a`. Therefore, the output is the full list: 5 5 6 7 7 7.

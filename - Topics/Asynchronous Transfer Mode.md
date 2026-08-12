@@ -28,7 +28,7 @@ aliases:
 		- High traffic can slow down transmission
 	- [[Quality of service]] settings
 		- ATM allows different traffic classes, prioritizing critical data
-			- #question What are traffic classes?
+			- [ ] #question What are traffic classes?
 	- [[Physical medium]]
 		- [[Fiber optics]] are faster than [[copper cables]]
 - To increase speed
@@ -100,7 +100,7 @@ aliases:
 - Asynchronous transfer mode is a dedicated-connection switching technology that organizes digital data into 53-byte cell units for transmission. ATM can transmit data at speeds of 155 or 622 MBps and faster
 ## Source[^2]
 - ATM transfers data in fixed-size units known as cells. Each cell includes 53 octets or bytes.
-	- #question is an octet the same as a byte?
+	- [ ] #question is an octet the same as a byte?
 - The first 5 bytes contain cell-header data, and the remaining 48 include the payload (user information).
 
 ## Source[^3]

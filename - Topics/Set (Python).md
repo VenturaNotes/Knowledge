@@ -19,7 +19,7 @@ aliases:
 	- The order is not guaranteed
 	- In CPython (the most common Python implementation), iterating over a set will typically yield elements in a consistent, but arbitrary, order for a given instance. 
 		- However, this order is an implementation detail and should not be relied upon as it can change between Python versions or even if the set is rebuilt
-		- #question What is Cpython? 
+		- [ ] #question What is Cpython? 
 ### Maximum Value
 - Finds the maximum value in a set
 	- This is $O(n)$ time 
@@ -90,7 +90,7 @@ my_set.add(6)
 print(my_set)       #Output: {1, 2, 3, 6}
 print(original_set) #Output: {1, 2, 3}
 ```
-#question is `set()` considered a constructor or just a method/function? 
+- [ ] #question is `set()` considered a constructor or just a method/function? 
 #### Set Comprehension
 - Use [[set comprehension (python)|set comprehension]]
 ```python
@@ -129,9 +129,9 @@ my_tuple = (1, 2, 3)
 my_set = {*my_tuple}
 print(my_set)  # Output: {1, 2, 3}
 ```
-#question I don't understand what the `*` is doing. It seems confusing
-#question I want to understand how unpacking actually works
-#question Modify the code as well.
+- [ ] #question I don't understand what the `*` is doing. It seems confusing
+- [ ] #question I want to understand how unpacking actually works
+- [ ] #question Modify the code as well.
 
 ### Check for Presence of an Element
 - There is no get method for sets

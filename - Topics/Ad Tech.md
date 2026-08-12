@@ -28,8 +28,8 @@
 	- [ ] #question What is GDPR?
 ## Source [^1]
 - Ad tech is a term used to describe the technology and services used to deliver digital advertising. This can include everything from ad servers and delivery networks to analytics software and attribution platforms. This type of technology aims to make sure ads are delivered in a way that's most effective for both advertisers and publishers. Ad tech helps to measure performance by tracking click-through rates (CTR), cost per acquisition (CPA), or other metrics. They also provide data about demographics like age groupings, gender breakdowns, etc., so marketers can target their ads toward specific groups of people more effectively.
-	- #question What is an attribute platform?
-	- #question What is cost per acquisition?
+	- [ ] #question What is an attribute platform?
+	- [ ] #question What is cost per acquisition?
 ## References
 
 [^1]: https://www.capterra.com/glossary/ad-tech/

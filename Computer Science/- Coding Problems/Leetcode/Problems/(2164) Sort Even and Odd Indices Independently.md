@@ -90,7 +90,7 @@ class Solution:
 - Changes
 	- Gave `total` a default size and traversed based on index
 	- Used two pointers to change the values of the elements in `total` from the `even` and `odd` lists
-- #question What would the counting sort solution look like
+- [ ] #question What would the counting sort solution look like
 ### Solution 3
 - For counting sort, the numbers in `nums` are typically within a limited range (1 to 100 or 1 to 1000). This limited range `K` makes counting sort viable. 
 - Steps

@@ -15,7 +15,7 @@ aliases:
 		- `print(hello)` would give output `["apple", "banana", "cherry"]`
 ### Description
 - [[Square brackets (python)|square brackets]] are used for indexing and slicing sequences like lists, strings, and tuples
-	- #question What does the context for this look like? 
+	- [ ] #question What does the context for this look like? 
 - Initialize an empty list
 	- `my_list = []`
 
@@ -174,7 +174,7 @@ print(f"full_list after row_list change: {full_list}") # Output: [[1, 2, 3, 4]]
 		- `full_list.append(list(row_list))`
 		- `full_list.append(row_list[:]`
 			- Slice creates a new list
-		- #question Isn't there a `row_list.copy()` option?
+		- [ ] #question Isn't there a `row_list.copy()` option?
 ### Differences between Extend and/vs Append
 ```python
 nums = [1, 2, 3]
@@ -214,7 +214,7 @@ print(hello)
 - Allows you to append elements to a list
 ### Description of Lists
 - Type flexibility: Can hold elements of different data types
-	- #question Is "type flexibility" a common term?
+	- [ ] #question Is "type flexibility" a common term?
 - Built-in: Part of python's core syntax, created with square brackets `[]`
 - Example: `my_list = [1, "hello", 3.14, True]`
 - Common use: Preferred for general-purpose, dynamic collections

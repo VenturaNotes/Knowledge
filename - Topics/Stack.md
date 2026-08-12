@@ -7,13 +7,13 @@ aliases:
 	- Data-structure & Algorithm Stacks
 		- Ordinary LIFO stacks used in algorithms
 		- Expression stacks
-			- #question Are expression stacks also LIFO?
+			- [ ] #question Are expression stacks also LIFO?
 			- Used for
 				- evaluating arithmetic expressions
 				- Converting [[infix]] $\leftrightarrow$ postfix
-					- #question What is infix or postfix?
-			- #question Are "expression stacks" actually a term?
-			- #question What are some examples of this?
+					- [ ] #question What is infix or postfix?
+			- [ ] #question Are "expression stacks" actually a term?
+			- [ ] #question What are some examples of this?
 ### Python
 - A pythonic stack is using a list
 - Use collections.deque to create a stack
@@ -33,8 +33,8 @@ print(stack) # deque([10, 20])
 
 # 30 is returned because that was removed from 'stack'
 ```
-- #question What exactly is `deque()`? What does it do?
-- #question What is type deque? 
+- [ ] #question What exactly is `deque()`? What does it do?
+- [ ] #question What is type deque? 
 - Use `deque` if performance matters or the stack gets very large
 ## Source [^1]
 ### Description

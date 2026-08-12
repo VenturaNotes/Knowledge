@@ -127,7 +127,7 @@ Reviewed: false
 - (7) “Conclude that since the conditions of the PMI have been met then P (n)holds for $n ≥ n_0$” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=14&annotation=2ICDLJ42))
 - “Write QED or $\blacksquare$ or // or something to indicate that you have completed your proof.” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=14&annotation=GAJY8MMU))
 ### Exercises
-- Answers to exercises not found #question
+- [ ] Answers to exercises not found #question
 	- “Exercise 2.1.” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=14&annotation=T6AFDHP2))
 ## (3) Elementary Divisibility Properties
 ### Definition 3.1

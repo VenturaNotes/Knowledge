@@ -28,9 +28,9 @@
 		- This is an example of a [[type declaration]]
 - Another example of a type declaration is $\mathbb{Z}$ : Type, saying that $\mathbb{Z}$ is a type. 
 	- There is a "type of types" denoted $Type$, and it can cause inconsistencies if not careful
-		- #question what is meant by "type of types?"
+		- [ ] #question what is meant by "type of types?"
 		- We can use [[universes]] to put this on solid formal ground, but won't do so until needed
-			- #question what are universes in type theory? 
+			- [ ] #question what are universes in type theory? 
 - Basic statements in type theory are known as [[judgements]]. Our judgements will look like:
 	- $\Gamma \vdash A : Type$ 
 	- $\Gamma \vdash x : A$ 

@@ -1037,7 +1037,7 @@ def my_function(*kids):
 def my_function(**kid):
   print("His last name is " + kid["lname"])
 ```
-#question How do stars work?
+- [ ] #question How do stars work?
 ## Lambda
 - (1) What will be the result of the following code
 ```python

@@ -17,8 +17,8 @@ if i == '[' or i == '{' or i == '(':
 - Given the example of 1 million comparisons
 	- Options
 		- Using if statements would mean you'd need 1 million equality checks worst case, the CPU executes each comparison individually, and even branch prediction wouldn't help because the comparisons differ
-			- #question What is branch prediction?
-			- #question Is it the CPU that always does equality checks? Is the CPU not used when doing a set lookup?
+			- [ ] #question What is branch prediction?
+			- [ ] #question Is it the CPU that always does equality checks? Is the CPU not used when doing a set lookup?
 		- Looking in sets means you compute hash of `i`, jump to corresponding bucket, check if key matches, and then done
 			- You'd need 10,000x more collisions before you even approach the speed of 1 million comparisons
 	- Summary

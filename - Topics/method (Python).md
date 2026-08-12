@@ -59,8 +59,8 @@ class MyClass:
 | First Argument  | None (behaves like a regular function)       | `cls` (the class itself)                                                  |
 | Access to State | No access to instance or class state         | Access to class state; no direct access to instance state                 |
 | Primary Use     | Utility functions within the class namespace | Alternative constructors, factory methods, operations on class-level data |
-- #question Do dynamic methods exist in python? 
-- #question What other decorators can you use? Are there specific decorator names or can you name a decorator method what you want and it's more a conventional thing? 
+- [ ] #question Do dynamic methods exist in python? 
+- [ ] #question What other decorators can you use? Are there specific decorator names or can you name a decorator method what you want and it's more a conventional thing? 
  
 ## Source [^1]
 - 

@@ -54,10 +54,10 @@ sorted_names = sorted(names, key=lambda name: len(name))
 print(sorted_names)  # Output: ['Bob', 'Alice', 'Charlie']
 
 ```
-#question What is a key function?
-#question How does the map function work?
-#question How does the filter function work?
-#question How does the sorted() function work? 
+- [ ] #question What is a key function?
+- [ ] #question How does the map function work?
+- [ ] #question How does the filter function work?
+- [ ] #question How does the sorted() function work? 
 
 ##### Limitations
 - Readability

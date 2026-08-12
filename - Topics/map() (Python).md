@@ -82,7 +82,7 @@ print(list(squared_numbers))  # Output: [1, 4, 9, 16, 25]
 
 ```
 ##### Using Lambda
-#question Is it called a lambda function or lambda expression. Is there a difference?
+- [ ] #question Is it called a lambda function or lambda expression. Is there a difference?
 
 ##### Mapping Multiple Iterables
 - If you provide multiple iterables to `map()`, the function must accept that many arguments
@@ -117,14 +117,14 @@ print(list(string_numbers))  # Output: ['1', '2', '3', '4', '5']
 #Doing str(numbers) will not work as the entire list itself will become a string
 
 ```
-#question What happens if you a turn a list into a list
+- [ ] #question What happens if you a turn a list into a list
 - There is a difference between [[type conversion (python)|type conversion]] and [[type casting (python)|type casting]]
 	- In type conversion, the python interpreter automatically converts one data type to another
 	- In type casting, the programmer converts the data type manually
 
 #### What can you do with a map object?
 - A map object is an iterator so it needs to be consumed (converted to a list or iterated through with a loop)
-	- #question Is "consumed" the write question here? 
+	- [ ] #question Is "consumed" the write question here? 
 ## Source[^1]
 - There is a difference between [[type conversion (python)|type conversion]] and [[type casting (python)|type casting]]
 	- In type conversion, the python interpreter automatically converts one data type to another

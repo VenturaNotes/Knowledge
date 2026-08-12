@@ -44,19 +44,19 @@ aliases:
 		* Cross-validation
 		* Ensemble methods
 			* Random Forests (combines multiple decision tree algorithms)
-		* #question Please give definition and example for each of these
+		* [ ] #question Please give definition and example for each of these
 * Methodologies
 	* Systematic frameworks which guide the entire process of defining the problem, developing, deploying, and maintaining a machine learning project 
-		* #question How do you deploy with machine learning?
+		* [ ] #question How do you deploy with machine learning?
 	* Examples
 		* CRISP-DM (Cross-Industry Standard Process  for Data Mining)
 		* Agile methodologies adapted for ML projects
 		* MLOps (Machine Learning Operations) practices
-		* #question Please give definition and example for each of these
+		* [ ] #question Please give definition and example for each of these
 ### Machine Learning Involvement
 - Data is needed for training and learning. It can be in many forms such as text, images, or numbers and must be cleaned and processed before use
-	- #question how is it cleaned and processed?
-	- #question Give examples for forms of data
+	- [ ] #question how is it cleaned and processed?
+	- [ ] #question Give examples for forms of data
 - [[Algorithm|algorithms]] are the step-by-step procedures or rules that machines use to learn patterns in data. Some common algorithms include [[linear regression]], [[decision tree|decision trees]], and [[neural network|neural networks]]
 ## Source[^1]
 - A subset of artificial intelligence that involves training algorithms to recognize patterns and make decisions with minimal human intervention.

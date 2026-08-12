@@ -23,7 +23,7 @@ Reviewed: false
 	- “concerned not merely to keep an intellectual inheritance intact, but to be continuously recovering what has been lost...making more intelligible, reissuing and reinvesting. ,” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=84LKP9PY))
 		- [ ] #question What does he mean by recovering what has been lost? This quote seems to have a lot of meaning to it but I do wonder what the context is. Maybe it has to do when the library of Alexandria was burnt down so we're just recovering the information that has been lost. Also reminds me of conservatives messing up experiments
 		- [ ] #question what is intellectual inheritance? 
-	- #question what time period did this person grow up in?
+	- [ ] #question what time period did this person grow up in?
 	- He has an  “evident antiquarian bias against any genuine or substantive innovation here” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=9PWCDPBP))
 		- [ ] #question what is antiquarian bias?
 		- [ ] #question Is he just saying that the statement is too verbose to have any real meaning? 
@@ -55,7 +55,7 @@ Reviewed: false
 - “you will contribute to the book by e-mailing me your comments, criticisms and suggestions for changes or additions.” ([Dunleavy, 2003, p. 14](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=14&annotation=ZUGBAVQS))
 	- #contact “p.dunleavy@lse.ac.uk” ([Dunleavy, 2003, p. 14](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=14&annotation=BHNGGKK6))
 - “the [[doctorate]] still remains a crucial vehicle for developing new and original thought in the humanities and social sciences, especially amongst young people, who (as [[Plato]] said) are 'closer to ideas'.” ([Dunleavy, 2003, p. 14](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=14&annotation=NLC4TIBP))
-	- #question why only humanities and social sciences. Why doesn't he talk about stem?
+	- [ ] #question why only humanities and social sciences. Why doesn't he talk about stem?
 ## (1) Becoming an author
 - “In writing a problem down or airing it in conversation we let its essential aspects emerge. And by knowing its character, we remove, if not the problem itself, then its secondary, aggravating characteristics: confusion, displacement, surprise. [[Alain de Botton]]” ([Dunleavy, 2003, p. 16](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=16&annotation=DF7RY85K))
 - “we can often make progress on the latter by making the issues involved more explicit.” ([Dunleavy, 2003, p. 16](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=16&annotation=8IKARIR8))
@@ -69,7 +69,7 @@ Reviewed: false
 - “This neglect of [[authoring]] skills is not universal. The editors of academic journals and most publishers of university-level books can and do draw a distinction between people's prowess in a discipline and their proficiency as writers.” ([Dunleavy, 2003, p. 18](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=18&annotation=J86S8HBH))
 - “the [[craft approach]] to PhD education still works well, even though it has been extensively supplemented in modern times by much more formalized, extensive and lengthier processes of advanced instruction. ” ([Dunleavy, 2003, p. 18](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=18&annotation=S82C7WBL))
 - “inculcating” ([Dunleavy, 2003, p. 19](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=19&annotation=YRGXDT5X))
-	- #question what does this mean?
+	- [ ] #question what does this mean?
 - “[[by-product approach]] can still deliver outstanding results.” ([Dunleavy, 2003, p. 19](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=19&annotation=P2UEIJFG))
 	- “by-product model of how students learn and develop is far more problematic in relation to [[authoring skills]].” ([Dunleavy, 2003, p. 19](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=19&annotation=A9NXIJHW))
 	- “In modern universities the pressures of teaching, research, publishing and administration on qualified staff frequently cause this model to break down in one or several respects.” ([Dunleavy, 2003, p. 19](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=19&annotation=GIQRDYC5))

@@ -95,7 +95,7 @@ Reviewed: false
 				- A causal relationship between two writes means that the second write only makes sense after the first one happens.
 				- This happens because the writes are on different [[Partition|Partitions]]
 					- This means that the database is split up in a way such that one write from one partition is going to be replicated sooner than one write from the other partition and that's a race condition. As a result, you only see the effect of the causal write. You don't actually see the causal write itself
-						- #question what is race condition
+						- [ ] #question what is race condition
 			- Put causally related events on same partition or if not possible keep track of causal dependencies which means for this write, give an id for a previous write that may have caused it
 	- Reading your own writes
 		- Problem: You may write a change, read from a replica, and then not see the change

@@ -12,7 +12,7 @@ Reviewed: false
 		- So we could have a parent image which has a specific node version installed (like node 17 or 16) on a Linux distribution. 
 			- This layer itself is a docker image (already pre-made). So we're just creating a new image on top of that. That's the initial layer normally
 			- A parent image typically includes a lightweight operating system and a runtime environment
-				- #question What is a runtime environment. 
+				- [ ] #question What is a runtime environment. 
 	- Slide 3 (Docker Images)
 		- The next layers we add can be anything else that we would add to our image such as copying source code to the image. Installing dependencies or specifying any initial scripts that need to run (etc.)
 		- Will first talk about how we get this parent image 

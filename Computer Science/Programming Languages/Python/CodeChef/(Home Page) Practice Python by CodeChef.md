@@ -134,7 +134,7 @@ In Python we dont have to explicitly mention the data type hence var = "True"/"F
 - `perimeter = 12.8`
 	- In python, a double variable is declared just by specifying the variable name and its double value assigned to it. Also, semicolon is not required.
 	- This is how a variable of type float is declared in python
-		- #question Is it possible to declare a float variable without assigning the value? I don't think this is even considered declaring a variable.
+		- [ ] #question Is it possible to declare a float variable without assigning the value? I don't think this is even considered declaring a variable.
 - `num = 954200`
 	- Declaring a variable of type long storing the above value
 	- The correct way to declare a long variable in Python is simply by assigning the value using = (e.g., num = 954200). Python automatically treats integers as long if needed, so no special syntax is required.
@@ -367,7 +367,7 @@ while count < 5:
 """
 ```
 - While loop increment
-	- #question Is there a difference between `end` and `endl`?
+	- [ ] #question Is there a difference between `end` and `endl`?
 ```python
 x = 0
 while x < 5:
@@ -434,7 +434,7 @@ print(math.factorial(x))
 """
 ```
 - Count Vowels
-	- #question How could I optimize the below problem?
+	- [ ] #question How could I optimize the below problem?
 ```python
 x = input()
 count = 0

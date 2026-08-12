@@ -30,7 +30,7 @@ aliases:
 - A [[fields|field]] is a ring in which every non-zero element has a multiplicative inverse, and multiplication is commutative
 	- Example: The set of rational numbers $\mathbb{Q}$, real numbers $\mathbb{R}$, or complex numbers $\mathbb{C}$ under addition and multiplication.
 		- All field axioms are satisfied, including closure, associativity, commutativity, distributivity, and the existence of inverses for both addition and multiplication
-			- #question what does it mean by all field axioms are "satisfied"?
+			- [ ] #question what does it mean by all field axioms are "satisfied"?
 
 ### Vector Spaces
 - A [[vector space]] (or linear space) is a set of vectors that can be added together and multiplied by scalars (elements from a field), satisfying several axioms

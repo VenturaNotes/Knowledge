@@ -17,7 +17,7 @@ aliases:
 	- [ ] #question What does interference between frequencies look like?
 ## Source[^2]
 - A cellular network or mobile network is a [[Telnet|telecommunications network]] where the link to and from end nodes is wireless and the network is distributed over land areas called cells, each served by at least one fixed-location transceiver
-	- #question what is a telecommunications network? Is it like a hierarchy where cellular network and mobile network are children of it? 
+	- [ ] #question what is a telecommunications network? Is it like a hierarchy where cellular network and mobile network are children of it? 
 ## References
 
 [^1]: https://www.samsung.com/in/support/mobile-devices/what-is-a-cellular-network-or-mobile-network/

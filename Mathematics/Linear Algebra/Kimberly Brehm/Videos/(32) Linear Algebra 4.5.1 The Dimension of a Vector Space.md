@@ -14,7 +14,7 @@ Reviewed: false
 		- If V is not spanned by a finite-set, it is infinite dimensional
 			- Example: The space of $\mathbb{P}$ for all polynomials is [[infinite dimensional]]
 			- $\mathbb{P}^3$ would be {1, $t$, $t^2$, $t^3$  } so dim $\mathbb{P}^3 = 4$
-				- #question verify this to be true. I'm saying that it's dim.
+				- [ ] #question verify this to be true. I'm saying that it's dim.
 				- So $\mathbb{P}^n = n +1$
 	- Example
 		- Let H [[span]] where $v_1$ and $v_2$. Find dim H

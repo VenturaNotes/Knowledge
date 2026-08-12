@@ -40,7 +40,7 @@ Reviewed: false
 - ![[Screenshot 2023-11-13 at 4.53.17 PM.png]]
 	- Slide 7 - Consequences
 		- [[Difference of squares]]
-		- Exercise. Use the axioms to justify the "note" we made without proof #question
+		- [ ] Exercise. Use the axioms to justify the "note" we made without proof #question
 	- [ ] #question Slide 8 - Exercise (one of these things is impossible )
 		- (1) If possible, use the main idea from the proof of fact 1 to prove fact 2
 		- (2) If possible, use the main idea from the proof of fact 2 to prove fact 1

@@ -9,7 +9,7 @@ Reviewed: false
 ---
 
 - “System design interview questions are the most difficult to tackle among all the technical interviews” ([pdf](zotero://open-pdf/library/items/8MRQ3H5S?page=4&annotation=67WST6LI))
-	- #question What other kinds of technical interviews are there?
+	- [ ] #question What other kinds of technical interviews are there?
 - “[[high-level architecture]]” ([pdf](zotero://open-pdf/library/items/8MRQ3H5S?page=4&annotation=KPFQDASR))
 - “system requirements, constraints and bottlenecks should be well understood to shape the direction of both the interviewer and interviewee.” ([pdf](zotero://open-pdf/library/items/8MRQ3H5S?page=4&annotation=6SYLB8MC))
 - “solid knowledge in building a scalable system.” ([pdf](zotero://open-pdf/library/items/8MRQ3H5S?page=4&annotation=878CXH8Y))
@@ -18,7 +18,7 @@ Reviewed: false
 ### (1.1) Single Server Setup
 - “everything is running on a single server.” ([pdf](zotero://open-pdf/library/items/8MRQ3H5S?page=6&annotation=XKSMY6NA))
 	- Includes web app, database, [[cache]], etc.
-		- #question What is cache?
+		- [ ] #question What is cache?
 ![[Screenshot 2024-06-26 at 1.32.53 PM.png]]
 - Parts
 	- User 
@@ -39,9 +39,9 @@ Reviewed: false
 - [[Request flow]] Steps
 	- ![[Screenshot 2024-06-30 at 1.57.04 PM.png]]
 	- (1) Users access websites through domain names such as api.mysite.com. Usually, The [[DNS|Domain Name System]] is a paid service provided by 3rd parties and not hosted by our servers
-		- #question Would it be possible for a DNS to be hosted by our servers?
+		- [ ] #question Would it be possible for a DNS to be hosted by our servers?
 	- (2) [[IP addresses|Internet protocol address]] returned to browser or mobile app. An Example is 15.125.23.214
-		- #question What do each of the numbers mean?
+		- [ ] #question What do each of the numbers mean?
 	- (3) When IP address obtained, Hypertext Transfer Protocol (HTTP) \[1] requests are sent directly to web server
 		- [ ] #question What does the \[1] mean?
 		- [ ] #question is the web server what people actually access? 
@@ -76,10 +76,10 @@ Reviewed: false
 	]
 }
 ```
-- #question I don't really understand the point of `GET/users/12` above. Is this something in SQL? Like how would it work? Is it a command? 
+- [ ] #question I don't really understand the point of `GET/users/12` above. Is this something in SQL? Like how would it work? Is it a command? 
 ### (1.2) Database
 - By growing user base
-	- #question is user base a specific term?
+	- [ ] #question is user base a specific term?
 - Get multiple servers
 	- One for web/mobile traffic ([[web tier]])
 	- One for database [[data tier]]
@@ -119,7 +119,7 @@ Reviewed: false
 		- Application requires super-low latency
 		- Data are unstructured or no relational data
 		- Just need to [[serialize]] or deserialize data ([[JSON]], [[XML]], [[YAML]], etc.)
-			- #question how can you serialize data?
+			- [ ] #question how can you serialize data?
 		- Storing massive amounts of data
 ### (1.4) Vertical scaling vs horizontal scaling 
 - [[Vertical scaling]] referred to as ("scale up") “means the process of adding more power ([[Central Processing Unit|CPU]], [[RAM]], etc.) to your servers.” ([pdf](zotero://open-pdf/library/items/8MRQ3H5S?page=9&annotation=4VGSJCRG))

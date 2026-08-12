@@ -7,8 +7,8 @@ tags:
 ## Synthesis
 ### Characteristics / Description
 - A hash set is typically represented using the built-in `set` data structure
-	- #question What does hash even mean? 
-	- #question What other ways are there in python to represent a hash set? 
+	- [ ] #question What does hash even mean? 
+	- [ ] #question What other ways are there in python to represent a hash set? 
 		- One way is to build the set data structure yourself 
 
 ---
@@ -38,7 +38,7 @@ tags:
 	- Unordered: No guarantee of order
 	- Unique elements: No duplicates allowed
 	- Mutable: You can add and remove items
-- #question What are some edge cases for sets?
+- [ ] #question What are some edge cases for sets?
 
 ### Example
 Code

@@ -22,7 +22,7 @@ Reviewed: false
 			- Running instance of an image
 			- Runs our application
 		- Containers are runnable instances of those images
-			- #question Are there multiple images?
+			- [ ] #question Are there multiple images?
 		- We create an image which is a blueprint for a container, then running the image creates a container which is a process that can run our application exactly as outlined in the image. 
 			- So it's going to have the correct runtime environment. Access to the image file system dependencies, etc.
 		- So a container is a process which runs our application as outlined by the image we created. 

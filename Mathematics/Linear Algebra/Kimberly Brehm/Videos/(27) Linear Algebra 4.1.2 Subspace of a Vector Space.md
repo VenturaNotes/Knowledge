@@ -53,7 +53,7 @@ Reviewed: false
 				- We find that $\vec u + \vec v = (s_1 + t_1) v_1 + (s_2 + t_2)v_2 \in H$ 
 					- belongs in H because it can be written as a linear combination of vectors $v_1$ and $v_2$ 
 			- (3) For closed under multiplication, we're talking about scalar multiplication
-				- #question what other kinds of multiplication is there?
+				- [ ] #question what other kinds of multiplication is there?
 		- No matter how many vectors we have in a vector space, then it will always be true that the span of those vectors is a subspace of V
 			- Can prove it for any number of vectors the way that we did it here for just two vectors
 	- One more - using theorem I

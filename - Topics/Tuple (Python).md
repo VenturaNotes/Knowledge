@@ -45,8 +45,8 @@ single_item_tuple = ("apple",)
 	- Allow Duplicates
 		- Since indexed where first item index is `[0]`, they can have items with same value
 - One of 4 built-in data types in Python (other 3 are [[List (Python)|List]], [[Set (Python)|Set]], and [[dictionary (Python)|Dictionary]])
-	- #question Are there only 4 built-in data types in Python?
-	- #question are tuples data types or data structures or are these the same thing?
+	- [ ] #question Are there only 4 built-in data types in Python?
+	- [ ] #question are tuples data types or data structures or are these the same thing?
 - Written with round brackets
 ### Multiple Item Tuple Creation
 ```python
@@ -61,7 +61,7 @@ tuple3 = (True, False, False)
 # Tuple can contain different data types
 tuple4 = ("abc", 34, True, 40, "male")
 ```
-- #question Are tuples the only data structure that allows any data type?
+- [ ] #question Are tuples the only data structure that allows any data type?
 ### Tuple Length
 ```python
 thistuple = ("apple", "banana", "cherry")

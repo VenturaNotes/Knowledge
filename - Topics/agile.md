@@ -4,7 +4,7 @@ tags:
 ---
 ## Synthesis
 - Agile is a broad philosophy/mindset for iterative project development.
-- #question What is the agile manifesto?
+- [ ] #question What is the agile manifesto?
 ### Organize
 - Agile is an iterative approach to software development that allows teams to deliver value to customers faster (than traditional, sequential development methodologies like the [[waterfall model]]) through small increments.
 	- Value is typically defined from the customer's perspective which could be
@@ -32,7 +32,7 @@ tags:
 		- Self-organizing is when the team members work and manage their tasks without being directed by a manager
 	- Flexibility and Adaptability: Agile methods are designed to respond to change rather than rigidly follow a plan.
 	- Customer Focus: Prioritizes delivering value to the customer and incorporating their feedback throughout the development process.
-		- #question What is the development process?
+		- [ ] #question What is the development process?
 ### Agile Methodologies
 - Common Agile methodologies include:
 	- [[Scrum]]

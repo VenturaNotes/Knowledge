@@ -19,7 +19,7 @@ Reviewed: false
 	- [[Informix]]
 	- [[Postgres]]
 	- and other database systems
-		- #question Are all these database systems?
+		- [ ] #question Are all these database systems?
 ### SQL Intro
 - [[SQL]]
 	- Stands for Structured Query Language
@@ -42,7 +42,7 @@ Reviewed: false
 	- Most SQL database programs have their own proprietary extensions in addition to the SQL standard
 - Building website to show data from a database
 	- An [[relational database|RDBMS]] database program (i.e. [[MS Access]], [[SQL Server]], [[MySQL]])
-		- #question Is it correct to say "database program" again?
+		- [ ] #question Is it correct to say "database program" again?
 	- To use a server-side scripting language, [[PHP]] or [[ASP]]
 - [[relational database|RDBMS]]
 	- Stands for relational database management system
@@ -152,7 +152,7 @@ FROM table_name;
 	- Return the number of different countries
 		- `SELECT COUNT(DISTINCT Country) FROM Customers;`
 			- The `COUNT(DISTINCT column_name)` is not supported in [[Microsoft Access]] databases
-			- #question is the return just a number?
+			- [ ] #question is the return just a number?
 - Workaround for Count Distinct for Microsoft Access
 ```SQL
 SELECT Count(*) AS DistinctCountries
@@ -244,7 +244,7 @@ WHERE CustomerID > 80;
 	- `WHERE CustomerID = 32;`
 - How should text values be enclosed in the SQL WHERE clause?
 	- With Single Quotes
-		- #question Would double quotes work?
+		- [ ] #question Would double quotes work?
 - Drag and drop to select all customers with a CustomerID greater than 50.
 	-  `SELECT * FROM Customers`
 	- `WHERE CustomerID > 50;`
@@ -757,7 +757,7 @@ LEFT JOIN Products ON OrderDetails.ProductID = Products.ProductID;
 ```
 - Joining `OrderDetails` table with `Products` table and summing to find the total price of the products
 	- Will learn about Joins later
-	- #question I don't understand this one
+	- [ ] #question I don't understand this one
 #### Exercises
 ![[Screenshot 2025-02-10 at 10.12.32 AM.png]]
 ### SQL Avg
@@ -791,7 +791,7 @@ FROM Products
 GROUP BY CategoryID;
 ```
 - The `AVG()` function returns the average value of a numeric column.
-	- #question Does doing the subquery mean it's calculated once or multiple times?
+	- [ ] #question Does doing the subquery mean it's calculated once or multiple times?
 
 #### Exercises
 ![[Screenshot 2025-02-10 at 10.18.10 AM.png]]
@@ -948,7 +948,7 @@ WHERE Country LIKE 'Spain';
 	- This database has some other wildcards
 #### Exercises
 ![[Screenshot 2025-02-10 at 12.11.02 PM.png]]
-#question How would you parse the `!` character?
+- [ ] #question How would you parse the `!` character?
 ### SQL In
 ```SQL
 -- Return all customers from 'Germany', 'France', or 'UK'
@@ -1200,8 +1200,8 @@ ALTER TABLE Persons
 ADD CONSTRAINT PK_Person PRIMARY KEY (ID,LastName);
 ```
 - Adds a constraint named `PK_Person` that is a primary key constraint on multiple columns (ID and LastName)
-	- #question What is a primary key constraint?
-	- #question What will the constraint do in turn? Does it mean the column name can't be changed later?
+	- [ ] #question What is a primary key constraint?
+	- [ ] #question What will the constraint do in turn? Does it mean the column name can't be changed later?
 #### ALL
 - [[ALL (SQL)|ALL]] returns true if all of the subquery values meet the condition
 ```SQL
@@ -1224,7 +1224,7 @@ ALTER TABLE Customers
 DROP COLUMN Email;
 ```
 - Deletes "Email" column from "Customers" table
-	- #question Will an error occur if an "Email" column did not exist?
+	- [ ] #question Will an error occur if an "Email" column did not exist?
 #### ALTER COLUMN
 - `ALTER COLUMN`
 	- Change the data type of a column in a table
@@ -1237,9 +1237,9 @@ ALTER COLUMN BirthDate year;
 		- The YEAR data type in SQL typically stores a year value in a 4-digit format. For example, `1999` or `2023`.
 			- [ ] #question Why is `YEAR` capitalized here? Does it matter if it's `year` or `YEAR`?
 		- This data type is commonly found in database systems like MySQL, where it can store year values in a range, often from `1901` to `2155` or `0000` representing a 0 year. When used, it explicitly indicates that the column is intended to store only the year component of a date.
-			- #question What is meant by a 0 year?
-			- #question Is the range set to `1901` to `2155` by default or did someone manually program that in?
-	- #question What does type `year` look like?
+			- [ ] #question What is meant by a 0 year?
+			- [ ] #question Is the range set to `1901` to `2155` by default or did someone manually program that in?
+	- [ ] #question What does type `year` look like?
 #### AND
 - [[AND (SQL)|AND]] used with WHERE to only include rows where both conditions true
 ```SQL
@@ -1261,7 +1261,7 @@ FROM Products
 WHERE ProductID = ANY (SELECT ProductID FROM OrderDetails WHERE Quantity > 99);
 ```
 - Same as above but only if ANY records in the OrderDetails table have a quantity above 99
-	- #question Is 'ANY' even required here? Is this just required for a subquery? Can't we just use the `WHERE` condition by itself for this case? (although I guess we do need to reference a separate table)
+	- [ ] #question Is 'ANY' even required here? Is this just required for a subquery? Can't we just use the `WHERE` condition by itself for this case? (although I guess we do need to reference a separate table)
 #### AS
 - [[AS (SQL)|AS]] is used to rename a column or table with an alias
 	- Alias only exists for duration of query
@@ -1302,7 +1302,7 @@ BACKUP DATABASE testDB
 TO DISK = 'D:\backups\testDB.bak';
 ```
 - Creates a full back up of the existing database "testDB" to the D disk
-	- #question What kind of data format is `.bak`? I guess it stands for backup?
+	- [ ] #question What kind of data format is `.bak`? I guess it stands for backup?
 - Important
 	- Always back up database to different drive than actual database
 	- If you get a disk crash, you will not lose your backup file along with the database
@@ -1313,9 +1313,9 @@ WITH DIFFERENTIAL;
 ```
 - A differential back up only backs up the parts of the database that have changed since the last full database backup
 - Creates a differential back up of the database "testDB"
-	- #question Does this mean it just appends or overwrites the existing data or just it just save what the changes are?
+	- [ ] #question Does this mean it just appends or overwrites the existing data or just it just save what the changes are?
 - A differential back up reduces back up time (since only the changes are backed up)
-	- #question Does this mean the old unchanged data is still backed up or lost?
+	- [ ] #question Does this mean the old unchanged data is still backed up or lost?
 
 #### BETWEEN
 - [[BETWEEN (SQL)|BETWEEN]]
@@ -1386,7 +1386,7 @@ CREATE TABLE Persons (
     CONSTRAINT CHK_Person CHECK (Age>=18 AND City='Sandnes')  
 );
 ```
-- #question What does naming a CHECK constraint mean?
+- [ ] #question What does naming a CHECK constraint mean?
 ```SQL
 
 -- MySQL / SQL Server / Oracle / MS Access
@@ -1421,7 +1421,7 @@ DROP CHECK CHK_PersonAge;
 ALTER TABLE Persons
 ADD CONSTRAINT PK_Person PRIMARY KEY (ID,LastName);
 ```
-- #question What is a primary key constraint?
+- [ ] #question What is a primary key constraint?
 - `DROP CONSTRAINT`
 	- Delete a UNIQUE, PRIMARY KEY, FOREIGN KEY, or CHECK constraint
 ```SQL
@@ -1486,7 +1486,7 @@ ON Persons (LastName);
 CREATE INDEX idx_pname  
 ON Persons (LastName, FirstName);
 ```
-- #question How does an index make querying faster?
+- [ ] #question How does an index make querying faster?
 - Syntax for creating indexes varies among different databases. Check the syntax for creating indexes in your database
 - Note
 	- Updating a table with indexes takes more time than updating a table without (because the index also need an update)
@@ -1522,7 +1522,7 @@ SELECT customername, contactname
 FROM customers;
 ```
 - Creates a new table called "TestTables" which is a copy of two columns of the "Customers" table
-- #question What is the point of `AS` here?
+- [ ] #question What is the point of `AS` here?
 #### CREATE PROCEDURE
 - Creates a stored procedure
 - A [[stored procedure]] is a prepared SQL code that you can save, so the code can be reused over and over again
@@ -1533,7 +1533,7 @@ SELECT * FROM Customers
 GO;
 ```
 - Creates a stored procedure named "SelectAllCustomers" that selects all records from the "Customers" table
-- #question Is the "GO" necessary?
+- [ ] #question Is the "GO" necessary?
 ```SQL
 EXEC SelectAllCustomers;
 ```

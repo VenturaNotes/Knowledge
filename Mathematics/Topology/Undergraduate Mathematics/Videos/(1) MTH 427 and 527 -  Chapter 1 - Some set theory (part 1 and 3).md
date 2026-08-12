@@ -59,7 +59,7 @@ Reviewed: false
 				- Union of family is a set consisting of all elements that belongs to any of sets of family. Take all elements of individual sets, putting them in a single bag giving a new set. This new set is what we call a union of this family of sets
 			- $\bigcap_{i \in I} A_i = \{x | x \in A_i \text{ for all } i \in I\}$
 				- Intersection of family of sets defined same way. Intersection of family is all elements which belong to all sets in family. Common part of all sets. Elements which belongs to all individual sets at the same time.
-					- #question what exactly is a family in terms of sets?
+					- [ ] #question what exactly is a family in terms of sets?
 		- It can be generalized to an arbitrary family of sets
 - ![[Screenshot 2024-07-24 at 2.44.33 AM.png]]
 	- 1.10 Definition. The [[difference]] of sets A and B is the set $A \backslash B$ consisting of the elements of A that do not belong to B:
@@ -69,22 +69,24 @@ Reviewed: false
 	- 1.12 Definition. If A $\subseteq$ B, then the set B $\backslash$ A is called the [[complement]] of A in B
 		- All elements of B outside subset of A
 	- 1.13 Properties of the algebra sets
-		- [[Distributivity]] #question practice problems would be good
+		- [[Distributivity]] 
 			- $(A \cap B) \cup C = (A \cup C) \cap (B \cup C)$
 			- $(A \cup B) \cap C = (A \cap C) \cup (B \cap C)$
 			- These are the distributive properties of union and intersection
-		- [[De Morgan's Laws]] #question practice problems would be good
+			- [ ] #question practice problems would be good
+		- [[De Morgan's Laws]]
 			- $A \backslash (B \cup C) = (A \backslash B) \cap (A \backslash C)$
 			- $A \backslash (B \cap C) = (A \backslash B) \cup (A \backslash C)$
 				- Proving this one as an example. Used proof in pictures
 			- Relates union, intersection, and difference of sets
+			- [ ] #question practice problems would be good
 	- 1.14 Definition. The [[Cartesian product]] of sets A,B is the set consisting of all ordered pairs of elements of A and B:
 		- $A \times B = \{(a,b)| a \in A, b \in B\}$
 			- Consists all pairs a, b where the first coordinate of the pair comes from set A and the second coordinate comes form set B
 			- Set of all possible combinations of one element from set A and another element of set B
 			- [ ] #question would be great to see an example problem with this
 	- 1.16 Notation. Given a set A by $A^n$ we will denote the n-fold cartesian product of A:
-		- $A^n = \underbrace{A \times A \times ... \times A}_\text{n times}$
+		- $A^n = \underbrace{A \times A\times ... \times A}_\text{n times}$
 			- n is some positive number
 			- Will consist of all the n-tuples where all individual coordinates are coming from the set A itself
 				- [ ] #question more about n-tuples. What is it?
@@ -96,7 +98,7 @@ Reviewed: false
 		- Big $\Pi$ is a symbol for product
 			- Simpler way to show all the sets we're multiplying.
 			- Alternative notation of denoting those cartesian products
-			- #question more practice
+			- [ ] #question more practice
 		- If we are taking a product of finitely many sets, elements of that are just n-tuples $(a_1, a_2, \cdots, a_n)$ 
 	- 1.18 Infinite products 
 		- From time to time, will have to deal with products of sets that don't just involve finite number of sets but involves an infinite number of products
