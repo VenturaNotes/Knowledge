@@ -77,7 +77,7 @@ System.out.println("World");
 	- True
 - (7) What is output of `System.out.println("10"+5);`
 	- 105
-		- #question Is this a number or string?
+		- [ ] #question Is this a number or string?
 ## Comments
 - (1) What is syntax for single-line comment in Java?
 	- `// This is a single-line comment`
@@ -102,7 +102,7 @@ This is a multi-line comment
 int myNum = 15;
 System.out.println(myNum);
 ```
-- #question Is `integer` ever used? Or like `Integer`?
+- [ ] #question Is `integer` ever used? Or like `Integer`?
 - (2) Initialize the variable `age`
 ```java
 String name = "John";
@@ -225,7 +225,7 @@ String myText = "Hello World";
 ```
 - (6) `byte, short, int, long, float, double, boolean` and `char` are called
 	- primitive data types
-		- #question What does primitive data type mean?
+		- [ ] #question What does primitive data type mean?
 ## Numbers
 - (1) Drag and drop the correct integer type to declare a variable named `age` with the value `25`.
 ```java
@@ -313,12 +313,12 @@ int myInt = (int) myDouble;
 ```
 - (3) What is Type Casting?
 	- When you assign a value of one primitive data type to another type.
-		- #question Can `Integer` work this way too?
+		- [ ] #question Can `Integer` work this way too?
 - (4) Passing a smaller size type to a larger size type, is called:
 	- Widening Casting
 - (5) True or False: Narrowing casting must be done manually
 	- True
-		- #question Why? Is it because you lose data so you need to make sure that's what you want to do?
+		- [ ] #question Why? Is it because you lose data so you need to make sure that's what you want to do?
 - (6) What is the output of the following code?
 ```java
 double myDouble = 5.99d;
@@ -327,7 +327,7 @@ System.out.println(myInt);
 
 // Output: 5
 ```
-- #question Is the `d` suffix required for `double`?
+- [ ] #question Is the `d` suffix required for `double`?
 - (7) Convert the following `double` type (myDouble) to an `int` type
 ```java
 double myDouble = 9.78d;
@@ -349,7 +349,7 @@ int myInt = (int) myDouble;
 int x = 10;
 ++x;
 ```
-- #question What is the difference between `++x` and `x++`
+- [ ] #question What is the difference between `++x` and `x++`
 - (7) Use the addition assignment operator to add the value `5` to the variable `x`.
 ```java
 int x = 10;
@@ -636,7 +636,7 @@ String result = (number % 2 == 0) ? "Even" : "Odd";
 System.out.println(result);
 ```
 - (3) True or False: The ternary operator consists of three operands: a condition, a result for true, and a result for false.
-	- #question What is a ternary operator?
+	- [ ] #question What is a ternary operator?
 	- True
 - (4) Insert the missing parts to complete the following "short hand `if...else` statement" (ternary operator):
 ```java
@@ -676,7 +676,7 @@ switch (number) {
 		System.out.println("Not One");  
 }
 ```
-- #question Do you not need a break for `default`? 
+- [ ] #question Do you not need a break for `default`? 
 - (3) True or False: The `switch` statement is used to select one of many code blocks to be executed, based on the value of an expression.
 	- True
 - (4) Insert the missing parts to complete the following `switch` statement.
@@ -843,7 +843,7 @@ for (int num : numbers) {
 	System.out.println(num);
 }
 ```
-- #question Is this similar to a python's `for in {1,2,3}` statement? 
+- [ ] #question Is this similar to a python's `for in {1,2,3}` statement? 
 - (2) Complete the for-each loop to print all car names
 ```java
 String[] cars {"Volvo", "BMW", "Ford"};
@@ -976,7 +976,7 @@ System.out.println(cars[0]);
 String[] cars = {"Volvo", "BMW", "Ford"};
 System.out.println(cars.length);
 ```
-- #question Why can you do cars.length? Don't you need to do cars.length()?
+- [ ] #question Why can you do cars.length? Don't you need to do cars.length()?
 ## Arrays and Loops
 - (1) Complete the loop to print all numbers in the array.
 ```java
@@ -1095,7 +1095,7 @@ public static void main (String[] args){
 ```
 - (6) True or False: In Java, a method must be declared within a class.
 	- True
-		- #question Is there any other way to declare a method besides in a class. Why?
+		- [ ] #question Is there any other way to declare a method besides in a class. Why?
 ## Method Parameters
 - (1) Fill in the blanks to declare a method with a string and an integer parameter.
 ```java
@@ -1372,7 +1372,7 @@ public static void main(String[] args) {
 ```
 - (7) True or False: A class must have a matching filename
 	- True
-	- #question What is meant by matching filename?
+	- [ ] #question What is meant by matching filename?
 ## Class Attributes
 - (1) Create an object and print its attribute value (500).
 ```java
@@ -1393,7 +1393,7 @@ class Main {
 	final int x = 10; // make constant
 }
 ```
-- #question Is `const` a keyword in java?
+- [ ] #question Is `const` a keyword in java?
 - (3) What is the output of the following code?
 ```java
 int x = 15;
@@ -1426,7 +1426,7 @@ public static void main(String[] args) {
 }
 // Output: 40
 ```
-- #question Is this problem correct? I don't understand how you can create a `Main()` object when this class does not exist. Is `main` considered a class here?
+- [ ] #question Is this problem correct? I don't understand how you can create a `Main()` object when this class does not exist. Is `main` considered a class here?
 - (6) What is the output of the following code?
 ```java
 final int x = 10;
@@ -1438,7 +1438,7 @@ public static void main(String[] args) {
 }
 // Output: Error
 ```
-- #question Where is the `Main()` method coming from here?
+- [ ] #question Where is the `Main()` method coming from here?
 	- It seems to only get an error here because x is marked as `final` meaning you can't change the value of the variable. 
 ## Class Methods
 - (1) call the method inside `main`.
@@ -1481,7 +1481,7 @@ public class MyClass {
 ```
 - (4) True or False: It is a good practice to create an object of a class and access it in another class
 	- True
-		- #question Why is this true? What are the benefits for this?
+		- [ ] #question Why is this true? What are the benefits for this?
 ## Constructors
 - (1) Fill in the correct name to complete the constructor
 ```java
@@ -1544,11 +1544,11 @@ public class Main {
 	- public
 - (3) Which modifier fits the following description: "The code is only accessible within the declared class"
 	- Private
-		- #question What does protected mean?
+		- [ ] #question What does protected mean?
 ## Encapsulation
 - (1) What is the meaning of encapsulation in Java?
 	- Make sure that sensitive data is hidden from users
-		- #question What does this look like in Java?
+		- [ ] #question What does this look like in Java?
 - (2) To achieve encapsulation, you should
 	- Declare class attributes as private
 - (3) You should also
@@ -1577,12 +1577,12 @@ public class Main {
 ## Inner Classes
 - (1) To access an inner class, you can
 	- Create an object of the outer class, and then create an object of the inner class
-		- #question What does this mean and what does it look like? 
+		- [ ] #question What does this mean and what does it look like? 
 - (2) If you don't want outside objects to access the inner class, declare the class as
 	- private
 - (3) True or False: If you try to access a private inner class from an outside class, an error occurs
 	- True
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (4) What is the output of the following code?
 ```java
 class OuterClass {
@@ -1652,9 +1652,9 @@ for (Level myvar : Level.values()) {
 	System.out.println(myVar);
 }
 ```
-- #question Why does `Level.values()` need `()` but `.length` doesn't need `()`?
-- #question What other methods does `enum Level` have?
-- #question What kind of data type is `enum`?
+- [ ] #question Why does `Level.values()` need `()` but `.length` doesn't need `()`?
+- [ ] #question What other methods does `enum Level` have?
+- [ ] #question What kind of data type is `enum`?
 ## User Input
 - (1) What is a correct syntax to create a Scanner object?
 	- `Scanner myObj = new Scanner(System.in);`
@@ -1680,7 +1680,7 @@ for (Level myvar : Level.values()) {
 ## Exceptions
 - (1) When an error occurs, Java will normally stop and generate an error message. The technical term for this is 
 	- Exception
-		- #question What does this look like in Java?
+		- [ ] #question What does this look like in Java?
 - (2) Insert the missing parts to handle the error in the code below
 ```java
 try {
@@ -1901,10 +1901,10 @@ while (it.hasNext()) {
 	- [ ] #question What are the other ways in java?
 - (2) Another way to create a thread is
 	- By implementing the Runnable Interface
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (3) True or False: To avoid concurrency problems, it is best to share as few attributes between threads as possible 
 	- True
-		- #question What are concurrency problems?
+		- [ ] #question What are concurrency problems?
 ## Lambda Expressions
 - (1) What is a lambda expression?
 	- A short block of code that takes in parameters and returns a value

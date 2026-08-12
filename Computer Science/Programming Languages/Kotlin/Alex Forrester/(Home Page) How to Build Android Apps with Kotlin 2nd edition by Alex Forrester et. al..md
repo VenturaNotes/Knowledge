@@ -33,7 +33,7 @@ Reviewed: false
 - [[Alexandru Dumbravan]]
 	- Android developer with more than 10 years experience
 		- Focused on fintech applications
-			- #question what are fintech applications?
+			- [ ] #question what are fintech applications?
 - [[Jomar Tigcal]]
 	- Android developer with over 14 years of experience
 		- Mobile development
@@ -50,7 +50,7 @@ Reviewed: false
 - [[Guruprasad Bagade]]
 	- Over a decade of experience in mobile and software development
 	- Worked in banking domain for Barclays and Jp Morgan clients
-		- #question what is the banking domain?
+		- [ ] #question what is the banking domain?
 	- Has published technical research papers at the [[IEEE|Institute of Electrical and Electronics Engineers]]
 	- Contributes to open source projects
 	- Keeps up with latest technologies for spare time
@@ -83,7 +83,7 @@ Reviewed: false
 	- OS 64-bit Windows, macOS, or 64-bit Linux
 	- [[Android Studio Electric Eel]] or higher
 		- This is the software we will be using throughout the chapters
-		- #question what is it exactly though?
+		- [ ] #question what is it exactly though?
 - Don't need to send usage statistics to Google
 - Click "standard" to install the recommended settings
 - Select UI Theme to either Light or Darcula (dark theme)
@@ -101,7 +101,7 @@ Reviewed: false
 ### Get in touch
 - “If you are interested in becoming an author: If there is a topic that you have expertise in and you are interested in either writing or contributing to a book, please visit authors.packtpub.com.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=24&annotation=WNJDTQZI))
 - With every Packt book, you get a DRM-free PDF version of the book at no cost
-	- #question what does DRM-free PDF mean? 
+	- [ ] #question what does DRM-free PDF mean? 
 
 ## Part 1: Android Foundation
 - [[Android Studio]]

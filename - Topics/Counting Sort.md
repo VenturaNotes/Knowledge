@@ -65,7 +65,7 @@ Sorted: [1, 2, 2, 3, 3, 4, 8]
 	- The first part of counting sort is to find the starting index of each number
 		- Counting the number of occurrences for each number in the array.
 	- The second step is to add each number to the right accumulatively
-		- #question Is "accumulatively" the best way to describe it? What is the difference between accumulatively and cumulatively?
+		- [ ] #question Is "accumulatively" the best way to describe it? What is the difference between accumulatively and cumulatively?
 ## References
 
 [^1]: [Learn Counting Sort Algorithm in LESS THAN 6 MINUTES!](https://www.youtube.com/watch?v=OKd534EWcdk)

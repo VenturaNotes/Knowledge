@@ -23,7 +23,7 @@ Reviewed: false
 - “Broadly speaking, [[supervised statistical learning]] involves building a statistical model for predicting, or estimating, an output based on one or more inputs.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=X6DXG2RF))
 	- Problems of this nature occur in fields as diverse as [[business]], [[medicine]], [[astrophysics]], and [[public policy]]
 - “With [[unsupervised statistical learning]], there are inputs but no supervising output; nevertheless we can learn relationships and structure from such data.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=KLMSV8ME))
-	- #question What is a supervising output?
+	- [ ] #question What is a supervising output?
 ### (1.2) Wage Data
 - “wish to understand the association between an employee's age and education, as well as the calendar year, on his wage.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=K8HKTZ9I))
 - “age alone is unlikely to provide an accurate prediction of a particular man's wage.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=663QN4YE))
@@ -66,7 +66,7 @@ Reviewed: false
 		- “These are the first two [[principal components]] of the data, which summarize the 6,830 expression measurements for each cell line down to two numbers or dimensions.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=15&annotation=V8NNZ3G2))
 			- This [[dimension reduction]] may have resulted in some loss of information, but it is now possible to visually examine the data for evidence of clustering.
 	- Right graph is similar to left but we have represented each of the 14 different types of [[cancer]] using a different colored symbol
-		- #question what are the 14 different types of cancer?
+		- [ ] #question what are the 14 different types of cancer?
 		- “Cell lines corresponding to the same cancer type tend to be nearby in the two-dimensional space.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=16&annotation=PZC7B8JZ))
 	- “even though the cancer information was not used to produce the left-hand panel, the clustering obtained does bear some resemblance to some of the actual cancer types observed in the right-hand panel. This provides some independent verification of the accuracy of our clustering analysis.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=15&annotation=QFEUZDPW))
 ## (2) Statistical Learning

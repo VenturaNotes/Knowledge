@@ -4,9 +4,9 @@ aliases:
 ---
 ## Synthesis
 - A keyword used for explicit type casting which allows you to convert a value from one type to another
-	- #question what is meant by explicit type casting?
+	- [ ] #question what is meant by explicit type casting?
 - Great for working with different numerical types or when interfacing with low-level code where specific types are required
-	- #question what is meant by interfacing?
+	- [ ] #question what is meant by interfacing?
 
 ### Common Use Cases for "as"
 - (1) [[Casting (rust)|casting]] between numeric Types
@@ -57,8 +57,8 @@ Standard Output
 ```
 Value of x via pointer: 10
 ```
-- #question I don't understand how references and raw pointers work
-- #question Why is an `unsafe` block needed when using a raw pointer?
+- [ ] #question I don't understand how references and raw pointers work
+- [ ] #question Why is an `unsafe` block needed when using a raw pointer?
 
 (3) Casting Between Enums and Integers
 ```rust
@@ -80,10 +80,10 @@ Standard Output
 ```
 Value of MyEnum::A: 1
 ```
-#question Why is `[repr(u8)]` required at the beginning?
-#question What is the formatting called when you use `{}` for having an empty space?
-#question How does [[println (rust)|println]] work?
-#question do I need to do `MyEnum::A` to retrieve the inherent value of an enum?
+- [ ] #question Why is `[repr(u8)]` required at the beginning?
+- [ ] #question What is the formatting called when you use `{}` for having an empty space?
+- [ ] #question How does [[println (rust)|println]] work?
+- [ ] #question do I need to do `MyEnum::A` to retrieve the inherent value of an enum?
 
 #### Important Notes
 - [[Lossy Conversion]]: Casting a value from a larger type to a smaller type may lose data if the value exceeds the range of the smaller type

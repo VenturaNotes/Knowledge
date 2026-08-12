@@ -14,9 +14,9 @@ tags:
 - Common examples of delimiters include:
 	- Commas (`,`) in [[character-separated values|CSV]] files to separate fields
 	- Tabs (`\t`) in TSV (Tab Separated Values) files
-		- #question What are tab separated values? What does this kind of file look like and why would someone use this over CSV files?
+		- [ ] #question What are tab separated values? What does this kind of file look like and why would someone use this over CSV files?
 	- Spaces (` `) separate words in sentences or arguments in a command
-		- #question Give an example of spaces in arguments for a command. Is this always done with terminal?
+		- [ ] #question Give an example of spaces in arguments for a command. Is this always done with terminal?
 	- Newlines (`\n`) used for separate lines of text
 	- Semicolons (`;`) are sometimes used
 	- **Semicolons (`;`)**: Sometimes used to separate statements in programming languages or items in a list.

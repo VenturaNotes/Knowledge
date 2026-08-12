@@ -19,7 +19,7 @@ Reviewed: false
 		- Fast reads
 		- Fast writes
 		- Persistent data
-			- Also [[durable data]] ( #question although I'm not sure if that means persistent data)
+			- [ ] Also [[durable data]] ( #question although I'm not sure if that means persistent data)
 				- Durable data just means that if the power goes out on the machine holding the database, the data doesn't get lost. How do we do that? We just use a [[hard drive]]
 	- Quick comment about [[disks]]
 		- Description
@@ -62,14 +62,14 @@ Reviewed: false
 		- Con: Slower writes (only use indexes if you need them, do not declare an index for every field)
 		- For writing
 			- you can solve/speed up by using an append only log
-				- #question is it append only or append only log?
+				- [ ] #question is it append only or append only log?
 		- Reading is the bigger issue (there is a lot of applications that is super read heavy)
 			- How to make reads faster? We use something called [[indexes]]
 				- It means we keep extra pieces of [[metadata]] on every single write in order to help track which values of certain rows are the same and that way we can query them really easily. 
 					- For example with the table, if we want all the rows with customer_id 2, we can quickly find them without having to do a linear time scan of the entire data set
-						- #question How can we find the customer_id with 2 instead of using a linear time scan?
+						- [ ] #question How can we find the customer_id with 2 instead of using a linear time scan?
 			- Obviously the pro of this is faster reads but if you put an index on every column such that you can efficiently query the data using every single column, what will end up happening is that writes will take a much longer time.
-				- #question what is meant by "putting an index" on every column?
+				- [ ] #question what is meant by "putting an index" on every column?
 	- Types of [[index implementations]] (These are 3 types)
 		- Sections
 			- [[Hash index|Hash indexes]]
@@ -83,14 +83,14 @@ Reviewed: false
 			- Cons: All of the keys must fit in memory, bad for range queries
 		- Mainly relies on a [[hashmap]] meaning all of the keys need to be able to fit in [[memory]]
 		- Entire point of the hash index is that for the field you're indexing on, you take the key and then you map the offset on disk as the value in the hashmap. Therefore, we can do an O(1) constant time access in [[RAM]] and then we can easily scan the disk
-			- #question "memory" considered ram? 
+			- [ ] #question "memory" considered ram? 
 			- Problems:
 				- If keys don't fit in memory, you're out of luck because hashmaps don't work that well on disk.
 				- If you want to do a [[range query]] meaning you want to quickly find all the keys with a given range of values, they will be scattered all around disk and that will be very inefficient because you have to keep doing more random accesses
 	- [[SSTables and LSM trees]]
 		- Description
 			- Write first goes to an in-memory [[balanced binary search tree]] ([[MemTable]]), eventually written to disk
-				- #question what is in-memory
+				- [ ] #question what is in-memory
 			- When tree becomes too large, write the contents of it (sorted by key name) to an SSTable file
 			- To increase [[persistence]], keep log on disk of memtable writes to restore it in the event of a crash
 		  - On writes, you'd first write to an [[in-memory buffer]] meaning on RAM, you'd have a [[self-balancing tree]] such as a [[red-black tree]] or an [[AVL tree]]. This would be called a [[MemTable]]. When the tree becomes too large, you take all the contents of it which should be automatically sorted by virtue of using a [[tree traversal]] and you would write them to something called an [[SSTables|SSTable]] file. This SSTable file would be held on disk. In the event the database crashes, whatever in memory is going to be lost. So we keep a second log called a [[write-ahead log]] expressing all of the changes that we have in the tree. That way if the machine crashes, we can easily restore that tree

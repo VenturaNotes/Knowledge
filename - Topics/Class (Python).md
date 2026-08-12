@@ -24,7 +24,7 @@ print(p1.x)
 - [ ] #question What kind of classes are there. Given `rng = range(50)`, it seems like `type(rng)` is a class. What other types of classes are there? 
 ### Description 2
 - In a class, [[__init__() (python)|__init__()]] is considered a method, specifically an instance method
-	- #question What is an instance method? 
+	- [ ] #question What is an instance method? 
 #### Definition
 - A class is a blueprint or template for creating objects. It defines a set of [[attribute (Python)|attributes]] and [[method (Python)|methods]] that the objects (instances) created from the class will have.
 	- [ ] #question Are objects and instances synonymous or are they different? 
@@ -43,7 +43,7 @@ print(p1.x)
 - [[class attributes (Python)|class attributes]] defined directly within class are shared among all instances of class
 - [[Instance Attribute (Python)|instance attribute]] are specific to each instance of the class
 ##### Methods
-- #question What are some details about methods?
+- [ ] #question What are some details about methods?
 #### Instantiating and Initializing
 ```python
 class Dog:
@@ -101,10 +101,10 @@ class Person:
 		self.age = age
 
 ```
-#question What are some things that I should know about classes and should always consider / never forget about
-#question How does the [[__init__() (python)|__init__()]] function work in a class? What is its entire purpose?
-#question What does the [[self (python)|self]] keyword mean? Why is it required for `__init__` for example? 
-#question is there a "super" kind of keyword in python as well? I think Java may have this
+- [ ] #question What are some things that I should know about classes and should always consider / never forget about
+- [ ] #question How does the [[__init__() (python)|__init__()]] function work in a class? What is its entire purpose?
+- [ ] #question What does the [[self (python)|self]] keyword mean? Why is it required for `__init__` for example? 
+- [ ] #question is there a "super" kind of keyword in python as well? I think Java may have this
 ## Source[^2]
 ```python
 class Truth:
@@ -113,7 +113,7 @@ x = Truth()
 print(bool(x))
 ```
 - If a class does not implement a `__bool__()` or `__len__()` method, then all its instances are considered true by default, so `bool(x)` returns True.
-	- #question What if you return `True`? Will that make a class `True`?
+	- [ ] #question What if you return `True`? Will that make a class `True`?
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_classes1

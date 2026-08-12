@@ -25,21 +25,21 @@ Reviewed: false
 ### About the Reviewers
 - [[Dmitrii Ivashchenko]]
 	- Expert software engineer with over a decade of experience in mobile development and backend systems
-		- #question what exactly is a backend system?
+		- [ ] #question what exactly is a backend system?
 	- “became the lead of a mobile game development team at a major international company” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=6&annotation=88IVQYU7))
 	- “active member of the [[International Game Developers Association]] and the [[Academy of Interactive Arts & Sciences]], Dmitrii has authored articles for [[Medium]] and [[HackerNoon]]” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=6&annotation=BB6ZBVXS))
 - [[Peter Gichia]]
 	- software engineer focused on native Android development
 	- Currently working as a freelance Android engineer and entrepreneur on the side
 	- Enjoys solving problems for clients through “code or business strategy.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=6&annotation=7US38ER5))
-		- #question what kind of solutions can you find through business strategy?
+		- [ ] #question what kind of solutions can you find through business strategy?
 	- “published a text-based course on building scalable applications with MVVM architecture and is working on publishing another one about clean architecture in collaboration with a leading Edutech company.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=6&annotation=6H6RXRQ7))
 	- Enjoys expanding knowledge through podcasts and books
 
 ## Preface
 - “[[Kotlin]] is a programming language created by [[JetBrains]] that runs on the [[Java Virtual Machine]] (JVM).” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=P4XWXP97))
 	- “designed to address issues such as verbosity, [[null pointer exception|null pointer exceptions]], [[concurrency]] challenges, and the lack of functional support found in Java.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=CERSMF6B))
-		- #question what is functional support in this case?
+		- [ ] #question what is functional support in this case?
 	- “compatible with existing Java code and libraries” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=Q89L6R23))
 	- “[[Google]] recognized Kotlin as a primary language for building Android apps” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=GPSC8EQW))
 - “book adopts an industry-focused approach, preparing you for the role of an Android developer in any company.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=FV4GSHQ2))
@@ -47,18 +47,18 @@ Reviewed: false
 - Topics
 	- [[Material Design 3]]
 	- “structuring apps in the [[MVVM]] architecture.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=L7EYKKS3))
-		- #question is MVVM architecture a thing?
+		- [ ] #question is MVVM architecture a thing?
 - Features
 	- [[dependency injection]]
 	- Jetpack libraries including
 		- [[Room]] for local data persistence
-			- #question what is local data persistence?
+			- [ ] #question what is local data persistence?
 - “identifying code issues using tools such as [[Ktlint]] and [[Detekt]]” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=FQ58UG8Q))
 - “guides you through the publication process on [[Google Play Store]]” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=QW4HHHN8))
 - “Automation of consecutive releases through [[GitHub Actions]] and the distribution of test builds using Firebase App Distribution are also explored.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=XF4Y8QQ4))
-	- #question what is firebase app distribution?
+	- [ ] #question what is firebase app distribution?
 - “crash reporting tools, tips for boosting user engagement, and insights on securing your app.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=TANEZMLM))
-- #question What are pertinent topics?
+- [ ] #question What are pertinent topics?
 	- Guides us to prepare for role as [[Android developer]]
 
 ## Part 1: Building Your App
@@ -114,7 +114,7 @@ Reviewed: false
 	- [[dependency injection]]
 	- [[Kotlin Gradle DSL]]
 	- version catalog to define dependencies
-		- #question what is a version catalog in android studio?
+		- [ ] #question what is a version catalog in android studio?
 #### (5.1) Technical Requirements
 #### (5.2) Introduction to app architecture
 #### (5.3) Deep Diving into MVVM
@@ -144,7 +144,7 @@ Reviewed: false
 - Using Jetpack Compose Navigation library to navigate to different Jetpack Compose screens
 - “how to pass arguments as we navigate to screens” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=15&annotation=FE2KVCYE))
 - “how to handle navigation on large screens and foldables.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=15&annotation=GW62PNVG))
-	- #question what are foldables?
+	- [ ] #question what are foldables?
 #### (7.1) Technical requirements
 #### (7.2) Jetpack Navigation overview
 #### (7.3) Navigating to Compose destinations
@@ -155,7 +155,7 @@ Reviewed: false
 ### (8) Persisting Data Locally and Doing Background Work
 - “save data to a local database, [[Room]], which is part of the Jetpack libraries.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=15&annotation=DU6D8X7K))
 - “long-running operations using [[WorkManager]] and some of the best practices.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=15&annotation=T3XE42U8))
-	- #question what is considered a long-running operation?
+	- [ ] #question what is considered a long-running operation?
 #### (8.1) Technical requirements
 #### (8.2) Saving and reading data from a local database
 #### (8.3) Handling updates and migrations in the Room database

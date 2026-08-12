@@ -24,7 +24,7 @@ Reviewed: false
 				- P $\implies$ Q needs to be proven
 				- $Q \implies P$ needs to be proven 
 			- $I_n$ is the identity matrix
-			- #question what is meant by elementary row operations?
+			- [ ] #question what is meant by elementary row operations?
 		- (a) Assume A is invertible. Since Ax = b has a unique solution for every b (theorem 5), then A has a pivot position in every row. Since A is square, the pivots are in the diagonal, which implies RREF of A is $I_n$. $A \sim I_n$ 
 		- (b) Now assume A $\sim$ $I_n$. Then each step to row reduce A corresponds to left multiplication by an elementary matrix $E_1, E_2, ... E_p$ such that $$A \sim E_1A \sim E_2 (E_1A) \sim E_3(E_2E_1A)) \sim ... \sim E_p(E_{p-1} .... E_1A)) = I_n$$. Since the product $E_p ... E_1$ of invertible matrices is invertible, then $(E_p ... E_1)^{-1} (E_p ... E_1)A = (E_p ... E_1)^{-1} I_n$ so $A = (E_p ... E_1)^{-1}$. Therefore, A is invertible since its the inverse of an invertible matrix. 
 			- We can do these row reduction steps using matrices instead of row operations and continue to multiply on left side because that's the side we need to multiply for all this to work out

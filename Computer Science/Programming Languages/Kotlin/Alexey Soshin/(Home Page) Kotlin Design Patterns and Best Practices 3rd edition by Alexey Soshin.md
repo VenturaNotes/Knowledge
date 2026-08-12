@@ -20,7 +20,7 @@ Reviewed: false
 		- Large scale software implementations
 	- Software engineer at WireMock
 	- “experience using Kotlin as a backend developer building microservices in the financial and developer tooling sectors.” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=5&annotation=REBVWT8J))
-		- #question what kind of sector is this? 
+		- [ ] #question what kind of sector is this? 
 	- Founder of Brighton Kotlin meetup group
 	- Tends to have never-ending side projects
 	- [Website](https://leeturner.me/about/)
@@ -28,15 +28,15 @@ Reviewed: false
 	- Passionate software engineer (more than 10 years experience)
 		- developing in Java and Kotlin
 		- Mainly in Spring ecosystem
-			- #question what is spring
+			- [ ] #question what is spring
 	- Writes “writing idiomatic and clean code” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=5&annotation=63AYX5VT))
-		- #question what does idiomatic mean?
+		- [ ] #question what does idiomatic mean?
 	- Now writes a blog 
 	- Bought original kotlin book
 - Discord is available
 ## Preface
 - Can elevate kotlin skills with classical and modern design patterns, [[coroutines]], and [[microservices]]
-	- #question is design patterns a thing?
+	- [ ] #question is design patterns a thing?
 - “[[design patterns]] empower developers to write superior, more efficient, and maintainable code by diminishing the time spent devising solutions for common problems from the ground up.” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=20&annotation=9DCCCRVW))
 - “[[Kotlin]] is a versatile programming language that embraces multiple programming paradigms and was crafted by [[JetBrains]]” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=20&annotation=ACRDQKZD))
 	- “renowned for creating widely-used integrated development environments, including [[IntelliJ IDEA]].” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=20&annotation=6SM8MJEQ))

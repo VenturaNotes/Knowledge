@@ -9,7 +9,7 @@
 	- #comment The statically-typed aspect provides strong type safety as it's checked during compilation and being a systems language offers the performance and control needed for building foundational software
 		- Statically-typed language
 			- Type checking occurs so types of variables are known and checked at compile-time (before program runs). So type-relate errors are caught early
-				- #question What is after compile-time? Is it run-time?
+				- [ ] #question What is after compile-time? Is it run-time?
 		- Systems language
 			- Designed for writing low-level software which interacts closely with hardware and operating system
 			- Examples
@@ -18,7 +18,7 @@
 				- Fine-grained control over memory
 				- Direct hardware access
 				- High performance
-				- #question What levels of development are there?
+				- [ ] #question What levels of development are there?
 - Focuses on safety, [[concurrency]], and performance
 	- #comment
 		- Concurrency is when different parts of the program are running at the same time. The purpose of concurrency is that it allows for multiple threads to execute in parallel or appear to do so to make program potentially faster or more responsive

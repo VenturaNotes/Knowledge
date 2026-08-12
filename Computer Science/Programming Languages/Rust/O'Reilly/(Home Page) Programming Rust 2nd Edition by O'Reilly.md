@@ -13,12 +13,12 @@ Reviewed: false
 
 ## Intro
 - “[[Systems programming]] provides the foundation for the world's computation.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=2&annotation=K5RMN6CA))
-	- #question What is meant by "world's computation?"
-	- #question What does systems programming mean exactly?
+	- [ ] #question What is meant by "world's computation?"
+	- [ ] #question What does systems programming mean exactly?
 - [[Rust]]
 	- Helps control [[memory]], [[processor time]], and other [[system resources]]
 	- Catches broad classes of common mistakes from memory management errors to interthread [[data races]]
-		- #question what is an interthread?
+		- [ ] #question what is an interthread?
 	- Enables memory safety and trustworthy [[concurrency]]
 - “bridge the gap between performance and safety using Rust.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=2&annotation=CL5AGMY4))
 - Authors are Jim Blandy, Jason Orendorff and Leonora Tindall
@@ -38,7 +38,7 @@ Reviewed: false
 	- [[Filesystem|Filesystems]]
 	- Databases
 	- Code running on cheap devices or devices that must be extremely reliable
-		- #question Like what devices need to be extremely reliable?
+		- [ ] #question Like what devices need to be extremely reliable?
 	- [[Cryptography]]
 	- [[Media codecs]]
 		- Software for reading and writing audio, video, and image files
@@ -57,7 +57,7 @@ Reviewed: false
 - “systems programming is resource-constrained programming” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=18&annotation=JDLB49CS))
 	- “every [[byte]] and every [[CPU cycle]] counts.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=18&annotation=UX57I475))
 - Amount of systems code involved in supporting an app is staggering
-	- #question what is systems code?
+	- [ ] #question what is systems code?
 - Book won't teach systems programming but will cover many details of [[memory management]]
 ### Who Should Read This Book?
 - Alternative to C++
@@ -73,7 +73,7 @@ Reviewed: false
 ### Using Code Examples
 - Supplemental material can be explored here
 	- https://github.com/ProgrammingRust
-	- #question should i explore this?
+	- [ ] #question should i explore this?
 - “Selling or distributing examples from O'Reilly books does require permission.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=20&annotation=4NZ74PQS))
 - “We appreciate, but do not require, attribution.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=20&annotation=47TIXAXX))
 
@@ -130,7 +130,7 @@ int main(int argc, char **argv){
 - [[parallel programming]]
 - “[[Concurrency]] is notoriously difficult to use correctly in C and C++.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=KTN65Q3I))
 - Concurrency only usually used when single-threaded code has proven unable to achieve performance needed
-	- #question what is single-threaded code?
+	- [ ] #question what is single-threaded code?
 - [[parallelism]] really important to modern machines that it shouldn't be treated as a last resort
 - “same restrictions that ensure memory safety in Rust also ensure that Rust programs are free of [[data races]].” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=U5KNYFZE))
 	- “can share data freely between [[Thread|threads]], as long as it isn't changing.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=K723ZHI4))
@@ -138,7 +138,7 @@ int main(int argc, char **argv){
 		- [ ] #question what is synchronization primitives?
 - “All the traditional concurrency tools are available: [[mutexes]], [[condition variables]], [[channels]], [[atomics]], and so on. Rust simply checks that you're using them properly.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=53DFFBI6))
 	- “This makes Rust an excellent language for exploiting the abilities of modern multicore machines.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=SZ4AARC6))
-		- #question what is a multicore machine?
+		- [ ] #question what is a multicore machine?
 		- “Rust ecosystem offers libraries that go beyond the usual concurrency primitives and help you distribute complex loads evenly across pools of processors, use lock-free synchronization mechanisms like Read-Copy-Update, and more.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=RW9NSFXK))
 			- [ ] #question what is meant by primitives
 			- [ ] #question what is concurrency primitives?
@@ -180,7 +180,7 @@ int main(int argc, char **argv){
 - Language designed to support collaboration
 	- “[[Rust]]'s [[Traits]] and [[Generic|generics]] let you create libraries with flexible interfaces so that they can serve in many different contexts.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=TMMPSBQS))
 - “Rust's standard library provides a core set of fundamental types that establish shared conventions for common cases, making different libraries easier to use together.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=QFV7VCSD))
-	- #question more details about rust's standard library
+	- [ ] #question more details about rust's standard library
 ## (2) A Tour of Rust
 - Benefits of rust
 	- Safe, performant systems programming
@@ -196,7 +196,7 @@ int main(int argc, char **argv){
 - 3 new commands available
 	- `cargo --version`
 		- [[Cargo]] is Rust's compilation manager, package manager, and general-purpose tool. Can use it to start a new project, build and run your program, and manage any external libraries your code depends on
-			- #question I need examples
+			- [ ] #question I need examples
 		- “Cargo can create a new Rust package for us, with some standard metadata arranged appropriately:” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=28&annotation=3NCCVTYK))
 	- `rustc --version`
 		- [[rustc]] “is the Rust compiler. Usually we let Cargo invoke the compiler for us, but sometimes it's useful to run it directly.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=28&annotation=9CHFI58I))
@@ -205,11 +205,11 @@ int main(int argc, char **argv){
 - Example
 	- `$ cargo new hello`
 		- Creates a new package directory named `hello`, ready to build a command-line executable
-			- #question what is a package directory
-			- #question go into detail about command-line executables
-	- In the package's top-level directory #question check more details
+			- [ ] #question what is a package directory
+			- [ ] #question go into detail about command-line executables
+	- [ ] In the package's top-level directory #question check more details
 		- ![[Screenshot 2024-08-13 at 6.44.25 PM.png|500]]
-			- #question What does `ls -la` do?
+			- [ ] #question What does `ls -la` do?
 		- Cargo created a [[Cargo.toml]] to hold [[metadata]] for the package
 			- ![[Screenshot 2024-08-13 at 6.39.37 PM.png]]
 			- If program needs [[dependency|dependencies]] on other libraries, we can record them in this file and Cargo will take care of downloading, building and updating those libraries for up
@@ -223,13 +223,13 @@ int main(int argc, char **argv){
 		- The `main.rs` file contains the text
 			- ![[Screenshot 2024-08-13 at 6.47.41 PM.png|300]]
 	- This is the extent of the boilerplate for a new Rust program: two files
-		- #question what is a boilerplate
+		- [ ] #question what is a boilerplate
 	- We can invoke the `cargo run` command from any directory in package to build and run program
 	- “Here, Cargo has invoked the Rust compiler, rustc, and then run the executable it produced.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=30&annotation=LX2RGNGR))
 	- “Cargo places the executable in the target subdirectory at the top of the package:” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=30&annotation=IRJZHMIJ))
 		- ![[Screenshot 2024-08-13 at 7.29.42 PM.png]]
 			- #comment I believe that the `hello` is the executable although
-				- #question what type is this executable? It can't be a .exe since it's not explicitly shown and I'm running on a mac
+				- [ ] #question what type is this executable? It can't be a .exe since it's not explicitly shown and I'm running on a mac
 	- `cargo clean`
 		- This will clean up the generated files for us so tat the `target` subdirectory will no longer exist
 
@@ -267,11 +267,11 @@ fn gcd(mut n: u64, mut m: u64) -> u64 {
 - [[u8]] is an unsigned 8-bit integer (used for "byte" values)
 	- [ ] #question what does "used for byte" values mean?
 - [[isize (rust)|isize]] and [[usize (rust)|usize]] types hold pointer-sized signed and unsigned integers, 32 bits long on 32-bit platforms, and 64 bits long on 64-bit platforms
-	- #question what does pointer-sized mean?
-	- #question examples of 32-bit and 64-bit platforms
-		- #question what is the difference between them and the calculation
+	- [ ] #question what does pointer-sized mean?
+	- [ ] #question examples of 32-bit and 64-bit platforms
+		- [ ] #question what is the difference between them and the calculation
 - “Rust also has two floating-point types, [[f32]] and [[f64]], which are the IEEE single- and double-precision floating-point types, like [[float]] and [[double]] in C and C++.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=31&annotation=LJEGER5Z))
-	- #question What is IEEE single and double precision floating-point types?
+	- [ ] #question What is IEEE single and double precision floating-point types?
 - By default, once a variable is initialized, its value can't be changed, but placing the [[mut (rust)|mut]] keyword (pronounced "mute", short for [[mutable]]) before the parameters `n` and `m` allows our function body to assign to them
 	- Most variables don't get assigned the `mut` keyword
 - The function's body starts wit ha call to the assert! macro, verifying that neither argument is zero
@@ -291,7 +291,7 @@ fn gcd(mut n: u64, mut m: u64) -> u64 {
 - Rust has a [[return (rust)|return]] statement, but the gcd function doesn't need one. 
 	- “If a function body ends with an expression that is not followed by a semicolon, that's the function's return value” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=32&annotation=PDAAJ8VN))
 	- “any block surrounded by curly braces can function as an [[expression (rust)|expression]].” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=32&annotation=TYX9CQYP))
-		- #question what is the difference between functions and expressions in rust?
+		- [ ] #question what is the difference between functions and expressions in rust?
 - Expression that prints a message and yields `x.cos()` as its value
 ```rust
 {
@@ -328,8 +328,8 @@ fn test_gcd() {
 	- [ ] #question can we call them functions or definitions? Does it matter?
 	- As long as our current directory is somewhere within the package's subtree, we can run `cargo test`. 
 - ![[Screenshot 2024-08-14 at 6.48.38 AM.png]]
-	- #question Analyze what ignored, measured, and filtered out means for a test
-	- #question What does `ok` mean in this case?
+	- [ ] #question Analyze what ignored, measured, and filtered out means for a test
+	- [ ] #question What does `ok` mean in this case?
 
 ### (2.4) Handling Command-Line Arguments
 - How to take a series of numbers as command-line arguments and print their gcd
@@ -366,7 +366,7 @@ fn main() {
 			- #comment maybe definition could be like you can define a `let` to a variable but not sure.
 	- Any [[type]] that implements the `FromStr` trait has a `from_str` method that tries to parse a value of that type from a string
 		- The [[u64]] type implements `FromStr`, and we'll call `u64::from_str` to parse our command-line arguments.
-			- #question Does it matter that `from_str` is lowercase? 
+			- [ ] #question Does it matter that `from_str` is lowercase? 
 		- Even though we never use `FromStr` elsewhere in the program, a trait must be in scope in order to use its methods.
 - Given `use std::env;`
 	- The `std::env` [[module (rust)|module]] 

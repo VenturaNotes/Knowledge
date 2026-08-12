@@ -37,11 +37,6 @@ Notice the relationship between a number $i$ and $i // 2$ (or $i \gg 1$):
 In Python, i >> 1 shifts the binary bits of the integer i to the **right by 1 position**.
 
 In practical mathematical terms, shifting a number to the right by 1 bit is equivalent to **integer division by 2** (floor division, or i // 2). The rightmost bit is dropped/discarded.
-
-
-Say simple "hello" to me
-\
-
 ### 2. Topic and Name
 - **Topic:** **Bitwise Operations** (or Bitwise Operators).
 - **Operator Name:** The **Bitwise Right Shift** operator (often simply called the **Right Shift** operator).

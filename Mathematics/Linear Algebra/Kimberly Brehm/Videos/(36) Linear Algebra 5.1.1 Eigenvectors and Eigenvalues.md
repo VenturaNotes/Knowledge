@@ -29,9 +29,9 @@ Reviewed: false
 				- This is the null space and the subspace of $\mathbb{R}^n$ 
 				- It's a [[subspace]] and all the values on the line going through the point $(0, 0)$. For this case it's 2-D. Otherwise, could be $(0,0,...)$
 			- For the basis, only have one value for a $2 \times 2$  because we have a free variable
-				- #question how are they related?
+				- [ ] #question how are they related?
 				- It wouldn't make sense to have two vectors in a $2 \times 2$ matrix unless I was only having the trivial solution meaning it wouldn't work anyway. So we should always have one fewer
-					- #question what does this mean?
+					- [ ] #question what does this mean?
 - ![[Screenshot 2025-01-13 at 11.12.26 PM.png]]
 	- Practice
 		- Find a [[basis]] for the corresponding [[eigenspace]] for A and $\lambda = 2$

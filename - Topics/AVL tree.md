@@ -8,7 +8,7 @@
 	- [ ] #question What is meant by binary search tree here? Can't you just say binary tree here? 
 ### Example of an AVL Tree
 - ![[Screenshot 2025-12-07 at 8.32.37 PM.png|400]]
-	- #question How do you calculate the balance factors. Isn't the difference here between 12 and 18 the number 6? Or is height just based on distance between two nodes? 
+	- [ ] #question How do you calculate the balance factors. Isn't the difference here between 12 and 18 the number 6? Or is height just based on distance between two nodes? 
 	- Balance factors for different nodes:
 		- 12: +1
 		- 8: +1

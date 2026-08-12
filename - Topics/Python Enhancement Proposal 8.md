@@ -30,7 +30,7 @@ class MyClass:
     pass
 ```
 - Use two blank lines around top-level function and class definitions
-	- #question Are we supposed to have two blank lines after an import as well for PEP 8?
+	- [ ] #question Are we supposed to have two blank lines after an import as well for PEP 8?
 ```python
 class MyClass:
 	def method_one(self):
@@ -74,7 +74,7 @@ class MyClass:
 		- Before open parenthesis of function call
 			- `spam(1)`
 			- `spam (1)`
-				- #question Would this even run?
+				- [ ] #question Would this even run?
 - Naming Conventions
 	- Functions and Variables: Use `snake_case` (e.g., `my_function`).
 	- Classes: Use `PascalCase` (e.g., `MyClass`).

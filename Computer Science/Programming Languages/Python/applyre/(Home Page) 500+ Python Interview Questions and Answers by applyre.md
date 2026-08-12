@@ -138,7 +138,7 @@ print(x)
 - (34) Output?
 	- `3`
 		- #comment Integers are immutable. When `z = 5` is executed, a new integer object `5` is created, and `z` is made to point to it. The object `3` that `y` is pointing to remains unchanged. If `y` and `z` were pointing to a mutable object (like a list), and `z` modified that object, then `y` would also see the change because both variables would be referencing the same underlying object.
-			- #question This doesn't seem accurate as questioned as well in [[mutable (Python)|mutable]]. I ran a test as well using lists, and changing the second variable despite that they're supposed to reference the same object doesn't seem to change it? 
+			- [ ] #question This doesn't seem accurate as questioned as well in [[mutable (Python)|mutable]]. I ran a test as well using lists, and changing the second variable despite that they're supposed to reference the same object doesn't seem to change it? 
 ```python
 y = 3
 z = y
@@ -208,18 +208,18 @@ print(x)
 - (55) Result of operation `0.1 + 0.2`
 	- `0.30000000000000004
 		- #comment This occurs because of how computers represent floating-point numbers. Most floating-point numbers are stored using a binary (base-2) representation. Many decimal fractions (like 0.1, 0.2, 0.3) cannot be represented exactly as finite binary fractions so they're stored as approximations. This is a common characteristic of floating-point arithmetic in virtually all programming languages that use the IEEE 754 standard for floating-point numbers. 
-			- #question What would a binary representation for a floating-point number look like? 
-			- #question How is it stored as an approximation. What would this approximation be?
-			- #question Can you show me the underlying floating-point arithmetic the program does so I can see the real values of `0.1` and `0.2` which gives `0.30000000000000004`?
-			- #question How does floating-point arithmetic work? I would like for it to be broken down
-			- #question What is the IEEE 754 standard for floating-point numbers? Is this consistent across programming languages?
-				- #question What is the IEEE 754 standard? 
+			- [ ] #question What would a binary representation for a floating-point number look like? 
+			- [ ] #question How is it stored as an approximation. What would this approximation be?
+			- [ ] #question Can you show me the underlying floating-point arithmetic the program does so I can see the real values of `0.1` and `0.2` which gives `0.30000000000000004`?
+			- [ ] #question How does floating-point arithmetic work? I would like for it to be broken down
+			- [ ] #question What is the IEEE 754 standard for floating-point numbers? Is this consistent across programming languages?
+				- [ ] #question What is the IEEE 754 standard? 
 - (56) How to format `3.14159` to display two decimals in string
 	- `'{:.2f}'.format(3.14159)`
 		- #comment The colon introduces the format specifier to say: "format as floating-point number with two decimal places"
 			-   `.2` is for two decimal places (and it rounds up if you'd have `3.14559` which would print `3.15)
 			-   `f` is to format as fixed-point number (a floating-point number)
-				- #question What is a fixed-point number? Is this different from a floating point number?
+				- [ ] #question What is a fixed-point number? Is this different from a floating point number?
 - (57) Operations in floating-point number?
 	- `5/2`
 - (58) Result of operation `round(2.675, 2)`
@@ -263,30 +263,30 @@ print(x) # Hello 123
 	- `hello, world!'`
 - (74) Split string into a list of words
 	- `string.split()`
-		- #question What does this look like? What is the delimiter / separator?
+		- [ ] #question What does this look like? What is the delimiter / separator?
 - (75) Join list of strings into a single string?
 	- `join()`
-		- #question would like to see example
+		- [ ] #question would like to see example
 - (76) Join list of strings into a single string with a comma separator 
 	- `','join(['Hello', 'World'])'`
-		- #question What is ',' called in this case? Is it a delimiter?
-		- #question What happens if you use a different separator?
+		- [ ] #question What is ',' called in this case? Is it a delimiter?
+		- [ ] #question What happens if you use a different separator?
 - (77) Result of `'Hello, World!'.find( 'World')`
 	- 7
 		- #comment returns the index of `W` in `World`
-		- #question What does it return if can't find `W`?
+		- [ ] #question What does it return if can't find `W`?
 - (78) Format string using f-strings
 	- `f'Hello, {name}!'`
-		- #question Need more examples
-		- #question How would it format it? 
+		- [ ] #question Need more examples
+		- [ ] #question How would it format it? 
 - (79) Format string using `format()` method
 	- `'Hello, {}}!'.format(name)`
-		- #question How would this work?
+		- [ ] #question How would this work?
 - (80) Result of `'Hello, {}!'.format('World')?`
 	- `'Hello, World!'`
 - (81) Format string using `%` operator
 	- `Hello, %s! % name`
-		- #question need example
+		- [ ] #question need example
 - (82) Valid string literal
 	- "Hello, World!"
 - (83)Result of `Hello, World!'.replace('World','Python')`
@@ -297,7 +297,7 @@ print(x) # Hello 123
 	- `['Hello', 'World!']`
 - (86) Remove whitespace from beginning and end of string
 	- `string.strip()`
-		- #question what does `sting.trim()` do if it exists?
+		- [ ] #question what does `sting.trim()` do if it exists?
 - (87) Value of `'Hello, World!'.count('o')?`
 	- `2`
 		- #comment seems to count number of occurrences of character
@@ -305,17 +305,17 @@ print(x) # Hello 123
 	- `'substring' in string`
 - (89) Result of `'Hello, World!'.index('World')?`
 	- 7
-		- #question Which method is similar to this? How is this different from the find method? 
+		- [ ] #question Which method is similar to this? How is this different from the find method? 
 - (90) Convert string to lowercase in Python
 	- `string.lower()`
 - (91) Result of `'Hello, World!'.capitalize()`
 	- `'Hello, world!'`
 		- #comment seems like it capitalizes the first word
-		- #question Does it need to be the first word or just first character?
+		- [ ] #question Does it need to be the first word or just first character?
 - (92) Result of` '42'.zfill(5)`
 	- `'00042'`
 		- #comment seems like a spacing thing
-		- #question is there a difference between `zfill` and `fill` if it exists?
+		- [ ] #question is there a difference between `zfill` and `fill` if it exists?
 - (93) Check if string ends with specific substring
 	- `string.endswith(substring)`
 - (94) Result of `Hello, World!.title()`?
@@ -323,14 +323,14 @@ print(x) # Hello 123
 		- Capitalizes the first character of every word
 - (95) How to check if all characters in a string are digits
 	- `string.isdigit()`
-		- #question What does `.isnumeric()` do? Isn't it the same?
+		- [ ] #question What does `.isnumeric()` do? Isn't it the same?
 - (96) Result of `Hello, World!'.swapcase()`
 	- `'hELLO, WORLD!'`
 - (97) Check if all characters in a string are alphabetic
 	- `string.isalpha()`
 - (98) Result of `'Hello, World!'.rsplit(', ')`
 	- `['Hello', 'World!']`
-		- #question how is this different from split?
+		- [ ] #question how is this different from split?
 - (99) Boolean literal in python
 	- `True`
 - (100) `print(True and False)`
@@ -387,14 +387,14 @@ print(x) # Hello 123
 	- `isinstance(x, int)`
 - (125) Difference between `type()` and `isinstance()`
 	- `type()` checks the exact type, while `isinstance()` checks for subclass relationships as well
-		- #question what does subclass relationships mean?
+		- [ ] #question what does subclass relationships mean?
 - (126) Mutable data type in `Python`
 	- `List`
 - (127) Which is correct about mutable and immutable types?
 	- Mutable types can be changed after they are created, while immutable types cannot.
 - (128) Example of immutable data type
 	- `tuple`
-		- #question is there a way to check in code if a data type is immutable or not similar to using the `type` method? 
+		- [ ] #question is there a way to check in code if a data type is immutable or not similar to using the `type` method? 
 - (129) Output of following code
 	- `[1, 2, 3, 4]`
 ```python
@@ -405,7 +405,7 @@ print(x)
 ```
 - (130) Output of following code
 	- `(1, 2, 3)`
-	- #question How does `y+= (4,)` work? Does this only work for tuples?
+	- [ ] #question How does `y+= (4,)` work? Does this only work for tuples?
 ```python
 x = (1, 2, 3)
 y = x
@@ -418,7 +418,7 @@ print(x)
 	- Handle exceptions that occur in the try block
 - (133) Correct syntax to catch a specific exception
 	- `try: ... except Exception as e:`
-		- #question I want to see an example
+		- [ ] #question I want to see an example
 - (134) Output of Code
 	- `cannot divide by zero`
 ```python
@@ -470,7 +470,7 @@ Finally block executed
 	- `return value`
 - (143) Purpose of 'self' parameter in a method within a class?
 	- It refers to the instance of the class
-	- #question I would like to see an example of this
+	- [ ] #question I would like to see an example of this
 - (144) Define function with default parameters
 	- `def myFunction(a, b=2):`
 - Which of the following is a correct way to define a function with default parameters?
@@ -479,7 +479,7 @@ Finally block executed
 		- (b) `def myFunction(a, b=2):`
 		- (c) `def myFunction(a: int, b: int = 2):`
 		- (d) `def myFunction(a: int = 1, b: int):`
-	- #question Why is `b` the only correct answer? It doesn't seem to make sense. Seems like ChatGPT is suggesting only default parameters have to go after the non-default ones in python?
+	- [ ] #question Why is `b` the only correct answer? It doesn't seem to make sense. Seems like ChatGPT is suggesting only default parameters have to go after the non-default ones in python?
 - (145) Define lambda function in python?
 	- `lambda x: x + 1`
 - #comment Example
@@ -498,7 +498,7 @@ print(myFunction(2, 3))
 ```
 - (147) What is true about decorators?
 	- decorators are used to modify the behavior of a function or method
-	- #question What is a decorator?
+	- [ ] #question What is a decorator?
 - (148) Purpose of `global` keyword
 	- To declare that a variable inside a function is global
 - (149) Output of code
@@ -522,49 +522,49 @@ print(myFunction(3))
 	- True
 - (156) What does `ascii()` function do
 	- Returns a string containing a printable representation of an object
-	- #question What does this mean? I need an example
+	- [ ] #question What does this mean? I need an example
 - (157) What is output of `ascii('Hello, World'!)`?
 	- `'Hello, World!'`
 - (158) What does [[bin() (Python)|bin()]] function do?
 	- Returns binary representation of an integer?
-	- #question What does this look like?
+	- [ ] #question What does this look like?
 - (159) What will be output of `bin(10)`?
 	- `'0b1010`
-		- #question why is there a 0b in the beginning?
+		- [ ] #question why is there a 0b in the beginning?
 - (160) What does `bool()` function do in `Python`?
 	- Returns the boolean value of an object?
-		- #question what does this look like?
+		- [ ] #question what does this look like?
 - (161) Output of `bool(0)`
 	- `False`
 - (162) What does `bytearray()` function do?
 	- Returns a new array of bytes?
-	- #question How is this used and why?
+	- [ ] #question How is this used and why?
 - (163) What will be output of `bytearray('hello', 'utf-8')`
 	- `bytearray(b'hello')`
-		- #question What format is `bytearray`. Can this be used for encoding?
-		- #question What would adding multiple strings look like?
+		- [ ] #question What format is `bytearray`. Can this be used for encoding?
+		- [ ] #question What would adding multiple strings look like?
 - (164) `bytes()` function in python
 	- Returns a new bytes object
-	- #question Why? What are the benefits of a bytes object?
+	- [ ] #question Why? What are the benefits of a bytes object?
 - (165) Output of `bytes('hello', 'utf-8')`
 	- `b'hello'`
-		- #question How is this different from `bytearray`?
+		- [ ] #question How is this different from `bytearray`?
 - (166) What is `callable()` function in Python?
 	- Returns True if the object appears callable
-	- #question Examples please
+	- [ ] #question Examples please
 - (167) What is output of `callable(len)`?
 	- True
-		- #question Why is it True? 
+		- [ ] #question Why is it True? 
 - (168) What does `chr()` function do in Python?
 	- Returns the string representing a character whose Unicode code point is the integer?
-		- #question What does this mean?
-		- #question does `chr()` return a string or integer?
+		- [ ] #question What does this mean?
+		- [ ] #question does `chr()` return a string or integer?
 - (169) Output of `chr(97)`
 	- `'a'`
-		- #question Is this based on ASCII table or Unicode or are they the same?
+		- [ ] #question Is this based on ASCII table or Unicode or are they the same?
 - (170) What does `classmethod()` do?
 	- `Converts a method into a class method`
-	- #question What is the difference between method and class method?
+	- [ ] #question What is the difference between method and class method?
 - (171) Output of following code:
 	- `Hello`
 	- [ ] #question What does `@classmethod do`. Is this necessary to call the method?
@@ -1823,7 +1823,7 @@ print(hasattr(obj, 'x'))
 	- `one_element_tuple = (1,)`
 - (333) Which of the following methods can be used to count the occurrences of an element in a tuple?
 	- `count()`
-		- #question What would the syntax look like?
+		- [ ] #question What would the syntax look like?
 - (334) How do you access the second element of a tuple named `my_tuple`?
 	- `my_tuple[1]`
 - (335) Can you change the value of an element in a tuple after it has been created?
@@ -1887,8 +1887,8 @@ print(hasattr(obj, 'x'))
 	- `a, b, c, d = (1, 2, 3, 4)`
 - (361) Can you create a tuple using comprehension syntax?
 	- No, comprehensions are only for lists, sets, and dictionaries
-		- #question Why can't you create a tuple using comprehension?
-		- #question How would you create a list using comprehension?
+		- [ ] #question Why can't you create a tuple using comprehension?
+		- [ ] #question How would you create a list using comprehension?
 - (362) How do you access the second element of the first tuple in the nested tuple `nested_tuple = ((1, 2), (3, 4))`?
 	- `nested_tuple[0][1]`
 - (363) Which of the following methods is not available for tuples?
@@ -2077,14 +2077,14 @@ print(dict)
 	- `len(dict)`
 - (412) What will be the output of the following code
 	- `3`
-		- #question Why does it return 3 when this key-value pair does not exist in the dictionary?
+		- [ ] #question Why does it return 3 when this key-value pair does not exist in the dictionary?
 ```python
 dict = {'a': 1, 'b':2}
 print(dict.get('c',3))
 ```
 - (413) How do you create a dictionary with default values?
 	- `dict = dict.fromkeys(['a','b'],0)`
-		- #question What does `fromkeys` mean?
+		- [ ] #question What does `fromkeys` mean?
 - (414) What will be the output of the following code
 	- `{}`
 ```python
@@ -2153,11 +2153,11 @@ print(dict)
 ```
 - (425) How do you create a dictionary with keys from a list and all values set to a default value?
 	- `dict = dict.fromkeys(['a','b'],0)`
-		- #question What can you do with `fromkeys`?
+		- [ ] #question What can you do with `fromkeys`?
 - (426) What will be the output of the following code:
 	- `{'a':3, 'b':2}`
-		- #question So does `.update()` just update an existing key-value pair?
-		- #question Could you add a `key-value` pair with `update()` or does this return an error?
+		- [ ] #question So does `.update()` just update an existing key-value pair?
+		- [ ] #question Could you add a `key-value` pair with `update()` or does this return an error?
 ```python
 dict = {'a': 1, 'b': 2}
 dict.update({'a': 3})
@@ -2165,11 +2165,11 @@ print(dict)
 ```
 - (427) How do you iterate over all keys in a dictionary?
 	- `for key in dict:`
-		- #question Does this just return the keys or keys and values?
+		- [ ] #question Does this just return the keys or keys and values?
 		- [ ] #question Could you show an example?
 - (428) What will be the output of the following code:
 	- `{'b': 2, 'c': 1}`
-		- #question So `pop()` in dictionary removes key-value pair and returns value?
+		- [ ] #question So `pop()` in dictionary removes key-value pair and returns value?
 ```python
 dict = {'a': 1, 'b': 2}
 dict['c'] = dict.pop('a')

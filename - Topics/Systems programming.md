@@ -2,7 +2,7 @@
 - Systems programming involves writing software that interacts closely with the hardware and operating systems. Includes developing
 	- [[Operating systems]]
 		- The software that manages the hardware and provides services for application software. Examples include Windows, Linux, and macOS.
-			- #question what kind of services? Would like to see an example
+			- [ ] #question what kind of services? Would like to see an example
 	- [[Device drivers]]
 		- Programs that allow the operating system to communicate with hardware components like printers, graphics cards, and storage devices.
 	- [[Embedded systems]]
@@ -151,13 +151,12 @@ pub extern "C" fn _start() -> ! {
 - Operating systems: The [[Redox OS]] project is an example of a Rust-based operating system
 - Web Browsers: Parts of Mozilla Firefox, such as the [[Servo]] engine, are written in Rust.
 - Cryptography Libraries: Rust is used to develop safe, fast cryptography libraries that are used in various applications
-	- #question what is cryptography?
+	- [ ] #question what is cryptography?
 	- What kind of cryptography libraries has rust made?
 
 #### Summary
 - Rust's ability to provide low-level control, along with its guarantees of safety, make it an excellent choice for systems programming, particularly in areas where reliability and performance are critical
-	- #question I need more examples of low-level control
-
+	- [ ] #question I need more examples of low-level control
 ### Rust Interacting with Hardware
 - For Rust to interact with hardware, you typically write code that directly accesses [[memory-mapped registers]] or uses [[low-level operations]]. These are common in [[embedded systems]] or [[operating system development]]
 	- [ ] #question Describe me in more detail about memory-mapped registers
@@ -235,14 +234,14 @@ fn main() -> ! {
 	- [ ] #question Why does it need to be unwrapped?
 ##### Code Description
 - (1) It's common in embedded programming to not use standard library and not have a normal `main` function according to `#![no_main]` and `#![no_std]`. 
-	- #question How are we still able to have a main function though?
+	- [ ] #question How are we still able to have a main function though?
 - (2) [[Peripheral Access Crate]] (`pac`): The `pac` module gives you access to the microcontroller's hardware peripherals, like GPIO, timers, etc.
-	- #question is the microcontroller connected to the LED or are they the same thing? 
+	- [ ] #question is the microcontroller connected to the LED or are they the same thing? 
 - (3) GPIO configuration: We configure a GPIO pin (in this case, `PA5`) as an output pin, which we will use to control an LED
-	- #question What does PA5 mean in this case?
+	- [ ] #question What does PA5 mean in this case?
 - (4) Blinking the LED: The LED is turned on and off in an infinite loop, with delays between to create the blinking effect
-	- #question does the `cortex_m::asm::delay` delay the entire program?
-	- #question What are all the packages/modules/attributes (idk) of [[cortex_m]]?
+	- [ ] #question does the `cortex_m::asm::delay` delay the entire program?
+	- [ ] #question What are all the packages/modules/attributes (idk) of [[cortex_m]]?
 
 ##### Running Code
 - To run code, would need to compile it to a specific microcontroller target and [[flash]] it onto the board using a tool like [[cargo-embed]] or [[openocd]]. Details of process vary depending on hardware being used

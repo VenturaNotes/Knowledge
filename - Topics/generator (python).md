@@ -19,8 +19,7 @@ print(list(squares_gen)) #Output: [0, 1, 4, 9, 16]
 - A generator is both
 	- Iterator because it implements `__next__()`
 	- Iterable because it implements `__iter__()` and returns itself
-	- #question can you give examples of both where the generator is being used here?
-
+	- [ ] #question can you give examples of both where the generator is being used here?
 ### Description
 - A special type of [[iterator (python)|iterator]] that allows you to iterate over a sequence of values lazily
 	- This means it generates values on the fly as you need them rather than storing the entire sequence in memory at once
@@ -48,8 +47,8 @@ print(next(gen))  # Output: 2
 print(next(gen))  # Output: 3
 # Calling next again will raise StopIteration exception
 ```
-#question I want a useful generator function example. The one above does not seem to be that useful
-#question What are the most popular exceptions in python? One of them seems to be [[StopIteration (python)|StopIteration]]
+- [ ] #question I want a useful generator function example. The one above does not seem to be that useful
+- [ ] #question What are the most popular exceptions in python? One of them seems to be [[StopIteration (python)|StopIteration]]
 
 #### Generator Expressions
 - [[Generator expression (python)|generator expressions]] are similar to [[List comprehension (Python)|list comprehension]] but it creates a generator instead of a list. Syntax similar but uses `()` instead of `[]`
@@ -140,14 +139,14 @@ print(next(gen)) #output: 1
 	- Can represent infinite sequences as they compute each value on demand. Could generate an infinite sequence of [[Fibonacci numbers]] or an endless stream of data
 ### Difference between Generator Functions and Generator Expressions
 
-| Generator Expressions                                                      | Generator Functions                                                                                                                            |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| More concise and easier to read                                            | More flexible and powerful                                                                                                                     |
-| Defined using parantheses                                                  | Defined using `def` keyword                                                                                                                    |
-| Can only be used to create generator object                                | Can be used to a create a generator object or a regular function #question how can we use generator functions to create generator expressions? |
-| More efficient as they don't require creation of <br>a new function object | More flexible as they can be used to create generators that have states                                                                        |
-| Only stores state of variables used in expression                          |                                                                                                                                                |
-
+| Generator Expressions                                                      | Generator Functions                                                     |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| More concise and easier to read                                            | More flexible and powerful                                              |
+| Defined using parantheses                                                  | Defined using `def` keyword                                             |
+| Can only be used to create generator object                                | Can be used to a create a generator object or a regular function        |
+| More efficient as they don't require creation of <br>a new function object | More flexible as they can be used to create generators that have states |
+| Only stores state of variables used in expression                          |                                                                         |
+- [ ] #question how can we use generator functions to create generator expressions? (3rd row 2nd column?)
 #### Examples
 Generator Function
 ```python

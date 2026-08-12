@@ -9,7 +9,7 @@ Reviewed: false
 		- You can use the docker engine directly on Linux without docker desktop (but should come soon to linux)
 	- Easy to install on Mac (just need to drag and drop the Docker.app into applications folder.)
 	- More complicated on Windows. Running docker on windows is also not quite as smooth as it is on mac or computers which already have a linux distribution installed
-		- #question Why is a linux distribution good for this?
+		- [ ] #question Why is a linux distribution good for this?
 		- Will download using WSL 2 Backend
 			- This is a windows subsystem for Linux. Lets you run a full linux environment on windows without a virtual machine. Lets us run docker on our windows machines.
 			- Must enable WSL 2 features on windows.

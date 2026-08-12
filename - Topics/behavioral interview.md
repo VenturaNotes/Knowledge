@@ -12,7 +12,7 @@
 - If limited work experience, use internships and sports participation, community service and hobbies
 	- Demonstrates ability to work in a team, handle responsibilities, and show dedication and commitment
 - According to the theory of behavioral interviewing, a person's past performance is a reliable predictor of future success
-	- #question Is there a theory of behavioral interviewing? 
+	- [ ] #question Is there a theory of behavioral interviewing? 
 	- Behavioral interviewing focuses on gathering specific examples of a candidate's past behavior to assess their skills, abilities, and potential for success in similar situations in the future
 - To prepare for behavioral interview, research the company, position, and possible interview questions
 	- Best to understand values, culture, and goals of company.
@@ -79,11 +79,11 @@
 		- Browser caching
 		- Image compression
 		- Code minification
-			- #question What is this?
+			- [ ] #question What is this?
 		- (3) Introduced lazy loading for non-essential content
 - Result (R): Share results or outcome of action quantitatively if possible and impact of actions on situation
 	- Achieved 30% reduction in page load times, 20% improvement in overall website performance. 15% increase in user engagement as measured by longer session durations and higher conversion rates
-		- #question What is meant by conversion rates here? 
+		- [ ] #question What is meant by conversion rates here? 
 - #comment Quick Summary
 	- I wanted to improve performance of an e-commerce platform (S) by reducing load times (task) to increase overall responsiveness (goal) (T). So I did performance analysis, implemented code optimizations such as browser caching, image compression and lazy loading for non-essential content (A). This all achieved a 30% reduction in page load times, 20% improvement in website performance (improvements) and ultimately a 15% increase in user engagement (user impact). (R)
 - Great [preparation grid](https://ashishps.notion.site/Behavioral-Interview-Preparation-Grid-95f97d42f3494d86a3a683752c4b54b5)

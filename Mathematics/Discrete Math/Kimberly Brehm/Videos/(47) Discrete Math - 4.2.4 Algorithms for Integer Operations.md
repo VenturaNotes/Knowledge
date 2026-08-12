@@ -86,7 +86,7 @@ Reviewed: false
 					- This is the actual algorithm we use
 			- Compute $3^{11} (mod 10)$ 
 		- This one is super important in cryptography
-			- #question How?
+			- [ ] #question How?
 		- We will look at examples where we can't just put it in calculator (where base is not 10) but still need to look at exponent in binary
 - ![[Screenshot 2026-02-27 at 3.53.16 AM.png]]
 	- Slide 1

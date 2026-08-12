@@ -166,7 +166,7 @@ class Person:
 p = Person("Alice")
 print(p.name)  # Alice
 ```
-#question is self.name = name required to initialize the instance variable? Isn't `self.name = name` instantiating it? What is in an instance in python? What is an instance variable?
+- [ ] #question is self.name = name required to initialize the instance variable? Isn't `self.name = name` instantiating it? What is in an instance in python? What is an instance variable?
 ## References
 
 [^1]: https://www.w3schools.com/python/gloss_python_class_init.asp

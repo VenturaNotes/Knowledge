@@ -31,7 +31,7 @@ Reviewed: false
 			- Terms of the sequence:
 			- Notice the difference between terms is n. Let's look at the differences
 		- Recall: Reverse and Add Method to find the sum or an arithmetic sequence
-			- #question "or"? or "of an arithmetic sequence?"
+			- [ ] #question "or"? or "of an arithmetic sequence?"
 	- Sequences: Solving Recurrence Relations Using a Characteristic Root Technique
 		- Solve the recurrence relation
 		- Place the equation in the proper form

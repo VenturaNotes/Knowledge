@@ -4,10 +4,10 @@ aliases:
 ---
 ## Synthesis
 - Tool for Linux-based computers that lets you use GNU Emacs as your entire desktop environment.
-	- #question What is GNU Emacs?
+	- [ ] #question What is GNU Emacs?
 - Normal vs EXWM
 	- A computer uses a "Window Manager" (like Windows, macOS, or GNOME on Linux) to manage your screen. Inside that window manager, you open different apps—like a web browser, Spotify, and maybe Emacs—as separate windows that you can drag around.
-		- #question What is GNOME? Is that like a distro? Are Linux distributions the same thing as Linux distros? 
+		- [ ] #question What is GNOME? Is that like a distro? Are Linux distributions the same thing as Linux distros? 
 	- With EXWM, Emacs is the window manager. Turning on the computer will have Emacs take over your screen on startup 
 - When opening an external application like Google Chrome or Spotify under EXWM, Emacs treats the application like a text document (or "buffer") inside Emacs
 	- [ ] #question Are buffers text documents?

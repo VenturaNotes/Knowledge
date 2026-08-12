@@ -27,10 +27,10 @@ aliases:
 	- When calculating the cost of developing a new feature, ABC would consider not only hardware costs like servers or cloud infrastructure but also labor costs for developers, testers, and project managers. Additionally, costs for software tools, third-party services, and any required maintenance would also be factored in.
 - (5) If you were to implement ABC for software project management, how might it help in identifying inefficiencies or areas where costs could be reduced?
 	- Activity-Based Costing helps identify inefficiencies in software project management by providing a detailed breakdown of costs associated with every activity. For instance, you could use ABC to assess the costs of various project management tools, such as ClickUp or Jira, as well as the labor involved in planning, coordinating, and tracking the project. By analyzing this data, you can make more informed decisions about which tools provide the best value for your team's needs.
-		- #question But wouldn't you want the costs to be high so that you could charge more for your product or service?
+		- [ ] #question But wouldn't you want the costs to be high so that you could charge more for your product or service?
 - (6) What are the potential challenges or limitations of using activity-based costing in a software development environment?
 	- One challenge of using ABC is the additional overhead in tracking and assigning costs to each activity. This process can be time-consuming and resource-intensive, potentially leading to increased operational costs. However, the benefit is a more accurate understanding of true costs, which can improve pricing strategies and decision-making in the long run.
-		- #question What does "true costs" mean? 
+		- [ ] #question What does "true costs" mean? 
 - (7) Could you provide an example of how labor costs might be assigned under ABC in a software engineering team, compared to traditional costing?
 	- Labor costs in software engineering include not only the salaries of developers but also the time spent on various activities such as coding, testing, and debugging. Under ABC, these costs would be assigned to the product based on the activities involved. For example, debugging might be a more specialized task with a higher cost than basic coding tasks, so ABC would account for this variance.
 		- [ ] #question How would ABC be able to account for this variance?
@@ -44,8 +44,8 @@ aliases:
 		- [ ] #question What are cost pools or cost drivers?
 ## Source [^1]
 - Activity-based costing (ABC) is a method of assigning costs to products or services based on the activities required for their production. This includes things such as materials and labor. The difference between this approach versus traditional accounting methods, where costs are assigned solely by volume produced (i.e., units sold), is that ABC allows companies to more accurately determine the cost of each product or service they have because it considers all factors involved in creating them—not just how many were made but also what went into making them.
-	- #question What are some accounting methods?
-	- #question Isn't materials and labor always considered when selling a product rather than just the volume produced? 
+	- [ ] #question What are some accounting methods?
+	- [ ] #question Isn't materials and labor always considered when selling a product rather than just the volume produced? 
 ## Source[^2]
 - (ABC; activity costing) A system of costing proposed by Professors Johnson and Kaplan in their book Relevance Lost: The Rise and Fall of Management Accounting (1987), in which they questioned accounting techniques based on absorption costing. Their method recognizes that costs are incurred by each activity that takes place within an organization and that products (or customers) should bear costs according to the activities they use. Cost drivers are identified, together with the appropriate activity cost pools, which are used to charge costs to products. Adherents of activity-based costing maintain that it provides accurate cause-and-effect allocations of costs that cannot be obtained from traditional costing systems.
 ## References

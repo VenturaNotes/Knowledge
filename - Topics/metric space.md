@@ -5,7 +5,7 @@ aliases:
 ## Synthesis
 - 
 ## Source [^1]
-- #question What is a metric space though? Below just seems to be an example
+- [ ] #question What is a metric space though? Below just seems to be an example
 ### Example
 - Given a set X = {x, y}, we just know the elements are not equal
 - We want to give X more structure which knows distance between points

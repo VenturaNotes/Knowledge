@@ -13,7 +13,7 @@ Reviewed: false
 			- In a 3D space, it would be a sphere (or ball)
 				- For this notion of a ball, we want to generalize for an abstract metric space
 		- $B_{\epsilon}(x)$ := {y $\in$ X | d(x, y) $\lt$ $\epsilon$} (open ball of radius $\epsilon$ > 0 centered at x)
-			- #question what does ":=" mean?
+			- [ ] #question what does ":=" mean?
 			- It's called the open epsilon ball around x
 			- Defined as all the points y in our metric space X that fulfill that the distance from x to y is less than a given radius epsilon
 				- This means in the picture, it's not the red line but everything inside
@@ -24,7 +24,7 @@ Reviewed: false
 				- Wil.  define it for arbitrary subsets for our metric space X
 				- Openness should mean that if you are inside set A, you should never see the boundary of the set
 					- Meaning if you fix an arbitrary point "x" of the set A, there should be enough points in all directions around this point that also belong to set A
-						- #question what is meant by "enough"?
+						- [ ] #question what is meant by "enough"?
 						- To describe this, we can use an epsilon ball
 							- Choose a positive epsilon, but as small as we need it
 							- If we can do this for each point separately, we have an [[open set]] A

@@ -4,7 +4,7 @@ aliases:
 ---
 ## Synthesis
 - A subclass of the built-in [[dictionary (Python)|dict]] class.
-	- #question What are others subclasses for the built-in `dict` class? Definitions and examples would be very helpful. 
+	- [ ] #question What are others subclasses for the built-in `dict` class? Definitions and examples would be very helpful. 
 - `defaultdict` overrides the `__missing__()` method of `dict`, so when a key is missing, it doesn't raise a `KeyError`; instead, it uses the provided default factory (e.g., `list`, `int`) to create a default value
 	- [ ] #question What is meant by default factory? Is this the correct term? 
 	- [ ] #question Does a `__missing__()` method actually exist in `dict`? 
@@ -44,7 +44,7 @@ defaultdict(<class 'list'>, {'a': [4]})
 ```
 - When printing a `defaultdict`, Python shows its actual type and its contents
 	- The factory function is `<class 'list'>
-		- #question What is a factory function?
+		- [ ] #question What is a factory function?
 	- The current contents are `{'a': [4]}`
 - To print the dictionary content, just convert it to `dict`
 	- `print(dict(res)) # Output: {'a' : [4]}`

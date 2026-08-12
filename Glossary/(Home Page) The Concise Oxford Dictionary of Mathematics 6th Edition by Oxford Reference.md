@@ -2620,17 +2620,19 @@ Year: 2021-09-01
 	1454. Markov, Andrei Andreevich (1856-1922)
 	1455. [[Markov chain]]
 	1456. mass
-	1457. mass-energy equation
-	1458. matched-pairs design
+	1457. [[mass-energy equation]]
+	1458. [[matched-pairs design]]
 	1459. [[matching]]
 	1460. material derivative
+		1. A synonym for CONVECTIVE DERIVATIVE.
 	
 	1461. [[mathematical biology]]
-	1462. mathematical induction
-	1463. mathematical model
+	1462. [[mathematical induction]]
+	1463. [[mathematical model]]
 	1464. mathematical notation
-	1465. mathematics
-	1466. mathematics education
+		1. See NOTATION.
+	1465. [[mathematics]]
+	1466. [[mathematics education]]
 	1467. matrix
 	1468. matrix game
 	1469. matrix groups

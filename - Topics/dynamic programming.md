@@ -1,7 +1,7 @@
 ## Synthesis
 - Optimal substructure just means that a problem can be broken down into smaller subproblems. 
 - Solve problems by breaking them into overlapping subproblems and storing results
-	- #question What does this look like?
+	- [ ] #question What does this look like?
 ## Source[^1]
 - The area of mathematics relating to the study of optimization problems where a stepwise decision-making approach is employ ed. This is often done iteratively.
 ## Source[^2]

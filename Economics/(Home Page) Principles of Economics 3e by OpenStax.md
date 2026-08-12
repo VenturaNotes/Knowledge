@@ -84,7 +84,7 @@ Reviewed: false
 		- Repair their equipment
 - Most of us do not know how to do these things not because we could not learn but because we do not have to.
 	- Reason why is called [[the division and specialization of labor]], a production innovation first put forth by [[Adam Smith]] in his book, [[The Wealth of Nations]]
-		- #question what is a production innovation?
+		- [ ] #question what is a production innovation?
 	- ![[Screenshot 2024-11-07 at 2.53.16 AM.png|200]]
 		- “Adam Smith introduced the idea of dividing labor into discrete tasks” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=NNVK6MHL))
 

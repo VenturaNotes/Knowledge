@@ -48,7 +48,7 @@ _ = [print("Hello") for _ in range(5)]
 - [ ] #question What does it mean if you assign `_` to the loop, does it mean it it will just not be referenced?
 - Translation placeholder
 	- `_` conventionally used as a function name for translations in [[internationalization (python)|internationalization]] libraries such as `gettext`
-		- #question What is [[gettext (python)|gettext]]
+		- [ ] #question What is [[gettext (python)|gettext]]
 ```python
 from gettext import gettext as _
 print(_("Hello, world!"))

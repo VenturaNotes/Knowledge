@@ -7,9 +7,9 @@ tags:
 ## Organize Further
 - A task is a problem that a [[machine learning model]] is designed to solve. 
 	- Tasks are not exclusively for machine learning models. A task is a problem that any artificial intelligence system, whether it's a machine learning model, a rule-based system, an expert system, or another AI approach, is designed to solve.
-		- #question What is meant by an expert system?
-		- #question What other AI approaches are there aside from machine learning models?
-		- #question What is a rule-based system and give an example.
+		- [ ] #question What is meant by an expert system?
+		- [ ] #question What other AI approaches are there aside from machine learning models?
+		- [ ] #question What is a rule-based system and give an example.
 - A task defines the objective and type of output expected from a model. Predictions are made based on data which can range from identifying patterns to forecasting future values
 	- Examples of problems:
 		- Image recognition

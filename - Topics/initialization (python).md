@@ -35,7 +35,7 @@ person = Person("Alice", 30)
 print(person.name)  # Output: Alice
 print(person.age)   # Output: 30
 ```
-#question Is it possible to initialize objects without constructers when creating an instance class? 
+- [ ] #question Is it possible to initialize objects without constructers when creating an instance class? 
 
 #### With Default Values
 - Able to provide default values for parameters in functions and methods, including the constructor below

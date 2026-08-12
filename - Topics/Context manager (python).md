@@ -54,7 +54,7 @@ class MyContextManager:
 with MyContextManager() as cm:
     print("Inside the context")
 ```
-#question Analyze these lines of code later. It doesn't make much sense to me...
+- [ ] #question Analyze these lines of code later. It doesn't make much sense to me...
 Output
 ```
 Entering the context

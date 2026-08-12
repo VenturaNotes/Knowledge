@@ -9,7 +9,7 @@ Reviewed: false
 - ![[Screenshot 2024-12-08 at 9.32.55 PM.png]]
 - Write a function that takes an unsigned integer and returns the number of `1` bits it has (also known as the [[Hamming weight]])
 - Could & the bits or mod it
-	- #question what is meant by "&"ing? 
+	- [ ] #question what is meant by "&"ing? 
 - Can shift the bits to the right by one.
 	- Luckily, most languages can natively support this and it's an efficient [[Central Processing Unit|CPU]] operation
 		- [ ] #question What makes an efficient CPU operation. Compilers related? 
