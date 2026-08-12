@@ -1,7 +1,4 @@
-import { App, Plugin, PluginSettingTab, Setting, SuggestModal, AbstractInputSuggest, Notice, TFile, TFolder } from 'obsidian';
-import * as path from 'path';
-import * as os from 'os';
-import * as fs from 'fs';
+import { App, Plugin, PluginSettingTab, Setting, SuggestModal, AbstractInputSuggest, Notice, TFile, TFolder, Platform } from 'obsidian';
 
 interface ScriptFolderConfig {
     path: string;
@@ -94,11 +91,11 @@ class FolderSuggest extends AbstractInputSuggest<string> {
 }
 
 // --- Script palette modal ---
-class ScriptPaletteModal extends SuggestModal<{ name: string, scriptPath: string, folder: string }> {
-    private scripts: { name: string, scriptPath: string, folder: string }[];
-    private runScript: (scriptPath: string) => void;
+class ScriptPaletteModal extends SuggestModal<{ name: string, file: TFile, folder: string }> {
+    private scripts: { name: string, file: TFile, folder: string }[];
+    private runScript: (file: TFile) => void;
 
-    constructor(app: App, scripts: { name: string, scriptPath: string, folder: string }[], runScript: (scriptPath: string) => void) {
+    constructor(app: App, scripts: { name: string, file: TFile, folder: string }[], runScript: (file: TFile) => void) {
         super(app);
         this.scripts = scripts;
         this.runScript = runScript;
@@ -110,25 +107,25 @@ class ScriptPaletteModal extends SuggestModal<{ name: string, scriptPath: string
         setTimeout(() => this.inputEl.focus(), 50);
     }
 
-    getSuggestions(query: string): { name: string, scriptPath: string, folder: string }[] {
+    getSuggestions(query: string): { name: string, file: TFile, folder: string }[] {
         return this.scripts.filter(s =>
             s.name.toLowerCase().includes(query.toLowerCase())
         );
     }
 
-    renderSuggestion(item: { name: string, scriptPath: string, folder: string }, el: HTMLElement): void {
+    renderSuggestion(item: { name: string, file: TFile, folder: string }, el: HTMLElement): void {
         el.createEl('span', { text: item.name });
     }
 
-    onChooseSuggestion(item: { name: string, scriptPath: string, folder: string }): void {
-        this.runScript(item.scriptPath);
+    onChooseSuggestion(item: { name: string, file: TFile, folder: string }): void {
+        this.runScript(item.file);
     }
 }
 
 // --- Main plugin ---
 export default class ScriptRunner extends Plugin {
     settings: ScriptRunnerSettings;
-    loadedScripts: { name: string, scriptPath: string, folder: string }[] = [];
+    loadedScripts: { name: string, file: TFile, folder: string }[] = [];
     registeredCommandIds: string[] = [];
     private reloadDebounceTimer: ReturnType<typeof setTimeout> | null = null;
 
@@ -158,8 +155,11 @@ export default class ScriptRunner extends Plugin {
 
     // Sets read, write, and execute permissions (755) on a file
     private makeFileExecutable(file: TFile) {
+        if (!Platform.isDesktopApp) return; // Feature only available on Desktop environments
+
         try {
             const fs = require('fs');
+            const path = require('path');
             const basePath = (this.app.vault.adapter as any).basePath;
             const absolutePath = path.join(basePath, file.path);
             
@@ -171,19 +171,31 @@ export default class ScriptRunner extends Plugin {
     }
 
     // Busts the require cache for a single script and re-runs it fresh.
-    // No other scripts are touched.
-    async runScript(scriptPath: string) {
+    // Works via Vault API reading, bypassing fs requirement on mobile.
+    async runScript(file: TFile) {
         // If THIS specific script is already executing, swallow the phantom duplicate instantly
-        if (this.executingScripts.has(scriptPath)) return;
+        if (this.executingScripts.has(file.path)) return;
 
-        this.executingScripts.add(scriptPath);
+        this.executingScripts.add(file.path);
 
         try {
-            const fs = require('fs');
-            const content = fs.readFileSync(scriptPath, 'utf8');
+            // Use Obsidian Vault API (works natively on both Desktop and Mobile)
+            const content = await this.app.vault.read(file);
             const moduleObj: { exports: any } = { exports: {} };
+            
+            // Setup __filename and __dirname safely based on platform
+            let fileName = file.name;
+            let dirName = "";
+            
+            if (Platform.isDesktopApp) {
+                const path = require('path');
+                const basePath = (this.app.vault.adapter as any).basePath;
+                fileName = path.join(basePath, file.path);
+                dirName = path.dirname(fileName);
+            }
+
             const wrapper = new Function('module', 'exports', 'require', '__filename', '__dirname', content);
-            wrapper(moduleObj, moduleObj.exports, require, scriptPath, path.dirname(scriptPath));
+            wrapper(moduleObj, moduleObj.exports, require, fileName, dirName);
 
             const fn = moduleObj.exports;
 
@@ -197,12 +209,12 @@ export default class ScriptRunner extends Plugin {
                 await result;
             }
         } catch (error) {
-            console.error(`Script Runner Error executing ${scriptPath}:`, error);
+            console.error(`Script Runner Error executing ${file.path}:`, error);
         } finally {
             // Yield a tiny micro-task to the event loop. This ensures that any pending
             // Webview IPC messages are processed and dropped *before* we unlock the script.
             await new Promise(resolve => setTimeout(resolve, 10));
-            this.executingScripts.delete(scriptPath);
+            this.executingScripts.delete(file.path);
         }
     }
 
@@ -216,9 +228,7 @@ export default class ScriptRunner extends Plugin {
     async onload() {
         await this.loadSettings();
         this.addSettingTab(new ScriptRunnerSettingTab(this.app, this));
-        // Register all script commands immediately, then run startup scripts
-        // only once the workspace is fully ready (so they can safely access
-        // the editor, active leaf, etc.)
+        
         await this.reloadScripts();
         this.app.workspace.onLayoutReady(() => this.runStartupScripts());
 
@@ -226,12 +236,10 @@ export default class ScriptRunner extends Plugin {
         this.registerEvent(this.app.vault.on('create', (file) => {
             if (!(file instanceof TFile)) return;
             
-            // Apply chmod +x if it lives in any folder designated as a Terminal Scripts folder
             if (this.isInsideTerminalScriptFolder(file)) {
                 this.makeFileExecutable(file);
             }
             
-            // Only index JS files that live in your standard ScriptRunner folders
             if (this.isInScriptsFolders(file)) {
                 this.scheduleReload();
             }
@@ -257,7 +265,6 @@ export default class ScriptRunner extends Plugin {
         this.registerEvent(this.app.vault.on('rename', (file, oldPath) => {
             if (!(file instanceof TFile)) return;
 
-            // Apply chmod if the file moves into or is renamed inside any terminal scripts folder
             const isInTerminal = this.isInsideTerminalScriptFolder(file);
             if (isInTerminal) {
                 this.makeFileExecutable(file);
@@ -267,14 +274,11 @@ export default class ScriptRunner extends Plugin {
             const wasInScripts = folders.some(folder => oldPath.startsWith(folder + '/'));
             const isInScripts = this.isInScriptsFolders(file);
 
-            // If the file was never in a standard scripts folder, and still isn't, ignore indexing
             if (!wasInScripts && !isInScripts) return;
 
-            // Safely strip any extension (.js, .py, etc.) to get the base name
             const oldName = oldPath.split('/').pop()?.replace(/\.[^/.]+$/, '') || '';
             const newName = file.basename;
 
-            // Scenario 1: Script was moved OUT of the dedicated script folders
             if (wasInScripts && !isInScripts) {
                 if (oldPath.endsWith('.js')) {
                     const idx = this.settings.startupScripts.indexOf(oldName);
@@ -287,7 +291,6 @@ export default class ScriptRunner extends Plugin {
                 return;
             }
 
-            // Scenario 2: Script was moved INTO one of the dedicated script folders
             if (!wasInScripts && isInScripts) {
                 if (file.extension === 'js') {
                     this.scheduleReload();
@@ -295,18 +298,14 @@ export default class ScriptRunner extends Plugin {
                 return;
             }
 
-            // Scenario 3: Script was renamed or moved internally between configured scripts folders
             if (wasInScripts && isInScripts) {
                 if (file.extension === 'js') {
                     if (oldName !== newName && oldName) {
-                        // Update startup list if the old name was in it
                         const idx = this.settings.startupScripts.indexOf(oldName);
                         if (idx !== -1) {
                             this.settings.startupScripts[idx] = newName;
                             this.saveSettings();
                         }
-
-                        // Migrate hotkeys from the old command ID to the new one
                         this.migrateHotkeys(oldName, newName);
                     }
                     this.scheduleReload();
@@ -315,10 +314,6 @@ export default class ScriptRunner extends Plugin {
         }));
     }
 
-    /**
-     * Copies any custom hotkeys from an old script command ID to the new one,
-     * then removes the stale entry. This preserves user-assigned hotkeys across renames.
-     */
     migrateHotkeys(oldScriptName: string, newScriptName: string) {
         const hotkeyManager = (this.app as any).hotkeyManager;
         if (!hotkeyManager) return;
@@ -337,56 +332,45 @@ export default class ScriptRunner extends Plugin {
     async runStartupScripts() {
         for (const script of this.loadedScripts) {
             if (this.settings.startupScripts.includes(script.name)) {
-                this.runScript(script.scriptPath);
+                this.runScript(script.file);
             }
         }
     }
 
     async reloadScripts() {
-        // Unregister existing commands
         for (const id of this.registeredCommandIds) {
             (this.app as any).commands.removeCommand(`${this.manifest.id}:${id}`);
         }
         this.registeredCommandIds = [];
         this.loadedScripts = [];
 
-        const basePath = (this.app.vault.adapter as any).basePath;
         const folders = this.getNormalizedFolders();
 
-        // A file is included if it sits under ANY configured folder. Vault.getFiles()
-        // returns each file once, so overlapping folder entries can't cause duplicates.
         const files = this.app.vault.getFiles()
             .filter(f => f.extension === 'js' && folders.some(folder => f.path.startsWith(folder + '/')));
 
         for (const file of files) {
-            const scriptPath = path.join(basePath, file.path);
             const matchedFolder = folders.find(folder => file.path.startsWith(folder + '/')) || '';
 
-            this.loadedScripts.push({ name: file.basename, scriptPath, folder: matchedFolder });
+            this.loadedScripts.push({ name: file.basename, file: file, folder: matchedFolder });
 
-            // NOTE: command id is derived from basename only, same as before multi-folder
-            // support. Two scripts with the same filename in different folders will
-            // collide (last one loaded wins the command registration) — keep basenames
-            // unique across all configured folders.
             this.addCommand({
                 id: file.basename.toLowerCase(),
                 name: file.basename,
-                callback: () => this.runScript(scriptPath)
+                callback: () => this.runScript(file)
             });
             this.registeredCommandIds.push(file.basename.toLowerCase());
         }
 
         this.loadedScripts.sort((a, b) => a.name.localeCompare(b.name));
 
-        // Master Script palette command
         this.addCommand({
             id: 'open-script-palette',
             name: 'Open Script Palette',
-            callback: () => new ScriptPaletteModal(this.app, this.loadedScripts, (p) => this.runScript(p)).open()
+            callback: () => new ScriptPaletteModal(this.app, this.loadedScripts, (f) => this.runScript(f)).open()
         });
         this.registeredCommandIds.push('open-script-palette');
 
-        // Dynamic per-folder Script palette commands
         for (const folder of folders) {
             const folderCmdId = `open-palette-${folder.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
             this.addCommand({
@@ -394,7 +378,7 @@ export default class ScriptRunner extends Plugin {
                 name: `Open Script Palette: ${folder}`,
                 callback: () => {
                     const folderScripts = this.loadedScripts.filter(s => s.folder === folder);
-                    new ScriptPaletteModal(this.app, folderScripts, (p) => this.runScript(p)).open();
+                    new ScriptPaletteModal(this.app, folderScripts, (f) => this.runScript(f)).open();
                 }
             });
             this.registeredCommandIds.push(folderCmdId);
@@ -405,13 +389,9 @@ export default class ScriptRunner extends Plugin {
         const data = (await this.loadData()) as any;
         this.settings = Object.assign({}, DEFAULT_SETTINGS, data);
 
-        // Migrate legacy single-folder setting (scriptsFolder: string) to the
-        // new multi-folder array, so existing installs don't silently lose
-        // their configured folder on upgrade.
         if (data && typeof data.scriptsFolder === 'string' && !Array.isArray(data.scriptsFolders)) {
             this.settings.scriptsFolders = [{ path: data.scriptsFolder, isTerminalScripts: false }];
         } else if (data && Array.isArray(data.scriptsFolders)) {
-            // Safely migrate string arrays to folder configurations
             this.settings.scriptsFolders = data.scriptsFolders.map((f: any) => {
                 if (typeof f === 'string') {
                     return { path: f, isTerminalScripts: false };
@@ -435,11 +415,16 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
         this.plugin = plugin;
     }
 
-    // Safely reads the local ~/.zshrc file to verify if completion configurations
-    // and selected folder paths are correctly added to the system PATH.
-    private verifyZshConfig(): { isConfigured: boolean; missingPaths: string[]; isZstyleMissing: boolean } {
-        const result = { isConfigured: true, missingPaths: [] as string[], isZstyleMissing: false };
+    private verifyZshConfig(): { isSupported: boolean; isConfigured: boolean; missingPaths: string[]; isZstyleMissing: boolean } {
+        const result = { isSupported: Platform.isDesktopApp, isConfigured: true, missingPaths: [] as string[], isZstyleMissing: false };
+        
+        if (!Platform.isDesktopApp) return result;
+
         try {
+            const fs = require('fs');
+            const os = require('os');
+            const path = require('path');
+
             const zshrcPath = path.join(os.homedir(), '.zshrc');
             if (!fs.existsSync(zshrcPath)) {
                 result.isConfigured = false;
@@ -452,14 +437,12 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
 
             const zshrcContent = fs.readFileSync(zshrcPath, 'utf8');
             
-            // Check zstyle directive presence
             if (!zshrcContent.includes("zstyle ':completion:*' rehash true") && 
                 !zshrcContent.includes("zstyle \":completion:*\" rehash true")) {
                 result.isZstyleMissing = true;
                 result.isConfigured = false;
             }
 
-            // Verify paths
             const activeFolders = this.plugin.settings.scriptsFolders.filter(f => f.isTerminalScripts);
             for (const folder of activeFolders) {
                 const normalizedPath = folder.path.replace(/\/$/, '');
@@ -516,7 +499,7 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
                     
                     this.plugin.settings.scriptsFolders.push({
                         path: normalized,
-                        isTerminalScripts: false // Defaults to off when added
+                        isTerminalScripts: false
                     });
                     await this.plugin.saveSettings();
                     await this.plugin.reloadScripts();
@@ -547,7 +530,6 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
                     }
                 });
 
-                // Toggle for Terminal Scripts configuration
                 const label = controls.createEl('label', {
                     attr: {
                         style: 'display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--text-muted); cursor: pointer;'
@@ -564,7 +546,7 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
                 checkbox.addEventListener('change', async () => {
                     folder.isTerminalScripts = checkbox.checked;
                     await this.plugin.saveSettings();
-                    this.display(); // Redraw settings tab to update Diagnostic box status
+                    this.display();
                 });
 
                 const removeBtn = controls.createEl('button', {
@@ -582,7 +564,7 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
             }
         }
 
-        // --- System Diagnostics (Interactive Helper Box with Copy Button) ---
+        // --- System Diagnostics (Interactive Helper Box) ---
         const activeTerminalFolders = this.plugin.settings.scriptsFolders.filter(f => f.isTerminalScripts);
         if (activeTerminalFolders.length > 0) {
             containerEl.createEl('h3', { text: 'Terminal Diagnostics' });
@@ -594,7 +576,12 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
                 }
             });
 
-            if (diagnostic.isConfigured) {
+            if (!diagnostic.isSupported) {
+                diagBox.createEl('p', {
+                    text: 'ℹ️ Terminal execution features and ZSH configurations are only supported on desktop.',
+                    attr: { style: 'color: var(--text-muted); margin: 0;' }
+                });
+            } else if (diagnostic.isConfigured) {
                 diagBox.createEl('p', {
                     text: '✅ Your ~/.zshrc configuration is set up correctly!',
                     attr: { style: 'color: var(--text-success); font-weight: bold; margin: 0;' }
@@ -616,6 +603,7 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
                     attr: { style: 'color: var(--text-muted); font-size: 13px; margin: 0; padding-right: 12px; flex: 1;' }
                 });
 
+                const path = require('path');
                 const basePath = (this.app.vault.adapter as any).basePath;
                 let codeBlock = '';
                 
@@ -629,7 +617,6 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
                     codeBlock += `export PATH="$PATH:${absolutePaths.join(':')}"\n`;
                 }
 
-                // Native Copy button
                 const copyBtn = headerRow.createEl('button', {
                     text: '📋 Copy Code',
                     attr: {
@@ -708,8 +695,6 @@ class ScriptRunnerSettingTab extends PluginSettingTab {
                     }
                 });
 
-                // Value is never rendered to the DOM, only the key name — avoids
-                // the secret sitting in plaintext in the rendered settings pane.
                 row.createEl('span', { text: name });
 
                 const removeBtn = row.createEl('button', {
