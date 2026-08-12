@@ -5,7 +5,7 @@
 ### Tutorial
 #### Installation
 - `pip3 install tqdm` in terminal
-	- #question What exactly is pip?
+	- [ ] #question What exactly is pip?
 #### Example
 ```python
 from tqdm import trange
@@ -21,8 +21,8 @@ for i in trange(10):
 ```
 100%|█████████████████████████████████████████████████████████████████████████████████| 10/10 [00:03<00:00,  3.27it/s]
 ```
-- #question Does the left side tell you the number of seconds passed and the right side the estimated time remaining?
-- #question What does it/s mean? Is it like loops per second? 
+- [ ] #question Does the left side tell you the number of seconds passed and the right side the estimated time remaining?
+- [ ] #question What does it/s mean? Is it like loops per second? 
 
 ## Source [^1]
 - 

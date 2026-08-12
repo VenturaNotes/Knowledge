@@ -41,7 +41,7 @@ California
 	- `remove` a value by key
 	- `list` all key-value pairs
 	- `count` the number of items in table
-		- #question by items, do they mean key-value pairs? 
+		- [ ] #question by items, do they mean key-value pairs? 
 ## References
 
 [^1]: https://www.turing.com/kb/how-to-use-hashmap-in-python

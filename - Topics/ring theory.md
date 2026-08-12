@@ -1,5 +1,5 @@
 ## Synthesis
-- #question what is ring theory?
+- [ ] #question what is ring theory?
 ## Source [^1]
 - 
 ## References

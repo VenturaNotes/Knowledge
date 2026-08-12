@@ -1,14 +1,7 @@
 import { TFile } from "obsidian";
 
-/**
- * Common shape shared by anything that can appear as a node in the goals graph —
- * a file-backed goal/task (TaskNode) or a checkbox subtask (CheckboxNode).
- * The graph, physics engine, and renderer in DashboardView only ever need to
- * know about this shape; they never need to branch on "is this a file or a
- * checkbox" except at the few points that actually write back to disk.
- */
 export interface GraphNode {
-    id: string;                // TaskNode: file.path | CheckboxNode: "path#^anchor" or "path::line"
+    id: string;                
     kind: "file" | "checkbox";
     title: string;
     isGoal: boolean;
@@ -16,33 +9,25 @@ export interface GraphNode {
     children: GraphNode[];
     parents: GraphNode[];
     level: number;
-    status: string;            // "" (open) | "done" | "canceled" etc.
-    impact: "" | "low" | "medium" | "high"; // from #impact/low|medium|high — "" means untagged
+    status: string;            
+    impact: "" | "low" | "medium" | "high"; 
 }
 
 export interface TaskNode extends GraphNode {
     kind: "file";
     file: TFile;
     basename: string;
-    parentNames: string[];     // raw parsed frontmatter parent links, resolved into `parents` later
+    parentNames: string[];     
+    parentPaths: (string | null)[]; // NEW: pre-resolved paths from getFirstLinkpathDest
 }
 
-/**
- * A single checkbox line, tracked as a graph node ONLY if it participates in
- * the graph (has an anchor other nodes can reference, and/or links to a parent).
- * Every checkbox line still gets parsed into one of these — a checkbox with no
- * links at all just ends up with parents.length === 0 && children.length === 0,
- * which is exactly what makes it show up as an "orphan" in the sidebar instead
- * of on the canvas.
- */
 export interface CheckboxNode extends GraphNode {
     kind: "checkbox";
-    blockId: string;           // "" until ensureBlockAnchor() writes one to the file
+    blockId: string;           
     sourceFile: TFile;
     sourceLine: number;
 }
 
-/** A single directed parent -> child relationship, resolved from a wikilink. */
 export interface GraphEdge {
     parentId: string;
     childId: string;
@@ -60,26 +45,26 @@ export interface AgendaItem {
     file: string;
     path: string;
     completeInstances: string[];
-    parentLink: string | null;     // display label for the first [[wikilink]] found in the raw task text, if any
-    parentLinkPath: string | null; // raw link target (pre-alias, pre-anchor-stripped) used to resolve/open the note
+    parentLink: string | null;     
+    parentLinkPath: string | null; 
 }
 
 export interface GoalContainer {
     name: string;
-    goalIds: string[]; // file.path of each #goal node in this preset
+    goalIds: string[]; 
 }
 
 export interface ProgressPlannerSettings {
     skipPaths: string[];
-    targetFolders: string[]; // List of target folders to look inside (e.g., ["Private", "Work"])
-    quickCaptureFile: string; // Vault path a double-click on empty canvas appends new checkboxes to
-    goalContainers: GoalContainer[]; // Saved multi-goal Focus Filter presets
-    hubChildThreshold: number; // A node with more children than this is a "hub" — only impact-qualifying children render on canvas by default, the rest collapse into a "+N" badge
-    hubMinImpact: "low" | "medium" | "high"; // Minimum impact level a hub's child needs to render on canvas by default
+    targetFolders: string[]; 
+    quickCaptureFile: string; 
+    goalContainers: GoalContainer[]; 
+    hubChildThreshold: number; 
+    hubMinImpact: "low" | "medium" | "high"; 
 }
 
 export const DEFAULT_SETTINGS: ProgressPlannerSettings = {
-    skipPaths: [], // No paths skipped by default
+    skipPaths: [], 
     targetFolders: ["Private"],
     quickCaptureFile: "",
     goalContainers: [],

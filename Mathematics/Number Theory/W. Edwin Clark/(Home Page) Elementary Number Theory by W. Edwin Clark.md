@@ -59,7 +59,7 @@ Reviewed: false
 		- (b) $(ab)^n = a^nb^n$
 		- (c) $a^na^m = a^{n + m}$
 		- These rules hold for all $n, m \in \mathbb{Z}$ if a and b are not 0
-			- Why is it the case that a and b are not 0? #question
+			- [ ] #question Why is it the case that a and b are not 0?
 	- (5) [[Properties of Inequalities]]: For a, b, c in $\mathbb{R}$ the following hold:
 		- (a) ([[Transitivity]]) If a < b and b < c, then a < c
 		- (b) If a < b then a + c < b + c

@@ -17,7 +17,7 @@ Reviewed: false
 		- Given a matrix and 2 vectors, find the following expressions
 		- Will do proof to show both values are equivalent
 			- One of the properties is that $A(\vec u + \vec v$) is equivalent to $A\vec u + A \vec v$ 
-				- #question is there a sign for equivalence?
+				- [ ] #question is there a sign for equivalence?
 	- Practice 2
 		- Doing example that the two expressions are equivalent
 			- $A(c\vec u)$ is equivalent to $c(A\vec u)$ 

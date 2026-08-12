@@ -10,10 +10,10 @@
 	- [[scalar division]] or [[element-wise operations]]
 #### Vector Cross Product
 - The [[cross product]] is not distributive over [[vector addition]]
-	- #question can you only have a cross product of vectors?
+	- [ ] #question can you only have a cross product of vectors?
 	- $$a \times (b + c) \ne (a \times b) + (a\times c)$$
 - The cross product is linear but behaves differently compared to simple [[scalar multiplication]]
-	- #question what does it mean for the cross product to be linear?
+	- [ ] #question what does it mean for the cross product to be linear?
 #### Non-commutative operations
 - In some [[algebraic structures]], such as certain [[non-commutative rings]] or [[semigroups]], the distributive property may only hold for specific operations (like multiplication over addition), and other operations may fail to distribute in the usual way
 ## Source [^1]

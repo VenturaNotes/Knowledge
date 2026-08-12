@@ -28,7 +28,7 @@
 	- Don't use "we" language or speak in general terms
 - KSAO stands for knowledge, Skills, abilities and other characteristics
 	- Used in the field of human resources and organizational psychology to refer to the various attributes and qualities that individuals posses and bring to a job or role
-		- #question What is organizational psychology?
+		- [ ] #question What is organizational psychology?
 - Do not begin answering a behavioral interview question as "I think the best thing to do is..."
 	- It's a vague and general statement (no specific examples or experiences)
 	- Behavioral interviews questions are designed to assess a candidate's past behavior and experiences (important to provide specific examples and anecdotes to support your answers)

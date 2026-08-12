@@ -1,6 +1,6 @@
 ## Synthesis
 - The sum of all the product backlog items completed during a sprint and the value of the increments of all previous sprints.
-	- #question Wait, so is this just saying an increment is just the value of items completed during a sprint? Does an item have a weight to it so one might be a value of 2 while another could be a value of 5?
+	- [ ] #question Wait, so is this just saying an increment is just the value of items completed during a sprint? Does an item have a weight to it so one might be a value of 2 while another could be a value of 5?
 ## Source [^1]
 - To increase the contents of a register or counter by one.
 ## Source[^2]

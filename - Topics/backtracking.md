@@ -1,6 +1,6 @@
 ## Synthesis
 - This is a type of problem that involves making a series of choices to find a solution, where you systematically explore all possible paths and "backtrack" when a path leads to a dead end.
-	- #question What might be an easy backtracking problem initially with examples
+	- [ ] #question What might be an easy backtracking problem initially with examples
 ## Source [^1]
 - A technique for solving problems recursively.
 
@@ -12,7 +12,7 @@
 		- Knight tour problem
 		- N queen problem
 		- M Coloring problem
-		-  #question What do these algorithms look like?
+		- [ ]  #question What do these algorithms look like?
 	- Tower of Hanoi is not a backtracking algorithm. It uses simple recursion
 - Question 2
 	- Backtracking can be used to solve combinatorial optimization problems. These problems involve finding the best possible solution from a finite set of possible solutions. These problems often require exploring a large solution space to determine the optimal solution.
@@ -20,13 +20,13 @@
 	- Backtracking may lead to a solution that is suboptimal. When using backtracking to solve a problem, the algorithm explores different possibilities and choices in a systematic manner. It makes choices at each step and backtracks if those choices don't lead to a valid or desired solution. While backtracking can help find solutions, there's no guarantee that the solution it eventually finds is the best or optimal solution.
 - Question 4
 	- Backtracking is best suited for solving problems that involve exploring all possible solutions within a search space. It is particularly effective when the problem requires finding one or more solutions among a large set of potential candidates by systematically trying out different options and undoing choices that lead to dead ends. Backtracking is commonly used when an exhaustive search is required and when there is a need to find a valid solution or all possible solutions.
-		- #question Are there other efficient methods aside from backtracking? 
+		- [ ] #question Are there other efficient methods aside from backtracking? 
 - Question 5
 	- Backtracking can be used to solve sudoku puzzles
 - Question 6
 	- Breadth-first exploration is not a characteristic of the backtracking algorithm. Backtracking follows a depth-first exploration strategy, and the other options (Recursive Approach, depth-first exploration, and trial and error) are all characteristics that are associated with the backtracking approach.
-		- #question Since when is it breadth-first exploration? I thought it was always breadth-first search
-		- #question What does BFS look like?
+		- [ ] #question Since when is it breadth-first exploration? I thought it was always breadth-first search
+		- [ ] #question What does BFS look like?
 - Question 7
 	- Backtracking goes back to a previous step if the current step doesn't work
 	- Backtracking is a technique used in solving problems where you systematically explore different possibilities by making choices at each step. If a choice leads to a dead end or an invalid solution, the algorithm "backs up" to a previous step (backtracks) and tries a different choice. This process continues until a valid solution is found or all possibilities have been explored.

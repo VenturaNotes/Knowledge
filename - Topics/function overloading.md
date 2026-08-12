@@ -14,7 +14,7 @@
 			- #question What is the difference between `*args` and `**kwargs`?
 	- Type Hinting and Runtime Checks
 		- While not enforcing overloading at definition, you can use type hints and then implement logic within the function to behave differently based on the types of arguments received.
-			- #question What would this look like in practice? 
+			- [ ] #question What would this look like in practice? 
 ## Source [^1]
 - 
 ## References

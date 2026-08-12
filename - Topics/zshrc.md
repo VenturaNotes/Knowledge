@@ -48,7 +48,7 @@ alias src="source ~/.zshrc"
 ## Organize
 ### Deconstructing the Name
 * **`.` (The Dot):** In macOS and Linux, any file that begins with a period is a hidden file. This prevents your home folder from looking cluttered, though you can still open and edit it directly by name.
-	* #question When saying 'by name' does this 
+	- [ ] #question When saying 'by name' does this 
 * **`zsh`:** This stands for [[Z Shell]], which is the default command-line interpreter (or "shell") on macOS. It is the program that actually processes the commands you type into your terminal app.
 * **`rc`:** This stands for **"run commands"** (or historically, "run control"). In the Unix world, files ending in `rc` are configuration files containing commands that are automatically executed when a specific program starts up.
 

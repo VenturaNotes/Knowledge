@@ -11,7 +11,7 @@ Reviewed: false
 		- Sketch the set first
 	- Is U a [[subspace]] of $\mathbb{R}^2$?
 		- We know that $\mathbb{R}^2$ with normal vector addition and normal scalar multiplication is a [[vector space]]
-			- #question is there a difference between normal and regular vector addition?
+			- [ ] #question is there a difference between normal and regular vector addition?
 		- $\mathbb{U}$ is obviously a subset of $\mathbb{R}^2$ because for every "x" in U, x is in $\mathbb{R}^2$ 
 			- $\forall x \in U \implies x \in \mathbb{R}^2 \to U \text { is a subset of }\mathbb{R}^2$ 
 		- To be a subspace

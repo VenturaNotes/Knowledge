@@ -9,4 +9,4 @@ Reviewed: false
 			- Should be called a permutation lock
 		- Could use [[multiplicative principle]]
 			- The numbers must be distinct
-			- #question is this true for all combination locks?
+			- [ ] #question is this true for all combination locks?

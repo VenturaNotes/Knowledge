@@ -1,5 +1,5 @@
 ## Synthesis
-- #question What exactly is marketing?
+- [ ] #question What exactly is marketing?
 - There are various types of marketing, broadly categorized by their approach and target audience. Some common types include:
 	- [[Business-to-business marketing]]
 	- [[Business-to-Consumer Marketing|Business-to-Consumer (B2C) Marketing]]

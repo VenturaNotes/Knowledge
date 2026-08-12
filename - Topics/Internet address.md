@@ -43,7 +43,7 @@
 - Finally, a fragment can be appended to the end of the address, preceded by a '\#'. The fragment identifies a secondary resource within the primary resource specified by the rest of the address. For example,
 	- http://www.companyname.com/demos/sample1.htm\#section2
 	- will cause the web browser to scroll to the element within web page `sample1.htm` that has an ID) attribute with the value 'section2.' In client-server contexts, the client strips the fragment from the address before it is used to locale a resource on a server.
-		- #question What does ID) mean? Is it a mistake with no closing parenthesis or does it mean something different?
+		- [ ] #question What does ID) mean? Is it a mistake with no closing parenthesis or does it mean something different?
 	- Fragments are therefore not sent to the server.
 ## References
 

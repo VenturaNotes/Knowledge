@@ -231,7 +231,7 @@ Reviewed: false
 		- (a|b|...|z)
 	- \[\^\x] indicates any character except one
 		- $\Sigma - x$
-		- #question
+		- [ ] #question
 ### (3.4) Finite Automata
 #### (3.4.1) Deterministic Finite Automata
 #### (3.4.2) Nondeterministic Finite Automata

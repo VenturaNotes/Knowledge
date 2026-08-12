@@ -23,16 +23,16 @@ tags:
 	- Efficient insertion and deletion
 		- On average, insertion and deletion is also $O(1)$ thanks to [[hashing]]
 			- Worst case is $O(n)$ if all elements hash to the same bucket
-				- #question What is meant by bucket?
+				- [ ] #question What is meant by bucket?
 			- However, python's `set` and `dict` are highly optimized to make this rare
-				- #question How is `set` and `dict` highly optimized in this case?
+				- [ ] #question How is `set` and `dict` highly optimized in this case?
 	- No duplicate elements
 - Since it's based on [[hashing]], the elements in a set must be hashable 
 	- This means [[immutable]] types like numbers, strings, and tuples
 	- Mutable types can't be hashable because if their value changes, their hash will change making it
 		- Impossible to find them again in the hash table
 		- Could break the internal structure
-			- #question What is meant by breaking the internal structure and why is it risky? How is this different from the first point?
+			- [ ] #question What is meant by breaking the internal structure and why is it risky? How is this different from the first point?
 		- Therefore, `list` and `dict` are unhashable
 - Key Properties
 	- Unordered: No guarantee of order
@@ -63,12 +63,12 @@ for fruit in fruits:
     print(fruit)
 ```
 - `add` and `append` are based on collection types
-	- #question What is a collection type?
+	- [ ] #question What is a collection type?
 	- Use  `.add()` for sets as it means "add this unique item"
 	- Use `.append()` for lists as it means "put this at the end"
 	- Python doesn't overload method names - each collection type has its own methods
-		- #question What does method overloading mean?
-		- #question What are the methods within collection types?
+		- [ ] #question What does method overloading mean?
+		- [ ] #question What are the methods within collection types?
 - Output (order output may vary for elements in set)
 ```
 True
@@ -79,7 +79,7 @@ orange
 ### When to use Set / HashSet
 - Remove duplicates from a list
 - Check for [[membership]] quickly
-	- #question What is meant by membership here? Is membership a programming term?
+	- [ ] #question What is meant by membership here? Is membership a programming term?
 - When uniqueness is important, not order
 ### Building set data structure in Python using dictionary ^zjv7qu
 ```python
@@ -98,13 +98,13 @@ class MySet:
         return item in self._data
 ```
 - Here, we are reconstructing the set data structure by using python's dictionary which has a hash table under the hood
-	- #question What does a hash table look like?
-- #question What is the `_data` part called? Is it an attribute?
-- #question Why is there an underscore before `_data`?
-- #question How can I use this class in a normal program? 
-- #question What does `self` mean in this context
-- #question What does `class` represent here?
-- #question is "contains" known as a method or a function or definitions?
+	- [ ] #question What does a hash table look like?
+- [ ] #question What is the `_data` part called? Is it an attribute?
+- [ ] #question Why is there an underscore before `_data`?
+- [ ] #question How can I use this class in a normal program? 
+- [ ] #question What does `self` mean in this context
+- [ ] #question What does `class` represent here?
+- [ ] #question is "contains" known as a method or a function or definitions?
 
 ### Building a hash table in Python
 ```python
@@ -112,17 +112,17 @@ hash_table = {}
 hash_table["key"] = "value"
 ```
 - You can simulate a hash table in python 
-	- #question What exactly is a hash table?
-	- #question How is this a hash table? 
-	- #question What does hash mean? Can you have a hash sequence or some other form other than table?
+	- [ ] #question What exactly is a hash table?
+	- [ ] #question How is this a hash table? 
+	- [ ] #question What does hash mean? Can you have a hash sequence or some other form other than table?
 - Or build a simple one yourself using:
 	- List of buckets
-		- #question What does this mean?
+		- [ ] #question What does this mean?
 	- A hash function to map keys to bucket indices
-		- #question What does bucket indices mean?
+		- [ ] #question What does bucket indices mean?
 	- Collision handling (e.g., chaining)
-		- #question What is collision handling
-		- #question What is chaining and how does it work?
+		- [ ] #question What is collision handling
+		- [ ] #question What is chaining and how does it work?
 - Basic version of a hash table below
 ```python
 class SimpleHashTable:
@@ -140,9 +140,9 @@ class SimpleHashTable:
                 return
         self.buckets[index].append((key, value))
 ```
-- #question What does `_innit_` mean for python?
-- #question What does `[[] for _ in range(size)]` mean
-	- #question In fact, could you explain the code for me with an example?
+- [ ] #question What does `_innit_` mean for python?
+- [ ] #question What does `[[] for _ in range(size)]` mean
+	- [ ] #question In fact, could you explain the code for me with an example?
 ## Source[^1]
 - 
 ## References

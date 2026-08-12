@@ -11,7 +11,7 @@ aliases:
 - Date and time formatting
 - Number and Currency Formatting
 - [[Locale]] Management
-	- #question what is the meaning of locale?
+	- [ ] #question what is the meaning of locale?
 - Character encoding
 ### Examples
 - The libraries below can be used individually or in combination. They offer various levels of support for internationalization and localization
@@ -67,7 +67,7 @@ Change Content-Type header to: "Content-Type: text/plain; charset=UTF-8\n"
 - Result
 	- ![[Screenshot 2024-06-12 at 1.29.05 AM.png]]
 #### (5) Generate MO files
-#question What is a MO file?
+- [ ] #question What is a MO file?
 ```
 #Paste each line below in terminal
 msgfmt -o locales/fr/LC_MESSAGES/lokalise.mo locales/fr/LC_MESSAGES/lokalise.po

@@ -20,7 +20,7 @@ Reviewed: false
 	- $\mathbb{N}_0 = \{0, 1, 2, 3, 4, ...\}$
 		- Be careful as $\mathbb{N}$ is also used for this set here
 	- Now let's start constructing the natural numbers
-		- #question what is meant by constructing?
+		- [ ] #question what is meant by constructing?
 		- As we've seen with example of apples and oranges, the size of a set can be used to define a number
 		- We know the [[empty set]]
 			- By definition, the empty set does not have any elements so it represents the number 0

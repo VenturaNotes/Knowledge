@@ -14,7 +14,7 @@ Reviewed: false
 			- [[Database server]]
 		- If you or another person want to access the same piece of data from an application or you just want to access it in the future such that it's not on your local device, you will need a [[database]]
 		- Clients will generally interact with a [[web server]] which will store all data that needs to be persisted or kept in the long run on a database
-			- #question I want more details about "persisted"
+			- [ ] #question I want more details about "persisted"
 	- Objectives of a [[database]] (if you are a big company that holds a lot of data)
 		- Fast reads
 		- Fast writes
@@ -27,7 +27,7 @@ Reviewed: false
 			- Results in slow random reads
 			- We should always aim for sequential operations
 			- Much cheaper than SSDs but slower
-				- #question what are SSDs?
+				- [ ] #question what are SSDs?
 		- Hard drives are pieces of [[hardware]] that hold data for a durable amount of time
 			- They work by having the arm spin around the metal disk which typically goes at 5400 or 7200 rotations per minute
 			- With hard drives, you always want to aim for [[sequential operations]]
@@ -39,21 +39,21 @@ Reviewed: false
 				- To read and update, you need to search through the array every time
 					- This means to update it, you literally need to find id=3 and then change it in place
 				- Writes are constant (but not good enough for our purposes)
-					- #question why are writes in constant time for this case? (maybe when it means adding to a list?)
+					- [ ] #question why are writes in constant time for this case? (maybe when it means adding to a list?)
 - ![[Screenshot 2024-09-15 at 1.27.39 AM.png]]
 	- Slightly better database implementation
 		- [[Append only]] log on disk to take advantage of [[sequential]] logs
-			- #question What is meant by sequential?
-			- #question what is meant by sequential logs?
+			- [ ] #question What is meant by sequential?
+			- [ ] #question what is meant by sequential logs?
 			- This means, you actually overwrite things by writing an additional entry in the log. This way, you can benefit more from sequential rights.
 				- By literally adding another row to the log, you can search from the bottom to the top of the log. Therefore, when you search from the bottom to the top of the log, you will get the correct data
 	- Better database implementation
 		- [[Hashmap]], O(1) reads and writes
 			- In algorithms class, you basically use a [[hashing function]] to [[map]] a given [[key]] to a certain place in memory and the hashing function should distribute those keys out in such a way that you're able to get constant time accesses and also that means you can read and write really easily 
 		- However, this does not scale because the second there is too much data, we are in trouble, hashmap has to go on [[disk]] which becomes slow
-			- #question what is meant by disk in this case?
+			- [ ] #question what is meant by disk in this case?
 			- Doesn't work well. The second that you can't fit your entire hashmap in memory, it's really bad to put a hashmap on disk by virtue of what we've discussed before
-				- #question why is it bad to put a hashmap on disk?
+				- [ ] #question why is it bad to put a hashmap on disk?
 					- Random reads and random writes on disk are really bad because the mechanical arm has to go around and spin all the time and it will actually take longer to edit that data
 			- Hashmaps might be really good when there is a small dataset, the second you're dealing with a ton of data, they become pretty infeasible
 	- Indexes - making read times much faster

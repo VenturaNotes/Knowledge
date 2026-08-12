@@ -39,7 +39,7 @@ aliases:
 #### (10) Distributive Axiom
 - Whether something is an axiom or a deduction simply depends on what you're doing. If you are doing [[ring theory]], the distributive property is an axiom.
 - Multiplication distributes over addition
-	- #question What kind of operation or structure does the distributive axiom not apply to?
+	- [ ] #question What kind of operation or structure does the distributive axiom not apply to?
 - $$\forall a, b, c \in \mathbb{Z}, a \times (b + c) = a \times b + a \times c$$
 #### (11) Total Order Property
 - Every integer can be compared to another integer using one of the following relations: 

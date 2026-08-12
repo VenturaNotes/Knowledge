@@ -8,8 +8,8 @@ aliases:
 - 
 ## Source [^1]
 - A joint trust created by a married couple in order to minimize estate taxes
-	- #question what is a joint trust? What is a trust?
-	- #question What are estate taxes?
+	- [ ] #question what is a joint trust? What is a trust?
+	- [ ] #question What are estate taxes?
 - Upon one spouse's death, the trust splits into a survivor portion (the A trust) and a bypass portion (the decedent's trust, or B trust)
 - Via the split, the A-B trust effectively minimizes estate taxes and defers them until after the death of the surviving spouse
 - The surviving spouse has limited control over the decedent's trust but the terms of the decedent's trust can be set to allow the surviving spouse to access the assets, and even draw income from them

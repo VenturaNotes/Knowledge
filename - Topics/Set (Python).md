@@ -8,10 +8,10 @@ aliases:
 	- `my_variable = set()`
 - Removing vs Discarding
 	- `my_variable.remove("hello")` raises error if item does not exist
-		- #question Does this mean you always need to check first if the element is within the set? 
+		- [ ] #question Does this mean you always need to check first if the element is within the set? 
 	- `my_variable.discard("hello")` will not raise error if item does not exist
-		- #question What happens instead if an error is not raised?
-	- #question Why would you ever use `remove` over `discard`? 
+		- [ ] #question What happens instead if an error is not raised?
+	- [ ] #question Why would you ever use `remove` over `discard`? 
 ### Description
 - A collection of unique elements without a defined order.
 - A set cannot contain duplicate elements
@@ -101,7 +101,7 @@ print(my_set)  # Output: {0, 1, 2, 3, 4}
 my_set = {x for x in range(10) if x % 2 == 0}
 print(my_set)  # Output: {0, 2, 4, 6, 8}
 ```
-#question I would like to understand set comprehension a little better
+- [ ] #question I would like to understand set comprehension a little better
 
 #### Empty Set
 - Use the `set()` constructor for this. `{}` will create a [[dictionary (Python)|dictionary]] instead of a set
@@ -115,7 +115,7 @@ my_set = set()
 my_set = set(dict.fromkeys([1, 2, 3]))
 print(my_set)  # Output: {1, 2, 3}
 ```
-#question Why would this be considered important?
+- [ ] #question Why would this be considered important?
 #### Unpacking
 - Could use [[unpacking (python)|unpacking]]. Unpack elements from an iterable directly into a set
 ```python
@@ -226,8 +226,7 @@ print(numbers) #set()
 ```
 
 #### difference()
-- #question Would like to continue this [website](https://www.programiz.com/python-programming/methods/set/clear)
-
+- [ ] #question Would like to continue this [website](https://www.programiz.com/python-programming/methods/set/clear)
 #### difference_update()
 
 #### discard()

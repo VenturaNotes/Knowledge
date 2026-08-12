@@ -5,7 +5,7 @@ aliases:
 ## Synthesis
 ### Description
 - Checking the length of two strings is a constant-time operation because Python strings store their length as metadata
-	- #question What is meant by metadata here? Where and how is the metadata stored?
+	- [ ] #question What is meant by metadata here? Where and how is the metadata stored?
 ### Example
 ```python
 s = "Hello"

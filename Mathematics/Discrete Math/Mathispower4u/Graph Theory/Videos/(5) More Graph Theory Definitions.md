@@ -8,7 +8,7 @@ Reviewed: false
 		- Graph Definition
 			- A graph is an ordered pair G = (V, E) consisting of a nonempty set V (called the vertices) and a set E (called the edges) of two-element subsets of V
 		- Here we have a graph with four vertices (the letters a, b, c, d) and five edges (the pairs {a, b}, {a, c}, {b, c}, {b, d}, {c, d}).
-			- #question is a single point considered a graph?
+			- [ ] #question is a single point considered a graph?
 	- More Graph Theory Definitions
 		- [[Simple graphs]] have the property that no pair of vertices is connected more than once, and no vertex is connected to itself. This is because our definition for a graph says that the edges form a set of 2-element subsets of the vertices. Remember that it doesn't make sense to say a set contains an element more than once
 		- That said, there are times we want to consider double (or more) edges and single edge loops. For example, the "graph" we drew for the Bridges of Königsberg problem had double edges because there really are two bridges connecting a particular island to the near shore. We will call these objects [[multigraph|multigraphs]]. This is a good name: a [[multiset]] is a set in which we are allowed to include a single element multiple times.

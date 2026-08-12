@@ -12,7 +12,7 @@ Reviewed: false
 	- It will be a [[continuous distribution]] because no two light bulbs would last that exact amount of time.
 	- Non-discrete [[probability distribution]] (in other words, we can't have a discrete value)
 		- More often called non-discrete probability function
-			- #question is this the same thing as a continuous function?
+			- [ ] #question is this the same thing as a continuous function?
 	- We can draw a [[probability function]]
 		- The vertical axis is a function of x
 		- x will be the number of hours

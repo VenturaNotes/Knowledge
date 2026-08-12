@@ -75,12 +75,12 @@ graduation_year: 2024
 
 #### Synchronization
 - Can get synchronization with hashmaps through` threading.Lock` and a `with` statement
-	- #question What is synchronization in python
-	- #question how is dict related to synchronization in python
-	- #question what is the with statement in python
-	- #question How to use `threading.lock`
-	- #question What is threading in python
-	- #question what is the [[with (python)]] statement in python
+	- [ ] #question What is synchronization in python
+	- [ ] #question how is dict related to synchronization in python
+	- [ ] #question what is the with statement in python
+	- [ ] #question How to use `threading.lock`
+	- [ ] #question What is threading in python
+	- [ ] #question what is the [[with (python)]] statement in python
 ### Get Method
 - Used to retrieve value associated with a given key. If the key does not exist, it returns a specified default value instead of raising a [[KeyError (Python)|KeyError]]. 
 - In `dictionary.get(key, default_value)`
@@ -88,13 +88,13 @@ graduation_year: 2024
 	- `default_value`: Optional value to return if key not in dictionary. Otherwise, returns `None` by default
 ### Common Subclasses
 - `collections.defaultdict`: Adds automatic default codes
-	- #question For a subclass with## Synthesis
+	- [ ] #question For a subclass with## Synthesis
 - In `dict`, why do you need to go to collections?
-	- #question Is collections considered a module? A library? 
+	- [ ] #question Is collections considered a module? A library? 
 - `collections.OrderedDict`: Keeps items in insertion order (before Python 3.7 made this default for `dict`)
-	- #question Is this subclass still used?
+	- [ ] #question Is this subclass still used?
 - `collections.Counter`: Subclass for counting hashable objects
-	- #question How does it work? 
+	- [ ] #question How does it work? 
 - `collections.ChainMap`: Groups multiple dictionaries together
 - `types.MappingProxyType`: A read-only view of a dictionary
 ### Incrementing Dictionary
@@ -134,7 +134,7 @@ diner = dict()
 ### Characteristics / Description
 - Dictionaries are collections of key-value pairs
 - Ordered from Python 3.7 onwards
-	- #question If a dictionary is ordered, does that mean I can retrieve the first or second key of a dictionary?
+	- [ ] #question If a dictionary is ordered, does that mean I can retrieve the first or second key of a dictionary?
 ### Methods
 ```python
 # Given

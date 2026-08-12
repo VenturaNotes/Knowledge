@@ -24,7 +24,7 @@ aliases: synapses
 		- synaptic vesicles containing neurotransmitter
 		- mitochondria
 		- end of axon of presynapic neuron
-			- #question Spelling mistake?
+			- [ ] #question Spelling mistake?
 - https://thebrain.mcgill.ca/flash/a/a_01/a_01_m/a_01_m_fon/a_01_m_fon.html#2
 	- Multilevel summary of synaptic function, sponsored by the Canadian Institutes of Health Research
 ## References

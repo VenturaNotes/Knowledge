@@ -1,6 +1,6 @@
 ## Synthesis
 - A square grid used to represent a graph, where each row and column corresponds to a vertex
-	- #question What happens at the intersections of these rows and columns?
+	- [ ] #question What happens at the intersections of these rows and columns?
 ## Source [^1]
 - A two-dimensional array used to store graph data.
 ## Source[^2]

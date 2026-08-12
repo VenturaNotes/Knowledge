@@ -21,7 +21,7 @@ Reviewed: false
 	- Practice
 		- Determine if the set {$v_1, v_2, v_3$} is [[Linear Independence|linearly independent]]. If not, find a linear dependence relation among $v_1, v_2, \text { and } v_3$ 
 			- When dealing with a homogeneous system, the last column will always be all zeros so we can just work with the [[coefficient matrix]]
-				- #question how do we know if we'r working with a homogeneous system here? Is it just assumed?
+				- [ ] #question how do we know if we'r working with a homogeneous system here? Is it just assumed?
 			- Just looking for pivot columns / pivot positions
 			- Since $x_3$ has no pivot, it is free which tells us that there will be [[Non-trivial solution|non-trivial solutions]] which means it's not linearly independent. They are linearly dependent.
 			- #comment I think the green solution is $x =$ and not $x^2$

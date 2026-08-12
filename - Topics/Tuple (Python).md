@@ -12,17 +12,17 @@ aliases:
 	- Predictability
 - (2) Hashable as long as the elements are hashable
 	- Can use tuples as keys in dictionaries or elements in sets
-		- #question Do elements in sets always need to be hashable?
-		- #question Do dictionary keys need to be hashable?
+		- [ ] #question Do elements in sets always need to be hashable?
+		- [ ] #question Do dictionary keys need to be hashable?
 ### Description / Characteristics / Properties
 - Order matters
 	- $(1, 2) \ne (2, 1)$
 - [[Immutable]]
 - Duplicates are allowed and position-specific
-	- #question Are duplicates only allowed because it's indexed? 
+	- [ ] #question Are duplicates only allowed because it's indexed? 
 - Can represent tuples in python as `tuple`
 - Use case: Fixed-length, ordered data
-	- #question What is meant by this? Example please
+	- [ ] #question What is meant by this? Example please
 - Functionally
 	- Similar to a precise recipe: the exact order and number of ingredients matter
 ### Examples

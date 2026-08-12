@@ -1,5 +1,5 @@
 ## Synthesis
-- #question What is pre-production testing
+- [ ] #question What is pre-production testing
 ## Source [^1]
 - 
 ## References

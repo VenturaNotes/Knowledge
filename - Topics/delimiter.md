@@ -6,9 +6,9 @@ tags:
 ### Organize
 #### Description
 - A sequence of one or more characters used to specify a boundary between regions in plain text or other data streams. 
-	- #question What is a data stream?
-	- #question Give an example of a delimiter in a data stream
-	- #question Give an example of a delimiter in text
+	- [ ] #question What is a data stream?
+	- [ ] #question Give an example of a delimiter in a data stream
+	- [ ] #question Give an example of a delimiter in text
 - It organizes and parses data to make it easier to understand where one piece of information ends and another begins.
 #### Examples
 - Common examples of delimiters include:

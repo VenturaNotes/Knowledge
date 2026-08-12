@@ -29,11 +29,11 @@ print(list(squares_gen)) #Output: [0, 1, 4, 9, 16]
 #### Generator Function
 - [[generator function (python)|generator function]]
 - Defined similarly to a function but uses `yield` to yield a value rather than return
-	- #question How does [[yield (python)|yield]] work?
+	- [ ] #question How does [[yield (python)|yield]] work?
 - When a generator function is called, it returns a generator object without executing the function
-	- #question What does this mean? 
+	- [ ] #question What does this mean? 
 - When [[next() (Python)|next()]] is called on the generator object, the function executes until it reaches the `yield` statement, yielding the value. The state of function is saved, and execution resumes from where it left off the next time `next()` is called
-	- #question How does [[next() (Python)|next()]] work? 
+	- [ ] #question How does [[next() (Python)|next()]] work? 
 
 ##### Example
 ```python
@@ -82,7 +82,7 @@ print(next(squares))
 		- Represents each element taken from the iterable
 	- iterable: `range(10)`
 		- This generates numbers from 0 to 9. This is the sequence of numbers which will be processed by the generator expression
-		- #question What is an [[iterable (python)|iterable]]?
+		- [ ] #question What is an [[iterable (python)|iterable]]?
 	- condition: `x % 2 == 0`
 		- Filter that applies to each item `x` in iterable
 - General Explanation

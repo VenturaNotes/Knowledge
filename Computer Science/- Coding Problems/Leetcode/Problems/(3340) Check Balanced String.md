@@ -17,7 +17,7 @@ class Solution:
                 odd += int(num[i])
         return odd == even
 ```
-- #question Is it faster to cast each individual character or the entire string at once and loop through it like a string or list?
+- [ ] #question Is it faster to cast each individual character or the entire string at once and loop through it like a string or list?
 ## Source [^1]
 - 
 ## References

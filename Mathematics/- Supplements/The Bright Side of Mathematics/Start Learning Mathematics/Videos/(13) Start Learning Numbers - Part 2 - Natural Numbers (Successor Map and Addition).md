@@ -21,7 +21,7 @@ Reviewed: false
 						- The [[range]] is just the [[image]] of the whole [[Domain (Math)|domain]], mainly of $\mathbb{N}_0$ 
 					- The above two assumptions together explain that $\mathbb{N}_0$ is an infinite set
 					- (2c) $\mathbb{N}_0$ is essentially the smallest possible infinite set
-						- #question But wouldn't the natural numbers without 0 be considered the smallest possible infinite set?
+						- [ ] #question But wouldn't the natural numbers without 0 be considered the smallest possible infinite set?
 						- If M is any subset of $\mathbb{N}_0$ with 0 $\in$ M and all successors lie in M again, then with the same picture in mind, M would be an infinite set and therefore it has to be $\mathbb{N}_0$
 						- Could describe this in other words. When M describes  some property, then 0 fulfills this property and if an element fulfills the property, the successor satisfies as well. Then the result is that all natural numbers fulfill this property
 						- This procedure is known as [[mathematical induction]]

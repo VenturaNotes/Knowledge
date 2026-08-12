@@ -1,5 +1,5 @@
 ## Synthesis
-- #question what is outlook?
+- [ ] #question what is outlook?
 ## Source [^1]
 - 
 ## References

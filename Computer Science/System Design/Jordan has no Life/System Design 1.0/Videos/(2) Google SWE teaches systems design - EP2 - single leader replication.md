@@ -76,7 +76,7 @@ Reviewed: false
 			- However, the writes basically take forever because they potentially have to go all the way across the globe and that means waiting for all of the network transport which is bad
 		- [[Eventual consistency]]
 			- Writes much faster, but clients can make stale reads to a replica
-				- #question what does "stale reads" mean?
+				- [ ] #question what does "stale reads" mean?
 			- You might make some stale or incorrect reads
 	- Dealing with [[eventual consistency]] (these are the 3 main problems. However, most applications are eventually consistent. It's probably fine for the user but these three things stand out as being cases you probably have to deal with)
 		- Reading your own writes

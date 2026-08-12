@@ -9,7 +9,7 @@
 		- $2^N$ AND gates
 		- Fixed Links
 		- Out
-			- #question or output?
+			- [ ] #question or output?
 		- Programmable links
 ## References
 

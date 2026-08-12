@@ -10,4 +10,4 @@ Reviewed: false
 	- (9) If $A \subset C$, then $A' \supset C'$
 	- (10) $A \cup \varnothing = A$, $A \cap \varnothing = \varnothing$ 
 		- [[empty set]]
-	- #question What are the names of these theorems?
+	- [ ] #question What are the names of these theorems?

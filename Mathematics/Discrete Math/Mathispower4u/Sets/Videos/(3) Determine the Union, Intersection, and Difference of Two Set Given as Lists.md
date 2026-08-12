@@ -12,4 +12,4 @@ Reviewed: false
 			- A $\cup$ B is the union of A and B: is the set containing all elements which are elements of A or B or both
 		- $\backslash$
 			- A $\backslash$ B is A [[set-minus]] B: The set containing all elements of A which are not elements of B
-				- #question is set-minus symbol significant?
+				- [ ] #question is set-minus symbol significant?

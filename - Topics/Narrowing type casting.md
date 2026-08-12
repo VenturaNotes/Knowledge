@@ -10,7 +10,7 @@ aliases:
 - Narrowing type casting is also known as explicit type casting or narrowing conversion
 - This occurs when you convert a value from a larger data type to a smaller data type.
 	- In Java, narrowing conversions may lead to loss of data and therefore require explicit casting
-		- #question Is there a difference between explicit type casting and explicit casting?
+		- [ ] #question Is there a difference between explicit type casting and explicit casting?
 ### Example
 Code
 ```java

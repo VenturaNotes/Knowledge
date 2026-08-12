@@ -13,12 +13,12 @@
 - Example 2 (Universal)
 	- "All items in this empty box are gold"
 		- Since no items in box, statement cannot be proven false making it vacuously true.
-	- #question How could this be presented in logic notation?
+	- [ ] #question How could this be presented in logic notation?
 ### Importance
 - In mathematics and logic, crucial for maintaining consistent rules
 - For example, the principle that the empty set is a subset of every set.
 	- This simplifies formal proofs by eliminating special exceptions
-	- #question What is meant by principle here?
+	- [ ] #question What is meant by principle here?
 ## Source [^1]
 - 
 ## References

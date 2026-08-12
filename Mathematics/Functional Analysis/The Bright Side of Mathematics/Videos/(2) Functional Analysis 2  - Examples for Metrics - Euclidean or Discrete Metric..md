@@ -27,8 +27,8 @@ Reviewed: false
 		- (c) $X = \mathbb{R}^n$, $d(x, y)$ = $max\{|x_1 - y_1|, |x_2 - y_2|, ..., |x_n-y_n|\}$ 
 			- Another distance function we could define for $\mathbb{R}^n$ 
 			- Use the normal absolute value or modulus in $\mathbb{R}$
-				- #question What is modulus here?
-				- #question What is meant by "normal" absolute value here?. What is a non-normal absolute value?
+				- [ ] #question What is modulus here?
+				- [ ] #question What is meant by "normal" absolute value here?. What is a non-normal absolute value?
 			- By writing it down for all components, it means we want the maximum of all these differences
 			- It's a metric as well as it fulfills all 3 properties although the triangle inequality may need some work to show is true
 			- Of course you could have different points that have the same distance from a chosen x

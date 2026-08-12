@@ -11,9 +11,9 @@ aliases:
 - Transfers files between systems
 - Allows file transfers between systems. Uses:
 	- [[Port 21]] for commands
-		- #question what kind of commands?
+		- [ ] #question what kind of commands?
 	- [[Port 20]] for data
-		- #question what kind of data?
+		- [ ] #question what kind of data?
 ## Source[^2]
 - A widely used protocol that allows a file to be transferred across an IP network, especially the Internet.
 ## Source[^3]

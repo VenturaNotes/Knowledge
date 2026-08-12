@@ -3,7 +3,7 @@
 ### Internal Development Team
 - Typically includes
 	- [[Software engineer|Software engineers]] (developers, programmers)
-		- #question are developers and programmers the same thing as software engineers?
+		- [ ] #question are developers and programmers the same thing as software engineers?
 	- [[UI-UX Designers|UI/UX designers]]
 	- [[product manager|product managers]]
 	- [[Quality assurance engineer|QA engineers]] / [[quality assurance tester|QA testers]]

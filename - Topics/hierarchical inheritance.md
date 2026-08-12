@@ -10,7 +10,7 @@ class Dog(Animal):
 class Cat(Animal):
     pass
 ```
-- #question Does hierarchical inheritance just mean multiple single inheritances occurring from the same parent class?
+- [ ] #question Does hierarchical inheritance just mean multiple single inheritances occurring from the same parent class?
 - Summary
 	- Multiple children inherit from the same parent
 ## Source [^1]

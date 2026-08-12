@@ -21,7 +21,7 @@ class Solution:
 - Return the only number in the range that is missing from the array
 	- Example: If you have a range of `[0, 3]` and you're given the numbers `[3, 0, 1]`, you know that 2 is missing from the array as `n = 3`
 - Could use hashing for this problem as it takes O(n) extra memory
-	- #question is runtime complexity the same as time complexity?
+	- [ ] #question is runtime complexity the same as time complexity?
 - Will use the [[exclusive or|xor]] operator
 	- The symbol used for this is `^`
 	- Need to be different (so 0,1 or 1, 0)

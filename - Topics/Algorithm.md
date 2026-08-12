@@ -51,7 +51,7 @@ aliases:
 - Method for solving a problem
 ## Source[^12]
 - The word 'algorithm' comes from '[[al-Khwarizmi]]'. It was named after a Persian scholar who lived around year 800
-	- #question Is that AD or BC?
+	- [ ] #question Is that AD or BC?
 ## Source[^13]
 - A planned set of instructions or steps in a computer program that is designed to solve a particular problem.
 ## References

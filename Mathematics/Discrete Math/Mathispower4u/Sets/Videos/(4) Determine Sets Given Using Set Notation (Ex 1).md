@@ -7,7 +7,7 @@ Reviewed: false
 	- Sets
 		- Describe each of the following sets both in words and by listing out enough elements to see the pattern
 			- Four examples shown through set notation or set builder notation
-				- #question are they the same thing?
+				- [ ] #question are they the same thing?
 		- $\mathbb{N}$
 			- The set of natural numbers
 			- That is, $\mathbb{N}$ = {0, 1, 2, 3, ...}

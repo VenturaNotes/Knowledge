@@ -29,7 +29,7 @@ Reviewed: false
 			- Multiplication
 				- <mark style="background: #FFF3A3A6;">(6)</mark> $c \vec u \in V$
 					- scalar times vector is in vector space
-					- #question $\vec v$ is shown but might be wrong? Shown differently 
+					- [ ] #question $\vec v$ is shown but might be wrong? Shown differently 
 				- (7) $c(\vec u + \vec v) = c \vec u + c \vec v$
 					- Distributive property (distribute scalar)
 				- (8) $(c + d) \vec u = c \vec u + d \vec u$

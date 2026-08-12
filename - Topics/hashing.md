@@ -1,10 +1,10 @@
 ## Synthesis
 - Hashing means converting data into a fixed-size value (a hash code)
-	- #question Does fixed-size value mean hash code?
-	- #question What is a hash code?
+	- [ ] #question Does fixed-size value mean hash code?
+	- [ ] #question What is a hash code?
 - In python, `hash("apple")` might return `382930234`. Python would then use this hash to place the item in the right "bucket" in the table
-	- #question What exactly is a hash? 
-	- #question Is "bucket" the correct term used here? Is there a more official word for it?
+	- [ ] #question What exactly is a hash? 
+	- [ ] #question Is "bucket" the correct term used here? Is there a more official word for it?
 ## Source [^1]
 - A function that converts an input (or 'message') into a fixed-size string of bytes. The output, typically a 'digest', is designed to be unique for different inputs. Hashing is commonly used in creating hash tables, cryptography, and checksums.
 ## Source[^2]

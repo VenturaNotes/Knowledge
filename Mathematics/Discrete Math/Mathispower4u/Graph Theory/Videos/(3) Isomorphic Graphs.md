@@ -28,4 +28,4 @@ Reviewed: false
 			- There may be more than one isomorphism
 		- We should check that this really is an isomorphism. It is definitely a bijection, meaning one-to-one and onto. We must make sure that the edges are respected. The four edges in $G_1$ are: (in picture)
 		- Under the proposed isomorphism these become: (in picture) which are precisely the edges in $G_2$. Thus, g is an isomorphism, so $G_1 \cong G_2$ 
-			- #question Would we need to check if they're still in the set of $E_1$? 
+			- [ ] #question Would we need to check if they're still in the set of $E_1$? 

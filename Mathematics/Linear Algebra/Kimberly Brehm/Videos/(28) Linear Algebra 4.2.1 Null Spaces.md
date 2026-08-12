@@ -28,7 +28,7 @@ Reviewed: false
 			- (3) When $A \vec u \in Nul A$, is $A(c \vec u)$ $\in$ $Nul A$? 
 				- Can use properties for this
 					- $A(c \vec u)$ = $c(A \vec u)$
-						- #question which property is this?
+						- [ ] #question which property is this?
 		- We proved all 3 of them so Nul A is a subspace of $\mathbb{R}^n$ 
 	- Writing a solution set explicitly
 		- Find the [[spanning set]] for the null space of A.

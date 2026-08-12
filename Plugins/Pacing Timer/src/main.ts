@@ -34,7 +34,6 @@ export default class PacingTimerPlugin extends Plugin {
     private overlayEl: HTMLDivElement | null = null;
     private overlayTimeout: any = null;
     private lastStatusBarHTML = "";
-    private hookedWebviews = new Map<any, any>();
 
     private glassBuffer: AudioBuffer | null = null;
     private heroBuffer: AudioBuffer | null = null;
@@ -50,17 +49,6 @@ export default class PacingTimerPlugin extends Plugin {
         this.addSettingTab(new PacingTimerSettingTab(this.app, this));
         this.statusBarItem = this.addStatusBarItem();
         this.statusBarItem.classList.add("status-bar-pacing-timer");
-
-        this.registerDomEvent(window, 'keydown', (e: KeyboardEvent) => {
-            if (!this.session || e.repeat) return;
-            const isCtrl = e.metaKey || e.ctrlKey;
-            if (isCtrl && !e.shiftKey && !e.altKey && (e.key.toLowerCase() === ' ' || e.key.toLowerCase() === 'space')) {
-                e.preventDefault(); e.stopPropagation();
-                this.triggerGlobalComplete();
-            }
-        }, true);
-
-        this.registerEvent(this.app.workspace.on('layout-change', () => this.hookWebviews()));
 
         // Setup Modal command (Toggles modal visibility, does NOT turn off session)
         this.addCommand({ id: 'pacing-timer-setup', name: 'Setup Modal', callback: () => this.handleCommandTrigger() });
@@ -127,7 +115,6 @@ export default class PacingTimerPlugin extends Plugin {
 
         this.updateStatusBar();
         this.startInterval();
-        this.hookWebviews();
         this.preloadSystemSounds();
         await this.saveSettings();
     }
@@ -137,10 +124,6 @@ export default class PacingTimerPlugin extends Plugin {
         if (this.overlayTimeout) clearTimeout(this.overlayTimeout);
         if (this.overlayEl) this.overlayEl.remove();
         if (this.statusBarItem) { this.statusBarItem.remove(); this.statusBarItem = null; }
-        for (const [wv, listeners] of this.hookedWebviews.entries()) {
-            try { wv.removeEventListener('dom-ready', listeners.domReady); wv.removeEventListener('console-message', listeners.consoleMessage); } catch (e) {}
-        }
-        this.hookedWebviews.clear();
         if (this.session) this.saveSettings();
     }
 
@@ -270,28 +253,6 @@ export default class PacingTimerPlugin extends Plugin {
             this.statusBarItem.innerHTML = newHTML;
             this.lastStatusBarHTML = newHTML;
         }
-    }
-
-    private hookWebviews() {
-        const doc = activeDocument || document;
-        const webviews = doc.querySelectorAll("webview");
-        for (const [wv, listeners] of this.hookedWebviews.entries()) {
-            if (!wv.isConnected) {
-                try { wv.removeEventListener('dom-ready', listeners.domReady); wv.removeEventListener('console-message', listeners.consoleMessage); } catch (e) {}
-                this.hookedWebviews.delete(wv);
-            }
-        }
-        webviews.forEach((webview: any) => {
-            if (this.hookedWebviews.has(webview)) return;
-            const injectKeyHook = () => {
-                try { webview.executeJavaScript(`if (!window._pacingTimerKeyHooked) { window._pacingTimerKeyHooked = true; const h = (e) => { if (e.repeat) return; if ((e.metaKey || e.ctrlKey) && !e.shiftKey && !e.altKey && (e.key === ' ' || e.key === 'space')) { e.preventDefault(); e.stopPropagation(); console.log('PACING_TIMER_COMPLETE_STRIKE'); } }; window.addEventListener('keydown', h, { capture: true }); }`).catch(() => {}); } catch (err) {}
-            };
-            const consoleHandler = (e: any) => { if (e.message === 'PACING_TIMER_COMPLETE_STRIKE') this.triggerGlobalComplete(); };
-            webview.addEventListener('dom-ready', injectKeyHook);
-            webview.addEventListener('console-message', consoleHandler);
-            this.hookedWebviews.set(webview, { domReady: injectKeyHook, consoleMessage: consoleHandler });
-            injectKeyHook();
-        });
     }
 
     public showOverlay(message: string, isPositive: boolean | null = null, levelChange: "up" | "down" | null = null) {

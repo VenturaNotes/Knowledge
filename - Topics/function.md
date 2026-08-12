@@ -1,7 +1,7 @@
 ## Synthesis
 - In python, a function is a block of code that performs a task and is defined using `def`, but when it's defined inside a class and takes `self` as the first parameter, it becomes a `method`
-	- #question Is this true? I just thought all blocks that perform a task are called methods in Python? So functions are all methods not in a class without `self`?
-	- #question Do all classes need the `self` handle in the first parameter? 
+	- [ ] #question Is this true? I just thought all blocks that perform a task are called methods in Python? So functions are all methods not in a class without `self`?
+	- [ ] #question Do all classes need the `self` handle in the first parameter? 
 ## Source [^1]
 - 1. from one set $X$ to another set $Y$. A relation $R$ defined on the Cartesian product $x \times y$ in which for each element $x$ in $X$ there is precisely one element $y$ in $Y$ with the property that $(x, y)$ is a member of $R$. It is then customary to talk about a function $f$, say, and to write
 

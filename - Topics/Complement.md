@@ -30,7 +30,7 @@ aliases:
 	- (i) $E' = \emptyset$ and $\emptyset' = E$.
 	- (ii) For all $A, (A')' = A$.
 	- (iii) For all $A, A \cap A' = \emptyset$ and $A \cup A' = E$.
-- #question What is meant by complementation?
+- [ ] #question What is meant by complementation?
 ## References
 [^1]: [[(Home Page) Problems on Discrete Mathematics by Chung-Chih Li et. al.#^mlxap7]]
 [^2]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^a3ec37]]

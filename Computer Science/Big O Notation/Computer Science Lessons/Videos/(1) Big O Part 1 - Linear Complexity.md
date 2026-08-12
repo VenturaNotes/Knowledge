@@ -7,7 +7,7 @@ Reviewed: false
 	- We can describe the efficiency of an algorithm, a program, or a [[programmatic operation]] in terms of the time it takes to do its work or the amount of memory it uses or the amount of secondary storage space it needs 
 	- Performance of a program depends on capabilities of the computer it's running on
 	- [[big-O notation|Big O]]
-		- #question Does "Big O" stand for something?
+		- [ ] #question Does "Big O" stand for something?
 		- Big O describes how the time taken, or memory used, by a program scales with the amount of data it has to work on
 		- Big O describes the 'complexity' of a program
 		- Common sense tells us that a program takes longer when there is more data to work on... But not necessarily
@@ -32,7 +32,7 @@ Reviewed: false
 		- Simple relationship between the amount of data and the time taken to process it
 		- The time taken is directly proportional to the amount of data
 		- The gradient of the line depends on the computer that's running the program
-			- #question what is meant by gradient?
+			- [ ] #question what is meant by gradient?
 		- At the end of the day though, will be a straight line
 	- Linear Search Complexity
 		- For `n` data items, the time taken is equal to some constant multiplied by `n`

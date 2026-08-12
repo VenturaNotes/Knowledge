@@ -431,12 +431,12 @@ except ZeroDivisionError:
 	- `raise Exception('Error')`
 - (136) Purpose of finally block
 	- `Execute code regardless of whether an exception occurs or not`
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (137) Truth about else block in try-except-else structure?
 	- `executed only if no exception occurs`
 - (138) Output?
 	- `An error occurred`
-	- #comment Explanation
+	- [ ] #comment Explanation
 		- The `raise ValueError` creates an instance of the `ValueError` exception with a message `An error occurred`
 		- The `except` block catches the `ValueError` raised
 		- `as e` assigns the caught exception to the variable `e`
@@ -567,9 +567,9 @@ print(myFunction(3))
 	- #question What is the difference between method and class method?
 - (171) Output of following code:
 	- `Hello`
-	- #question What does `@classmethod do`. Is this necessary to call the method?
-	- #question Why are we able to call a method from a different class
-	- #question Does it matter what class the print statement is currently in?
+	- [ ] #question What does `@classmethod do`. Is this necessary to call the method?
+	- [ ] #question Why are we able to call a method from a different class
+	- [ ] #question Does it matter what class the print statement is currently in?
 ```python
 class MyClass:
 	@classmethod
@@ -579,11 +579,11 @@ print(MyClass.my_method())
 ```
 - (172) What does `compile()` function do?
 	- Compiles the source into a code or AST object
-	- #question What is the code or AST object?
+	- [ ] #question What is the code or AST object?
 - (173) What is output of following code?
 	- `42`
-	- #question what does the exec() function do? Why would you want to run code this way? Is this similar to rust?
-	- #question What is the point of the `compile()` function? 
+	- [ ] #question what does the exec() function do? Why would you want to run code this way? Is this similar to rust?
+	- [ ] #question What is the point of the `compile()` function? 
 ```python
 code = compile('print(42)','','exec')
 exec(code)
@@ -594,12 +594,12 @@ exec(code)
 	- (1 + 2j)
 - (176) What does `delattr()` do?
 	- Deletes the named attribute from an object
-	- #question Can I see an example of this?
+	- [ ] #question Can I see an example of this?
 - (177) What will be output of following code?
 	- `False`
-	- #question What happens when the attribute is deleted?
-	- #question Why are you able to make an object from a class. Can you make an object from a method?
-	- #question What does `hasattr()` do?
+	- [ ] #question What happens when the attribute is deleted?
+	- [ ] #question Why are you able to make an object from a class. Can you make an object from a method?
+	- [ ] #question What does `hasattr()` do?
 ```python
 class MyClass:
 	def __init__(self):
@@ -615,15 +615,15 @@ print(hasattr(obj, 'x'))
 	- `{'a': 1, 'b': 2}`
 - (180) What does the `dir()` function do
 	- Returns a list of the attributes and methods of an object
-	- #question What is the difference between attributes and methods of an object
-	- #question what can be an object in python
-	- #question Give an example of an object having both attributes and methods. Can classes only have methods? 
+	- [ ] #question What is the difference between attributes and methods of an object
+	- [ ] #question what can be an object in python
+	- [ ] #question Give an example of an object having both attributes and methods. Can classes only have methods? 
 - (181) Output of `dir([])`
 	- A list of attributes and methods of a list object
-	- #question What would be the output?
+	- [ ] #question What would be the output?
 - (182) What does `divmod()` do?
 	- `Returns a tuple containing the quotient and remainder`
-	- #question I would like to see an example
+	- [ ] #question I would like to see an example
 - (183) Output of `divmod(10, 3)`
 	- (3, 1)
 - (184) What does `enumerate()` do?
@@ -632,127 +632,127 @@ print(hasattr(obj, 'x'))
 	- `[(0, 'a'), (1, 'b'), (2, 'c')]`
 - (186) What does `eval()` do?
 	- Evaluates the specified expression
-	- #question Why would it not be "executes" the expression? Isn't it the same thing?
+	- [ ] #question Why would it not be "executes" the expression? Isn't it the same thing?
 - (187) What is output of `eval('2+2')`?
 	- 4
-	- #question Is the eval interpreting a string?
+	- [ ] #question Is the eval interpreting a string?
 - (188) What does `exec()` do?
 	- Executes the specified code
-	- #question I need example
+	- [ ] #question I need example
 - (189) `exec('print(42)')`
 	- 42
-	- #question What is the difference of doing `exec` and `print` in this case?
+	- [ ] #question What is the difference of doing `exec` and `print` in this case?
 - (190) `filter()` function
 	- Constructs an iterator from elements of an iterable for which a function returns true
-	- #question How is this different from enumerate or map
-	- #question Example please 
+	- [ ] #question How is this different from enumerate or map
+	- [ ] #question Example please 
 - (191) Output of `list(filter(lambda x: x > 0, [-1, 0, 1, 2]))`
 	- `[1, 2]`
-	- #question does filter always need to take a lambda? Could you just do x > 0 to indicate the condition? 
+	- [ ] #question does filter always need to take a lambda? Could you just do x > 0 to indicate the condition? 
 - (192) What does `float()` do?
 	- Returns a floating point number
-	- #question why do we have an integer number but not an integer point number?
+	- [ ] #question why do we have an integer number but not an integer point number?
 - (193) Output of `float('3.14')`
 	- 3.14
-	- #question is it casting it from a string?
+	- [ ] #question is it casting it from a string?
 - (194) What does `format()` do?
 	- Formats a specified value
-	- #question What type of value can it specify?
+	- [ ] #question What type of value can it specify?
 - (195) Output for `format(1234, ',')`
 	- `'1,234'`
-	- #question is the output a string?
+	- [ ] #question is the output a string?
 - (196) What does `frozenset()` do?
 	- Returns a new frozenset object
-	- #question what is a frozenset object? 
+	- [ ] #question what is a frozenset object? 
 - (197) What does `frozenset([1, 2, 3])` output?
 	- `frozenset({1, 2, 3})`
-	- #question What's the difference between a set and a frozenset?
+	- [ ] #question What's the difference between a set and a frozenset?
 - (198) What does `getattr()` do?
 	- Gets the value of an attribute of an object
-	- #question Does it just work for objects?
-	- #question Can you do this for classes to?
+	- [ ] #question Does it just work for objects?
+	- [ ] #question Can you do this for classes to?
 - (199) Using `getattr()` to get value of 'name' attribute of object `obj` with default value `Unknown` if attribute does not exist
 	- `getattr(obj, 'name', 'Unknown'`
-	- #question Example needed
+	- [ ] #question Example needed
 - (200) What does `globals()` return?
 	- A dictionary representing the current global symbol table
-	- #question I would like an example
-	- #question what is a global symbol table?
+	- [ ] #question I would like an example
+	- [ ] #question what is a global symbol table?
 - (201) Which statement is true about `globals()`?
 	- It can be used to modify global variables
-	- #question How can it modify global variables
+	- [ ] #question How can it modify global variables
 - (202) What does `hasattr()` do?
 	- It checks if an object has a specific attribute
 - (203)How to use `hasattr()` to check if object `obj` has an attribute `name`
 	- `hasattr(obj, 'name')`
-	- #question Can you use this for a class if it has a name?
-	- #question What is the difference between a class being an object and then creating an object of a class (if that's a thing)
+	- [ ] #question Can you use this for a class if it has a name?
+	- [ ] #question What is the difference between a class being an object and then creating an object of a class (if that's a thing)
 - (204) What does `hash()` do?
 	- It returns the hash value of an object
-	- #question Do all objects have hash values?
+	- [ ] #question Do all objects have hash values?
 - (205) Which types can be hashed using the `hash()` function
 	- `int, float, str, tuple`
-	- #question Can these types only be hashed because they're immutable?
-	- #question Are these types considered objects or just types? 
+	- [ ] #question Can these types only be hashed because they're immutable?
+	- [ ] #question Are these types considered objects or just types? 
 - (206) What does `help()` do?
 	- It provides the documentation of an object
-	- #question Does it provide the documentation of a built-in object or an object you have created yourself from a class you made
+	- [ ] #question Does it provide the documentation of a built-in object or an object you have created yourself from a class you made
 - (207) How to use `help()` to get documentation of `str` type
 	- `help(str)`
-	- #question Does python know `str` or `string`
-	- #question Do you need to import `string` to make it work?
-	- #question is `str` a type or object?
+	- [ ] #question Does python know `str` or `string`
+	- [ ] #question Do you need to import `string` to make it work?
+	- [ ] #question is `str` a type or object?
 - (208) What does `hex()` do?
 	- It converts an integer to a hexadecimal string
-	- #question Why can't `hex` work on strings or floats?
-	- #question What does a hexadecimal string look like?
+	- [ ] #question Why can't `hex` work on strings or floats?
+	- [ ] #question What does a hexadecimal string look like?
 - (209) Use `hex()` to convert integer 255 to hexadecimal string
 	- `hex(255)`
-	- #question What does the output look like?
+	- [ ] #question What does the output look like?
 - (210) What does `id()` return?
 	- The unique identifier of an object
-	- #question What is the unique identifier
-	- #question Is the unique identifier at the memory address? How is this different from the hash value? 
+	- [ ] #question What is the unique identifier
+	- [ ] #question Is the unique identifier at the memory address? How is this different from the hash value? 
 - (211) Which is true about `id()` function?
 	- It returns a unique identifier for the object during its lifetime
-		- #question What does unique identifier look like?
-		- #question What is meant by lifetime? Will the unique identifier change across runs or function calls?
-		- #question Since python uses an interpreter, do you still call it a compilation when running it? 
+		- [ ] #question What does unique identifier look like?
+		- [ ] #question What is meant by lifetime? Will the unique identifier change across runs or function calls?
+		- [ ] #question Since python uses an interpreter, do you still call it a compilation when running it? 
 - (212) Format 3.14159 to display only two decimal places in a string
 	- `{:.2f}'.format(3.14159)`
-		- #question What does the output look like?
+		- [ ] #question What does the output look like?
 - (213) Using `input()` function to prompt user with message "Enter your name"
 	- `input('Enter your name')`
-		- #question Is it possible to ask and save variable in one line?
+		- [ ] #question Is it possible to ask and save variable in one line?
 - (214) What does `int()` do?
 	- Converts number or string to integer
 - (215) Using `int()` to convert string `123` to integer
 	- `int('123')`
 - (216) What does `isinstance()` do?
 	- Checks if an object is an instance of a class or a tuple of classes?
-		- #question What is meant by tuple of classes?
-		- #question Example?
+		- [ ] #question What is meant by tuple of classes?
+		- [ ] #question Example?
 - (217) Using `isinstance()` to check if an object `x` is an instance of `int` class
 	- `isinstance(x, int)`
-		- #question Is `int` a built in term in python?
-		- #question Would data type of `int` be `int`?
-		- #question Output?
+		- [ ] #question Is `int` a built in term in python?
+		- [ ] #question Would data type of `int` be `int`?
+		- [ ] #question Output?
 - (218) What does `issubclass()` do?
 	- Checks if a class is a subclass of another class
-		- #question What does this look like?
-		- #question Are classes just functions?
+		- [ ] #question What does this look like?
+		- [ ] #question Are classes just functions?
 - (219) Use `issubclass()` to check if `B` is a subclass of `A`
 	- `issubclass (B, A)`
-		- #question Are `B` and `A` classes or functions?
+		- [ ] #question Are `B` and `A` classes or functions?
 - (220) What does `iter()` do in Python?
 	- It returns an iterator object
-		- #question What is an iterator object?
-		- #question How do I check if an object is iterable?
-		- #question How would I return next item from iterator?
-		- #question Is this related to generators at all?
+		- [ ] #question What is an iterator object?
+		- [ ] #question How do I check if an object is iterable?
+		- [ ] #question How would I return next item from iterator?
+		- [ ] #question Is this related to generators at all?
 - (221) How to use `iter()` function to create an iterator from a list `lst`
 	- `iter(lst)`
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (222) What does the `len()` function do in Python?
 	- It returns the number of items in an object
 - (223) How do you use the `len()` function to get the number of items in a list `lst`?
@@ -763,10 +763,10 @@ print(hasattr(obj, 'x'))
 	- `list(tup)`
 - (226) What does the `locals()` function return in Python?
 	- A dictionary representing the current local symbol table
-		- #question What does this look like? I would like to see an example
+		- [ ] #question What does this look like? I would like to see an example
 - (227) Which of the following statements is true about the `locals()` function? 
 	- It can be used to modify local variables
-		- #question How? I would like to see an example of this. 
+		- [ ] #question How? I would like to see an example of this. 
 - (228) What does the `map()` function do in Python?
 	- It applies a function to all items in an iterable
 - (229) How do you use the `map()` function to apply a function `func` to all items in a list `lst`?
@@ -777,32 +777,32 @@ print(hasattr(obj, 'x'))
 	- `max(lst)`
 - (232) What does the `memoryview()` function do in Python? 
 	- It returns a memory view object of the given argument
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (233) Which of the following statements is true about the `memoryview()` function?
 	- It allows Python code to access the internal data of an object that supports the buffer protocol without copying
-		- #question What is the buffer protocol?
-		- #question What is meant by internal data?
-		- #question I would like an example of this
+		- [ ] #question What is the buffer protocol?
+		- [ ] #question What is meant by internal data?
+		- [ ] #question I would like an example of this
 - (234) What does the `min()` function do in Python?
 	- It returns the smallest item in an iterable or the smallest of two or more arguments
 - (235) How do you use the `min()` function to find the smallest number in a list `lst`
 	- `min(lst)`
 - (236) What does the `next()` function do in Python?
 	- It returns the next item from an iterator.
-		- #question Isn't it iterable? What is the difference between iterator and iterable?
+		- [ ] #question Isn't it iterable? What is the difference between iterator and iterable?
 - (237) How do you use the `next()` function to get the next item from an iterator `it` with a default value `None` if the iterator is exhausted?
 	- `next(it, None)`
-		- #question How can you get the next item if the iterator is exhausted?
+		- [ ] #question How can you get the next item if the iterator is exhausted?
 - (238) What does the `object()` function do in Python?
 	- It returns a new featureless object
-		- #question What does this mean?
+		- [ ] #question What does this mean?
 - (239) Which of the following statements is true about the `object()` function?
 	- It returns a new featureless object that is the base for all classes
-		- #question How is it the base for all classes?
+		- [ ] #question How is it the base for all classes?
 - (240) What does the `oct()` function do in Python?
 	- It converts an integer to an octal string
-		- #question What does an octal string look like?
-		- #question What makes it useful? 
+		- [ ] #question What does an octal string look like?
+		- [ ] #question What makes it useful? 
 - (241) How do you use the `oct()` function to convert the integer 8 to an octal string?
 	- `oct(8)`
 - (242) What does the `open()` function do in Python?
@@ -823,47 +823,47 @@ print(hasattr(obj, 'x'))
 	- `print('Hello, World!')`
 - (250) What does the Python built-in function `property()` do?
 	- Creates a property of a class
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (251) Which of the following correctly defines a property in a class using `propert()`?
 	- `property(fget=None, fset=None, fdel=None, doc=None)`
-		- #question So if I create a class andI want it to contain properties, I use this? I would like to see an example
+		- [ ] #question So if I create a class andI want it to contain properties, I use this? I would like to see an example
 - (252) What does the python built-in function `range()` do?
 	- Generates a sequence of numbers
 - (253) Which of the following will generate a sequence of numbers from 0 to 4 using `range()`?
 	- `range(5)`
-		- #question Isn't `range(0,5)` also valid? 
+		- [ ] #question Isn't `range(0,5)` also valid? 
 - (254) What does the Python built-in function `repr()` do?
 	- Returns a string representation of an object for debugging
-		- #question I would like an example for this
-		- #question What other debugging features does python have?
+		- [ ] #question I would like an example for this
+		- [ ] #question What other debugging features does python have?
 - (255) Which of the following will return the string representation of the list `[1, 2, 3]` using `repr()`?
 	- `repr([1, 2, 3])`
-		- #question What is returned here?
+		- [ ] #question What is returned here?
 - (256) What does the python built-in function `reversed()` do?
 	- Returns a reversed iterator
-		- #question What data structures in python are considered iterators?
+		- [ ] #question What data structures in python are considered iterators?
 - (257) Which of the following will return a reversed iterator of the list `[1, 2, 3]` using `reversed()`?
 	- `reversed([1, 2, 3])`
 - (258) What does the python built-in function `round()` do?
 	- Rounds a number to a specified number of decimal places
-		- #question How would this be done?
+		- [ ] #question How would this be done?
 - (259) Which of the following will correctly round the number 3.14159 to 2 decimal places using `round()`?
 	- `round(3.14159, 2)`
 - (260) What does the Python built-in function `set()` do?
 	- Creates a set
 - (261) Which of the following will correctly create a set containing the elements 1, 2, and 3 using `set()`?
 	- `set([1, 2, 3])`
-		- #question Why won't the following work?
+		- [ ] #question Why won't the following work?
 			- `set((1, 2, 3))`
-				- #question Wouldn't this convert a tuple to a set?
+				- [ ] #question Wouldn't this convert a tuple to a set?
 			- `set(1, 2, 3)`
-				- #question Does this just not work because it's not really a list?
+				- [ ] #question Does this just not work because it's not really a list?
 - (262) What does the Python built-in function `setattr()` do?
 	- Sets the value of an attribute of an object
-		- #question What does an example look like?
+		- [ ] #question What does an example look like?
 - (263) Which of the following will correctly set the attribute `name` of an object `obj` to `John` using `setattr()`?
 	- `setattr(obj, 'name', 'John'`
-		- #question I would like to see an example of this
+		- [ ] #question I would like to see an example of this
 
 ## Solutions
 -   **(74) What does this look like? What is the delimiter / separator?**
@@ -1656,22 +1656,22 @@ print(hasattr(obj, 'x'))
 ## More Questions
 - (264) What does the Python built-in function `slice()` do?
 	- Returns a slice object
-		- #question I would like an example
+		- [ ] #question I would like an example
 - (265) Which of the following will correctly create a slice object that represents the indices 1 to 3 using `slice()`?
 	- `slice(1,4)`
-		- #question I would like an example of this
+		- [ ] #question I would like an example of this
 - (266) What does the Python built-in function `sorted()` do?
 	- Returns a sorted list
-		- #question Does it not sort the list in-place?
+		- [ ] #question Does it not sort the list in-place?
 - (267) Which of the following will correctly return a sorted list of the elements $[3, 2, 1]$ using `sorte()`?
 	- `sorted([3, 1, 2])`
 - (268) What does the python built-in function `staticmethod()` do?
 	- Creates a static method in a class
-		- #question What does this mean?
+		- [ ] #question What does this mean?
 - (269) Which of the following correctly defines a static method in a class using `staticmethod()`?
 	- `staticmethod(func)`
-		- #question Why is `staticmethod(method)`, `staticmethod(function)` or `staticmethod(method_name)` not an answer?
-		- #question I would like to see an example of this
+		- [ ] #question Why is `staticmethod(method)`, `staticmethod(function)` or `staticmethod(method_name)` not an answer?
+		- [ ] #question I would like to see an example of this
 - (270) What does the Python built-in function `str()` do?
 	- Converts an object to a string
 - (271) Which of the following will correctly convert the integer `123` to a string using `str()`?
@@ -1682,48 +1682,48 @@ print(hasattr(obj, 'x'))
 	- `sum([1, 2, 3])`
 - (274) What does the python built-in function `super()` do?
 	- Returns a proxy object that delegates method calls to a parent or sibling class
-		- #question What does an example look like?
-		- #question What is a proxy object?
-		- #question What happens if there is no parent or sibling class?
-			- #question How does it know to choose a parent or sibling class. Is this involved with inheritance?
+		- [ ] #question What does an example look like?
+		- [ ] #question What is a proxy object?
+		- [ ] #question What happens if there is no parent or sibling class?
+			- [ ] #question How does it know to choose a parent or sibling class. Is this involved with inheritance?
 - (275) Which of the following correctly uses `super()` to call a method from a parent class?
 	- `super().method_name()`
-		- #question What does an example look like?
+		- [ ] #question What does an example look like?
 - (276) What does the python built-in function `tuple()` do?
 	- Creates a [[tuple]]
 - (277) Which of the following will correctly create a tuple containing the elements 1, 2, and 3 using `tuple()`?
 	- `tuple([1, 2, 3])`
-		- #question Why won't `tuple(1, 2, 3)` work? Can't you just create a tuple by saying `x = (1, 2, 3)`?
+		- [ ] #question Why won't `tuple(1, 2, 3)` work? Can't you just create a tuple by saying `x = (1, 2, 3)`?
 - (278) What does the python built-in function `type()` do?
 	- Returns the type of an object
 - (279) Which of the following will correctly return the type of an integer 123 using `type()`?
 	- `type(123)`
 - (280) What does the python built-in function `vars()` do?
 	- Returns the `_dict_` attribute of an object
-		- #question What is the `__dict__` attribute of an object?
-		- #question What does it look like?
+		- [ ] #question What is the `__dict__` attribute of an object?
+		- [ ] #question What does it look like?
 - (281) Which of the following will correctly return the `__dict__` attribute of an object 'obj' using vars()?
 	- `vars(obj)`
-		- #question What is useful about this? 
+		- [ ] #question What is useful about this? 
 - (282) What does the Python built-in function `zip()` do?
 	- Aggregates elements from multiple iterables
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (283) Which of the following will correctly aggregate elements from the lists `[1, 2, 3]` and `['a', 'b', 'c']` using `zip()`?
 	- `zip([1, 2, 3], ['a', 'b', 'c'])`
-		- #question What does the output look like? Can you still access the lists or elements?
+		- [ ] #question What does the output look like? Can you still access the lists or elements?
 - (284) What does the `__import__()` function do in Python?
 	- It imports a module using its string name
-		- #question What does this look like in action?
+		- [ ] #question What does this look like in action?
 - (285) How do you use `__import__()` to import the math module?
 	- `__import__('math')`
-		- #question Why is `'math'` written as text inside `__import__()`
-		- #question Where can you write this in your code?
+		- [ ] #question Why is `'math'` written as text inside `__import__()`
+		- [ ] #question Where can you write this in your code?
 - (286) Which of the following is true about `__import__()`?
 	- It imports a module and returns the module object
-		- #question What does an example look like?
+		- [ ] #question What does an example look like?
 - (287) What parameter can you pass to `__import__()` to specify a different level of import?
 	- `level`
-		- #question What does this mean and what does it look like?
+		- [ ] #question What does this mean and what does it look like?
 - (288) What is the syntax o create an empty list in Python?
 	- `list = []`
 - (289) How do you add an element to the end of a list in Python?
@@ -1764,12 +1764,12 @@ print(hasattr(obj, 'x'))
 	- list(range(10))
 - (307) What will be the output of `print(list(map(str,[1,2,3])))`?
 	- `['1', '2','3']`
-		- #question What does `map` do here?
+		- [ ] #question What does `map` do here?
 - (308) What will `my_list = [1, 2, 3] * 3` result in?
 	- `[1, 2, 3, 1, 2, 3, 1, 2, 3]`
 - (309) How can you concatenate two lists `a` and `b`?
 	- `a+b`
-		- #question Is there such a thing as `a.concat(b)`?
+		- [ ] #question Is there such a thing as `a.concat(b)`?
 - (310) Which of the following is a valid list comprehension syntax? 
 	- `[x for x in range(10)]`
 - (311) What will be the result of `list(range(1,10,2))`?
@@ -1797,7 +1797,7 @@ print(hasattr(obj, 'x'))
 	- `[1, 3]`
 - (322) What does `list.reverse()` return?
 	- `None`
-		- #question What does `list.reverse()` do?
+		- [ ] #question What does `list.reverse()` do?
 - (323) Which of the following will create a list of integers from 0 to 4?
 	- `list(range(5))`
 - (324) What will be the result of `my_list = [i for i in 'abc']`?
@@ -1808,17 +1808,17 @@ print(hasattr(obj, 'x'))
 	- `list.pop(3)`
 - (327) What does `my_list.count(value)` return?
 	- The count of value in my_list
-		- #question So if `value =5`, would it return the number of times that 5 appears in my list?
+		- [ ] #question So if `value =5`, would it return the number of times that 5 appears in my list?
 - (328) What will `my_list = [i for i in range(5) if i % 2 = 0]` result in?
 	- `[0, 2, 4]`
 - (329) What will be the result of `my_list = ['Python']*3`?
 	- `['Python', 'Python', 'Python']`
 - (330) What is a tuple in Python?
 	- An immutable sequence of elements
-		- #question is it ordered or unordered?
+		- [ ] #question is it ordered or unordered?
 - (331) How do you create an empty tuple in Python?
 	- `empty_tuple = ()`
-		- #question Why would you use a tuple?
+		- [ ] #question Why would you use a tuple?
 - (332) How do you create a tuple with one element?
 	- `one_element_tuple = (1,)`
 - (333) Which of the following methods can be used to count the occurrences of an element in a tuple?
@@ -1830,8 +1830,8 @@ print(hasattr(obj, 'x'))
 	- `No`
 - (336) How do you concatenate two tuples, tuple1 and tuple2?
 	- `tuple1 + tuple2`
-		- #question Doesn't `tuple1.extend(tuple2)` work? Probably not because it's immutable unlike a list so the `extend` doesn't exist.
-		- #question Is `extend` for lists a method or attribute?
+		- [ ] #question Doesn't `tuple1.extend(tuple2)` work? Probably not because it's immutable unlike a list so the `extend` doesn't exist.
+		- [ ] #question Is `extend` for lists a method or attribute?
 - (337) What will be the output of the following code: `tuple1 = (1, 2, 3); print(len(tuple1))`
 	- `3`
 - (338) How do you convert a list named `my_list` to a tuple?
@@ -1840,7 +1840,7 @@ print(hasattr(obj, 'x'))
 	- `(2, 3)`
 - (340) Which of the following operations is not allowed on a tuple? 
 	- Item assignment
-		- #question I thought concatenation is not allowed either?
+		- [ ] #question I thought concatenation is not allowed either?
 - (341) How do you check if an element exists in a tuple?
 	- element in tuple
 - (342) What will be the output of the following code: `tuple1 = (1, 2, 3); print(tuple1*2)`
@@ -1851,8 +1851,8 @@ print(hasattr(obj, 'x'))
 	- `False`
 - (345) how do you unpack a tuple into individual variables?
 	- `a, b, c` = tuple1
-		- #question What does this look like?
-		- #question does this also work for lists?
+		- [ ] #question What does this look like?
+		- [ ] #question does this also work for lists?
 		- Why doesn't the below work for this too?
 			- `a = tuple1[0]; b = tuple1[1]; c = tuple1[2]`
 - (346) What will be the output of the following code: `tuple1 = (1, 2, 3); tuple2 = (4, 5, 6); print(tuple1 + tuple2)`?
@@ -1910,27 +1910,27 @@ print(s)
 	- `clear()`
 - (369) What will be the output of the following code?
 	- `KeyError`
-		- #question Why would you get a KeyError?
-		- #question Why would this not be a ValueError?
+		- [ ] #question Why would you get a KeyError?
+		- [ ] #question Why would this not be a ValueError?
 ```python
 s = {1, 2, 3}
 s.remove(4)
 ```
 - (370) How do you find the intersection of two sets `s1` and `s2`?
 	- `s1 & s2`
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (371) What is the difference between `discard()` and `remove()` methods in sets?
 	- `remove()` raises an error if the element is not found, `discard()` does not
 - (372) How do you check if a set `s1` is a subset of another set `s2`?
 	- `s1 <= s2`
 - (373) What does the `pop()` method do in a set? 
 	- Removes and returns an arbitrary element
-		- #question Why would you do this?
+		- [ ] #question Why would you do this?
 - (374) What is the result of `len({1, 2, 2, 3})`?
 	- `3`
 - (375) Which method is used to find the difference between two sets?
 	- `difference()`
-		- #question Could you subtract two sets with `-` as well to find difference?
+		- [ ] #question Could you subtract two sets with `-` as well to find difference?
 - (376) How do you check if two sets `s1` and `s2` have no elements in common?
 	- `s1.isdisjoint(s2)`
 - (377) What will be the output of the following code
@@ -1946,7 +1946,7 @@ print(s3)
 	- Both for and while loop
 - (379) What will be the output of the following code?
 	- `{1, 2, 3, 4, 5}`
-		- #question Is `s.update()` similar to `extend()` for lists?
+		- [ ] #question Is `s.update()` similar to `extend()` for lists?
 ```python
 s = {1, 2, 3}
 s.update([4,5])
@@ -1957,17 +1957,17 @@ print(s)
 - (381) Which of the following operations has the best average time complexity in Python sets?
 	- Element lookup
 		- Faster than, union, intersection, and difference
-			- #question How to find difference in sets
+			- [ ] #question How to find difference in sets
 - (382) What does the `issuperset()` method do?
 	- Checks if a set contains all elements of another set.
-		- #question What is a super set?
-		- #question Can a set with all of the elements of another set plus more be a super set for that other set?
+		- [ ] #question What is a super set?
+		- [ ] #question Can a set with all of the elements of another set plus more be a super set for that other set?
 - (383) How do you check if an element exists in a set?
 	- `in`
 - (384) What will be the output of the following code?
 	- `{1, 2, 3}`
-		- #question Is this because `discard()` does not throw a KeyError? 
-		- #question Would `remove()` through a KeyError?
+		- [ ] #question Is this because `discard()` does not throw a KeyError? 
+		- [ ] #question Would `remove()` through a KeyError?
 ```python
 s = {1, 2, 3}
 s.discard(4)
@@ -1977,15 +1977,15 @@ print(s)
 	- `indexing`
 - (386) What is the result of the symmetric difference between two sets `s1` ad `s2`?
 	- Elements that are in either set but not both
-		- #question What is symmetric difference?
+		- [ ] #question What is symmetric difference?
 - (387) How do you create a set with elements 1, 2, and 3?
 	- `s = {1, 2, 3}`
 - (388) What is the correct way to perform set union?
 	- `s1 | s2`
-		- #question Does this return something? Could you give an example?
+		- [ ] #question Does this return something? Could you give an example?
 - (389) What is the output of the following code?
 	- `3`
-		- #question So the below code transforms the set to `{'a', 'b', 'c'}`. However, I would I just get a set like this: s = {'abc'}?
+		- [ ] #question So the below code transforms the set to `{'a', 'b', 'c'}`. However, I would I just get a set like this: s = {'abc'}?
 ```python
 s = set('abc')
 print(len(s))
@@ -1993,8 +1993,8 @@ print(len(s))
 - (390) Which of the following is not a method of a set?
 	- `append()`
 		- Valid Methods: `add()` , `update()`, `discard()`
-			- #question What is the difference between `add()` and `update()`
-			- #question What are all the different methods for a set? (or is it referred to as attribute?)
+			- [ ] #question What is the difference between `add()` and `update()`
+			- [ ] #question What are all the different methods for a set? (or is it referred to as attribute?)
 - (391) How do you convert a list to a set?
 	- `set(list)`
 - (392) What is the result of the following operation?
@@ -2016,11 +2016,11 @@ print(len(s3))
 ```
 - (395) What does the `issubset()` method do?
 	- Checks if a set is a subset of another set
-		- #question I would like to see an example of this 
+		- [ ] #question I would like to see an example of this 
 - (396) How do you remove a random element from a set?
 	- `pop()`
-		- #question Why would this be needed?
-		- #question Do the methods `discard()` and `remove()` work for sets?
+		- [ ] #question Why would this be needed?
+		- [ ] #question Do the methods `discard()` and `remove()` work for sets?
 - (397) What will be the output of the following code?
 	- `set()`
 ```python
@@ -2030,10 +2030,10 @@ print(s)
 ```
 - (398) How do you create a frozen set in Python?
 	- `frozenset()`
-		- #question What is a frozenset?
+		- [ ] #question What is a frozenset?
 - (399) What is the result of the following code?
 	- `error`
-		- #question So the `frozenset` method makes it immutable?
+		- [ ] #question So the `frozenset` method makes it immutable?
 ```python
 s = {1, 2, 3}
 f = frozenset(3)
@@ -2047,23 +2047,23 @@ f.add(4)
 	- `dict['key']`
 - (403) How do you remove key-value pair from a dictionary?
 	- `del dict['key']`
-		- #question Is there a method for a dictionary that lets you remove a key-value pair?
+		- [ ] #question Is there a method for a dictionary that lets you remove a key-value pair?
 - (404) Which method returns a list of all the keys in a dictionary?
 	- `dict.keys()`
-		- #question I would like to see an example
+		- [ ] #question I would like to see an example
 - (405) Which method returns a list of all the values in a dictionary?
 	- `dict.values()`
-		- #question Does `dict.items()` exist? If so, what does it do?
+		- [ ] #question Does `dict.items()` exist? If so, what does it do?
 - (406) Which method returns a list of all the key-value pairs in a dictionary?
 	- `dict.items()`
 - (407) How do you check if a key exists in a dictionary?
 	- `key in dict`
 - (408) How do you merge two dictionaries in Python 3.9+
 	- `dict | dict2`
-		- #question How would you pronounce `|` in this case?
-		- #question Is `|` a union operation?
-		- #question What would you do in an earlier python version?
-	- #question What is the current python version?
+		- [ ] #question How would you pronounce `|` in this case?
+		- [ ] #question Is `|` a union operation?
+		- [ ] #question What would you do in an earlier python version?
+	- [ ] #question What is the current python version?
 - (409) What will be the output of the following code: `dict = {'a': 1, 'b': 2}; dict['c'] = 3; print(dict)`?
 	- `{'a':1, 'b':2, 'c': 3}`
 - (410) What will be the output of the following code:
@@ -2094,24 +2094,24 @@ print(dict)
 ```
 - (415) How do you iterate over all key-value pairs in a dictionary?
 	- `for key, value in dict.items():`
-		- #question What is it called when you can iterate through two variables within an iterable? Does this only work for dictionaries?
-		- #question Can you call the `key` and `value` variables whatever you want in this case?
+		- [ ] #question What is it called when you can iterate through two variables within an iterable? Does this only work for dictionaries?
+		- [ ] #question Can you call the `key` and `value` variables whatever you want in this case?
 - (416) What will be the output of the following code:
 	- `True`
-		- #question What is the time complexity of the `in` method?
-		- #question Is `in` a function or method or something else?
+		- [ ] #question What is the time complexity of the `in` method?
+		- [ ] #question Is `in` a function or method or something else?
 ```python
 dict = {'a': 1, 'b': 2}
 print('a' in dict)
 ```
 - (417) How do you create a dictionary comprehension to square the values of a dictionary?
 	- `{k: v**2 for k, v in dict.items()}`
-		- #question Could you break this down for me?
-		- #question How is a dictionary comprehension different?
-		- #question What is a comprehension in python?
+		- [ ] #question Could you break this down for me?
+		- [ ] #question How is a dictionary comprehension different?
+		- [ ] #question What is a comprehension in python?
 - (418) What will be the output of the following code
 	- `{'a': 1, 'b':2, 'c':3`
-		- #question Does `append()` exist in dict?
+		- [ ] #question Does `append()` exist in dict?
 ```python
 dict = {'a': 1, 'b': 2};
 dict.update({'c':3});
@@ -2119,11 +2119,11 @@ print(dict)
 ```
 - (419) How do you create a dictionary from two lists, one of keys and one of values?
 	- `dict = dict(zip(keys,values))`
-		- #question  keys and values here each represents a list?
-		- #question What does `zip` do?
+		- [ ] #question  keys and values here each represents a list?
+		- [ ] #question What does `zip` do?
 - (420) What will be the output of the following code
 	- `{'a':1, 'b':2, 'c': 3`
-		- #question What does `setdefault` do?
+		- [ ] #question What does `setdefault` do?
 ```python
 dict = {'a': 1, 'b': 2}
 dict.setdefault('c',3)
@@ -2131,7 +2131,7 @@ print(dict)
 ```
 - (421) How do you copy a dictionary?
 	- `dict.copy()`
-		- #question Does `dict.clone()` exist?
+		- [ ] #question Does `dict.clone()` exist?
 - (422) What will be the output of the following code:
 	- `{'b': 2}`
 ```python
@@ -2141,11 +2141,11 @@ print(dict)
 ```
 - (423) How do you get the value of a key if it exists, or a default value if it doesn't?
 	- `dict.get('key',default_value)`
-		- #question How does the `get` method work?
+		- [ ] #question How does the `get` method work?
 - (424) What will be the output of the following code
 	- `{'a':1}`
-		- #question Are dictionaries ordered
-		- #question When using pop for a dictionary, will it always delete the last item in the dictionary?
+		- [ ] #question Are dictionaries ordered
+		- [ ] #question When using pop for a dictionary, will it always delete the last item in the dictionary?
 ```python
 dict = {'a': 1, 'b': 2}
 dict.popitem()
@@ -2166,7 +2166,7 @@ print(dict)
 - (427) How do you iterate over all keys in a dictionary?
 	- `for key in dict:`
 		- #question Does this just return the keys or keys and values?
-		- #question Could you show an example?
+		- [ ] #question Could you show an example?
 - (428) What will be the output of the following code:
 	- `{'b': 2, 'c': 1}`
 		- #question So `pop()` in dictionary removes key-value pair and returns value?
@@ -2177,15 +2177,15 @@ print(dict)
 ```
 - (429) How do you create a dictionary with a default value for missing keys?
 	- `collections.defaultdict(int)`
-		- #question Does it need to be `int`?
-		- #question Why not `collections.defaultdict()`?
+		- [ ] #question Does it need to be `int`?
+		- [ ] #question Why not `collections.defaultdict()`?
 - (430) What function in the `re` module is used to compile a regular expression pattern into a regex object?
 	- `re.compile()`
-		- #question What does the `compile()` method do?
-		- #question What does an example of this look like?
-	- #question How does the `re` module work?
-	- #question What is a regex object
-	- #question What exactly is a regular expression?
+		- [ ] #question What does the `compile()` method do?
+		- [ ] #question What does an example of this look like?
+	- [ ] #question How does the `re` module work?
+	- [ ] #question What is a regex object
+	- [ ] #question What exactly is a regular expression?
 - (431) Which method would you use to check if a string starts with a specific pattern?
 	- 
 - (432) What does the `re.search()` function return if no match is found?

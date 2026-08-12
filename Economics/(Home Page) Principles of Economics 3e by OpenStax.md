@@ -22,8 +22,8 @@ Reviewed: false
 - [[Economics]] is greatly impacted by how well information travels through society
 - Social media giants such as [[Twitter]], [[Facebook]], and [[Instagram]] are major forces on the information super highway
 - “[[Economists]] love nothing better than when deep and liquid markets operate under conditions of perfect information,” says [[Jessica Irvine]], National Economics Editor for News Corp Australia.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=25&annotation=BRYN3S2M))
-	- #question what is meant by perfect information?
-	- #question what is a deep and liquid market?
+	- [ ] #question what is meant by perfect information?
+	- [ ] #question what is a deep and liquid market?
 - “making choices is at the heart of what economists study” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=26&annotation=XVQBN2IC))
 - “[[Economics]] is probably not what you think. It is not primarily about money or finance. It is not primarily about business. It is not mathematics. What is it then? It is both a subject area and a way of viewing the world.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=26&annotation=Z79LWJF6))
 ### (1.1) What is Economics, and Why Is It Important?
@@ -67,7 +67,7 @@ Reviewed: false
 		- If you do not, someone else does on your behalf. 
 	- Most of us never have enough income to buy the things we want because of scarcity.
 - Read [this](https://stateimpact.npr.org/texas/2013/08/02/how-10-western-cities-are-dealing-with-water-scarcity-and-drought/) to see how the United States is dealing with scarcity in resources
-	- #question I should read the above article
+	- [ ] #question I should read the above article
 - Every society at every level must make choices about how to use its [[resources]]
 	- Families decide on new car or fancy vacation
 	- Towns choose budget for police and fire protection or into school system

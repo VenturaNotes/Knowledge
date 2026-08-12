@@ -37,7 +37,7 @@ class Solution:
                 res += rightMax - height[r]
         return res
 ```
-- #question How do we know that `res += leftMax - height[l]` is not going to be negative? 
+- [ ] #question How do we know that `res += leftMax - height[l]` is not going to be negative? 
 - Done in linear time and constant memory complexity
 ## Source[^2]
 ### (1) Brute Force

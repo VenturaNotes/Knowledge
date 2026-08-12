@@ -17,31 +17,31 @@ Reviewed: false
 - #comment the table of comments honestly don't seem that well organized. Sort of difficult to tell when a subsection starts on one line and begins on the next. Most textbooks have many dots like these "..." to better indicate this.
 - [[Michael Oakeshott]] ^1zpzb5
 	- “A [[university]] is an association of persons, locally situated, engaged in caring for and attending to the whole intellectual capital which composes a civilization.” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=HBEXHEQK))
-		- #question Is it just "intellectual capital" or is there such a thing as just capital?
-		- #question What does capital mean in this case? 
-		- #question Is he saying that the university is what composes a civilization or is it just the intellectual capital? 
+		- [ ] #question Is it just "intellectual capital" or is there such a thing as just capital?
+		- [ ] #question What does capital mean in this case? 
+		- [ ] #question Is he saying that the university is what composes a civilization or is it just the intellectual capital? 
 	- “concerned not merely to keep an intellectual inheritance intact, but to be continuously recovering what has been lost...making more intelligible, reissuing and reinvesting. ,” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=84LKP9PY))
-		- #question What does he mean by recovering what has been lost? This quote seems to have a lot of meaning to it but I do wonder what the context is. Maybe it has to do when the library of Alexandria was burnt down so we're just recovering the information that has been lost. Also reminds me of conservatives messing up experiments
-		- #question what is intellectual inheritance? 
+		- [ ] #question What does he mean by recovering what has been lost? This quote seems to have a lot of meaning to it but I do wonder what the context is. Maybe it has to do when the library of Alexandria was burnt down so we're just recovering the information that has been lost. Also reminds me of conservatives messing up experiments
+		- [ ] #question what is intellectual inheritance? 
 	- #question what time period did this person grow up in?
 	- He has an  “evident antiquarian bias against any genuine or substantive innovation here” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=9PWCDPBP))
-		- #question what is antiquarian bias?
-		- #question Is he just saying that the statement is too verbose to have any real meaning? 
+		- [ ] #question what is antiquarian bias?
+		- [ ] #question Is he just saying that the statement is too verbose to have any real meaning? 
 	- “this 'mission statement' is extensive enough.” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=5QS7PJGN))
 		- #comment This author who is writing a book about how to write a PhD is literally using air-quotes which my high-school teacher says wasn't good.
 - “far too large to be credible in the era of a 'knowledge society',” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=25Q5N3E2))
 	- #comment stating how there are many other people working in professions and companies including independent writers and researchers also attend to the intellectual capital of a civilization 
 - “civil society groups” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=KPSHHUGE))
-	- #question what is a civil society group? 
+	- [ ] #question what is a civil society group? 
 - Book is “especially directed to research students and their advisers or supervisors in universities.” ([Dunleavy, 2003, p. 11](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=11&annotation=EARQMJ8B))
-	- #question what is the difference between an adviser or supervisor? 
+	- [ ] #question what is the difference between an adviser or supervisor? 
 	- “they still pursue the most demanding ideal of original research.” ([Dunleavy, 2003, p. 12](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=12&annotation=3SEK8Z3Q))
 - “'Nothing was ever yet done that someone was not the first to do,' said [[John Stuart Mill]]” ([Dunleavy, 2003, p. 12](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=12&annotation=7T46HICB))
 - “Each doctoral dissertation or thesis is to a large extent [[sui generis]].” ([Dunleavy, 2003, p. 12](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=12&annotation=3QAU2QKY))
-	- #question what does sui generis even mean?
+	- [ ] #question what does sui generis even mean?
 - “students also need to acquire a core of generic authoring skills that are substantially similar across diverse disciplines and topics.” ([Dunleavy, 2003, p. 12](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=12&annotation=9T4YGDLD))
 - “research skills training has been formalized a great deal in the last two decades” ([Dunleavy, 2003, p. 12](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=12&annotation=G3N8DJMF))
-	- #question what are the important research skills that a PhD student actually needs?
+	- [ ] #question what are the important research skills that a PhD student actually needs?
 	- The craft skills of authoring have been neglected and unsystematized
 		- #comment systematizing things is super important!
 - Oakeshott was a [[traditionalist]]
@@ -87,7 +87,7 @@ Reviewed: false
 
 - “There are two main types of PhD education: the 'classical' model associated closely with a 'big book' type of thesis; and the more modern 'taught PhD model', normally associated with a shorter 'papers model dissertation'.” ([Dunleavy, 2003, p. 21](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=21&annotation=IJ264TTZ))
 - “inculcate” ([Dunleavy, 2003, p. 21](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=21&annotation=WQBCQ6BM))
-	- #question meaning?
+	- [ ] #question meaning?
 - Classical model of PhD: “The most traditional version of this approach conforms closely to the 'sorcerer's apprentice' tradition where students come to sit at the feet of an individual supervisor, a great man or woman in their field who long ago wrote a big book.” ([Dunleavy, 2003, p. 21](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=21&annotation=2C2WHG2A))
 	- Supervisor not concerned with the final thesis which is typically undertaken by two or three people not previously involved with the student's work
 	- “However, in many places and disciplines coursework now plays a much more important role even in the classical model of PhD education.” ([Dunleavy, 2003, p. 21](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=21&annotation=ALGXACDQ))

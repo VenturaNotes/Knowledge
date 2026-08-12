@@ -15,7 +15,7 @@ aliases:
 	- `[1, 2, 3]`
 - A literal is a hard-coded value and [[immutable]] in the source code. 
 	- The source code is what I, the programmer, write in my Python script
-	- #question is this the same as a static variable or something different? 
+	- [ ] #question is this the same as a static variable or something different? 
 ### Chart
 
 | Type                                | Definition                                                                                                | Example                                                   |

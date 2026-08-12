@@ -18,7 +18,7 @@ Reviewed: false
 				- In section 4.1, showed $d | (a+b)$ and $d | ab$ 
 				- The suppose part is an `iff` statement
 			- Therefore any divisor of $a,b$ is a common divisor of $q,r$. $\blacksquare$
-			- #question Not understanding the proof completely so would need to break it down later in my own words
+			- [ ] #question Not understanding the proof completely so would need to break it down later in my own words
 	- Slide 3
 		- Want to start with the greater value ($662$) when doing $662 = 414 (1) + 248$
 		- Taking the greatest non-zero remainder is 2.

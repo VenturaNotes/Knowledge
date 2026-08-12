@@ -13,6 +13,8 @@ export class TaskCache {
     private checkboxNodesByFile: Map<string, CheckboxNode[]> = new Map();
     private edgesByFile: Map<string, GraphEdge[]> = new Map();
 
+    private cachedGraph: GraphNode[] | null = null;
+
     constructor(app: App, settings: ProgressPlannerSettings) {
         this.app = app;
         this.settings = settings;
@@ -38,6 +40,8 @@ export class TaskCache {
     }
 
     async updateFile(file: TFile) {
+        this.cachedGraph = null; 
+        
         const skipPaths = this.settings.skipPaths;
         const targetFolders = this.settings.targetFolders;
 
@@ -89,7 +93,7 @@ export class TaskCache {
         const statusStr = String(fm.status || "").toLowerCase();
         const hasValidStatus = !["done", "canceled"].includes(statusStr);
 
-        if ((isTask || isGoal) && hasValidStatus) {
+        if (hasValidStatus) {
             const rawParent = fm.parent || fm.parents || fm.Parent || fm.Parents || fm.up || fm.project || [];
             const rawParentArray = Array.isArray(rawParent) ? rawParent : [rawParent];
 
@@ -110,6 +114,11 @@ export class TaskCache {
                     .filter((p: string) => p.length > 0)
             )];
 
+            const parentPaths = parentNames.map(pName => {
+                const dest = this.app.metadataCache.getFirstLinkpathDest(pName, file.path);
+                return dest ? dest.path : null;
+            });
+
             dashboardNode = {
                 id: file.path,
                 kind: "file",
@@ -119,6 +128,7 @@ export class TaskCache {
                 isGoal: isGoal,
                 isTask: isTask,
                 parentNames: parentNames,
+                parentPaths: parentPaths,
                 children: [],
                 parents: [],
                 level: 0,
@@ -141,10 +151,6 @@ export class TaskCache {
             .replace(/\s+/g, " ")
             .trim();
 
-        // Pulls the first [[wikilink]] out of raw task text (before cleanText strips
-        // anything) so the agenda view can render it as its own purple chip beneath
-        // the task, the same way inline #tags get their own treatment, instead of the
-        // link syntax just sitting inline in the task's display text.
         const extractParentLink = (t: string): { text: string; parentLink: string | null; parentLinkPath: string | null } => {
             const m = t.match(/\[\[([^\]]+)\]\]/);
             if (!m || !m[1]) return { text: t, parentLink: null, parentLinkPath: null };
@@ -252,6 +258,7 @@ export class TaskCache {
     }
 
     removeFile(path: string) {
+        this.cachedGraph = null;
         this.fileCache.delete(path);
         this.checkboxNodesByFile.delete(path);
         this.edgesByFile.delete(path);
@@ -531,6 +538,8 @@ export class TaskCache {
     }
 
     getGraphNodes(): GraphNode[] {
+        if (this.cachedGraph) return this.cachedGraph;
+
         const allNodes: GraphNode[] = [];
         const nodesById = new Map<string, GraphNode>();
 
@@ -554,31 +563,33 @@ export class TaskCache {
         allNodes.forEach((n: GraphNode) => {
             if (n.kind === "file") {
                 const fileNode = n as TaskNode;
-                const keys = [
+                // OPTIMIZED: Use a Set to avoid redundant titles skipping .includes() array searches entirely.
+                const keys = new Set([
                     fileNode.title.toLowerCase().trim(),
                     fileNode.basename.toLowerCase().trim(),
                     fileNode.file.path.toLowerCase().trim()
-                ];
+                ]);
                 keys.forEach((k: string) => {
                     if (k) {
                         if (!titleToNodes.has(k)) titleToNodes.set(k, []);
-                        const arr = titleToNodes.get(k)!;
-                        if (!arr.includes(fileNode)) arr.push(fileNode);
+                        titleToNodes.get(k)!.push(fileNode);
                     }
                 });
             }
         });
 
+        const processedEdges = new Set<string>();
+
         allNodes.forEach((n: GraphNode) => {
             if (n.kind !== "file") return;
             const childFileNode = n as TaskNode;
 
-            childFileNode.parentNames.forEach((pName: string) => {
+            childFileNode.parentNames.forEach((pName: string, i: number) => {
                 const matchedParents: GraphNode[] = [];
+                const destPath = childFileNode.parentPaths[i];
 
-                const dest = this.app.metadataCache.getFirstLinkpathDest(pName, childFileNode.file.path);
-                if (dest) {
-                    const resolved = nodesById.get(dest.path);
+                if (destPath) {
+                    const resolved = nodesById.get(destPath);
                     if (resolved) matchedParents.push(resolved);
                 }
 
@@ -588,10 +599,16 @@ export class TaskCache {
                     matchedParents.push(...candidates);
                 }
 
-                matchedParents.forEach((parentObj: GraphNode) => {
+                // OPTIMIZED: Track processed edges in O(1) time instead of using parent.children.includes() (which is O(N^2)).
+                const uniqueMatchedParents = new Set(matchedParents);
+                uniqueMatchedParents.forEach((parentObj: GraphNode) => {
                     if (parentObj && parentObj !== childFileNode) {
-                        if (!parentObj.children.includes(childFileNode)) parentObj.children.push(childFileNode);
-                        if (!childFileNode.parents.includes(parentObj)) childFileNode.parents.push(parentObj);
+                        const edgeKey = `${parentObj.id}->${childFileNode.id}`;
+                        if (!processedEdges.has(edgeKey)) {
+                            processedEdges.add(edgeKey);
+                            parentObj.children.push(childFileNode);
+                            childFileNode.parents.push(parentObj);
+                        }
                     }
                 });
             });
@@ -602,26 +619,37 @@ export class TaskCache {
                 const parent = nodesById.get(parentId);
                 const child = nodesById.get(childId);
                 if (parent && child && parent !== child) {
-                    if (!parent.children.includes(child)) parent.children.push(child);
-                    if (!child.parents.includes(parent)) child.parents.push(parent);
+                    const edgeKey = `${parent.id}->${child.id}`;
+                    if (!processedEdges.has(edgeKey)) {
+                        processedEdges.add(edgeKey);
+                        parent.children.push(child);
+                        child.parents.push(parent);
+                    }
                 }
             });
         }
 
-        let changed = true;
-        let iterations = 0;
-        while (changed && iterations++ < allNodes.length + 10) {
-            changed = false;
-            allNodes.forEach((node: GraphNode) => {
-                let maxParentLevel = -1;
-                node.parents.forEach((p: GraphNode) => { if (p.level > maxParentLevel) maxParentLevel = p.level; });
-                if (maxParentLevel + 1 > node.level) {
-                    node.level = maxParentLevel + 1;
-                    changed = true;
+        const queue = allNodes.filter(n => n.parents.length === 0);
+        queue.forEach(n => { n.level = 0; });
+
+        let head = 0;
+        let visits = 0;
+        const MAX_VISITS = allNodes.length * 5; 
+
+        while (head < queue.length && visits < MAX_VISITS) {
+            const current = queue[head++];
+            if (!current) continue;
+            
+            visits++;
+            current.children.forEach(child => {
+                if (current.level + 1 > child.level) {
+                    child.level = current.level + 1;
+                    queue.push(child);
                 }
             });
         }
 
+        this.cachedGraph = allNodes;
         return allNodes;
     }
 

@@ -16,7 +16,7 @@ Reviewed: false
 		- If B is in echelon form, the non-zero rows of B form a basis for row A and row B
 		- Find row A given A ~ B
 			- In [[spanning set theorem]] able to take columns away that are redundant. Can also take out rows that are all zeros as they don't belong in the basis
-				- #question is this always true?
+				- [ ] #question is this always true?
 	- Practice
 		- Find the basis for row A, Col A and Nul A for
 			- Original, Echelon, RREF

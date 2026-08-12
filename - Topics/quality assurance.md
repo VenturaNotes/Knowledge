@@ -5,12 +5,12 @@ aliases:
 ## Synthesis
 - Quality assurance (QA) is a process that ensures software meets predefined quality standards. It involves the below to prevent defects and improve reliability
 	- systematic testing
-		- #question Could you give examples of this
+		- [ ] #question Could you give examples of this
 	- debugging
-		- #question I want examples of this too
+		- [ ] #question I want examples of this too
 	- refining
-		- #question I want examples of this
-- #question What are some predefined quality standards of software?
+		- [ ] #question I want examples of this
+- [ ] #question What are some predefined quality standards of software?
 ## Source [^1]
 - Quality assurance ensures products meet standards
 ## Source[^2]

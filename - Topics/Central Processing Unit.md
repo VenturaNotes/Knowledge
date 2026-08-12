@@ -4,11 +4,11 @@ aliases:
 ---
 ## Synthesis
 - A computer's CPU can load data, perform calculations, and jump to another part of a program 
-	- #question Is this true? 
-	- #question What is meant by jumping to another part of a program?
+	- [ ] #question Is this true? 
+	- [ ] #question What is meant by jumping to another part of a program?
 ### Description
 - The part of the computer that retrieves and carries out instructions for processes
-	- #question What is meant by processes here?
+	- [ ] #question What is meant by processes here?
 ## Source [^1]
 - Factors that can significantly impact the performance of a CPU
 	- Number of cores

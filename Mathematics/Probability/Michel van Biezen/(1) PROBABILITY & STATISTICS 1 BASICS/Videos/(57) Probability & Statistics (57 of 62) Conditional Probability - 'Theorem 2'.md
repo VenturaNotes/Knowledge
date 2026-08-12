@@ -16,4 +16,4 @@ Reviewed: false
 		- So what is the probability of grabbing a red or blue one. 
 		- We can reverse the process so that let's say we grab a green one, what is the probability that we toss either heads or tails (this is in reverse)
 	- [[conditional probability]]
-	- #question which theorem does this use?
+	- [ ] #question which theorem does this use?

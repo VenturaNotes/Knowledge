@@ -4,7 +4,7 @@
 - If event A can occur in $m$ ways, and event B can occur in $n$ [[disjoint]] ways, then the event "A or B" can occur in $m+n$ ways
 - This principle generalizes to more than two events
 - "Or" doesn't always mean "add". ([[mutually exclusive]])
-	- #question what is meant by mutually exclusive here?
+	- [ ] #question what is meant by mutually exclusive here?
 ### Example
 - Given a restaurant offers 8 appetizers and 14 entrées, how many choices do you have if you will eat one dish, either an appetizer or an entrée. 
 	- There are 8 + 14 = 22 choices if you will eat one dish

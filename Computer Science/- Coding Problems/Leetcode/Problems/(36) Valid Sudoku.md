@@ -22,7 +22,7 @@ Reviewed: false
 	- Take the actual coordinates, divide the coordinates by 3, then we'd get the index for the row-column which identifies for which square it's a part of
 	- For [[integer division]], we always round down. Tells us which cell within the 3x3 grid it belongs to.
 	- The key will be $key(\frac{r}{3}, \frac{c}{3})$ and the value will be the set to see if there are duplicates
-		- #question difference between HashSet and set? 
+		- [ ] #question difference between HashSet and set? 
 ```python
 class Solution:
 	def isValidSudoku(self, board: List[List[str]]) -> bool:

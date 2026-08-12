@@ -82,15 +82,15 @@ Reviewed: false
 		- $A \times B = \{(a,b)| a \in A, b \in B\}$
 			- Consists all pairs a, b where the first coordinate of the pair comes from set A and the second coordinate comes form set B
 			- Set of all possible combinations of one element from set A and another element of set B
-			- #question would be great to see an example problem with this
+			- [ ] #question would be great to see an example problem with this
 	- 1.16 Notation. Given a set A by $A^n$ we will denote the n-fold cartesian product of A:
 		- $A^n = \underbrace{A \times A \times ... \times A}_\text{n times}$
 			- n is some positive number
 			- Will consist of all the n-tuples where all individual coordinates are coming from the set A itself
-				- #question more about n-tuples. What is it?
+				- [ ] #question more about n-tuples. What is it?
 			- Will see this most frequently with $\mathbb{R}^n$ nth power of set of real numbers multiplied by itself n times. Elements of this set will be n-tuples $r_1 ... r_n$. The $r_i$  would be a real number in this case
-		- #question what does n-fold cartesian product mean?
-		- #question would be great to see an example problem using this
+		- [ ] #question what does n-fold cartesian product mean?
+		- [ ] #question would be great to see an example problem using this
 - ![[Screenshot 2024-07-24 at 3.10.51 AM.png]]
 	- $A_1 \times A_2 \times \cdots \times A_n$ = $\Pi_{i=1}^nA_i$ 
 		- Big $\Pi$ is a symbol for product
@@ -108,14 +108,14 @@ Reviewed: false
 					- Could think about elements of cartesian product as functions of this sort
 			- Now what happens if we have infinite product of functions?
 				- Lets say we have a product of any number of sets $A_i$. We can think of them as functions. Functions that will be going from the set of indices "I" to the union of the sets we're multiplying and we need the condition that the value of the function at index i in "f(i)" must belong to the set $A_i$. The $i^{th}$ element is going to the $i^{th}$ set. This lets us formally think about elements of products of arbitrary number of sets
-					- #question need to understand functions better
-					- #question Need to understand how functions and sets are related
-					- #question need to understand how function mapping works
-					- #question need to understand function notation better
-					- #question elements of products of arbitrary number of sets
-					- #question understand infinite products better
+					- [ ] #question need to understand functions better
+					- [ ] #question Need to understand how functions and sets are related
+					- [ ] #question need to understand how function mapping works
+					- [ ] #question need to understand function notation better
+					- [ ] #question elements of products of arbitrary number of sets
+					- [ ] #question understand infinite products better
 				- Less formally, can think about each of those functions as giving you a tuple of elements which is indexed by the individual indices.
 					- The value of the function is one of those elements of the sets. This will give the $i^{th}$ coordinate of the tuple
 						- $f(i) = Q_i$ 
-					- #question Talking about infinite sets using functions. Understand this better?
+					- [ ] #question Talking about infinite sets using functions. Understand this better?
 		- Infinite products will show up later in course

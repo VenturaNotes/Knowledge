@@ -4,8 +4,8 @@ aliases:
 ---
 ## Synthesis
 - In object-oriented programming, a [[subclass]] can redefine a method from its [[superclass]]
-	- #question What is a subclass and what is a superclass?
-	- #question Do subclasses and superclasses only exist in object-oriented programming? 
+	- [ ] #question What is a subclass and what is a superclass?
+	- [ ] #question Do subclasses and superclasses only exist in object-oriented programming? 
 ## Source [^1]
 - A programming paradigm based on the concept of “objects,” which are data structures that contain data in the form of fields (often known as attributes or properties) and code in the form of procedures (often known as methods).
 

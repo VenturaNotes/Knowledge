@@ -7,7 +7,7 @@ Reviewed: false
 - 
 ## Source [^1]
 - ![[Pasted image 20241014195113.png]]
-- #question I wish we could see a proof for why this would always work.
+- [ ] #question I wish we could see a proof for why this would always work.
 - For worst case scenario, our time complexity is $O(n^2)$ 
 	- This is when we check the first number and compare it with the other numbers
 - Big factor for this problem is that the array is sorted

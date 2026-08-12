@@ -5,7 +5,7 @@ aliases:
   - business analysts
 ---
 ## Synthesis
-- #question What does a business analyst do for software engineering?
+- [ ] #question What does a business analyst do for software engineering?
 ## Source [^1]
 - $n$. One who analyses. In psychoanalysis, another name for a psychoanalyst.
 ## References

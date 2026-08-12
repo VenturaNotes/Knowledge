@@ -49,11 +49,11 @@ Reviewed: false
 	- Implementing higher-level languages ([[javascript]] and [[Python]])
 	- [[Networking]]
 	- Visualization and software containers
-		- #question what is this?
+		- [ ] #question what is this?
 	- Scientific simulations
-		- #question how is system programming related to simulations. MathWorks? 
+		- [ ] #question how is system programming related to simulations. MathWorks? 
 	- Games
-		- #question what kind of games is system programming for
+		- [ ] #question what kind of games is system programming for
 - “systems programming is resource-constrained programming” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=18&annotation=JDLB49CS))
 	- “every [[byte]] and every [[CPU cycle]] counts.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=18&annotation=UX57I475))
 - Amount of systems code involved in supporting an app is staggering
@@ -81,7 +81,7 @@ Reviewed: false
 - “the context [[Rust]] is targeting—being 10x or even 2x faster than the competition is a make-or-break thing.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=23&annotation=R6VGMTIG))
 - “All computers are now parallel... [[Parallel programming]] is programming” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=23&annotation=WB3VSMLH))
 - “TrueType parser flaw” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=23&annotation=U75M83HB))
-	- #question what is this?
+	- [ ] #question what is this?
 - What is going on with the below code?
 ```c
 int main(int argc, char **argv){
@@ -92,13 +92,13 @@ int main(int argc, char **argv){
 ```
 - Explanation
 	- Storing this value in the fourth element of array corrupts the function call stack
-		- #question what is a function call stack?
+		- [ ] #question what is a function call stack?
 	- Instead of returning from main function, jumps into midst of code from the standard C library for retrieving a password from a file in the user's home directory. Doesn't go well
 		- I believe the effect is different depending on the machine you're running the above code from
-- #question learn what the code above does
+- [ ] #question learn what the code above does
 	- “using `a[3]` is, according to the C programming language standard,[[undefined behavior]]:” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=LSLC47NA))
 		- “Behavior, upon use of a nonportable or erroneous program construct or of erroneous data, for which this International Standard imposes no requirements” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=WN76DDZY))
-			- #question what does nonportable mean?
+			- [ ] #question what does nonportable mean?
 			- “standard explicitly permits the program to do anything at all.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=7LKLFXPQ))
 - “[[C]] and [[C++]] have hundreds of rules for avoiding undefined behavior.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=REEIBZF6))
 	- Don't access memory you shouldn't
@@ -110,7 +110,7 @@ int main(int argc, char **argv){
 - “[[University of Utah]], researcher [[Peng Li]]” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=P6DA8NKU))
 	- “modified C and C++ compilers to make the programs they translated report whether they executed certain forms of undefined behavior.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=CPRVCVZU))
 - “1988 Morris Worm used a variation of the technique shown earlier to propagate from one computer to another on the early Internet.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=VM2DR8V9))
-	- #question 1988 Morris Worm further research
+	- [ ] #question 1988 Morris Worm further research
 	- Inadvertent undefined behavior has been a major cause of security flaws
 - “So C and C++ put programmers in an awkward position: those languages are the industry standards for systems programming, but the demands they place on programmers all but guarantee a steady stream of crashes and security problems.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=3VZ64EHP))
 ### (1.1) Rust Shoulders the Load for You
@@ -135,38 +135,38 @@ int main(int argc, char **argv){
 - “same restrictions that ensure memory safety in Rust also ensure that Rust programs are free of [[data races]].” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=U5KNYFZE))
 	- “can share data freely between [[Thread|threads]], as long as it isn't changing.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=K723ZHI4))
 	- “[[Data]] that does change can only be accessed using synchronization primitives.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=DY9RBTCI))
-		- #question what is synchronization primitives?
+		- [ ] #question what is synchronization primitives?
 - “All the traditional concurrency tools are available: [[mutexes]], [[condition variables]], [[channels]], [[atomics]], and so on. Rust simply checks that you're using them properly.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=53DFFBI6))
 	- “This makes Rust an excellent language for exploiting the abilities of modern multicore machines.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=SZ4AARC6))
 		- #question what is a multicore machine?
 		- “Rust ecosystem offers libraries that go beyond the usual concurrency primitives and help you distribute complex loads evenly across pools of processors, use lock-free synchronization mechanisms like Read-Copy-Update, and more.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=RW9NSFXK))
-			- #question what is meant by primitives
-			- #question what is concurrency primitives?
-			- #question what is a complex loads
-			- #question what is meant by pools of processors
-			- #question what are lock-free synchronization mechanisms
+			- [ ] #question what is meant by primitives
+			- [ ] #question what is concurrency primitives?
+			- [ ] #question what is a complex loads
+			- [ ] #question what is meant by pools of processors
+			- [ ] #question what are lock-free synchronization mechanisms
 ### (1.3) And Yet Rust is Still Fast
 - “Rust shares the ambitions [[Bjarne Stroustrup]] articulates for C++ in his paper “Abstraction and the C++ Machine Model”:” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=64I7DZ7E))
 	- #resource I wonder what is in his paper
 	- “In general, C++ implementations obey the[[zero-overhead principle]]: What you don't use, you don't pay for. And further: What you do use, you couldn't hand code any better.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=E5RSAW9W))
-		- #question How can we be so sure that we can't hand code any better
-		- #question What is meant by hand coding
+		- [ ] #question How can we be so sure that we can't hand code any better
+		- [ ] #question What is meant by hand coding
 - “[[Systems programming]] is often concerned with pushing the machine to its limits.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=XSE7KUPW))
 	- For video games, machine should devote itself to creating best experience for player
 	- For web browsers, efficiency of browser sets the ceiling on what content authors can do
-		- #question what is a content author 
+		- [ ] #question what is a content author 
 	- “Within the machine's inherent limitations, as much [[memory]] and [[processor]] attention as possible must be left to the content itself.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=XR44BJMV))
 	- “same principle applies to [[operating systems]]: the [[kernels|kernel]] should make the machine's resources available to user programs, not consume them itself.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=PCEQ25SZ))
-		- #question give examples of user programs
+		- [ ] #question give examples of user programs
 - “One can write slow code in any general-purpose language.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=BMMJLUYA))
-	- #question what is a general-purpose language? 
+	- [ ] #question what is a general-purpose language? 
 - Rust is considered fast because if you make the best use of the underlying machines' capabilities, Rust supports you in that effort.
-	- #question how though?
+	- [ ] #question how though?
 	- “The language is designed with efficient defaults and gives you the ability to control how memory gets used and how the processor's attention is spent.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=UAQHZ5UH))
-		- #question give examples of efficient defaults
-		- #question what is the best way to control memory in rust?
-		- #question How can you manipulate the processor
-			- #question what does a processor even look like? 
+		- [ ] #question give examples of efficient defaults
+		- [ ] #question what is the best way to control memory in rust?
+		- [ ] #question How can you manipulate the processor
+			- [ ] #question what does a processor even look like? 
 ### (1.4) Rust Makes Collaboration Easier
 - Rust has support for code sharing and reuse
 - “Rust's package manager and build tool, [[Cargo]], makes it easy to use libraries published by others on Rust's public package repository, the [[crates.io]] website.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=S2EH9VD9))
@@ -213,13 +213,13 @@ int main(int argc, char **argv){
 		- Cargo created a [[Cargo.toml]] to hold [[metadata]] for the package
 			- ![[Screenshot 2024-08-13 at 6.39.37 PM.png]]
 			- If program needs [[dependency|dependencies]] on other libraries, we can record them in this file and Cargo will take care of downloading, building and updating those libraries for up
-				- #question Does it work like a docker? 
+				- [ ] #question Does it work like a docker? 
 		- Cargo has set up our package for use with the git version control system creating a `.git` metadata directory and a `.gitignore` file. You can use cargo to skip this step by passing `--vcs none to cargo new` on the command terminal
-			- #question what makes a package?
-			- #question what is the git version control system
-			- #question is the --vcs code I wrote above correct?
+			- [ ] #question what makes a package?
+			- [ ] #question what is the git version control system
+			- [ ] #question is the --vcs code I wrote above correct?
 		- The `scr` subdirectory contains the actual rust code `main.rs`
-			- #question What is `ls -l` in a directory?
+			- [ ] #question What is `ls -l` in a directory?
 		- The `main.rs` file contains the text
 			- ![[Screenshot 2024-08-13 at 6.47.41 PM.png|300]]
 	- This is the extent of the boilerplate for a new Rust program: two files
@@ -252,20 +252,20 @@ fn gcd(mut n: u64, mut m: u64) -> u64 {
 	n
 }
 ```
-- #question Why is the n alone?
-- #question what does assert do?
-- #question What is the meaning of u64?
-- #question what does mut mean?
-- #question what does the arrow mean? Is it required or is it like python where it just suggests the type of output the function is looking for? 
+- [ ] #question Why is the n alone?
+- [ ] #question what does assert do?
+- [ ] #question What is the meaning of u64?
+- [ ] #question what does mut mean?
+- [ ] #question what does the arrow mean? Is it required or is it like python where it just suggests the type of output the function is looking for? 
 - The [[fn (rust)|fn]] keyword (pronounced "fun") introduces a function.
 	- The [[parameter (rust)|parameters]] n and m are of type [[u64]] which does means its an unsigned 64-bit integer
-		- #question how do we know u64 is always just an integer? 
+		- [ ] #question how do we know u64 is always just an integer? 
 	- “The -> token precedes the return type:” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=31&annotation=E3KVRAZ2))
 		- Our function returns a u64 value
 		- Four-space indentation standard in Rust 
 - [[i32]] is a signed 32-bit integer
 - [[u8]] is an unsigned 8-bit integer (used for "byte" values)
-	- #question what does "used for byte" values mean?
+	- [ ] #question what does "used for byte" values mean?
 - [[isize (rust)|isize]] and [[usize (rust)|usize]] types hold pointer-sized signed and unsigned integers, 32 bits long on 32-bit platforms, and 64 bits long on 64-bit platforms
 	- #question what does pointer-sized mean?
 	- #question examples of 32-bit and 64-bit platforms
@@ -275,15 +275,15 @@ fn gcd(mut n: u64, mut m: u64) -> u64 {
 - By default, once a variable is initialized, its value can't be changed, but placing the [[mut (rust)|mut]] keyword (pronounced "mute", short for [[mutable]]) before the parameters `n` and `m` allows our function body to assign to them
 	- Most variables don't get assigned the `mut` keyword
 - The function's body starts wit ha call to the assert! macro, verifying that neither argument is zero
-	- #question what is meant by macro here?
+	- [ ] #question what is meant by macro here?
 	- The ! character marks this as a macro invocation, not a function call
-		- #question What is a function call and how would you do one?
+		- [ ] #question What is a function call and how would you do one?
 - There is a similar assert macro in C and C++
 - Rust's assert! checks that the argument is true and terminates the program otherwise with the source location of the failing check. This kind of abrupt termination is called a [[panic]]
 - In C and C++, assertions can be skipped while Rust always checks assertions regardless of how the program was compiled. 
-	- #question Is Rust a compiled language or interpreted? Does it check the assertion first or something else? 
+	- [ ] #question Is Rust a compiled language or interpreted? Does it check the assertion first or something else? 
 - There is a debug_assert! macro whose assertions are skipped when the program is compiled for speed
-	- #question Is it necessary to have the exclamation point afterwards?
+	- [ ] #question Is it necessary to have the exclamation point afterwards?
 - Unlike C and C++, [[Rust]] does not require parentheses around the conditional expressions, but does require curly braces around the statements they control
 - A [[let (rust)|let]] statement declares a [[local variable (rust)|rust]]. Don't need to write out type of variable as long as Rust can infer it from how the variable is used
 	- Rust only infers types within function bodies: you must write out the types of function parameters and return values as before.
@@ -314,18 +314,18 @@ fn test_gcd() {
 - This function checks that `gcd` returns correct values
 - The `#[test]` marks `test_gcd` as a test [[function (rust)|function]] which skips it during normal compilations, but included and called automatically if we run our program with the `cargo test` command
 - Test functions can be (1) scattered throughout our source tree or (2) placed next to the code they exercise, and `cargo test`  will gather them and run them together
-	- #question what is a source tree in detail?
+	- [ ] #question what is a source tree in detail?
 - The `#[test]` marker is an example of an [[attribute (rust)|attribute]]
-	- #question what is a marker? 
+	- [ ] #question what is a marker? 
 - [[attribute (rust)|Attributes]] are an open-ended system for marking functions and other declarations with extra information (similar to [[attribute (C++)|attributes]] in C++ and [[attribute (C Sharp)|attributes]] in C#, or [[annotation (Java)|annotations]] in Java)
-	- #question does this mean `#[test]` is a key term or could we name it anything?
+	- [ ] #question does this mean `#[test]` is a key term or could we name it anything?
 	- Used to control compiler warnings and code style checks, include code conditionally (like [[ifdef (C)|#ifdef]] in C and C++), tell Rust how to interact with code written in other languages, and so on.
-		- #question of compiler warnings?
-		- #question more about code style checks
-		- #question what does including code conditionally mean?
-		- #question how can we make rust interact with other languages?
+		- [ ] #question of compiler warnings?
+		- [ ] #question more about code style checks
+		- [ ] #question what does including code conditionally mean?
+		- [ ] #question how can we make rust interact with other languages?
 - Now the `gcd` and `test_gcd` definitions are added to the `hello` package
-	- #question can we call them functions or definitions? Does it matter?
+	- [ ] #question can we call them functions or definitions? Does it matter?
 	- As long as our current directory is somewhere within the package's subtree, we can run `cargo test`. 
 - ![[Screenshot 2024-08-14 at 6.48.38 AM.png]]
 	- #question Analyze what ignored, measured, and filtered out means for a test
@@ -358,11 +358,11 @@ fn main() {
 ```
 - Given `use std::str::FromStr;`
 	- The first [[use (rust)|use]] [[declaration (rust)|declaration]] brings the standard library [[Traits|trait]] [[FromStr]] into [[scope]].
-		- #question What are the standard libraries in Rust?
-		- #question Why is `str` included when `FromStr` seems to explicitly state that we will be attempting to format strings? 
+		- [ ] #question What are the standard libraries in Rust?
+		- [ ] #question Why is `str` included when `FromStr` seems to explicitly state that we will be attempting to format strings? 
 	- A [[Traits|trait]] is a collection of methods that types can implement
-		- #question what is meant by types?
-		- #question Is there a difference between methods, functions, and definitions?
+		- [ ] #question what is meant by types?
+		- [ ] #question Is there a difference between methods, functions, and definitions?
 			- #comment maybe definition could be like you can define a `let` to a variable but not sure.
 	- Any [[type]] that implements the `FromStr` trait has a `from_str` method that tries to parse a value of that type from a string
 		- The [[u64]] type implements `FromStr`, and we'll call `u64::from_str` to parse our command-line arguments.
@@ -370,10 +370,10 @@ fn main() {
 		- Even though we never use `FromStr` elsewhere in the program, a trait must be in scope in order to use its methods.
 - Given `use std::env;`
 	- The `std::env` [[module (rust)|module]] 
-		- #question Why is it called a module now instead of a trait?
-		- It provides several useful functions and types for interacting with the execution environment, including the [[args function (rust)|args function]], which gives us access to the program's command-line arguments
-			- #question I would like to see a simpler example
-			- #question What is the execution environment? What is meant by this?
+		- [ ] #question Why is it called a module now instead of a trait?
+		- [ ] It provides several useful functions and types for interacting with the execution environment, including the [[args function (rust)|args function]], which gives us access to the program's command-line arguments
+			- [ ] #question I would like to see a simpler example
+			- [ ] #question What is the execution environment? What is meant by this?
 - `fn main() {` doesn't return a value so we can omit the `->`and return type following the parameter list
 - Given `let mut numbers = Vec::new();
 	- A mutable local variable numbers is [[declare|declared]] and [[initialize|initialized]] to an empty [[vector]]. [[Vec (rust)|Vec]] is Rust's growable vector type analogous to 
@@ -386,14 +386,14 @@ fn main() {
 	- We us a [[for loop (rust)|for loop]] to process our command-line arguments, setting the variable `arg` to each argument in turn and evaluating the loop body
 	- The `std::env` module's args function returns an [[iterator (rust)|iterator]], a value that produces each argument on demand, and indicates when we're done. 
 		- Iterators are ubiquitous in Rust; the standard library includes other iterators that produce the elements of a vector, the lines of a file, messages received on a communications channel, and almost anything else that makes sense to loop over. 
-			- #question I would like to see more of those examples.
+			- [ ] #question I would like to see more of those examples.
 	- Rust's iterators are very efficient: the [[compiler]] is usually able to translate them into the same code as a handwritten loop
-		- #question what is the rust compiler like?
-		- #question What is meant by handwritten loop?
+		- [ ] #question what is the rust compiler like?
+		- [ ] #question What is meant by handwritten loop?
 	- Iterators include a broad selection of methods you can use directly
-		- #question what kind of methods are these?
+		- [ ] #question what kind of methods are these?
 		- For example, the first value produced by the iterator returned by args is always the name of the program being run. To skip that, we call the iterator's `skip` method to produce a new iterator omitting the first value
-			- #question What methods are within the iterator? 
+			- [ ] #question What methods are within the iterator? 
 ### (2.5) Serving Pages to the Web
 ### (2.6) Concurrency
 #### (2.6.1) What the Mandelbrot Set Actually Is

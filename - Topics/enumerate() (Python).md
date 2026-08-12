@@ -4,7 +4,7 @@ aliases:
 ---
 ## Synthesis
 - Adds a counter to an [[iterable (python)|iterable]] such as a list and returns it as an [[enumerated object (python)|enumerated object]].
-	- #question what is meant by enumerated object?
+	- [ ] #question what is meant by enumerated object?
 ### Description
 - Iterates over an iterable (such as list, tuple, string) while keeping track of index of current item.
 ### Example

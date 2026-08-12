@@ -9,7 +9,7 @@ Access: (Trademark) A relational database management system for PCs produced by 
 
 ## Source[^2]
 - Access is the ability to obtain something someone wants or needs. When businesses grant data access to their employees, they are providing them with the ability to obtain specific company information. Data access comes in two forms: read-only access or editing access. The difference between the two is that when an employee is granted editing access, they can actually edit the data to which they have access. Read-only access allows employees to only view the data.
-	- #question Does data access only come in two forms: read-only access or editing access?
+	- [ ] #question Does data access only come in two forms: read-only access or editing access?
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

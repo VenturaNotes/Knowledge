@@ -8,9 +8,9 @@ tags:
 ### Description
 - A type of self-balancing [[binary search tree]].
 - Each node stores an extra bit for "color" (red or black), which is used to ensure the tree remains approximately balanced during insertions and deletions. 
-	- #question Why would you want to keep a tree balanced?
-	- #question What does it mean for a tree to be balanced?
-	- #question What is meant by 'bit' here? Like a bit in memory or something else?
+	- [ ] #question Why would you want to keep a tree balanced?
+	- [ ] #question What does it mean for a tree to be balanced?
+	- [ ] #question What is meant by 'bit' here? Like a bit in memory or something else?
 - Balance is crucial because it guarantees basic operations like searching, inserting, and deleting take $O(\log n)$ time, even in the worst-case scenario.
 ### 5 Essential Rules
 
@@ -21,11 +21,11 @@ tags:
 	1. Every node is either red or black.
 	2. The root is always black.
 	3. Every leaf (NIL) is black.
-		- #question What is NIL?
+		- [ ] #question What is NIL?
 	4. If a node is red, both its children must be black (No two red nodes can be adjacent).
-		- #question Does this mean the parent of a red node needs to be black? 
+		- [ ] #question Does this mean the parent of a red node needs to be black? 
 	5. Every path from a node to its descendant NIL leaves must contain the same number of black nodes.
-		- #question What does NIL mean? 
+		- [ ] #question What does NIL mean? 
 ### Algorithm
 - When inserting a new node, always start by coloring it Red. This preserves the "black height" (Rule 5) but might violate Rule 4 (no two reds in a row). To fix this, the algorithm performs two types of "repairs":
 
@@ -41,7 +41,7 @@ If the "uncle" is black, recoloring isn't enough. We perform Left or Right Rotat
 ### Python Implementation
 
 Below is a simplified version focusing on the Insertion logic and the Left Rotation helper function.
-- #question What is meant by "simplified" version? What would the normal version look like or rather what are we missing?
+- [ ] #question What is meant by "simplified" version? What would the normal version look like or rather what are we missing?
 
 Python
 

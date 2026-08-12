@@ -33,7 +33,7 @@ Reviewed: false
 				- $x = t\vec v$  or $\vec x = tv$? 
 	- Practice
 		- Turn first into [[reduced row echelon form]] and then write as a parametric vector equation or parametric vector form
-		- #question Is the purple considered in [[Reduced Row Echelon Form|RREF]]?
+		- [ ] #question Is the purple considered in [[Reduced Row Echelon Form|RREF]]?
 		- In $x = t\vec v$ 
 			- We have some constant `t` times some vector
 - ![[Screenshot 2024-12-17 at 1.10.09 AM.png]]

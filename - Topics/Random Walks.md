@@ -4,8 +4,8 @@ aliases:
   - markov chain
 ---
 ## Synthesis
-- #question  How is it related to the [[transition matrix]]?
-- #question How does a Markov chain work? I would like to solve some problems
+- [ ] #question  How is it related to the [[transition matrix]]?
+- [ ] #question How does a Markov chain work? I would like to solve some problems
 ## Source [^1]
 - Practice Problems
 ## Source[^2]

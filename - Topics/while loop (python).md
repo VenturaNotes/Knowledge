@@ -37,9 +37,9 @@ else:
 	print("i is no longer less than 6") #This will just print once
 
 ```
-#question I want to learn more about the [[break (python)|break]] keyword
-#question I want to learn about [[continue (python)|continue]]
-#question I want to learn more about [[pass (python)|pass]]
+- [ ] #question I want to learn more about the [[break (python)|break]] keyword
+- [ ] #question I want to learn about [[continue (python)|continue]]
+- [ ] #question I want to learn more about [[pass (python)|pass]]
 
 ## References
 

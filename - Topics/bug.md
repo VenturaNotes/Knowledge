@@ -4,13 +4,13 @@ aliases:
 ---
 ## Synthesis
 - Refers to the errors, flaws, or faults in code that cause incorrect or unexpected behavior
-	- #question Could you give an example of a bug?
-	- #question What is the difference between errors, flaws, and faults? 
+	- [ ] #question Could you give an example of a bug?
+	- [ ] #question What is the difference between errors, flaws, and faults? 
 - Bugs are technical flaws
-	- #question What is a technical flaw?
+	- [ ] #question What is a technical flaw?
 ## Source[^1]
 - An error, flaw, or fault in a software program that causes it to produce an incorrect or unexpected result or to behave in unintended ways.
-	- #question When does a bug become a feature? Makes me think of the Minecraft creeper story came about due to a pig being coded vertically instead of horizontally
+	- [ ] #question When does a bug become a feature? Makes me think of the Minecraft creeper story came about due to a pig being coded vertically instead of horizontally
 ## Source[^2]
 - An error in a program or system. The word is usually used to mean a localized implementation error rather than, say, an error introduced at the requirements or system-design stage. See also DEBUGGING.
 ## Source[^3]

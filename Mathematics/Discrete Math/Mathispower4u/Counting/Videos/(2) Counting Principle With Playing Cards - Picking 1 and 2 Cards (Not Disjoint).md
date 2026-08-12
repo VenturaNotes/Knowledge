@@ -31,4 +31,4 @@ Reviewed: false
 					- 11 face cards (after choosing one of the face cards)
 			- Using additive principle here
 		- Solution is 306 for number of ways of selecting a red card and then a face card
-			- #question is this a combination or permutations or separate idea entirely?
+			- [ ] #question is this a combination or permutations or separate idea entirely?

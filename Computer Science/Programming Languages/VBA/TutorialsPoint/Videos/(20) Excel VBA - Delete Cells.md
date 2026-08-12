@@ -16,4 +16,4 @@ Reviewed: false
 	- `Range("b6").EntireRow.Delete`
 		- Cells shift up
 	- `Range("c4").EntireColumn.Delete`
-		- #question it deletes column that `c4` is in but where are cells shifted to?
+		- [ ] #question it deletes column that `c4` is in but where are cells shifted to?

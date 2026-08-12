@@ -2,7 +2,7 @@
 ### Software Development
 - A term that includes [[bug|bugs]] but can also refer to 
 	- usability problems
-		- #question What is meant by usability problems?
+		- [ ] #question What is meant by usability problems?
 	- missing features
 	- performance inefficiencies
 	- any obstacle affecting software's effectiveness

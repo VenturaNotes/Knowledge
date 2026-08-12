@@ -9,7 +9,7 @@ aliases:
 ### Description
 - A "frame" refers to a unit of data transmission at the [[data link layer]] (Layer 2) of the OSI model.
 - Essentially a container that encapsulates packets from the Network Layer, adding control information like headers and trailers to ensure reliable data transmission over the physical network medium
-	- #question what are trailers in this context?
+	- [ ] #question what are trailers in this context?
 - Frames are the final layer of encapsulation before data is sent over the physical layer itself
 ## Source[^1]
 - (1) The total amount of information presented on a display at any one time. 

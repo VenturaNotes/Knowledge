@@ -11,7 +11,7 @@
 6. System allows users to search for documents by keyword
 ## Source [^1]
 - Product features or functions that developers must implement to enable users to accomplish their tasks
-	- #question Could you give some examples of functional requirements in software?
+	- [ ] #question Could you give some examples of functional requirements in software?
 - Generally, functional requirements describe system behavior under specific conditions
 ## Source[^2]
 - If you were to create a URL shortener, some required functional requirements may include

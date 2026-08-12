@@ -6,7 +6,7 @@ aliases:
 ### Description
 - The actual values you pass into the function or method when calling it
 	- They replace the parameters during the call
-		- #question Do they actually replace the parameters or do they just act as the value for the parameter? 
+		- [ ] #question Do they actually replace the parameters or do they just act as the value for the parameter? 
 - Arguments are what you give the function
 
 ### Example

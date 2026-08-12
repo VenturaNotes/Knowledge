@@ -6,7 +6,7 @@ aliases:
 - A stateful object that traverses an [[iterable]] one element at a time and remembers its position during iteration.
 	- Memory-efficient for large datasets by only loading one item at a time
 - An object that implements the iterator protocol, which consists of the following two methods
-	- #question What is meant by iterator protocol?
+	- [ ] #question What is meant by iterator protocol?
 	- [[__iter__() (python)|__iter__()]]
 		- Returns the iterator object itself. Required to allow the iterator to be used in `for` loops and other constructs that expect iterables
 	- [[__next__() (python)|__next__()]]
@@ -43,7 +43,7 @@ TypeError: 'list' object is not an iterator
 - By default, the `list` object is not an iterator. List is an [[iterable]]
 ## Source[^1]
 - An iterator is an object that contains a countable number of values
-	- #question What does countable number mean?
+	- [ ] #question What does countable number mean?
 - An iterator is an object that can be iterated upon, meaning that you can traverse through all the values. 
 - For python, an iterator is an object which implements the iterator protocol which consists of the methods [[__iter__() (python)|__iter__()]] and [[__next__() (python)|__next__()]]
 ## References

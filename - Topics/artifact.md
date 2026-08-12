@@ -4,7 +4,7 @@ aliases:
 ---
 ## Synthesis
 - In Scrum, artifacts are commitments that represent work or value. They are designed to maximize transparency of key information. The three primary Scrum artifacts are:
-    - #question Is there a difference between work or value?
+    - [ ] #question Is there a difference between work or value?
     - [[Product Backlog]]
     - [[Sprint Backlog]]
     - [[Increment]]

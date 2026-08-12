@@ -5,7 +5,7 @@
 ## Source[^2]
 - #comment It seems like this article has broken english 
 - A self-balancing binary search tree where the difference between heights of left and right subtrees for any node cannot be more than one
-	- #question What is meant by binary search tree here? Can't you just say binary tree here? 
+	- [ ] #question What is meant by binary search tree here? Can't you just say binary tree here? 
 ### Example of an AVL Tree
 - ![[Screenshot 2025-12-07 at 8.32.37 PM.png|400]]
 	- #question How do you calculate the balance factors. Isn't the difference here between 12 and 18 the number 6? Or is height just based on distance between two nodes? 

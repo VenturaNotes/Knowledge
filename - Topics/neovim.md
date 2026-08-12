@@ -1,6 +1,6 @@
 ## Synthesis
 - Great for modal editing in Normal, Insert, and Visual modes
-	- #question What does visual mode look like?
+	- [ ] #question What does visual mode look like?
 ### Commands
 - Deletes everything from the cursor to the end of the line (remains in Normal mode).
 	- `D`
@@ -101,6 +101,12 @@ vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "Clear search highl
 - Comment out code
 	- Use `S` to highlight
 	- Then press `gc` to toggle comments on the section (go comment)
+- Run script
+	- `space + r`
+- Move cursor to bottom split and close it
+	- `Ctrl + w + j` (moves to bottom split)
+	- `ESC` (closes the bottom split)
+	- [ ] Maybe create a universal terminal close command such as `space + c` (although need some other command since you already have something else that strats with `space + c` so there would be a delay.
 ### fzf + neo-tree
 - Space + e : Toggles the Neo-tree sidebar.
 - Space + f + f : Triggers fzf-lua to find files by typing their names.

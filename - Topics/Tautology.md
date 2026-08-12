@@ -4,8 +4,8 @@
 - ![[Screenshot 2024-12-10 at 5.08.43 AM.png|300]]
 	- $\lnot A \lor A$ is a tautology because it's always true as shown in the truth table
 	- Useful because you can always substitute a tautology with "True"
-		- #question I would like to see an example of where this is useful
-- #question is a tautology a [[Logical operations|logical operation]]?
+		- [ ] #question I would like to see an example of where this is useful
+- [ ] #question is a tautology a [[Logical operations|logical operation]]?
 
 ## Source[^2]
 - ![[Screenshot 2024-12-12 at 8.02.14 AM.png]]

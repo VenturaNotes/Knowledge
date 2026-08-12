@@ -37,8 +37,8 @@ Reviewed: false
 				- (2) $d(x, y) = d(y, x)$
 					- The distance from x to y should be the same distance from y to x
 					- This means for a map, it's [[symmetric]] (does not matter which is the first or second element. We get the same result)
-						- #question Does being symmetric make it commutative?
-						- #question What is the relationship between symmetry, distributive, associative, and commutative? 
+						- [ ] #question Does being symmetric make it commutative?
+						- [ ] #question What is the relationship between symmetry, distributive, associative, and commutative? 
 				- (3) $d(x,y) \le d(x,z) + d(z, y)$ 
 					- Last property is the [[triangle inequality]]
 						- Now we consider 3 points instead of 2

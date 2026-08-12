@@ -119,7 +119,7 @@ Reviewed: false
 			- For every single index in that version vector, each element is going to be greater or equal to the element from the other version vector.
 			- This means this write has basically taken in all of the information from the other write before actually being written. So we know the dependencies have been properly tracked
 			- If there isn't this relationship (like index 0 of version vector 1 is greater than index 0 of version vector 2 but index 1 of version vector 1 is less than index 1 of version vector 2, then they are probably going to be concurrent and there is no way that one write knew about the other. Hence, we would then need to deal with conflict resolution.)
-				- #question would both cases need to be true though? 
+				- [ ] #question would both cases need to be true though? 
 				- This is how we would use version vectors to determine which writes are concurrent, and then you would have to use some sort of custom application specific conflict resolution logic in order to deal with the fact that there are concurrent writes
 					- Obviously not ideal and if you can avoid conflicts, do so.
 		- All other version vectors are concurrent

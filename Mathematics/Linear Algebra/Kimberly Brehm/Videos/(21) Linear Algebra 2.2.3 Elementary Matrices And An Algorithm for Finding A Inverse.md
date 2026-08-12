@@ -12,7 +12,7 @@ Reviewed: false
 		- The row operation $4R_1 \to R_1$ is equivalent to matrix C and that is a [[transformation]]
 	- Elementary matrices
 		- An [[Elementary Matrices|elementary matrix]] is a matrix obtained by performing one row operation on an [[identity matrix]]
-		- #question don't quite understand the row operations here
+		- [ ] #question don't quite understand the row operations here
 			- Showed [[interchange]] between rows
 		- #comment in the first example, $E_1^{-1}$ is being multiplied by the previous matrix to get the value of $E_1$ 
 		- If multiply the E together, hopefully we get the [[identity matrix]]

@@ -6,7 +6,6 @@
 	- $2^1 = 2$
 	- $2^3 = 8$
 	- So 8 + 2 + 1 = 11 which means $1011_2$ in base 10 is 11
-
 ### First 16 Numbers in Binary Form
 - 0 = $0000_2$
 - 1 = $0001_2$

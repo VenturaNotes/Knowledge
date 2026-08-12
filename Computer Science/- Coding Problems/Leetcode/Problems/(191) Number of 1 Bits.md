@@ -12,7 +12,7 @@ Reviewed: false
 	- #question what is meant by "&"ing? 
 - Can shift the bits to the right by one.
 	- Luckily, most languages can natively support this and it's an efficient [[Central Processing Unit|CPU]] operation
-		- #question What makes an efficient CPU operation. Compilers related? 
+		- [ ] #question What makes an efficient CPU operation. Compilers related? 
 - Bit shift operation more efficient on CPU
 Solution #1 
 ```python

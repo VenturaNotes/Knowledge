@@ -8,7 +8,7 @@ Reviewed: false
 ## Source [^1]
 - ![[Screenshot 2025-01-03 at 12.04.21 AM.png]]
 - Will be given a stream of points
-	- #question what is meant by stream?
+	- [ ] #question what is meant by stream?
 - O(n) loop only iterating through the diagonal list of points
 ```python
 class CountSquares:

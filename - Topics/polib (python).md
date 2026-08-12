@@ -4,8 +4,8 @@ aliases:
 ---
 ## Synthesis
 - A library to parse and handle gettext files (PO, MO)
-	- #question what is (PO, MO)
-	- #question What kind of files are gettext?
+	- [ ] #question what is (PO, MO)
+	- [ ] #question What kind of files are gettext?
 ```python
 import polib
 
@@ -14,7 +14,7 @@ for entry in po:
     print(entry.msgid, '->', entry.msgstr)
 
 ```
-#question I don't understand the code
+- [ ] #question I don't understand the code
 ## Source [^1]
 - 
 ## References

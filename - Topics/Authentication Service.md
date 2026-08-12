@@ -8,9 +8,9 @@
 	- Similarities between authentication service and time-sharing operating systems
 		- Both allow concurrent access to a shared system
 		- Both manage user access to shared memory
-		- #question How does a shared system work
-		- #question What is shared memory
-		- #question What is a time-sharing operating system?
+		- [ ] #question How does a shared system work
+		- [ ] #question What is shared memory
+		- [ ] #question What is a time-sharing operating system?
 ## References
 
 [^1]: [[(Home Page) Glossary by Capterra]]

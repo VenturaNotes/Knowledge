@@ -40,7 +40,7 @@ tags:
 - Session: Manage sessions
 - Presentation: Data formatting
 - Application: [[End-user]] [[interface]]
-	- #question what is meant by interface here?
+	- [ ] #question what is meant by interface here?
 ## Source[^1]
 - 
 ## References

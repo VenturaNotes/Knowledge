@@ -14,7 +14,7 @@ class Solution:
         return len(nums)
 ```
 - I know space complexity: $O(1)$ 
-- #question What is the time complexity? 
+- [ ] #question What is the time complexity? 
 	- Is it $O(n)$ because you might need to remove all elements in the list but at least you can access each value in $O(1)$ time because it's stored as a hash value?
 - Some people suggest that using the `remove` method beats the purpose of the exercise[^1]
 ### Alternative Solution[^2]

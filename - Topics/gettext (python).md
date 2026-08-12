@@ -4,8 +4,8 @@ aliases:
 ---
 ## Synthesis
 - A built-in module that provides internationalization and [[localization (python)|localization]] support for your python applications using [[GNU]] gettext message catalogs
-	- #question What is localization?
-	- #question What is meant by GNU gettext message catalogs? 
+	- [ ] #question What is localization?
+	- [ ] #question What is meant by GNU gettext message catalogs? 
 
 ```python
 import gettext
@@ -16,7 +16,7 @@ _ = gettext.gettext
 print(_("Hello, World!"))
 
 ```
-- #question I don't understand this code
+- [ ] #question I don't understand this code
 ## Source [^1]
 - 
 ## References

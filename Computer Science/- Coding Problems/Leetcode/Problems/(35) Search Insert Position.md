@@ -58,7 +58,7 @@ class Solution:
 			- If mid greater than target, right is mid - 1
 			- If mid less than target, left is mid + 1
 			- If left > right, then break loop and return left.
-		- #question Is there a way so that I could potentially return the "right" side? Does this only work in terms of "right" because we're trying to find a greater number? 
+		- [ ] #question Is there a way so that I could potentially return the "right" side? Does this only work in terms of "right" because we're trying to find a greater number? 
 		- ![[Screenshot 2025-10-07 at 2.19.30 AM.png]]
 			- Binary Search with target found in list
 

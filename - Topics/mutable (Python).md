@@ -16,7 +16,7 @@ b = ["test2"]
 
 print(a)
 ```
-- #question So the output is `["test"]` but shouldn't it be `["test2"]` since a list is a mutable object?
+- [ ] #question So the output is `["test"]` but shouldn't it be `["test2"]` since a list is a mutable object?
 ### Mutable Objects
 - [[List (Python)|list]]
 ```python

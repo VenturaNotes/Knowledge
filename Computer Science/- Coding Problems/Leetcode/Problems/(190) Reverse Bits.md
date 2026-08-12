@@ -8,7 +8,7 @@ Reviewed: false
 ## Source [^1]
 - ![[Screenshot 2024-12-08 at 10.06.24 PM.png|400]]
 - Good idea to refresh yourself on the bit manipulation operations
-	- #question do some research on this
+	- [ ] #question do some research on this
 - Reverse bits of a given 32 bits [[unsigned integer]]
 - Could use logic & for this.
 - For `01 << 1 = 10`

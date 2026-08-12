@@ -13,7 +13,7 @@ Reviewed: false
 			- These are the logical symbols we want to use
 		- "Bad" symbols: $\{\}, \cup, \cap, \subseteq, \mathcal{P}$ 
 			- Symbols we want to get rid of 
-			- #question If the "ok" symbols are called logical symbols, what are the other symbols called? Just set symbols?
+			- [ ] #question If the "ok" symbols are called logical symbols, what are the other symbols called? Just set symbols?
 	- (a) $x \in \cup_{i \in I} (A_i \cup B_i)$ 
 		- x is an element of the set (union over all little 'i' in the set 'I') of $A_i$ union $B_i$ 
 			- Indexed families of sets

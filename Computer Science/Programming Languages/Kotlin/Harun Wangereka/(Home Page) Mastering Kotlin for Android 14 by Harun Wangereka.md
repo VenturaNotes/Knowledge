@@ -19,7 +19,7 @@ Reviewed: false
 		- Google Developer Expert for Android
 	- Currently working at [[Apollo Agriculture]]
 		- “make financing accessible to small-scale farmers.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=5&annotation=NH3N6HVQ))
-			- #question what is meant by financing?
+			- [ ] #question what is meant by financing?
 		- “Agent's App and Agro-Dealers App.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=5&annotation=CP4M8BDN))
 
 ### About the Reviewers
@@ -131,9 +131,9 @@ Reviewed: false
 ### (6) Network Calls with Kotlin Coroutines
 - Shows how to perform network calls with a networking library, [[Retrofit]]
 	- Shows how to consume [[Application Programming Interface|Application Programming Interfaces]] using this library
-		- #question what is meant by "consume"? Seems like a weird word
+		- [ ] #question what is meant by "consume"? Seems like a weird word
 - Covers how to take advantage of Kotlin coroutines to perform [[asynchronous network requests]]
-	- #question I think Kotlin has its own type of coroutines? 
+	- [ ] #question I think Kotlin has its own type of coroutines? 
 #### (6.1) Technical requirements
 #### (6.2) Setting up Retrofit
 #### (6.3) Introduction to Kotlin coroutines
@@ -188,7 +188,7 @@ Reviewed: false
 #### (10.6) Summary
 ### (11) Enhancing Code Quality
 - “how to use plugins such as Ktlint and Detekt to format, lint, and detect [[code smells]] early.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=15&annotation=ANQ7IGQX))
-	- #question what are code smells?
+	- [ ] #question what are code smells?
 #### (11.1) Technical requirements
 #### (11.2) Mastering Kotlin style and best practices
 ##### (11.2.1) Coding conventions

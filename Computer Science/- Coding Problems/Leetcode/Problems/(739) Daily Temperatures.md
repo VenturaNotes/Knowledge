@@ -13,7 +13,7 @@ Reviewed: false
 		- What this means is that our stack is going to be in decreasing order. That's what monotonic means. It's always in decreasing order.
 		- Not strictly decreasing but could be equal as well
 		- [[Monotonic Stack]]
-- #question why is stack better here than basic array? 
+- [ ] #question why is stack better here than basic array? 
 - Can get output in Linear time using a stock O(n)
 - Monotonically decreasing stack gives O(n) time and O(n) memory
 - Enumerate means you get the value and index at the same time

@@ -5,7 +5,7 @@ aliases:
 ---
 ## Synthesis
 - The IBM Turboways ATM 155 PCI network interface card was a card that provided connectivity to ATM networks at speeds up to 155Mbps
-	- #question when was this card made?
+	- [ ] #question when was this card made?
 ## Source [^1]
 - Internal to a computer and required to connect the computer to a network
 - ![[Screenshot 2025-01-22 at 2.55.33 AM.png|200]]

@@ -5,7 +5,7 @@
 	- [[Product Owner]]
 	- [[Scrum Master]]
 	- [[Development Team]]
-- #question Are there any other roles in scrum?
+- [ ] #question Are there any other roles in scrum?
 ### Scrum Events
 - Five formal events in scrum:
 	- [[Sprint planning]]

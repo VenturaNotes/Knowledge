@@ -25,7 +25,7 @@ aliases: permutations
 - Given CAT, find the total number of permutations
 	- Permutations = $n!$ = 3! = 6
 		- CAT, CTA, TAC, TCA, ACT, ATC
-		- #question What happens when we have repeated characters? 
+		- [ ] #question What happens when we have repeated characters? 
 
 ## Source[^3]
 - (of a set $S$ ) A bijection of $S$ onto itself. When $S$ is finite, a permutation can be portrayed as a rearrangement of the elements of $S$. The number of permutations of a set of $n$ elements is $n!$

@@ -244,15 +244,15 @@ System.out.println(myNum);
 ```
 - (4) Integer types are used to store:
 	- Whole numbers
-		- #question What is the difference between whole numbers and integers? Can whole numbers be a subset of the integers similar to the natural numbers?
+		- [ ] #question What is the difference between whole numbers and integers? Can whole numbers be a subset of the integers similar to the natural numbers?
 - (5) Which is NOT a valid integer type?
 	- size
-		- #question What is `short` as an integer type? If it exists?
+		- [ ] #question What is `short` as an integer type? If it exists?
 - (6) A `float` variable has greater precision than `double`.
 	- False
 - (7) What is the correct letter suffix to use for float values?
 	- `f`
-		- #question Why do we need this?
+		- [ ] #question Why do we need this?
 ## Boolean Types
 - (1) Drag and drop the correct keyword to declare a boolean variable named `isSunny`
 ```java
@@ -1229,7 +1229,7 @@ static double plusMethod(double x, double y) {
 - (2) What does method overloading mean?
 	- That multiple methods can have the same name with different parameters
 - (3) True or False: Multiple methods can have the same name as long as the number and type of parameters are different
-	- #question Do they both need to be true or is either or okay?
+	- [ ] #question Do they both need to be true or is either or okay?
 	- True
 - (4) Is this an example of overloading?
 ```java
@@ -1250,7 +1250,7 @@ public static void main(String[] args) {
 
 // Answer: Yes
 ```
-- #question How does java know which method to use when overloading? How is it stored?
+- [ ] #question How does java know which method to use when overloading? How is it stored?
 ## Scope
 - (1) Drag and drop the variable that is OUT OF SCOPE outside the inner block
 ```java
@@ -1264,7 +1264,7 @@ public class Main {
 	System.out.println(y); //Error if you try this
 }
 ```
-- #question How is the scope changing within `int y = 20`;? Why are you able to just randomly add the `{}` braces in a method? Does this only work in a main method?
+- [ ] #question How is the scope changing within `int y = 20`;? Why are you able to just randomly add the `{}` braces in a method? Does this only work in a main method?
 - (2) Will this example work?
 ```java
 public class Main {
@@ -1604,40 +1604,40 @@ public class Main {
 ## Abstraction
 - (1) Which of the following statements best describes abstraction in Java?
 	- Abstraction is the process of hiding certain details and showing only essential information to the user
-		- #question What does this look like in Java? 
+		- [ ] #question What does this look like in Java? 
 - (2) Which keyword is used to create an abstract class or method?
 	- abstract
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (3) True or False: Abstraction can only be achieved with public classes
 	- False
-		- #question I guess protected classes true? What other types of classes can you abstract?
+		- [ ] #question I guess protected classes true? What other types of classes can you abstract?
 ## Interface
 - (1) Which keyword is used to implement an interface?
 	- implements
-		- #question What does implements do?
-		- #question What does an example look like?
-		- #question What is an interface?
+		- [ ] #question What does implements do?
+		- [ ] #question What does an example look like?
+		- [ ] #question What is an interface?
 - (2) True or False: An interface is a completely "abstract class"
 	- True
-		- #question What does that mean?
+		- [ ] #question What does that mean?
 - (3) To implement multiple interfaces, separate them with a
 	- comma (,)
-		- #question What does this look like in java code?
+		- [ ] #question What does this look like in java code?
 - (4) True or False: Interfaces can be used to create object
 	- False
-		- #question Why not?
+		- [ ] #question Why not?
 - (5) True or False: An interface can contain a constructor
 	- False
-		- #question Why not?
+		- [ ] #question Why not?
 ## Enums
 - (1) How can you access enum constants?
 	- With a dot (.)
-		- #question What is an enum constant?
-		- #question What does it look like in Java?
+		- [ ] #question What is an enum constant?
+		- [ ] #question What does it look like in Java?
 - (2) What is an enum?
 	- A special class that represents a group of constants
-		- #question What does it look like?
-		- #question Does this exist in python as well and what would it look like?
+		- [ ] #question What does it look like?
+		- [ ] #question Does this exist in python as well and what would it look like?
 - (3) Consider the code
 ```java
 enum Level {
@@ -1658,25 +1658,25 @@ for (Level myvar : Level.values()) {
 ## User Input
 - (1) What is a correct syntax to create a Scanner object?
 	- `Scanner myObj = new Scanner(System.in);`
-		- #question What library / module do you need to import for this to work?
+		- [ ] #question What library / module do you need to import for this to work?
 - (2) Fill in the missing parts to import the `java.util.Scanner` class from the Java API
 	- `import java.util.Scanner;`
 - (3) Which method is used to read Strings from input?
 	- The `nextLine()` method
-		- #question What would an example look like?
+		- [ ] #question What would an example look like?
 - (4) What method is used to read integers from input?
 	- The `nextInt()` method.
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 ## Date
 - (1) What is a correct syntax to create a Date object?
 	- `LocalDate myObj = LocalDate.now();`
-		- #question Isn't there a Date object you could use to create this though?
+		- [ ] #question Isn't there a Date object you could use to create this though?
 - (2) Which package can be imported to work with date and time?
 	- The `java.time` package
-		- #question What does an example of this look like?
+		- [ ] #question What does an example of this look like?
 - (3) Which class can be used to display the current date and time?
 	- The `LocalDateTime` class
-		- #question What package does `LocalDateTime` come from?
+		- [ ] #question What package does `LocalDateTime` come from?
 ## Exceptions
 - (1) When an error occurs, Java will normally stop and generate an error message. The technical term for this is 
 	- Exception
@@ -1703,52 +1703,52 @@ try {
 ```
 - (4) You can also create a custom error with the 
 	- throw statement
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 ## Files
 - (1) What is a correct syntax to create a File object that represents a file called `filename.txt?`
 	- `File myObj = new("filename.txt");`
 		- #comment I assumed this because you are able to read string and int from a document. 
-		- #question Are you able to read integers from a txt file? 
+		- [ ] #question Are you able to read integers from a txt file? 
 - (2) Fill in the missing parts to import the File class
 	- `import java.io.File;`
 - (3) Which method can be used to test whether a file is writable or not?
 	- `canWrite()`
-		- #question What does this look like in action?
+		- [ ] #question What does this look like in action?
 ## Create and Write Files
 - (1) Which method can be used to create a file?
 	- `createNewFile()`
-		- #question Is there a `createFile()` method?
+		- [ ] #question Is there a `createFile()` method?
 - (2) Which class is used to write to a file?
 	- The `FileWriter` class
-		- #question What does this look like in action?
+		- [ ] #question What does this look like in action?
 - (3) Which method can be used to close the file?
 	- `close()`
-		- #question What does an example look like? 
+		- [ ] #question What does an example look like? 
 ## Read Files
 - (1) Which method can be used to get the name of a file?
 	- `getName()`
-		- #question What does this look like in practice?
+		- [ ] #question What does this look like in practice?
 - (2) Which class is used to read the contents of a text file?
 	- The Scanner class
-		- #question How does this work?
+		- [ ] #question How does this work?
 - (3) Which method can be used to get the size of a file?
 	- `length()`
-		- #question Why is the `()` required here for length?
+		- [ ] #question Why is the `()` required here for length?
 ## Delete Files
 - (1) Which method can be used to delete a file?
 	- `delete()`
-		- #question What does this look like in action?
+		- [ ] #question What does this look like in action?
 - (2) True or False: You must import the File Class to be able to delete files
 	- True
 - (3) True or False: You can't delete a folder if it contain files. 
 	- True
-		- #question Is there not a method to override this limitation?
+		- [ ] #question Is there not a method to override this limitation?
 ## ArrayList
 - (1) True or False: An ArrayList is a fixed-size array, while a regular array is resizable.
 	- False
 - (2) Which method can be used to add elements to the ArrayList?
 	- The `add()` method
-		- #question What does this look like in practice?
+		- [ ] #question What does this look like in practice?
 - (3) In the following example, where is "Mazda" placed in the list?
 ```java
 ArrayList<String> cars = new ArrayList<String>();
@@ -1772,14 +1772,14 @@ System.out.println(cars.get(2));
 - Ford
 - (6) Use the correct method to find out how many elements there are in an ArrayList
 	- `myList.size()`
-		- #question How to know when to use `size()` or `length()` or `length`
+		- [ ] #question How to know when to use `size()` or `length()` or `length`
 ## LinkedList
 - (1) True or False: The LinkedList class is a collection which can contain many objects of the same type
 	- True
-		- #question Do the objects need to be of the same type?
+		- [ ] #question Do the objects need to be of the same type?
 - (2) Which method can be used to add elements to a LinkedList?
 	- The `add()` method
-		- #question What does this look like in practice?
+		- [ ] #question What does this look like in practice?
 - (3) In the following example, where is "Mazda" placed in the list?
 ```java
 LinkedList<String> cars = new LinkedList<String>();
@@ -1792,7 +1792,7 @@ cars.add(2, "Mazda");
 - Between BMW and Ford
 - (4) Which method can be used to add an item to the beginning of the list?
 	- `addFirst()`
-		- #question What does an example look like?
+		- [ ] #question What does an example look like?
 ## List Sorting
 - (1) Consider the following example
 ```java
@@ -1804,14 +1804,14 @@ cars.add("Mazda");
 ```
 - How can you sort the ArrayList alphabetically in ascending order?
 	- `Collections.sort(cars);`
-		- #question What is collections?
-		- #question How do I import collections?
-		- #question What would an example look like here?
-		- #question Does this modify the `ArrayList<String>` itself?
+		- [ ] #question What is collections?
+		- [ ] #question How do I import collections?
+		- [ ] #question What would an example look like here?
+		- [ ] #question Does this modify the `ArrayList<String>` itself?
 - (2) Which method can be used to sort a list in reverse order?
 	- The `reverseOrder()` method
-		- #question Is this talking about an ArrayList?
-		- #question What does this look like in action?
+		- [ ] #question Is this talking about an ArrayList?
+		- [ ] #question What does this look like in action?
 - (3) Fill in the blanks to sort myNumbers numerically
 ```java
 ArrayList myNumbers = new ArrayList();
@@ -1824,26 +1824,26 @@ myNumbers.add(12);
 
 Collections.sort(myNumbers)
 ```
-- #question What does the output look like here?
+- [ ] #question What does the output look like here?
 ## HashSet
 - (1) What is a correct syntax to create a HashSet object that will store strings?
 	- `HashSet<String> myObj = new HashSet<String>();`
-		- #question What does an example look like?
+		- [ ] #question What does an example look like?
 - (2) Which method can be used to add items to a HashSet?
 	- The `add()` method
-		- #question Example please
+		- [ ] #question Example please
 - (3) Use the correct method to find out how many items there are in a HashSet
 	- `mySet.size()`
 - (4) Fill in the missing parts to import the HashSet class from the java.util package
 	- `import java.util.HashSet`
-		- #question What does util stand for?
-		- #question Why would you use a HashSet in Java?
+		- [ ] #question What does util stand for?
+		- [ ] #question Why would you use a HashSet in Java?
 ## HashMap
 - (1) A HashMap 
 	- stores items in key/value pairs
 - (2) Which method can be used to add items to a HashMap?
 	- The `put()` method
-		- #question What does this look like?
+		- [ ] #question What does this look like?
 - (3) Fill in the blanks to remove "Norway" from a HashMap
 	- `capitalCities.remove("Norway");`
 - (4) Use the correct method to find out how many items there are in a HashMap
@@ -1851,8 +1851,8 @@ Collections.sort(myNumbers)
 ## Iterator
 - (1) What is a correct syntax to create an Iterator object named `it` for a `cars` collection?
 	- `Iterator<String> it = cars.iterator();`
-		- #question What is meant by collection here?
-		- #question What does an iterator object do?
+		- [ ] #question What is meant by collection here?
+		- [ ] #question What does an iterator object do?
 - (2) Fill in the missing parts to import the Iterator class from the `java.util` package
 	- `import java.util.Iterator;`
 - (3) True or False: It is called an "iterator" because "iterating" is the technical term for looping
@@ -1863,42 +1863,42 @@ while (it.hasNext()) {
 	System.out.println(it.next())
 }
 ```
-- #question If the collection only has one item, will it still print that one item or null because there is no other element after the first?
+- [ ] #question If the collection only has one item, will it still print that one item or null because there is no other element after the first?
 ## Wrapper Classes
 - (1) To create a wrapper object of an `int` type called `myInt`, which of the following is used?
 	- `Integer myInt = 5;`
-		- #question How is this a wrapper? Why would you use `Integer` instead of `int`. 
-		- #question Is `String myString = "Hello"` considered a wrapper?
+		- [ ] #question How is this a wrapper? Why would you use `Integer` instead of `int`. 
+		- [ ] #question Is `String myString = "Hello"` considered a wrapper?
 - (2) True or False: Wrapper classes provide a way to use primitive data types as objects
 	- True
-		- #question Why would you want to use them as objects? Is it so you can create methods for the primitive data type?
+		- [ ] #question Why would you want to use them as objects? Is it so you can create methods for the primitive data type?
 - (3) Fill in the blanks to create a wrapper object of a `char` type
 	- `Character myChar = 'B';`
 - (4) Fill in the blanks to create a wrapper object of a double type
 	- `Double myDouble = 9.99`
-		- #question What are all the wrapper objects you can use?
-		- #question What type of keyword is `Double` or `String` known as? Is it a wrapper class? Do you need to import this? Does it always need to start with a capital letter?
+		- [ ] #question What are all the wrapper objects you can use?
+		- [ ] #question What type of keyword is `Double` or `String` known as? Is it a wrapper class? Do you need to import this? Does it always need to start with a capital letter?
 ## Regular Expressions
 - (1) What is a regular expression?
 	- A sequence of characters that forms a search pattern
 - (2) Fill in the missing parts to import the correct package to work with regular expressions
 	- `import java.util.regex`
-		- #question Why is the `r` in `regex` lowercase here?
+		- [ ] #question Why is the `r` in `regex` lowercase here?
 - (3) How can you use an expression to find one character from the range 0 to 9?
 	- `[0-9]`
-		- #question What would an example look like?
+		- [ ] #question What would an example look like?
 - (4) What does the Pattern Class do?
 	- Defines a pattern
-		- #question What does an example look like?
+		- [ ] #question What does an example look like?
 - (5) What does the Matcher Class do?
 	- Used to search for the pattern
-		- #question What does an example look like?
+		- [ ] #question What does an example look like?
 ## Threads
 - (1) One way to create a thread is
 	- By extending the Thread class and overriding its `run` method.
-		- #question What is the difference between implementing, importing, and extending?
-		- #question What does an example look like?
-	- #question What are the other ways in java?
+		- [ ] #question What is the difference between implementing, importing, and extending?
+		- [ ] #question What does an example look like?
+	- [ ] #question What are the other ways in java?
 - (2) Another way to create a thread is
 	- By implementing the Runnable Interface
 		- #question What does this look like?
@@ -1910,11 +1910,11 @@ while (it.hasNext()) {
 	- A short block of code that takes in parameters and returns a value
 - (2) The simplest lambda expression contains a single parameter and an expression. Fill in the missing part to finish the syntax:
 	- parameter -> expression
-		- #question How does this work? Why are we able to use an arrow?
-		- #question Is there something is java which contains `::`?
+		- [ ] #question How does this work? Why are we able to use an arrow?
+		- [ ] #question Is there something is java which contains `::`?
 - (3) Fill in the blanks to use more than one parameter:
 	- `(parameter1, parameter2) -> expression`
-		- #question Give a working example in java
+		- [ ] #question Give a working example in java
 - (4) Fill in the blanks to use a lambda expression in the ArrayList's forEach() method to print every item in the list:
 ```java
 ArrayList numbers = new ArrayList();
@@ -1924,16 +1924,16 @@ numbers.add(8);
 numbers.add(1);
 numbers.forEach( (n) -> {System.out.println(n);});
 ```
-- #question Does the above code print out every element of the ArrayList?
-- #question Why did we not need to specify the type of ArrayList for this problem?
-- #question What does for-each loops look like again? 
+- [ ] #question Does the above code print out every element of the ArrayList?
+- [ ] #question Why did we not need to specify the type of ArrayList for this problem?
+- [ ] #question What does for-each loops look like again? 
 ## Advanced Sorting
 - (1) The Comparable interface allows
 	- An object to specify its own sorting rule with a compareTo() method
-		- #question What does an example look like?
+		- [ ] #question What does an example look like?
 - (2) True or False: A comparator is an object with one method that is used to compare two different objects
 	- True
-		- #question What does this look like in practice?
+		- [ ] #question What does this look like in practice?
 - (3) True or False: A comparable is an object which can compare itself with other objects.
 	- True
-		- #question Give an example of this 
+		- [ ] #question Give an example of this 

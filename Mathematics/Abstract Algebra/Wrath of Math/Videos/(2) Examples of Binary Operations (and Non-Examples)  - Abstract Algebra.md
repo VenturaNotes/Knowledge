@@ -49,7 +49,7 @@ Reviewed: false
 				- Addition is not a binary operation on this set because it is not closed on the set of odd positive integers
 					- 3 + 3 = 6
 				- Could easily prove that the addition of any two odd integers is an even integer
-					- #question How to prove this? 
+					- [ ] #question How to prove this? 
 			- multiplication
 				- It is a binary operation on this set
 				- It's a function

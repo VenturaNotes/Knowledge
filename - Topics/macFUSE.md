@@ -14,40 +14,40 @@ tags:
 		- In the context of archives (like .zip, .tar, or .`rar` files), extracting refers to the process of decompressing and copying the files out of the archive and onto your actual hard drive.
 			- Standard Extraction
 				- macOS must "unpack" the entire file. If you have a 10GB archive and only need one photo, you usually have to wait for the system to extract the data to a folder before you can use it.
-					- #question Is "unpack" a technical term? How does it unpack?
+					- [ ] #question Is "unpack" a technical term? How does it unpack?
 			- With macFUSE 
 				- The archive is "mounted" like a virtual USB drive. You can open that one photo instantly because the system reads it directly from the archive without creating a separate, uncompressed copy on your disk.
-					- #question But. how is macFUSE able to read it if the archive is compressed (like .zip?)
-		- #question What does a FUSE-based file system look like? 
-		- #question But what makes specialized archives different from network file systems and encrypted file systems? Are network file systems and encrypted file systems a type of specialized archives?
-		- #question What is an example of these types of file systems?
+					- [ ] #question But. how is macFUSE able to read it if the archive is compressed (like .zip?)
+		- [ ] #question What does a FUSE-based file system look like? 
+		- [ ] #question But what makes specialized archives different from network file systems and encrypted file systems? Are network file systems and encrypted file systems a type of specialized archives?
+		- [ ] #question What is an example of these types of file systems?
 	- Examples of specialized archives
-		- #question Why is it called a specialized archive? What is meant by archive?
+		- [ ] #question Why is it called a specialized archive? What is meant by archive?
 		- Disk images with unusual formats
-			- #question What is a disk image? 
+			- [ ] #question What is a disk image? 
 			- While macOS supports disk image formats such as `.dmg`, macFUSE can access less common or proprietary disk image formats.
-				- #question What are some examples?
+				- [ ] #question What are some examples?
 		- Encrypted containers
 			- File systems like Cryptomator or EncFS use FUSE to mount encrypted folders like regular drives to work with encrypted files transparently.
-				- #question Is FUSE only for mac? 
-				- #question What is Cryptomator?
-				- #question What is EncFS? 
-				- #question Would VeraCrypt be an example?
-				- #question What is FUSE?
+				- [ ] #question Is FUSE only for mac? 
+				- [ ] #question What is Cryptomator?
+				- [ ] #question What is EncFS? 
+				- [ ] #question Would VeraCrypt be an example?
+				- [ ] #question What is FUSE?
 		- Cloud storage as a local drive
 			- Some cloud storage solutions use FUSE to make remote storage appear as a local folder on your Mac.
-				- #question Which cloud storage solutions do this?
-				- #question Why would they use FUSE? Is this because macOS wouldn't recognize them?
+				- [ ] #question Which cloud storage solutions do this?
+				- [ ] #question Why would they use FUSE? Is this because macOS wouldn't recognize them?
 		- Virtual file systems for specific applications
 			- An application might store its data in a complex, proprietary archive format. A FUSE file system could be developed to expose the contents of this archive as a standard directory structure, making it easier for users or other applications to interact with the data.
-				- #question Is this like the VirtualBox?
-				- #question What is meant by archive format? Do you mean like a zip folder or is it something different?
+				- [ ] #question Is this like the VirtualBox?
+				- [ ] #question What is meant by archive format? Do you mean like a zip folder or is it something different?
 		- Version control repositories
 			- Tools like `git-fs` (though not widely used on macOS) could potentially expose a Git repository's history as a browsable file system.
 - The predecessor to macFUSE is OSXFUSE
-	- #question Why did it update or rather why did they change their name? Is it similar to how the developers worked on Dynalist and then created something called Obsidian?
+	- [ ] #question Why did it update or rather why did they change their name? Is it similar to how the developers worked on Dynalist and then created something called Obsidian?
 - macFUSE provides the framework for developers to define how macOS should interact with data sources that aren't inherently designed to be file systems, but make them behave like one
-	- #question What software do you need to develop something which uses the macFUSE framework? 
+	- [ ] #question What software do you need to develop something which uses the macFUSE framework? 
 ## Organize
 Here are the answers to your questions:
 

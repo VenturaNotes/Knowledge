@@ -22,32 +22,31 @@ tags:
 			- Predicting stock prices or economic indicators.
 		- Recommendation Systems
 			- Suggesting products or content to users based on their past behavior.
-	- #question Are the problems always just predictions
-	- #question Only machine learning models or other types of models? 
-	- #question How accurate are machine learning models when it comes to forecasting data? What kinds of forecasting techniques are there? (like time-series data, etc.)
-	- #question What kinds of machine learning models are there? 
-	- #question What other kinds of models are there aside from machine learning models. 
-	- #question What kind of problems would these be? Could you give an example? 
+	- [ ] #question Are the problems always just predictions
+	- [ ] #question Only machine learning models or other types of models? 
+	- [ ] #question How accurate are machine learning models when it comes to forecasting data? What kinds of forecasting techniques are there? (like time-series data, etc.)
+	- [ ] #question What kinds of machine learning models are there? 
+	- [ ] #question What other kinds of models are there aside from machine learning models. 
+	- [ ] #question What kind of problems would these be? Could you give an example? 
 - Examples
 	- For classification, the task is to predict a discrete category or class label. This describes the output. The objective for a classification task is to correctly assign an input data point to one of several predefined categories or classes.  The model aims to learn a decision boundary that separates these classes in the feature space.
-		- #question What is a decision boundary
-		- #question What is the feature space? 
-		- #question What is meant by discrete category? Is discrete category a term itself or is "discrete" the term of interest. Is "discrete" category a part of the field of category theory similar to mathematics? 
+		- [ ] #question What is a decision boundary
+		- [ ] #question What is the feature space? 
+		- [ ] #question What is meant by discrete category? Is discrete category a term itself or is "discrete" the term of interest. Is "discrete" category a part of the field of category theory similar to mathematics? 
 	- For regression, the task is to predict a continuous numerical value
 		- The objective for a regression task is to predict a continuous numerical value that is as close as possible to the true target value, based on the input features. The model aims to learn the underlying relationship or trend between the input variables and the continuous output variable.
-			- #question How do we know what the true target value is?
-			- #question But wouldn't the model learning the underlying relationship be biased towards a regression? What happens if the relationship is different from a regression? How do we know which type of trend to choose in this case?
-			- #question Give a full example of input variables and output variables and maybe create a demo program of a supervised regression task python program (or preferred language for this type of work)
-		- #question What is the objective?
-	- #question Wait, is classification and regression a type of task or what? 
+			- [ ] #question How do we know what the true target value is?
+			- [ ] #question But wouldn't the model learning the underlying relationship be biased towards a regression? What happens if the relationship is different from a regression? How do we know which type of trend to choose in this case?
+			- [ ] #question Give a full example of input variables and output variables and maybe create a demo program of a supervised regression task python program (or preferred language for this type of work)
+		- [ ] #question What is the objective?
+	- [ ] #question Wait, is classification and regression a type of task or what? 
 - So here, the task is the specific problem or objective that the supervised learning algorithm is trying to achieve.
 ### Examples of Problems
-- #question Of the example problems, could you tell me what kind of model would be best used for each of the examples of above and the equations required?
+- [ ] #question Of the example problems, could you tell me what kind of model would be best used for each of the examples of above and the equations required?
 - Finding the best model to use depends on many factors such as data size, complexity, performance requirements, and interpretability. Often multiple models can be applied.
-	- #question What does interpretability mean?
-	- #question Could you tell me why certain models might be good or bad depending on the factors listed above?
-	- #question When you say multiple models can be applied, do you mean applied at once or sequentially? 
-		- 
+	- [ ] #question What does interpretability mean?
+	- [ ] #question Could you tell me why certain models might be good or bad depending on the factors listed above?
+	- [ ] #question When you say multiple models can be applied, do you mean applied at once or sequentially? 
 - It's important to note that "best" can depend on many factors (data size, complexity, performance requirements, interpretability), and often multiple models can be applied. Providing "equations required" for each would be very extensive, so I'll describe the core mathematical principles or operations involved.
 
     *   **Image Recognition:**

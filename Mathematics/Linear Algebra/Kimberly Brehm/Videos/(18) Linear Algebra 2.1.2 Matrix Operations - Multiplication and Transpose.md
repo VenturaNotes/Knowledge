@@ -38,7 +38,7 @@ Reviewed: false
 	- Warning!
 		- In general, AB $\ne$ BA
 			- Powers of a matrix
-				- #question what does this mean?
+				- [ ] #question what does this mean?
 			- Example shown in image
 		- If AB = AC, it is not required that B = C
 			- Exercise 10 is a good example of this in textbook

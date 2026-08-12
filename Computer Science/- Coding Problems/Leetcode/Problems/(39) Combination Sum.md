@@ -7,11 +7,11 @@ tags:
 ---
 ## Synthesis
 - This is a classic backtracking / DFS search tree problem
-	- #question Is there a difference between both or are they just the same names in this case?
+	- [ ] #question Is there a difference between both or are they just the same names in this case?
 - Thought Process: Every number can be either
 	- Chosen again (same index due to unlimited use)
 		- Since we are given `distinct` integers in `candidates`, each element is already unique within it. 
-		- #question Is it already ordered though?
+		- [ ] #question Is it already ordered though?
 	- Skipped (moving to next index)
 - So essentially the search tree tries all the paths until the sum hits or exceeds the target
 - Drawing solution to example #1

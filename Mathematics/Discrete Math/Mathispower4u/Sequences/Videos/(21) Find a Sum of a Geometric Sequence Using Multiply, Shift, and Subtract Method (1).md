@@ -9,4 +9,4 @@ Reviewed: false
 			- Can use this method because we have a sum of a geometric sequence
 			- Only works when we have a sum of a geometric sequence or a geometric series
 			- When shifting, we want to shift to the right
-				- #question Does this apply to all examples? 
+				- [ ] #question Does this apply to all examples? 

@@ -2,7 +2,7 @@
 - 
 ## Source [^1]
 - A Persian scholar who lived around 800
-	- #question Is that AD or BC?
+	- [ ] #question Is that AD or BC?
 ## Source[^2]
 - Pronunciation
 ## References

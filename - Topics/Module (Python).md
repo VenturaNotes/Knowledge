@@ -45,9 +45,9 @@ pi = "Hello world" #Now the value of "pi" will no longer be the constant above
 - The `math` is a python module we're importing from. It contains various mathematical functions and constants
 - `import pi` lets us directly use `pi` without having to prefix it with `math.`
 - In summary, `from module import name` imports a specific element (function, class, variable) from a module and assigns it a name in current [[Namespace (Python)|namespace]]
-- #question What are all the built-in python modules? 
-- #question How do [[constant (python)|constants]] in python work? 
-- #question What are constants typically supposed to do in computer programming? We usually don't want to overwrite a variable but we need to watch out.
+- [ ] #question What are all the built-in python modules? 
+- [ ] #question How do [[constant (python)|constants]] in python work? 
+- [ ] #question What are constants typically supposed to do in computer programming? We usually don't want to overwrite a variable but we need to watch out.
 
 ## Source [^1]
 ```python

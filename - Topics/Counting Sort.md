@@ -1,14 +1,14 @@
 ## Synthesis
 - A non-comparison-based sorting algorithm that works by counting the number of occurrences of each distinct element in the input array.
 	- Then these counts are used to determine the positions of each element in the sorted output array.
-- #question Can you use negative numbers in counting sort?
+- [ ] #question Can you use negative numbers in counting sort?
 ### When to use it
-- #question What is a better title that I could give this? 
+- [ ] #question What is a better title that I could give this? 
 - Works best when the range of numbers (min to max) is not too large. 
-	- #question When is the range considered large? 
+	- [ ] #question When is the range considered large? 
 - You're sorting integers (not floats or strings)
-	- #question So this means it can handle negative numbers? 
-	- #question Why is it unable to handle floats? 
+	- [ ] #question So this means it can handle negative numbers? 
+	- [ ] #question Why is it unable to handle floats? 
 ### Example
 - We want to sort this list
 	- `arr = [4, 2, 2, 8, 3, 3, 1]`

@@ -1,9 +1,9 @@
 ## Synthesis
 - Refers to how strictly a programming language enforces type rules
-	- #question What are type rules?
+	- [ ] #question What are type rules?
 - In a strongly typed language
 	- Every variable and expression has a specific type
-		- #question What is the difference between a variable and expression in programming?
+		- [ ] #question What is the difference between a variable and expression in programming?
 	- Can't perform operations on mismatched types without explicit conversion
 - Characteristics of Strong Typing
 	- Type Safety: Operations involving different types require explicit conversions (adding string to a number)

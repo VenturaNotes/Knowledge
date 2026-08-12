@@ -9,4 +9,4 @@ Reviewed: false
 			- (1) Digits cannot be repeated and must be written in increasing order. For example, 2367 is okay, but 3267 is not.
 			- (2) Digits can be repeated and must be written in non-decreasing order. For example, 2448 is okay, but 2484 is not.
 				- Using stars and bars for this problem
-				- #question What if you could write it in decreasing order (especially with stars and bars where order does not matter?)
+				- [ ] #question What if you could write it in decreasing order (especially with stars and bars where order does not matter?)

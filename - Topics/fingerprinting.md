@@ -11,7 +11,7 @@
 	- Computer's display size and resolution
 - A website can retrieve this information by executing JavaScript and CSS on the device, and combining this data can often create a unique fingerprint for a browser, which can then be used to track users across the web
 - Web standards are designed to minimize the ability of a website to collect identifying information, and browsers typically add their own protections as well
-- #question How does it know which websites I visit?
+- [ ] #question How does it know which websites I visit?
 ## References
 
 [^1]: https://developer.mozilla.org/en-US/docs/Glossary/Fingerprinting

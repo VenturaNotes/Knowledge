@@ -10,7 +10,7 @@
 - The mathematical theory and planning of multistage decision processes; the term was introduced by Richard Bellman in 1957. It may be regarded as a branch of mathematical programming concerned with optimization of problems formulated as a sequence of decisions. Applications are very varied, including engineering problems and company planning.
 ## Source[^4]
 - Dynamic programming approach is used when the solution has optimal substructure and overlapping problems
-	- #question What is meant by optimal substructure?
+	- [ ] #question What is meant by optimal substructure?
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -35,7 +35,7 @@ if "banana" in fruits:
 ```
 - This keyword has two purposes:
 	- Check if a value present in a sequence (list, range, string, etc.)
-		- #question Are lists considered sequences in python?
+		- [ ] #question Are lists considered sequences in python?
 	- Used to iterate through a sequence in a `for` loop
 ## References
 

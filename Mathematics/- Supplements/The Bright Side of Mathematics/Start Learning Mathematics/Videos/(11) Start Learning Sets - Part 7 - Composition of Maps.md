@@ -41,4 +41,4 @@ Reviewed: false
 					- We get out the corresponding identity maps
 				- These two equalities explain why the name inverse map fits and why the notation $f^{-1}$  is also useful
 				- With respect to the composition, they cancel out into the identity map
-				- #question I don't understand why we use inverse f here?
+				- [ ] #question I don't understand why we use inverse f here?
