@@ -3668,15 +3668,15 @@ Year: 2021-09-01
 	2371. rose
 	2372. rotation
 	2373. rotational kinetic energy
-	2374. rotational symmetry
+	2374. [[rotational symmetry]]
 	2375. rotation of axes
 	2376. Roth's Theorem
 	2377. rough surface
 	2378. round
-	2379. round-off error
+	2379. [[round-off error]]
 	
 	2380. round angle
-	2381. rounding
+	2381. [[rounding]]
 	2382. route inspection problem
 	2383. row
 	2384. row equivalence(of matrices)
