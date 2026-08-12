@@ -6,7 +6,7 @@ aliases:
 - Right Triangle Formula
 	- $tan\theta = \frac {\text{opp}}{\text{adj}}$
 ### Questions
-- #question Talk about details of the inverse
+- [ ] #question Talk about details of the inverse
 ## Source [^1]
 - Periodic with period $\pi$
 ## Source [^2]

@@ -11,6 +11,7 @@ aliases:
 	- $2 \div 2 = 1$ remainder 0
 	- $1 \div 2 = 0$ remainder 1
 	- Reading remainders bottom-up: $101_2$ 
+	- #comment So it seems like you stop once you get a result of 0 and a remainder of 
 ## Source [^1]
 - 
 ## References

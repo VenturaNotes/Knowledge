@@ -931,7 +931,7 @@ WHERE Country LIKE 'Spain';
 - The `_` wildcard represents a single character.
 	- It can be any character or number, but each `_` represents one, and only one, character.
 - The `[]` wildcard returns a result if _any_ of the characters inside gets a match.
-	- #question is this regex?
+	- [ ] #question is this regex?
 - The `-` wildcard allows you to specify a range of characters inside the `[]` wildcard.
 - Any wildcard, like % and _ , can be used in combination with other wildcards.
 - If no wildcard is specified, the phrase has to have an exact match to return a result.
@@ -1119,8 +1119,8 @@ FROM Orders
 INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 ```
 - Can create SQL statement (that contains an [[INNER JOIN (SQL)|INNER JOIN]]) that selects records that have matching values in both tables
-	- #question What is meant by `ON`?
-	- #question How dos this work?
+	- [ ] #question What is meant by `ON`?
+	- [ ] #question How dos this work?
 	- Will produce this
 		- ![[Screenshot 2025-02-10 at 1.14.16 PM.png]]
 - Types of SQL joins
@@ -1235,7 +1235,7 @@ ALTER COLUMN BirthDate year;
 - Changes data type of column named "BirthDate" in the "Employees" table to type year
 	- #comment 
 		- The YEAR data type in SQL typically stores a year value in a 4-digit format. For example, `1999` or `2023`.
-			- #question Why is `YEAR` capitalized here? Does it matter if it's `year` or `YEAR`?
+			- [ ] #question Why is `YEAR` capitalized here? Does it matter if it's `year` or `YEAR`?
 		- This data type is commonly found in database systems like MySQL, where it can store year values in a range, often from `1901` to `2155` or `0000` representing a 0 year. When used, it explicitly indicates that the column is intended to store only the year component of a date.
 			- #question What is meant by a 0 year?
 			- #question Is the range set to `1901` to `2155` by default or did someone manually program that in?
@@ -1503,7 +1503,7 @@ WHERE Country = "Brazil";
 SELECT * FROM [Brazil Customers];
 ```
 - Adds the "City" column to the "Brazil Customers" view
-- #question What does this look like in practice?
+- [ ] #question What does this look like in practice?
 #### CREATE TABLE
 - Creates a new table in the database
 ```SQL
@@ -1601,7 +1601,7 @@ MODIFY City DEFAULT 'Sandnes';
 ```
 - SQL DEFAULT on ALTER TABLE
 	- In this example, creates a default constraint on the "City" column when the table is already created
-	- #question Does this actively change the existing ones?
+	- [ ] #question Does this actively change the existing ones?
 ```SQL
 -- MySQL
 ALTER TABLE Persons

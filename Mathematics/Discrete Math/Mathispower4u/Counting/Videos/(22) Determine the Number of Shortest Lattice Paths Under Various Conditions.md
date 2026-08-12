@@ -10,7 +10,7 @@ Reviewed: false
 				- Shortest number of paths is $17 \choose 9$
 					- This is because $n \choose k$ is the number of lattice paths of length n containing k steps to the right
 						- So the shortest path length is 17 and steps to the right is 9
-					- #question why is it to the right though and not up?
+					- [ ] #question why is it to the right though and not up?
 			- (2) Ends at $(10,10)$ and pass through $(4,5)$
 				- First need to find number of paths to $(4,5)$ and then multiply that by number of paths from $(4,5)$ to $(10,10)$ 
 			- (3) End at $(10,10)$ and avoid $(4,5)$

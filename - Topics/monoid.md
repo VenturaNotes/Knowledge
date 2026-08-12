@@ -6,33 +6,33 @@
 	- A [[binary operation]] $*$ (or $\cdot$, +): An operation that combines any two elements from $M$ to produce another element within $M$. This is known as the [[closure property]]
 		- The symbol $\cdot$ is typically pronounced "dot" or "times" (especially in the context of multiplication). You can say "operation" when speaking generally about a binary operation.
 	- Axioms: The operation and set must satisfy the following
-		- #question Are these axioms below? Where do they come from and why are they agreed upon?
+		- [ ] #question Are these axioms below? Where do they come from and why are they agreed upon?
 		- [[Associativity]]: For all elements $a, b, c$ $\in$ $M$, the operation must be associative: $(a*b)*c = a*(b*c)$. 
 			- Addition is an associative operation
 				- Example: (2 + 3) + 4 = 2 + (3 + 4) = 9
 		- [[Identity element]]: There exists a specific element e $\in$ M such that for every element $a$ $\in$ M, $e*a=a*e=a$
-			- #question Does the identity element need to be unique or is that true specifically for just monoids?
+			- [ ] #question Does the identity element need to be unique or is that true specifically for just monoids?
 			- This property is distinct from the [[commutative property]], which states that the order of operands doesn't matter (a*b=b*a). Monoids do not require commutativity. 
-				- #question How would monoids not require commutativity of the identity element appears to rely on this commutative property? Could you give me a counterexample to this?
+				- [ ] #question How would monoids not require commutativity of the identity element appears to rely on this commutative property? Could you give me a counterexample to this?
 - A set, binary operation, and the satisfaction of associativity and identity axioms are what define a monoid as an algebraic structure. 
 ### Monoids in Relation to Other Structures
 - A monoid is essentially a semigroup (a set with an associative binary operation) that also possesses an identity element. The difference is precisely the presence of this identity element
-	- #question Difference of what? You mean the difference between a monoid and a semigroup is that a monoid has an identity element while a semigroup does not? 
-	- #question What is an associative binary operation? 
+	- [ ] #question Difference of what? You mean the difference between a monoid and a semigroup is that a monoid has an identity element while a semigroup does not? 
+	- [ ] #question What is an associative binary operation? 
 - Monoids are distinguished from groups because they are not required to have [[inverse|inverses]] for every element. 
-	- #question What is a group? 
+	- [ ] #question What is a group? 
 - Other algebraic structures like groups, rings, or fields, build upon these concepts by adding more operations (a ring has both addition and multiplication) or additional axioms (a group adds the inverse axiom)
-	- #question Can you have something more than a binary operation?
+	- [ ] #question Can you have something more than a binary operation?
 ### Examples of Monoids
-- #question What is a free monoid? 
+- [ ] #question What is a free monoid? 
 1. Natural numbers under addition
 	- Set: $\mathbb{N} = \{0, 1, 2, 3, ...\}$
-		- #question Would the natural numbers not be considered a monoid if 0 was not included since then there would be no identity element?
+		- [ ] #question Would the natural numbers not be considered a monoid if 0 was not included since then there would be no identity element?
 	- Operation: Addition (+)
 	- Identity element: 0 (since $0 + a = a + 0 = a$)
 2. Strings under Concatenation
 	- Set: All strings over some alphabet. An alphabet in this context is a finite, non-empty set of symbols or characters (e.g., {0, 1} for binary strings, or {a, b, c}). A string is a finite sequence of symbols from this alphabet. 
-		- #question So given binary strings, would an example be 01100 and 010? 
+		- [ ] #question So given binary strings, would an example be 01100 and 010? 
 	- Operations: [[concatenation]]
 	- Identity element: The empty string $\epsilon$ (or sometimes $\lambda$), which is a unique string containing no symbols. It acts as the identity because concatenating it with any other string $s$ results in $s$ itself
 		- $\epsilon * \text{"abc"} = \text{"abc"} * \epsilon = \text{"abc"}$ 
@@ -53,13 +53,13 @@
 				- $[1, 2, 3] -> 6$ 
 				- Finding the maximum value in a list, or concatenating a list of strings
 				- Monoids are useful here because their [[associativity]] allows for efficient parallel or distributed processing of operations
-					- #question what does this mean and I need an example
-					- #question What is parallel processing and what does it look like?
-					- #question What is distributed processing and what does it look like?
+					- [ ] #question what does this mean and I need an example
+					- [ ] #question What is parallel processing and what does it look like?
+					- [ ] #question What is distributed processing and what does it look like?
 - [[Category Theory]]: Monoids relate closely to categories with a single object. Category theory is a branch of mathematics that studies abstract structures and the relationships between them. In this context, the single object represents the monoid's set, and the morphisms (arrows) from that object to itself represents the monoid's elements. The composition of morphisms corresponds to the monoid's binary operation, and the identity morphism is the monoid's identity element
-	- #question What is an example of a single object?
-	- #question What is a morphism and I need an example
-	- #question What is composition of morphisms? I just need an example of this category theory concept in action
+	- [ ] #question What is an example of a single object?
+	- [ ] #question What is a morphism and I need an example
+	- [ ] #question What is composition of morphisms? I just need an example of this category theory concept in action
 ## Source[^1]
 - A semigroup that possesses an identity element, $e$. If $S$ is a semigroup on which there is defined a dyadic operation , then$$x^{} e=e^{} x=x$$for all elements $x$ in $S$. Monoids play an important role in various areas of computing, especially in the study of formal languages and parsing.
 ## Source[^2]

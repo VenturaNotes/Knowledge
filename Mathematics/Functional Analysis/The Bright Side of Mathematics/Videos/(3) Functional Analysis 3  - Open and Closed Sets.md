@@ -33,7 +33,7 @@ Reviewed: false
 					- This means if you get closer to the boundary, you would need a smaller [[epsilon]]
 						- But if you find for each point such an epsilon, the set is open
 					- We also have consistency here. The open balls are also open with this definition
-						- #question what does this mean?
+						- [ ] #question what does this mean?
 			- (2) [[Boundary points]]: A$\subseteq$ X. $x \in X$ is called a boundary point for A if for all $\epsilon$ > 0: $B_{\epsilon}(x) \cap A \ne \varnothing$ and $B_{\epsilon}(x) \cap A^c \ne \varnothing$
 				- In A, Not important if point is in set or not, but it's a point in our whole metric space X
 				- These points describe the boundary of A

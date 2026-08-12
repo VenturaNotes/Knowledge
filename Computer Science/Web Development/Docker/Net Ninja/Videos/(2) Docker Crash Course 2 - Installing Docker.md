@@ -32,7 +32,7 @@ Reviewed: false
 				6. Install linux distribution of choice (such as Ubuntu)
 					- Can download this from Microsoft store. 
 					- Video creator got `Ubuntu 18.04 LTS`
-						- #question What is LTS? Is that a light version?
+						- [ ] #question What is LTS? Is that a light version?
 					- Will then need to create account (username + password)
 	- Now you can open Docker Desktop
 		- Will list all containers/apps, images, and volumes. 

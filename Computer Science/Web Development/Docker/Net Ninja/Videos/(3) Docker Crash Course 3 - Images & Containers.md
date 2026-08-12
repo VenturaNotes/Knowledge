@@ -7,7 +7,7 @@ Reviewed: false
 	- Slide 1 (Docker Images)
 		- Images are like blueprints for containers. They contain the following things stored inside them (they don't actually have them running inside them, but just store them inside of them)
 			- Runtime environment (like a specific node version)
-				- #question What is meant by node version? 
+				- [ ] #question What is meant by node version? 
 			- Application code
 			- Any dependencies
 			- Extra configuration (e.g. env variables)
@@ -39,6 +39,6 @@ Reviewed: false
 			- This means you can share this docker image with anyone who needs to run this application on their computer. They can just run the image to make a container to run that application. 
 			- And it wouldn't matter what versions of anything they have installed on their own computer because that's all pre-packed inside the image and container. 
 			- So when they run it, the app will run exactly the same way as it would on my computer, someone else's computer, or on a production server. 
-				- #question What is a production server?
-				- #question Will they need a docker as well to run this application?
+				- [ ] #question What is a production server?
+				- [ ] #question Will they need a docker as well to run this application?
 		- So we will learn in this series how to create images and then how to run containers based on those images. 

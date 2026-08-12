@@ -23,19 +23,19 @@ Reviewed: false
 - Parts
 	- User 
 		- Directs `www.mysite.com` and `api.mysite.com` to Web server. However, it only sends `api.mysite.com` to the DNS
-			- #question Is this just specific to the mobile app or web browser?
-			- #question What is the difference between `www.mysite.com` and `api.mysite.com`?
+			- [ ] #question Is this just specific to the mobile app or web browser?
+			- [ ] #question What is the difference between `www.mysite.com` and `api.mysite.com`?
 		- Components
 			- [[Web browser]]
 			- [[Mobile app]]
 	- [[Web Server]]
-		- #question What is the hardware like for a web server? 
-		- #question How much might a web server cost?
+		- [ ] #question What is the hardware like for a web server? 
+		- [ ] #question How much might a web server cost?
 	- [[DNS]]
-		- #question I would like to see some examples of this in action
+		- [ ] #question I would like to see some examples of this in action
 	- Investigate
-		- #question What is [[request flow]]
-		- #question What is [[traffic source]]
+		- [ ] #question What is [[request flow]]
+		- [ ] #question What is [[traffic source]]
 - [[Request flow]] Steps
 	- ![[Screenshot 2024-06-30 at 1.57.04 PM.png]]
 	- (1) Users access websites through domain names such as api.mysite.com. Usually, The [[DNS|Domain Name System]] is a paid service provided by 3rd parties and not hosted by our servers
@@ -43,20 +43,20 @@ Reviewed: false
 	- (2) [[IP addresses|Internet protocol address]] returned to browser or mobile app. An Example is 15.125.23.214
 		- #question What do each of the numbers mean?
 	- (3) When IP address obtained, Hypertext Transfer Protocol (HTTP) \[1] requests are sent directly to web server
-		- #question What does the \[1] mean?
-		- #question is the web server what people actually access? 
-			- #question If so, why do people need to access the DNS first before the Web Server. Why can't we just access the web server directly?
+		- [ ] #question What does the \[1] mean?
+		- [ ] #question is the web server what people actually access? 
+			- [ ] #question If so, why do people need to access the DNS first before the Web Server. Why can't we just access the web server directly?
 	- (4) Web server returns HTML pages or JSON response for rendering
-		- #question is there a difference between HTML pages and JSON response? Like would JSON not return a page or is it just lines of code? Is JSON a markup language similar to HTML? Is HTML a markup language?
+		- [ ] #question is there a difference between HTML pages and JSON response? Like would JSON not return a page or is it just lines of code? Is JSON a markup language similar to HTML? Is HTML a markup language?
 - [[Traffic source]]
 	- Traffic to web server comes from two sources
 		- web application
 			- Uses a combination of [[server-side languages]] (Java, Python, etc.) to handle [[business logic]], storage, etc., and [[client-side languages]] (HTML and JavaScript) for presentation
-				- #question what is business logic? 
+				- [ ] #question what is business logic? 
 		- mobile application
 			- HTTP protocol is the communication protocol between the mobile app and the web server
 			- “JavaScript Object Notation ([[JSON]]) is commonly used [[Application Programming Interface|API]] response format to transfer data due to its simplicity.” ([pdf](zotero://open-pdf/library/items/8MRQ3H5S?page=7&annotation=KPNX3ATQ))
-				- #question What exactly is API?
+				- [ ] #question What exactly is API?
 - API response in JSON format below
 - `GET/users/12 - Retrieve user object for id = 12`
 ```JSON

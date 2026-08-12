@@ -32,4 +32,4 @@ Reviewed: false
 			- Could represent the basis here as either one below
 				- B = $\begin{bmatrix}1 \\ 5 \\ 0 \end{bmatrix}$, $\begin{bmatrix}2 \\ 0 \\ 1 \end{bmatrix}$
 				- B = $\begin{bmatrix}1 \\ 0 \\ 0 \end{bmatrix}$, $\begin{bmatrix}0 \\ 1 \\ 0 \end{bmatrix}$
-					- #question Would one of them be considered the standard basis?
+					- [ ] #question Would one of them be considered the standard basis?

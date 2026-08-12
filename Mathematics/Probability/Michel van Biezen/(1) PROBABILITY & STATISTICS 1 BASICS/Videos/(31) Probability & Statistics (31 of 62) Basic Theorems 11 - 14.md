@@ -10,4 +10,4 @@ Reviewed: false
 	- (12) $(A \cup B)' = A' \cap B'$
 	- (13) $(A \cap B)' = A' \cup B'$
 	- (14) $A = (A \cap B) \cup (A \cap B')$
-	- #question What are these theorems called?
+	- [ ] #question What are these theorems called?

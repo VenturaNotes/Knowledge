@@ -30,7 +30,7 @@ def get_subsets_recursive(nums):
     backtrack(0)
     return subsets
 ```
-- #question What does it mean to return nothing within a method? Is that different than continue? 
+- [ ] #question What does it mean to return nothing within a method? Is that different than continue? 
 #### Dry Run
 ```python
 my_set = [2, 5, 6]

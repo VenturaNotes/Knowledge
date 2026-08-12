@@ -10,7 +10,7 @@ Reviewed: false
 			- det A equation
 				- $A_{11}$ is a [[submatrix]]. Take out first row and first column and find determinant of what's left over
 				- Can write as summation
-					- #question is equation correct in picture?
+					- [ ] #question is equation correct in picture?
 		- To make notation cleaner, let use the cofactor.
 		- The [[cofactor]], $C_{ij}$, is the number given by $(-1)^{i +j}det A_{ij}$ 
 			- $\therefore det A = a_{11}C_{11} + a_{12}C_{12} + ... + a_{1n}C_{1n}$

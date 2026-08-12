@@ -19,7 +19,7 @@
 		- Crystal
 		- Output (low impedence)
 		- Output (high impedence)
-		- #question Misspelling? Should be impedance?
+		- [ ] #question Misspelling? Should be impedance?
 - ![[Pasted image 20260405224230.png|400]]
 	- (c) Pierce crystal oscillator using a FET
 	- Parts

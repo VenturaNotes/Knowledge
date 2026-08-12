@@ -108,7 +108,7 @@ print(removed_item)  # Output: b
 ```
 
 #### del Method
-- #question Is this considered a method?
+- [ ] #question Is this considered a method?
 ```python
 my_list = ['a', 'b', 'c', 'd']
 del my_list[1] # Removes the item at index 1 ('b')
@@ -139,7 +139,7 @@ res2.extend(test) # res = ['hello', 'hello']
 ```
 - Append stores a reference, not a value. It stores a pointer to the exact same list object . So if `test` were to change, so would the value in `res`.
 	- To overcome this, do `res.append(test.copy())`
-- #question Is this actually true? I just tried the above and got this
+- [ ] #question Is this actually true? I just tried the above and got this
 ```python
 test = ["hello"]
 res = []
@@ -193,8 +193,8 @@ nums2 = [1, 2, 3, 4, 5, 6]
 ```
 - Lists are not [[hashable (python)|hashable]] since lists are [[mutable (Python)|mutable]]
 	- An object is hashable if it has a hash value which never changes during its lifetime
-	- #question What makes an object in python?
-	- #question Will an object have a hash value if it's immutable?
+	- [ ] #question What makes an object in python?
+	- [ ] #question Will an object have a hash value if it's immutable?
 - Initializing list with default values
 ```python
 numbers = [0] * 5  # [0, 0, 0, 0, 0]

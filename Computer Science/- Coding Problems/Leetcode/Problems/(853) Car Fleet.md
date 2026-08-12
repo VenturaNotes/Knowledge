@@ -42,7 +42,7 @@ class Solution:
 		- Then we calculate time until destination reached `(target - p) / s)`
 		- Then we add to stack the equation and pop only if one is faster than the other (meaning the appended value must be less than the previous value)
 		- It's sorted in a way so that the closest cars to the end are considered first
-		- #question `1, 1, 7, 3, 12` (speed of cars based on how close they are to end)
+		- [ ] #question `1, 1, 7, 3, 12` (speed of cars based on how close they are to end)
 			- For `1, 1`, the first car will reach the end at the same time as the second car making them a single fleet. Therefore, you pop the second car
 			- For `1, 7`, the first car will reach the end faster than the second car causing 2 fleets
 			- For `1, 7, 3`, the third car will reach first combining with the second car so it's popped

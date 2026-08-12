@@ -4,13 +4,13 @@ aliases:
 ---
 ## Synthesis
 - Multisets are also known as bags
-	- #question Are multisets really known as bags?
+	- [ ] #question Are multisets really known as bags?
 - Multisets allow duplicates
 - Order does not matter
 	- $\{1, 2\} = \{2,1\}$ 
 - Mutable (in most implementations)
 - Use case: Counting repeated elements
-	- #question I would like an example of this
+	- [ ] #question I would like an example of this
 - Multisets are allowed, but position-agnostic
 - Can use `collections.Counter` as a multiset substitute 
 - Functionally

@@ -14,7 +14,7 @@ paris_time = utc_time.astimezone(pytz.timezone('Europe/Paris'))
 print(paris_time.strftime('%Y-%m-%d %H:%M:%S %Z%z'))
 
 ```
-#question I don't understand this code
+- [ ] #question I don't understand this code
 ## Source [^1]
 - 
 ## References

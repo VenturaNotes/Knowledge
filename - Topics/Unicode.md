@@ -1,10 +1,10 @@
 ## Synthesis
 - A universal character encoding standard that aims to represent every character from every language, including symbols and emojis. It uses a much larger range of values than ASCII, allowing for millions of characters. UTF-8, UTF-16, and UTF-32 are different encodings of Unicode.
-	- #question What makes the UTF-8, UTF-16, etc. encodings different 
-	- #question Is unicode short for universal character encoding? 
-	- #question Who developed Unicode and how was it formed?
-	- #question How do people have time to allow for millions of characters?
-	- #question How much storage does Unicode require?
+	- [ ] #question What makes the UTF-8, UTF-16, etc. encodings different 
+	- [ ] #question Is unicode short for universal character encoding? 
+	- [ ] #question Who developed Unicode and how was it formed?
+	- [ ] #question How do people have time to allow for millions of characters?
+	- [ ] #question How much storage does Unicode require?
 ## Source [^1]
 - It is a set of all characters, numbers, currencies, and symbols in the world. It goes beyond the ASCII standard for character representation and is necessary to support different languages
 ## Source[^2]

@@ -11,7 +11,7 @@
 	- Power waves: transmission line connecting load to source
 	- Parts
 		- transmission line, characteristic impedence $Z_0$
-			- #question Why do the diagrams keep misspelling `impedance`?
+			- [ ] #question Why do the diagrams keep misspelling `impedance`?
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

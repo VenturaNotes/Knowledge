@@ -7,7 +7,7 @@ Reviewed: false
 	- Making Connections: Combinations are Amazing!
 		- For each integer n $\ge$ 0 and integer k with 0 $\le$ k $\le$ n, there is a number $n \choose k$ = $C(n,k)$ = $_nC_k$, read "n choose k"
 			- $n \choose k$ is the total number of ways to select k objects without replacement when order does not matter from a total of n objects. This is usually taken as the definition of $n \choose k$
-				- #question what does without replacement mean again?
+				- [ ] #question what does without replacement mean again?
 				- How many different study groups of 3 can be made from 5 students?
 				- There are $5 \choose 3$ = 10 study groups possible.
 					- ![[Screenshot 2025-01-07 at 2.25.58 PM.png]]

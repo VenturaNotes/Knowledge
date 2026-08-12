@@ -3,7 +3,7 @@ aliases: logarithms
 ---
 ## Synthesis
 - A logarithm is not defined for non-positive numbers, or base 1.
-	- #question Why is a logarithm not able to have a base 1?
+	- [ ] #question Why is a logarithm not able to have a base 1?
 ## Source[^1]
 ### Rules
 - $log_a1 = 0$

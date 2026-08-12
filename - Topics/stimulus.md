@@ -6,17 +6,17 @@ aliases:
 - Anything that can trigger a physical or behavioral change
 - Examples of stimuli
 	- Light
-		- #question Would our pupils dilating be an example?
+		- [ ] #question Would our pupils dilating be an example?
 	- Sound
-		- #question How does the eardrum allow us to hear?
+		- [ ] #question How does the eardrum allow us to hear?
 	- Chemicals
-		- #question I would like an example with this
+		- [ ] #question I would like an example with this
 	- Touch
-		- #question Why does our skin allow us to experience texture? Is it due to nerve endings? Are nerve endings only for pain?
+		- [ ] #question Why does our skin allow us to experience texture? Is it due to nerve endings? Are nerve endings only for pain?
 	- Temperature
-		- #question How do we detect temperature?
+		- [ ] #question How do we detect temperature?
 	- Pain
-		- #question How do we detect pain?
+		- [ ] #question How do we detect pain?
 ## Source [^1]
 - $n$. (pl. stimuli) any agent that provokes a response, or particular form of activity, in a cell, tissue, or other structure, which is said to be sensitive to that stimulus.
 ## Source[^2]

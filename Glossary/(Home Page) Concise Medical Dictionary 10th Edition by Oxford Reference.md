@@ -5789,7 +5789,7 @@ Reviewed: false
 	4551. [[generalized anxiety disorder]]
 	4552. Generalized Anxiety Disorder Questionnaire
 		1. see GAD-7. ///
-			1. #question What are the 3 forward slashes for?
+			- [ ] #question What are the 3 forward slashes for?
 	4553. [[General Medical Council]]
 	4554. [[general paralysis of the insane]]
 	4555. [[general practitioner]]

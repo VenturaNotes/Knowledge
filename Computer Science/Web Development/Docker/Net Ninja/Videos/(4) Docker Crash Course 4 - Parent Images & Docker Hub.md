@@ -33,11 +33,11 @@ Reviewed: false
 	- Slide 2
 		- Now you should see the image in your docker desktop within the `images` tab. The tag we got is `latest`. This is because we didn't specify a specific version of node or linux distribution. This will include the latest version of `node.js` as well. We can already press `run` to run the image to create a container. 
 			- This will be used as the initial layer in our own image (this parent image here). So if we run it as is, it will create a container which contains a linux environment or a linux distribution and node installed into it (possible to run from command line as well)
-				- #question What is the difference between a linux environment and linux distribution? 
+				- [ ] #question What is the difference between a linux environment and linux distribution? 
 	- Slide 3
 		- After running it, we can see it being run within the Containers/Apps tab. There are several different options. We can stop, restart or delete the container. You can also enter into a command line interface to interact with the container as well. 
 		- So we can interact with linux environment and also use node inside there
-			- #question What is meant by "using node" inside it? 
+			- [ ] #question What is meant by "using node" inside it? 
 	- Slide 4 
 		- So clicking the CLI button will open the terminal and you can use any linux commands inside it such as using `ls` to list out the contents of the current root directory. Could also type `node` which would tell us the current version of node we're using. Then we can type any kind of node commands inside the interactive terminal. So doing `5+10` would give 15. 
 		- So pretty useless right now, but now we can use this as a parent image inside our own images that we make ourselves. So remember that images are made up of layers. And this parent image would be the first layer in our own image. Then we'd have the correct node version running for it and then we'd build up additional layers on top of that like copying in our source code to the image, installing dependencies to the image, etc. 

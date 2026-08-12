@@ -1,7 +1,7 @@
 ## Synthesis
 - Traditionally used to multiply two columns of numbers together and then add up the results (the sum of the products)
 	- For example, multiplying  `Quantity × Price` for a list of items to get a grand total.
-		- #question What does this look like in google sheets? 
+		- [ ] #question What does this look like in google sheets? 
 ### Example
 
 | Quantity | Price |

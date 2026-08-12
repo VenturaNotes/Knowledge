@@ -4,13 +4,13 @@ aliases:
 ---
 ## Synthesis
 - Module provides support for [[regular expressions]] (regex).
-	- #question What are regular expressions?
-	- #question Is regex short for regular expressions?
+	- [ ] #question What are regular expressions?
+	- [ ] #question Is regex short for regular expressions?
 - When you use the `re` module, you provide a regex pattern and a string to search within. The module then attempts to find occurrences of that pattern in the string.
-	- #question What does this look like?
-	- #question What is a regex pattern
-	- #question What does the string look like?
-	- #question Does it need to be a string? 
+	- [ ] #question What does this look like?
+	- [ ] #question What is a regex pattern
+	- [ ] #question What does the string look like?
+	- [ ] #question Does it need to be a string? 
 ### Basic Regex Syntax
 
 #### `.` (Matches any single character except newline)

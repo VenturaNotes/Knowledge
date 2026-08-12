@@ -42,7 +42,7 @@ class Solution:
 ```
 - If n = 3, output is `['((()))', '(()())', '(())()', '()(())', '()()()']`
 	- Giving 5 different combinations
-- #question What is the time complexity and space complexity of this?
+- [ ] #question What is the time complexity and space complexity of this?
 
 ## Source[^2]
 ### (1) Brute Force

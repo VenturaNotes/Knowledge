@@ -3,7 +3,7 @@ aliases:
   - initialization
 ---
 ## Synthesis
-- #question What is a [[generator (python)|generator]]?
+- [ ] #question What is a [[generator (python)|generator]]?
 ### Initializing Variables
 - Variables assigned value directly
 ```python
@@ -17,7 +17,7 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 numbers = [0] * 5 # [0, 0, 0, 0, 0]
 ```
 
-- #question Is a string considered a collection in python?
+- [ ] #question Is a string considered a collection in python?
 	- [Useful link](https://launchschool.com/books/python/read/intro_collections)
 ### Initializing Objects
 #### No Default Values
@@ -61,15 +61,15 @@ print(person2.age)   # Output: 30
 # Initializing a list with squares of numbers from 0 to 4
 squares = [x ** 2 for x in range(5)]  # [0, 1, 4, 9, 16]
 ```
-#question How does list comprehension work?
-#question How does the [[range() (Python)|range()]] work in this case? 
+- [ ] #question How does list comprehension work?
+- [ ] #question How does the [[range() (Python)|range()]] work in this case? 
 
 ### Factory functions
 ```python
 # Using dict.fromkeys() to initialize a dictionary with default values
 default_dict = dict.fromkeys(["key1", "key2", "key3"], "default_value")
 ```
-#question What is a factory function?
+- [ ] #question What is a factory function?
 ## Source[^2]
 - 
 ## References

@@ -26,6 +26,6 @@ Reviewed: false
 			- The scale factors can be pulled outside the linear transformation
 		- Could have computed by just doing $Ax$ but we went ahead and did it using the definition of what it means to be a linear transformation. 
 		- This means that superposition and homogeneity hold and we can write $T(2e_1 - e_z + 3e_3) = 2T(e_1) - T(e_2) + 3T(e_3)$
-			- #question what does superposition and homogeneity mean in this case?
+			- [ ] #question what does superposition and homogeneity mean in this case?
 			- The transformation of a sum is a sum of transformations
 			- Scale factors can be pulled outside of the liner transformation operation

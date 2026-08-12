@@ -56,7 +56,8 @@ Reviewed: false
 	- “may wish to understand which types of customers are similar to each other by grouping individuals according to their observed characteristics.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=14&annotation=6HJ84N79))
 	- This is known as a [[clustering]] problem
 		- Not trying to predict an output variable in this case.
-- Given the `NCI60` data set, which consists of 6,830 [[gene expression]] measurements for each of 64 cancer cell lines. #question what is a cell line?
+- Given the `NCI60` data set, which consists of 6,830 [[gene expression]] measurements for each of 64 cancer cell lines.
+	- [ ] #question what is a cell line?
 	- “interested in determining whether there are groups, or clusters, among the cell lines based on their gene expression measurements.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=15&annotation=BBXZUDWX))
 	- “difficult question to address, in part because there are thousands of gene expression measurements per cell line, making it hard to visualize the data.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=15&annotation=J7Y68BQ6))
 - ![[Screenshot 2024-09-20 at 2.13.22 AM.png]]

@@ -8,7 +8,7 @@ Reviewed: false
 		- Solve the recurrence relation $a_n = a_{n-1} + 2^n$ with $a_0 = 3$
 			- Sequence: 3, 5, 9, 17, 33
 				- Sequence appears to be increasing by powers of 2
-				- #question is recurrence relation and recursive relation different?
+				- [ ] #question is recurrence relation and recursive relation different?
 		- Using telescoping, consider
 		- Key Terms
 			- [[Telescoping]]: When many terms of the sequence cancel out when adding the equations of the sums or differences of terms. If we know the sum of the non-cancelling terms, we can find a closed formula

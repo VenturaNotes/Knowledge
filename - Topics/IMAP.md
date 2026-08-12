@@ -8,7 +8,7 @@ aliases:
 - Stands for "Internet Access Message Protocol"
 - A protocol used for receiving emails
 - Stores the message on a server and synchronizes the message across multiple devices, so it can be accessed whenever you have an internet connection
-	- #question Who owns this server?
+	- [ ] #question Who owns this server?
 - IMAP synchronizes [[email]] across devices
 
 ## Source[^2]

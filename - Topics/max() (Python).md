@@ -9,7 +9,7 @@ aliases:
 ```python
 max_value = max([0, 2, 45, 3, 44]) # 45
 ```
-- #question What data types does max() or min() work on? Does it work on sets? Lists? Is List or hashmaps data types or is there some other name for them?
+- [ ] #question What data types does max() or min() work on? Does it work on sets? Lists? Is List or hashmaps data types or is there some other name for them?
 ### Alphabetical / Strings
 - Compares strings alphabetically. "date" would be last as it comes last alphabetically.
 ```python

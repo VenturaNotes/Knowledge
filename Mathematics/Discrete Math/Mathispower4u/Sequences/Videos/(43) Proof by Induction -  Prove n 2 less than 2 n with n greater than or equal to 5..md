@@ -11,8 +11,8 @@ Reviewed: false
 			- $(n+1)^2-n^2 = (n+1-n)(n+1+n) = 2n+1$
 		- But doubling the right-hand side increases it by $2^n$, since $2^{n+1}$ = $2^n+2^n$. When $n$ is large enough, $2^n > 2n+1$
 		- What we are saying here is that each time $n$ increases, the left-hand side grows by less than the right-hand side. So if the left-hand side starts smaller (as it does when n = 5), it will never catch up. Now the formal proof
-		- #question Why can you write $2^{n+1} = 2*2^n = 2^n+2^n$?
+		- [ ] #question Why can you write $2^{n+1} = 2*2^n = 2^n+2^n$?
 	- Proof by induction
 		- Inductive Case: Let $k \ge 5$ be an arbitrary integer. Assume, for induction, that $P(k)$ is true. That is, assume $k^2 < 2^k$. We will prove that $P(k+1)$ is true, i.e., $(k+1)^2 < 2^{k+1}$. To prove such an inequality, start with the left-hand side and work towards the right-hand side.
 	- Proof by Induction
-		- #question might need to prove $2k + 1 < 2^k$ first? 
+		- [ ] #question might need to prove $2k + 1 < 2^k$ first? 

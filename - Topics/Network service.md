@@ -11,7 +11,7 @@ aliases:
 	- [[Remote access]] ([[SSH]], [[Telnet]])
 - Designed through protocols that define how data is transmitted, processed, and interpreted. 
 	- Example: HTTP governs web communication
-	- #question Doesn't exactly explain how protocols are developed
+	- [ ] #question Doesn't exactly explain how protocols are developed
 ## Source [^1]
 - 
 ## References

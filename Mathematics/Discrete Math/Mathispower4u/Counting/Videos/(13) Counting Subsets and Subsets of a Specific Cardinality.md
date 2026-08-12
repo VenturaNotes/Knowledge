@@ -9,7 +9,7 @@ Reviewed: false
 		- How many subsets of A are there? $|\mathcal{P}(A)|$ is the cardinality of the [[power set]] of $\mathcal P(A)$ 
 			- The power set of A is equal to the set containing all of the subsets of A and so the cardinality is equal to the number of subsets in A
 		- Think about how we would build a subset. For each of the element of A, decide whether or not to include the element in our subset. We need to decide "yes" or "no" for the element 1, "yes" or "no" for the element 2, etc. For each of the 5 elements, we have 2 choices. Therefore, the number of subsets is simply $2*2*2*2*2 = 32$ (by the [[multiplicative principle]] or counting principle)
-			- #question is multiplicative principle the same as the counting principle?
+			- [ ] #question is multiplicative principle the same as the counting principle?
 			- $|\mathcal{P}(A)|$ = $2^n$ where $n$ is the number of elements in A
 	- Subsets
 		- Consider the set A = {1, 2, 3, 4, 5}.

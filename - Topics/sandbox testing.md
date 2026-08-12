@@ -1,5 +1,5 @@
 ## Synthesis
-- #question What is sandbox testing?
+- [ ] #question What is sandbox testing?
 ## Source [^1]
 - 
 ## References

@@ -8,7 +8,7 @@
 | AlGaAs (doped supply layer)/GaAs (channel) | single heterojunction FET; |
 | AlGaAs/InGaAs (channel)/GaAs;              |                            |
 | AlInAs/InGaAs/InP                          | double heterojunction FET. |
-- #question Which ones are single heterojunction FET and which ones are double heterojunction FET?
+- [ ] #question Which ones are single heterojunction FET and which ones are double heterojunction FET?
 - Only n-channel devices are used, since the hole mobility in these III–V compound semiconductors is too low to be useful practically. These structures are illustrated in the diagram.
 - HEMTs are used for low-noise amplifier and IC applications at microwave and millimeter-wave frequencies. The high-frequency performance is attributed to the improved control of the channel charge modulation by the gate voltage, due to the electron confinement in the narrow quantum well channel.
 - ![[Pasted image 20260326133632.png|500]]

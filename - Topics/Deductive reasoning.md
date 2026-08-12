@@ -1,5 +1,5 @@
 ## Synthesis
-- #question Insert deductive reasoning definition from mathematical reasoning
+- [ ] #question Insert deductive reasoning definition from mathematical reasoning
 ### Example
 - Problem: Prove that the sum of two even numbers is always even
 	- Definition of [[Even number|even numbers]]

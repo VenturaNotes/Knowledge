@@ -1244,7 +1244,7 @@ x = re.search('a', txt)
 print(x.start()) # 5
 ```
 - (3) Consider the following code. What will be the printed result?
-	- #question How is the solution 3?
+	- [ ] #question How is the solution 3?
 ```python
 import re
 txt = 'The rain in Spain'

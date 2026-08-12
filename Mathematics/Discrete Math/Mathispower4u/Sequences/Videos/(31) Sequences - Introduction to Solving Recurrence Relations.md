@@ -24,7 +24,7 @@ Reviewed: false
 			- Terms of the sequence:
 			- Notice the terms are increasing by 3. We have an arithmetic sequence with a common difference of 3
 			- $a_n = 4 + 3n$ is the solution to the recurrence relation
-				- #question Does solution just mean to find a closed formula?
+				- [ ] #question Does solution just mean to find a closed formula?
 	- Sequences: Solving Recurrence Relations - Telescoping
 		- [[Telescoping]]: When many terms of the sequence cancel out when added. If we also know the sum of the non-canceling terms, we can find a closed form.
 		- Solve the recurrence relation $a_n = a_{n-1} + n$ with $a_0 = 4$

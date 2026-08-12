@@ -1,5 +1,5 @@
 ## Synthesis
-- #question need to see example of this 
+- [ ] #question need to see example of this 
 ## Source [^1]
 - The binary operation $\circ$ on a set $S$ is associative if, for all $a, b$, and $c$ in $S$, $(a \circ b) \circ c = a \circ (b \circ c)$
 ## References

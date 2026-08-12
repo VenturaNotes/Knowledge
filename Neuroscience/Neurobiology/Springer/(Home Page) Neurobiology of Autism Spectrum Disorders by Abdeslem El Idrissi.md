@@ -10,7 +10,7 @@ Reviewed: false
 ---
 ## Preface
 - “[[human brain]] is a complex self-organizing system which depends on precise timing of genes, circuits, experiences, and behaviors to function.” ([pdf](zotero://open-pdf/library/items/JS4YEBES?page=5&annotation=5XQ2SUE6))
-	- #question what is meant by timing here? 
+	- [ ] #question what is meant by timing here? 
 - “Through [[neurodiversity]], we learn the different ways that the brain can self-organize with varying degrees of impact on overall brain function.” ([pdf](zotero://open-pdf/library/items/JS4YEBES?page=5&annotation=I5U4ID55))
 - Autism spectrum disorder is a neurodevelopmental disorder 
 ## (1) Dysfunctional Circuit Mechanisms of Sensory Processing in FXS and ASD: Insights from Mouse Models

@@ -18,7 +18,7 @@ aliases:
 			- Map is [[symmetric]] because since distance from x to y and y to x is the same, it does not matter which element is first
 		- (3) $d(x,y) \le d(x,z) + d(z, y)$ 
 			- [[Triangle inequality]] tells us that distance is longer when going on a detour
-	- #question Do these 3 properties only apply to distances? What other kind of structures can we create for points in functional analysis?
+	- [ ] #question Do these 3 properties only apply to distances? What other kind of structures can we create for points in functional analysis?
 - With this map, we can now measure all distances in the set X
 	- Therefore, we call the set X with the metric `d` a metric space
 		- Measuring distances lets us do a lot of analytical stuff

@@ -9,4 +9,4 @@ Reviewed: false
 	- Average price = $150,000
 	- Question: What is expected value of the earning of the selling agent. 
 		- Can expect $75,195 if predictions correct
-		- #question is this from commission alone?
+		- [ ] #question is this from commission alone?

@@ -36,7 +36,7 @@ Execution of the try-except-else-finally block is complete.
 	- `try`: Might raise an exception. Block of code used to test for errors
 	- `except`: Runs if exception raised in `try` block. You can specify the type of exception to catch specific errors such as a [[ZeroDivisionError (python)|ZeroDivisionError]]
 	- `else`: Runs if no exceptions are raised in the `try` block. Optional.
-		 - #question What are some "raised" exceptions?
+		 - [ ] #question What are some "raised" exceptions?
 	 - `finally`: Runs whether there was an exception or not. Typically used for cleanup actions such as closing a file or releasing resources
 ## Source [^1]
 - 

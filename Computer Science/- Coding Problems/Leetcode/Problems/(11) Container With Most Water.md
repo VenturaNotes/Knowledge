@@ -45,7 +45,7 @@ class Solution:
         return res
         
 ```
-- #question why does this work though? Wish there was a proof for it
+- [ ] #question why does this work though? Wish there was a proof for it
 	- Like how do we know this always works?
 	- [Proof?](https://leimao.github.io/blog/Proof-Container-With-Most-Water-Problem/)
 - Minimum height is the limiting factor

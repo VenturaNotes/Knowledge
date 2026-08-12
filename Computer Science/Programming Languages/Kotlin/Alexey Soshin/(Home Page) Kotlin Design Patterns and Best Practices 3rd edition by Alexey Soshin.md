@@ -41,7 +41,7 @@ Reviewed: false
 - “[[Kotlin]] is a versatile programming language that embraces multiple programming paradigms and was crafted by [[JetBrains]]” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=20&annotation=ACRDQKZD))
 	- “renowned for creating widely-used integrated development environments, including [[IntelliJ IDEA]].” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=20&annotation=6SM8MJEQ))
 - “This updated edition focuses on the advancements in Kotlin up to Kotlin 2.0.” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=20&annotation=2KJ5MZGG))
-	- #question what is the current edition of Kotlin?
+	- [ ] #question what is the current edition of Kotlin?
 - Kotlin features discussed
 	- [[context receivers]]
 	- Libraries including [[Arrow]]
@@ -110,7 +110,7 @@ Reviewed: false
 #### (1.15) Questions
 ### (2) Chapter 2: Working with Creational Patterns
 - “classical creational patterns that are already embedded in the Kotlin language” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=21&annotation=FNTLB883))
-	- #question what are creational patterns?
+	- [ ] #question what are creational patterns?
 - “patterns focus on how and when to create objects.” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=21&annotation=DRBUNB9P))
 	- Covers various patterns such as [[Singleton]] and [[Builder]]
 #### (2.1) Technical requirements
@@ -194,10 +194,10 @@ Reviewed: false
 ### (5) Chapter 5: Introducing Functional Programming
 - “fundamental principles of [[functional programming]] and their connection to Kotlin.” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=21&annotation=MZHLD82T))
 - “data immutability and treating functions as first-class values.” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=21&annotation=HJ3NYH9E))
-	- #question what is data immutability
-	- #question what is meant by first-class values?
+	- [ ] #question what is data immutability
+	- [ ] #question what is meant by first-class values?
 - “essential role in crafting code that is more concise, modular, and maintainable.” ([pdf](zotero://open-pdf/library/items/ZBLAQ5P3?page=21&annotation=K8QCG3H9))
-	- #question What is meant by modular?
+	- [ ] #question What is meant by modular?
 #### (5.1) Technical requirements
 #### (5.2) Reasoning behind the functional approach
 #### (5.3) Immutability

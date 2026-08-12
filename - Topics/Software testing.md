@@ -1,7 +1,7 @@
 ## Synthesis
 - The process of evaluating software to detect and fix defects, ensuring it meets requirements and functions correctly
-	- #question I need some examples of requirements and functions. Give me some scenarios
-	- #question What types of requirements and what types of functions are there?
+	- [ ] #question I need some examples of requirements and functions. Give me some scenarios
+	- [ ] #question What types of requirements and what types of functions are there?
 - It includes different paradigms such as:
 	- [[Manual Testing]] - Human testers interact with the software to find issues.
 	- [[Automated Testing]] - Scripts or tools execute tests automatically.

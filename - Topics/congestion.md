@@ -4,7 +4,7 @@
 		- slower speeds
 		- packet loss
 		- increased latency
-	- #question is data traffic the right term? Is it just saying a lot of traffic is caused due to data?
+	- [ ] #question is data traffic the right term? Is it just saying a lot of traffic is caused due to data?
 - This all causes the network to become sluggish and unreliable due to the high volume of data trying to pass through at once
 ## Source [^1]
 - Congestion can result in lost packets due to [[buffer overflows|buffer overflow]] at routers

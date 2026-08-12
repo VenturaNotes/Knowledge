@@ -13,7 +13,7 @@
 - number(`text property`) works
 ### Tag Properties
 - Obsidian maintains a built-in "Metadata Cache" that indexes all your tags, links, and headers in the background. 
-	- #question Does "Another Quick Switcher" us this metadata cache or does it run an index on its own? 
+	- [ ] #question Does "Another Quick Switcher" us this metadata cache or does it run an index on its own? 
 ## Source [^1]
 ### Functions
 

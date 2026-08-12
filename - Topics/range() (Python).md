@@ -55,9 +55,9 @@ print(len(range(10))) #Output: 10
 
 
 ```
-- #question What is an [[iterator (python)|iterator]]
-- #question Why is the underscore in `1_000_000` being used. Is this just in place of a comma for better readability? 
-- #question I need to understand comprehensions and generator expressions in more detail to understand the above code better
+- [ ] #question What is an [[iterator (python)|iterator]]
+- [ ] #question Why is the underscore in `1_000_000` being used. Is this just in place of a comma for better readability? 
+- [ ] #question I need to understand comprehensions and generator expressions in more detail to understand the above code better
 ### Definition
 - range() is a python function
 - It is of the class `range`
@@ -65,13 +65,13 @@ print(len(range(10))) #Output: 10
 ```python
 
 ```
-- #question What does an example look like?
+- [ ] #question What does an example look like?
 ### Questions
-- #question We can loop through a list such as `for x in range(6):` where x will go from 0 to 6. How can we go from -5 to 30 or some other specified range? 
-- #question How does the range() function work and what kind of flexibility can we get from it
-- #question Is it possible to have 4 arguments for the range function? 
-- #question How is [[underscore (python)|underscore]] used?
-- #question What is the maximum that range can handle in python
+- [ ] #question We can loop through a list such as `for x in range(6):` where x will go from 0 to 6. How can we go from -5 to 30 or some other specified range? 
+- [ ] #question How does the range() function work and what kind of flexibility can we get from it
+- [ ] #question Is it possible to have 4 arguments for the range function? 
+- [ ] #question How is [[underscore (python)|underscore]] used?
+- [ ] #question What is the maximum that range can handle in python
 ### Looping through a List
 ```python
 x = [0, 1, 2, 3]

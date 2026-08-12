@@ -18,4 +18,4 @@ Reviewed: false
 	- If you know the theta definition
 		- Something is a function if it belongs to $\theta(g(n))$ if 
 			- f(n) = O(g(n)) and f(n) = $\Omega$(g(n))
-			- #question What significance does this have?
+			- [ ] #question What significance does this have?

@@ -45,31 +45,31 @@ aliases:
 - ATM technology was developed in the 1980s and standardized in the early 1990s. Widely used in [[telecommunications]] and [[enterprise network|enterprise networks]] during the 1990s and early 2000s, before being largely replaced by IP-based networks ([[Ethernet]], [[Multiprotocol Label Switching|MPLS]], etc.)
 	- An IP-based network is a network where devices communicate using the [[Internet protocol]] (IP). This means each device has a unique IP address that allows data to be routed and sent to the correct destination across the network
 - ATM equipment includes routers, switches, and network interface cards (NICs), often housed in rack-mounted units in data centers.
-	- #question what is a rack-mounted unit?
+	- [ ] #question what is a rack-mounted unit?
 - A typical ATM switch can be the size of a small server (desktop unit) or a large rack-mount system used by telecom providers
-	- #question Who are the current telecom providers?
+	- [ ] #question Who are the current telecom providers?
 
 ### Networking Technology
 - ATM is a networking technology. It is a protocol and switching method used in telecommunication networks
-	- #question What is a protocol and switching method?
+	- [ ] #question What is a protocol and switching method?
 - ATM defines how data is formatted (into cells) and transmitted over dedicated virtual circuits
-	- #question What exactly is a cell? What other kind of formats can data be formatted into?
+	- [ ] #question What exactly is a cell? What other kind of formats can data be formatted into?
 - ATM is not a network itself but rather a networking technology and protocol used to build networks. It defines how data is formatted, transmitted, and switched across a network
 	- However, an ATM-based network can be built using ATM switches, routers, and interfaces. 
 		- In this sense, ATM is often referred to. as an ATM network, meaning a network that uses ATM as its underlying transport technology
-		- #question What is a transport technology?
+		- [ ] #question What is a transport technology?
 
 ### ATM and IP network differences
 - ATM
 	- Used fixed-size 53-byte cells
 		- Good for predictable performance
-		- #question How was a 53-byte cell chosen?
+		- [ ] #question How was a 53-byte cell chosen?
 	- Uses virtual circuits for dedicated paths
 	- Supports [[Quality of Service|QoS]] for real-time traffic like voice and video
 	- Requires specialized hardware and was expensive to scale
 - IP Networks 
 	- Uses variable-sized packets (more flexible but can introduce delays)
-		- #question Couldn't a fixed-size packet also introduce delays?
+		- [ ] #question Couldn't a fixed-size packet also introduce delays?
 	- Uses [[packet switching]] (each packet can take a different route)
 	- More scalable and cost-effective, leading to ATM being replaced
 	- Uses [[best-effort delivery]], with some QoS improvements in later years (such as [[Multiprotocol Label Switching|MPLS]])
@@ -77,25 +77,25 @@ aliases:
 ### ATM Interfaces
 - Types of ATM interfaces
 	- OC-3, OC-12, [[OC-48]], etc. (fiber optic links at different speeds)
-		- #question Is the higher the number, the greater the speed?
+		- [ ] #question Is the higher the number, the greater the speed?
 	- DS3 (T3) / E3 (legacy telecom interfaces)
 	- UTP ([[Unshielded Twisted Pair]]) for lower-speed ATM over copper
 	- ATM over [[synchronous optical networking|SONET]] (Synchronous Optical Network)
 	- ATM over DSL ([[Digital Subscriber Line]]), used in broadband networks.
-		- #question What are broadband networks?
-		- #question Does DSL use copper?
+		- [ ] #question What are broadband networks?
+		- [ ] #question Does DSL use copper?
 
 ### Hardware for ATM
 - ATM required specific hardware to operate:
 	- [[ATM Switches]] (like routers but designed for ATM cells).
 	- ATM Network Interface Cards (NICs) for computers/servers.
-		- #question What are some examples of ATM Network Interface cards
-		- #question do IP NICs exist too?
+		- [ ] #question What are some examples of ATM Network Interface cards
+		- [ ] #question do IP NICs exist too?
 	- [[DSL access multiplexer|DSLAMs]] (Digital Subscriber Line Access Multiplexers), which used ATM for broadband.
 	- ATM-compatible routers from companies like [[Cisco]] and [[Juniper]].
 - Software was needed to manage ATM networks, but the technology itself was heavily hardware-dependent
 	- This made it costly compared to newer software-based IP networks
-	- #question are IP networks software based?
+	- [ ] #question are IP networks software based?
 ## Source [^1]
 - Asynchronous transfer mode is a dedicated-connection switching technology that organizes digital data into 53-byte cell units for transmission. ATM can transmit data at speeds of 155 or 622 MBps and faster
 ## Source[^2]

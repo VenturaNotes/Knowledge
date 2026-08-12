@@ -1,19 +1,19 @@
 ## Synthesis
 - A branch of mathematical logic and computer science that serves as an alternative foundation for mathematics and computation.
-	- #question What other types of foundation for mathematics and computation are there? 
+	- [ ] #question What other types of foundation for mathematics and computation are there? 
 	- Instead of working with sets through [[set theory]], type theory organizes [[mathematical objects]] into types
-		- #question what is a mathematical object?
-		- #question what is meant by types? 
+		- [ ] #question what is a mathematical object?
+		- [ ] #question what is meant by types? 
 	- A [[type]] specifies a collection of values and operations that can be performed on those values, ensuring logical consistency and avoiding paradoxes like [[Russell's paradox]] in [[naive set theory]]
-		- #question what are these two?
-		- #question What is a type?
+		- [ ] #question what are these two?
+		- [ ] #question What is a type?
 - Type theory provides a formal system where:
 	- Every term has a type
 		- This ensures that operations are only applied to terms where they make sense (can't add a number to a function)
-			- #question what is meant by term?
+			- [ ] #question what is meant by term?
 	- Types prevent contradictions:
 		- By restricting how objects can be combined, type theory avoids ambiguities and paradoxes
-			- #question how does it do this?
+			- [ ] #question how does it do this?
 ### Key Ideas in Type Theory
 - [[Dependent Types]]: Types that depend on values. For example, a type might represent vectors of a certain length, where the length is part of the type.
 ## Source[^1]
@@ -45,7 +45,7 @@
 - We'll have certain [[inference rules (type theory)|inference rules]] saying how to derive judgements from other ones. 
 	- A collection of such rules is known as [[type theory]]
 - There are "obvious" judgements such as $x : A \vdash x : A$ which always hold
-	- #question How is this an obvious judgement?
+	- [ ] #question How is this an obvious judgement?
 	- X $\vdash$ Y means "The Information in X lets you prove that Y is true". You can read this as "X says that Y is true"[^2]
 	- The $\vdash$ is known as the [[turnstile symbol]][^3]
 ### Function Types (AKA Lambda Calculus)

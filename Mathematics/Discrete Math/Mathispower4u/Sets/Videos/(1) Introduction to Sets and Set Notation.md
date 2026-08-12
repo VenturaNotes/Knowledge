@@ -73,5 +73,5 @@ Reviewed: false
 				- #comment{3} $\subseteq$ is only true here if the superset has the element 3, not the set 3, {3}.
 			- (h) {3} $\subseteq$ {1, {1, 2}, 3, $\varnothing$} is correct. (The element 3 is not the same as the set containing 3, {3}). 3 $\in$ {1, {1, 2}, 3, $\varnothing$}
 			- (i) {0, 2, 4, 6, ...} = {x $\in$ $\mathbb{N}$: x is even} (called [[Set-builder notation|Set Builder Notation]])
-				- #question difference between set notation and set builder notation? Does it just have an equals sign?
+				- [ ] #question difference between set notation and set builder notation? Does it just have an equals sign?
 			- We will look at additional examples in the next several videos

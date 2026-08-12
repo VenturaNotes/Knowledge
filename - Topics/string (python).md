@@ -61,13 +61,13 @@ print(len('hello'))
 ```
 - Checking string length is constant-time operation $O(1)$
 #### .join()
-- #question Does it only accept a list type?
+- [ ] #question Does it only accept a list type?
 ```python
 print("".join(reversed(['1','2','3','4'])))
 
 # Output: 4321
 ```
-- #question Does this only work if the elements are string instances?
+- [ ] #question Does this only work if the elements are string instances?
 	- #comment It doesn't seem to work if you use `[1,2,3,4]`
 #### .isdigit()
 ```python
@@ -139,7 +139,7 @@ print("".join(li))
 ```
 - The output is `abcd`
 	- The "" depicts a null string
-		- #question is there a difference between a null string and an empty string?
+		- [ ] #question is there a difference between a null string and an empty string?
 
 ## Source[^4]
 - `'Hello, World!'.partition(', ')`

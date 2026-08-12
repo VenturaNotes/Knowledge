@@ -21,7 +21,7 @@ Reviewed: false
 	- (1) Does $P_2$ contain the zero vector? (YES)
 		- $P_2$ does contain the zero vector
 	- (2) Closed under addition? (YES)
-		- #question What does the hat over the equal sign mean? He says something about "defining as", but not sure.
+		- [ ] #question What does the hat over the equal sign mean? He says something about "defining as", but not sure.
 		- We find that the sum of two arbitrary elements from $P_2$ gives a polynomial of [[order]] 2 and they are arbitrary coefficients meaning it looks like any other element in the set $P_2$ 
 		- Chose arbitrary elements from the vector space. Added them together and ended up with a vector in the vector space so it's closed under vector addition
 			- It was closed under vector / polynomial addition

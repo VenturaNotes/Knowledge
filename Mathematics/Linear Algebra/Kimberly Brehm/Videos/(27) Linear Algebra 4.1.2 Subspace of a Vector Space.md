@@ -14,7 +14,7 @@ Reviewed: false
 			- (b) H is closed under addition
 			- (c) H is closed under scalar multiplication
 		- Every subspace is then a vector space. Once we meet the 3 requirements above, those subspaces are all vector spaces. Then we don't have to check the 10 axioms. Just need to check these 3
-			- #question isn't it only if it's a subset then?
+			- [ ] #question isn't it only if it's a subset then?
 		- We can also say every vector space is a subspace and that means it's a subspace of itself. So H could be the same size as V or it could be that that vector space is a subspace of some larger vector space
 	- Practice
 		- Is $\vec 0$  A subspace of $\mathbb{R}^2$ (essentially saying that H is only the zero vector) (True)
@@ -31,7 +31,7 @@ Reviewed: false
 			- "V be the space of all real valued functions". This means that V means all of those 10 axioms (don't have to check the axioms for V) 
 			- (3) Closed under multiplication?
 				- It's clear that all of my values would have real coefficients and there would be some combining of like terms but yes, the resulting equation would be a polynomial with real coefficients.
-					- #question what is a real coefficient?
+					- [ ] #question what is a real coefficient?
 			- The set of $\mathbb{P}$ would be a subspace to all real valued functions
 	- Practice
 		- Is $\mathbb{R}^2$ a subspace of $\mathbb{R}^3$?

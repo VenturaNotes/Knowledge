@@ -1,11 +1,11 @@
 ## Synthesis
 - A module in Python which implements the heap queue algorithm aka priority queue algorithm
-	- #question What is the heapq algorithm?
-	- #question Does 'algorithm' need to be at end of name? 
+	- [ ] #question What is the heapq algorithm?
+	- [ ] #question Does 'algorithm' need to be at end of name? 
 - It's a min-heap by default meaning the smallest element is always at the root (index 0). 
 ### Basic Operations (Min-Heap)
 - It operates on regular Python lists. Provides functions that turn a list into a heap and operates on it. 
-	- #question Can it operate on other data types aside from lists? 
+	- [ ] #question Can it operate on other data types aside from lists? 
 ```python
 import heapq
 
@@ -41,9 +41,9 @@ while my_heap:
     print(heapq.heappop(my_heap), end=" ") # Output: 2 3 4 7
 print(f"\nHeap after popping all: {my_heap}") # Output: []
 ```
- - #question Is the `heapq` ordered? When testing the initial print statement, the order always ended up being `1, 3, 7, 4`. 
- - #question What is meant by order of non-root elements can vary mean? What does root mean in this sense? I think it might be the top of a tree while the bottom are the leaves. 
- - #question How is the smallest element always at index 0?
+ - [ ] #question Is the `heapq` ordered? When testing the initial print statement, the order always ended up being `1, 3, 7, 4`. 
+ - [ ] #question What is meant by order of non-root elements can vary mean? What does root mean in this sense? I think it might be the top of a tree while the bottom are the leaves. 
+ - [ ] #question How is the smallest element always at index 0?
 ## Source [^1]
 - 
 ## References

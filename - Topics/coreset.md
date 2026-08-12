@@ -1,6 +1,6 @@
 ## Synthesis
 - Coreset (short for "core of a dataset") is a small, representative subset of a larger dataset, sometimes with associated weights that approximates a key objective function or property of the original dataset
-	- #question What would be an example of a key objective function?
+	- [ ] #question What would be an example of a key objective function?
 - The main purpose of a coreset is to significantly reduce computational complexity while maintaining high accuracy on a given problem. 
 - The goal is to replace a large original dataset with the small coreset for tasks like optimization or inference
 - A [[bayesian coreset]] is a specific type of coreset designed for bayesian inference problems. 

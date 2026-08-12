@@ -6,7 +6,7 @@ aliases:
 - 
 ## Source [^1]
 - The rated throughput capacity of a given network media or protocol. 
-	- #question what is rated throughput capacity?
+	- [ ] #question what is rated throughput capacity?
 - The amount of data that can be transmitted in a fixed amount of time
 ## Source[^2]
 - The theoretical maximum amount of data that can be transferred over a communication channel. It is measured in bits per second.

@@ -10,9 +10,9 @@ aliases:
 #### Characteristics
 - Anonymous: Not named
 - Single Expression: Only contains a single expression which is evaluated and returned
-	- #question What does it look like?
+	- [ ] #question What does it look like?
 - Function object: A lambda expression creates a function object, just like a function defined with `def`
-	- #question In python, is there a difference between lambda and lambda expression?
+	- [ ] #question In python, is there a difference between lambda and lambda expression?
 
 #### Syntax of Lambda
 ```python
@@ -31,9 +31,9 @@ print(result)  # Output: 8
 - Use Cases
 	- Short-term Use
 		- When a small function needed for a short duration. Can pass to higher-order functions such as [[map() (Python)|map()]], [[filter() (Python)|filter()]], and [[sorted() (Python)|sorted()]]
-		- #question Why are `map`, `filter`, and `sorted` considered to be higher-order functions? What does this mean? 
+		- [ ] #question Why are `map`, `filter`, and `sorted` considered to be higher-order functions? What does this mean? 
 	- Inline definition: When defining a function inline without the need for a full function definition
-		- #question What is meant by a function inline?
+		- [ ] #question What is meant by a function inline?
 
 #### More Examples
 ```python
@@ -72,8 +72,8 @@ print(sorted_names)  # Output: ['Bob', 'Alice', 'Charlie']
 x = lambda a : a
 print(x(3)) #Output: 3
 ```
-#question I need some more definitions and examples of lambda. Don't fully understand it or why it's named that way.
-#question Is lambda always considered a function? 
+- [ ] #question I need some more definitions and examples of lambda. Don't fully understand it or why it's named that way.
+- [ ] #question Is lambda always considered a function? 
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_lambda1

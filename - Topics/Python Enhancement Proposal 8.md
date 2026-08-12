@@ -14,7 +14,7 @@ aliases:
 		- If your editor is configured to "insert 4 spaces" when you hit the `Tab` key, that's the recommended way to work
 		- Just avoid mixing actual tab characters and space characters in same file
 			- Causes TabError in Python 3
-				- #question What is a TabError?
+				- [ ] #question What is a TabError?
 - Maximum Line Length
 	-  Limit all lines to a maximum of 79 characters.
 - Blank Lines
@@ -42,31 +42,31 @@ class MyClass:
 - One blank line around method definitions inside a class.
 - Imports
 	- Use separate lines and grouped in following order
-		- #question What are these imports called? Are they libraries? Modules? Is the name different depending on the language you're using like java? 
+		- [ ] #question What are these imports called? Are they libraries? Modules? Is the name different depending on the language you're using like java? 
 	    1. Standard library imports (built into Python)
 		    - `import os`
-			    - #question What are the os functions?
+			    - [ ] #question What are the os functions?
 		    - `import sys`
-			    - #question What are some `sys` functions?
+			    - [ ] #question What are some `sys` functions?
 		    - `import math`
-			    - #question What are some math functions?
+			    - [ ] #question What are some math functions?
 	    2. Related third-party imports (installed via `pip`)
 			- `import requests`
-				- #question What is the purpose of `requests` and give some examples
+				- [ ] #question What is the purpose of `requests` and give some examples
 			- `import pandas as pd`
-				- #question What is the purpose of `pandas` and give example
+				- [ ] #question What is the purpose of `pandas` and give example
 			- `from flask import Flask`
-				- #question Can you just import Flask? What does it do?
+				- [ ] #question Can you just import Flask? What does it do?
 	    3. Local application/library specific imports (your own files)
 		    - `from my_project.utils import helper_function`
-			    - #question Show an example of this working
+			    - [ ] #question Show an example of this working
 		    - `from .models import User`
-			    - #question Show an example of this working
+			    - [ ] #question Show an example of this working
 - Whitespace in Expressions
 	- Avoid extraneous whitespace inside parentheses, brackets, or before commas and colons.
 		- Inside parentheses/brackets: 
 			- Correct: `spam(ham[1], {eggs: 2})`
-				- #question Is `ham[1]` an item in a list ad `{eggs : 2}` is a key value pair in a dictionary, and `spam` would be the function it's being called into?
+				- [ ] #question Is `ham[1]` an item in a list ad `{eggs : 2}` is a key value pair in a dictionary, and `spam` would be the function it's being called into?
 			- Wrong: `spam( ham[ 1 ], { eggs: 2 } )`
 		- Before comma/colon:
 			- Correct: `if x == 4: print(x, y)`

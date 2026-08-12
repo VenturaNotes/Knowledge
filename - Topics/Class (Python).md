@@ -18,21 +18,21 @@ p1 = MyClass()
 print(p1.x)
 ```
 - #comment The p1 object is of type `<class '__main__.MyClass'>` 
-	- #question How to interpret this type? 
+	- [ ] #question How to interpret this type? 
 #### Definition
 - A class is a template for creating objects. Defines a set of attributes and methods 
-- #question What kind of classes are there. Given `rng = range(50)`, it seems like `type(rng)` is a class. What other types of classes are there? 
+- [ ] #question What kind of classes are there. Given `rng = range(50)`, it seems like `type(rng)` is a class. What other types of classes are there? 
 ### Description 2
 - In a class, [[__init__() (python)|__init__()]] is considered a method, specifically an instance method
 	- #question What is an instance method? 
 #### Definition
 - A class is a blueprint or template for creating objects. It defines a set of [[attribute (Python)|attributes]] and [[method (Python)|methods]] that the objects (instances) created from the class will have.
-	- #question Are objects and instances synonymous or are they different? 
+	- [ ] #question Are objects and instances synonymous or are they different? 
 - Body of class contains methods and attributes
 - Purpose: Provides a means of bundling data and functionality together
-	- #question Is C an OOP language? And if not, how does C handle objects in which Python could do?
+	- [ ] #question Is C an OOP language? And if not, how does C handle objects in which Python could do?
 - A class defines a type of [[object (Python)|object]], including attributes and methods
-	- #question What is meant by 'a type of object'
+	- [ ] #question What is meant by 'a type of object'
 #### Key Concepts
 
 ##### Definition
@@ -54,11 +54,11 @@ class Dog:
 # Step 2: Initialize -> __init__ sets dog.name
 d = Dog("Fido")
 ```
-- #question What does the `__new__()` method look like? 
+- [ ] #question What does the `__new__()` method look like? 
 
 ### Are Parentheses Required when Defining a Class?
 - You must use parentheses when your class inherits attributes and methods from another class (inheritance). You place the parent class names inside the parentheses
-	- #question What does an attribute vs method look like?
+	- [ ] #question What does an attribute vs method look like?
 
 ```python
 class Animal:
@@ -68,9 +68,9 @@ class Animal:
 class Dog(Animal):
     pass
 ```
-- #question What is a metaclass?
+- [ ] #question What is a metaclass?
 - If your class does not inherit from another custom class, adding empty parentheses is completely optional. Both of the following styles are syntactically valid and behave identically in modern Python:
-	- #question Does this only apply to custom classes?
+	- [ ] #question Does this only apply to custom classes?
 ```python
 # Style A: Without parentheses (Highly Recommended)
 class Car:

@@ -42,7 +42,7 @@ class Solution:
 		- odd holds the odd numbers
 		- total holds the result numbers
 			- It would actually be an improvement to do `result = [0] * len(nums)` to pre-allocate the result array for efficiency because it will always be one length.
-				- #question Why is this more efficient than just doing `result = []`?
+				- [ ] #question Why is this more efficient than just doing `result = []`?
 	- First loop
 		- Time Complexity: O(n)
 		- Adds each number into either an even or odd index

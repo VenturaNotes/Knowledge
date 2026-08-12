@@ -37,7 +37,7 @@
 #### Applications
 - RNAi is a precise and efficient tool for knockout of specific genes when studying gene function in experimental organisms (although, unlike genome editing, its effects are temporary). It also has potential for new forms of targeted but reversible gene therapy.
 - ![[Screenshot 2025-09-17 at 10.58.30 PM.png|500]]
-	- #question The image may have been partially cutoff in book
+	- [ ] #question The image may have been partially cutoff in book
 	- Parts
 		- Nucleus
 		- miRNA pathway

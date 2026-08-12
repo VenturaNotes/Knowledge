@@ -10,7 +10,7 @@ Reviewed: false
 	- There are two different kinds of standard deviation
 		- One, we can have a set of 20 numbers for example, and that's the entire population of all the numbers (there is no others), and therefore we will calculate the standard deviation of this. 
 			- Will call this the population standard deviation
-		- #question I think the next one would just be a subset of the entire population (so sample population? It's talked about in next video)
+		- [ ] #question I think the next one would just be a subset of the entire population (so sample population? It's talked about in next video)
 	- Drew a [[histogram]] chart which shows the distribution of how many times each number occurs. Might not expect a normal distribution from a small population. 
 	- Standard deviation here found to be 3.209
 		- 68.2% of population lies between $\pm 1 \sigma$ away from the average

@@ -4,38 +4,38 @@ aliases:
 ---
 ## Synthesis
 - A branch of [[artificial intelligence]] focused on building systems which uses algorithms, techniques, and methodologies to identify patterns and make predictions/decisions when learning from data (without being explicitly programmed). This allows us to build intelligent systems
-	- #question Is the above statement correct?
-	- #question Is predictions/decisions the same thing or is there a distinction depending on the type of problem being worked on?
-	- #question What kind of systems do these look like?
-	- #question What is meant by intelligent systems? 
-	- #question What is the difference between algorithms, techniques, and methodologies?
+	- [ ] #question Is the above statement correct?
+	- [ ] #question Is predictions/decisions the same thing or is there a distinction depending on the type of problem being worked on?
+	- [ ] #question What kind of systems do these look like?
+	- [ ] #question What is meant by intelligent systems? 
+	- [ ] #question What is the difference between algorithms, techniques, and methodologies?
 ### Algorithms, Techniques, and Methodologies
 - These relate to the different levels of abstraction and scope
-	- #question Are there more levels or are these the main 3? 
+	- [ ] #question Are there more levels or are these the main 3? 
 - Algorithms (mainly for learning)
 	- These are computational procedures or formulas which a machine learning model uses to learn from data and make predictions.
-		- #question Is it always known as a prediction or a decision as well?
-		- #question What is a computational procedure
-		- #question What kind of formulas are there?
+		- [ ] #question Is it always known as a prediction or a decision as well?
+		- [ ] #question What is a computational procedure
+		- [ ] #question What kind of formulas are there?
 		- Examples
 			- Linear Regression
-				- #question Definition and Example
+				- [ ] #question Definition and Example
 			- Support Vector Machines
-				- #question Definition and Example
+				- [ ] #question Definition and Example
 			- Decision Trees
-				- #question Definition and Example
+				- [ ] #question Definition and Example
 			- K-Means Clustering
-				- #question Definition and Example
-				- #question Are there other types of clustering?
+				- [ ] #question Definition and Example
+				- [ ] #question Are there other types of clustering?
 			- Neural Networks
-				- #question Definition and Example
-			- #question Are these examples the exhaustive list?
+				- [ ] #question Definition and Example
+			- [ ] #question Are these examples the exhaustive list?
 - Techniques (how algorithms are applied or data is managed):  
 	* This involves applying one or more algorithms together and preparing/handling data to achieve a particular learning goal
-		* #question What kind of learning goals are there? 
-		* #question How would you prepare and handle data?
-		* #question Is data normalization part of this preparation process?
-		* #question Where does techniques usually fall within a setup?
+		* [ ] #question What kind of learning goals are there? 
+		* [ ] #question How would you prepare and handle data?
+		* [ ] #question Is data normalization part of this preparation process?
+		* [ ] #question Where does techniques usually fall within a setup?
 	* Examples
 		* Supervised Learning
 		* Unsupervised Learning

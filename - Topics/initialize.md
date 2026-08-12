@@ -4,7 +4,7 @@ aliases:
 ---
 ## Synthesis
 - Sets up the internal state of the newly created object (e.g., set attributes)
-	- #question Could you give a specific example for this? 
+	- [ ] #question Could you give a specific example for this? 
 - Occurs right after the object is [[Instantiate|instantiated]]
 	- #comment Probably means when an instance of a class has been created
 - Initializing is done by the [[__init__() (python)|__init__()]] method

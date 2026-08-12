@@ -67,7 +67,7 @@ END Procedure
 - #comment 
 	- If the value of `Top` is equal to 0, then it signifies the stack is empty and will print out "Stack is empty"
 	- Otherwise, make a copy of the element at the top of the stack and then decrement by 1. I guess in this case, the `ArrayStack` will still keep the value there if the value of `Top` increases again
-		- #question Shouldn't the top of the stack be removed rather than just the pointer given by `Top`?
+		- [ ] #question Shouldn't the top of the stack be removed rather than just the pointer given by `Top`?
 
 ## Source[^2]
 - (pushdown stack, pushdown list, LIFO list) 

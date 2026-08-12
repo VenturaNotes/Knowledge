@@ -9,22 +9,22 @@ tags:
 - Agile is an iterative approach to software development that allows teams to deliver value to customers faster (than traditional, sequential development methodologies like the [[waterfall model]]) through small increments.
 	- Value is typically defined from the customer's perspective which could be
 		- A benefit to the end-user or stakeholder
-			- #question Is the end-user or stakeholder more important? Is this company dependent? Does it make a difference if it's a for profit vs nonprofit company? 
+			- [ ] #question Is the end-user or stakeholder more important? Is this company dependent? Does it make a difference if it's a for profit vs nonprofit company? 
 		- Solves a problem
-			- #question Is this a customer perspective?
+			- [ ] #question Is this a customer perspective?
 		- Achieves a business objective
-			- #question Is this a customer perspective?
+			- [ ] #question Is this a customer perspective?
 	- Functional features (new capabilities or user stories) are a primary way to deliver value, it can also come from
 		- Improving existing features
-			- #question What is an example of a feature?
+			- [ ] #question What is an example of a feature?
 		- Enhancing performance
-			- #question Give an example
+			- [ ] #question Give an example
 		- Reducing bugs
-			- #question Give an example
+			- [ ] #question Give an example
 		- Improving user experience
-			- #question Give an example
-		- #question What are user stories?
-		- #question I don't think saying 'functional features' is correct. I think functions and features are separate things. When you say that functional features are specific actions, tasks, or behaviors that a system or software component is designed to perform for the user, you're thinking of the term,  functional requirements. 
+			- [ ] #question Give an example
+		- [ ] #question What are user stories?
+		- [ ] #question I don't think saying 'functional features' is correct. I think functions and features are separate things. When you say that functional features are specific actions, tasks, or behaviors that a system or software component is designed to perform for the user, you're thinking of the term,  functional requirements. 
 - Characterized by:
 	- [[Iterative Development]]
 	- [[Incremental Delivery]]
@@ -44,7 +44,7 @@ tags:
 ### Development Process
 - This refers to the continuous cycle of planning, executing, reviewing, and adapting that occurs throughout the project lifecycle. It's not a single, linear process but an iterative loop:
 	- Envision/Plan: Define high-level goals and initial requirements ([[Product Backlog]]).
-		- #question What is a high-level goal?
+		- [ ] #question What is a high-level goal?
 	- Iterate/Execute (Sprints):
 		- Sprint Planning: Select and plan work for the current iteration.
 		- Develop & Test: Build the selected features.
@@ -55,7 +55,7 @@ tags:
 	- This cycle repeats until the product is complete or no longer needed.
 
 ### Organize
-- #question Isn't Lean a waterfall method? And what is the waterfall workflow that is no longer used by industry?
+- [ ] #question Isn't Lean a waterfall method? And what is the waterfall workflow that is no longer used by industry?
 	- No, Lean is not a Waterfall method. Lean Software Development is a core Agile methodology, focusing on efficiency, waste reduction, and continuous improvement, which are antithetical to the rigid, sequential nature of Waterfall.
 	- The Waterfall workflow is a traditional, linear, sequential project management approach. It breaks down project activities into distinct phases, where each phase must be completed and signed off before the next phase can begin. The typical phases are:
 		- Requirements: All project requirements are gathered and documented upfront.

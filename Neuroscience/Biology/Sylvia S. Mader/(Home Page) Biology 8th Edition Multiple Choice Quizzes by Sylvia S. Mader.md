@@ -78,7 +78,7 @@ Reviewed: false
 	- Nature is orderly and uniform
 - (49) The explanation that life comes only from life is associated with the [[biogenesis]] theory
 - (50) Science is impartial and does not make ethical or moral decisions
-	- #question What does this mean? 
+	- [ ] #question What does this mean? 
 - (51) The theory that accounts for the differences and the unity that joins all living things is the [[evolution]] theory
 - (52) Theories that are generally accepted by an overwhelming number of scientists are called
 	- Principles

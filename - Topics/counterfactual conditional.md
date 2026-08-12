@@ -1,17 +1,17 @@
 ## Synthesis
 - Counterfactual logic is associated with philosopher [[David Lewis]]
-	- #question Who is David Lewis?
+	- [ ] #question Who is David Lewis?
 ### Description
 - A conditional statement that discusses what would have happened under different circumstances. 
 - Separate from "material conditionals" used in math or logic
 	- Counterfactuals deal with subjunctive possibilities
-		- #question What is a subjunctive possibility?
+		- [ ] #question What is a subjunctive possibility?
 		- These are scenarios where the antecedent is known to be false in the actual world
 - For example
 	- In standard logic, $P \to Q$ is vacuously true when P is false
 	- In counterfactual, we care about the causal or logical between the "what if" and "then"
-		- #question So how would this change the standard logic $P \to Q$?
-		- #question So do we say 'What if P, then Q', instead of 'if P, then Q' for the counterfactual conditional?
+		- [ ] #question So how would this change the standard logic $P \to Q$?
+		- [ ] #question So do we say 'What if P, then Q', instead of 'if P, then Q' for the counterfactual conditional?
 - Structure of counterfactual
 	- Antecedent $(P)$: A condition that did not happen
 		- "If I had caught the train."

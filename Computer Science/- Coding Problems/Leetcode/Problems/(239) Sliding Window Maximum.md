@@ -17,7 +17,7 @@ Reviewed: false
 - This problem is known as a [[monotonically decreasing queue]]
 	- Queue will always be in decreasing order
 	- Using a [[queue]] and not a stack because we want to be able to add and remove elements from the beginning in O(1) time. Want to remove from beginning as well
-		- #question I don't think this was explained well. 
+		- [ ] #question I don't think this was explained well. 
 ```python
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:

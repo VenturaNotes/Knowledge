@@ -25,4 +25,4 @@ Reviewed: false
 	- Example
 		- Find dim Nul A + dim Col A for A
 			- Found 3 pivot columns and 2 free variables in [[row echelon form]]
-				- #question professor said "reduced echelon form". Is this accurate? I thought it's just row echelon form being shown
+				- [ ] #question professor said "reduced echelon form". Is this accurate? I thought it's just row echelon form being shown

@@ -182,9 +182,9 @@ print(N)
 		- Uses [[input() (Python)|input()]] to take in input as a string `"3 5"`
 		- [[split() (python)|split()]] will split the string with whitespaces into a list `["3", "5"]`
 		- [[map() (Python)|map()]] applies the `int` function to each item in list converting them to integers
-			- #question How does map work?
+			- [ ] #question How does map work?
 		- `a,b =`  unpacks the two integers from the result and assigns them variables `a` and `b`
-			- #question What does unpacking mean?
+			- [ ] #question What does unpacking mean?
 ```
 a, b = map(int, input().split()) 
 c = a + b
@@ -209,7 +209,7 @@ print(a*b)
 	- `print(int(input())*2)`
 - Scope of code is defined through indentation
 	- Indentation using tabs is used in Python to define code blocks, similar to spaces.
-		- #question Did they mean similar to curly braces instead?
+		- [ ] #question Did they mean similar to curly braces instead?
 - Grade Assignment Logic
 	- The code assigns the grade 'A' if the marks are greater than or equal to 60, otherwise 'B' is assigned.
 ```python

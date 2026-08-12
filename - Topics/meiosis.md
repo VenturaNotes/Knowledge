@@ -48,7 +48,7 @@
 		- 1st Anaphase
 		- 1st Telophase
 			- developing cell membrane
-				- #question Is this correct (as a term?)
+				- [ ] #question Is this correct (as a term?)
 		- 2nd Metaphase
 		- 2nd Anaphase
 		- 2nd Telophase

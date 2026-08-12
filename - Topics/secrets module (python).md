@@ -13,7 +13,7 @@ choice = secrets.choice(lst)
 
 ## Source [^1]
 - Used for generating cryptographically strong random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets
-	- #question What is an example of a security token? 
+	- [ ] #question What is an example of a security token? 
 ## References
 
 [^1]: https://docs.python.org/3/library/secrets.html

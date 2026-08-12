@@ -6,9 +6,9 @@
 ## Source[^2]
 ### Rust
 - A reference that points to deallocated memory (memory that has been freed)
-	- #question What would this look like in Rust (if possible?)
+	- [ ] #question What would this look like in Rust (if possible?)
 - Rusts has a borrow checker which prevents dangling references
-	- #question What is a borrow checker, how does it work, and what does an example look like? 
+	- [ ] #question What is a borrow checker, how does it work, and what does an example look like? 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

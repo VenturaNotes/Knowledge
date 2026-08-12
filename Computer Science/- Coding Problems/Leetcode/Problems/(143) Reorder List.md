@@ -16,7 +16,7 @@ Reviewed: false
 - Will take second portion of list and reverse it
 - Then will take both portions of list and merge them together
 - Could use a slow and fast pointer (to split the lists)
-	- #question what is this?
+	- [ ] #question what is this?
 	- Will shift slow pointer by 1 and fast pointer by 2
 		- Keep going until fast pointer reaches end of list or reaches last value of list
 		- If even list, slow pointer will be at halfway point

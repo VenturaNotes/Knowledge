@@ -4,8 +4,8 @@ aliases:
 ---
 ## Synthesis
 - Variable name in method definition
-	- #question Is it method definition or function definition in python?
-	- #question What is a method definition. Does it matter where the method definition is placed in python? I believe it matters in other languages.
+	- [ ] #question Is it method definition or function definition in python?
+	- [ ] #question What is a method definition. Does it matter where the method definition is placed in python? I believe it matters in other languages.
 - These are the variable names listed inside the parentheses in a function or method definition
 	- They act as placeholders for the values that will be passed 
 ```python

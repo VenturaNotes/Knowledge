@@ -7,11 +7,11 @@ aliases:
 	- A physical or [[virtual machine|virtual computer]] with dedicated services such as
 		- storing data
 			- Uses combination of [[hardware]] and [[software]] components
-			- #question How does it store data
-			- #question What is data storage?
+			- [ ] #question How does it store data
+			- [ ] #question What is data storage?
 		- running applications
 		- facilitating communication within a network
-			- #question How would a server do this? We know that a modem is basically the input 
+			- [ ] #question How would a server do this? We know that a modem is basically the input 
 ## Source[^1]
 - A server provides security, back-up, and storage.
 ## Source[^2]

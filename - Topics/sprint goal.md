@@ -1,5 +1,5 @@
 ## Synthesis
-- #question What is the sprint goal?
+- [ ] #question What is the sprint goal?
 ## Source [^1]
 - 
 ## References

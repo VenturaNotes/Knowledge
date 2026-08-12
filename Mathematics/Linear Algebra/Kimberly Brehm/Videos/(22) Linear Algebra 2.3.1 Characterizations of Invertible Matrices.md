@@ -17,7 +17,7 @@ Reviewed: false
 			- There is an $n \times n$ matrix C such that CA = $I_n$ 
 			- There is an $n \times n$ matrix D such that AD = $I_n$
 			- $A \sim I_n$ 
-				- #question difference between this and equals?
+				- [ ] #question difference between this and equals?
 			- The columns of A span $\mathbb{R}^n$
 			- $A^T$ is an invertible matrix
 	- Practice

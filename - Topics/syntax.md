@@ -1,6 +1,6 @@
 ## Synthesis
 - In programming. syntax refers to the set of rules that define the correct structure and arrangement of symbols, keywords, and expressions in a specific programming language. It dictates how code must be written for a compiler or interpreter to understand and execute it
-	- #question Are there other things aside from compiler or interpreter? What umbrella term do they fall under? 
+	- [ ] #question Are there other things aside from compiler or interpreter? What umbrella term do they fall under? 
 ## Source [^1]
 - Syntax is the rules and patterns that govern how we structure sentences
 - The grammatical structures that constitute syntax can be thought of as a hierarchy, with sentences at the top as the largest cohesive unit in the language and words (the parts of speech) at the bottom

@@ -5,7 +5,7 @@ aliases:
 ## Synthesis
 - A set of mechanisms used to manage network traffic and prioritize specific applications
 	- This ensures critical data flows smoothly even under high network load by controlling factors like 
-		- #question What is considered critical data?
+		- [ ] #question What is considered critical data?
 		- [[packet loss]]
 		- [[latency]]
 		- [[jitter]]

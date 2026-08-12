@@ -22,7 +22,7 @@ aliases:
 	- The ".com" represents the top-level domain ([[top-level domain|TLD]]) for commercial organizations.
 - For resolving domain names into IP addresses
 - DNS resolves domain names into IP addresses
-	- #question how does DNS do this?
+	- [ ] #question how does DNS do this?
 ## Source[^1]
 - An internet service that translates alphabetic names into IP addresses
 ## Source[^2]

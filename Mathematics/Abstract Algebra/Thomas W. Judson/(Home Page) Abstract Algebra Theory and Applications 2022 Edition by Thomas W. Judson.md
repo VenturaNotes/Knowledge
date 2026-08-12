@@ -60,7 +60,7 @@ Reviewed: false
 	- If the entire statement is true and we can show that  $ax^2 + bx + c = 0$ and $a \ne 0$ is true, then the conclusion must be true!
 		- A proof of this statement might simply be a series of equations
 		- ![[Screenshot 2024-10-22 at 1.03.02 AM.png|500]]
-			- #question I think this is just completing the square but where did the $\pm$ come from?
+			- [ ] #question I think this is just completing the square but where did the $\pm$ come from?
 - “If we can prove a statement true, then that statement is called a [[proposition]].” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=15&annotation=BVHDTNSQ))
 - “A proposition of major importance is called a [[theorem]].” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=15&annotation=L2ZSGP57))
 - “Sometimes instead of proving a theorem or proposition all at once, we break the proof down into modules; that is, we prove several supporting propositions, which are called [[lemmas]], and use the results of these propositions to prove the main result.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=15&annotation=QL8S6LRD))
@@ -131,7 +131,7 @@ Reviewed: false
 ##### Example 1.1
 - ![[Screenshot 2024-10-22 at 1.33.43 AM.png]]
 	- Let $\mathbb{R}$ be the [[universal set]] and suppose the above
-	- #question still need to understand above
+	- [ ] #question still need to understand above
 ### (1.3) Reading Questions
 ### (1.4) Exercises
 ### (1.5) References and Suggested Readings

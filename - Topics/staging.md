@@ -1,5 +1,5 @@
 ## Synthesis
-- #question What is staging
+- [ ] #question What is staging
 ## Source [^1]
 - 
 ## References

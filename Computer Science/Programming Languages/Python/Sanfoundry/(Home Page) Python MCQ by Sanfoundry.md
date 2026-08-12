@@ -38,8 +38,8 @@ Source:
 - (5) Is python code compiled or interpreted
 	- Python code is both complied and interpreted
 		- Many languages have been implemented using both compilers and interpreters, including C, Pascal, and Python
-			- #question When python was originally written, was it also compiled? If not, what version could it be compiled 
-			- #question What does it mean for a language to be compiled vs interpreted
+			- [ ] #question When python was originally written, was it also compiled? If not, what version could it be compiled 
+			- [ ] #question What does it mean for a language to be compiled vs interpreted
 - (6) Most keywords in Python are lowercase, but some like True, False, and None are capitalized
 - (7) What will be the value of the following expression?
 	- `print(4+3%5)`
@@ -75,7 +75,7 @@ while True:
 ```
 - `SyntaxError`
 	- The output will be a `SyntaxError` because `i += 1` is invalid syntax in Python. There should be no space between `+` and `=`. The correct syntax is `i += 1`
-	- #question What does SyntaxError look like in Python?
+	- [ ] #question What does SyntaxError look like in Python?
 - (12) Which of the following functions can help us to find the version of python that we are currently working on?
 #paused
 ## (1) Python MCQ on Variable Names & Operators
@@ -83,36 +83,36 @@ while True:
 - (1) Is Python case sensitive when dealing with identifiers
 	- Yes
 		- Yes, Python is case sensitive. For example, Variable, variable, and VARIABLE are all treated as different identifiers.
-		- #question What is an identifier in Python?
+		- [ ] #question What is an identifier in Python?
 - (2) What is the maximum possible length of an identifier?
 	- In Python, identifiers can be of any length. There is no fixed maximum, though extremely long names are not practical.
-		- #question What would be an example of an identifier. Is this basically just a variable or function name you create?
+		- [ ] #question What would be an example of an identifier. Is this basically just a variable or function name you create?
 - (3) Which of the following is not allowed in Python?
 	- Allowed in Python
 		- `_a = 1`
 		- `__a = 1`
 		- `__str__` = 1
 	- All the given statements are valid in Python and will run without errors. However, using names like `__str__` can reduce readability or interfere with built-in functionality
-		- #question How could it interfere with built-in functionality. Could you give an example?
-		- #question What are some rules for variable names? What symbols are you allowed to use to start a variable name and what are you not allowed to start with? Can you start with a number for a variable name?
+		- [ ] #question How could it interfere with built-in functionality. Could you give an example?
+		- [ ] #question What are some rules for variable names? What symbols are you allowed to use to start a variable name and what are you not allowed to start with? Can you start with a number for a variable name?
 - (4) Which of the following is an invalid variable?
 	- `1st_string`
 		- Variable names in Python cannot start with a digit. Since 1st_string begins with the digit 1, it is invalid. The other options follow Python's variable naming rules, where names can start with letters or underscores and can include digits after the first character
-		- #question Is `_` considered a valid variable?
+		- [ ] #question Is `_` considered a valid variable?
 - (5) Why are local variable names beginning with an underscore discouraged?
 	- They are used to indicate a private variable of a class
 		- As Python has no concept of private variables, leading underscores are used to indicate variables that must not be accessed from outside the class
-			- #question Is this just a naming convention or will there be an error returned when a python program is run? 
-			- #question Could you give an example of this?
+			- [ ] #question Is this just a naming convention or will there be an error returned when a python program is run? 
+			- [ ] #question Could you give an example of this?
 - (6) Which of the following is not a keyword in Python?
 	- `eval`
 		- `eval` is a built-in function, not a keyword. The others (assert, nonlocal, and pass) are Python keywords
-			- #question Could you give an example of each in practice in python? (`eval`, `assert`, `nonlocal`, and `pass`)
+			- [ ] #question Could you give an example of each in practice in python? (`eval`, `assert`, `nonlocal`, and `pass`)
 - (7) Most keywords in Python are in lowercase, but some like True, False, and None are capitalized
 - (8) Which of the following is true for variable names in Python?
 	- unlimited length
 		- Python allows variable names of unlimited length. Private members usually have only a leading underscore, not both leading and trailing. The ampersand (&) is not permitted in variable names; only the underscore `(_)` is allowed as a special character
-			- #question What is meant by ampersand not being permitted in variable names? Do you mean by convention or a variable name can't contain an ampersand?
+			- [ ] #question What is meant by ampersand not being permitted in variable names? Do you mean by convention or a variable name can't contain an ampersand?
 - (9) Which of the following is an invalid statement?
 	- `a b c = 1000 2000 3000`
 		- In Python, variable names cannot have spaces between them, so above is invalid syntax
@@ -147,9 +147,9 @@ while True:
 - (6) Operators with the same precedence are evaluated in which manner?
 	- Can't say
 		- In Python language, most of the operators with the same precedence are evaluated with left to right such as a lot of binary operators. However, exponent operator, unary operators, ternary, and assignment operators are evaluated from right to left.
-			- #question What is a binary operator?
-			- #question Please give an example for exponent operator, unary operator, ternary operator, and assignment operators evaluating from right to left in python
-			- #question Is there an operation between unary and ternary?
+			- [ ] #question What is a binary operator?
+			- [ ] #question Please give an example for exponent operator, unary operator, ternary operator, and assignment operators evaluating from right to left in python
+			- [ ] #question Is there an operation between unary and ternary?
 - (7) What is the output of this expression, `3*1**3`?
 	- 3
 		- In Python, the exponentiation operator (`**`) has higher precedence than multiplication `(*)`. Therefore, the expression is evaluated as `1**3` first, which equals 1. Then `3*1` is evaluated, giving the final result of 3.
@@ -181,8 +181,8 @@ print(str[:2])
 - (4) Which of the following will run without errors?
 	- `round(45.8)`
 		- The `round()` function in Python takes one or two values. It gives an error if more than two values are passed. You can type `help(round)` in the Python shell to see more about how it works
-			- #question What is meant by shell? 
-			- #question How can the round function take two values? 
+			- [ ] #question What is meant by shell? 
+			- [ ] #question How can the round function take two values? 
 - (5) What is the return type of the `id()` function in python?
 	- `int`
 		- The `id()` function returns a unique integer that shows the memory address of an object You can use `help(id)` in the Python shell to learn more?
@@ -257,7 +257,7 @@ print(average)
 ```
 - `85.0`
 	- The expression `(grade1 + grade2) / 2` becomes `(80+90)/2 = 170/2`, which evaluates to `85.0.` In Python 3, the `/` operator performs floating-point division, so the result includes a decimal
-		- #question Is this different from Python 2.x?
+		- [ ] #question Is this different from Python 2.x?
 - (14) Which of the following will print this output?
 ```python
 hello-how-are-you
@@ -274,20 +274,20 @@ print('hello-'+'how-are-you')
 - (1) What is the output of print `0.1 + 0.2 == 0.3`?
 	- `False`
 		- Due to the limitations of floating-point representation in binary, neither `0.1, 0.2,` nor `0.3` can be represented precisely. This leads to a small rounding error when adding `0.1` and `0.2`, causing the result to be slightly different from 0.3. Therefore, `0.1 + 0.2 == 0.3` evaluates to False.
-			- #question How exactly are floating-point numbers represented in binary?
-			- #question Is this true only for Python? 
+			- [ ] #question How exactly are floating-point numbers represented in binary?
+			- [ ] #question Is this true only for Python? 
 - (2) Which of the following is not a complex number?
 	- `k = 2 + 3l`
 		- In python, complex numbers are represented using `j` or `J` (e.g., 2 + 3j or complex(2, 3)). However, l (or L) is used to denote a long integer in some contexts, not a complex number. Therefore, `k = 2 + 3l` is not a complex number.
-			- #question What is a long integer?
+			- [ ] #question What is a long integer?
 	- These are complex numbers
 		- `k = 2 + 3j`
 		- `k = complex(2, 3)`
 		- `k = 2 + 3J
 - (3) What is the type of `inf`?
 	- In Python, `inf` represents infinity, which is a special case of floating-point numbers. It can be created using `float('inf')` or directly as `inf`. Thus, the type of `inf` is float.
-		- #question How do you use `inf` in python?
-		- #question Please show examples of `inf` and `float('inf')` in usage.
+		- [ ] #question How do you use `inf` in python?
+		- [ ] #question Please show examples of `inf` and `float('inf')` in usage.
 - (4) What does `~4` evaluate to?
 	- `-5`
 		- In Python, the `~` operator is the bitwise NOT operator. It inverts the bits of the number. The expression `~x` is equivalent to $-(x+1)$. For x = 4, ~4 evaluates to -5
@@ -300,8 +300,8 @@ print('hello-'+'how-are-you')
 - (6) Which of the following is incorrect?
 	- `x = 03964`
 		- In Python, numbers starting with a 0 are considered octal numbers (base 8). However, octal numbers can only contain digits from 0 to 7. Since 9 is not a valid digit in an octal number, 03964 is incorrect.
-			- #question What is the use case of octal numbers. Why is base 8 important? 
-			- #question Is `0x4f5` an octal number or a hexadecimal number? How do I read this? 
+			- [ ] #question What is the use case of octal numbers. Why is base 8 important? 
+			- [ ] #question Is `0x4f5` an octal number or a hexadecimal number? How do I read this? 
 	- Valid
 		- `x = 30963`
 		- `x = 19023`
@@ -358,7 +358,7 @@ Python 3.6.8 (default, Oct 7 2019, 12:59:55)
 				- So if you have `3^6`, this equals 5. Their binary representation is 
 					- $3 = 0011_2$ and  $6 = 0110_2$
 					- When comparing left to right, we get `0101` which is 5 in binary
-					- #question Is there a method of finding the binary representation of a base 10 number faster? 
+					- [ ] #question Is there a method of finding the binary representation of a base 10 number faster? 
 
 ## (3) MCQ on Precedence and Associativity in Python
 ### (3.1) Python Precedence and Associativity-1
@@ -460,7 +460,7 @@ print(float(4+int(2.39)%2))
 - (7) Which of the following expressions is an example of type conversion?
 	- `4.0 + float(3)`
 		- Type conversion is nothing but explicit conversion of operands to a specific type. Options `5.3 + 6.3` and `5.0 + 3` are examples of implicit conversion whereas option `4.0 + float(3)` is an example of explicit conversion or type conversion.
-			- #question Why is `5.3 + 6.3` an implicit conversion? Aren't they both floating point numbers?
+			- [ ] #question Why is `5.3 + 6.3` an implicit conversion? Aren't they both floating point numbers?
 - (8) Which of the following expressions results in an error?
 	- `int('10.8')`
 		- All of the expressions involve explicit type conversion. However, `int('10.8')` results in an error because the `int()` function cannot convert a string with a decimal point into an integer. To convert a string with a decimal, it must first be converted to a float.
@@ -547,10 +547,10 @@ print(0x35 | 0x75)
 - (1) It is not possible for the two's complement value to be equal to the original value in any case
 	- False
 		- In most cases, the two's complement of a binary number is different from the original value. However, there is a special case in which the two's complement is equal to the original value. For example, in an 8-bit system, the binary number `10000000` represents -128. Taking the two's complement of this number results in the same binary value: `10000000`. This happens because -128 is the minimum value that can be represented in 8-bit two's complement format, and it does not have a positive counterpart. Hence, the statement is false. 
-			- #question What is "two's complement"?
-			- #question How does an 8-bit system work?
-			  #question Why is `10000000` a negative number? 
-			- #question Why doesn't it have a positive counterpart?
+			- [ ] #question What is "two's complement"?
+			- [ ] #question How does an 8-bit system work?
+			- [ ] #question Why is `10000000` a negative number? 
+			- [ ] #question Why doesn't it have a positive counterpart?
 - (2) The one's complement of `110010101` is
 	- `001101010`
 		- The one's complement of a value is obtained by simply changing all the 1's to 0's and all the 0's to 1's. Hence the one's complement of `110010101` is `001101010`
@@ -580,8 +580,8 @@ print(bin(10-2) + bin(12^4))
 0b1000
 0b1000
 ```
-- #question How do I know when you concatenate binary numbers vs when you actually add them together
-  #question Why does python display a python number as `0b{binary numer}`? What does the `0b` mean? 
+- [ ] #question How do I know when you concatenate binary numbers vs when you actually add them together
+  - [ ] #question Why does python display a python number as `0b{binary numer}`? What does the `0b` mean? 
 - (7) Which of the following expressions can be used to multiply a given number `a` by `4`?
 	- `a << 2`
 		- Let us consider an example wherein `a=2`. The binary form of 2 is `0010`. When we left shift this value by 2, we get 1000, the value of which is 8. Hence if we want to multiply a given number `a` by 4, we can use the expression: `a << 2`. 
@@ -599,16 +599,16 @@ print(a,b)
 - (9) What is the two's complement of -44?
 	- `11010100`
 		- The binary form of `-44` is `00101100`. The one's complement of this value is `11010011`. On adding one to this we get: `11010100` (two's complement)
-	- #question What is a two's complement?
-	- #question How do you find the binary form of a negative number?
-	- #question Why does adding one to a one's complement give a two's complement? What is the purpose of a two's complement?
+	- [ ] #question What is a two's complement?
+	- [ ] #question How do you find the binary form of a negative number?
+	- [ ] #question Why does adding one to a one's complement give a two's complement? What is the purpose of a two's complement?
 - (10) What will be the output of the following Python expression?
 ```python
 ~100
 ```
 - `-101`
 	- The expression `~100` uses the bitwise NOT operator, which inverts all the bits of the number. In python, this is equivalent to `-(100 +1),` which results in `-101`. Therefore, the output of `~100` is `-101`.
-		- #question What does it mean to invert all the bits of the number? Is this the same as one's complement?
+		- [ ] #question What does it mean to invert all the bits of the number? Is this the same as one's complement?
 ### (4.3) Python Boolean
 - (1) What will be the output of the following Python code snippet?
 ```python

@@ -9,7 +9,7 @@ Reviewed: false
 			- Mutually exclusive just means that the events cannot occur at the same time
 			- So the intersection of their probabilities is equal to 0
 				- $P(A \cap B) = 0$
-			- #question is there a difference been mutual exclusivity and disjoint sets?
+			- [ ] #question is there a difference been mutual exclusivity and disjoint sets?
 		- (b) A and B are [[independent]]
 			- $P(A \cap B) = P(A)P(B)$ 
 	- [[Union]] formula for probability

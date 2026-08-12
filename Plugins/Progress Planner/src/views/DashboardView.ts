@@ -100,8 +100,6 @@ export class DashboardView extends ItemView {
     private activeNodeId: string | null = null;
     private goalQuery = "";
     private isCollapsed = false;
-    // Gear-icon dropdown panel (Focus Filters + View Settings), replacing what used
-    // to live permanently in the left sidebar. Sidebar is now inspector-only.
     private settingsPanelOpen = false;
     private focusSectionExpanded = true;
     private viewSectionExpanded = true;
@@ -110,8 +108,6 @@ export class DashboardView extends ItemView {
     private hideCompletedCheckboxes = true;
 
     private expandedHubIds: Set<string> = new Set();
-    // Nodes where the user clicked the depth-cutoff badge to keep expanding that
-    // specific branch past the normal renderDistance limit.
     private depthExpandedIds: Set<string> = new Set();
 
     private isPanning = false;
@@ -129,6 +125,14 @@ export class DashboardView extends ItemView {
     private idleFrameCount = 0;
     private readonly IDLE_SPEED_THRESHOLD = 0.05;
     private readonly IDLE_FRAMES_TO_STOP = 30;
+
+    private lastGraphRef: GraphNode[] | null = null;
+    private lastRenderConfig: string = "";
+    private hubHiddenIds: Set<string> = new Set();
+    private frontierCutoffCounts: Map<string, number> = new Map();
+    private renderMemo: Map<string, boolean> = new Map();
+    
+    private nodeById: Map<string, GraphNode> = new Map();
 
     constructor(leaf: WorkspaceLeaf, plugin: ProgressPlannerPlugin) {
         super(leaf);
@@ -203,24 +207,18 @@ export class DashboardView extends ItemView {
         return stillMoving;
     }
 
-    // Counts every renderable, non-hidden descendant below `node` (regardless of depth) —
-    // used to label a frontier node with exactly how many nodes are sitting below the
-    // render-distance cutoff, so nothing is invisible even when it isn't drawn.
-    private countAllDescendants(node: GraphNode, hiddenIds: Set<string>, memo: Map<string, boolean>): number {
+    private countAllDescendants(node: GraphNode, hiddenIds: Set<string>): number {
         const seen = new Set<string>();
         const stack: GraphNode[] = [...node.children];
         while (stack.length) {
             const n = stack.pop()!;
-            if (seen.has(n.id) || hiddenIds.has(n.id) || !this.isRenderable(n, memo)) continue;
+            if (seen.has(n.id) || hiddenIds.has(n.id) || !this.isRenderable(n)) continue;
             seen.add(n.id);
             stack.push(...n.children);
         }
         return seen.size;
     }
 
-    // Reverses a depth expansion: clears this node's expanded flag AND any deeper
-    // expansions inside its subtree, so folding always resets cleanly back to "one
-    // level at a time" rather than leaving stale expanded islands further down.
     private foldDepthBranch(node: GraphNode, seen: Set<string> = new Set()): void {
         if (seen.has(node.id)) return;
         seen.add(node.id);
@@ -228,17 +226,14 @@ export class DashboardView extends ItemView {
         node.children.forEach(c => this.foldDepthBranch(c, seen));
     }
 
-    private getNodesWithinDistance(anchors: GraphNode[], maxDist: number, hiddenIds: Set<string>, memo: Map<string, boolean>): { nodes: Set<GraphNode>; frontierCutoffCounts: Map<string, number> } {
-        // Track remaining depth budget per node rather than absolute distance from the
-        // anchor, so a depth-expanded branch can be granted a fresh budget instead of
-        // simply refusing to stop (which would defeat the whole point of a cutoff).
+    private getNodesWithinDistance(anchors: GraphNode[], maxDist: number, hiddenIds: Set<string>): { nodes: Set<GraphNode>; frontierCutoffCounts: Map<string, number> } {
         const budget = new Map<string, number>();
         const found = new Map<string, GraphNode>();
         const frontierCutoffCounts = new Map<string, number>();
         const queue: GraphNode[] = [];
 
         anchors.forEach(a => {
-            if (!hiddenIds.has(a.id) && this.isRenderable(a, memo)) {
+            if (!hiddenIds.has(a.id) && this.isRenderable(a)) {
                 budget.set(a.id, maxDist);
                 found.set(a.id, a);
                 queue.push(a);
@@ -253,24 +248,17 @@ export class DashboardView extends ItemView {
 
             if (remaining <= 0) {
                 if (this.depthExpandedIds.has(node.id)) {
-                    // User clicked the depth badge on this node — grant exactly one more
-                    // level, not a full refill. If there's further depth beyond that one
-                    // extra level, the new frontier child gets its own badge to click.
                     remaining = 1;
                     budget.set(node.id, remaining);
                 } else {
-                    // Depth cutoff reached here — this node becomes a visible frontier.
-                    // Count (never hide) everything past it so the badge always reflects
-                    // the true remaining size of the branch.
-                    const hiddenCount = this.countAllDescendants(node, hiddenIds, memo);
+                    const hiddenCount = this.countAllDescendants(node, hiddenIds);
                     if (hiddenCount > 0) frontierCutoffCounts.set(node.id, hiddenCount);
                     continue;
                 }
             }
 
-            // Only traverse downstream (children) to ensure only descendants are explored
             for (const nb of node.children) {
-                if (!hiddenIds.has(nb.id) && !budget.has(nb.id) && this.isRenderable(nb, memo)) {
+                if (!hiddenIds.has(nb.id) && !budget.has(nb.id) && this.isRenderable(nb)) {
                     budget.set(nb.id, remaining - 1);
                     found.set(nb.id, nb);
                     queue.push(nb);
@@ -280,22 +268,22 @@ export class DashboardView extends ItemView {
         return { nodes: new Set(found.values()), frontierCutoffCounts };
     }
 
-    private hasIncompleteDescendant(node: GraphNode, memo: Map<string, boolean>): boolean {
-        if (memo.has(node.id)) return memo.get(node.id)!;
-        memo.set(node.id, false);
-        const result = node.children.some(child => child.status !== "done" || this.hasIncompleteDescendant(child, memo));
-        memo.set(node.id, result);
+    private hasIncompleteDescendant(node: GraphNode): boolean {
+        if (this.renderMemo.has(node.id)) return this.renderMemo.get(node.id)!;
+        this.renderMemo.set(node.id, false);
+        const result = node.children.some(child => child.status !== "done" || this.hasIncompleteDescendant(child));
+        this.renderMemo.set(node.id, result);
         return result;
     }
 
-    private isRenderable(n: GraphNode, memo: Map<string, boolean>): boolean {
+    private isRenderable(n: GraphNode): boolean {
         const hasLink = n.isGoal || n.parents.length > 0 || n.children.length > 0;
         if (!hasLink) return false;
 
         if (n.status !== "done") return true;
         if (!this.hideCompletedCheckboxes) return true;
 
-        return this.hasIncompleteDescendant(n, memo);
+        return this.hasIncompleteDescendant(n);
     }
 
     private impactRank(impact: string): number {
@@ -305,37 +293,37 @@ export class DashboardView extends ItemView {
         return 0;
     }
 
-    // Priority order for deciding which children survive a hub cap: high impact first,
-    // then files over checkboxes, then title for stable ordering (no shuffling on re-render).
     private childPriorityRank(n: GraphNode): number {
-        // Lower number = higher priority = kept first.
-        const impactPenalty = 3 - this.impactRank(n.impact); // high=0, medium=1, low=2, none=3
-        const kindPenalty = n.kind === "file" ? 0 : 1; // files before checkboxes
+        const impactPenalty = 3 - this.impactRank(n.impact); 
+        const kindPenalty = n.kind === "file" ? 0 : 1; 
         return impactPenalty * 10 + kindPenalty;
     }
 
-    private computeHubHiddenIds(anchorNodeIds: Set<string>, memo: Map<string, boolean>): Set<string> {
+    private computeHubHiddenIds(anchorNodeIds: Set<string>): Set<string> {
         const threshold = this.plugin.settings.hubChildThreshold;
         const minRank = this.impactRank(this.plugin.settings.hubMinImpact);
         const hidden = new Set<string>();
 
-        this.allNodes.forEach(parent => {
-            const visibleChildren = parent.children.filter(c => this.isRenderable(c, memo));
-            if (visibleChildren.length <= threshold) return;
-            if (this.expandedHubIds.has(parent.id)) return;
+        const hubCandidates = this.allNodes.filter(n => n.children.length > threshold);
 
-            // Always keep exactly `threshold` children visible, ranked by priority,
-            // instead of hiding everything under the impact floor (which could leave
-            // fewer than `threshold` visible if most children happen to be low-impact).
+        hubCandidates.forEach(parent => {
+            if (this.expandedHubIds.has(parent.id)) return;
+            
+            const visibleChildren = parent.children.filter(c => this.isRenderable(c));
+            if (visibleChildren.length <= threshold) return;
+
             const ranked = [...visibleChildren].sort((a, b) => {
                 const rankDiff = this.childPriorityRank(a) - this.childPriorityRank(b);
                 if (rankDiff !== 0) return rankDiff;
                 return a.title.localeCompare(b.title);
             });
 
-            ranked.slice(threshold).forEach(child => {
-                hidden.add(child.id);
-            });
+            for (let i = threshold; i < ranked.length; i++) {
+                const child = ranked[i];
+                if (child) {
+                    hidden.add(child.id);
+                }
+            }
         });
 
         const descendantPassMemo = new Map<string, boolean>();
@@ -350,11 +338,11 @@ export class DashboardView extends ItemView {
         };
 
         Array.from(hidden).forEach(id => {
-            const node = this.allNodes.find(n => n.id === id);
+            const node = this.nodeById.get(id);
             if (!node) return;
 
             const rescuedByNonHubParent = node.parents.some(p => {
-                const pVis = p.children.filter(c => this.isRenderable(c, memo));
+                const pVis = p.children.filter(c => this.isRenderable(c));
                 return pVis.length <= threshold || this.expandedHubIds.has(p.id);
             });
             
@@ -362,22 +350,6 @@ export class DashboardView extends ItemView {
                 hidden.delete(id);
             }
         });
-
-        let changed = true;
-        while (changed) {
-            changed = false;
-            for (const node of this.allNodes) {
-                if (hidden.has(node.id) || node.isGoal) continue;
-
-                if (node.parents.length > 0) {
-                    const allParentsMissing = node.parents.every(p => hidden.has(p.id));
-                    if (allParentsMissing) {
-                        hidden.add(node.id);
-                        changed = true;
-                    }
-                }
-            }
-        }
 
         return hidden;
     }
@@ -397,6 +369,7 @@ export class DashboardView extends ItemView {
         const MAX_SPEED = 40;
 
         const center = { x: 1000, y: 1000 };
+        const MAX_NODES_FOR_N2_CALCS = 400; 
 
         for (const p of coords.values()) {
             if (!Number.isFinite(p.x) || !Number.isFinite(p.y)) {
@@ -407,35 +380,37 @@ export class DashboardView extends ItemView {
             }
         }
 
-        for (let i = 0; i < this.visibleTasks.length; i++) {
-            const t1 = this.visibleTasks[i];
-            if (!t1) continue;
-            const p1 = coords.get(t1.id);
-            if (!p1) continue;
+        if (this.visibleTasks.length <= MAX_NODES_FOR_N2_CALCS) {
+            for (let i = 0; i < this.visibleTasks.length; i++) {
+                const t1 = this.visibleTasks[i];
+                if (!t1) continue;
+                const p1 = coords.get(t1.id);
+                if (!p1) continue;
 
-            for (let j = i + 1; j < this.visibleTasks.length; j++) {
-                const t2 = this.visibleTasks[j];
-                if (!t2) continue;
-                const p2 = coords.get(t2.id);
-                if (!p2) continue;
+                for (let j = i + 1; j < this.visibleTasks.length; j++) {
+                    const t2 = this.visibleTasks[j];
+                    if (!t2) continue;
+                    const p2 = coords.get(t2.id);
+                    if (!p2) continue;
 
-                const dx = p1.x - p2.x;
-                const dy = p1.y - p2.y;
-                let distSq = dx * dx + dy * dy;
-                if (distSq < 100) {
-                    distSq = 100;
-                }
-                const dist = Math.sqrt(distSq);
+                    const dx = p1.x - p2.x;
+                    const dy = p1.y - p2.y;
+                    let distSq = dx * dx + dy * dy;
+                    if (distSq < 100) {
+                        distSq = 100;
+                    }
+                    const dist = Math.sqrt(distSq);
 
-                const force = K_REPEL / distSq;
-                const fx = (dx / dist) * force;
-                const fy = (dy / dist) * force;
+                    const force = K_REPEL / distSq;
+                    const fx = (dx / dist) * force;
+                    const fy = (dy / dist) * force;
 
-                if (t1.id !== this.draggedNodeId) {
-                    p1.vx += fx; p1.vy += fy;
-                }
-                if (t2.id !== this.draggedNodeId) {
-                    p2.vx -= fx; p2.vy -= fy;
+                    if (t1.id !== this.draggedNodeId) {
+                        p1.vx += fx; p1.vy += fy;
+                    }
+                    if (t2.id !== this.draggedNodeId) {
+                        p2.vx -= fx; p2.vy -= fy;
+                    }
                 }
             }
         }
@@ -465,7 +440,7 @@ export class DashboardView extends ItemView {
         });
 
         this.edgeRepelFrameCounter++;
-        if (this.edgeRepelFrameCounter % 3 === 0) {
+        if (this.edgeRepelFrameCounter % 3 === 0 && this.visibleTasks.length <= 250) {
             const K_EDGE_REPEL = 900;
 
             const edges: { p: { x: number; y: number; vx: number; vy: number }; c: { x: number; y: number; vx: number; vy: number }; parentId: string; childId: string }[] = [];
@@ -543,7 +518,7 @@ export class DashboardView extends ItemView {
             }
         });
 
-        if (!isInitialBurst) {
+        if (!isInitialBurst && this.visibleTasks.length <= MAX_NODES_FOR_N2_CALCS) {
             for (let i = 0; i < this.visibleTasks.length; i++) {
                 const t1 = this.visibleTasks[i];
                 if (!t1) continue;
@@ -750,13 +725,453 @@ export class DashboardView extends ItemView {
         });
     }
 
+    private updateSelection() {
+        this.nodeElements.forEach((el, id) => {
+            el.classList.toggle("is-active", id === this.activeNodeId);
+        });
+
+        const sidebarInner = this.contentEl.querySelector(".tq-sidebar-inner");
+        if (sidebarInner) {
+            this.renderSidebar(sidebarInner as HTMLElement);
+        }
+    }
+
+    private renderSidebar(sidebarInner: HTMLElement) {
+        sidebarInner.empty();
+        
+        if (this.activeNodeId) {
+            const task = this.nodeById.get(this.activeNodeId);
+            if (!task) { this.activeNodeId = null; this.renderSidebar(sidebarInner); return; }
+
+            const header = sidebarInner.createDiv("tq-sidebar-header");
+            header.createSpan({ text: "Node Inspector" });
+            const back = header.createSpan({ text: "Close", cls: "tq-back-btn" });
+            back.onclick = () => { this.activeNodeId = null; this.updateSelection(); }; 
+
+            sidebarInner.createDiv({ text: task.title, cls: "tq-inspector-title" });
+            const scroll = sidebarInner.createDiv("tq-scroll-list");
+
+            const impactHeader = scroll.createDiv({ text: "Impact Level", cls: "tq-sidebar-header" });
+            impactHeader.setAttribute("style", "background:transparent; padding: 10px 0 5px 0; margin-top: 5px; border-bottom: none;");
+
+            const impactSelect = scroll.createEl("select", { cls: "tq-select" });
+            impactSelect.style.width = "100%";
+            impactSelect.style.marginBottom = "15px";
+
+            const options = [
+                { val: "", text: "None" },
+                { val: "low", text: "Low" },
+                { val: "medium", text: "Medium" },
+                { val: "high", text: "High" }
+            ];
+            options.forEach(o => {
+                const opt = impactSelect.createEl("option", { value: o.val, text: o.text });
+                if (task.impact === o.val) opt.selected = true;
+            });
+
+            impactSelect.onchange = async () => {
+                const val = impactSelect.value as "" | "low" | "medium" | "high";
+                await this.plugin.taskCache.setNodeImpact(task, val);
+                setTimeout(() => this.render(), 200);
+            };
+
+            const parentsHeader = scroll.createDiv({ text: "Current Parents", cls: "tq-sidebar-header" });
+            parentsHeader.setAttribute("style", "background:transparent; padding: 10px 0; border-top: 1px solid var(--background-modifier-border);");
+
+            if (task.kind === "file") {
+                const fileTask = task as TaskNode;
+                fileTask.parentNames.forEach(pName => {
+                    const pill = scroll.createDiv("tq-parent-pill");
+                    pill.createSpan({ text: pName });
+                    const remove = pill.createSpan({ text: "✕", cls: "tq-remove-btn" });
+                    remove.onclick = async () => {
+                        await this.app.fileManager.processFrontMatter(fileTask.file, (fm) => {
+                            let p = fm["parent"] || fm["parents"] || [];
+                            if (!Array.isArray(p)) p = [p];
+                            fm["parent"] = p.filter((linkStr: any) => {
+                                const parts = String(linkStr).replace(/[\[\]]/g, "").split("|");
+                                const clean = parts[0] ? parts[0].trim() : "";
+                                return clean.toLowerCase() !== pName.toLowerCase();
+                            });
+                        });
+                        setTimeout(() => this.render(), 200);
+                    };
+                });
+
+                const addBtn = scroll.createEl("button", { text: "+ Add Parent", cls: "tq-add-parent-btn" });
+                addBtn.onclick = () => {
+                    const choices = this.allNodes.filter(n => n.kind === "file" && n.id !== task.id).map(n => n.title);
+                    new ParentSuggestModal(this.app, choices, async (choice) => {
+                        if (choice) {
+                            await this.app.fileManager.processFrontMatter(fileTask.file, (fm) => {
+                                let p = fm["parent"] || fm["parents"] || [];
+                                if (!Array.isArray(p)) p = [p];
+                                const link = `[[${choice}]]`;
+                                if (!p.includes(link)) { p.push(link); fm["parent"] = p; }
+                            });
+                            setTimeout(() => this.render(), 200);
+                        }
+                    }).open();
+                };
+            } else {
+                const cbTask = task as CheckboxNode;
+                task.parents.forEach(parent => {
+                    const pill = scroll.createDiv("tq-parent-pill");
+                    pill.createSpan({ text: parent.title });
+                    const remove = pill.createSpan({ text: "✕", cls: "tq-remove-btn" });
+                    remove.onclick = async () => {
+                        await this.plugin.taskCache.unlinkFromParent(cbTask, parent);
+                        setTimeout(() => this.render(), 200);
+                    };
+                });
+
+                const addBtn = scroll.createEl("button", { text: "+ Add Parent", cls: "tq-add-parent-btn" });
+                addBtn.onclick = () => {
+                    const choices = this.allNodes.filter(n => n.id !== task.id);
+                    new NodeSuggestModal(this.app, choices, async (chosen) => {
+                        await this.plugin.taskCache.linkNodeToParent(cbTask, chosen);
+                        setTimeout(() => this.render(), 200);
+                    }).open();
+                };
+            }
+
+            const subtaskBtn = scroll.createEl("button", { text: "+ Add Subtask", cls: "tq-add-parent-btn" });
+            subtaskBtn.setAttribute("style", "margin-top: 8px; opacity: 0.85;");
+            subtaskBtn.onclick = () => {
+                new TextPromptModal(this.app, "New subtask...", async (text) => {
+                    await this.plugin.taskCache.addSubtaskUnder(task, text);
+                    setTimeout(() => this.render(), 200);
+                }).open();
+            };
+
+            const visibleChildCount = task.children.filter(c => this.isRenderable(c)).length;
+            const isHub = visibleChildCount > this.plugin.settings.hubChildThreshold;
+            const filteredChildren = task.children.filter(c => this.hubHiddenIds.has(c.id));
+            
+            if (isHub) {
+                const filteredHeader = scroll.createDiv({
+                    text: filteredChildren.length > 0
+                        ? `Filtered Children (${filteredChildren.length})`
+                        : `Hub Children (${task.children.length})`,
+                    cls: "tq-sidebar-header"
+                });
+                filteredHeader.setAttribute("style", "background:transparent; padding: 10px 0; margin-top: 10px;");
+
+                if (filteredChildren.length > 0) {
+                    const filteredSearch = scroll.createEl("input", { cls: "tq-small-input", placeholder: "Search filtered children..." });
+                    const filteredList = scroll.createDiv();
+                    filteredList.setAttribute("style", "display:flex; flex-direction:column; gap:6px; margin-top:6px;");
+
+                    const updateFilteredList = () => {
+                        filteredList.empty();
+                        const q = filteredSearch.value.toLowerCase();
+                        filteredChildren
+                            .filter(c => c.title.toLowerCase().includes(q))
+                            .forEach(c => {
+                                const item = filteredList.createDiv("tq-inbox-item");
+                                item.setAttribute("style", "display: flex; justify-content: space-between; align-items: flex-start; padding: 6px 10px; cursor: default; position: relative;");
+                                
+                                const titleSpan = item.createSpan({ text: (c.kind === "checkbox" ? "☐ " : "") + c.title });
+                                titleSpan.setAttribute("style", "flex: 1; word-break: break-word; line-height: 1.3; cursor: pointer; padding-right: 25px;");
+                                titleSpan.onclick = () => this.openNodeInEditor(c);
+                                
+                                const getImpactColor = (imp: string) => {
+                                    if (imp === "high") return "var(--text-error)";
+                                    if (imp === "medium") return "#ffaa00";
+                                    if (imp === "low") return "var(--text-muted)";
+                                    return "transparent";
+                                };
+
+                                const squareWrap = item.createDiv();
+                                squareWrap.setAttribute("style", "position: absolute; top: 6px; right: 10px; width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--background-modifier-border); cursor: pointer; background-color: " + getImpactColor(c.impact) + "; overflow: hidden;");
+                                
+                                const childImpactSelect = squareWrap.createEl("select");
+                                childImpactSelect.setAttribute("style", "opacity: 0; width: 100%; height: 100%; cursor: pointer; position: absolute; top: 0; left: 0; -webkit-appearance: none; appearance: none;");
+                                
+                                const childOpts = [
+                                    { val: "", text: "None" },
+                                    { val: "low", text: "Low" },
+                                    { val: "medium", text: "Med" },
+                                    { val: "high", text: "High" }
+                                ];
+                                childOpts.forEach(o => {
+                                    const opt = childImpactSelect.createEl("option", { value: o.val, text: o.text });
+                                    if (c.impact === o.val) opt.selected = true;
+                                });
+                                
+                                childImpactSelect.onclick = (e) => e.stopPropagation();
+                                childImpactSelect.onchange = async () => {
+                                    const val = childImpactSelect.value as "" | "low" | "medium" | "high";
+                                    await this.plugin.taskCache.setNodeImpact(c, val);
+                                    setTimeout(() => this.render(), 200);
+                                };
+                            });
+                    };
+                    filteredSearch.oninput = updateFilteredList;
+                    updateFilteredList();
+                }
+            }
+        } else {
+            sidebarInner.createDiv("tq-sidebar-header").createSpan({ text: "Node Inspector" });
+            const emptyMsg = sidebarInner.createDiv();
+            emptyMsg.setAttribute("style", "padding: 24px 16px; opacity: 0.55; font-size: 0.82rem; text-align: center; line-height: 1.4;");
+            emptyMsg.setText("Select a node on the canvas to inspect it here. Focus Filters and View Settings have moved to the gear icon, top right.");
+        }
+    }
+
+    private renderSettingsPanel(mapArea: HTMLElement) {
+        const settingsBtn = mapArea.createDiv("tq-settings-btn");
+        settingsBtn.setText("⚙");
+        settingsBtn.onclick = (e) => {
+            e.stopPropagation();
+            this.settingsPanelOpen = !this.settingsPanelOpen;
+            this.render();
+        };
+
+        if (!this.settingsPanelOpen) return;
+
+        const panel = mapArea.createDiv("tq-settings-panel");
+        panel.onpointerdown = (e) => e.stopPropagation();
+        panel.onclick = (e) => e.stopPropagation();
+
+        const panelHeader = panel.createDiv("tq-settings-panel-header");
+        panelHeader.createSpan({ text: "Graph Settings" });
+        const closeBtn = panelHeader.createSpan({ text: "✕", cls: "tq-settings-close" });
+        closeBtn.onclick = () => {
+            this.settingsPanelOpen = false;
+            this.render();
+        };
+
+        const focusSec = panel.createDiv("tq-settings-section");
+        const focusHeader = focusSec.createDiv("tq-settings-section-header");
+        focusHeader.createSpan({ text: (this.focusSectionExpanded ? "▾ " : "▸ ") + "Focus Filters" });
+        focusHeader.onclick = () => {
+            this.focusSectionExpanded = !this.focusSectionExpanded;
+            this.render();
+        };
+
+        if (this.focusSectionExpanded) {
+            const focusBody = focusSec.createDiv("tq-settings-section-body");
+            const filterWrap = focusBody.createDiv("tq-search-container");
+
+            const focusInput = filterWrap.createEl("input", { cls: "tq-small-input", placeholder: "Search individual goals..." });
+            focusInput.value = this.goalQuery;
+
+            const containers = this.plugin.settings.goalContainers;
+            
+            const currentGoalSelection = this.selectedGoalPaths.has("all")
+                ? []
+                : Array.from(this.selectedGoalPaths).filter(id => {
+                      const n = this.nodeById.get(id);
+                      return n ? n.isGoal : false;
+                  });
+
+            if (containers.length > 0) {
+                const selectWrap = filterWrap.createDiv();
+                selectWrap.setAttribute("style", "display: flex; gap: 5px; margin-top: 8px;");
+
+                const select = selectWrap.createEl("select", { cls: "tq-select" });
+                select.setAttribute("style", "flex: 1; min-width: 0; text-align: left; text-align-last: left;");
+
+                select.createEl("option", { text: "-- Saved Containers --", value: "" });
+
+                let activeIndex = -1;
+                containers.forEach((c, idx) => {
+                    const opt = select.createEl("option", { text: `📦 ${c.name}`, value: String(idx) });
+                    const isActive = !this.selectedGoalPaths.has("all") &&
+                        this.selectedGoalPaths.size === c.goalIds.length &&
+                        c.goalIds.every(id => this.selectedGoalPaths.has(id));
+                    if (isActive) {
+                        opt.selected = true;
+                        activeIndex = idx;
+                    }
+                });
+
+                const delBtn = selectWrap.createEl("button", { text: "✕", title: "Delete selected container" });
+                delBtn.setAttribute("style", "background: transparent; border: 1px solid var(--background-modifier-border); color: var(--text-error); cursor: pointer; border-radius: 4px; padding: 0 8px;");
+                delBtn.disabled = activeIndex === -1;
+                if (activeIndex === -1) delBtn.style.opacity = "0.5";
+
+                select.onchange = () => {
+                    if (select.value === "") return;
+                    const idx = parseInt(select.value, 10);
+                    const c = containers[idx];
+                    if (c) {
+                        this.selectedGoalPaths = new Set(c.goalIds);
+                        this.saveGoalFilters();
+                        this.render();
+                    }
+                };
+
+                delBtn.onclick = async () => {
+                    if (select.value === "") return;
+                    const idx = parseInt(select.value, 10);
+                    const c = containers[idx];
+                    if (c) {
+                        await this.plugin.saveGoalContainers(containers.filter(x => x !== c));
+                        this.render();
+                    }
+                };
+            }
+
+            const saveContainerBtn = filterWrap.createEl("button", { text: "+ Save selection as container", cls: "tq-add-parent-btn" });
+            saveContainerBtn.setAttribute("style", "margin-top: 8px; font-size: 0.7rem;");
+            if (currentGoalSelection.length === 0) {
+                saveContainerBtn.disabled = true;
+                saveContainerBtn.setAttribute("title", "Select one or more goals below first");
+            }
+
+            saveContainerBtn.onclick = () => {
+                if (currentGoalSelection.length === 0) return;
+                new TextPromptModal(this.app, "Container name...", async (name) => {
+                    await this.plugin.saveGoalContainers([...containers, { name, goalIds: currentGoalSelection }]);
+                    this.render();
+                }).open();
+            };
+
+            const focusList = focusBody.createDiv("tq-scroll-list");
+            focusList.setAttribute("style", "max-height: 220px;");
+
+            const updateFocusList = () => {
+                this.goalQuery = focusInput.value;
+                focusList.empty();
+
+                const allItem = focusList.createDiv("tq-goal-filter-item");
+                const allCb = allItem.createEl("input", { type: "checkbox" });
+                allCb.checked = this.selectedGoalPaths.has("all");
+                const allSpan = allItem.createSpan({ text: "Show All Goals" });
+                allSpan.style.fontWeight = "bold";
+                allItem.onclick = () => {
+                    if (this.selectedGoalPaths.has("all")) {
+                        this.selectedGoalPaths.clear();
+                    } else {
+                        this.selectedGoalPaths.clear();
+                        this.selectedGoalPaths.add("all");
+                    }
+                    this.saveGoalFilters();
+                    this.render();
+                };
+
+                const matchingGoals = this.allNodes
+                    .filter(n => n.isGoal && n.title.toLowerCase().includes(this.goalQuery.toLowerCase()));
+
+                matchingGoals.forEach(n => {
+                    const item = focusList.createDiv("tq-goal-filter-item");
+                    const cb = item.createEl("input", { type: "checkbox" });
+                    cb.checked = this.selectedGoalPaths.has(n.id);
+                    item.createSpan({ text: n.title }).setAttribute("style", "white-space: nowrap; overflow: hidden; text-overflow: ellipsis;");
+                    item.onclick = () => {
+                        this.selectedGoalPaths.delete("all");
+                        if (this.selectedGoalPaths.has(n.id)) {
+                            this.selectedGoalPaths.delete(n.id);
+                        } else {
+                            this.selectedGoalPaths.add(n.id);
+                        }
+                        this.saveGoalFilters();
+                        this.render();
+                    };
+                });
+            };
+
+            focusInput.oninput = updateFocusList;
+            updateFocusList();
+        }
+
+        const viewSec = panel.createDiv("tq-settings-section");
+        const viewHeader = viewSec.createDiv("tq-settings-section-header");
+        viewHeader.createSpan({ text: (this.viewSectionExpanded ? "▾ " : "▸ ") + "View Settings" });
+        viewHeader.onclick = () => {
+            this.viewSectionExpanded = !this.viewSectionExpanded;
+            this.render();
+        };
+
+        if (this.viewSectionExpanded) {
+            const viewBody = viewSec.createDiv("tq-settings-section-body");
+            const distWrap = viewBody.createDiv("tq-search-container");
+
+            distWrap.createSpan({ text: "Render distance", cls: "tq-view-settings-label" });
+            const distInput = distWrap.createEl("input", { type: "number", cls: "tq-small-input" });
+            distInput.value = String(this.renderDistance);
+            distInput.min = "1";
+            distInput.onchange = () => {
+                const v = parseInt(distInput.value);
+                if (!isNaN(v) && v > 0) {
+                    this.renderDistance = v;
+                    this.saveViewState();
+                    this.render();
+                }
+            };
+
+            const hideItem = distWrap.createDiv("tq-goal-filter-item");
+            hideItem.setAttribute("style", "margin-top: 8px;");
+            const hideCb = hideItem.createEl("input", { type: "checkbox" });
+            hideCb.checked = this.hideCompletedCheckboxes;
+            hideItem.createSpan({ text: "Hide completed subtasks" });
+            hideItem.onclick = () => {
+                this.hideCompletedCheckboxes = !this.hideCompletedCheckboxes;
+                this.saveViewState();
+                this.render();
+            };
+        }
+    }
+
+    private saveGoalFilters() {
+        localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(Array.from(this.selectedGoalPaths)));
+    }
+
+    private saveViewState() {
+        localStorage.setItem(VIEW_STORAGE_KEY, JSON.stringify({
+            scale: this.scale,
+            offsetX: this.offsetX,
+            offsetY: this.offsetY,
+            renderDistance: this.renderDistance,
+            hideCompletedCheckboxes: this.hideCompletedCheckboxes,
+            depthExpandedIds: Array.from(this.depthExpandedIds)
+        }));
+    }
+
     public async render() {
         this.allNodes = this.plugin.taskCache.getGraphNodes();
 
+        if (this.lastGraphRef !== this.allNodes) {
+            this.nodeById.clear();
+            for (const node of this.allNodes) {
+                this.nodeById.set(node.id, node);
+            }
+        }
+
+        const currentConfig = JSON.stringify({
+            dist: this.renderDistance,
+            hide: this.hideCompletedCheckboxes,
+            goals: Array.from(this.selectedGoalPaths).sort(),
+            hub: Array.from(this.expandedHubIds).sort(),
+            depth: Array.from(this.depthExpandedIds).sort()
+        });
+
+        const dataChanged = this.lastGraphRef !== this.allNodes || this.lastRenderConfig !== currentConfig;
+
+        if (dataChanged) {
+            this.lastGraphRef = this.allNodes;
+            this.lastRenderConfig = currentConfig;
+            this.renderMemo.clear();
+
+            let anchorNodes: GraphNode[];
+            if (this.selectedGoalPaths.has("all")) {
+                anchorNodes = this.allNodes.filter(n => n.isGoal);
+            } else {
+                anchorNodes = this.allNodes.filter(n => this.selectedGoalPaths.has(n.id));
+            }
+            const anchorNodeIds = new Set(anchorNodes.map(n => n.id));
+
+            this.hubHiddenIds = this.computeHubHiddenIds(anchorNodeIds);
+            
+            const { nodes: withinRange, frontierCutoffCounts } = this.getNodesWithinDistance(anchorNodes, this.renderDistance, this.hubHiddenIds);
+            this.frontierCutoffCounts = frontierCutoffCounts;
+            this.visibleTasks = this.allNodes.filter(n => withinRange.has(n) && this.isRenderable(n) && !this.hubHiddenIds.has(n.id));
+        }
+
         const container = this.contentEl;
         container.empty();
-
-        const memo = new Map<string, boolean>();
 
         const root = container.createDiv("tq-root");
         if (this.isCollapsed) root.classList.add("is-collapsed");
@@ -786,485 +1201,79 @@ export class DashboardView extends ItemView {
             world.style.transform = `translate(${this.offsetX}px, ${this.offsetY}px) scale(${this.scale})`;
         };
 
-        const saveGoalFilters = () => {
-            localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(Array.from(this.selectedGoalPaths)));
-        };
+        this.renderSidebar(sidebarInner);
+        this.renderSettingsPanel(mapArea);
 
-        const saveViewState = () => {
-            localStorage.setItem(VIEW_STORAGE_KEY, JSON.stringify({
-                scale: this.scale,
-                offsetX: this.offsetX,
-                offsetY: this.offsetY,
-                renderDistance: this.renderDistance,
-                hideCompletedCheckboxes: this.hideCompletedCheckboxes,
-                depthExpandedIds: Array.from(this.depthExpandedIds)
-            }));
-        };
+        if (dataChanged) {
+            this.nodeElements.clear();
 
-        const renderSidebar = (hubHiddenIds: Set<string>) => {
-            sidebarInner.empty();
-            
-            if (this.activeNodeId) {
-                const task = this.allNodes.find(n => n.id === this.activeNodeId);
-                if (!task) { this.activeNodeId = null; renderSidebar(hubHiddenIds); return; }
+            let seed = 42;
+            const rand = () => { let x = Math.sin(seed++) * 10000; return x - Math.floor(x); };
 
-                const header = sidebarInner.createDiv("tq-sidebar-header");
-                header.createSpan({ text: "Node Inspector" });
-                const back = header.createSpan({ text: "Close", cls: "tq-back-btn" });
-                back.onclick = () => { this.activeNodeId = null; this.render(); };
+            const center = { x: 1000, y: 1000 };
+            let hasNewNodes = false;
 
-                sidebarInner.createDiv({ text: task.title, cls: "tq-inspector-title" });
-                const scroll = sidebarInner.createDiv("tq-scroll-list");
+            const newSiblingIndex = new Map<string, number>();
 
-                const impactHeader = scroll.createDiv({ text: "Impact Level", cls: "tq-sidebar-header" });
-                impactHeader.setAttribute("style", "background:transparent; padding: 10px 0 5px 0; margin-top: 5px; border-bottom: none;");
-
-                const impactSelect = scroll.createEl("select", { cls: "tq-select" });
-                impactSelect.style.width = "100%";
-                impactSelect.style.marginBottom = "15px";
-
-                const options = [
-                    { val: "", text: "None" },
-                    { val: "low", text: "Low" },
-                    { val: "medium", text: "Medium" },
-                    { val: "high", text: "High" }
-                ];
-                options.forEach(o => {
-                    const opt = impactSelect.createEl("option", { value: o.val, text: o.text });
-                    if (task.impact === o.val) opt.selected = true;
-                });
-
-                impactSelect.onchange = async () => {
-                    const val = impactSelect.value as "" | "low" | "medium" | "high";
-                    await this.plugin.taskCache.setNodeImpact(task, val);
-                    setTimeout(() => this.render(), 200);
-                };
-
-                const parentsHeader = scroll.createDiv({ text: "Current Parents", cls: "tq-sidebar-header" });
-                parentsHeader.setAttribute("style", "background:transparent; padding: 10px 0; border-top: 1px solid var(--background-modifier-border);");
-
-                if (task.kind === "file") {
-                    const fileTask = task as TaskNode;
-                    fileTask.parentNames.forEach(pName => {
-                        const pill = scroll.createDiv("tq-parent-pill");
-                        pill.createSpan({ text: pName });
-                        const remove = pill.createSpan({ text: "✕", cls: "tq-remove-btn" });
-                        remove.onclick = async () => {
-                            await this.app.fileManager.processFrontMatter(fileTask.file, (fm) => {
-                                let p = fm["parent"] || fm["parents"] || [];
-                                if (!Array.isArray(p)) p = [p];
-                                fm["parent"] = p.filter((linkStr: any) => {
-                                    const parts = String(linkStr).replace(/[\[\]]/g, "").split("|");
-                                    const clean = parts[0] ? parts[0].trim() : "";
-                                    return clean.toLowerCase() !== pName.toLowerCase();
-                                });
-                            });
-                            setTimeout(() => this.render(), 200);
-                        };
-                    });
-
-                    const addBtn = scroll.createEl("button", { text: "+ Add Parent", cls: "tq-add-parent-btn" });
-                    addBtn.onclick = () => {
-                        const choices = this.allNodes.filter(n => n.kind === "file" && n.id !== task.id).map(n => n.title);
-                        new ParentSuggestModal(this.app, choices, async (choice) => {
-                            if (choice) {
-                                await this.app.fileManager.processFrontMatter(fileTask.file, (fm) => {
-                                    let p = fm["parent"] || fm["parents"] || [];
-                                    if (!Array.isArray(p)) p = [p];
-                                    const link = `[[${choice}]]`;
-                                    if (!p.includes(link)) { p.push(link); fm["parent"] = p; }
-                                });
-                                setTimeout(() => this.render(), 200);
-                            }
-                        }).open();
-                    };
-                } else {
-                    const cbTask = task as CheckboxNode;
-                    task.parents.forEach(parent => {
-                        const pill = scroll.createDiv("tq-parent-pill");
-                        pill.createSpan({ text: parent.title });
-                        const remove = pill.createSpan({ text: "✕", cls: "tq-remove-btn" });
-                        remove.onclick = async () => {
-                            await this.plugin.taskCache.unlinkFromParent(cbTask, parent);
-                            setTimeout(() => this.render(), 200);
-                        };
-                    });
-
-                    const addBtn = scroll.createEl("button", { text: "+ Add Parent", cls: "tq-add-parent-btn" });
-                    addBtn.onclick = () => {
-                        const choices = this.allNodes.filter(n => n.id !== task.id);
-                        new NodeSuggestModal(this.app, choices, async (chosen) => {
-                            await this.plugin.taskCache.linkNodeToParent(cbTask, chosen);
-                            setTimeout(() => this.render(), 200);
-                        }).open();
-                    };
+            this.visibleTasks.forEach(t => {
+                if (!this.nodePositions.has(t.id)) {
+                    hasNewNodes = true;
                 }
+            });
 
-                const subtaskBtn = scroll.createEl("button", { text: "+ Add Subtask", cls: "tq-add-parent-btn" });
-                subtaskBtn.setAttribute("style", "margin-top: 8px; opacity: 0.85;");
-                subtaskBtn.onclick = () => {
-                    new TextPromptModal(this.app, "New subtask...", async (text) => {
-                        await this.plugin.taskCache.addSubtaskUnder(task, text);
-                        setTimeout(() => this.render(), 200);
-                    }).open();
-                };
-
-                const visibleChildCount = task.children.filter(c => this.isRenderable(c, memo)).length;
-                const isHub = visibleChildCount > this.plugin.settings.hubChildThreshold;
-                const filteredChildren = task.children.filter(c => hubHiddenIds.has(c.id));
+            if (hasNewNodes) {
+                const maxLevel = Math.max(...this.visibleTasks.map(t => t.level), 0);
                 
-                if (isHub) {
-                    const filteredHeader = scroll.createDiv({
-                        text: filteredChildren.length > 0
-                            ? `Filtered Children (${filteredChildren.length})`
-                            : `Hub Children (${task.children.length})`,
-                        cls: "tq-sidebar-header"
-                    });
-                    filteredHeader.setAttribute("style", "background:transparent; padding: 10px 0; margin-top: 10px;");
-
-                    if (filteredChildren.length > 0) {
-                        const filteredSearch = scroll.createEl("input", { cls: "tq-small-input", placeholder: "Search filtered children..." });
-                        const filteredList = scroll.createDiv();
-                        filteredList.setAttribute("style", "display:flex; flex-direction:column; gap:6px; margin-top:6px;");
-
-                        const updateFilteredList = () => {
-                            filteredList.empty();
-                            const q = filteredSearch.value.toLowerCase();
-                            filteredChildren
-                                .filter(c => c.title.toLowerCase().includes(q))
-                                .forEach(c => {
-                                    const item = filteredList.createDiv("tq-inbox-item");
-                                    item.setAttribute("style", "display: flex; justify-content: space-between; align-items: flex-start; padding: 6px 10px; cursor: default; position: relative;");
-                                    
-                                    const titleSpan = item.createSpan({ text: (c.kind === "checkbox" ? "☐ " : "") + c.title });
-                                    titleSpan.setAttribute("style", "flex: 1; word-break: break-word; line-height: 1.3; cursor: pointer; padding-right: 25px;");
-                                    titleSpan.onclick = () => this.openNodeInEditor(c);
-                                    
-                                    const getImpactColor = (imp: string) => {
-                                        if (imp === "high") return "var(--text-error)";
-                                        if (imp === "medium") return "#ffaa00";
-                                        if (imp === "low") return "var(--text-muted)";
-                                        return "transparent";
-                                    };
-
-                                    const squareWrap = item.createDiv();
-                                    squareWrap.setAttribute("style", "position: absolute; top: 6px; right: 10px; width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--background-modifier-border); cursor: pointer; background-color: " + getImpactColor(c.impact) + "; overflow: hidden;");
-                                    
-                                    const childImpactSelect = squareWrap.createEl("select");
-                                    childImpactSelect.setAttribute("style", "opacity: 0; width: 100%; height: 100%; cursor: pointer; position: absolute; top: 0; left: 0; -webkit-appearance: none; appearance: none;");
-                                    
-                                    const childOpts = [
-                                        { val: "", text: "None" },
-                                        { val: "low", text: "Low" },
-                                        { val: "medium", text: "Med" },
-                                        { val: "high", text: "High" }
-                                    ];
-                                    childOpts.forEach(o => {
-                                        const opt = childImpactSelect.createEl("option", { value: o.val, text: o.text });
-                                        if (c.impact === o.val) opt.selected = true;
-                                    });
-                                    
-                                    childImpactSelect.onclick = (e) => e.stopPropagation();
-                                    childImpactSelect.onchange = async () => {
-                                        const val = childImpactSelect.value as "" | "low" | "medium" | "high";
-                                        await this.plugin.taskCache.setNodeImpact(c, val);
-                                        setTimeout(() => this.render(), 200);
-                                    };
-                                });
-                        };
-                        filteredSearch.oninput = updateFilteredList;
-                        updateFilteredList();
-                    }
-                }
-            } else {
-                sidebarInner.createDiv("tq-sidebar-header").createSpan({ text: "Node Inspector" });
-                const emptyMsg = sidebarInner.createDiv();
-                emptyMsg.setAttribute("style", "padding: 24px 16px; opacity: 0.55; font-size: 0.82rem; text-align: center; line-height: 1.4;");
-                emptyMsg.setText("Select a node on the canvas to inspect it here. Focus Filters and View Settings have moved to the gear icon, top right.");
-            }
-        };
-
-        // Gear-icon dropdown (Focus Filters + View Settings), mirroring Obsidian's
-        // native graph view settings panel: a small button top-right of the canvas
-        // that toggles a floating panel with collapsible sections, instead of a
-        // permanent left-side panel that ate into map space at all times.
-        const renderSettingsPanel = () => {
-            const settingsBtn = mapArea.createDiv("tq-settings-btn");
-            settingsBtn.setText("⚙");
-            settingsBtn.onclick = (e) => {
-                e.stopPropagation();
-                this.settingsPanelOpen = !this.settingsPanelOpen;
-                this.render();
-            };
-
-            if (!this.settingsPanelOpen) return;
-
-            const panel = mapArea.createDiv("tq-settings-panel");
-            panel.onpointerdown = (e) => e.stopPropagation();
-            panel.onclick = (e) => e.stopPropagation();
-
-            const panelHeader = panel.createDiv("tq-settings-panel-header");
-            panelHeader.createSpan({ text: "Graph Settings" });
-            const closeBtn = panelHeader.createSpan({ text: "✕", cls: "tq-settings-close" });
-            closeBtn.onclick = () => {
-                this.settingsPanelOpen = false;
-                this.render();
-            };
-
-            // --- Focus Filters section ---
-            const focusSec = panel.createDiv("tq-settings-section");
-            const focusHeader = focusSec.createDiv("tq-settings-section-header");
-            focusHeader.createSpan({ text: (this.focusSectionExpanded ? "▾ " : "▸ ") + "Focus Filters" });
-            focusHeader.onclick = () => {
-                this.focusSectionExpanded = !this.focusSectionExpanded;
-                this.render();
-            };
-
-            if (this.focusSectionExpanded) {
-                const focusBody = focusSec.createDiv("tq-settings-section-body");
-                const filterWrap = focusBody.createDiv("tq-search-container");
-
-                const focusInput = filterWrap.createEl("input", { cls: "tq-small-input", placeholder: "Search individual goals..." });
-                focusInput.value = this.goalQuery;
-
-                const containers = this.plugin.settings.goalContainers;
-                const currentGoalSelection = this.selectedGoalPaths.has("all")
-                    ? []
-                    : Array.from(this.selectedGoalPaths).filter(id => this.allNodes.some(n => n.id === id && n.isGoal));
-
-                if (containers.length > 0) {
-                    const selectWrap = filterWrap.createDiv();
-                    selectWrap.setAttribute("style", "display: flex; gap: 5px; margin-top: 8px;");
-
-                    const select = selectWrap.createEl("select", { cls: "tq-select" });
-                    select.setAttribute("style", "flex: 1; min-width: 0; text-align: left; text-align-last: left;");
-
-                    select.createEl("option", { text: "-- Saved Containers --", value: "" });
-
-                    let activeIndex = -1;
-                    containers.forEach((c, idx) => {
-                        const opt = select.createEl("option", { text: `📦 ${c.name}`, value: String(idx) });
-                        const isActive = !this.selectedGoalPaths.has("all") &&
-                            this.selectedGoalPaths.size === c.goalIds.length &&
-                            c.goalIds.every(id => this.selectedGoalPaths.has(id));
-                        if (isActive) {
-                            opt.selected = true;
-                            activeIndex = idx;
-                        }
-                    });
-
-                    const delBtn = selectWrap.createEl("button", { text: "✕", title: "Delete selected container" });
-                    delBtn.setAttribute("style", "background: transparent; border: 1px solid var(--background-modifier-border); color: var(--text-error); cursor: pointer; border-radius: 4px; padding: 0 8px;");
-                    delBtn.disabled = activeIndex === -1;
-                    if (activeIndex === -1) delBtn.style.opacity = "0.5";
-
-                    select.onchange = () => {
-                        if (select.value === "") return;
-                        const idx = parseInt(select.value, 10);
-                        const c = containers[idx];
-                        if (c) {
-                            this.selectedGoalPaths = new Set(c.goalIds);
-                            saveGoalFilters();
-                            this.render();
-                        }
-                    };
-
-                    delBtn.onclick = async () => {
-                        if (select.value === "") return;
-                        const idx = parseInt(select.value, 10);
-                        const c = containers[idx];
-                        if (c) {
-                            await this.plugin.saveGoalContainers(containers.filter(x => x !== c));
-                            this.render();
-                        }
-                    };
-                }
-
-                const saveContainerBtn = filterWrap.createEl("button", { text: "+ Save selection as container", cls: "tq-add-parent-btn" });
-                saveContainerBtn.setAttribute("style", "margin-top: 8px; font-size: 0.7rem;");
-                if (currentGoalSelection.length === 0) {
-                    saveContainerBtn.disabled = true;
-                    saveContainerBtn.setAttribute("title", "Select one or more goals below first");
-                }
-
-                saveContainerBtn.onclick = () => {
-                    if (currentGoalSelection.length === 0) return;
-                    new TextPromptModal(this.app, "Container name...", async (name) => {
-                        await this.plugin.saveGoalContainers([...containers, { name, goalIds: currentGoalSelection }]);
-                        this.render();
-                    }).open();
-                };
-
-                const focusList = focusBody.createDiv("tq-scroll-list");
-                focusList.setAttribute("style", "max-height: 220px;");
-
-                const updateFocusList = () => {
-                    this.goalQuery = focusInput.value;
-                    focusList.empty();
-
-                    const allItem = focusList.createDiv("tq-goal-filter-item");
-                    const allCb = allItem.createEl("input", { type: "checkbox" });
-                    allCb.checked = this.selectedGoalPaths.has("all");
-                    const allSpan = allItem.createSpan({ text: "Show All Goals" });
-                    allSpan.style.fontWeight = "bold";
-                    allItem.onclick = () => {
-                        if (this.selectedGoalPaths.has("all")) {
-                            this.selectedGoalPaths.clear();
-                        } else {
-                            this.selectedGoalPaths.clear();
-                            this.selectedGoalPaths.add("all");
-                        }
-                        saveGoalFilters();
-                        this.render();
-                    };
-
-                    const matchingGoals = this.allNodes
-                        .filter(n => n.isGoal && n.title.toLowerCase().includes(this.goalQuery.toLowerCase()));
-
-                    matchingGoals.forEach(n => {
-                        const item = focusList.createDiv("tq-goal-filter-item");
-                        const cb = item.createEl("input", { type: "checkbox" });
-                        cb.checked = this.selectedGoalPaths.has(n.id);
-                        item.createSpan({ text: n.title }).setAttribute("style", "white-space: nowrap; overflow: hidden; text-overflow: ellipsis;");
-                        item.onclick = () => {
-                            this.selectedGoalPaths.delete("all");
-                            if (this.selectedGoalPaths.has(n.id)) {
-                                this.selectedGoalPaths.delete(n.id);
-                            } else {
-                                this.selectedGoalPaths.add(n.id);
+                for (let l = 0; l <= maxLevel; l++) {
+                    const nodesInLayer = this.visibleTasks.filter(t => t.level === l && !this.nodePositions.has(t.id));
+                    
+                    nodesInLayer.forEach(t => {
+                        let parentPos = null;
+                        let parentId: string | null = null;
+                        for (const parent of t.parents) {
+                            if (this.nodePositions.has(parent.id)) {
+                                parentPos = this.nodePositions.get(parent.id);
+                                parentId = parent.id;
+                                break;
                             }
-                            saveGoalFilters();
-                            this.render();
-                        };
+                        }
+
+                        if (parentPos && parentId) {
+                            const idx = newSiblingIndex.get(parentId) ?? 0;
+                            newSiblingIndex.set(parentId, idx + 1);
+                            const angle = idx * 2.399963; 
+                            const radius = 80 + Math.sqrt(idx) * 60; 
+
+                            this.nodePositions.set(t.id, {
+                                x: parentPos.x + Math.cos(angle) * radius,
+                                y: parentPos.y + Math.sin(angle) * radius,
+                                vx: 0,
+                                vy: 0
+                            });
+                        } else {
+                            this.nodePositions.set(t.id, {
+                                x: center.x + (rand() - 0.5) * 200,
+                                y: center.y + (rand() - 0.5) * 200,
+                                vx: 0,
+                                vy: 0
+                            });
+                        }
                     });
-                };
 
-                focusInput.oninput = updateFocusList;
-                updateFocusList();
-            }
-
-            // --- View Settings section ---
-            const viewSec = panel.createDiv("tq-settings-section");
-            const viewHeader = viewSec.createDiv("tq-settings-section-header");
-            viewHeader.createSpan({ text: (this.viewSectionExpanded ? "▾ " : "▸ ") + "View Settings" });
-            viewHeader.onclick = () => {
-                this.viewSectionExpanded = !this.viewSectionExpanded;
-                this.render();
-            };
-
-            if (this.viewSectionExpanded) {
-                const viewBody = viewSec.createDiv("tq-settings-section-body");
-                const distWrap = viewBody.createDiv("tq-search-container");
-
-                distWrap.createSpan({ text: "Render distance", cls: "tq-view-settings-label" });
-                const distInput = distWrap.createEl("input", { type: "number", cls: "tq-small-input" });
-                distInput.value = String(this.renderDistance);
-                distInput.min = "1";
-                distInput.onchange = () => {
-                    const v = parseInt(distInput.value);
-                    if (!isNaN(v) && v > 0) {
-                        this.renderDistance = v;
-                        saveViewState();
-                        this.render();
+                    if (nodesInLayer.length > 0) {
+                        for (let k = 0; k < 40; k++) {
+                            this.calculatePhysicsStep(true); 
+                        }
                     }
-                };
+                }
 
-                const hideItem = distWrap.createDiv("tq-goal-filter-item");
-                hideItem.setAttribute("style", "margin-top: 8px;");
-                const hideCb = hideItem.createEl("input", { type: "checkbox" });
-                hideCb.checked = this.hideCompletedCheckboxes;
-                hideItem.createSpan({ text: "Hide completed subtasks" });
-                hideItem.onclick = () => {
-                    this.hideCompletedCheckboxes = !this.hideCompletedCheckboxes;
-                    saveViewState();
-                    this.render();
-                };
+                for (let k = 0; k < 100; k++) {
+                    this.calculatePhysicsStep(true);
+                }
             }
-        };
-
-        let anchorNodes: GraphNode[];
-        if (this.selectedGoalPaths.has("all")) {
-            anchorNodes = this.allNodes.filter(n => n.isGoal);
-        } else {
-            anchorNodes = this.allNodes.filter(n => this.selectedGoalPaths.has(n.id));
         }
-        
-        const anchorNodeIds = new Set(anchorNodes.map(n => n.id));
-
-        let hubHiddenIds = this.computeHubHiddenIds(anchorNodeIds, memo);
-        
-        const { nodes: withinRange, frontierCutoffCounts } = this.getNodesWithinDistance(anchorNodes, this.renderDistance, hubHiddenIds, memo);
-        this.visibleTasks = this.allNodes.filter(n => withinRange.has(n) && this.isRenderable(n, memo) && !hubHiddenIds.has(n.id));
-
-        renderSidebar(hubHiddenIds);
-        renderSettingsPanel();
 
         this.nodeElements.clear();
-
-        let seed = 42;
-        const rand = () => { let x = Math.sin(seed++) * 10000; return x - Math.floor(x); };
-
-        const center = { x: 1000, y: 1000 };
-        let hasNewNodes = false;
-
-        const newSiblingIndex = new Map<string, number>();
-
-        this.visibleTasks.forEach(t => {
-            if (!this.nodePositions.has(t.id)) {
-                hasNewNodes = true;
-            }
-        });
-
-        if (hasNewNodes) {
-            const maxLevel = Math.max(...this.visibleTasks.map(t => t.level), 0);
-            
-            for (let l = 0; l <= maxLevel; l++) {
-                const nodesInLayer = this.visibleTasks.filter(t => t.level === l && !this.nodePositions.has(t.id));
-                
-                nodesInLayer.forEach(t => {
-                    let parentPos = null;
-                    let parentId: string | null = null;
-                    for (const parent of t.parents) {
-                        if (this.nodePositions.has(parent.id)) {
-                            parentPos = this.nodePositions.get(parent.id);
-                            parentId = parent.id;
-                            break;
-                        }
-                    }
-
-                    if (parentPos && parentId) {
-                        const idx = newSiblingIndex.get(parentId) ?? 0;
-                        newSiblingIndex.set(parentId, idx + 1);
-                        const angle = idx * 2.399963; 
-                        const radius = 80 + Math.sqrt(idx) * 60; 
-
-                        this.nodePositions.set(t.id, {
-                            x: parentPos.x + Math.cos(angle) * radius,
-                            y: parentPos.y + Math.sin(angle) * radius,
-                            vx: 0,
-                            vy: 0
-                        });
-                    } else {
-                        this.nodePositions.set(t.id, {
-                            x: center.x + (rand() - 0.5) * 200,
-                            y: center.y + (rand() - 0.5) * 200,
-                            vx: 0,
-                            vy: 0
-                        });
-                    }
-                });
-
-                if (nodesInLayer.length > 0) {
-                    for (let k = 0; k < 40; k++) {
-                        this.calculatePhysicsStep(true); 
-                    }
-                }
-            }
-
-            for (let k = 0; k < 100; k++) {
-                this.calculatePhysicsStep(true);
-            }
-        }
 
         this.visibleTasks.forEach(t => {
             const node = world.createDiv("tq-node");
@@ -1276,7 +1285,7 @@ export class DashboardView extends ItemView {
 
             node.createDiv({ text: this.canvasTitle(t.title), cls: "tq-node-title" });
 
-            const hubHiddenChildCount = t.children.filter(c => hubHiddenIds.has(c.id)).length;
+            const hubHiddenChildCount = t.children.filter(c => this.hubHiddenIds.has(c.id)).length;
             if (hubHiddenChildCount > 0) {
                 const hubBadge = node.createDiv({ cls: "tq-hub-badge", text: `+${hubHiddenChildCount}` });
                 hubBadge.onclick = (e) => {
@@ -1285,9 +1294,6 @@ export class DashboardView extends ItemView {
                     this.render();
                 };
             } else if (this.expandedHubIds.has(t.id)) {
-                // Mirrors the "Hide all on canvas" button in the sidebar inspector, but
-                // right on the node so you don't have to open the inspector to fold a
-                // hub back up after expanding it.
                 const hubFoldBadge = node.createDiv({ cls: "tq-hub-fold-badge", text: "⌃" });
                 hubFoldBadge.onclick = (e) => {
                     e.stopPropagation();
@@ -1296,28 +1302,21 @@ export class DashboardView extends ItemView {
                 };
             }
 
-            // Depth-cutoff badge: this node is a frontier (renderDistance ran out here),
-            // but nothing below it is actually gone — the count reflects the true size of
-            // what's beneath, and clicking it grants this specific branch a fresh depth
-            // budget instead of raising renderDistance globally.
-            const depthHiddenCount = frontierCutoffCounts.get(t.id) ?? 0;
+            const depthHiddenCount = this.frontierCutoffCounts.get(t.id) ?? 0;
             if (depthHiddenCount > 0) {
                 const depthBadge = node.createDiv({ cls: "tq-depth-badge", text: `⋯${depthHiddenCount}` });
                 depthBadge.onclick = (e) => {
                     e.stopPropagation();
                     this.depthExpandedIds.add(t.id);
-                    saveViewState();
+                    this.saveViewState();
                     this.render();
                 };
             } else if (this.depthExpandedIds.has(t.id)) {
-                // This node was previously expanded past the depth cutoff (so it isn't
-                // a frontier anymore). Offer a fold badge to collapse it — and everything
-                // expanded further down its subtree — back to the original depth badge.
                 const foldBadge = node.createDiv({ cls: "tq-depth-fold-badge", text: "⌃" });
                 foldBadge.onclick = (e) => {
                     e.stopPropagation();
                     this.foldDepthBranch(t);
-                    saveViewState();
+                    this.saveViewState();
                     this.render();
                 };
             }
@@ -1333,7 +1332,7 @@ export class DashboardView extends ItemView {
                     this.isCollapsed = false;
                     root.classList.remove("is-collapsed");
                     collapseBtn.innerText = "◀";
-                    this.render();
+                    this.updateSelection(); 
                 }
             };
 
@@ -1342,9 +1341,6 @@ export class DashboardView extends ItemView {
             let pointerStartX = 0, pointerStartY = 0;
 
             node.onpointerdown = (pe) => {
-                // If this pointerdown started on a badge, don't set up node-drag capture.
-                // setPointerCapture() below retargets the eventual click to `node`, which
-                // would swallow the badge's own onclick before it ever fires.
                 if ((pe.target as HTMLElement).closest(".tq-hub-badge, .tq-hub-fold-badge, .tq-depth-badge, .tq-depth-fold-badge")) return;
 
                 pe.stopPropagation();
@@ -1416,7 +1412,7 @@ export class DashboardView extends ItemView {
                         setTimeout(() => this.render(), 150);
                     }
                 } else {
-                    const childNode = this.allNodes.find(n => n.id === payload.id) as CheckboxNode | undefined;
+                    const childNode = this.nodeById.get(payload.id) as CheckboxNode | undefined;
                     if (childNode) {
                         await this.plugin.taskCache.linkNodeToParent(childNode, t);
                         setTimeout(() => this.render(), 150);
@@ -1434,7 +1430,7 @@ export class DashboardView extends ItemView {
                 return;
             }
             this.activeNodeId = null;
-            this.render();
+            this.updateSelection();
         };
 
         mapArea.ondblclick = (e) => {
@@ -1458,7 +1454,7 @@ export class DashboardView extends ItemView {
                 this.isPanning = false;
                 clearTimeout(this.moveTimeout);
                 root.classList.remove("is-grabbing");
-                saveViewState();
+                this.saveViewState();
             }
         };
 
@@ -1492,9 +1488,6 @@ export class DashboardView extends ItemView {
         window.onblur = endPanning;
 
         const handleWheel = (e: WheelEvent) => {
-            // Settings panel is a child of mapArea (unlike the old sidebar, which was a
-            // sibling) — without this check, scrolling its goal list would zoom the
-            // graph instead of scrolling the list.
             if ((e.target as HTMLElement).closest(".tq-settings-panel")) return;
 
             e.preventDefault();
@@ -1508,7 +1501,7 @@ export class DashboardView extends ItemView {
                 this.offsetX = mx - (mx - this.offsetX) * ratio;
                 this.offsetY = my - (my - this.offsetY) * ratio;
                 updateWorldTransform();
-                saveViewState();
+                this.saveViewState();
             }
         };
         mapArea.addEventListener("wheel", handleWheel, { passive: false });

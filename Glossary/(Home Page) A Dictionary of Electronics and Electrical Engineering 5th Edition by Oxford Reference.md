@@ -5690,7 +5690,7 @@ tags:
 	3939. [[RC circuit]]
 	3940. RCT
 		1. (reverse conducting thryristor) See thyristor.
-			1. #question Why is it spelled `thryristor`?
+			- [ ] #question Why is it spelled `thryristor`?
 
 	3941. [[reactance]]
 	3942. [[reactance chart]]

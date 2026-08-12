@@ -3,10 +3,10 @@ aliases:
   - CI
 ---
 ## Synthesis
-- #question What is continuous integration?
+- [ ] #question What is continuous integration?
 ## Source [^1]
 - A software development practice where dedicated development team members integrate their work frequently. Usually, each person integrates at least daily, leading to multiple daily integrations.
-	- #question what does integration mean?
+	- [ ] #question what does integration mean?
 
 ## Source[^2]
 - Continuous integration (CI) is a software development practice that involves integrating new code into the main branch of the codebase as often as possible. This helps to identify errors and potential problems early in the development process.

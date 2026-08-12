@@ -20,7 +20,7 @@ Reviewed: false
 - If a letter is not marked blue, then it is not a word inserted.
 - This StartsWith function is the main reason we're even implementing a trie in the first place
 	- This is because if we want to insert words and search for words exist, could just use a HashMaps or HashSets as it can do both of those things in O(1) time 
-		- #question is there a difference between HashMap and HashSet?
+		- [ ] #question is there a difference between HashMap and HashSet?
 - The StartsWith function is going to be much more efficient compared to other data structures
 	- O(26) is basically O(1) so it's a super efficient way to check prefixes which is why it's called a prefix tree
 ```python

@@ -7,7 +7,7 @@
 ### Example
 - $\begin{pmatrix} 0 & 2 \\ 0 & 0 \end{pmatrix}$
 	- First row leading entry is 2 in position 1,2
-		- #question Is there a reason there is no parentheses for 1, 2?
+		- [ ] #question Is there a reason there is no parentheses for 1, 2?
 	- Second row has no leading entry
 ## References
 

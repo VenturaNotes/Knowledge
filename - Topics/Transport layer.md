@@ -8,7 +8,7 @@ aliases:
 - Ensures reliable delivery for application-layer protocols
 - TCP and UDP are protocols within the transport layer
 - Ensures correct delivery of data between devices, regardless of applications
-	- #question how?
+	- [ ] #question how?
 ## Source[^1]
 - The transport layer links the network between the [[support layer]] and [[user support layer]]
 - The transport layer links the network, support layer, and user support layer

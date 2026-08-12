@@ -1,8 +1,8 @@
 ## Synthesis [^1]
-- #question What are the steps/process?
+- [ ] #question What are the steps/process?
 ### Advantages
 - Easier to test and debug
-	- #question How?
+	- [ ] #question How?
 - Gets product to market early
 ## Source [^1]
 - Advantages

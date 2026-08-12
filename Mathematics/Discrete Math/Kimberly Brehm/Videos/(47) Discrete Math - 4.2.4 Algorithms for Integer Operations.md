@@ -41,7 +41,7 @@ Reviewed: false
 			- c := 0
 			- $for j:= 0 to n-1$
 				- d := $\lfloor$($a_j + b_j + c$ ) /2 $\rfloor$
-					- #question Is this the proper format or code? 
+					- [ ] #question Is this the proper format or code? 
 					- #errata I think it was written incorrectly in the image. The $\rfloor$ should've been a $)$ 
 				- $s_j := a_j + b_j + c - 2d$
 				- $c := d$
@@ -114,4 +114,4 @@ Reviewed: false
 					- #errata I think there was a mistake again here. Should be $a_2$ instead of $a_1$
 				- power $\to$ $(1*1) \bmod 6 = 1$
 			- Return x = 4
-		- #question What does modular exponentiation mean? 
+		- [ ] #question What does modular exponentiation mean? 

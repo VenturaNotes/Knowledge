@@ -6,7 +6,7 @@ aliases:
 ---
 ## Synthesis
 - Generally much faster than [[Hard Disk Drives]]
-	- #question Why? 
+	- [ ] #question Why? 
 ## Source [^1]
 - Not hardware used to create a network
 ## References

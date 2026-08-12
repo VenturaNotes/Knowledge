@@ -6,7 +6,7 @@ aliases:
 - A tuple is an ordered, [[immutable]] collection of items. 
 	- So when a tuple is created, you cannot change its elements (add, remove, or modify)
 	- Frequently used for heterogeneous data and for sequences that are not meant to be modified
-		- #question Why is it frequently used for heterogeneous data? Is it more efficient than the list data type?
+		- [ ] #question Why is it frequently used for heterogeneous data? Is it more efficient than the list data type?
 ### Creating a Tuple
 ```python
 `myTuple = (1, 2, 3)`

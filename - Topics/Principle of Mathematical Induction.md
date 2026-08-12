@@ -13,8 +13,8 @@ aliases:
 - To prove $S(n): 1 + 2 + ... + n = \frac{n(n+1)}{2}$ 
 	- Prove $S(1)$: $\frac {n(n+1)}{2}=\frac {1(1+1)}{2} = \frac {2}{2} = 1$ 
 	- Assume $S(k)$ is true, and use it to prove $S(k + 1)$ 
-	- #question What is the complete solution?
-	- #question Is the colon there appropriate? 
+	- [ ] #question What is the complete solution?
+	- [ ] #question Is the colon there appropriate? 
 ## Source [^1]
 - 
 ## References

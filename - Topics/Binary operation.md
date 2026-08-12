@@ -5,7 +5,7 @@ aliases:
 ---
 ## Synthesis
 - This is when you combine two elements to produce another element
-	- #question Does it need to be addition or subtraction or can it be any kind of element that you need?
+	- [ ] #question Does it need to be addition or subtraction or can it be any kind of element that you need?
 - A binary operation combines two elements from a set to produce a single result, often an arithmetic one like addition $(a+b)$, multiplication $(a \times b)$, or even finding the maximum/minimum $(\text{max}(a,b))$ of two numbers, where the result stays within the same set. For example, adding two integers yields another integer. 
 ## Source [^1]
 - Addition on the rationals is a binary operation

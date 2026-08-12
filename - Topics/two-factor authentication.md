@@ -26,7 +26,7 @@ aliases:
 		- #comment Fingerprint Scan Explanation
 			- Capturing an image of the user's fingerprint
 			- Analyzing the unique patterns (ridges and valleys) of the fingerprint
-				- #question What is meant by ridges and valleys?
+				- [ ] #question What is meant by ridges and valleys?
 			- Converting this data into a digital format
 			- Comparing it against stored fingerprint data to verify identity
 	- Password + [[one-time password]]

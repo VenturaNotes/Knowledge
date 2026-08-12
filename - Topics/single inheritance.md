@@ -8,7 +8,7 @@ class Animal:
 class Dog(Animal):  # Single inheritance
     pass
 ```
-- #question I don't think this is a great example since both classes do nothing. Maybe it would be better to show how inheritance here can be useful. 
+- [ ] #question I don't think this is a great example since both classes do nothing. Maybe it would be better to show how inheritance here can be useful. 
 - Summary
 	- Inherits from one parent class
 ## Source [^1]

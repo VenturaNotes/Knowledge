@@ -2,8 +2,8 @@
 - 
 ## Source [^1]
 - The high-level structure of a software system, the discipline of creating such structures, and the documentation of these structures
-	- #question What is the meaning of "high-level structure?
-	- #question How does creation and documentation work for architectures?
+	- [ ] #question What is the meaning of "high-level structure?
+	- [ ] #question How does creation and documentation work for architectures?
 
 ## Source[^2]
 - The specification of a (digital) computer system at a somewhat general level, including description from the programming (user) viewpoint of the instruction set and user interface, memory organization and addressing, I/O operation and control, etc. The implementation of an architecture in members of a given computer family may be quite different, yet all the members should be capable of running the same program. Implementation differences may occur in actual hardware components or in subsystem implementation (e.g. microprogramming as opposed to wired control), generally in both. Different implementations may have substantially different performances and costs. An implementation feature$\textemdash$such as a cache memory$\textemdash$that is transparent to the user does not affect the architecture. Common architecture provides compatibility from the user's viewpoint.

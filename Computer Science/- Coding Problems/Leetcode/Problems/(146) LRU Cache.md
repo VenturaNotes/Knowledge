@@ -10,7 +10,7 @@ Reviewed: false
 - This is a popular interview question by Twitch.tv
 - More of a design problem than algorithms problem
 - Will use [[HashMap]] to look at value of each key
-	- #question what is difference between hashmap and dictionary?
+	- [ ] #question what is difference between hashmap and dictionary?
 - Left will be least recent and right will be most recent
 - We want a [[double linked list]]
 - Writing helper functions

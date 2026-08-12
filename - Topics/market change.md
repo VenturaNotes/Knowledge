@@ -8,7 +8,7 @@ aliases:
 	- new competitors
 	- shifts in customer needs or preferences
 	- emerging trends
-		- #question What kind of emerging trends is commonly seen in software engineering?
+		- [ ] #question What kind of emerging trends is commonly seen in software engineering?
 ## Source [^1]
 - A market change is a shift in market forces or conditions
 ## References

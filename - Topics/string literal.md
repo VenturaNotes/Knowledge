@@ -6,7 +6,7 @@ aliases:
 - Can use single quotes or double quotes
 	- `'Hello World'`
 	- `"Python is fun!"`
-	- #question What is the difference between single quotes and double quotes? Is it just so that a quotation can be used within a text without confusion?
+	- [ ] #question What is the difference between single quotes and double quotes? Is it just so that a quotation can be used within a text without confusion?
 - Can use triple quote
 ```python
 text = """This lets you

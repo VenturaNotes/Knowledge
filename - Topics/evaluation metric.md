@@ -2,7 +2,7 @@
 - 
 ## Source [^1]
 - For classification problems, a common evaluation metric is accuracy
-	- #question How would we calculate this accuracy? 
+	- [ ] #question How would we calculate this accuracy? 
 - There are other metrics used to evaluate the performance of classification and regression models
 ## References
 

@@ -20,7 +20,7 @@ Reviewed: false
 		- Let A
 		- (3) Show that 3 is an eigenvalue of matrix A and find the corresponding eigenvectors
 			- Need to take I, the [[identity matrix]]
-				- #question why?
+				- [ ] #question why?
 			- If we ended with identity matrix, it means we only had the trivial solution. 
 			- If we have only the trivial solution, then it's not an eigenvalue
 			- If we have a free variable, then  we have a non-trivial solution. Then therefore, it is an eigenvalue

@@ -17,7 +17,7 @@
 
 ## Source[^5]
 - Convolution-like products occur variously in mathematics. For the Fourier transform and Laplace transform they are respectively defined by $$(f*g)(x) = \int_{-\infty}^{\infty}f(t)g(x-t)~dt,~~ (f*g)(x)=\int_0^\infty f(t)g(x-t) dt,$$and each is defined so that the transform of the convolution is the product of the transforms. The convolution product is commutative and the sifting property of the Dirac delta functions shows it to be the identity. In probability, if $f$ and $g$ are the pdfs of two continuous distributions, $X$ and $Y$ on $\mathbb{R}$, then the pdf of their sum $Z = X + Y$ is the first integral above.
-	- #question Might be mistake in the second equation? Should be $\int_0^x$? 
+	- [ ] #question Might be mistake in the second equation? Should be $\int_0^x$? 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

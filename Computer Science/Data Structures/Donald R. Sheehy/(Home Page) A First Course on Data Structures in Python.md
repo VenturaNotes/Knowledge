@@ -616,7 +616,7 @@ avg2 = avg(L2)
 		- “we'll be able to talk about and compare the efficiency of different algorithms or programs” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=UDXJYCL3))
 ### (5.1) Timing Programs
 - “let's observe some differences in [[running time]] for different functions that do the same thing.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=QEHA44L3))
-	- #question what is running time again?
+	- [ ] #question what is running time again?
 	- “We might say these functions have the same behavior or the same [[semantics]].” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=2BZCZNXL))
 - Program that checks for duplicates in list
 ```python

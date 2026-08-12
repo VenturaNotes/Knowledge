@@ -8,9 +8,9 @@ aliases:
 - You create classes to define objects with attributes (data) and methods (functions). Encourages concepts like [[encapsulation (python)|encapsulation]], [[inheritance (python)|inheritance]], and [[polymorphism (python)|polymorphism]]
 - An "is-a" relationship between classes refers to inheritance, where one class (the [[subclass (python)|subclass]]) is derived from another class (the [[superclass (python)|superclass]])
 	- The subclass is a type of the superclass. This is achieved using class inheritance
-		- #question are there other types of inheritances aside from class inheritance? 
-		- #question What other kinds of relationships are there aside from "is-a"?
-		- #question what is composition in python? 
+		- [ ] #question are there other types of inheritances aside from class inheritance? 
+		- [ ] #question What other kinds of relationships are there aside from "is-a"?
+		- [ ] #question what is composition in python? 
 - "is-a" Relationship
 	- Inheritance: Subclass inherits attributes and methods from superclass
 	- Subclass: Class is derived from another class
@@ -43,10 +43,10 @@ print(dog.speak())  # Output: Buddy says Woof!
 print(cat.speak())  # Output: Whiskers says Meow!
 ```
 
- #question How does overriding work in inheritance?
- #question can subclasses have an `__init__` method? 
- #question What is `f"{self.name}` syntax again? 
- #question is it possible to create an instance of a superclass (without use of subclasses?)
+ - [ ] #question How does overriding work in inheritance?
+ - [ ] #question can subclasses have an `__init__` method? 
+ - [ ] #question What is `f"{self.name}` syntax again? 
+ - [ ] #question is it possible to create an instance of a superclass (without use of subclasses?)
  - "Is-a" Relationship
 	 - `Dog` instance is also considered an instance of `Animal`
 ### Benefits of "is-a" Relationship
@@ -74,7 +74,7 @@ print(isinstance(dog, Cat)) #False
 - Definition: One class is a specialized version of another
 - Relationship: Subclass inherits from a superclass
 - Used for: Reuse and [[polymorphism]]
-	- #question What is polymorphism
+	- [ ] #question What is polymorphism
 ```python
 class Animal:
     pass
@@ -83,9 +83,9 @@ class Dog(Animal):  # Dog *is-a* Animal
     pass
 ```
 - Use when there's a logical hierarchy: a dog is an Animal
-	- #question What is a logical hierarchy?
+	- [ ] #question What is a logical hierarchy?
 - "is-a" Uses inheritance (subclassing). `Dog is-a Animal`
-	- #question is inheritance or subclassing the same thing?
+	- [ ] #question is inheritance or subclassing the same thing?
 #### Has-a (Composition / Aggregation)
 - Definition: One class contains another as part of it.
 - Relationship: "Whole-part" or "ownership"
@@ -100,12 +100,12 @@ class Car:
 ```
 - Use when one object uses or contains another.
 - Subtypes of "has-a"
-	- #question Why are there quotation marks around "has-a"?
+	- [ ] #question Why are there quotation marks around "has-a"?
 	- Composition
 		- Ownership is included and lifespan tied to owner is a strong relationship such as "A `car` has-a `Engine`"
 	- Aggregation
 		- Ownership not included and lifespan to owner does not exist or is a weak relationship such as "A `Team` has-a `Player`"
-			- #question What is meant by lifespan to owner? 
+			- [ ] #question What is meant by lifespan to owner? 
 - Has-a is composition or aggregation. `Car has-a Engine`
 
 #### Uses-a (Dependency/ Association)

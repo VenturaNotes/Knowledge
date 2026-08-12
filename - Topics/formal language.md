@@ -4,22 +4,22 @@ aliases:
 ---
 ## Synthesis
 - In computer science, a formal language is a set of strings of symbols that are drawn from a finite alphabet.
-	- #question What could the alphabet consist of? 
-	- #question Is it possible to have one that is not finite?
+	- [ ] #question What could the alphabet consist of? 
+	- [ ] #question Is it possible to have one that is not finite?
 - Formal languages precisely defined by a set of rules 
 - Key Aspects:
 	- Alphabet: A finite, non-empty set of symbols (e.g., {a, b, c} or {0, 1})
 	- String (or Word): A finite sequence of symbols from the alphabet 
 	- Language: A subset of all possible strings that can be formed from a given alphabet. This subset is defined by specific rules, often expressed through formal grammars or automata. 
-		- #question What is meant by formal grammar?
-		- #question What is meant by automata?
-- #question I would like to see a few practice questions 
+		- [ ] #question What is meant by formal grammar?
+		- [ ] #question What is meant by automata?
+- [ ] #question I would like to see a few practice questions 
 - Formal languages fundamental in theoretical computer science
-	- #question What makes up theoretical computer science?
+	- [ ] #question What makes up theoretical computer science?
 	- Compiler Design: Programming languages are formal languages
-		- #question What is compiler design?
+		- [ ] #question What is compiler design?
 	- Automata Theory: Used to describe and analyze the capabilities of abstract machines (automata) in recognizing or generating strings of a formal language
-		- #question I would like to see some practice problems for this. 
+		- [ ] #question I would like to see some practice problems for this. 
 	- Logic and mathematics: For defining logical systems and mathematical proofs. 
 
 ## Source [^1]

@@ -7,7 +7,7 @@ aliases:
 - 
 ## Source [^1]
 - Unlike barcode and similar technologies, MICR characters can be read easily by humans
-	- #question how?
+	- [ ] #question how?
 
 ## Source[^2]
 - A process in which data, printed in ink containing ferromagnetic particles, is read by magnetic read heads. The shape of the characters resembles those of normal typescript but each generates a unique signal as it is scanned by the read head. The most common application is for encoding numbers on bank checks.

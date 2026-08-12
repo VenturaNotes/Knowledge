@@ -8,8 +8,8 @@ tags:
 ## Synthesis
 - **Self** represents the specific **instance of a class**.
 - By using self, you can access the attributes (variables) and methods (functions) of that specific object from within the class definition.
-	- #question What is the class definition?
-	- #question What are the variables and methods?
+	- [ ] #question What is the class definition?
+	- [ ] #question What are the variables and methods?
 ### Code Example
 - Here is a simple example to show how self differentiates between different objects created from the same class: 
 ```python
@@ -67,10 +67,10 @@ class Car:
 - No
 - `self` is not required when  it's a 
 	- Static Method: Methods decorated with `@staticmethod` behave like regular functions.
-		- #question Is the `@staticmethod` required or convention?
+		- [ ] #question Is the `@staticmethod` required or convention?
 	- Class Methods: : Methods decorated with @classmethod receive the class itself as the first argument (conventionally named cls) instead of the instance (self).
-		- #question Is `(self)` a keyword?
-		- #question Is `@classmethod` required or convention?
+		- [ ] #question Is `(self)` a keyword?
+		- [ ] #question Is `@classmethod` required or convention?
 ```python
 class DemoClass:
     # 1. No self needed for a static method

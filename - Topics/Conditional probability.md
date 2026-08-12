@@ -42,7 +42,7 @@ aliases: conditional probabilities
 			- So we know the outcome of $A_1 \cap A_2$ is {2, 3}
 			- Since $A_3$ has an outcome of {3, 4, 5}, and it's guaranteed at least {2, 3}, that means the chances of it being {3} is $\frac 12$ 
 			- Interestingly $\frac{\frac 16}{\frac26}$ = $\frac 12$ 
-- #question what kind of application could I use for this?
+- [ ] #question what kind of application could I use for this?
 ## Source[^4]
 - $n$. Another name for posterior probability: the probability assigned to an event in accordance with Bayes' theorem in the light of empirical evidence as to its observed relative frequency. See also CONDITIONAL REASONING. Compare PRIOR PROBABILITY (2).
 ## Source[^5]

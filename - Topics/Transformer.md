@@ -21,7 +21,7 @@
 		  - Primary winding
 		  - Secondary Winding
 			  - Load impedence
-				  - #question Is spelling right?
+				  - [ ] #question Is spelling right?
 - http://www.explainthatstuff.com/transformers
 	- An introduction to transformers, with useful links
 	- #comment 404 not found

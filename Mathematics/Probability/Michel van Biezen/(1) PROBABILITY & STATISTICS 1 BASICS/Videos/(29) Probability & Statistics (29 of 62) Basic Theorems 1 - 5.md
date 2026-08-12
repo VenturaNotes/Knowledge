@@ -10,4 +10,4 @@ Reviewed: false
 	- (3) $A \cup (B \cup C) = (A \cup B) \cup C = A \cup B \cup C$
 	- (4) $A \cap B = B \cap A$
 	- (5) $A \cap (B \cap C) = (A \cap B) \cap C = A \cap B \cap C$
-	- #question What are the names of all these theorems?
+	- [ ] #question What are the names of all these theorems?

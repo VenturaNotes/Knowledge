@@ -23,7 +23,7 @@ aliases:
 	- The third digit of each is 0 XOR 1 = 1
 	- The second digit of each is 1 XOR 0 = 1
 	- The first digit of each is 0 XOR 1 = 1
-	- #question Which one is the first or second digit?
+	- [ ] #question Which one is the first or second digit?
 - So 2 XOR 5 = $111_2$ 
 ## Source [^1]
 - 

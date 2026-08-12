@@ -32,4 +32,4 @@ Reviewed: false
 - ![[Screenshot 2024-12-16 at 1.32.18 AM.png]]
 	- Let A = matrix and b = vector. Is the equation Ax = b consistent for all possible b?
 		- This is inconsistent as 0 = $b_1 - \frac 12 b_2 + b_3$ which means it's not for all possible values of b. There are values that will make the expression not equal to 0
-			- #question Does this just mean a free variable is needed?
+			- [ ] #question Does this just mean a free variable is needed?

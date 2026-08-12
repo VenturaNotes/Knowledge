@@ -4,7 +4,7 @@ aliases:
 ---
 ## Synthesis
 - Algebraic structures are sets of elements equipped with one or more operations that satisfy certain properties or axioms. 
-	- #question Are all algebraic structures in terms of sets?
+	- [ ] #question Are all algebraic structures in terms of sets?
 ### Groups:
 - A group is a set of elements along with a single operation that satisfies four properties: [[closure]], [[associativity]], [[identity]], and [[invertibility]]
 	- Example: The set of integers $\mathbb{Z}$ under addition
@@ -34,7 +34,7 @@ aliases:
 
 ### Vector Spaces
 - A [[vector space]] (or linear space) is a set of vectors that can be added together and multiplied by scalars (elements from a field), satisfying several axioms
-	- #question what is meant by "elements from a field" here?
+	- [ ] #question what is meant by "elements from a field" here?
 	- Example: The set of all 2-dimensional vectors $\mathbb{R}^2$ with the usual vector addition and scalar multiplication
 		- Properties include closure under addition and scalar multiplication, associativity, commutativity, and distributivity
 

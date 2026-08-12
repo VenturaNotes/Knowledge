@@ -50,7 +50,7 @@
 | KF           | flicker noise coefficient                        | 0        |       |         |
 | AF           | flicker noise exponent                           | 1        |       |         |
 |              | Spice parameters for bipolar transistor (subset) |          |       |         |
-- #question I don't understand the spice parameters portion. Is it part of flicker noise exponent?
+- [ ] #question I don't understand the spice parameters portion. Is it part of flicker noise exponent?
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -30,7 +30,7 @@
 			- Outdated
 			- Biased
 			- Mixed Content
-				- #question Why would a source be bad if it's mixed content? Like if you're researching one thing but contains information that's not relevant to your topic?
+				- [ ] #question Why would a source be bad if it's mixed content? Like if you're researching one thing but contains information that's not relevant to your topic?
 	- Validation Framework to fix this:
 		- (1) Ask it to create a table showing each source with its publication date, author credentials, and whether its primary source, secondary analysis, or opinion piece
 			- #comment Although you probably could just specify types of sources you want before deep research is even done.
@@ -56,7 +56,7 @@
 - NotebookLM only synthesizes documents that are check marked in the sidebar
 - Studio Panel Options
 	- #comment Note that generation of the content below can take some time and might not be good first time around.
-	- #question What is the limit of these features for the free version in NotebookLM?
+	- [ ] #question What is the limit of these features for the free version in NotebookLM?
 	- Audio Overview
 		- Address what to focus on, what tone to use, and length of overview
 		- Can ask for length within prompt to be under 15 minutes for example

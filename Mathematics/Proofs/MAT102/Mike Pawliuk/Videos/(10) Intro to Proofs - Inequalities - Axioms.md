@@ -41,7 +41,7 @@ Reviewed: false
 	- Slide 7 - Consequences
 		- [[Difference of squares]]
 		- Exercise. Use the axioms to justify the "note" we made without proof #question
-	- Slide 8 - Exercise #question (one of these things is impossible )
+	- [ ] #question Slide 8 - Exercise (one of these things is impossible )
 		- (1) If possible, use the main idea from the proof of fact 1 to prove fact 2
 		- (2) If possible, use the main idea from the proof of fact 2 to prove fact 1
 	- Slide 9 - Common Mistakes

@@ -2,8 +2,8 @@
 - 
 ## Source [^1]
 - Solvency is the ability of a company to meet its long-term debts and other financial obligations
-	- #question What types of financial obligations are there?
-	- #question How does a company accrue long-term debts? Do all companies have long term debts?
+	- [ ] #question What types of financial obligations are there?
+	- [ ] #question How does a company accrue long-term debts? Do all companies have long term debts?
 ## Source[^2]
 - (1) The financial state of a person or company that is able to pay all debts as they fall due. 
 - (2) The amount by which the assets of a bank exceed its liabilities.

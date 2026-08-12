@@ -22,8 +22,8 @@ Reviewed: false
 		- HSBC
 		- Discover Channel
 		- O2
-		- #question what is meant by flagship apps
-		- #question what are these companies known for? 
+		- [ ] #question what is meant by flagship apps
+		- [ ] #question what are these companies known for? 
 - [[Eran Boudjnah]]
 	- Developer with 20 years of experience
 		- Desktop applications
@@ -114,8 +114,8 @@ Reviewed: false
 	- Will learn structure of android app
 - Will learn the importance of [[AndroidManifest.xml]] file
 - “Gradle build tool to configure your app and implement [[user interface]] (UI) elements from Material Design.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=28&annotation=8NTFMCTV))
-	- #question what is material design
-	- #question what is the gradle build tool?
+	- [ ] #question what is material design
+	- [ ] #question what is the gradle build tool?
 - “[[Android]] is the most widely used mobile phone operating system in the world, with over three billion active devices.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=28&annotation=6EDGQKX9))
 - “[[Android Studio]] provides all the tooling for application development but not the knowledge.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=28&annotation=YSBYFW8L))
 - Topics covered in this chapter

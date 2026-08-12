@@ -4,113 +4,113 @@ aliases:
 ---
 ## Synthesis
 - Training an LLM involves feeding it massive amounts of text data and adjusting its parameters using optimization algorithms (like stochastic gradient descent). This is done in several phases, often starting with pretraining on general data and then fine-tuning on task-specific datasets.
-	- #question Does an LLM only take in text data?
-	- #question How is an LLM "fed"? 
-	- #question What kinds of optimization algorithms are there?
-	- #question How does stochastic gradient descent work?
-	- #question What is pretraining
-	- #question What is a task-specific dataset? 
-	- #question How many phases are there and how would this work?
-	- #question What is meant by parameters?
-	- #question What is meant by general data? 
-	- #question How would you fine-tune? 
+	- [ ] #question Does an LLM only take in text data?
+	- [ ] #question How is an LLM "fed"? 
+	- [ ] #question What kinds of optimization algorithms are there?
+	- [ ] #question How does stochastic gradient descent work?
+	- [ ] #question What is pretraining
+	- [ ] #question What is a task-specific dataset? 
+	- [ ] #question How many phases are there and how would this work?
+	- [ ] #question What is meant by parameters?
+	- [ ] #question What is meant by general data? 
+	- [ ] #question How would you fine-tune? 
 - Deployment an LLM involves making the model accessible through an interface (like an API) so users or systems can interact with it. This requires serving infrastructure (often cloud-based), optimized models (e.g., quantized or pruned), and possibly scaling techniques like load balancing and model sharding.
-	- #question What other interfaces could you make it accessible? 
-	- #question What is meant by "model" here? 
-	- #question What is meant by "users or systems" could interact with it? 
-	- #question What is meant by infrastructure here?
-	- #question What is cloud-based infrastructure
-	- #question What kind of optimized models are there?
-	- #question What is a quantized model?
-	- #question What is a pruned model? 
-	- #question What is load balancing
-	- #question What is model sharding
+	- [ ] #question What other interfaces could you make it accessible? 
+	- [ ] #question What is meant by "model" here? 
+	- [ ] #question What is meant by "users or systems" could interact with it? 
+	- [ ] #question What is meant by infrastructure here?
+	- [ ] #question What is cloud-based infrastructure
+	- [ ] #question What kind of optimized models are there?
+	- [ ] #question What is a quantized model?
+	- [ ] #question What is a pruned model? 
+	- [ ] #question What is load balancing
+	- [ ] #question What is model sharding
 - Resources needed for an LLM
 	- [[GPUs]] or [[Tensor Processing Unit|TPUs]] for training and inference
-		- #question What is meant by training
-		- #question What is meant by inference
-		- #question What is a GPU
-		- #question What is a TPU
+		- [ ] #question What is meant by training
+		- [ ] #question What is meant by inference
+		- [ ] #question What is a GPU
+		- [ ] #question What is a TPU
 	- Large-scale memory ([[RAM]] and VRAM)
-		- #question What is RAM
-		- #question What is VRAM
-		- #question What is meant by large-scale memory? 
+		- [ ] #question What is RAM
+		- [ ] #question What is VRAM
+		- [ ] #question What is meant by large-scale memory? 
 ### Interpretability
 - This refers to being able to explain the internal mechanics, logic, and "reasoning" behind a model's output. 
-	- #question Is there a difference between mechanics, logic, and "reasoning" here?
+	- [ ] #question Is there a difference between mechanics, logic, and "reasoning" here?
 - Since LLMs are essential black boxes consisting of billions of parameters and complex non-linear transformations, it is often impossible to know exactly why a model chose one word over another just by looking at the raw numbers.
-	- #question Do all LLMs consist of billions of parameters?
-	- #question What is meant by "black box?"
-	- #question What would a complex non-linear transformation look like?
-	- #question Is there a way to interpret the raw numbers so interpretability is possible (or are they still just guesses)?
+	- [ ] #question Do all LLMs consist of billions of parameters?
+	- [ ] #question What is meant by "black box?"
+	- [ ] #question What would a complex non-linear transformation look like?
+	- [ ] #question Is there a way to interpret the raw numbers so interpretability is possible (or are they still just guesses)?
 - Interpretability aims to bridge the gap between the model's mathematical operations and human-understandable concepts.
-	- #question What would an example of this look like?
+	- [ ] #question What would an example of this look like?
 #### Aspects of Interpretability
 - [[Mechanistic Interpretability]]
 	- This involves reverse-engineering the model's neural network to understand how specific circuits or neurons represent certain concepts (e.g., identifying which part of the model handles "syntax" vs. "sentiment").
-		- #question Does an LLM always run on a neural network?
-		- #question Could you give an example of the circuits vs neurons situation?
-		- #question How can we tell what part of the model handles syntax vs sentiment? Is it possible for a model to have every part handle syntax and sentiment? 
-		- #question What does reverse-engineering look like here? Could you give an example?
+		- [ ] #question Does an LLM always run on a neural network?
+		- [ ] #question Could you give an example of the circuits vs neurons situation?
+		- [ ] #question How can we tell what part of the model handles syntax vs sentiment? Is it possible for a model to have every part handle syntax and sentiment? 
+		- [ ] #question What does reverse-engineering look like here? Could you give an example?
 - Feature Attribution
 	- Identifying which parts of the input text (tokens) were most influential in generating a specific response.
-		- #question Could you give a specific example for this?
+		- [ ] #question Could you give a specific example for this?
 - Transparency
 	- The degree to which the model's architecture and training data are documented and understood.
-		- #question I would need an example of this as well
+		- [ ] #question I would need an example of this as well
 #### Attention Maps Example
 - Attention Maps are a common way to demonstrate interpretability
 - If you give an LLM this sentence:
 	- "The bank was closed because it was a holiday"
 - We can look at the attention weights of the model to understand why it correctly identified "bank" as a financial institution rather than a river bank
-	- #question What is an attention weight?
+	- [ ] #question What is an attention weight?
 - Parts
 	- Mechanism
 		- During processing, the model assigns a "weight" to every word in the sentence relative to every other word. This is calculated using the formula:
 			- $Attention(Q, K, V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V$
-				- #question Is it always calculated using this formula?
-				- #question Could you show me an example using this formula?
-				- #question What is this formula called?
+				- [ ] #question Is it always calculated using this formula?
+				- [ ] #question Could you show me an example using this formula?
+				- [ ] #question What is this formula called?
 	- Interpretation
 		- If we visualize the attention for the word "bank," we might see a strong connection (high weight) to the word "closed" and "holiday."
-			- #question What kind of visualization can we make so that "bank" has a high weight to "closed" and "holiday"?
-			- #question If "closed" and "holiday" were in a different sentence, would this create a lower weight to the word "bank"
-				- #question Is this weight directed in once direction or both directions? 
+			- [ ] #question What kind of visualization can we make so that "bank" has a high weight to "closed" and "holiday"?
+			- [ ] #question If "closed" and "holiday" were in a different sentence, would this create a lower weight to the word "bank"
+				- [ ] #question Is this weight directed in once direction or both directions? 
 	- Explanation
 		- This tells us that the model is using the context of "business hours" (implied by "closed" and "holiday") to disambiguate the meaning of "bank."
-			- #question But how do we know that "business hours" is the context the model is using?
+			- [ ] #question But how do we know that "business hours" is the context the model is using?
 #### Importance of Interpretability
 - In the context of summarizing or generating ideas, interpretability helps us
 	- trust the model isn't just hallucinating due to a random statistical fluke
-		- #question What kind of statistical fluke could cause a model to hallucinate?
+		- [ ] #question What kind of statistical fluke could cause a model to hallucinate?
 	- ensure safety that the model isn't using biased or harmful logic
-		- #question What would an example of this look like? Would this be based on the sources the model trained from or the context given to it?
-		- #question What types of mathematical models induce more unsafe bias than others?
+		- [ ] #question What would an example of this look like? Would this be based on the sources the model trained from or the context given to it?
+		- [ ] #question What types of mathematical models induce more unsafe bias than others?
 	- debug efficiently to refine prompt engineering techniques
-		- #question What kind of prompt engineering techniques are there? 
+		- [ ] #question What kind of prompt engineering techniques are there? 
 ## Source [^1]
 ### Common Challenges
 - Computational resources: LLMs require significant computational power and memory, making training and deployment resource-intensive.
-	- #question What kind of resources would you need for an LLM? 
-	- #question Computational resources are required. What are some examples of computational resources? 
-	- #question What is the difference between computational power and computational memory?
-	- #question What other things are resource intensive?
+	- [ ] #question What kind of resources would you need for an LLM? 
+	- [ ] #question Computational resources are required. What are some examples of computational resources? 
+	- [ ] #question What is the difference between computational power and computational memory?
+	- [ ] #question What other things are resource intensive?
 - Bias and fairness: LLMs can inadvertently learn and propagate biases present in the training data, leading to unfair or biased outputs.
-	- #question Could you give an example of this? 
+	- [ ] #question Could you give an example of this? 
 - Interpretability: Understanding and explaining the decisions made by LLMs can be difficult due to their complex and opaque nature.
-	- #question What is complex about an LLM? 
-	- #question What exactly is an LLM? 
-	- #question Is it difficult to understand because it is like a black box? 
+	- [ ] #question What is complex about an LLM? 
+	- [ ] #question What exactly is an LLM? 
+	- [ ] #question Is it difficult to understand because it is like a black box? 
 - Data privacy: Using large datasets for training can raise concerns about data privacy and security.
-	- #question How are the large datasets retrieved?
-	- #question How could we lawfully obtain a dataset?
-	- #question I understand that there are different licenses for different things. How would we determine if it's legal to use or not such as a commercial license or an MIT license? 
+	- [ ] #question How are the large datasets retrieved?
+	- [ ] #question How could we lawfully obtain a dataset?
+	- [ ] #question I understand that there are different licenses for different things. How would we determine if it's legal to use or not such as a commercial license or an MIT license? 
 - Cost: The development, training, and deployment of LLMs can be expensive, limiting their accessibility for smaller organizations.
-	- #question What is meant by development in this case? 
-	- #question Instead of "accessibility", don't you 
-	- #question How much could it cost for a company to develop, train, and deploy an LLM?
-	- #question Couldn't smaller organization access LLMs developed by larger organizations? 
-	- #question How large does an organization need to be so that cost does not become a problem?
+	- [ ] #question What is meant by development in this case? 
+	- [ ] #question Instead of "accessibility", don't you 
+	- [ ] #question How much could it cost for a company to develop, train, and deploy an LLM?
+	- [ ] #question Couldn't smaller organization access LLMs developed by larger organizations? 
+	- [ ] #question How large does an organization need to be so that cost does not become a problem?
 ## References
 
 [^1]: https://www.datacamp.com/blog/llm-interview-questions

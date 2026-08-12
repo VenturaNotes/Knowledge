@@ -13,25 +13,24 @@ export default class ProgressPlannerPlugin extends Plugin {
     async onload() {
         await this.loadSettings();
 
-        // 1. Instantiate the cache object
         this.taskCache = new TaskCache(this.app, this.settings);
-
-        // 1b. Status bar chip + hotkey-triggered floating editor for whatever
-        // task you're currently anchored on — independent of the goals graph.
         this.activeTaskPanel = new ActiveTaskPanel(this);
 
-        // 2. Defer heavy indexing until Obsidian's layout and metadata cache are fully ready
         this.app.workspace.onLayoutReady(async () => {
             await this.taskCache.initialize();
             this.refreshViews();
         });
 
-        // 3. Setup Cache Auto-Updates for note modifications after startup
+        // NEW: Debounce wrapper for lag-free typing 
+        let debounceTimeout: number | null = null;
         this.registerEvent(
             this.app.metadataCache.on("changed", async (file) => {
                 if (file instanceof TFile) {
                     await this.taskCache.updateFile(file);
-                    this.refreshViews();
+                    if (debounceTimeout) window.clearTimeout(debounceTimeout);
+                    debounceTimeout = window.setTimeout(() => {
+                        this.refreshViews();
+                    }, 1000); // Wait 1 second after typing stops to re-render
                 }
             })
         );
@@ -55,7 +54,6 @@ export default class ProgressPlannerPlugin extends Plugin {
             })
         );
 
-        // 4. Register Views
         this.registerView(
             VIEW_TYPE_DASHBOARD,
             (leaf) => new DashboardView(leaf, this)
@@ -65,7 +63,6 @@ export default class ProgressPlannerPlugin extends Plugin {
             (leaf) => new AgendaView(leaf, this)
         );
 
-        // 5. Ribbon Controls
         this.addRibbonIcon("graph", "Open Progress Dashboard", () => {
             this.activateView(VIEW_TYPE_DASHBOARD);
         });
@@ -74,7 +71,6 @@ export default class ProgressPlannerPlugin extends Plugin {
             this.activateView(VIEW_TYPE_AGENDA);
         });
 
-        // 6. Commands
         this.addCommand({
             id: "open-progress-dashboard",
             name: "Open Graph Dashboard",
@@ -87,7 +83,6 @@ export default class ProgressPlannerPlugin extends Plugin {
             callback: () => this.activateView(VIEW_TYPE_AGENDA)
         });
 
-        // 7. Settings Page
         this.addSettingTab(new ProgressPlannerSettingTab(this.app, this));
     }
 
@@ -106,11 +101,6 @@ export default class ProgressPlannerPlugin extends Plugin {
         this.refreshViews();
     }
 
-    /**
-     * Goal Containers are pure view-state presets (which goals a Focus Filter
-     * selection points at) — they don't change what the cache indexes, so this
-     * skips the full taskCache.initialize() that saveSettings() does.
-     */
     async saveGoalContainers(containers: ProgressPlannerSettings["goalContainers"]) {
         this.settings.goalContainers = containers;
         await this.saveData(this.settings);

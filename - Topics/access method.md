@@ -5,9 +5,9 @@
 
 ## Source[^2]
 - An access method can be broken down into two parts. The first is the part of a computer responsible for transmitting and receiving data, primarily to storage devices. This can be a network card, [[modem]], or wireless adapter. The second part is the software that manages accessed and used data. This includes programs like operating systems, word processors, and databases.
-	- #question Is a network card and a network interface card the same thing?
-	- #question What is a wireless adapter? 
-	- #question So is method access just a difference between hardware and software?
+	- [ ] #question Is a network card and a network interface card the same thing?
+	- [ ] #question What is a wireless adapter? 
+	- [ ] #question So is method access just a difference between hardware and software?
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

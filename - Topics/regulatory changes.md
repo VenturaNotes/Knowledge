@@ -4,7 +4,7 @@
 	- New laws
 	- Compliance requirements
 	- Industry standards
-		- #question What kind of industry standards exist in software engineering?
+		- [ ] #question What kind of industry standards exist in software engineering?
 ## Source [^1]
 - Refers to modifications or updates to laws, rules or guidelines imposed by governmental bodies or regulatory authorities.
 ## References

@@ -9,8 +9,8 @@ tags:
 	- `print` became a function, not a statement
 		- In Python2: `print "Hello"`
 		- In Python3: `print("Hello")`
-- #question What are generics? 
-- #question what does the === sign do in python? 
+- [ ] #question What are generics? 
+- [ ] #question what does the === sign do in python? 
 
 - `range(1, 3)` function has 1 inclusive and 3 exclusive
 ```python
