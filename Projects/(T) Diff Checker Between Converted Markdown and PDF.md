@@ -1,7 +1,5 @@
 ---
 status: done
-tags:
-  - task
 ---
 ## Features
 - Make it so it can choose the source file!

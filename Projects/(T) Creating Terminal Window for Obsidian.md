@@ -1,7 +1,5 @@
 ---
 status: done
-tags:
-  - task
 ---
 ## Feature Requests
 - [ ] Make it so you can have multiple terminals at once

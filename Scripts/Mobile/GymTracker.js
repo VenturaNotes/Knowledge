@@ -131,7 +131,8 @@ function parseWorkout(content) {
         reps,
         repsPerSet,
         hasRepTag,
-        isExpanded: false 
+        isExpanded: false,
+        justUndone: false // Tracks if item was just restored for animation
       });
     }
   }
@@ -206,12 +207,39 @@ const CSS = `
 .gt-container { width: min(760px, 100%); display: flex; flex-direction: column; gap: 1.25rem; }
 
 /* Exercise Cards */
-.gt-card { background: var(--background-primary-alt); border: 1px solid var(--background-modifier-border); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+.gt-card { background: var(--background-primary-alt); border: 1px solid var(--background-modifier-border); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; position: relative; transition: all 0.2s ease-out; }
 .gt-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
 .gt-title-group { display: flex; align-items: flex-start; gap: 10px; flex: 1; }
-.gt-check-box { width: 28px; height: 28px; border-radius: 6px; border: 2px solid var(--text-muted); display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0; background: var(--background-primary); font-weight: bold; font-size: 1.1rem; margin-top: 1px; }
+.gt-check-box { width: 28px; height: 28px; border-radius: 6px; border: 2px solid var(--text-muted); display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0; background: var(--background-primary); font-weight: bold; font-size: 1.1rem; margin-top: 1px; transition: all 0.15s ease-out; }
 .gt-card.gt-done .gt-check-box { background: var(--text-success, #4caf50); border-color: var(--text-success, #4caf50); color: white; }
 .gt-card-title { font-size: 1.05rem; font-weight: 700; color: var(--text-normal); line-height: 1.3; margin-top: 3px;}
+
+/* Animations for Completion States & Undo */
+@keyframes gt-flash-undo-full {
+  0% { transform: scale(1); background: rgba(245, 158, 11, 0.4); border-color: #f59e0b; }
+  50% { transform: scale(1.02); background: rgba(245, 158, 11, 0.2); border-color: #f59e0b; }
+  100% { transform: scale(1); background: var(--background-primary-alt); border-color: var(--background-modifier-border); }
+}
+@keyframes gt-flash-undo-partial {
+  0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4); background: var(--background-primary-alt); }
+  50% { box-shadow: 0 0 0 6px rgba(245, 158, 11, 0); background: rgba(245, 158, 11, 0.1); border-color: #f59e0b; }
+  100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); background: var(--background-primary-alt); }
+}
+@keyframes gt-pulse-partial {
+  0% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4); background: var(--background-primary-alt); }
+  50% { box-shadow: 0 0 0 6px rgba(76, 175, 80, 0); background: rgba(76, 175, 80, 0.1); border-color: #4caf50; }
+  100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); background: var(--background-primary-alt); }
+}
+@keyframes gt-flash-complete {
+  0% { transform: scale(1); opacity: 1; background: var(--background-primary-alt); }
+  40% { transform: scale(1.02); opacity: 1; background: rgba(76, 175, 80, 0.2); border-color: #4caf50; }
+  100% { transform: scale(0.9); opacity: 0; background: rgba(76, 175, 80, 0.3); border-color: transparent; }
+}
+
+.gt-anim-undo-full { animation: gt-flash-undo-full 0.45s ease-out forwards; }
+.gt-anim-undo-partial { animation: gt-flash-undo-partial 0.45s ease-out forwards; }
+.gt-anim-partial { animation: gt-pulse-partial 0.4s ease-out forwards; }
+.gt-anim-complete { animation: gt-flash-complete 0.4s ease-out forwards; pointer-events: none; }
 
 /* Top Right Group inside Card */
 .gt-top-right-group { display: flex; align-items: center; gap: 8px; flex-shrink: 0; margin-top: 4px; }
@@ -245,13 +273,54 @@ const CSS = `
 `;
 
 function injectStyles() {
-  const ID = "gt-styles-v18";
+  const ID = "gt-styles-v25";
   if (!document.getElementById(ID)) {
     const s = document.createElement("style");
     s.id = ID;
     s.textContent = CSS;
     document.head.appendChild(s);
   }
+}
+
+// Helper to accurately smooth-scroll to exact center and play animation on arrival
+function smoothScrollAndAnimate(container, targetCard, onCentered) {
+  const containerRect = container.getBoundingClientRect();
+  const cardRect = targetCard.getBoundingClientRect();
+  
+  // Calculate exact scrollTop needed to center targetCard inside container
+  const relativeCardTop = cardRect.top - containerRect.top + container.scrollTop;
+  const targetScrollTop = Math.max(0, Math.min(
+    relativeCardTop - (container.clientHeight / 2) + (cardRect.height / 2),
+    container.scrollHeight - container.clientHeight
+  ));
+
+  // If already centered (within 10px), trigger immediately
+  if (Math.abs(container.scrollTop - targetScrollTop) < 10) {
+    onCentered();
+    return;
+  }
+
+  // Smooth scroll to target position
+  container.scrollTo({ top: targetScrollTop, behavior: "smooth" });
+
+  let lastTop = container.scrollTop;
+  let sameCount = 0;
+  let startTime = Date.now();
+  
+  // Poll scroll position to trigger animation EXACTLY when arrival occurs
+  const checkArrival = setInterval(() => {
+    const currentTop = container.scrollTop;
+    const dist = Math.abs(currentTop - targetScrollTop);
+    const isStuck = Math.abs(currentTop - lastTop) < 2;
+    
+    // Stop polling if within 8px of target, or scroll stopped, or max timeout reached (1.2s)
+    if (dist < 8 || (isStuck && sameCount++ > 3) || (Date.now() - startTime > 1200)) {
+      clearInterval(checkArrival);
+      onCentered();
+    } else {
+      lastTop = currentTop;
+    }
+  }, 40);
 }
 
 // ── UI Renderer ───────────────────────────────────────────────────────────────
@@ -313,12 +382,13 @@ async function startGymSession(app, file, leaf) {
   const footerBtnRow = footer.appendChild(document.createElement("div"));
   footerBtnRow.className = "gt-footer-btn-row";
 
-  // ── 48-Set Timer State ──────────────────────────────────────────────────────
+  // ── Timestamp-Based 48-Set Timer State ──────────────────────────────────────
   const TOTAL_SETS = 48;
   const SET_DURATION = 75; 
   
   let currentSet = 1;
   let secondsLeftInSet = SET_DURATION;
+  let expectedEndTime = Date.now() + (SET_DURATION * 1000);
   let isRunning = true;
   let timerInterval = null;
 
@@ -384,21 +454,35 @@ async function startGymSession(app, file, leaf) {
   }
 
   function tick() {
-    if (secondsLeftInSet > 0) {
-      secondsLeftInSet--;
-    } else {
-      if (currentSet < TOTAL_SETS) {
-        currentSet++;
-        secondsLeftInSet = SET_DURATION;
-        playBeep(880, 0.4); 
-      } else {
+    if (!isRunning) return;
+    
+    const now = Date.now();
+    const msLeft = expectedEndTime - now;
+
+    if (msLeft <= 0) {
+      // Calculate how much time passed in case device was asleep
+      const overflow = -msLeft;
+      const setsSkipped = Math.floor(overflow / (SET_DURATION * 1000)) + 1;
+      
+      if (currentSet + setsSkipped > TOTAL_SETS) {
+        currentSet = TOTAL_SETS;
         secondsLeftInSet = 0;
         isRunning = false;
         if (timerInterval) {
           clearInterval(timerInterval);
           timerInterval = null;
         }
+      } else {
+        currentSet += setsSkipped;
+        playBeep(880, 0.4);
+        
+        // Calculate remainder to keep the timer strictly accurate
+        const remainder = overflow % (SET_DURATION * 1000);
+        expectedEndTime = now + (SET_DURATION * 1000) - remainder;
+        secondsLeftInSet = Math.ceil((expectedEndTime - now) / 1000);
       }
+    } else {
+      secondsLeftInSet = Math.ceil(msLeft / 1000);
     }
     updateTimerUI();
   }
@@ -407,18 +491,24 @@ async function startGymSession(app, file, leaf) {
 
   playBtn.onclick = () => {
     if (!audioCtx) playBeep(0, 0.001); 
+    
     if (currentSet === TOTAL_SETS && secondsLeftInSet === 0) {
       currentSet = 1;
       secondsLeftInSet = SET_DURATION;
+      expectedEndTime = Date.now() + (SET_DURATION * 1000);
       isRunning = true;
       if (!timerInterval) timerInterval = setInterval(tick, 1000);
     } else {
       isRunning = !isRunning;
-      if (isRunning && !timerInterval) {
-        timerInterval = setInterval(tick, 1000);
-      } else if (!isRunning && timerInterval) {
-        clearInterval(timerInterval);
-        timerInterval = null;
+      if (isRunning) {
+        // Recalculate end time based on the exact seconds left right now
+        expectedEndTime = Date.now() + (secondsLeftInSet * 1000);
+        if (!timerInterval) timerInterval = setInterval(tick, 1000);
+      } else {
+        if (timerInterval) {
+          clearInterval(timerInterval);
+          timerInterval = null;
+        }
       }
     }
     updateTimerUI();
@@ -429,6 +519,7 @@ async function startGymSession(app, file, leaf) {
     if (currentSet < TOTAL_SETS) {
       currentSet++;
       secondsLeftInSet = SET_DURATION;
+      expectedEndTime = Date.now() + (SET_DURATION * 1000);
     } else {
       secondsLeftInSet = 0;
       isRunning = false;
@@ -449,6 +540,7 @@ async function startGymSession(app, file, leaf) {
         currentSet--;
         secondsLeftInSet = SET_DURATION;
       }
+      expectedEndTime = Date.now() + (SET_DURATION * 1000);
       updateTimerUI();
     }
   };
@@ -470,6 +562,13 @@ async function startGymSession(app, file, leaf) {
   undoBtn.onclick = async () => {
     if (undoStack.length === 0) return;
     const lastOp = undoStack.pop();
+    
+    // Determine the type of animation based on whether the item is returning from checked state
+    if (lastOp.item.checked && !lastOp.oldChecked) {
+      lastOp.item.justUndone = 'full';
+    } else {
+      lastOp.item.justUndone = 'partial';
+    }
     
     lastOp.item.checked = lastOp.oldChecked;
     lastOp.item.count = lastOp.oldCount;
@@ -529,10 +628,17 @@ async function startGymSession(app, file, leaf) {
     }
 
     const visibleItems = items.filter(i => !i.checked);
+    let itemToAnimate = null;
 
     for (const item of visibleItems) {
       const card = container.appendChild(document.createElement("div"));
       card.className = "gt-card";
+
+      // Tag for animation after layout calculation
+      if (item.justUndone) {
+        itemToAnimate = { card, animType: item.justUndone };
+        item.justUndone = false;
+      }
 
       const cardTop = card.appendChild(document.createElement("div"));
       cardTop.className = "gt-card-top";
@@ -544,9 +650,15 @@ async function startGymSession(app, file, leaf) {
       checkBox.className = "gt-check-box";
       checkBox.textContent = "";
 
-      // Checkbox Completion Logic
+      // Checkbox Completion Logic with Animation
       checkBox.onclick = async (e) => {
         e.stopPropagation();
+
+        if (card.classList.contains("gt-animating")) return;
+        card.classList.add("gt-animating");
+        
+        // Strip any residual animations completely before triggering the completion check
+        card.classList.remove("gt-anim-undo-full", "gt-anim-undo-partial", "gt-anim-complete", "gt-anim-partial");
         
         undoStack.push({ 
           item: item, 
@@ -557,6 +669,8 @@ async function startGymSession(app, file, leaf) {
         });
         if (undoStack.length > 20) undoStack.shift();
 
+        let isComplete = false;
+
         if (item.checked) {
           item.checked = false;
           item.count = item.baseCount;
@@ -565,13 +679,29 @@ async function startGymSession(app, file, leaf) {
           let remainingReps = 36 - item.reps;
           sessionEarnedSets += remainingReps / item.repsPerSet;
           item.reps = 0; 
+
+          card.classList.add("gt-anim-partial");
+          checkBox.style.background = "var(--text-success, #4caf50)";
+          
+          setTimeout(() => { checkBox.style.background = ""; }, 300);
+
         } else {
           item.checked = true;
           let remainingReps = 36 - item.reps;
           sessionEarnedSets += remainingReps / item.repsPerSet;
           item.reps = 0; 
+          isComplete = true;
+
+          card.classList.add("gt-anim-complete");
+          checkBox.style.background = "var(--text-success, #4caf50)";
+          checkBox.style.borderColor = "var(--text-success, #4caf50)";
+          checkBox.innerHTML = "✓";
+          checkBox.style.color = "white";
         }
         
+        const animDuration = isComplete ? 400 : 350;
+        await new Promise(r => setTimeout(r, animDuration));
+
         await saveWorkoutFile(app, file, lines, items);
         renderUI();
       };
@@ -580,7 +710,6 @@ async function startGymSession(app, file, leaf) {
       titleEl.className = "gt-card-title";
       titleEl.textContent = item.title;
 
-      // Icon-Only Toggle Arrow & Badge
       const topRightGroup = cardTop.appendChild(document.createElement("div"));
       topRightGroup.className = "gt-top-right-group";
 
@@ -646,7 +775,7 @@ async function startGymSession(app, file, leaf) {
       const saveReps = async () => {
         let newReps = parseInt(repInput.value, 10) || 0;
         if (newReps < 0) newReps = 0;
-        if (newReps > 36) newReps = 36; // Strict 36 Cap
+        if (newReps > 36) newReps = 36; 
         
         let repDiff = newReps - item.reps;
         sessionEarnedSets += repDiff / item.repsPerSet; 
@@ -663,7 +792,7 @@ async function startGymSession(app, file, leaf) {
         const toAdd = parseInt(addInput.value, 10) || 0;
         if (toAdd !== 0) {
           let targetReps = parseInt(repInput.value, 10) + toAdd;
-          if (targetReps > 36) targetReps = 36; // Strict 36 Cap
+          if (targetReps > 36) targetReps = 36; 
           if (targetReps < 0) targetReps = 0;
           repInput.value = targetReps;
           addInput.value = "";
@@ -710,6 +839,20 @@ async function startGymSession(app, file, leaf) {
         notesEl.className = "gt-notes";
         notesEl.textContent = item.notes.join(" • ");
       }
+    }
+
+    // Execute smooth scroll and trigger animation ONLY upon mathematical arrival
+    if (itemToAnimate) {
+      requestAnimationFrame(() => {
+        smoothScrollAndAnimate(body, itemToAnimate.card, () => {
+          const animClass = itemToAnimate.animType === 'full' ? "gt-anim-undo-full" : "gt-anim-undo-partial";
+          itemToAnimate.card.classList.add(animClass);
+
+          itemToAnimate.card.addEventListener("animationend", () => {
+            itemToAnimate.card.classList.remove(animClass);
+          }, { once: true });
+        });
+      });
     }
   }
 
