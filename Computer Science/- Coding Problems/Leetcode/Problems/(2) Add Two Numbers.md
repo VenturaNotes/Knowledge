@@ -4,6 +4,8 @@ Source:
 Reviewed: false
 tags:
   - in-progress
+parent:
+  - "[[(T) Interview Prep]]"
 ---
 ## Synthesis
 

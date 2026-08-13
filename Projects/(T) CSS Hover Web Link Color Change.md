@@ -1,7 +1,5 @@
 ---
 status: done
-tags:
-  - task
 completedDate: 2025-12-02
 ---
 ## Synthesis

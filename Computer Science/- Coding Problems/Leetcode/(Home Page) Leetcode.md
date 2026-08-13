@@ -7,7 +7,7 @@ tags:
   - type/website
 Reviewed: false
 parent:
-  - "[[(T) Relevant Learning]]"
+  - "[[(T) Interview Prep]]"
 ---
 - Source
 

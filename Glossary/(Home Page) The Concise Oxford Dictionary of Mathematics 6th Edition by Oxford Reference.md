@@ -2954,8 +2954,9 @@ Year: 2021-09-01
 	1740. [[normalizer]]
 	1741. normal mode
 	1742. normal number
-	1743. normal operator
+	1743. [[normal operator]]
 	1744. normal reaction
+		1. See CONTACT FORCE.
 	1745. normal vector(to a plane)
 	1746. normal vector(to a curve)
 	1747. normed vector space
@@ -2966,7 +2967,7 @@ Year: 2021-09-01
 	1751. not or
 	1752. nought
 	1753. nowhere-differentiable function
-	1754. nowhere dense
+	1754. [[nowhere dense]]
 	1755. [[NP problem]]
 	1756. NRICH
 	1757. nth-order partial derivative
@@ -2978,8 +2979,10 @@ Year: 2021-09-01
 		1. See hypothesis testing
 	1762. [[nullity]]
 	1763. null matrix
+		1. A synonym for ZERO MATRIX.
 	1764. null measure
-	1765. null sequence
+		1. A synonym for NULL SET (measure theory).
+	1765. [[null sequence]]
 	1766. null set
 	1767. null set
 	1768. null space

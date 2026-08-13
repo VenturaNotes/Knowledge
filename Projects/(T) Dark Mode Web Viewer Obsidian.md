@@ -6,8 +6,6 @@ reminders:
     description: ""
     relatedTo: scheduled
     offset: -PT0H
-tags:
-  - task
 parent:
   - "[[(T) Optimize]]"
 completedDate: 2026-05-09

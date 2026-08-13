@@ -127,28 +127,6 @@ module.exports = async (params) => {
     let yamlHeader = archiveLines.slice(0, insertStartIndex);
     let body = archiveLines.slice(insertStartIndex).filter(l => l.trim() !== "");
 
-    // --- FRONTMATTER LOGIC START ---
-    if (yamlHeader.length === 0) {
-        // Create new frontmatter if none exists
-        yamlHeader = ['---', 'tags:', '  - task', '---', ''];
-    } else {
-        // Check if the 'task' tag already exists in the frontmatter
-        const headerString = yamlHeader.join('\n');
-        const hasTaskTag = /tags:.*?\btask\b/s.test(headerString) || /^\s*-\s+task\b/m.test(headerString);
-        
-        if (!hasTaskTag) {
-            const tagsIndex = yamlHeader.findIndex(l => l.trim().startsWith('tags:'));
-            if (tagsIndex !== -1) {
-                // Add to existing tags section
-                yamlHeader.splice(tagsIndex + 1, 0, '  - task');
-            } else {
-                // Add tags section before the closing '---'
-                yamlHeader.splice(yamlHeader.length - 1, 0, 'tags:', '  - task');
-            }
-        }
-    }
-    // --- FRONTMATTER LOGIC END ---
-
     // 1. Ensure Root Note Header (# Title) exists
     let h1Index = body.findIndex(l => l.trim() === `# ${sourceTitle}`);
     if (h1Index === -1) {
