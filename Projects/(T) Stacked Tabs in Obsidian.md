@@ -1,7 +1,6 @@
 ---
 status: done
 tags:
-  - task
   - personal
 completedDate: 2025-11-23
 ---

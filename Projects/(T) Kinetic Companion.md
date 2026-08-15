@@ -1,7 +1,5 @@
 ---
 status: open
-tags:
-  - task
 ---
 - To achieve this, we can introduce Auto-File Patching to the Kinetic Companion plugin.
 	- We can make this completely toggleable. You can trigger it automatically on stream completion, or manually via an Obsidian command so your workspace remains protected from accidental overwrites.

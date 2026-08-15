@@ -79,14 +79,24 @@ function parseWorkout(content) {
       }
       if (isChecked) count = 0;
 
-      let title = body;
+      let bodyToParse = body;
+      let repsPerSet = 3;
+      
+      // Extract ratio tag FIRST so its inner colon doesn't interfere with title/details colon
+      const ratioMatch = bodyToParse.match(/\[([\d.]+):1\]/);
+      if (ratioMatch) {
+        repsPerSet = parseFloat(ratioMatch[1]) || 3;
+        bodyToParse = bodyToParse.replace(ratioMatch[0], "").trim();
+      }
+
+      let title = bodyToParse;
       let details1 = "";
       let details2 = "";
       
-      const colonIndex = body.indexOf(":");
+      const colonIndex = bodyToParse.indexOf(":");
       if (colonIndex !== -1) {
-        title = body.slice(0, colonIndex).trim();
-        const rawDetails = body.slice(colonIndex + 1).trim();
+        title = bodyToParse.slice(0, colonIndex).trim();
+        const rawDetails = bodyToParse.slice(colonIndex + 1).trim();
         
         // Split by hyphen for the two input fields
         const dashIndex = rawDetails.indexOf("-");
@@ -96,13 +106,6 @@ function parseWorkout(content) {
         } else {
           details1 = rawDetails;
         }
-      }
-
-      let repsPerSet = 3;
-      const ratioMatch = title.match(/\[([\d.]+):1\]/);
-      if (ratioMatch) {
-        repsPerSet = parseFloat(ratioMatch[1]) || 3;
-        title = title.replace(ratioMatch[0], "").trim();
       }
 
       const notes = [];
@@ -132,7 +135,7 @@ function parseWorkout(content) {
         repsPerSet,
         hasRepTag,
         isExpanded: false,
-        justUndone: false // Tracks if item was just restored for animation
+        justUndone: false
       });
     }
   }
@@ -145,11 +148,10 @@ function serializeItem(item) {
   let countStr = "";
 
   if (item.checked) {
-    if (item.baseCount > 1) countStr = `(x${item.baseCount}) `;
+    if (item.baseCount > 1) countStr = `(${item.baseCount}/${item.baseCount}) `;
   } else {
     if (item.baseCount > 1) {
-      if (item.count === item.baseCount) countStr = `(x${item.baseCount}) `;
-      else countStr = `(${item.count}/${item.baseCount}) `;
+      countStr = `(${item.count}/${item.baseCount}) `;
     } else {
       if (item.count > 1) countStr = `(${item.count}) `;
     }
@@ -249,8 +251,18 @@ const CSS = `
 
 /* Details row for side-by-side inputs */
 .gt-details-row { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; align-items: center !important; gap: 8px !important; width: 100% !important; box-sizing: border-box !important; }
-.gt-details-input { flex: 1 1 0% !important; width: 0 !important; min-width: 0 !important; box-sizing: border-box !important; background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 6px; padding: 8px 12px; font-size: 0.92rem; color: var(--text-normal); font-family: var(--font-monospace); text-align: center; }
+.gt-details-input { flex: 1 1 0% !important; width: 0 !important; min-width: 0 !important; box-sizing: border-box !important; background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 6px; padding: 8px 12px; font-size: 0.92rem; color: var(--text-normal); font-family: var(--font-monospace); text-align: center; transition: border-color 0.15s ease, background 0.15s ease; }
 .gt-details-input:focus { border-color: var(--interactive-accent); outline: none; }
+
+/* Snappy 0.6s Blue Flash indicator when input is saved to Markdown */
+@keyframes gt-saved-pulse-blue {
+  0% { border-color: #3b82f6 !important; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3) !important; background: rgba(59, 130, 246, 0.12) !important; }
+  60% { border-color: #3b82f6 !important; box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15) !important; background: rgba(59, 130, 246, 0.05) !important; }
+  100% { border-color: var(--background-modifier-border) !important; box-shadow: none !important; background: var(--background-primary) !important; }
+}
+.gt-input-saved-blue {
+  animation: gt-saved-pulse-blue 0.3s ease-out !important;
+}
 
 /* Expanded Rep Tracking UI */
 .gt-rep-row { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px; }
@@ -273,7 +285,7 @@ const CSS = `
 `;
 
 function injectStyles() {
-  const ID = "gt-styles-v25";
+  const ID = "gt-styles-v35";
   if (!document.getElementById(ID)) {
     const s = document.createElement("style");
     s.id = ID;
@@ -594,7 +606,7 @@ async function startGymSession(app, file, leaf) {
       }
     }
     
-    sessionEarnedSets = 0; 
+    // Kept sessionEarnedSets accumulating across resets as requested
     undoStack = []; 
     
     await saveWorkoutFile(app, file, lines, items);
@@ -739,14 +751,27 @@ async function startGymSession(app, file, leaf) {
       input2.value = item.details2;
       input2.placeholder = "Weight / Reps";
 
-      const updateDetails = async () => {
+      const updateDetails = async (inputEl) => {
         item.details1 = input1.value.trim();
         item.details2 = input2.value.trim();
         await saveWorkoutFile(app, file, lines, items);
+
+        // Flash snappy blue save animation (0.6s) on the specific input element that was modified
+        if (inputEl) {
+          inputEl.classList.remove("gt-input-saved-blue");
+          void inputEl.offsetWidth; // Force reflow so animation re-triggers if edited repeatedly
+          
+          inputEl.classList.add("gt-input-saved-blue");
+
+          clearTimeout(inputEl._saveTimer);
+          inputEl._saveTimer = setTimeout(() => {
+            inputEl.classList.remove("gt-input-saved-blue");
+          }, 300);
+        }
       };
 
-      input1.onchange = updateDetails;
-      input2.onchange = updateDetails;
+      input1.onchange = (e) => updateDetails(e.target);
+      input2.onchange = (e) => updateDetails(e.target);
 
       // ── Rep Tracker Row ──────────
       const repRow1 = card.appendChild(document.createElement("div"));

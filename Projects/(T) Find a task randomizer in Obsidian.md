@@ -1,7 +1,6 @@
 ---
 status: done
 tags:
-  - task
   - project
 completedDate: 2025-12-04
 ---

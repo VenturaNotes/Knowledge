@@ -6,8 +6,6 @@ reminders:
     description: ""
     relatedTo: scheduled
     offset: -PT0H
-tags:
-  - task
 parent:
   - "[[(T) Software Engineer Interview Prep DSA]]"
 aliases:
