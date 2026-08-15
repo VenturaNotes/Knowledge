@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Mirage Editor</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #1e1e1e;
+      color: #dcddde;
+      font-family: -apple-system, "Segoe UI", sans-serif;
+      overflow: hidden;
+    }
+    #app {
+      display: flex;
+      height: 100%;
+    }
+    #sidebar {
+      width: 260px;
+      flex-shrink: 0;
+      background: #171717;
+      border-right: 1px solid #2a2a2a;
+      overflow-y: auto;
+      padding: 8px;
+    }
+    .file-tree-item {
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+    .file-tree-item:hover {
+      background: #2a2a2a;
+    }
+    #sidebar-header {
+      padding: 4px 4px 8px 4px;
+      border-bottom: 1px solid #2a2a2a;
+      margin-bottom: 8px;
+    }
+    #open-vault-btn {
+      width: 100%;
+      padding: 6px 8px;
+      background: #2a2a2a;
+      color: #dcddde;
+      border: 1px solid #3a3a3a;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    #open-vault-btn:hover {
+      background: #333;
+    }
+    #empty-state {
+      padding: 12px 8px;
+      font-size: 12px;
+      color: #888;
+      line-height: 1.5;
+    }
+    #workspace-root {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+    .workspace-leaf {
+      flex: 1;
+      min-width: 0;
+      border-right: 1px solid #2a2a2a;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .workspace-leaf.active {
+      outline: 1px solid #3a5a99;
+      outline-offset: -1px;
+    }
+    .cm-editor {
+      height: 100%;
+      font-size: 14px;
+    }
+    .cm-scroller {
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div id="sidebar">
+      <div id="sidebar-header">
+        <button id="open-vault-btn">Open Vault…</button>
+      </div>
+      <div id="file-tree"></div>
+    </div>
+    <div id="workspace-root"></div>
+  </div>
+  <script src="../../dist/renderer.bundle.js"></script>
+</body>
+</html>

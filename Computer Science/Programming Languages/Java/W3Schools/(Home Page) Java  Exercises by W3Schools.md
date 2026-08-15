@@ -7,7 +7,6 @@ reminders:
     relatedTo: scheduled
     offset: -PT0H
 tags:
-  - task
   - type/website
   - status/complete
 Source:

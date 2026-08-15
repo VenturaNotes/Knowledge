@@ -6,8 +6,6 @@ reminders:
     description: ""
     relatedTo: scheduled
     offset: -PT0H
-tags:
-  - task
 completedDate: 2026-02-03
 aliases:
   - Zotero HTML Image Zoom

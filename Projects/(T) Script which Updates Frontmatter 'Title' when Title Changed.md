@@ -6,8 +6,6 @@ reminders:
     description: ""
     relatedTo: scheduled
     offset: -PT0H
-tags:
-  - task
 parent:
   - "[[(T) Create Task Priority within Document]]"
 completedDate: 2026-04-30

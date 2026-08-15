@@ -7,10 +7,11 @@ tags:
   - type/website
 Reviewed: false
 parent:
+  - "[[(T) Applying to Jobs]]"
   - "[[(T) Interview Prep]]"
+Status: open
 ---
 - Source
-
 	- [Python Easy Array Not Solved Problems](https://leetcode.com/problem-list/vtvjjiog/)
 	- [Solutions](https://walkccc.me/LeetCode/topics/special-topics/simulation/)
 - Tips

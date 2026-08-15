@@ -6,8 +6,6 @@ reminders:
     description: ""
     relatedTo: scheduled
     offset: -PT0H
-tags:
-  - task
 aliases:
   - VaporNote
 parent:

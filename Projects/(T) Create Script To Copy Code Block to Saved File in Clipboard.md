@@ -6,8 +6,6 @@ reminders:
     description: ""
     relatedTo: scheduled
     offset: -PT0H
-tags:
-  - task
 completedDate: 2026-05-28
 ---
 ## Potential Problems

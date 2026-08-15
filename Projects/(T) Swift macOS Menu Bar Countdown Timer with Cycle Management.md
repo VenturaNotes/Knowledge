@@ -1,7 +1,6 @@
 ---
 status: done
 tags:
-  - task
   - personal
 parent:
   - "[[(T) Optimize]]"

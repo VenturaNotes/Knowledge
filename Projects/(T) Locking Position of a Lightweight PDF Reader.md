@@ -7,7 +7,6 @@ reminders:
     relatedTo: scheduled
     offset: -PT0H
 tags:
-  - task
   - project
   - personal
 completedDate: 2026-03-26

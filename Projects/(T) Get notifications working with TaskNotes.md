@@ -1,8 +1,6 @@
 ---
 status: done
 scheduled: 2025-12-27
-tags:
-  - task
 completedDate: 2025-12-28
 googleCalendarEventId: d0mvk2m98pm0cssnj220mpceo0
 ---
