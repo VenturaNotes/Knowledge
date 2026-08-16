@@ -11,7 +11,6 @@ export interface FileMetadata {
   tags: Set<string>;
   headings: HeadingMeta[];
   frontmatter: Record<string, string>;
-  rawContent: string;
 }
 
 export class MetadataCache {
@@ -24,28 +23,28 @@ export class MetadataCache {
     this.vault = vault;
   }
 
-  /**
-   * Non-blocking background indexer. Processes files in small time-sliced batches.
-   */
+  // 🟢 Non-blocking, ultra-low memory indexer
   public async buildIndexAsync(): Promise<void> {
     if (this.isIndexing) return;
     this.isIndexing = true;
     this.fileIndex.clear();
     this.resolvedBacklinks.clear();
 
-    const files = this.vault.listFiles();
-    const batchSize = 30;
+    // Only lists .md files
+    const files = this.vault.listFiles(this.vault.path || '', '', ['.md']);
+    const batchSize = 50;
 
     for (let i = 0; i < files.length; i += batchSize) {
       const batch = files.slice(i, i + batchSize);
       for (const file of batch) {
         try {
-          this.updateFile(file, this.vault.readFile(file));
+          const content = this.vault.readFile(file);
+          this.updateFile(file, content);
         } catch {
           // Skip unreadable files
         }
       }
-      // Yield to the UI thread so clicks, tabs, and typing are never blocked
+      // Yield to the event loop so Garbage Collector frees parsed string memory
       await new Promise((resolve) => setTimeout(resolve, 0));
     }
 
@@ -62,12 +61,12 @@ export class MetadataCache {
 
     const { links, tags, headings, frontmatter } = this._parse(content);
 
+    // 🟢 We do NOT store `rawContent` string in memory for 70k files
     this.fileIndex.set(filePath, {
       links,
       tags,
       headings,
       frontmatter,
-      rawContent: content,
     });
 
     for (const target of links) {
@@ -95,25 +94,27 @@ export class MetadataCache {
     return Array.from(this.resolvedBacklinks.get(normalized) || []);
   }
 
+  // On-demand disk search without storing 70,000 files in memory
   public getUnlinkedMentions(filePath: string): string[] {
     const baseName = filePath.replace(/\.md$/, '').split('/').pop();
-    if (!baseName || baseName.length < 2) return [];
+    if (!baseName || baseName.length < 2 || !this.vault.isOpen()) return [];
 
     const mentions: string[] = [];
-    const mentionRegex = new RegExp(`(?<!\\[\\[)\\b${this._escapeRegExp(baseName)}\\b(?!\\]\\])`, 'gi');
+    const mentionRegex = new RegExp(`(?<!\\[\\[)\\b${this._escapeRegExp(baseName)}\\b(?!\\]\\])`, 'i');
 
-    for (const [otherPath, meta] of this.fileIndex.entries()) {
+    for (const otherPath of this.fileIndex.keys()) {
       if (otherPath === filePath) continue;
-      if (meta.links.has(baseName) || meta.links.has(`${baseName}.md`)) continue;
-
-      if (mentionRegex.test(meta.rawContent)) {
-        mentions.push(otherPath);
-      }
+      try {
+        const content = this.vault.readFile(otherPath);
+        if (mentionRegex.test(content)) {
+          mentions.push(otherPath);
+        }
+      } catch {}
     }
     return mentions;
   }
 
-  private _parse(content: string): Omit<FileMetadata, 'rawContent'> {
+  private _parse(content: string): FileMetadata {
     const links = new Set<string>();
     const tags = new Set<string>();
     const headings: HeadingMeta[] = [];

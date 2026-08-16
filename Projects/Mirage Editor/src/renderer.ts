@@ -8,7 +8,9 @@ import { EventBus } from './core/events/eventBus';
 import { CommandRegistry } from './core/commands/commands';
 import { MarkdownEditor } from './editor/editor';
 import { QuickSwitcherModal } from './ui/modals/quickSwitcher';
+import { SettingsModal } from './ui/modals/settingsModal';
 import { FileTreeComponent } from './ui/sidebar/fileTree';
+import { ScriptManager } from './core/scripts/scriptManager';
 import { loadPlugins } from './core/plugins/pluginLoader';
 import { loadConfig, saveConfig, pickVaultFolder } from './core/config';
 import { AppContext } from './types';
@@ -19,7 +21,11 @@ const events = new EventBus();
 const commands = new CommandRegistry();
 let workspace: Workspace;
 let fileTree: FileTreeComponent;
+let scriptManager: ScriptManager;
 let app: AppContext;
+let fileSwitcher: QuickSwitcherModal;
+let commandPalette: QuickSwitcherModal;
+let settingsModal: SettingsModal;
 
 let unwatchVault: (() => void) | null = null;
 
@@ -39,21 +45,33 @@ function updateVaultHeaderUI(): void {
   }
 }
 
+function createEditor(containerEl: HTMLElement, filePath: string, tabId: string): MarkdownEditor {
+  return new MarkdownEditor(containerEl, {
+    initialContent: vault.readFile(filePath),
+    vaultPath: vault.path,
+    onChange: (newContent) => {
+      workspace.syncTabsForFile(filePath, newContent, tabId);
+    },
+    onSave: (newContent) => {
+      vault.writeFile(filePath, newContent);
+      cache.updateFile(filePath, newContent);
+      events.emit('file-modified', filePath);
+    },
+  });
+}
+
 function openFile(relPath: string): void {
   const leaf = workspace.getOrCreateActiveLeaf();
-  leaf.openFileTab(relPath, (containerEl, filePath, tabId) => {
-    return new MarkdownEditor(containerEl, {
-      initialContent: vault.readFile(filePath),
-      vaultPath: vault.path,
-      onChange: (newContent) => {
-        workspace.syncTabsForFile(filePath, newContent, tabId);
-      },
-      onSave: (newContent) => {
-        vault.writeFile(filePath, newContent);
-        cache.updateFile(filePath, newContent);
-        events.emit('file-modified', filePath);
-      },
-    });
+  leaf.openFileTab(relPath, createEditor);
+}
+
+function saveWorkspaceLayout(): void {
+  if (!vault.isOpen()) return;
+  const layout = workspace.serializeState();
+  const currentConfig = loadConfig();
+  saveConfig({
+    ...currentConfig,
+    workspaceState: layout,
   });
 }
 
@@ -64,20 +82,34 @@ function openVaultFolder(newPath: string): void {
   }
 
   vault.open(newPath);
-  saveConfig({ vaultPath: newPath });
+  saveConfig({ ...loadConfig(), vaultPath: newPath });
 
   updateVaultHeaderUI();
   fileTree.render();
 
   cache.buildIndexAsync();
 
+  // 🟢 Restore previous open tabs or open empty leaf
+  const config = loadConfig();
+  if (config.workspaceState && config.workspaceState.leaves.length > 0) {
+    workspace.restoreState(config.workspaceState, createEditor);
+  }
+
+  // Load user scripts
+  scriptManager.init();
+
   unwatchVault = vault.onChange(({ eventType, path: changedPath }) => {
     if (eventType === 'add' || eventType === 'unlink') {
       fileTree.render();
     }
+
+    if (changedPath.endsWith('.js')) {
+      scriptManager.reloadScripts();
+    }
+
     if (eventType === 'unlink') {
       cache.deleteFile(changedPath);
-    } else {
+    } else if (changedPath.endsWith('.md')) {
       cache.updateFile(changedPath, vault.readFile(changedPath));
     }
     events.emit('cache-updated', changedPath);
@@ -93,8 +125,30 @@ async function pickAndOpenVault(): Promise<void> {
   }
 }
 
+function dispatchChord(chord: string): boolean {
+  const isMeta = chord.includes('meta') || chord.includes('ctrl');
+  const key = chord.split('+').pop() || '';
+
+  if (isMeta && key === 'w' && !chord.includes('alt') && !chord.includes('shift')) {
+    const activeLeaf = workspace.activeLeaf;
+    if (activeLeaf && activeLeaf.activeTab) {
+      activeLeaf.closeTab(activeLeaf.activeTab);
+      return true;
+    }
+  }
+
+  const cmd = commands.getCommandByChord(chord);
+  if (cmd) {
+    cmd.callback();
+    return true;
+  }
+  return false;
+}
+
+// 🟢 Save tabs and flush editor saves on quit
 window.addEventListener('beforeunload', () => {
   workspace?.flushAllLeaves();
+  saveWorkspaceLayout();
 });
 
 function init(): void {
@@ -109,130 +163,75 @@ function init(): void {
   workspace = new Workspace(workspaceRoot);
   workspace.fileOpener = openFile;
   workspace.onToggleSidebar = toggleSidebar;
+  workspace.onLayoutChange = saveWorkspaceLayout;
 
   fileTree = new FileTreeComponent(fileTreeContainer, vault, openFile);
   app = { vault, cache, workspace, events, commands };
   (window as any).app = app;
+
+  scriptManager = new ScriptManager(app);
 
   const openVaultBtn = document.getElementById('open-vault-btn');
   if (openVaultBtn) {
     openVaultBtn.onclick = pickAndOpenVault;
   }
 
-  const fileSwitcher = new QuickSwitcherModal({
+  fileSwitcher = new QuickSwitcherModal({
     app,
     mode: 'files',
     placeholder: 'Open file by name...',
     onSelect: (item) => openFile(item.id),
   });
 
-  const commandPalette = new QuickSwitcherModal({
+  commandPalette = new QuickSwitcherModal({
     app,
     mode: 'commands',
     placeholder: 'Type a command...',
     onSelect: (item) => commands.execute(item.id),
   });
 
-  window.addEventListener('keydown', (e: KeyboardEvent) => {
-    const isMeta = e.ctrlKey || e.metaKey;
-    const isAlt = e.altKey;
-    const isShift = e.shiftKey;
-    const key = e.key.toLowerCase();
-
-    // 1. DevTools: Cmd + Option + I
-    if (isMeta && isAlt && key === 'i') {
-      e.preventDefault();
-      ipcRenderer.invoke('app:toggleDevTools');
-      return;
-    }
-
-    // 2. Toggle Sidebar: Cmd + \ or Cmd + B
-    if (isMeta && (e.key === '\\' || key === 'b')) {
-      e.preventDefault();
-      toggleSidebar();
-      return;
-    }
-
-    // 3. Re-open Closed Tab: Cmd + Shift + T
-    if (isMeta && isShift && key === 't') {
-      e.preventDefault();
-      workspace.reopenLastClosedTab();
-      return;
-    }
-
-    // 4. Tab Navigation: Cmd + Option + Left Arrow / Right Arrow
-    if (isMeta && isAlt && e.key === 'ArrowLeft') {
-      e.preventDefault();
-      workspace.activeLeaf?.previousTab();
-      return;
-    }
-    if (isMeta && isAlt && e.key === 'ArrowRight') {
-      e.preventDefault();
-      workspace.activeLeaf?.nextTab();
-      return;
-    }
-
-    // 5. Quick Switcher: Cmd/Ctrl + O
-    if (isMeta && !isAlt && !isShift && key === 'o') {
-      e.preventDefault();
-      fileSwitcher.open();
-      return;
-    }
-
-    // 6. Command Palette: Cmd/Ctrl + P
-    if (isMeta && !isAlt && !isShift && key === 'p') {
-      e.preventDefault();
-      commandPalette.open();
-      return;
-    }
-
-    // 7. Close Active Tab: Cmd/Ctrl + W
-    if (isMeta && !isAlt && !isShift && key === 'w') {
-      e.preventDefault();
-      const activeLeaf = workspace.activeLeaf;
-      if (activeLeaf && activeLeaf.activeTab) {
-        activeLeaf.closeTab(activeLeaf.activeTab);
-      }
-      return;
-    }
+  commands.register({
+    id: 'open-settings',
+    name: 'Open Settings',
+    defaultHotkey: 'Cmd+,',
+    callback: () => settingsModal.open(),
   });
 
   commands.register({
     id: 'toggle-sidebar',
     name: 'Toggle Sidebar',
-    hotkey: 'Cmd+\\',
+    defaultHotkey: 'Cmd+\\',
     callback: toggleSidebar,
   });
 
   commands.register({
     id: 'toggle-devtools',
     name: 'Toggle Developer Tools',
-    hotkey: 'Cmd+Opt+I',
+    defaultHotkey: 'Cmd+Opt+I',
     callback: () => ipcRenderer.invoke('app:toggleDevTools'),
   });
 
   commands.register({
     id: 'reopen-closed-tab',
     name: 'Reopen Closed Tab',
-    hotkey: 'Cmd+Shift+T',
+    defaultHotkey: 'Cmd+Shift+T',
     callback: () => workspace.reopenLastClosedTab(),
   });
 
   commands.register({
     id: 'previous-tab',
     name: 'Navigate to Previous Tab',
-    hotkey: 'Cmd+Opt+Left',
+    defaultHotkey: 'Cmd+Opt+Left',
     callback: () => workspace.activeLeaf?.previousTab(),
   });
 
   commands.register({
     id: 'next-tab',
     name: 'Navigate to Next Tab',
-    hotkey: 'Cmd+Opt+Right',
+    defaultHotkey: 'Cmd+Opt+Right',
     callback: () => workspace.activeLeaf?.nextTab(),
   });
 
-  // 🟢 Opens Google.com by default
   commands.register({
     id: 'open-web-browser',
     name: 'Open In-App Web Browser Tab',
@@ -251,18 +250,65 @@ function init(): void {
   commands.register({
     id: 'quick-switcher',
     name: 'Quick Switcher: Find File',
-    hotkey: 'Cmd+O',
+    defaultHotkey: 'Cmd+O',
     callback: () => fileSwitcher.open(),
   });
 
   commands.register({
     id: 'command-palette',
     name: 'Command Palette: Run Command',
-    hotkey: 'Cmd+P',
+    defaultHotkey: 'Cmd+P',
     callback: () => commandPalette.open(),
   });
 
   const config = loadConfig();
+  if (config.customHotkeys) {
+    Object.entries(config.customHotkeys).forEach(([id, chord]) => {
+      commands.setHotkey(id, chord);
+    });
+  }
+
+  ipcRenderer.invoke('shortcuts:setAppChords', commands.getAllActiveChords());
+  if (config.domainRules) {
+    ipcRenderer.invoke('shortcuts:setRules', config.domainRules);
+  }
+
+  settingsModal = new SettingsModal(app);
+  settingsModal.onReloadScripts = async () => {
+    await scriptManager.reloadScripts();
+  };
+
+  window.addEventListener('keydown', (e: KeyboardEvent) => {
+    const parts: string[] = [];
+    if (e.metaKey) parts.push('meta');
+    if (e.ctrlKey) parts.push('ctrl');
+    if (e.altKey) parts.push('alt');
+    if (e.shiftKey) parts.push('shift');
+
+    if (['Meta', 'Control', 'Alt', 'Shift'].includes(e.key)) return;
+
+    let key = e.key.toLowerCase();
+    if (key === 'space' || key === ' ') key = 'space';
+    if (e.key === 'ArrowLeft') key = 'arrowleft';
+    if (e.key === 'ArrowRight') key = 'arrowright';
+
+    const chord = parts.sort().join('+') + '+' + key;
+    if (dispatchChord(chord)) {
+      e.preventDefault();
+    }
+  });
+
+  ipcRenderer.on('app:webview-focused', (_event, wcId: number) => {
+    workspace.setActiveLeafByWebContentsId(wcId);
+  });
+
+  ipcRenderer.on('app:forward-shortcut', (_event, data: { sourceWebContentsId?: number; chord: string }) => {
+    if (data.sourceWebContentsId) {
+      workspace.setActiveLeafByWebContentsId(data.sourceWebContentsId);
+    }
+    dispatchChord(data.chord);
+  });
+
   if (config.vaultPath && fs.existsSync(config.vaultPath)) {
     openVaultFolder(config.vaultPath);
   } else {

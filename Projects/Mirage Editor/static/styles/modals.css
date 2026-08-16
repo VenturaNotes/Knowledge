@@ -1,22 +1,24 @@
+/* Base Modal Backdrop */
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.65);
-  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(4px);
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 100px;
+  padding-top: 60px;
   z-index: 9999;
 }
 
+/* 1. Quick Switcher & Command Palette Modal */
 .modal-box {
-  width: 600px;
+  width: 580px;
   max-height: 440px;
-  background: #222222;
+  background: #1e1e1e;
   border-radius: 8px;
-  border: 1px solid #383838;
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+  border: 1px solid #2e2e2e;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -25,16 +27,16 @@
 .modal-input {
   width: 100%;
   padding: 14px 18px;
-  background: transparent;
+  background: #171717;
   border: none;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #2a2a2a;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 15px;
   outline: none;
 }
 
 .modal-input::placeholder {
-  color: #666;
+  color: #555555;
 }
 
 .modal-results {
@@ -51,17 +53,17 @@
   align-items: center;
   cursor: pointer;
   font-size: 13px;
+  color: #cccccc;
 }
 
 .modal-result-item span {
-  color: #ddd;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .modal-result-item small {
-  color: #777;
+  color: #666666;
   font-size: 11px;
   margin-left: 8px;
 }
@@ -69,16 +71,517 @@
 .modal-result-item.selected,
 .modal-result-item:hover {
   background: var(--accent-color);
-}
-
-.modal-result-item.selected span,
-.modal-result-item.selected small {
   color: #ffffff;
 }
 
+.modal-result-item.selected small,
+.modal-result-item:hover small {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 .modal-empty {
-  padding: 24px;
-  color: #777;
+  padding: 28px;
+  color: #666666;
   text-align: center;
   font-size: 13px;
+}
+
+/* 2. Settings Modal */
+.settings-modal-box {
+  width: 820px !important;
+  max-width: 90vw;
+  height: 580px !important;
+  max-height: 85vh;
+  background: #181818 !important;
+  border: 1px solid #2c2c2c !important;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8) !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  overflow: hidden;
+}
+
+.settings-sidebar {
+  width: 210px;
+  background: #121212;
+  border-right: 1px solid #242424;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  user-select: none;
+}
+
+.settings-nav-title {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: 700;
+  padding: 6px 10px 10px 10px;
+  letter-spacing: 0.8px;
+}
+
+.settings-nav-item {
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #8f8f8f;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.12s ease;
+}
+
+.settings-nav-item:hover {
+  background: #1c1c1c;
+  color: #dedede;
+}
+
+.settings-nav-item.active {
+  background: #242424;
+  color: #ffffff;
+  font-weight: 500;
+  border-left: 2px solid var(--accent-color);
+}
+
+.nav-icon {
+  font-size: 13px;
+}
+
+.settings-content-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #181818;
+  overflow: hidden;
+}
+
+.settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-bottom: 1px solid #242424;
+  background: #181818;
+}
+
+.settings-header h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.modal-close-btn {
+  background: transparent;
+  border: none;
+  color: #666666;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.1s ease;
+}
+
+.modal-close-btn:hover {
+  color: #ffffff;
+  background: #282828;
+}
+
+.settings-body {
+  flex: 1;
+  padding: 20px 24px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-body::-webkit-scrollbar,
+.modal-results::-webkit-scrollbar {
+  width: 6px;
+}
+
+.settings-body::-webkit-scrollbar-thumb,
+.modal-results::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 3px;
+}
+
+.settings-body::-webkit-scrollbar-thumb:hover,
+.modal-results::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
+.settings-section-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.settings-section-heading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  border-bottom: 1px solid #262626;
+  padding-bottom: 4px;
+}
+
+.settings-intro {
+  font-size: 12px;
+  color: #7d7d7d;
+  line-height: 1.5;
+}
+
+.settings-intro code {
+  background: #111111;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #b0b0b0;
+  font-family: var(--font-mono);
+}
+
+.add-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.settings-input,
+.settings-search-input {
+  background: #121212;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #ffffff;
+  font-size: 13px;
+  outline: none;
+  flex: 1;
+}
+
+.settings-input:focus,
+.settings-search-input:focus {
+  border-color: var(--accent-color);
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.list-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #1d1d1d;
+  border: 1px solid #282828;
+  border-radius: 6px;
+}
+
+.item-name {
+  font-size: 13px;
+  color: #dddddd;
+}
+
+.item-del-btn {
+  background: transparent;
+  border: none;
+  color: #777777;
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.item-del-btn:hover {
+  color: #ff6b6b;
+  background: #252525;
+}
+
+.text-muted {
+  color: #555555;
+}
+
+/* 3. Hotkeys Row & Keycaps */
+.hotkeys-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hotkey-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: #1d1d1d;
+  border: 1px solid #262626;
+  border-radius: 6px;
+}
+
+.hotkey-row:hover {
+  background: #212121;
+  border-color: #303030;
+}
+
+.hotkey-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1;
+}
+
+.hotkey-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: #eaeaea;
+}
+
+.hotkey-id {
+  font-size: 11px;
+  color: #555555;
+  font-family: var(--font-mono);
+}
+
+.hotkey-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.hotkey-pill-btn {
+  background: #141414 !important;
+  border: 1px solid #2e2e2e !important;
+  border-radius: 6px !important;
+  padding: 4px 8px !important;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 28px;
+  min-width: 80px;
+  justify-content: center;
+}
+
+.hotkey-pill-btn:hover {
+  background: #222222 !important;
+  border-color: #404040 !important;
+}
+
+.hotkey-pill-btn.recording {
+  background: rgba(58, 90, 153, 0.25) !important;
+  border-color: var(--accent-color) !important;
+  animation: pulse-border 1s infinite alternate;
+}
+
+.recording-badge {
+  font-size: 11px;
+  color: #72a3ff;
+  font-weight: 500;
+}
+
+.unassigned-badge {
+  font-size: 11px;
+  color: #555555;
+  font-style: italic;
+}
+
+.dark-keycap {
+  background: #262626;
+  border: 1px solid #383838;
+  border-bottom: 2px solid #202020;
+  border-radius: 4px;
+  color: #e0e0e0;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.keycap-plus {
+  color: #555555;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0 1px;
+}
+
+.hotkey-action-btn {
+  background: transparent !important;
+  border: none !important;
+  color: #555555;
+  cursor: pointer;
+  padding: 4px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.hotkey-action-btn.clear:hover {
+  color: #ff6b6b;
+  background: #262626 !important;
+}
+
+.hotkey-action-btn.reset:hover {
+  color: #ffffff;
+  background: #262626 !important;
+}
+
+.conflict-banner {
+  background: rgba(255, 68, 68, 0.12);
+  border: 1px solid rgba(255, 68, 68, 0.35);
+  color: #ff8585;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.warning-icon {
+  font-size: 14px;
+}
+
+.settings-card {
+  background: #1d1d1d;
+  border: 1px solid #262626;
+  border-radius: 6px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.settings-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: #888888;
+}
+
+.settings-btn {
+  padding: 7px 14px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+
+.settings-btn.primary {
+  background: var(--accent-color);
+  color: #ffffff;
+}
+
+.settings-btn.primary:hover {
+  background: var(--accent-hover);
+}
+
+.rules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rule-card {
+  background: #1d1d1d;
+  border: 1px solid #262626;
+  border-radius: 6px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rule-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.rule-domain-input,
+.rule-chords-input {
+  background: #121212;
+  border: 1px solid #2c2c2c;
+  border-radius: 5px;
+  padding: 7px 12px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.rule-domain-input:focus,
+.rule-chords-input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+.rule-domain-input {
+  flex: 1;
+}
+
+.rule-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle-label {
+  font-size: 12px;
+  color: #888888;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.rule-delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.rule-delete-btn:hover {
+  opacity: 1;
+}
+
+.rule-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rule-label {
+  font-size: 11px;
+  color: #666666;
+}
+
+.rule-hint {
+  font-size: 10px;
+  color: #555555;
+}
+
+@keyframes pulse-border {
+  from {
+    border-color: var(--accent-color);
+  }
+  to {
+    border-color: #72a3ff;
+  }
 }

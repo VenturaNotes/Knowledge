@@ -17,6 +17,9 @@ export interface TreeItemEntry {
 
 export type VaultChangeCallback = (event: VaultChangeEvent) => void;
 
+// Folders to always ignore to prevent memory exhaustion
+const IGNORED_FOLDERS = new Set(['node_modules', '.git', '.trash', '.obsidian', '.mirage-editor', '.DS_Store']);
+
 export class Vault {
   public path: string | null;
   private _watcher: FSWatcher | null = null;
@@ -42,10 +45,13 @@ export class Vault {
     if (!this.path) return;
 
     this._watcher = chokidar.watch(this.path, {
-      ignored: /(^|[\/\\])\../,
+      ignored: [
+        /(^|[\/\\])\../, // ignore dotfiles (.git, .trash, etc.)
+        '**/node_modules/**',
+      ],
       persistent: true,
       ignoreInitial: true,
-      depth: 10,
+      depth: 8,
     });
 
     const notify = (eventType: VaultEventType, fullPath: string): void => {
@@ -65,49 +71,66 @@ export class Vault {
     this._watcher.on('unlink', (p) => notify('unlink', p));
   }
 
-  /**
-   * Fast shallow read of a single directory level (for instant on-demand UI expansion).
-   */
   public readDirectory(relDir: string = ''): TreeItemEntry[] {
     if (!this.path) return [];
     const targetDir = path.join(this.path, relDir);
     if (!fs.existsSync(targetDir)) return [];
 
-    const entries = fs.readdirSync(targetDir, { withFileTypes: true });
-    const items: TreeItemEntry[] = [];
+    try {
+      const entries = fs.readdirSync(targetDir, { withFileTypes: true });
+      const items: TreeItemEntry[] = [];
 
-    for (const entry of entries) {
-      if (entry.name.startsWith('.')) continue; // ignore hidden/dotfiles
+      for (const entry of entries) {
+        if (entry.name.startsWith('.') || IGNORED_FOLDERS.has(entry.name)) continue;
 
-      const itemRelPath = relDir ? `${relDir}/${entry.name}` : entry.name;
-      if (entry.isDirectory()) {
-        items.push({ name: entry.name, relPath: itemRelPath, isDirectory: true });
-      } else if (entry.name.endsWith('.md')) {
-        items.push({ name: entry.name, relPath: itemRelPath, isDirectory: false });
+        const itemRelPath = relDir ? `${relDir}/${entry.name}` : entry.name;
+        if (entry.isDirectory()) {
+          items.push({ name: entry.name, relPath: itemRelPath, isDirectory: true });
+        } else {
+          items.push({ name: entry.name, relPath: itemRelPath, isDirectory: false });
+        }
       }
-    }
 
-    // Sort folders first alphabetically, then files alphabetically
-    return items.sort((a, b) => {
-      if (a.isDirectory === b.isDirectory) return a.name.localeCompare(b.name);
-      return a.isDirectory ? -1 : 1;
-    });
+      return items.sort((a, b) => {
+        if (a.isDirectory === b.isDirectory) return a.name.localeCompare(b.name);
+        return a.isDirectory ? -1 : 1;
+      });
+    } catch {
+      return [];
+    }
   }
 
-  public listFiles(dir: string = this.path || '', relative: string = ''): string[] {
+  // 🟢 Strictly defaults to ['.md'] so binaries, PDFs, and node_modules are NEVER scanned into memory
+  public listFiles(
+    dir: string = this.path || '',
+    relative: string = '',
+    extensions: string[] = ['.md']
+  ): string[] {
     if (!this.isOpen() || !fs.existsSync(dir)) return [];
-    const entries = fs.readdirSync(dir, { withFileTypes: true });
     let files: string[] = [];
 
-    for (const entry of entries) {
-      if (entry.name.startsWith('.')) continue;
-      const relPath = path.join(relative, entry.name);
-      if (entry.isDirectory()) {
-        files = files.concat(this.listFiles(path.join(dir, entry.name), relPath));
-      } else if (entry.name.endsWith('.md')) {
-        files.push(relPath.split(path.sep).join('/'));
+    try {
+      const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+      for (const entry of entries) {
+        if (entry.name.startsWith('.') || IGNORED_FOLDERS.has(entry.name)) continue;
+
+        const relPath = relative ? `${relative}/${entry.name}` : entry.name;
+        const fullPath = path.join(dir, entry.name);
+
+        if (entry.isDirectory()) {
+          files = files.concat(this.listFiles(fullPath, relPath, extensions));
+        } else {
+          const normalizedRel = relPath.split(path.sep).join('/');
+          if (extensions.some((ext) => entry.name.toLowerCase().endsWith(ext.toLowerCase()))) {
+            files.push(normalizedRel);
+          }
+        }
       }
+    } catch {
+      return [];
     }
+
     return files;
   }
 

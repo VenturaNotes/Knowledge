@@ -20,7 +20,10 @@ export class FileTreeComponent {
       return;
     }
 
-    const rootItems = this.vault.readDirectory('');
+    const rootItems = this.vault.readDirectory('').filter(
+      (item) => item.isDirectory || item.name.endsWith('.md')
+    );
+
     if (rootItems.length === 0) {
       this.container.innerHTML = `<div id="empty-state">Vault is empty.</div>`;
       return;
@@ -36,7 +39,7 @@ export class FileTreeComponent {
     for (const entry of entries) {
       if (entry.isDirectory) {
         this._renderFolderNode(entry, parentEl, level);
-      } else {
+      } else if (entry.name.endsWith('.md')) {
         this._renderFileNode(entry, parentEl, level);
       }
     }
@@ -50,22 +53,18 @@ export class FileTreeComponent {
 
     const header = document.createElement('div');
     header.className = 'tree-item tree-folder';
-    header.style.paddingLeft = `${level * 14 + 8}px`;
+    header.style.paddingLeft = `${level * 14 + 6}px`;
 
+    // Toggle chevron only (no folder icon)
     const chevron = document.createElement('span');
     chevron.className = `tree-chevron ${isExpanded ? 'open' : ''}`;
     chevron.textContent = '▶';
-
-    const icon = document.createElement('span');
-    icon.className = 'tree-icon';
-    icon.textContent = isExpanded ? '📂' : '📁';
 
     const label = document.createElement('span');
     label.className = 'tree-label';
     label.textContent = entry.name;
 
     header.appendChild(chevron);
-    header.appendChild(icon);
     header.appendChild(label);
     folderContainer.appendChild(header);
 
@@ -79,22 +78,18 @@ export class FileTreeComponent {
       if (nextExpanded) {
         this.expandedFolders.add(entry.relPath);
         chevron.classList.add('open');
-        icon.textContent = '📂';
         childrenContainer.classList.remove('hidden');
 
-        // Lazy-load children on demand
         childrenContainer.innerHTML = '';
         const childEntries = this.vault.readDirectory(entry.relPath);
         this._renderEntries(childEntries, childrenContainer, level + 1);
       } else {
         this.expandedFolders.delete(entry.relPath);
         chevron.classList.remove('open');
-        icon.textContent = '📁';
         childrenContainer.classList.add('hidden');
       }
     };
 
-    // If previously expanded, populate its children
     if (isExpanded) {
       const childEntries = this.vault.readDirectory(entry.relPath);
       this._renderEntries(childEntries, childrenContainer, level + 1);
@@ -106,17 +101,13 @@ export class FileTreeComponent {
   private _renderFileNode(entry: TreeItemEntry, parentEl: HTMLElement, level: number): void {
     const fileEl = document.createElement('div');
     fileEl.className = 'tree-item tree-file';
-    fileEl.style.paddingLeft = `${level * 14 + 22}px`; // Align with folder labels
-
-    const icon = document.createElement('span');
-    icon.className = 'tree-icon file-icon';
-    icon.textContent = '📄';
+    // Indent to match folder text alignment cleanly
+    fileEl.style.paddingLeft = `${level * 14 + 20}px`;
 
     const label = document.createElement('span');
     label.className = 'tree-label';
     label.textContent = entry.name.replace(/\.md$/, '');
 
-    fileEl.appendChild(icon);
     fileEl.appendChild(label);
     fileEl.title = entry.relPath;
 

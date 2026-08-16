@@ -1,5 +1,6 @@
 import { EventBus } from '../../core/events/eventBus';
 import { MarkdownEditor } from '../../editor/editor';
+import { SavedWorkspaceState } from '../../core/config';
 
 let leafIdCounter = 0;
 let tabIdCounter = 0;
@@ -14,6 +15,7 @@ export interface WorkspaceTab {
   url?: string;
   editor?: MarkdownEditor;
   contentHolder: HTMLElement;
+  webContentsId?: number;
 }
 
 export interface ClosedTabRecord {
@@ -25,7 +27,6 @@ export interface ClosedTabRecord {
 
 let draggedTabInfo: { sourceLeafId: string; tabId: string } | null = null;
 
-// Smart Omnibar: formats input into a valid URL or a Google Search query
 function formatUrlOrSearch(input: string): string {
   const trimmed = input.trim();
   if (!trimmed) return 'https://www.google.com';
@@ -57,6 +58,10 @@ export class WorkspaceLeaf {
     this.workspace = workspace;
     this.containerEl = containerEl;
     this._buildDOM();
+
+    this.containerEl.addEventListener('mousedown', () => {
+      this.workspace.setActiveLeaf(this);
+    });
   }
 
   private _buildDOM(): void {
@@ -95,6 +100,7 @@ export class WorkspaceLeaf {
     this.tabs.push(tab);
     this.workspace.renderAllLeafTabBars();
     this.setActiveTab(tab);
+    this.workspace.onLayoutChange?.();
     return tab;
   }
 
@@ -153,6 +159,21 @@ export class WorkspaceLeaf {
       contentHolder: holder,
     };
 
+    const attachWebContentsId = () => {
+      try {
+        if (webview.getWebContentsId) {
+          tab.webContentsId = webview.getWebContentsId();
+        }
+      } catch {}
+    };
+
+    webview.addEventListener('dom-ready', attachWebContentsId);
+    webview.addEventListener('did-attach', attachWebContentsId);
+
+    webview.addEventListener('focus', () => {
+      this.workspace.setActiveLeaf(this);
+    });
+
     webview.addEventListener('page-title-updated', (e: any) => {
       tab.title = e.title || 'Browser';
       this._renderTabs();
@@ -161,11 +182,13 @@ export class WorkspaceLeaf {
     webview.addEventListener('did-navigate', (e: any) => {
       urlInput.value = e.url;
       tab.url = e.url;
+      this.workspace.onLayoutChange?.();
     });
 
     this.tabs.push(tab);
     this.workspace.renderAllLeafTabBars();
     this.setActiveTab(tab);
+    this.workspace.onLayoutChange?.();
     return tab;
   }
 
@@ -177,6 +200,7 @@ export class WorkspaceLeaf {
     this._renderTabs();
     this.workspace.setActiveLeaf(this);
     this.workspace.events.emit('active-tab-change', tab);
+    this.workspace.onLayoutChange?.();
   }
 
   public closeTab(tab: WorkspaceTab): void {
@@ -202,6 +226,7 @@ export class WorkspaceLeaf {
     if (this.tabs.length === 0) {
       this.workspace.closeLeaf(this);
     }
+    this.workspace.onLayoutChange?.();
   }
 
   public nextTab(): void {
@@ -221,7 +246,6 @@ export class WorkspaceLeaf {
   public _renderTabs(): void {
     this.tabBarEl.innerHTML = '';
 
-    // Sidebar Toggle Button on the first leaf tab bar
     if (this.workspace.leaves[0] === this) {
       const toggleBtn = document.createElement('button');
       toggleBtn.className = 'tab-bar-toggle-btn';
@@ -238,7 +262,7 @@ export class WorkspaceLeaf {
 
       const title = document.createElement('span');
       title.className = 'tab-title';
-      title.textContent = t.type === 'webview' ? `🌐 ${t.title}` : t.title;
+      title.textContent = t.title;
       title.onclick = () => this.setActiveTab(t);
 
       const closeBtn = document.createElement('span');
@@ -309,6 +333,7 @@ export class WorkspaceLeaf {
 
         this.workspace.renderAllLeafTabBars();
         this.setActiveTab(draggedTab);
+        this.workspace.onLayoutChange?.();
       };
 
       this.tabBarEl.appendChild(tabEl);
@@ -353,6 +378,7 @@ export class WorkspaceLeaf {
       if (sourceLeaf.tabs.length === 0) {
         this.workspace.closeLeaf(sourceLeaf);
       }
+      this.workspace.onLayoutChange?.();
     };
   }
 
@@ -370,13 +396,81 @@ export class Workspace {
   private closedTabsHistory: ClosedTabRecord[] = [];
   public fileOpener?: (path: string) => void;
   public onToggleSidebar?: () => void;
+  public onLayoutChange?: () => void;
 
   constructor(rootEl: HTMLElement) {
     this.rootEl = rootEl;
   }
 
+  // 🟢 State Persistence: Serializes entire tab layout to JSON
+  public serializeState(): SavedWorkspaceState {
+    const activeLeafIdx = Math.max(0, this.leaves.indexOf(this.activeLeaf!));
+    return {
+      activeLeafIndex: activeLeafIdx,
+      leaves: this.leaves.map((leaf) => ({
+        activeTabIndex: Math.max(0, leaf.tabs.indexOf(leaf.activeTab!)),
+        tabs: leaf.tabs.map((t) => ({
+          type: t.type,
+          filePath: t.filePath,
+          url: t.url,
+        })),
+      })),
+    };
+  }
+
+  // 🟢 State Persistence: Restores leaves and tabs on app startup
+  public restoreState(
+    savedState: SavedWorkspaceState,
+    editorFactory: (el: HTMLElement, path: string, tabId: string) => MarkdownEditor
+  ): boolean {
+    if (!savedState || !savedState.leaves || savedState.leaves.length === 0) {
+      return false;
+    }
+
+    this.leaves.forEach((l) => l.detach());
+    this.leaves = [];
+    this.activeLeaf = null;
+
+    for (const savedLeaf of savedState.leaves) {
+      if (savedLeaf.tabs.length === 0) continue;
+
+      const leaf = this.openLeaf();
+      for (const savedTab of savedLeaf.tabs) {
+        if (savedTab.type === 'markdown' && savedTab.filePath) {
+          leaf.openFileTab(savedTab.filePath, editorFactory);
+        } else if (savedTab.type === 'webview' && savedTab.url) {
+          leaf.openWebviewTab(savedTab.url);
+        }
+      }
+
+      const targetTab = leaf.tabs[savedLeaf.activeTabIndex] || leaf.tabs[0] || null;
+      leaf.setActiveTab(targetTab);
+    }
+
+    const activeLeaf = this.leaves[savedState.activeLeafIndex] || this.leaves[0] || null;
+    this.setActiveLeaf(activeLeaf);
+    this.renderAllLeafTabBars();
+    return this.leaves.length > 0;
+  }
+
   public renderAllLeafTabBars(): void {
     this.leaves.forEach((l) => l._renderTabs());
+  }
+
+  public setActiveLeafByWebContentsId(wcId: number): void {
+    for (const leaf of this.leaves) {
+      for (const tab of leaf.tabs) {
+        if (tab.type === 'webview') {
+          const wv = tab.contentHolder.querySelector('webview') as any;
+          try {
+            if (wv && wv.getWebContentsId() === wcId) {
+              this.setActiveLeaf(leaf);
+              return;
+            }
+          } catch {}
+        }
+      }
+    }
   }
 
   public syncTabsForFile(filePath: string, newContent: string, sourceTabId: string): void {
@@ -406,6 +500,7 @@ export class Workspace {
     this.leaves.push(leaf);
     this.setActiveLeaf(leaf);
     this.renderAllLeafTabBars();
+    this.onLayoutChange?.();
     return leaf;
   }
 
@@ -416,6 +511,7 @@ export class Workspace {
       this.setActiveLeaf(this.leaves[0] || null);
     }
     this.renderAllLeafTabBars();
+    this.onLayoutChange?.();
   }
 
   public setActiveLeaf(leaf: WorkspaceLeaf | null): void {
