@@ -32,7 +32,9 @@ function formatUrlOrSearch(input: string): string {
 
   if (/^https?:\/\//i.test(trimmed)) return trimmed;
 
-  const isDomain = /^([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(\/.*)?$/i.test(trimmed) || /^localhost(:\d+)?(\/.*)?$/i.test(trimmed);
+  const isDomain =
+    /^([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(\/.*)?$/i.test(trimmed) ||
+    /^localhost(:\d+)?(\/.*)?$/i.test(trimmed);
   if (isDomain) {
     return `https://${trimmed}`;
   }
@@ -100,9 +102,6 @@ export class WorkspaceLeaf {
     const holder = document.createElement('div');
     holder.className = 'webview-holder hidden';
 
-    const chromeUA =
-      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
-
     holder.innerHTML = `
       <div class="browser-nav-bar">
         <button class="nav-btn back-btn" title="Back">◀</button>
@@ -115,7 +114,6 @@ export class WorkspaceLeaf {
         src="${initialUrl}" 
         class="embedded-webview"
         partition="persist:mirage-web"
-        useragent="${chromeUA}"
         allowpopups
       ></webview>
     `;
@@ -223,6 +221,7 @@ export class WorkspaceLeaf {
   public _renderTabs(): void {
     this.tabBarEl.innerHTML = '';
 
+    // Sidebar Toggle Button on the first leaf tab bar
     if (this.workspace.leaves[0] === this) {
       const toggleBtn = document.createElement('button');
       toggleBtn.className = 'tab-bar-toggle-btn';
@@ -347,7 +346,7 @@ export class WorkspaceLeaf {
       const newLeaf = this.workspace.openLeaf();
       newLeaf.tabContentEl.appendChild(draggedTab.contentHolder);
       newLeaf.tabs.push(draggedTab);
-      
+
       this.workspace.renderAllLeafTabBars();
       newLeaf.setActiveTab(draggedTab);
 

@@ -1,13 +1,6 @@
 import { app, BrowserWindow, ipcMain, dialog, session } from 'electron';
 import path from 'path';
 
-// Standard Google Chrome macOS User-Agent
-const CHROME_USER_AGENT =
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
-
-// 🟢 1. Override Electron's global fallback user-agent across all network requests
-app.userAgentFallback = CHROME_USER_AGENT;
-
 // Native folder picker
 ipcMain.handle('dialog:selectVaultFolder', async (event): Promise<string | null> => {
   const focusedWindow = BrowserWindow.fromWebContents(event.sender);
@@ -29,16 +22,39 @@ ipcMain.handle('app:toggleDevTools', (event) => {
 function configureWebviewSession(): void {
   const webSession = session.fromPartition('persist:mirage-web');
 
-  // 🟢 2. Enforce the Chrome User-Agent directly on the webview partition session
-  webSession.setUserAgent(CHROME_USER_AGENT);
+  // Native Chrome identity
+  const rawUA = webSession.getUserAgent();
+  const cleanChromeUA = rawUA
+    .replace(/Electron\/\S+\s?/, '')
+    .replace(/mirage-editor\/\S+\s?/, '')
+    .trim();
 
-  // 🟢 3. Intercept and ensure all redirect/OAuth headers strip any Electron signature
+  // Firefox identity for sign-in
+  const FIREFOX_UA =
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0';
+
+  // 🟢 Dynamic Identity Router
   webSession.webRequest.onBeforeSendHeaders((details, callback) => {
-    details.requestHeaders['User-Agent'] = CHROME_USER_AGENT;
+    const url = details.url.toLowerCase();
+
+    // 1. If logging in via Google Accounts, use Firefox identity to bypass login block
+    if (url.includes('accounts.google.com') || url.includes('accounts.youtube.com')) {
+      details.requestHeaders['User-Agent'] = FIREFOX_UA;
+      delete details.requestHeaders['Sec-CH-UA'];
+      delete details.requestHeaders['Sec-CH-UA-Mobile'];
+      delete details.requestHeaders['Sec-CH-UA-Platform'];
+      delete details.requestHeaders['sec-ch-ua'];
+      delete details.requestHeaders['sec-ch-ua-mobile'];
+      delete details.requestHeaders['sec-ch-ua-platform'];
+    } else {
+      // 2. For Google AI Studio, Search, and everything else, use Native Chrome identity
+      details.requestHeaders['User-Agent'] = cleanChromeUA;
+      delete details.requestHeaders['X-Electron'];
+    }
+
     callback({ cancel: false, requestHeaders: details.requestHeaders });
   });
 
-  // Grant standard web permissions (Audio, Notifications, Video, Popups)
   webSession.setPermissionRequestHandler((_webContents, _permission, callback) => {
     callback(true);
   });

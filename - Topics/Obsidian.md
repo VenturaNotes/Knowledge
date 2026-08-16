@@ -4,6 +4,7 @@
 	- So `tags` is type list which I assume holds all the different types of tags within the list. Each element within `tags` is a string
 ### Tips
 - When debugging, need to completely quit Obsidian and then re-open for all changes to take affect. Refreshing within the Obsidian Developer Console is not enough. 
+- When working with CSS, you might need to restart Obsidian as well to see the changes.
 ### Filtering out Nested Tags in Bases
 - `!tags.filter(value.startsWith("#task/"))`
 	- This removes all documents with a nested tag
