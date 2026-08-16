@@ -246,6 +246,71 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     }
 
     /**
+     * Safely creates or retrieves a leaf strictly inside the root editor workspace
+     */
+    getRootLeaf(): WorkspaceLeaf {
+        let targetLeaf = this.app.workspace.activeLeaf;
+        if (!targetLeaf || !this.isRootLeaf(targetLeaf)) {
+            this.app.workspace.iterateRootLeaves((leaf) => {
+                if (!targetLeaf || !this.isRootLeaf(targetLeaf)) {
+                    targetLeaf = leaf;
+                }
+            });
+        }
+
+        if (targetLeaf && this.isRootLeaf(targetLeaf)) {
+            const parent = (targetLeaf as any).parent;
+            if (parent && typeof (this.app.workspace as any).createLeafInParent === 'function') {
+                return (this.app.workspace as any).createLeafInParent(parent, parent.children?.length ?? 0);
+            }
+        }
+
+        if (typeof (this.app.workspace as any).createLeafInParent === 'function') {
+            return (this.app.workspace as any).createLeafInParent(this.app.workspace.rootSplit, 0);
+        }
+
+        return this.app.workspace.getLeaf('tab');
+    }
+
+    /**
+     * Finds a visible neighbor tab inside the same split container (right neighbor first, then left)
+     */
+    getVisibleNeighborInContainer(leaf: WorkspaceLeaf, activeGroup: string): WorkspaceLeaf | null {
+        const parent = (leaf as any).parent;
+        if (!parent || !Array.isArray(parent.children)) return null;
+
+        const children: WorkspaceLeaf[] = parent.children;
+        const currentIndex = children.findIndex((c) => (c as any).id === (leaf as any).id);
+        if (currentIndex === -1) return null;
+
+        const isLeafVisible = (l: WorkspaceLeaf) => {
+            if (!this.isRootLeaf(l)) return false;
+            const id = (l as any).id;
+            const g = this.leafToGroupMap.get(id);
+            const isPinned = !!(l as any).pinned;
+            return g === activeGroup || isPinned;
+        };
+
+        // 1. Check tabs to the right
+        for (let i = currentIndex + 1; i < children.length; i++) {
+            const child = children[i];
+            if (child && isLeafVisible(child)) {
+                return child;
+            }
+        }
+
+        // 2. Check tabs to the left
+        for (let i = currentIndex - 1; i >= 0; i--) {
+            const child = children[i];
+            if (child && isLeafVisible(child)) {
+                return child;
+            }
+        }
+
+        return null;
+    }
+
+    /**
      * Returns the total count of root leaves currently in the workspace
      */
     getLeafCount(): number {
@@ -429,7 +494,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
         }
 
-        // Apply our hiding class to the entire split/tab container if it is empty
+        // Apply our hiding class to the split/tab container if it is empty
         if (container.containerEl) {
             if (hasVisibleChild) {
                 container.containerEl.classList.remove('vtg-hidden');
@@ -472,7 +537,27 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
         });
 
-        // 2. Check if the currently focused tab belongs to an inactive group
+        // 2. Ensure at least one leaf exists in the active group in the root workspace
+        let hasVisibleRootLeaf = false;
+        this.app.workspace.iterateRootLeaves((leaf) => {
+            const leafId = (leaf as any).id;
+            const assignedGroup = this.leafToGroupMap.get(leafId);
+            const isPinned = !!(leaf as any).pinned;
+            if (assignedGroup === activeGroup || isPinned) {
+                hasVisibleRootLeaf = true;
+            }
+        });
+
+        if (!hasVisibleRootLeaf) {
+            const newLeaf = this.getRootLeaf();
+            const newLeafId = (newLeaf as any).id;
+            this.leafToGroupMap.set(newLeafId, activeGroup);
+            this.settings.groupLastActiveLeaf[activeGroup] = newLeafId;
+            this.saveSettings();
+            this.app.workspace.setActiveLeaf(newLeaf, { focus: true });
+        }
+
+        // 3. Check if the currently focused tab belongs to an inactive group
         const currentActive = this.getActiveLeafInContainer();
         let activeIsHidden = false;
 
@@ -483,24 +568,27 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
         }
 
-        // 3. If the current active tab is going to be hidden, programmatically focus a visible tab first
-        if (activeIsHidden) {
-            const lastActiveId = this.settings.groupLastActiveLeaf[activeGroup];
-            let fallbackLeaf: WorkspaceLeaf | null = null;
+        // 4. If the active tab is hidden, focus the best visible candidate
+        if (activeIsHidden && currentActive) {
+            // Step A: Prefer neighboring tab in the same split container
+            let fallbackLeaf: WorkspaceLeaf | null = this.getVisibleNeighborInContainer(currentActive, activeGroup);
 
-            // Step A: Attempt to locate your saved "last active" tab for this group
-            if (lastActiveId) {
-                this.app.workspace.iterateRootLeaves((leaf) => {
-                    if ((leaf as any).id === lastActiveId) {
-                        const assignedGroup = this.leafToGroupMap.get((leaf as any).id);
-                        if (assignedGroup === activeGroup || (leaf as any).pinned) {
-                            fallbackLeaf = leaf;
+            // Step B: Attempt to locate your saved "last active" tab for this group
+            if (!fallbackLeaf) {
+                const lastActiveId = this.settings.groupLastActiveLeaf[activeGroup];
+                if (lastActiveId) {
+                    this.app.workspace.iterateRootLeaves((leaf) => {
+                        if ((leaf as any).id === lastActiveId) {
+                            const assignedGroup = this.leafToGroupMap.get((leaf as any).id);
+                            if (assignedGroup === activeGroup || (leaf as any).pinned) {
+                                fallbackLeaf = leaf;
+                            }
                         }
-                    }
-                });
+                    });
+                }
             }
 
-            // Step B: If that tab was closed or doesn't exist, fall back to the first available tab
+            // Step C: Fall back to first available visible leaf
             if (!fallbackLeaf) {
                 this.app.workspace.iterateRootLeaves((leaf) => {
                     const assignedGroup = this.leafToGroupMap.get((leaf as any).id);
@@ -512,17 +600,10 @@ export default class VirtualTabGroupsPlugin extends Plugin {
 
             if (fallbackLeaf) {
                 this.app.workspace.setActiveLeaf(fallbackLeaf, { focus: true });
-            } else {
-                // If no visible leaves are left in the active group, open a new empty tab.
-                const newLeaf = this.app.workspace.getLeaf('tab');
-                this.leafToGroupMap.set((newLeaf as any).id, activeGroup);
-                this.saveSettings();
-                this.app.workspace.setActiveLeaf(newLeaf, { focus: true });
-                return;
             }
         }
 
-        // 4. Physically apply visual hiding classes to individual leaves
+        // 5. Physically apply visual hiding classes to individual leaves
         this.app.workspace.iterateRootLeaves((leaf) => {
             const leafId = (leaf as any).id;
             const assignedGroup = this.leafToGroupMap.get(leafId);
@@ -535,7 +616,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
         });
 
-        // 5. Recursively evaluate container splits and tab groups (hides panels with no active tabs)
+        // 6. Recursively evaluate container splits and tab groups (hides panels with no active tabs)
         const rootSplit = this.app.workspace.rootSplit as any;
         if (rootSplit && Array.isArray(rootSplit.children)) {
             rootSplit.children.forEach((child: any) => {

@@ -3,12 +3,8 @@
     display: none !important;
 }
 
-/* Hide the vertical or horizontal resize handle if the panel after it is hidden */
-.vtg-hidden + .workspace-leaf-resize-handle {
-    display: none !important;
-}
-
-/* Hide the vertical or horizontal resize handle if the panel before it is hidden */
-.workspace-leaf-resize-handle:has(+ .vtg-hidden) {
+/* Hide split resize handles strictly inside the root workspace when adjacent to a hidden container */
+.workspace-split.mod-root .vtg-hidden + .workspace-leaf-resize-handle,
+.workspace-split.mod-root .workspace-leaf-resize-handle:has(+ .vtg-hidden) {
     display: none !important;
 }

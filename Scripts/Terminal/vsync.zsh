@@ -1,4 +1,4 @@
-# vsync.zsh - Interactive & CLI vault file/folder mirroring
+# vsync.zsh - Interactive & CLI vault file/folder mirroring (Grouped & Multi-select)
 
 vsync() {
     local config="$HOME/.vault_sync_list"
@@ -29,70 +29,119 @@ vsync() {
                 echo "No active sync pairs."
                 return 0
             fi
-            echo "\n📦 ACTIVE VAULT SYNC PAIRS:"
-            echo "──────────────────────────────────────────────"
+
+            echo "\n📦 ACTIVE VAULT SYNC GROUPS:"
+            echo "══════════════════════════════════════════════════════════════"
+
+            local -A groups=()
+            local -a group_keys=()
+
+            # Group entries by their destination parent directory
             while IFS='|' read -r src dst || [[ -n "$src" ]]; do
                 [[ -z "$src" || "$src" == \#* ]] && continue
-                local src_exp="${(e)src}"
-                local dst_exp="${(e)dst}"
-                local type_icon="📄 File"
-                [[ -d "$src_exp" ]] && type_icon="📁 Folder"
+                src="${(e)src}"
+                dst="${(e)dst}"
 
-                echo " $type_icon"
-                echo " Source: $src_exp"
-                echo " Dest:   $dst_exp"
-                echo "──────────────────────────────────────────────"
+                local parent_dir="${dst:h}"
+                if (( ! ${group_keys[(Ie)$parent_dir]} )); then
+                    group_keys+=("$parent_dir")
+                fi
+                groups[$parent_dir]+="$src|$dst"$'\n'
             done < "$config"
+
+            # Print each group as a clean tree
+            for pdir in "${group_keys[@]}"; do
+                local display_pdir="${pdir/#$HOME/~}"
+                echo "📂 Target Group: \033[1;36m${pdir:t}\033[0m (\033[90m$display_pdir\033[0m)"
+
+                # Explicitly empty the lines array for every new group
+                local -a lines=()
+                local -a raw_lines=("${(@f)groups[$pdir]}")
+                for l in "${raw_lines[@]}"; do
+                    [[ -n "$l" ]] && lines+=("$l")
+                done
+
+                local total=${#lines[@]}
+                local idx=0
+
+                for line in "${lines[@]}"; do
+                    ((idx++))
+                    local s="${line%%|*}"
+                    local d="${line#*|}"
+                    local icon="📄"
+                    [[ -d "$s" ]] && icon="📁"
+
+                    local branch="├──"
+                    [[ $idx -eq $total ]] && branch="└──"
+
+                    local s_disp="${s/#$HOME/~}"
+                    echo "   $branch $icon \033[1m${s:t}\033[0m  \033[90m(from $s_disp)\033[0m"
+                done
+                echo "──────────────────────────────────────────────────────────────"
+            done
             ;;
 
         add)
-            local src_input="$1"
-            local dst_input="$2"
+            local -a selected_items=()
+            local dst_folder=""
 
-            if [[ -z "$src_input" || -z "$dst_input" ]]; then
-                echo "🔍 Select SOURCE in [${PWD:t}] (or nested deeper)..."
-                
-                src_input=$(
+            # Manual CLI mode: vsync add <src> <dest>
+            if [[ -n "$1" && -n "$2" ]]; then
+                selected_items=("$1")
+                dst_folder="$2"
+            else
+                # Interactive Multi-Select Mode
+                echo "🔍 Select items to mirror (Use [Tab] to mark multiple, [Enter] to confirm)..."
+                local src_inputs
+                src_inputs=$(
                     (echo "$PWD"; fd --hidden --no-ignore "${exclude_args[@]}" . "$PWD") \
-                    | fzf --prompt="1️⃣  Select SOURCE [${PWD:t}]: " --height=60% --layout=reverse
+                    | fzf --multi \
+                          --prompt="1️⃣  [Tab] to Mark, [Enter] to Confirm: " \
+                          --height=60% --layout=reverse
                 )
-                [[ -z "$src_input" ]] && echo "Cancelled." && return 0
+                [[ -z "$src_inputs" ]] && echo "Cancelled." && return 0
+
+                selected_items=("${(@f)src_inputs}")
 
                 echo "🔍 Select the DESTINATION folder inside Knowledge..."
-                local dst_folder
                 dst_folder=$(
                     fd --type d --hidden --no-ignore "${exclude_args[@]}" . "$HOME/Desktop/Knowledge" \
                     | fzf --prompt="2️⃣  Select DESTINATION Folder: " --height=60% --layout=reverse
                 )
                 [[ -z "$dst_folder" ]] && echo "Cancelled." && return 0
-
-                dst_input="$dst_folder/${src_input:t}"
             fi
 
-            local src_path="${src_input:A}"
-            local dst_path="${dst_input:A}"
+            echo "\n⚡ Linking and copying selected items..."
+            for item in "${selected_items[@]}"; do
+                [[ -z "$item" ]] && continue
+                local src_path="${item:A}"
+                local dst_path="$dst_folder/${item:t}"
 
-            if [[ ! -e "$src_path" ]]; then
-                echo "Error: Source '$src_path' does not exist." >&2
-                return 1
-            fi
+                if [[ ! -e "$src_path" ]]; then
+                    echo "⚠️  Skipped: '$src_path' does not exist."
+                    continue
+                fi
 
-            # Perform the initial copy immediately
-            if [[ -d "$src_path" ]]; then
-                mkdir -p "$dst_path"
-                rsync -a --delete "$src_path/" "$dst_path/"
-            elif [[ -f "$src_path" ]]; then
-                mkdir -p "${dst_path:h}"
-                cp "$src_path" "$dst_path"
-            fi
+                # Copy immediately
+                if [[ -d "$src_path" ]]; then
+                    mkdir -p "$dst_path"
+                    rsync -a --delete "$src_path/" "$dst_path/"
+                elif [[ -f "$src_path" ]]; then
+                    mkdir -p "${dst_path:h}"
+                    cp "$src_path" "$dst_path"
+                fi
 
-            if ! grep -Fxq "$src_path|$dst_path" "$config" 2>/dev/null; then
-                echo "$src_path|$dst_path" >> "$config"
-            fi
+                # Save to config
+                if ! grep -Fxq "$src_path|$dst_path" "$config" 2>/dev/null; then
+                    echo "$src_path|$dst_path" >> "$config"
+                fi
 
-            echo "✅ Successfully linked and copied all files/folders:"
-            echo "   Source: $src_path"
-            echo "   Dest:   $dst_path"
+                local icon="📄"
+                [[ -d "$src_path" ]] && icon="📁"
+                echo "   $icon ${src_path:t} -> $dst_path"
+            done
+
+            echo "✅ All selected items linked and synced successfully!"
             ;;
 
         rm)
@@ -102,13 +151,17 @@ vsync() {
             fi
 
             local selected
-            selected=$(grep -v '^#' "$config" | fzf --prompt="Select sync pair to remove: " --height=40% --layout=reverse)
+            selected=$(grep -v '^#' "$config" | fzf --multi --prompt="Select pairs to remove ([Tab] for multiple): " --height=40% --layout=reverse)
 
             if [[ -n "$selected" ]]; then
                 local tmp="${config}.tmp"
-                grep -vF "$selected" "$config" > "$tmp"
+                local -a rm_items=("${(@f)selected}")
+                cp "$config" "$tmp"
+                for rm_item in "${rm_items[@]}"; do
+                    grep -vF "$rm_item" "$tmp" > "${tmp}.bak" && mv "${tmp}.bak" "$tmp"
+                    echo "🗑️  Removed: $rm_item"
+                done
                 mv "$tmp" "$config"
-                echo "🗑️  Removed sync pair: $selected"
             fi
             ;;
 
@@ -116,9 +169,10 @@ vsync() {
             echo "Usage: vsync [command]"
             echo ""
             echo "Commands:"
-            echo "  vsync add                Interactively pick source & dest using fzf"
-            echo "  vsync rm                 Interactively remove a mirror using fzf"
-            echo "  vsync list               List all active mirrors"
+            echo "  vsync add                Interactively pick multiple files/folders using [Tab]"
+            echo "  vsync add <src> <dest>   Add a single mirror manually"
+            echo "  vsync rm                 Interactively remove mirrors using [Tab]"
+            echo "  vsync list               List all active mirrors grouped by target project"
             ;;
 
         *)
