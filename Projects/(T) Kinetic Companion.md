@@ -7,6 +7,8 @@ status: open
 - Maybe could use a tree like this?
 	- ![[Pasted image 20260709174650.png]]
 	- But don't know if that's the best way to show that they exist in the file 
+## Features
+- Even my VaporNote Markdown file works with the kinetic companion which is nice!
 ## ToDo
 - [ ] When writing question, have it fall below the highlight you made 
 - [ ] Be able to type within its own line!
