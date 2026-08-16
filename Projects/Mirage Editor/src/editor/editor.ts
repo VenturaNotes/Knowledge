@@ -1,4 +1,4 @@
-import { EditorView, keymap, lineNumbers } from '@codemirror/view';
+import { EditorView, keymap } from '@codemirror/view';
 import { EditorState, Compartment, Extension } from '@codemirror/state';
 import { defaultKeymap, history, historyKeymap, indentWithTab } from '@codemirror/commands';
 import { markdown } from '@codemirror/lang-markdown';
@@ -41,12 +41,12 @@ const editorDarkTheme = EditorView.theme(
       backgroundColor: '#1e1e1e',
       color: '#dcddde',
       height: '100%',
-      fontSize: '14px',
+      fontSize: '15px',
     },
     '.cm-content': {
       caretColor: '#ffffff !important',
-      fontFamily: 'var(--font-mono, monospace)',
-      lineHeight: '1.6',
+      fontFamily: 'var(--font-interface, -apple-system, sans-serif)',
+      lineHeight: '1.65',
     },
     '.cm-cursor, .cm-dropCursor': {
       borderLeft: '2px solid #ffffff !important',
@@ -57,17 +57,8 @@ const editorDarkTheme = EditorView.theme(
     '.cm-selectionBackground, ::selection': {
       backgroundColor: 'rgba(58, 90, 153, 0.45) !important',
     },
-    '.cm-gutters': {
-      backgroundColor: '#1e1e1e',
-      color: '#6e7681',
-      borderRight: '1px solid #2a2a2a',
-    },
     '.cm-activeLine': {
-      backgroundColor: 'rgba(255, 255, 255, 0.03)',
-    },
-    '.cm-activeLineGutter': {
-      backgroundColor: 'transparent',
-      color: '#ffffff',
+      backgroundColor: 'rgba(255, 255, 255, 0.02)',
     },
   },
   { dark: true }
@@ -98,7 +89,6 @@ export class MarkdownEditor {
       editorDarkTheme,
       history(),
       keymap.of([...defaultKeymap, ...historyKeymap, indentWithTab]),
-      lineNumbers(),
       markdown(),
       vaultPathFacet.of(vaultPath),
       livePreviewPlugin,
@@ -123,7 +113,6 @@ export class MarkdownEditor {
     return this.view.state.doc.toString();
   }
 
-  // 🟢 Live Sync for duplicate tabs across panels
   public setContentIfDifferent(newContent: string): void {
     const current = this.getContent();
     if (current === newContent) return;

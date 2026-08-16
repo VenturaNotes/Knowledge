@@ -45,7 +45,6 @@ export class CommandRegistry {
     cmd.hotkey = newChord ? this.normalizeChord(newChord) : null;
   }
 
-  // 🟢 Collision Detector: Prevents any 2 commands from sharing the same hotkey
   public checkConflict(chord: string, excludeCommandId?: string): Command | null {
     const normalized = this.normalizeChord(chord);
     if (!normalized) return null;
@@ -76,6 +75,7 @@ export class CommandRegistry {
       .filter((h): h is string => Boolean(h));
   }
 
+  // 🟢 Normalizes arrow keys consistently
   public normalizeChord(raw: string): string {
     const lower = raw.toLowerCase().trim();
     if (!lower) return '';
@@ -104,6 +104,11 @@ export class CommandRegistry {
     }
 
     if (!key) return '';
+    if (key === 'left') key = 'arrowleft';
+    if (key === 'right') key = 'arrowright';
+    if (key === 'up') key = 'arrowup';
+    if (key === 'down') key = 'arrowdown';
+
     return modifiers.sort().join('+') + '+' + key;
   }
 }

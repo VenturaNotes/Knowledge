@@ -1,8 +1,11 @@
 ## Synthesis
 ### Mac's Terminal
+- To check if a word is already taken by a command, alias, function or system binary
+	- `type <word>`
+	- If the terminal returns `not found`, the name is completely free to use for your scripts or functions.
+	- [ ] What is a system binary?
 - If I want to run a command while displaying the live logs in my terminal, and simultaneously send a duplicate of that entire output straight to my macOS clipboard.
 	- `npm run build | tee >(pbcopy)`
-
 - Deletes the entire line from your current cursor position backward to the beginning of the prompt. Will remove a multi-line block of text as well
 	- `Control + U` 
 - When doing `cd <folder>`, you could `tab` after the `cd` to match a folder you want to enter.

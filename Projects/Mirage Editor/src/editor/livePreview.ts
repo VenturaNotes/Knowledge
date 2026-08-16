@@ -7,6 +7,12 @@ export const vaultPathFacet = Facet.define<string | null, string | null>({
 
 const hiddenSyntaxDeco = Decoration.replace({});
 
+interface DecoEntry {
+  from: number;
+  to: number;
+  deco: Decoration;
+}
+
 class BulletWidget extends WidgetType {
   constructor(readonly indent: string) {
     super();
@@ -16,6 +22,52 @@ class BulletWidget extends WidgetType {
     const span = document.createElement('span');
     span.className = 'cm-bullet-widget';
     span.textContent = `${this.indent}• `;
+    return span;
+  }
+}
+
+// 🟢 High-Performance Instant Math Widget (KaTeX + MathJax fallback)
+class MathWidget extends WidgetType {
+  constructor(readonly latex: string, readonly display: boolean) {
+    super();
+  }
+
+  eq(other: MathWidget): boolean {
+    return other.latex === this.latex && other.display === this.display;
+  }
+
+  toDOM(): HTMLElement {
+    const span = document.createElement('span');
+    span.className = this.display ? 'cm-math-block' : 'cm-math-inline';
+
+    const cleanLatex = this.latex.trim();
+
+    // 1. Render synchronously with KaTeX (Obsidian standard: 0ms latency, never disappears)
+    if ((window as any).katex) {
+      try {
+        (window as any).katex.render(cleanLatex, span, {
+          displayMode: this.display,
+          throwOnError: false,
+        });
+        return span;
+      } catch (err) {
+        // Continue to fallback
+      }
+    }
+
+    // 2. Fallback to MathJax if KaTeX is not present
+    if ((window as any).MathJax?.tex2chtml) {
+      try {
+        const mathNode = (window as any).MathJax.tex2chtml(cleanLatex, { display: this.display });
+        span.appendChild(mathNode);
+        return span;
+      } catch {
+        span.textContent = `$${cleanLatex}$`;
+      }
+    } else {
+      span.textContent = `$${cleanLatex}$`;
+    }
+
     return span;
   }
 }
@@ -92,7 +144,7 @@ export const livePreviewPlugin = ViewPlugin.fromClass(
     }
 
     private buildDecorations(view: EditorView): DecorationSet {
-      const builder = new RangeSetBuilder<Decoration>();
+      const entries: DecoEntry[] = [];
       const cursorPositions = view.state.selection.ranges.map((r) => r.head);
       const vaultPath = view.state.facet(vaultPathFacet);
 
@@ -104,18 +156,36 @@ export const livePreviewPlugin = ViewPlugin.fromClass(
             (cursor) => cursor >= line.from && cursor <= line.to
           );
 
-          this.applyLineDecorations(line.text, line.from, builder, vaultPath, hasCursor, cursorPositions);
+          this.collectLineDecorations(line.text, line.from, entries, vaultPath, hasCursor, cursorPositions);
           pos = line.to + 1;
         }
+      }
+
+      // Sort all decorations by character position ascending
+      entries.sort((a, b) => a.from - b.from || a.to - b.to);
+
+      // Eliminate overlapping collisions
+      const nonOverlapping: DecoEntry[] = [];
+      let lastTo = -1;
+      for (const entry of entries) {
+        if (entry.from >= lastTo && entry.from < entry.to) {
+          nonOverlapping.push(entry);
+          lastTo = entry.to;
+        }
+      }
+
+      const builder = new RangeSetBuilder<Decoration>();
+      for (const { from, to, deco } of nonOverlapping) {
+        builder.add(from, to, deco);
       }
 
       return builder.finish();
     }
 
-    private applyLineDecorations(
+    private collectLineDecorations(
       text: string,
       lineStart: number,
-      builder: RangeSetBuilder<Decoration>,
+      entries: DecoEntry[],
       vaultPath: string | null,
       hasCursor: boolean,
       cursorPositions: number[]
@@ -127,24 +197,58 @@ export const livePreviewPlugin = ViewPlugin.fromClass(
         const bulletSymbolPos = lineStart + indentLen;
         const bulletEndPos = bulletSymbolPos + bulletMatch[2].length + 1;
 
-        const isCursorNearBullet = cursorPositions.some(
-          (c) => c >= lineStart && c <= bulletEndPos + 1
+        const isDirectlyOnDash = cursorPositions.some(
+          (c) => c >= bulletSymbolPos && c <= bulletSymbolPos + 1
         );
 
-        if (!isCursorNearBullet) {
-          builder.add(
-            bulletSymbolPos,
-            bulletEndPos,
-            Decoration.replace({
+        if (!isDirectlyOnDash) {
+          entries.push({
+            from: bulletSymbolPos,
+            to: bulletEndPos,
+            deco: Decoration.replace({
               widget: new BulletWidget(bulletMatch[1]),
-            })
-          );
+            }),
+          });
         }
       }
 
-      // 2. Images & Inline Formatting (Hidden when cursor is off the line)
+      // 2. Math ($$...$$ and $...$)
+      const blockMathRegex = /\$\$([\s\S]+?)\$\$/g;
+      let mathMatch: RegExpExecArray | null;
+      while ((mathMatch = blockMathRegex.exec(text)) !== null) {
+        const from = lineStart + mathMatch.index;
+        const to = from + mathMatch[0].length;
+        const isCursorInside = cursorPositions.some((c) => c >= from && c <= to);
+        if (!isCursorInside) {
+          entries.push({
+            from,
+            to,
+            deco: Decoration.replace({
+              widget: new MathWidget(mathMatch[1], true),
+            }),
+          });
+        }
+      }
+
+      const inlineMathRegex = /(?<!\$)\$(?!\$)([^\$\n]+?)(?<!\$)\$(?!\$)/g;
+      while ((mathMatch = inlineMathRegex.exec(text)) !== null) {
+        const from = lineStart + mathMatch.index;
+        const to = from + mathMatch[0].length;
+        const isCursorInside = cursorPositions.some((c) => c >= from && c <= to);
+        if (!isCursorInside) {
+          entries.push({
+            from,
+            to,
+            deco: Decoration.replace({
+              widget: new MathWidget(mathMatch[1], false),
+            }),
+          });
+        }
+      }
+
+      // 3. Images & Markdown Format Hiding (when cursor is off the line)
       if (!hasCursor) {
-        // (A) HTML <img> Tag Parsing
+        // HTML <img>
         const htmlImgRegex = /<img\b([^>]*)\/?>/gi;
         let htmlMatch: RegExpExecArray | null;
         while ((htmlMatch = htmlImgRegex.exec(text)) !== null) {
@@ -156,14 +260,10 @@ export const livePreviewPlugin = ViewPlugin.fromClass(
             const widthMatch = attrs.match(/width=["']([^"']*)["']/i);
             const heightMatch = attrs.match(/height=["']([^"']*)["']/i);
 
-            const from = lineStart + htmlMatch.index;
-            const to = from + htmlMatch[0].length;
-
-            // 🟢 Removed block: true to fix RangeError crash
-            builder.add(
-              from,
-              to,
-              Decoration.replace({
+            entries.push({
+              from: lineStart + htmlMatch.index,
+              to: lineStart + htmlMatch.index + htmlMatch[0].length,
+              deco: Decoration.replace({
                 widget: new ImageWidget(
                   src,
                   altMatch ? altMatch[1] : '',
@@ -171,41 +271,37 @@ export const livePreviewPlugin = ViewPlugin.fromClass(
                   widthMatch ? widthMatch[1] : null,
                   heightMatch ? heightMatch[1] : null
                 ),
-              })
-            );
+              }),
+            });
           }
         }
 
-        // (B) Markdown Standard Images: ![alt](url)
+        // Markdown Images
         const standardImgRegex = /!\[(.*?)\]\((.*?)\)/g;
         let match: RegExpExecArray | null;
         while ((match = standardImgRegex.exec(text)) !== null) {
-          const from = lineStart + match.index;
-          const to = from + match[0].length;
-          builder.add(
-            from,
-            to,
-            Decoration.replace({
+          entries.push({
+            from: lineStart + match.index,
+            to: lineStart + match.index + match[0].length,
+            deco: Decoration.replace({
               widget: new ImageWidget(match[2], match[1], vaultPath),
-            })
-          );
+            }),
+          });
         }
 
-        // (C) WikiLink Images: ![[image.png]]
+        // Wiki Images
         const wikiImgRegex = /!\[\[(.*?)(?:\|.*?)?\]\]/g;
         while ((match = wikiImgRegex.exec(text)) !== null) {
-          const from = lineStart + match.index;
-          const to = from + match[0].length;
-          builder.add(
-            from,
-            to,
-            Decoration.replace({
+          entries.push({
+            from: lineStart + match.index,
+            to: lineStart + match.index + match[0].length,
+            deco: Decoration.replace({
               widget: new ImageWidget(match[1], match[1], vaultPath),
-            })
-          );
+            }),
+          });
         }
 
-        // (D) Inline Markdown Styles
+        // Inline Markdown Formatting
         const rules = [
           { regex: /\*\*(.+?)\*\*/g, startLen: 2, endLen: 2 },
           { regex: /(?<!\*)\*([^*]+?)\*(?!\*)/g, startLen: 1, endLen: 1 },
@@ -219,11 +315,23 @@ export const livePreviewPlugin = ViewPlugin.fromClass(
           while ((ruleMatch = rule.regex.exec(text)) !== null) {
             const matchStart = lineStart + ruleMatch.index;
             if (rule.startLen === null) {
-              builder.add(matchStart, matchStart + ruleMatch[0].length, hiddenSyntaxDeco);
+              entries.push({
+                from: matchStart,
+                to: matchStart + ruleMatch[0].length,
+                deco: hiddenSyntaxDeco,
+              });
             } else {
               const matchEnd = matchStart + ruleMatch[0].length;
-              builder.add(matchStart, matchStart + rule.startLen, hiddenSyntaxDeco);
-              builder.add(matchEnd - rule.endLen, matchEnd, hiddenSyntaxDeco);
+              entries.push({
+                from: matchStart,
+                to: matchStart + rule.startLen,
+                deco: hiddenSyntaxDeco,
+              });
+              entries.push({
+                from: matchEnd - rule.endLen,
+                to: matchEnd,
+                deco: hiddenSyntaxDeco,
+              });
             }
           }
         }

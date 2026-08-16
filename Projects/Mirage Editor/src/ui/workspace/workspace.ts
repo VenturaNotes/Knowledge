@@ -116,12 +116,21 @@ export class WorkspaceLeaf {
         <input type="text" class="browser-url-input" placeholder="Search Google or type a URL" value="${initialUrl}" />
         <button class="nav-btn go-btn">Go</button>
       </div>
-      <webview 
-        src="${initialUrl}" 
-        class="embedded-webview"
-        partition="persist:mirage-web"
-        allowpopups
-      ></webview>
+      <div class="webview-container">
+        <webview 
+          src="${initialUrl}" 
+          class="embedded-webview"
+          partition="persist:mirage-web"
+          allowpopups
+        ></webview>
+        <div class="webview-error-overlay hidden">
+          <div class="error-box">
+            <div class="error-title">This site can't be reached</div>
+            <div class="error-desc"></div>
+            <button class="settings-btn primary retry-btn">Retry</button>
+          </div>
+        </div>
+      </div>
     `;
     this.tabContentEl.appendChild(holder);
 
@@ -131,8 +140,12 @@ export class WorkspaceLeaf {
     const forwardBtn = holder.querySelector('.forward-btn') as HTMLButtonElement;
     const reloadBtn = holder.querySelector('.reload-btn') as HTMLButtonElement;
     const goBtn = holder.querySelector('.go-btn') as HTMLButtonElement;
+    const errorOverlay = holder.querySelector('.webview-error-overlay') as HTMLElement;
+    const errorDesc = holder.querySelector('.error-desc') as HTMLElement;
+    const retryBtn = holder.querySelector('.retry-btn') as HTMLButtonElement;
 
     const navigate = (input: string) => {
+      errorOverlay.classList.add('hidden');
       const targetUrl = formatUrlOrSearch(input);
       urlInput.value = targetUrl;
       webview.src = targetUrl;
@@ -144,7 +157,26 @@ export class WorkspaceLeaf {
     goBtn.onclick = () => navigate(urlInput.value);
     backBtn.onclick = () => webview.canGoBack?.() && webview.goBack();
     forwardBtn.onclick = () => webview.canGoForward?.() && webview.goForward();
-    reloadBtn.onclick = () => webview.reload?.();
+    reloadBtn.onclick = () => {
+      errorOverlay.classList.add('hidden');
+      webview.reload?.();
+    };
+    retryBtn.onclick = () => {
+      errorOverlay.classList.add('hidden');
+      webview.reload?.();
+    };
+
+    // 🟢 Friendly In-Tab Error Handler for unreachable sites (e.g. bing.co SSL/DNS error)
+    webview.addEventListener('did-fail-load', (e: any) => {
+      if (e.errorCode !== -3) {
+        errorDesc.textContent = `${e.validatedURL || urlInput.value} is unavailable (${e.errorDescription || 'Connection Failed'}). Check for typos or invalid certificates.`;
+        errorOverlay.classList.remove('hidden');
+      }
+    });
+
+    webview.addEventListener('did-start-loading', () => {
+      errorOverlay.classList.add('hidden');
+    });
 
     let displayTitle = 'Google';
     try {
@@ -322,6 +354,9 @@ export class WorkspaceLeaf {
         if (sourceLeaf !== this) {
           this.tabContentEl.appendChild(draggedTab.contentHolder);
           sourceLeaf._renderTabs();
+          if (sourceLeaf.activeTab === draggedTab) {
+            sourceLeaf.setActiveTab(sourceLeaf.tabs[sourceLeaf.tabs.length - 1] || null);
+          }
           if (sourceLeaf.tabs.length === 0) {
             this.workspace.closeLeaf(sourceLeaf);
           }
@@ -365,8 +400,12 @@ export class WorkspaceLeaf {
 
       if (sourceLeaf.tabs.length === 1 && this.workspace.leaves.length === 1) return;
 
+      // 🟢 Fix: Select remaining tab on source leaf so it never appears blank
       sourceLeaf.tabs = sourceLeaf.tabs.filter((tab) => tab.id !== tabId);
       sourceLeaf._renderTabs();
+      if (sourceLeaf.activeTab === draggedTab) {
+        sourceLeaf.setActiveTab(sourceLeaf.tabs[sourceLeaf.tabs.length - 1] || null);
+      }
 
       const newLeaf = this.workspace.openLeaf();
       newLeaf.tabContentEl.appendChild(draggedTab.contentHolder);
@@ -402,7 +441,6 @@ export class Workspace {
     this.rootEl = rootEl;
   }
 
-  // 🟢 State Persistence: Serializes entire tab layout to JSON
   public serializeState(): SavedWorkspaceState {
     const activeLeafIdx = Math.max(0, this.leaves.indexOf(this.activeLeaf!));
     return {
@@ -418,7 +456,6 @@ export class Workspace {
     };
   }
 
-  // 🟢 State Persistence: Restores leaves and tabs on app startup
   public restoreState(
     savedState: SavedWorkspaceState,
     editorFactory: (el: HTMLElement, path: string, tabId: string) => MarkdownEditor

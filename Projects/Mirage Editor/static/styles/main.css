@@ -8,7 +8,7 @@
   --accent-hover: #4b70be;
   --text-normal: #dcddde;
   --text-muted: #858585;
-  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-interface: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-mono: "Fira Code", "Cascadia Code", Consolas, monospace;
 }
 
@@ -22,7 +22,7 @@ html, body {
   height: 100%;
   background: var(--bg-primary);
   color: var(--text-normal);
-  font-family: var(--font-family);
+  font-family: var(--font-interface);
   overflow: hidden;
   user-select: none;
 }
@@ -81,7 +81,7 @@ html, body {
   padding: 6px 0;
 }
 
-/* Tree Component */
+/* 🟢 (2) Clean Tree Component (No File or Folder Icons) */
 .tree-list {
   display: flex;
   flex-direction: column;
@@ -91,8 +91,8 @@ html, body {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-right: 8px;
   cursor: pointer;
   font-size: 13px;
@@ -115,20 +115,11 @@ html, body {
   align-items: center;
   justify-content: center;
   transition: transform 0.15s ease;
+  flex-shrink: 0;
 }
 
 .tree-chevron.open {
   transform: rotate(90deg);
-}
-
-.tree-icon {
-  font-size: 13px;
-  line-height: 1;
-}
-
-.file-icon {
-  font-size: 12px;
-  opacity: 0.75;
 }
 
 .tree-label {
