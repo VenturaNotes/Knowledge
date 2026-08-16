@@ -251,17 +251,16 @@ const CSS = `
 
 /* Details row for side-by-side inputs */
 .gt-details-row { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; align-items: center !important; gap: 8px !important; width: 100% !important; box-sizing: border-box !important; }
-.gt-details-input { flex: 1 1 0% !important; width: 0 !important; min-width: 0 !important; box-sizing: border-box !important; background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 6px; padding: 8px 12px; font-size: 0.92rem; color: var(--text-normal); font-family: var(--font-monospace); text-align: center; transition: border-color 0.15s ease, background 0.15s ease; }
+.gt-details-input { flex: 1 1 0% !important; width: 0 !important; min-width: 0 !important; box-sizing: border-box !important; background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 6px; padding: 8px 12px; font-size: 0.92rem; color: var(--text-normal); font-family: var(--font-monospace); text-align: center; transition: border-color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease !important; }
 .gt-details-input:focus { border-color: var(--interactive-accent); outline: none; }
 
-/* Snappy 0.6s Blue Flash indicator when input is saved to Markdown */
-@keyframes gt-saved-pulse-blue {
-  0% { border-color: #3b82f6 !important; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3) !important; background: rgba(59, 130, 246, 0.12) !important; }
-  60% { border-color: #3b82f6 !important; box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15) !important; background: rgba(59, 130, 246, 0.05) !important; }
-  100% { border-color: var(--background-modifier-border) !important; box-shadow: none !important; background: var(--background-primary) !important; }
-}
-.gt-input-saved-blue {
-  animation: gt-saved-pulse-blue 0.3s ease-out !important;
+/* Blue Save Confirmation State - High specificity to override Obsidian themes */
+input.gt-details-input.gt-input-saved-blue,
+input.gt-details-input.gt-input-saved-blue:focus {
+  border-color: #3b82f6 !important;
+  background-color: rgba(59, 130, 246, 0.25) !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4) !important;
+  outline: none !important;
 }
 
 /* Expanded Rep Tracking UI */
@@ -285,7 +284,7 @@ const CSS = `
 `;
 
 function injectStyles() {
-  const ID = "gt-styles-v35";
+  const ID = "gt-styles-v36";
   if (!document.getElementById(ID)) {
     const s = document.createElement("style");
     s.id = ID;
@@ -756,7 +755,7 @@ async function startGymSession(app, file, leaf) {
         item.details2 = input2.value.trim();
         await saveWorkoutFile(app, file, lines, items);
 
-        // Flash snappy blue save animation (0.6s) on the specific input element that was modified
+        // Flash snappy blue save indicator (0.6s) on the specific input element that was modified
         if (inputEl) {
           inputEl.classList.remove("gt-input-saved-blue");
           void inputEl.offsetWidth; // Force reflow so animation re-triggers if edited repeatedly
