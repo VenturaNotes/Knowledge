@@ -10,9 +10,12 @@
 - (2) (in radiology) relating to or utilizing digitization.
 ## Source[^4]
 - adj. Of, relating to, consisting of, or containing digits or numerals; representing measurements in the form of discrete numbers rather than continuously varying quantities such as points on a dial. The term is descriptive of the form in which electronic data are stored and handled by computers. See also bit. Compare analogue (2). \[From Latin digitus a toe or finger + -alis of or related to]
+## Source[^5]
+- In numerical form. For example, a digital watch displays the time by numbers rather than the position of the hands in an analogue clock.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

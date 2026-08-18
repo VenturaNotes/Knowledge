@@ -7,8 +7,11 @@
 - $n$. the temperature-dependent gradual disintegration of dead organic matter, usually foodstuffs or tissues, by the chemical action of bacteria and/or fungi.
 ## Source[^3]
 - (decay) The chemical breakdown of organic matter into its constituents by the action of decomposers.
+## Source[^4]
+- The breakdown of a quantity or expression into simpler components. For example, $24 = 2 \times 2 \times 2 \times 3$ is the decomposition of 24 into its prime factors or the expression of a polynomial as a product of factors. More generally, decomposition might refer to the breakdown of a space into significant components, for example a vector space written as a direct sum of eigenspaces.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

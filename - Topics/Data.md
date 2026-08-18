@@ -21,6 +21,9 @@
 
 ## Source[^6]
 - n. pl. Facts or information collected for reference or analysis. In statistics and measurement theory, results of any empirical investigation, usually but not necessarily in the form of numerical scores, that may be interpreted to provide information about the outcome of the investigation. According to the US psychologist Clyde Hamilton Coombs (1912-88), data are what are derived from observations or raw scores by the application of a measurement model that may or may not be explicitly described. Often treated as singular (We have not finished analyzing this data), but this is avoided in careful usage. datum sing. \[From Latin data things given, from dare to give]
+## Source[^7]
+- The observations gathered from an experiment, survey or observational study. Often the data are a randomly selected sample from an underlying population. Numerical data are discrete if the underlying population is finite or denumerable and are continuous if the underlying population forms an interval, bounded or unbounded. Data are nominal if the observations are not numerical or quantitative but are descriptive and have no natural order. Data specifying country of origin, type of vehicle, or subject studied, for example, are nominal.
+- Note that the word 'data' is plural. The singular 'datum' may be used for a single observation.
 ## References
 
 [^1]: [[(Home Page) Principles of Economics 3e by OpenStax#Introduction to FRED]]
@@ -29,3 +32,4 @@
 [^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^6]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^7]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

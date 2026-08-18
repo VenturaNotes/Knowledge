@@ -10,9 +10,12 @@
 - (3) See BIOLOGICAL CONTROL; CHEMICAL CONTROL.
 ## Source[^4]
 - The mechanisms by which a control system exhibits authority on a physical system.
+## Source[^5]
+- To rule out the effects of variables other than the factors the experiment wishes to explore. This may be done by ensuring certain variables are the same, either by directly controlling, for example, temperature or by matching pairs of subjects, for example by weight. Randomization is then normally used so that any confounding variables which had not been controlled for by either of these techniques should not introduce a systematic source of bias.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

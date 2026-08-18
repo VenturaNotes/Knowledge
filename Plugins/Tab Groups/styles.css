@@ -1,9 +1,20 @@
-/* Hide tab headers, content panes, and empty split containers */
-.vtg-hidden {
+/* Hide inactive tab headers from the tab bar */
+.workspace-tab-header.vtg-hidden {
     display: none !important;
 }
 
-/* Hide split resize handles strictly inside the root workspace when adjacent to a hidden container */
+/* Hide inactive leaf view containers */
+.workspace-leaf.vtg-hidden {
+    display: none !important;
+}
+
+/* Hide empty split tab containers */
+.workspace-tabs.vtg-hidden,
+.workspace-split.vtg-hidden {
+    display: none !important;
+}
+
+/* Hide split resize handles strictly adjacent to hidden containers in root */
 .workspace-split.mod-root .vtg-hidden + .workspace-leaf-resize-handle,
 .workspace-split.mod-root .workspace-leaf-resize-handle:has(+ .vtg-hidden) {
     display: none !important;
