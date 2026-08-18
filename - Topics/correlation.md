@@ -12,6 +12,8 @@
 - $n$. In statistics, the degree of (usually) linear relationship between two variables such that high scores on one tend to go with high scores on the other and low scores on one with low scores on the other (positive correlation), or such that high scores on one tend to go with low scores on the other (negative correlation). The most commonly used index of correlation, the product-moment correlation coefficient, symbolized by $r$, ranges from 1.00 for perfect positive correlation, through zero for uncorrelated variables, to -1.00 for perfect negative correlation. The concept of the correlation coefficient was first suggested by the English explorer, amateur scientist, and psychologist Sir Francis Galton (1822-1911) at a meeting of the Royal Institution in London in 1877. See also autocorrelation, Kendall's tau, partial correlation, Spearman rank CORRELATION COEFFICIENT. correlate $v b$. correlational adj. \[From Latin com together + relatio a relation + -ion indicating an action, process, or state]
 ## Source[^5]
 - The process of comparison of signals to establish how alike they are, or the extent of correspondence so found. When two signals are compared with each other, the process is known as cross correlation, and if a signal is compared with itself it is referred to as autocorrelation. The correlation function is the result of multiplying the signals together for different values of time delay between them. A peak in the correlation function indicates a delay at which the signals have a degree of periodicity, and the delay associated with such a peak gives the time period.
+## Source[^6]
+- An alteration made to the result of an observation or calculation in order to improve its accuracy. For example, government estimates of the number of homeless people will be higher than the recorded totals in the census, because it is known that the census will not be able to accurately record all homeless people.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -19,3 +21,4 @@
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

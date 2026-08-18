@@ -22,7 +22,10 @@
 ## Source[^2]
 - (1) (of a conditional, $P \to Q$) The statement $$\lnot P \to \lnot Q$$where $\lnot$ denotes negation. See also CONTRAPOSITIVE, INVERSE
 - (2) (of a binary relation) Another name for inverse
+## Source[^3]
+- The converse of an implication $p \Rightarrow q$ is the implication $q \Rightarrow p$. If an implication is true, then its converse may or may not be true.
 ## References
 
 [^1]: [[(15) The Conditional and Its Related Statements]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

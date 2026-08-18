@@ -19,9 +19,12 @@ aliases:
 - A diagram that illustrates the choices available to a decision maker and the estimated outcomes of each possible decision. Each possible decision is shown as a separate branch of the tree, together with each estimated outcome for each decision and the subjective probabilities of these outcomes actually occurring. From this information the expected values for each outcome can be determined, which can provide valuable information in decision making. For an example see the diagram.
 - ![[Screenshot 2025-06-14 at 10.54.37 AM.png|400]]
 	- Decision tree. A decision tree showing the outcome of a speculative sale and purchase of a commodity, assuming that there is an equal probability of a 10 point market rise and a 10 point market fall. It is assumed that there is a stop loss order to cover after an adverse market movement of 10 points, but profits are allowed to run.
+## Source[^5]
+- The diagram used to represent the process in a decision analysis problem. Different symbols are used to denote the different types of node or vertex. For example, decisions may be shown as rectangles, chance events as circles, and payoffs as triangles.
 ## References
 
 [^1]: https://medium.com/@lucasgreenwell15/intro-to-decision-trees-for-computer-science-students-671d3093a531
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

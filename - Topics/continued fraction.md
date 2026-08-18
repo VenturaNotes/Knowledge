@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An expression of the form $q_1 + 1/b_2$, where $b_2 = q_2 + 1/b_3$, $b_3 = q_3 + 1/b_4$, and so on, where $q_1, q_2, \dots$ are positive integers, with the possible exception of $q_1$. This can be written$$q_1 + \frac{1}{q_2 + \frac{1}{q_3 + \frac{1}{q_4 + \dots}}}$$or, in a form that is easier to print,$$q_1 + \frac{1}{q_2+} \frac{1}{q_3+} \frac{1}{q_4 + \dots}$$If the continued fraction terminates, it gives a rational number. The expression of any given positive rational number as a continued fraction can be found by using the Euclidean algorithm. For example, 1274/871 is found, by using the steps which appear in the entry on the Euclidean algorithm, to equal$$ 1 + \frac{1}{2+} \frac{1}{6+} \frac{1}{5}$$When the continued fraction continues indefinitely, it represents a real number that is the limit of the sequence$$q_1, q_1 + \frac{1}{q_2}, q_1 + \frac{1}{q_2 + \frac{1}{q_3}}, q_1 + \frac{1}{q_2 + \frac{1}{q_3 + \frac{1}{q_4}}}, \dots$$and every real number can be uniquely represented by a continued fraction. For example, representation of $\sqrt{2}$ as a continued fraction is$$1 + \frac{1}{2+} \frac{1}{2+} \frac{1}{2 + \dots}.$$
+## References
+
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
