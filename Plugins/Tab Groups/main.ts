@@ -29,9 +29,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     statusBarItemEl: HTMLElement;
     prevLeafCount: number = 0;
     private isApplyingVisibility = false;
-    private resizeRaf: number | null = null;
-    private resizeObserver: ResizeObserver | null = null;
-    private observer: MutationObserver | null = null;
 
     async onload() {
         await this.loadSettings();
@@ -43,87 +40,12 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         this.statusBarItemEl = this.addStatusBarItem();
         this.updateStatusBar();
 
-        // Register event listeners using Obsidian's standard workspace events
+        // Register layout event listeners
         this.registerEvent(
             this.app.workspace.on('layout-change', () => {
                 this.applyVisibility();
-                this.scheduleReposition();
             })
         );
-
-        // Keep sidebar buttons synchronized through window, fullscreen, and workspace resizing
-        this.registerDomEvent(window, 'resize', () => {
-            this.onWindowResizeOrFullscreen();
-        });
-
-        this.registerDomEvent(document, 'fullscreenchange', () => {
-            this.onWindowResizeOrFullscreen();
-        });
-
-        this.registerEvent(
-            this.app.workspace.on('resize', () => {
-                this.onWindowResizeOrFullscreen();
-            })
-        );
-
-        // Hook Electron native window events (covers MoveToMainSpace.js and native macOS full-screen exits)
-        try {
-            const electron = (window as any).require?.('electron');
-            const remote = electron?.remote || (electron?.main ? electron.main : null);
-            const win = remote?.getCurrentWindow?.() || electron?.getCurrentWindow?.();
-            if (win) {
-                const onWinEvent = () => this.onWindowResizeOrFullscreen();
-                win.on('leave-full-screen', onWinEvent);
-                win.on('enter-full-screen', onWinEvent);
-                win.on('resize', onWinEvent);
-                this.register(() => {
-                    win.removeListener('leave-full-screen', onWinEvent);
-                    win.removeListener('enter-full-screen', onWinEvent);
-                    win.removeListener('resize', onWinEvent);
-                });
-            }
-        } catch (e) {}
-
-        // Use standard ResizeObserver on root workspace to automatically catch macOS full-screen transitions
-        this.app.workspace.onLayoutReady(() => {
-            const rootEl = document.querySelector('.mod-root');
-            if (rootEl) {
-                this.resizeObserver = new ResizeObserver(() => {
-                    this.scheduleReposition();
-                });
-                this.resizeObserver.observe(rootEl);
-
-                // Scoped MutationObserver: watches tab headers only (0 overhead during typing/reading)
-                this.observer = new MutationObserver((mutations) => {
-                    let shouldReposition = false;
-                    for (const m of mutations) {
-                        if (m.type === 'childList') {
-                            const target = m.target as HTMLElement;
-                            if (target && (
-                                target.classList?.contains('workspace-tab-header-container') ||
-                                target.classList?.contains('workspace-tabs') ||
-                                target.closest?.('.workspace-tab-header-container')
-                            )) {
-                                shouldReposition = true;
-                                break;
-                            }
-                        }
-                    }
-                    if (shouldReposition) {
-                        this.scheduleReposition();
-                    }
-                });
-
-                this.observer.observe(rootEl, {
-                    childList: true,
-                    subtree: true
-                });
-            }
-
-            this.prevLeafCount = this.getLeafCount();
-            this.applyVisibility();
-            this.scheduleReposition();
-        });
 
         // Track active tab changes
         this.registerEvent(
@@ -160,7 +82,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                 }
 
                 this.applyVisibility();
-                this.scheduleReposition();
             })
         );
 
@@ -282,19 +203,14 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         });
 
         this.addSettingTab(new VirtualTabGroupsSettingTab(this.app, this));
+
+        this.app.workspace.onLayoutReady(() => {
+            this.prevLeafCount = this.getLeafCount();
+            this.applyVisibility();
+        });
     }
 
     onunload() {
-        if (this.resizeRaf) cancelAnimationFrame(this.resizeRaf);
-        if (this.resizeObserver) {
-            this.resizeObserver.disconnect();
-            this.resizeObserver = null;
-        }
-        if (this.observer) {
-            this.observer.disconnect();
-            this.observer = null;
-        }
-
         // Clean up classes when disabling plugin
         const rootSplit = this.app.workspace.rootSplit as any;
         if (rootSplit && Array.isArray(rootSplit.children)) {
@@ -309,176 +225,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         this.app.workspace.iterateRootLeaves((leaf) => {
             this.showLeaf(leaf);
         });
-    }
-
-    /**
-     * Handles window resize and fullscreen changes, with follow-ups to catch
-     * macOS 500ms window transition animations.
-     */
-    private onWindowResizeOrFullscreen() {
-        this.scheduleReposition();
-        setTimeout(() => this.scheduleReposition(), 300);
-        setTimeout(() => this.scheduleReposition(), 600);
-    }
-
-    /**
-     * One-shot repositioning in a single visual frame.
-     */
-    private scheduleReposition() {
-        if (this.resizeRaf) cancelAnimationFrame(this.resizeRaf);
-        this.resizeRaf = requestAnimationFrame(() => {
-            this.repositionSidebarButtons();
-            this.resizeRaf = null;
-        });
-    }
-
-    /**
-     * Determines true visual top-left and top-right containers geometrically.
-     * Uses .closest('.vtg-hidden') so panes inside hidden parent split containers are never selected.
-     */
-    private getTopmostVisibleContainers(): { topLeft: HTMLElement | null; topRight: HTMLElement | null } {
-        const allContainers = Array.from(document.querySelectorAll('.mod-root .workspace-tabs')) as HTMLElement[];
-        const visible = allContainers.filter((el) => {
-            return !el.closest('.vtg-hidden') && el.offsetWidth > 0 && el.offsetHeight > 0;
-        });
-
-        if (visible.length === 0) {
-            const nonHidden = allContainers.filter((el) => !el.closest('.vtg-hidden'));
-            if (nonHidden.length > 0) {
-                return { topLeft: nonHidden[0] ?? null, topRight: nonHidden[nonHidden.length - 1] ?? null };
-            }
-            return { topLeft: null, topRight: null };
-        }
-
-        let minTop = Infinity;
-        const withRects = visible.map((el) => {
-            const rect = el.getBoundingClientRect();
-            if (rect.top < minTop) minTop = rect.top;
-            return { el, rect };
-        });
-
-        const topRow = withRects.filter(item => Math.abs(item.rect.top - minTop) < 10);
-
-        if (topRow.length === 0) return { topLeft: null, topRight: null };
-
-        topRow.sort((a, b) => a.rect.left - b.rect.left);
-
-        const firstItem = topRow[0];
-        const lastItem = topRow[topRow.length - 1];
-
-        const topLeft = firstItem?.el ?? null;
-        const topRight = lastItem?.el ?? null;
-
-        return { topLeft, topRight };
-    }
-
-    private toggleSidebar(side: 'left' | 'right') {
-        const split = side === 'left' ? (this.app.workspace.leftSplit as any) : (this.app.workspace.rightSplit as any);
-        if (split) {
-            if (typeof split.expand === 'function' && split.collapsed) {
-                split.expand();
-            } else if (typeof split.collapse === 'function' && !split.collapsed) {
-                split.collapse();
-            } else if (typeof split.toggle === 'function') {
-                split.toggle();
-            } else {
-                (this.app as any).commands?.executeCommandById(side === 'left' ? 'app:toggle-left-sidebar' : 'app:toggle-right-sidebar');
-            }
-        } else {
-            (this.app as any).commands?.executeCommandById(side === 'left' ? 'app:toggle-left-sidebar' : 'app:toggle-right-sidebar');
-        }
-    }
-
-    private createRightSidebarButton(): HTMLElement {
-        const btn = createDiv({
-            cls: 'clickable-icon sidebar-toggle-button mod-right',
-            attr: {
-                'aria-label': 'Expand right sidebar',
-                'aria-label-position': 'bottom'
-            }
-        });
-        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-right"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M15 3v18"></path></svg>`;
-        btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.toggleSidebar('right');
-        });
-        return btn;
-    }
-
-    private createLeftSidebarButton(): HTMLElement {
-        const btn = createDiv({
-            cls: 'clickable-icon sidebar-toggle-button mod-left',
-            attr: {
-                'aria-label': 'Expand left sidebar',
-                'aria-label-position': 'bottom'
-            }
-        });
-        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-left"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M9 3v18"></path></svg>`;
-        btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.toggleSidebar('left');
-        });
-        return btn;
-    }
-
-    /**
-     * Safely ensures the first and last visible panes have access to native sidebar toggle buttons
-     * and maintains native Obsidian spacing (.mod-top-left-space and .mod-top-right-space).
-     */
-    repositionSidebarButtons() {
-        const { topLeft, topRight } = this.getTopmostVisibleContainers();
-        if (!topLeft || !topRight) return;
-
-        const isLeftCollapsed = !!(this.app.workspace.leftSplit?.collapsed ?? (this.app.workspace.leftSplit as any)?.isCollapsed?.());
-        const isRightCollapsed = !!(this.app.workspace.rightSplit?.collapsed ?? (this.app.workspace.rightSplit as any)?.isCollapsed?.());
-
-        // 1. Maintain native space classes across visible containers
-        const allContainers = Array.from(document.querySelectorAll('.mod-root .workspace-tabs')) as HTMLElement[];
-        allContainers.forEach((el) => {
-            if (el === topLeft && !el.closest('.vtg-hidden')) {
-                el.classList.toggle('mod-top-left-space', isLeftCollapsed);
-            } else {
-                el.classList.remove('mod-top-left-space');
-            }
-
-            if (el === topRight && !el.closest('.vtg-hidden')) {
-                el.classList.toggle('mod-top-right-space', isRightCollapsed);
-            } else {
-                el.classList.remove('mod-top-right-space');
-            }
-        });
-
-        // 2. Manage Left Sidebar Button (only when left sidebar is closed)
-        if (isLeftCollapsed && topLeft) {
-            const topLeftHeader = topLeft.querySelector('.workspace-tab-header-container');
-            if (topLeftHeader) {
-                const hasLeftBtn = !!topLeftHeader.querySelector('.sidebar-toggle-button.mod-left');
-                if (!hasLeftBtn) {
-                    const existingLeftBtn = document.querySelector('.sidebar-toggle-button.mod-left');
-                    if (existingLeftBtn && !topLeftHeader.contains(existingLeftBtn)) {
-                        topLeftHeader.prepend(existingLeftBtn);
-                    } else if (!existingLeftBtn) {
-                        topLeftHeader.prepend(this.createLeftSidebarButton());
-                    }
-                }
-            }
-        }
-
-        // 3. Manage Right Sidebar Button (only when right sidebar is closed)
-        if (isRightCollapsed && topRight) {
-            const topRightHeader = topRight.querySelector('.workspace-tab-header-container');
-            if (topRightHeader) {
-                const hasRightBtn = !!topRightHeader.querySelector('.sidebar-toggle-button.mod-right');
-                if (!hasRightBtn) {
-                    const existingRightBtn = document.querySelector('.sidebar-toggle-button.mod-right');
-                    if (existingRightBtn && !topRightHeader.contains(existingRightBtn)) {
-                        topRightHeader.appendChild(existingRightBtn);
-                    } else if (!existingRightBtn) {
-                        topRightHeader.appendChild(this.createRightSidebarButton());
-                    }
-                }
-            }
-        }
     }
 
     async loadSettings() {
@@ -841,7 +587,24 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                 }
             }
 
-            // 6. Focus the saved or best visible leaf
+            // 6. Ensure macOS traffic light padding is preserved on the first visible container
+            const isLeftCollapsed = !!(this.app.workspace.leftSplit?.collapsed ?? (this.app.workspace.leftSplit as any)?.isCollapsed?.());
+            const allContainers = Array.from(document.querySelectorAll('.mod-root .workspace-tabs')) as HTMLElement[];
+            let isFirstVisible = true;
+            allContainers.forEach((el) => {
+                if (!el.closest('.vtg-hidden')) {
+                    if (isFirstVisible) {
+                        el.classList.toggle('mod-top-left-space', isLeftCollapsed);
+                        isFirstVisible = false;
+                    } else {
+                        el.classList.remove('mod-top-left-space');
+                    }
+                } else {
+                    el.classList.remove('mod-top-left-space', 'mod-top-right-space');
+                }
+            });
+
+            // 7. Focus the saved or best visible leaf
             const currentActive = this.getActiveLeafInContainer();
             let targetLeaf: WorkspaceLeaf | null = null;
             const savedLastActiveId = this.settings.groupLastActiveLeaf[activeGroup];
@@ -887,7 +650,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
 
             this.updateStatusBar();
-            this.scheduleReposition();
         } finally {
             this.isApplyingVisibility = false;
         }
