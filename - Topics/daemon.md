@@ -1,5 +1,7 @@
 ## Synthesis
-- 
+- To restart a background daemon process, you can just do
+	- `launchctl kickstart -k gui/$(id -u)/com.julianventura.obsidiansentinel`
+		- [ ] Can you use this command even if a background daemon process wasn't running?
 ## Source [^1]
 - A background program on [[Unix System|Unix Systems]] that performs housekeeping and maintenance functions automatically.
 	- [ ] #question What does this look like?
