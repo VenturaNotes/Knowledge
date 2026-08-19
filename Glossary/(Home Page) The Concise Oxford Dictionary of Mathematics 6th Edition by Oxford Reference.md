@@ -2934,6 +2934,7 @@ Year: 2021-09-01
 	1718. opposite side
 	1719. optimality condition
 	1720. optimal strategy
+		1. See FUNDAMENTAL THEOREM OF GAME THEORY.
 	1721. or
 	1722. orbit
 	1723. orbit
@@ -3162,8 +3163,10 @@ Year: 2021-09-01
 	1941. possible
 	1942. [[post-optimal analysis]]
 	1943. posterior distribution
+		1. See PRIOR DISTRIBUTION.
 	1944. posterior probability
-	1945. postmultiplication
+		1. See PRIOR PROBABILITY.
+	1945. [[postmultiplication]]
 	1946. postulate
 	1947. potential
 	1948. potential energy
@@ -3203,7 +3206,9 @@ Year: 2021-09-01
 	1979. primitive(nth root of unity)
 	1980. primitive
 	1981. primitive element
+		1. See SIMPLE EXTENSION.
 	1982. primitive root
+		1. See DISCRETE LOGARITHM.
 	1983. principal axes(in mechanics)
 	1984. principal axes(of a quadric)
 	1985. [[principal ideal]]
@@ -3441,12 +3446,16 @@ Year: 2021-09-01
 	2201. reliability
 	2202. remainder
 	2203. remainder theorem
-	2204. removable singularity
+	2204. [[removable singularity]]
 	2205. repeated integral
-	2206. repeated measures designs
+		1. A synonym for MULTIPLE INTEGRAL.
+	2206. [[repeated measures designs]]
 	2207. repeated root
+		1. See ROOT.
 	2208. repeating decimal
+		1. See DECIMAL REPRESENTATION.
 	2209. repelling fixed point
+		1. See FIXED-POINT ITERATION.
 	2210. [[repetition codes]]
 	2211. [[replicable]]
 	2212. representation(of a vector)

@@ -297,7 +297,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
      * Safely creates a leaf inside the primary (top-left) editor container so
      * that sidebar controls (which live in the primary tab header) are never lost.
      */
-        }
     getPrimaryRootLeaf(): WorkspaceLeaf {
         let firstRootLeaf: WorkspaceLeaf | null = null;
         this.app.workspace.iterateRootLeaves((leaf) => {

@@ -7,7 +7,7 @@ tags:
 ---
 ## Synthesis
 - ![[(338) Counting Bits 2026-08-10 17.30.03.excalidraw]]
-- [ ] How can I do this in linear time the problem? What is the optimal solution?
+- [ ] How can I do this in linear time? What is the optimal solution?
 ### Approach 1
 ```python
 class Solution:
@@ -83,7 +83,7 @@ expand_less
 - **i >> n**: Shifts bits right by n positions (effectively i // (2**n)).
 [/1]
 
-
+[2]
 * Shifting a number right by 1 bit (`i >> 1`) removes its last (least significant) bit.
 * The number of 1s in $i$ is equal to:
   $$\text{count}(i) = \text{count}(i // 2) + (\text{last bit of } i)$$
@@ -107,7 +107,6 @@ class Solution:
 * **Space Complexity:** $O(1)$ auxiliary space (excluding the output array).
 
 ---
-
 ### Method 2: Drop the Rightmost Set Bit (`i & (i - 1)`)
 
 There is a famous bit manipulation trick: **`i & (i - 1)` always clears the lowest (rightmost) set bit (`1`) of $i$.**
@@ -144,6 +143,7 @@ class Solution:
 | **Method 2 (`i & (i - 1)`)** | $O(n)$ | Reuses the result of turning off $i$'s rightmost `1` bit. |
 
 Method 1 and Method 2 are both single-pass solutions that run in linear time. Method 2 is often considered the most elegant bit manipulation approach on LeetCode!
+[/2]
 
 ## Source [^1]
 - ![[Screenshot 2024-12-08 at 9.42.17 PM.png]]
