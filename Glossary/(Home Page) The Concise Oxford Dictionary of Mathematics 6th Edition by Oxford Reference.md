@@ -1574,11 +1574,15 @@ Year: 2021-09-01
 - Created
 	274. [[direction ratios]]
 	275. directly proportional
+		1. See PROPORTION.
 	276. direct product
+			1. See PRODUCT GROUP, SEMI-DIRECT PRODUCT.
 	277. directrix
-	278. direct sum
+		1. (directrices) See CONIC, ELLIPSE, HYPERBOLA, PARABOLA.
+	278. [[direct sum]]
 	279. direct variation
-	280. Dirichlet's approximation theorem
+		1. See PROPORTION.
+	280. [[Dirichlet's approximation theorem]]
 	281. Dirichlet's test
 	282. Dirichlet, Peter Gustav Lejeune (1805-59)
 	283. Dirichlet function

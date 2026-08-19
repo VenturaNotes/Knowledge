@@ -19,16 +19,10 @@
     display: none !important;
 }
 
-/* Ensure the tab-list chevron is always visible, never collapses, and stays distinct from the right sidebar icon */
-.mod-root .workspace-tab-header-container > .workspace-tab-header-tab-list {
-    display: flex !important;
-    visibility: visible !important;
-    flex-shrink: 0 !important;
-    margin-right: 4px !important;
-}
-
-.mod-root .workspace-tab-header-container > .sidebar-toggle-button.mod-right {
-    display: flex !important;
-    visibility: visible !important;
-    flex-shrink: 0 !important;
+/* Completely remove the New Tab (+), Tab List Chevron (v), and Sidebar Toggle buttons from the tab bar */
+.mod-root .workspace-tab-header-new-tab,
+.mod-root .workspace-tab-header-tab-list,
+.mod-root .sidebar-toggle-button.mod-left,
+.mod-root .sidebar-toggle-button.mod-right {
+    display: none !important;
 }
