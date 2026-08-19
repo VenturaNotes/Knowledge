@@ -28,6 +28,10 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     leafToGroupMap: Map<string, string>;
     statusBarItemEl: HTMLElement;
     prevLeafCount: number = 0;
+    private isApplyingVisibility = false;
+    private resizeRaf: number | null = null;
+    private resizeObserver: ResizeObserver | null = null;
+    private observer: MutationObserver | null = null;
 
     async onload() {
         await this.loadSettings();
@@ -43,14 +47,83 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         this.registerEvent(
             this.app.workspace.on('layout-change', () => {
                 this.applyVisibility();
+                this.scheduleReposition();
             })
         );
 
+        // Keep sidebar buttons synchronized through window, fullscreen, and workspace resizing
+        this.registerDomEvent(window, 'resize', () => {
+            this.onWindowResizeOrFullscreen();
+        });
+
+        this.registerDomEvent(document, 'fullscreenchange', () => {
+            this.onWindowResizeOrFullscreen();
+        });
+
         this.registerEvent(
             this.app.workspace.on('resize', () => {
-                this.repositionSidebarButtons();
+                this.onWindowResizeOrFullscreen();
             })
         );
+
+        // Hook Electron native window events (covers MoveToMainSpace.js and native macOS full-screen exits)
+        try {
+            const electron = (window as any).require?.('electron');
+            const remote = electron?.remote || (electron?.main ? electron.main : null);
+            const win = remote?.getCurrentWindow?.() || electron?.getCurrentWindow?.();
+            if (win) {
+                const onWinEvent = () => this.onWindowResizeOrFullscreen();
+                win.on('leave-full-screen', onWinEvent);
+                win.on('enter-full-screen', onWinEvent);
+                win.on('resize', onWinEvent);
+                this.register(() => {
+                    win.removeListener('leave-full-screen', onWinEvent);
+                    win.removeListener('enter-full-screen', onWinEvent);
+                    win.removeListener('resize', onWinEvent);
+                });
+            }
+        } catch (e) {}
+
+        // Use standard ResizeObserver on root workspace to automatically catch macOS full-screen transitions
+        this.app.workspace.onLayoutReady(() => {
+            const rootEl = document.querySelector('.mod-root');
+            if (rootEl) {
+                this.resizeObserver = new ResizeObserver(() => {
+                    this.scheduleReposition();
+                });
+                this.resizeObserver.observe(rootEl);
+
+                // Scoped MutationObserver: watches tab headers only (0 overhead during typing/reading)
+                this.observer = new MutationObserver((mutations) => {
+                    let shouldReposition = false;
+                    for (const m of mutations) {
+                        if (m.type === 'childList') {
+                            const target = m.target as HTMLElement;
+                            if (target && (
+                                target.classList?.contains('workspace-tab-header-container') ||
+                                target.classList?.contains('workspace-tabs') ||
+                                target.closest?.('.workspace-tab-header-container')
+                            )) {
+                                shouldReposition = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (shouldReposition) {
+                        this.scheduleReposition();
+                    }
+                });
+
+                this.observer.observe(rootEl, {
+                    childList: true,
+                    subtree: true
+                });
+            }
+
+            this.prevLeafCount = this.getLeafCount();
+            this.applyVisibility();
+            this.scheduleReposition();
+        });
 
         // Track active tab changes
         this.registerEvent(
@@ -87,6 +160,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                 }
 
                 this.applyVisibility();
+                this.scheduleReposition();
             })
         );
 
@@ -149,20 +223,15 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                         return;
                     }
 
-                    // Replace old group name in list
                     this.settings.groups = this.settings.groups.map(g => g === currentGroup ? newName : g);
-                    
-                    // Update active settings context
                     this.settings.activeGroup = newName;
 
-                    // Re-assign mapping values
                     for (const [leafId, g] of this.leafToGroupMap.entries()) {
                         if (g === currentGroup) {
                             this.leafToGroupMap.set(leafId, newName);
                         }
                     }
 
-                    // Rename active history reference if applicable
                     if (this.settings.groupLastActiveLeaf[currentGroup]) {
                         this.settings.groupLastActiveLeaf[newName] = this.settings.groupLastActiveLeaf[currentGroup];
                         delete this.settings.groupLastActiveLeaf[currentGroup];
@@ -179,7 +248,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             id: 'delete-tab-group',
             name: 'Delete a Tab Group',
             callback: () => {
-                // Ensure there is at least one custom group to delete
                 if (this.settings.groups.length <= 1) {
                     new Notice("No custom tab groups available to delete.");
                     return;
@@ -214,65 +282,201 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         });
 
         this.addSettingTab(new VirtualTabGroupsSettingTab(this.app, this));
-
-        // Once Obsidian's workspace layout is completely ready, run the visibility mask
-        this.app.workspace.onLayoutReady(() => {
-            this.prevLeafCount = this.getLeafCount();
-            this.applyVisibility();
-        });
     }
 
     onunload() {
-        // Clean up our classes when disabling the plugin so tabs/splits return to normal
+        if (this.resizeRaf) cancelAnimationFrame(this.resizeRaf);
+        if (this.resizeObserver) {
+            this.resizeObserver.disconnect();
+            this.resizeObserver = null;
+        }
+        if (this.observer) {
+            this.observer.disconnect();
+            this.observer = null;
+        }
+
+        // Clean up classes when disabling plugin
         const rootSplit = this.app.workspace.rootSplit as any;
         if (rootSplit && Array.isArray(rootSplit.children)) {
             rootSplit.children.forEach((child: any) => {
                 this.clearVisibilityHidden(child);
             });
         }
+        const allContainers = document.querySelectorAll('.mod-root .workspace-tabs');
+        allContainers.forEach((el) => {
+            el.classList.remove('mod-top-left-space', 'mod-top-right-space');
+        });
         this.app.workspace.iterateRootLeaves((leaf) => {
             this.showLeaf(leaf);
         });
     }
 
     /**
-     * Ensures sidebar toggle buttons are always positioned inside the visible tab headers
+     * Handles window resize and fullscreen changes, with follow-ups to catch
+     * macOS 500ms window transition animations.
+     */
+    private onWindowResizeOrFullscreen() {
+        this.scheduleReposition();
+        setTimeout(() => this.scheduleReposition(), 300);
+        setTimeout(() => this.scheduleReposition(), 600);
+    }
+
+    /**
+     * One-shot repositioning in a single visual frame.
+     */
+    private scheduleReposition() {
+        if (this.resizeRaf) cancelAnimationFrame(this.resizeRaf);
+        this.resizeRaf = requestAnimationFrame(() => {
+            this.repositionSidebarButtons();
+            this.resizeRaf = null;
+        });
+    }
+
+    /**
+     * Determines true visual top-left and top-right containers geometrically.
+     * Uses .closest('.vtg-hidden') so panes inside hidden parent split containers are never selected.
+     */
+    private getTopmostVisibleContainers(): { topLeft: HTMLElement | null; topRight: HTMLElement | null } {
+        const allContainers = Array.from(document.querySelectorAll('.mod-root .workspace-tabs')) as HTMLElement[];
+        const visible = allContainers.filter((el) => {
+            return !el.closest('.vtg-hidden') && el.offsetWidth > 0 && el.offsetHeight > 0;
+        });
+
+        if (visible.length === 0) {
+            const nonHidden = allContainers.filter((el) => !el.closest('.vtg-hidden'));
+            if (nonHidden.length > 0) {
+                return { topLeft: nonHidden[0] ?? null, topRight: nonHidden[nonHidden.length - 1] ?? null };
+            }
+            return { topLeft: null, topRight: null };
+        }
+
+        let minTop = Infinity;
+        const withRects = visible.map((el) => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < minTop) minTop = rect.top;
+            return { el, rect };
+        });
+
+        const topRow = withRects.filter(item => Math.abs(item.rect.top - minTop) < 10);
+
+        if (topRow.length === 0) return { topLeft: null, topRight: null };
+
+        topRow.sort((a, b) => a.rect.left - b.rect.left);
+
+        const firstItem = topRow[0];
+        const lastItem = topRow[topRow.length - 1];
+
+        const topLeft = firstItem?.el ?? null;
+        const topRight = lastItem?.el ?? null;
+
+        return { topLeft, topRight };
+    }
+
+    private toggleSidebar(side: 'left' | 'right') {
+        const split = side === 'left' ? (this.app.workspace.leftSplit as any) : (this.app.workspace.rightSplit as any);
+        if (split) {
+            if (typeof split.expand === 'function' && split.collapsed) {
+                split.expand();
+            } else if (typeof split.collapse === 'function' && !split.collapsed) {
+                split.collapse();
+            } else if (typeof split.toggle === 'function') {
+                split.toggle();
+            } else {
+                (this.app as any).commands?.executeCommandById(side === 'left' ? 'app:toggle-left-sidebar' : 'app:toggle-right-sidebar');
+            }
+        } else {
+            (this.app as any).commands?.executeCommandById(side === 'left' ? 'app:toggle-left-sidebar' : 'app:toggle-right-sidebar');
+        }
+    }
+
+    private createRightSidebarButton(): HTMLElement {
+        const btn = createDiv({
+            cls: 'clickable-icon sidebar-toggle-button mod-right',
+            attr: {
+                'aria-label': 'Expand right sidebar',
+                'aria-label-position': 'bottom'
+            }
+        });
+        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-right"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M15 3v18"></path></svg>`;
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.toggleSidebar('right');
+        });
+        return btn;
+    }
+
+    private createLeftSidebarButton(): HTMLElement {
+        const btn = createDiv({
+            cls: 'clickable-icon sidebar-toggle-button mod-left',
+            attr: {
+                'aria-label': 'Expand left sidebar',
+                'aria-label-position': 'bottom'
+            }
+        });
+        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-left"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M9 3v18"></path></svg>`;
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.toggleSidebar('left');
+        });
+        return btn;
+    }
+
+    /**
+     * Safely ensures the first and last visible panes have access to native sidebar toggle buttons
+     * and maintains native Obsidian spacing (.mod-top-left-space and .mod-top-right-space).
      */
     repositionSidebarButtons() {
-        const visibleTabContainers: HTMLElement[] = [];
-        const allContainers = document.querySelectorAll('.mod-root .workspace-tabs:not(.vtg-hidden)');
+        const { topLeft, topRight } = this.getTopmostVisibleContainers();
+        if (!topLeft || !topRight) return;
+
+        const isLeftCollapsed = !!(this.app.workspace.leftSplit?.collapsed ?? (this.app.workspace.leftSplit as any)?.isCollapsed?.());
+        const isRightCollapsed = !!(this.app.workspace.rightSplit?.collapsed ?? (this.app.workspace.rightSplit as any)?.isCollapsed?.());
+
+        // 1. Maintain native space classes across visible containers
+        const allContainers = Array.from(document.querySelectorAll('.mod-root .workspace-tabs')) as HTMLElement[];
         allContainers.forEach((el) => {
-            if (el instanceof HTMLElement) {
-                visibleTabContainers.push(el);
+            if (el === topLeft && !el.closest('.vtg-hidden')) {
+                el.classList.toggle('mod-top-left-space', isLeftCollapsed);
+            } else {
+                el.classList.remove('mod-top-left-space');
+            }
+
+            if (el === topRight && !el.closest('.vtg-hidden')) {
+                el.classList.toggle('mod-top-right-space', isRightCollapsed);
+            } else {
+                el.classList.remove('mod-top-right-space');
             }
         });
 
-        if (visibleTabContainers.length === 0) return;
-
-        const first = visibleTabContainers[0];
-        const last = visibleTabContainers[visibleTabContainers.length - 1];
-
-        // Left sidebar button (when left sidebar is closed)
-        if (this.app.workspace.leftSplit?.collapsed) {
-            const leftBtn = document.querySelector('.sidebar-toggle-button.mod-left');
-            if (leftBtn && first) {
-                const headerContainer = first.querySelector('.workspace-tab-header-container');
-                if (headerContainer && !headerContainer.contains(leftBtn)) {
-                    headerContainer.prepend(leftBtn);
+        // 2. Manage Left Sidebar Button (only when left sidebar is closed)
+        if (isLeftCollapsed && topLeft) {
+            const topLeftHeader = topLeft.querySelector('.workspace-tab-header-container');
+            if (topLeftHeader) {
+                const hasLeftBtn = !!topLeftHeader.querySelector('.sidebar-toggle-button.mod-left');
+                if (!hasLeftBtn) {
+                    const existingLeftBtn = document.querySelector('.sidebar-toggle-button.mod-left');
+                    if (existingLeftBtn && !topLeftHeader.contains(existingLeftBtn)) {
+                        topLeftHeader.prepend(existingLeftBtn);
+                    } else if (!existingLeftBtn) {
+                        topLeftHeader.prepend(this.createLeftSidebarButton());
+                    }
                 }
-                first.classList.add('mod-top-left-space');
             }
         }
 
-        // Right sidebar button (when right sidebar is closed)
-        if (this.app.workspace.rightSplit?.collapsed) {
-            const rightBtn = document.querySelector('.sidebar-toggle-button.mod-right');
-            if (rightBtn && last) {
-                const headerContainer = last.querySelector('.workspace-tab-header-container');
-                if (headerContainer && !headerContainer.contains(rightBtn)) {
-                    headerContainer.appendChild(rightBtn);
+        // 3. Manage Right Sidebar Button (only when right sidebar is closed)
+        if (isRightCollapsed && topRight) {
+            const topRightHeader = topRight.querySelector('.workspace-tab-header-container');
+            if (topRightHeader) {
+                const hasRightBtn = !!topRightHeader.querySelector('.sidebar-toggle-button.mod-right');
+                if (!hasRightBtn) {
+                    const existingRightBtn = document.querySelector('.sidebar-toggle-button.mod-right');
+                    if (existingRightBtn && !topRightHeader.contains(existingRightBtn)) {
+                        topRightHeader.appendChild(existingRightBtn);
+                    } else if (!existingRightBtn) {
+                        topRightHeader.appendChild(this.createRightSidebarButton());
+                    }
                 }
-                last.classList.add('mod-top-right-space');
             }
         }
     }
@@ -286,17 +490,10 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         await this.saveData(this.settings);
     }
 
-    /**
-     * Determines if a leaf is located in the main editor area (excluding Sidebars)
-     */
     isRootLeaf(leaf: WorkspaceLeaf): boolean {
         return leaf.getRoot() === this.app.workspace.rootSplit;
     }
 
-    /**
-     * Safely creates a leaf inside the primary (top-left) editor container so
-     * that sidebar controls (which live in the primary tab header) are never lost.
-     */
     getPrimaryRootLeaf(): WorkspaceLeaf {
         let firstRootLeaf: WorkspaceLeaf | null = null;
         this.app.workspace.iterateRootLeaves((leaf) => {
@@ -319,9 +516,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         return this.app.workspace.getLeaf(false);
     }
 
-    /**
-     * Finds a visible neighbor tab inside the same split container (right neighbor first, then left)
-     */
     getVisibleNeighborInContainer(leaf: WorkspaceLeaf, activeGroup: string): WorkspaceLeaf | null {
         const parent = (leaf as any).parent;
         if (!parent || !Array.isArray(parent.children)) return null;
@@ -338,7 +532,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             return g === activeGroup || isPinned;
         };
 
-        // 1. Check tabs to the right
         for (let i = currentIndex + 1; i < children.length; i++) {
             const child = children[i];
             if (child && isLeafVisible(child)) {
@@ -346,7 +539,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
         }
 
-        // 2. Check tabs to the left
         for (let i = currentIndex - 1; i >= 0; i--) {
             const child = children[i];
             if (child && isLeafVisible(child)) {
@@ -357,9 +549,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         return null;
     }
 
-    /**
-     * Returns the total count of root leaves currently in the workspace
-     */
     getLeafCount(): number {
         let count = 0;
         this.app.workspace.iterateRootLeaves(() => {
@@ -368,34 +557,24 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         return count;
     }
 
-    /**
-     * Changes the current group context and updates the workspace view
-     */
     async switchGroup(groupName: string) {
         this.settings.activeGroup = groupName;
         await this.saveSettings();
         this.applyVisibility();
     }
 
-    /**
-     * Reassigns a specific leaf to a different group
-     */
     async moveLeafToGroup(leaf: WorkspaceLeaf, groupName: string) {
         this.leafToGroupMap.set((leaf as any).id, groupName);
         await this.saveSettings();
         this.applyVisibility();
     }
 
-    /**
-     * Deletes a group entirely, safely migrating remaining tabs to 'Default'
-     */
     async deleteGroup(groupName: string) {
         if (groupName === "Default") {
             new Notice("You cannot delete the 'Default' group.");
             return;
         }
 
-        // Safely migrate orphaned tabs back to Default
         this.leafToGroupMap.forEach((g, leafId) => {
             if (g === groupName) {
                 this.leafToGroupMap.set(leafId, "Default");
@@ -404,7 +583,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
 
         this.settings.groups = this.settings.groups.filter(g => g !== groupName);
 
-        // Remove active history reference if applicable
         if (this.settings.groupLastActiveLeaf[groupName]) {
             delete this.settings.groupLastActiveLeaf[groupName];
         }
@@ -419,17 +597,14 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         new Notice(`Deleted group "${groupName}". Any active tabs were moved to 'Default'.`);
     }
 
-    /**
-     * Helper to get the currently active leaf, prioritizing the visually selected
-     * tab inside the active WorkspaceTabs container (e.g. after tab reordering)
-     */
     getActiveLeafInContainer(): WorkspaceLeaf | null {
         const activeLeaf = this.app.workspace.activeLeaf;
         if (!activeLeaf) return null;
 
         const parent = (activeLeaf as any).parent;
-        if (parent && typeof parent.currentTab === 'number' && Array.isArray(parent.children)) {
-            const selectedTabLeaf = parent.children[parent.currentTab];
+        if (parent && typeof parent.currentTab === 'number' && Array.isArray(parent.children) && parent.children.length > 0) {
+            const validIndex = Math.min(Math.max(0, parent.currentTab), parent.children.length - 1);
+            const selectedTabLeaf = parent.children[validIndex];
             if (selectedTabLeaf && this.isRootLeaf(selectedTabLeaf)) {
                 return selectedTabLeaf;
             }
@@ -438,9 +613,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         return activeLeaf;
     }
 
-    /**
-     * Gets visible leaves specifically within the active focused tab-pane split
-     */
     getVisibleLeavesInActiveContainer(): WorkspaceLeaf[] {
         const currentActive = this.getActiveLeafInContainer();
         if (!currentActive) return [];
@@ -448,7 +620,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         const activeParent = (currentActive as any).parent;
         const visibleLeaves: WorkspaceLeaf[] = [];
 
-        // Check active container's physical children hierarchy
         if (activeParent && Array.isArray(activeParent.children)) {
             activeParent.children.forEach((leaf: any) => {
                 if (this.isRootLeaf(leaf)) {
@@ -460,7 +631,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                 }
             });
         } else {
-            // Fallback to iterating general root leaves if structure is unexpected
             this.app.workspace.iterateRootLeaves((leaf) => {
                 const assignedGroup = this.leafToGroupMap.get((leaf as any).id);
                 const isPinned = !!(leaf as any).pinned;
@@ -508,12 +678,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         }
     }
 
-    /**
-     * Recursively traverses splits and checks if they contain any visible leaves in the current group.
-     * Returns true if there is at least one visible child. Hides parent containers if empty.
-     */
     evaluateContainerVisibility(container: any, activeGroup: string): boolean {
-        // Base Case: If the item is a leaf
         if (container.id && this.leafToGroupMap.has(container.id)) {
             const assignedGroup = this.leafToGroupMap.get(container.id);
             const isPinned = !!container.pinned;
@@ -533,7 +698,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                         hasVisibleChild = true;
                     }
                 } else {
-                    // Recursively check deeper split structures
                     if (this.evaluateContainerVisibility(child, activeGroup)) {
                         hasVisibleChild = true;
                     }
@@ -541,7 +705,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
         }
 
-        // Apply our hiding class to the split/tab container if it is empty
         if (container.containerEl) {
             if (hasVisibleChild) {
                 container.containerEl.classList.remove('vtg-hidden');
@@ -553,9 +716,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         return hasVisibleChild;
     }
 
-    /**
-     * Clears our hiding classes recursively (used during plugin disable)
-     */
     clearVisibilityHidden(container: any) {
         if (container.containerEl) {
             container.containerEl.classList.remove('vtg-hidden');
@@ -565,153 +725,172 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         }
     }
 
-    /**
-     * Iterates all open root tabs and hides/shows them depending on their active group assignments
-     */
     applyVisibility() {
-        this.cleanupMap();
+        if (this.isApplyingVisibility) return;
+        this.isApplyingVisibility = true;
 
-        const activeGroup = this.settings.activeGroup;
+        try {
+            this.cleanupMap();
 
-        // 1. Ensure all open root leaves have a group assignment before evaluating visibility
-        this.app.workspace.iterateRootLeaves((leaf) => {
-            const leafId = (leaf as any).id;
-            let assignedGroup = this.leafToGroupMap.get(leafId);
+            const activeGroup = this.settings.activeGroup;
 
-            if (!assignedGroup) {
-                assignedGroup = activeGroup;
-                this.leafToGroupMap.set(leafId, assignedGroup);
-            }
-        });
-
-        // 2. Ensure at least one leaf exists in the active group in the root workspace
-        let hasVisibleRootLeaf = false;
-        this.app.workspace.iterateRootLeaves((leaf) => {
-            const leafId = (leaf as any).id;
-            const assignedGroup = this.leafToGroupMap.get(leafId);
-            const isPinned = !!(leaf as any).pinned;
-            if (assignedGroup === activeGroup || isPinned) {
-                hasVisibleRootLeaf = true;
-            }
-        });
-
-        if (!hasVisibleRootLeaf) {
-            const newLeaf = this.getPrimaryRootLeaf();
-            const newLeafId = (newLeaf as any).id;
-            this.leafToGroupMap.set(newLeafId, activeGroup);
-            this.settings.groupLastActiveLeaf[activeGroup] = newLeafId;
-            this.saveSettings();
-        }
-
-        // 3. Physically apply visual hiding/showing to individual leaf headers and views FIRST
-        this.app.workspace.iterateRootLeaves((leaf) => {
-            const leafId = (leaf as any).id;
-            const assignedGroup = this.leafToGroupMap.get(leafId);
-            const isPinned = !!(leaf as any).pinned;
-
-            if (assignedGroup === activeGroup || isPinned) {
-                this.showLeaf(leaf);
-            } else {
-                this.hideLeaf(leaf);
-            }
-        });
-
-        // 4. Evaluate and hide empty split containers, collecting visible tab containers
-        const visibleTabContainers: any[] = [];
-        const collectVisibleContainers = (container: any) => {
-            if (!container) return;
-            if (container.children && Array.isArray(container.children)) {
-                const isTabContainer = container.children.every((c: any) => !c.children);
-                if (isTabContainer) {
-                    const hasVisibleTab = container.children.some((c: any) => {
-                        const g = this.leafToGroupMap.get(c.id);
-                        return g === activeGroup || !!c.pinned;
-                    });
-                    if (hasVisibleTab && container.containerEl) {
-                        visibleTabContainers.push(container);
-                    }
-                } else {
-                    container.children.forEach((c: any) => collectVisibleContainers(c));
-                }
-            }
-        };
-
-        const rootSplit = this.app.workspace.rootSplit as any;
-        if (rootSplit && Array.isArray(rootSplit.children)) {
-            rootSplit.children.forEach((child: any) => {
-                this.evaluateContainerVisibility(child, activeGroup);
-                collectVisibleContainers(child);
-            });
-        }
-
-        // 5. Ensure the sidebar toggle buttons are always in the first/last visible header bar
-        this.repositionSidebarButtons();
-
-        // 6. Ensure each visible tab container selects an active tab belonging to activeGroup
-        for (const parent of visibleTabContainers) {
-            if (parent && Array.isArray(parent.children)) {
-                const currentTabLeaf = parent.children[parent.currentTab];
-                const isCurrentTabVisible = currentTabLeaf && (this.leafToGroupMap.get(currentTabLeaf.id) === activeGroup || currentTabLeaf.pinned);
-                if (!isCurrentTabVisible) {
-                    const visibleChild = parent.children.find((c: any) => {
-                        const g = this.leafToGroupMap.get(c.id);
-                        return g === activeGroup || c.pinned;
-                    });
-                    if (visibleChild && typeof parent.selectTab === 'function') {
-                        parent.selectTab(visibleChild);
-                    }
-                }
-            }
-        }
-
-        // 7. Check if current focused tab belongs to an inactive group
-        const currentActive = this.getActiveLeafInContainer();
-        let activeIsHidden = false;
-
-        if (currentActive && this.isRootLeaf(currentActive)) {
-            const currentActiveGroup = this.leafToGroupMap.get((currentActive as any).id);
-            if (currentActiveGroup && currentActiveGroup !== activeGroup && !(currentActive as any).pinned) {
-                activeIsHidden = true;
-            }
-        }
-
-        // 8. Focus the saved or best visible leaf
-        let targetLeaf: WorkspaceLeaf | null = null;
-        const savedLastActiveId = this.settings.groupLastActiveLeaf[activeGroup];
-
-        if (savedLastActiveId) {
+            // 1. Group assignment check
             this.app.workspace.iterateRootLeaves((leaf) => {
-                if ((leaf as any).id === savedLastActiveId) {
+                const leafId = (leaf as any).id;
+                let assignedGroup = this.leafToGroupMap.get(leafId);
+
+                if (!assignedGroup) {
+                    assignedGroup = activeGroup;
+                    this.leafToGroupMap.set(leafId, assignedGroup);
+                }
+            });
+
+            // 2. Ensure at least one leaf exists in activeGroup
+            let hasVisibleRootLeaf = false;
+            this.app.workspace.iterateRootLeaves((leaf) => {
+                const leafId = (leaf as any).id;
+                const assignedGroup = this.leafToGroupMap.get(leafId);
+                const isPinned = !!(leaf as any).pinned;
+                if (assignedGroup === activeGroup || isPinned) {
+                    hasVisibleRootLeaf = true;
+                }
+            });
+
+            if (!hasVisibleRootLeaf) {
+                const newLeaf = this.getPrimaryRootLeaf();
+                const newLeafId = (newLeaf as any).id;
+                this.leafToGroupMap.set(newLeafId, activeGroup);
+                this.settings.groupLastActiveLeaf[activeGroup] = newLeafId;
+                this.saveSettings();
+            }
+
+            // 3. Apply visual hiding
+            this.app.workspace.iterateRootLeaves((leaf) => {
+                const leafId = (leaf as any).id;
+                const assignedGroup = this.leafToGroupMap.get(leafId);
+                const isPinned = !!(leaf as any).pinned;
+
+                if (assignedGroup === activeGroup || isPinned) {
+                    this.showLeaf(leaf);
+                } else {
+                    this.hideLeaf(leaf);
+                }
+            });
+
+            // 4. Hide empty containers & collect visible ones
+            const visibleTabContainers: any[] = [];
+            const collectVisibleContainers = (container: any) => {
+                if (!container) return;
+                if (container.children && Array.isArray(container.children)) {
+                    const isTabContainer = container.children.every((c: any) => !c.children);
+                    if (isTabContainer) {
+                        const hasVisibleTab = container.children.some((c: any) => {
+                            const g = this.leafToGroupMap.get(c.id);
+                            return g === activeGroup || !!c.pinned;
+                        });
+                        if (hasVisibleTab && container.containerEl) {
+                            visibleTabContainers.push(container);
+                        }
+                    } else {
+                        container.children.forEach((c: any) => collectVisibleContainers(c));
+                    }
+                }
+            };
+
+            const rootSplit = this.app.workspace.rootSplit as any;
+            if (rootSplit && Array.isArray(rootSplit.children)) {
+                rootSplit.children.forEach((child: any) => {
+                    this.evaluateContainerVisibility(child, activeGroup);
+                    collectVisibleContainers(child);
+                });
+            }
+
+            // 5. Ensure each visible tab container selects an active tab belonging to activeGroup
+            for (const parent of visibleTabContainers) {
+                if (parent && Array.isArray(parent.children) && parent.children.length > 0) {
+                    const currentIndex = Math.min(Math.max(0, parent.currentTab ?? 0), parent.children.length - 1);
+                    const currentTabLeaf = parent.children[currentIndex];
+                    const isCurrentTabVisible = currentTabLeaf && (
+                        this.leafToGroupMap.get(currentTabLeaf.id) === activeGroup || !!currentTabLeaf.pinned
+                    );
+
+                    if (!isCurrentTabVisible) {
+                        let visibleChild: WorkspaceLeaf | null = null;
+                        for (let i = currentIndex + 1; i < parent.children.length; i++) {
+                            const c = parent.children[i];
+                            if (c && (this.leafToGroupMap.get(c.id) === activeGroup || !!c.pinned)) {
+                                visibleChild = c;
+                                break;
+                            }
+                        }
+                        if (!visibleChild) {
+                            for (let i = currentIndex - 1; i >= 0; i--) {
+                                const c = parent.children[i];
+                                if (c && (this.leafToGroupMap.get(c.id) === activeGroup || !!c.pinned)) {
+                                    visibleChild = c;
+                                    break;
+                                }
+                            }
+                        }
+                        if (visibleChild && typeof parent.selectTab === 'function') {
+                            parent.selectTab(visibleChild);
+                        }
+                    } else if (currentTabLeaf && typeof parent.selectTab === 'function') {
+                        parent.selectTab(currentTabLeaf);
+                    }
+                }
+            }
+
+            // 6. Focus the saved or best visible leaf
+            const currentActive = this.getActiveLeafInContainer();
+            let targetLeaf: WorkspaceLeaf | null = null;
+            const savedLastActiveId = this.settings.groupLastActiveLeaf[activeGroup];
+
+            if (savedLastActiveId) {
+                this.app.workspace.iterateRootLeaves((leaf) => {
+                    if ((leaf as any).id === savedLastActiveId) {
+                        const assignedGroup = this.leafToGroupMap.get((leaf as any).id);
+                        if (assignedGroup === activeGroup || (leaf as any).pinned) {
+                            targetLeaf = leaf;
+                        }
+                    }
+                });
+            }
+
+            const currentActiveVisible = currentActive && this.isRootLeaf(currentActive) && (
+                this.leafToGroupMap.get((currentActive as any).id) === activeGroup || !!(currentActive as any).pinned
+            );
+
+            if (!targetLeaf && currentActiveVisible) {
+                targetLeaf = currentActive;
+            }
+
+            if (!targetLeaf && currentActive) {
+                targetLeaf = this.getVisibleNeighborInContainer(currentActive, activeGroup);
+            }
+
+            if (!targetLeaf) {
+                this.app.workspace.iterateRootLeaves((leaf) => {
                     const assignedGroup = this.leafToGroupMap.get((leaf as any).id);
                     if (assignedGroup === activeGroup || (leaf as any).pinned) {
-                        targetLeaf = leaf;
+                        if (!targetLeaf) targetLeaf = leaf;
                     }
-                }
-            });
-        }
-
-        if (!targetLeaf && currentActive && activeIsHidden) {
-            targetLeaf = this.getVisibleNeighborInContainer(currentActive, activeGroup);
-        }
-
-        if (!targetLeaf) {
-            this.app.workspace.iterateRootLeaves((leaf) => {
-                const assignedGroup = this.leafToGroupMap.get((leaf as any).id);
-                if (assignedGroup === activeGroup || (leaf as any).pinned) {
-                    if (!targetLeaf) targetLeaf = leaf;
-                }
-            });
-        }
-
-        if (targetLeaf) {
-            const targetParent = (targetLeaf as any).parent;
-            if (targetParent && typeof targetParent.selectTab === 'function') {
-                targetParent.selectTab(targetLeaf);
+                });
             }
-            this.app.workspace.setActiveLeaf(targetLeaf, { focus: true });
-        }
 
-        this.updateStatusBar();
+            if (targetLeaf) {
+                const targetParent = (targetLeaf as any).parent;
+                if (targetParent && typeof targetParent.selectTab === 'function') {
+                    targetParent.selectTab(targetLeaf);
+                }
+                this.app.workspace.setActiveLeaf(targetLeaf, { focus: true });
+            }
+
+            this.updateStatusBar();
+            this.scheduleReposition();
+        } finally {
+            this.isApplyingVisibility = false;
+        }
     }
 
     showLeaf(leaf: WorkspaceLeaf) {
@@ -734,9 +913,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         }
     }
 
-    /**
-     * Purges closed or dead leaf IDs from memory to prevent memory bloat
-     */
     cleanupMap() {
         const activeLeafIds = new Set<string>();
         this.app.workspace.iterateRootLeaves((leaf) => {
@@ -745,7 +921,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
 
         let changed = false;
 
-        // Clean leaf assignment maps
         for (const leafId of this.leafToGroupMap.keys()) {
             if (!activeLeafIds.has(leafId)) {
                 this.leafToGroupMap.delete(leafId);
@@ -753,7 +928,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
         }
 
-        // Clean last active leaf mapping references
         for (const group of Object.keys(this.settings.groupLastActiveLeaf)) {
             const savedLeafId = this.settings.groupLastActiveLeaf[group];
             if (savedLeafId && !activeLeafIds.has(savedLeafId)) {

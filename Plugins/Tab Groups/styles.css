@@ -1,14 +1,13 @@
-/* Hide inactive tab headers from the tab bar */
+/* Normal hiding for individual tabs */
 .workspace-tab-header.vtg-hidden {
     display: none !important;
 }
 
-/* Hide inactive leaf view containers */
 .workspace-leaf.vtg-hidden {
     display: none !important;
 }
 
-/* Hide empty split tab containers */
+/* Hide empty split tab containers entirely */
 .workspace-tabs.vtg-hidden,
 .workspace-split.vtg-hidden {
     display: none !important;
@@ -18,4 +17,18 @@
 .workspace-split.mod-root .vtg-hidden + .workspace-leaf-resize-handle,
 .workspace-split.mod-root .workspace-leaf-resize-handle:has(+ .vtg-hidden) {
     display: none !important;
+}
+
+/* Ensure the tab-list chevron is always visible, never collapses, and stays distinct from the right sidebar icon */
+.mod-root .workspace-tab-header-container > .workspace-tab-header-tab-list {
+    display: flex !important;
+    visibility: visible !important;
+    flex-shrink: 0 !important;
+    margin-right: 4px !important;
+}
+
+.mod-root .workspace-tab-header-container > .sidebar-toggle-button.mod-right {
+    display: flex !important;
+    visibility: visible !important;
+    flex-shrink: 0 !important;
 }
