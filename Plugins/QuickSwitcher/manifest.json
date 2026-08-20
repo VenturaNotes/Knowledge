@@ -1,0 +1,9 @@
+{
+  "id": "lean-quick-switcher",
+  "name": "Lean Quick Switcher",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Ultra low-memory, zero-cache quick switcher with unordered search and alias support.",
+  "author": "Julian Ventura",
+  "isDesktopOnly": false
+}

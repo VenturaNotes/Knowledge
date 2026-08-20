@@ -1,0 +1,9 @@
+{
+  "id": "airsketch",
+  "name": "AirSketch",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Ultra-lightweight iPad drawing bridge with instant cursor embedding and live sync.",
+  "author": "Julian Ventura",
+  "isDesktopOnly": true
+}
