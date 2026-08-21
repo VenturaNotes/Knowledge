@@ -20,6 +20,7 @@ parent:
 - [ ] If I use a shortcut to open the "Goals Graph" and then I open and close my VaporNote, this causes me to jump right back to
 	- Honestly a minor bug. If the goals view never gains focus, the VaporNote just sends me back to the tab that was last focused. Not a bug that would occur a lot
 - [ ] Test to see if it works between windows
+- [ ] Make it so VaporNote opens where you last left it with its dimensions (and all the tabs are saved between sessions as well)
 ## Patch-Work
 - So this is what I need from you for VaporNote:
 	- Requirements not working anymore

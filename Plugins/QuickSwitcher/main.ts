@@ -183,7 +183,7 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         super.onOpen();
         this.modalEl.addClass('lean-switcher-modal');
 
-        // Hide any native modal close / clear buttons that overlay our header
+        // Hide native close/clear buttons that overlay our header
         const closeBtn = this.modalEl.querySelector('.modal-close-button');
         if (closeBtn) {
             (closeBtn as HTMLElement).style.display = 'none';
@@ -202,6 +202,34 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             this.headerSearchLabelEl = searchTypeBox.createSpan({ cls: 'lean-switcher-search-name', text: 'File Search' });
 
             this.headerCountBadgeEl = infoBox.createDiv({ cls: 'lean-switcher-count-badge', text: '0 / 0' });
+
+            // Immediately calculate and show custom name and counts on open
+            this.updateHeaderInfo(this.inputEl.value);
+        }
+    }
+
+    private updateHeaderInfo(query: string, renderedCount?: number) {
+        const raw = query.trim().toLowerCase();
+        const { rule: activeRule } = this.resolvePrefixRule(raw);
+
+        // Resolve custom search name (including blank prefix rules)
+        const searchName = (activeRule && activeRule.name && activeRule.name.trim().length > 0)
+            ? activeRule.name.trim()
+            : 'File Search';
+
+        if (this.headerSearchLabelEl) {
+            this.headerSearchLabelEl.setText(searchName);
+        }
+
+        const allFiles = this.app.vault.getFiles();
+        const availableFiles = allFiles.filter(file => !this.isExcluded(file, activeRule));
+        const totalScopeCount = availableFiles.length;
+
+        if (this.headerCountBadgeEl) {
+            const count = renderedCount !== undefined 
+                ? renderedCount 
+                : Math.min(totalScopeCount, this.plugin.settings.maxResults);
+            this.headerCountBadgeEl.setText(`${count} / ${totalScopeCount}`);
         }
     }
 
@@ -248,6 +276,7 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             }
         }
 
+        // Fallback to the blank prefix rule if configured
         const defaultRule = this.plugin.settings.prefixRules.find(r => r.prefix.trim() === '') ?? null;
         return { actualQuery: query, rule: defaultRule };
     }
@@ -255,22 +284,11 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
     getSuggestions(query: string): SwitcherItem[] {
         const raw = query.trim().toLowerCase();
         const { actualQuery, rule: activeRule } = this.resolvePrefixRule(raw);
-        
-        // Update header search label without trailing ellipsis
-        const searchName = (activeRule && activeRule.name && activeRule.name.trim().length > 0) 
-            ? activeRule.name.trim() 
-            : 'File Search';
-
-        if (this.headerSearchLabelEl) {
-            this.headerSearchLabelEl.setText(searchName);
-        }
 
         const tokens = actualQuery.split(/\s+/).filter(t => t.length > 0);
         const allFiles = this.app.vault.getFiles();
 
-        // Calculate total valid files for current scope
         const availableFiles = allFiles.filter(file => !this.isExcluded(file, activeRule));
-        const totalScopeCount = availableFiles.length;
 
         // 1. EMPTY QUERY
         if (tokens.length === 0) {
@@ -308,10 +326,7 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
                     };
                 });
 
-            if (this.headerCountBadgeEl) {
-                this.headerCountBadgeEl.setText(`${results.length} / ${totalScopeCount}`);
-            }
-
+            this.updateHeaderInfo(query, results.length);
             return results;
         }
 
@@ -328,52 +343,66 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             const rawAliases = parseFrontMatterAliases(cache?.frontmatter);
             const allAliases: string[] = Array.isArray(rawAliases) ? rawAliases : [];
 
+            const basenameMatches = tokens.every(t => basenameLower.includes(t));
+
             let matchedAlias: string | undefined;
-            let isAliasMatch = false;
-            let matches = false;
-
-            const filenameMatches = tokens.every(t => fileText.includes(t));
-
-            if (filenameMatches) {
-                matches = true;
-                isAliasMatch = false;
-                if (allAliases.length > 0) {
-                    matchedAlias = allAliases[0];
-                }
-            } else {
-                for (const alias of allAliases) {
-                    const aliasLower = alias.toLowerCase();
-                    if (tokens.every(t => aliasLower.includes(t) || pathLower.includes(t))) {
-                        matches = true;
-                        matchedAlias = alias;
-                        isAliasMatch = true;
-                        break;
-                    }
+            let aliasMatches = false;
+            for (const alias of allAliases) {
+                const aliasLower = alias.toLowerCase();
+                if (tokens.every(t => aliasLower.includes(t))) {
+                    matchedAlias = alias;
+                    aliasMatches = true;
+                    break;
                 }
             }
 
-            if (!matches) continue;
+            const pathMatches = tokens.every(t => fileText.includes(t));
+
+            if (!basenameMatches && !aliasMatches && !pathMatches) continue;
+
+            const isDirectMatch = basenameMatches || aliasMatches;
+            const isAliasMatch = !basenameMatches && aliasMatches;
+
+            if (basenameMatches && allAliases.length > 0 && !matchedAlias) {
+                matchedAlias = allAliases[0];
+            }
 
             let score = 0;
-            const isRecent = this.recentPathsMap.has(file.path);
-            const recentIndex = this.recentPathsMap.get(file.path) ?? 999999;
 
-            if (isRecent) {
-                score -= (100000 - recentIndex * 100);
+            // --- STRICT TIER SYSTEM ---
+            if (isDirectMatch) {
+                score += 0; // Tier 1 base
+            } else {
+                score += 100000; // Tier 2 base (Path-only will NEVER beat a Tier 1 match)
             }
 
+            // Recency sub-rank
+            const isRecent = this.recentPathsMap.has(file.path);
+            const recentIndex = this.recentPathsMap.get(file.path) ?? 999999;
+            if (isRecent) {
+                score -= Math.max(0, 25000 - recentIndex * 250);
+            }
+
+            // Exact & Substring Relevance
             const targetText = isAliasMatch && matchedAlias ? matchedAlias : file.basename;
             const targetLower = targetText.toLowerCase();
 
-            score += targetText.length * 5;
+            const strippedTarget = targetLower.replace(/^\([a-z0-9]+\)\s*/i, '');
 
-            if (targetLower === actualQuery) {
-                score -= 10000;
+            if (targetLower === actualQuery || strippedTarget === actualQuery) {
+                score -= 30000;
+            } else if (targetLower.startsWith(actualQuery) || strippedTarget.startsWith(actualQuery)) {
+                score -= 15000;
+            } else if (targetLower.includes(actualQuery) || strippedTarget.includes(actualQuery)) {
+                score -= 8000;
             }
 
-            if (firstToken.length > 0 && targetLower.startsWith(firstToken)) {
-                score -= 1500;
+            const words = targetLower.split(/[\s_\-()]+/);
+            if (words.some(w => w.startsWith(firstToken))) {
+                score -= 5000;
             }
+
+            score += targetText.length * 2;
 
             const mtime = file.stat?.mtime ?? 0;
             score -= Math.min(500, mtime / 10000000000);
@@ -401,10 +430,7 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         });
 
         const slicedResults = results.slice(0, this.plugin.settings.maxResults);
-
-        if (this.headerCountBadgeEl) {
-            this.headerCountBadgeEl.setText(`${slicedResults.length} / ${totalScopeCount}`);
-        }
+        this.updateHeaderInfo(query, slicedResults.length);
 
         return slicedResults;
     }
