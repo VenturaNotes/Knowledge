@@ -1,3 +1,71 @@
+/* --- Header Search Name & Counter Info --- */
+.lean-switcher-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.lean-switcher-input-container input.prompt-input {
+    padding-right: 170px !important;
+}
+
+/* Hide the 'x' clear/close button that overlays the header text */
+.lean-switcher-modal .modal-close-button,
+.lean-switcher-modal .search-input-clear-button,
+.lean-switcher-input-container .search-input-clear-button,
+.lean-switcher-input-container input::-webkit-search-cancel-button,
+.lean-switcher-input-container input::-webkit-search-decoration {
+    display: none !important;
+}
+
+.lean-switcher-header-info {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    pointer-events: none;
+    gap: 2px;
+    z-index: 10;
+}
+
+.lean-switcher-search-type {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.lean-switcher-search-icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.lean-switcher-search-icon svg {
+    width: 13px;
+    height: 13px;
+    color: var(--text-muted);
+    vertical-align: middle;
+}
+
+.lean-switcher-search-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 150px;
+}
+
+.lean-switcher-count-badge {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-family: var(--font-monospace);
+    opacity: 0.85;
+}
+
 /* --- File Switcher Suggestion Styles --- */
 .lean-switcher-suggestion {
     display: flex;
@@ -22,8 +90,24 @@
     white-space: nowrap;
 }
 
+/* Extension pill badge */
+.suggestion-ext-badge {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--background-modifier-border);
+    padding: 1px 6px;
+    border-radius: 4px;
+    line-height: 1.2;
+    margin-left: 6px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    text-transform: lowercase;
+}
+
 .suggestion-highlight-purple {
-    color: #b388ff !important; /* Bright purple highlight matching your screenshots */
+    color: #b388ff !important;
     font-weight: 800;
 }
 
