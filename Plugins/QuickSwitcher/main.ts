@@ -14,7 +14,8 @@ import {
 } from 'obsidian';
 
 interface PrefixRule {
-    prefix: string;                  // e.g. "+" or "@" or "" (default)
+    name: string;                    // e.g. "Topic Search" or "Task Search"
+    prefix: string;                  // e.g. "-" or "+" or "" (default)
     mode: 'include' | 'exclude';     // 'include' = only search in; 'exclude' = search all except
     folders: string[];               // selected folders
     excludedExtensions: string[];    // e.g. ["png", "jpg", "canvas"]
@@ -153,12 +154,15 @@ class FolderSuggest extends AbstractInputSuggest<string> {
 class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
     plugin: LeanSwitcherPlugin;
     private recentPathsMap: Map<string, number>;
+    private headerSearchLabelEl: HTMLElement | null = null;
+    private headerCountBadgeEl: HTMLElement | null = null;
+    private headerSearchIconEl: HTMLElement | null = null;
 
     constructor(app: App, plugin: LeanSwitcherPlugin) {
         super(app);
         this.plugin = plugin;
-        this.setPlaceholder("Search files or aliases... (Cmd+Enter to open in new tab)");
-        
+        this.setPlaceholder("");
+
         // In-memory recent files list provided by Obsidian (zero disk writes)
         this.recentPathsMap = new Map<string, number>();
         const recentPaths = this.app.workspace.getLastOpenFiles();
@@ -173,6 +177,32 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             }
             return false;
         });
+    }
+
+    onOpen() {
+        super.onOpen();
+        this.modalEl.addClass('lean-switcher-modal');
+
+        // Hide any native modal close / clear buttons that overlay our header
+        const closeBtn = this.modalEl.querySelector('.modal-close-button');
+        if (closeBtn) {
+            (closeBtn as HTMLElement).style.display = 'none';
+        }
+
+        // Inject custom top-right info header (Search Name + Count Badge)
+        const container = this.inputEl.parentElement;
+        if (container) {
+            container.addClass('lean-switcher-input-container');
+
+            const infoBox = container.createDiv({ cls: 'lean-switcher-header-info' });
+
+            const searchTypeBox = infoBox.createDiv({ cls: 'lean-switcher-search-type' });
+            this.headerSearchIconEl = searchTypeBox.createSpan({ cls: 'lean-switcher-search-icon' });
+            setIcon(this.headerSearchIconEl, 'file-search');
+            this.headerSearchLabelEl = searchTypeBox.createSpan({ cls: 'lean-switcher-search-name', text: 'File Search' });
+
+            this.headerCountBadgeEl = infoBox.createDiv({ cls: 'lean-switcher-count-badge', text: '0 / 0' });
+        }
     }
 
     private isExcluded(file: TFile, activeRule: PrefixRule | null): boolean {
@@ -226,17 +256,25 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         const raw = query.trim().toLowerCase();
         const { actualQuery, rule: activeRule } = this.resolvePrefixRule(raw);
         
+        // Update header search label without trailing ellipsis
+        const searchName = (activeRule && activeRule.name && activeRule.name.trim().length > 0) 
+            ? activeRule.name.trim() 
+            : 'File Search';
+
+        if (this.headerSearchLabelEl) {
+            this.headerSearchLabelEl.setText(searchName);
+        }
+
         const tokens = actualQuery.split(/\s+/).filter(t => t.length > 0);
         const allFiles = this.app.vault.getFiles();
 
-        // 1. EMPTY QUERY:
-        // Primary: Most recently opened files in session
-        // Secondary: Last Modified Time (newest to oldest)
-        // Tertiary: Shortest to longest filename length
-        // Quaternary: Alphabetical
+        // Calculate total valid files for current scope
+        const availableFiles = allFiles.filter(file => !this.isExcluded(file, activeRule));
+        const totalScopeCount = availableFiles.length;
+
+        // 1. EMPTY QUERY
         if (tokens.length === 0) {
-            return allFiles
-                .filter(file => !this.isExcluded(file, activeRule))
+            const results = availableFiles
                 .sort((a, b) => {
                     const recA = this.recentPathsMap.get(a.path) ?? 999999;
                     const recB = this.recentPathsMap.get(b.path) ?? 999999;
@@ -269,15 +307,19 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
                         tokens: []
                     };
                 });
+
+            if (this.headerCountBadgeEl) {
+                this.headerCountBadgeEl.setText(`${results.length} / ${totalScopeCount}`);
+            }
+
+            return results;
         }
 
         // 2. SEARCH QUERY MATCHING
         const firstToken = tokens[0] ?? '';
         const results: SwitcherItem[] = [];
 
-        for (const file of allFiles) {
-            if (this.isExcluded(file, activeRule)) continue;
-
+        for (const file of availableFiles) {
             const basenameLower = file.basename.toLowerCase();
             const pathLower = file.path.toLowerCase();
             const fileText = `${basenameLower} ${pathLower}`;
@@ -323,7 +365,6 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             const targetText = isAliasMatch && matchedAlias ? matchedAlias : file.basename;
             const targetLower = targetText.toLowerCase();
 
-            // Length score penalty (shorter matches rank higher)
             score += targetText.length * 5;
 
             if (targetLower === actualQuery) {
@@ -334,7 +375,6 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
                 score -= 1500;
             }
 
-            // Small tiebreaker for recently modified files
             const mtime = file.stat?.mtime ?? 0;
             score -= Math.min(500, mtime / 10000000000);
 
@@ -360,7 +400,13 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             return a.file.basename.localeCompare(b.file.basename);
         });
 
-        return results.slice(0, this.plugin.settings.maxResults);
+        const slicedResults = results.slice(0, this.plugin.settings.maxResults);
+
+        if (this.headerCountBadgeEl) {
+            this.headerCountBadgeEl.setText(`${slicedResults.length} / ${totalScopeCount}`);
+        }
+
+        return slicedResults;
     }
 
     renderSuggestion(item: SwitcherItem, el: HTMLElement): void {
@@ -374,6 +420,12 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         const titleRow = el.createDiv({ cls: 'suggestion-title-row' });
         const titleText = titleRow.createSpan({ cls: 'suggestion-title-text' });
         renderHighlightedText(titleText, item.file.basename, item.tokens);
+
+        // Extension pill badge for non-markdown files
+        const ext = item.file.extension ? item.file.extension.toLowerCase() : '';
+        if (ext && ext !== 'md') {
+            titleRow.createSpan({ text: ext, cls: 'suggestion-ext-badge' });
+        }
 
         // Row 2: [Folder Icon] Folder Path
         const pathRow = el.createDiv({ cls: 'suggestion-sub-row' });
@@ -430,7 +482,6 @@ class LeanHeadingModal extends SuggestModal<HeadingItem> {
             return false;
         });
 
-        // Register Command + Enter (or Ctrl + Enter) for headings as well
         this.scope.register(['Mod'], 'Enter', (evt: KeyboardEvent) => {
             evt.preventDefault();
             const chooser = (this as any).chooser;
@@ -641,7 +692,6 @@ class LeanHeadingModal extends SuggestModal<HeadingItem> {
         const isNewTab = Boolean(evt && (evt.metaKey || evt.ctrlKey));
         let view = this.activeView;
 
-        // If Cmd + Enter was pressed, open in a new tab to the right first
         if (isNewTab && view.file) {
             const newLeaf = this.app.workspace.getLeaf('tab');
             await newLeaf.openFile(view.file);
@@ -745,19 +795,20 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
         containerEl.createEl('h2', { text: 'Lean Quick Switcher Settings' });
 
         containerEl.createEl('p', { 
-            text: 'Configure custom symbol prefixes. Use prefix "" (blank) to customize default search behavior without any symbol.',
+            text: 'Configure custom symbol prefixes and name your search types (e.g. "Topic Search"). Use prefix "" (blank) to customize default search behavior.',
             attr: { style: 'color: var(--text-muted); margin-bottom: 16px;' }
         });
 
         // 1. ADD RULE BUTTON
         new Setting(containerEl)
             .setName('Add Prefix Mapping Rule')
-            .setDesc('Add a new symbol with custom folder include/exclude rules')
+            .setDesc('Add a new symbol with custom folder include/exclude rules and a custom search name')
             .addButton(btn => btn
                 .setButtonText('+ Add Prefix Rule')
                 .setCta()
                 .onClick(async () => {
                     this.plugin.settings.prefixRules.push({
+                        name: '',
                         prefix: '',
                         mode: 'include',
                         folders: [],
@@ -780,15 +831,24 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
                 }
             });
 
-            // Header row: Symbol + Left-Aligned Dropdown + Delete button
+            // Row 1: Search Name + Prefix Symbol + Mode Select + Delete button
             const headerRow = ruleBox.createDiv({
-                attr: { style: 'display: flex; gap: 10px; align-items: center; margin-bottom: 12px;' }
+                attr: { style: 'display: flex; gap: 10px; align-items: center; margin-bottom: 12px; flex-wrap: wrap;' }
             });
 
-            headerRow.createEl('span', { text: 'Prefix Symbol:', attr: { style: 'font-weight: bold; font-size: 13px;' } });
-            
+            headerRow.createEl('span', { text: 'Search Name:', attr: { style: 'font-weight: bold; font-size: 13px;' } });
+            const nameInput = headerRow.createEl('input', {
+                attr: { type: 'text', placeholder: 'e.g. Topic Search', style: 'width: 140px;' }
+            });
+            nameInput.value = rule.name ?? '';
+            nameInput.addEventListener('change', async () => {
+                rule.name = nameInput.value.trim();
+                await this.plugin.saveSettings();
+            });
+
+            headerRow.createEl('span', { text: 'Prefix:', attr: { style: 'font-weight: bold; font-size: 13px; margin-left: 6px;' } });
             const prefixInput = headerRow.createEl('input', {
-                attr: { type: 'text', placeholder: 'e.g. + (blank = default)', style: 'width: 130px;' }
+                attr: { type: 'text', placeholder: 'e.g. - (blank = default)', style: 'width: 90px;' }
             });
             prefixInput.value = rule.prefix;
             prefixInput.addEventListener('change', async () => {
@@ -796,11 +856,11 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
                 await this.plugin.saveSettings();
             });
 
-            // Clean Left-Aligned Dropdown
+            // Mode dropdown
             const modeSelect = headerRow.createEl('select', { 
                 cls: 'dropdown',
                 attr: { 
-                    style: 'width: auto; max-width: fit-content; flex: 0 0 auto; cursor: pointer; font-weight: 500; text-align: left; text-align-last: left; padding: 4px 12px; background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 6px;' 
+                    style: 'width: auto; max-width: fit-content; flex: 0 0 auto; cursor: pointer; font-weight: 500; text-align: left; text-align-last: left; padding: 4px 10px; background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 6px;' 
                 } 
             });
             modeSelect.createEl('option', { value: 'include', text: 'Only search within folders' });
@@ -813,7 +873,7 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
             });
 
             const delBtn = headerRow.createEl('button', { 
-                text: '✕ Delete Rule', 
+                text: '✕ Delete', 
                 attr: { style: 'margin-left: auto; cursor: pointer; color: var(--text-error);' } 
             });
             delBtn.addEventListener('click', async () => {
