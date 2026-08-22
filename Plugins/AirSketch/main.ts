@@ -4,8 +4,8 @@ import {
     PluginSettingTab, 
     Setting, 
     MarkdownView, 
-    Modal, 
-    Notice 
+    Notice,
+    TFile
 } from 'obsidian';
 import * as http from 'http';
 import * as os from 'os';
@@ -19,6 +19,11 @@ interface AirSketchSettings {
     authToken: string;
 }
 
+interface ActiveDrawingState {
+    svgFile: string;
+    markdownNote: string;
+}
+
 const DEFAULT_SETTINGS: AirSketchSettings = {
     port: 4444,
     drawingsFolder: 'Private/Drawings',
@@ -26,65 +31,11 @@ const DEFAULT_SETTINGS: AirSketchSettings = {
     authToken: ''
 };
 
-class CreateDrawingModal extends Modal {
-    private plugin: AirSketchPlugin;
-    private onConfirm: (name: string) => void;
-
-    constructor(app: App, plugin: AirSketchPlugin, onConfirm: (name: string) => void) {
-        super(app);
-        this.plugin = plugin;
-        this.onConfirm = onConfirm;
-    }
-
-    onOpen() {
-        const { contentEl } = this;
-        contentEl.empty();
-        contentEl.createEl('h3', { text: '✈️ Create & Embed AirSketch' });
-
-        const now = new Date();
-        const defaultName = `drawing-${now.getFullYear()}${String(now.getMonth()+1).padStart(2,'0')}${String(now.getDate()).padStart(2,'0')}-${String(now.getHours()).padStart(2,'0')}${String(now.getMinutes()).padStart(2,'0')}`;
-        let inputVal = defaultName;
-
-        new Setting(contentEl)
-            .setName('Drawing Name')
-            .setDesc('Will be saved in ' + this.plugin.settings.drawingsFolder)
-            .addText(text => {
-                text.setValue(defaultName);
-                text.onChange(v => { inputVal = v.trim(); });
-                text.inputEl.focus();
-                text.inputEl.select();
-                text.inputEl.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter') {
-                        this.close();
-                        this.onConfirm(inputVal || defaultName);
-                    }
-                });
-            });
-
-        new Setting(contentEl)
-            .addButton(btn => btn
-                .setButtonText('Cancel')
-                .onClick(() => this.close())
-            )
-            .addButton(btn => btn
-                .setButtonText('Create & Embed')
-                .setCta()
-                .onClick(() => {
-                    this.close();
-                    this.onConfirm(inputVal || defaultName);
-                })
-            );
-    }
-
-    onClose() {
-        this.contentEl.empty();
-    }
-}
-
 export default class AirSketchPlugin extends Plugin {
     settings: AirSketchSettings = DEFAULT_SETTINGS;
     private server: http.Server | null = null;
     private sseClients: { res: http.ServerResponse, clientId: string }[] = [];
+    private activeDoc: ActiveDrawingState | null = null;
 
     async onload() {
         await this.loadSettings();
@@ -97,12 +48,14 @@ export default class AirSketchPlugin extends Plugin {
         this.addSettingTab(new AirSketchSettingTab(this.app, this));
         await this.startServer();
 
+        // 1. Command: Instant Create and Embed
         this.addCommand({
             id: 'create-embed-airsketch',
             name: 'Create and Embed New Drawing at Cursor',
             callback: () => this.handleCreateAndEmbed()
         });
 
+        // 2. Command: Copy URL
         this.addCommand({
             id: 'copy-ipad-url',
             name: 'Copy iPad AirSketch URL to Clipboard',
@@ -113,6 +66,40 @@ export default class AirSketchPlugin extends Plugin {
                 new Notice(`📋 Copied AirSketch URL: ${url}`);
             }
         });
+
+        // 3. Cmd + Click (or Ctrl + Click) on SVG Embed to send to iPad
+        this.registerDomEvent(document, 'click', (e: MouseEvent) => {
+            if (!(e.metaKey || e.ctrlKey)) return;
+
+            const target = e.target as HTMLElement | null;
+            if (!target) return;
+
+            const img = target.closest('img');
+            const embed = target.closest('.image-embed');
+            const link = target.closest('a.internal-link');
+
+            let rawSrc = '';
+            if (img) {
+                rawSrc = img.parentElement?.getAttribute('src') || img.getAttribute('src') || img.getAttribute('alt') || '';
+            } else if (embed) {
+                rawSrc = embed.getAttribute('src') || '';
+            } else if (link) {
+                rawSrc = link.getAttribute('href') || '';
+            }
+
+            if (rawSrc && rawSrc.toLowerCase().includes('.svg')) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const cleanSrc = rawSrc.split('?')[0] || '';
+                const fileName = path.basename(decodeURIComponent(cleanSrc));
+                const view = this.app.workspace.getActiveViewOfType(MarkdownView);
+                const parentNote = view?.file ? view.file.basename : 'Untitled';
+
+                this.setActiveDrawing(fileName, parentNote);
+                new Notice(`✈️ Loaded [[${fileName}]] on iPad (${parentNote})`);
+            }
+        }, true);
     }
 
     onunload() {
@@ -123,6 +110,39 @@ export default class AirSketchPlugin extends Plugin {
         return this.settings.drawingsFolder.replace(/^\//, '').replace(/\/$/, '');
     }
 
+    private setActiveDrawing(svgFile: string, markdownNote: string) {
+        this.activeDoc = { svgFile, markdownNote };
+        this.broadcastToClients({
+            type: 'switch',
+            name: svgFile,
+            markdownNote: markdownNote
+        });
+    }
+
+    private refreshEmbeddedImages(fileName: string) {
+        const allDocs = new Set<Document>([document]);
+        this.app.workspace.iterateAllLeaves(leaf => {
+            if (leaf.view?.containerEl?.ownerDocument) {
+                allDocs.add(leaf.view.containerEl.ownerDocument);
+            }
+        });
+
+        const timestamp = Date.now();
+        allDocs.forEach(doc => {
+            const images = doc.querySelectorAll('img');
+            images.forEach(img => {
+                const src = img.getAttribute('src') || '';
+                const alt = img.getAttribute('alt') || '';
+                const parentSrc = img.parentElement?.getAttribute('src') || '';
+
+                if (src.includes(fileName) || alt.includes(fileName) || parentSrc.includes(fileName)) {
+                    const baseSrc = img.src.split('?')[0] || img.src;
+                    img.src = `${baseSrc}?t=${timestamp}`;
+                }
+            });
+        });
+    }
+
     private async handleCreateAndEmbed() {
         const view = this.app.workspace.getActiveViewOfType(MarkdownView);
         if (!view) {
@@ -130,27 +150,33 @@ export default class AirSketchPlugin extends Plugin {
             return;
         }
 
-        new CreateDrawingModal(this.app, this, async (name) => {
-            const cleanName = name.replace(/[^a-zA-Z0-9_-]/g, '_');
-            const fileName = cleanName.endsWith('.svg') ? cleanName : `${cleanName}.svg`;
-            const folderPath = this.getVaultDrawingsPath();
-            const filePath = `${folderPath}/${fileName}`;
+        const editor = view.editor;
 
-            if (!(await this.app.vault.adapter.exists(folderPath))) {
-                await this.app.vault.adapter.mkdir(folderPath);
-            }
+        // Auto-generate timestamped filename: drawing-YYYYMMDD-HHmmss.svg
+        const now = new Date();
+        const timestamp = `${now.getFullYear()}${String(now.getMonth()+1).padStart(2,'0')}${String(now.getDate()).padStart(2,'0')}-${String(now.getHours()).padStart(2,'0')}${String(now.getMinutes()).padStart(2,'0')}${String(now.getSeconds()).padStart(2,'0')}`;
+        const fileName = `drawing-${timestamp}.svg`;
+        const folderPath = this.getVaultDrawingsPath();
+        const filePath = `${folderPath}/${fileName}`;
 
-            if (!(await this.app.vault.adapter.exists(filePath))) {
-                const emptySvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%" style="background:#18181b;">
+        // Ensure drawings folder exists
+        if (!(await this.app.vault.adapter.exists(folderPath))) {
+            await this.app.vault.adapter.mkdir(folderPath);
+        }
+
+        // Create empty SVG file
+        const emptySvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%" style="background:#18181b;">
   <metadata data-state="%7B%22items%22%3A%5B%5D%2C%22scale%22%3A1%2C%22panX%22%3A0%2C%22panY%22%3A0%7D"></metadata>
 </svg>`;
-                await this.app.vault.adapter.write(filePath, emptySvg);
-            }
+        await this.app.vault.adapter.write(filePath, emptySvg);
 
-            view.editor.replaceSelection(`\n![[${filePath}]]\n`);
-            this.broadcastToClients({ type: 'switch', name: fileName });
-            new Notice(`✈️ Embedded & Pushed [[${fileName}]] to iPad`);
-        }).open();
+        // Instantly insert at cursor position
+        editor.replaceSelection(`![[${filePath}]]`);
+
+        // Set active drawing on server & sync to iPad
+        const parentNote = view.file ? view.file.basename : 'Untitled';
+        this.setActiveDrawing(fileName, parentNote);
+        new Notice(`✈️ Created [[${fileName}]] & Pushed to iPad`);
     }
 
     private broadcastToClients(data: any, excludeClientId?: string) {
@@ -186,7 +212,7 @@ export default class AirSketchPlugin extends Plugin {
                 if (k && v.length > 0) cookies[k] = decodeURIComponent(v.join('='));
             });
 
-            // 1. Initial Pairing: If visiting root with ?token=..., authenticate, set cookie, and redirect to clean URL
+            // 1. Initial Pairing
             if ((url.pathname === '/' || url.pathname === '/index.html') && url.searchParams.has('token')) {
                 const queryToken = url.searchParams.get('token');
                 if (this.settings.isPrivate && queryToken === this.settings.authToken) {
@@ -220,8 +246,10 @@ export default class AirSketchPlugin extends Plugin {
                 }
                 res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
                 res.end(HTML_CLIENT);
+            } else if (url.pathname === '/api/current') {
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify({ activeDoc: this.activeDoc }));
             } else if (url.pathname === '/api/events') {
-                // Refresh rolling cookie on wake-up / SSE reconnect
                 if (this.settings.isPrivate) {
                     res.setHeader('Set-Cookie', `airsketch_token=${this.settings.authToken}; Max-Age=34560000; Path=/; SameSite=Lax`);
                 }
@@ -236,21 +264,14 @@ export default class AirSketchPlugin extends Plugin {
                 res.write('\n');
                 const clientEntry = { res, clientId };
                 this.sseClients.push(clientEntry);
+
+                if (this.activeDoc) {
+                    res.write(`data: ${JSON.stringify({ type: 'switch', name: this.activeDoc.svgFile, markdownNote: this.activeDoc.markdownNote })}\n\n`);
+                }
+
                 req.on('close', () => {
                     this.sseClients = this.sseClients.filter(c => c !== clientEntry);
                 });
-            } else if (url.pathname === '/api/list') {
-                try {
-                    const listing = await this.app.vault.adapter.list(folderPath);
-                    const files = listing.files
-                        .filter(f => f.endsWith('.svg'))
-                        .map(f => path.basename(f));
-                    res.writeHead(200, { 'Content-Type': 'application/json' });
-                    res.end(JSON.stringify(files));
-                } catch {
-                    res.writeHead(200, { 'Content-Type': 'application/json' });
-                    res.end('[]');
-                }
             } else if (url.pathname === '/api/load') {
                 const name = path.basename(url.searchParams.get('name') ?? '');
                 const filePath = `${folderPath}/${name}`;
@@ -271,11 +292,21 @@ export default class AirSketchPlugin extends Plugin {
                 req.on('end', async () => {
                     try {
                         const { name, svg, state, senderId } = JSON.parse(body);
-                        const cleanName = (name || 'scratchpad').replace(/[^a-zA-Z0-9_-]/g, '_');
-                        const fileName = cleanName.endsWith('.svg') ? cleanName : `${cleanName}.svg`;
+                        
+                        const rawName = (name || 'scratchpad').replace(/\.svg$/i, '');
+                        const cleanName = rawName.replace(/[^a-zA-Z0-9_-]/g, '_');
+                        const fileName = `${cleanName}.svg`;
                         const filePath = `${folderPath}/${fileName}`;
 
-                        await this.app.vault.adapter.write(filePath, svg);
+                        const tFile = this.app.vault.getAbstractFileByPath(filePath);
+                        if (tFile instanceof TFile) {
+                            await this.app.vault.modify(tFile, svg);
+                        } else {
+                            await this.app.vault.adapter.write(filePath, svg);
+                        }
+
+                        // Force Obsidian to repaint the newly drawn lines on screen
+                        this.refreshEmbeddedImages(fileName);
 
                         this.broadcastToClients({ 
                             type: 'doc-updated', 
@@ -324,32 +355,42 @@ export default class AirSketchPlugin extends Plugin {
   * { box-sizing: border-box; touch-action: none; -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
   body, html { margin: 0; padding: 0; width: 100vw; height: 100vh; overflow: hidden; background: #18181b; color: #f4f4f5; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
   #canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; touch-action: none; }
+  
   .top-bar {
     position: fixed; top: 8px; left: 8px; right: 8px; height: 44px; display: flex; gap: 6px; align-items: center;
     background: rgba(28, 28, 32, 0.92); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
     padding: 4px 10px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); z-index: 1000;
   }
+  
+  #noteBadge {
+    display: inline-flex; align-items: center; gap: 6px; background: #202024;
+    border: 1px solid rgba(255,255,255,0.15); padding: 5px 10px; border-radius: 7px;
+    font-size: 13px; font-weight: 600; color: #e4e4e7; max-width: 220px;
+  }
+  #parentNoteName {
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+
   .btn {
     background: #2c2c30; color: #fff; border: 1px solid rgba(255,255,255,0.12); padding: 6px 12px; border-radius: 7px;
     font-size: 13px; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 4px; touch-action: manipulation;
   }
   .btn:active, .btn.active { background: #8b5cf6; border-color: #a78bfa; }
-  .btn.primary { background: #22c55e; border-color: #4ade80; }
   .btn.icon-only { padding: 6px 10px; }
   .btn svg { width: 15px; height: 15px; display: block; }
+  
   .color-picker { display: flex; gap: 6px; margin: 0 4px; }
   .color-dot { width: 24px; height: 24px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; touch-action: manipulation; }
   .color-dot.active { border-color: #fff; transform: scale(1.15); }
-  input[type="text"], select {
-    background: #202024; color: #fff; border: 1px solid rgba(255,255,255,0.15); padding: 5px 8px; border-radius: 6px; font-size: 13px; outline: none;
-  }
+  
   .spacer { flex: 1; }
   #status { font-size: 12px; color: #a1a1aa; margin-right: 4px; }
-  #modalOverlay {
-    display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.65); backdrop-filter: blur(8px);
-    z-index: 2000; align-items: center; justify-content: center;
+  
+  #waitingOverlay {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    position: absolute; inset: 0; background: #18181b; z-index: 500; text-align: center; padding: 24px;
   }
-  .modal-card { background: #252528; border: 1px solid rgba(255,255,255,0.15); border-radius: 12px; padding: 18px; width: 300px; }
+  
   #inlineTextEditor {
     display: none; position: absolute; background: rgba(30, 30, 35, 0.95); border: 1.5px solid #8b5cf6;
     border-radius: 6px; outline: none; color: #fff; font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -360,10 +401,19 @@ export default class AirSketchPlugin extends Plugin {
 </head>
 <body>
 
+<div id="waitingOverlay">
+  <div style="font-size: 44px; margin-bottom: 12px;">✈️</div>
+  <div style="font-size: 19px; font-weight: 600; color: #f4f4f5; margin-bottom: 6px;">Waiting for sketch from Obsidian</div>
+  <div style="font-size: 13px; color: #a1a1aa; max-width: 320px; line-height: 1.5;">
+    Create an AirSketch or <b>Cmd + Click</b> (or Ctrl + Click) on any drawing in Obsidian to load it here.
+  </div>
+</div>
+
 <div class="top-bar">
-  <select id="fileList"><option value="">-- Load --</option></select>
-  <button class="btn" id="newBtn">+ New</button>
-  <input type="text" id="docName" placeholder="Drawing name..." value="scratchpad" style="width: 130px;">
+  <div id="noteBadge">
+    <span>📝</span>
+    <span id="parentNoteName">No Active Note</span>
+  </div>
   
   <div class="color-picker">
     <div class="color-dot active" style="background:#ffffff;" data-color="#ffffff"></div>
@@ -377,7 +427,7 @@ export default class AirSketchPlugin extends Plugin {
   <button class="btn active" id="penBtn">Pen</button>
   <button class="btn" id="eraserBtn">Eraser</button>
   <button class="btn" id="selectBtn">Select</button>
-  <button class="btn" id="textBtn">Text (T)</button>
+  <button class="btn" id="textBtn">Text</button>
   
   <button class="btn icon-only" id="undoBtn" title="Undo (Cmd+Z)">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -395,25 +445,14 @@ export default class AirSketchPlugin extends Plugin {
   
   <div class="spacer"></div>
   <span id="status">Ready</span>
-  <button class="btn primary" id="saveBtn">Save</button>
 </div>
 
 <canvas id="canvas"></canvas>
 <input type="text" id="inlineTextEditor" placeholder="Type text...">
 
-<div id="modalOverlay">
-  <div class="modal-card">
-    <h3 style="margin-top:0; margin-bottom:10px; font-size:15px;">New AirSketch</h3>
-    <input type="text" id="modalInput" style="width:100%; margin-bottom:14px; padding:8px;" placeholder="Drawing name...">
-    <div style="display:flex; gap:8px; justify-content:flex-end;">
-      <button class="btn" id="modalCancel">Cancel</button>
-      <button class="btn" id="modalConfirm" style="background:#8b5cf6;">Create</button>
-    </div>
-  </div>
-</div>
-
 <script>
 const CLIENT_ID = Math.random().toString(36).slice(2);
+let currentFileName = null;
 
 function authFetch(url, options = {}) {
   return fetch(url, options);
@@ -422,6 +461,8 @@ function authFetch(url, options = {}) {
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const inlineEditor = document.getElementById('inlineTextEditor');
+const waitingOverlay = document.getElementById('waitingOverlay');
+const parentNoteEl = document.getElementById('parentNoteName');
 
 let items = [];
 let selectedItems = new Set();
@@ -706,6 +747,7 @@ inlineEditor.addEventListener('keydown', (e) => {
 inlineEditor.addEventListener('blur', commitInlineText);
 
 function handleStart(clientX, clientY) {
+  if (!currentFileName) return;
   if (inlineEditor.style.display === 'block') {
     commitInlineText();
   }
@@ -755,6 +797,7 @@ function handleStart(clientX, clientY) {
 }
 
 function handleMove(clientX, clientY) {
+  if (!currentFileName) return;
   const cPt = toCanvasCoord(clientX, clientY);
   if (isInteracting) {
     if (currentTool === 'pen' && currentStroke) {
@@ -781,6 +824,7 @@ function handleMove(clientX, clientY) {
 }
 
 function handleEnd() {
+  if (!currentFileName) return;
   if (isInteracting) {
     isInteracting = false;
     currentStroke = null;
@@ -905,6 +949,7 @@ canvas.addEventListener('wheel', (e) => {
 }, { passive: false });
 
 window.addEventListener('paste', async (e) => {
+  if (!currentFileName) return;
   const clipboardItems = e.clipboardData?.items;
   if (!clipboardItems) return;
   const centerPt = toCanvasCoord(window.innerWidth / 2, window.innerHeight / 2);
@@ -1027,7 +1072,7 @@ window.addEventListener('keydown', (e) => {
 });
 
 async function triggerAutoSave() {
-  const docName = document.getElementById('docName').value.trim() || 'scratchpad';
+  if (!currentFileName) return;
   document.getElementById('status').innerText = 'Saving...';
 
   let minX = 0, minY = 0, maxX = window.innerWidth, maxY = window.innerHeight;
@@ -1088,33 +1133,15 @@ async function triggerAutoSave() {
     const res = await authFetch('/api/save', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: docName, svg, state: stateObj, senderId: CLIENT_ID })
+      body: JSON.stringify({ name: currentFileName, svg, state: stateObj, senderId: CLIENT_ID })
     });
     if (res.ok) {
       document.getElementById('status').innerText = 'Saved ✓ ' + new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-      loadFilesList();
     }
   } catch(e) { document.getElementById('status').innerText = 'Save Error'; }
 }
-document.getElementById('saveBtn').onclick = triggerAutoSave;
 
-async function loadFilesList() {
-  try {
-    const res = await authFetch('/api/list');
-    const files = await res.json();
-    const sel = document.getElementById('fileList');
-    const cur = sel.value;
-    sel.innerHTML = '<option value="">-- Load --</option>';
-    files.forEach(f => {
-      const opt = document.createElement('option');
-      opt.value = f; opt.innerText = f;
-      sel.appendChild(opt);
-    });
-    sel.value = cur;
-  } catch(e) {}
-}
-
-async function loadDrawingFile(fileName) {
+async function loadDrawingFile(fileName, markdownNote) {
   if (!fileName) return;
   document.getElementById('status').innerText = 'Loading...';
   try {
@@ -1137,25 +1164,40 @@ async function loadDrawingFile(fileName) {
       scale = state.scale || 1;
       panX = state.panX || 0;
       panY = state.panY || 0;
-      document.getElementById('docName').value = fileName.replace(/\\.svg$/, '');
+      
+      currentFileName = fileName;
+      if (markdownNote) {
+        parentNoteEl.innerText = markdownNote;
+      }
+      waitingOverlay.style.display = 'none';
       render();
-      document.getElementById('status').innerText = 'Loaded ' + fileName;
+      document.getElementById('status').innerText = 'Ready';
     }
   } catch(err) { alert('Could not load drawing.'); }
 }
-document.getElementById('fileList').onchange = (e) => loadDrawingFile(e.target.value);
+
+async function checkInitialActiveDoc() {
+  try {
+    const res = await authFetch('/api/current');
+    const data = await res.json();
+    if (data && data.activeDoc) {
+      loadDrawingFile(data.activeDoc.svgFile, data.activeDoc.markdownNote);
+    } else {
+      waitingOverlay.style.display = 'flex';
+    }
+  } catch (e) {
+    waitingOverlay.style.display = 'flex';
+  }
+}
 
 const sseUrl = '/api/events?client=' + CLIENT_ID;
 const sse = new EventSource(sseUrl);
 sse.onmessage = (e) => {
   try {
     const data = JSON.parse(e.data);
-    const curDoc = (document.getElementById('docName').value.trim() || 'scratchpad') + '.svg';
-    
     if (data.type === 'switch' && data.name) {
-      loadDrawingFile(data.name);
-      loadFilesList();
-    } else if (data.type === 'doc-updated' && data.name === curDoc && data.senderId !== CLIENT_ID) {
+      loadDrawingFile(data.name, data.markdownNote);
+    } else if (data.type === 'doc-updated' && data.name === currentFileName && data.senderId !== CLIENT_ID) {
       if (!isInteracting) {
         items = (data.state.items || []).map(it => {
           if (it.type === 'image' && it.dataUrl) {
@@ -1172,25 +1214,8 @@ sse.onmessage = (e) => {
   } catch(err) {}
 };
 
-const modalOverlay = document.getElementById('modalOverlay');
-const modalInput = document.getElementById('modalInput');
-bindBtn(document.getElementById('newBtn'), () => {
-  modalInput.value = 'drawing-' + Date.now().toString().slice(-4);
-  modalOverlay.style.display = 'flex';
-  modalInput.focus();
-});
-bindBtn(document.getElementById('modalCancel'), () => { modalOverlay.style.display = 'none'; });
-bindBtn(document.getElementById('modalConfirm'), () => {
-  const name = modalInput.value.trim() || 'scratchpad';
-  document.getElementById('docName').value = name;
-  modalOverlay.style.display = 'none';
-  pushHistory();
-  items = []; selectedItems.clear(); scale = 1; panX = 0; panY = 0;
-  render(); triggerAutoSave();
-});
-
 resize();
-loadFilesList();
+checkInitialActiveDoc();
 </script>
 </body>
 </html>`;

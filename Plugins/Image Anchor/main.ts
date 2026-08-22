@@ -10,6 +10,11 @@ export default class ImageAnchor extends Plugin {
 
         // 2. Intercept click events in CAPTURE phase to block native Obsidian image zoom
         this.registerDomEvent(document, 'click', (evt: MouseEvent) => {
+            // Ignore if Command (Mac) or Ctrl (Windows/Linux) is pressed so other plugins (like AirSketch) can handle it
+            if (evt.metaKey || evt.ctrlKey) {
+                return;
+            }
+
             const target = evt.target;
             if (!(target instanceof HTMLImageElement)) return;
 
