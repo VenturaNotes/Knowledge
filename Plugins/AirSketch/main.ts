@@ -391,11 +391,14 @@ export default class AirSketchPlugin extends Plugin {
     position: absolute; inset: 0; background: #18181b; z-index: 500; text-align: center; padding: 24px;
   }
   
+  /* Seamless in-place canvas text editor */
   #inlineTextEditor {
-    display: none; position: absolute; background: rgba(30, 30, 35, 0.95); border: 1.5px solid #8b5cf6;
-    border-radius: 6px; outline: none; color: #fff; font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    padding: 6px 10px; font-size: 18px; z-index: 1500; min-width: 140px; box-shadow: 0 4px 16px rgba(0,0,0,0.5);
-    user-select: text; -webkit-user-select: text;
+    display: none; position: absolute; background: transparent;
+    border: 1px dashed rgba(167, 139, 250, 0.7); border-radius: 2px;
+    outline: none; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 0; margin: 0; line-height: 1.0; z-index: 1500; min-width: 20px;
+    white-space: pre; caret-color: #a78bfa; user-select: text; -webkit-user-select: text;
+    touch-action: manipulation;
   }
 </style>
 </head>
@@ -426,7 +429,8 @@ export default class AirSketchPlugin extends Plugin {
 
   <button class="btn active" id="penBtn">Pen</button>
   <button class="btn" id="eraserBtn">Eraser</button>
-  <button class="btn" id="selectBtn">Select</button>
+  <button class="btn" id="selectBtn">Box</button>
+  <button class="btn" id="lassoBtn">Lasso</button>
   <button class="btn" id="textBtn">Text</button>
   
   <button class="btn icon-only" id="undoBtn" title="Undo (Cmd+Z)">
@@ -448,7 +452,7 @@ export default class AirSketchPlugin extends Plugin {
 </div>
 
 <canvas id="canvas"></canvas>
-<input type="text" id="inlineTextEditor" placeholder="Type text...">
+<input type="text" id="inlineTextEditor" placeholder="">
 
 <script>
 const CLIENT_ID = Math.random().toString(36).slice(2);
@@ -476,6 +480,10 @@ let isPanning = false;
 
 let isMarquee = false;
 let marqueeStart = null, marqueeEnd = null;
+
+let isLassoing = false;
+let lassoPoints = [];
+
 let dragStartPos = null;
 
 const undoStack = [];
@@ -528,9 +536,10 @@ function getItemBounds(item) {
     const xs = item.points.map(p => p.x), ys = item.points.map(p => p.y);
     return { minX: Math.min(...xs)-4, minY: Math.min(...ys)-4, maxX: Math.max(...xs)+4, maxY: Math.max(...ys)+4 };
   } else if (item.type === 'text') {
-    ctx.font = (item.fontSize || 18) + 'px -apple-system, sans-serif';
+    ctx.font = (item.fontSize || 18) + 'px -apple-system, BlinkMacSystemFont, sans-serif';
     const w = ctx.measureText(item.text).width;
-    return { minX: item.x - 4, minY: item.y - (item.fontSize || 18) - 2, maxX: item.x + w + 4, maxY: item.y + 4 };
+    const h = item.fontSize || 18;
+    return { minX: item.x - 2, minY: item.y - 2, maxX: item.x + w + 2, maxY: item.y + h + 2 };
   } else if (item.type === 'image') {
     return { minX: item.x - 4, minY: item.y - 4, maxX: item.x + item.width + 4, maxY: item.y + item.height + 4 };
   }
@@ -549,6 +558,18 @@ function getSelectedTotalBounds() {
   });
   if (sMinX === Infinity) return null;
   return { minX: sMinX, minY: sMinY, maxX: sMaxX, maxY: sMaxY };
+}
+
+function pointInPolygon(p, vs) {
+  let inside = false;
+  for (let i = 0, j = vs.length - 1; i < vs.length; j = i++) {
+    const xi = vs[i].x, yi = vs[i].y;
+    const xj = vs[j].x, yj = vs[j].y;
+    const intersect = ((yi > p.y) !== (yj > p.y))
+        && (p.x < (xj - xi) * (p.y - yi) / (yj - yi) + xi);
+    if (intersect) inside = !inside;
+  }
+  return inside;
 }
 
 function render() {
@@ -590,8 +611,11 @@ function render() {
         ctx.stroke();
       }
     } else if (item.type === 'text') {
+      // Hide text item while actively typing in overlay
+      if (item === activeTextTarget) return;
       ctx.fillStyle = item.color || '#fff';
       ctx.font = (item.fontSize || 18) + 'px -apple-system, BlinkMacSystemFont, sans-serif';
+      ctx.textBaseline = 'top';
       ctx.fillText(item.text, item.x, item.y);
     } else if (item.type === 'image') {
       if (item.imgObj && item.imgObj.complete) {
@@ -640,6 +664,22 @@ function render() {
     ctx.setLineDash([]);
   }
 
+  if (isLassoing && lassoPoints.length > 1) {
+    ctx.beginPath();
+    ctx.moveTo(lassoPoints[0].x, lassoPoints[0].y);
+    for (let i = 1; i < lassoPoints.length; i++) {
+      ctx.lineTo(lassoPoints[i].x, lassoPoints[i].y);
+    }
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(167, 139, 250, 0.18)';
+    ctx.fill();
+    ctx.strokeStyle = '#c084fc';
+    ctx.lineWidth = 1.5 / scale;
+    ctx.setLineDash([5 / scale, 5 / scale]);
+    ctx.stroke();
+    ctx.setLineDash([]);
+  }
+
   ctx.restore();
 }
 
@@ -658,7 +698,9 @@ function eraseAt(cPt) {
         return false;
       }
     } else if (item.type === 'text') {
-      if (Math.hypot(cPt.x - item.x, cPt.y - item.y) <= ERASER_RADIUS + 12) {
+      const b = getItemBounds(item);
+      if (b && cPt.x >= b.minX - ERASER_RADIUS && cPt.x <= b.maxX + ERASER_RADIUS &&
+              cPt.y >= b.minY - ERASER_RADIUS && cPt.y <= b.maxY + ERASER_RADIUS) {
         changed = true;
         return false;
       }
@@ -686,7 +728,8 @@ function getItemAt(cPt) {
         if (distToSegment(cPt, item.points[j], item.points[j+1]) <= 12) return item;
       }
     } else if (item.type === 'text') {
-      if (Math.hypot(cPt.x - item.x, cPt.y - item.y) <= 24) return item;
+      const b = getItemBounds(item);
+      if (b && cPt.x >= b.minX - 4 && cPt.x <= b.maxX + 4 && cPt.y >= b.minY - 4 && cPt.y <= b.maxY + 4) return item;
     } else if (item.type === 'image') {
       if (cPt.x >= item.x && cPt.x <= item.x + item.width && cPt.y >= item.y && cPt.y <= item.y + item.height) return item;
     }
@@ -708,41 +751,142 @@ function selectItemsInBox(p1, p2) {
   render();
 }
 
-function openInlineTextEditor(screenX, screenY, cPt, existingItem) {
-  activeTextTarget = existingItem || { type: 'text', x: cPt.x, y: cPt.y, text: '', color: currentColor, fontSize: 18 };
+function selectItemsInLasso(poly) {
+  if (poly.length < 3) return;
+  selectedItems.clear();
+  items.forEach(it => {
+    const b = getItemBounds(it);
+    if (!b) return;
+    const center = { x: (b.minX + b.maxX) / 2, y: (b.minY + b.maxY) / 2 };
+    if (pointInPolygon(center, poly)) {
+      selectedItems.add(it);
+      return;
+    }
+    if (it.type === 'stroke') {
+      if (it.points.some(p => pointInPolygon(p, poly))) {
+        selectedItems.add(it);
+      }
+    } else {
+      const corners = [
+        { x: b.minX, y: b.minY },
+        { x: b.maxX, y: b.minY },
+        { x: b.minX, y: b.maxY },
+        { x: b.maxX, y: b.maxY }
+      ];
+      if (corners.some(c => pointInPolygon(c, poly))) {
+        selectedItems.add(it);
+      }
+    }
+  });
+  render();
+}
+
+function setTool(tool) {
+  currentTool = tool;
   
+  // Update button visual styles
+  document.querySelectorAll('.top-bar .btn').forEach(b => b.classList.remove('active'));
+  if (tool === 'pen') document.getElementById('penBtn').classList.add('active');
+  else if (tool === 'eraser') document.getElementById('eraserBtn').classList.add('active');
+  else if (tool === 'select') document.getElementById('selectBtn').classList.add('active');
+  else if (tool === 'lasso') document.getElementById('lassoBtn').classList.add('active');
+  else if (tool === 'text') document.getElementById('textBtn').classList.add('active');
+
+  // If text editor was open, commit it
+  if (inlineEditor.style.display === 'block') {
+    commitInlineText();
+  }
+
+  // Deselect any selected items when switching tools
+  if (selectedItems.size > 0) {
+    selectedItems.clear();
+    render();
+  }
+}
+
+function adjustEditorSize() {
+  if (!activeTextTarget) return;
+  const currentVal = inlineEditor.value;
+  ctx.font = ((activeTextTarget.fontSize || 18) * scale) + 'px -apple-system, BlinkMacSystemFont, sans-serif';
+  const textWidth = ctx.measureText(currentVal || 'A').width;
+  inlineEditor.style.width = Math.max(textWidth + 16, 24) + 'px';
+  inlineEditor.style.height = ((activeTextTarget.fontSize || 18) * scale * 1.15) + 'px';
+}
+
+function updateInlineEditorPosition() {
+  if (inlineEditor.style.display !== 'block' || !activeTextTarget) return;
+  const screenX = activeTextTarget.x * scale + panX;
+  const screenY = activeTextTarget.y * scale + panY;
   inlineEditor.style.left = screenX + 'px';
   inlineEditor.style.top = screenY + 'px';
-  inlineEditor.style.display = 'block';
-  inlineEditor.style.color = activeTextTarget.color || currentColor;
+  inlineEditor.style.fontSize = ((activeTextTarget.fontSize || 18) * scale) + 'px';
+  adjustEditorSize();
+}
+
+function openInlineTextEditor(cPt, existingItem) {
+  if (inlineEditor.style.display === 'block') {
+    commitInlineText();
+  }
+
+  if (existingItem) {
+    activeTextTarget = existingItem;
+  } else {
+    activeTextTarget = {
+      type: 'text',
+      x: cPt.x,
+      y: cPt.y,
+      text: '',
+      color: currentColor,
+      fontSize: 18,
+      isNew: true
+    };
+  }
+
   inlineEditor.value = activeTextTarget.text || '';
-  
+  inlineEditor.style.color = activeTextTarget.color || currentColor;
+  inlineEditor.style.display = 'block';
+  updateInlineEditorPosition();
+  render();
+
   setTimeout(() => {
     inlineEditor.focus();
-    inlineEditor.select();
-  }, 50);
+    if (!activeTextTarget.isNew && activeTextTarget.text) {
+      inlineEditor.select();
+    }
+  }, 30);
 }
 
 function commitInlineText() {
-  if (inlineEditor.style.display === 'none') return;
+  if (inlineEditor.style.display === 'none' || !activeTextTarget) return;
   const val = inlineEditor.value.trim();
   inlineEditor.style.display = 'none';
 
-  if (val && activeTextTarget) {
+  if (val) {
     pushHistory();
     activeTextTarget.text = val;
-    if (!items.includes(activeTextTarget)) {
+    if (activeTextTarget.isNew) {
+      delete activeTextTarget.isNew;
       items.push(activeTextTarget);
     }
-    render();
-    triggerAutoSave();
+  } else if (!activeTextTarget.isNew) {
+    pushHistory();
+    items = items.filter(it => it !== activeTextTarget);
   }
+
   activeTextTarget = null;
+  render();
+  triggerAutoSave();
 }
 
+inlineEditor.addEventListener('input', adjustEditorSize);
 inlineEditor.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') commitInlineText();
-  else if (e.key === 'Escape') { inlineEditor.style.display = 'none'; activeTextTarget = null; }
+  if (e.key === 'Enter') {
+    commitInlineText();
+  } else if (e.key === 'Escape') {
+    inlineEditor.style.display = 'none';
+    activeTextTarget = null;
+    render();
+  }
 });
 inlineEditor.addEventListener('blur', commitInlineText);
 
@@ -791,8 +935,31 @@ function handleStart(clientX, clientY) {
       }
     }
     render();
+  } else if (currentTool === 'lasso') {
+    isInteracting = true;
+    dragStartPos = cPt;
+
+    const sBounds = getSelectedTotalBounds();
+    const pad = 10;
+    const isInsideSelectionBounds = sBounds && 
+      (cPt.x >= sBounds.minX - pad && cPt.x <= sBounds.maxX + pad && cPt.y >= sBounds.minY - pad && cPt.y <= sBounds.maxY + pad);
+
+    if (isInsideSelectionBounds) {
+      pushHistory();
+      isLassoing = false;
+    } else {
+      selectedItems.clear();
+      isLassoing = true;
+      lassoPoints = [cPt];
+    }
+    render();
   } else if (currentTool === 'text') {
-    openInlineTextEditor(clientX, clientY, cPt, null);
+    const clicked = getItemAt(cPt);
+    if (clicked && clicked.type === 'text') {
+      openInlineTextEditor(cPt, clicked);
+    } else {
+      openInlineTextEditor(cPt, null);
+    }
   }
 }
 
@@ -819,6 +986,20 @@ function handleMove(clientX, clientY) {
         dragStartPos = cPt;
         render();
       }
+    } else if (currentTool === 'lasso') {
+      if (isLassoing) {
+        lassoPoints.push(cPt);
+        render();
+      } else if (dragStartPos && selectedItems.size > 0) {
+        const dx = cPt.x - dragStartPos.x;
+        const dy = cPt.y - dragStartPos.y;
+        selectedItems.forEach(it => {
+          if (it.type === 'stroke') it.points.forEach(p => { p.x += dx; p.y += dy; });
+          else { it.x += dx; it.y += dy; }
+        });
+        dragStartPos = cPt;
+        render();
+      }
     }
   }
 }
@@ -832,6 +1013,13 @@ function handleEnd() {
     isMarquee = false;
     marqueeStart = null;
     marqueeEnd = null;
+
+    if (isLassoing) {
+      isLassoing = false;
+      selectItemsInLasso(lassoPoints);
+      lassoPoints = [];
+    }
+
     render();
     clearTimeout(autoSaveTimer);
     autoSaveTimer = setTimeout(triggerAutoSave, 1000);
@@ -903,6 +1091,7 @@ canvas.addEventListener('touchmove', (e) => {
 
       prevPinchDist = currentDist;
       prevPinchMid = currentMid;
+      updateInlineEditorPosition();
       render();
     }
   }
@@ -945,6 +1134,7 @@ canvas.addEventListener('wheel', (e) => {
     panX -= e.deltaX;
     panY -= e.deltaY;
   }
+  updateInlineEditorPosition();
   render();
 }, { passive: false });
 
@@ -1006,36 +1196,16 @@ document.querySelectorAll('.color-dot').forEach(dot => {
     dot.classList.add('active');
     currentColor = dot.dataset.color;
     if (currentTool === 'eraser') {
-      currentTool = 'pen';
-      document.getElementById('penBtn').classList.add('active');
-      document.getElementById('eraserBtn').classList.remove('active');
+      setTool('pen');
     }
   });
 });
 
-bindBtn(document.getElementById('penBtn'), () => {
-  currentTool = 'pen';
-  document.querySelectorAll('.top-bar .btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('penBtn').classList.add('active');
-});
-
-bindBtn(document.getElementById('eraserBtn'), () => {
-  currentTool = 'eraser';
-  document.querySelectorAll('.top-bar .btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('eraserBtn').classList.add('active');
-});
-
-bindBtn(document.getElementById('selectBtn'), () => {
-  currentTool = 'select';
-  document.querySelectorAll('.top-bar .btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('selectBtn').classList.add('active');
-});
-
-bindBtn(document.getElementById('textBtn'), () => {
-  currentTool = 'text';
-  document.querySelectorAll('.top-bar .btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('textBtn').classList.add('active');
-});
+bindBtn(document.getElementById('penBtn'), () => setTool('pen'));
+bindBtn(document.getElementById('eraserBtn'), () => setTool('eraser'));
+bindBtn(document.getElementById('selectBtn'), () => setTool('select'));
+bindBtn(document.getElementById('lassoBtn'), () => setTool('lasso'));
+bindBtn(document.getElementById('textBtn'), () => setTool('text'));
 
 function doUndo() {
   if (undoStack.length > 0) {
@@ -1062,10 +1232,26 @@ bindBtn(document.getElementById('redoBtn'), doRedo);
 
 window.addEventListener('keydown', (e) => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-  if (e.key === 'p' || e.key === 'P') document.getElementById('penBtn').click();
-  if (e.key === 'e' || e.key === 'E') document.getElementById('eraserBtn').click();
-  if (e.key === 's' || e.key === 'S' || e.key === 'v' || e.key === 'V') document.getElementById('selectBtn').click();
-  if (e.key === 't' || e.key === 'T') document.getElementById('textBtn').click();
+
+  // Delete / Backspace key to remove selected items
+  if ((e.key === 'Delete' || e.key === 'Backspace') && selectedItems.size > 0) {
+    e.preventDefault();
+    pushHistory();
+    items = items.filter(it => !selectedItems.has(it));
+    selectedItems.clear();
+    render();
+    triggerAutoSave();
+    return;
+  }
+
+  // Reliable Keyboard shortcuts for tools
+  if (e.key === 'p' || e.key === 'P') { setTool('pen'); return; }
+  if (e.key === 'e' || e.key === 'E') { setTool('eraser'); return; }
+  if (e.key === 's' || e.key === 'S' || e.key === 'v' || e.key === 'V' || e.key === 'b' || e.key === 'B') { setTool('select'); return; }
+  if (e.key === 'l' || e.key === 'L') { setTool('lasso'); return; }
+  if (e.key === 't' || e.key === 'T') { setTool('text'); return; }
+
+  // Undo / Redo
   if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 'z' || e.key === 'Z')) { doRedo(); }
   else if ((e.metaKey || e.ctrlKey) && (e.key === 'z' || e.key === 'Z')) { doUndo(); }
   else if ((e.metaKey || e.ctrlKey) && (e.key === 'y' || e.key === 'Y')) { doRedo(); }
@@ -1080,14 +1266,22 @@ async function triggerAutoSave() {
     const allPts = items.flatMap(it => {
       if (it.type === 'stroke') return it.points;
       if (it.type === 'image') return [{x: it.x, y: it.y}, {x: it.x + it.width, y: it.y + it.height}];
-      if (it.type === 'text') return [{x: it.x, y: it.y - 20}, {x: it.x + 100, y: it.y}];
+      if (it.type === 'text') {
+        ctx.font = (it.fontSize || 18) + 'px -apple-system, BlinkMacSystemFont, sans-serif';
+        const textWidth = ctx.measureText(it.text).width;
+        const textHeight = it.fontSize || 18;
+        return [
+          { x: it.x, y: it.y },
+          { x: it.x + textWidth, y: it.y + textHeight + 4 }
+        ];
+      }
       return [];
     });
     if (allPts.length > 0) {
-      minX = Math.min(...allPts.map(p => p.x)) - 24;
-      minY = Math.min(...allPts.map(p => p.y)) - 24;
-      maxX = Math.max(...allPts.map(p => p.x)) + 24;
-      maxY = Math.max(...allPts.map(p => p.y)) + 24;
+      minX = Math.min(...allPts.map(p => p.x)) - 32;
+      minY = Math.min(...allPts.map(p => p.y)) - 32;
+      maxX = Math.max(...allPts.map(p => p.x)) + 32;
+      maxY = Math.max(...allPts.map(p => p.y)) + 32;
     }
   }
   const width = Math.max(400, maxX - minX);
@@ -1115,7 +1309,8 @@ async function triggerAutoSave() {
       d += ' L ' + it.points[it.points.length-1].x + ' ' + it.points[it.points.length-1].y;
       return '<path d="' + d + '" stroke="' + it.color + '" stroke-width="' + (it.size || PEN_SIZE) + '" fill="none" stroke-linecap="round" stroke-linejoin="round" />';
     } else if (it.type === 'text') {
-      return '<text x="' + it.x + '" y="' + it.y + '" fill="' + it.color + '" font-size="' + (it.fontSize || 18) + '" font-family="sans-serif">' + it.text + '</text>';
+      const escapedText = it.text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      return '<text x="' + it.x + '" y="' + it.y + '" fill="' + it.color + '" font-size="' + (it.fontSize || 18) + '" font-family="-apple-system, BlinkMacSystemFont, sans-serif" dominant-baseline="hanging">' + escapedText + '</text>';
     } else if (it.type === 'image') {
       return '<image href="' + it.dataUrl + '" x="' + it.x + '" y="' + it.y + '" width="' + it.width + '" height="' + it.height + '" />';
     }
