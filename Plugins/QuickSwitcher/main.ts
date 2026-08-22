@@ -276,7 +276,6 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             }
         }
 
-        // Fallback to the blank prefix rule if configured
         const defaultRule = this.plugin.settings.prefixRules.find(r => r.prefix.trim() === '') ?? null;
         return { actualQuery: query, rule: defaultRule };
     }
@@ -762,6 +761,30 @@ class LeanHeadingModal extends SuggestModal<HeadingItem> {
 // --- Main Plugin ---
 export default class LeanSwitcherPlugin extends Plugin {
     settings: LeanSwitcherSettings = DEFAULT_SETTINGS;
+    private lastNativeExecutionTime = 0;
+    private lastExecutionTime = 0;
+
+    // Webview IPC / Space-Switch Double Trigger Protector
+    private isDoubleTrigger(): boolean {
+        const stack = new Error().stack || '';
+        const isNativeHotkey = stack.includes('handleKey') || stack.includes('onKeyDown');
+
+        if (isNativeHotkey) {
+            this.lastNativeExecutionTime = Date.now();
+        } else if (Date.now() - this.lastNativeExecutionTime < 500) {
+            // Drop space-switch ghost event from Webview IPC
+            return true;
+        }
+
+        // Generic 250ms debounce safeguard
+        const now = Date.now();
+        if (now - this.lastExecutionTime < 250) {
+            return true;
+        }
+        this.lastExecutionTime = now;
+
+        return false;
+    }
 
     async onload() {
         await this.loadSettings();
@@ -770,7 +793,10 @@ export default class LeanSwitcherPlugin extends Plugin {
         this.addCommand({
             id: 'open-lean-switcher',
             name: 'File Search',
-            callback: () => new LeanSwitcherModal(this.app, this).open()
+            callback: () => {
+                if (this.isDoubleTrigger()) return;
+                new LeanSwitcherModal(this.app, this).open();
+            }
         });
 
         // 2. Heading Switcher Command
@@ -781,6 +807,7 @@ export default class LeanSwitcherPlugin extends Plugin {
                 const activeView = this.app.workspace.getActiveViewOfType(MarkdownView);
                 if (activeView && activeView.file) {
                     if (!checking) {
+                        if (this.isDoubleTrigger()) return;
                         new LeanHeadingModal(this.app, activeView).open();
                     }
                     return true;
