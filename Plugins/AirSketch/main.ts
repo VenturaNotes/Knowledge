@@ -67,7 +67,7 @@ export default class AirSketchPlugin extends Plugin {
             }
         });
 
-        // 3. Cmd + Click (or Ctrl + Click) on SVG Embed to send to iPad
+        // 3. Cmd + Click on SVG Embed to send to iPad
         this.registerDomEvent(document, 'click', (e: MouseEvent) => {
             if (!(e.metaKey || e.ctrlKey)) return;
 
@@ -152,28 +152,23 @@ export default class AirSketchPlugin extends Plugin {
 
         const editor = view.editor;
 
-        // Auto-generate timestamped filename: drawing-YYYYMMDD-HHmmss.svg
         const now = new Date();
         const timestamp = `${now.getFullYear()}${String(now.getMonth()+1).padStart(2,'0')}${String(now.getDate()).padStart(2,'0')}-${String(now.getHours()).padStart(2,'0')}${String(now.getMinutes()).padStart(2,'0')}${String(now.getSeconds()).padStart(2,'0')}`;
         const fileName = `drawing-${timestamp}.svg`;
         const folderPath = this.getVaultDrawingsPath();
         const filePath = `${folderPath}/${fileName}`;
 
-        // Ensure drawings folder exists
         if (!(await this.app.vault.adapter.exists(folderPath))) {
             await this.app.vault.adapter.mkdir(folderPath);
         }
 
-        // Create empty SVG file
         const emptySvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%" style="background:#18181b;">
   <metadata data-state="%7B%22items%22%3A%5B%5D%2C%22scale%22%3A1%2C%22panX%22%3A0%2C%22panY%22%3A0%7D"></metadata>
 </svg>`;
         await this.app.vault.adapter.write(filePath, emptySvg);
 
-        // Instantly insert at cursor position
         editor.replaceSelection(`![[${filePath}]]`);
 
-        // Set active drawing on server & sync to iPad
         const parentNote = view.file ? view.file.basename : 'Untitled';
         this.setActiveDrawing(fileName, parentNote);
         new Notice(`✈️ Created [[${fileName}]] & Pushed to iPad`);
@@ -205,14 +200,12 @@ export default class AirSketchPlugin extends Plugin {
         this.server = http.createServer(async (req, res) => {
             const url = new URL(req.url ?? '/', `http://${req.headers.host}`);
 
-            // Parse Cookies
             const cookies: Record<string, string> = {};
             (req.headers.cookie || '').split(';').forEach(c => {
                 const [k, ...v] = c.trim().split('=');
                 if (k && v.length > 0) cookies[k] = decodeURIComponent(v.join('='));
             });
 
-            // 1. Initial Pairing
             if ((url.pathname === '/' || url.pathname === '/index.html') && url.searchParams.has('token')) {
                 const queryToken = url.searchParams.get('token');
                 if (this.settings.isPrivate && queryToken === this.settings.authToken) {
@@ -225,7 +218,6 @@ export default class AirSketchPlugin extends Plugin {
                 }
             }
 
-            // 2. Authentication Guard for Private Mode
             if (this.settings.isPrivate) {
                 const queryToken = url.searchParams.get('token');
                 const headerToken = req.headers['x-airsketch-token'] as string | undefined;
@@ -239,7 +231,6 @@ export default class AirSketchPlugin extends Plugin {
                 }
             }
 
-            // 3. Serve Routes
             if (url.pathname === '/' || url.pathname === '/index.html') {
                 if (this.settings.isPrivate) {
                     res.setHeader('Set-Cookie', `airsketch_token=${this.settings.authToken}; Max-Age=34560000; Path=/; SameSite=Lax`);
@@ -305,7 +296,6 @@ export default class AirSketchPlugin extends Plugin {
                             await this.app.vault.adapter.write(filePath, svg);
                         }
 
-                        // Force Obsidian to repaint the newly drawn lines on screen
                         this.refreshEmbeddedImages(fileName);
 
                         this.broadcastToClients({ 
@@ -348,8 +338,6 @@ export default class AirSketchPlugin extends Plugin {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>AirSketch</title>
 <style>
   * { box-sizing: border-box; touch-action: none; -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
@@ -391,7 +379,6 @@ export default class AirSketchPlugin extends Plugin {
     position: absolute; inset: 0; background: #18181b; z-index: 500; text-align: center; padding: 24px;
   }
   
-  /* Seamless in-place canvas text editor */
   #inlineTextEditor {
     display: none; position: absolute; background: transparent;
     border: 1px dashed rgba(167, 139, 250, 0.7); border-radius: 2px;
@@ -408,7 +395,7 @@ export default class AirSketchPlugin extends Plugin {
   <div style="font-size: 44px; margin-bottom: 12px;">✈️</div>
   <div style="font-size: 19px; font-weight: 600; color: #f4f4f5; margin-bottom: 6px;">Waiting for sketch from Obsidian</div>
   <div style="font-size: 13px; color: #a1a1aa; max-width: 320px; line-height: 1.5;">
-    Create an AirSketch or <b>Cmd + Click</b> (or Ctrl + Click) on any drawing in Obsidian to load it here.
+    Create an AirSketch or <b>Cmd + Click</b> on any drawing in Obsidian to load it here.
   </div>
 </div>
 
@@ -502,13 +489,10 @@ function pushHistory() {
   redoStack.length = 0;
 }
 
-let activeDrawingTouchId = null;
-let prevPinchDist = null, prevPinchMid = null;
-let autoSaveTimer = null;
-let activeTextTarget = null;
-
 const PEN_SIZE = 2.4;
 const ERASER_RADIUS = 16;
+let autoSaveTimer = null;
+let activeTextTarget = null;
 
 function resize() {
   const dpr = window.devicePixelRatio || 1;
@@ -611,7 +595,6 @@ function render() {
         ctx.stroke();
       }
     } else if (item.type === 'text') {
-      // Hide text item while actively typing in overlay
       if (item === activeTextTarget) return;
       ctx.fillStyle = item.color || '#fff';
       ctx.font = (item.fontSize || 18) + 'px -apple-system, BlinkMacSystemFont, sans-serif';
@@ -784,7 +767,6 @@ function selectItemsInLasso(poly) {
 function setTool(tool) {
   currentTool = tool;
   
-  // Update button visual styles
   document.querySelectorAll('.top-bar .btn').forEach(b => b.classList.remove('active'));
   if (tool === 'pen') document.getElementById('penBtn').classList.add('active');
   else if (tool === 'eraser') document.getElementById('eraserBtn').classList.add('active');
@@ -792,12 +774,10 @@ function setTool(tool) {
   else if (tool === 'lasso') document.getElementById('lassoBtn').classList.add('active');
   else if (tool === 'text') document.getElementById('textBtn').classList.add('active');
 
-  // If text editor was open, commit it
   if (inlineEditor.style.display === 'block') {
     commitInlineText();
   }
 
-  // Deselect any selected items when switching tools
   if (selectedItems.size > 0) {
     selectedItems.clear();
     render();
@@ -1026,61 +1006,48 @@ function handleEnd() {
   }
 }
 
-canvas.addEventListener('touchstart', (e) => {
-  e.preventDefault();
-  const touches = Array.from(e.touches);
-  const stylusTouch = touches.find(t => t.touchType === 'stylus');
+/* ====================================================
+   NATIVE TOUCH BRIDGE RECEIVER (240Hz Digitizer Hook)
+==================================================== */
+let activeStylusId = null;
+let nativePinchDist = null;
+let nativePinchMid = null;
 
-  if (stylusTouch) {
-    activeDrawingTouchId = stylusTouch.identifier;
-    isPanning = false;
-    handleStart(stylusTouch.clientX, stylusTouch.clientY);
+window.onNativeTouch = function(phase, touchArray) {
+  if (!currentFileName || !touchArray || touchArray.length === 0) return;
+
+  const stylus = touchArray.find(t => t.type === 'stylus');
+  const fingers = touchArray.filter(t => t.type === 'direct');
+
+  // 1. STYLUS HAS ABSOLUTE PRIORITY OVER FINGERS
+  if (stylus) {
+    if (phase === 'start' || activeStylusId === null) {
+      activeStylusId = stylus.id;
+      isPanning = false;
+      handleStart(stylus.x, stylus.y);
+    } else if (phase === 'move' && activeStylusId === stylus.id) {
+      handleMove(stylus.x, stylus.y);
+    } else if ((phase === 'end' || phase === 'cancel') && (stylus.phase === 'ended' || stylus.phase === 'cancelled')) {
+      activeStylusId = null;
+      handleEnd();
+    }
     return;
   }
 
-  if (touches.length === 2 && activeDrawingTouchId === null) {
-    if (currentStroke && currentStroke.points.length <= 2) {
-      items.pop();
-      currentStroke = null;
-    }
-    isInteracting = false;
-    isPanning = true;
-    prevPinchDist = Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
-    prevPinchMid = { x: (touches[0].clientX + touches[1].clientX) / 2, y: (touches[0].clientY + touches[1].clientY) / 2 };
-    return;
-  }
+  // 2. TWO-FINGER PAN & PINCH-ZOOM (Fingers only)
+  if (activeStylusId === null && fingers.length >= 2) {
+    const f1 = fingers[0], f2 = fingers[1];
+    const currentDist = Math.hypot(f1.x - f2.x, f1.y - f2.y);
+    const currentMid = { x: (f1.x + f2.x) / 2, y: (f1.y + f2.y) / 2 };
 
-  if (touches.length === 1 && activeDrawingTouchId === null) {
-    const t = touches[0];
-    const isPalm = (t.radiusX && t.radiusX > 16) || (t.radiusY && t.radiusY > 16);
-    if (isPalm) return;
-
-    activeDrawingTouchId = t.identifier;
-    isPanning = false;
-    handleStart(t.clientX, t.clientY);
-  }
-}, { passive: false });
-
-canvas.addEventListener('touchmove', (e) => {
-  e.preventDefault();
-
-  if (activeDrawingTouchId !== null) {
-    const drawTouch = Array.from(e.touches).find(t => t.identifier === activeDrawingTouchId);
-    if (drawTouch) {
-      handleMove(drawTouch.clientX, drawTouch.clientY);
-      return;
-    }
-  }
-
-  if (isPanning && e.touches.length === 2 && prevPinchDist && prevPinchMid) {
-    const t1 = e.touches[0], t2 = e.touches[1];
-    const currentDist = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
-    const currentMid = { x: (t1.clientX + t2.clientX) / 2, y: (t1.clientY + t2.clientY) / 2 };
-
-    if (currentDist > 0) {
-      panX += (currentMid.x - prevPinchMid.x);
-      panY += (currentMid.y - prevPinchMid.y);
-      const newScale = Math.min(Math.max(0.2, scale * (currentDist / prevPinchDist)), 5.0);
+    if (phase === 'start' || !nativePinchDist) {
+      isPanning = true;
+      nativePinchDist = currentDist;
+      nativePinchMid = currentMid;
+    } else if (phase === 'move' && nativePinchDist && currentDist > 0) {
+      panX += (currentMid.x - nativePinchMid.x);
+      panY += (currentMid.y - nativePinchMid.y);
+      const newScale = Math.min(Math.max(0.2, scale * (currentDist / nativePinchDist)), 5.0);
 
       const canvasX = (currentMid.x - panX) / scale;
       const canvasY = (currentMid.y - panY) / scale;
@@ -1089,6 +1056,75 @@ canvas.addEventListener('touchmove', (e) => {
       panX = currentMid.x - canvasX * scale;
       panY = currentMid.y - canvasY * scale;
 
+      nativePinchDist = currentDist;
+      nativePinchMid = currentMid;
+      updateInlineEditorPosition();
+      render();
+    } else if (phase === 'end' || phase === 'cancel') {
+      isPanning = false;
+      nativePinchDist = null;
+      nativePinchMid = null;
+    }
+    return;
+  }
+
+  if (phase === 'end' || phase === 'cancel') {
+    if (activeStylusId !== null) {
+      activeStylusId = null;
+      handleEnd();
+    }
+    isPanning = false;
+    nativePinchDist = null;
+    nativePinchMid = null;
+  }
+};
+
+/* Safari Fallback Touch Listeners */
+let activeTouchId = null;
+let prevPinchDist = null, prevPinchMid = null;
+
+canvas.addEventListener('touchstart', (e) => {
+  e.preventDefault();
+  const touches = Array.from(e.touches);
+  const stylusTouch = touches.find(t => t.touchType === 'stylus');
+
+  if (stylusTouch) {
+    activeTouchId = stylusTouch.identifier;
+    isPanning = false;
+    handleStart(stylusTouch.clientX, stylusTouch.clientY);
+    return;
+  }
+
+  if (touches.length === 2 && activeTouchId === null) {
+    isInteracting = false;
+    isPanning = true;
+    prevPinchDist = Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
+    prevPinchMid = { x: (touches[0].clientX + touches[1].clientX) / 2, y: (touches[0].clientY + touches[1].clientY) / 2 };
+  }
+}, { passive: false });
+
+canvas.addEventListener('touchmove', (e) => {
+  e.preventDefault();
+  if (activeTouchId !== null) {
+    const drawTouch = Array.from(e.touches).find(t => t.identifier === activeTouchId);
+    if (drawTouch) {
+      handleMove(drawTouch.clientX, drawTouch.clientY);
+      return;
+    }
+  }
+  if (isPanning && e.touches.length === 2 && prevPinchDist && prevPinchMid) {
+    const t1 = e.touches[0], t2 = e.touches[1];
+    const currentDist = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
+    const currentMid = { x: (t1.clientX + t2.clientX) / 2, y: (t1.clientY + t2.clientY) / 2 };
+    if (currentDist > 0) {
+      panX += (currentMid.x - prevPinchMid.x);
+      panY += (currentMid.y - prevPinchMid.y);
+      const newScale = Math.min(Math.max(0.2, scale * (currentDist / prevPinchDist)), 5.0);
+      const canvasX = (currentMid.x - panX) / scale;
+      const canvasY = (currentMid.y - panY) / scale;
+      scale = newScale;
+      panX = currentMid.x - canvasX * scale;
+      panY = currentMid.y - canvasY * scale;
       prevPinchDist = currentDist;
       prevPinchMid = currentMid;
       updateInlineEditorPosition();
@@ -1099,9 +1135,9 @@ canvas.addEventListener('touchmove', (e) => {
 
 function handleTouchEnd(e) {
   e.preventDefault();
-  const ended = Array.from(e.changedTouches).find(t => t.identifier === activeDrawingTouchId);
+  const ended = Array.from(e.changedTouches).find(t => t.identifier === activeTouchId);
   if (ended) {
-    activeDrawingTouchId = null;
+    activeTouchId = null;
     handleEnd();
   }
   if (e.touches.length < 2) {
@@ -1113,6 +1149,7 @@ function handleTouchEnd(e) {
 canvas.addEventListener('touchend', handleTouchEnd, { passive: false });
 canvas.addEventListener('touchcancel', handleTouchEnd, { passive: false });
 
+/* Desktop Mouse Listeners */
 canvas.addEventListener('mousedown', (e) => {
   if (e.button === 0) handleStart(e.clientX, e.clientY);
 });
@@ -1233,7 +1270,6 @@ bindBtn(document.getElementById('redoBtn'), doRedo);
 window.addEventListener('keydown', (e) => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
-  // Delete / Backspace key to remove selected items
   if ((e.key === 'Delete' || e.key === 'Backspace') && selectedItems.size > 0) {
     e.preventDefault();
     pushHistory();
@@ -1244,14 +1280,12 @@ window.addEventListener('keydown', (e) => {
     return;
   }
 
-  // Reliable Keyboard shortcuts for tools
   if (e.key === 'p' || e.key === 'P') { setTool('pen'); return; }
   if (e.key === 'e' || e.key === 'E') { setTool('eraser'); return; }
   if (e.key === 's' || e.key === 'S' || e.key === 'v' || e.key === 'V' || e.key === 'b' || e.key === 'B') { setTool('select'); return; }
   if (e.key === 'l' || e.key === 'L') { setTool('lasso'); return; }
   if (e.key === 't' || e.key === 'T') { setTool('text'); return; }
 
-  // Undo / Redo
   if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 'z' || e.key === 'Z')) { doRedo(); }
   else if ((e.metaKey || e.ctrlKey) && (e.key === 'z' || e.key === 'Z')) { doUndo(); }
   else if ((e.metaKey || e.ctrlKey) && (e.key === 'y' || e.key === 'Y')) { doRedo(); }
