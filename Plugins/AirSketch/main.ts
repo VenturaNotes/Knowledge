@@ -353,7 +353,7 @@ export default class AirSketchPlugin extends Plugin {
   #noteBadge {
     display: inline-flex; align-items: center; gap: 6px; background: #202024;
     border: 1px solid rgba(255,255,255,0.15); padding: 5px 10px; border-radius: 7px;
-    font-size: 13px; font-weight: 600; color: #e4e4e7; max-width: 220px;
+    font-size: 13px; font-weight: 600; color: #e4e4e7; max-width: 190px;
   }
   #parentNoteName {
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
@@ -387,6 +387,17 @@ export default class AirSketchPlugin extends Plugin {
     white-space: pre; caret-color: #a78bfa; user-select: text; -webkit-user-select: text;
     touch-action: manipulation;
   }
+
+  /* Floating Selection Context Popup */
+  #selectionPopup {
+    display: none; position: fixed; z-index: 1200;
+    background: rgba(28, 28, 32, 0.95); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(167, 139, 250, 0.4); border-radius: 8px; padding: 4px 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.6); gap: 6px; align-items: center; touch-action: manipulation;
+  }
+  #selectionPopup .btn { font-size: 12px; padding: 5px 10px; }
+  #selectionPopup .btn.danger { background: #ef4444; border-color: #f87171; color: #fff; }
+  #selectionPopup .btn.danger:active { background: #dc2626; }
 </style>
 </head>
 <body>
@@ -420,6 +431,12 @@ export default class AirSketchPlugin extends Plugin {
   <button class="btn" id="lassoBtn">Lasso</button>
   <button class="btn" id="textBtn">Text</button>
   
+  <!-- Dynamic Live Zoom Button (Anchored to View) -->
+  <button class="btn" id="resetZoomBtn" title="Reset Zoom to 100% (Anchored to View)">
+    <span style="font-size: 13px;">⟲</span>
+    <span id="zoomPercentText" style="min-width: 38px; text-align: center; display: inline-block;">100%</span>
+  </button>
+
   <button class="btn icon-only" id="undoBtn" title="Undo (Cmd+Z)">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M3 7v6h6"/>
@@ -441,6 +458,12 @@ export default class AirSketchPlugin extends Plugin {
 <canvas id="canvas"></canvas>
 <input type="text" id="inlineTextEditor" placeholder="">
 
+<!-- Floating Action Menu on Selection -->
+<div id="selectionPopup">
+  <button class="btn danger" id="deleteSelectionBtn">🗑️ Delete</button>
+  <button class="btn" id="deselectBtn">✕</button>
+</div>
+
 <script>
 const CLIENT_ID = Math.random().toString(36).slice(2);
 let currentFileName = null;
@@ -452,6 +475,7 @@ function authFetch(url, options = {}) {
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const inlineEditor = document.getElementById('inlineTextEditor');
+const selectionPopup = document.getElementById('selectionPopup');
 const waitingOverlay = document.getElementById('waitingOverlay');
 const parentNoteEl = document.getElementById('parentNoteName');
 
@@ -507,6 +531,13 @@ function toCanvasCoord(screenX, screenY) {
   return { x: (screenX - panX) / scale, y: (screenY - panY) / scale };
 }
 
+function updateZoomDisplay() {
+  const zoomText = document.getElementById('zoomPercentText');
+  if (zoomText) {
+    zoomText.innerText = Math.round(scale * 100) + '%';
+  }
+}
+
 function distToSegment(p, v, w) {
   const l2 = (v.x - w.x)**2 + (v.y - w.y)**2;
   if (l2 === 0) return Math.hypot(p.x - v.x, p.y - v.y);
@@ -542,6 +573,59 @@ function getSelectedTotalBounds() {
   });
   if (sMinX === Infinity) return null;
   return { minX: sMinX, minY: sMinY, maxX: sMaxX, maxY: sMaxY };
+}
+
+function updateSelectionPopupPosition() {
+  const sBounds = getSelectedTotalBounds();
+  if (!sBounds || selectedItems.size === 0) {
+    selectionPopup.style.display = 'none';
+    return;
+  }
+
+  const pad = 6;
+  const screenMinX = (sBounds.minX - pad) * scale + panX;
+  const screenMinY = (sBounds.minY - pad) * scale + panY;
+  const screenMaxX = (sBounds.maxX + pad) * scale + panX;
+
+  selectionPopup.style.display = 'flex';
+  const popupWidth = selectionPopup.offsetWidth || 135;
+  const popupHeight = selectionPopup.offsetHeight || 38;
+
+  let posX = (screenMinX + screenMaxX) / 2 - popupWidth / 2;
+  let posY = screenMinY - popupHeight - 10;
+
+  posX = Math.max(12, Math.min(window.innerWidth - popupWidth - 12, posX));
+  if (posY < 56) {
+    posY = (sBounds.maxY + pad) * scale + panY + 10;
+  }
+
+  selectionPopup.style.left = posX + 'px';
+  selectionPopup.style.top = posY + 'px';
+}
+
+function deleteSelectedItems() {
+  if (selectedItems.size === 0) return;
+  pushHistory();
+  items = items.filter(it => !selectedItems.has(it));
+  selectedItems.clear();
+  updateSelectionPopupPosition();
+  render();
+  triggerAutoSave();
+}
+
+// Resets zoom to 1.0 anchored to current screen center (no jumping to 0,0)
+function resetZoom() {
+  const centerScreen = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+  const canvasCenter = toCanvasCoord(centerScreen.x, centerScreen.y);
+  
+  scale = 1.0;
+  panX = centerScreen.x - canvasCenter.x * scale;
+  panY = centerScreen.y - canvasCenter.y * scale;
+
+  updateInlineEditorPosition();
+  updateSelectionPopupPosition();
+  updateZoomDisplay();
+  render();
 }
 
 function pointInPolygon(p, vs) {
@@ -731,6 +815,7 @@ function selectItemsInBox(p1, p2) {
       selectedItems.add(it);
     }
   });
+  updateSelectionPopupPosition();
   render();
 }
 
@@ -761,6 +846,7 @@ function selectItemsInLasso(poly) {
       }
     }
   });
+  updateSelectionPopupPosition();
   render();
 }
 
@@ -780,6 +866,7 @@ function setTool(tool) {
 
   if (selectedItems.size > 0) {
     selectedItems.clear();
+    updateSelectionPopupPosition();
     render();
   }
 }
@@ -876,6 +963,27 @@ function handleStart(clientX, clientY) {
     commitInlineText();
   }
 
+  // Intercept taps directly on the selection popup
+  if (selectionPopup && selectionPopup.style.display === 'flex') {
+    const popRect = selectionPopup.getBoundingClientRect();
+    if (clientX >= popRect.left && clientX <= popRect.right && clientY >= popRect.top && clientY <= popRect.bottom) {
+      const delBtn = document.getElementById('deleteSelectionBtn');
+      const dRect = delBtn.getBoundingClientRect();
+      if (clientX >= dRect.left && clientX <= dRect.right && clientY >= dRect.top && clientY <= dRect.bottom) {
+        deleteSelectedItems();
+        return;
+      }
+      const closeBtn = document.getElementById('deselectBtn');
+      const cRect = closeBtn.getBoundingClientRect();
+      if (clientX >= cRect.left && clientX <= cRect.right && clientY >= cRect.top && clientY <= cRect.bottom) {
+        selectedItems.clear();
+        updateSelectionPopupPosition();
+        render();
+        return;
+      }
+    }
+  }
+
   const cPt = toCanvasCoord(clientX, clientY);
 
   if (currentTool === 'pen') {
@@ -914,6 +1022,7 @@ function handleStart(clientX, clientY) {
         marqueeEnd = cPt;
       }
     }
+    updateSelectionPopupPosition();
     render();
   } else if (currentTool === 'lasso') {
     isInteracting = true;
@@ -932,6 +1041,7 @@ function handleStart(clientX, clientY) {
       isLassoing = true;
       lassoPoints = [cPt];
     }
+    updateSelectionPopupPosition();
     render();
   } else if (currentTool === 'text') {
     const clicked = getItemAt(cPt);
@@ -964,6 +1074,7 @@ function handleMove(clientX, clientY) {
           else { it.x += dx; it.y += dy; }
         });
         dragStartPos = cPt;
+        updateSelectionPopupPosition();
         render();
       }
     } else if (currentTool === 'lasso') {
@@ -978,6 +1089,7 @@ function handleMove(clientX, clientY) {
           else { it.x += dx; it.y += dy; }
         });
         dragStartPos = cPt;
+        updateSelectionPopupPosition();
         render();
       }
     }
@@ -1000,6 +1112,7 @@ function handleEnd() {
       lassoPoints = [];
     }
 
+    updateSelectionPopupPosition();
     render();
     clearTimeout(autoSaveTimer);
     autoSaveTimer = setTimeout(triggerAutoSave, 1000);
@@ -1010,6 +1123,7 @@ function handleEnd() {
    NATIVE TOUCH BRIDGE RECEIVER (240Hz Digitizer Hook)
 ==================================================== */
 let activeStylusId = null;
+let nativeSinglePan = null;
 let nativePinchDist = null;
 let nativePinchMid = null;
 
@@ -1021,9 +1135,12 @@ window.onNativeTouch = function(phase, touchArray) {
 
   // 1. STYLUS HAS ABSOLUTE PRIORITY OVER FINGERS
   if (stylus) {
+    nativeSinglePan = null;
+    nativePinchDist = null;
+    isPanning = false;
+
     if (phase === 'start' || activeStylusId === null) {
       activeStylusId = stylus.id;
-      isPanning = false;
       handleStart(stylus.x, stylus.y);
     } else if (phase === 'move' && activeStylusId === stylus.id) {
       handleMove(stylus.x, stylus.y);
@@ -1034,38 +1151,64 @@ window.onNativeTouch = function(phase, touchArray) {
     return;
   }
 
-  // 2. TWO-FINGER PAN & PINCH-ZOOM (Fingers only)
-  if (activeStylusId === null && fingers.length >= 2) {
-    const f1 = fingers[0], f2 = fingers[1];
-    const currentDist = Math.hypot(f1.x - f2.x, f1.y - f2.y);
-    const currentMid = { x: (f1.x + f2.x) / 2, y: (f1.y + f2.y) / 2 };
-
-    if (phase === 'start' || !nativePinchDist) {
-      isPanning = true;
-      nativePinchDist = currentDist;
-      nativePinchMid = currentMid;
-    } else if (phase === 'move' && nativePinchDist && currentDist > 0) {
-      panX += (currentMid.x - nativePinchMid.x);
-      panY += (currentMid.y - nativePinchMid.y);
-      const newScale = Math.min(Math.max(0.2, scale * (currentDist / nativePinchDist)), 5.0);
-
-      const canvasX = (currentMid.x - panX) / scale;
-      const canvasY = (currentMid.y - panY) / scale;
-
-      scale = newScale;
-      panX = currentMid.x - canvasX * scale;
-      panY = currentMid.y - canvasY * scale;
-
-      nativePinchDist = currentDist;
-      nativePinchMid = currentMid;
-      updateInlineEditorPosition();
-      render();
-    } else if (phase === 'end' || phase === 'cancel') {
-      isPanning = false;
-      nativePinchDist = null;
-      nativePinchMid = null;
+  // 2. FINGERS NAVIGATION: 1-Finger Pan OR 2-Finger Pinch Zoom & Pan
+  if (activeStylusId === null) {
+    // 1-Finger Smooth Pan
+    if (fingers.length === 1) {
+      const f = fingers[0];
+      if (phase === 'start' || !nativeSinglePan) {
+        isPanning = true;
+        nativePinchDist = null;
+        nativeSinglePan = { x: f.x, y: f.y, startPanX: panX, startPanY: panY };
+      } else if (phase === 'move' && isPanning && nativeSinglePan) {
+        panX = nativeSinglePan.startPanX + (f.x - nativeSinglePan.x);
+        panY = nativeSinglePan.startPanY + (f.y - nativeSinglePan.y);
+        updateInlineEditorPosition();
+        updateSelectionPopupPosition();
+        render();
+      } else if (phase === 'end' || phase === 'cancel' || f.phase === 'ended' || f.phase === 'cancelled') {
+        isPanning = false;
+        nativeSinglePan = null;
+      }
+      return;
     }
-    return;
+
+    // 2-Finger Pinch-Zoom & Pan
+    if (fingers.length >= 2) {
+      nativeSinglePan = null;
+      const f1 = fingers[0], f2 = fingers[1];
+      const currentDist = Math.hypot(f1.x - f2.x, f1.y - f2.y);
+      const currentMid = { x: (f1.x + f2.x) / 2, y: (f1.y + f2.y) / 2 };
+
+      if (phase === 'start' || !nativePinchDist) {
+        isPanning = true;
+        nativePinchDist = currentDist;
+        nativePinchMid = currentMid;
+      } else if (phase === 'move' && nativePinchDist && currentDist > 0) {
+        panX += (currentMid.x - nativePinchMid.x);
+        panY += (currentMid.y - nativePinchMid.y);
+        const newScale = Math.min(Math.max(0.2, scale * (currentDist / nativePinchDist)), 5.0);
+
+        const canvasX = (currentMid.x - panX) / scale;
+        const canvasY = (currentMid.y - panY) / scale;
+
+        scale = newScale;
+        panX = currentMid.x - canvasX * scale;
+        panY = currentMid.y - canvasY * scale;
+
+        nativePinchDist = currentDist;
+        nativePinchMid = currentMid;
+        updateInlineEditorPosition();
+        updateSelectionPopupPosition();
+        updateZoomDisplay();
+        render();
+      } else if (phase === 'end' || phase === 'cancel') {
+        isPanning = false;
+        nativePinchDist = null;
+        nativePinchMid = null;
+      }
+      return;
+    }
   }
 
   if (phase === 'end' || phase === 'cancel') {
@@ -1074,6 +1217,7 @@ window.onNativeTouch = function(phase, touchArray) {
       handleEnd();
     }
     isPanning = false;
+    nativeSinglePan = null;
     nativePinchDist = null;
     nativePinchMid = null;
   }
@@ -1081,6 +1225,7 @@ window.onNativeTouch = function(phase, touchArray) {
 
 /* Safari Fallback Touch Listeners */
 let activeTouchId = null;
+let singleFingerPan = null;
 let prevPinchDist = null, prevPinchMid = null;
 
 canvas.addEventListener('touchstart', (e) => {
@@ -1091,6 +1236,7 @@ canvas.addEventListener('touchstart', (e) => {
   if (stylusTouch) {
     activeTouchId = stylusTouch.identifier;
     isPanning = false;
+    singleFingerPan = null;
     handleStart(stylusTouch.clientX, stylusTouch.clientY);
     return;
   }
@@ -1098,8 +1244,15 @@ canvas.addEventListener('touchstart', (e) => {
   if (touches.length === 2 && activeTouchId === null) {
     isInteracting = false;
     isPanning = true;
+    singleFingerPan = null;
     prevPinchDist = Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
     prevPinchMid = { x: (touches[0].clientX + touches[1].clientX) / 2, y: (touches[0].clientY + touches[1].clientY) / 2 };
+    return;
+  }
+
+  if (touches.length === 1 && activeTouchId === null) {
+    isPanning = true;
+    singleFingerPan = { x: touches[0].clientX, y: touches[0].clientY, startPanX: panX, startPanY: panY };
   }
 }, { passive: false });
 
@@ -1112,6 +1265,17 @@ canvas.addEventListener('touchmove', (e) => {
       return;
     }
   }
+
+  if (isPanning && singleFingerPan && e.touches.length === 1) {
+    const t = e.touches[0];
+    panX = singleFingerPan.startPanX + (t.clientX - singleFingerPan.x);
+    panY = singleFingerPan.startPanY + (t.clientY - singleFingerPan.y);
+    updateInlineEditorPosition();
+    updateSelectionPopupPosition();
+    render();
+    return;
+  }
+
   if (isPanning && e.touches.length === 2 && prevPinchDist && prevPinchMid) {
     const t1 = e.touches[0], t2 = e.touches[1];
     const currentDist = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
@@ -1128,6 +1292,8 @@ canvas.addEventListener('touchmove', (e) => {
       prevPinchDist = currentDist;
       prevPinchMid = currentMid;
       updateInlineEditorPosition();
+      updateSelectionPopupPosition();
+      updateZoomDisplay();
       render();
     }
   }
@@ -1140,10 +1306,16 @@ function handleTouchEnd(e) {
     activeTouchId = null;
     handleEnd();
   }
-  if (e.touches.length < 2) {
+  if (e.touches.length === 0) {
     isPanning = false;
+    singleFingerPan = null;
     prevPinchDist = null;
     prevPinchMid = null;
+  } else if (e.touches.length === 1 && activeTouchId === null) {
+    isPanning = true;
+    prevPinchDist = null;
+    prevPinchMid = null;
+    singleFingerPan = { x: e.touches[0].clientX, y: e.touches[0].clientY, startPanX: panX, startPanY: panY };
   }
 }
 canvas.addEventListener('touchend', handleTouchEnd, { passive: false });
@@ -1167,11 +1339,13 @@ canvas.addEventListener('wheel', (e) => {
     scale = newScale;
     panX = mousePt.x - canvasX * scale;
     panY = mousePt.y - canvasY * scale;
+    updateZoomDisplay();
   } else {
     panX -= e.deltaX;
     panY -= e.deltaY;
   }
   updateInlineEditorPosition();
+  updateSelectionPopupPosition();
   render();
 }, { passive: false });
 
@@ -1244,11 +1418,21 @@ bindBtn(document.getElementById('selectBtn'), () => setTool('select'));
 bindBtn(document.getElementById('lassoBtn'), () => setTool('lasso'));
 bindBtn(document.getElementById('textBtn'), () => setTool('text'));
 
+bindBtn(document.getElementById('resetZoomBtn'), () => resetZoom());
+
+bindBtn(document.getElementById('deleteSelectionBtn'), () => deleteSelectedItems());
+bindBtn(document.getElementById('deselectBtn'), () => {
+  selectedItems.clear();
+  updateSelectionPopupPosition();
+  render();
+});
+
 function doUndo() {
   if (undoStack.length > 0) {
     redoStack.push(cloneState(items));
     items = undoStack.pop();
     selectedItems.clear();
+    updateSelectionPopupPosition();
     render();
     triggerAutoSave();
   }
@@ -1259,6 +1443,7 @@ function doRedo() {
     undoStack.push(cloneState(items));
     items = redoStack.pop();
     selectedItems.clear();
+    updateSelectionPopupPosition();
     render();
     triggerAutoSave();
   }
@@ -1272,11 +1457,7 @@ window.addEventListener('keydown', (e) => {
 
   if ((e.key === 'Delete' || e.key === 'Backspace') && selectedItems.size > 0) {
     e.preventDefault();
-    pushHistory();
-    items = items.filter(it => !selectedItems.has(it));
-    selectedItems.clear();
-    render();
-    triggerAutoSave();
+    deleteSelectedItems();
     return;
   }
 
@@ -1285,6 +1466,8 @@ window.addEventListener('keydown', (e) => {
   if (e.key === 's' || e.key === 'S' || e.key === 'v' || e.key === 'V' || e.key === 'b' || e.key === 'B') { setTool('select'); return; }
   if (e.key === 'l' || e.key === 'L') { setTool('lasso'); return; }
   if (e.key === 't' || e.key === 'T') { setTool('text'); return; }
+
+  if ((e.metaKey || e.ctrlKey) && (e.key === '0')) { e.preventDefault(); resetZoom(); return; }
 
   if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 'z' || e.key === 'Z')) { doRedo(); }
   else if ((e.metaKey || e.ctrlKey) && (e.key === 'z' || e.key === 'Z')) { doUndo(); }
@@ -1399,6 +1582,8 @@ async function loadDrawingFile(fileName, markdownNote) {
         parentNoteEl.innerText = markdownNote;
       }
       waitingOverlay.style.display = 'none';
+      updateSelectionPopupPosition();
+      updateZoomDisplay();
       render();
       document.getElementById('status').innerText = 'Ready';
     }
