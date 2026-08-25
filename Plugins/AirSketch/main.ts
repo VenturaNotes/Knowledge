@@ -690,14 +690,30 @@ function isPointNearShape(p, shape, threshold) {
 }
 
 function getItemBounds(item) {
+  const pad = (item.size || PEN_SIZE) / 2 + 2;
   if (item.type === 'stroke') {
+    if (!item.points || item.points.length === 0) return null;
     const xs = item.points.map(p => p.x), ys = item.points.map(p => p.y);
-    return { minX: Math.min(...xs)-4, minY: Math.min(...ys)-4, maxX: Math.max(...xs)+4, maxY: Math.max(...ys)+4 };
+    return { minX: Math.min(...xs) - pad, minY: Math.min(...ys) - pad, maxX: Math.max(...xs) + pad, maxY: Math.max(...ys) + pad };
   } else if (item.type === 'shape') {
-    const minX = Math.min(item.x1, item.x2) - 4;
-    const minY = Math.min(item.y1, item.y2) - 4;
-    const maxX = Math.max(item.x1, item.x2) + 4;
-    const maxY = Math.max(item.y1, item.y2) + 4;
+    if (item.shapeType === 'circle') {
+      const cx = (item.x1 + item.x2) / 2, cy = (item.y1 + item.y2) / 2;
+      const rx = Math.max(0.1, Math.abs(item.x2 - item.x1) / 2);
+      const ry = Math.max(0.1, Math.abs(item.y2 - item.y1) / 2);
+      return { minX: cx - rx - pad, minY: cy - ry - pad, maxX: cx + rx + pad, maxY: cy + ry + pad };
+    }
+    if (item.shapeType === 'arrow') {
+      const geom = getArrowGeometry(item.x1, item.y1, item.x2, item.y2, item.size || PEN_SIZE);
+      if (geom) {
+        const xs = [item.x1, item.x2, geom.p1.x, geom.p2.x];
+        const ys = [item.y1, item.y2, geom.p1.y, geom.p2.y];
+        return { minX: Math.min(...xs) - pad, minY: Math.min(...ys) - pad, maxX: Math.max(...xs) + pad, maxY: Math.max(...ys) + pad };
+      }
+    }
+    const minX = Math.min(item.x1, item.x2) - pad;
+    const minY = Math.min(item.y1, item.y2) - pad;
+    const maxX = Math.max(item.x1, item.x2) + pad;
+    const maxY = Math.max(item.y1, item.y2) + pad;
     return { minX, minY, maxX, maxY };
   } else if (item.type === 'text') {
     ctx.font = (item.fontSize || 18) + 'px -apple-system, BlinkMacSystemFont, sans-serif';
@@ -707,7 +723,7 @@ function getItemBounds(item) {
     const h = (item.fontSize || 18) * 1.25 * Math.max(1, lines.length);
     return { minX: item.x - 2, minY: item.y - 2, maxX: item.x + maxW + 4, maxY: item.y + h + 2 };
   } else if (item.type === 'image') {
-    return { minX: item.x - 4, minY: item.y - 4, maxX: item.x + item.width + 4, maxY: item.y + item.height + 4 };
+    return { minX: item.x - pad, minY: item.y - pad, maxX: item.x + item.width + pad, maxY: item.y + item.height + pad };
   }
   return null;
 }
@@ -738,7 +754,7 @@ function shapeToSvg(it) {
   }
   if (it.shapeType === 'circle') {
     const cx = (it.x1 + it.x2) / 2, cy = (it.y1 + it.y2) / 2;
-    const rx = Math.abs(it.x2 - it.x1) / 2, ry = Math.abs(it.y2 - it.y1);
+    const rx = Math.abs(it.x2 - it.x1) / 2, ry = Math.abs(it.y2 - it.y1) / 2;
     return '<ellipse cx="' + cx + '" cy="' + cy + '" rx="' + Math.max(0.1, rx) + '" ry="' + Math.max(0.1, ry) + '" fill="none" stroke="' + it.color + '" stroke-width="' + size + '" />';
   }
   if (it.shapeType === 'line') {
@@ -1021,7 +1037,7 @@ function renderItem(item) {
       ctx.strokeRect(rx, ry, rw, rh);
     } else if (item.shapeType === 'circle') {
       const cx = (item.x1 + item.x2) / 2, cy = (item.y1 + item.y2) / 2;
-      const rx = Math.abs(item.x2 - item.x1) / 2, ry = Math.abs(item.y2 - item.y1);
+      const rx = Math.abs(item.x2 - item.x1) / 2, ry = Math.abs(item.y2 - item.y1) / 2;
       ctx.beginPath();
       ctx.ellipse(cx, cy, Math.max(0.1, rx), Math.max(0.1, ry), 0, 0, Math.PI * 2);
       ctx.stroke();
@@ -1065,6 +1081,20 @@ function render() {
 
   const sBounds = getSelectedTotalBounds();
   if (sBounds) {
+    // 1. Sub-selection bounding boxes for each individual selected item (when multiple are selected)
+    if (selectedItems.size > 1) {
+      ctx.strokeStyle = 'rgba(167, 139, 250, 0.45)';
+      ctx.lineWidth = 1 / scale;
+      ctx.setLineDash([]);
+      selectedItems.forEach(it => {
+        const b = getItemBounds(it);
+        if (b) {
+          ctx.strokeRect(b.minX, b.minY, b.maxX - b.minX, b.maxY - b.minY);
+        }
+      });
+    }
+
+    // 2. Main Outer Selection Container
     const pad = 6;
     const x = sBounds.minX - pad, y = sBounds.minY - pad;
     const w = (sBounds.maxX - sBounds.minX) + pad * 2, h = (sBounds.maxY - sBounds.minY) + pad * 2;
@@ -1642,7 +1672,7 @@ function handleMove(clientX, clientY) {
       currentStroke.points.push(cPt);
       render();
     } else if (currentTool === 'shape' && currentShape) {
-      if (currentShape.shapeType === 'square') {
+      if (currentShape.shapeType === 'square' || currentShape.shapeType === 'circle') {
         const dx = cPt.x - currentShape.x1;
         const dy = cPt.y - currentShape.y1;
         const side = Math.max(Math.abs(dx), Math.abs(dy));
@@ -2168,25 +2198,12 @@ async function triggerAutoSave() {
 
   let minX = 0, minY = 0, maxX = window.innerWidth, maxY = window.innerHeight;
   if (items.length > 0) {
-    const allPts = items.flatMap(it => {
-      if (it.type === 'stroke') return it.points;
-      if (it.type === 'shape') return [{x: it.x1, y: it.y1}, {x: it.x2, y: it.y2}];
-      if (it.type === 'image') return [{x: it.x, y: it.y}, {x: it.x + it.width, y: it.y + it.height}];
-      if (it.type === 'text') {
-        ctx.font = (it.fontSize || 18) + 'px -apple-system, BlinkMacSystemFont, sans-serif';
-        const lines = (it.text || '').split('\\n');
-        let maxW = 0;
-        lines.forEach(l => { maxW = Math.max(maxW, ctx.measureText(l || '').width); });
-        const h = (it.fontSize || 18) * 1.25 * Math.max(1, lines.length);
-        return [{ x: it.x, y: it.y }, { x: it.x + maxW + 4, y: it.y + h + 4 }];
-      }
-      return [];
-    });
-    if (allPts.length > 0) {
-      minX = Math.min(...allPts.map(p => p.x)) - 32;
-      minY = Math.min(...allPts.map(p => p.y)) - 32;
-      maxX = Math.max(...allPts.map(p => p.x)) + 32;
-      maxY = Math.max(...allPts.map(p => p.y)) + 32;
+    const allBounds = items.map(it => getItemBounds(it)).filter(Boolean);
+    if (allBounds.length > 0) {
+      minX = Math.min(...allBounds.map(b => b.minX)) - 32;
+      minY = Math.min(...allBounds.map(b => b.minY)) - 32;
+      maxX = Math.max(...allBounds.map(b => b.maxX)) + 32;
+      maxY = Math.max(...allBounds.map(b => b.maxY)) + 32;
     }
   }
   const width = Math.max(400, maxX - minX);
