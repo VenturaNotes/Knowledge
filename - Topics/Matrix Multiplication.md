@@ -12,7 +12,7 @@
 ### Examples
 
 #### (1) Matrix: (2x3) x (3x2)
-![[Matrix Multiplication 2026-02-24 17.41.53.excalidraw|700]]
+- ![[Private/Drawings/drawing-20260825-174030.svg|659]]
 - Number of columns in first matrix must be equal to number of rows in second matrix
 	- $(2\times \textcolor{hotpink}{3}) \times (\textcolor{hotpink}{3} \times 2)$
 		- Inner numbers

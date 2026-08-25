@@ -462,6 +462,9 @@ export default class AirSketchPlugin extends Plugin {
       <button class="shape-item" data-shape="circle">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/></svg> Circle
       </button>
+      <button class="shape-item" data-shape="ellipse">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="12" rx="9" ry="6"/></svg> Ellipse
+      </button>
       <button class="shape-item" data-shape="arrow">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="10 5 19 5 19 14"/></svg> Arrow
       </button>
@@ -662,7 +665,7 @@ function getShapeSegments(shape) {
       { p1: bl, p2: tl }
     ];
   }
-  if (shapeType === 'circle') {
+  if (shapeType === 'circle' || shapeType === 'ellipse') {
     const cx = (x1 + x2) / 2, cy = (y1 + y2) / 2;
     const rx = Math.max(0.1, Math.abs(x2 - x1) / 2);
     const ry = Math.max(0.1, Math.abs(y2 - y1) / 2);
@@ -696,7 +699,7 @@ function getItemBounds(item) {
     const xs = item.points.map(p => p.x), ys = item.points.map(p => p.y);
     return { minX: Math.min(...xs) - pad, minY: Math.min(...ys) - pad, maxX: Math.max(...xs) + pad, maxY: Math.max(...ys) + pad };
   } else if (item.type === 'shape') {
-    if (item.shapeType === 'circle') {
+    if (item.shapeType === 'circle' || item.shapeType === 'ellipse') {
       const cx = (item.x1 + item.x2) / 2, cy = (item.y1 + item.y2) / 2;
       const rx = Math.max(0.1, Math.abs(item.x2 - item.x1) / 2);
       const ry = Math.max(0.1, Math.abs(item.y2 - item.y1) / 2);
@@ -752,7 +755,7 @@ function shapeToSvg(it) {
     const rw = Math.abs(it.x2 - it.x1), rh = Math.abs(it.y2 - it.y1);
     return '<rect x="' + rx + '" y="' + ry + '" width="' + rw + '" height="' + rh + '" fill="none" stroke="' + it.color + '" stroke-width="' + size + '" />';
   }
-  if (it.shapeType === 'circle') {
+  if (it.shapeType === 'circle' || it.shapeType === 'ellipse') {
     const cx = (it.x1 + it.x2) / 2, cy = (it.y1 + it.y2) / 2;
     const rx = Math.abs(it.x2 - it.x1) / 2, ry = Math.abs(it.y2 - it.y1) / 2;
     return '<ellipse cx="' + cx + '" cy="' + cy + '" rx="' + Math.max(0.1, rx) + '" ry="' + Math.max(0.1, ry) + '" fill="none" stroke="' + it.color + '" stroke-width="' + size + '" />';
@@ -1035,7 +1038,7 @@ function renderItem(item) {
       const rx = Math.min(item.x1, item.x2), ry = Math.min(item.y1, item.y2);
       const rw = Math.abs(item.x2 - item.x1), rh = Math.abs(item.y2 - item.y1);
       ctx.strokeRect(rx, ry, rw, rh);
-    } else if (item.shapeType === 'circle') {
+    } else if (item.shapeType === 'circle' || item.shapeType === 'ellipse') {
       const cx = (item.x1 + item.x2) / 2, cy = (item.y1 + item.y2) / 2;
       const rx = Math.abs(item.x2 - item.x1) / 2, ry = Math.abs(item.y2 - item.y1) / 2;
       ctx.beginPath();
@@ -1081,7 +1084,7 @@ function render() {
 
   const sBounds = getSelectedTotalBounds();
   if (sBounds) {
-    // 1. Sub-selection bounding boxes for each individual selected item (when multiple are selected)
+    // 1. Sub-selection bounding boxes for each individual selected item
     if (selectedItems.size > 1) {
       ctx.strokeStyle = 'rgba(167, 139, 250, 0.45)';
       ctx.lineWidth = 1 / scale;
@@ -1335,6 +1338,7 @@ const shapeIcons = {
   rect: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="1"/></svg>',
   square: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="1"/></svg>',
   circle: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/></svg>',
+  ellipse: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="12" rx="9" ry="6"/></svg>',
   arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="10 5 19 5 19 14"/></svg>',
   line: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="20" x2="20" y2="4"/></svg>'
 };
@@ -2196,18 +2200,19 @@ async function triggerAutoSave() {
   if (!currentFileName) return;
   document.getElementById('status').innerText = 'Saving...';
 
-  let minX = 0, minY = 0, maxX = window.innerWidth, maxY = window.innerHeight;
+  const SVG_PADDING = 12;
+  let minX = 0, minY = 0, width = 800, height = 600;
   if (items.length > 0) {
     const allBounds = items.map(it => getItemBounds(it)).filter(Boolean);
     if (allBounds.length > 0) {
-      minX = Math.min(...allBounds.map(b => b.minX)) - 32;
-      minY = Math.min(...allBounds.map(b => b.minY)) - 32;
-      maxX = Math.max(...allBounds.map(b => b.maxX)) + 32;
-      maxY = Math.max(...allBounds.map(b => b.maxY)) + 32;
+      minX = Math.min(...allBounds.map(b => b.minX)) - SVG_PADDING;
+      minY = Math.min(...allBounds.map(b => b.minY)) - SVG_PADDING;
+      const maxX = Math.max(...allBounds.map(b => b.maxX)) + SVG_PADDING;
+      const maxY = Math.max(...allBounds.map(b => b.maxY)) + SVG_PADDING;
+      width = Math.max(1, maxX - minX);
+      height = Math.max(1, maxY - minY);
     }
   }
-  const width = Math.max(400, maxX - minX);
-  const height = Math.max(300, maxY - minY);
 
   const serializedItems = items.map(it => {
     if (it.type === 'image') {
