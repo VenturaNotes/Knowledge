@@ -437,6 +437,14 @@ export default class AirSketchPlugin extends Plugin {
     <span id="zoomPercentText" style="min-width: 38px; text-align: center; display: inline-block;">100%</span>
   </button>
 
+  <!-- Lock / Unlock Pan & Zoom Button -->
+  <button class="btn icon-only" id="lockNavBtn" title="Lock Pan & Zoom">
+    <svg id="lockNavSvg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+      <path id="lockShackle" d="M7 11V7a5 5 0 0 1 9.9-1"></path>
+    </svg>
+  </button>
+
   <button class="btn icon-only" id="undoBtn" title="Undo (Cmd+Z)">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M3 7v6h6"/>
@@ -488,6 +496,7 @@ let currentColor = '#ffffff';
 let scale = 1, panX = 0, panY = 0;
 let isInteracting = false;
 let isPanning = false;
+let isNavLocked = false;
 
 let isMarquee = false;
 let marqueeStart = null, marqueeEnd = null;
@@ -535,6 +544,21 @@ function updateZoomDisplay() {
   const zoomText = document.getElementById('zoomPercentText');
   if (zoomText) {
     zoomText.innerText = Math.round(scale * 100) + '%';
+  }
+}
+
+function toggleNavLock() {
+  isNavLocked = !isNavLocked;
+  const btn = document.getElementById('lockNavBtn');
+  const shackle = document.getElementById('lockShackle');
+  if (isNavLocked) {
+    btn.classList.add('active');
+    btn.title = "Pan & Zoom Locked (Click to Unlock)";
+    if (shackle) shackle.setAttribute('d', 'M7 11V7a5 5 0 0 1 10 0v4');
+  } else {
+    btn.classList.remove('active');
+    btn.title = "Lock Pan & Zoom";
+    if (shackle) shackle.setAttribute('d', 'M7 11V7a5 5 0 0 1 9.9-1');
   }
 }
 
@@ -860,6 +884,11 @@ function setTool(tool) {
   else if (tool === 'lasso') document.getElementById('lassoBtn').classList.add('active');
   else if (tool === 'text') document.getElementById('textBtn').classList.add('active');
 
+  // Maintain lock button style state when switching tools
+  if (isNavLocked) {
+    document.getElementById('lockNavBtn').classList.add('active');
+  }
+
   if (inlineEditor.style.display === 'block') {
     commitInlineText();
   }
@@ -1153,6 +1182,10 @@ window.onNativeTouch = function(phase, touchArray) {
 
   // 2. FINGERS NAVIGATION: 1-Finger Pan OR 2-Finger Pinch Zoom & Pan
   if (activeStylusId === null) {
+    if (isNavLocked) {
+      return; // Navigation is locked: ignore finger pans and pinches
+    }
+
     // 1-Finger Smooth Pan
     if (fingers.length === 1) {
       const f = fingers[0];
@@ -1242,6 +1275,7 @@ canvas.addEventListener('touchstart', (e) => {
   }
 
   if (touches.length === 2 && activeTouchId === null) {
+    if (isNavLocked) return;
     isInteracting = false;
     isPanning = true;
     singleFingerPan = null;
@@ -1251,6 +1285,7 @@ canvas.addEventListener('touchstart', (e) => {
   }
 
   if (touches.length === 1 && activeTouchId === null) {
+    if (isNavLocked) return;
     isPanning = true;
     singleFingerPan = { x: touches[0].clientX, y: touches[0].clientY, startPanX: panX, startPanY: panY };
   }
@@ -1264,6 +1299,10 @@ canvas.addEventListener('touchmove', (e) => {
       handleMove(drawTouch.clientX, drawTouch.clientY);
       return;
     }
+  }
+
+  if (isNavLocked && activeTouchId === null) {
+    return;
   }
 
   if (isPanning && singleFingerPan && e.touches.length === 1) {
@@ -1312,6 +1351,11 @@ function handleTouchEnd(e) {
     prevPinchDist = null;
     prevPinchMid = null;
   } else if (e.touches.length === 1 && activeTouchId === null) {
+    if (isNavLocked) {
+      isPanning = false;
+      singleFingerPan = null;
+      return;
+    }
     isPanning = true;
     prevPinchDist = null;
     prevPinchMid = null;
@@ -1330,6 +1374,8 @@ window.addEventListener('mouseup', () => handleEnd());
 
 canvas.addEventListener('wheel', (e) => {
   e.preventDefault();
+  if (isNavLocked) return;
+
   if (e.ctrlKey || e.metaKey) {
     const zoomFactor = e.deltaY < 0 ? 1.08 : 0.92;
     const newScale = Math.min(Math.max(0.2, scale * zoomFactor), 5.0);
@@ -1419,6 +1465,7 @@ bindBtn(document.getElementById('lassoBtn'), () => setTool('lasso'));
 bindBtn(document.getElementById('textBtn'), () => setTool('text'));
 
 bindBtn(document.getElementById('resetZoomBtn'), () => resetZoom());
+bindBtn(document.getElementById('lockNavBtn'), () => toggleNavLock());
 
 bindBtn(document.getElementById('deleteSelectionBtn'), () => deleteSelectedItems());
 bindBtn(document.getElementById('deselectBtn'), () => {

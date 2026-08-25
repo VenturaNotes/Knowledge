@@ -6,7 +6,7 @@ tags:
 ---
 ## Synthesis 
 ### My Solution
-![[(3455) Shortest Matching Substring 2026-04-15 07.50.15.excalidraw]]
+- ![[Private/Drawings/drawing-20260825-122509.svg|618]]
 ### Code
 ```python
 class Solution:

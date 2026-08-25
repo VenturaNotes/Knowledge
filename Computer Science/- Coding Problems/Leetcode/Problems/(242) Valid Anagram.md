@@ -37,7 +37,8 @@ class Solution:
 ## Source[^1]
 - [[Anagram]]: A word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once
 ## Source [^2]
-- ![[(242) Valid Anagram 2026-02-11 02.16.09.excalidraw]]
+- ![[Screenshot 2026-02-11 at 2.19.53 AM.png|438]]
+	- First Coding Example
 - [[HashMap (python)|hashmap]]
 	- This is an arrays and hashing type problem
 - Problem: We want to return `true` if two strings are an anagram of each other and false otherwise.

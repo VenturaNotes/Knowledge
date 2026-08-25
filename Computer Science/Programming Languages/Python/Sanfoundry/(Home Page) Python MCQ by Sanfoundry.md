@@ -516,7 +516,7 @@ print(int(1011))
 x & y
 ```
 - #comment 15 is `1111` and 12 is `1100`, try adding?
-	- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-21 12.40.08.excalidraw|200]]
+	- ![[Private/Drawings/drawing-20260825-123032.svg]]
 	- The Symbol `&` represents bitwise AND. This operation gives 1 if both bits are equal to 1, otherwise, it gives 0. The binary form of 15 is 1111 and that of 12 is 1100. Performing the bitwise AND operation results in 1100, which is equal to 12.
 - (7) Which of the following expressions results in an error
 	- `int(1011,2)`
@@ -541,7 +541,7 @@ print(0x35 | 0x75)
 	- The binary value of `0x35` is 110101 and that of `0x75` is `1110101`. Performing the bitwise `OR` operation on these values results in `1110101`, which is equal to 117. Hence, the result of the expression is 117
 		- [ ] #question Why is the output in base-10 and not base 16?
 		- [ ] #question How do we find binary from hexadecimal?
-- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 01.01.26.excalidraw]]
+- ![[Private/Drawings/drawing-20260825-123146.svg|443]]
 ### (4.2) Python Bitwise - 2
 - (1) It is not possible for the two's complement value to be equal to the original value in any case
 	- False
@@ -560,18 +560,18 @@ print(0x35 | 0x75)
 ```python
 print(4^12)
 ```
-- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 15.48.27.excalidraw]]
+- ![[Private/Drawings/drawing-20260825-123636.svg|419]]
 - 8
 	- `^` is the XOR operator. The binary form of 4 is 0100 and that of 12 is 1100. Therefore, `0100^1100` is `1000`, which is equal to 8. 
 - (5) Any odd number on being `AND-ed` with **1** always gives 1. Hint: Any even number on being AND-ed with this value always gives 0.
-	- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 15.58.24.excalidraw]]
+	- ![[Private/Drawings/drawing-20260825-123718.svg]]
 - 1
 	- Any odd number on being AND-ed with 1 always gives 1. Any even number on being AND-ed with this value always gives 0
 - (6) What will be the value of the following Python expression?
 ```python
 print(bin(10-2) + bin(12^4))
 ```
-![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 16.43.30.excalidraw]]
+- ![[Private/Drawings/drawing-20260825-123844.svg]]
 - `0b10000b1000`
 	- The value of the expression `bin(10-2) + bin(12^4)` is `0b1000b1000` because `bin(10-2)` results in `0b1000` and `bin(12^4)` also results in `0b1000`, and their concatenation gives `0b1000b1000
 - #comment The reason the answer is `0b10000b1000` is because if you were to print both statements separately, you would get
@@ -593,7 +593,7 @@ b = a^b
 a = a^b
 print(a,b)
 ```
-- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 17.16.21.excalidraw]]
+- ![[Private/Drawings/drawing-20260825-123930.svg]]
 	- The code shown above is used to swap the contents of two memory locations using bitwise XOR operator. Hence the output of the code shown above is: `20 10`
 - (9) What is the two's complement of -44?
 	- `11010100`

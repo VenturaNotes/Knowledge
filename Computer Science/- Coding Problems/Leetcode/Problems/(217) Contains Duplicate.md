@@ -15,7 +15,7 @@ class Solution:
 ```
 - Difference between my solution and [[(217) Contains Duplicate#Solution 1|this]] solution is that my solution also has an O(n) time and memory complexity (according to leetcode), but my code unfortunately will always run through the entire list before returning True/False.  
 ## Source [^1]
-- ![[(217) Contains Duplicate 2026-02-10 22.45.47.excalidraw]]
+- ![[Screenshot 2026-02-10 at 10.53.27 PM.png|538]]
 	- Solving contains duplicate. From blind 75 list of questions. 
 	- Problem
 		- Return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.

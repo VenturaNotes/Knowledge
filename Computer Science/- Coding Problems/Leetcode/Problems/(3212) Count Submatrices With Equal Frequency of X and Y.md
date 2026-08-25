@@ -22,7 +22,7 @@ Approaches: "0"
 #### Example 1
 - Input: grid = `[["X","Y","."],["Y",".","."]]`
 - Output: 3
-- ![[(3212) Count Submatrices With Equal Frequency of X and Y 2026-04-21 21.11.06.excalidraw|600]]
+- ![[Pasted image 20260825122443.png]]
 	- There are no other variations because `X` and `Y` must have an equal frequency
 #### Example 2
 - **Input:** grid = \[\["X","X"\],\["X","Y"\]\]

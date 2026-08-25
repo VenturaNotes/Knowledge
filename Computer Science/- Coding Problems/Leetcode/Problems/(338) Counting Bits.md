@@ -6,7 +6,7 @@ tags:
   - in-progress
 ---
 ## Synthesis
-- ![[(338) Counting Bits 2026-08-10 17.30.03.excalidraw]]
+- ![[Private/Drawings/drawing-20260825-121853.svg|352]]
 - [ ] How can I do this in linear time? What is the optimal solution?
 ### Approach 1
 ```python
