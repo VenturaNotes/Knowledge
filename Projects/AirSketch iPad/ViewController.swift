@@ -20,6 +20,10 @@ class ViewController: UIViewController, WKNavigationDelegate {
         webView.navigationDelegate = self
         webView.scrollView.isScrollEnabled = false
         webView.scrollView.bounces = false
+        
+        // 🔴 FIX: Eliminates the 24px Safe Area shift so pen tip aligns 1:1
+        webView.scrollView.contentInsetAdjustmentBehavior = .never
+        
         view.addSubview(webView)
 
         // 2. Configure Native Touch Overlay (240Hz Digitizer)
@@ -58,7 +62,6 @@ class ViewController: UIViewController, WKNavigationDelegate {
             return
         }
 
-        // Save URL for future app launches
         UserDefaults.standard.set(clean, forKey: urlStorageKey)
         webView.load(URLRequest(url: url))
     }
@@ -78,7 +81,6 @@ class ViewController: UIViewController, WKNavigationDelegate {
             textField.autocapitalizationType = .none
         }
 
-        // Quick button if URL is in clipboard
         if let clip = UIPasteboard.general.string, clip.contains("4444") || clip.contains("http") {
             alert.addAction(UIAlertAction(title: "📋 Paste from Clipboard", style: .default) { [weak self] _ in
                 self?.connectToServer(urlString: clip)
