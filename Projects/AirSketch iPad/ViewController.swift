@@ -1,11 +1,12 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController, WKNavigationDelegate {
+class ViewController: UIViewController, WKNavigationDelegate, WKScriptMessageHandler {
     var webView: WKWebView!
     var touchOverlay: TouchOverlayView!
 
     let urlStorageKey = "airsketch_saved_server_url"
+    var isTouchOverlayDisabled = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -14,14 +15,13 @@ class ViewController: UIViewController, WKNavigationDelegate {
         // 1. Configure the Web View
         let config = WKWebViewConfiguration()
         config.allowsInlineMediaPlayback = true
+        config.userContentController.add(self, name: "touchBridge")
         
         webView = WKWebView(frame: view.bounds, configuration: config)
         webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         webView.navigationDelegate = self
         webView.scrollView.isScrollEnabled = false
         webView.scrollView.bounces = false
-        
-        // 🔴 FIX: Eliminates the 24px Safe Area shift so pen tip aligns 1:1
         webView.scrollView.contentInsetAdjustmentBehavior = .never
         
         view.addSubview(webView)
@@ -31,6 +31,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         touchOverlay.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         touchOverlay.isMultipleTouchEnabled = true
         touchOverlay.backgroundColor = .clear
+        touchOverlay.viewController = self
         touchOverlay.onTouches = { [weak self] phase, touchData in
             self?.sendTouchesToWeb(phase: phase, touchData: touchData)
         }
@@ -48,6 +49,14 @@ class ViewController: UIViewController, WKNavigationDelegate {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
                 self?.promptForServerURL()
             }
+        }
+    }
+
+    func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+        if message.name == "touchBridge",
+           let dict = message.body as? [String: Any],
+           let overlayEnabled = dict["overlayEnabled"] as? Bool {
+            self.isTouchOverlayDisabled = !overlayEnabled
         }
     }
 
@@ -121,6 +130,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
 // Native Touch Overlay: 240Hz Hardware Interception
 // ----------------------------------------------------
 class TouchOverlayView: UIView {
+    weak var viewController: ViewController?
     var onTouches: ((String, [[String: Any]]) -> Void)?
 
     override init(frame: CGRect) {
@@ -133,9 +143,10 @@ class TouchOverlayView: UIView {
         isMultipleTouchEnabled = true
     }
 
-    // Pass touches in top 60px down to WKWebView so UI buttons work
+    // Pass touches to webView for top toolbar, shape dropdown, and active text editing
     override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
-        if point.y <= 60 {
+        // Pass touches through if in top bar (y <= 60), in dropdown menu area (x <= 230 && y <= 250), or if text tool is active
+        if point.y <= 60 || (point.x <= 230 && point.y <= 250) || (viewController?.isTouchOverlayDisabled == true) {
             return nil
         }
         return self
