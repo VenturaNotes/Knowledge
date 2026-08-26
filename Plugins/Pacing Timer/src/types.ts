@@ -7,6 +7,7 @@ export interface PacingSessionState {
     targetSegmentDuration: number;
     totalSegments: number;
     defaultTotalTime: number;
+    defaultCountEnabled?: boolean;
     completedSegments: number;
     cumulativeDelta: number;
     globalTimeElapsed: number;
@@ -42,7 +43,7 @@ export interface PacingSessionState {
 export function createBlankSession(): PacingSessionState {
     return {
         mode: "default", title: "", initialSegmentDuration: 0, targetSegmentDuration: 0,
-        totalSegments: 0, defaultTotalTime: 0, completedSegments: 0, cumulativeDelta: 0,
+        totalSegments: 0, defaultTotalTime: 0, defaultCountEnabled: false, completedSegments: 0, cumulativeDelta: 0,
         globalTimeElapsed: 0, segmentTimeElapsed: 0, isRunning: true, isFinished: false,
         lastTickTime: Date.now(), stackingIsActive: false, stackingLevel: 1, stackingTotalTimeLeft: 0,
         stackingSectionTimeLeft: 0, stackingCurrentSplitElapsed: 0, stackingGlobalSumCount: 0,
@@ -56,6 +57,7 @@ export function createBlankSession(): PacingSessionState {
 export interface PacingTimerSettings {
     cache: { selectedMode: TimerMode; rawTitle: string; };
     activeSession: PacingSessionState | null;
+    defaultCountEnabled: boolean;
     stackingGoal: number;
     stackingGoalPositiveOnly: boolean;
     stackingUseGlobalDuration: boolean;
@@ -72,6 +74,7 @@ export interface PacingTimerSettings {
 export const DEFAULT_SETTINGS: PacingTimerSettings = {
     cache: { selectedMode: "stacking", rawTitle: "" },
     activeSession: null,
+    defaultCountEnabled: false,
     stackingGoal: 900,
     stackingGoalPositiveOnly: false,
     stackingUseGlobalDuration: false,

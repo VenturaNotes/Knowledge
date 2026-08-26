@@ -192,7 +192,7 @@ export default class PacingTimerPlugin extends Plugin {
             this.lastIPCExecutionTime = now;
         }
 
-        if (this.session.mode === "default" || this.session.isFinished) {
+        if (this.session.isFinished) {
             this.resetAndReopen();
         } else if (this.session.isRunning) {
             ModeRegistry[this.session.mode]!.onComplete(this.session, this);

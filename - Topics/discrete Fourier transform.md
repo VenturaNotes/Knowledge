@@ -12,6 +12,12 @@
 	- (c) Finite-length DFT response
 	- Part
 		- Magnitude vs Frequency
+## Source[^2]
+- The discrete Fourier transform of a vector $\mathbf{x} = (x_0, x_1, \dots, x_{n-1})$ is the vector $\mathbf{y} = (y_0, y_1, \dots, y_{n-1})$ obtained by calculating $y_k = \sum_{j=0}^{n-1} \omega^{kj} x_j$ for each $k = 0, 1, \dots, n-1$ where $$\omega = e^{(- 2\pi i / n)} = \cos\left(\frac{2\pi}{n}\right) - i \sin\left(\frac{2\pi}{n}\right)$$This involves a large number of calculations, but the number can be reduced by using an algorithm called the fast Fourier transform.
+- SEE WEB LINKS
+	- http://www.jhu.edu/signals/fourier2/index.html #comment Not found
+	* A discrete Fourier transform tool in which choosing different options from the signal menu illustrates a number of signals and the approximating function using a specified number of Fourier coefficients.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

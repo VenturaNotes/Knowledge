@@ -68,6 +68,9 @@ $$
   
 
 and $y_{n}$ denotes the approximation to the true solution $y(x)$ at the point $x_{n}$. See also DISCRETIZATION ERROR.
+## Source[^2]
+- The process of approximating a continuous function or process by a discrete alternative.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -574,6 +574,9 @@ let isPanning = false;
 let isNavLocked = false;
 let isOpeningTextEditor = false;
 
+let isResizing = false;
+let activeResizeData = null;
+
 let isMarquee = false;
 let marqueeStart = null, marqueeEnd = null;
 
@@ -726,7 +729,7 @@ function getItemBounds(item) {
     const h = (item.fontSize || 18) * 1.25 * Math.max(1, lines.length);
     return { minX: item.x - 2, minY: item.y - 2, maxX: item.x + maxW + 4, maxY: item.y + h + 2 };
   } else if (item.type === 'image') {
-    return { minX: item.x - pad, minY: item.y - pad, maxX: item.x + item.width + pad, maxY: item.y + item.height + pad };
+    return { minX: item.x, minY: item.y, maxX: item.x + item.width, maxY: item.y + item.height };
   }
   return null;
 }
@@ -743,6 +746,27 @@ function getSelectedTotalBounds() {
   });
   if (sMinX === Infinity) return null;
   return { minX: sMinX, minY: sMinY, maxX: sMaxX, maxY: sMaxY };
+}
+
+function getSelectionCornerHandle(cPt, thresholdScreen = 18) {
+  if (selectedItems.size !== 1) return null;
+  const item = Array.from(selectedItems)[0];
+  if (item.type !== 'image') return null;
+
+  const threshold = thresholdScreen / scale;
+  const corners = [
+    { handle: 'tl', x: item.x, y: item.y },
+    { handle: 'tr', x: item.x + item.width, y: item.y },
+    { handle: 'bl', x: item.x, y: item.y + item.height },
+    { handle: 'br', x: item.x + item.width, y: item.y + item.height }
+  ];
+
+  for (const c of corners) {
+    if (Math.hypot(cPt.x - c.x, cPt.y - c.y) <= threshold) {
+      return { handle: c.handle, item };
+    }
+  }
+  return null;
 }
 
 /* ====================================================
@@ -1084,7 +1108,9 @@ function render() {
 
   const sBounds = getSelectedTotalBounds();
   if (sBounds) {
-    // 1. Sub-selection bounding boxes for each individual selected item
+    const isSingleImage = (selectedItems.size === 1 && Array.from(selectedItems)[0].type === 'image');
+
+    // 1. Sub-selection bounding boxes for each individual selected item if multiple
     if (selectedItems.size > 1) {
       ctx.strokeStyle = 'rgba(167, 139, 250, 0.45)';
       ctx.lineWidth = 1 / scale;
@@ -1098,25 +1124,31 @@ function render() {
     }
 
     // 2. Main Outer Selection Container
-    const pad = 6;
+    const pad = isSingleImage ? 0 : 6;
     const x = sBounds.minX - pad, y = sBounds.minY - pad;
     const w = (sBounds.maxX - sBounds.minX) + pad * 2, h = (sBounds.maxY - sBounds.minY) + pad * 2;
 
     ctx.strokeStyle = '#c084fc';
-    ctx.lineWidth = 2 / scale;
+    ctx.lineWidth = (isSingleImage ? 2.5 : 2) / scale;
     ctx.setLineDash([6 / scale, 4 / scale]);
     ctx.strokeRect(x, y, w, h);
     ctx.setLineDash([]);
 
-    const handleRadius = 4 / scale;
-    ctx.fillStyle = '#ffffff';
-    ctx.strokeStyle = '#8b5cf6';
-    ctx.lineWidth = 2 / scale;
-    const corners = [{x, y}, {x: x + w, y}, {x, y: y + h}, {x: x + w, y: y + h}];
+    const handleRadius = (isSingleImage ? 6.5 : 4.5) / scale;
+    const corners = [
+      { x: x, y: y },
+      { x: x + w, y: y },
+      { x: x, y: y + h },
+      { x: x + w, y: y + h }
+    ];
+
     corners.forEach(c => {
       ctx.beginPath();
       ctx.arc(c.x, c.y, handleRadius, 0, Math.PI * 2);
+      ctx.fillStyle = isSingleImage ? '#a78bfa' : '#ffffff';
       ctx.fill();
+      ctx.strokeStyle = '#ffffff';
+      ctx.lineWidth = 2 / scale;
       ctx.stroke();
     });
   }
@@ -1543,7 +1575,7 @@ function handleStart(clientX, clientY) {
 
   if (pastePopup.style.display === 'flex') {
     const pRect = pastePopup.getBoundingClientRect();
-    if (clientX >= pRect.left && clientX <= pRect.right && clientY >= pRect.top && clientY <= popRect.bottom) {
+    if (clientX >= pRect.left && clientX <= pRect.right && clientY >= pRect.top && clientY <= pRect.bottom) {
       const doPBtn = document.getElementById('doPasteBtn');
       const dpRect = doPBtn.getBoundingClientRect();
       if (clientX >= dpRect.left && clientX <= dpRect.right && clientY >= dpRect.top && clientY <= dpRect.bottom) {
@@ -1567,6 +1599,25 @@ function handleStart(clientX, clientY) {
   }
 
   const cPt = toCanvasCoord(clientX, clientY);
+
+  // Check if grabbing an image corner resize handle
+  if (currentTool === 'select' || currentTool === 'lasso') {
+    const resizeHit = getSelectionCornerHandle(cPt);
+    if (resizeHit) {
+      pushHistory();
+      isResizing = true;
+      activeResizeData = {
+        handle: resizeHit.handle,
+        item: resizeHit.item,
+        origX: resizeHit.item.x,
+        origY: resizeHit.item.y,
+        origWidth: resizeHit.item.width,
+        origHeight: resizeHit.item.height,
+        aspectRatio: resizeHit.item.width / Math.max(1, resizeHit.item.height)
+      };
+      return;
+    }
+  }
 
   if (currentTool === 'pen') {
     pushHistory();
@@ -1663,13 +1714,81 @@ function handleMove(clientX, clientY) {
     return;
   }
 
+  const cPt = toCanvasCoord(clientX, clientY);
+
+  // 1. Proportional Image Resizing with Aspect-Ratio Lock
+  if (isResizing && activeResizeData) {
+    const { handle, item, origX, origY, origWidth, origHeight } = activeResizeData;
+    let newW = origWidth, newH = origHeight, newX = origX, newY = origY;
+
+    if (handle === 'br') {
+      const anchor = { x: origX, y: origY };
+      const V = { x: origWidth, y: origHeight };
+      const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
+      let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
+      sf = Math.max(20 / origWidth, sf);
+      newW = origWidth * sf;
+      newH = origHeight * sf;
+      newX = origX;
+      newY = origY;
+    } else if (handle === 'tl') {
+      const anchor = { x: origX + origWidth, y: origY + origHeight };
+      const V = { x: -origWidth, y: -origHeight };
+      const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
+      let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
+      sf = Math.max(20 / origWidth, sf);
+      newW = origWidth * sf;
+      newH = origHeight * sf;
+      newX = anchor.x - newW;
+      newY = anchor.y - newH;
+    } else if (handle === 'tr') {
+      const anchor = { x: origX, y: origY + origHeight };
+      const V = { x: origWidth, y: -origHeight };
+      const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
+      let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
+      sf = Math.max(20 / origWidth, sf);
+      newW = origWidth * sf;
+      newH = origHeight * sf;
+      newX = anchor.x;
+      newY = anchor.y - newH;
+    } else if (handle === 'bl') {
+      const anchor = { x: origX + origWidth, y: origY };
+      const V = { x: -origWidth, y: origHeight };
+      const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
+      let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
+      sf = Math.max(20 / origWidth, sf);
+      newW = origWidth * sf;
+      newH = origHeight * sf;
+      newX = anchor.x - newW;
+      newY = anchor.y;
+    }
+
+    item.x = newX;
+    item.y = newY;
+    item.width = newW;
+    item.height = newH;
+
+    updateSelectionPopupPosition();
+    render();
+    return;
+  }
+
+  // Hover cursor indicator for image corners on desktop
+  if (!isInteracting && !isPanning && (currentTool === 'select' || currentTool === 'lasso')) {
+    const handleHit = getSelectionCornerHandle(cPt);
+    if (handleHit) {
+      if (handleHit.handle === 'tl' || handleHit.handle === 'br') canvas.style.cursor = 'nwse-resize';
+      else canvas.style.cursor = 'nesw-resize';
+    } else if (canvas.style.cursor.includes('resize')) {
+      canvas.style.cursor = currentTool === 'hand' ? 'grab' : 'crosshair';
+    }
+  }
+
   if (selectionTapCandidate) {
     if (Math.hypot(clientX - selectionTapCandidate.clientX, clientY - selectionTapCandidate.clientY) > 5) {
       selectionTapCandidate.isDrag = true;
     }
   }
-
-  const cPt = toCanvasCoord(clientX, clientY);
 
   if (isInteracting) {
     if (currentTool === 'pen' && currentStroke) {
@@ -1727,6 +1846,17 @@ function handleMove(clientX, clientY) {
 
 function handleEnd() {
   if (!currentFileName) return;
+
+  if (isResizing) {
+    isResizing = false;
+    activeResizeData = null;
+    canvas.style.cursor = currentTool === 'hand' ? 'grab' : 'crosshair';
+    updateSelectionPopupPosition();
+    render();
+    clearTimeout(autoSaveTimer);
+    autoSaveTimer = setTimeout(triggerAutoSave, 1000);
+    return;
+  }
 
   if (currentTool === 'hand') {
     isPanning = false;
@@ -2051,7 +2181,12 @@ window.addEventListener('paste', async (e) => {
             if (w > h) { h = (h / w) * maxDim; w = maxDim; }
             else { w = (w / h) * maxDim; h = maxDim; }
           }
-          items.push({ type: 'image', x: targetPt.x - w/2, y: targetPt.y - h/2, width: w, height: h, dataUrl, imgObj: img });
+          const newImgItem = { type: 'image', x: targetPt.x - w/2, y: targetPt.y - h/2, width: w, height: h, dataUrl, imgObj: img };
+          items.push(newImgItem);
+          selectedItems.clear();
+          selectedItems.add(newImgItem);
+          setTool('select');
+          updateSelectionPopupPosition();
           render();
           triggerAutoSave();
         };
@@ -2302,7 +2437,7 @@ sse.onmessage = (e) => {
     if (data.type === 'switch' && data.name) {
       loadDrawingFile(data.name, data.markdownNote);
     } else if (data.type === 'doc-updated' && data.name === currentFileName && data.senderId !== CLIENT_ID) {
-      if (!isInteracting) {
+      if (!isInteracting && !isResizing) {
         items = (data.state.items || []).map(it => {
           if (it.type === 'image' && it.dataUrl) {
             const img = new Image();

@@ -12,8 +12,15 @@
 ## Source[^3]
 - (1) (in biochemistry) A functional unit of the tertiary structure of a protein. It consists of chains of amino acids folded into alpha helices and beta sheets to form a globular structure. Different domains are linked together by relatively straight sections of polypeptide chain to form the protein molecule. Domains allow a degree of movement in the protein structure. See also FINGER DOMAIN. 
 - (2) (in taxonomy) The highest taxonomic category, consisting of one or more kingdoms. Living organisms are divided into three domains: Archaea, Bacteria, and Eukarya (eukaryotic organisms).
+## Source[^4]
+- (algebra) A ring in which the equation $xy = 0$ implies $x = 0$ or $y = 0$ (or both). See EUCLIDEAN DOMAIN, INTEGRAL DOMAIN.
+---
+- (analysis) An open (see OPEN SET), connected subset of a Euclidean space, the complex plane, or more generally a finite-dimensional real vector space.
+---
+- See function
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
