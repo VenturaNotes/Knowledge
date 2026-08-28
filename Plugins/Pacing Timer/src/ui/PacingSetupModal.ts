@@ -74,7 +74,15 @@ export class PacingSetupModal extends Modal {
         footerContainer.style.marginTop = "auto";
         new Setting(footerContainer).addButton(btn => btn.setButtonText("Launch Engine").setCta().onClick(() => this.submitForm()));
 
-        this.scope.register([], "Enter", (evt) => { evt.preventDefault(); this.submitForm(); });
+        // Only submit on plain Enter if the user is NOT actively typing in an input field
+        this.scope.register([], "Enter", (evt) => {
+            const activeEl = document.activeElement;
+            if (activeEl && (activeEl.tagName === "INPUT" || activeEl.tagName === "TEXTAREA")) {
+                return;
+            }
+            evt.preventDefault();
+            this.submitForm();
+        });
         this.scope.register(["Meta"], "Enter", (evt) => { evt.preventDefault(); this.submitForm(); });
         this.scope.register(["Ctrl"], "Enter", (evt) => { evt.preventDefault(); this.submitForm(); });
     }

@@ -29,13 +29,9 @@ export interface PacingSessionState {
     rotationCategories: string[];
     rotationIndex: number;
     rotationCategoryElapsed: number;
-    rotationSubGoalElapsed: number;
     rotationCategoryDuration: number;
     rotationCategoryDurations?: number[];
-    rotationSubGoalDuration: number;
-    rotationWildcardDuration: number;
-    rotationInWildcard: boolean;
-    rotationWildcardElapsed: number;
+    rotationInterruptDuration?: number;
     rotationInInterrupt: boolean;
     rotationInterruptElapsed: number;
 }
@@ -48,9 +44,10 @@ export function createBlankSession(): PacingSessionState {
         lastTickTime: Date.now(), stackingIsActive: false, stackingLevel: 1, stackingTotalTimeLeft: 0,
         stackingSectionTimeLeft: 0, stackingCurrentSplitElapsed: 0, stackingGlobalSumCount: 0,
         stackingGlobalTotalSplits: 0, stackingLastSplitDelta: 0, stackingPendingDowngrade: false,
-        rotationCategories: [], rotationIndex: 0, rotationCategoryElapsed: 0, rotationSubGoalElapsed: 0,
-        rotationCategoryDuration: 0, rotationCategoryDurations: [], rotationSubGoalDuration: 0, rotationWildcardDuration: 0,
-        rotationInWildcard: false, rotationWildcardElapsed: 0, rotationInInterrupt: false, rotationInterruptElapsed: 0
+        rotationCategories: [], rotationIndex: 0, rotationCategoryElapsed: 0,
+        rotationCategoryDuration: 0, rotationCategoryDurations: [],
+        rotationInterruptDuration: 300,
+        rotationInInterrupt: false, rotationInterruptElapsed: 0
     };
 }
 
@@ -65,8 +62,7 @@ export interface PacingTimerSettings {
     rotationCategoriesRaw: string;
     rotationCategoryDuration: number;
     rotationCategoryDurations?: number[];
-    rotationSubGoalDuration: number;
-    rotationWildcardDuration: number;
+    rotationInterruptDuration: number;
     rotationContinuePrevious: boolean;
     lastRotationSession?: Partial<PacingSessionState> | null;
 }
@@ -82,8 +78,7 @@ export const DEFAULT_SETTINGS: PacingTimerSettings = {
     rotationCategoriesRaw: "",
     rotationCategoryDuration: 900,
     rotationCategoryDurations: [900],
-    rotationSubGoalDuration: 300,
-    rotationWildcardDuration: 300,
+    rotationInterruptDuration: 300,
     rotationContinuePrevious: false,
     lastRotationSession: null
 };

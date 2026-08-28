@@ -197,7 +197,7 @@ export default class PacingTimerPlugin extends Plugin {
         } else if (this.session.isRunning) {
             ModeRegistry[this.session.mode]!.onComplete(this.session, this);
             this.updateStatusBar();
-            this.saveSettings(); // Instantly persist state change to disk
+            this.saveSettings();
         }
     }
 
@@ -228,8 +228,11 @@ export default class PacingTimerPlugin extends Plugin {
     togglePause() {
         if (!this.session) return;
         this.session.isRunning = !this.session.isRunning;
-        if (!this.session.isRunning) { this.stopAlarmSequence(); this.showOverlay("⏸ Paused"); }
-        else { this.session.lastTickTime = Date.now(); this.showOverlay("▶ Resumed"); }
+        if (!this.session.isRunning) {
+            this.stopAlarmSequence();
+        } else {
+            this.session.lastTickTime = Date.now();
+        }
         this.updateStatusBar();
         this.saveSettings();
     }
