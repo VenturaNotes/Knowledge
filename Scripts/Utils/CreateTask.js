@@ -122,11 +122,9 @@ module.exports = async ({ app, obsidian }) => {
             return;
         }
 
-        // Note template content
+        // Note template content (task tag removed)
         const fileContent = `---
 status: open
-tags:
-  - task
 ---
 `;
 

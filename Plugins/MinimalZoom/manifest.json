@@ -1,0 +1,9 @@
+{
+  "id": "minimal-zoom",
+  "name": "Minimal Zoom",
+  "version": "1.0.0",
+  "minAppVersion": "1.1.16",
+  "description": "Minimalist zoom into headings and lists without clutter.",
+  "author": "Julian Ventura",
+  "isDesktopOnly": false
+}
