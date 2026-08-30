@@ -238,7 +238,7 @@ require("lazy").setup({
           vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)             -- Hover documentation
           vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)       -- Go to definition
           vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)       -- Find references
-          vim.keymap.set("n", "<leader>cr", vim.lsp.buf.rename, opts)   -- Rename variable (Changed from <leader>rn)
+          vim.keymap.set("n", "<leader>cr", vim.lsp.buf.rename, opts)   -- Rename variable
           vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts) -- Code actions (fixes)
         end,
       })
@@ -406,11 +406,26 @@ require("lazy").setup({
 -- 4. CUSTOM KEYMAPS & BACKGROUND SCRIPT RUNNER
 -- ==========================================================================
 
--- Copy to system clipboard in Normal and Visual modes
-vim.keymap.set({"n", "v"}, "<leader>y", '"+y', { desc = "Yank to system clipboard" })
+-- 1. Send all deletes to the black hole register ("_d) so they don't overwrite clipboard
+vim.keymap.set({ "n", "v" }, "d", '"_d', { desc = "Delete without copying" })
+vim.keymap.set("n", "dd", '"_dd', { desc = "Delete line without copying" })
+vim.keymap.set({ "n", "v" }, "D", '"_D', { desc = "Delete to end of line without copying" })
+vim.keymap.set({ "n", "v" }, "c", '"_c', { desc = "Change without copying" })
+vim.keymap.set({ "n", "v" }, "C", '"_C', { desc = "Change to end of line without copying" })
+vim.keymap.set({ "n", "v" }, "x", '"_x', { desc = "Delete character without copying" })
 
--- Paste from system clipboard in Normal and Visual modes
-vim.keymap.set({"n", "v"}, "<leader>p", '"+p', { desc = "Paste from system clipboard" })
+-- 2. Visual paste over selection without replacing clipboard contents
+vim.keymap.set("x", "<leader>p", [["_d"+P]], { desc = "Paste over selection without losing clipboard" })
+vim.keymap.set("x", "p", [["_d"+P]], { desc = "Paste over selection without losing clipboard" })
+
+-- 3. Dedicated CUT commands (Use Space + d when you actually WANT to cut text)
+vim.keymap.set({ "n", "v" }, "<leader>d", '"+d', { desc = "Cut to system clipboard" })
+vim.keymap.set("n", "<leader>dd", '"+dd', { desc = "Cut line to system clipboard" })
+
+-- 4. Yank & Paste shortcuts
+vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "Yank to system clipboard" })
+vim.keymap.set("n", "<leader>p", '"+p', { desc = "Paste from system clipboard" })
+vim.keymap.set("n", "<leader>P", '"+P', { desc = "Paste before cursor" })
 
 local run_job_id = nil -- Keeps track of the active background run process
 
@@ -514,7 +529,7 @@ local function save_and_run()
   vim.api.nvim_set_current_win(original_win)
 end
 
--- Run script with Space + r (Executes instantly now)
+-- Run script with Space + r (Executes instantly)
 vim.keymap.set("n", "<leader>r", save_and_run, { desc = "Save and run current script in background" })
 
 -- ==========================================================================
