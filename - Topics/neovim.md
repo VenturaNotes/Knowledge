@@ -35,6 +35,7 @@
 - Indent + Un-indent (tab replacement)
 	- `Control + t`
 	- `Control + d` or `control + h` or backspace?
+		- [ ] `control + h` doesn't seem to work
 - Switching between windows
 	- `ctrl + w`
 		- Then do `j` or `k` (to go down or up)

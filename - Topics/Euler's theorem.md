@@ -5,7 +5,14 @@
 K \frac{\partial f}{\partial K}+L \frac{\partial f}{\partial L}=f(K, L).
 $$If the price of output is $p$, it follows that$$K p \frac{\partial f}{\partial K}+L p \frac{\partial f}{\partial K}=p f(K, L)$$Competition on the factor market ensures that $r=p \frac{\partial f}{\partial K}$ and $w=p \frac{\partial f}{\partial L}$. Hence,$$r K+w L=p f(K, L)$$so total payment to factors equals revenue. This argument has been used as the basis for a theory of distribution.
 ## Source[^2]
-- 
+- If a finite planar graph $G$ is drawn in the plane, so that no two edges cross, the plane is divided into a number of regions (including the exterior region) called faces. Euler's Theorem (for planar graphs) is the following:
+- Theorem
+	- Let $G$ be a connected planar graph drawn in the plane. If there are $V$ vertices, $E$ edges and $F$ faces, then $V - E + F = 2$.
+	- An application of this gives Euler's Theorem (for polyhedra):
+- Theorem
+	- If a convex polyhedron has $V$ vertices, $E$ edges and $F$ faces, then $V - E + F = 2$.
+	- For example, a cube has $V = 8, E = 12, F = 6$, and a tetrahedron has $V = 4, E = 6, F = 4$.
+- The two theorems are essentially the same as a convex polyhedron is topologically a sphere, and a sphere with a point removed is topologically the plane. See EULER CHARACTERISTIC.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

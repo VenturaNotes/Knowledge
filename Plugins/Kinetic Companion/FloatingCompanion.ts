@@ -1,4 +1,4 @@
-import { App, Editor, Notice, htmlToMarkdown, WorkspaceLeaf } from 'obsidian';
+import { App, Editor, Notice, WorkspaceLeaf } from 'obsidian';
 
 export class FloatingCompanion {
     private app: App;
@@ -470,12 +470,12 @@ export class FloatingCompanion {
             console.log("[WebView Guest]", message);
 
             if (message && message.startsWith("gemini-stream-chunk::")) {
-                const encodedHTML = message.substring("gemini-stream-chunk::".length);
+                const encodedPayload = message.substring("gemini-stream-chunk::".length);
                 try {
-                    const decodedHTML = decodeURIComponent(encodedHTML);
-                    this.handleStreamChunk(decodedHTML);
+                    const decodedPayload = decodeURIComponent(encodedPayload);
+                    this.handleStreamChunk(decodedPayload);
                 } catch (e) {
-                    console.error("Obsidian KC: Parsing received HTML stream chunk failed:", e);
+                    console.error("Obsidian KC: Parsing received payload failed:", e);
                 }
             }
         });
@@ -488,20 +488,13 @@ export class FloatingCompanion {
         
         for (const line of lines) {
             const trimmed = line.trim();
-            // Match structural companion tags on their own line to avoid footnote/link collisions
             const openMatch = trimmed.match(/^\[(\d+)\]$/);
-            if (openMatch) {
-                const numStr = openMatch[1];
-                if (numStr) {
-                    used.add(parseInt(numStr as string, 10));
-                }
+            if (openMatch && openMatch[1]) {
+                used.add(parseInt(openMatch[1], 10));
             }
             const closeMatch = trimmed.match(/^\[\/(\d+)\]$/);
-            if (closeMatch) {
-                const numStr = closeMatch[1];
-                if (numStr) {
-                    used.add(parseInt(numStr as string, 10));
-                }
+            if (closeMatch && closeMatch[1]) {
+                used.add(parseInt(closeMatch[1], 10));
             }
         }
         
@@ -523,18 +516,17 @@ export class FloatingCompanion {
 
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
-            if (line === undefined) continue; // Resolve TS2532 Object is possibly 'undefined'
+            if (line === undefined) continue;
             
             const trimmed = line.trim();
             if (trimmed === openTag) {
-                startLine = i + 1; // Content starts on the next line
+                startLine = i + 1;
             } else if (trimmed === closeTag) {
-                endLine = i - 1; // Content ends on the previous line
+                endLine = i - 1;
                 break;
             }
         }
 
-        // Validate range structure
         if (startLine !== -1 && endLine !== -1 && startLine <= endLine + 1) {
             const endLineText = lines[endLine] || "";
             return {
@@ -560,18 +552,15 @@ export class FloatingCompanion {
             return;
         }
 
-        // Programmatically focus the webview tag prior to execution to assert viewport active states
         try {
             this.webview.focus();
         } catch (_) {}
 
         this.activeEditor = editor;
         
-        // Scan the file to discover the next available bracket identifier
         const id = this.getNextAvailableId(editor);
         this.activePromptId = id;
         
-        // Format the document layout with companion wrapper blocks
         const headerText = `${rawSelection}\n[${id}]\n(loading response...)\n[/${id}]\n`;
         editor.replaceRange(headerText, rangeFrom, rangeTo);
 
@@ -580,27 +569,63 @@ export class FloatingCompanion {
         console.log("Obsidian KC: Crafting injection script payload.");
         const injectionCode = `
             (function() {
-                // Spoof Page Visibility and Focus APIs to bypass background tab suspension
+                // 1. Hook the Clipboard API & spoof focus to completely silence copy errors
+                window.__kc_captured_markdown = "";
+                try {
+                    // Spoof document.hasFocus so webview always reports focused state
+                    try {
+                        Document.prototype.hasFocus = function() { return true; };
+                    } catch (_) {}
+
+                    if (!window.__kc_clipboard_hooked) {
+                        window.__kc_clipboard_hooked = true;
+
+                        // Intercept modern Clipboard API and resolve immediately without invoking OS clipboard
+                        navigator.clipboard.writeText = async function(text) {
+                            console.log("KC Debug: Intercepted navigator.clipboard.writeText (" + text.length + " chars)");
+                            window.__kc_captured_markdown = text;
+                            return Promise.resolve(); // Tells Google AI Studio the copy succeeded
+                        };
+
+                        // Intercept legacy execCommand and return true immediately
+                        const originalExec = document.execCommand.bind(document);
+                        document.execCommand = function(cmd, showUI, val) {
+                            if (cmd === 'copy') {
+                                const active = document.activeElement;
+                                if (active && (active.tagName === 'TEXTAREA' || active.tagName === 'INPUT')) {
+                                    window.__kc_captured_markdown = active.value || window.__kc_captured_markdown;
+                                    console.log("KC Debug: Intercepted execCommand textarea copy (" + window.__kc_captured_markdown.length + " chars)");
+                                } else {
+                                    const sel = window.getSelection();
+                                    if (sel && sel.toString()) {
+                                        window.__kc_captured_markdown = sel.toString();
+                                        console.log("KC Debug: Intercepted execCommand selection copy (" + window.__kc_captured_markdown.length + " chars)");
+                                    }
+                                }
+                                return true; // Tells Google AI Studio the copy succeeded
+                            }
+                            try {
+                                return originalExec(cmd, showUI, val);
+                            } catch(e) {
+                                return true;
+                            }
+                        };
+                    }
+                } catch(err) {
+                    console.warn("KC Debug: Clipboard hook initialization failed:", err);
+                }
+
+                // 2. Bypass background tab throttling
                 try {
                     Object.defineProperty(document, 'visibilityState', { get: function() { return 'visible'; }, configurable: true });
                     Object.defineProperty(document, 'hidden', { get: function() { return false; }, configurable: true });
-                    Object.defineProperty(document, 'webkitVisibilityState', { get: function() { return 'visible'; }, configurable: true });
-                    Object.defineProperty(document, 'webkitHidden', { get: function() { return false; }, configurable: true });
-                    
                     document.dispatchEvent(new Event('visibilitychange'));
-                    document.dispatchEvent(new Event('webkitvisibilitychange'));
-                    
                     window.dispatchEvent(new Event('focus'));
-                    document.dispatchEvent(new Event('focus'));
-                    console.log("KC Debug: Injected background visibility and focus spoofs.");
-                } catch (visibilityErr) {
-                    console.warn("KC Debug: Visibility spoofing failed:", visibilityErr);
-                }
+                } catch (_) {}
 
                 const promptText = ${escapedPrompt};
-                console.log("KC Debug: Guest automation process initiated.");
+                console.log("KC Debug: Guest automation initiated.");
 
-                // Helper queries
                 function queryShadowSelector(selector, root) {
                     root = root || document;
                     const el = root.querySelector(selector);
@@ -616,7 +641,6 @@ export class FloatingCompanion {
                     return null;
                 }
 
-                // Query and match all elements, including inside Shadow DOMs
                 function queryShadowSelectorAll(selector, root, results) {
                     root = root || document;
                     results = results || [];
@@ -632,7 +656,6 @@ export class FloatingCompanion {
                     return results;
                 }
 
-                // Check for errors, rate limits, or generic server failures
                 function checkErrorOrRateLimit() {
                     const errorSelectors = 'ms-alert, .error-message, .error, mat-snack-bar-container, .mat-mdc-snack-bar-container, .snack-bar, ms-chat-turn.error, .error-container, ms-toast';
                     const errorNodes = queryShadowSelectorAll(errorSelectors);
@@ -640,6 +663,10 @@ export class FloatingCompanion {
                     for (let i = 0; i < errorNodes.length; i++) {
                         const el = errorNodes[i];
                         const text = (el.textContent || "").toLowerCase();
+                        
+                        // Ignore harmless clipboard snackbars if any appear
+                        if (text.includes("clipboard")) continue;
+
                         if (text.includes("rate limit") || 
                             text.includes("too many requests") || 
                             text.includes("try again later") || 
@@ -659,6 +686,8 @@ export class FloatingCompanion {
                         const el = textElements[i];
                         if (el.children.length === 0) {
                             const text = (el.textContent || "").toLowerCase();
+                            if (text.includes("clipboard")) continue;
+
                             if ((text.includes("rate limit") && text.includes("later")) || 
                                 text.includes("quota exceeded") || 
                                 text.includes("resource exhausted") ||
@@ -676,12 +705,10 @@ export class FloatingCompanion {
 
                 let fillRetries = 0;
                 function findAndFillInput() {
-                    console.log("KC Debug: Querying main input text field... (Attempt: " + (fillRetries + 1) + ")");
                     const inputEl = queryShadowSelector('ms-prompt-box textarea, ms-prompt-box ms-autosize-textarea textarea, textarea[aria-label="Type something"], textarea[aria-label="Enter a prompt"], textarea, div[contenteditable="true"], [role="textbox"]');
                     if (inputEl) {
-                        console.log("KC Debug: Target input located successfully:", inputEl);
                         const initialTurnCount = queryShadowSelectorAll('ms-chat-turn').length;
-                        console.log("KC Debug: Initial history chat turn count:", initialTurnCount);
+                        console.log("KC Debug: Input field located. Initial turns count:", initialTurnCount);
 
                         if (inputEl.tagName === 'DIV') {
                             inputEl.textContent = promptText;
@@ -708,21 +735,17 @@ export class FloatingCompanion {
                                         }
                                     }
                                 }
-                                if (parent.tagName === 'BODY') {
-                                    break;
-                                }
+                                if (parent.tagName === 'BODY') break;
                                 parent = parent.parentElement;
                             }
 
                             if (runButton) {
-                                console.log("KC Debug: Executing robust click cycle on run button:", runButton);
                                 runButton.focus();
                                 runButton.dispatchEvent(new MouseEvent('mousedown', { bubbles: true, cancelable: true }));
                                 runButton.dispatchEvent(new Event('change', { bubbles: true }));
                                 runButton.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, cancelable: true }));
                                 runButton.click();
                             } else {
-                                console.log("KC Debug: Run button absent. Dispatching Ctrl+Enter KeyboardEvent fallback.");
                                 const enterEvent = new KeyboardEvent('keydown', {
                                     key: 'Enter', code: 'Enter', keyCode: 13, ctrlKey: true, metaKey: true, bubbles: true, cancelable: true
                                 });
@@ -736,22 +759,20 @@ export class FloatingCompanion {
                             setTimeout(findAndFillInput, 500);
                         } else {
                             console.error("KC Debug: Could not locate active input element context.");
-                            console.log("gemini-stream-chunk::" + encodeURIComponent("Error: Prompt field absent. Please click the Ribbon Icon to open the Companion Webview and ensure you are logged in."));
+                            console.log("gemini-stream-chunk::" + encodeURIComponent("raw-markdown::Error: Prompt field absent. Please open the Companion Webview and ensure you are logged in."));
                         }
                     }
                 }
 
                 function waitForCompletionAndExtract(initialCount) {
-                    console.log("KC Debug: Initiating content-stability polling tracker.");
+                    console.log("KC Debug: Polling for stream completion...");
                     let checkCount = 0;
-                    const maxChecks = 450; // 90 seconds (450 * 200ms)
+                    const maxChecks = 450; // 90 seconds
                     let generationStarted = false;
                     let previousText = "";
                     let unchangedCount = 0;
-                    const stabilityThreshold = 3; // 600ms of stability (3 ticks * 200ms) after generation stop
-                    let stopButtonWasSeen = false;
+                    const stabilityThreshold = 3;
 
-                    // Checks if the Stop prompt button is rendering in the workspace
                     function isStopButtonActive() {
                         const runButtons = queryShadowSelectorAll('ms-run-button button, ms-prompt-box button, button.run-button');
                         for (let i = 0; i < runButtons.length; i++) {
@@ -768,19 +789,15 @@ export class FloatingCompanion {
                     const pollInterval = setInterval(() => {
                         checkCount++;
 
-                        // Scan for active rate limit or server error containers
                         const rateLimitError = checkErrorOrRateLimit();
                         if (rateLimitError) {
                             clearInterval(pollInterval);
-                            console.error("KC Debug: Google AI Studio error detected: " + rateLimitError);
-                            console.log("gemini-stream-chunk::" + encodeURIComponent("Error: " + rateLimitError));
+                            console.log("gemini-stream-chunk::" + encodeURIComponent("raw-markdown::Error: " + rateLimitError));
                             return;
                         }
 
-                        // Track active button transition
                         const stopActive = isStopButtonActive();
                         if (stopActive) {
-                            stopButtonWasSeen = true;
                             generationStarted = true;
                         }
 
@@ -790,7 +807,8 @@ export class FloatingCompanion {
                         
                         for (let i = turns.length - 1; i >= initialCount; i--) {
                             const turn = turns[i];
-                            const container = queryShadowSelector('.chat-turn-container.model', turn);
+                            const container = queryShadowSelector('.chat-turn-container.model', turn) || 
+                                              queryShadowSelector('ms-chat-turn-model-content', turn);
                             if (container) {
                                 modelContainer = container;
                                 break;
@@ -803,140 +821,128 @@ export class FloatingCompanion {
                         }
 
                         if (latestText && latestText.trim().length > 0) {
-                            if (!generationStarted) {
-                                generationStarted = true;
-                                console.log("KC Debug: Generation started. Content detected length: " + latestText.length);
-                            }
+                            if (!generationStarted) generationStarted = true;
 
                             if (latestText === previousText) {
                                 unchangedCount++;
-                                console.log("KC Debug: Content unchanged count: " + unchangedCount + "/" + stabilityThreshold + " (StopActive=" + stopActive + ")");
                             } else {
                                 unchangedCount = 0;
                                 previousText = latestText;
-                                console.log("KC Debug: Content updated. New length: " + latestText.length);
                             }
-                        } else {
-                            console.log("KC Debug: Waiting for model turn or text... (" + checkCount + ")");
                         }
 
-                        // Complete once:
-                        // 1. Generation has started,
-                        // 2. The Stop button is no longer active,
-                        // 3. And content has stayed completely stable for our 600ms threshold (3 poll ticks)
                         const meetsCompletionCriteria = generationStarted && !stopActive && (unchangedCount >= stabilityThreshold);
 
                         if (meetsCompletionCriteria || (checkCount > maxChecks)) {
                             clearInterval(pollInterval);
-                            console.log("KC Debug: Content finished and stable. meetsCompletionCriteria=" + meetsCompletionCriteria);
-                            extractFinalResponse(initialCount);
+                            console.log("KC Debug: Stream completed. Extracting via native Copy Markdown...");
+                            extractUsingNativeCopyMarkdown(initialCount);
                         }
-                    }, 200); // Polling checks speed up to 200ms
+                    }, 200);
                 }
 
-                function extractFinalResponse(initialCount) {
+                async function extractUsingNativeCopyMarkdown(initialCount) {
                     const turns = queryShadowSelectorAll('ms-chat-turn');
-                    console.log("KC Debug: Finalizing extraction. Detected chat turns count: " + turns.length);
+                    console.log("KC Debug: Total chat turns found:", turns.length);
 
-                    let modelContainer = null;
+                    let targetTurn = null;
                     for (let i = turns.length - 1; i >= initialCount; i--) {
                         const turn = turns[i];
-                        const container = queryShadowSelector('.chat-turn-container.model', turn);
-                        if (container) {
-                            modelContainer = container;
+                        const isModel = queryShadowSelector('.chat-turn-container.model, ms-chat-turn-model-content, [data-turn-role="Model"], .model', turn) ||
+                                        turn.getAttribute('data-turn-role') === 'Model';
+                        if (isModel) {
+                            targetTurn = turn;
                             break;
                         }
                     }
 
-                    if (!modelContainer) {
-                        console.error("KC Debug: Active model turn element missing from workspace layout.");
+                    if (!targetTurn && turns.length > 0) {
+                        targetTurn = turns[turns.length - 1];
+                    }
+
+                    if (!targetTurn) {
+                        console.error("KC Debug: Could not find target model turn element.");
                         return;
                     }
 
-                    const cmarkEls = queryShadowSelectorAll('ms-cmark-node, .model-content, .markdown', modelContainer);
-                    
-                    const isInsideThinking = (node) => {
-                        while (node) {
-                            const tag = node.tagName || "";
-                            if (tag === 'MS-THOUGHT-CHUNK' || 
-                                tag === 'MODEL-THOUGHTS' || 
-                                (node.classList && (
-                                    node.classList.contains('thinking') || 
-                                    node.classList.contains('thought-container')
-                                ))) {
-                                    return true;
-                                }
-                                node = node.parentNode || node.host;
-                            }
-                            return false;
-                        };
+                    window.__kc_captured_markdown = "";
 
-                    const nonThinkingEls = cmarkEls.filter(el => !isInsideThinking(el));
+                    // Trigger hover so action bars and option buttons are instantiated
+                    targetTurn.dispatchEvent(new MouseEvent('mouseover', { bubbles: true }));
+                    targetTurn.dispatchEvent(new MouseEvent('mouseenter', { bubbles: true }));
 
-                    const uniqueEls = nonThinkingEls.filter(el => {
-                        return !nonThinkingEls.some(otherEl => otherEl !== el && otherEl.contains(el));
-                    });
+                    await new Promise(r => setTimeout(r, 60));
 
-                    let combinedHTML = "";
-                    for (let j = 0; j < uniqueEls.length; j++) {
-                        const el = uniqueEls[j];
-                        const clone = el.cloneNode(true);
+                    const turnButtons = queryShadowSelectorAll('button, [role="button"]', targetTurn);
+                    let optionsBtn = null;
+                    let directCopyBtn = null;
+
+                    for (const btn of turnButtons) {
+                        const aria = (btn.getAttribute('aria-label') || '').toLowerCase();
+                        const txt = (btn.textContent || '').toLowerCase();
+                        if (aria.includes('copy markdown') || txt.includes('copy markdown')) {
+                            directCopyBtn = btn;
+                            break;
+                        }
+                        if (aria.includes('options') || aria.includes('more') || aria.includes('menu') || btn.classList.contains('turn-actions-button')) {
+                            optionsBtn = btn;
+                        }
+                    }
+
+                    if (directCopyBtn) {
+                        console.log("KC Debug: Found direct 'Copy markdown' button. Clicking...");
+                        directCopyBtn.click();
+                    } else if (optionsBtn) {
+                        console.log("KC Debug: Clicking turn options menu:", optionsBtn);
+                        optionsBtn.click();
                         
-                        // Process Math Blocks
-                        const mathBlocks = clone.querySelectorAll('ms-math-block, math-block');
-                        mathBlocks.forEach(block => {
-                            const rawTex = block.text || block.math || block.getAttribute('math') || block.getAttribute('value') || "";
-                            if (rawTex && block.parentNode) {
-                                const replacement = document.createTextNode("\\n\\n$$" + rawTex + "$$\\n\\n");
-                                block.parentNode.replaceChild(replacement, block);
-                            }
-                        });
+                        await new Promise(r => setTimeout(r, 120));
 
-                        // Process Math Inlines
-                        const mathInlines = clone.querySelectorAll('ms-math-inline, math-inline, span.math');
-                        mathInlines.forEach(inline => {
-                            const rawTex = inline.text || inline.math || inline.getAttribute('math') || inline.getAttribute('value') || "";
-                            if (rawTex && inline.parentNode) {
-                                const replacement = document.createTextNode(" $" + rawTex + "$ ");
-                                inline.parentNode.replaceChild(replacement, inline);
-                            } else if (inline.parentNode) {
-                                const script = inline.querySelector('script[type="math/tex"]');
-                                if (script && script.textContent) {
-                                    const replacement = document.createTextNode(" $" + script.textContent + "$ ");
-                                    inline.parentNode.replaceChild(replacement, inline);
+                        const menuItems = queryShadowSelectorAll('.mat-mdc-menu-item, [role="menuitem"], .mat-menu-item, span.copy-markdown-button, button');
+                        let copyMarkdownItem = null;
+                        
+                        for (const item of menuItems) {
+                            const itemText = (item.textContent || '').toLowerCase().trim();
+                            if (itemText.includes('copy markdown') || itemText.includes('copy as markdown')) {
+                                copyMarkdownItem = item;
+                                break;
+                            }
+                        }
+
+                        if (copyMarkdownItem) {
+                            console.log("KC Debug: Found 'Copy markdown' item in menu. Clicking...");
+                            copyMarkdownItem.click();
+                        } else {
+                            for (const item of menuItems) {
+                                const itemText = (item.textContent || '').toLowerCase().trim();
+                                if (itemText.includes('copy')) {
+                                    copyMarkdownItem = item;
+                                    break;
                                 }
                             }
-                        });
-
-                        // Process Modern KaTeX Elements
-                        const katexElements = clone.querySelectorAll('ms-katex, .math-block, .math-inline, .katex');
-                        katexElements.forEach(mathEl => {
-                            let latexSource = mathEl.text || mathEl.math || mathEl.getAttribute('text') || mathEl.getAttribute('math') || "";
-                            
-                            if (!latexSource) {
-                                const annotation = mathEl.querySelector('annotation[encoding="application/x-tex"]');
-                                if (annotation) {
-                                    latexSource = annotation.textContent || "";
-                                }
+                            if (copyMarkdownItem) {
+                                console.log("KC Debug: Clicking fallback copy item in menu...");
+                                copyMarkdownItem.click();
                             }
-                            
-                            if (latexSource && mathEl.parentNode) {
-                                const isInline = mathEl.classList.contains('inline') || mathEl.classList.contains('math-inline') || mathEl.tagName === 'SPAN';
-                                const replacementText = isInline ? " $" + latexSource.trim() + "$ " : "\\n\\n$$" + latexSource.trim() + "$$\\n\\n";
-                                const replacement = document.createTextNode(replacementText);
-                                mathEl.parentNode.replaceChild(replacement, mathEl);
-                            }
-                        });
+                        }
 
-                        combinedHTML += clone.innerHTML + "\\n";
+                        document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', code: 'Escape', bubbles: true }));
                     }
-                    
-                    if (combinedHTML) {
-                        console.log("KC Debug: Sending completed static payload to Obsidian (" + combinedHTML.length + " characters).");
-                        console.log("gemini-stream-chunk::" + encodeURIComponent("html-payload::" + combinedHTML));
-                    } else {
-                        console.warn("KC Debug: Response content list resolved to empty HTML structure.");
+
+                    // Await clipboard capture
+                    await new Promise(r => setTimeout(r, 150));
+
+                    if (window.__kc_captured_markdown && window.__kc_captured_markdown.trim().length > 0) {
+                        console.log("KC Debug: Successfully captured raw Markdown (" + window.__kc_captured_markdown.length + " chars)");
+                        console.log("gemini-stream-chunk::" + encodeURIComponent("raw-markdown::" + window.__kc_captured_markdown));
+                        return;
                     }
+
+                    // Fallback to direct text content if copy action was blocked
+                    console.warn("KC Debug: Native Copy Markdown did not trigger clipboard; falling back to direct text.");
+                    const cmarkEls = queryShadowSelectorAll('ms-cmark-node, .model-content, .markdown', targetTurn);
+                    const fallbackText = cmarkEls.map(el => el.textContent || "").join("");
+                    console.log("gemini-stream-chunk::" + encodeURIComponent("raw-markdown::" + fallbackText));
                 }
 
                 findAndFillInput();
@@ -949,10 +955,9 @@ export class FloatingCompanion {
             .catch((err: any) => console.error("Obsidian KC: executeJavaScript injection failed:", err));
     }
 
-    private handleStreamChunk(htmlContent: string) {
+    private handleStreamChunk(payloadString: string) {
         if (!this.activeEditor || this.activePromptId === null) return;
 
-        // Query the document to find the exact boundaries of [id] and [/id]
         const range = this.findResponseRange(this.activeEditor, this.activePromptId);
         if (!range) {
             console.error("Obsidian KC: Could not find the response boundary tags in the document.");
@@ -963,30 +968,38 @@ export class FloatingCompanion {
 
         let fullMarkdown = "";
 
-        if (htmlContent.startsWith("html-payload::")) {
-            const content = htmlContent.substring("html-payload::".length);
-            fullMarkdown = htmlToMarkdown(content);
+        if (payloadString.startsWith("raw-markdown::")) {
+            fullMarkdown = payloadString.substring("raw-markdown::".length);
         } else {
-            fullMarkdown = htmlContent;
+            fullMarkdown = payloadString;
         }
 
+        // 1. Clean line endings and trim trailing spaces per line
         fullMarkdown = fullMarkdown
             .split("\n")
             .map(line => line.trimEnd())
             .join("\n");
 
-        fullMarkdown = fullMarkdown.replace(/\n{3,}/g, "\n\n");
-        fullMarkdown = fullMarkdown.replace(/\n\s*\n\s*([-*+]\s|\d+\.\s)/g, "\n$1");
+        // 2. Strip any leading author headers if present
+        fullMarkdown = fullMarkdown.replace(/^(?:Model|Assistant|Gemini[^\n]*|User)(?:\s+\d{1,2}:\d{2}(?::\d{2})?\s*(?:AM|PM|am|pm)?)?\s*\n+/gim, "");
 
-        // Trim outer brackets from Google AI Studio grounding / citation links
+        // 3. Strip trailing latency counters or metric lines
+        fullMarkdown = fullMarkdown.replace(/\n+\s*\d+(?:\.\d+)?\s*(?:ms|s|tokens?|t\/s|tok\/s)\s*$/gim, "");
+
+        // 4. Clean up excessive blank lines
+        fullMarkdown = fullMarkdown.replace(/\n{3,}/g, "\n\n");
+
+        // 5. Trim outer brackets from Google AI Studio grounding / citation links
         fullMarkdown = fullMarkdown.replace(/\[\[([^\]]+)\]\((.*?)\)\]/g, "[$1]($2)");
 
-        // Safely replace the exact content line(s) between the wrappers
+        fullMarkdown = fullMarkdown.trim();
+
+        // Replace content directly between the wrapper tags
         this.activeEditor.replaceRange(fullMarkdown, range.start, range.end);
 
         this.activePromptId = null;
         this.activeEditor = null;
 
-        new Notice("✅ Gemini response inserted.");
+        new Notice("✅ Response inserted.");
     }
 }

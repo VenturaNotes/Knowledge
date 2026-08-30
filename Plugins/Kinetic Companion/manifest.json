@@ -1,0 +1,9 @@
+{
+    "id": "kinetic-companion",
+    "name": "Kinetic Companion",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "Interactive pacing cockpit with a persistent, history-aware, streaming AI drafting assistant.",
+    "author": "Julian Ventura",
+    "isDesktopOnly": true
+}

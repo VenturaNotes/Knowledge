@@ -4,7 +4,9 @@ Source:
 Reviewed: false
 ---
 ## Synthesis
-- 
+- ![[Private/Drawings/drawing-20260829-205918.svg]]
+- [ ] What is the difference between `ciw` and `cw` in NeoVim?
+- [ ] Isn't there a symbol that checks if two are not related?
 ## Source [^1]
 - ![[Screenshot 2024-11-20 at 9.56.22 PM.png|400]]
 - Structure and same value should be checked
