@@ -1,9 +1,14 @@
-const { app, BrowserWindow, WebContentsView, session, ipcMain } = require('electron');
+const { app, BrowserWindow, WebContentsView, session, ipcMain, desktopCapturer } = require('electron');
 const path = require('path');
 const fs = require('fs');
 
 const SIDEBAR_WIDTH = 76;
 const SERVICES_FILE = path.join(app.getPath('userData'), 'services.json');
+
+// Prefer native .icns file, fallback to logo.png
+const ICON_PATH = fs.existsSync(path.join(__dirname, 'icon.icns'))
+  ? path.join(__dirname, 'icon.icns')
+  : path.join(__dirname, 'logo.png');
 
 let mainWindow = null;
 const views = new Map(); // service id -> WebContentsView
@@ -68,8 +73,28 @@ const disablePasskeysScript = `
 function createServiceView(service) {
   const ses = session.fromPartition(`persist:${service.id}`);
 
+  // Allow all permission requests (mic, camera, notifications, geolocation, etc.)
   ses.setPermissionRequestHandler((_webContents, permission, callback) => {
-    callback(permission === 'notifications');
+    callback(true);
+  });
+
+  // Allow in-page permission queries (e.g. navigator.permissions.query)
+  ses.setPermissionCheckHandler((_webContents, permission) => {
+    return true;
+  });
+
+  // Enable screen sharing support (navigator.mediaDevices.getDisplayMedia)
+  ses.setDisplayMediaRequestHandler(async (_request, callback) => {
+    try {
+      const sources = await desktopCapturer.getSources({ types: ['screen', 'window'] });
+      if (sources.length > 0) {
+        callback({ video: sources[0] });
+      } else {
+        callback({});
+      }
+    } catch (err) {
+      callback({});
+    }
   });
 
   ses.setUserAgent(desktopUserAgent());
@@ -253,6 +278,7 @@ function createWindow() {
     minWidth: 720,
     minHeight: 480,
     title: 'Relay',
+    icon: ICON_PATH,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
@@ -294,6 +320,11 @@ ipcMain.on('set-modal-open', (_event, isOpen) => setModalOpen(isOpen));
 ipcMain.on('reorder-services', (_event, orderedIds) => reorderServices(orderedIds));
 
 app.whenReady().then(() => {
+  // Only set Dock icon during development (npm start)
+  if (!app.isPackaged && process.platform === 'darwin' && app.dock && fs.existsSync(ICON_PATH)) {
+    app.dock.setIcon(ICON_PATH);
+  }
+
   app.userAgentFallback = desktopUserAgent();
   createWindow();
 });

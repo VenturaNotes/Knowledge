@@ -12,7 +12,7 @@ aliases:
 		- If you have 1 XOR 0, you get 1
 ### Python
 - The `^` operator represents the bitwise XOR operation in python
-	- [ ] So lets say I was comparing two values like `test1 = False` and `test2 = True`. How edo i return true if only one of them is true?
+	- [ ] So lets say I was comparing two values like `test1 = False` and `test2 = True`. How do i return true if only one of them is true?
 
 [1]
 You can directly use the `^` operator on booleans:
@@ -29,6 +29,8 @@ result = test1 != test2
 
 Both evaluate to `True` if only one of the values is `True`.
 [/1]
+
+But what should I do if I have the variables `test1` and `test2` and i need to check if only one of them holds the value `None` but not both?
 
 
 ### Examples

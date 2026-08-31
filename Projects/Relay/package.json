@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --mac"
+    "build": "rm -rf dist && electron-builder --mac"
   },
   "devDependencies": {
     "electron": "^43.0.0",
@@ -18,10 +18,15 @@
     "productName": "Relay",
     "mac": {
       "category": "public.app-category.productivity",
+      "icon": "icon.icns",
       "target": [
         "dmg",
         "zip"
-      ]
+      ],
+      "extendInfo": {
+        "NSCameraUsageDescription": "Relay requires access to your camera for video calls.",
+        "NSMicrophoneUsageDescription": "Relay requires access to your microphone for voice calls."
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 module.exports = async (params) => {
-    const { app, quickAddApi } = params;
-    const { SuggestModal, MarkdownView } = params.obsidian;
+    const { app } = params;
+    const { SuggestModal, MarkdownView, Notice } = params.obsidian;
 
     const view = app.workspace.getActiveViewOfType(MarkdownView);
     const editor = view?.editor;
@@ -91,7 +91,7 @@ module.exports = async (params) => {
             this.initialLimit = initialLimit;
             this.limit = initialLimit;
             this.lastQuery = "";
-            this.setPlaceholder(`Search in ${parentHeaderText || "File"}... (Start with '-' for entire file)`);
+            this.setPlaceholder(`Search in File... (Start with '-' for ${parentHeaderText ? `"${parentHeaderText}"` : "current section"})`);
 
             // Configure instructions helper at the bottom
             this.setInstructions([
@@ -132,8 +132,8 @@ module.exports = async (params) => {
         }
 
         getSuggestions(query) {
-            const isGlobal = query.startsWith("-");
-            const cleanQuery = isGlobal ? query.slice(1) : query;
+            const isScoped = query.startsWith("-");
+            const cleanQuery = isScoped ? query.slice(1) : query;
             const queryWords = cleanQuery.toLowerCase().split(/\s+/).filter(w => w.length > 0);
 
             // Auto-reset search limit back to original cap when the search query changes
@@ -143,8 +143,8 @@ module.exports = async (params) => {
             }
 
             const matched = this.items.filter(item => {
-                // If not global search, restrict results to the active header section
-                if (!isGlobal && !item.inSection) {
+                // If scoped search (starts with '-'), restrict results to the active header section
+                if (isScoped && !item.inSection) {
                     return false;
                 }
 
@@ -211,8 +211,8 @@ module.exports = async (params) => {
             
             let contentHtml = item.content;
             const rawQuery = this.inputEl.value;
-            const isGlobal = rawQuery.startsWith("-");
-            const query = (isGlobal ? rawQuery.slice(1) : rawQuery).trim();
+            const isScoped = rawQuery.startsWith("-");
+            const query = (isScoped ? rawQuery.slice(1) : rawQuery).trim();
             
             if (query) {
                 const words = query.split(/\s+/).filter(w => w.length > 0);
