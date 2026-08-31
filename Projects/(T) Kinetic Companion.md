@@ -7,6 +7,33 @@ status: open
 - Maybe could use a tree like this?
 	- ![[Pasted image 20260709174650.png]]
 	- But don't know if that's the best way to show that they exist in the file 
+
+- [ ] Fix it so something like this works
+	- The ```python``` should be able to be indented (in the two code blocks below) without either breaking in Obsidian (so we just unindent it then)
+* **In a regular function:**
+```python
+  def count_down(n):
+      if n <= 0:
+          return
+      print(n)
+      count_down(n - 1)  # Calls itself
+```
+
+* **Inside a LeetCode class (using `self`):**
+```python
+  class Solution:
+
+      def isSameTree(self, p, q):
+          if not p or not q:
+              return p is q
+
+          # Calls itself using `self.`
+          return (
+              p.val == q.val
+              and self.isSameTree(p.left, q.left)
+              and self.isSameTree(p.right, q.right)
+          )
+```
 ## Features
 - Even my VaporNote Markdown file works with the kinetic companion which is nice!
 ## ToDo

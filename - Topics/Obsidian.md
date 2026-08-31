@@ -2,6 +2,7 @@
 - A note-taking and personal knowledge management application that stores notes as plain text markdown files on your local machine
 - When doing `tags.isType("list")`, this returns true
 	- So `tags` is type list which I assume holds all the different types of tags within the list. Each element within `tags` is a string
+- It does release PDF RAM on close (proven by Sandbox)
 ### Tips
 - When debugging, need to completely quit Obsidian and then re-open for all changes to take affect. Refreshing within the Obsidian Developer Console is not enough. 
 - When working with CSS, you might need to restart Obsidian as well to see the changes.

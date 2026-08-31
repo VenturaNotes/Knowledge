@@ -8,7 +8,7 @@ aliases:
 - For multi-line comments
 	- `'''3 apostrophes''''`
 	- `"""3 Double quotation marks """`
-
+- Comment out multiple lines by doing `Command + /`
 ### Multiline Comments
 #### Example 1
 ```python

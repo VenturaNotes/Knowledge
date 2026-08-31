@@ -10,7 +10,7 @@ export class FloatingCompanion {
     private isMinimized = false;
     private opacityValue = '0.95';
     
-    // Background auto-scroll state
+    // Background auto-scroll state (runs strictly during active generation)
     private autoScrollInterval: any = null;
 
     // Drag/position states
@@ -81,11 +81,6 @@ export class FloatingCompanion {
             this.webview = webviewEl;
             this.setupConsoleMessageInterceptor();
             console.log("Obsidian KC: Native webview is ready and hooked.");
-            
-            // Start auto-scroll if webview initialized in hidden background state
-            if (!this.isVisible) {
-                this.startAutoScroll();
-            }
         } else {
             console.error("Obsidian KC: Native webview could not be located inside the leaf.");
         }
@@ -128,7 +123,6 @@ export class FloatingCompanion {
     public hide() {
         if (!this.container) return;
         this.styleContainerOffscreen();
-        this.startAutoScroll();
     }
 
     private startAutoScroll() {
@@ -556,6 +550,11 @@ export class FloatingCompanion {
             this.webview.focus();
         } catch (_) {}
 
+        // Start auto-scroll strictly during prompt generation if currently hidden
+        if (!this.isVisible) {
+            this.startAutoScroll();
+        }
+
         this.activeEditor = editor;
         
         const id = this.getNextAvailableId(editor);
@@ -952,10 +951,16 @@ export class FloatingCompanion {
         console.log("Obsidian KC: Sending executeJavaScript query to webview.");
         this.webview.executeJavaScript(injectionCode)
             .then(() => console.log("Obsidian KC: executeJavaScript injection success."))
-            .catch((err: any) => console.error("Obsidian KC: executeJavaScript injection failed:", err));
+            .catch((err: any) => {
+                console.error("Obsidian KC: executeJavaScript injection failed:", err);
+                this.stopAutoScroll();
+            });
     }
 
     private handleStreamChunk(payloadString: string) {
+        // Stop background polling as soon as stream payload arrives
+        this.stopAutoScroll();
+
         if (!this.activeEditor || this.activePromptId === null) return;
 
         const range = this.findResponseRange(this.activeEditor, this.activePromptId);

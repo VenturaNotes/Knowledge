@@ -1,5 +1,6 @@
 import {
     App,
+    debounce,
     Modal,
     Notice,
     Plugin,
@@ -30,11 +31,16 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     prevLeafCount: number = 0;
     private isApplyingVisibility = false;
 
+    // Debounce disk writes to prevent file corruption from rapid events
+    debouncedSave = debounce(async () => {
+        await this.saveSettings();
+    }, 400, true);
+
     async onload() {
         await this.loadSettings();
 
         // Convert stored Record back to Map for easier session handling
-        this.leafToGroupMap = new Map(Object.entries(this.settings.leafToGroupMap));
+        this.leafToGroupMap = new Map(Object.entries(this.settings.leafToGroupMap || {}));
 
         // Create Status Bar indicator
         this.statusBarItemEl = this.addStatusBarItem();
@@ -60,37 +66,40 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                 const isTabClosed = currentCount < this.prevLeafCount;
                 this.prevLeafCount = currentCount;
 
+                let needsSave = false;
+
                 if (!leafGroup) {
-                    // If a brand new tab is opened, assign it to the current active group
                     leafGroup = this.settings.activeGroup;
                     this.leafToGroupMap.set(leafId, leafGroup);
-                    this.saveSettings();
+                    needsSave = true;
                 } else if (leafGroup !== this.settings.activeGroup) {
-                    // Only pull the tab if it wasn't focused as an automatic fallback from closing a tab
                     if (!isTabClosed) {
                         leafGroup = this.settings.activeGroup;
                         this.leafToGroupMap.set(leafId, leafGroup);
-                        this.saveSettings();
+                        needsSave = true;
                         new Notice(`Moved "${leaf.getDisplayText()}" to group: ${this.settings.activeGroup}`);
                     }
                 }
 
-                // Save this tab as the "last active" tab for its assigned group
                 if (leafGroup === this.settings.activeGroup) {
                     this.settings.groupLastActiveLeaf[leafGroup] = leafId;
-                    this.saveSettings();
+                    needsSave = true;
+                }
+
+                if (needsSave) {
+                    this.debouncedSave();
                 }
 
                 this.applyVisibility();
             })
         );
 
-        // Add Ribbon Icon (Side panel button)
+        // Add Ribbon Icon
         this.addRibbonIcon('layers', 'Switch Tab Group', () => {
             new GroupSwitchModal(this.app, this).open();
         });
 
-        // Add Hotkey / Palette Commands
+        // Commands
         this.addCommand({
             id: 'switch-tab-group',
             name: 'Switch Tab Group',
@@ -177,29 +186,18 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             }
         });
 
-        // Hotkeys for tab cycling strictly inside the current active split container
         this.addCommand({
             id: 'go-to-next-tab-in-group',
             name: 'Go to Next Tab in Current Group',
             callback: () => this.goToNextTab(),
-            hotkeys: [
-                {
-                    modifiers: ["Mod", "Alt"],
-                    key: "ArrowRight"
-                }
-            ]
+            hotkeys: [{ modifiers: ["Mod", "Alt"], key: "ArrowRight" }]
         });
 
         this.addCommand({
             id: 'go-to-prev-tab-in-group',
             name: 'Go to Previous Tab in Current Group',
             callback: () => this.goToPrevTab(),
-            hotkeys: [
-                {
-                    modifiers: ["Mod", "Alt"],
-                    key: "ArrowLeft"
-                }
-            ]
+            hotkeys: [{ modifiers: ["Mod", "Alt"], key: "ArrowLeft" }]
         });
 
         this.addSettingTab(new VirtualTabGroupsSettingTab(this.app, this));
@@ -210,8 +208,9 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         });
     }
 
-    onunload() {
-        // Clean up classes when disabling plugin
+    async onunload() {
+        await this.saveSettings();
+
         const rootSplit = this.app.workspace.rootSplit as any;
         if (rootSplit && Array.isArray(rootSplit.children)) {
             rootSplit.children.forEach((child: any) => {
@@ -228,7 +227,13 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     }
 
     async loadSettings() {
-        this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+        try {
+            const loaded = await this.loadData();
+            this.settings = Object.assign({}, DEFAULT_SETTINGS, loaded);
+        } catch (e) {
+            console.error("VirtualTabGroups: Failed to load data, using defaults.", e);
+            this.settings = Object.assign({}, DEFAULT_SETTINGS);
+        }
     }
 
     async saveSettings() {
@@ -507,7 +512,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
                 const newLeafId = (newLeaf as any).id;
                 this.leafToGroupMap.set(newLeafId, activeGroup);
                 this.settings.groupLastActiveLeaf[activeGroup] = newLeafId;
-                this.saveSettings();
+                this.debouncedSave();
             }
 
             // 3. Apply visual hiding
@@ -699,13 +704,13 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         }
 
         if (changed) {
-            this.saveSettings();
+            this.debouncedSave();
         }
     }
 
     updateStatusBar() {
         if (this.statusBarItemEl) {
-            this.statusBarItemEl.setText(`Group: ${this.settings.activeGroup}`);
+            this.statusBarItemEl.setText(`[Group: ${this.settings.activeGroup}]`);
         }
     }
 }
