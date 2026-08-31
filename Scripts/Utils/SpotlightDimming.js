@@ -35,81 +35,108 @@ module.exports = async ({ app, obsidian }) => {
             transition: opacity 0.2s ease, filter 0.2s ease !important;
         }
 
-        /* Keep focused lines 100% sharp and vibrant */
+        /* Keep focused bullet + all its children 100% sharp and vibrant */
         .cm-editor.is-spotlight-active .cm-line.spotlight-focused {
             opacity: 1 !important;
             filter: none !important;
         }
     `;
 
-    // Helper to calculate exact line decorations
-    function getDecorationsForRange(doc, safeFrom, safeTo) {
-        if (safeFrom >= safeTo && doc.length > 0 && safeFrom > doc.length) {
-            return { startLine: -1, endLine: -1, decos: [] };
+    // Helper to calculate indentation level (tabs = 4 spaces)
+    function getIndent(str) {
+        const m = str.match(/^[\t ]*/);
+        return m ? m[0].replace(/\t/g, '    ').length : 0;
+    }
+
+    // Dynamic Tree Resolver: Finds the root bullet and ALL its nested children
+    function getBulletTreeRange(doc, rootPos) {
+        if (rootPos < 0 || rootPos > doc.length) return null;
+
+        const startLineObj = doc.lineAt(rootPos);
+        const startLineNum = startLineObj.number;
+        const startText = startLineObj.text;
+        const startIndent = getIndent(startText);
+        let endLineNum = startLineNum;
+
+        for (let i = startLineNum + 1; i <= doc.lines; i++) {
+            const line = doc.line(i);
+            const lineText = line.text;
+
+            // Handle blank lines between sub-items
+            if (lineText.trim() === '') {
+                let hasMoreChildren = false;
+                for (let j = i + 1; j <= Math.min(i + 4, doc.lines); j++) {
+                    const futureText = doc.line(j).text;
+                    if (futureText.trim() !== '') {
+                        if (getIndent(futureText) > startIndent) {
+                            hasMoreChildren = true;
+                        }
+                        break;
+                    }
+                }
+                if (hasMoreChildren) {
+                    endLineNum = i;
+                    continue;
+                }
+                break;
+            }
+
+            // Any line indented deeper than the root is a child
+            if (getIndent(lineText) > startIndent) {
+                endLineNum = i;
+            } else {
+                break;
+            }
         }
 
-        let startLine = doc.lineAt(safeFrom).number;
-        if (safeFrom === doc.lineAt(safeFrom).to && startLine < doc.lines && startLine < doc.lineAt(safeTo).number) {
-            startLine += 1;
-        }
+        return { startLine: startLineNum, endLine: endLineNum };
+    }
 
-        let endLine = doc.lineAt(safeTo).number;
-        if (safeTo === doc.lineAt(safeTo).from && endLine > startLine) {
-            endLine -= 1;
-        }
+    function buildDecorations(doc, rootPos) {
+        if (rootPos === -1) return Decoration.none;
+        const range = getBulletTreeRange(doc, rootPos);
+        if (!range) return Decoration.none;
 
         const decos = [];
-        for (let l = startLine; l <= endLine; l++) {
+        for (let l = range.startLine; l <= range.endLine; l++) {
             const line = doc.line(l);
             decos.push(
                 Decoration.line({ class: "spotlight-focused" }).range(line.from)
             );
         }
-        return { startLine, endLine, decos };
+        return Decoration.set(decos);
     }
 
-    // 3. Define the CodeMirror 6 Spotlight StateField
+    // 3. Define the Dynamic Tree Spotlight StateField
     if (!window.__setSpotlightEffect) {
         window.__setSpotlightEffect = StateEffect.define();
         window.__spotlightField = StateField.define({
             create() {
-                return { fromPos: -1, toPos: -1, deco: Decoration.none };
+                return { rootPos: -1, deco: Decoration.none };
             },
             update(val, tr) {
                 for (const e of tr.effects) {
                     if (e.is(window.__setSpotlightEffect)) {
-                        const { fromPos, toPos } = e.value;
-                        if (fromPos === -1 || toPos === -1) {
-                            return { fromPos: -1, toPos: -1, deco: Decoration.none };
+                        const rootPos = e.value.rootPos;
+                        if (rootPos === -1) {
+                            return { rootPos: -1, deco: Decoration.none };
                         }
-
-                        const doc = tr.newDoc;
-                        const safeFrom = Math.max(0, Math.min(fromPos, doc.length));
-                        const safeTo = Math.max(safeFrom, Math.min(toPos, doc.length));
-
-                        const { decos } = getDecorationsForRange(doc, safeFrom, safeTo);
-                        return { fromPos: safeFrom, toPos: safeTo, deco: Decoration.set(decos) };
+                        const safePos = Math.max(0, Math.min(rootPos, tr.newDoc.length));
+                        return {
+                            rootPos: safePos,
+                            deco: buildDecorations(tr.newDoc, safePos)
+                        };
                     }
                 }
 
-                // Handle text edits & new sub-bullets
-                if (tr.docChanged && val.fromPos !== -1) {
-                    const newFromPos = tr.changes.mapPos(val.fromPos, 1);
-                    const newToPos = tr.changes.mapPos(val.toPos, 1);
-
-                    const doc = tr.newDoc;
-                    const safeFrom = Math.max(0, Math.min(newFromPos, doc.length));
-                    const safeTo = Math.max(safeFrom, Math.min(newToPos, doc.length));
-
-                    const { decos } = getDecorationsForRange(doc, safeFrom, safeTo);
-
-                    // Update memory map with the new positions
-                    const activeLeaf = app.workspace.getActiveViewOfType(obsidian.MarkdownView);
-                    if (activeLeaf && activeLeaf.file) {
-                        window.__spotlightFileMap.set(activeLeaf.file.path, { fromPos: safeFrom, toPos: safeTo });
-                    }
-
-                    return { fromPos: safeFrom, toPos: safeTo, deco: Decoration.set(decos) };
+                // When typing or editing: dynamically re-evaluate the bullet tree
+                if (tr.docChanged && val.rootPos !== -1) {
+                    const newRootPos = tr.changes.mapPos(val.rootPos, 1);
+                    const safePos = Math.max(0, Math.min(newRootPos, tr.newDoc.length));
+                    return {
+                        rootPos: safePos,
+                        deco: buildDecorations(tr.newDoc, safePos)
+                    };
                 }
 
                 return val;
@@ -117,7 +144,7 @@ module.exports = async ({ app, obsidian }) => {
             provide: (f) => [
                 EditorView.decorations.from(f, (val) => val.deco),
                 EditorView.editorAttributes.from(f, (val) =>
-                    val.fromPos !== -1 ? { class: "is-spotlight-active" } : null
+                    val.rootPos !== -1 ? { class: "is-spotlight-active" } : null
                 ),
             ],
         });
@@ -134,7 +161,7 @@ module.exports = async ({ app, obsidian }) => {
 
             const targetCm = view.editor.cm;
 
-            // Ensure field is attached to this tab's editor
+            // Ensure field is attached
             const hasExt = targetCm.state.field(window.__spotlightField, false) !== undefined;
             if (!hasExt) {
                 targetCm.dispatch({
@@ -142,17 +169,17 @@ module.exports = async ({ app, obsidian }) => {
                 });
             }
 
-            const saved = window.__spotlightFileMap?.get(view.file.path);
+            const savedRootPos = window.__spotlightFileMap?.get(view.file.path);
             const current = targetCm.state.field(window.__spotlightField, false);
 
-            // Restore spotlight if this file had one, otherwise ensure off
-            if (saved && (!current || current.fromPos !== saved.fromPos || current.toPos !== saved.toPos)) {
+            if (savedRootPos !== undefined && savedRootPos !== -1) {
+                // Restore and dynamically evaluate the bullet tree for this tab
                 targetCm.dispatch({
-                    effects: window.__setSpotlightEffect.of(saved)
+                    effects: window.__setSpotlightEffect.of({ rootPos: savedRootPos })
                 });
-            } else if (!saved && current && current.fromPos !== -1) {
+            } else if ((savedRootPos === undefined || savedRootPos === -1) && current && current.rootPos !== -1) {
                 targetCm.dispatch({
-                    effects: window.__setSpotlightEffect.of({ fromPos: -1, toPos: -1 })
+                    effects: window.__setSpotlightEffect.of({ rootPos: -1 })
                 });
             }
         });
@@ -166,62 +193,28 @@ module.exports = async ({ app, obsidian }) => {
         });
     }
 
-    // 5. Toggle OFF if already active for this file
-    const currentSpotlight = cm.state.field(window.__spotlightField, false);
-    if (currentSpotlight && currentSpotlight.fromPos !== -1) {
-        window.__spotlightFileMap.delete(currentFilePath);
-        cm.dispatch({
-            effects: window.__setSpotlightEffect.of({ fromPos: -1, toPos: -1 })
-        });
-        return;
-    }
-
-    // 6. Calculate bullet + sub-bullets range
+    // 5. Determine Target Root Bullet Anchor
     const cursor = editor.getCursor();
-    const totalLines = editor.lineCount();
-    const startLineNum = cursor.line;
-    const startLineText = editor.getLine(startLineNum);
+    const targetRootPos = editor.posToOffset({ line: cursor.line, ch: 0 });
+    const currentSpotlight = cm.state.field(window.__spotlightField, false);
 
-    function getIndent(str) {
-        const m = str.match(/^[\t ]*/);
-        return m ? m[0].replace(/\t/g, '    ').length : 0;
-    }
+    // Toggle OFF if user triggers it on the exact same root bullet line
+    if (currentSpotlight && currentSpotlight.rootPos !== -1) {
+        const currentRootLine = cm.state.doc.lineAt(currentSpotlight.rootPos).number;
+        const targetLine = cursor.line + 1; // 1-based line comparison
 
-    const startIndent = getIndent(startLineText);
-    let endLineNum = startLineNum;
-
-    for (let i = startLineNum + 1; i < totalLines; i++) {
-        const lineText = editor.getLine(i);
-        if (lineText.trim() === '') {
-            let hasMore = false;
-            for (let j = i + 1; j < Math.min(i + 4, totalLines); j++) {
-                const futureText = editor.getLine(j);
-                if (futureText.trim() !== '') {
-                    if (getIndent(futureText) > startIndent) hasMore = true;
-                    break;
-                }
-            }
-            if (hasMore) {
-                endLineNum = i;
-                continue;
-            }
-            break;
-        }
-        if (getIndent(lineText) > startIndent) {
-            endLineNum = i;
-        } else {
-            break;
+        if (currentRootLine === targetLine) {
+            window.__spotlightFileMap.delete(currentFilePath);
+            cm.dispatch({
+                effects: window.__setSpotlightEffect.of({ rootPos: -1 })
+            });
+            return;
         }
     }
 
-    const startPos = editor.posToOffset({ line: startLineNum, ch: 0 });
-    const endPos = editor.posToOffset({ line: endLineNum, ch: editor.getLine(endLineNum).length });
-
-    // 7. Save to Memory Map & Dispatch Native Highlight
-    const targetRange = { fromPos: startPos, toPos: endPos };
-    window.__spotlightFileMap.set(currentFilePath, targetRange);
-
+    // 6. Focus On the Target Bullet + All Its Sub-Bullets
+    window.__spotlightFileMap.set(currentFilePath, targetRootPos);
     cm.dispatch({
-        effects: window.__setSpotlightEffect.of(targetRange)
+        effects: window.__setSpotlightEffect.of({ rootPos: targetRootPos })
     });
 };

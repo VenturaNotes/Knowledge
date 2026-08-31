@@ -1,21 +1,20 @@
-const { app, BrowserWindow, WebContentsView, session, ipcMain, desktopCapturer } = require('electron');
+const { app, BrowserWindow, WebContentsView, session, ipcMain, desktopCapturer, systemPreferences, Notification } = require('electron');
 const path = require('path');
 const fs = require('fs');
 
 const SIDEBAR_WIDTH = 76;
 const SERVICES_FILE = path.join(app.getPath('userData'), 'services.json');
 
-// Prefer native .icns file, fallback to logo.png
 const ICON_PATH = fs.existsSync(path.join(__dirname, 'icon.icns'))
   ? path.join(__dirname, 'icon.icns')
   : path.join(__dirname, 'logo.png');
 
 let mainWindow = null;
 const views = new Map(); // service id -> WebContentsView
-let services = []; // in-memory list, mirrors services.json on disk
+let services = []; // in-memory list
 let activeId = null;
-let modalOpen = false; // true while the renderer's add-service modal is showing
-let isQuitting = false; // tracks if the app is explicitly quitting (Cmd+Q) vs closing via red "x"
+let modalOpen = false;
+let isQuitting = false;
 
 // ── Persistence ─────────────────────────────────────────────────────
 function loadServices() {
@@ -24,7 +23,7 @@ function loadServices() {
     const parsed = JSON.parse(raw);
     return Array.isArray(parsed) ? parsed : [];
   } catch (err) {
-    return []; // no file yet on first run, or it's corrupt — start empty
+    return [];
   }
 }
 
@@ -33,7 +32,7 @@ function saveServices() {
 }
 
 function desktopUserAgent() {
-  return `Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0`;
+  return `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36`;
 }
 
 function slugify(name) {
@@ -47,7 +46,45 @@ function slugify(name) {
   return id;
 }
 
-// Script to disable Passkeys/WebAuthn in embedded views.
+async function ensureMediaPermissions() {
+  if (process.platform === 'darwin') {
+    try {
+      if (systemPreferences.getMediaAccessStatus('camera') !== 'granted') {
+        await systemPreferences.askForMediaAccess('camera');
+      }
+      if (systemPreferences.getMediaAccessStatus('microphone') !== 'granted') {
+        await systemPreferences.askForMediaAccess('microphone');
+      }
+    } catch (err) {
+      console.error('Failed to request media permissions:', err);
+    }
+  }
+}
+
+// ── Native macOS Notification Delivery ──────────────────────────────
+function showNativeNotification(service, data) {
+  if (!Notification.isSupported()) return;
+
+  const notif = new Notification({
+    title: service.name,
+    subtitle: data.title || '',
+    body: data.body || '',
+    icon: service.favicon || ICON_PATH,
+    silent: false,
+  });
+
+  notif.on('click', () => {
+    if (mainWindow) {
+      if (mainWindow.isMinimized()) mainWindow.restore();
+      mainWindow.show();
+      mainWindow.focus();
+    }
+    switchTo(service.id);
+  });
+
+  notif.show();
+}
+
 const disablePasskeysScript = `
   (function() {
     try {
@@ -73,17 +110,14 @@ const disablePasskeysScript = `
 function createServiceView(service) {
   const ses = session.fromPartition(`persist:${service.id}`);
 
-  // Allow all permission requests (mic, camera, notifications, geolocation, etc.)
   ses.setPermissionRequestHandler((_webContents, permission, callback) => {
     callback(true);
   });
 
-  // Allow in-page permission queries (e.g. navigator.permissions.query)
   ses.setPermissionCheckHandler((_webContents, permission) => {
     return true;
   });
 
-  // Enable screen sharing support (navigator.mediaDevices.getDisplayMedia)
   ses.setDisplayMediaRequestHandler(async (_request, callback) => {
     try {
       const sources = await desktopCapturer.getSources({ types: ['screen', 'window'] });
@@ -102,11 +136,19 @@ function createServiceView(service) {
   const view = new WebContentsView({
     webPreferences: {
       session: ses,
+      preload: path.join(__dirname, 'service-preload.js'),
       contextIsolation: true,
       nodeIntegration: false,
-      sandbox: true,
+      sandbox: false,
       backgroundThrottling: false,
     },
+  });
+
+  // Listen to native notifications bridged from this service
+  view.webContents.on('ipc-message', (_event, channel, data) => {
+    if (channel === 'service-notify') {
+      showNativeNotification(service, data);
+    }
   });
 
   view.webContents.on('did-start-navigation', () => {
@@ -165,6 +207,12 @@ function createServiceView(service) {
     broadcastServices();
   });
 
+  // Attach view to mainWindow hierarchy immediately (hidden until selected)
+  if (mainWindow) {
+    mainWindow.contentView.addChildView(view);
+    view.setVisible(false);
+  }
+
   return view;
 }
 
@@ -178,17 +226,20 @@ function layout() {
 }
 
 function switchTo(id) {
-  if (!views.has(id) || id === activeId) return;
-
-  const prev = views.get(activeId);
-  if (prev) mainWindow.contentView.removeChildView(prev);
-
+  if (!views.has(id)) return;
   activeId = id;
-  if (modalOpen) return;
 
-  const next = views.get(id);
-  mainWindow.contentView.addChildView(next);
+  // Toggle visibility without detaching, keeping WebSockets alive
+  for (const [sId, view] of views.entries()) {
+    if (sId === id && !modalOpen) {
+      view.setVisible(true);
+    } else {
+      view.setVisible(false);
+    }
+  }
+
   layout();
+  broadcastServices();
 }
 
 function broadcastServices() {
@@ -201,9 +252,9 @@ function setModalOpen(isOpen) {
   if (!active || !mainWindow) return;
 
   if (isOpen) {
-    mainWindow.contentView.removeChildView(active);
+    active.setVisible(false);
   } else {
-    mainWindow.contentView.addChildView(active);
+    active.setVisible(true);
     layout();
   }
 }
@@ -224,7 +275,8 @@ function addService({ name, url, icon }) {
   services.push(service);
   saveServices();
 
-  views.set(service.id, createServiceView(service));
+  const view = createServiceView(service);
+  views.set(service.id, view);
   broadcastServices();
   switchTo(service.id);
 
@@ -237,7 +289,7 @@ function removeService(id) {
 
   const view = views.get(id);
   if (view) {
-    if (activeId === id) mainWindow.contentView.removeChildView(view);
+    mainWindow.contentView.removeChildView(view);
     try {
       view.webContents.close();
     } catch (err) {
@@ -298,7 +350,6 @@ function createWindow() {
     if (services.length > 0) switchTo(services[0].id);
   });
 
-  // Intercept the macOS red "x" button: hide the window instead of destroying it
   mainWindow.on('close', (event) => {
     if (!isQuitting && process.platform === 'darwin') {
       event.preventDefault();
@@ -319,8 +370,9 @@ ipcMain.on('remove-service', (_event, id) => removeService(id));
 ipcMain.on('set-modal-open', (_event, isOpen) => setModalOpen(isOpen));
 ipcMain.on('reorder-services', (_event, orderedIds) => reorderServices(orderedIds));
 
-app.whenReady().then(() => {
-  // Only set Dock icon during development (npm start)
+app.whenReady().then(async () => {
+  await ensureMediaPermissions();
+
   if (!app.isPackaged && process.platform === 'darwin' && app.dock && fs.existsSync(ICON_PATH)) {
     app.dock.setIcon(ICON_PATH);
   }
@@ -329,7 +381,6 @@ app.whenReady().then(() => {
   createWindow();
 });
 
-// Set flag when app is explicitly quitting (e.g. Cmd + Q)
 app.on('before-quit', () => {
   isQuitting = true;
 });
@@ -340,7 +391,7 @@ app.on('window-all-closed', () => {
 
 app.on('activate', () => {
   if (mainWindow) {
-    mainWindow.show(); // Unhide window instantly without reloading anything
+    mainWindow.show();
   } else if (BrowserWindow.getAllWindows().length === 0) {
     createWindow();
   }
