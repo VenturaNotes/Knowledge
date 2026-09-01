@@ -1,0 +1,9 @@
+{
+  "id": "pdf-anchor",
+  "name": "PDF Anchor",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Drop 1-click precision coordinate anchors, chalkboard dark mode, and multi-note backlink pins on PDFs.",
+  "author": "Custom",
+  "isDesktopOnly": false
+}

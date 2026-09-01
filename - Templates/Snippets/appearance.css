@@ -1,0 +1,78 @@
+/* --- EXTERNAL LINKS SETUP --- */
+
+/* 1. Reading Mode */
+a.external-link {
+    color: #D98999;
+    text-decoration: underline;
+}
+
+a.external-link:hover {
+    color: #EFA3A3;
+}
+
+/* 2. Live Preview (Editor) Mode */
+
+/* 
+   We target external links but MUST exclude:
+   1. Internal links (.cm-hmd-internal-link)
+   2. Footnote references (.cm-footref)
+   3. Footnote definitions (.cm-hmd-footnote)
+*/
+
+/* Base Color (Orange) & Force Underline */
+.markdown-source-view.mod-cm6 .cm-link:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote),
+.markdown-source-view.mod-cm6 .cm-url:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote),
+.markdown-source-view.mod-cm6 .cm-link:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote) .cm-underline,
+.markdown-source-view.mod-cm6 .cm-url:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote) .cm-underline,
+.markdown-source-view.mod-cm6 .cm-url:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote) .cm-text {
+    color: #D98999 !important;
+}
+
+/* Hover Color (Lighter Orange) */
+.markdown-source-view.mod-cm6 .cm-link:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote):hover,
+.markdown-source-view.mod-cm6 .cm-url:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote):hover,
+.markdown-source-view.mod-cm6 .cm-link:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote):hover .cm-underline,
+.markdown-source-view.mod-cm6 .cm-url:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote):hover .cm-underline,
+.markdown-source-view.mod-cm6 .cm-url:not(.cm-hmd-internal-link):not(.cm-footref):not(.cm-hmd-footnote):hover .cm-text {
+    color: #EFA3A3 !important;
+}
+
+
+/* --- YOUR OTHER SETTINGS (Unchanged) --- */
+
+.MathJax {
+    font-size: 1.3em;
+}
+
+/* Headers - in Live Preview */
+.cm-header-2 { color: #0076BE; }
+.cm-header-3 { color: #4DB4D7; }
+.cm-header-4 { color: #83D8EE; }
+.cm-header-5 { color: #4FD68E; }
+.cm-header-6 { color: #259F5B; }
+
+/* Headers - in Reading Mode */
+.markdown-preview-view h2 { color: #0076BE; }
+.markdown-preview-view h3 { color: #4DB4D7; }
+.markdown-preview-view h4 { color: #83D8EE; }
+.markdown-preview-view h5 { color: #4FD68E; }
+.markdown-preview-view h6 { color: #259F5B; }
+
+/* Temporary fix to highlights */
+.markdown-source-view.mod-cm6 .cm-foldPlaceholder {
+    display: none;
+}
+
+/* Stacking comfort */
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container > * {
+	position: static;
+}
+
+body {
+	--tab-stacked-pane-width: 700px;
+}
+
+/* Remove checkbox cross */
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task]:not([data-task=" "]) {
+    text-decoration: none;
+}

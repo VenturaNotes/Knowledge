@@ -1,0 +1,42 @@
+/* Hide any completely empty status bar items so they don't stretch the layout */
+.status-bar-item:empty {
+    display: none !important;
+}
+
+/* Hide specific plugins from the status bar */
+.status-bar-item.plugin-backlink {
+    display: none !important;
+}
+
+/* Hide properties from the status bar */
+.status-bar-item.plugin-properties,
+.status-bar-item.plugin-properties-view {
+    display: none !important;
+}
+
+/* Hide character count but keep word count in the status bar */
+.status-bar-item.plugin-word-count > .status-bar-item-segment:last-child {
+    display: none !important;
+}
+
+/* Remove the leftover right margin from the word count segment */
+.status-bar-item.plugin-word-count > .status-bar-item-segment:first-child {
+    margin-right: 0 !important;
+}
+
+/* Force the word count to align to the absolute left */
+.status-bar-item.plugin-word-count {
+    order: -1 !important;          /* Moves it to the far left position */
+    margin-right: auto !important;  /* Pushes all other status bar icons to the far right */
+}
+
+/* 
+  Hide the entire status bar if it has no active, visible items.
+  An item is considered active only if it:
+  - is NOT empty (:not(:empty))
+  - is NOT inline-hidden (:not([style*="display: none"]))
+  - is NOT one of your manually hidden plugins
+*/
+.status-bar:not(:has(> .status-bar-item:not(:empty):not([style*="display: none"]):not([style*="display:none"]):not(.plugin-backlink):not(.plugin-properties):not(.plugin-properties-view))) {
+    display: none !important;
+}
