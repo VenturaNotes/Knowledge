@@ -81,6 +81,89 @@ vsync() {
             done
             ;;
 
+        search)
+            if [[ ! -s "$config" ]]; then
+                echo "No active sync pairs."
+                return 0
+            fi
+
+            if [[ $# -gt 0 ]]; then
+                local query="$*"
+                local -a tokens=($=query)
+
+                local query_abs=""
+                if [[ $# -eq 1 && -e "$1" ]]; then
+                    query_abs="${1:A}"
+                fi
+
+                local -a matches=()
+                while IFS='|' read -r src dst || [[ -n "$src" ]]; do
+                    [[ -z "$src" || "$src" == \#* ]] && continue
+                    src="${(e)src}"
+                    dst="${(e)dst}"
+
+                    local combined_lower="${(L)src} ${(L)dst}"
+                    local all_matched=true
+
+                    if [[ -n "$query_abs" && ("$src" == "$query_abs" || "$dst" == "$query_abs") ]]; then
+                        all_matched=true
+                    else
+                        # Check that every single word/token matches (case-insensitive & order-independent)
+                        for token in "${tokens[@]}"; do
+                            local t_lower="${(L)token}"
+                            if [[ "$combined_lower" != *"${(b)t_lower}"* ]]; then
+                                all_matched=false
+                                break
+                            fi
+                        done
+                    fi
+
+                    if [[ "$all_matched" == true ]]; then
+                        matches+=("$src|$dst")
+                    fi
+                done < "$config"
+
+                if [[ ${#matches[@]} -eq 0 ]]; then
+                    echo "🔍 No connection found matching: \033[1;33m$query\033[0m"
+                    return 1
+                fi
+
+                echo "\n🔍 MATCHING CONNECTIONS (${#matches[@]} found):"
+                echo "══════════════════════════════════════════════════════════════"
+                for match in "${matches[@]}"; do
+                    local s="${match%%|*}"
+                    local d="${match#*|}"
+                    local icon="📄"
+                    [[ -d "$s" ]] && icon="📁"
+
+                    local s_disp="${s/#$HOME/~}"
+                    local d_disp="${d/#$HOME/~}"
+
+                    echo "   $icon \033[1m${s:t}\033[0m"
+                    echo "      \033[90mSource:      \033[0m$s_disp"
+                    echo "      \033[90mDestination: \033[0m$d_disp"
+                    echo "──────────────────────────────────────────────────────────────"
+                done
+            else
+                # Interactive search mode using exact, case-insensitive, order-independent fzf
+                echo "🔍 Search active sync pairs (Press [Esc] to exit)..."
+                local selected
+                selected=$(
+                    while IFS='|' read -r src dst || [[ -n "$src" ]]; do
+                        [[ -z "$src" || "$src" == \#* ]] && continue
+                        src="${(e)src}"
+                        dst="${(e)dst}"
+                        local s_disp="${src/#$HOME/~}"
+                        local d_disp="${dst/#$HOME/~}"
+                        local icon="📄"
+                        [[ -d "$src" ]] && icon="📁"
+                        printf "%s %-30s -> %s\n" "$icon" "$s_disp" "$d_disp"
+                    done < "$config" | fzf --exact -i --prompt="🔍 Search Connections: " --height=60% --layout=reverse
+                )
+                [[ -n "$selected" ]] && echo "$selected"
+            fi
+            ;;
+
         add)
             local -a selected_items=()
             local dst_folder=""
@@ -173,6 +256,7 @@ vsync() {
             echo "  vsync add <src> <dest>   Add a single mirror manually"
             echo "  vsync rm                 Interactively remove mirrors using [Tab]"
             echo "  vsync list               List all active mirrors grouped by target project"
+            echo "  vsync search [query]     Search connections (exact words, case/order insensitive)"
             ;;
 
         *)

@@ -369,7 +369,6 @@ export class DashboardView extends ItemView {
         const MAX_SPEED = 40;
 
         const center = { x: 1000, y: 1000 };
-        const MAX_NODES_FOR_N2_CALCS = 400; 
 
         for (const p of coords.values()) {
             if (!Number.isFinite(p.x) || !Number.isFinite(p.y)) {
@@ -380,37 +379,35 @@ export class DashboardView extends ItemView {
             }
         }
 
-        if (this.visibleTasks.length <= MAX_NODES_FOR_N2_CALCS) {
-            for (let i = 0; i < this.visibleTasks.length; i++) {
-                const t1 = this.visibleTasks[i];
-                if (!t1) continue;
-                const p1 = coords.get(t1.id);
-                if (!p1) continue;
+        for (let i = 0; i < this.visibleTasks.length; i++) {
+            const t1 = this.visibleTasks[i];
+            if (!t1) continue;
+            const p1 = coords.get(t1.id);
+            if (!p1) continue;
 
-                for (let j = i + 1; j < this.visibleTasks.length; j++) {
-                    const t2 = this.visibleTasks[j];
-                    if (!t2) continue;
-                    const p2 = coords.get(t2.id);
-                    if (!p2) continue;
+            for (let j = i + 1; j < this.visibleTasks.length; j++) {
+                const t2 = this.visibleTasks[j];
+                if (!t2) continue;
+                const p2 = coords.get(t2.id);
+                if (!p2) continue;
 
-                    const dx = p1.x - p2.x;
-                    const dy = p1.y - p2.y;
-                    let distSq = dx * dx + dy * dy;
-                    if (distSq < 100) {
-                        distSq = 100;
-                    }
-                    const dist = Math.sqrt(distSq);
+                const dx = p1.x - p2.x;
+                const dy = p1.y - p2.y;
+                let distSq = dx * dx + dy * dy;
+                if (distSq < 100) {
+                    distSq = 100;
+                }
+                const dist = Math.sqrt(distSq);
 
-                    const force = K_REPEL / distSq;
-                    const fx = (dx / dist) * force;
-                    const fy = (dy / dist) * force;
+                const force = K_REPEL / distSq;
+                const fx = (dx / dist) * force;
+                const fy = (dy / dist) * force;
 
-                    if (t1.id !== this.draggedNodeId) {
-                        p1.vx += fx; p1.vy += fy;
-                    }
-                    if (t2.id !== this.draggedNodeId) {
-                        p2.vx -= fx; p2.vy -= fy;
-                    }
+                if (t1.id !== this.draggedNodeId) {
+                    p1.vx += fx; p1.vy += fy;
+                }
+                if (t2.id !== this.draggedNodeId) {
+                    p2.vx -= fx; p2.vy -= fy;
                 }
             }
         }
@@ -518,7 +515,7 @@ export class DashboardView extends ItemView {
             }
         });
 
-        if (!isInitialBurst && this.visibleTasks.length <= MAX_NODES_FOR_N2_CALCS) {
+        if (!isInitialBurst) {
             for (let i = 0; i < this.visibleTasks.length; i++) {
                 const t1 = this.visibleTasks[i];
                 if (!t1) continue;
