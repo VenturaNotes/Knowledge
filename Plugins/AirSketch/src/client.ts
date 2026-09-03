@@ -1,339 +1,5 @@
-import { 
-    App, 
-    Plugin, 
-    PluginSettingTab, 
-    Setting, 
-    MarkdownView, 
-    Notice,
-    TFile
-} from 'obsidian';
-import * as http from 'http';
-import * as os from 'os';
-import * as path from 'path';
-import * as crypto from 'crypto';
-
-interface AirSketchSettings {
-    port: number;
-    drawingsFolder: string;
-    isPrivate: boolean;
-    authToken: string;
-}
-
-interface ActiveDrawingState {
-    svgFile: string;
-    markdownNote: string;
-}
-
-const DEFAULT_SETTINGS: AirSketchSettings = {
-    port: 4444,
-    drawingsFolder: 'Private/Drawings',
-    isPrivate: true,
-    authToken: ''
-};
-
-export default class AirSketchPlugin extends Plugin {
-    settings: AirSketchSettings = DEFAULT_SETTINGS;
-    private server: http.Server | null = null;
-    private sseClients: { res: http.ServerResponse, clientId: string }[] = [];
-    private activeDoc: ActiveDrawingState | null = null;
-
-    async onload() {
-        await this.loadSettings();
-
-        if (!this.settings.authToken) {
-            this.settings.authToken = crypto.randomBytes(16).toString('hex');
-            await this.saveSettings();
-        }
-
-        this.addSettingTab(new AirSketchSettingTab(this.app, this));
-        await this.startServer();
-
-        // 1. Command: Instant Create and Embed
-        this.addCommand({
-            id: 'create-embed-airsketch',
-            name: 'Create and Embed New Drawing at Cursor',
-            callback: () => this.handleCreateAndEmbed()
-        });
-
-        // 2. Command: Copy URL
-        this.addCommand({
-            id: 'copy-ipad-url',
-            name: 'Copy iPad AirSketch URL to Clipboard',
-            callback: () => {
-                const tokenQuery = this.settings.isPrivate ? `?token=${this.settings.authToken}` : '';
-                const url = `http://${os.hostname()}:${this.settings.port}${tokenQuery}`;
-                navigator.clipboard.writeText(url);
-                new Notice(`📋 Copied AirSketch URL: ${url}`);
-            }
-        });
-
-        // 3. Cmd + Click on SVG Embed to send to iPad
-        this.registerDomEvent(document, 'click', (e: MouseEvent) => {
-            if (!(e.metaKey || e.ctrlKey)) return;
-
-            const target = e.target as HTMLElement | null;
-            if (!target) return;
-
-            const img = target.closest('img');
-            const embed = target.closest('.image-embed');
-            const link = target.closest('a.internal-link');
-
-            let rawSrc = '';
-            if (img) {
-                rawSrc = img.parentElement?.getAttribute('src') || img.getAttribute('src') || img.getAttribute('alt') || '';
-            } else if (embed) {
-                rawSrc = embed.getAttribute('src') || '';
-            } else if (link) {
-                rawSrc = link.getAttribute('href') || '';
-            }
-
-            if (rawSrc && rawSrc.toLowerCase().includes('.svg')) {
-                e.preventDefault();
-                e.stopPropagation();
-
-                const cleanSrc = rawSrc.split('?')[0] || '';
-                const fileName = path.basename(decodeURIComponent(cleanSrc));
-                const view = this.app.workspace.getActiveViewOfType(MarkdownView);
-                const parentNote = view?.file ? view.file.basename : 'Untitled';
-
-                this.setActiveDrawing(fileName, parentNote);
-                new Notice(`✈️ Loaded [[${fileName}]] on iPad (${parentNote})`);
-            }
-        }, true);
-    }
-
-    onunload() {
-        this.stopServer();
-    }
-
-    private getVaultDrawingsPath(): string {
-        return this.settings.drawingsFolder.replace(/^\//, '').replace(/\/$/, '');
-    }
-
-    private setActiveDrawing(svgFile: string, markdownNote: string) {
-        this.activeDoc = { svgFile, markdownNote };
-        this.broadcastToClients({
-            type: 'switch',
-            name: svgFile,
-            markdownNote: markdownNote
-        });
-    }
-
-    private refreshEmbeddedImages(fileName: string) {
-        const allDocs = new Set<Document>([document]);
-        this.app.workspace.iterateAllLeaves(leaf => {
-            if (leaf.view?.containerEl?.ownerDocument) {
-                allDocs.add(leaf.view.containerEl.ownerDocument);
-            }
-        });
-
-        const timestamp = Date.now();
-        allDocs.forEach(doc => {
-            const images = doc.querySelectorAll('img');
-            images.forEach(img => {
-                const src = img.getAttribute('src') || '';
-                const alt = img.getAttribute('alt') || '';
-                const parentSrc = img.parentElement?.getAttribute('src') || '';
-
-                if (src.includes(fileName) || alt.includes(fileName) || parentSrc.includes(fileName)) {
-                    const baseSrc = img.src.split('?')[0] || img.src;
-                    img.src = `${baseSrc}?t=${timestamp}`;
-                }
-            });
-        });
-    }
-
-    private async handleCreateAndEmbed() {
-        const view = this.app.workspace.getActiveViewOfType(MarkdownView);
-        if (!view) {
-            new Notice('⚠️ Open a Markdown note to embed the drawing at your cursor.');
-            return;
-        }
-
-        const editor = view.editor;
-
-        const now = new Date();
-        const timestamp = `${now.getFullYear()}${String(now.getMonth()+1).padStart(2,'0')}${String(now.getDate()).padStart(2,'0')}-${String(now.getHours()).padStart(2,'0')}${String(now.getMinutes()).padStart(2,'0')}${String(now.getSeconds()).padStart(2,'0')}`;
-        const fileName = `drawing-${timestamp}.svg`;
-        const folderPath = this.getVaultDrawingsPath();
-        const filePath = `${folderPath}/${fileName}`;
-
-        if (!(await this.app.vault.adapter.exists(folderPath))) {
-            await this.app.vault.adapter.mkdir(folderPath);
-        }
-
-        const emptySvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%" style="background:#18181b;">
-  <metadata data-state="%7B%22items%22%3A%5B%5D%2C%22scale%22%3A1%2C%22panX%22%3A0%2C%22panY%22%3A0%7D"></metadata>
-</svg>`;
-        await this.app.vault.adapter.write(filePath, emptySvg);
-
-        editor.replaceSelection(`![[${filePath}]]`);
-
-        const parentNote = view.file ? view.file.basename : 'Untitled';
-        this.setActiveDrawing(fileName, parentNote);
-        new Notice(`✈️ Created [[${fileName}]] & Pushed to iPad`);
-    }
-
-    private broadcastToClients(data: any, excludeClientId?: string) {
-        const payload = `data: ${JSON.stringify(data)}\n\n`;
-        this.sseClients = this.sseClients.filter(client => {
-            if (excludeClientId && client.clientId === excludeClientId) return true;
-            try {
-                client.res.write(payload);
-                return true;
-            } catch {
-                return false;
-            }
-        });
-    }
-
-    async startServer() {
-        this.stopServer();
-
-        const folderPath = this.getVaultDrawingsPath();
-        if (!(await this.app.vault.adapter.exists(folderPath))) {
-            await this.app.vault.adapter.mkdir(folderPath);
-        }
-
-        const HTML_CLIENT = this.getHtmlClient();
-
-        this.server = http.createServer(async (req, res) => {
-            const url = new URL(req.url ?? '/', `http://${req.headers.host}`);
-
-            const cookies: Record<string, string> = {};
-            (req.headers.cookie || '').split(';').forEach(c => {
-                const [k, ...v] = c.trim().split('=');
-                if (k && v.length > 0) cookies[k] = decodeURIComponent(v.join('='));
-            });
-
-            if ((url.pathname === '/' || url.pathname === '/index.html') && url.searchParams.has('token')) {
-                const queryToken = url.searchParams.get('token');
-                if (this.settings.isPrivate && queryToken === this.settings.authToken) {
-                    res.writeHead(302, {
-                        'Set-Cookie': `airsketch_token=${this.settings.authToken}; Max-Age=34560000; Path=/; SameSite=Lax`,
-                        'Location': '/'
-                    });
-                    res.end();
-                    return;
-                }
-            }
-
-            if (this.settings.isPrivate) {
-                const queryToken = url.searchParams.get('token');
-                const headerToken = req.headers['x-airsketch-token'] as string | undefined;
-                const cookieToken = cookies['airsketch_token'];
-                const clientToken = queryToken || headerToken || cookieToken;
-
-                if (clientToken !== this.settings.authToken) {
-                    res.writeHead(401, { 'Content-Type': 'text/html; charset=utf-8' });
-                    res.end('<h1>401 Unauthorized</h1><p>AirSketch Private Server Mode is active. A valid token is required.</p>');
-                    return;
-                }
-            }
-
-            if (url.pathname === '/' || url.pathname === '/index.html') {
-                if (this.settings.isPrivate) {
-                    res.setHeader('Set-Cookie', `airsketch_token=${this.settings.authToken}; Max-Age=34560000; Path=/; SameSite=Lax`);
-                }
-                res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-                res.end(HTML_CLIENT);
-            } else if (url.pathname === '/api/current') {
-                res.writeHead(200, { 'Content-Type': 'application/json' });
-                res.end(JSON.stringify({ activeDoc: this.activeDoc }));
-            } else if (url.pathname === '/api/events') {
-                if (this.settings.isPrivate) {
-                    res.setHeader('Set-Cookie', `airsketch_token=${this.settings.authToken}; Max-Age=34560000; Path=/; SameSite=Lax`);
-                }
-
-                const clientId = url.searchParams.get('client') || Math.random().toString(36).slice(2);
-                res.writeHead(200, {
-                    'Content-Type': 'text/event-stream',
-                    'Cache-Control': 'no-cache',
-                    'Connection': 'keep-alive',
-                    'Access-Control-Allow-Origin': '*'
-                });
-                res.write('\n');
-                const clientEntry = { res, clientId };
-                this.sseClients.push(clientEntry);
-
-                if (this.activeDoc) {
-                    res.write(`data: ${JSON.stringify({ type: 'switch', name: this.activeDoc.svgFile, markdownNote: this.activeDoc.markdownNote })}\n\n`);
-                }
-
-                req.on('close', () => {
-                    this.sseClients = this.sseClients.filter(c => c !== clientEntry);
-                });
-            } else if (url.pathname === '/api/load') {
-                const name = path.basename(url.searchParams.get('name') ?? '');
-                const filePath = `${folderPath}/${name}`;
-                try {
-                    if (await this.app.vault.adapter.exists(filePath)) {
-                        const content = await this.app.vault.adapter.read(filePath);
-                        res.writeHead(200, { 'Content-Type': 'image/svg+xml' });
-                        res.end(content);
-                    } else {
-                        res.writeHead(404).end('Not found');
-                    }
-                } catch {
-                    res.writeHead(500).end('Read error');
-                }
-            } else if (url.pathname === '/api/save' && req.method === 'POST') {
-                let body = '';
-                req.on('data', chunk => body += chunk);
-                req.on('end', async () => {
-                    try {
-                        const { name, svg, state, senderId } = JSON.parse(body);
-                        
-                        const rawName = (name || 'scratchpad').replace(/\.svg$/i, '');
-                        const cleanName = rawName.replace(/[^a-zA-Z0-9_-]/g, '_');
-                        const fileName = `${cleanName}.svg`;
-                        const filePath = `${folderPath}/${fileName}`;
-
-                        const tFile = this.app.vault.getAbstractFileByPath(filePath);
-                        if (tFile instanceof TFile) {
-                            await this.app.vault.modify(tFile, svg);
-                        } else {
-                            await this.app.vault.adapter.write(filePath, svg);
-                        }
-
-                        this.refreshEmbeddedImages(fileName);
-
-                        this.broadcastToClients({ 
-                            type: 'doc-updated', 
-                            name: fileName, 
-                            state, 
-                            senderId 
-                        }, senderId);
-
-                        res.writeHead(200, { 'Content-Type': 'application/json' });
-                        res.end(JSON.stringify({ success: true, file: fileName }));
-                    } catch (e: any) {
-                        res.writeHead(500).end(e.message);
-                    }
-                });
-            } else {
-                res.writeHead(404).end();
-            }
-        });
-
-        this.server.listen(this.settings.port, '0.0.0.0', () => {
-            console.log(`[AirSketch] Server running on port ${this.settings.port} (Private: ${this.settings.isPrivate})`);
-        });
-    }
-
-    private stopServer() {
-        if (this.server) {
-            try { this.server.close(); } catch {}
-            this.server = null;
-        }
-        this.sseClients.forEach(c => {
-            try { c.res.end(); } catch {}
-        });
-        this.sseClients = [];
-    }
-
-    private getHtmlClient(): string {
-        return `<!DOCTYPE html>
+export function getHtmlClient(): string {
+    return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -377,13 +43,14 @@ export default class AirSketchPlugin extends Plugin {
   #shapeMenu {
     display: none; position: absolute; top: 42px; left: 0; background: rgba(28, 28, 32, 0.98);
     border: 1px solid rgba(167, 139, 250, 0.4); border-radius: 8px; padding: 4px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.6); z-index: 1300; min-width: 130px; flex-direction: column; gap: 2px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6); z-index: 1300; min-width: 140px; flex-direction: column; gap: 2px;
   }
   #shapeMenu .shape-item {
-    background: transparent; border: none; color: #f4f4f5; padding: 6px 10px; border-radius: 5px;
-    font-size: 12px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; text-align: left;
+    background: transparent; border: none; color: #f4f4f5; padding: 8px 10px; border-radius: 5px;
+    font-size: 13px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; text-align: left;
+    touch-action: manipulation; -webkit-tap-highlight-color: transparent;
   }
-  #shapeMenu .shape-item:hover, #shapeMenu .shape-item.active { background: #8b5cf6; color: #fff; }
+  #shapeMenu .shape-item:hover, #shapeMenu .shape-item:active, #shapeMenu .shape-item.active { background: #8b5cf6; color: #fff; }
 
   .spacer { flex: 1; }
   #status { font-size: 12px; color: #a1a1aa; margin-right: 4px; }
@@ -393,7 +60,6 @@ export default class AirSketchPlugin extends Plugin {
     position: absolute; inset: 0; background: #18181b; z-index: 500; text-align: center; padding: 24px;
   }
   
-  /* Multiline In-Place Text Editor */
   #inlineTextEditor {
     display: none; position: absolute; background: rgba(24, 24, 27, 0.9);
     border: 1.5px dashed rgba(167, 139, 250, 0.9); border-radius: 4px;
@@ -404,7 +70,7 @@ export default class AirSketchPlugin extends Plugin {
     resize: none; overflow: hidden;
   }
 
-  /* Floating Selection & Paste Popups */
+  /* Floating Popups for Stylus & Touch Environments */
   #selectionPopup, #pastePopup {
     display: none; position: fixed; z-index: 1200;
     background: rgba(28, 28, 32, 0.96); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
@@ -444,7 +110,6 @@ export default class AirSketchPlugin extends Plugin {
   <button class="btn active" id="penBtn">Pen</button>
   <button class="btn" id="eraserBtn">Eraser</button>
   
-  <!-- Shape Tool Dropdown -->
   <div class="dropdown-wrapper">
     <button class="btn" id="shapeBtn" title="Shape Tool">
       <span id="shapeIconHolder">
@@ -474,7 +139,8 @@ export default class AirSketchPlugin extends Plugin {
     </div>
   </div>
 
-  <!-- Box Select Tool Button (Mouse Cursor Icon) -->
+  <button class="btn" id="fillBtn" title="Toggle Shape Fill (Solid Interior)">Fill</button>
+
   <button class="btn icon-only" id="selectBtn" title="Box Select">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/>
@@ -482,7 +148,6 @@ export default class AirSketchPlugin extends Plugin {
     </svg>
   </button>
 
-  <!-- Pan / Hand Tool Button -->
   <button class="btn icon-only" id="handBtn" title="Pan Tool (Hand)">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M18 11V6a2 2 0 0 0-4 0v5"/>
@@ -495,13 +160,11 @@ export default class AirSketchPlugin extends Plugin {
   <button class="btn" id="lassoBtn">Lasso</button>
   <button class="btn" id="textBtn">Text</button>
   
-  <!-- Dynamic Live Zoom Button -->
-  <button class="btn" id="resetZoomBtn" title="Reset Zoom to 100% (Anchored to View)">
+  <button class="btn" id="resetZoomBtn" title="Reset Zoom to 100%">
     <span style="font-size: 13px;">⟲</span>
     <span id="zoomPercentText" style="min-width: 36px; text-align: center; display: inline-block;">100%</span>
   </button>
 
-  <!-- Lock / Unlock Pan & Zoom -->
   <button class="btn icon-only" id="lockNavBtn" title="Lock Pan & Zoom">
     <svg id="lockNavSvg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
       <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
@@ -530,13 +193,11 @@ export default class AirSketchPlugin extends Plugin {
 <canvas id="canvas"></canvas>
 <textarea id="inlineTextEditor" placeholder=""></textarea>
 
-<!-- Selection Action Menu -->
 <div id="selectionPopup">
   <button class="btn" id="copySelectionBtn">📋 Copy</button>
   <button class="btn danger" id="deleteSelectionBtn">🗑️ Delete</button>
 </div>
 
-<!-- Paste Popup -->
 <div id="pastePopup">
   <button class="btn" id="doPasteBtn">📋 Paste</button>
 </div>
@@ -564,9 +225,24 @@ let clipboardItems = [];
 let currentStroke = null;
 let currentShape = null;
 
+// Shape Tool State: tracks freshly created shape for instant nudge/resize
+let activeCreatedShape = null;
+let isMovingActiveShape = false;
+
+// Transient remote live drawing state (zero-latency streaming)
+let remoteLiveStroke = null;
+let remoteLiveShape = null;
+
 let currentTool = 'pen';
 let activeShapeType = 'rect';
 let currentColor = '#ffffff';
+let isFillActive = false;
+
+// Dynamic Input Detection ('mouse' vs 'touch' / 'stylus')
+let lastInputType = 'mouse';
+function isTouchDevice() {
+  return lastInputType === 'touch' || lastInputType === 'stylus' || lastInputType === 'pen';
+}
 
 let scale = 1, panX = 0, panY = 0;
 let isInteracting = false;
@@ -597,9 +273,9 @@ const ERASER_RADIUS = 16;
 let autoSaveTimer = null;
 let activeTextTarget = null;
 
-/* ====================================================
-   MODULAR GEOMETRY & MATH HELPERS
-==================================================== */
+const ARROW_HANDLE_OFFSET = 24; // Pixel gap preventing handle from obscuring arrowhead
+
+/* Geometry Helpers */
 function distToSegment(p, v, w) {
   const l2 = (v.x - w.x)**2 + (v.y - w.y)**2;
   if (l2 === 0) return Math.hypot(p.x - v.x, p.y - v.y);
@@ -609,9 +285,7 @@ function distToSegment(p, v, w) {
 }
 
 function segmentsIntersect(a, b, c, d) {
-  function ccw(p1, p2, p3) {
-    return (p3.y - p1.y) * (p2.x - p1.x) > (p2.y - p1.y) * (p3.x - p1.x);
-  }
+  function ccw(p1, p2, p3) { return (p3.y - p1.y) * (p2.x - p1.x) > (p2.y - p1.y) * (p3.x - p1.x); }
   return (ccw(a, c, d) !== ccw(b, c, d)) && (ccw(a, b, c) !== ccw(a, b, d));
 }
 
@@ -620,8 +294,7 @@ function pointInPolygon(p, vs) {
   for (let i = 0, j = vs.length - 1; i < vs.length; j = i++) {
     const xi = vs[i].x, yi = vs[i].y;
     const xj = vs[j].x, yj = vs[j].y;
-    const intersect = ((yi > p.y) !== (yj > p.y))
-        && (p.x < (xj - xi) * (p.y - yi) / (yj - yi) + xi);
+    const intersect = ((yi > p.y) !== (yj > p.y)) && (p.x < (xj - xi) * (p.y - yi) / (yj - yi) + xi);
     if (intersect) inside = !inside;
   }
   return inside;
@@ -643,9 +316,7 @@ function getArrowGeometry(x1, y1, x2, y2, size) {
 
 function getShapeSegments(shape) {
   const { shapeType, x1, y1, x2, y2 } = shape;
-  if (shapeType === 'line') {
-    return [{ p1: { x: x1, y: y1 }, p2: { x: x2, y: y2 } }];
-  }
+  if (shapeType === 'line') return [{ p1: { x: x1, y: y1 }, p2: { x: x2, y: y2 } }];
   if (shapeType === 'arrow') {
     const geom = getArrowGeometry(x1, y1, x2, y2, shape.size || PEN_SIZE);
     if (!geom) return [{ p1: { x: x1, y: y1 }, p2: { x: x2, y: y2 } }];
@@ -659,24 +330,20 @@ function getShapeSegments(shape) {
   if (shapeType === 'rect' || shapeType === 'square') {
     const rx = Math.min(x1, x2), ry = Math.min(y1, y2);
     const rw = Math.abs(x2 - x1), rh = Math.abs(y2 - y1);
-    const tl = { x: rx, y: ry }, tr = { x: rx + rw, y: ry };
-    const br = { x: rx + rw, y: ry + rh }, bl = { x: rx, y: ry + rh };
     return [
-      { p1: tl, p2: tr },
-      { p1: tr, p2: br },
-      { p1: br, p2: bl },
-      { p1: bl, p2: tl }
+      { p1: { x: rx, y: ry }, p2: { x: rx + rw, y: ry } },
+      { p1: { x: rx + rw, y: ry }, p2: { x: rx + rw, y: ry + rh } },
+      { p1: { x: rx + rw, y: ry + rh }, p2: { x: rx, y: ry + rh } },
+      { p1: { x: rx, y: ry + rh }, p2: { x: rx, y: ry } }
     ];
   }
   if (shapeType === 'circle' || shapeType === 'ellipse') {
     const cx = (x1 + x2) / 2, cy = (y1 + y2) / 2;
     const rx = Math.max(0.1, Math.abs(x2 - x1) / 2);
-    const ry = Math.max(0.1, Math.abs(y2 - y1) / 2);
+    const ry = Math.max(0.1, Math.abs(y2 - x1) / 2);
     const segs = [];
-    const steps = 16;
-    for (let i = 0; i < steps; i++) {
-      const a1 = (i / steps) * Math.PI * 2;
-      const a2 = ((i + 1) / steps) * Math.PI * 2;
+    for (let i = 0; i < 16; i++) {
+      const a1 = (i / 16) * Math.PI * 2, a2 = ((i + 1) / 16) * Math.PI * 2;
       segs.push({
         p1: { x: cx + rx * Math.cos(a1), y: cy + ry * Math.sin(a1) },
         p2: { x: cx + rx * Math.cos(a2), y: cy + ry * Math.sin(a2) }
@@ -691,6 +358,30 @@ function isPointNearShape(p, shape, threshold) {
   const segs = getShapeSegments(shape);
   for (const s of segs) {
     if (distToSegment(p, s.p1, s.p2) <= threshold) return true;
+  }
+  return false;
+}
+
+function isPointInsideShape(p, shape) {
+  if (shape.shapeType === 'rect' || shape.shapeType === 'square') {
+    const minX = Math.min(shape.x1, shape.x2), minY = Math.min(shape.y1, shape.y2);
+    const maxX = Math.max(shape.x1, shape.x2), maxY = Math.max(shape.y1, shape.y2);
+    return p.x >= minX && p.x <= maxX && p.y >= minY && p.y <= maxY;
+  }
+  if (shape.shapeType === 'circle' || shape.shapeType === 'ellipse') {
+    const cx = (shape.x1 + shape.x2) / 2, cy = (shape.y1 + shape.y2) / 2;
+    const rx = Math.max(0.1, Math.abs(shape.x2 - shape.x1) / 2);
+    const ry = Math.max(0.1, Math.abs(shape.y2 - shape.y1) / 2);
+    return (((p.x - cx) / rx) ** 2 + ((p.y - cy) / ry) ** 2) <= 1;
+  }
+  return false;
+}
+
+function isShapeResizable(item) {
+  if (!item) return false;
+  if (item.type === 'image') return true;
+  if (item.type === 'shape') {
+    return ['rect', 'square', 'circle', 'ellipse', 'arrow', 'line'].includes(item.shapeType);
   }
   return false;
 }
@@ -716,11 +407,12 @@ function getItemBounds(item) {
         return { minX: Math.min(...xs) - pad, minY: Math.min(...ys) - pad, maxX: Math.max(...xs) + pad, maxY: Math.max(...ys) + pad };
       }
     }
-    const minX = Math.min(item.x1, item.x2) - pad;
-    const minY = Math.min(item.y1, item.y2) - pad;
-    const maxX = Math.max(item.x1, item.x2) + pad;
-    const maxY = Math.max(item.y1, item.y2) + pad;
-    return { minX, minY, maxX, maxY };
+    return {
+      minX: Math.min(item.x1, item.x2) - pad,
+      minY: Math.min(item.y1, item.y2) - pad,
+      maxX: Math.max(item.x1, item.x2) + pad,
+      maxY: Math.max(item.y1, item.y2) + pad
+    };
   } else if (item.type === 'text') {
     ctx.font = (item.fontSize || 18) + 'px -apple-system, BlinkMacSystemFont, sans-serif';
     const lines = (item.text || '').split('\\n');
@@ -736,6 +428,20 @@ function getItemBounds(item) {
 
 function getSelectedTotalBounds() {
   if (selectedItems.size === 0) return null;
+  if (selectedItems.size === 1) {
+    const it = Array.from(selectedItems)[0];
+    if (isShapeResizable(it)) {
+      if (it.type === 'image') {
+        return { minX: it.x, minY: it.y, maxX: it.x + it.width, maxY: it.y + it.height };
+      }
+      return {
+        minX: Math.min(it.x1, it.x2),
+        minY: Math.min(it.y1, it.y2),
+        maxX: Math.max(it.x1, it.x2),
+        maxY: Math.max(it.y1, it.y2)
+      };
+    }
+  }
   let sMinX = Infinity, sMinY = Infinity, sMaxX = -Infinity, sMaxY = -Infinity;
   selectedItems.forEach(it => {
     const b = getItemBounds(it);
@@ -748,41 +454,78 @@ function getSelectedTotalBounds() {
   return { minX: sMinX, minY: sMinY, maxX: sMaxX, maxY: sMaxY };
 }
 
-function getSelectionCornerHandle(cPt, thresholdScreen = 18) {
+/* Endpoint and Boundary Handle Detection */
+function getSelectionHandle(cPt, thresholdScreen = 18) {
   if (selectedItems.size !== 1) return null;
   const item = Array.from(selectedItems)[0];
-  if (item.type !== 'image') return null;
+  if (!isShapeResizable(item)) return null;
 
   const threshold = thresholdScreen / scale;
-  const corners = [
-    { handle: 'tl', x: item.x, y: item.y },
-    { handle: 'tr', x: item.x + item.width, y: item.y },
-    { handle: 'bl', x: item.x, y: item.y + item.height },
-    { handle: 'br', x: item.x + item.width, y: item.y + item.height }
+
+  // Arrow & Line Directional / Length Handles
+  if (item.type === 'shape' && (item.shapeType === 'arrow' || item.shapeType === 'line')) {
+    let targetX = item.x2, targetY = item.y2;
+    if (item.shapeType === 'arrow') {
+      const angle = Math.atan2(item.y2 - item.y1, item.x2 - item.x1);
+      targetX = item.x2 + Math.cos(angle) * (ARROW_HANDLE_OFFSET / scale);
+      targetY = item.y2 + Math.sin(angle) * (ARROW_HANDLE_OFFSET / scale);
+    }
+
+    if (Math.hypot(cPt.x - targetX, cPt.y - targetY) <= threshold) {
+      return { handle: 'tip', isEndpoint: true, item };
+    }
+    if (Math.hypot(cPt.x - item.x1, cPt.y - item.y1) <= threshold) {
+      return { handle: 'start', isEndpoint: true, item };
+    }
+    return null;
+  }
+
+  // 8-Handle Bounding Box
+  let minX, minY, width, height;
+  if (item.type === 'image') {
+    minX = item.x; minY = item.y; width = item.width; height = item.height;
+  } else {
+    minX = Math.min(item.x1, item.x2);
+    minY = Math.min(item.y1, item.y2);
+    width = Math.max(1, Math.abs(item.x2 - item.x1));
+    height = Math.max(1, Math.abs(item.y2 - item.y1));
+  }
+  const maxX = minX + width, maxY = minY + height;
+  const midX = minX + width / 2, midY = minY + height / 2;
+
+  const handles = [
+    { handle: 'tl', x: minX, y: minY, isCorner: true },
+    { handle: 'tr', x: maxX, y: minY, isCorner: true },
+    { handle: 'bl', x: minX, y: maxY, isCorner: true },
+    { handle: 'br', x: maxX, y: maxY, isCorner: true },
+    { handle: 't',  x: midX, y: minY, isCorner: false },
+    { handle: 'b',  x: midX, y: maxY, isCorner: false },
+    { handle: 'l',  x: minX, y: midY, isCorner: false },
+    { handle: 'r',  x: maxX, y: midY, isCorner: false }
   ];
 
-  for (const c of corners) {
-    if (Math.hypot(cPt.x - c.x, cPt.y - c.y) <= threshold) {
-      return { handle: c.handle, item };
+  for (const h of handles) {
+    if (Math.hypot(cPt.x - h.x, cPt.y - h.y) <= threshold) {
+      return { handle: h.handle, isCorner: h.isCorner, item, isEndpoint: false };
     }
   }
   return null;
 }
 
-/* ====================================================
-   MODULAR SVG SERIALIZERS
-==================================================== */
 function shapeToSvg(it) {
   const size = it.size || PEN_SIZE;
+  const isFilled = !!it.fill;
+  const fillAttr = isFilled ? it.color : 'none';
+
   if (it.shapeType === 'rect' || it.shapeType === 'square') {
     const rx = Math.min(it.x1, it.x2), ry = Math.min(it.y1, it.y2);
     const rw = Math.abs(it.x2 - it.x1), rh = Math.abs(it.y2 - it.y1);
-    return '<rect x="' + rx + '" y="' + ry + '" width="' + rw + '" height="' + rh + '" fill="none" stroke="' + it.color + '" stroke-width="' + size + '" />';
+    return '<rect x="' + rx + '" y="' + ry + '" width="' + rw + '" height="' + rh + '" fill="' + fillAttr + '" stroke="' + it.color + '" stroke-width="' + size + '" />';
   }
   if (it.shapeType === 'circle' || it.shapeType === 'ellipse') {
     const cx = (it.x1 + it.x2) / 2, cy = (it.y1 + it.y2) / 2;
     const rx = Math.abs(it.x2 - it.x1) / 2, ry = Math.abs(it.y2 - it.y1) / 2;
-    return '<ellipse cx="' + cx + '" cy="' + cy + '" rx="' + Math.max(0.1, rx) + '" ry="' + Math.max(0.1, ry) + '" fill="none" stroke="' + it.color + '" stroke-width="' + size + '" />';
+    return '<ellipse cx="' + cx + '" cy="' + cy + '" rx="' + Math.max(0.1, rx) + '" ry="' + Math.max(0.1, ry) + '" fill="' + fillAttr + '" stroke="' + it.color + '" stroke-width="' + size + '" />';
   }
   if (it.shapeType === 'line') {
     return '<line x1="' + it.x1 + '" y1="' + it.y1 + '" x2="' + it.x2 + '" y2="' + it.y2 + '" stroke="' + it.color + '" stroke-width="' + size + '" stroke-linecap="round" />';
@@ -810,9 +553,7 @@ function itemToSvg(it) {
     d += ' L ' + it.points[it.points.length-1].x + ' ' + it.points[it.points.length-1].y;
     return '<path d="' + d + '" stroke="' + it.color + '" stroke-width="' + (it.size || PEN_SIZE) + '" fill="none" stroke-linecap="round" stroke-linejoin="round" />';
   }
-  if (it.type === 'shape') {
-    return shapeToSvg(it);
-  }
+  if (it.type === 'shape') return shapeToSvg(it);
   if (it.type === 'text') {
     const lines = (it.text || '').split('\\n');
     const tspans = lines.map((l, idx) => {
@@ -832,6 +573,32 @@ function cloneState(arr) {
     if (it.type === 'stroke') return { ...it, points: it.points.map(p => ({ ...p })) };
     return { ...it };
   });
+}
+
+function serializeItemsForSync() {
+  return items.map(it => {
+    if (it.type === 'image') {
+      const { imgObj, ...rest } = it;
+      return rest;
+    }
+    return it;
+  });
+}
+
+function applyRemoteItems(remoteItems) {
+  items = (remoteItems || []).map(it => {
+    if (it.type === 'image' && it.dataUrl) {
+      const existing = items.find(ex => ex.type === 'image' && ex.dataUrl === it.dataUrl);
+      if (existing && existing.imgObj) {
+        return { ...it, imgObj: existing.imgObj };
+      }
+      const img = new Image();
+      img.src = it.dataUrl;
+      return { ...it, imgObj: img };
+    }
+    return it;
+  });
+  render();
 }
 
 function pushHistory() {
@@ -855,9 +622,7 @@ function toCanvasCoord(screenX, screenY) {
 
 function updateZoomDisplay() {
   const zoomText = document.getElementById('zoomPercentText');
-  if (zoomText) {
-    zoomText.innerText = Math.round(scale * 100) + '%';
-  }
+  if (zoomText) zoomText.innerText = Math.round(scale * 100) + '%';
 }
 
 function toggleNavLock() {
@@ -875,9 +640,10 @@ function toggleNavLock() {
   }
 }
 
+// 22px offset guarantees handles NEVER collide with action buttons
 function updateSelectionPopupPosition() {
   const sBounds = getSelectedTotalBounds();
-  if (!sBounds || selectedItems.size === 0) {
+  if (!sBounds || selectedItems.size === 0 || !isTouchDevice()) {
     selectionPopup.style.display = 'none';
     return;
   }
@@ -892,19 +658,20 @@ function updateSelectionPopupPosition() {
   const popupHeight = selectionPopup.offsetHeight || 38;
 
   let posX = (screenMinX + screenMaxX) / 2 - popupWidth / 2;
-  let posY = screenMinY - popupHeight - 10;
+  let posY = screenMinY - popupHeight - 22;
 
   posX = Math.max(12, Math.min(window.innerWidth - popupWidth - 12, posX));
-  if (posY < 56) {
-    posY = (sBounds.maxY + pad) * scale + panY + 10;
-  }
+  if (posY < 56) posY = (sBounds.maxY + pad) * scale + panY + 22;
 
   selectionPopup.style.left = posX + 'px';
   selectionPopup.style.top = posY + 'px';
 }
 
 function showPastePopup(clientX, clientY, cPt) {
-  if (clipboardItems.length === 0) return;
+  if (!isTouchDevice() || clipboardItems.length === 0) {
+    hidePastePopup();
+    return;
+  }
   pasteTargetPos = cPt;
   pastePopup.style.display = 'flex';
   const w = pastePopup.offsetWidth || 85;
@@ -920,9 +687,68 @@ function hidePastePopup() {
   pasteTargetPos = null;
 }
 
+/* ====================================================
+   FAST REAL-TIME ZERO-LATENCY STREAMING
+==================================================== */
+let syncThrottleTimer = null;
+let pendingStreamPayload = null;
+
+function sendSyncPayload(payload) {
+  authFetch('/api/sync', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ senderId: CLIENT_ID, name: currentFileName, ...payload })
+  }).catch(() => {});
+}
+
+function broadcastLiveUpdate(payload, immediate = false) {
+  if (immediate || payload.type.endsWith('-commit') || payload.type.endsWith('-end')) {
+    if (syncThrottleTimer) {
+      clearTimeout(syncThrottleTimer);
+      syncThrottleTimer = null;
+    }
+    pendingStreamPayload = null;
+    sendSyncPayload(payload);
+    return;
+  }
+
+  pendingStreamPayload = payload;
+  if (!syncThrottleTimer) {
+    sendSyncPayload(payload);
+    syncThrottleTimer = setTimeout(() => {
+      syncThrottleTimer = null;
+      if (pendingStreamPayload) {
+        sendSyncPayload(pendingStreamPayload);
+        pendingStreamPayload = null;
+      }
+    }, 25); // 40 updates/sec stream
+  }
+}
+
 function copySelectedItems() {
   if (selectedItems.size === 0) return;
-  clipboardItems = cloneState(Array.from(selectedItems));
+  const itemsToCopy = cloneState(Array.from(selectedItems));
+  clipboardItems = itemsToCopy;
+
+  const payload = JSON.stringify({ source: 'airsketch', version: 1, items: itemsToCopy });
+
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = payload;
+    ta.style.position = 'fixed';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+  } catch (_) {}
+
+  try {
+    if (typeof window !== 'undefined' && window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.touchBridge) {
+      window.webkit.messageHandlers.touchBridge.postMessage({ action: 'copy', copyText: payload });
+    }
+  } catch(e) {}
 
   const copyBtn = document.getElementById('copySelectionBtn');
   if (copyBtn) {
@@ -939,12 +765,23 @@ function copySelectedItems() {
   setTimeout(() => { document.getElementById('status').innerText = 'Ready'; }, 1500);
 }
 
-function pasteItemsAt(targetCanvasX, targetCanvasY) {
-  if (!clipboardItems || clipboardItems.length === 0) return;
+window.addEventListener('copy', (e) => {
+  if (selectedItems.size === 0) return;
+  const itemsToCopy = cloneState(Array.from(selectedItems));
+  clipboardItems = itemsToCopy;
+  const payload = JSON.stringify({ source: 'airsketch', version: 1, items: itemsToCopy });
+  if (e.clipboardData) {
+    e.clipboardData.setData('text/plain', payload);
+    e.preventDefault();
+  }
+});
+
+function pasteItemsAt(targetCanvasX, targetCanvasY, sourceItems) {
+  if (!sourceItems || sourceItems.length === 0) return;
   pushHistory();
 
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-  clipboardItems.forEach(it => {
+  sourceItems.forEach(it => {
     const b = getItemBounds(it);
     if (b) {
       minX = Math.min(minX, b.minX); minY = Math.min(minY, b.minY);
@@ -957,7 +794,7 @@ function pasteItemsAt(targetCanvasX, targetCanvasY) {
   const dx = targetCanvasX - centerX;
   const dy = targetCanvasY - centerY;
 
-  const newItems = cloneState(clipboardItems).map(it => {
+  const newItems = cloneState(sourceItems).map(it => {
     if (it.type === 'stroke') {
       it.points.forEach(p => { p.x += dx; p.y += dy; });
     } else if (it.type === 'shape') {
@@ -977,6 +814,7 @@ function pasteItemsAt(targetCanvasX, targetCanvasY) {
   hidePastePopup();
   updateSelectionPopupPosition();
   render();
+  broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
   triggerAutoSave();
 }
 
@@ -985,15 +823,16 @@ function deleteSelectedItems() {
   pushHistory();
   items = items.filter(it => !selectedItems.has(it));
   selectedItems.clear();
+  activeCreatedShape = null;
   updateSelectionPopupPosition();
   render();
+  broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
   triggerAutoSave();
 }
 
 function resetZoom() {
   const centerScreen = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
   const canvasCenter = toCanvasCoord(centerScreen.x, centerScreen.y);
-  
   scale = 1.0;
   panX = centerScreen.x - canvasCenter.x * scale;
   panY = centerScreen.y - canvasCenter.y * scale;
@@ -1058,15 +897,20 @@ function renderItem(item) {
     ctx.lineCap = 'round';
     ctx.lineJoin = 'round';
 
+    const isFilled = !!item.fill;
+    if (isFilled) ctx.fillStyle = item.color;
+
     if (item.shapeType === 'rect' || item.shapeType === 'square') {
       const rx = Math.min(item.x1, item.x2), ry = Math.min(item.y1, item.y2);
       const rw = Math.abs(item.x2 - item.x1), rh = Math.abs(item.y2 - item.y1);
+      if (isFilled) ctx.fillRect(rx, ry, rw, rh);
       ctx.strokeRect(rx, ry, rw, rh);
     } else if (item.shapeType === 'circle' || item.shapeType === 'ellipse') {
       const cx = (item.x1 + item.x2) / 2, cy = (item.y1 + item.y2) / 2;
       const rx = Math.abs(item.x2 - item.x1) / 2, ry = Math.abs(item.y2 - item.y1) / 2;
       ctx.beginPath();
       ctx.ellipse(cx, cy, Math.max(0.1, rx), Math.max(0.1, ry), 0, 0, Math.PI * 2);
+      if (isFilled) ctx.fill();
       ctx.stroke();
     } else if (item.shapeType === 'line') {
       ctx.beginPath();
@@ -1104,61 +948,124 @@ function render() {
   ctx.scale(scale, scale);
 
   items.forEach(item => renderItem(item));
+
+  // Render transient real-time streams from other connected devices
+  if (remoteLiveStroke) renderItem(remoteLiveStroke);
+  if (remoteLiveShape) renderItem(remoteLiveShape);
+
   if (currentShape) renderItem(currentShape);
 
-  const sBounds = getSelectedTotalBounds();
-  if (sBounds) {
-    const isSingleImage = (selectedItems.size === 1 && Array.from(selectedItems)[0].type === 'image');
+  // Selection outline & Handles
+  if (selectedItems.size === 1) {
+    const single = Array.from(selectedItems)[0];
+    
+    // Special Endpoint Handles for Arrow and Line
+    if (single.type === 'shape' && (single.shapeType === 'arrow' || single.shapeType === 'line')) {
+      const isArrow = single.shapeType === 'arrow';
+      const angle = Math.atan2(single.y2 - single.y1, single.x2 - single.x1);
+      const tipOffset = isArrow ? (ARROW_HANDLE_OFFSET / scale) : 0;
+      const tipHandleX = single.x2 + Math.cos(angle) * tipOffset;
+      const tipHandleY = single.y2 + Math.sin(angle) * tipOffset;
 
-    // 1. Sub-selection bounding boxes for each individual selected item if multiple
+      ctx.strokeStyle = '#c084fc';
+      ctx.lineWidth = 1.5 / scale;
+      ctx.setLineDash([4 / scale, 4 / scale]);
+      ctx.beginPath();
+      ctx.moveTo(single.x1, single.y1);
+      ctx.lineTo(tipHandleX, tipHandleY);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // Start Handle (Tail)
+      ctx.beginPath();
+      ctx.arc(single.x1, single.y1, 6 / scale, 0, Math.PI * 2);
+      ctx.fillStyle = '#ffffff';
+      ctx.fill();
+      ctx.strokeStyle = '#8b5cf6';
+      ctx.lineWidth = 2 / scale;
+      ctx.stroke();
+
+      // Tip Handle (Offset so it never covers arrowhead)
+      ctx.beginPath();
+      ctx.arc(tipHandleX, tipHandleY, 7.5 / scale, 0, Math.PI * 2);
+      ctx.fillStyle = '#a78bfa';
+      ctx.fill();
+      ctx.strokeStyle = '#ffffff';
+      ctx.lineWidth = 2.5 / scale;
+      ctx.stroke();
+    } else {
+      renderStandardSelectionBox();
+    }
+  } else if (selectedItems.size > 1) {
+    renderStandardSelectionBox();
+  }
+
+  function renderStandardSelectionBox() {
+    const sBounds = getSelectedTotalBounds();
+    if (!sBounds) return;
+    const isSingleResizable = (selectedItems.size === 1 && isShapeResizable(Array.from(selectedItems)[0]));
+
     if (selectedItems.size > 1) {
       ctx.strokeStyle = 'rgba(167, 139, 250, 0.45)';
       ctx.lineWidth = 1 / scale;
       ctx.setLineDash([]);
       selectedItems.forEach(it => {
         const b = getItemBounds(it);
-        if (b) {
-          ctx.strokeRect(b.minX, b.minY, b.maxX - b.minX, b.maxY - b.minY);
-        }
+        if (b) ctx.strokeRect(b.minX, b.minY, b.maxX - b.minX, b.maxY - b.minY);
       });
     }
 
-    // 2. Main Outer Selection Container
-    const pad = isSingleImage ? 0 : 6;
+    const pad = isSingleResizable ? 0 : 6;
     const x = sBounds.minX - pad, y = sBounds.minY - pad;
     const w = (sBounds.maxX - sBounds.minX) + pad * 2, h = (sBounds.maxY - sBounds.minY) + pad * 2;
 
     ctx.strokeStyle = '#c084fc';
-    ctx.lineWidth = (isSingleImage ? 2.5 : 2) / scale;
+    ctx.lineWidth = (isSingleResizable ? 2.5 : 2) / scale;
     ctx.setLineDash([6 / scale, 4 / scale]);
     ctx.strokeRect(x, y, w, h);
     ctx.setLineDash([]);
 
-    const handleRadius = (isSingleImage ? 6.5 : 4.5) / scale;
-    const corners = [
-      { x: x, y: y },
-      { x: x + w, y: y },
-      { x: x, y: y + h },
-      { x: x + w, y: y + h }
-    ];
+    if (isSingleResizable) {
+      // 4 Vertices (Proportional scaling)
+      const cornerRadius = 6.5 / scale;
+      [{ x: x, y: y }, { x: x + w, y: y }, { x: x, y: y + h }, { x: x + w, y: y + h }].forEach(c => {
+        ctx.beginPath();
+        ctx.arc(c.x, c.y, cornerRadius, 0, Math.PI * 2);
+        ctx.fillStyle = '#a78bfa';
+        ctx.fill();
+        ctx.strokeStyle = '#ffffff';
+        ctx.lineWidth = 2 / scale;
+        ctx.stroke();
+      });
 
-    corners.forEach(c => {
-      ctx.beginPath();
-      ctx.arc(c.x, c.y, handleRadius, 0, Math.PI * 2);
-      ctx.fillStyle = isSingleImage ? '#a78bfa' : '#ffffff';
-      ctx.fill();
-      ctx.strokeStyle = '#ffffff';
-      ctx.lineWidth = 2 / scale;
-      ctx.stroke();
-    });
+      // 4 Sides (Compress/stretch)
+      const sideRadius = 5 / scale;
+      [{ x: x + w / 2, y: y }, { x: x + w / 2, y: y + h }, { x: x, y: y + h / 2 }, { x: x + w, y: y + h / 2 }].forEach(s => {
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, sideRadius, 0, Math.PI * 2);
+        ctx.fillStyle = '#ffffff';
+        ctx.fill();
+        ctx.strokeStyle = '#8b5cf6';
+        ctx.lineWidth = 2 / scale;
+        ctx.stroke();
+      });
+    } else {
+      const handleRadius = 4.5 / scale;
+      [{ x: x, y: y }, { x: x + w, y: y }, { x: x, y: y + h }, { x: x + w, y: y + h }].forEach(c => {
+        ctx.beginPath();
+        ctx.arc(c.x, c.y, handleRadius, 0, Math.PI * 2);
+        ctx.fillStyle = '#ffffff';
+        ctx.fill();
+        ctx.strokeStyle = '#c084fc';
+        ctx.lineWidth = 2 / scale;
+        ctx.stroke();
+      });
+    }
   }
 
   if (isMarquee && marqueeStart && marqueeEnd) {
-    const x = Math.min(marqueeStart.x, marqueeEnd.x);
-    const y = Math.min(marqueeStart.y, marqueeEnd.y);
-    const w = Math.abs(marqueeStart.x - marqueeEnd.x);
-    const h = Math.abs(marqueeStart.y - marqueeEnd.y);
-
+    const x = Math.min(marqueeStart.x, marqueeEnd.x), y = Math.min(marqueeStart.y, marqueeEnd.y);
+    const w = Math.abs(marqueeStart.x - marqueeEnd.x), h = Math.abs(marqueeStart.y - marqueeEnd.y);
     ctx.fillStyle = 'rgba(167, 139, 250, 0.18)';
     ctx.fillRect(x, y, w, h);
     ctx.strokeStyle = '#c084fc';
@@ -1171,9 +1078,7 @@ function render() {
   if (isLassoing && lassoPoints.length > 1) {
     ctx.beginPath();
     ctx.moveTo(lassoPoints[0].x, lassoPoints[0].y);
-    for (let i = 1; i < lassoPoints.length; i++) {
-      ctx.lineTo(lassoPoints[i].x, lassoPoints[i].y);
-    }
+    for (let i = 1; i < lassoPoints.length; i++) ctx.lineTo(lassoPoints[i].x, lassoPoints[i].y);
     ctx.closePath();
     ctx.fillStyle = 'rgba(167, 139, 250, 0.18)';
     ctx.fill();
@@ -1202,6 +1107,10 @@ function eraseAt(cPt) {
         return false;
       }
     } else if (item.type === 'shape') {
+      if (item.fill && isPointInsideShape(cPt, item)) {
+        changed = true;
+        return false;
+      }
       if (isPointNearShape(cPt, item, ERASER_RADIUS + (item.size || PEN_SIZE))) {
         changed = true;
         return false;
@@ -1224,6 +1133,7 @@ function eraseAt(cPt) {
 
   if (changed) {
     render();
+    broadcastLiveUpdate({ type: 'live-items-update', items: serializeItemsForSync() });
     clearTimeout(autoSaveTimer);
     autoSaveTimer = setTimeout(triggerAutoSave, 1000);
   }
@@ -1237,6 +1147,7 @@ function getItemAt(cPt) {
         if (distToSegment(cPt, item.points[j], item.points[j+1]) <= 12) return item;
       }
     } else if (item.type === 'shape') {
+      if (item.fill && isPointInsideShape(cPt, item)) return item;
       if (isPointNearShape(cPt, item, 12 + (item.size || PEN_SIZE))) return item;
     } else if (item.type === 'text') {
       const b = getItemBounds(item);
@@ -1248,7 +1159,6 @@ function getItemAt(cPt) {
   return null;
 }
 
-/* Precise Hollow-Aware Selection Checkers */
 function isItemInBox(item, minX, minY, maxX, maxY) {
   const boxEdges = [
     { p1: { x: minX, y: minY }, p2: { x: maxX, y: minY } },
@@ -1256,40 +1166,33 @@ function isItemInBox(item, minX, minY, maxX, maxY) {
     { p1: { x: maxX, y: maxY }, p2: { x: minX, y: maxY } },
     { p1: { x: minX, y: maxY }, p2: { x: minX, y: minY } }
   ];
-
-  function ptInBox(p) {
-    return p.x >= minX && p.x <= maxX && p.y >= minY && p.y <= maxY;
-  }
+  function ptInBox(p) { return p.x >= minX && p.x <= maxX && p.y >= minY && p.y <= maxY; }
 
   if (item.type === 'stroke') {
     if (item.points.some(ptInBox)) return true;
     for (let i = 0; i < item.points.length - 1; i++) {
-      const p1 = item.points[i], p2 = item.points[i + 1];
-      if (boxEdges.some(e => segmentsIntersect(p1, p2, e.p1, e.p2))) return true;
+      if (boxEdges.some(e => segmentsIntersect(item.points[i], item.points[i+1], e.p1, e.p2))) return true;
     }
     return false;
   }
-
   if (item.type === 'shape') {
     const segs = getShapeSegments(item);
     if (segs.some(s => ptInBox(s.p1) || ptInBox(s.p2))) return true;
     for (const s of segs) {
       if (boxEdges.some(e => segmentsIntersect(s.p1, s.p2, e.p1, e.p2))) return true;
     }
+    if (item.fill && isPointInsideShape({ x: (minX + maxX) / 2, y: (minY + maxY) / 2 }, item)) return true;
     return false;
   }
-
   if (item.type === 'text' || item.type === 'image') {
     const b = getItemBounds(item);
     return b && b.minX < maxX && b.maxX > minX && b.minY < maxY && b.maxY > minY;
   }
-
   return false;
 }
 
 function isItemInLasso(item, poly) {
   if (poly.length < 3) return false;
-
   const polyEdges = [];
   for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
     polyEdges.push({ p1: poly[j], p2: poly[i] });
@@ -1298,12 +1201,10 @@ function isItemInLasso(item, poly) {
   if (item.type === 'stroke') {
     if (item.points.some(p => pointInPolygon(p, poly))) return true;
     for (let i = 0; i < item.points.length - 1; i++) {
-      const p1 = item.points[i], p2 = item.points[i + 1];
-      if (polyEdges.some(e => segmentsIntersect(p1, p2, e.p1, e.p2))) return true;
+      if (polyEdges.some(e => segmentsIntersect(item.points[i], item.points[i+1], e.p1, e.p2))) return true;
     }
     return false;
   }
-
   if (item.type === 'shape') {
     const segs = getShapeSegments(item);
     if (segs.some(s => pointInPolygon(s.p1, poly) || pointInPolygon(s.p2, poly))) return true;
@@ -1312,44 +1213,20 @@ function isItemInLasso(item, poly) {
     }
     return false;
   }
-
   if (item.type === 'text' || item.type === 'image') {
     const b = getItemBounds(item);
     if (!b) return false;
-    const corners = [
-      { x: b.minX, y: b.minY },
-      { x: b.maxX, y: b.minY },
-      { x: b.maxX, y: b.maxY },
-      { x: b.minX, y: b.maxY }
-    ];
-    if (corners.some(c => pointInPolygon(c, poly))) return true;
     const center = { x: (b.minX + b.maxX) / 2, y: (b.minY + b.maxY) / 2 };
-    if (pointInPolygon(center, poly)) return true;
-    const rectEdges = [
-      { p1: corners[0], p2: corners[1] },
-      { p1: corners[1], p2: corners[2] },
-      { p1: corners[2], p2: corners[3] },
-      { p1: corners[3], p2: corners[0] }
-    ];
-    for (const re of rectEdges) {
-      if (polyEdges.some(pe => segmentsIntersect(re.p1, re.p2, pe.p1, pe.p2))) return true;
-    }
-    return false;
+    return pointInPolygon(center, poly);
   }
-
   return false;
 }
 
 function selectItemsInBox(p1, p2) {
   const minX = Math.min(p1.x, p2.x), minY = Math.min(p1.y, p2.y);
   const maxX = Math.max(p1.x, p2.x), maxY = Math.max(p1.y, p2.y);
-
   selectedItems.clear();
-  items.forEach(it => {
-    if (isItemInBox(it, minX, minY, maxX, maxY)) {
-      selectedItems.add(it);
-    }
-  });
+  items.forEach(it => { if (isItemInBox(it, minX, minY, maxX, maxY)) selectedItems.add(it); });
   updateSelectionPopupPosition();
   render();
 }
@@ -1357,11 +1234,7 @@ function selectItemsInBox(p1, p2) {
 function selectItemsInLasso(poly) {
   if (poly.length < 3) return;
   selectedItems.clear();
-  items.forEach(it => {
-    if (isItemInLasso(it, poly)) {
-      selectedItems.add(it);
-    }
-  });
+  items.forEach(it => { if (isItemInLasso(it, poly)) selectedItems.add(it); });
   updateSelectionPopupPosition();
   render();
 }
@@ -1377,9 +1250,7 @@ const shapeIcons = {
 
 function updateShapeButtonIcon() {
   const holder = document.getElementById('shapeIconHolder');
-  if (holder && shapeIcons[activeShapeType]) {
-    holder.innerHTML = shapeIcons[activeShapeType];
-  }
+  if (holder && shapeIcons[activeShapeType]) holder.innerHTML = shapeIcons[activeShapeType];
 }
 
 function notifyNativeTouchBridge(enabled) {
@@ -1392,8 +1263,14 @@ function notifyNativeTouchBridge(enabled) {
 
 function setTool(tool) {
   currentTool = tool;
-  
-  document.querySelectorAll('.top-bar .btn').forEach(b => b.classList.remove('active'));
+  if (tool !== 'shape') {
+    activeCreatedShape = null;
+    isMovingActiveShape = false;
+  }
+
+  document.querySelectorAll('.top-bar .btn').forEach(b => {
+    if (b.id !== 'fillBtn') b.classList.remove('active');
+  });
   if (tool === 'pen') document.getElementById('penBtn').classList.add('active');
   else if (tool === 'eraser') document.getElementById('eraserBtn').classList.add('active');
   else if (tool === 'shape') document.getElementById('shapeBtn').classList.add('active');
@@ -1402,34 +1279,55 @@ function setTool(tool) {
   else if (tool === 'lasso') document.getElementById('lassoBtn').classList.add('active');
   else if (tool === 'text') document.getElementById('textBtn').classList.add('active');
 
-  if (tool === 'hand') {
-    canvas.style.cursor = 'grab';
-  } else {
-    canvas.style.cursor = 'crosshair';
-  }
+  canvas.style.cursor = tool === 'hand' ? 'grab' : 'crosshair';
+  if (isNavLocked) document.getElementById('lockNavBtn').classList.add('active');
 
-  if (isNavLocked) {
-    document.getElementById('lockNavBtn').classList.add('active');
-  }
+  if (tool === 'text') notifyNativeTouchBridge(false);
+  else notifyNativeTouchBridge(true);
 
-  if (tool === 'text') {
-    notifyNativeTouchBridge(false);
-  } else {
-    notifyNativeTouchBridge(true);
-  }
-
-  if (inlineEditor.style.display === 'block') {
-    commitInlineText();
-  }
-
+  if (inlineEditor.style.display === 'block') commitInlineText();
   hidePastePopup();
-  shapeMenu.style.display = 'none';
+  closeShapeMenu();
 
-  if (selectedItems.size > 0 && tool !== 'select' && tool !== 'lasso') {
+  if (selectedItems.size > 0 && tool !== 'select' && tool !== 'lasso' && tool !== 'shape') {
     selectedItems.clear();
     updateSelectionPopupPosition();
     render();
   }
+}
+
+function toggleShapeFill() {
+  isFillActive = !isFillActive;
+  const btn = document.getElementById('fillBtn');
+  if (isFillActive) btn.classList.add('active');
+  else btn.classList.remove('active');
+
+  if (selectedItems.size > 0) {
+    let changed = false;
+    selectedItems.forEach(it => {
+      if (it.type === 'shape' && ['rect', 'square', 'circle', 'ellipse'].includes(it.shapeType)) {
+        if (!changed) pushHistory();
+        it.fill = isFillActive;
+        if (isFillActive) it.color = currentColor;
+        changed = true;
+      }
+    });
+    if (changed) {
+      render();
+      broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
+      triggerAutoSave();
+    }
+  }
+}
+
+function openShapeMenu() {
+  shapeMenu.style.display = 'flex';
+  notifyNativeTouchBridge(false);
+}
+
+function closeShapeMenu() {
+  shapeMenu.style.display = 'none';
+  if (currentTool !== 'text') notifyNativeTouchBridge(true);
 }
 
 function adjustEditorSize() {
@@ -1444,19 +1342,14 @@ function adjustEditorSize() {
 
 function updateInlineEditorPosition() {
   if (inlineEditor.style.display !== 'block' || !activeTextTarget) return;
-  const screenX = activeTextTarget.x * scale + panX;
-  const screenY = activeTextTarget.y * scale + panY;
-  inlineEditor.style.left = screenX + 'px';
-  inlineEditor.style.top = screenY + 'px';
+  inlineEditor.style.left = (activeTextTarget.x * scale + panX) + 'px';
+  inlineEditor.style.top = (activeTextTarget.y * scale + panY) + 'px';
   inlineEditor.style.fontSize = ((activeTextTarget.fontSize || 18) * scale) + 'px';
   adjustEditorSize();
 }
 
 function openInlineTextEditor(cPt, existingItem) {
-  if (inlineEditor.style.display === 'block') {
-    commitInlineText();
-  }
-
+  if (inlineEditor.style.display === 'block') commitInlineText();
   isOpeningTextEditor = true;
   notifyNativeTouchBridge(false);
 
@@ -1482,9 +1375,7 @@ function openInlineTextEditor(cPt, existingItem) {
 
   setTimeout(() => {
     inlineEditor.focus();
-    if (!activeTextTarget.isNew && activeTextTarget.text) {
-      inlineEditor.select();
-    }
+    if (!activeTextTarget.isNew && activeTextTarget.text) inlineEditor.select();
     isOpeningTextEditor = false;
   }, 25);
 }
@@ -1493,10 +1384,7 @@ function commitInlineText() {
   if (inlineEditor.style.display === 'none' || !activeTextTarget) return;
   const val = inlineEditor.value.trim();
   inlineEditor.style.display = 'none';
-
-  if (currentTool !== 'text') {
-    notifyNativeTouchBridge(true);
-  }
+  if (currentTool !== 'text') notifyNativeTouchBridge(true);
 
   if (val) {
     pushHistory();
@@ -1512,25 +1400,21 @@ function commitInlineText() {
 
   activeTextTarget = null;
   render();
+  broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
   triggerAutoSave();
 }
 
 inlineEditor.addEventListener('input', adjustEditorSize);
 inlineEditor.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' && !e.shiftKey) {
-    e.preventDefault();
-    commitInlineText();
-  } else if (e.key === 'Escape') {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); commitInlineText(); }
+  else if (e.key === 'Escape') {
     inlineEditor.style.display = 'none';
     if (currentTool !== 'text') notifyNativeTouchBridge(true);
     activeTextTarget = null;
     render();
   }
 });
-inlineEditor.addEventListener('blur', () => {
-  if (isOpeningTextEditor) return;
-  commitInlineText();
-});
+inlineEditor.addEventListener('blur', () => { if (!isOpeningTextEditor) commitInlineText(); });
 
 function handleStart(clientX, clientY) {
   if (!currentFileName) return;
@@ -1539,57 +1423,39 @@ function handleStart(clientX, clientY) {
   if (shapeMenu.style.display === 'flex') {
     const smRect = shapeMenu.getBoundingClientRect();
     if (clientX >= smRect.left && clientX <= smRect.right && clientY >= smRect.top && clientY <= smRect.bottom) {
-      const shapeBtns = document.querySelectorAll('#shapeMenu .shape-item');
-      for (const sBtn of shapeBtns) {
-        const bRect = sBtn.getBoundingClientRect();
-        if (clientX >= bRect.left && clientX <= bRect.right && clientY >= bRect.top && clientY <= bRect.bottom) {
-          activeShapeType = sBtn.dataset.shape;
-          document.querySelectorAll('#shapeMenu .shape-item').forEach(i => i.classList.remove('active'));
-          sBtn.classList.add('active');
-          updateShapeButtonIcon();
-          shapeMenu.style.display = 'none';
-          setTool('shape');
-          return;
-        }
-      }
+      return;
     }
+    closeShapeMenu();
   }
 
+  // Guaranteed Stylus/Touch Detection for Popups (Left half = Copy, Right half = Delete)
   if (selectionPopup.style.display === 'flex') {
     const popRect = selectionPopup.getBoundingClientRect();
     if (clientX >= popRect.left && clientX <= popRect.right && clientY >= popRect.top && clientY <= popRect.bottom) {
-      const copyBtn = document.getElementById('copySelectionBtn');
-      const cpRect = copyBtn.getBoundingClientRect();
-      if (clientX >= cpRect.left && clientX <= cpRect.right && clientY >= cpRect.top && clientY <= cpRect.bottom) {
+      const midX = (popRect.left + popRect.right) / 2;
+      if (clientX < midX) {
         copySelectedItems();
-        return;
-      }
-      const delBtn = document.getElementById('deleteSelectionBtn');
-      const dRect = delBtn.getBoundingClientRect();
-      if (clientX >= dRect.left && clientX <= dRect.right && clientY >= dRect.top && clientY <= dRect.bottom) {
+      } else {
         deleteSelectedItems();
-        return;
       }
+      return;
     }
   }
 
   if (pastePopup.style.display === 'flex') {
     const pRect = pastePopup.getBoundingClientRect();
     if (clientX >= pRect.left && clientX <= pRect.right && clientY >= pRect.top && clientY <= pRect.bottom) {
-      const doPBtn = document.getElementById('doPasteBtn');
-      const dpRect = doPBtn.getBoundingClientRect();
-      if (clientX >= dpRect.left && clientX <= dpRect.right && clientY >= dpRect.top && clientY <= dpRect.bottom) {
-        if (pasteTargetPos) pasteItemsAt(pasteTargetPos.x, pasteTargetPos.y);
-        return;
+      const targetPt = pasteTargetPos || toCanvasCoord(clientX, clientY);
+      hidePastePopup();
+      if (clipboardItems.length > 0) {
+        pasteItemsAt(targetPt.x, targetPt.y, clipboardItems);
       }
+      return;
     }
   }
 
   hidePastePopup();
-
-  if (inlineEditor.style.display === 'block') {
-    commitInlineText();
-  }
+  if (inlineEditor.style.display === 'block') commitInlineText();
 
   if (currentTool === 'hand') {
     isPanning = true;
@@ -1600,23 +1466,40 @@ function handleStart(clientX, clientY) {
 
   const cPt = toCanvasCoord(clientX, clientY);
 
-  // Check if grabbing an image corner resize handle
-  if (currentTool === 'select' || currentTool === 'lasso') {
-    const resizeHit = getSelectionCornerHandle(cPt);
-    if (resizeHit) {
-      pushHistory();
-      isResizing = true;
+  // Check if grabbing an endpoint or resize handle
+  const resizeHit = getSelectionHandle(cPt);
+  if (resizeHit) {
+    pushHistory();
+    isResizing = true;
+    const it = resizeHit.item;
+
+    if (resizeHit.isEndpoint) {
       activeResizeData = {
+        isEndpoint: true,
         handle: resizeHit.handle,
-        item: resizeHit.item,
-        origX: resizeHit.item.x,
-        origY: resizeHit.item.y,
-        origWidth: resizeHit.item.width,
-        origHeight: resizeHit.item.height,
-        aspectRatio: resizeHit.item.width / Math.max(1, resizeHit.item.height)
+        item: it
       };
       return;
     }
+
+    const isImg = it.type === 'image';
+    const minX = isImg ? it.x : Math.min(it.x1, it.x2);
+    const minY = isImg ? it.y : Math.min(it.y1, it.y2);
+    const w = isImg ? it.width : Math.max(1, Math.abs(it.x2 - it.x1));
+    const h = isImg ? it.height : Math.max(1, Math.abs(it.y2 - it.y1));
+
+    activeResizeData = {
+      isEndpoint: false,
+      handle: resizeHit.handle,
+      isCorner: resizeHit.isCorner,
+      item: it,
+      origX: minX,
+      origY: minY,
+      origWidth: w,
+      origHeight: h,
+      aspectRatio: w / h
+    };
+    return;
   }
 
   if (currentTool === 'pen') {
@@ -1626,6 +1509,29 @@ function handleStart(clientX, clientY) {
     items.push(currentStroke);
     render();
   } else if (currentTool === 'shape') {
+    // Redesigned Shape Tool Workflow:
+    // If an active freshly created shape exists:
+    if (activeCreatedShape && selectedItems.has(activeCreatedShape)) {
+      const isInside = (activeCreatedShape.shapeType === 'arrow' || activeCreatedShape.shapeType === 'line')
+        ? isPointNearShape(cPt, activeCreatedShape, 18)
+        : isPointInsideShape(cPt, activeCreatedShape);
+
+      if (isInside) {
+        pushHistory();
+        isMovingActiveShape = true;
+        dragStartPos = cPt;
+        return;
+      }
+
+      // Tapped outside: Deselect & commit it!
+      selectedItems.clear();
+      activeCreatedShape = null;
+      updateSelectionPopupPosition();
+      render();
+      // Immediately proceed below to create the new shape
+    }
+
+    // In Shape tool, clicking old shapes never selects them. Start drawing new shape immediately:
     isInteracting = true;
     currentShape = {
       type: 'shape',
@@ -1635,6 +1541,7 @@ function handleStart(clientX, clientY) {
       x2: cPt.x,
       y2: cPt.y,
       color: currentColor,
+      fill: (['rect', 'square', 'circle', 'ellipse'].includes(activeShapeType)) ? isFillActive : false,
       size: PEN_SIZE
     };
     render();
@@ -1648,10 +1555,9 @@ function handleStart(clientX, clientY) {
 
     const sBounds = getSelectedTotalBounds();
     const pad = 10;
-    const isInsideSelectionBounds = sBounds && 
-      (cPt.x >= sBounds.minX - pad && cPt.x <= sBounds.maxX + pad && cPt.y >= sBounds.minY - pad && cPt.y <= sBounds.maxY + pad);
+    const isInside = sBounds && (cPt.x >= sBounds.minX - pad && cPt.x <= sBounds.maxX + pad && cPt.y >= sBounds.minY - pad && cPt.y <= sBounds.maxY + pad);
 
-    if (isInsideSelectionBounds) {
+    if (isInside) {
       pushHistory();
       isMarquee = false;
     } else {
@@ -1677,10 +1583,9 @@ function handleStart(clientX, clientY) {
 
     const sBounds = getSelectedTotalBounds();
     const pad = 10;
-    const isInsideSelectionBounds = sBounds && 
-      (cPt.x >= sBounds.minX - pad && cPt.x <= sBounds.maxX + pad && cPt.y >= sBounds.minY - pad && cPt.y <= sBounds.maxY + pad);
+    const isInside = sBounds && (cPt.x >= sBounds.minX - pad && cPt.x <= sBounds.maxX + pad && cPt.y >= sBounds.minY - pad && cPt.y <= sBounds.maxY + pad);
 
-    if (isInsideSelectionBounds) {
+    if (isInside) {
       pushHistory();
       isLassoing = false;
     } else {
@@ -1693,11 +1598,8 @@ function handleStart(clientX, clientY) {
     render();
   } else if (currentTool === 'text') {
     const clicked = getItemAt(cPt);
-    if (clicked && clicked.type === 'text') {
-      openInlineTextEditor(cPt, clicked);
-    } else {
-      openInlineTextEditor(cPt, null);
-    }
+    if (clicked && clicked.type === 'text') openInlineTextEditor(cPt, clicked);
+    else openInlineTextEditor(cPt, null);
   }
 }
 
@@ -1716,69 +1618,130 @@ function handleMove(clientX, clientY) {
 
   const cPt = toCanvasCoord(clientX, clientY);
 
-  // 1. Proportional Image Resizing with Aspect-Ratio Lock
-  if (isResizing && activeResizeData) {
-    const { handle, item, origX, origY, origWidth, origHeight } = activeResizeData;
-    let newW = origWidth, newH = origHeight, newX = origX, newY = origY;
-
-    if (handle === 'br') {
-      const anchor = { x: origX, y: origY };
-      const V = { x: origWidth, y: origHeight };
-      const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
-      let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
-      sf = Math.max(20 / origWidth, sf);
-      newW = origWidth * sf;
-      newH = origHeight * sf;
-      newX = origX;
-      newY = origY;
-    } else if (handle === 'tl') {
-      const anchor = { x: origX + origWidth, y: origY + origHeight };
-      const V = { x: -origWidth, y: -origHeight };
-      const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
-      let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
-      sf = Math.max(20 / origWidth, sf);
-      newW = origWidth * sf;
-      newH = origHeight * sf;
-      newX = anchor.x - newW;
-      newY = anchor.y - newH;
-    } else if (handle === 'tr') {
-      const anchor = { x: origX, y: origY + origHeight };
-      const V = { x: origWidth, y: -origHeight };
-      const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
-      let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
-      sf = Math.max(20 / origWidth, sf);
-      newW = origWidth * sf;
-      newH = origHeight * sf;
-      newX = anchor.x;
-      newY = anchor.y - newH;
-    } else if (handle === 'bl') {
-      const anchor = { x: origX + origWidth, y: origY };
-      const V = { x: -origWidth, y: origHeight };
-      const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
-      let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
-      sf = Math.max(20 / origWidth, sf);
-      newW = origWidth * sf;
-      newH = origHeight * sf;
-      newX = anchor.x - newW;
-      newY = anchor.y;
-    }
-
-    item.x = newX;
-    item.y = newY;
-    item.width = newW;
-    item.height = newH;
-
+  // Moving the freshly created shape directly within Shape Tool
+  if (isMovingActiveShape && activeCreatedShape && dragStartPos) {
+    const dx = cPt.x - dragStartPos.x;
+    const dy = cPt.y - dragStartPos.y;
+    activeCreatedShape.x1 += dx; activeCreatedShape.y1 += dy;
+    activeCreatedShape.x2 += dx; activeCreatedShape.y2 += dy;
+    dragStartPos = cPt;
     updateSelectionPopupPosition();
     render();
+    broadcastLiveUpdate({ type: 'live-items-update', items: serializeItemsForSync() });
     return;
   }
 
-  // Hover cursor indicator for image corners on desktop
-  if (!isInteracting && !isPanning && (currentTool === 'select' || currentTool === 'lasso')) {
-    const handleHit = getSelectionCornerHandle(cPt);
+  if (isResizing && activeResizeData) {
+    // Arrow / Line Redirection & Length Stretching
+    if (activeResizeData.isEndpoint) {
+      const it = activeResizeData.item;
+      if (activeResizeData.handle === 'tip') {
+        if (it.shapeType === 'arrow') {
+          const angle = Math.atan2(cPt.y - it.y1, cPt.x - it.x1);
+          const totalDist = Math.hypot(cPt.x - it.x1, cPt.y - it.y1);
+          const offset = ARROW_HANDLE_OFFSET / scale;
+          const arrowDist = Math.max(12, totalDist - offset);
+          it.x2 = it.x1 + Math.cos(angle) * arrowDist;
+          it.y2 = it.y1 + Math.sin(angle) * arrowDist;
+        } else {
+          it.x2 = cPt.x;
+          it.y2 = cPt.y;
+        }
+      } else if (activeResizeData.handle === 'start') {
+        it.x1 = cPt.x;
+        it.y1 = cPt.y;
+      }
+      updateSelectionPopupPosition();
+      render();
+      broadcastLiveUpdate({ type: 'live-items-update', items: serializeItemsForSync() });
+      return;
+    }
+
+    // 8-Handle Resizing
+    const { handle, isCorner, item, origX, origY, origWidth, origHeight } = activeResizeData;
+    let newX = origX, newY = origY, newW = origWidth, newH = origHeight;
+
+    if (isCorner) {
+      if (handle === 'br') {
+        const anchor = { x: origX, y: origY };
+        const V = { x: origWidth, y: origHeight };
+        const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
+        let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
+        sf = Math.max(10 / origWidth, sf);
+        newW = origWidth * sf; newH = origHeight * sf;
+      } else if (handle === 'tl') {
+        const anchor = { x: origX + origWidth, y: origY + origHeight };
+        const V = { x: -origWidth, y: -origHeight };
+        const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
+        let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
+        sf = Math.max(10 / origWidth, sf);
+        newW = origWidth * sf; newH = origHeight * sf;
+        newX = anchor.x - newW; newY = anchor.y - newH;
+      } else if (handle === 'tr') {
+        const anchor = { x: origX, y: origY + origHeight };
+        const V = { x: origWidth, y: -origHeight };
+        const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
+        let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
+        sf = Math.max(10 / origWidth, sf);
+        newW = origWidth * sf; newH = origHeight * sf;
+        newY = anchor.y - newH;
+      } else if (handle === 'bl') {
+        const anchor = { x: origX + origWidth, y: origY };
+        const V = { x: -origWidth, y: -origHeight };
+        const P = { x: cPt.x - anchor.x, y: cPt.y - anchor.y };
+        let sf = (P.x * V.x + P.y * V.y) / (V.x * V.x + V.y * V.y);
+        sf = Math.max(10 / origWidth, sf);
+        newW = origWidth * sf; newH = origHeight * sf;
+        newX = anchor.x - newW;
+      }
+    } else {
+      if (handle === 'r') {
+        newW = Math.max(10, cPt.x - origX);
+        if (item.shapeType === 'square') item.shapeType = 'rect';
+        if (item.shapeType === 'circle') item.shapeType = 'ellipse';
+      } else if (handle === 'l') {
+        const anchorX = origX + origWidth;
+        newW = Math.max(10, anchorX - cPt.x);
+        newX = anchorX - newW;
+        if (item.shapeType === 'square') item.shapeType = 'rect';
+        if (item.shapeType === 'circle') item.shapeType = 'ellipse';
+      } else if (handle === 'b') {
+        newH = Math.max(10, cPt.y - origY);
+        if (item.shapeType === 'square') item.shapeType = 'rect';
+        if (item.shapeType === 'circle') item.shapeType = 'ellipse';
+      } else if (handle === 't') {
+        const anchorY = origY + origHeight;
+        newH = Math.max(10, anchorY - cPt.y);
+        newY = anchorY - newH;
+        if (item.shapeType === 'square') item.shapeType = 'rect';
+        if (item.shapeType === 'circle') item.shapeType = 'ellipse';
+      }
+    }
+
+    if (item.type === 'image') {
+      item.x = newX; item.y = newY; item.width = newW; item.height = newH;
+    } else if (item.type === 'shape') {
+      item.x1 = newX; item.y1 = newY; item.x2 = newX + newW; item.y2 = newY + newH;
+    }
+
+    updateSelectionPopupPosition();
+    render();
+    broadcastLiveUpdate({ type: 'live-items-update', items: serializeItemsForSync() });
+    return;
+  }
+
+  // Hover indicator for desktop mice
+  if (!isInteracting && !isPanning && selectedItems.size === 1) {
+    const handleHit = getSelectionHandle(cPt);
     if (handleHit) {
-      if (handleHit.handle === 'tl' || handleHit.handle === 'br') canvas.style.cursor = 'nwse-resize';
-      else canvas.style.cursor = 'nesw-resize';
+      if (handleHit.isEndpoint) canvas.style.cursor = 'crosshair';
+      else if (handleHit.isCorner) {
+        if (handleHit.handle === 'tl' || handleHit.handle === 'br') canvas.style.cursor = 'nwse-resize';
+        else canvas.style.cursor = 'nesw-resize';
+      } else {
+        if (handleHit.handle === 't' || handleHit.handle === 'b') canvas.style.cursor = 'ns-resize';
+        else canvas.style.cursor = 'ew-resize';
+      }
     } else if (canvas.style.cursor.includes('resize')) {
       canvas.style.cursor = currentTool === 'hand' ? 'grab' : 'crosshair';
     }
@@ -1794,10 +1757,10 @@ function handleMove(clientX, clientY) {
     if (currentTool === 'pen' && currentStroke) {
       currentStroke.points.push(cPt);
       render();
+      broadcastLiveUpdate({ type: 'live-stroke', stroke: currentStroke });
     } else if (currentTool === 'shape' && currentShape) {
       if (currentShape.shapeType === 'square' || currentShape.shapeType === 'circle') {
-        const dx = cPt.x - currentShape.x1;
-        const dy = cPt.y - currentShape.y1;
+        const dx = cPt.x - currentShape.x1, dy = cPt.y - currentShape.y1;
         const side = Math.max(Math.abs(dx), Math.abs(dy));
         currentShape.x2 = currentShape.x1 + Math.sign(dx || 1) * side;
         currentShape.y2 = currentShape.y1 + Math.sign(dy || 1) * side;
@@ -1806,6 +1769,7 @@ function handleMove(clientX, clientY) {
         currentShape.y2 = cPt.y;
       }
       render();
+      broadcastLiveUpdate({ type: 'live-shape', shape: currentShape });
     } else if (currentTool === 'eraser') {
       eraseAt(cPt);
     } else if (currentTool === 'select') {
@@ -1813,8 +1777,7 @@ function handleMove(clientX, clientY) {
         marqueeEnd = cPt;
         selectItemsInBox(marqueeStart, marqueeEnd);
       } else if (dragStartPos && selectedItems.size > 0) {
-        const dx = cPt.x - dragStartPos.x;
-        const dy = cPt.y - dragStartPos.y;
+        const dx = cPt.x - dragStartPos.x, dy = cPt.y - dragStartPos.y;
         selectedItems.forEach(it => {
           if (it.type === 'stroke') it.points.forEach(p => { p.x += dx; p.y += dy; });
           else if (it.type === 'shape') { it.x1 += dx; it.y1 += dy; it.x2 += dx; it.y2 += dy; }
@@ -1823,14 +1786,15 @@ function handleMove(clientX, clientY) {
         dragStartPos = cPt;
         updateSelectionPopupPosition();
         render();
+        // Live stream object movement to other devices
+        broadcastLiveUpdate({ type: 'live-items-update', items: serializeItemsForSync() });
       }
     } else if (currentTool === 'lasso') {
       if (isLassoing) {
         lassoPoints.push(cPt);
         render();
       } else if (dragStartPos && selectedItems.size > 0) {
-        const dx = cPt.x - dragStartPos.x;
-        const dy = cPt.y - dragStartPos.y;
+        const dx = cPt.x - dragStartPos.x, dy = cPt.y - dragStartPos.y;
         selectedItems.forEach(it => {
           if (it.type === 'stroke') it.points.forEach(p => { p.x += dx; p.y += dy; });
           else if (it.type === 'shape') { it.x1 += dx; it.y1 += dy; it.x2 += dx; it.y2 += dy; }
@@ -1839,6 +1803,8 @@ function handleMove(clientX, clientY) {
         dragStartPos = cPt;
         updateSelectionPopupPosition();
         render();
+        // Live stream lasso selection movement to other devices
+        broadcastLiveUpdate({ type: 'live-items-update', items: serializeItemsForSync() });
       }
     }
   }
@@ -1847,12 +1813,21 @@ function handleMove(clientX, clientY) {
 function handleEnd() {
   if (!currentFileName) return;
 
+  if (isMovingActiveShape) {
+    isMovingActiveShape = false;
+    dragStartPos = null;
+    broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
+    triggerAutoSave();
+    return;
+  }
+
   if (isResizing) {
     isResizing = false;
     activeResizeData = null;
     canvas.style.cursor = currentTool === 'hand' ? 'grab' : 'crosshair';
     updateSelectionPopupPosition();
     render();
+    broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
     clearTimeout(autoSaveTimer);
     autoSaveTimer = setTimeout(triggerAutoSave, 1000);
     return;
@@ -1867,19 +1842,46 @@ function handleEnd() {
 
   if (isInteracting) {
     isInteracting = false;
+    const finishedStroke = currentStroke;
+    const finishedShape = currentShape;
     currentStroke = null;
     dragStartPos = null;
     isMarquee = false;
     marqueeStart = null;
     marqueeEnd = null;
 
-    if (currentTool === 'shape' && currentShape) {
-      const dist = Math.hypot(currentShape.x2 - currentShape.x1, currentShape.y2 - currentShape.y1);
+    if (currentTool === 'pen' && finishedStroke) {
+      // Commit stroke directly to remote devices so it never flickers or disappears
+      broadcastLiveUpdate({ type: 'live-stroke-commit', stroke: finishedStroke }, true);
+    }
+
+    if (currentTool === 'shape' && finishedShape) {
+      const dist = Math.hypot(finishedShape.x2 - finishedShape.x1, finishedShape.y2 - finishedShape.y1);
       if (dist > 4) {
+        if (['rect', 'square', 'circle', 'ellipse'].includes(finishedShape.shapeType)) {
+          const minX = Math.min(finishedShape.x1, finishedShape.x2), minY = Math.min(finishedShape.y1, finishedShape.y2);
+          const maxX = Math.max(finishedShape.x1, finishedShape.x2), maxY = Math.max(finishedShape.y1, finishedShape.y2);
+          finishedShape.x1 = minX; finishedShape.y1 = minY; finishedShape.x2 = maxX; finishedShape.y2 = maxY;
+        }
         pushHistory();
-        items.push(currentShape);
+        items.push(finishedShape);
+        selectedItems.clear();
+        selectedItems.add(finishedShape);
+        activeCreatedShape = finishedShape; // Ready for immediate nudge or handle-resize
+        // Commit shape directly to remote devices
+        broadcastLiveUpdate({ type: 'live-shape-commit', shape: finishedShape }, true);
+      } else {
+        broadcastLiveUpdate({ type: 'live-end' }, true);
       }
       currentShape = null;
+    }
+
+    if (currentTool === 'select' || currentTool === 'lasso') {
+      broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
+    }
+
+    if (currentTool === 'eraser') {
+      broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
     }
 
     if (isLassoing) {
@@ -1889,7 +1891,7 @@ function handleEnd() {
     }
 
     if (selectionTapCandidate && !selectionTapCandidate.isDrag) {
-      if (selectedItems.size === 0 && clipboardItems.length > 0) {
+      if (selectedItems.size === 0 && isTouchDevice() && clipboardItems.length > 0) {
         showPastePopup(selectionTapCandidate.clientX, selectionTapCandidate.clientY, selectionTapCandidate.cPt);
       }
     }
@@ -1904,8 +1906,7 @@ function handleEnd() {
 
 let activeStylusId = null;
 let nativeSinglePan = null;
-let nativePinchDist = null;
-let nativePinchMid = null;
+let nativePinchDist = null, nativePinchMid = null;
 
 window.onNativeTouch = function(phase, touchArray) {
   if (!currentFileName || !touchArray || touchArray.length === 0) return;
@@ -1913,11 +1914,9 @@ window.onNativeTouch = function(phase, touchArray) {
   const stylus = touchArray.find(t => t.type === 'stylus');
   const fingers = touchArray.filter(t => t.type === 'direct');
 
-  // 1. STYLUS HAS ABSOLUTE PRIORITY OVER FINGERS
   if (stylus) {
-    nativeSinglePan = null;
-    nativePinchDist = null;
-
+    lastInputType = 'stylus';
+    nativeSinglePan = null; nativePinchDist = null;
     if (activeStylusId === null) {
       activeStylusId = stylus.id;
       handleStart(stylus.x, stylus.y);
@@ -1932,25 +1931,20 @@ window.onNativeTouch = function(phase, touchArray) {
     return;
   }
 
-  // If stylus is active, ignore finger touches to keep shape/stroke anchor fixed
   if (activeStylusId !== null) {
     activeStylusId = null;
     handleEnd();
     return;
   }
 
-  // 2. FINGER TOUCH NAVIGATION (Independent of selected tool when unlocked)
   if (activeStylusId === null) {
-    if (isNavLocked) {
-      return;
-    }
+    if (fingers.length > 0) lastInputType = 'touch';
+    if (isNavLocked) return;
 
-    // 1-Finger Pan
     if (fingers.length === 1) {
       const f = fingers[0];
       if (phase === 'start' || !nativeSinglePan) {
-        isPanning = true;
-        nativePinchDist = null;
+        isPanning = true; nativePinchDist = null;
         nativeSinglePan = { x: f.x, y: f.y, startPanX: panX, startPanY: panY };
       } else if (phase === 'move' && isPanning && nativeSinglePan) {
         panX = nativeSinglePan.startPanX + (f.x - nativeSinglePan.x);
@@ -1959,13 +1953,11 @@ window.onNativeTouch = function(phase, touchArray) {
         updateSelectionPopupPosition();
         render();
       } else if (phase === 'end' || phase === 'cancel' || f.phase === 'ended' || f.phase === 'cancelled') {
-        isPanning = false;
-        nativeSinglePan = null;
+        isPanning = false; nativeSinglePan = null;
       }
       return;
     }
 
-    // 2-Finger Pinch Zoom & Pan
     if (fingers.length >= 2) {
       nativeSinglePan = null;
       const f1 = fingers[0], f2 = fingers[1];
@@ -1979,34 +1971,25 @@ window.onNativeTouch = function(phase, touchArray) {
       } else if (phase === 'move' && nativePinchDist && currentDist > 0) {
         panX += (currentMid.x - nativePinchMid.x);
         panY += (currentMid.y - nativePinchMid.y);
-        
         const newScale = Math.min(Math.max(0.2, scale * (currentDist / nativePinchDist)), 5.0);
-        const canvasX = (currentMid.x - panX) / scale;
-        const canvasY = (currentMid.y - panY) / scale;
+        const canvasX = (currentMid.x - panX) / scale, canvasY = (currentMid.y - panY) / scale;
         scale = newScale;
         panX = currentMid.x - canvasX * scale;
         panY = currentMid.y - canvasY * scale;
-
-        nativePinchDist = currentDist;
-        nativePinchMid = currentMid;
+        nativePinchDist = currentDist; nativePinchMid = currentMid;
         updateInlineEditorPosition();
         updateSelectionPopupPosition();
         updateZoomDisplay();
         render();
       } else if (phase === 'end' || phase === 'cancel') {
-        isPanning = false;
-        nativePinchDist = null;
-        nativePinchMid = null;
+        isPanning = false; nativePinchDist = null; nativePinchMid = null;
       }
       return;
     }
   }
 
   if (phase === 'end' || phase === 'cancel') {
-    isPanning = false;
-    nativeSinglePan = null;
-    nativePinchDist = null;
-    nativePinchMid = null;
+    isPanning = false; nativeSinglePan = null; nativePinchDist = null; nativePinchMid = null;
   }
 };
 
@@ -2020,6 +2003,7 @@ canvas.addEventListener('touchstart', (e) => {
   const stylusTouch = touches.find(t => t.touchType === 'stylus');
 
   if (stylusTouch) {
+    lastInputType = 'stylus';
     if (activeTouchId !== stylusTouch.identifier) {
       activeTouchId = stylusTouch.identifier;
       singleFingerPan = null;
@@ -2028,13 +2012,12 @@ canvas.addEventListener('touchstart', (e) => {
     return;
   }
 
+  lastInputType = 'touch';
   if (activeTouchId !== null) return;
 
   if (touches.length === 2) {
     if (isNavLocked) return;
-    isInteracting = false;
-    isPanning = true;
-    singleFingerPan = null;
+    isInteracting = false; isPanning = true; singleFingerPan = null;
     prevPinchDist = Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
     prevPinchMid = { x: (touches[0].clientX + touches[1].clientX) / 2, y: (touches[0].clientY + touches[1].clientY) / 2 };
     return;
@@ -2056,10 +2039,7 @@ canvas.addEventListener('touchmove', (e) => {
       return;
     }
   }
-
-  if (isNavLocked) {
-    return;
-  }
+  if (isNavLocked) return;
 
   if (isPanning && singleFingerPan && e.touches.length === 1) {
     const t = e.touches[0];
@@ -2078,16 +2058,12 @@ canvas.addEventListener('touchmove', (e) => {
     if (currentDist > 0) {
       panX += (currentMid.x - prevPinchMid.x);
       panY += (currentMid.y - prevPinchMid.y);
-      
       const newScale = Math.min(Math.max(0.2, scale * (currentDist / prevPinchDist)), 5.0);
-      const canvasX = (currentMid.x - panX) / scale;
-      const canvasY = (currentMid.y - panY) / scale;
+      const canvasX = (currentMid.x - panX) / scale, canvasY = (currentMid.y - panY) / scale;
       scale = newScale;
       panX = currentMid.x - canvasX * scale;
       panY = currentMid.y - canvasY * scale;
-
-      prevPinchDist = currentDist;
-      prevPinchMid = currentMid;
+      prevPinchDist = currentDist; prevPinchMid = currentMid;
       updateInlineEditorPosition();
       updateSelectionPopupPosition();
       updateZoomDisplay();
@@ -2099,24 +2075,12 @@ canvas.addEventListener('touchmove', (e) => {
 function handleTouchEnd(e) {
   e.preventDefault();
   const ended = Array.from(e.changedTouches).find(t => t.identifier === activeTouchId);
-  if (ended) {
-    activeTouchId = null;
-    handleEnd();
-  }
+  if (ended) { activeTouchId = null; handleEnd(); }
   if (e.touches.length === 0) {
-    isPanning = false;
-    singleFingerPan = null;
-    prevPinchDist = null;
-    prevPinchMid = null;
+    isPanning = false; singleFingerPan = null; prevPinchDist = null; prevPinchMid = null;
   } else if (e.touches.length === 1 && activeTouchId === null) {
-    if (isNavLocked) {
-      isPanning = false;
-      singleFingerPan = null;
-      return;
-    }
-    isPanning = true;
-    prevPinchDist = null;
-    prevPinchMid = null;
+    if (isNavLocked) { isPanning = false; singleFingerPan = null; return; }
+    isPanning = true; prevPinchDist = null; prevPinchMid = null;
     singleFingerPan = { x: e.touches[0].clientX, y: e.touches[0].clientY, startPanX: panX, startPanY: panY };
   }
 }
@@ -2124,10 +2088,10 @@ canvas.addEventListener('touchend', handleTouchEnd, { passive: false });
 canvas.addEventListener('touchcancel', handleTouchEnd, { passive: false });
 
 canvas.addEventListener('mousedown', (e) => {
+  lastInputType = 'mouse';
+  hidePastePopup();
   if (e.button === 0) {
-    if (currentTool === 'text' && e.target === canvas) {
-      e.preventDefault();
-    }
+    if (currentTool === 'text' && e.target === canvas) e.preventDefault();
     handleStart(e.clientX, e.clientY);
   }
 });
@@ -2136,80 +2100,100 @@ window.addEventListener('mouseup', () => handleEnd());
 
 canvas.addEventListener('wheel', (e) => {
   e.preventDefault();
-
+  lastInputType = 'mouse';
   if (e.ctrlKey || e.metaKey) {
     if (isNavLocked) return;
-
     const zoomFactor = e.deltaY < 0 ? 1.08 : 0.92;
     const newScale = Math.min(Math.max(0.2, scale * zoomFactor), 5.0);
     const mousePt = { x: e.clientX, y: e.clientY };
-    const canvasX = (mousePt.x - panX) / scale;
-    const canvasY = (mousePt.y - panY) / scale;
+    const canvasX = (mousePt.x - panX) / scale, canvasY = (mousePt.y - panY) / scale;
     scale = newScale;
-    panX = mousePt.x - canvasX * scale;
-    panY = mousePt.y - canvasY * scale;
+    panX = mousePt.x - canvasX * scale; panY = mousePt.y - canvasY * scale;
     updateZoomDisplay();
   } else {
     if (isNavLocked && currentTool !== 'hand') return;
-    panX -= e.deltaX;
-    panY -= e.deltaY;
+    panX -= e.deltaX; panY -= e.deltaY;
   }
   updateInlineEditorPosition();
   updateSelectionPopupPosition();
   render();
 }, { passive: false });
 
+// Desktop Native Paste Handler (Supports Cmd+V for external images, text, and copied canvas items)
 window.addEventListener('paste', async (e) => {
   if (!currentFileName) return;
-  const clipboardItemsList = e.clipboardData?.items;
-  if (!clipboardItemsList) return;
   const targetPt = toCanvasCoord(lastMousePos.x, lastMousePos.y);
 
-  for (const it of clipboardItemsList) {
-    if (it.type.includes('image')) {
-      const file = it.getAsFile();
-      if (!file) continue;
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        const dataUrl = event.target.result;
-        const img = new Image();
-        img.onload = () => {
-          pushHistory();
-          const maxDim = 400;
-          let w = img.width, h = img.height;
-          if (w > maxDim || h > maxDim) {
-            if (w > h) { h = (h / w) * maxDim; w = maxDim; }
-            else { w = (w / h) * maxDim; h = maxDim; }
-          }
-          const newImgItem = { type: 'image', x: targetPt.x - w/2, y: targetPt.y - h/2, width: w, height: h, dataUrl, imgObj: img };
-          items.push(newImgItem);
-          selectedItems.clear();
-          selectedItems.add(newImgItem);
-          setTool('select');
-          updateSelectionPopupPosition();
-          render();
-          triggerAutoSave();
+  if (e.clipboardData && e.clipboardData.items) {
+    const itemsList = Array.from(e.clipboardData.items);
+    const imageItem = itemsList.find(it => it.type.includes('image'));
+    if (imageItem) {
+      e.preventDefault();
+      const file = imageItem.getAsFile();
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          const dataUrl = event.target.result;
+          const img = new Image();
+          img.onload = () => {
+            pushHistory();
+            const maxDim = 400;
+            let w = img.width, h = img.height;
+            if (w > maxDim || h > maxDim) {
+              if (w > h) { h = (h / w) * maxDim; w = maxDim; }
+              else { w = (w / h) * maxDim; h = maxDim; }
+            }
+            const newImgItem = { type: 'image', x: targetPt.x - w / 2, y: targetPt.y - h / 2, width: w, height: h, dataUrl, imgObj: img };
+            items.push(newImgItem);
+            selectedItems.clear();
+            selectedItems.add(newImgItem);
+            setTool('select');
+            updateSelectionPopupPosition();
+            render();
+            broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
+            triggerAutoSave();
+          };
+          img.src = dataUrl;
         };
-        img.src = dataUrl;
-      };
-      reader.readAsDataURL(file);
-    } else if (it.type === 'text/plain') {
-      it.getAsString((text) => {
-        if (text) {
-          pushHistory();
-          items.push({ type: 'text', text, x: targetPt.x, y: targetPt.y, color: currentColor, fontSize: 18 });
-          render();
-          triggerAutoSave();
-        }
-      });
+        reader.readAsDataURL(file);
+        return;
+      }
     }
+  }
+
+  const text = e.clipboardData ? e.clipboardData.getData('text/plain') : '';
+  if (text) {
+    e.preventDefault();
+    try {
+      const parsed = JSON.parse(text);
+      if (parsed && parsed.source === 'airsketch' && Array.isArray(parsed.items) && parsed.items.length > 0) {
+        pasteItemsAt(targetPt.x, targetPt.y, parsed.items);
+        return;
+      }
+    } catch (_) {}
+
+    pushHistory();
+    const newTextItem = { type: 'text', text: text, x: targetPt.x, y: targetPt.y, color: currentColor, fontSize: 18 };
+    items.push(newTextItem);
+    selectedItems.clear();
+    selectedItems.add(newTextItem);
+    updateSelectionPopupPosition();
+    render();
+    broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
+    triggerAutoSave();
+    return;
+  }
+
+  if (clipboardItems.length > 0) {
+    e.preventDefault();
+    pasteItemsAt(targetPt.x, targetPt.y, clipboardItems);
   }
 });
 
 function bindBtn(btnEl, callback) {
   const handler = (e) => {
     e.preventDefault(); e.stopPropagation();
-    callback();
+    callback(e);
     isInteracting = false; isPanning = false; currentStroke = null; currentShape = null;
   };
   btnEl.addEventListener('touchstart', handler, { passive: false });
@@ -2221,9 +2205,7 @@ document.querySelectorAll('.color-dot').forEach(dot => {
     document.querySelectorAll('.color-dot').forEach(d => d.classList.remove('active'));
     dot.classList.add('active');
     currentColor = dot.dataset.color;
-    if (currentTool === 'eraser' || currentTool === 'hand') {
-      setTool('pen');
-    }
+    if (currentTool === 'eraser' || currentTool === 'hand') setTool('pen');
   });
 });
 
@@ -2233,24 +2215,28 @@ bindBtn(document.getElementById('eraserBtn'), () => setTool('eraser'));
 bindBtn(document.getElementById('shapeBtn'), () => {
   if (currentTool !== 'shape') {
     setTool('shape');
-    shapeMenu.style.display = 'none';
+    closeShapeMenu();
   } else {
-    const isOpened = shapeMenu.style.display === 'flex';
-    shapeMenu.style.display = isOpened ? 'none' : 'flex';
+    if (shapeMenu.style.display === 'flex') closeShapeMenu();
+    else openShapeMenu();
   }
 });
 
 document.querySelectorAll('#shapeMenu .shape-item').forEach(item => {
-  bindBtn(item, () => {
+  const selectShape = (e) => {
+    e.preventDefault(); e.stopPropagation();
     activeShapeType = item.dataset.shape;
     document.querySelectorAll('#shapeMenu .shape-item').forEach(i => i.classList.remove('active'));
     item.classList.add('active');
     updateShapeButtonIcon();
-    shapeMenu.style.display = 'none';
+    closeShapeMenu();
     setTool('shape');
-  });
+  };
+  item.addEventListener('touchstart', selectShape, { passive: false });
+  item.addEventListener('mousedown', selectShape);
 });
 
+bindBtn(document.getElementById('fillBtn'), () => toggleShapeFill());
 bindBtn(document.getElementById('selectBtn'), () => setTool('select'));
 bindBtn(document.getElementById('handBtn'), () => setTool('hand'));
 bindBtn(document.getElementById('lassoBtn'), () => setTool('lasso'));
@@ -2259,20 +2245,37 @@ bindBtn(document.getElementById('textBtn'), () => setTool('text'));
 bindBtn(document.getElementById('resetZoomBtn'), () => resetZoom());
 bindBtn(document.getElementById('lockNavBtn'), () => toggleNavLock());
 
-bindBtn(document.getElementById('copySelectionBtn'), () => copySelectedItems());
-bindBtn(document.getElementById('deleteSelectionBtn'), () => deleteSelectedItems());
+// Touch/Stylus Popup Handlers
+const copyBtn = document.getElementById('copySelectionBtn');
+copyBtn.addEventListener('click', (e) => { e.stopPropagation(); copySelectedItems(); });
+copyBtn.addEventListener('touchstart', (e) => { e.stopPropagation(); copySelectedItems(); }, { passive: false });
 
-bindBtn(document.getElementById('doPasteBtn'), () => {
-  if (pasteTargetPos) pasteItemsAt(pasteTargetPos.x, pasteTargetPos.y);
-});
+const delBtn = document.getElementById('deleteSelectionBtn');
+delBtn.addEventListener('click', (e) => { e.stopPropagation(); deleteSelectedItems(); });
+delBtn.addEventListener('touchstart', (e) => { e.stopPropagation(); deleteSelectedItems(); }, { passive: false });
+
+// Clean, Reliable Touch Paste Button
+const doPBtn = document.getElementById('doPasteBtn');
+const handleTouchPaste = (e) => {
+  if (e) e.stopPropagation();
+  const targetPt = pasteTargetPos || toCanvasCoord(lastMousePos.x, lastMousePos.y);
+  hidePastePopup();
+  if (clipboardItems.length > 0) {
+    pasteItemsAt(targetPt.x, targetPt.y, clipboardItems);
+  }
+};
+doPBtn.addEventListener('click', handleTouchPaste);
+doPBtn.addEventListener('touchstart', handleTouchPaste, { passive: false });
 
 function doUndo() {
   if (undoStack.length > 0) {
     redoStack.push(cloneState(items));
     items = undoStack.pop();
     selectedItems.clear();
+    activeCreatedShape = null;
     updateSelectionPopupPosition();
     render();
+    broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
     triggerAutoSave();
   }
 }
@@ -2282,8 +2285,10 @@ function doRedo() {
     undoStack.push(cloneState(items));
     items = redoStack.pop();
     selectedItems.clear();
+    activeCreatedShape = null;
     updateSelectionPopupPosition();
     render();
+    broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
     triggerAutoSave();
   }
 }
@@ -2303,12 +2308,7 @@ window.addEventListener('keydown', (e) => {
   }
 
   if ((e.metaKey || e.ctrlKey) && (e.key === 'v' || e.key === 'V')) {
-    if (clipboardItems.length > 0) {
-      e.preventDefault();
-      const targetPt = toCanvasCoord(lastMousePos.x, lastMousePos.y);
-      pasteItemsAt(targetPt.x, targetPt.y);
-      return;
-    }
+    return;
   }
 
   if ((e.key === 'Delete' || e.key === 'Backspace') && selectedItems.size > 0) {
@@ -2323,12 +2323,11 @@ window.addEventListener('keydown', (e) => {
   if (e.key === 'h' || e.key === 'H') { setTool('hand'); return; }
   if (e.key === 'l' || e.key === 'L') { setTool('lasso'); return; }
   if (e.key === 't' || e.key === 'T') { setTool('text'); return; }
-
   if ((e.metaKey || e.ctrlKey) && (e.key === '0')) { e.preventDefault(); resetZoom(); return; }
 
-  if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 'z' || e.key === 'Z')) { doRedo(); }
-  else if ((e.metaKey || e.ctrlKey) && (e.key === 'z' || e.key === 'Z')) { doUndo(); }
-  else if ((e.metaKey || e.ctrlKey) && (e.key === 'y' || e.key === 'Y')) { doRedo(); }
+  if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 'z' || e.key === 'Z')) doRedo();
+  else if ((e.metaKey || e.ctrlKey) && (e.key === 'z' || e.key === 'Z')) doUndo();
+  else if ((e.metaKey || e.ctrlKey) && (e.key === 'y' || e.key === 'Y')) doRedo();
 });
 
 async function triggerAutoSave() {
@@ -2358,7 +2357,6 @@ async function triggerAutoSave() {
   });
 
   const svgElements = items.map(it => itemToSvg(it)).join('\\n');
-
   const stateObj = { items: serializedItems, scale, panX, panY };
   const metaData = encodeURIComponent(JSON.stringify(stateObj));
   const svg = \`<svg xmlns="http://www.w3.org/2000/svg" viewBox="\${minX} \${minY} \${width} \${height}" width="100%" height="100%" style="background:#18181b;">
@@ -2396,6 +2394,7 @@ async function loadDrawingFile(fileName, markdownNote) {
         return it;
       });
       selectedItems.clear();
+      activeCreatedShape = null;
       undoStack.length = 0;
       redoStack.length = 0;
       scale = state.scale || 1;
@@ -2403,9 +2402,7 @@ async function loadDrawingFile(fileName, markdownNote) {
       panY = state.panY || 0;
       
       currentFileName = fileName;
-      if (markdownNote) {
-        parentNoteEl.innerText = markdownNote;
-      }
+      if (markdownNote) parentNoteEl.innerText = markdownNote;
       waitingOverlay.style.display = 'none';
       updateSelectionPopupPosition();
       updateZoomDisplay();
@@ -2434,10 +2431,47 @@ const sse = new EventSource(sseUrl);
 sse.onmessage = (e) => {
   try {
     const data = JSON.parse(e.data);
+    
+    // 1. Live zero-latency streams from other connected devices
+    if (data.name === currentFileName && data.senderId !== CLIENT_ID) {
+      if (data.type === 'live-stroke') {
+        remoteLiveStroke = data.stroke;
+        render();
+        return;
+      } else if (data.type === 'live-stroke-commit') {
+        remoteLiveStroke = null;
+        if (data.stroke) items.push(data.stroke);
+        render();
+        return;
+      } else if (data.type === 'live-shape') {
+        remoteLiveShape = data.shape;
+        render();
+        return;
+      } else if (data.type === 'live-shape-commit') {
+        remoteLiveShape = null;
+        if (data.shape) items.push(data.shape);
+        render();
+        return;
+      } else if (data.type === 'live-items-update' || data.type === 'live-items-commit') {
+        remoteLiveStroke = null;
+        remoteLiveShape = null;
+        applyRemoteItems(data.items);
+        return;
+      } else if (data.type === 'live-end') {
+        remoteLiveStroke = null;
+        remoteLiveShape = null;
+        render();
+        return;
+      }
+    }
+
+    // 2. Document file commits
     if (data.type === 'switch' && data.name) {
       loadDrawingFile(data.name, data.markdownNote);
     } else if (data.type === 'doc-updated' && data.name === currentFileName && data.senderId !== CLIENT_ID) {
-      if (!isInteracting && !isResizing) {
+      if (!isInteracting && !isResizing && !isMovingActiveShape) {
+        remoteLiveStroke = null;
+        remoteLiveShape = null;
         items = (data.state.items || []).map(it => {
           if (it.type === 'image' && it.dataUrl) {
             const img = new Image();
@@ -2459,107 +2493,4 @@ checkInitialActiveDoc();
 </script>
 </body>
 </html>`;
-    }
-
-    async loadSettings() {
-        this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
-    }
-
-    async saveSettings() {
-        await this.saveData(this.settings);
-    }
-}
-
-class AirSketchSettingTab extends PluginSettingTab {
-    plugin: AirSketchPlugin;
-
-    constructor(app: App, plugin: AirSketchPlugin) {
-        super(app, plugin);
-        this.plugin = plugin;
-    }
-
-    display(): void {
-        const { containerEl } = this;
-        containerEl.empty();
-
-        containerEl.createEl('h2', { text: '✈️ AirSketch Settings' });
-
-        const tokenQuery = this.plugin.settings.isPrivate ? `?token=${this.plugin.settings.authToken}` : '';
-        const ipadUrl = `http://${os.hostname()}:${this.plugin.settings.port}${tokenQuery}`;
-
-        const statusBox = containerEl.createDiv({
-            attr: { style: 'background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 8px; padding: 14px; margin-bottom: 20px;' }
-        });
-        statusBox.createEl('div', { 
-            text: this.plugin.settings.isPrivate ? '🔒 Private AirSketch URL (One-Time Pairing Link):' : '🌐 Public AirSketch URL:', 
-            attr: { style: 'font-weight: bold; font-size: 13px; margin-bottom: 6px;' } 
-        });
-        
-        const urlRow = statusBox.createDiv({ attr: { style: 'display: flex; gap: 8px; align-items: center;' } });
-        urlRow.createEl('code', { text: ipadUrl, attr: { style: 'font-size: 12px; padding: 4px 8px; background: var(--background-primary); border-radius: 4px; overflow-x: auto;' } });
-        
-        const copyBtn = urlRow.createEl('button', { text: '📋 Copy URL', attr: { style: 'cursor: pointer; flex-shrink: 0;' } });
-        copyBtn.addEventListener('click', () => {
-            navigator.clipboard.writeText(ipadUrl);
-            new Notice('✓ Copied AirSketch URL to clipboard!');
-        });
-
-        new Setting(containerEl)
-            .setName('Private Access Mode')
-            .setDesc('When enabled, only devices paired with your secret token can connect. Unauthorized network requests are blocked.')
-            .addToggle(toggle => toggle
-                .setValue(this.plugin.settings.isPrivate)
-                .onChange(async (value) => {
-                    this.plugin.settings.isPrivate = value;
-                    await this.plugin.saveSettings();
-                    await this.plugin.startServer();
-                    this.display();
-                })
-            );
-
-        if (this.plugin.settings.isPrivate) {
-            new Setting(containerEl)
-                .setName('Regenerate Security Token')
-                .setDesc('Invalidates the current key. You will need to open the new link once on your iPad.')
-                .addButton(btn => btn
-                    .setButtonText('Regenerate Key')
-                    .setWarning()
-                    .onClick(async () => {
-                        this.plugin.settings.authToken = crypto.randomBytes(16).toString('hex');
-                        await this.plugin.saveSettings();
-                        await this.plugin.startServer();
-                        new Notice('✓ Generated new security token. Open the updated URL once on your iPad.');
-                        this.display();
-                    })
-                );
-        }
-
-        new Setting(containerEl)
-            .setName('Drawings Vault Folder')
-            .setDesc('Vault-relative path where drawing files will be stored')
-            .addText(text => text
-                .setPlaceholder('Private/Drawings')
-                .setValue(this.plugin.settings.drawingsFolder)
-                .onChange(async (val) => {
-                    this.plugin.settings.drawingsFolder = val.trim() || 'Private/Drawings';
-                    await this.plugin.saveSettings();
-                })
-            );
-
-        new Setting(containerEl)
-            .setName('Server Port')
-            .setDesc('Local Wi-Fi port for iPad connections')
-            .addText(text => text
-                .setPlaceholder('4444')
-                .setValue(String(this.plugin.settings.port))
-                .onChange(async (val) => {
-                    const num = parseInt(val, 10);
-                    if (!isNaN(num) && num > 1024 && num < 65535) {
-                        this.plugin.settings.port = num;
-                        await this.plugin.saveSettings();
-                        await this.plugin.startServer();
-                    }
-                })
-            );
-    }
 }

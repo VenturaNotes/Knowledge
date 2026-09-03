@@ -1771,24 +1771,29 @@ Year: 2021-09-01
 1567. [[Euler's Theorem]]
 1568. [[Leonhard Euler]]
 ## Created
-1. Euler-Maclaurin formula
-2. Euler angles
-3. Euler characteristic
+1. [[Euler-Maclaurin formula]]
+2. [[Euler angles]]
+3. [[Euler characteristic]]
 4. Euler force
-5. Eulerian graph
-6. Eulerian trail
-7. Euler line
+	1. See FICTITIOUS FORCE.
+5. [[Eulerian graph]]
+6. [[Eulerian trail]]
+7. [[Euler line]]
 8. Euler multiplier
+	1. A synonym for MULTIPLYING FACTOR (in differential equations).
 9. Euler number
-10. Euler numbers
-11. evaluate
-12. even function
-13. even integer
-14. even permutation
-15. event
+	1. Another name for $e$, the base of the natural logarithms.
+10. [[Euler numbers]]
+11. [[evaluate]]
+12. [[even function]]
+13. [[even integer]]
+14. [[even permutation]]
+15. [[event]]
 16. eventually
+	1. A synonym for SUFFICIENTLY LARGE.
 17. evolute
-18. exa-
+	1. See CURVATURE.
+18. [[exa-]]
 19. exact differential
 20. exact differential equation
 21. exact divisor

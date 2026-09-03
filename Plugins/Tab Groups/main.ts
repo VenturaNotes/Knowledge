@@ -58,6 +58,9 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             this.app.workspace.on('active-leaf-change', (leaf) => {
                 if (!leaf || !this.isRootLeaf(leaf)) return;
 
+                // Fix: Never hijack or reassign pinned tabs across groups
+                if ((leaf as any).pinned) return;
+
                 const leafId = (leaf as any).id;
                 let leafGroup = this.leafToGroupMap.get(leafId);
 
@@ -209,6 +212,11 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     }
 
     async onunload() {
+        // Fix: Cancel pending debounced writes before saving immediately
+        if (typeof this.debouncedSave?.cancel === 'function') {
+            this.debouncedSave.cancel();
+        }
+
         await this.saveSettings();
 
         const rootSplit = this.app.workspace.rootSplit as any;
@@ -237,8 +245,12 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     }
 
     async saveSettings() {
-        this.settings.leafToGroupMap = Object.fromEntries(this.leafToGroupMap);
-        await this.saveData(this.settings);
+        try {
+            this.settings.leafToGroupMap = Object.fromEntries(this.leafToGroupMap);
+            await this.saveData(this.settings);
+        } catch (e) {
+            console.error("VirtualTabGroups: Failed to save settings to disk", e);
+        }
     }
 
     isRootLeaf(leaf: WorkspaceLeaf): boolean {
@@ -681,6 +693,9 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     }
 
     cleanupMap() {
+        // Fix: Do not clean up during initial startup layout hydration
+        if (!this.app.workspace.layoutReady) return;
+
         const activeLeafIds = new Set<string>();
         this.app.workspace.iterateRootLeaves((leaf) => {
             activeLeafIds.add((leaf as any).id);

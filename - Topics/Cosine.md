@@ -16,7 +16,6 @@ aliases:
 - Getting Derivative [^6]
 	- $y = cosx$
 	- $y' = -sinx$
-
 ## References
 [^1]: [[(5) Trig - 0.5 Periodic and Even and Odd Function Properties#^ac0d98]]
 [^2]: [[(5) Trig - 0.5 Periodic and Even and Odd Function Properties#^71890a]]

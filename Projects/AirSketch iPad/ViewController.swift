@@ -52,11 +52,20 @@ class ViewController: UIViewController, WKNavigationDelegate, WKScriptMessageHan
         }
     }
 
+    // Bridge messages received from the web app
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         if message.name == "touchBridge",
-           let dict = message.body as? [String: Any],
-           let overlayEnabled = dict["overlayEnabled"] as? Bool {
-            self.isTouchOverlayDisabled = !overlayEnabled
+           let dict = message.body as? [String: Any] {
+            
+            // Toggle overlay for inline text editor and shape dropdown interactions
+            if let overlayEnabled = dict["overlayEnabled"] as? Bool {
+                self.isTouchOverlayDisabled = !overlayEnabled
+            }
+            
+            // iPad System Clipboard synchronization (bridges to UIPasteboard & Apple Universal Clipboard)
+            if let copyText = dict["copyText"] as? String {
+                UIPasteboard.general.string = copyText
+            }
         }
     }
 
@@ -143,10 +152,9 @@ class TouchOverlayView: UIView {
         isMultipleTouchEnabled = true
     }
 
-    // Pass touches to webView for top toolbar, shape dropdown, and active text editing
+    // Pass touches through if in top bar (y <= 60), in dropdown menu area, or when overlay is explicitly disabled
     override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
-        // Pass touches through if in top bar (y <= 60), in dropdown menu area (x <= 230 && y <= 250), or if text tool is active
-        if point.y <= 60 || (point.x <= 230 && point.y <= 250) || (viewController?.isTouchOverlayDisabled == true) {
+        if point.y <= 60 || (point.y <= 320 && point.x >= 280 && point.x <= 750) || (viewController?.isTouchOverlayDisabled == true) {
             return nil
         }
         return self
