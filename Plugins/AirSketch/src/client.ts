@@ -52,9 +52,6 @@ export function getHtmlClient(): string {
   }
   #shapeMenu .shape-item:hover, #shapeMenu .shape-item:active, #shapeMenu .shape-item.active { background: #8b5cf6; color: #fff; }
 
-  .spacer { flex: 1; }
-  #status { font-size: 12px; color: #a1a1aa; margin-right: 4px; }
-  
   #waitingOverlay {
     display: flex; flex-direction: column; align-items: center; justify-content: center;
     position: absolute; inset: 0; background: #18181b; z-index: 500; text-align: center; padding: 24px;
@@ -185,9 +182,6 @@ export function getHtmlClient(): string {
       <path d="M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7"/>
     </svg>
   </button>
-  
-  <div class="spacer"></div>
-  <span id="status">Ready</span>
 </div>
 
 <canvas id="canvas"></canvas>
@@ -208,6 +202,10 @@ let currentFileName = null;
 
 function authFetch(url, options = {}) {
   return fetch(url, options);
+}
+
+function generateId() {
+  return Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 7);
 }
 
 const canvas = document.getElementById('canvas');
@@ -273,7 +271,7 @@ const ERASER_RADIUS = 16;
 let autoSaveTimer = null;
 let activeTextTarget = null;
 
-const ARROW_HANDLE_OFFSET = 24; // Pixel gap preventing handle from obscuring arrowhead
+const ARROW_HANDLE_OFFSET = 24;
 
 /* Geometry Helpers */
 function distToSegment(p, v, w) {
@@ -340,7 +338,7 @@ function getShapeSegments(shape) {
   if (shapeType === 'circle' || shapeType === 'ellipse') {
     const cx = (x1 + x2) / 2, cy = (y1 + y2) / 2;
     const rx = Math.max(0.1, Math.abs(x2 - x1) / 2);
-    const ry = Math.max(0.1, Math.abs(y2 - x1) / 2);
+    const ry = Math.max(0.1, Math.abs(y2 - y1) / 2);
     const segs = [];
     for (let i = 0; i < 16; i++) {
       const a1 = (i / 16) * Math.PI * 2, a2 = ((i + 1) / 16) * Math.PI * 2;
@@ -454,8 +452,8 @@ function getSelectedTotalBounds() {
   return { minX: sMinX, minY: sMinY, maxX: sMaxX, maxY: sMaxY };
 }
 
-/* Endpoint and Boundary Handle Detection */
-function getSelectionHandle(cPt, thresholdScreen = 18) {
+/* Endpoint and Boundary Handle Detection (Generous 24pt radius for tactile stylus response) */
+function getSelectionHandle(cPt, thresholdScreen = 24) {
   if (selectedItems.size !== 1) return null;
   const item = Array.from(selectedItems)[0];
   if (!isShapeResizable(item)) return null;
@@ -585,8 +583,9 @@ function serializeItemsForSync() {
   });
 }
 
-function applyRemoteItems(remoteItems) {
-  items = (remoteItems || []).map(it => {
+function deserializeItems(rawItems) {
+  return (rawItems || []).map(it => {
+    if (!it.id) it.id = generateId();
     if (it.type === 'image' && it.dataUrl) {
       const existing = items.find(ex => ex.type === 'image' && ex.dataUrl === it.dataUrl);
       if (existing && existing.imgObj) {
@@ -598,7 +597,6 @@ function applyRemoteItems(remoteItems) {
     }
     return it;
   });
-  render();
 }
 
 function pushHistory() {
@@ -640,7 +638,6 @@ function toggleNavLock() {
   }
 }
 
-// 22px offset guarantees handles NEVER collide with action buttons
 function updateSelectionPopupPosition() {
   const sBounds = getSelectedTotalBounds();
   if (!sBounds || selectedItems.size === 0 || !isTouchDevice()) {
@@ -687,9 +684,7 @@ function hidePastePopup() {
   pasteTargetPos = null;
 }
 
-/* ====================================================
-   FAST REAL-TIME ZERO-LATENCY STREAMING
-==================================================== */
+/* Fast Real-Time Streaming */
 let syncThrottleTimer = null;
 let pendingStreamPayload = null;
 
@@ -702,7 +697,7 @@ function sendSyncPayload(payload) {
 }
 
 function broadcastLiveUpdate(payload, immediate = false) {
-  if (immediate || payload.type.endsWith('-commit') || payload.type.endsWith('-end')) {
+  if (immediate || payload.type.endsWith('-commit') || payload.type.endsWith('-end') || payload.type.startsWith('sync-')) {
     if (syncThrottleTimer) {
       clearTimeout(syncThrottleTimer);
       syncThrottleTimer = null;
@@ -721,7 +716,7 @@ function broadcastLiveUpdate(payload, immediate = false) {
         sendSyncPayload(pendingStreamPayload);
         pendingStreamPayload = null;
       }
-    }, 25); // 40 updates/sec stream
+    }, 25);
   }
 }
 
@@ -760,9 +755,6 @@ function copySelectedItems() {
       copyBtn.innerHTML = origHtml;
     }, 800);
   }
-
-  document.getElementById('status').innerText = 'Copied ✓';
-  setTimeout(() => { document.getElementById('status').innerText = 'Ready'; }, 1500);
 }
 
 window.addEventListener('copy', (e) => {
@@ -795,6 +787,7 @@ function pasteItemsAt(targetCanvasX, targetCanvasY, sourceItems) {
   const dy = targetCanvasY - centerY;
 
   const newItems = cloneState(sourceItems).map(it => {
+    it.id = generateId();
     if (it.type === 'stroke') {
       it.points.forEach(p => { p.x += dx; p.y += dy; });
     } else if (it.type === 'shape') {
@@ -949,17 +942,14 @@ function render() {
 
   items.forEach(item => renderItem(item));
 
-  // Render transient real-time streams from other connected devices
   if (remoteLiveStroke) renderItem(remoteLiveStroke);
   if (remoteLiveShape) renderItem(remoteLiveShape);
 
   if (currentShape) renderItem(currentShape);
 
-  // Selection outline & Handles
   if (selectedItems.size === 1) {
     const single = Array.from(selectedItems)[0];
     
-    // Special Endpoint Handles for Arrow and Line
     if (single.type === 'shape' && (single.shapeType === 'arrow' || single.shapeType === 'line')) {
       const isArrow = single.shapeType === 'arrow';
       const angle = Math.atan2(single.y2 - single.y1, single.x2 - single.x1);
@@ -976,7 +966,6 @@ function render() {
       ctx.stroke();
       ctx.setLineDash([]);
 
-      // Start Handle (Tail)
       ctx.beginPath();
       ctx.arc(single.x1, single.y1, 6 / scale, 0, Math.PI * 2);
       ctx.fillStyle = '#ffffff';
@@ -985,7 +974,6 @@ function render() {
       ctx.lineWidth = 2 / scale;
       ctx.stroke();
 
-      // Tip Handle (Offset so it never covers arrowhead)
       ctx.beginPath();
       ctx.arc(tipHandleX, tipHandleY, 7.5 / scale, 0, Math.PI * 2);
       ctx.fillStyle = '#a78bfa';
@@ -1026,7 +1014,6 @@ function render() {
     ctx.setLineDash([]);
 
     if (isSingleResizable) {
-      // 4 Vertices (Proportional scaling)
       const cornerRadius = 6.5 / scale;
       [{ x: x, y: y }, { x: x + w, y: y }, { x: x, y: y + h }, { x: x + w, y: y + h }].forEach(c => {
         ctx.beginPath();
@@ -1038,7 +1025,6 @@ function render() {
         ctx.stroke();
       });
 
-      // 4 Sides (Compress/stretch)
       const sideRadius = 5 / scale;
       [{ x: x + w / 2, y: y }, { x: x + w / 2, y: y + h }, { x: x, y: y + h / 2 }, { x: x + w, y: y + h / 2 }].forEach(s => {
         ctx.beginPath();
@@ -1357,6 +1343,7 @@ function openInlineTextEditor(cPt, existingItem) {
     activeTextTarget = existingItem;
   } else {
     activeTextTarget = {
+      id: generateId(),
       type: 'text',
       x: cPt.x,
       y: cPt.y,
@@ -1428,7 +1415,7 @@ function handleStart(clientX, clientY) {
     closeShapeMenu();
   }
 
-  // Guaranteed Stylus/Touch Detection for Popups (Left half = Copy, Right half = Delete)
+  // Robust Stylus/Touch Detection for Popups (Left half = Copy, Right half = Delete)
   if (selectionPopup.style.display === 'flex') {
     const popRect = selectionPopup.getBoundingClientRect();
     if (clientX >= popRect.left && clientX <= popRect.right && clientY >= popRect.top && clientY <= popRect.bottom) {
@@ -1466,7 +1453,7 @@ function handleStart(clientX, clientY) {
 
   const cPt = toCanvasCoord(clientX, clientY);
 
-  // Check if grabbing an endpoint or resize handle
+  // 1. Check if grabbing an endpoint or resize handle on a selected item
   const resizeHit = getSelectionHandle(cPt);
   if (resizeHit) {
     pushHistory();
@@ -1502,19 +1489,17 @@ function handleStart(clientX, clientY) {
     return;
   }
 
+  // 2. Tool Handling
   if (currentTool === 'pen') {
     pushHistory();
     isInteracting = true;
-    currentStroke = { type: 'stroke', color: currentColor, size: PEN_SIZE, points: [cPt] };
+    currentStroke = { id: generateId(), type: 'stroke', color: currentColor, size: PEN_SIZE, points: [cPt] };
     items.push(currentStroke);
     render();
   } else if (currentTool === 'shape') {
-    // Redesigned Shape Tool Workflow:
     // If an active freshly created shape exists:
     if (activeCreatedShape && selectedItems.has(activeCreatedShape)) {
-      const isInside = (activeCreatedShape.shapeType === 'arrow' || activeCreatedShape.shapeType === 'line')
-        ? isPointNearShape(cPt, activeCreatedShape, 18)
-        : isPointInsideShape(cPt, activeCreatedShape);
+      const isInside = isPointInsideShape(cPt, activeCreatedShape) || isPointNearShape(cPt, activeCreatedShape, 20);
 
       if (isInside) {
         pushHistory();
@@ -1528,12 +1513,13 @@ function handleStart(clientX, clientY) {
       activeCreatedShape = null;
       updateSelectionPopupPosition();
       render();
-      // Immediately proceed below to create the new shape
+      // Immediately proceed below to create the next shape
     }
 
     // In Shape tool, clicking old shapes never selects them. Start drawing new shape immediately:
     isInteracting = true;
     currentShape = {
+      id: generateId(),
       type: 'shape',
       shapeType: activeShapeType,
       x1: cPt.x,
@@ -1618,7 +1604,7 @@ function handleMove(clientX, clientY) {
 
   const cPt = toCanvasCoord(clientX, clientY);
 
-  // Moving the freshly created shape directly within Shape Tool
+  // 1. Moving the freshly created shape directly within Shape Tool
   if (isMovingActiveShape && activeCreatedShape && dragStartPos) {
     const dx = cPt.x - dragStartPos.x;
     const dy = cPt.y - dragStartPos.y;
@@ -1631,8 +1617,8 @@ function handleMove(clientX, clientY) {
     return;
   }
 
+  // 2. Resizing & Stretching Shapes via Handles
   if (isResizing && activeResizeData) {
-    // Arrow / Line Redirection & Length Stretching
     if (activeResizeData.isEndpoint) {
       const it = activeResizeData.item;
       if (activeResizeData.handle === 'tip') {
@@ -1657,7 +1643,6 @@ function handleMove(clientX, clientY) {
       return;
     }
 
-    // 8-Handle Resizing
     const { handle, isCorner, item, origX, origY, origWidth, origHeight } = activeResizeData;
     let newX = origX, newY = origY, newW = origWidth, newH = origHeight;
 
@@ -1730,8 +1715,8 @@ function handleMove(clientX, clientY) {
     return;
   }
 
-  // Hover indicator for desktop mice
-  if (!isInteracting && !isPanning && selectedItems.size === 1) {
+  // 3. Hover Indicators for Mice
+  if (!isInteracting && !isResizing && !isMovingActiveShape && !isPanning && selectedItems.size === 1) {
     const handleHit = getSelectionHandle(cPt);
     if (handleHit) {
       if (handleHit.isEndpoint) canvas.style.cursor = 'crosshair';
@@ -1753,6 +1738,7 @@ function handleMove(clientX, clientY) {
     }
   }
 
+  // 4. Active Drawing / Erasing / Selecting
   if (isInteracting) {
     if (currentTool === 'pen' && currentStroke) {
       currentStroke.points.push(cPt);
@@ -1786,7 +1772,6 @@ function handleMove(clientX, clientY) {
         dragStartPos = cPt;
         updateSelectionPopupPosition();
         render();
-        // Live stream object movement to other devices
         broadcastLiveUpdate({ type: 'live-items-update', items: serializeItemsForSync() });
       }
     } else if (currentTool === 'lasso') {
@@ -1803,7 +1788,6 @@ function handleMove(clientX, clientY) {
         dragStartPos = cPt;
         updateSelectionPopupPosition();
         render();
-        // Live stream lasso selection movement to other devices
         broadcastLiveUpdate({ type: 'live-items-update', items: serializeItemsForSync() });
       }
     }
@@ -1851,7 +1835,6 @@ function handleEnd() {
     marqueeEnd = null;
 
     if (currentTool === 'pen' && finishedStroke) {
-      // Commit stroke directly to remote devices so it never flickers or disappears
       broadcastLiveUpdate({ type: 'live-stroke-commit', stroke: finishedStroke }, true);
     }
 
@@ -1867,8 +1850,7 @@ function handleEnd() {
         items.push(finishedShape);
         selectedItems.clear();
         selectedItems.add(finishedShape);
-        activeCreatedShape = finishedShape; // Ready for immediate nudge or handle-resize
-        // Commit shape directly to remote devices
+        activeCreatedShape = finishedShape;
         broadcastLiveUpdate({ type: 'live-shape-commit', shape: finishedShape }, true);
       } else {
         broadcastLiveUpdate({ type: 'live-end' }, true);
@@ -1876,11 +1858,7 @@ function handleEnd() {
       currentShape = null;
     }
 
-    if (currentTool === 'select' || currentTool === 'lasso') {
-      broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
-    }
-
-    if (currentTool === 'eraser') {
+    if (currentTool === 'select' || currentTool === 'lasso' || currentTool === 'eraser') {
       broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
     }
 
@@ -1904,88 +1882,91 @@ function handleEnd() {
   }
 }
 
-let activeStylusId = null;
 let nativeSinglePan = null;
 let nativePinchDist = null, nativePinchMid = null;
 
+// Isolated, Pure Stylus Touch Pipeline (Unconditionally forwards movement across all states)
 window.onNativeTouch = function(phase, touchArray) {
   if (!currentFileName || !touchArray || touchArray.length === 0) return;
 
   const stylus = touchArray.find(t => t.type === 'stylus');
   const fingers = touchArray.filter(t => t.type === 'direct');
 
+  // 1. Apple Pencil (Stylus)
   if (stylus) {
     lastInputType = 'stylus';
-    nativeSinglePan = null; nativePinchDist = null;
-    if (activeStylusId === null) {
-      activeStylusId = stylus.id;
-      handleStart(stylus.x, stylus.y);
-    } else if (activeStylusId === stylus.id) {
-      if (stylus.phase === 'ended' || stylus.phase === 'cancelled') {
-        activeStylusId = null;
+    nativeSinglePan = null;
+    nativePinchDist = null;
+
+    if (stylus.phase === 'began') {
+      if (isInteracting || isResizing || isMovingActiveShape) {
         handleEnd();
-      } else {
-        handleMove(stylus.x, stylus.y);
       }
+      handleStart(stylus.x, stylus.y);
+    } else if (stylus.phase === 'ended' || stylus.phase === 'cancelled') {
+      handleEnd();
+    } else { // 'moved' or 'stationary'
+      if (!isInteracting && !isResizing && !isMovingActiveShape && currentTool === 'pen') {
+        handleStart(stylus.x, stylus.y);
+      }
+      handleMove(stylus.x, stylus.y);
     }
     return;
   }
 
-  if (activeStylusId !== null) {
-    activeStylusId = null;
-    handleEnd();
+  // 2. Palm Rejection: If drawing or manipulating, ignore finger multi-touch
+  if ((isInteracting || isResizing || isMovingActiveShape) && currentTool === 'pen') {
     return;
   }
 
-  if (activeStylusId === null) {
-    if (fingers.length > 0) lastInputType = 'touch';
-    if (isNavLocked) return;
+  if (fingers.length > 0) lastInputType = 'touch';
+  if (isNavLocked) return;
 
-    if (fingers.length === 1) {
-      const f = fingers[0];
-      if (phase === 'start' || !nativeSinglePan) {
-        isPanning = true; nativePinchDist = null;
-        nativeSinglePan = { x: f.x, y: f.y, startPanX: panX, startPanY: panY };
-      } else if (phase === 'move' && isPanning && nativeSinglePan) {
-        panX = nativeSinglePan.startPanX + (f.x - nativeSinglePan.x);
-        panY = nativeSinglePan.startPanY + (f.y - nativeSinglePan.y);
-        updateInlineEditorPosition();
-        updateSelectionPopupPosition();
-        render();
-      } else if (phase === 'end' || phase === 'cancel' || f.phase === 'ended' || f.phase === 'cancelled') {
-        isPanning = false; nativeSinglePan = null;
-      }
-      return;
+  // 3. Fingers Navigation
+  if (fingers.length === 1) {
+    const f = fingers[0];
+    if (phase === 'start' || !nativeSinglePan) {
+      isPanning = true; nativePinchDist = null;
+      nativeSinglePan = { x: f.x, y: f.y, startPanX: panX, startPanY: panY };
+    } else if (phase === 'move' && isPanning && nativeSinglePan) {
+      panX = nativeSinglePan.startPanX + (f.x - nativeSinglePan.x);
+      panY = nativeSinglePan.startPanY + (f.y - nativeSinglePan.y);
+      updateInlineEditorPosition();
+      updateSelectionPopupPosition();
+      render();
+    } else if (phase === 'end' || phase === 'cancel' || f.phase === 'ended' || f.phase === 'cancelled') {
+      isPanning = false; nativeSinglePan = null;
     }
+    return;
+  }
 
-    if (fingers.length >= 2) {
-      nativeSinglePan = null;
-      const f1 = fingers[0], f2 = fingers[1];
-      const currentDist = Math.hypot(f1.x - f2.x, f1.y - f2.y);
-      const currentMid = { x: (f1.x + f2.x) / 2, y: (f1.y + f2.y) / 2 };
+  if (fingers.length >= 2) {
+    nativeSinglePan = null;
+    const f1 = fingers[0], f2 = fingers[1];
+    const currentDist = Math.hypot(f1.x - f2.x, f1.y - f2.y);
+    const currentMid = { x: (f1.x + f2.x) / 2, y: (f1.y + f2.y) / 2 };
 
-      if (phase === 'start' || !nativePinchDist) {
-        isPanning = true;
-        nativePinchDist = currentDist;
-        nativePinchMid = currentMid;
-      } else if (phase === 'move' && nativePinchDist && currentDist > 0) {
-        panX += (currentMid.x - nativePinchMid.x);
-        panY += (currentMid.y - nativePinchMid.y);
-        const newScale = Math.min(Math.max(0.2, scale * (currentDist / nativePinchDist)), 5.0);
-        const canvasX = (currentMid.x - panX) / scale, canvasY = (currentMid.y - panY) / scale;
-        scale = newScale;
-        panX = currentMid.x - canvasX * scale;
-        panY = currentMid.y - canvasY * scale;
-        nativePinchDist = currentDist; nativePinchMid = currentMid;
-        updateInlineEditorPosition();
-        updateSelectionPopupPosition();
-        updateZoomDisplay();
-        render();
-      } else if (phase === 'end' || phase === 'cancel') {
-        isPanning = false; nativePinchDist = null; nativePinchMid = null;
-      }
-      return;
+    if (phase === 'start' || !nativePinchDist) {
+      isPanning = true;
+      nativePinchDist = currentDist;
+      nativePinchMid = currentMid;
+    } else if (phase === 'move' && nativePinchDist && currentDist > 0) {
+      panX += (currentMid.x - nativePinchMid.x);
+      panY += (currentMid.y - nativePinchMid.y);
+      const newScale = Math.min(Math.max(0.2, scale * (currentDist / nativePinchDist)), 5.0);
+      const canvasX = (currentMid.x - panX) / scale, canvasY = (currentMid.y - panY) / scale;
+      scale = newScale;
+      panX = currentMid.x - canvasX * scale;
+      panY = currentMid.y - canvasY * scale;
+      nativePinchDist = currentDist; nativePinchMid = currentMid;
+      updateInlineEditorPosition();
+      updateSelectionPopupPosition();
+      updateZoomDisplay();
+      render();
+    } else if (phase === 'end' || phase === 'cancel') {
+      isPanning = false; nativePinchDist = null; nativePinchMid = null;
     }
+    return;
   }
 
   if (phase === 'end' || phase === 'cancel') {
@@ -2004,13 +1985,13 @@ canvas.addEventListener('touchstart', (e) => {
 
   if (stylusTouch) {
     lastInputType = 'stylus';
-    if (activeTouchId !== stylusTouch.identifier) {
-      activeTouchId = stylusTouch.identifier;
-      singleFingerPan = null;
-      handleStart(stylusTouch.clientX, stylusTouch.clientY);
-    }
+    if (isInteracting || isResizing || isMovingActiveShape) handleEnd();
+    singleFingerPan = null;
+    handleStart(stylusTouch.clientX, stylusTouch.clientY);
     return;
   }
+
+  if ((isInteracting || isResizing || isMovingActiveShape) && currentTool === 'pen') return;
 
   lastInputType = 'touch';
   if (activeTouchId !== null) return;
@@ -2032,13 +2013,14 @@ canvas.addEventListener('touchstart', (e) => {
 
 canvas.addEventListener('touchmove', (e) => {
   e.preventDefault();
-  if (activeTouchId !== null) {
-    const drawTouch = Array.from(e.touches).find(t => t.identifier === activeTouchId);
-    if (drawTouch) {
-      handleMove(drawTouch.clientX, drawTouch.clientY);
-      return;
-    }
+  const touches = Array.from(e.touches);
+  const stylusTouch = touches.find(t => t.touchType === 'stylus');
+  if (stylusTouch) {
+    handleMove(stylusTouch.clientX, stylusTouch.clientY);
+    return;
   }
+
+  if ((isInteracting || isResizing || isMovingActiveShape) && currentTool === 'pen') return;
   if (isNavLocked) return;
 
   if (isPanning && singleFingerPan && e.touches.length === 1) {
@@ -2074,11 +2056,14 @@ canvas.addEventListener('touchmove', (e) => {
 
 function handleTouchEnd(e) {
   e.preventDefault();
-  const ended = Array.from(e.changedTouches).find(t => t.identifier === activeTouchId);
-  if (ended) { activeTouchId = null; handleEnd(); }
+  const ended = Array.from(e.changedTouches).find(t => t.touchType === 'stylus');
+  if (ended) {
+    handleEnd();
+  }
   if (e.touches.length === 0) {
     isPanning = false; singleFingerPan = null; prevPinchDist = null; prevPinchMid = null;
-  } else if (e.touches.length === 1 && activeTouchId === null) {
+  } else if (e.touches.length === 1 && !ended) {
+    if ((isInteracting || isResizing || isMovingActiveShape) && currentTool === 'pen') return;
     if (isNavLocked) { isPanning = false; singleFingerPan = null; return; }
     isPanning = true; prevPinchDist = null; prevPinchMid = null;
     singleFingerPan = { x: e.touches[0].clientX, y: e.touches[0].clientY, startPanX: panX, startPanY: panY };
@@ -2119,7 +2104,7 @@ canvas.addEventListener('wheel', (e) => {
   render();
 }, { passive: false });
 
-// Desktop Native Paste Handler (Supports Cmd+V for external images, text, and copied canvas items)
+// Desktop Native Paste Handler
 window.addEventListener('paste', async (e) => {
   if (!currentFileName) return;
   const targetPt = toCanvasCoord(lastMousePos.x, lastMousePos.y);
@@ -2143,7 +2128,7 @@ window.addEventListener('paste', async (e) => {
               if (w > h) { h = (h / w) * maxDim; w = maxDim; }
               else { w = (w / h) * maxDim; h = maxDim; }
             }
-            const newImgItem = { type: 'image', x: targetPt.x - w / 2, y: targetPt.y - h / 2, width: w, height: h, dataUrl, imgObj: img };
+            const newImgItem = { id: generateId(), type: 'image', x: targetPt.x - w / 2, y: targetPt.y - h / 2, width: w, height: h, dataUrl, imgObj: img };
             items.push(newImgItem);
             selectedItems.clear();
             selectedItems.add(newImgItem);
@@ -2173,7 +2158,7 @@ window.addEventListener('paste', async (e) => {
     } catch (_) {}
 
     pushHistory();
-    const newTextItem = { type: 'text', text: text, x: targetPt.x, y: targetPt.y, color: currentColor, fontSize: 18 };
+    const newTextItem = { id: generateId(), type: 'text', text: text, x: targetPt.x, y: targetPt.y, color: currentColor, fontSize: 18 };
     items.push(newTextItem);
     selectedItems.clear();
     selectedItems.add(newTextItem);
@@ -2245,7 +2230,6 @@ bindBtn(document.getElementById('textBtn'), () => setTool('text'));
 bindBtn(document.getElementById('resetZoomBtn'), () => resetZoom());
 bindBtn(document.getElementById('lockNavBtn'), () => toggleNavLock());
 
-// Touch/Stylus Popup Handlers
 const copyBtn = document.getElementById('copySelectionBtn');
 copyBtn.addEventListener('click', (e) => { e.stopPropagation(); copySelectedItems(); });
 copyBtn.addEventListener('touchstart', (e) => { e.stopPropagation(); copySelectedItems(); }, { passive: false });
@@ -2254,7 +2238,6 @@ const delBtn = document.getElementById('deleteSelectionBtn');
 delBtn.addEventListener('click', (e) => { e.stopPropagation(); deleteSelectedItems(); });
 delBtn.addEventListener('touchstart', (e) => { e.stopPropagation(); deleteSelectedItems(); }, { passive: false });
 
-// Clean, Reliable Touch Paste Button
 const doPBtn = document.getElementById('doPasteBtn');
 const handleTouchPaste = (e) => {
   if (e) e.stopPropagation();
@@ -2267,6 +2250,7 @@ const handleTouchPaste = (e) => {
 doPBtn.addEventListener('click', handleTouchPaste);
 doPBtn.addEventListener('touchstart', handleTouchPaste, { passive: false });
 
+// Fully Synchronized Multi-Device Undo / Redo
 function doUndo() {
   if (undoStack.length > 0) {
     redoStack.push(cloneState(items));
@@ -2275,7 +2259,7 @@ function doUndo() {
     activeCreatedShape = null;
     updateSelectionPopupPosition();
     render();
-    broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
+    broadcastLiveUpdate({ type: 'sync-undo', items: serializeItemsForSync() }, true);
     triggerAutoSave();
   }
 }
@@ -2288,7 +2272,7 @@ function doRedo() {
     activeCreatedShape = null;
     updateSelectionPopupPosition();
     render();
-    broadcastLiveUpdate({ type: 'live-items-commit', items: serializeItemsForSync() }, true);
+    broadcastLiveUpdate({ type: 'sync-redo', items: serializeItemsForSync() }, true);
     triggerAutoSave();
   }
 }
@@ -2332,7 +2316,6 @@ window.addEventListener('keydown', (e) => {
 
 async function triggerAutoSave() {
   if (!currentFileName) return;
-  document.getElementById('status').innerText = 'Saving...';
 
   const SVG_PADDING = 12;
   let minX = 0, minY = 0, width = 800, height = 600;
@@ -2365,20 +2348,16 @@ async function triggerAutoSave() {
 </svg>\`;
 
   try {
-    const res = await authFetch('/api/save', {
+    await authFetch('/api/save', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name: currentFileName, svg, state: stateObj, senderId: CLIENT_ID })
     });
-    if (res.ok) {
-      document.getElementById('status').innerText = 'Saved ✓ ' + new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-    }
-  } catch(e) { document.getElementById('status').innerText = 'Save Error'; }
+  } catch(e) {}
 }
 
 async function loadDrawingFile(fileName, markdownNote) {
   if (!fileName) return;
-  document.getElementById('status').innerText = 'Loading...';
   try {
     const res = await authFetch('/api/load?name=' + encodeURIComponent(fileName));
     const text = await res.text();
@@ -2386,6 +2365,7 @@ async function loadDrawingFile(fileName, markdownNote) {
     if (match && match[1]) {
       const state = JSON.parse(decodeURIComponent(match[1]));
       items = (state.items || []).map(it => {
+        if (!it.id) it.id = generateId();
         if (it.type === 'image' && it.dataUrl) {
           const img = new Image();
           img.src = it.dataUrl;
@@ -2407,7 +2387,6 @@ async function loadDrawingFile(fileName, markdownNote) {
       updateSelectionPopupPosition();
       updateZoomDisplay();
       render();
-      document.getElementById('status').innerText = 'Ready';
     }
   } catch(err) { alert('Could not load drawing.'); }
 }
@@ -2440,7 +2419,13 @@ sse.onmessage = (e) => {
         return;
       } else if (data.type === 'live-stroke-commit') {
         remoteLiveStroke = null;
-        if (data.stroke) items.push(data.stroke);
+        if (data.stroke) {
+          if (!data.stroke.id) data.stroke.id = generateId();
+          if (!items.some(it => it.id === data.stroke.id)) {
+            pushHistory();
+            items.push(data.stroke);
+          }
+        }
         render();
         return;
       } else if (data.type === 'live-shape') {
@@ -2449,13 +2434,52 @@ sse.onmessage = (e) => {
         return;
       } else if (data.type === 'live-shape-commit') {
         remoteLiveShape = null;
-        if (data.shape) items.push(data.shape);
+        if (data.shape) {
+          if (!data.shape.id) data.shape.id = generateId();
+          if (!items.some(it => it.id === data.shape.id)) {
+            pushHistory();
+            items.push(data.shape);
+          }
+        }
         render();
         return;
-      } else if (data.type === 'live-items-update' || data.type === 'live-items-commit') {
+      } else if (data.type === 'sync-undo') {
         remoteLiveStroke = null;
         remoteLiveShape = null;
-        applyRemoteItems(data.items);
+        redoStack.push(cloneState(items));
+        if (undoStack.length > 0) undoStack.pop();
+        items = deserializeItems(data.items);
+        selectedItems.clear();
+        activeCreatedShape = null;
+        updateSelectionPopupPosition();
+        render();
+        return;
+      } else if (data.type === 'sync-redo') {
+        remoteLiveStroke = null;
+        remoteLiveShape = null;
+        undoStack.push(cloneState(items));
+        if (redoStack.length > 0) redoStack.pop();
+        items = deserializeItems(data.items);
+        selectedItems.clear();
+        activeCreatedShape = null;
+        updateSelectionPopupPosition();
+        render();
+        return;
+      } else if (data.type === 'live-items-update') {
+        remoteLiveStroke = null;
+        remoteLiveShape = null;
+        items = deserializeItems(data.items);
+        render();
+        return;
+      } else if (data.type === 'live-items-commit') {
+        remoteLiveStroke = null;
+        remoteLiveShape = null;
+        pushHistory();
+        items = deserializeItems(data.items);
+        selectedItems.clear();
+        activeCreatedShape = null;
+        updateSelectionPopupPosition();
+        render();
         return;
       } else if (data.type === 'live-end') {
         remoteLiveStroke = null;
@@ -2465,23 +2489,17 @@ sse.onmessage = (e) => {
       }
     }
 
-    // 2. Document file commits
-    if (data.type === 'switch' && data.name) {
+    // 2. Document file switches (Only reload if actually changing to a different drawing file)
+    if (data.type === 'switch' && data.name && data.name !== currentFileName) {
       loadDrawingFile(data.name, data.markdownNote);
-    } else if (data.type === 'doc-updated' && data.name === currentFileName && data.senderId !== CLIENT_ID) {
+    } 
+    // 3. Document disk save confirmation from another device
+    else if (data.type === 'doc-updated' && data.name === currentFileName && data.senderId !== CLIENT_ID) {
       if (!isInteracting && !isResizing && !isMovingActiveShape) {
         remoteLiveStroke = null;
         remoteLiveShape = null;
-        items = (data.state.items || []).map(it => {
-          if (it.type === 'image' && it.dataUrl) {
-            const img = new Image();
-            img.src = it.dataUrl;
-            return { ...it, imgObj: img };
-          }
-          return it;
-        });
+        items = deserializeItems(data.state.items);
         render();
-        document.getElementById('status').innerText = 'Synced ↻ ' + new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
       }
     }
   } catch(err) {}
