@@ -1,8 +1,22 @@
-const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf, PluginSettingTab } = require('obsidian');
+const { Plugin, Modal, Setting, Notice, FuzzySuggestModal, WorkspaceLeaf, PluginSettingTab, debounce } = require('obsidian');
 
 // ─── Default Settings ──────────────────────────────────────────────────────
 const DEFAULT_SETTINGS = {
-    invisibleMinimize: false
+    invisibleMinimize: false,
+    opacityValue: '1.0',
+    savedWidth: '380px',
+    savedHeight: '500px',
+    savedLeft: '100px',
+    savedTop: '100px',
+    savedTabsState: null,
+    savedActiveLeafIndex: 0,
+    savedFilePath: null,
+    isMinimized: false,
+    isFullscreen: false,
+    preFullscreenWidth: null,
+    preFullscreenHeight: null,
+    preFullscreenLeft: null,
+    preFullscreenTop: null
 };
 
 // ─── Plugin Setting Tab ───────────────────────────────────────────────────
@@ -131,13 +145,18 @@ class FilePromptModal extends Modal {
 
 // ─── VaporNote Plugin Core ───────────────────────────────────────────────
 class VaporNotePlugin extends Plugin {
+    // Debounced disk write for rapid UI navigation / webview updates
+    debouncedSave = debounce(async () => {
+        await this.saveSettings();
+    }, 400, true);
+
     async onload() {
         await this.loadSettings();
 
         this.floatingLeaves       = [];     
-        this.activeLeafIndex      = 0;      
+        this.activeLeafIndex      = this.settings.savedActiveLeafIndex ?? 0;      
         this.floatingContainer  = null;
-        this.savedFilePath      = null;     
+        this.savedFilePath      = this.settings.savedFilePath ?? null;     
         this._prevActiveLeaf    = null;     
         this._origSetActiveLeaf = null;     
         this._origGetLeaf       = null;     
@@ -161,7 +180,7 @@ class VaporNotePlugin extends Plugin {
         this._focusListeners    = [];       
         this._resizeHandles     = [];       
         this._closedTabsHistory = [];       
-        this.opacityValue       = '1.0';   
+        this.opacityValue       = this.settings.opacityValue ?? '1.0';   
         this._lastCloseTime     = 0;        
         this._lastNavTime       = 0;        
         this._lastReopenTime    = 0;        
@@ -172,22 +191,22 @@ class VaporNotePlugin extends Plugin {
         this._isReopeningTab    = false;
         this._queuedWin         = null;
 
-        this._savedWidth         = null;
-        this._savedHeight        = null;
-        this._savedLeft          = null;
+        this._savedWidth         = this.settings.savedWidth ?? '380px';
+        this._savedHeight        = this.settings.savedHeight ?? '500px';
+        this._savedLeft          = this.settings.savedLeft ?? '100px';
         this._savedLeftVal       = null;    
-        this._savedTop           = null;
-        this._savedTabsState     = null;
-        this._savedActiveLeafIndex = null;
+        this._savedTop           = this.settings.savedTop ?? '100px';
+        this._savedTabsState     = this.settings.savedTabsState ?? null;
+        this._savedActiveLeafIndex = this.settings.savedActiveLeafIndex ?? 0;
         this._savedScrolls       = [];
         this._savedEphemeral     = [];       
         this._isVaporActive      = false;    
 
         this._isFullscreen       = false;
-        this._preFullscreenWidth = null;
-        this._preFullscreenHeight = null;
-        this._preFullscreenLeft  = null;
-        this._preFullscreenTop   = null;
+        this._preFullscreenWidth = this.settings.preFullscreenWidth ?? null;
+        this._preFullscreenHeight = this.settings.preFullscreenHeight ?? null;
+        this._preFullscreenLeft  = this.settings.preFullscreenLeft ?? null;
+        this._preFullscreenTop   = this.settings.preFullscreenTop ?? null;
 
         this._dragMode          = null;     
         this._activeHandleDir   = null;     
@@ -232,7 +251,6 @@ class VaporNotePlugin extends Plugin {
         window.addEventListener('unhandledrejection', this._globalRejectionHandler);
 
         // Patch app.scope.handleKey to swallow Cmd+W, Cmd+Shift+T, Cmd+Ctrl+L, and tab switches
-        // when VaporNote is active or focused.
         const scope = this.app.scope;
         if (scope && typeof scope.handleKey === 'function') {
             this._origScopeHandleKey = scope.handleKey.bind(scope);
@@ -318,8 +336,12 @@ class VaporNotePlugin extends Plugin {
     }
 
     async onunload() {
+        if (typeof this.debouncedSave?.cancel === 'function') {
+            this.debouncedSave.cancel();
+        }
+
         this._allowDetach = true;
-        this.closeVaporNote();
+        this.closeVaporNote(true);
 
         if (this._globalRejectionHandler) {
             window.removeEventListener('unhandledrejection', this._globalRejectionHandler);
@@ -355,11 +377,96 @@ class VaporNotePlugin extends Plugin {
     }
 
     async loadSettings() {
-        this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+        try {
+            const loaded = await this.loadData();
+            this.settings = Object.assign({}, DEFAULT_SETTINGS, loaded);
+        } catch (e) {
+            console.error("VaporNote: Failed to load data, using defaults.", e);
+            this.settings = Object.assign({}, DEFAULT_SETTINGS);
+        }
     }
 
     async saveSettings() {
-        await this.saveData(this.settings);
+        try {
+            await this.saveData(this.settings);
+        } catch (e) {
+            console.error("VaporNote: Failed to save data to disk", e);
+        }
+    }
+
+    _getLeafStateData(leaf) {
+        if (!leaf) return { type: 'empty', pathOrUrl: null };
+        let viewState = null;
+        try { viewState = leaf.getViewState(); } catch (e) {}
+        const type = viewState?.type || 'empty';
+        let pathOrUrl = null;
+
+        if (type === 'markdown' || type === 'file') {
+            pathOrUrl = leaf.view?.file?.path || viewState?.state?.file || null;
+        } else if (type === 'webviewer' || type === 'custom-webview-view' || type === 'web') {
+            const webview = leaf.containerEl?.querySelector('webview');
+            if (webview && typeof webview.getURL === 'function') {
+                try {
+                    const currentUrl = webview.getURL();
+                    if (currentUrl && currentUrl !== 'about:blank') {
+                        pathOrUrl = currentUrl;
+                    }
+                } catch (_) {}
+            }
+            if (!pathOrUrl) {
+                pathOrUrl = viewState?.state?.url || null;
+            }
+        }
+        return { type, pathOrUrl };
+    }
+
+    _persistState(immediate = false) {
+        if (this._isOpening || this._isMigrating) return;
+
+        this.settings.opacityValue = this.opacityValue;
+        this.settings.invisibleMinimize = this.settings.invisibleMinimize;
+        this.settings.isMinimized = this._isMinimized;
+        this.settings.isFullscreen = this._isFullscreen;
+        this.settings.preFullscreenWidth = this._preFullscreenWidth;
+        this.settings.preFullscreenHeight = this._preFullscreenHeight;
+        this.settings.preFullscreenLeft = this._preFullscreenLeft;
+        this.settings.preFullscreenTop = this._preFullscreenTop;
+
+        if (this.floatingContainer && !this._isMinimized && !this._isFullscreen) {
+            const r = this.floatingContainer.getBoundingClientRect();
+            this._savedWidth = r.width + 'px';
+            this._savedHeight = r.height + 'px';
+            this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+            this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+        }
+
+        this.settings.savedWidth = this._savedWidth;
+        this.settings.savedHeight = this._savedHeight;
+        this.settings.savedLeft = this._savedLeft;
+        this.settings.savedTop = this._savedTop;
+
+        if (this.floatingLeaves && this.floatingLeaves.length > 0) {
+            const tabsState = this.floatingLeaves.map(leaf => this._getLeafStateData(leaf));
+            this._savedTabsState = tabsState;
+            this.settings.savedTabsState = tabsState;
+            this.settings.savedActiveLeafIndex = this.activeLeafIndex;
+        } else if (this._savedTabsState) {
+            this.settings.savedTabsState = this._savedTabsState;
+            this.settings.savedActiveLeafIndex = this._savedActiveLeafIndex || 0;
+        }
+
+        if (this.savedFilePath) {
+            this.settings.savedFilePath = this.savedFilePath;
+        }
+
+        if (immediate) {
+            if (typeof this.debouncedSave?.cancel === 'function') {
+                this.debouncedSave.cancel();
+            }
+            this.saveSettings();
+        } else {
+            this.debouncedSave();
+        }
     }
 
     // ─── ELECTRON WINDOW FOCUS SUPPRESSION ───────────────────────────────────
@@ -508,7 +615,6 @@ class VaporNotePlugin extends Plugin {
         const leaf = this.floatingLeaves[this.activeLeafIndex];
         if (!leaf) return;
 
-        // 1. Synchronize Obsidian workspace activeLeaf pointer
         if (this.app.workspace.activeLeaf !== leaf) {
             try {
                 if (this._origSetActiveLeaf) {
@@ -532,14 +638,11 @@ class VaporNotePlugin extends Plugin {
             }
         } catch (_) {}
 
-        // 2. Focus active tab view depending on view type
-        // A. Markdown Editor
         if (leaf.view && leaf.view.editor && typeof leaf.view.editor.focus === 'function') {
             leaf.view.editor.focus();
             return;
         }
 
-        // B. Webview / Isolated Browser
         const webview = leaf.containerEl.querySelector('webview');
         if (webview) {
             try {
@@ -548,14 +651,12 @@ class VaporNotePlugin extends Plugin {
             return;
         }
 
-        // C. CodeMirror Editor Content
         const cmContent = leaf.containerEl.querySelector('.cm-content');
         if (cmContent && typeof cmContent.focus === 'function') {
             cmContent.focus();
             return;
         }
 
-        // D. Empty Tab or Fallback Views
         leaf.containerEl.focus();
     }
 
@@ -697,7 +798,7 @@ class VaporNotePlugin extends Plugin {
         if (isNativeHotkey) {
             this._lastNativeExecutionTime = Date.now();
         } else if (Date.now() - (this._lastNativeExecutionTime || 0) < 500) {
-            return; // Drop the space-switch IPC ghost
+            return; 
         }
 
         if (this._isOpening) return;
@@ -741,6 +842,12 @@ class VaporNotePlugin extends Plugin {
         this.floatingContainer.style.top    = centeredTop  + 'px';
         this.floatingContainer.style.right  = 'auto';
         this.floatingContainer.style.bottom = 'auto';
+
+        this._savedLeft = centeredLeft + 'px';
+        this._savedTop = centeredTop + 'px';
+        this._savedWidth = w + 'px';
+        this._savedHeight = h + 'px';
+        this._persistState(true);
     }
 
     async _openVaporNote(path = null) {
@@ -905,6 +1012,7 @@ class VaporNotePlugin extends Plugin {
                             this.activeLeafIndex = idx;
                             this._switchTab(idx);
                         }
+                        this._persistState();
                         return result;
                     };
 
@@ -921,6 +1029,7 @@ class VaporNotePlugin extends Plugin {
                 if (!activeLeaf) return false;
                 await activeLeaf.openFile(file, openState);
                 this._switchTab(this.activeLeafIndex);
+                this._persistState();
                 return true;
             };
 
@@ -993,7 +1102,10 @@ class VaporNotePlugin extends Plugin {
                         if (activeLeaf) {
                             activeLeaf.setViewState({
                                 type: 'webviewer', state: { url: href, navigate: true }, active: true
-                            }).then(() => this._renderTabs());
+                            }).then(() => {
+                                this._renderTabs();
+                                this._persistState();
+                            });
                         }
                     }
                 } else {
@@ -1122,30 +1234,36 @@ class VaporNotePlugin extends Plugin {
             });
             this._resizeObserver.observe(container);
 
-            if (this._savedTabsState && this._savedTabsState.length > 0) {
-                for (let i = 0; i < this._savedTabsState.length; i++) {
-                    const tab = this._savedTabsState[i];
-                    if (tab.type === 'markdown' && tab.pathOrUrl) {
+            // Clone saved tabs array to prevent loop truncation during instantiation
+            const tabsToRestore = Array.isArray(this._savedTabsState) && this._savedTabsState.length > 0
+                ? [...this._savedTabsState]
+                : null;
+
+            if (tabsToRestore && tabsToRestore.length > 0) {
+                for (let i = 0; i < tabsToRestore.length; i++) {
+                    const tab = tabsToRestore[i];
+                    if ((tab.type === 'markdown' || tab.type === 'file') && tab.pathOrUrl) {
                         await this._addNewTab('file', tab.pathOrUrl);
-                    } else if ((tab.type === 'webviewer' || tab.type === 'custom-webview-view') && tab.pathOrUrl) {
-                        await this._addNewTab('web', tab.pathOrUrl, tab.type);
+                    } else if ((tab.type === 'webviewer' || tab.type === 'custom-webview-view' || tab.type === 'web') && tab.pathOrUrl) {
+                        await this._addNewTab('web', tab.pathOrUrl, tab.type === 'web' ? 'webviewer' : tab.type);
                     } else {
                         await this._addNewTab('empty');
                     }
                 }
-                const restoreIdx = this._savedActiveLeafIndex ?? 0;
-                this._switchTab(restoreIdx);
+                const restoreIdx = Math.min(Math.max(0, this._savedActiveLeafIndex ?? 0), this.floatingLeaves.length - 1);
+                if (restoreIdx >= 0) {
+                    this._switchTab(restoreIdx);
+                }
             } else {
                 if (path) await this._addNewTab('file', path);
                 else await this._addNewTab('empty');
             }
-
-            new Notice("VaporNote popped in.");
         } catch (e) {
             console.error("VaporNote opening failed", e);
             this.closeVaporNote();
         } finally {
             this._isOpening = false;
+            this._persistState(true);
         }
     }
 
@@ -1244,6 +1362,7 @@ class VaporNotePlugin extends Plugin {
 
         this._switchTab(this.activeLeafIndex);
         setTimeout(() => this._hookWebviews(), 0);
+        this._persistState();
     }
 
     _switchTab(index) {
@@ -1309,6 +1428,7 @@ class VaporNotePlugin extends Plugin {
         }
 
         this._renderTabs();
+        this._persistState();
     }
 
     _closeTab(index, skipHistory = false) {
@@ -1324,14 +1444,14 @@ class VaporNotePlugin extends Plugin {
 
         if (!skipHistory) {
             let viewState = null;
-            try { viewState = leafToClose.getViewState(); } catch(e){}
+            try { viewState = leafToClose.getViewState(); } catch (e) {}
             const type = viewState?.type || 'empty';
             
             if (type !== 'empty') {
                 let pathOrUrl = null;
                 if (type === 'markdown' && leafToClose.view?.file) {
                     pathOrUrl = leafToClose.view.file.path;
-                } else if (type === 'webviewer' || type === 'custom-webview-view') {
+                } else if (type === 'webviewer' || type === 'custom-webview-view' || type === 'web') {
                     pathOrUrl = viewState?.state?.url;
                 }
 
@@ -1382,6 +1502,7 @@ class VaporNotePlugin extends Plugin {
                 this._forceFocusActiveLeaf();
             }
         }, 200);
+        this._persistState();
     }
 
     async reopenClosedTab() {
@@ -1422,6 +1543,7 @@ class VaporNotePlugin extends Plugin {
                     ws2.setActiveLeaf = savedSetActiveLeaf2;
                     this._switchTab(this.activeLeafIndex);
                     setTimeout(() => this._hookWebviews(), 0);
+                    this._persistState();
                     return;
                 } catch (_) {
                     ws2.setActiveLeaf = savedSetActiveLeaf2;
@@ -1437,6 +1559,7 @@ class VaporNotePlugin extends Plugin {
             }
         } finally {
             this._isReopeningTab = false;
+            this._persistState();
         }
     }
 
@@ -1467,7 +1590,7 @@ class VaporNotePlugin extends Plugin {
                 const isDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(targetUrl);
 
                 if (!hasProtocol && isDomain) targetUrl = 'https://' + targetUrl;
-                else if (!hasProtocol) targetUrl = 'https://www.google.com/search?q= ' + encodeURIComponent(targetUrl);
+                else if (!hasProtocol) targetUrl = 'https://www.google.com/search?q=' + encodeURIComponent(targetUrl);
 
                 const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
                 if (activeLeaf) {
@@ -1475,6 +1598,7 @@ class VaporNotePlugin extends Plugin {
                         type: 'webviewer', state: { url: targetUrl, navigate: true }, active: true
                     });
                     this._renderTabs();
+                    this._persistState();
                 }
             }
         }).open();
@@ -1676,8 +1800,14 @@ class VaporNotePlugin extends Plugin {
                 else if (e.message === 'VAPORNOTE_CMD_NAV_PREV') this.navigateTab(-1);
             });
 
-            webview.addEventListener('page-title-updated', () => this._renderTabs());
-            webview.addEventListener('did-stop-loading', () => this._renderTabs());
+            webview.addEventListener('page-title-updated', () => {
+                this._renderTabs();
+                this._persistState();
+            });
+            webview.addEventListener('did-stop-loading', () => {
+                this._renderTabs();
+                this._persistState();
+            });
         });
     }
 
@@ -1763,15 +1893,7 @@ class VaporNotePlugin extends Plugin {
 
             const wasFullscreen = this._isFullscreen;
 
-            const tabsState = this.floatingLeaves.map(leaf => {
-                let viewState = null;
-                try { viewState = leaf.getViewState(); } catch(_) {}
-                const type = viewState?.type || 'empty';
-                let pathOrUrl = null;
-                if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
-                else if (type === 'webviewer' || type === 'custom-webview-view') pathOrUrl = viewState?.state?.url;
-                return { type, pathOrUrl };
-            });
+            const tabsState = this.floatingLeaves.map(leaf => this._getLeafStateData(leaf));
             const activeIdx = this.activeLeafIndex;
             const savedW = wasFullscreen ? this._preFullscreenWidth : (this.floatingContainer.style.width || this._savedWidth);
             const savedH = wasFullscreen ? this._preFullscreenHeight : (this.floatingContainer.style.height || this._savedHeight);
@@ -1780,7 +1902,7 @@ class VaporNotePlugin extends Plugin {
 
             this._isMigrating = true;
 
-            this.closeVaporNote();
+            this.closeVaporNote(true);
 
             this._savedTabsState = tabsState.filter(t => t.type !== 'empty' || tabsState.length === 1);
             this._savedActiveLeafIndex = activeIdx;
@@ -1895,6 +2017,8 @@ class VaporNotePlugin extends Plugin {
         opacitySlider.addEventListener('input', (e) => {
             this.opacityValue = e.target.value;
             container.style.opacity = this.opacityValue;
+            this.settings.opacityValue = this.opacityValue;
+            this._persistState();
         });
         controls.appendChild(opacitySlider);
         this.opacitySlider = opacitySlider;
@@ -2022,6 +2146,16 @@ class VaporNotePlugin extends Plugin {
         };
 
         const onMouseUp = () => {
+            if (this._dragMode === 'drag' || this._activeHandleDir) {
+                if (!this._isFullscreen && !this._isMinimized && this.floatingContainer) {
+                    const r = this.floatingContainer.getBoundingClientRect();
+                    this._savedWidth = r.width + 'px';
+                    this._savedHeight = r.height + 'px';
+                    this._savedLeft = this.floatingContainer.style.left || (r.left + 'px');
+                    this._savedTop = this.floatingContainer.style.top || (r.top + 'px');
+                    this._persistState(true);
+                }
+            }
             this._dragMode = null;
             this._activeHandleDir = null;
             removeOverlay();
@@ -2248,6 +2382,7 @@ class VaporNotePlugin extends Plugin {
                 }, 150);
             }
         }
+        this._persistState();
     }
 
     toggleFullscreen() {
@@ -2294,9 +2429,10 @@ class VaporNotePlugin extends Plugin {
         const activeLeaf = this.floatingLeaves[this.activeLeafIndex];
         try { activeLeaf?.view?.onResize?.(); }      catch (_) {}
         try { activeLeaf?.view?.editor?.refresh(); } catch (_) {}
+        this._persistState();
     }
 
-    closeVaporNote() {
+    closeVaporNote(isUnloading = false) {
         if (this._resizeObserver) { this._resizeObserver.disconnect(); this._resizeObserver = null; }
         if (this._globalMoveHandler && this._targetWin) {
             try {
@@ -2345,17 +2481,11 @@ class VaporNotePlugin extends Plugin {
             this.floatingContainer.remove(); this.floatingContainer = null;
         }
 
-        if (this.floatingLeaves) {
-            this._savedTabsState = this.floatingLeaves.map(leaf => {
-                let viewState = null;
-                try { viewState = leaf.getViewState(); } catch(e){}
-                const type = viewState?.type || 'empty';
-                let pathOrUrl = null;
-                if (type === 'markdown' && leaf.view?.file) pathOrUrl = leaf.view.file.path;
-                else if (type === 'webviewer' || type === 'custom-webview-view') pathOrUrl = viewState?.state?.url;
-                return { type, pathOrUrl };
-            });
+        if (this.floatingLeaves && this.floatingLeaves.length > 0) {
+            this._savedTabsState = this.floatingLeaves.map(leaf => this._getLeafStateData(leaf));
             this._savedActiveLeafIndex = this.activeLeafIndex;
+            this.settings.savedTabsState = this._savedTabsState;
+            this.settings.savedActiveLeafIndex = this._savedActiveLeafIndex;
         }
 
         if (this.floatingLeaves) {
@@ -2405,7 +2535,10 @@ class VaporNotePlugin extends Plugin {
             this._origModalOpen = null;
         }
 
-        if (!this._isMigrating) new Notice("VaporNote closed.");
+        if (!this._isMigrating) {
+            this._persistState(true);
+            new Notice("VaporNote closed.");
+        }
     }
 }
 
