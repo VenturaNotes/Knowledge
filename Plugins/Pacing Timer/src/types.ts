@@ -38,16 +38,37 @@ export interface PacingSessionState {
 
 export function createBlankSession(): PacingSessionState {
     return {
-        mode: "default", title: "", initialSegmentDuration: 0, targetSegmentDuration: 0,
-        totalSegments: 0, defaultTotalTime: 0, defaultCountEnabled: false, completedSegments: 0, cumulativeDelta: 0,
-        globalTimeElapsed: 0, segmentTimeElapsed: 0, isRunning: true, isFinished: false,
-        lastTickTime: Date.now(), stackingIsActive: false, stackingLevel: 1, stackingTotalTimeLeft: 0,
-        stackingSectionTimeLeft: 0, stackingCurrentSplitElapsed: 0, stackingGlobalSumCount: 0,
-        stackingGlobalTotalSplits: 0, stackingLastSplitDelta: 0, stackingPendingDowngrade: false,
-        rotationCategories: [], rotationIndex: 0, rotationCategoryElapsed: 0,
-        rotationCategoryDuration: 0, rotationCategoryDurations: [],
+        mode: "default", 
+        title: "", 
+        initialSegmentDuration: 0, 
+        targetSegmentDuration: 0,
+        totalSegments: 0, 
+        defaultTotalTime: 0, 
+        defaultCountEnabled: false, 
+        completedSegments: 0, 
+        cumulativeDelta: 0,
+        globalTimeElapsed: 0, 
+        segmentTimeElapsed: 0, 
+        isRunning: true, 
+        isFinished: false,
+        lastTickTime: Date.now(), 
+        stackingIsActive: false, 
+        stackingLevel: 1, 
+        stackingTotalTimeLeft: 0,
+        stackingSectionTimeLeft: 0, 
+        stackingCurrentSplitElapsed: 0, 
+        stackingGlobalSumCount: 0,
+        stackingGlobalTotalSplits: 0, 
+        stackingLastSplitDelta: 0, 
+        stackingPendingDowngrade: false,
+        rotationCategories: [], 
+        rotationIndex: 0, 
+        rotationCategoryElapsed: 0,
+        rotationCategoryDuration: 0, 
+        rotationCategoryDurations: [],
         rotationInterruptDuration: 300,
-        rotationInInterrupt: false, rotationInterruptElapsed: 0
+        rotationInInterrupt: false, 
+        rotationInterruptElapsed: 0
     };
 }
 
@@ -65,6 +86,12 @@ export interface PacingTimerSettings {
     rotationInterruptDuration: number;
     rotationContinuePrevious: boolean;
     lastRotationSession?: Partial<PacingSessionState> | null;
+
+    // Classic Pacing persistent state
+    segmentedInputMode?: "total" | "segment";
+    segmentedTotalTimeRaw?: string;
+    segmentedSegmentDurationRaw?: string;
+    segmentedSegmentsRaw?: string;
 }
 
 export const DEFAULT_SETTINGS: PacingTimerSettings = {
@@ -80,5 +107,11 @@ export const DEFAULT_SETTINGS: PacingTimerSettings = {
     rotationCategoryDurations: [900],
     rotationInterruptDuration: 300,
     rotationContinuePrevious: false,
-    lastRotationSession: null
+    lastRotationSession: null,
+
+    // Classic Pacing defaults
+    segmentedInputMode: "total",
+    segmentedTotalTimeRaw: "10m",
+    segmentedSegmentDurationRaw: "1m",
+    segmentedSegmentsRaw: "10"
 };

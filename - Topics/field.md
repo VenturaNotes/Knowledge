@@ -10,8 +10,14 @@
 - (1) The region in which a physical agency exerts its influence. Typical examples are electric and magnetic fields resulting from the presence of charge or magnetic dipoles. These are vector fields. Such a field may be pictorially represented by a set of curves, referred to as lines of force or of flux. The field density and direction at a point represent the strength and direction of the field at that point. 
 - (2) (in computing) A set of symbols treated together as a unit of information. 
 - (3) See TELEVISION.
+## Source[^4]
+- A commutative ring with identity with the following additional property:
+	- (x) For each non-zero $a$ there is an element $a^{-1}$ such that $a^{-1}a = 1$.
+		- (The axiom numbering here follows on from that used for ring and integral domain.) 
+- From the defining properties of a field, Axioms (i)-(viii) and Axiom (x), it can be shown that $ab = 0$ only if $a=0$ or $b=0$. Thus Axiom (ix) holds, and so any field is an integral domain. Familiar examples of fields are the rational numbers $\mathbb{Q}$, the real numbers $\mathbb{R}$ and the complex numbers $\mathbb{C}$, each with the usual addition and multiplication. Another example is $\mathbb{Z}_p$, the integers with addition and multiplication modulo $p$, where $p$ is prime. See also GALOIS FIELD.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

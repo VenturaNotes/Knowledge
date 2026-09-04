@@ -1,5 +1,21 @@
 import { App } from 'obsidian';
 
+export const formatPacingTime = (seconds: number): string => {
+    const neg = seconds < 0;
+    const abs_s = Math.abs(seconds);
+    const h = Math.floor(abs_s / 3600);
+    const m = Math.floor((abs_s % 3600) / 60);
+
+    if (h > 0) {
+        const mStr = m < 10 ? `0${m}m` : `${m}m`;
+        return `${neg ? "-" : ""}${h}h${mStr}`;
+    }
+
+    const mins = Math.floor(abs_s / 60);
+    const secs = abs_s % 60;
+    return `${neg ? "-" : ""}${mins}:${secs.toString().padStart(2, '0')}`;
+};
+
 export const formatTimeHMS = (totalSeconds: number): string => {
     const neg = totalSeconds < 0;
     const abs_s = Math.abs(totalSeconds);

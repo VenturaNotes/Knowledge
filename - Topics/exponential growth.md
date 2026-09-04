@@ -7,6 +7,9 @@
 	- Parts
 		- Year
 		- World population in millions
+## Source[^2]
+- If $y = Ae^{kt}$, where $A > 0$ and $k > 0$ are constants, and $t$ denotes time, $y$ is said to be exhibiting exponential growth. This occurs when $dy/dt = ky$; that is, when the rate of change of the quantity $y$ at any time is proportional to the value of $y$ at that time. Any quantity with exponential growth ultimately outgrows any polynomial growth. Compare EXPONENTIAL DECAY.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

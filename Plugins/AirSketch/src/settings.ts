@@ -18,34 +18,23 @@ export class AirSketchSettingTab extends PluginSettingTab {
         containerEl.createEl('h2', { text: '✈️ AirSketch Settings' });
 
         const tokenQuery = this.plugin.settings.isPrivate ? `?token=${this.plugin.settings.authToken}` : '';
-        const ipadUrl = `http://${os.hostname()}:${this.plugin.settings.port}${tokenQuery}`;
-        const localUrl = `http://localhost:${this.plugin.settings.port}${tokenQuery}`;
+        const serverUrl = `http://${os.hostname()}:${this.plugin.settings.port}${tokenQuery}`;
 
         const statusBox = containerEl.createDiv({
             attr: { style: 'background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 8px; padding: 14px; margin-bottom: 20px;' }
         });
         statusBox.createEl('div', { 
-            text: this.plugin.settings.isPrivate ? '🔒 Private Pairing Link (iPad / Local Network):' : '🌐 AirSketch URL (iPad / Local Network):', 
+            text: this.plugin.settings.isPrivate ? '🔒 Private AirSketch URL (One-Time Pairing Link):' : '🌐 AirSketch URL:', 
             attr: { style: 'font-weight: bold; font-size: 13px; margin-bottom: 6px;' } 
         });
         
-        const urlRow = statusBox.createDiv({ attr: { style: 'display: flex; gap: 8px; align-items: center; margin-bottom: 10px;' } });
-        urlRow.createEl('code', { text: ipadUrl, attr: { style: 'font-size: 12px; padding: 4px 8px; background: var(--background-primary); border-radius: 4px; overflow-x: auto; flex: 1;' } });
+        const urlRow = statusBox.createDiv({ attr: { style: 'display: flex; gap: 8px; align-items: center;' } });
+        urlRow.createEl('code', { text: serverUrl, attr: { style: 'font-size: 12px; padding: 4px 8px; background: var(--background-primary); border-radius: 4px; overflow-x: auto; flex: 1;' } });
         
-        const copyBtn = urlRow.createEl('button', { text: '📋 Copy iPad URL', attr: { style: 'cursor: pointer; flex-shrink: 0;' } });
+        const copyBtn = urlRow.createEl('button', { text: '📋 Copy URL', attr: { style: 'cursor: pointer; flex-shrink: 0;' } });
         copyBtn.addEventListener('click', () => {
-            navigator.clipboard.writeText(ipadUrl);
-            new Notice('✓ Copied iPad AirSketch URL to clipboard!');
-        });
-
-        // Desktop Localhost Access row
-        const localRow = statusBox.createDiv({ attr: { style: 'display: flex; gap: 8px; align-items: center;' } });
-        localRow.createEl('span', { text: 'Mac Browser:', attr: { style: 'font-size: 12px; color: var(--text-muted); width: 85px; flex-shrink: 0;' } });
-        localRow.createEl('code', { text: localUrl, attr: { style: 'font-size: 12px; padding: 4px 8px; background: var(--background-primary); border-radius: 4px; overflow-x: auto; flex: 1;' } });
-        const copyLocalBtn = localRow.createEl('button', { text: '📋 Copy Mac URL', attr: { style: 'cursor: pointer; flex-shrink: 0;' } });
-        copyLocalBtn.addEventListener('click', () => {
-            navigator.clipboard.writeText(localUrl);
-            new Notice('✓ Copied Mac Localhost URL to clipboard!');
+            navigator.clipboard.writeText(serverUrl);
+            new Notice('✓ Copied AirSketch URL to clipboard!');
         });
 
         new Setting(containerEl)
