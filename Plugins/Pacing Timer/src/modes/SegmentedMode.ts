@@ -205,10 +205,9 @@ export const SegmentedMode: ModeHandler = {
         const threshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
         session.segmentedVaultThreshold = threshold;
 
+        // True remaining time in dedicated session base
         const hardStop = session.hardStopTotalSeconds || (session.initialSegmentDuration * session.totalSegments);
-        const earlyBanked = session.earlyFinishBanked || 0;
-        const targetTotalTime = Math.max(0, hardStop - earlyBanked);
-        const timeLeft = Math.max(0, targetTotalTime - session.globalTimeElapsed);
+        const trueTimeLeft = Math.max(0, hardStop - session.globalTimeElapsed);
 
         const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
         
@@ -238,22 +237,24 @@ export const SegmentedMode: ModeHandler = {
                 if (isAtMax) {
                     const remainingTasks = Math.max(0, maxGoal - session.completedSegments);
                     const newRemainingWorkTime = remainingTasks * newDuration;
-                    const oldRemainingTime = Math.max(0, targetTotalTime - session.globalTimeElapsed);
-                    const timeSaved = Math.max(0, oldRemainingTime - newRemainingWorkTime);
-
-                    session.earlyFinishBanked = (session.earlyFinishBanked || 0) + timeSaved;
+                    const totalNeeded = session.globalTimeElapsed + newRemainingWorkTime;
+                    session.earlyFinishBanked = Math.max(0, hardStop - totalNeeded);
                     session.cumulativeDelta = 0;
 
-                    const quotaDiff = Math.max(0, (session.currentQuota || maxGoal) - prevQuota);
                     plugin.playVictoryChime();
                     plugin.showOverlay(
-                        `⚡ Gear Shift: ${paceStr} Pace, +${quotaDiff} Tasks`,
+                        `⚡ Gear Shift: ${paceStr} Pace, +0 Tasks`,
                         true,
                         "up"
                     );
                 } else {
-                    const remainingAchievable = Math.floor(timeLeft / newDuration);
+                    const remainingAchievable = Math.floor(trueTimeLeft / newDuration);
                     session.currentQuota = Math.min(maxGoal, session.completedSegments + remainingAchievable);
+                    
+                    const remainingTasks = Math.max(0, session.currentQuota - session.completedSegments);
+                    const newRemainingWorkTime = remainingTasks * newDuration;
+                    const totalNeeded = session.globalTimeElapsed + newRemainingWorkTime;
+                    session.earlyFinishBanked = Math.max(0, hardStop - totalNeeded);
                     session.cumulativeDelta = 0;
 
                     const quotaDiff = Math.max(0, session.currentQuota - prevQuota);
@@ -273,7 +274,7 @@ export const SegmentedMode: ModeHandler = {
                 const pullStr = formatHumanReadableDuration(threshold).replace(/\s+/g, "");
                 plugin.playVictoryChime();
                 plugin.showOverlay(
-                    `🏆 Max Reached: -${pullStr}`,
+                    `🏆 Max Quota: -${pullStr}`,
                     true,
                     "up"
                 );
@@ -306,8 +307,16 @@ export const SegmentedMode: ModeHandler = {
             session.targetSegmentDuration = newDuration;
             session.initialSegmentDuration = newDuration;
 
-            const remainingAchievable = Math.floor(timeLeft / newDuration);
+            // Calculate achievable tasks in remaining time
+            const remainingAchievable = Math.floor(trueTimeLeft / newDuration);
             session.currentQuota = Math.min(session.maxTargetSegments || session.totalSegments, session.completedSegments + remainingAchievable);
+
+            // PRESERVE EARLY FINISH: Synchronize earlyFinishBanked to the true remaining workload
+            const remainingTasks = Math.max(0, session.currentQuota - session.completedSegments);
+            const remainingWorkTime = remainingTasks * newDuration;
+            const totalNeeded = session.globalTimeElapsed + remainingWorkTime;
+            session.earlyFinishBanked = Math.max(0, hardStop - totalNeeded);
+
             session.cumulativeDelta = 0;
 
             const quotaDiff = session.currentQuota - prevQuota;
@@ -343,11 +352,6 @@ export const SegmentedMode: ModeHandler = {
             return `${clockPrefix}⏱️ [${displayTitle}:00:00] [<span style="${deltaStyle}">${deltaSign}${deltaStr}</span>] 🏆 Done! (${session.completedSegments}/${currentQuota}) [Max: ${maxGoal}]`;
         }
 
-        const hardStop = session.hardStopTotalSeconds || (session.initialSegmentDuration * session.totalSegments);
-        const earlyBanked = session.earlyFinishBanked || 0;
-        const targetTotalTime = Math.max(0, hardStop - earlyBanked);
-        const remainingHardStopTime = Math.max(0, targetTotalTime - session.globalTimeElapsed);
-
         // Segment Countdown: Bold Yellow (#eab308) when positive, Bold Red (#ef4444) when in overtime
         const segmentTimeLeft = session.targetSegmentDuration - session.segmentTimeElapsed;
         const segStr = segmentTimeLeft >= 0 ? formatTime(segmentTimeLeft) : `-${formatTime(Math.abs(segmentTimeLeft))}`;
@@ -361,6 +365,16 @@ export const SegmentedMode: ModeHandler = {
         const liveDelta = session.cumulativeDelta - globalOvertime;
         const deltaSign = liveDelta > 0 ? "+" : (liveDelta < 0 ? "-" : "");
         const deltaStyle = liveDelta > 0 ? "color: #10b981;" : (liveDelta < 0 ? "color: #ef4444;" : "");
+
+        // STEPPED MILESTONE HORIZON:
+        const hardStop = session.hardStopTotalSeconds || (session.initialSegmentDuration * session.totalSegments);
+        const earlyBanked = session.earlyFinishBanked || 0;
+        const steppedTotalSeconds = Math.max(0, hardStop - earlyBanked);
+        const remainingSteppedSeconds = Math.max(0, steppedTotalSeconds - session.globalTimeElapsed);
+
+        // [G:...] and the finish clock now both reflect the true remaining work time
+        const formattedGlobalTime = formatPacingTime(remainingSteppedSeconds);
+        const estFinishedTimeStr = getFinishedTimeStr(session.lastTickTime, remainingSteppedSeconds);
 
         const threshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
 
@@ -378,11 +392,9 @@ export const SegmentedMode: ModeHandler = {
             ratioDisplay = `(<span style="color: #f38ba8;">${paceRatio}%</span>)`;
         }
 
-        const estFinishedTimeStr = getFinishedTimeStr(session.lastTickTime, remainingHardStopTime);
+        // Target boundary display: +01:15/03:00
         const deltaTargetDisplay = `${deltaSign}${formatTime(Math.abs(liveDelta))}/${formatTime(threshold)}`;
         const deltaDisplay = `[<span style="${deltaStyle}">${deltaTargetDisplay}</span> ${ratioDisplay}: ${estFinishedTimeStr}]`;
-
-        const formattedGlobalTime = formatPacingTime(remainingHardStopTime);
 
         const countDisplay = session.segmentedCountUp
             ? `(${session.completedSegments}/${currentQuota}) [Max: ${maxGoal}]`
