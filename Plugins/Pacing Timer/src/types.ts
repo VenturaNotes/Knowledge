@@ -16,6 +16,13 @@ export interface PacingSessionState {
     isFinished: boolean;
     lastTickTime: number;
 
+    // Classic Pacing Vault & Display state
+    segmentedVaultEnabled?: boolean;
+    segmentedVaultThreshold?: number;
+    segmentedAllowLevelDown?: boolean;
+    segmentedLevel?: number;
+    segmentedCountUp?: boolean;
+
     stackingIsActive: boolean;
     stackingLevel: number;
     stackingTotalTimeLeft: number;
@@ -51,7 +58,14 @@ export function createBlankSession(): PacingSessionState {
         segmentTimeElapsed: 0, 
         isRunning: true, 
         isFinished: false,
-        lastTickTime: Date.now(), 
+        lastTickTime: Date.now(),
+
+        segmentedVaultEnabled: true,
+        segmentedVaultThreshold: 300,
+        segmentedAllowLevelDown: true,
+        segmentedLevel: 0,
+        segmentedCountUp: false,
+
         stackingIsActive: false, 
         stackingLevel: 1, 
         stackingTotalTimeLeft: 0,
@@ -92,6 +106,9 @@ export interface PacingTimerSettings {
     segmentedTotalTimeRaw?: string;
     segmentedSegmentDurationRaw?: string;
     segmentedSegmentsRaw?: string;
+    segmentedVaultThresholdRaw?: string;
+    segmentedAllowLevelDown?: boolean;
+    segmentedCountUp?: boolean;
 }
 
 export const DEFAULT_SETTINGS: PacingTimerSettings = {
@@ -113,5 +130,8 @@ export const DEFAULT_SETTINGS: PacingTimerSettings = {
     segmentedInputMode: "total",
     segmentedTotalTimeRaw: "10m",
     segmentedSegmentDurationRaw: "1m",
-    segmentedSegmentsRaw: "10"
+    segmentedSegmentsRaw: "10",
+    segmentedVaultThresholdRaw: "5m",
+    segmentedAllowLevelDown: true,
+    segmentedCountUp: false
 };

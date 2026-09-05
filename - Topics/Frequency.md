@@ -17,6 +17,11 @@
 ## Source[^6]
 - (symbol: v or f; unit: hertz) The number of complete oscillations or cycles of a periodic quantity occurring in unit time. The frequency is related to the angular frequency $\omega$ by the relation $\omega = 2\pi \nu$ . The frequency of a periodic quantity, such as an alternating current, is given by the number of times the quantity passes through its zero value in the same sense in unit time.
 - The frequency of electromagnetic radiation is related to the wavelength, $\lambda$ , by the equation $\nu = c / \lambda$ , where $c$ is the speed of light.
+## Source[^7]
+- (in mechanics) When oscillations, or cycles, occur with period $T$, the frequency is equal to $1/T$. The frequency is equal to the number of oscillations or cycles that take place per unit time.
+- Frequency has the dimensions $T^{-1}$, and the SI unit of frequency is the hertz.
+---
+- (in statistics) The number of times that a particular value occurs as an observation. In grouped data, the frequency corresponding to a group is the number of observations that lie in that group. If numerical data are grouped by means of class intervals, the frequency corresponding to a class interval is the number of observations in that interval. See also RELATIVE FREQUENCY.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -25,3 +30,4 @@
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^7]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

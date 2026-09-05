@@ -1,6 +1,8 @@
 ---
 aliases:
   - graphs
+tags:
+  - in-progress
 ---
 ## Synthesis
 - In computer science, a graph is an abstract data type used to model relationships between objects, consisting of a set of nodes (or vertices) and a set of edges that connect these nodes.
@@ -12,11 +14,13 @@ aliases:
 - Variations exist in the definition of a graph. There is some dispute about whether one edge can join a vertex to itself, whether empty sets are involved, whether an infinite number of vertices and edges are permitted, and so on.
 - See also CONNECTED GRAPH, NETWORK, WEIGHTED GRAPH. 
 - (2) (of a function $f$ ) The set of all ordered pairs $(x, y)$ with the property that $y=f(x)$. Often such a graph is represented by a curve.
-
 ## Source[^2]
-- (1) How can we represent a general graph that may not well connected for efficient BFS and DFS traversals?
+- [ ] (1) How can we represent a general graph that may not well connected for efficient BFS and DFS traversals?
 	- 
+## Source[^3]
+- 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.geeksforgeeks.org/quizzes/graph-12715/
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

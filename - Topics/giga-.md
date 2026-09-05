@@ -8,8 +8,11 @@
 - (symbol: G) 
 - (1) A prefix to a unit, denoting a multiple of $10^{9}$ of that unit: one gigahertz equals $10^{9}$ hertz. 
 - (2) A prefix used in computing to denote a multiple of $2^{30}$ (i.e. 1 073 741 824): one gigabyte equals $2^{30}$ bytes.
+## Source[^4]
+- Prefix used with SI units to denote multiplication by $10^9$. Abbreviated to G. For binary giga, see KILO (binary).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

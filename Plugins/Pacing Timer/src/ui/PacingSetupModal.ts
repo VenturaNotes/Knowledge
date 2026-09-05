@@ -11,21 +11,20 @@ export class PacingSetupModal extends Modal {
     selectedMode: TimerMode;
     config: Record<string, any> = {};
     modeContainers: Record<string, HTMLDivElement> = {};
-    titleSettingEl: HTMLElement | null = null;
 
     constructor(app: App, plugin: PacingTimerPlugin, onSubmit: (config: any) => void) {
         super(app);
         this.plugin = plugin;
         this.onSubmit = onSubmit;
         this.selectedMode = plugin.settings.cache.selectedMode || "stacking";
-        this.config.title = plugin.settings.cache.rawTitle && plugin.settings.cache.rawTitle !== "undefined" ? plugin.settings.cache.rawTitle : "";
+        this.config.title = "G";
     }
 
     onOpen() {
         this.plugin.activeModal = this;
         const { contentEl } = this;
         contentEl.empty();
-        Object.assign(contentEl.style, { display: "flex", flexDirection: "column", minHeight: "440px" });
+        Object.assign(contentEl.style, { display: "flex", flexDirection: "column", minHeight: "380px" });
 
         contentEl.createEl("h3", { text: "⏱️ Pacing Setup" });
 
@@ -55,12 +54,6 @@ export class PacingSetupModal extends Modal {
                 });
             });
 
-        const titleSetting = new Setting(formContainer)
-            .setName("Session Title")
-            .setDesc("Optional label showing on the bar (e.g. 'Writing', 'Code').")
-            .addText(text => text.setValue(this.config.title).setPlaceholder("G").onChange(v => this.config.title = v));
-        this.titleSettingEl = titleSetting.settingEl;
-
         for (const [id, handler] of Object.entries(ModeRegistry)) {
             const container = formContainer.createDiv({ cls: `pacing-${id}-settings` });
             this.modeContainers[id] = container;
@@ -88,10 +81,6 @@ export class PacingSetupModal extends Modal {
     }
 
     toggleSettingsContainers() {
-        if (this.titleSettingEl) {
-            this.titleSettingEl.style.display = this.selectedMode === "rotation" ? "none" : "";
-        }
-
         for (const [id, container] of Object.entries(this.modeContainers)) {
             container.style.display = id === this.selectedMode ? "block" : "none";
         }
@@ -99,7 +88,8 @@ export class PacingSetupModal extends Modal {
 
     submitForm() {
         this.config.mode = this.selectedMode;
-        this.plugin.settings.cache = { selectedMode: this.selectedMode, rawTitle: this.config.title };
+        this.config.title = "G";
+        this.plugin.settings.cache = { selectedMode: this.selectedMode, rawTitle: "" };
         
         for (const handler of Object.values(ModeRegistry)) {
             if (handler.saveSettings) handler.saveSettings(this.config, this.plugin.settings);

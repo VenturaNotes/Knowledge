@@ -9,8 +9,11 @@
 - (in statistics) a presentation in the form of a table or graph of the number of times that the categories of a categorical variable (e.g. sex) occur in a sample of observations. See DISTRIBUTION.
 ## Source[^3]
 - $n$. In statistics, a table or graph showing classes into which the data have been grouped, together with their corresponding frequencies, that is, the number of scores falling into each class.
+## Source[^4]
+- For nominal or discrete data, the information consisting of the possible values and the corresponding frequencies is called the frequency distribution. For grouped data, it gives the information consisting of the groups and the corresponding frequencies. It may be presented in a table or in a diagram such as a bar chart, histogram or stem-and-leaf plot.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

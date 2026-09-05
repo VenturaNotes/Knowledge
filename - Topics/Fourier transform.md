@@ -56,7 +56,10 @@ G(n / N T)=\sum_{k=0}^{N-1} g(k t) \exp (-2 \pi i n k / N)
 $$
 ## Source[^2]
 - $n$. A function of the form $f(t)$ that can be obtained from another function $f(x)$ by multiplying by $e^{i t x}$ and integrating over all values of $x$. It plays a crucial part in Fourier analysis.
+## Source[^3]
+- The integral transform $f(s) = \int_{-\infty}^{\infty} f(x) e^{-isx} \text{ dx}$ for an integrable function $f$ on $\mathbb{R}$. The Fourier transform is also denoted by $\mathscr{F}$. The function $f$ is the Fourier transform of $f$. The Fourier inverse is given by $f(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} f(s) e^{isx} \text{ ds}$. See DISCRETE FOURIER TRANSFORM, CONVOLUTION, LAPLACE TRANSFORM.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

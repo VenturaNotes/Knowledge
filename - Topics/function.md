@@ -44,8 +44,11 @@ See also BIJECTION, HOMOMORPHISM, INJECTION, OPERATION, SURJECTION. 2. A program
 - A section or department of an organization that carries out a discrete activity, under the control of a manager or director. It is the section of the business for which functional budgets are produced. Examples of separate functions are production, sales, finance, and personnel.
 ## Source[^3]
 - An equation that maps an input for some system to the corresponding output. This applies to systems where there is only one output value that corresponds to any given input value. Such systems will not have any internal state or memory that can influence the output.
+## Source[^4]
+- A function (or mapping) $f$ from $S$ to $T$, where $S$ and $T$ are non-empty sets, is a rule that associates with each element $s$ of $S$ (the domain) a unique element $f(s)$ of $T$ (the codomain). $s$ is the argument or input, and $f(s)$ is the image or output. The notation $f: S \to T$, read as “$f$ from $S$ to $T$”, is used. The subset of $T$ consisting of those elements that are images, that is $\{f(s) \mid s \in S\}$, is the image or range of $f$. If $f(s) = t$, it is said that $f$ maps $s$ to $t$, written $s \mapsto t$. See BIJECTION, GRAPH (OF A FUNCTION), ONE-TO-ONE MAPPING, ONTO MAPPING, REAL FUNCTION, MORPHISM.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

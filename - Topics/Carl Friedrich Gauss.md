@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (1777–1855) German mathematician and astronomer, arguably the greatest pure mathematician of all time. He also made enormous contributions to other parts of mathematics, physics, and astronomy. He was highly talented as a child. At the age of 19, made the new discovery that a 17-sided regular polygon could be constructed with ruler and compasses. In 1799, in his doctoral thesis, he proved the Fundamental Theorem of Algebra. At the age of 24, he published his *Disquisitiones arithmeticae*, a book that was to have a profound influence on the number theory. In this, he proved the theorem of quadratic reciprocity. In later work, he developed the theory of curved surfaces using methods now known as differential geometry. His work on complex functions was fundamental, but, like his discovery of non-Euclidean geometry, it was not published at the time. He introduced what is now known to statisticians as the Gaussian distribution. His memoir on potential theory was just one of his contributions to applied mathematics. In astronomy, his great powers of mental calculation allowed him to calculate the orbits of comets and asteroids from limited observational data. He was the first mathematician to consider the behaviour of knots in a formal mathematical sense.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

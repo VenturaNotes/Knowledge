@@ -6,7 +6,10 @@
 ## Source[^2]
 - (1) A category used in the classification of organisms into which different types of a variety may be placed. 
 - (2) Any distinct variant within a species. Seasonal variants, e.g. the tawny brown (summer) and blue-white (winter) forms of the blue hare, may be called forms, as may the different types that constitute a polymorphism.
+## Source[^3]
+- A homogeneous polynomial in two or more variables. See also QUADRATIC FORM.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

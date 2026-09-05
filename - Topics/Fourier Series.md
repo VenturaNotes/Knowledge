@@ -34,7 +34,10 @@ $$
 $$
 ## Source[^2]
 - $n$. An infinite series of the form $\frac{1}{2} a_{0}+a_{1} \cos x+b_{1} \sin x+$ $a_{2} \cos 2 x+b_{2} \sin 2 x+\ldots$ that can be used to decompose or to approximate a time series or periodic function in Fourier analysis.
+## Source[^3]
+- The infinite series $\frac{1}{2}a_0 + \sum_{n=1}^{\infty} (a_n \cos(n\pi x/L) + b_n \sin(n\pi x/L))$, where $a_n$ and $b_n$ are the Fourier coefficients. The Fourier series defines a function of period $2L$; the convergence of the series and the magnitude of the Fourier coefficients are highly related to the order of differentiability of the function $f$. Fourier series are used to decompose a waveform into component waves of different frequencies and amplitudes, allowing identification of different sources from background or random noise in a signal. Fourier series are also widely used in the solution of partial differential equations.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

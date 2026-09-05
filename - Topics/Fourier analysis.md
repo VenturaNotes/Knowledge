@@ -12,9 +12,12 @@
 - Fourier analysis is widely used in electronics, where a slightly different representation is commonly used in which the Fourier integral is written as$$\mathrm{F}(t) = \int_{-\infty}^{+\infty} \mathrm{g}(\omega) \mathrm{e}^{\mathrm{j} \omega t} \mathrm{d}\omega$$where the function$$\mathrm{g}(\omega) = \frac{1}{2\pi} \int_{-\infty}^{+\infty} \mathrm{F}(t) \mathrm{e}^{-\mathrm{j} \omega t} \mathrm{d}t$$is called the Fourier transform of the function $\mathrm{F}(t)$. Similarly $\mathrm{F}(t)$ is also the Fourier transform of the function $\mathrm{g}(\omega)$. See also discrete Fourier transform.
 - http://hyperphysics.phy-astr.gsu.edu/hbase/Audio/fourier.html
 	- An introduction to Fourier analysis
+## Source[^5]
+- The use of Fourier series and the Fourier transform in analysis, in many applications such including signal processing.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
