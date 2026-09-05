@@ -17,8 +17,6 @@ export const SegmentedMode: ModeHandler = {
         config.segmentedTotalTimeRaw = config.segmentedTotalTimeRaw ?? plugin.settings.segmentedTotalTimeRaw ?? "10m";
         config.segmentedSegmentDurationRaw = config.segmentedSegmentDurationRaw ?? plugin.settings.segmentedSegmentDurationRaw ?? "1m";
         config.segmentsRaw = config.segmentsRaw ?? plugin.settings.segmentedSegmentsRaw ?? "10";
-        config.segmentedVaultThresholdRaw = config.segmentedVaultThresholdRaw ?? plugin.settings.segmentedVaultThresholdRaw ?? "5m";
-        config.segmentedAllowLevelDown = config.segmentedAllowLevelDown ?? plugin.settings.segmentedAllowLevelDown ?? true;
         config.segmentedCountUp = config.segmentedCountUp ?? plugin.settings.segmentedCountUp ?? false;
 
         let totalTimeComponent: TextComponent | null = null;
@@ -82,7 +80,7 @@ export const SegmentedMode: ModeHandler = {
 
         new Setting(container)
             .setName("Total Target Segments")
-            .setDesc("Number of segments you expect to execute.")
+            .setDesc("Initial dream goal for segments to complete.")
             .addText(text => {
                 text.setValue(config.segmentsRaw).onChange(v => {
                     config.segmentsRaw = v;
@@ -92,30 +90,10 @@ export const SegmentedMode: ModeHandler = {
 
         new Setting(container)
             .setName("Count Up Completed Segments")
-            .setDesc("Display progress counting up as (completed/total), e.g. (15/100), instead of counting down remaining segments, e.g. (85).")
+            .setDesc("Display progress counting up as (completed/quota) [Max: goal] instead of counting down remaining segments.")
             .addToggle(toggle => {
                 toggle.setValue(config.segmentedCountUp).onChange(v => {
                     config.segmentedCountUp = v;
-                });
-            });
-
-        // --- Vault Settings ---
-        new Setting(container)
-            .setName("Vault Level Threshold")
-            .setDesc("Surplus required to earn a Level and pull finish time earlier (e.g. '5m', '10m', '300s').")
-            .addText(text => {
-                text.setValue(config.segmentedVaultThresholdRaw).onChange(v => {
-                    config.segmentedVaultThresholdRaw = v;
-                    updatePreview();
-                });
-            });
-
-        new Setting(container)
-            .setName("Allow Level-Down")
-            .setDesc("If enabled, falling behind by the threshold consumes a level as a shield. If disabled, earned levels are permanent.")
-            .addToggle(toggle => {
-                toggle.setValue(config.segmentedAllowLevelDown).onChange(v => {
-                    config.segmentedAllowLevelDown = v;
                 });
             });
 
@@ -136,9 +114,10 @@ export const SegmentedMode: ModeHandler = {
         config.updatePreviewUI = () => {
             const segs = parseInt(config.segmentsRaw, 10);
             let timeStr = "";
+            let segDuration = 60;
 
             if (config.segmentedInputMode === "segment") {
-                const segDuration = parseDurationToSeconds(config.segmentedSegmentDurationRaw);
+                segDuration = parseDurationToSeconds(config.segmentedSegmentDurationRaw) || 60;
                 if (segs > 0 && segDuration > 0) {
                     const totalTime = segs * segDuration;
                     const finishTime = getFinishedTimeStr(Date.now(), totalTime);
@@ -149,7 +128,7 @@ export const SegmentedMode: ModeHandler = {
             } else {
                 const totalTime = parseDurationToSeconds(config.segmentedTotalTimeRaw);
                 if (segs > 0 && totalTime > 0) {
-                    const segDuration = Math.round(totalTime / segs);
+                    segDuration = Math.round(totalTime / segs);
                     const finishTime = getFinishedTimeStr(Date.now(), totalTime);
                     timeStr = `🎯 Each segment will take: ${formatTime(segDuration)} (Total: ${formatPacingTime(totalTime)} • Finish by ${finishTime})`;
                 } else {
@@ -157,8 +136,8 @@ export const SegmentedMode: ModeHandler = {
                 }
             }
 
-            const thSecs = parseDurationToSeconds(config.segmentedVaultThresholdRaw) || 300;
-            timeStr += `<br><span style="color: var(--text-accent); font-size: 0.9em;">⭐ Vault: Level Up every ${formatHumanReadableDuration(thSecs)} banked (Window: [±${formatHumanReadableDuration(thSecs)}])</span>`;
+            const autoThreshold = Math.max(60, segDuration * 3);
+            timeStr += `<br><span style="color: var(--text-accent); font-size: 0.9em;">⚡ Telemetry Active: Milestones auto-scaled to 3× segment timer (±${formatHumanReadableDuration(autoThreshold)})</span>`;
 
             previewEl.innerHTML = timeStr;
         };
@@ -172,116 +151,171 @@ export const SegmentedMode: ModeHandler = {
         settings.segmentedTotalTimeRaw = config.segmentedTotalTimeRaw;
         settings.segmentedSegmentDurationRaw = config.segmentedSegmentDurationRaw;
         settings.segmentedSegmentsRaw = config.segmentsRaw;
-        settings.segmentedVaultThresholdRaw = config.segmentedVaultThresholdRaw;
-        settings.segmentedAllowLevelDown = config.segmentedAllowLevelDown;
         settings.segmentedCountUp = config.segmentedCountUp;
     },
 
     createSessionState(config) {
         const segs = Math.max(1, parseInt(config.segmentsRaw, 10) || 10);
         let duration = 60;
+        let totalTime = 600;
 
         if (config.segmentedInputMode === "segment") {
             duration = Math.max(1, parseDurationToSeconds(config.segmentedSegmentDurationRaw) || 60);
+            totalTime = duration * segs;
         } else {
-            const totalTime = parseDurationToSeconds(config.segmentedTotalTimeRaw) || 600;
+            totalTime = parseDurationToSeconds(config.segmentedTotalTimeRaw) || 600;
             duration = Math.max(1, Math.round(totalTime / segs));
         }
 
-        const vaultThreshold = parseDurationToSeconds(config.segmentedVaultThresholdRaw) || 300;
-        const allowLevelDown = config.segmentedAllowLevelDown ?? true;
+        const autoThreshold = Math.max(60, duration * 3);
         const countUp = config.segmentedCountUp ?? false;
 
         return {
             initialSegmentDuration: duration,
             targetSegmentDuration: duration,
             totalSegments: segs,
-            segmentedVaultEnabled: true,
-            segmentedVaultThreshold: vaultThreshold,
-            segmentedAllowLevelDown: allowLevelDown,
+            segmentedVaultThreshold: autoThreshold,
             segmentedCountUp: countUp,
-            segmentedLevel: 0,
             cumulativeDelta: 0,
-            completedSegments: 0
+            completedSegments: 0,
+            currentQuota: segs,
+            maxTargetSegments: segs,
+            totalWorkTime: 0,
+            benchmarkPace: duration,
+            hardStopTotalSeconds: totalTime,
+            earlyFinishBanked: 0
         };
     },
 
     tick(session, plugin, deltaSeconds) {
-        // Live Level-Down Shield check if segment overtime drops past the negative threshold
-        if (!session.segmentedAllowLevelDown) return;
-        if ((session.segmentedLevel || 0) <= 0) return;
-
-        const threshold = session.segmentedVaultThreshold || 300;
-        const globalOvertime = session.segmentTimeElapsed > session.initialSegmentDuration
-            ? session.segmentTimeElapsed - session.initialSegmentDuration
-            : 0;
-        const liveDelta = session.cumulativeDelta - globalOvertime;
-
-        if (liveDelta <= -threshold) {
-            let levelsLost = 0;
-            while ((session.segmentedLevel || 0) > 0 && (session.cumulativeDelta - globalOvertime) <= -threshold) {
-                session.segmentedLevel = (session.segmentedLevel || 0) - 1;
-                session.cumulativeDelta += threshold;
-                levelsLost++;
-            }
-            if (levelsLost > 0) {
-                plugin.playShieldBash();
-                plugin.showOverlay(
-                    `⚠️ Level Down (L${session.segmentedLevel}) | Shield Absorbed -${formatHumanReadableDuration(levelsLost * threshold)}`,
-                    false,
-                    "down"
-                );
-            }
-        }
+        // Automatically sync milestone threshold to 3x current target segment duration
+        session.segmentedVaultThreshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
     },
 
     onComplete(session, plugin) {
         plugin.playMechClack();
-        const savedOffset = session.initialSegmentDuration - session.segmentTimeElapsed;
+        const splitDuration = session.segmentTimeElapsed;
+        const savedOffset = session.targetSegmentDuration - splitDuration;
+
         session.cumulativeDelta += savedOffset;
         session.completedSegments++;
+        session.totalWorkTime = (session.totalWorkTime || 0) + splitDuration;
         session.segmentTimeElapsed = 0;
 
-        const threshold = session.segmentedVaultThreshold || 300;
+        // Dynamic 3x threshold
+        const threshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
+        session.segmentedVaultThreshold = threshold;
 
-        // Level Up: Bank surplus into discrete levels
-        let levelsGained = 0;
-        while (session.cumulativeDelta >= threshold) {
-            session.segmentedLevel = (session.segmentedLevel || 0) + 1;
-            session.cumulativeDelta -= threshold;
-            levelsGained++;
-        }
-        if (levelsGained > 0) {
-            plugin.playVictoryChime();
-            plugin.showOverlay(
-                `⭐ Level ${session.segmentedLevel}! Banked +${formatHumanReadableDuration(levelsGained * threshold)}`,
-                true,
-                "up"
-            );
-        }
+        const hardStop = session.hardStopTotalSeconds || (session.initialSegmentDuration * session.totalSegments);
+        const earlyBanked = session.earlyFinishBanked || 0;
+        const targetTotalTime = Math.max(0, hardStop - earlyBanked);
+        const timeLeft = Math.max(0, targetTotalTime - session.globalTimeElapsed);
 
-        // Level Down on complete (if overtime was not already absorbed during live tick)
-        if (session.segmentedAllowLevelDown && (session.segmentedLevel || 0) > 0 && session.cumulativeDelta <= -threshold) {
-            let levelsLost = 0;
-            while ((session.segmentedLevel || 0) > 0 && session.cumulativeDelta <= -threshold) {
-                session.segmentedLevel = (session.segmentedLevel || 0) - 1;
-                session.cumulativeDelta += threshold;
-                levelsLost++;
+        const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
+        const sessionAvg = session.completedSegments > 0 
+            ? Math.round(session.totalWorkTime / session.completedSegments) 
+            : currentBenchmark;
+
+        // Proximity Ratio relative to current benchmark pace
+        const paceRatio = Math.round((sessionAvg / currentBenchmark) * 100);
+
+        // --- SURPLUS MILESTONE CHECK (+threshold) ---
+        if (session.cumulativeDelta >= threshold) {
+            const maxGoal = session.maxTargetSegments || session.totalSegments;
+            const isAtMax = (session.currentQuota || maxGoal) >= maxGoal;
+
+            // PRIORITY 1: GEAR SHIFT! (Pace proved <= 50% of benchmark)
+            if (paceRatio <= 50) {
+                const newBenchmark = sessionAvg;
+                const newDuration = Math.max(1, Math.round(sessionAvg * 1.25));
+                session.benchmarkPace = newBenchmark;
+                session.targetSegmentDuration = newDuration;
+                session.initialSegmentDuration = newDuration;
+
+                if (isAtMax) {
+                    // Realign the Hard Stop to reflect real-world pace for remaining tasks
+                    const remainingTasks = Math.max(0, maxGoal - session.completedSegments);
+                    const newRemainingWorkTime = remainingTasks * newDuration;
+                    const oldRemainingTime = Math.max(0, targetTotalTime - session.globalTimeElapsed);
+                    const timeSaved = Math.max(0, oldRemainingTime - newRemainingWorkTime);
+
+                    session.earlyFinishBanked = (session.earlyFinishBanked || 0) + timeSaved;
+                    session.cumulativeDelta = 0;
+
+                    plugin.playVictoryChime();
+                    plugin.showOverlay(
+                        `⚡ GEAR SHIFT! New Pace: ${formatTime(newDuration)} | Hard Stop Pulled ${formatHumanReadableDuration(timeSaved)} Earlier!`,
+                        true,
+                        "up"
+                    );
+                } else {
+                    // Below Max Quota -> Quota surges to fit the remaining window
+                    const remainingAchievable = Math.floor(timeLeft / newDuration);
+                    session.currentQuota = Math.min(maxGoal, session.completedSegments + remainingAchievable);
+                    session.cumulativeDelta = 0;
+
+                    plugin.playVictoryChime();
+                    plugin.showOverlay(
+                        `⚡ GEAR SHIFT! New Pace: ${formatTime(newDuration)} | Quota Surged to ${session.currentQuota}`,
+                        true,
+                        "up"
+                    );
+                }
             }
-            if (levelsLost > 0) {
-                plugin.playShieldBash();
+            // PRIORITY 2: EARLY CHECKOUT (At Max Quota, normal pace > 50%)
+            else if (isAtMax) {
+                session.earlyFinishBanked = (session.earlyFinishBanked || 0) + threshold;
+                session.cumulativeDelta -= threshold;
+
+                plugin.playVictoryChime();
                 plugin.showOverlay(
-                    `⚠️ Level Down (L${session.segmentedLevel}) | Shield Absorbed -${formatHumanReadableDuration(levelsLost * threshold)}`,
-                    false,
-                    "down"
+                    `🏆 Max Reached! Hard Stop Pulled ${formatHumanReadableDuration(threshold)} Earlier!`,
+                    true,
+                    "up"
+                );
+            }
+            // PRIORITY 3: RHYTHM RULE (Below Max Quota, normal pace > 50%)
+            else {
+                const earnedSegments = Math.max(1, Math.floor(threshold / session.targetSegmentDuration));
+                session.currentQuota = Math.min(maxGoal, (session.currentQuota || session.totalSegments) + earnedSegments);
+                session.cumulativeDelta -= threshold;
+
+                plugin.playVictoryChime();
+                plugin.showOverlay(
+                    `⭐ Rhythm Milestone: +${earnedSegments} Tasks! Quota: ${session.currentQuota}`,
+                    true,
+                    "up"
                 );
             }
         }
 
-        // Target duration stays fair and stable (never compressed)
-        session.targetSegmentDuration = session.initialSegmentDuration;
+        // --- DEFICIT CHECK ON COMPLETE (-threshold) ---
+        // Only evaluates when you officially complete a segment, never mid-task!
+        else if (session.cumulativeDelta <= -threshold) {
+            const actualAvg = Math.max(1, Math.round(session.totalWorkTime / session.completedSegments));
+            
+            // DIRECTIONALITY LOCK: Never tighten timer during a deficit!
+            const proposedDuration = Math.max(1, Math.round(actualAvg * 1.25));
+            const newDuration = Math.max(session.targetSegmentDuration, proposedDuration);
 
-        if (session.completedSegments >= session.totalSegments) {
+            session.benchmarkPace = Math.max(session.benchmarkPace || 60, actualAvg);
+            session.targetSegmentDuration = newDuration;
+            session.initialSegmentDuration = newDuration;
+
+            const remainingAchievable = Math.floor(timeLeft / newDuration);
+            session.currentQuota = Math.min(session.maxTargetSegments || session.totalSegments, session.completedSegments + remainingAchievable);
+            session.cumulativeDelta = 0;
+
+            plugin.playShieldBash();
+            plugin.showOverlay(
+                `🛟 Rescue: Pace Re-anchored to ${formatTime(newDuration)} | Quota: ${session.currentQuota}`,
+                false,
+                "down"
+            );
+        }
+
+        // Finish condition
+        if (session.completedSegments >= (session.currentQuota || session.totalSegments)) {
             session.isRunning = false;
             session.isFinished = true;
             plugin.stopInterval();
@@ -289,45 +323,68 @@ export const SegmentedMode: ModeHandler = {
     },
 
     renderStatusBar(session, plugin, clockPrefix, pauseText, displayTitle) {
+        const maxGoal = session.maxTargetSegments || session.totalSegments;
+        const currentQuota = session.currentQuota || session.totalSegments;
+
         if (session.isFinished) {
             const liveDelta = session.cumulativeDelta;
             const deltaSign = liveDelta > 0 ? "+" : "";
             const deltaStyle = liveDelta > 0 ? "color: #10b981;" : (liveDelta < 0 ? "color: #ef4444;" : "");
             const deltaStr = formatDelta(liveDelta);
             
-            return `${clockPrefix}⏱️ [${displayTitle}:00:00] [L${session.segmentedLevel || 0}: <span style="${deltaStyle}">${deltaSign}${deltaStr}</span>] 🏆 Done! (${session.completedSegments}/${session.totalSegments})`;
+            return `${clockPrefix}⏱️ [${displayTitle}:00:00] [<span style="${deltaStyle}">${deltaSign}${deltaStr}</span>] 🏆 Done! (${session.completedSegments}/${currentQuota}) [Max: ${maxGoal}]`;
         }
-        
-        const globalTimeLimit = session.initialSegmentDuration * session.totalSegments;
-        const globalTimeRemaining = Math.max(0, globalTimeLimit - session.globalTimeElapsed);
-        const segmentTimeLeft = session.targetSegmentDuration - session.segmentTimeElapsed;
 
+        const hardStop = session.hardStopTotalSeconds || (session.initialSegmentDuration * session.totalSegments);
+        const earlyBanked = session.earlyFinishBanked || 0;
+        const targetTotalTime = Math.max(0, hardStop - earlyBanked);
+        const remainingHardStopTime = Math.max(0, targetTotalTime - session.globalTimeElapsed);
+
+        // Segment Countdown: Bold Yellow (#eab308) when positive, Bold Red (#ef4444) when in overtime
+        const segmentTimeLeft = session.targetSegmentDuration - session.segmentTimeElapsed;
         const segStr = segmentTimeLeft >= 0 ? formatTime(segmentTimeLeft) : `-${formatTime(Math.abs(segmentTimeLeft))}`;
-        const segmentStyle = segmentTimeLeft < 0 ? "color: #ef4444; font-weight: bold;" : "";
-        
-        const globalOvertime = session.segmentTimeElapsed > session.initialSegmentDuration 
-            ? session.segmentTimeElapsed - session.initialSegmentDuration 
+        const segmentStyle = segmentTimeLeft >= 0 
+            ? "color: #eab308; font-weight: bold;" 
+            : "color: #ef4444; font-weight: bold;";
+
+        const globalOvertime = session.segmentTimeElapsed > session.targetSegmentDuration 
+            ? session.segmentTimeElapsed - session.targetSegmentDuration 
             : 0;
         const liveDelta = session.cumulativeDelta - globalOvertime;
-        const deltaSign = liveDelta > 0 ? "+" : "";
+        const deltaSign = liveDelta > 0 ? "+" : (liveDelta < 0 ? "-" : "");
         const deltaStyle = liveDelta > 0 ? "color: #10b981;" : (liveDelta < 0 ? "color: #ef4444;" : "");
 
-        const threshold = session.segmentedVaultThreshold || 300;
-        const bankedSeconds = (session.segmentedLevel || 0) * threshold;
-        const targetSessionSeconds = Math.max(0, globalTimeLimit - bankedSeconds);
-        const remainingForLevel = Math.max(0, targetSessionSeconds - session.globalTimeElapsed);
+        // Dynamic 3x threshold target
+        const threshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
+
+        // Proximity Ratio Telemetry
+        const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
+        const sessionAvg = session.completedSegments > 0 
+            ? Math.round((session.totalWorkTime || 0) / session.completedSegments) 
+            : currentBenchmark;
+        const paceRatio = Math.round((sessionAvg / currentBenchmark) * 100);
+
+        let ratioDisplay = `(${paceRatio}%)`;
+        if (paceRatio <= 50) {
+            ratioDisplay = `(<span style="color: #a6e3a1; font-weight: bold;">⚡${paceRatio}%</span>)`;
+        } else if (paceRatio > 100) {
+            ratioDisplay = `(<span style="color: #f38ba8;">${paceRatio}%</span>)`;
+        }
+
+        // Stepped Hard Stop Horizon
+        const estFinishedTimeStr = getFinishedTimeStr(session.lastTickTime, remainingHardStopTime);
         
-        // Stepped Horizon: strictly pinned to the current level milestone
-        const estFinishedTimeStr = getFinishedTimeStr(session.lastTickTime, remainingForLevel);
-        const deltaDisplay = `[L${session.segmentedLevel || 0}: <span style="${deltaStyle}">${deltaSign}${formatDelta(liveDelta)}</span>: ${estFinishedTimeStr}]`;
+        // Target boundary display: +01:15/03:00
+        const deltaTargetDisplay = `${deltaSign}${formatTime(Math.abs(liveDelta))}/${formatTime(threshold)}`;
+        const deltaDisplay = `[<span style="${deltaStyle}">${deltaTargetDisplay}</span> ${ratioDisplay}: ${estFinishedTimeStr}]`;
 
-        const formattedGlobalTime = formatPacingTime(globalTimeRemaining);
+        const formattedGlobalTime = formatPacingTime(remainingHardStopTime);
 
-        // Segment counter: (15/100) if counting up, or (85) if countdown
-        const segmentCountDisplay = session.segmentedCountUp
-            ? `(${session.completedSegments}/${session.totalSegments})`
-            : `(${Math.max(0, session.totalSegments - session.completedSegments)})`;
+        // Segment Counter format: (15/42) [Max: 100] or (27) [Max: 100]
+        const countDisplay = session.segmentedCountUp
+            ? `(${session.completedSegments}/${currentQuota}) [Max: ${maxGoal}]`
+            : `(${Math.max(0, currentQuota - session.completedSegments)}) [Max: ${maxGoal}]`;
 
-        return `${clockPrefix}⏱️ [${displayTitle}:${formattedGlobalTime}] [S:<span style="${segmentStyle}">${segStr}</span>] ${deltaDisplay} ${segmentCountDisplay}${pauseText}`;
+        return `${clockPrefix}⏱️ [${displayTitle}:${formattedGlobalTime}] [S:<span style="${segmentStyle}">${segStr}</span>] ${deltaDisplay} ${countDisplay}${pauseText}`;
     }
 };
