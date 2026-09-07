@@ -1,4 +1,4 @@
-# obsnap.zsh - Manually capture and log full Obsidian memory diagnostics on demand
+# Description: Log Obsidian memory diagnostics snapshot and culprit process to file
 obsnap() {
     local log_file="$HOME/Desktop/Knowledge/Private/Obsidian-Memory-Alerts.md"
     mkdir -p "${log_file:h}"

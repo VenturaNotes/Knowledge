@@ -2,6 +2,9 @@ import { App, Plugin, PluginSettingTab, Setting } from 'obsidian';
 import { PacingSessionState, PacingTimerSettings, DEFAULT_SETTINGS, createBlankSession } from './types';
 import { ModeRegistry } from './modes';
 import { PacingSetupModal } from './ui/PacingSetupModal';
+import { SaveSessionModal } from './ui/SaveSessionModal';
+import { SavedSessionsModal } from './ui/SavedSessionsModal';
+import { AdjustSessionModal } from './ui/AdjustSessionModal';
 import { getCurrentTimeStr } from './utils';
 
 class PacingTimerSettingTab extends PluginSettingTab {
@@ -50,10 +53,10 @@ export default class PacingTimerPlugin extends Plugin {
         this.statusBarItem = this.addStatusBarItem();
         this.statusBarItem.classList.add("status-bar-pacing-timer");
 
-        // Setup Modal command (Toggles modal visibility, does NOT turn off session)
+        // Setup Modal command
         this.addCommand({ id: 'pacing-timer-setup', name: 'Setup Modal', callback: () => this.handleCommandTrigger() });
         
-        // Distinct command to completely turn off the active pacing timer session
+        // Stop / Turn Off command
         this.addCommand({ id: 'pacing-timer-turn-off', name: 'Turn Off / Stop Pacing Timer', callback: () => {
             if (this.activeModal) this.activeModal.close();
             if (this.session) {
@@ -61,6 +64,41 @@ export default class PacingTimerPlugin extends Plugin {
                 this.showOverlay("⏹ Timer Turned Off");
             }
         }});
+
+        // Save Current Session
+        this.addCommand({
+            id: 'pacing-timer-save-session',
+            name: 'Save Current Session As...',
+            checkCallback: (checking: boolean) => {
+                if (this.session) {
+                    if (!checking) new SaveSessionModal(this.app, this).open();
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        // Load / Resume Saved Session
+        this.addCommand({
+            id: 'pacing-timer-load-session',
+            name: 'Load / Resume Saved Session',
+            callback: () => {
+                new SavedSessionsModal(this.app, this).open();
+            }
+        });
+
+        // Adjust Active Session (Time / Target)
+        this.addCommand({
+            id: 'pacing-timer-adjust-session',
+            name: 'Adjust Active Session (Time / Target)',
+            checkCallback: (checking: boolean) => {
+                if (this.session) {
+                    if (!checking) new AdjustSessionModal(this.app, this).open();
+                    return true;
+                }
+                return false;
+            }
+        });
 
         this.addCommand({ id: "pacing-timer-pause", name: "Pause/Resume Session", hotkeys: [{ modifiers: ["Ctrl", "Meta"], key: "c" }], checkCallback: (c) => {
             if (this.session) { if (!c) this.togglePause(); return true; } return false;

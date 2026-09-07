@@ -1,6 +1,6 @@
-# Description: Interactive loop to fuzzy find and overwrite project files with clipboard text
+# Description: Interactive loop to fuzzy find and overwrite files in current directory with clipboard text
 
-qsp() {
+qspd() {
     # 1. Check dependencies
     if ! (( $+commands[fd] )); then
         echo "Error: 'fd' is not installed. Run: brew install fd" >&2
@@ -11,15 +11,8 @@ qsp() {
         return 1
     fi
 
-    # 2. Determine search boundary (Desktop scoped)
-    local desktop_dir="$HOME/Desktop"
+    # 2. Scope strictly to the active working directory
     local search_root="$PWD"
-
-    if [[ "$PWD" == "$desktop_dir"/* ]]; then
-        local rel_path="${PWD#$desktop_dir/}"
-        local top_folder="${rel_path%%/*}"
-        search_root="$desktop_dir/$top_folder"
-    fi
 
     local exclude_args=(
         --exclude ".git"
@@ -43,8 +36,8 @@ qsp() {
 
     # 3. Stay in loop until Esc or Ctrl-C
     while true; do
-        # Dynamically show last overwritten file in prompt
-        local prompt_str="Overwrite [${search_root:t}] (Esc to exit): "
+        # Dynamically show current directory or last overwritten file
+        local prompt_str="Overwrite [./${search_root:t}] (Esc to exit): "
         if [[ -n "$last_pasted" ]]; then
             prompt_str="[Pasted: ${last_pasted:t}] Search: "
         fi

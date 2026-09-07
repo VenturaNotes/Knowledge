@@ -1,4 +1,4 @@
-# vsync.zsh - Interactive & CLI vault file/folder mirroring (Grouped & Multi-select)
+# Description: Interactively mirror and sync external files/folders into the vault
 
 vsync() {
     local config="$HOME/.vault_sync_list"

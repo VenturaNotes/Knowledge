@@ -1,4 +1,4 @@
-# ic.zsh (Sourced Function Version)
+# Description: Inspect current clipboard contents (preview files, text, or image data)
 
 ic() {
     # Rule 2: Declare all variables as local to prevent leaking into terminal memory

@@ -18,7 +18,6 @@ export interface PacingSessionState {
 
     // Classic Pacing Elastic Quota & Telemetry
     segmentedVaultThreshold?: number;
-    segmentedLevel?: number;
     segmentedCountUp?: boolean;
     currentQuota?: number;
     maxTargetSegments?: number;
@@ -64,8 +63,7 @@ export function createBlankSession(): PacingSessionState {
         isFinished: false,
         lastTickTime: Date.now(),
 
-        segmentedVaultThreshold: 300,
-        segmentedLevel: 0,
+        segmentedVaultThreshold: 180,
         segmentedCountUp: false,
         currentQuota: 10,
         maxTargetSegments: 10,
@@ -94,6 +92,13 @@ export function createBlankSession(): PacingSessionState {
     };
 }
 
+export interface SavedSessionRecord {
+    id: string;
+    name: string;
+    savedAt: number;
+    session: PacingSessionState;
+}
+
 export interface PacingTimerSettings {
     cache: { selectedMode: TimerMode; rawTitle: string; };
     activeSession: PacingSessionState | null;
@@ -114,8 +119,10 @@ export interface PacingTimerSettings {
     segmentedTotalTimeRaw?: string;
     segmentedSegmentDurationRaw?: string;
     segmentedSegmentsRaw?: string;
-    segmentedVaultThresholdRaw?: string;
     segmentedCountUp?: boolean;
+
+    // Named Saved Sessions (data.json)
+    savedSessions?: Record<string, SavedSessionRecord>;
 }
 
 export const DEFAULT_SETTINGS: PacingTimerSettings = {
@@ -138,6 +145,7 @@ export const DEFAULT_SETTINGS: PacingTimerSettings = {
     segmentedTotalTimeRaw: "10m",
     segmentedSegmentDurationRaw: "1m",
     segmentedSegmentsRaw: "10",
-    segmentedVaultThresholdRaw: "5m",
-    segmentedCountUp: false
+    segmentedCountUp: false,
+
+    savedSessions: {}
 };

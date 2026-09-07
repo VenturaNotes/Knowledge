@@ -1,4 +1,4 @@
-# Function to copy file objects and append them to the clipboard
+# Description: Append files or folders to current file objects on the clipboard
 copyFileAppend() {
     if [[ $# -eq 0 ]]; then
         echo "Usage: copyFileAppend <file_or_folder1> [file_or_folder2 ...]" >&2

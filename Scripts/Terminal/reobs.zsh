@@ -1,4 +1,4 @@
-# reobs.zsh (Sourced Function to Gracefully Restart Obsidian on macOS with Full-Screen Retention)
+# Description: Gracefully restart Obsidian on macOS while preserving full-screen state
 
 reobs() {
     echo "Restarting Obsidian..."

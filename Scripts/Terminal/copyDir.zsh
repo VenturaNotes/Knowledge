@@ -1,4 +1,4 @@
-# copyDir.zsh (Sourced Function Version)
+# Description: Recursively copy all files inside a directory to clipboard as file objects
 
 copyDir() {
     # Rule 2: Declare all variables as local to prevent leaking into terminal memory

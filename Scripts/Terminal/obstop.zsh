@@ -1,4 +1,4 @@
-# obstop.zsh - Live terminal inspection matching Activity Monitor memory footprint (Sorted Highest to Lowest)
+# Description: Display live Obsidian processes sorted from highest to lowest RAM usage
 obstop() {
     echo "\n📊 \033[1;36mObsidian Process Breakdown (Highest to Lowest RAM):\033[0m"
     echo "══════════════════════════════════════════════════════════════"

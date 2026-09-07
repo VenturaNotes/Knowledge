@@ -1,4 +1,4 @@
-# pasteFile.zsh
+# Description: Paste native file objects from clipboard into target or current directory
 
 pasteFile() {
     # Declare all variables as local to prevent leaking into terminal memory

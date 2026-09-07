@@ -1,4 +1,4 @@
-# qs.zsh (Sourced Function Version for Instant-Streaming Quick Switcher)
+# Description: Fuzzy search home directory and zoxide history to quickly jump to paths
 
 qs() {
     # 1. Check if 'fd' is installed

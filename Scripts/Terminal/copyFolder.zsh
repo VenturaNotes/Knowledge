@@ -1,4 +1,4 @@
-# copyFolder.zsh (Sourced Function Version)
+# Description: Copy folders or files directly to clipboard as native objects
 
 copyFolder() {
     # Rule 2: Declare all variables as local to prevent leaking into terminal memory

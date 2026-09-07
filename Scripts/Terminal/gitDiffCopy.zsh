@@ -1,4 +1,4 @@
-# gitDiffCopy.zsh
+# Description: Copy complete git diff including untracked files to clipboard
 # Sourced Function Version for Obsidian Terminal and native zsh shells.
 # Captures all changes (staged, unstaged, and untracked file contents) and copies them to the clipboard.
 

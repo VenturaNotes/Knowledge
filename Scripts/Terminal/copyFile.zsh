@@ -1,4 +1,4 @@
-# copyFile.zsh (Sourced Function Version)
+# Description: Copy a file to clipboard as a native file object with optional renaming
 
 copyFile() {
     # Rule 2: Declare all variables as local to prevent leaking into terminal memory

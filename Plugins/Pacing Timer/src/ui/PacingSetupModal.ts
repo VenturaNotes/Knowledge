@@ -3,6 +3,7 @@ import PacingTimerPlugin from '../main';
 import { ModeRegistry } from '../modes';
 import { TimerMode } from '../types';
 import { findPluginHotkeys, mapKey } from '../utils';
+import { SavedSessionsModal } from './SavedSessionsModal';
 
 export class PacingSetupModal extends Modal {
     plugin: PacingTimerPlugin;
@@ -26,7 +27,24 @@ export class PacingSetupModal extends Modal {
         contentEl.empty();
         Object.assign(contentEl.style, { display: "flex", flexDirection: "column", minHeight: "380px" });
 
-        contentEl.createEl("h3", { text: "⏱️ Pacing Setup" });
+        // Header with "Saved Sessions" shortcut
+        const headerRow = contentEl.createDiv();
+        Object.assign(headerRow.style, {
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            marginBottom: "12px"
+        });
+        headerRow.createEl("h3", { text: "⏱️ Pacing Setup", attr: { style: "margin: 0;" } });
+
+        const savedBtn = headerRow.createEl("button", {
+            text: "📂 Saved Sessions",
+            attr: { style: "font-size: 0.82em; padding: 4px 10px; cursor: pointer;" }
+        });
+        savedBtn.onclick = () => {
+            this.close();
+            new SavedSessionsModal(this.app, this.plugin).open();
+        };
 
         // Register Escape key to close modal
         this.scope.register([], "Escape", (evt) => {
@@ -34,7 +52,6 @@ export class PacingSetupModal extends Modal {
             this.close();
         });
 
-        // Register any hotkeys assigned to pacing-timer-setup on the modal scope to close modal when pressed
         findPluginHotkeys(this.app, "pacing-timer", "pacing-timer-setup").forEach(hk => {
             this.scope.register(hk.modifiers || [], mapKey(hk.key, hk.modifiers || []), (evt) => {
                 evt.preventDefault();
@@ -67,7 +84,6 @@ export class PacingSetupModal extends Modal {
         footerContainer.style.marginTop = "auto";
         new Setting(footerContainer).addButton(btn => btn.setButtonText("Launch Engine").setCta().onClick(() => this.submitForm()));
 
-        // Only submit on plain Enter if the user is NOT actively typing in an input field
         this.scope.register([], "Enter", (evt) => {
             const activeEl = document.activeElement;
             if (activeEl && (activeEl.tagName === "INPUT" || activeEl.tagName === "TEXTAREA")) {

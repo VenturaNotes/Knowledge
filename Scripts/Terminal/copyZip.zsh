@@ -1,4 +1,4 @@
-# copyZip.zsh (Sourced Function Version)
+# Description: Compress a file or folder into a temp zip and copy it to clipboard
 
 copyZip() {
     # Rule 2: Declare all variables as local to prevent leaking into terminal memory

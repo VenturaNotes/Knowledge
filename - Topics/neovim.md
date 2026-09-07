@@ -29,7 +29,8 @@
 	- Original: `"+y`
 	- Custom: `Space + y` in normal mode
 - Paste selection (custom)
-	- `Space + p` in normal mode
+	- `p` in normal mode
+		- `P` works as well 
 - Go to function definition
 	- `gd` and `control + t` returns back
 - Indent + Un-indent (tab replacement)
@@ -54,6 +55,9 @@
 - Delete character under cursor and enter insert mode
 	- `cl`
 		- `s` used to do this but this was replaced for the `flash.nvim` plugin
+- Highlight line
+	- `Shift + V`
+		- Pressing `p` afterwards can overwrite selected text with text from clipboard
 - Change a word within a specific block
 	1. Visually select the block of lines (press `V` and use arrow keys or `j/k` to select the lines).
 		- You can also highlight with `S` and then choose the range because you have `flash.nvim` plugin installed. 
@@ -415,19 +419,13 @@ vim.keymap.set({ "n", "v" }, "c", '"_c', { desc = "Change without copying" })
 vim.keymap.set({ "n", "v" }, "C", '"_C', { desc = "Change to end of line without copying" })
 vim.keymap.set({ "n", "v" }, "x", '"_x', { desc = "Delete character without copying" })
 
--- 2. Visual paste over selection without replacing clipboard contents
-vim.keymap.set("x", "<leader>p", [["_d"+P]], { desc = "Paste over selection without losing clipboard" })
-vim.keymap.set("x", "p", [["_d"+P]], { desc = "Paste over selection without losing clipboard" })
+-- 2. Visual paste over selection without replacing clipboard contents (preserves newlines)
+vim.keymap.set("x", "p", "P", { desc = "Paste over selection without losing clipboard" })
 
--- 3. Dedicated CUT commands (Use Space + d when you actually WANT to cut text)
-vim.keymap.set({ "n", "v" }, "<leader>d", '"+d', { desc = "Cut to system clipboard" })
-vim.keymap.set("n", "<leader>dd", '"+dd', { desc = "Cut line to system clipboard" })
+-- 3. Dedicated CUT command (Visual mode only — zero keymap collision or lag)
+vim.keymap.set("x", "<leader>d", '"+d', { desc = "Cut selection to system clipboard" })
 
--- 4. Yank & Paste shortcuts
-vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "Yank to system clipboard" })
-vim.keymap.set("n", "<leader>p", '"+p', { desc = "Paste from system clipboard" })
-vim.keymap.set("n", "<leader>P", '"+P', { desc = "Paste before cursor" })
-
+-- Background script runner logic
 local run_job_id = nil -- Keeps track of the active background run process
 
 local function save_and_run()

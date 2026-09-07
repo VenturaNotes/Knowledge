@@ -1,4 +1,4 @@
-# qsl.zsh (Quick Switcher - Desktop Project Scoped)
+# Description: Fuzzy search scoped strictly inside the current Desktop project root
 
 qsl() {
     # 1. Check if 'fd' is installed
