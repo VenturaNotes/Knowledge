@@ -306,7 +306,6 @@ export const SegmentedMode: ModeHandler = {
             session.targetSegmentDuration = newDuration;
             session.initialSegmentDuration = newDuration;
 
-            // Calculate achievable tasks in remaining time
             const remainingAchievable = Math.floor(trueTimeLeft / newDuration);
             session.currentQuota = Math.min(session.maxTargetSegments || session.totalSegments, session.completedSegments + remainingAchievable);
 
@@ -330,15 +329,32 @@ export const SegmentedMode: ModeHandler = {
             );
         }
 
-        // Finish condition
-        if (session.completedSegments >= (session.currentQuota || session.totalSegments)) {
-            session.isRunning = false;
-            session.isFinished = true;
-            plugin.stopInterval();
+        // --- FINISH CONDITION ---
+        const isProjectStint = Boolean(session.projectId && session.projectGoal);
+        if (isProjectStint) {
+            const totalProjectDone = (session.projectCompletedInitial || 0) + session.completedSegments;
+            const projectFinished = totalProjectDone >= (session.projectGoal || 100);
+            const timeRanOut = trueTimeLeft <= 0;
+
+            // In a project stint, NEVER stop prematurely at the baseline goal (5/5).
+            // Only stop if the stint time completely runs out or the ENTIRE project is finished!
+            if (projectFinished || timeRanOut) {
+                session.isRunning = false;
+                session.isFinished = true;
+                plugin.stopInterval();
+            }
+        } else {
+            // Standalone session finish condition
+            if (session.completedSegments >= (session.currentQuota || session.totalSegments)) {
+                session.isRunning = false;
+                session.isFinished = true;
+                plugin.stopInterval();
+            }
         }
     },
 
     renderStatusBar(session, plugin, clockPrefix, pauseText, displayTitle) {
+        const isProjectStint = Boolean(session.projectId && session.projectGoal);
         const maxGoal = session.maxTargetSegments || session.totalSegments;
         const currentQuota = session.currentQuota || session.totalSegments;
 
@@ -365,15 +381,39 @@ export const SegmentedMode: ModeHandler = {
         const deltaSign = liveDelta > 0 ? "+" : (liveDelta < 0 ? "-" : "");
         const deltaStyle = liveDelta > 0 ? "color: #10b981;" : (liveDelta < 0 ? "color: #ef4444;" : "");
 
-        // STEPPED MILESTONE HORIZON:
+        // --- ACCURATE WORK REMAINING PREDICTION ---
         const hardStop = session.hardStopTotalSeconds || (session.initialSegmentDuration * session.totalSegments);
-        const earlyBanked = session.earlyFinishBanked || 0;
-        const steppedTotalSeconds = Math.max(0, hardStop - earlyBanked);
-        const remainingSteppedSeconds = Math.max(0, steppedTotalSeconds - session.globalTimeElapsed);
+        const hardTimeLeft = Math.max(0, hardStop - session.globalTimeElapsed);
 
-        // [G:...] and the finish clock reflect the remaining work time
-        const formattedGlobalTime = formatPacingTime(remainingSteppedSeconds);
-        const estFinishedTimeStr = getFinishedTimeStr(session.lastTickTime, remainingSteppedSeconds);
+        let remainingDisplaySeconds = hardTimeLeft;
+
+        if (isProjectStint) {
+            const baseGoal = session.stintInitialGoal || session.currentQuota || session.totalSegments;
+            const tasksLeftToGoal = Math.max(0, baseGoal - session.completedSegments);
+
+            if (tasksLeftToGoal > 0) {
+                // Time needed to finish the baseline goal:
+                const workTimeLeft = Math.max(
+                    0, 
+                    tasksLeftToGoal * session.targetSegmentDuration - session.segmentTimeElapsed
+                );
+                // Display work time needed (if less than hard time left)
+                remainingDisplaySeconds = Math.min(hardTimeLeft, workTimeLeft);
+            } else {
+                // Goal met! Display remaining hard stop time for bonus tasks
+                remainingDisplaySeconds = hardTimeLeft;
+            }
+        } else {
+            const remainingTasks = Math.max(0, currentQuota - session.completedSegments);
+            const workTimeLeft = Math.max(
+                0,
+                remainingTasks * session.targetSegmentDuration - session.segmentTimeElapsed
+            );
+            remainingDisplaySeconds = Math.min(hardTimeLeft, workTimeLeft);
+        }
+
+        const formattedGlobalTime = formatPacingTime(remainingDisplaySeconds);
+        const estFinishedTimeStr = getFinishedTimeStr(session.lastTickTime, remainingDisplaySeconds);
 
         const threshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
 
@@ -395,14 +435,12 @@ export const SegmentedMode: ModeHandler = {
         const deltaTargetDisplay = `${deltaSign}${formatTime(Math.abs(liveDelta))}/${formatTime(threshold)}`;
         const deltaDisplay = `[<span style="${deltaStyle}">${deltaTargetDisplay}</span> ${ratioDisplay}: ${estFinishedTimeStr}]`;
 
-        // TELEMETRY COUNTER (Stint vs Standalone)
+        // TELEMETRY COUNTER
         let countDisplay = "";
-        const isProjectStint = Boolean(session.projectId && session.projectGoal);
-
         if (isProjectStint) {
             const completedToday = session.completedSegments;
-            const quotaToday = session.currentQuota || session.stintInitialGoal || session.totalSegments;
-            const baseGoal = session.stintInitialGoal || quotaToday;
+            const baseGoal = session.stintInitialGoal || 5;
+            const quotaToday = Math.max(baseGoal, session.currentQuota || baseGoal);
             const goalMet = completedToday >= baseGoal;
             const starTag = goalMet ? ` ⭐${baseGoal}` : ` • ${baseGoal}`;
             const totalProjCompleted = (session.projectCompletedInitial || 0) + completedToday;

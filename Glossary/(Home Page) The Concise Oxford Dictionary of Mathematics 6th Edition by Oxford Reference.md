@@ -2587,163 +2587,169 @@ Year: 2021-09-01
 	1. See graph
 2204. [[gravitational potential energy]]
 2205. [[George Green]]
-## Created
-1. Green-Tao theorem
+2206. Green-Tao theorem
 	1. See ERDŐS CONJECTURE.
-2. [[James Gregory]]
-3. [[Gregory-Newton forward difference formula]]
-4. [[Grelling's paradox]]
-5. [[Alexander Grothendieck]]
-6. [[half-angle formula]]
-7. h
+2207. [[James Gregory]]
+2208. [[Gregory-Newton forward difference formula]]
+2209. [[Grelling's paradox]]
+2210. [[Alexander Grothendieck]]
+2211. [[half-angle formula]]
+2212. h
 	1. Abbreviation for hecto-.
-8. $\mathbb{H}$
+2213. $\mathbb{H}$
 	1. Denoting the quaternions, the letter 'H' being used to acknowledge Hamilton
-9. [[Jacques Hadamard]]
-10. half-life
+2214. [[Jacques Hadamard]]
+2215. half-life
 	1. See exponential decay
-
-11. half-open
+2216. half-open
 	1. A synonym for HALF-CLOSED.
-12. [[half-space]]
-13. half-turn symmetry
+2217. [[half-space]]
+2218. half-turn symmetry
 	1. See SYMMETRICAL ABOUT A POINT.
-14. [[Hall's Theorem]]
-15. [[Halley's method]]
-16. [[Edmond Halley]]
-17. [[Paul Richard Halmos]]
-18. [[William Rowan Hamilton]]
-19. hardware
+2219. [[Hall's Theorem]]
+2220. [[Halley's method]]
+2221. [[Edmond Halley]]
+2222. [[Paul Richard Halmos]]
+2223. [[William Rowan Hamilton]]
+2224. hardware
 	1. See computer
-20. [[Godfrey Harold Hardy]]
-
-21. harmonic mean
+2225. [[Godfrey Harold Hardy]]
+2226. harmonic mean
 	1. See mean
-22. [[Hausdorff dimension]]
-23. [[Stephen William Hawking]]
-24. [[hecto-]]
-25. [[-hedron]]
-26. height (of a triangle)
+2227. [[Hausdorff dimension]]
+2228. [[Stephen William Hawking]]
+2229. [[hecto-]]
+2230. [[-hedron]]
+2231. height (of a triangle)
 	1. See base (of a triangle)
-27. [[Werner Karl Heisenberg]]
-28. [[helicoid]]
-29. [[helix]]
-30. [[hemi-]]
-
-31. [[hemisphere]]
-32. [[hendecagon]]
-33. [[hepta-]]
-34. [[heptagon]]
-35. [[Charles Hermite]]
-36. [[Hermite polynomials]]
-37. [[Hero's method]]
-38. [[Hero of Alexandria]]
-39. [[hertz]]
-40. [[Hessian]]
-
-41. [[heuristic]]
-42. [[hexa-]]
-43. [[hexadecimal representation]]
-44. [[hexagon]]
-45. [[hexagram]]
-46. [[hexahedron]]
-47. [[higher-order partial derivative]]
-48. higher arithmetic
+2232. [[Werner Karl Heisenberg]]
+2233. [[helicoid]]
+2234. [[helix]]
+2235. [[hemi-]]
+2236. [[hemisphere]]
+2237. [[hendecagon]]
+2238. [[hepta-]]
+2239. [[heptagon]]
+2240. [[Charles Hermite]]
+2241. [[Hermite polynomials]]
+2242. [[Hero's method]]
+2243. [[Hero of Alexandria]]
+2244. [[hertz]]
+2245. [[Hessian]]
+2246. [[heuristic]]
+2247. [[hexa-]]
+2248. [[hexadecimal representation]]
+2249. [[hexagon]]
+2250. [[hexagram]]
+2251. [[hexahedron]]
+2252. [[higher-order partial derivative]]
+2253. higher arithmetic
 	1. A synonym for number theory
-49. [[higher derivative]]
-50. highest common factor
+2254. [[higher derivative]]
+2255. highest common factor
 	1. (hcf) A synonym for greatest common divisor
-
-51. [[Hilbert's programme]]
-52. [[Hilbert's tenth problem]]
-53. [[David Hilbert]]
-54. [[Hilbert space]]
-55. Hindu-Arabic number system
+2256. [[Hilbert's programme]]
+2257. [[Hilbert's tenth problem]]
+2258. [[David Hilbert]]
+2259. [[Hilbert space]]
+2260. Hindu-Arabic number system
 	1. See number systems
-56. [[histogram]]
-57. [[history of mathematics]]
-58. [[Holder's inequality]]
-59. [[holomorphic]]
-60. [[Hom]]
-
-61. [[homogeneous]]
-62. 
-63. [[homogeneous coordinates]]
-64. [[homogeneous first-order differential equation]]
-65. homogeneous linear differential equation
+2261. [[histogram]]
+2262. [[history of mathematics]]
+2263. [[Holder's inequality]]
+2264. [[holomorphic]]
+2265. [[Hom]]
+2266. [[homogeneous]]
+2267. [[homogeneous coordinates]]
+2268. [[homogeneous first-order differential equation]]
+2269. homogeneous linear differential equation
 	1. See LINEAR DIFFERENTIAL EQUATION WITH CONSTANT COEFFICIENTS.
-66. [[homogeneous set of linear equations]]
-67. [[Hooke's law]]
-68. [[Horner's rule]]
-69. [[Householder transformation]]
-70. [[Dame Celia Hoyles]]
-
-71. [[Huffman coding]]
-72. [[Christiaan Huygens]]
-73. [[hydrodynamics]]
-74. [[hydrostatics]]
-75. [[Hypatia]]
-76. [[hyperbola]]
-77. [[hyperbolic cylinder]]
-78. [[hyperbolic function]]
-79. [[hyperbolic paraboloid]]
-80. hyperbolic partial differential equation
+2270. [[homogeneous set of linear equations]]
+2271. [[Hooke's law]]
+2272. [[Horner's rule]]
+2273. [[Householder transformation]]
+2274. [[Dame Celia Hoyles]]
+2275. [[Huffman coding]]
+2276. [[Christiaan Huygens]]
+2277. [[hydrodynamics]]
+2278. [[hydrostatics]]
+2279. [[Hypatia]]
+2280. [[hyperbola]]
+2281. [[hyperbolic cylinder]]
+2282. [[hyperbolic function]]
+2283. [[hyperbolic paraboloid]]
+2284. hyperbolic partial differential equation
 	1. See parabolic partial differential equation
-
-81. [[hyperbolic plane]]
-82. hyperbolic spiral
-83. hyperboloid of one sheet
-84. hyperboloid of two sheets
-85. hypercube
-86. hypergeometric distribution
-87. hypergeometric series
-88. hypothesis testing
+## Created
+80. [[hyperbolic plane]]
+81. [[hyperbolic spiral]]
+82. [[hyperboloid of one sheet]]
+83. [[hyperboloid of two sheets]]
+84. [[hypercube]]
+85. [[hypergeometric distribution]]
+86. [[hypergeometric series]]
+87. [[hypothesis testing]]
+88. $i$
+	1. See complex number, quaternion
 89. i
-90. i
+	1. (i) A unit vector, usually in the direction of the x-axis.
+90. 
 
 91. I
+	1. The Roman numeral for 1
 92. I
-93. icosahedron
-94. icosidodecahedron
-95. ideal
+	1. Denotes the identity matrix or identity function
+93. [[icosahedron]]
+94. [[icosidodecahedron]]
+95. [[ideal]]
 96. identification space
-97. identity
-98. identity
-99. identity function
-100. identity matrix
+	1. A synonym for quotient space
+97. [[identity]]
+98. 
+99. [[identity function]]
+100. [[identity matrix]]
 
 101. if and only if
+	1. See condition, necessary and sufficient
 102. iff
+	1. Abbreviation for if and only if
 103. iid
-104. ill-conditioned
+	1. An abbreviation for independent and identically distributed
+104. [[ill-conditioned]]
 105. Im
+	1. Abbreviation and symbol for the imaginary part of a complex number
 106. IMA
+	1. Abbreviation for the Institute of Mathematics and its Applications, one the UK's learned societies for mathematics alongside the LMS and the RSS. It was founded in 1963, its first president being James Lighthill.
 107. image
-108. imaginary axis
+	1. See function
+108. [[imaginary axis]]
 109. imaginary number
-110. imaginary part
+	1. A synonym for pure imaginary
+110. [[imaginary part]]
 
-111. implication
-112. implicit
-113. implicit function theorem
-114. imply
+111. [[implication]]
+112. [[implicit]]
+113. [[implicit function theorem]]
+114. [[imply]]
 115. improper fraction
-116. improper integrals
-117. impulse
-118. incentre
-119. incidence
-120. incircle
+	1. See fraction
+116. [[improper integrals]]
+117. [[impulse]]
+118. [[incenter]]
+119. [[incidence]]
+120. [[incircle]]
 
-121. inclination
-122. inclined plane
+121. [[inclination]]
+122. [[inclined plane]]
 123. include
-124. inclusion-exclusion principle
-125. inclusive disjunction
-126. incommensurable
-127. incompressible
-128. inconsistent
-129. increasing sequence
-130. increment
+	1. See subset
+124. [[inclusion-exclusion principle]]
+125. [[inclusive disjunction]]
+126. [[incommensurable]]
+127. [[incompressible]]
+128. [[inconsistent]]
+129. [[increasing sequence]]
+130. [[increment]]
 
 131. indefinite integral
 132. independent

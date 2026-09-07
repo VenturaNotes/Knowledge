@@ -74,6 +74,17 @@ aliases:
 - Q follows from P
 - $\lnot Q \to \lnot P$ (contrapositive)
 - P $\to$ Q $\equiv$ $\lnot P \lor Q$
+## Source[^8]
+- If $p$ and $q$ are statements, the statement 'p implies q' or 'if p then q' is an implication and is denoted by $p \Rightarrow q$. It is reckoned to be false only in the case when $p$ is true and $q$ is false. So its truth table is as follows:
+
+| $p$ | $q$ | $p \Rightarrow q$ |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | T |
+| F | F | T |
+
+- $p$ is said to be sufficient for $q$ and $q$ to be necessary for $p$.
 ## References
 
 [^1]: [[(Home Page) Algebra 1 - Groups, Rings, Fields and Arithmetic by Ramji Lal#^26r0fb]]
@@ -83,3 +94,4 @@ aliases:
 [^5]: [[(4) Start Learning Logic - Part 3 - Conditional, Biconditional, Implication and Deduction Rules]]
 [^6]: [[(14) Equivalent Statements to an Implication]]
 [^7]: https://calcworkshop.com/logic/logical-implication/
+[^8]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- The centre of the incircle of a triangle. It is the point at which the three internal bisectors of the angles of the triangle are concurrent.
+- Not commensurable. Often used as a synonym for irrational.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

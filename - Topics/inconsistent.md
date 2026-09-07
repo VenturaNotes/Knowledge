@@ -6,7 +6,10 @@
 
 ## Source[^2]
 - If a knowledge base uses default assumptions or stores tentative conclusions then, as a result of inference, it may produce new facts that conflict with existing facts; it is then said to be inconsistent. This can occur in nonmonotonic reasoning and systems that use inheritance and must be either avoided or handled by special treatment if the integrity of the system is to be maintained. See DEFAULT RULES.
+## Source[^3]
+- A set of equations is inconsistent if it has no solution.
 ## References
 
 [^1]: [[(4) Linear Algebra 1.2.2 Solution Sets and Free Variables]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

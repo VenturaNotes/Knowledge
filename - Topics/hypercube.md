@@ -13,7 +13,11 @@
 		- 4 nodes
 		- 8 nodes
 		- 16 nodes
+## Source[^3]
+- The generalization in $n$ dimensions of a square in two dimensions and a cube in three dimensions.
+- In the plane, the four points with coordinates $(\pm 1, \pm 1)$ are the vertices of a square. In 3-dimensional space, the eight points $(\pm 1, \pm 1, \pm 1)$ are the vertices of a cube. So, in n-dimensional space, the $2^n$ points with coordinates $(x_1, x_2, \dots, x_n)$, where each $x_i = \pm 1$, are the vertices of a hypercube. Two vertices are joined by an edge if they differ in exactly one of their coordinates, and so there are $n 2^{n-1}$ edges. The vertices and edges of a hypercube in $n$ dimensions form the vertices and edges of the graph known as the n-cube.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
