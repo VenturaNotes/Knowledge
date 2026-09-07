@@ -18,7 +18,17 @@ tags:
 - [ ] (1) How can we represent a general graph that may not well connected for efficient BFS and DFS traversals?
 	- 
 ## Source[^3]
-- 
+- A number of vertices (or points or nodes), some of which are joined by edges. The edge joining the vertex $U$ and the vertex $V$ may be denoted by $(U, V)$ or $(V, U)$. The vertex-set, that is, the set of vertices, of a graph $G$ may be denoted by $V(G)$ and the edge-set by $E(G)$. For example, the graph shown here on the left has $V(G) = \{U, V, W, X\}$ and $E(G) = \{(U, V), (U, W), (V, W), (W, X)\}$.
+- ![[Pasted image 20260905200349.png|239]]
+	- A graph
+- ![[Pasted image 20260905200404.png|230]]
+	- A multigraph
+- In general, a graph may have more than one edge joining a pair of vertices; when this occurs, these edges are called multiple edges. Also, a graph may have loops—a loop is an edge that joins a vertex to itself. In the other graph shown, there are $2$ edges joining $V_1$ and $V_3$ and $3$ edges joining $V_2$ and $V_3$; the graph also has three loops. See MULTIGRAPH.
+- Normally, $V(G)$ and $E(G)$ are finite, but if this is not so, the result may also be called a graph, though some prefer to call this an infinite graph.
+---
+- (of a function or mapping) For a function $f : S \to T$ the graph of $f$ is the subset $\{(s, f(s)) \mid s \in S\}$ of the Cartesian product $S \times T$. Note that for each $s \in S$ there is a unique $t \in T$ such that $(s, t)$ is in the graph; some authors define functions as such subsets of the Cartesian product of the domain and codomain. It is common to refer to or label the graph of real function $f : \mathbb{R} \to \mathbb{R}$ as simply $y = f(x)$, and surfaces in $\mathbb{R}^3$ often arise as graphs $z = f(x, y)$.
+---
+- (of a relation) Let $R$ be a binary relation on a set $S$, so that, when $a$ is related to $b$, this is written $aRb$. The graph of $R$ is the corresponding subset of the Cartesian product $S \times S$, namely the set of all pairs $(a, b)$ such that $aRb$.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

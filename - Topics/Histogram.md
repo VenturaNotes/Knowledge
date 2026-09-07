@@ -10,6 +10,11 @@
 - $n$. a form of statistical graph in which values are plotted in the form of rectangles on a chart; a bar-chart.
 ## Source[^5]
 - $n$. In descriptive statistics, a graph in which the values of scores of a quantitative variable are plotted, usually on the horizontal axis, and their frequencies are represented by the heights of the bars on the vertical axis. Also called a block diagram. See also error bar. Compare bar chart. \[Perhaps from history + Greek gramme a line]
+## Source[^6]
+- A diagram representing the frequency distribution of continuous data grouped by means of class intervals. It consists of a sequence of rectangles, each of which has as its base one of the class intervals and is of a height taken so that the area is proportional to the frequency. If the class intervals are of equal lengths, then the heights of the rectangles are proportional to the frequencies.
+- The figure shows a histogram of a sample of 500 observations. Compare BAR CHART.
+- ![[Pasted image 20260905215056.png|261]]
+	- A histogram
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -17,3 +22,4 @@
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

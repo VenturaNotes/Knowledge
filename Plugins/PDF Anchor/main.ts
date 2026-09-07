@@ -6,6 +6,8 @@ interface PdfAnchorLink {
     sourcePath: string;
     sourceName: string;
     alias: string;
+    snippet: string;
+    fullNoteContent: string;
 }
 
 interface CustomPdfView extends View {
@@ -21,11 +23,11 @@ export default class PdfAnchorPlugin extends Plugin {
     private originalOpenLinkText: any = null;
 
     async onload(): Promise<void> {
-        console.log('[PDF Anchor] In-PDF Drawer & Precise Controls active.');
+        console.log('[PDF Anchor] Safe PDF.js initialization active.');
 
         this.rebuildAnchorIndex();
 
-        // Track mouse position for silent hotkey capture
+        // Track live mouse position
         this.registerDomEvent(window, 'mousemove', (e: MouseEvent) => {
             this.lastMousePos.x = e.clientX;
             this.lastMousePos.y = e.clientY;
@@ -62,6 +64,21 @@ export default class PdfAnchorPlugin extends Plugin {
             }
         });
 
+        this.addCommand({
+            id: 'toggle-anchor-drawer',
+            name: 'Toggle PDF anchors drawer',
+            checkCallback: (checking: boolean) => {
+                const activeView = this.getActivePdfView();
+                if (activeView) {
+                    if (!checking) {
+                        this.toggleDrawerForView(activeView);
+                    }
+                    return true;
+                }
+                return false;
+            }
+        });
+
         // Re-index on metadata changes
         this.registerEvent(this.app.metadataCache.on('resolved', () => this.debounceReindex()));
         this.registerEvent(this.app.metadataCache.on('changed', () => this.debounceReindex()));
@@ -83,6 +100,7 @@ export default class PdfAnchorPlugin extends Plugin {
         document.querySelectorAll('.pdf-anchor-pin').forEach(el => el.remove());
         document.querySelectorAll('.pdf-anchor-beacon').forEach(el => el.remove());
         document.querySelectorAll('.pdf-anchor-drawer').forEach(el => el.remove());
+        document.querySelectorAll('.pdf-container').forEach(el => el.classList.remove('has-anchor-drawer-open'));
         document.querySelectorAll('.pdf-enhancer-group').forEach(el => el.remove());
     }
 
@@ -191,17 +209,17 @@ export default class PdfAnchorPlugin extends Plugin {
         checkAndAlign();
     }
 
-    // ── 2. INDEXER ────────────────────────────────────────────────────────
+    // ── 2. ULTRA-FAST INDEX WITH FULL CONTENT & SNIPPETS ──────────────────
     debounceReindex(): void {
         if (this.indexDebounceTimer) clearTimeout(this.indexDebounceTimer);
         this.indexDebounceTimer = setTimeout(() => {
-            this.rebuildAnchorIndex();
+            void this.rebuildAnchorIndex();
             this.renderAllOverlays();
             this.updateAllDrawers();
         }, 500);
     }
 
-    rebuildAnchorIndex(): void {
+    async rebuildAnchorIndex(): Promise<void> {
         const newIndex = new Map<string, Record<number, PdfAnchorLink[]>>();
         const resolvedLinks = this.app.metadataCache.resolvedLinks;
 
@@ -224,6 +242,9 @@ export default class PdfAnchorPlugin extends Plugin {
             const cache = this.app.metadataCache.getFileCache(sourceFile);
             if (!cache) continue;
 
+            const fullContent = await this.app.vault.cachedRead(sourceFile);
+            const contentLines = fullContent.split('\n');
+
             const allLinks = [...(cache.links ?? []), ...(cache.embeds ?? [])];
             for (const ref of allLinks) {
                 const match = ref.link.match(/([^#]+\.pdf)#(?:page|p)=(\d+)&pt=(\d+),(\d+)/i);
@@ -234,6 +255,13 @@ export default class PdfAnchorPlugin extends Plugin {
                     const x = parseInt(match[3] ?? "0");
                     const y = parseInt(match[4] ?? "0");
                     const alias = ref.displayText || `p. ${pageNum}`;
+
+                    let snippet = "";
+                    const matchingLine = contentLines.find(l => l.includes(ref.original));
+                    if (matchingLine) {
+                        snippet = matchingLine.replace(ref.original, '').replace(/^[-*#>\s]+/, '').trim();
+                        if (snippet.length > 120) snippet = snippet.slice(0, 117) + '...';
+                    }
 
                     let pdfMap = newIndex.get(pdfName);
                     if (!pdfMap) {
@@ -246,7 +274,9 @@ export default class PdfAnchorPlugin extends Plugin {
                         y,
                         sourcePath: sourceFile.path,
                         sourceName: sourceFile.basename,
-                        alias
+                        alias,
+                        snippet,
+                        fullNoteContent: fullContent
                     });
                 }
             }
@@ -281,6 +311,23 @@ export default class PdfAnchorPlugin extends Plugin {
         });
     }
 
+    toggleDrawerForView(view: CustomPdfView): void {
+        const pdfContainer = view.containerEl.querySelector<HTMLElement>('.pdf-container');
+        const drawer = view.containerEl.querySelector<HTMLElement>('.pdf-anchor-drawer');
+        const drawerBtn = view.containerEl.querySelector('.pdf-enhancer-btn[data-action="drawer"]');
+
+        if (drawer && pdfContainer) {
+            const isOpen = drawer.classList.toggle('is-open');
+            pdfContainer.classList.toggle('has-anchor-drawer-open', isOpen);
+            if (drawerBtn) drawerBtn.classList.toggle('is-active', isOpen);
+
+            if (isOpen) {
+                this.renderDrawerContent(view, drawer);
+                (drawer.querySelector('.pdf-anchor-drawer-search-input') as HTMLElement)?.focus();
+            }
+        }
+    }
+
     injectToolbarAndDrawer(view: CustomPdfView): void {
         const toolbar = view.containerEl.querySelector('.pdf-toolbar');
         if (toolbar && !toolbar.querySelector('.pdf-enhancer-group')) {
@@ -294,7 +341,7 @@ export default class PdfAnchorPlugin extends Plugin {
             setIcon(darkBtn, 'moon');
             darkBtn.addEventListener('click', () => this.toggleDarkMode(view));
 
-            // 2. Crosshair Point Drop Button (Click on Page)
+            // 2. Crosshair Point Drop Button
             const dropBtn = document.createElement('button');
             dropBtn.className = 'clickable-icon pdf-enhancer-btn';
             dropBtn.setAttribute('aria-label', 'Click anywhere on PDF to drop anchor');
@@ -304,19 +351,10 @@ export default class PdfAnchorPlugin extends Plugin {
             // 3. Toggle In-PDF Anchors Drawer Button
             const drawerBtn = document.createElement('button');
             drawerBtn.className = 'clickable-icon pdf-enhancer-btn';
+            drawerBtn.dataset.action = "drawer";
             drawerBtn.setAttribute('aria-label', 'Toggle PDF Anchors Drawer');
             setIcon(drawerBtn, 'list');
-            drawerBtn.addEventListener('click', () => {
-                const drawer = view.containerEl.querySelector('.pdf-anchor-drawer');
-                if (drawer) {
-                    const isOpen = drawer.classList.toggle('is-open');
-                    drawerBtn.classList.toggle('is-active', isOpen);
-                    if (isOpen) {
-                        this.renderDrawerContent(view, drawer as HTMLElement);
-                        (drawer.querySelector('.pdf-anchor-drawer-search-input') as HTMLElement)?.focus();
-                    }
-                }
-            });
+            drawerBtn.addEventListener('click', () => this.toggleDrawerForView(view));
 
             group.appendChild(darkBtn);
             group.appendChild(dropBtn);
@@ -324,7 +362,6 @@ export default class PdfAnchorPlugin extends Plugin {
             toolbar.appendChild(group);
         }
 
-        // Mount the in-PDF drawer container if not already present
         const pdfContainer = view.containerEl.querySelector('.pdf-container') || view.containerEl;
         if (pdfContainer && !view.containerEl.querySelector('.pdf-anchor-drawer')) {
             const drawer = document.createElement('div');
@@ -334,7 +371,7 @@ export default class PdfAnchorPlugin extends Plugin {
         }
     }
 
-    // ── 4. CAPTURE LOGIC (HOTKEY: SILENT INSTANT | BUTTON: CROSSHAIR) ──────
+    // ── 4. CAPTURE LOGIC ──────────────────────────────────────────────────
     captureAnchorAtCursor(view: CustomPdfView): void {
         const elUnderMouse = document.elementFromPoint(this.lastMousePos.x, this.lastMousePos.y);
         const targetPageEl = elUnderMouse?.closest<HTMLElement>('.page');
@@ -375,12 +412,9 @@ export default class PdfAnchorPlugin extends Plugin {
         const file = view.file;
         if (!file) return;
 
-        // Trigger 2-second glowing ripple beacon
         this.triggerBeaconAnimation(pageEl, normX, normY);
 
         const pointLink = `[[${file.name}#p=${pageNum}&pt=${normX},${normY}|${file.basename}, p. ${pageNum}]]`;
-
-        // Silent clipboard copy (Notice removed)
         void navigator.clipboard.writeText(pointLink);
     }
 
@@ -400,7 +434,7 @@ export default class PdfAnchorPlugin extends Plugin {
         setTimeout(() => beacon.remove(), 1900);
     }
 
-    // ── 5. DRAG-RELOCATE (STRICTLY COMMAND + DRAG) ─────────────────────────
+    // ── 5. DRAG-RELOCATE (CMD + DRAG) ──────────────────────────────────────
     async relocateAnchor(file: TFile, pageNum: number, items: PdfAnchorLink[], newX: number, newY: number): Promise<void> {
         let updateCount = 0;
 
@@ -419,12 +453,12 @@ export default class PdfAnchorPlugin extends Plugin {
         }
 
         new Notice(`⚓ Relocated anchor to (${newX}, ${newY}) across ${updateCount} note(s)!`);
-        this.rebuildAnchorIndex();
+        void this.rebuildAnchorIndex();
         this.renderAllOverlays();
         this.updateAllDrawers();
     }
 
-    // ── 6. RENDER PINS ON PDF WITH CMD+DRAG GUARD ──────────────────────────
+    // ── 6. RENDER PINS ON PDF ──────────────────────────────────────────────
     observePdfPages(view: CustomPdfView): void {
         const viewerContainer = view.containerEl.querySelector<HTMLElement>('.pdf-viewer-container') || view.containerEl;
         if (!viewerContainer || viewerContainer.dataset.hasAnchorObserver === 'true') return;
@@ -522,9 +556,8 @@ export default class PdfAnchorPlugin extends Plugin {
                         pin.title = `${group.items.length} notes link here (Cmd+Drag to relocate)`;
                     }
 
-                    // ── DRAG RELOCATION (STRICTLY REQUIRES CMD/CTRL) ──
+                    // ── DRAG RELOCATION (REQUIRES CMD/CTRL) ──
                     pin.addEventListener('mousedown', (e: MouseEvent) => {
-                        // STRICT GUARD: Must hold Cmd (Mac) or Ctrl (Windows) + Left Click
                         if (e.button !== 0 || !(e.metaKey || e.ctrlKey)) return;
 
                         e.stopPropagation();
@@ -570,9 +603,8 @@ export default class PdfAnchorPlugin extends Plugin {
                         window.addEventListener('mouseup', onMouseUp, { once: true });
                     });
 
-                    // ── NORMAL CLICK: OPENS NOTE / SPLIT VIEW ──
+                    // ── NORMAL CLICK ──
                     pin.addEventListener('click', (e: MouseEvent) => {
-                        // Ignore click if Cmd was held for dragging
                         if (e.metaKey || e.ctrlKey) return;
                         e.stopPropagation();
 
@@ -605,7 +637,7 @@ export default class PdfAnchorPlugin extends Plugin {
         }
     }
 
-    // ── 7. IN-PDF DRAWER RENDERER & REAL-TIME SEARCH ──────────────────────
+    // ── 7. IN-PDF DRAWER: REAL-TIME DEEP CONTENT SEARCH & PUSH ────────────
     updateAllDrawers(): void {
         this.app.workspace.getLeavesOfType('pdf').forEach(leaf => {
             const view = leaf.view as CustomPdfView;
@@ -626,7 +658,6 @@ export default class PdfAnchorPlugin extends Plugin {
 
         drawerEl.empty();
 
-        // Header with Search Bar
         const header = drawerEl.createDiv({ cls: 'pdf-anchor-drawer-header' });
         const titleRow = header.createDiv({ cls: 'pdf-anchor-drawer-title-row' });
         titleRow.createSpan({ text: '📑 PDF Anchors' });
@@ -634,16 +665,14 @@ export default class PdfAnchorPlugin extends Plugin {
         const searchBox = header.createEl('input', {
             cls: 'pdf-anchor-drawer-search-input',
             type: 'text',
-            placeholder: 'Search anchors & notes...'
+            placeholder: 'Search notes, snippets, or text...'
         });
         searchBox.value = currentSearch;
         searchBox.addEventListener('input', () => {
             this.filterDrawerList(view, drawerEl, searchBox.value.toLowerCase().trim());
         });
 
-        // List Container
         drawerEl.createDiv({ cls: 'pdf-anchor-drawer-list' });
-
         this.filterDrawerList(view, drawerEl, currentSearch.toLowerCase().trim());
     }
 
@@ -669,13 +698,15 @@ export default class PdfAnchorPlugin extends Plugin {
             const links = pdfData[pageNum];
             if (!links || links.length === 0) return;
 
-            // Filter links by query
             const matchingLinks = links.filter(item => {
                 if (!query) return true;
                 const pageMatch = `page ${pageNum}`.includes(query) || `${pageNum}` === query;
-                const noteMatch = item.sourceName.toLowerCase().includes(query);
+                const noteTitleMatch = item.sourceName.toLowerCase().includes(query);
                 const coordMatch = `(${item.x}, ${item.y})`.includes(query);
-                return pageMatch || noteMatch || coordMatch;
+                const snippetMatch = item.snippet.toLowerCase().includes(query);
+                const deepContentMatch = item.fullNoteContent.toLowerCase().includes(query);
+
+                return pageMatch || noteTitleMatch || coordMatch || snippetMatch || deepContentMatch;
             });
 
             if (matchingLinks.length === 0) return;
@@ -691,21 +722,32 @@ export default class PdfAnchorPlugin extends Plugin {
                 const title = itemEl.createDiv({ cls: 'pdf-anchor-drawer-item-title' });
                 title.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="17" x2="12" y2="22"/><path d="M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z"/></svg> Anchor (${item.x}, ${item.y})`;
 
-                // Clicking the anchor row jumps to that position in the PDF
                 itemEl.addEventListener('click', (e: MouseEvent) => {
                     e.stopPropagation();
                     void this.navigateToAnchor(file.path, '', pageNum, item.x, item.y);
                 });
 
                 const notesList = itemEl.createDiv({ cls: 'pdf-anchor-drawer-notes-list' });
-                const chip = notesList.createDiv({ cls: 'pdf-anchor-drawer-note-chip' });
-                chip.setText(`📄 ${item.sourceName}`);
+                const noteEntry = notesList.createDiv({ cls: 'pdf-anchor-drawer-note-entry' });
 
-                // Clicking note chip opens in adjacent split tab
+                const chip = noteEntry.createDiv({ cls: 'pdf-anchor-drawer-note-chip' });
+                chip.setText(`📄 ${item.sourceName}`);
                 chip.addEventListener('click', (e: MouseEvent) => {
                     e.stopPropagation();
                     this.openInAdjacentTab(item.sourcePath);
                 });
+
+                // Display note snippet preview
+                if (item.snippet) {
+                    const snippetEl = noteEntry.createDiv({ cls: 'pdf-anchor-drawer-snippet' });
+                    
+                    if (query && item.snippet.toLowerCase().includes(query)) {
+                        const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+                        snippetEl.innerHTML = item.snippet.replace(regex, '<mark>$1</mark>');
+                    } else {
+                        snippetEl.setText(`"${item.snippet}"`);
+                    }
+                }
             });
         });
 

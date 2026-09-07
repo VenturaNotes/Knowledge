@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - $n$. A paradox of non-self-descriptive adjectives. Some adjectives are self-descriptive: the adjective short is short, the adjective English is English, and the adjective polysyllabic is polysyllabic, and each of these adjectives is therefore autological, because each is self-descriptive. In contrast, some adjectives are heterological: the adjective long is not long, Russian is not Russian, and monosyllabic is not monosyllabic. Is the adjective heterological autological or heterological? If it is autological, then it is self-descriptive, which means that it must be heterological; and if it is heterological, then it must be non-self-descriptive, in which case it is autological. \[Named after the German mathematician Kurt Grelling (1886-1942) who published it in 1908]
+## Source[^2]
+- Certain adjectives describe themselves and others do not. For example, 'short' describes itself, and so does 'polysyllabic'. But 'long' does not describe itself, 'monosyllabic' does not, and nor does 'green'. The word 'heterological' means 'not describing itself'. The German mathematician K. Grelling pointed out what is known as Grelling's paradox that results from considering whether 'heterological' describes itself or not. The paradox has some similarities with Russell's paradox.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
