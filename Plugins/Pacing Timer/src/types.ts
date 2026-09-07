@@ -1,4 +1,4 @@
-export type TimerMode = "default" | "segmented" | "stacking" | "rotation";
+export type TimerMode = "default" | "segmented" | "rotation";
 
 export interface PacingSessionState {
     mode: TimerMode;
@@ -26,16 +26,14 @@ export interface PacingSessionState {
     hardStopTotalSeconds?: number;
     earlyFinishBanked?: number;
 
-    stackingIsActive: boolean;
-    stackingLevel: number;
-    stackingTotalTimeLeft: number;
-    stackingSectionTimeLeft: number;
-    stackingCurrentSplitElapsed: number;
-    stackingGlobalSumCount: number;
-    stackingGlobalTotalSplits: number;
-    stackingLastSplitDelta: number;
-    stackingPendingDowngrade: boolean;
+    // Project & Daily Stint metadata
+    projectId?: string;
+    projectName?: string;
+    projectGoal?: number;
+    projectCompletedInitial?: number;
+    stintInitialGoal?: number;
 
+    // Rotation Mode
     rotationCategories: string[];
     rotationIndex: number;
     rotationCategoryElapsed: number;
@@ -72,18 +70,9 @@ export function createBlankSession(): PacingSessionState {
         hardStopTotalSeconds: 600,
         earlyFinishBanked: 0,
 
-        stackingIsActive: false, 
-        stackingLevel: 1, 
-        stackingTotalTimeLeft: 0,
-        stackingSectionTimeLeft: 0, 
-        stackingCurrentSplitElapsed: 0, 
-        stackingGlobalSumCount: 0,
-        stackingGlobalTotalSplits: 0, 
-        stackingLastSplitDelta: 0, 
-        stackingPendingDowngrade: false,
         rotationCategories: [], 
         rotationIndex: 0, 
-        rotationCategoryElapsed: 0,
+        rotationCategoryElapsed: 0, 
         rotationCategoryDuration: 0, 
         rotationCategoryDurations: [],
         rotationInterruptDuration: 300,
@@ -96,6 +85,10 @@ export interface SavedSessionRecord {
     id: string;
     name: string;
     savedAt: number;
+    totalProjectGoal: number;
+    totalProjectCompleted: number;
+    totalWorkTime: number;
+    benchmarkPace: number;
     session: PacingSessionState;
 }
 
@@ -103,9 +96,6 @@ export interface PacingTimerSettings {
     cache: { selectedMode: TimerMode; rawTitle: string; };
     activeSession: PacingSessionState | null;
     defaultCountEnabled: boolean;
-    stackingGoal: number;
-    stackingGoalPositiveOnly: boolean;
-    stackingUseGlobalDuration: boolean;
     showCurrentTime: boolean;
     rotationCategoriesRaw: string;
     rotationCategoryDuration: number;
@@ -121,17 +111,14 @@ export interface PacingTimerSettings {
     segmentedSegmentsRaw?: string;
     segmentedCountUp?: boolean;
 
-    // Named Saved Sessions (data.json)
+    // Named Projects / Sessions
     savedSessions?: Record<string, SavedSessionRecord>;
 }
 
 export const DEFAULT_SETTINGS: PacingTimerSettings = {
-    cache: { selectedMode: "stacking", rawTitle: "" },
+    cache: { selectedMode: "segmented", rawTitle: "" },
     activeSession: null,
     defaultCountEnabled: false,
-    stackingGoal: 900,
-    stackingGoalPositiveOnly: false,
-    stackingUseGlobalDuration: false,
     showCurrentTime: false,
     rotationCategoriesRaw: "",
     rotationCategoryDuration: 900,
@@ -140,7 +127,6 @@ export const DEFAULT_SETTINGS: PacingTimerSettings = {
     rotationContinuePrevious: false,
     lastRotationSession: null,
 
-    // Classic Pacing defaults
     segmentedInputMode: "total",
     segmentedTotalTimeRaw: "10m",
     segmentedSegmentDurationRaw: "1m",

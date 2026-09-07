@@ -90,7 +90,7 @@ export const SegmentedMode: ModeHandler = {
 
         new Setting(container)
             .setName("Count Up Completed Segments")
-            .setDesc("Display progress counting up as (completed/quota) [Max: goal] instead of counting down remaining segments.")
+            .setDesc("Display progress counting up instead of counting down remaining segments.")
             .addToggle(toggle => {
                 toggle.setValue(config.segmentedCountUp).onChange(v => {
                     config.segmentedCountUp = v;
@@ -205,7 +205,6 @@ export const SegmentedMode: ModeHandler = {
         const threshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
         session.segmentedVaultThreshold = threshold;
 
-        // True remaining time in dedicated session base
         const hardStop = session.hardStopTotalSeconds || (session.initialSegmentDuration * session.totalSegments);
         const trueTimeLeft = Math.max(0, hardStop - session.globalTimeElapsed);
 
@@ -311,7 +310,7 @@ export const SegmentedMode: ModeHandler = {
             const remainingAchievable = Math.floor(trueTimeLeft / newDuration);
             session.currentQuota = Math.min(session.maxTargetSegments || session.totalSegments, session.completedSegments + remainingAchievable);
 
-            // PRESERVE EARLY FINISH: Synchronize earlyFinishBanked to the true remaining workload
+            // PRESERVE EARLY FINISH
             const remainingTasks = Math.max(0, session.currentQuota - session.completedSegments);
             const remainingWorkTime = remainingTasks * newDuration;
             const totalNeeded = session.globalTimeElapsed + remainingWorkTime;
@@ -372,7 +371,7 @@ export const SegmentedMode: ModeHandler = {
         const steppedTotalSeconds = Math.max(0, hardStop - earlyBanked);
         const remainingSteppedSeconds = Math.max(0, steppedTotalSeconds - session.globalTimeElapsed);
 
-        // [G:...] and the finish clock now both reflect the true remaining work time
+        // [G:...] and the finish clock reflect the remaining work time
         const formattedGlobalTime = formatPacingTime(remainingSteppedSeconds);
         const estFinishedTimeStr = getFinishedTimeStr(session.lastTickTime, remainingSteppedSeconds);
 
@@ -396,9 +395,24 @@ export const SegmentedMode: ModeHandler = {
         const deltaTargetDisplay = `${deltaSign}${formatTime(Math.abs(liveDelta))}/${formatTime(threshold)}`;
         const deltaDisplay = `[<span style="${deltaStyle}">${deltaTargetDisplay}</span> ${ratioDisplay}: ${estFinishedTimeStr}]`;
 
-        const countDisplay = session.segmentedCountUp
-            ? `(${session.completedSegments}/${currentQuota}) [Max: ${maxGoal}]`
-            : `(${Math.max(0, currentQuota - session.completedSegments)}) [Max: ${maxGoal}]`;
+        // TELEMETRY COUNTER (Stint vs Standalone)
+        let countDisplay = "";
+        const isProjectStint = Boolean(session.projectId && session.projectGoal);
+
+        if (isProjectStint) {
+            const completedToday = session.completedSegments;
+            const quotaToday = session.currentQuota || session.stintInitialGoal || session.totalSegments;
+            const baseGoal = session.stintInitialGoal || quotaToday;
+            const goalMet = completedToday >= baseGoal;
+            const starTag = goalMet ? ` ⭐${baseGoal}` : ` • ${baseGoal}`;
+            const totalProjCompleted = (session.projectCompletedInitial || 0) + completedToday;
+
+            countDisplay = `(${completedToday}/${quotaToday}${starTag}) [Proj: ${totalProjCompleted}/${session.projectGoal}]`;
+        } else {
+            countDisplay = session.segmentedCountUp
+                ? `(${session.completedSegments}/${currentQuota}) [Max: ${maxGoal}]`
+                : `(${Math.max(0, currentQuota - session.completedSegments)}) [Max: ${maxGoal}]`;
+        }
 
         return `${clockPrefix}⏱️ [${displayTitle}:${formattedGlobalTime}] [S:<span style="${segmentStyle}">${segStr}</span>] ${deltaDisplay} ${countDisplay}${pauseText}`;
     }

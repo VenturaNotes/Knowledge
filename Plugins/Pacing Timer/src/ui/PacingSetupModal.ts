@@ -17,7 +17,7 @@ export class PacingSetupModal extends Modal {
         super(app);
         this.plugin = plugin;
         this.onSubmit = onSubmit;
-        this.selectedMode = plugin.settings.cache.selectedMode || "stacking";
+        this.selectedMode = plugin.settings.cache.selectedMode || "segmented";
         this.config.title = "G";
     }
 

@@ -5,6 +5,7 @@ import { PacingSetupModal } from './ui/PacingSetupModal';
 import { SaveSessionModal } from './ui/SaveSessionModal';
 import { SavedSessionsModal } from './ui/SavedSessionsModal';
 import { AdjustSessionModal } from './ui/AdjustSessionModal';
+import { ProjectModal } from './ui/ProjectModal';
 import { getCurrentTimeStr } from './utils';
 
 class PacingTimerSettingTab extends PluginSettingTab {
@@ -65,25 +66,59 @@ export default class PacingTimerPlugin extends Plugin {
             }
         }});
 
-        // Save Current Session
+        // Project Library Hub
         this.addCommand({
-            id: 'pacing-timer-save-session',
-            name: 'Save Current Session As...',
+            id: 'pacing-timer-project-library',
+            name: 'Open Project Library',
+            callback: () => {
+                new SavedSessionsModal(this.app, this).open();
+            }
+        });
+
+        // Open Active Project Dashboard
+        this.addCommand({
+            id: 'pacing-timer-active-project',
+            name: 'Open Active Project Dashboard',
             checkCallback: (checking: boolean) => {
-                if (this.session) {
-                    if (!checking) new SaveSessionModal(this.app, this).open();
+                if (this.session && this.session.projectId && this.settings.savedSessions?.[this.session.projectId]) {
+                    if (!checking) {
+                        const proj = this.settings.savedSessions[this.session.projectId]!;
+                        new ProjectModal(this.app, this, proj).open();
+                    }
                     return true;
                 }
                 return false;
             }
         });
 
-        // Load / Resume Saved Session
+        // Cancel Active Stint
         this.addCommand({
-            id: 'pacing-timer-load-session',
-            name: 'Load / Resume Saved Session',
-            callback: () => {
-                new SavedSessionsModal(this.app, this).open();
+            id: 'pacing-timer-cancel-stint',
+            name: 'Cancel Active Stint (Discard Progress)',
+            checkCallback: (checking: boolean) => {
+                if (this.session && this.session.projectId) {
+                    if (!checking) {
+                        if (confirm(`Cancel active stint for "${this.session.projectName || 'this project'}"? Progress from this stint will not be banked.`)) {
+                            this.stopSession();
+                            this.showOverlay("🚫 Stint Canceled", false);
+                        }
+                    }
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        // Save Current Session As Project
+        this.addCommand({
+            id: 'pacing-timer-save-session',
+            name: 'Save Current Session to Library...',
+            checkCallback: (checking: boolean) => {
+                if (this.session) {
+                    if (!checking) new SaveSessionModal(this.app, this).open();
+                    return true;
+                }
+                return false;
             }
         });
 

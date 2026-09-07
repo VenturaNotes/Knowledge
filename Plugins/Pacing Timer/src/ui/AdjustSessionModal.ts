@@ -116,6 +116,15 @@ export class AdjustSessionModal extends Modal {
             s.earlyFinishBanked = Math.max(0, hardStop - totalNeeded);
         }
 
+        // --- SESSION REVIVAL SAFEGUARD ---
+        // If the session had previously completed, revive it so you can keep working
+        if (s.isFinished && (s.currentQuota || 0) > (s.completedSegments || 0)) {
+            s.isFinished = false;
+            s.isRunning = true;
+            s.lastTickTime = Date.now();
+            this.plugin.startInterval();
+        }
+
         this.plugin.updateStatusBar();
         await this.plugin.saveSettings();
         this.plugin.showOverlay(
