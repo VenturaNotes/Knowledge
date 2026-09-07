@@ -18,12 +18,12 @@ export default class ProductivityTimerPlugin extends Plugin {
 	statusBarEl: HTMLElement;
 	bgTickInterval: number | null = null;
 	isWriting = false;
+	public isRotating = false;
 	public lastWriteTimes: Map<string, { is_running: boolean, last_started_at: string | null, tracked_seconds: number, time: number }> = new Map();
 	private rotationOverlay: HTMLElement | null = null;
 	private overlayKeydownListener: ((e: KeyboardEvent) => void) | null = null;
 	private loadTimersDebounceTimeout: any = null;
 	
-	// Tracks the last time Obsidian natively executed this command
 	private lastNativeExecutionTime: number = 0;
 	
 	public collapsedParentIds: Set<string> = new Set();
@@ -44,11 +44,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 			await this.saveSettings();
 		});
 
-		// Fires only when the realtime socket has gone measurably silent (missed
-		// heartbeat replies) - not on any fixed schedule. This is the actual
-		// "we're back online" signal: it catches the case where this process's
-		// JS timers never paused (e.g. NSAppSleepDisabled, or a screen lock that
-		// isn't a full system sleep) but the underlying connection still died.
 		this.db.onStaleConnection(() => {
 			this.performFullResync();
 		});
@@ -70,50 +65,25 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 		this.startBackgroundTick();
 
-		// Handle raw connection-state changes
 		this.registerDomEvent(window, "online", async () => {
-			// Previously this only refreshed state if there was a queued offline
-			// action to flush, which meant a laptop that slept (wifi never truly
-			// dropped, so no queue built up) got no benefit from this listener.
-			// Always do a full resync here as a second safety net alongside the
-			// sleep/wake drift detection in startBackgroundTick.
 			await this.performFullResync();
 		});
 
-		// Instantly update the UI connection badges the moment the device goes offline
 		this.registerDomEvent(window, "offline", () => {
 			this.refreshUI();
 		});
 
-		// Listen for app-foregrounding transitions (especially on Android and iOS devices)
 		this.registerDomEvent(document, "visibilitychange", async () => {
 			if (document.visibilityState === "visible") {
 				await this.performFullResync();
 			}
 		});
 
-		// Check for pending items to push right at startup
 		this.syncManager.syncOfflineActions();
 
 		if (this.settings.supabaseUrl && this.settings.supabaseKey) {
-			this.db.subscribeToTable("timers", async (payload) => {
-				if (this.isWriting) return;
-				const data = payload.data || payload;
-				const eventType = (data.eventType || payload.eventType || payload.event || payload.type || "UPDATE").toUpperCase();
-
-				if (eventType === "UPDATE" && (data.new || payload.new)) {
-					// Intentionally no longer attempting to "correct" a stale locally-running
-					// timer here. This used to compute a duration from this client's own
-					// (possibly very stale, post-sleep) clock against a locally-cached
-					// last_started_at, which could produce a bogus multi-hour segment if this
-					// device's local state was out of date. Closing out a timer that's actually
-					// running elsewhere is handled authoritatively by stopServerRunningTimers()
-					// (run by whichever device starts a new timer) and reconcileRunningTimers()
-					// (which reasons from real known timestamps, not this client's current time).
-					// This handler's only job is to make sure we reload fresh state.
-				}
-
-				// Debounce the load requests on incoming events to avoid concurrent REST race conditions
+			this.db.subscribeToTable("timers", async () => {
+				if (this.isWriting || this.isRotating) return;
 				this.loadTimersDebounced();
 			});
 		}
@@ -145,19 +115,10 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 	private powerMonitorCleanup: (() => void) | null = null;
 
-	// Electron's powerMonitor gives us genuine OS-level "resume" (woke from real
-	// sleep) and "unlock-screen" (screen unlocked, whether or not a full sleep
-	// happened) events - a real push notification from macOS, not something we
-	// have to poll or infer. This lives in Electron's main process; Obsidian
-	// exposes it to its renderer windows via the remote module, which plugins
-	// can reach too, but it's not official Obsidian API. Guarded so that if it's
-	// ever unavailable (a future Obsidian/Electron version, or mobile), the
-	// heartbeat-silence and JS-timer-drift checks already in place still cover
-	// us - just not quite as instantly for the screen-lock-without-sleep case.
 	private setupPowerMonitor() {
 		if (Platform.isMobile) return;
 		try {
-			// @ts-ignore - remote is not part of Obsidian's public type surface
+			// @ts-ignore
 			const electron = require("electron");
 			const powerMonitor = electron?.remote?.powerMonitor;
 			if (!powerMonitor) return;
@@ -223,16 +184,16 @@ export default class ProductivityTimerPlugin extends Plugin {
 			await this.syncManager.loadSessions();
 			this.refreshUI();
 		} catch (e) {
-			// Right after a sleep/resume, the OS network interface is often not
-			// actually usable yet for a second or two even though navigator.onLine
-			// already reports true - a fetch fired immediately tends to fail once.
-			// Retry a few times with a short delay before giving up, instead of
-			// silently falling back to stale cached data.
 			console.error(`Productivity Timer: resync attempt ${attempt} failed.`, e);
 			if (attempt < 3) {
 				await new Promise(resolve => setTimeout(resolve, 1500));
 				await this.performFullResync(attempt + 1);
 				return;
+			} else {
+				if (this.settings.localTimersCache && this.settings.localTimersCache.length > 0) {
+					this.timers = this.settings.localTimersCache;
+				}
+				this.refreshUI();
 			}
 		} finally {
 			if (attempt === 0) {
@@ -257,25 +218,13 @@ export default class ProductivityTimerPlugin extends Plugin {
 			const drift = now - this.lastTickTime;
 			this.lastTickTime = now;
 
-			// This interval is scheduled every 1000ms. If far more time than that
-			// actually elapsed between ticks, the device almost certainly slept
-			// (or the process was suspended) in between. Sleep/wake never fires
-			// "visibilitychange" on desktop (the window stays "visible" the whole
-			// time - only the OS is suspended), and the realtime websocket can
-			// silently go stale during that time without ever firing onclose/onerror.
-			// Treat a large gap as a resume event and force a full resync.
 			if (drift > 5000) {
 				await this.performFullResync();
 			}
 
 			const running = this.timers.find(t => t.is_running);
 			if (running) {
-				const trueSeconds = this.getActiveTrackedSeconds(running);
-				if (running.visual_seconds === undefined) {
-					running.visual_seconds = trueSeconds;
-				} else {
-					running.visual_seconds += 1;
-				}
+				this.getActiveTrackedSeconds(running);
 			}
 
 			this.tickUI();
@@ -284,6 +233,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public async checkSubtaskRotation() {
+		if (this.isRotating || this.isWriting) return;
+
 		const running = this.timers.find(t => t.is_running);
 		if (!running || running.parent_id === null) return;
 
@@ -296,58 +247,97 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 		if (currentMultiple > startMultiple) {
 			const sibs = this.timers.filter(t => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
-			if (sibs.length > 1) {
+			
+			// Supports rotation with 1 or more subtasks
+			if (sibs.length >= 1) {
 				const idx = sibs.findIndex(t => t.id === running.id);
 				const nextIdx = (idx + 1) % sibs.length;
 				const nextSubtask = sibs[nextIdx];
 
 				if (nextSubtask) {
-					const nextNow = this.getCalibratedISOString();
-					const localStart = running.last_started_at;
-					
-					const localDur = Math.max(0, Math.floor((new Date(nextNow).getTime() - new Date(localStart).getTime()) / 1000));
-					const finalTracked = running.tracked_seconds + localDur;
-
-					if (localDur > 0) {
-						running.segments = running.segments || [];
-						running.segments.push({
-							id: `temp-${Date.now()}`,
-							timer_id: running.id,
-							started_at: localStart,
-							ended_at: nextNow,
-							duration_seconds: localDur
-						});
-					}
-
-					running.is_running = false;
-					running.is_last_active = false;
-					running.tracked_seconds = finalTracked;
-					running.last_started_at = null;
-
-					nextSubtask.is_running = true;
-					nextSubtask.is_last_active = true;
-					nextSubtask.last_started_at = nextNow;
-
-					this.refreshUI();
-					this.showRotationOverlay(nextSubtask);
-
+					this.isRotating = true;
 					try {
-						await this.db.insert("timer_segments", {
-							timer_id: running.id,
-							started_at: localStart,
-							ended_at: nextNow,
-							duration_seconds: localDur
-						});
+						const nextNow = this.getCalibratedISOString();
+						const localStart = running.last_started_at;
+						
+						const actualDur = Math.max(0, Math.floor((new Date(nextNow).getTime() - new Date(localStart).getTime()) / 1000));
+						const neededDur = (currentMultiple * running.estimate_seconds) - running.tracked_seconds;
+						const localDur = Math.max(actualDur, neededDur > 0 ? neededDur : actualDur);
+						const finalTracked = running.tracked_seconds + localDur;
 
-						await Promise.all([
-							this.db.update("timers", { is_running: false, is_last_active: false, tracked_seconds: finalTracked, last_started_at: null }, `id=eq.${running.id}`),
-							this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: nextNow }, `id=eq.${nextSubtask.id}`)
-						]);
+						if (localDur > 0) {
+							running.segments = running.segments || [];
+							running.segments.push({
+								id: `temp-${Date.now()}`,
+								timer_id: running.id,
+								started_at: localStart,
+								ended_at: nextNow,
+								duration_seconds: localDur
+							});
+						}
 
-						await this.loadTimers();
+						const isSameSubtask = nextSubtask.id === running.id;
+
+						if (isSameSubtask) {
+							running.tracked_seconds = finalTracked;
+							running.is_running = true;
+							running.is_last_active = true;
+							running.last_started_at = nextNow;
+							running.visual_seconds = this.getActiveTrackedSeconds(running);
+						} else {
+							running.is_running = false;
+							running.is_last_active = false;
+							running.tracked_seconds = finalTracked;
+							running.last_started_at = null;
+							running.visual_seconds = undefined;
+
+							nextSubtask.is_running = true;
+							nextSubtask.is_last_active = true;
+							nextSubtask.last_started_at = nextNow;
+							nextSubtask.visual_seconds = this.getActiveTrackedSeconds(nextSubtask);
+
+							for (const sib of sibs) {
+								if (sib.id !== nextSubtask.id) {
+									sib.is_last_active = false;
+								}
+							}
+						}
+
 						this.refreshUI();
+						this.showRotationOverlay(nextSubtask);
+
+						await this.runWriteAction(async () => {
+							await this.db.insert("timer_segments", {
+								timer_id: running.id,
+								started_at: localStart,
+								ended_at: nextNow,
+								duration_seconds: localDur
+							});
+
+							if (isSameSubtask) {
+								await this.db.update("timers", {
+									is_running: true,
+									is_last_active: true,
+									tracked_seconds: finalTracked,
+									last_started_at: nextNow
+								}, `id=eq.${running.id}`);
+							} else {
+								await Promise.all([
+									this.db.update("timers", { is_running: false, is_last_active: false, tracked_seconds: finalTracked, last_started_at: null }, `id=eq.${running.id}`),
+									this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: nextNow }, `id=eq.${nextSubtask.id}`),
+									...sibs.filter(s => s.id !== nextSubtask.id && s.id !== running.id).map(sib => 
+										this.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
+									)
+								]);
+							}
+
+							await this.syncManager.loadTimers();
+							this.refreshUI();
+						});
 					} catch (e) {
 						console.error("Background subtask rotation failed:", e);
+					} finally {
+						this.isRotating = false;
 					}
 				}
 			}
@@ -580,8 +570,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public getActiveTrackedSeconds(timer: Timer): number {
-		// Calculate base seconds by summing active log segments (with auto-repair for 0s segment entries)
-		const baseSeconds = (timer.segments || []).reduce((sum, s) => {
+		const segSum = (timer.segments || []).reduce((sum, s) => {
 			if (s.duration_seconds && s.duration_seconds > 0) {
 				return sum + s.duration_seconds;
 			}
@@ -595,21 +584,15 @@ export default class ProductivityTimerPlugin extends Plugin {
 			return sum;
 		}, 0);
 
+		const baseSeconds = Math.max(segSum, timer.tracked_seconds || 0);
+
 		if (timer.is_running && timer.last_started_at) {
 			const offset = (window as any).ptServerClockOffset || 0;
 			const calibratedNow = Date.now() + offset;
-			const elapsed = Math.floor((calibratedNow - new Date(timer.last_started_at).getTime()) / 1000);
-			const trueSeconds = baseSeconds + Math.max(0, elapsed);
-
-			if (timer.visual_seconds === undefined) {
-				timer.visual_seconds = trueSeconds;
-			} else {
-				const diff = Math.abs(timer.visual_seconds - trueSeconds);
-				if (diff >= 2) {
-					timer.visual_seconds = trueSeconds;
-				}
-			}
-			return timer.visual_seconds;
+			const elapsed = Math.max(0, Math.floor((calibratedNow - new Date(timer.last_started_at).getTime()) / 1000));
+			const trueSeconds = baseSeconds + elapsed;
+			timer.visual_seconds = trueSeconds;
+			return trueSeconds;
 		}
 		
 		timer.visual_seconds = undefined;
@@ -797,14 +780,11 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 	async toggleWindow() {
 		const stack = new Error().stack || '';
-		// If the execution originated from Obsidian's native hotkey handler, update the timestamp
 		const isNativeHotkey = stack.includes("handleKey");
 
 		if (isNativeHotkey) {
 			this.lastNativeExecutionTime = Date.now();
 		} else if (Date.now() - this.lastNativeExecutionTime < 500) {
-			// If it originated elsewhere (like the Webview IPC event) AND it closely 
-			// follows a native execution, it is the space-switch ghost! Drop it completely.
 			return;
 		}
 
@@ -837,7 +817,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 		}
 	}
 
-	// Wrapper action redirects for caller convenience
 	public loadTimers() { return this.syncManager.loadTimers(); }
 	public loadSessions() { return this.syncManager.loadSessions(); }
 	public playParent(timer: Timer) { this.timerService.playParent(timer); }

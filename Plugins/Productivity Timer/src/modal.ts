@@ -141,6 +141,14 @@ export class TimeLogModal extends Modal {
 			}
 		};
 
+		// Submit button added for mobile convenience
+		const submitBtn = addInputs.createEl("button", { cls: "pt-btn pt-btn--add", text: "+ Add" });
+		submitBtn.style.flexShrink = "0";
+		submitBtn.addEventListener("click", async (e) => {
+			e.preventDefault();
+			await submitManualLog();
+		});
+
 		manualInput.addEventListener("keydown", async (e: KeyboardEvent) => {
 			if (e.key === "Enter") {
 				e.preventDefault();
@@ -164,14 +172,12 @@ export class TimeLogModal extends Modal {
 		if (timer.is_running && timer.last_started_at) {
 			const activeRow = this.listContainer.createDiv({ cls: "pt-modal-log-row pt-modal-log-row--active" });
 			
-			// 1. Live duration badge is rendered as the first column
 			const durDisp = activeRow.createEl("span", { 
 				cls: "pt-modal-duration-badge pt-modal-live-duration", 
 				text: "Calculating..." 
 			});
 			durDisp.style.cssText = "width: 75px; text-align: center; border: 1px dashed var(--interactive-accent); border-radius: 3px; font-family: var(--font-monospace); font-size: 11px; padding: 2px 6px; font-weight: bold; background: var(--background-secondary-alt); color: var(--interactive-accent); display: inline-block; box-sizing: border-box;";
 
-			// 2. Start DateTime Picker (minimum width increased to 155px to prevent PM clipping)
 			const startPicker = activeRow.createEl("input", { type: "datetime-local" });
 			startPicker.setAttribute("step", "1");
 			startPicker.value = this.toLocalDateTimeString(new Date(timer.last_started_at));
@@ -189,15 +195,12 @@ export class TimeLogModal extends Modal {
 				}
 			});
 
-			// 3. TO separator label
 			const toLabel = activeRow.createEl("span", { text: "to", cls: "pt-modal-to-label" });
 			toLabel.style.cssText = "font-size: 10px; color: var(--text-faint); text-transform: uppercase;";
 
-			// 4. Live PRESENT indicator
 			const activeLabel = activeRow.createEl("span", { text: "Present (Active)", cls: "pt-modal-active-label" });
 			activeLabel.style.cssText = "font-size: 11px; font-weight: 600; color: var(--color-green); animation: pt-pulse 2s infinite; flex: 1 1 auto; text-align: center;";
 
-			// 5. Spacer active button
 			const stopBtn = activeRow.createEl("button", { cls: "pt-btn-del-seg", title: "Active timer running" });
 			stopBtn.innerHTML = "⏸";
 			stopBtn.style.cssText = "opacity: 0.4; pointer-events: none; margin-left: auto;";
@@ -215,7 +218,6 @@ export class TimeLogModal extends Modal {
 			const start = new Date(seg.started_at);
 			const end = new Date(seg.ended_at);
 
-			// Auto-repair segment duration if it was saved as 0 in DB
 			let displayDuration = seg.duration_seconds;
 			if ((!displayDuration || displayDuration <= 0) && !isNaN(start.getTime()) && !isNaN(end.getTime()) && end > start) {
 				displayDuration = Math.floor((end.getTime() - start.getTime()) / 1000);
@@ -223,7 +225,6 @@ export class TimeLogModal extends Modal {
 				this.db.update("timer_segments", { duration_seconds: displayDuration }, `id=eq.${seg.id}`).catch(() => {});
 			}
 
-			// 1. Editable logged duration badge is rendered as the first column
 			const durInput = row.createEl("input", { 
 				type: "text", 
 				cls: "pt-modal-duration-badge", 
@@ -231,17 +232,14 @@ export class TimeLogModal extends Modal {
 			});
 			durInput.style.cssText = "width: 75px; text-align: center; border: 1px solid var(--background-modifier-border); border-radius: 3px; font-family: var(--font-monospace); font-size: 11px; background: var(--background-secondary-alt); color: var(--interactive-accent); cursor: text; font-weight: bold; padding: 2px 6px; box-sizing: border-box;";
 
-			// 2. Start DateTime Picker (minimum width increased to 155px to prevent PM clipping)
 			const startPicker = row.createEl("input", { type: "datetime-local" });
 			startPicker.setAttribute("step", "1");
 			startPicker.value = this.toLocalDateTimeString(start);
 			startPicker.style.cssText = "flex: 1 1 auto; min-width: 155px; font-size: 11px; padding: 4px 8px !important; box-sizing: border-box; background: var(--background-secondary-alt); color: var(--text-normal); border: 1px solid var(--background-modifier-border); border-radius: 4px; margin: 0;";
 
-			// 3. TO separator label
 			const toLabel = row.createEl("span", { text: "to", cls: "pt-modal-to-label" });
 			toLabel.style.cssText = "font-size: 10px; color: var(--text-faint); text-transform: uppercase;";
 
-			// 4. End DateTime Picker (minimum width increased to 155px to prevent PM clipping)
 			const endPicker = row.createEl("input", { type: "datetime-local" });
 			endPicker.setAttribute("step", "1");
 			endPicker.value = this.toLocalDateTimeString(end);
@@ -327,7 +325,6 @@ export class TimeLogModal extends Modal {
 			startPicker.addEventListener("blur", updateTimes);
 			endPicker.addEventListener("blur", updateTimes);
 
-			// 5. Delete Button
 			const delBtn = row.createEl("button", { cls: "pt-btn-del-seg", title: "Delete segment" });
 			delBtn.innerHTML = "✕";
 			delBtn.addEventListener("click", async () => {

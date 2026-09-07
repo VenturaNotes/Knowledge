@@ -17,10 +17,7 @@ export class SyncManager {
 	public async syncOfflineActions() {
 		if (!navigator.onLine || !this.plugin.settings.offlineQueue || this.plugin.settings.offlineQueue.length === 0) return;
 
-		// Copy the actions to process them
 		const actions = [...this.plugin.settings.offlineQueue];
-		
-		// Clear the array IN-PLACE to preserve the reference inside db.ts
 		this.plugin.settings.offlineQueue.length = 0;
 		await this.plugin.saveSettings();
 
@@ -39,7 +36,6 @@ export class SyncManager {
 			new Notice("Offline sync complete.");
 		} catch (e) {
 			console.error("Offline sync failed:", e);
-			// Put them back in-place at the beginning of the queue if the push fails
 			this.plugin.settings.offlineQueue.unshift(...actions);
 			await this.plugin.saveSettings();
 			new Notice("Offline sync failed, will retry later.");
@@ -51,60 +47,8 @@ export class SyncManager {
 	}
 
 	public async loadTimers() {
-		try {
-			let dbTimers: Timer[] = [];
-			let dbSegments: TimerSegment[] = [];
-
-			if (!navigator.onLine) {
-				this.plugin.timers = this.plugin.settings.localTimersCache || [];
-				for (const t of this.plugin.timers) {
-					const { tracked, estimate } = this.plugin.getTimerDisplayTimes(t);
-					if (estimate > 0 && tracked >= estimate) {
-						this.plugin.notifiedCompletes.add(t.id);
-					} else {
-						this.plugin.notifiedCompletes.delete(t.id);
-					}
-				}
-				return;
-			}
-
-			try {
-				dbTimers = await this.plugin.db.select("timers", "order=sort_order.asc,created_at.asc");
-				try {
-					dbSegments = await this.plugin.db.select("timer_segments", "order=started_at.asc");
-				} catch (e) {
-					console.error("Failed to load segments", e);
-				}
-			} catch (e) {
-				dbTimers = this.plugin.settings.localTimersCache || [];
-			}
-			
-			const parentIds = dbTimers.filter(t => t.parent_id === null).map(t => t.id);
-			const orphans = dbTimers.filter(t => t.parent_id !== null && !parentIds.includes(t.parent_id));
-			if (orphans.length > 0 && navigator.onLine) {
-				for (const orphan of orphans) {
-					await this.plugin.db.delete("timers", `id=eq.${orphan.id}`);
-					await this.plugin.db.delete("timer_segments", `timer_id=eq.${orphan.id}`);
-				}
-				await this.loadTimers();
-				return;
-			}
-			
-			const localRunning = this.plugin.timers.find(t => t.is_running);
-			this.plugin.timers = dbTimers.map(dbTimer => {
-				const segments = dbSegments.filter(s => s.timer_id === dbTimer.id);
-				
-				if (localRunning && dbTimer.id === localRunning.id && dbTimer.is_running) {
-					return {
-						...dbTimer,
-						tracked_seconds: Math.max(dbTimer.tracked_seconds, localRunning.tracked_seconds),
-						visual_seconds: localRunning.visual_seconds,
-						segments
-					};
-				}
-				return { ...dbTimer, segments };
-			});
-
+		if (!navigator.onLine) {
+			this.plugin.timers = this.plugin.settings.localTimersCache || [];
 			for (const t of this.plugin.timers) {
 				const { tracked, estimate } = this.plugin.getTimerDisplayTimes(t);
 				if (estimate > 0 && tracked >= estimate) {
@@ -113,13 +57,68 @@ export class SyncManager {
 					this.plugin.notifiedCompletes.delete(t.id);
 				}
 			}
-
-			await this.reconcileRunningTimers();
-			await this.persistLocalState();
-
-		} catch {
-			console.error("Productivity Timer: failed to load timers.");
+			return;
 		}
+
+		// Allow select errors to propagate up to performFullResync so wake-up retries can execute
+		const dbTimers: Timer[] = await this.plugin.db.select("timers", "order=sort_order.asc,created_at.asc");
+		let dbSegments: TimerSegment[] = [];
+		try {
+			dbSegments = await this.plugin.db.select("timer_segments", "order=started_at.asc");
+		} catch (e) {
+			console.error("Failed to load segments", e);
+			const existingMap = new Map((this.plugin.timers || []).map(t => [t.id, t.segments || []]));
+			dbSegments = [];
+			for (const segs of existingMap.values()) {
+				dbSegments.push(...segs);
+			}
+		}
+		
+		const parentIds = dbTimers.filter(t => t.parent_id === null).map(t => t.id);
+		const orphans = dbTimers.filter(t => t.parent_id !== null && !parentIds.includes(t.parent_id));
+		if (orphans.length > 0 && navigator.onLine) {
+			for (const orphan of orphans) {
+				await this.plugin.db.delete("timers", `id=eq.${orphan.id}`);
+				await this.plugin.db.delete("timer_segments", `timer_id=eq.${orphan.id}`);
+			}
+			await this.loadTimers();
+			return;
+		}
+		
+		const localRunning = this.plugin.timers.find(t => t.is_running);
+		const existingTimerMap = new Map((this.plugin.timers || []).map(t => [t.id, t]));
+
+		this.plugin.timers = dbTimers.map(dbTimer => {
+			let segments = dbSegments.filter(s => s.timer_id === dbTimer.id);
+			if (segments.length === 0) {
+				const existing = existingTimerMap.get(dbTimer.id);
+				if (existing && existing.segments && existing.segments.length > 0) {
+					segments = existing.segments;
+				}
+			}
+			
+			if (localRunning && dbTimer.id === localRunning.id && dbTimer.is_running) {
+				return {
+					...dbTimer,
+					tracked_seconds: Math.max(dbTimer.tracked_seconds, localRunning.tracked_seconds),
+					visual_seconds: localRunning.visual_seconds,
+					segments
+				};
+			}
+			return { ...dbTimer, segments };
+		});
+
+		for (const t of this.plugin.timers) {
+			const { tracked, estimate } = this.plugin.getTimerDisplayTimes(t);
+			if (estimate > 0 && tracked >= estimate) {
+				this.plugin.notifiedCompletes.add(t.id);
+			} else {
+				this.plugin.notifiedCompletes.delete(t.id);
+			}
+		}
+
+		await this.reconcileRunningTimers();
+		await this.persistLocalState();
 	}
 
 	public async loadSessions() {
@@ -134,7 +133,7 @@ export class SyncManager {
 	}
 
 	public async reconcileRunningTimers() {
-		if (this.plugin.isWriting) return;
+		if (this.plugin.isWriting || this.plugin.isRotating) return;
 
 		const runningTimers = this.plugin.timers.filter(t => t.is_running && t.last_started_at);
 		if (runningTimers.length <= 1) return;
