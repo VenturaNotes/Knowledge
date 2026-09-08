@@ -153,3 +153,28 @@ export const parseCategoryDurations = (input: string): { durations: number[], fa
         fallback: parts[0] || 900
     };
 };
+
+// Robust Parser: Extracts timestamps from raw text, YouTube tracklists, markdown tables, or comma-separated lists
+export const parsePlaylistInput = (input: string): number[] => {
+    if (!input) return [];
+    const durations: number[] = [];
+
+    // Match HH:MM:SS or MM:SS (e.g. '0:06:31', '12:01', '1:15:30')
+    const matches = input.match(/\b(?:\d{1,2}:)?\d{1,2}:\d{2}\b/g);
+    if (matches && matches.length > 0) {
+        for (const m of matches) {
+            const s = parseDurationToSeconds(m);
+            if (s > 0) durations.push(s);
+        }
+        if (durations.length > 0) return durations;
+    }
+
+    // Fallback: match line by line or comma-separated duration strings (e.g. '6m 31s', '12m')
+    const lines = input.split(/[\n,;]+/).map(l => l.trim()).filter(l => l.length > 0);
+    for (const line of lines) {
+        const s = parseDurationToSeconds(line);
+        if (s > 0) durations.push(s);
+    }
+
+    return durations;
+};

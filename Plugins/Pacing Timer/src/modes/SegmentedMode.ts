@@ -306,6 +306,7 @@ export const SegmentedMode: ModeHandler = {
             session.targetSegmentDuration = newDuration;
             session.initialSegmentDuration = newDuration;
 
+            // Calculate achievable tasks in remaining time
             const remainingAchievable = Math.floor(trueTimeLeft / newDuration);
             session.currentQuota = Math.min(session.maxTargetSegments || session.totalSegments, session.completedSegments + remainingAchievable);
 
@@ -329,6 +330,16 @@ export const SegmentedMode: ModeHandler = {
             );
         }
 
+        // --- VARIABLE SEGMENT SEQUENCING ---
+        // If this session has custom per-segment lengths, set the timer for the NEXT segment!
+        if (session.customSegmentDurations && session.completedSegments < session.customSegmentDurations.length) {
+            const nextBase = session.customSegmentDurations[session.completedSegments] || 60;
+            const mult = session.paceMultiplier || 1.25;
+            const nextDuration = Math.max(1, Math.round(nextBase * mult));
+            session.targetSegmentDuration = nextDuration;
+            session.initialSegmentDuration = nextDuration;
+        }
+
         // --- FINISH CONDITION ---
         const isProjectStint = Boolean(session.projectId && session.projectGoal);
         if (isProjectStint) {
@@ -336,8 +347,6 @@ export const SegmentedMode: ModeHandler = {
             const projectFinished = totalProjectDone >= (session.projectGoal || 100);
             const timeRanOut = trueTimeLeft <= 0;
 
-            // In a project stint, only mark finished if all project tasks are done or time ran out.
-            // Do NOT call plugin.stopInterval() so the status bar clock keeps ticking live!
             if (projectFinished || timeRanOut) {
                 session.isRunning = false;
                 session.isFinished = true;
@@ -392,23 +401,39 @@ export const SegmentedMode: ModeHandler = {
             const tasksLeftToGoal = Math.max(0, baseGoal - session.completedSegments);
 
             if (tasksLeftToGoal > 0) {
-                // Time needed to finish the baseline goal:
-                const workTimeLeft = Math.max(
-                    0, 
-                    tasksLeftToGoal * session.targetSegmentDuration - session.segmentTimeElapsed
-                );
-                // Display work time needed (if less than hard time left)
+                // If custom segment durations exist, calculate exact remaining work from the remaining slice
+                let workTimeLeft = 0;
+                if (session.customSegmentDurations && session.customSegmentDurations.length > 0) {
+                    let baseSum = 0;
+                    const startIdx = session.completedSegments;
+                    const endIdx = Math.min(session.customSegmentDurations.length, startIdx + tasksLeftToGoal);
+                    for (let i = startIdx; i < endIdx; i++) {
+                        baseSum += session.customSegmentDurations[i] || 0;
+                    }
+                    const mult = session.paceMultiplier || 1.25;
+                    workTimeLeft = Math.max(0, Math.round(baseSum * mult) - session.segmentTimeElapsed);
+                } else {
+                    workTimeLeft = Math.max(0, tasksLeftToGoal * session.targetSegmentDuration - session.segmentTimeElapsed);
+                }
                 remainingDisplaySeconds = Math.min(hardTimeLeft, workTimeLeft);
             } else {
                 // Baseline goal met! Check if the entire macro project finishes before bonus time runs out:
                 const totalProjectDone = (session.projectCompletedInitial || 0) + session.completedSegments;
                 const projectTasksLeft = Math.max(0, (session.projectGoal || 100) - totalProjectDone);
-                const projectWorkTimeLeft = Math.max(
-                    0,
-                    projectTasksLeft * session.targetSegmentDuration - session.segmentTimeElapsed
-                );
+                
+                let projectWorkTimeLeft = 0;
+                if (session.customSegmentDurations && session.customSegmentDurations.length > 0) {
+                    let baseSum = 0;
+                    const startIdx = totalProjectDone;
+                    for (let i = startIdx; i < session.customSegmentDurations.length; i++) {
+                        baseSum += session.customSegmentDurations[i] || 0;
+                    }
+                    const mult = session.paceMultiplier || 1.25;
+                    projectWorkTimeLeft = Math.max(0, Math.round(baseSum * mult) - session.segmentTimeElapsed);
+                } else {
+                    projectWorkTimeLeft = Math.max(0, projectTasksLeft * session.targetSegmentDuration - session.segmentTimeElapsed);
+                }
 
-                // Display whichever comes first: the end of the entire project or the end of today's stint bonus time
                 remainingDisplaySeconds = Math.min(hardTimeLeft, projectWorkTimeLeft);
             }
         } else {

@@ -26,6 +26,11 @@ export interface PacingSessionState {
     hardStopTotalSeconds?: number;
     earlyFinishBanked?: number;
 
+    // Variable / Custom Segment Durations
+    customSegmentDurations?: number[];
+    paceMultiplier?: number;
+    totalBaseWorkTime?: number;
+
     // Project & Daily Stint metadata
     projectId?: string;
     projectName?: string;
@@ -89,6 +94,9 @@ export interface SavedSessionRecord {
     totalProjectCompleted: number;
     totalWorkTime: number;
     benchmarkPace: number;
+    customSegmentDurations?: number[];
+    paceMultiplier?: number;
+    totalBaseWorkTime?: number;
     session: PacingSessionState;
 }
 

@@ -4,7 +4,6 @@ import { SavedSessionRecord, PacingSessionState } from '../types';
 import { parseDurationToSeconds, formatHumanReadableDuration, formatPacingTime, formatTime, getFinishedTimeStr } from '../utils';
 import { AdjustSessionModal } from './AdjustSessionModal';
 
-// Helper to parse positive and negative countdown inputs (e.g. '15m', '03:00', '-5m', '-02:30')
 export function parseDurationWithSign(input: string): number {
     if (!input) return 0;
     const trimmed = input.trim().toLowerCase();
@@ -86,7 +85,6 @@ export class AdjustTaskCountdownModal extends Modal {
         }
 
         const newRemaining = parseDurationWithSign(this.countdownInputRaw);
-        // segmentTimeElapsed = target - remaining
         const newElapsed = Math.max(0, s.targetSegmentDuration - newRemaining);
         const diff = newElapsed - s.segmentTimeElapsed;
 
@@ -175,14 +173,27 @@ export class ProjectModal extends Modal {
             lineHeight: "1.6"
         });
 
-        // Live sync: include today's in-progress stint tasks in the macro count
         const stintDone = (isStintActive && this.plugin.session) ? (this.plugin.session.completedSegments || 0) : 0;
         const completed = (this.project.totalProjectCompleted || 0) + stintDone;
         const totalGoal = this.project.totalProjectGoal || 100;
         const pct = Math.round((completed / totalGoal) * 100);
         const paceWithLeeway = Math.max(1, Math.round((this.project.benchmarkPace || 60) * 1.25));
         const remainingTasks = Math.max(0, totalGoal - completed);
-        const remainingProjectSeconds = remainingTasks * paceWithLeeway;
+
+        let remainingProjectSeconds = 0;
+        if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > 0) {
+            let baseSum = 0;
+            for (let i = completed; i < this.project.customSegmentDurations.length; i++) {
+                baseSum += this.project.customSegmentDurations[i] || 0;
+            }
+            remainingProjectSeconds = Math.round(baseSum * (this.project.paceMultiplier || 1.25));
+        } else {
+            remainingProjectSeconds = remainingTasks * paceWithLeeway;
+        }
+
+        const paceLabel = this.project.customSegmentDurations?.length 
+            ? `Custom Timings (${this.project.paceMultiplier || 1.25}x)` 
+            : `${formatHumanReadableDuration(paceWithLeeway).replace(/\s+/g, "")} per task`;
 
         macroCard.innerHTML = `
             <div style="display: flex; justify-content: space-between; font-weight: 600; font-size: 1.05em; margin-bottom: 4px;">
@@ -190,7 +201,7 @@ export class ProjectModal extends Modal {
                 <span style="color: var(--text-accent);">${pct}% Complete</span>
             </div>
             <div style="color: var(--text-muted);">
-                ⏱️ <b>Calibrated Pace:</b> ${formatHumanReadableDuration(paceWithLeeway).replace(/\s+/g, "")} per task (with leeway)<br>
+                ⏱️ <b>Pacing:</b> ${paceLabel}<br>
                 ⏳ <b>Est. Total Project Finish:</b> ~${formatHumanReadableDuration(remainingProjectSeconds)} remaining
             </div>
         `;
@@ -230,7 +241,7 @@ export class ProjectModal extends Modal {
             const cancelBtn = btnRow.createEl("button", {
                 text: "🚫 Cancel Stint",
                 attr: {
-                    style: "padding: 6px 12px; cursor: pointer; font-size: 0.88em; border-radius: 4px; border: 1px solid var(--text-error, #ef4444); background: rgba(239, 68, 68, 0.12); color: var(--text-error, #ef4444);"
+                    style: "padding: 6px 14px; cursor: pointer; font-size: 0.88em; border-radius: 4px; border: 1px solid var(--text-error, #ef4444); background: rgba(239, 68, 68, 0.12); color: var(--text-error, #ef4444);"
                 }
             });
             cancelBtn.onmouseenter = () => {
@@ -247,7 +258,6 @@ export class ProjectModal extends Modal {
                 }
             };
 
-            // ADJUST TASK COUNTDOWN BUTTON
             const adjustCountdownBtn = btnRow.createEl("button", {
                 text: "⏱️ Adjust Countdown",
                 attr: {
@@ -268,7 +278,6 @@ export class ProjectModal extends Modal {
                 new AdjustSessionModal(this.app, this.plugin).open();
             };
 
-            // BANK PROGRESS AND END STINT BUTTON
             const bankBtn = btnRow.createEl("button", {
                 text: "💾 Bank Progress & End Stint",
                 cls: "mod-cta",
@@ -380,10 +389,37 @@ export class ProjectModal extends Modal {
         if (this.stintTargetMode === "segments") {
             const parsed = parseInt(this.stintTasksRaw, 10);
             tasks = parsed > 0 ? Math.min(remainingTasks, parsed) : Math.min(remainingTasks, 10);
-            duration = tasks * pace;
+            
+            if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > 0) {
+                let baseSum = 0;
+                const startIdx = this.project.totalProjectCompleted || 0;
+                for (let i = startIdx; i < Math.min(this.project.customSegmentDurations.length, startIdx + tasks); i++) {
+                    baseSum += this.project.customSegmentDurations[i] || 0;
+                }
+                duration = Math.round(baseSum * (this.project.paceMultiplier || 1.25));
+            } else {
+                duration = tasks * pace;
+            }
         } else {
             duration = parseDurationToSeconds(this.stintDurationRaw) || 10800;
-            tasks = Math.min(remainingTasks, Math.floor(duration / pace));
+            if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > 0) {
+                const mult = this.project.paceMultiplier || 1.25;
+                const startIdx = this.project.totalProjectCompleted || 0;
+                let accumulatedSecs = 0;
+                let count = 0;
+                for (let i = startIdx; i < this.project.customSegmentDurations.length; i++) {
+                    const taskDur = Math.round((this.project.customSegmentDurations[i] || 0) * mult);
+                    if (accumulatedSecs + taskDur <= duration) {
+                        accumulatedSecs += taskDur;
+                        count++;
+                    } else {
+                        break;
+                    }
+                }
+                tasks = Math.max(1, count);
+            } else {
+                tasks = Math.min(remainingTasks, Math.floor(duration / pace));
+            }
         }
 
         const finishTimeStr = getFinishedTimeStr(Date.now(), duration);
@@ -400,10 +436,36 @@ export class ProjectModal extends Modal {
         if (this.stintTargetMode === "segments") {
             const parsed = parseInt(this.stintTasksRaw, 10);
             tasks = parsed > 0 ? Math.min(remainingTasks, parsed) : Math.min(remainingTasks, 10);
-            duration = tasks * pace;
+            if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > 0) {
+                let baseSum = 0;
+                const startIdx = this.project.totalProjectCompleted || 0;
+                for (let i = startIdx; i < Math.min(this.project.customSegmentDurations.length, startIdx + tasks); i++) {
+                    baseSum += this.project.customSegmentDurations[i] || 0;
+                }
+                duration = Math.round(baseSum * (this.project.paceMultiplier || 1.25));
+            } else {
+                duration = tasks * pace;
+            }
         } else {
             duration = parseDurationToSeconds(this.stintDurationRaw) || 10800;
-            tasks = Math.min(remainingTasks, Math.floor(duration / pace));
+            if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > 0) {
+                const mult = this.project.paceMultiplier || 1.25;
+                const startIdx = this.project.totalProjectCompleted || 0;
+                let accumulatedSecs = 0;
+                let count = 0;
+                for (let i = startIdx; i < this.project.customSegmentDurations.length; i++) {
+                    const taskDur = Math.round((this.project.customSegmentDurations[i] || 0) * mult);
+                    if (accumulatedSecs + taskDur <= duration) {
+                        accumulatedSecs += taskDur;
+                        count++;
+                    } else {
+                        break;
+                    }
+                }
+                tasks = Math.max(1, count);
+            } else {
+                tasks = Math.min(remainingTasks, Math.floor(duration / pace));
+            }
         }
 
         tasks = Math.max(1, tasks);
@@ -411,11 +473,18 @@ export class ProjectModal extends Modal {
 
         this.plugin.stopSession();
 
+        // First task's duration
+        let firstDuration = pace;
+        if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > (this.project.totalProjectCompleted || 0)) {
+            const firstBase = this.project.customSegmentDurations[this.project.totalProjectCompleted || 0] || 60;
+            firstDuration = Math.max(1, Math.round(firstBase * (this.project.paceMultiplier || 1.25)));
+        }
+
         const baseSession: PacingSessionState = {
             mode: "segmented",
             title: "G",
-            initialSegmentDuration: pace,
-            targetSegmentDuration: pace,
+            initialSegmentDuration: firstDuration,
+            targetSegmentDuration: firstDuration,
             totalSegments: tasks,
             defaultTotalTime: duration,
             completedSegments: 0,
@@ -426,7 +495,7 @@ export class ProjectModal extends Modal {
             isFinished: false,
             lastTickTime: Date.now(),
 
-            segmentedVaultThreshold: Math.max(60, pace * 3),
+            segmentedVaultThreshold: Math.max(60, firstDuration * 3),
             segmentedCountUp: true,
             currentQuota: tasks,
             maxTargetSegments: remainingTasks,
@@ -434,6 +503,10 @@ export class ProjectModal extends Modal {
             benchmarkPace: this.project.benchmarkPace || 60,
             hardStopTotalSeconds: duration,
             earlyFinishBanked: 0,
+
+            // Custom timings
+            customSegmentDurations: this.project.customSegmentDurations,
+            paceMultiplier: this.project.paceMultiplier || 1.25,
 
             // Linked project metadata
             projectId: this.project.id,
@@ -459,8 +532,10 @@ export class ProjectModal extends Modal {
         this.close();
     }
 
-    // Calls the unified plugin method so button and Command+Space behave identically
     async bankAndEndStint() {
+        const s = this.plugin.session;
+        if (!s || s.projectId !== this.project.id) return;
+
         await this.plugin.bankActiveStint();
         this.render();
     }
