@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- A particular case, often derived from a general expression by substituting values for one or more parameters.
+- The axis used in polar coordinates (from which the angle coordinate is measured).
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

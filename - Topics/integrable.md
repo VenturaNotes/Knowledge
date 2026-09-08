@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- A particular case, often derived from a general expression by substituting values for one or more parameters.
+- A function that has an integral within a given theory of integration, e.g. Riemann integrable or Lebesgue integrable.
+
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

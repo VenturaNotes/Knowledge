@@ -2752,59 +2752,73 @@ Year: 2021-09-01
 130. [[increment]]
 
 131. indefinite integral
-132. independent
-133. independent events
-134. independent random variables
+	1. See integral
+132. [[independent]]
+133. [[independent events]]
+134. [[independent random variables]]
 135. independent variable(in regression)
+	1. A synonym for EXPLANATORY VARIABLE. Compare DEPENDENT VARIABLE (STATISTICS).
 136. independent variable
-137. indeterminate
-138. indeterminate equations
-139. indeterminate form
-140. index
+	1. See DIFFERENTIAL EQUATION, FUNCTION.
+137. [[indeterminate]]
+138. [[indeterminate equations]]
+139. [[indeterminate form]]
+140. [[index]]
 
-141. index(statistics)
-142. index(group theory)
-143. index(permutations)
-144. index(vector fields)
-145. index set
-146. induce
+141. 
+142. 
+143. 
+144. 
+145. [[index set]]
+146. [[induce]]
 147. induction
-148. inequality
-149. inertia
+	1. See mathematical induction
+148. [[inequality]]
+149. [[inertia]]
 150. inertial frame of reference
+	1. See frame of reference
 
-151. inertia matrix
+151. [[inertia matrix]]
 152. inf
-153. inference
+	1. Abbreviation for *infimum.
+153. [[inference]]
 154. infimum
-155. infinite
-156. infinite product
+	1. (infima) See bound
+155. [[infinite]]
+156. [[infinite product]]
 157. infinite sequence
+	1. See sequence
 158. infinite series
-159. infinite set
-160. infinitesimal
+	1. See series
+159. [[infinite set]]
+160. [[infinitesimal]]
 
-161. infinity
+161. [[infinity]]
 162. inflection
-163. information
+	1. (inflexion) See point of inflexion
+163. [[information]]
 164. inhomogeneous
-165. initialize
-166. initial line
-167. initial value problem
-168. injection
-169. inner product
+	1. Not homogeneous
+165. [[initialize]]
+166. [[initial line]]
+167. [[initial value problem]]
+168. injection (injective mapping)
+	1. A synonym for one-to-one mapping
+169. [[inner product]]
 170. input
+	1. See function
 
 171. inscribed circle(of a triangle)
-172. insoluble
-173. instance
-174. integer part
-175. integer programming
-176. integrable
-177. integrable system
-178. integral
-179. integral calculus
-180. integral domain
+	1. A synonym for incircle
+172. [[insoluble]]
+173. [[instance]]
+174. [[integer part]]
+175. [[integer programming]]
+176. [[integrable]]
+177. [[integrable system]]
+178. [[integral]]
+179. [[integral calculus]]
+180. [[integral domain]]
 
 181. integral equation
 182. integral test

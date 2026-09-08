@@ -4,6 +4,111 @@ import { SavedSessionRecord, PacingSessionState } from '../types';
 import { parseDurationToSeconds, formatHumanReadableDuration, formatPacingTime, formatTime, getFinishedTimeStr } from '../utils';
 import { AdjustSessionModal } from './AdjustSessionModal';
 
+// Helper to parse positive and negative countdown inputs (e.g. '15m', '03:00', '-5m', '-02:30')
+export function parseDurationWithSign(input: string): number {
+    if (!input) return 0;
+    const trimmed = input.trim().toLowerCase();
+    const isNeg = trimmed.startsWith("-");
+    const clean = isNeg ? trimmed.slice(1).trim() : trimmed;
+    const val = parseDurationToSeconds(clean);
+    return isNeg ? -val : val;
+}
+
+export class AdjustTaskCountdownModal extends Modal {
+    plugin: PacingTimerPlugin;
+    onDone: () => void;
+    countdownInputRaw: string = "";
+
+    constructor(app: App, plugin: PacingTimerPlugin, onDone: () => void) {
+        super(app);
+        this.plugin = plugin;
+        this.onDone = onDone;
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.empty();
+        contentEl.createEl("h3", { text: "⏱️ Adjust Current Task Countdown" });
+
+        const s = this.plugin.session;
+        if (!s) {
+            contentEl.createEl("p", { text: "No active session to adjust." });
+            return;
+        }
+
+        const currentRemaining = s.targetSegmentDuration - s.segmentTimeElapsed;
+        const currentRemainingStr = currentRemaining >= 0 ? formatTime(currentRemaining) : `-${formatTime(Math.abs(currentRemaining))}`;
+
+        const infoCard = contentEl.createDiv();
+        Object.assign(infoCard.style, {
+            padding: "8px 12px",
+            borderRadius: "6px",
+            background: "var(--background-secondary)",
+            border: "1px solid var(--background-modifier-border)",
+            fontSize: "0.85em",
+            marginBottom: "14px",
+            color: "var(--text-muted)",
+            lineHeight: "1.5"
+        });
+
+        infoCard.innerHTML = `
+            <b>Task Target:</b> ${formatTime(s.targetSegmentDuration)}<br>
+            <b>Current Displayed Countdown:</b> <span style="font-weight: bold; color: ${currentRemaining >= 0 ? "#eab308" : "#ef4444"};">${currentRemainingStr}</span>
+        `;
+
+        new Setting(contentEl)
+            .setName("Set Countdown [S:...] To")
+            .setDesc("Enter what the remaining countdown should show (e.g. '15:00', '3m', '45s', or '-2m' if in overtime).")
+            .addText(text => {
+                text.setValue(currentRemainingStr).onChange(v => this.countdownInputRaw = v);
+                setTimeout(() => text.inputEl.focus(), 10);
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") {
+                        e.preventDefault();
+                        this.applyCountdown();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText("Set Countdown")
+                .setCta()
+                .onClick(() => this.applyCountdown())
+            );
+    }
+
+    applyCountdown() {
+        const s = this.plugin.session;
+        if (!s) {
+            this.close();
+            return;
+        }
+
+        const newRemaining = parseDurationWithSign(this.countdownInputRaw);
+        // segmentTimeElapsed = target - remaining
+        const newElapsed = Math.max(0, s.targetSegmentDuration - newRemaining);
+        const diff = newElapsed - s.segmentTimeElapsed;
+
+        s.segmentTimeElapsed = newElapsed;
+        s.globalTimeElapsed = Math.max(0, s.globalTimeElapsed + diff);
+        s.lastTickTime = Date.now();
+
+        this.plugin.updateStatusBar();
+        this.plugin.saveSettings();
+
+        const formatted = newRemaining >= 0 ? formatTime(newRemaining) : `-${formatTime(Math.abs(newRemaining))}`;
+        this.plugin.showOverlay(`⏱️ Task Countdown Set to: ${formatted}`, true);
+
+        this.onDone();
+        this.close();
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
+
 export class ProjectModal extends Modal {
     plugin: PacingTimerPlugin;
     project: SavedSessionRecord;
@@ -70,6 +175,7 @@ export class ProjectModal extends Modal {
             lineHeight: "1.6"
         });
 
+        // Live sync: include today's in-progress stint tasks in the macro count
         const stintDone = (isStintActive && this.plugin.session) ? (this.plugin.session.completedSegments || 0) : 0;
         const completed = (this.project.totalProjectCompleted || 0) + stintDone;
         const totalGoal = this.project.totalProjectGoal || 100;
@@ -119,12 +225,12 @@ export class ProjectModal extends Modal {
             `;
 
             const btnRow = contentEl.createDiv();
-            Object.assign(btnRow.style, { display: "flex", gap: "8px", justifyContent: "flex-end" });
+            Object.assign(btnRow.style, { display: "flex", gap: "8px", justifyContent: "flex-end", flexWrap: "wrap" });
 
             const cancelBtn = btnRow.createEl("button", {
                 text: "🚫 Cancel Stint",
                 attr: {
-                    style: "padding: 6px 14px; cursor: pointer; font-size: 0.88em; border-radius: 4px; border: 1px solid var(--text-error, #ef4444); background: rgba(239, 68, 68, 0.12); color: var(--text-error, #ef4444);"
+                    style: "padding: 6px 12px; cursor: pointer; font-size: 0.88em; border-radius: 4px; border: 1px solid var(--text-error, #ef4444); background: rgba(239, 68, 68, 0.12); color: var(--text-error, #ef4444);"
                 }
             });
             cancelBtn.onmouseenter = () => {
@@ -141,6 +247,18 @@ export class ProjectModal extends Modal {
                 }
             };
 
+            // ADJUST TASK COUNTDOWN BUTTON
+            const adjustCountdownBtn = btnRow.createEl("button", {
+                text: "⏱️ Adjust Countdown",
+                attr: {
+                    title: "Set what the current task countdown [S:...] should show",
+                    style: "padding: 6px 12px; cursor: pointer; font-size: 0.88em; border-radius: 4px; border: 1px solid var(--background-modifier-border); background: var(--background-secondary); color: var(--text-normal);"
+                }
+            });
+            adjustCountdownBtn.onclick = () => {
+                new AdjustTaskCountdownModal(this.app, this.plugin, () => this.render()).open();
+            };
+
             const adjustBtn = btnRow.createEl("button", {
                 text: "⚙️ Adjust Stint",
                 attr: { style: "padding: 6px 12px; cursor: pointer; font-size: 0.88em;" }
@@ -150,6 +268,7 @@ export class ProjectModal extends Modal {
                 new AdjustSessionModal(this.app, this.plugin).open();
             };
 
+            // BANK PROGRESS AND END STINT BUTTON
             const bankBtn = btnRow.createEl("button", {
                 text: "💾 Bank Progress & End Stint",
                 cls: "mod-cta",
@@ -340,34 +459,9 @@ export class ProjectModal extends Modal {
         this.close();
     }
 
+    // Calls the unified plugin method so button and Command+Space behave identically
     async bankAndEndStint() {
-        const s = this.plugin.session;
-        if (!s || s.projectId !== this.project.id) return;
-
-        const doneToday = s.completedSegments || 0;
-        
-        // CONSERVE ALL WORK: Includes time spent on completed segments + in-progress segment
-        const workTimeToday = (s.totalWorkTime || 0) + (s.segmentTimeElapsed || 0);
-
-        // Commit today's full effort permanently to data.json
-        this.project.totalProjectCompleted = (this.project.totalProjectCompleted || 0) + doneToday;
-        this.project.totalWorkTime = (this.project.totalWorkTime || 0) + workTimeToday;
-        if (this.project.totalProjectCompleted > 0) {
-            this.project.benchmarkPace = Math.max(1, Math.round(this.project.totalWorkTime / this.project.totalProjectCompleted));
-        }
-        this.project.savedAt = Date.now();
-
-        if (this.plugin.settings.savedSessions) {
-            this.plugin.settings.savedSessions[this.project.id] = this.project;
-        }
-
-        // Stop live timer
-        this.plugin.stopSession();
-        await this.plugin.saveSettings();
-
-        this.plugin.showOverlay(`💾 Stint Banked: +${doneToday} Tasks (${formatHumanReadableDuration(workTimeToday)} Invested)!`, true);
-
-        // Refresh modal so user sees updated project progress immediately
+        await this.plugin.bankActiveStint();
         this.render();
     }
 

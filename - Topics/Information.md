@@ -15,9 +15,12 @@
 - n. 
 - (1) Knowledge acquired by learning (2). 
 - (2) In information theory, a numerical quantity indicating the degree of uncertainty in a signal, such that if the signal occurs with probability $p$, then the information that it conveys, symbolized by $H$, is equal to $\log _{2}$ $(1 / p)$, the units of measurement being binary digits or bits. See also byte, INFORMATION TECHNOLOGY, INFORMATION THEORY, NYBBLE. \[From Latin informare to give form or shape to, from in into + formare to form, from forma a form or shape + -ation indicating a process or condition]
+## Source[^5]
+- The information associated with an event $E$ is $-\log_2 \text{Pr}(E)$, and the unit of information is a bit. So the information in a fair coin toss is 1 bit and in a fair die roll is $\log_2 6$ bits (which is between 2 and 3 bits). Note that the information relating to two independent events is equal to the sum of the separate events’ information.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(1) 1.2.1 What is Information.]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -5,8 +5,8 @@ import { PacingSetupModal } from './ui/PacingSetupModal';
 import { SaveSessionModal } from './ui/SaveSessionModal';
 import { SavedSessionsModal } from './ui/SavedSessionsModal';
 import { AdjustSessionModal } from './ui/AdjustSessionModal';
-import { ProjectModal } from './ui/ProjectModal';
-import { getCurrentTimeStr } from './utils';
+import { ProjectModal, AdjustTaskCountdownModal } from './ui/ProjectModal';
+import { getCurrentTimeStr, formatHumanReadableDuration } from './utils';
 
 class PacingTimerSettingTab extends PluginSettingTab {
     plugin: PacingTimerPlugin;
@@ -20,6 +20,7 @@ class PacingTimerSettingTab extends PluginSettingTab {
             .onChange(async (value) => {
                 this.plugin.settings.showCurrentTime = value;
                 await this.plugin.saveSettings();
+                this.plugin.startInterval(); // Ensure heartbeat loop is active
                 this.plugin.updateStatusBar();
             })
         );
@@ -80,10 +81,26 @@ export default class PacingTimerPlugin extends Plugin {
             id: 'pacing-timer-active-project',
             name: 'Open Active Project Dashboard',
             checkCallback: (checking: boolean) => {
-                if (this.session && this.session.projectId && this.settings.savedSessions?.[this.session.projectId]) {
+                const pid = this.session?.projectId;
+                const proj = pid && this.settings.savedSessions ? this.settings.savedSessions[pid] : null;
+                if (proj) {
                     if (!checking) {
-                        const proj = this.settings.savedSessions[this.session.projectId]!;
                         new ProjectModal(this.app, this, proj).open();
+                    }
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        // Adjust Current Task Countdown directly via command palette
+        this.addCommand({
+            id: 'pacing-timer-adjust-countdown',
+            name: 'Adjust Current Task Countdown',
+            checkCallback: (checking: boolean) => {
+                if (this.session) {
+                    if (!checking) {
+                        new AdjustTaskCountdownModal(this.app, this, () => {}).open();
                     }
                     return true;
                 }
@@ -109,7 +126,7 @@ export default class PacingTimerPlugin extends Plugin {
             }
         });
 
-        // Save Current Session As Project
+        // Save Current Session to Library
         this.addCommand({
             id: 'pacing-timer-save-session',
             name: 'Save Current Session to Library...',
@@ -138,6 +155,7 @@ export default class PacingTimerPlugin extends Plugin {
         this.addCommand({ id: "pacing-timer-pause", name: "Pause/Resume Session", hotkeys: [{ modifiers: ["Ctrl", "Meta"], key: "c" }], checkCallback: (c) => {
             if (this.session) { if (!c) this.togglePause(); return true; } return false;
         }});
+
         this.addCommand({ id: "pacing-timer-complete", name: "Complete Segment / Reset", checkCallback: (c) => {
             if (this.session) { if (!c) this.triggerGlobalComplete(); return true; } return false;
         }});
@@ -218,7 +236,7 @@ export default class PacingTimerPlugin extends Plugin {
             if (now - this.lastSetupIPCExecutionTime < 150) return;
             this.lastSetupNativeExecutionTime = now;
         } else {
-            if (now - this.lastSetupNativeExecutionTime < 500 || now - this.lastSetupIPCExecutionTime < 150) return;
+            if (now - this.lastSetupNativeExecutionTime < 500 || now - this.lastIPCExecutionTime < 150) return;
             this.lastSetupIPCExecutionTime = now;
         }
 
@@ -250,7 +268,37 @@ export default class PacingTimerPlugin extends Plugin {
         this.updateStatusBar();
     }
 
-    public triggerGlobalComplete() {
+    public async bankActiveStint(): Promise<boolean> {
+        if (!this.session || !this.session.projectId) return false;
+        const projectId = this.session.projectId;
+        
+        if (!this.settings.savedSessions) {
+            this.settings.savedSessions = {};
+        }
+
+        const project = this.settings.savedSessions[projectId];
+        if (!project) return false;
+
+        const doneToday = this.session.completedSegments || 0;
+        const workTimeToday = (this.session.totalWorkTime || 0) + (this.session.segmentTimeElapsed || 0);
+
+        project.totalProjectCompleted = (project.totalProjectCompleted || 0) + doneToday;
+        project.totalWorkTime = (project.totalWorkTime || 0) + workTimeToday;
+        if (project.totalProjectCompleted > 0) {
+            project.benchmarkPace = Math.max(1, Math.round(project.totalWorkTime / project.totalProjectCompleted));
+        }
+        project.savedAt = Date.now();
+        this.settings.savedSessions[projectId] = project;
+
+        this.stopSession();
+        await this.saveSettings();
+
+        this.showOverlay(`💾 Stint Banked: +${doneToday} Tasks (${formatHumanReadableDuration(workTimeToday)} Invested)!`, true);
+        new ProjectModal(this.app, this, project).open();
+        return true;
+    }
+
+    public async triggerGlobalComplete() {
         if (!this.session) return;
 
         const stack = new Error().stack || '';
@@ -266,7 +314,11 @@ export default class PacingTimerPlugin extends Plugin {
         }
 
         if (this.session.isFinished) {
-            this.resetAndReopen();
+            if (this.session.projectId) {
+                await this.bankActiveStint();
+            } else {
+                this.resetAndReopen();
+            }
         } else if (this.session.isRunning) {
             ModeRegistry[this.session.mode]!.onComplete(this.session, this);
             this.updateStatusBar();
@@ -279,11 +331,15 @@ export default class PacingTimerPlugin extends Plugin {
         this.stopAlarmSequence();
     }
 
+    // Heartbeat loop: Always updates the status bar clock 24/7, but freezes task progress if not running or finished
     public startInterval() {
-        this.stopInterval();
+        if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
         this.timerId = window.setInterval(() => {
             this.updateStatusBar();
-            if (!this.session || !this.session.isRunning) return;
+
+            // Guard: task seconds only advance if active, running, and not finished
+            if (!this.session || !this.session.isRunning || this.session.isFinished) return;
+
             const now = Date.now();
             const deltaSeconds = Math.floor((now - this.session.lastTickTime) / 1000);
             if (deltaSeconds >= 1) {

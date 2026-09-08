@@ -336,19 +336,19 @@ export const SegmentedMode: ModeHandler = {
             const projectFinished = totalProjectDone >= (session.projectGoal || 100);
             const timeRanOut = trueTimeLeft <= 0;
 
-            // In a project stint, NEVER stop prematurely at the baseline goal (5/5).
-            // Only stop if the stint time completely runs out or the ENTIRE project is finished!
+            // In a project stint, only mark finished if all project tasks are done or time ran out.
+            // Do NOT call plugin.stopInterval() so the status bar clock keeps ticking live!
             if (projectFinished || timeRanOut) {
                 session.isRunning = false;
                 session.isFinished = true;
-                plugin.stopInterval();
+                plugin.stopAlarmSequence();
             }
         } else {
             // Standalone session finish condition
             if (session.completedSegments >= (session.currentQuota || session.totalSegments)) {
                 session.isRunning = false;
                 session.isFinished = true;
-                plugin.stopInterval();
+                plugin.stopAlarmSequence();
             }
         }
     },
@@ -400,8 +400,16 @@ export const SegmentedMode: ModeHandler = {
                 // Display work time needed (if less than hard time left)
                 remainingDisplaySeconds = Math.min(hardTimeLeft, workTimeLeft);
             } else {
-                // Goal met! Display remaining hard stop time for bonus tasks
-                remainingDisplaySeconds = hardTimeLeft;
+                // Baseline goal met! Check if the entire macro project finishes before bonus time runs out:
+                const totalProjectDone = (session.projectCompletedInitial || 0) + session.completedSegments;
+                const projectTasksLeft = Math.max(0, (session.projectGoal || 100) - totalProjectDone);
+                const projectWorkTimeLeft = Math.max(
+                    0,
+                    projectTasksLeft * session.targetSegmentDuration - session.segmentTimeElapsed
+                );
+
+                // Display whichever comes first: the end of the entire project or the end of today's stint bonus time
+                remainingDisplaySeconds = Math.min(hardTimeLeft, projectWorkTimeLeft);
             }
         } else {
             const remainingTasks = Math.max(0, currentQuota - session.completedSegments);

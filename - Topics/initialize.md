@@ -13,7 +13,7 @@ aliases:
 - Summary
 	- Initialize means to set up object's state/attributes which happens after instantiation through `__init__()`
 ## Source [^1]
-- 
+- Set parameters or variables at the start of an algorithm.
 ## References
 
-[^1]: 
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- A particular case, often derived from a general expression by substituting values for one or more parameters.
+- One or more equations which have more than one solution.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

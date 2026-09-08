@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- A particular case, often derived from a general expression by substituting values for one or more parameters.
+- Usually a differential or partial differential equation together with specified initial conditions.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
