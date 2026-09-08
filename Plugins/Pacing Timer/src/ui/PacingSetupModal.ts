@@ -3,7 +3,6 @@ import PacingTimerPlugin from '../main';
 import { ModeRegistry } from '../modes';
 import { TimerMode } from '../types';
 import { findPluginHotkeys, mapKey } from '../utils';
-import { SavedSessionsModal } from './SavedSessionsModal';
 
 export class PacingSetupModal extends Modal {
     plugin: PacingTimerPlugin;
@@ -12,12 +11,23 @@ export class PacingSetupModal extends Modal {
     selectedMode: TimerMode;
     config: Record<string, any> = {};
     modeContainers: Record<string, HTMLDivElement> = {};
+    footerContainer: HTMLDivElement | null = null;
 
     constructor(app: App, plugin: PacingTimerPlugin, onSubmit: (config: any) => void) {
         super(app);
         this.plugin = plugin;
         this.onSubmit = onSubmit;
-        this.selectedMode = plugin.settings.cache.selectedMode || "segmented";
+
+        // 1. Prefer the currently running session's mode if active
+        // 2. Otherwise fall back to the last selected mode in cache (defaulting to "segmented")
+        if (plugin.session?.mode) {
+            this.selectedMode = plugin.session.mode;
+        } else if (plugin.settings.cache?.selectedMode) {
+            this.selectedMode = plugin.settings.cache.selectedMode;
+        } else {
+            this.selectedMode = "segmented";
+        }
+
         this.config.title = "G";
     }
 
@@ -25,9 +35,8 @@ export class PacingSetupModal extends Modal {
         this.plugin.activeModal = this;
         const { contentEl } = this;
         contentEl.empty();
-        Object.assign(contentEl.style, { display: "flex", flexDirection: "column", minHeight: "380px" });
+        Object.assign(contentEl.style, { display: "flex", flexDirection: "column", minHeight: "420px" });
 
-        // Header with "Saved Sessions" shortcut
         const headerRow = contentEl.createDiv();
         Object.assign(headerRow.style, {
             display: "flex",
@@ -37,16 +46,6 @@ export class PacingSetupModal extends Modal {
         });
         headerRow.createEl("h3", { text: "⏱️ Pacing Setup", attr: { style: "margin: 0;" } });
 
-        const savedBtn = headerRow.createEl("button", {
-            text: "📂 Saved Sessions",
-            attr: { style: "font-size: 0.82em; padding: 4px 10px; cursor: pointer;" }
-        });
-        savedBtn.onclick = () => {
-            this.close();
-            new SavedSessionsModal(this.app, this.plugin).open();
-        };
-
-        // Register Escape key to close modal
         this.scope.register([], "Escape", (evt) => {
             evt.preventDefault();
             this.close();
@@ -65,8 +64,13 @@ export class PacingSetupModal extends Modal {
         new Setting(formContainer).setName("Timer Mode").setDesc("Choose your focus tracking framework.")
             .addDropdown(dropdown => {
                 Object.values(ModeRegistry).forEach(h => dropdown.addOption(h.id, h.displayName));
-                dropdown.setValue(this.selectedMode).onChange(value => {
+                dropdown.setValue(this.selectedMode).onChange(async value => {
                     this.selectedMode = value as TimerMode;
+                    
+                    // Immediately persist your selection so it's remembered next time
+                    this.plugin.settings.cache.selectedMode = this.selectedMode;
+                    await this.plugin.saveSettings();
+
                     this.toggleSettingsContainers();
                 });
             });
@@ -78,13 +82,15 @@ export class PacingSetupModal extends Modal {
                 if (this.config.updatePreviewUI) this.config.updatePreviewUI();
             });
         }
+
+        this.footerContainer = contentEl.createDiv();
+        this.footerContainer.style.marginTop = "auto";
+        new Setting(this.footerContainer).addButton(btn => btn.setButtonText("Launch Engine").setCta().onClick(() => this.submitForm()));
+
         this.toggleSettingsContainers();
 
-        const footerContainer = contentEl.createDiv();
-        footerContainer.style.marginTop = "auto";
-        new Setting(footerContainer).addButton(btn => btn.setButtonText("Launch Engine").setCta().onClick(() => this.submitForm()));
-
         this.scope.register([], "Enter", (evt) => {
+            if (this.selectedMode === "segmented") return;
             const activeEl = document.activeElement;
             if (activeEl && (activeEl.tagName === "INPUT" || activeEl.tagName === "TEXTAREA")) {
                 return;
@@ -92,20 +98,32 @@ export class PacingSetupModal extends Modal {
             evt.preventDefault();
             this.submitForm();
         });
-        this.scope.register(["Meta"], "Enter", (evt) => { evt.preventDefault(); this.submitForm(); });
-        this.scope.register(["Ctrl"], "Enter", (evt) => { evt.preventDefault(); this.submitForm(); });
+        this.scope.register(["Meta"], "Enter", (evt) => { 
+            if (this.selectedMode === "segmented") return;
+            evt.preventDefault(); 
+            this.submitForm(); 
+        });
+        this.scope.register(["Ctrl"], "Enter", (evt) => { 
+            if (this.selectedMode === "segmented") return;
+            evt.preventDefault(); 
+            this.submitForm(); 
+        });
     }
 
     toggleSettingsContainers() {
         for (const [id, container] of Object.entries(this.modeContainers)) {
             container.style.display = id === this.selectedMode ? "block" : "none";
         }
+        if (this.footerContainer) {
+            this.footerContainer.style.display = this.selectedMode === "segmented" ? "none" : "block";
+        }
     }
 
-    submitForm() {
+    async submitForm() {
         this.config.mode = this.selectedMode;
         this.config.title = "G";
-        this.plugin.settings.cache = { selectedMode: this.selectedMode, rawTitle: "" };
+        this.plugin.settings.cache.selectedMode = this.selectedMode;
+        await this.plugin.saveSettings();
         
         for (const handler of Object.values(ModeRegistry)) {
             if (handler.saveSettings) handler.saveSettings(this.config, this.plugin.settings);

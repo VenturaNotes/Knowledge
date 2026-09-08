@@ -25,7 +25,7 @@ export interface PacingSessionState {
     benchmarkPace?: number;
     hardStopTotalSeconds?: number;
     earlyFinishBanked?: number;
-    targetFinishTimestamp?: number; // Static target wall-clock finish timestamp
+    targetFinishTimestamp?: number;
 
     // Variable / Custom Segment Durations
     customSegmentDurations?: number[];
@@ -120,6 +120,7 @@ export interface PacingTimerSettings {
     segmentedSegmentDurationRaw?: string;
     segmentedSegmentsRaw?: string;
     segmentedCountUp?: boolean;
+    lastOpenProjectId?: string | null;
 
     // Named Projects / Sessions
     savedSessions?: Record<string, SavedSessionRecord>;
@@ -142,6 +143,7 @@ export const DEFAULT_SETTINGS: PacingTimerSettings = {
     segmentedSegmentDurationRaw: "1m",
     segmentedSegmentsRaw: "10",
     segmentedCountUp: false,
+    lastOpenProjectId: null,
 
     savedSessions: {}
 };

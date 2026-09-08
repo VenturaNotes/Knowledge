@@ -1,4 +1,4 @@
-import { Setting, TextComponent } from "obsidian";
+import { Setting, Modal } from "obsidian";
 import { ModeHandler } from "./ModeHandler";
 import { 
     parseDurationToSeconds, 
@@ -6,185 +6,708 @@ import {
     formatDelta, 
     getFinishedTimeStr, 
     formatHumanReadableDuration, 
-    formatPacingTime 
+    formatPacingTime,
+    parsePlaylistInput 
 } from "../utils";
+import { SavedSessionRecord, PacingSessionState } from "../types";
+import PacingTimerPlugin from "../main";
+import { 
+    parseEndTimeToSeconds, 
+    EditProjectGoalModal, 
+    AdjustTaskCountdownModal 
+} from "../ui/ProjectModal";
+
+class CreateProjectModal extends Modal {
+    plugin: PacingTimerPlugin;
+    onCreated: (record: SavedSessionRecord) => void;
+
+    constructor(app: any, plugin: PacingTimerPlugin, onCreated: (record: SavedSessionRecord) => void) {
+        super(app);
+        this.plugin = plugin;
+        this.onCreated = onCreated;
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.empty();
+        contentEl.createEl("h3", { text: "📚 Create New Project" });
+
+        let name = "New Project";
+        let timingMode: "equal" | "custom" = "equal";
+        let goal = "100";
+        let pace = "1m15s";
+        let customInput = "";
+        let multiplier = "1.25";
+
+        new Setting(contentEl)
+            .setName("Project Name")
+            .addText(t => t.setValue(name).onChange(v => name = v));
+
+        const timingSetting = new Setting(contentEl)
+            .setName("Segment Timing Type")
+            .setDesc("Choose whether all tasks share equal duration, or if tasks have custom lengths (videos, chapters).")
+            .addDropdown(drop => drop
+                .addOption("equal", "Equal Duration Segments")
+                .addOption("custom", "Custom / Variable Segments (Paste Timestamps)")
+                .setValue(timingMode)
+                .onChange(v => {
+                    timingMode = v as "equal" | "custom";
+                    updateVisibility();
+                })
+            );
+
+        const equalGoalSetting = new Setting(contentEl)
+            .setName("Total Project Goal")
+            .setDesc("Total segments to complete (e.g. '100').")
+            .addText(t => t.setValue(goal).onChange(v => goal = v));
+
+        const equalPaceSetting = new Setting(contentEl)
+            .setName("Estimated Pace per Task")
+            .setDesc("Default segment duration (e.g. '1m', '45s').")
+            .addText(t => t.setValue(pace).onChange(v => pace = v));
+
+        const customAreaSetting = new Setting(contentEl)
+            .setName("Custom Timings / Table")
+            .setDesc("Paste timestamps, markdown tables, or comma-separated durations.")
+            .addTextArea(area => {
+                area.setPlaceholder("| 0:06:31 |\n| 0:12:01 |\n| 0:08:26 |")
+                    .setValue(customInput)
+                    .onChange(v => customInput = v);
+                area.inputEl.rows = 5;
+                area.inputEl.style.width = "100%";
+                area.inputEl.style.fontFamily = "monospace";
+            });
+
+        const customMultSetting = new Setting(contentEl)
+            .setName("Pacing Multiplier")
+            .setDesc("Time leeway multiplier (e.g. '1.25' = 1.25x task length).")
+            .addText(t => t.setValue(multiplier).onChange(v => multiplier = v));
+
+        const updateVisibility = () => {
+            const isCustom = timingMode === "custom";
+            equalGoalSetting.settingEl.style.display = isCustom ? "none" : "";
+            equalPaceSetting.settingEl.style.display = isCustom ? "none" : "";
+            customAreaSetting.settingEl.style.display = isCustom ? "" : "none";
+            customMultSetting.settingEl.style.display = isCustom ? "" : "none";
+        };
+        updateVisibility();
+
+        new Setting(contentEl).addButton(btn => btn.setButtonText("Create Project").setCta().onClick(async () => {
+            const id = Date.now().toString();
+
+            if (timingMode === "custom") {
+                const durations = parsePlaylistInput(customInput);
+                const safeDurations = durations.length > 0 ? durations : [600];
+                const totalGoal = safeDurations.length;
+                const totalBase = safeDurations.reduce((a, b) => a + b, 0);
+                const avgBase = Math.max(1, Math.round(totalBase / safeDurations.length));
+                const mult = Math.max(1.0, parseFloat(multiplier) || 1.25);
+                const firstBase = safeDurations[0] || 600;
+                const firstDuration = Math.max(1, Math.round(firstBase * mult));
+
+                const record: SavedSessionRecord = {
+                    id,
+                    name: name.trim() || "Untitled Project",
+                    savedAt: Date.now(),
+                    totalProjectGoal: totalGoal,
+                    totalProjectCompleted: 0,
+                    totalWorkTime: 0,
+                    benchmarkPace: avgBase,
+                    customSegmentDurations: safeDurations,
+                    paceMultiplier: mult,
+                    session: {
+                        mode: "segmented",
+                        title: "G",
+                        initialSegmentDuration: firstDuration,
+                        targetSegmentDuration: firstDuration,
+                        totalSegments: totalGoal,
+                        defaultTotalTime: 600,
+                        completedSegments: 0,
+                        cumulativeDelta: 0,
+                        globalTimeElapsed: 0,
+                        segmentTimeElapsed: 0,
+                        isRunning: false,
+                        isFinished: false,
+                        lastTickTime: Date.now(),
+                        maxTargetSegments: totalGoal,
+                        benchmarkPace: avgBase,
+                        customSegmentDurations: safeDurations,
+                        paceMultiplier: mult,
+                        rotationCategories: [],
+                        rotationIndex: 0,
+                        rotationCategoryElapsed: 0,
+                        rotationCategoryDuration: 0,
+                        rotationInInterrupt: false,
+                        rotationInterruptElapsed: 0
+                    }
+                };
+
+                if (!this.plugin.settings.savedSessions) this.plugin.settings.savedSessions = {};
+                this.plugin.settings.savedSessions[id] = record;
+                await this.plugin.saveSettings();
+                this.close();
+                this.onCreated(record);
+            } else {
+                const totalGoal = parseInt(goal, 10) || 100;
+                const paceSecs = Math.max(1, parseDurationToSeconds(pace) || 60);
+
+                const record: SavedSessionRecord = {
+                    id,
+                    name: name.trim() || "Untitled Project",
+                    savedAt: Date.now(),
+                    totalProjectGoal: totalGoal,
+                    totalProjectCompleted: 0,
+                    totalWorkTime: 0,
+                    benchmarkPace: paceSecs,
+                    session: {
+                        mode: "segmented",
+                        title: "G",
+                        initialSegmentDuration: paceSecs,
+                        targetSegmentDuration: paceSecs,
+                        totalSegments: totalGoal,
+                        defaultTotalTime: paceSecs * totalGoal,
+                        completedSegments: 0,
+                        cumulativeDelta: 0,
+                        globalTimeElapsed: 0,
+                        segmentTimeElapsed: 0,
+                        isRunning: false,
+                        isFinished: false,
+                        lastTickTime: Date.now(),
+                        maxTargetSegments: totalGoal,
+                        benchmarkPace: paceSecs,
+                        rotationCategories: [],
+                        rotationIndex: 0,
+                        rotationCategoryElapsed: 0,
+                        rotationCategoryDuration: 0,
+                        rotationInInterrupt: false,
+                        rotationInterruptElapsed: 0
+                    }
+                };
+
+                if (!this.plugin.settings.savedSessions) this.plugin.settings.savedSessions = {};
+                this.plugin.settings.savedSessions[id] = record;
+                await this.plugin.saveSettings();
+                this.close();
+                this.onCreated(record);
+            }
+        }));
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
 
 export const SegmentedMode: ModeHandler = {
     id: "segmented",
     displayName: "Classic Pacing",
+
     buildSettings(container, plugin, config, updatePreview) {
-        config.segmentedInputMode = config.segmentedInputMode ?? plugin.settings.segmentedInputMode ?? "total";
-        config.segmentedTotalTimeRaw = config.segmentedTotalTimeRaw ?? plugin.settings.segmentedTotalTimeRaw ?? "10m";
-        config.segmentedSegmentDurationRaw = config.segmentedSegmentDurationRaw ?? plugin.settings.segmentedSegmentDurationRaw ?? "1m";
-        config.segmentsRaw = config.segmentsRaw ?? plugin.settings.segmentedSegmentsRaw ?? "10";
-        config.segmentedCountUp = config.segmentedCountUp ?? plugin.settings.segmentedCountUp ?? false;
+        let activeProject: SavedSessionRecord | null = null;
+        let currentView: "library" | "dashboard" = "library";
 
-        let totalTimeComponent: TextComponent | null = null;
-        let segmentDurationComponent: TextComponent | null = null;
+        // Restore the last opened project dashboard if it still exists
+        const lastId = plugin.session?.projectId || plugin.settings.lastOpenProjectId;
+        if (lastId && plugin.settings.savedSessions?.[lastId]) {
+            activeProject = plugin.settings.savedSessions[lastId];
+            currentView = "dashboard";
+        }
 
-        new Setting(container)
-            .setName("Target Calculation")
-            .setDesc("Choose whether to divide total time into segments or multiply segment duration by segments.")
-            .addDropdown(dropdown => {
-                dropdown
-                    .addOption("total", "Total Session Time (Total ÷ Segments)")
-                    .addOption("segment", "Segment Duration (Segment × Segments)")
-                    .setValue(config.segmentedInputMode)
-                    .onChange(value => {
-                        const prevMode = config.segmentedInputMode;
-                        config.segmentedInputMode = value as "total" | "segment";
+        let stintTargetMode: "time" | "segments" | "endTime" = "time";
+        let stintDurationRaw = "3h";
+        let stintTasksRaw = "45";
+        let stintEndTimeRaw = getFinishedTimeStr(Date.now(), 10800);
+        let previewEl: HTMLElement | null = null;
 
-                        const segs = parseInt(config.segmentsRaw, 10);
-                        if (prevMode === "total" && config.segmentedInputMode === "segment") {
-                            const totalTime = parseDurationToSeconds(config.segmentedTotalTimeRaw);
-                            if (segs > 0 && totalTime > 0) {
-                                const segDuration = Math.max(1, Math.round(totalTime / segs));
-                                config.segmentedSegmentDurationRaw = formatHumanReadableDuration(segDuration);
-                                segmentDurationComponent?.setValue(config.segmentedSegmentDurationRaw);
-                            }
-                        } else if (prevMode === "segment" && config.segmentedInputMode === "total") {
-                            const segDuration = parseDurationToSeconds(config.segmentedSegmentDurationRaw);
-                            if (segs > 0 && segDuration > 0) {
-                                const totalTime = segs * segDuration;
-                                config.segmentedTotalTimeRaw = formatHumanReadableDuration(totalTime);
-                                totalTimeComponent?.setValue(config.segmentedTotalTimeRaw);
-                            }
-                        }
+        const render = () => {
+            container.empty();
 
-                        updateVisibility();
-                        updatePreview();
+            if (currentView === "dashboard" && activeProject) {
+                renderDashboard(activeProject);
+            } else {
+                renderLibrary();
+            }
+        };
+
+        const selectProject = async (item: SavedSessionRecord) => {
+            activeProject = item;
+            currentView = "dashboard";
+            plugin.settings.lastOpenProjectId = item.id;
+            await plugin.saveSettings();
+            render();
+        };
+
+        const renderLibrary = () => {
+            const headerRow = container.createDiv();
+            Object.assign(headerRow.style, {
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                marginBottom: "12px"
+            });
+
+            headerRow.createEl("span", {
+                text: "📚 Project Library",
+                attr: { style: "font-weight: 600; font-size: 1.05em;" }
+            });
+
+            const newBtn = headerRow.createEl("button", {
+                text: "+ New Project",
+                cls: "mod-cta",
+                attr: { style: "font-size: 0.82em; padding: 4px 12px; cursor: pointer;" }
+            });
+            newBtn.onclick = () => {
+                new CreateProjectModal(plugin.app, plugin, async (created) => {
+                    await selectProject(created);
+                }).open();
+            };
+
+            const projects = Object.values(plugin.settings.savedSessions || {})
+                .sort((a, b) => b.savedAt - a.savedAt);
+
+            if (projects.length === 0) {
+                container.createEl("p", {
+                    text: "No projects found. Click '+ New Project' above to create one.",
+                    attr: { style: "color: var(--text-muted); font-size: 0.9em; padding: 16px 0; text-align: center;" }
+                });
+                return;
+            }
+
+            const listContainer = container.createDiv();
+            Object.assign(listContainer.style, {
+                display: "flex",
+                flexDirection: "column",
+                gap: "8px",
+                maxHeight: "330px",
+                overflowY: "auto",
+                paddingRight: "4px"
+            });
+
+            projects.forEach(item => {
+                const card = listContainer.createDiv();
+                const isActive = Boolean(plugin.session && plugin.session.projectId === item.id);
+                const done = item.totalProjectCompleted || 0;
+                const goal = item.totalProjectGoal || 100;
+                const isCompleted = done >= goal;
+
+                Object.assign(card.style, {
+                    padding: "9px 12px",
+                    borderRadius: "6px",
+                    background: "var(--background-secondary)",
+                    border: isActive ? "1px solid var(--interactive-accent)" : "1px solid var(--background-modifier-border)",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    cursor: "pointer",
+                    transition: "border-color 0.15s ease"
+                });
+
+                card.onclick = () => selectProject(item);
+
+                const info = card.createDiv();
+                info.style.flexGrow = "1";
+
+                const titleRow = info.createDiv();
+                Object.assign(titleRow.style, { display: "flex", alignItems: "center", gap: "6px" });
+                titleRow.createSpan({ text: `📚 ${item.name}`, attr: { style: "font-weight: 600; font-size: 0.95em;" } });
+
+                if (isActive) {
+                    titleRow.createSpan({
+                        text: "🟢 Active",
+                        attr: { style: "background: var(--interactive-accent); color: var(--text-on-accent); padding: 1px 6px; border-radius: 8px; font-size: 0.7em; font-weight: bold;" }
                     });
-            });
+                } else if (isCompleted) {
+                    titleRow.createSpan({
+                        text: "✅ Completed",
+                        attr: { style: "background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.4); padding: 1px 6px; border-radius: 8px; font-size: 0.7em; font-weight: bold;" }
+                    });
+                }
 
-        const totalTimeSetting = new Setting(container)
-            .setName("Total Session Time")
-            .setDesc("Target window for entire session (e.g. '10m', '1.5h', '45:00').")
-            .addText(text => {
-                totalTimeComponent = text;
-                text.setValue(config.segmentedTotalTimeRaw).onChange(v => {
-                    config.segmentedTotalTimeRaw = v;
-                    updatePreview();
+                const meta = info.createDiv();
+                Object.assign(meta.style, { fontSize: "0.8em", color: "var(--text-muted)", marginTop: "2px" });
+
+                const pct = Math.round((done / goal) * 100);
+                const pace = Math.max(1, Math.round((item.benchmarkPace || 60) * 1.25));
+                const remaining = Math.max(0, goal - done);
+                const estRemainingTime = remaining * pace;
+
+                const finishLabel = isCompleted ? "Completed! 🎉" : `Est: ~${formatHumanReadableDuration(estRemainingTime)}`;
+                meta.textContent = `${done}/${goal} Tasks (${pct}%) • Est: ${finishLabel}`;
+
+                const openBtn = card.createEl("button", {
+                    text: "Open →",
+                    attr: { style: "font-size: 0.8em; padding: 3px 8px; cursor: pointer;" }
                 });
+                openBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    selectProject(item);
+                };
+            });
+        };
+
+        const renderDashboard = (project: SavedSessionRecord) => {
+            if (plugin.settings.savedSessions?.[project.id]) {
+                project = plugin.settings.savedSessions[project.id]!;
+            }
+
+            const isStintActive = Boolean(plugin.session && plugin.session.projectId === project.id);
+            const stintDone = (isStintActive && plugin.session) ? (plugin.session.completedSegments || 0) : 0;
+            const completed = (project.totalProjectCompleted || 0) + stintDone;
+            const totalGoal = project.totalProjectGoal || 100;
+            const isProjectCompleted = completed >= totalGoal;
+
+            // Navigation Row: Back button clears the saved project so it returns to the library next time
+            const topNav = container.createDiv();
+            Object.assign(topNav.style, {
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                marginBottom: "10px"
             });
 
-        const segmentDurationSetting = new Setting(container)
-            .setName("Segment Duration")
-            .setDesc("Target duration per segment (e.g. '1m', '90s', '5m').")
-            .addText(text => {
-                segmentDurationComponent = text;
-                text.setValue(config.segmentedSegmentDurationRaw).onChange(v => {
-                    config.segmentedSegmentDurationRaw = v;
-                    updatePreview();
+            const backBtn = topNav.createEl("button", {
+                text: "← Back to Projects",
+                attr: { style: "font-size: 0.8em; padding: 3px 9px; cursor: pointer;" }
+            });
+            backBtn.onclick = async () => {
+                currentView = "library";
+                activeProject = null;
+                plugin.settings.lastOpenProjectId = null;
+                await plugin.saveSettings();
+                render();
+            };
+
+            if (isStintActive) {
+                topNav.createSpan({
+                    text: "🟢 Stint Active",
+                    attr: { style: "background: var(--interactive-accent); color: var(--text-on-accent); padding: 1px 7px; border-radius: 10px; font-size: 0.74em; font-weight: bold;" }
                 });
-            });
-
-        new Setting(container)
-            .setName("Total Target Segments")
-            .setDesc("Initial dream goal for segments to complete.")
-            .addText(text => {
-                text.setValue(config.segmentsRaw).onChange(v => {
-                    config.segmentsRaw = v;
-                    updatePreview();
+            } else if (isProjectCompleted) {
+                topNav.createSpan({
+                    text: "✅ Completed",
+                    attr: { style: "background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.4); padding: 1px 7px; border-radius: 10px; font-size: 0.74em; font-weight: bold;" }
                 });
+            }
+
+            // Master Telemetry Card
+            const macroCard = container.createDiv();
+            Object.assign(macroCard.style, {
+                padding: "10px 12px",
+                borderRadius: "6px",
+                background: "var(--background-secondary)",
+                border: "1px solid var(--background-modifier-border)",
+                marginBottom: "12px",
+                fontSize: "0.88em",
+                lineHeight: "1.5"
             });
 
-        new Setting(container)
-            .setName("Count Up Completed Segments")
-            .setDesc("Display progress counting up instead of counting down remaining segments.")
-            .addToggle(toggle => {
-                toggle.setValue(config.segmentedCountUp).onChange(v => {
-                    config.segmentedCountUp = v;
+            const pct = Math.round((completed / totalGoal) * 100);
+            const paceWithLeeway = Math.max(1, Math.round((project.benchmarkPace || 60) * 1.25));
+            const remainingTasks = Math.max(0, totalGoal - completed);
+            const remainingProjectSeconds = remainingTasks * paceWithLeeway;
+            const pctColor = isProjectCompleted ? "#10b981" : "var(--text-accent)";
+            const finishLabel = isProjectCompleted ? "<span style='color: #10b981; font-weight: 600;'>Completed! 🎉</span>" : `~${formatHumanReadableDuration(remainingProjectSeconds)} remaining`;
+
+            const progRow = macroCard.createDiv();
+            Object.assign(progRow.style, { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "4px" });
+            
+            const progLeft = progRow.createDiv();
+            Object.assign(progLeft.style, { display: "flex", alignItems: "center", gap: "8px" });
+            progLeft.createSpan({ text: `Project: ${completed} / ${totalGoal} Tasks`, attr: { style: "font-weight: 600;" } });
+
+            const editGoalBtn = progLeft.createEl("button", {
+                text: "✏️ Edit Goal",
+                attr: { style: "font-size: 0.72em; padding: 1px 6px; cursor: pointer; border-radius: 3px; border: 1px solid var(--background-modifier-border); background: var(--background-primary); color: var(--text-muted);" }
+            });
+            editGoalBtn.onclick = () => {
+                new EditProjectGoalModal(plugin.app, plugin, project, () => render()).open();
+            };
+
+            progRow.createSpan({ text: `${pct}%`, attr: { style: `color: ${pctColor}; font-weight: bold;` } });
+
+            const metaDiv = macroCard.createDiv();
+            metaDiv.innerHTML = `⏱️ <b>Pacing:</b> ${formatHumanReadableDuration(paceWithLeeway).replace(/\s+/g, "")} per task • ⏳ <b>Finish:</b> ${finishLabel}`;
+
+            if (isStintActive && plugin.session) {
+                const s = plugin.session;
+                const stintCard = container.createDiv();
+                Object.assign(stintCard.style, {
+                    padding: "10px 12px",
+                    borderRadius: "6px",
+                    background: "var(--background-primary-alt)",
+                    border: "1px solid var(--interactive-accent)",
+                    marginBottom: "12px",
+                    fontSize: "0.88em",
+                    lineHeight: "1.5"
                 });
-            });
 
-        const previewEl = container.createEl("p", { cls: "pacing-calculation-preview" });
-        Object.assign(previewEl.style, { color: "var(--text-muted)", fontSize: "0.85em", marginTop: "10px", paddingLeft: "4px" });
+                const quota = s.currentQuota || s.stintInitialGoal || 10;
+                stintCard.innerHTML = `
+                    <div style="font-weight: 600; color: var(--text-accent); margin-bottom: 4px;">⏱️ Active Stint Progress</div>
+                    <div><b>Today:</b> ${stintDone} / ${quota} Tasks • <b>Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}</div>
+                `;
 
-        const updateVisibility = () => {
-            const isTotal = config.segmentedInputMode === "total";
-            totalTimeSetting.settingEl.style.display = isTotal ? "" : "none";
-            segmentDurationSetting.settingEl.style.display = isTotal ? "none" : "";
-            if (isTotal) {
-                setTimeout(() => totalTimeComponent?.inputEl.focus(), 10);
+                const btnRow = container.createDiv();
+                Object.assign(btnRow.style, { display: "flex", gap: "8px", justifyContent: "flex-end" });
+
+                const cancelBtn = btnRow.createEl("button", {
+                    text: "🚫 Cancel Stint",
+                    attr: { style: "padding: 5px 12px; cursor: pointer; font-size: 0.85em; border-radius: 4px; border: 1px solid var(--text-error, #ef4444); background: rgba(239, 68, 68, 0.12); color: var(--text-error, #ef4444);" }
+                });
+                cancelBtn.onclick = async () => {
+                    if (confirm(`Cancel active stint for "${project.name}"? Progress from this stint will not be banked.`)) {
+                        plugin.stopSession();
+                        await plugin.saveSettings();
+                        plugin.showOverlay("🚫 Stint Canceled", false);
+                        render();
+                    }
+                };
+
+                const adjustCountdownBtn = btnRow.createEl("button", {
+                    text: "⏱️ Adjust Countdown",
+                    attr: { style: "padding: 5px 10px; cursor: pointer; font-size: 0.85em;" }
+                });
+                adjustCountdownBtn.onclick = () => {
+                    new AdjustTaskCountdownModal(plugin.app, plugin, () => render()).open();
+                };
+
+                const bankBtn = btnRow.createEl("button", {
+                    text: "💾 Bank Progress & End Stint",
+                    cls: "mod-cta",
+                    attr: { style: "padding: 5px 12px; cursor: pointer; font-size: 0.85em;" }
+                });
+                bankBtn.onclick = async () => {
+                    await plugin.bankActiveStint();
+                    render();
+                };
+            } else if (isProjectCompleted) {
+                const completedCard = container.createDiv();
+                Object.assign(completedCard.style, {
+                    padding: "16px 14px",
+                    borderRadius: "6px",
+                    background: "rgba(16, 185, 129, 0.08)",
+                    border: "1px solid rgba(16, 185, 129, 0.35)",
+                    marginBottom: "12px",
+                    textAlign: "center",
+                    lineHeight: "1.5"
+                });
+
+                completedCard.createEl("h4", { text: "🎉 Project Completed!", attr: { style: "margin: 0 0 4px 0; color: #10b981;" } });
+                completedCard.createEl("p", {
+                    text: `All ${totalGoal} tasks for "${project.name}" have been completed (${completed} total). Stints cannot be launched for completed projects.`,
+                    attr: { style: "margin: 0; color: var(--text-muted); font-size: 0.88em;" }
+                });
+
+                const bottomRow = container.createDiv();
+                Object.assign(bottomRow.style, { display: "flex", justifyContent: "flex-start", marginTop: "12px" });
+
+                const deleteBtn = bottomRow.createEl("button", {
+                    text: "🗑 Delete Project",
+                    attr: { style: "padding: 5px 12px; font-size: 0.85em; cursor: pointer; border-radius: 4px; border: 1px solid var(--text-error, #ef4444); background: rgba(239, 68, 68, 0.12); color: var(--text-error, #ef4444);" }
+                });
+                deleteBtn.onclick = async () => {
+                    if (confirm(`Delete project "${project.name}" permanently?`)) {
+                        delete plugin.settings.savedSessions![project.id];
+                        plugin.settings.lastOpenProjectId = null;
+                        await plugin.saveSettings();
+                        currentView = "library";
+                        activeProject = null;
+                        render();
+                    }
+                };
             } else {
-                setTimeout(() => segmentDurationComponent?.inputEl.focus(), 10);
+                container.createEl("h4", { text: "🚀 Launch Today's Stint", attr: { style: "margin: 6px 0 10px 0;" } });
+
+                new Setting(container)
+                    .setName("Target Method")
+                    .addDropdown(drop => drop
+                        .addOption("time", "Stint Time Target")
+                        .addOption("segments", "Stint Segment Target")
+                        .addOption("endTime", "Target Finish Time")
+                        .setValue(stintTargetMode)
+                        .onChange(v => {
+                            stintTargetMode = v as "time" | "segments" | "endTime";
+                            updateFormVisibility();
+                            updateStintPreview();
+                        })
+                    );
+
+                const timeSetting = new Setting(container)
+                    .setName("Stint Time Target")
+                    .addText(t => t.setValue(stintDurationRaw).onChange(v => { stintDurationRaw = v; updateStintPreview(); }));
+
+                const segmentSetting = new Setting(container)
+                    .setName("Stint Segment Target")
+                    .addText(t => t.setValue(stintTasksRaw).onChange(v => { stintTasksRaw = v; updateStintPreview(); }));
+
+                const endTimeSetting = new Setting(container)
+                    .setName("Target Finish Time")
+                    .addText(t => t.setValue(stintEndTimeRaw).onChange(v => { stintEndTimeRaw = v; updateStintPreview(); }));
+
+                const updateFormVisibility = () => {
+                    timeSetting.settingEl.style.display = stintTargetMode === "time" ? "" : "none";
+                    segmentSetting.settingEl.style.display = stintTargetMode === "segments" ? "" : "none";
+                    endTimeSetting.settingEl.style.display = stintTargetMode === "endTime" ? "" : "none";
+                };
+                updateFormVisibility();
+
+                previewEl = container.createEl("p");
+                Object.assign(previewEl.style, { color: "var(--text-muted)", fontSize: "0.85em", margin: "8px 0" });
+
+                const updateStintPreview = () => {
+                    if (!previewEl) return;
+                    const pace = Math.max(1, Math.round((project.benchmarkPace || 60) * 1.25));
+                    const remTasks = Math.max(0, (project.totalProjectGoal || 100) - (project.totalProjectCompleted || 0));
+
+                    let duration = 0;
+                    let tasks = 0;
+
+                    if (stintTargetMode === "segments") {
+                        const parsed = parseInt(stintTasksRaw, 10);
+                        tasks = parsed > 0 ? Math.min(remTasks, parsed) : Math.min(remTasks, 10);
+                        duration = tasks * pace;
+                    } else if (stintTargetMode === "endTime") {
+                        duration = parseEndTimeToSeconds(stintEndTimeRaw);
+                        tasks = Math.min(remTasks, Math.floor(duration / pace));
+                    } else {
+                        duration = parseDurationToSeconds(stintDurationRaw) || 10800;
+                        tasks = Math.min(remTasks, Math.floor(duration / pace));
+                    }
+
+                    if (duration <= 0) {
+                        previewEl.textContent = "🎯 Enter a future finish time (e.g. '3:14PM')...";
+                        return;
+                    }
+
+                    const finishStr = stintTargetMode === "endTime" 
+                        ? getFinishedTimeStr(Date.now() + duration * 1000, 0)
+                        : getFinishedTimeStr(Date.now(), duration);
+                    previewEl.textContent = `🎯 Today's Stint: ~${tasks} tasks budgeted in ${formatHumanReadableDuration(duration)} • Finish around ${finishStr}`;
+                };
+                updateStintPreview();
+
+                const bottomRow = container.createDiv();
+                Object.assign(bottomRow.style, { display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "12px" });
+
+                const deleteBtn = bottomRow.createEl("button", {
+                    text: "🗑 Delete Project",
+                    attr: { style: "padding: 5px 12px; font-size: 0.85em; cursor: pointer; border-radius: 4px; border: 1px solid var(--text-error, #ef4444); background: rgba(239, 68, 68, 0.12); color: var(--text-error, #ef4444);" }
+                });
+                deleteBtn.onclick = async () => {
+                    if (confirm(`Delete project "${project.name}" permanently?`)) {
+                        delete plugin.settings.savedSessions![project.id];
+                        plugin.settings.lastOpenProjectId = null;
+                        await plugin.saveSettings();
+                        currentView = "library";
+                        activeProject = null;
+                        render();
+                    }
+                };
+
+                const launchBtn = bottomRow.createEl("button", {
+                    text: "🚀 Start Stint",
+                    cls: "mod-cta",
+                    attr: { style: "padding: 5px 16px; font-size: 0.85em; cursor: pointer;" }
+                });
+                launchBtn.onclick = async () => {
+                    const pace = Math.max(1, Math.round((project.benchmarkPace || 60) * 1.25));
+                    const remTasks = Math.max(1, (project.totalProjectGoal || 100) - (project.totalProjectCompleted || 0));
+
+                    let duration = 0;
+                    let tasks = 0;
+
+                    if (stintTargetMode === "segments") {
+                        const parsed = parseInt(stintTasksRaw, 10);
+                        tasks = parsed > 0 ? Math.min(remTasks, parsed) : Math.min(remTasks, 10);
+                        duration = tasks * pace;
+                    } else if (stintTargetMode === "endTime") {
+                        duration = parseEndTimeToSeconds(stintEndTimeRaw);
+                        if (duration < 60) {
+                            plugin.showOverlay("⚠️ Please enter a future time (e.g. '3:14PM')", false);
+                            return;
+                        }
+                        tasks = Math.min(remTasks, Math.floor(duration / pace));
+                    } else {
+                        duration = parseDurationToSeconds(stintDurationRaw) || 10800;
+                        tasks = Math.min(remTasks, Math.floor(duration / pace));
+                    }
+
+                    tasks = Math.max(1, tasks);
+                    duration = Math.max(60, duration);
+
+                    plugin.stopSession();
+
+                    const targetFinishTimestamp = stintTargetMode === "endTime"
+                        ? Date.now() + duration * 1000
+                        : undefined;
+
+                    const baseSession: PacingSessionState = {
+                        mode: "segmented",
+                        title: "G",
+                        initialSegmentDuration: pace,
+                        targetSegmentDuration: pace,
+                        totalSegments: tasks,
+                        defaultTotalTime: duration,
+                        completedSegments: 0,
+                        cumulativeDelta: 0,
+                        globalTimeElapsed: 0,
+                        segmentTimeElapsed: 0,
+                        isRunning: true,
+                        isFinished: false,
+                        lastTickTime: Date.now(),
+                        segmentedVaultThreshold: Math.max(60, pace * 3),
+                        segmentedCountUp: true,
+                        currentQuota: tasks,
+                        maxTargetSegments: remTasks,
+                        totalWorkTime: 0,
+                        benchmarkPace: project.benchmarkPace || 60,
+                        hardStopTotalSeconds: duration,
+                        earlyFinishBanked: 0,
+                        targetFinishTimestamp,
+                        projectId: project.id,
+                        projectName: project.name,
+                        projectGoal: project.totalProjectGoal,
+                        projectCompletedInitial: project.totalProjectCompleted || 0,
+                        stintInitialGoal: tasks,
+                        rotationCategories: [],
+                        rotationIndex: 0,
+                        rotationCategoryElapsed: 0,
+                        rotationCategoryDuration: 0,
+                        rotationInInterrupt: false,
+                        rotationInterruptElapsed: 0
+                    };
+
+                    plugin.session = baseSession;
+                    plugin.settings.cache.selectedMode = "segmented";
+                    plugin.settings.lastOpenProjectId = project.id;
+                    plugin.updateStatusBar();
+                    plugin.startInterval();
+                    await plugin.saveSettings();
+
+                    plugin.showOverlay(`🚀 Stint Launched: ${tasks} Tasks for "${project.name}"!`, true);
+                    plugin.activeModal?.close();
+                };
             }
         };
 
-        config.updatePreviewUI = () => {
-            const segs = parseInt(config.segmentsRaw, 10);
-            let timeStr = "";
-            let segDuration = 60;
-
-            if (config.segmentedInputMode === "segment") {
-                segDuration = parseDurationToSeconds(config.segmentedSegmentDurationRaw) || 60;
-                if (segs > 0 && segDuration > 0) {
-                    const totalTime = segs * segDuration;
-                    const finishTime = getFinishedTimeStr(Date.now(), totalTime);
-                    timeStr = `🎯 Total session time: ${formatPacingTime(totalTime)} (${segs} segments × ${formatHumanReadableDuration(segDuration)}) • Finish by ${finishTime}`;
-                } else {
-                    timeStr = "🎯 Enter segment duration and segments to see target calculations...";
-                }
-            } else {
-                const totalTime = parseDurationToSeconds(config.segmentedTotalTimeRaw);
-                if (segs > 0 && totalTime > 0) {
-                    segDuration = Math.round(totalTime / segs);
-                    const finishTime = getFinishedTimeStr(Date.now(), totalTime);
-                    timeStr = `🎯 Each segment will take: ${formatTime(segDuration)} (Total: ${formatPacingTime(totalTime)} • Finish by ${finishTime})`;
-                } else {
-                    timeStr = "🎯 Enter total time and segments to see target calculations...";
-                }
-            }
-
-            const autoThreshold = Math.max(60, segDuration * 3);
-            timeStr += `<br><span style="color: var(--text-accent); font-size: 0.9em;">⚡ Telemetry Active: Milestones auto-scaled to 3× segment timer (±${formatHumanReadableDuration(autoThreshold)})</span>`;
-
-            previewEl.innerHTML = timeStr;
-        };
-
-        updateVisibility();
-        config.updatePreviewUI();
-    },
-
-    saveSettings(config, settings) {
-        settings.segmentedInputMode = config.segmentedInputMode;
-        settings.segmentedTotalTimeRaw = config.segmentedTotalTimeRaw;
-        settings.segmentedSegmentDurationRaw = config.segmentedSegmentDurationRaw;
-        settings.segmentedSegmentsRaw = config.segmentsRaw;
-        settings.segmentedCountUp = config.segmentedCountUp;
+        render();
     },
 
     createSessionState(config) {
-        const segs = Math.max(1, parseInt(config.segmentsRaw, 10) || 10);
-        let duration = 60;
-        let totalTime = 600;
-
-        if (config.segmentedInputMode === "segment") {
-            duration = Math.max(1, parseDurationToSeconds(config.segmentedSegmentDurationRaw) || 60);
-            totalTime = duration * segs;
-        } else {
-            totalTime = parseDurationToSeconds(config.segmentedTotalTimeRaw) || 600;
-            duration = Math.max(1, Math.round(totalTime / segs));
-        }
-
-        const autoThreshold = Math.max(60, duration * 3);
-        const countUp = config.segmentedCountUp ?? false;
-
         return {
-            initialSegmentDuration: duration,
-            targetSegmentDuration: duration,
-            totalSegments: segs,
-            segmentedVaultThreshold: autoThreshold,
-            segmentedCountUp: countUp,
-            cumulativeDelta: 0,
+            mode: "segmented",
+            title: "G",
+            initialSegmentDuration: 60,
+            targetSegmentDuration: 60,
+            totalSegments: 10,
+            defaultTotalTime: 600,
             completedSegments: 0,
-            currentQuota: segs,
-            maxTargetSegments: segs,
-            totalWorkTime: 0,
-            benchmarkPace: duration,
-            hardStopTotalSeconds: totalTime,
-            earlyFinishBanked: 0,
-            targetFinishTimestamp: undefined
+            cumulativeDelta: 0,
+            globalTimeElapsed: 0,
+            segmentTimeElapsed: 0,
+            isRunning: true,
+            isFinished: false,
+            lastTickTime: Date.now()
         };
     },
 
@@ -211,20 +734,17 @@ export const SegmentedMode: ModeHandler = {
             : Math.max(0, hardStop - session.globalTimeElapsed);
 
         const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
-        
         const sessionAvg = session.completedSegments > 0 
             ? (session.totalWorkTime / session.completedSegments) 
             : currentBenchmark;
 
         const paceRatio = Math.round((sessionAvg / currentBenchmark) * 100);
 
-        // --- SURPLUS MILESTONE CHECK (+threshold) ---
         if (session.cumulativeDelta >= threshold) {
             const maxGoal = session.maxTargetSegments || session.totalSegments;
             const prevQuota = session.currentQuota || maxGoal;
             const isAtMax = prevQuota >= maxGoal;
 
-            // PRIORITY 1: GEAR SHIFT! (Pace proved <= 50% of benchmark)
             if (paceRatio <= 50) {
                 const newBenchmark = Math.max(1, Math.round(sessionAvg));
                 const newDuration = Math.max(1, Math.round(sessionAvg * 1.25));
@@ -257,29 +777,20 @@ export const SegmentedMode: ModeHandler = {
                     plugin.playVictoryChime();
                     plugin.showOverlay(`⚡ Gear Shift: ${paceStr} Pace, +${quotaDiff} Tasks`, true, "up");
                 }
-            }
-            // PRIORITY 2: EARLY CHECKOUT
-            else if (isAtMax) {
+            } else if (isAtMax) {
                 session.earlyFinishBanked = (session.earlyFinishBanked || 0) + threshold;
                 session.cumulativeDelta -= threshold;
-
                 const pullStr = formatHumanReadableDuration(threshold).replace(/\s+/g, "");
                 plugin.playVictoryChime();
                 plugin.showOverlay(`🏆 Max Quota: -${pullStr}`, true, "up");
-            }
-            // PRIORITY 3: RHYTHM RULE
-            else {
+            } else {
                 const earnedSegments = Math.max(1, Math.floor(threshold / session.targetSegmentDuration));
                 session.currentQuota = Math.min(maxGoal, (session.currentQuota || session.totalSegments) + earnedSegments);
                 session.cumulativeDelta -= threshold;
-
                 plugin.playVictoryChime();
                 plugin.showOverlay(`⭐ Rhythm Milestone: +${earnedSegments} Tasks`, true, "up");
             }
-        }
-
-        // --- DEFICIT CHECK ON COMPLETE (-threshold) ---
-        else if (session.cumulativeDelta <= -threshold) {
+        } else if (session.cumulativeDelta <= -threshold) {
             const prevQuota = session.currentQuota || session.maxTargetSegments || session.totalSegments;
             const actualAvg = session.totalWorkTime / session.completedSegments;
             
@@ -308,16 +819,6 @@ export const SegmentedMode: ModeHandler = {
             plugin.showOverlay(`🛟 Rescue: ${paceStr} Pace, ${quotaDiffSign}${quotaDiff} Tasks`, false, "down");
         }
 
-        // --- VARIABLE SEGMENT SEQUENCING ---
-        if (session.customSegmentDurations && session.completedSegments < session.customSegmentDurations.length) {
-            const nextBase = session.customSegmentDurations[session.completedSegments] || 60;
-            const mult = session.paceMultiplier || 1.25;
-            const nextDuration = Math.max(1, Math.round(nextBase * mult));
-            session.targetSegmentDuration = nextDuration;
-            session.initialSegmentDuration = nextDuration;
-        }
-
-        // --- FINISH CONDITION (TRIGGERS AFTER COMPLETING YOUR LAST SEGMENT) ---
         const isProjectStint = Boolean(session.projectId && session.projectGoal);
         if (isProjectStint) {
             const totalProjectDone = (session.projectCompletedInitial || 0) + session.completedSegments;
@@ -383,49 +884,21 @@ export const SegmentedMode: ModeHandler = {
             const tasksLeftToGoal = Math.max(0, baseGoal - session.completedSegments);
 
             if (tasksLeftToGoal > 0) {
-                let workTimeLeft = 0;
-                if (session.customSegmentDurations && session.customSegmentDurations.length > 0) {
-                    let baseSum = 0;
-                    const startIdx = session.completedSegments;
-                    const endIdx = Math.min(session.customSegmentDurations.length, startIdx + tasksLeftToGoal);
-                    for (let i = startIdx; i < endIdx; i++) {
-                        baseSum += session.customSegmentDurations[i] || 0;
-                    }
-                    const mult = session.paceMultiplier || 1.25;
-                    workTimeLeft = Math.max(0, Math.round(baseSum * mult) - session.segmentTimeElapsed);
-                } else {
-                    workTimeLeft = Math.max(0, tasksLeftToGoal * session.targetSegmentDuration - session.segmentTimeElapsed);
-                }
+                const workTimeLeft = Math.max(0, tasksLeftToGoal * session.targetSegmentDuration - session.segmentTimeElapsed);
                 effectiveWorkTimeLeft = workTimeLeft;
                 isWorkShorterThanHardTime = workTimeLeft < hardTimeLeft;
                 remainingDisplaySeconds = Math.min(hardTimeLeft, workTimeLeft);
             } else {
                 const totalProjectDone = (session.projectCompletedInitial || 0) + session.completedSegments;
                 const projectTasksLeft = Math.max(0, (session.projectGoal || 100) - totalProjectDone);
-                
-                let projectWorkTimeLeft = 0;
-                if (session.customSegmentDurations && session.customSegmentDurations.length > 0) {
-                    let baseSum = 0;
-                    const startIdx = totalProjectDone;
-                    for (let i = startIdx; i < session.customSegmentDurations.length; i++) {
-                        baseSum += session.customSegmentDurations[i] || 0;
-                    }
-                    const mult = session.paceMultiplier || 1.25;
-                    projectWorkTimeLeft = Math.max(0, Math.round(baseSum * mult) - session.segmentTimeElapsed);
-                } else {
-                    projectWorkTimeLeft = Math.max(0, projectTasksLeft * session.targetSegmentDuration - session.segmentTimeElapsed);
-                }
-
+                const projectWorkTimeLeft = Math.max(0, projectTasksLeft * session.targetSegmentDuration - session.segmentTimeElapsed);
                 effectiveWorkTimeLeft = projectWorkTimeLeft;
                 isWorkShorterThanHardTime = projectWorkTimeLeft < hardTimeLeft;
                 remainingDisplaySeconds = Math.min(hardTimeLeft, projectWorkTimeLeft);
             }
         } else {
             const remainingTasks = Math.max(0, currentQuota - session.completedSegments);
-            const workTimeLeft = Math.max(
-                0,
-                remainingTasks * session.targetSegmentDuration - session.segmentTimeElapsed
-            );
+            const workTimeLeft = Math.max(0, remainingTasks * session.targetSegmentDuration - session.segmentTimeElapsed);
             effectiveWorkTimeLeft = workTimeLeft;
             isWorkShorterThanHardTime = workTimeLeft < hardTimeLeft;
             remainingDisplaySeconds = Math.min(hardTimeLeft, workTimeLeft);
@@ -445,7 +918,6 @@ export const SegmentedMode: ModeHandler = {
         }
 
         const threshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
-
         const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
         const sessionAvg = session.completedSegments > 0 
             ? ((session.totalWorkTime || 0) / session.completedSegments) 

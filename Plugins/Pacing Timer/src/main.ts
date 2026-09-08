@@ -2,8 +2,6 @@ import { App, Plugin, PluginSettingTab, Setting } from 'obsidian';
 import { PacingSessionState, PacingTimerSettings, DEFAULT_SETTINGS, createBlankSession } from './types';
 import { ModeRegistry } from './modes';
 import { PacingSetupModal } from './ui/PacingSetupModal';
-import { SaveSessionModal } from './ui/SaveSessionModal';
-import { SavedSessionsModal } from './ui/SavedSessionsModal';
 import { ProjectModal, AdjustTaskCountdownModal } from './ui/ProjectModal';
 import { getCurrentTimeStr, formatHumanReadableDuration } from './utils';
 
@@ -64,14 +62,17 @@ export default class PacingTimerPlugin extends Plugin {
             }
         }});
 
+        // Project Library shortcut directly opens Setup modal on Classic Pacing
         this.addCommand({
             id: 'pacing-timer-project-library',
-            name: 'Open Project Library',
+            name: 'Open Project Library (Classic Pacing)',
             callback: () => {
-                new SavedSessionsModal(this.app, this).open();
+                this.settings.cache.selectedMode = "segmented";
+                this.handleCommandTrigger();
             }
         });
 
+        // Open Active Project Dashboard during a stint
         this.addCommand({
             id: 'pacing-timer-active-project',
             name: 'Open Active Project Dashboard',
@@ -113,18 +114,6 @@ export default class PacingTimerPlugin extends Plugin {
                             this.showOverlay("🚫 Stint Canceled", false);
                         }
                     }
-                    return true;
-                }
-                return false;
-            }
-        });
-
-        this.addCommand({
-            id: 'pacing-timer-save-session',
-            name: 'Save Current Session to Library...',
-            checkCallback: (checking: boolean) => {
-                if (this.session) {
-                    if (!checking) new SaveSessionModal(this.app, this).open();
                     return true;
                 }
                 return false;
