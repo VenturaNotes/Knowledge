@@ -83,6 +83,11 @@ export class SavedSessionsModal extends Modal {
             const info = card.createDiv();
             info.style.flexGrow = "1";
 
+            const done = item.totalProjectCompleted || 0;
+            const goal = item.totalProjectGoal || 100;
+            const pct = Math.round((done / goal) * 100);
+            const isCompleted = done >= goal;
+
             const titleRow = info.createDiv();
             Object.assign(titleRow.style, { display: "flex", alignItems: "center", gap: "8px" });
             titleRow.createEl("span", {
@@ -95,14 +100,16 @@ export class SavedSessionsModal extends Modal {
                     text: "🟢 Stint Active",
                     attr: { style: "background: var(--interactive-accent); color: var(--text-on-accent); padding: 1px 6px; border-radius: 8px; font-size: 0.72em; font-weight: bold;" }
                 });
+            } else if (isCompleted) {
+                titleRow.createEl("span", {
+                    text: "✅ Completed",
+                    attr: { style: "background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.4); padding: 1px 6px; border-radius: 8px; font-size: 0.72em; font-weight: bold;" }
+                });
             }
 
             const meta = info.createDiv();
             Object.assign(meta.style, { fontSize: "0.82em", color: "var(--text-muted)", marginTop: "3px" });
 
-            const done = item.totalProjectCompleted || 0;
-            const goal = item.totalProjectGoal || 100;
-            const pct = Math.round((done / goal) * 100);
             const pace = Math.max(1, Math.round((item.benchmarkPace || 60) * 1.25));
             const remaining = Math.max(0, goal - done);
             
@@ -118,7 +125,8 @@ export class SavedSessionsModal extends Modal {
             }
 
             const timingLabel = item.customSegmentDurations?.length ? "Custom Timings" : `Pace: ${formatHumanReadableDuration(pace).replace(/\s+/g, "")}`;
-            meta.textContent = `${done}/${goal} Tasks (${pct}%) • ${timingLabel} • Est: ~${formatHumanReadableDuration(estRemainingTime)}`;
+            const finishLabel = isCompleted ? "Completed! 🎉" : `Est: ~${formatHumanReadableDuration(estRemainingTime)}`;
+            meta.textContent = `${done}/${goal} Tasks (${pct}%) • ${timingLabel} • ${finishLabel}`;
 
             const btnGroup = card.createDiv();
             btnGroup.onclick = (e) => e.stopPropagation();
@@ -210,7 +218,6 @@ export class SavedSessionsModal extends Modal {
                 const avgBase = Math.max(1, Math.round(totalBase / safeDurations.length));
                 const mult = Math.max(1.0, parseFloat(multiplier) || 1.25);
                 
-                // Fallback prevents TS2532 undefined index error
                 const firstBase = safeDurations[0] || 600;
                 const firstDuration = Math.max(1, Math.round(firstBase * mult));
 

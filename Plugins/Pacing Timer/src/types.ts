@@ -25,6 +25,7 @@ export interface PacingSessionState {
     benchmarkPace?: number;
     hardStopTotalSeconds?: number;
     earlyFinishBanked?: number;
+    targetFinishTimestamp?: number; // Static target wall-clock finish timestamp
 
     // Variable / Custom Segment Durations
     customSegmentDurations?: number[];
@@ -74,6 +75,7 @@ export function createBlankSession(): PacingSessionState {
         benchmarkPace: 60,
         hardStopTotalSeconds: 600,
         earlyFinishBanked: 0,
+        targetFinishTimestamp: undefined,
 
         rotationCategories: [], 
         rotationIndex: 0, 

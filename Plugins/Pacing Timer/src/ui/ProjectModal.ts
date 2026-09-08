@@ -2,7 +2,6 @@ import { App, Modal, Setting } from 'obsidian';
 import PacingTimerPlugin from '../main';
 import { SavedSessionRecord, PacingSessionState } from '../types';
 import { parseDurationToSeconds, formatHumanReadableDuration, formatPacingTime, formatTime, getFinishedTimeStr } from '../utils';
-import { AdjustSessionModal } from './AdjustSessionModal';
 
 export function parseDurationWithSign(input: string): number {
     if (!input) return 0;
@@ -11,6 +10,50 @@ export function parseDurationWithSign(input: string): number {
     const clean = isNeg ? trimmed.slice(1).trim() : trimmed;
     const val = parseDurationToSeconds(clean);
     return isNeg ? -val : val;
+}
+
+export function parseEndTimeToSeconds(input: string, now: Date = new Date()): number {
+    if (!input) return 0;
+    const str = input.trim().toLowerCase();
+
+    const isPm = /pm|p\.m\./i.test(str);
+    const isAm = /am|a\.m\./i.test(str);
+    const clean = str.replace(/am|pm|a\.m\.|p\.m\./ig, '').trim();
+
+    let hours = 0;
+    let minutes = 0;
+
+    if (clean.includes(':')) {
+        const parts = clean.split(':').map(s => parseInt(s.trim(), 10));
+        hours = !isNaN(parts[0]!) ? parts[0]! : 0;
+        minutes = !isNaN(parts[1]!) ? parts[1]! : 0;
+    } else {
+        hours = parseInt(clean, 10) || 0;
+        minutes = 0;
+    }
+
+    if (isPm) {
+        if (hours < 12) hours += 12;
+    } else if (isAm) {
+        if (hours === 12) hours = 0;
+    }
+
+    const target = new Date(now.getTime());
+    target.setHours(hours, minutes, 0, 0);
+
+    let diffSecs = Math.round((target.getTime() - now.getTime()) / 1000);
+
+    if (!isAm && !isPm && diffSecs <= 0 && hours < 12) {
+        target.setHours(hours + 12, minutes, 0, 0);
+        diffSecs = Math.round((target.getTime() - now.getTime()) / 1000);
+    }
+
+    if (diffSecs <= 0) {
+        target.setDate(target.getDate() + 1);
+        diffSecs = Math.round((target.getTime() - now.getTime()) / 1000);
+    }
+
+    return Math.max(0, diffSecs);
 }
 
 export class AdjustTaskCountdownModal extends Modal {
@@ -107,13 +150,84 @@ export class AdjustTaskCountdownModal extends Modal {
     }
 }
 
+export class EditProjectGoalModal extends Modal {
+    plugin: PacingTimerPlugin;
+    project: SavedSessionRecord;
+    onUpdated: () => void;
+    goalInputRaw: string;
+
+    constructor(app: App, plugin: PacingTimerPlugin, project: SavedSessionRecord, onUpdated: () => void) {
+        super(app);
+        this.plugin = plugin;
+        this.project = project;
+        this.onUpdated = onUpdated;
+        this.goalInputRaw = (project.totalProjectGoal || 100).toString();
+    }
+
+    onOpen() {
+        const { contentEl } = this;
+        contentEl.empty();
+        contentEl.createEl("h3", { text: `🎯 Change Task Goal: ${this.project.name}` });
+
+        const completed = this.project.totalProjectCompleted || 0;
+
+        new Setting(contentEl)
+            .setName("Total Project Goal")
+            .setDesc(`Current progress: ${completed} tasks completed. Enter your desired total task quota:`)
+            .addText(text => {
+                text.setValue(this.goalInputRaw).onChange(v => this.goalInputRaw = v);
+                setTimeout(() => {
+                    text.inputEl.focus();
+                    text.inputEl.select();
+                }, 10);
+                text.inputEl.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") {
+                        e.preventDefault();
+                        this.save();
+                    }
+                });
+            });
+
+        new Setting(contentEl)
+            .addButton(btn => btn
+                .setButtonText("Update Goal")
+                .setCta()
+                .onClick(() => this.save())
+            );
+    }
+
+    async save() {
+        const val = parseInt(this.goalInputRaw, 10);
+        if (!isNaN(val) && val > 0) {
+            this.project.totalProjectGoal = val;
+            if (this.plugin.settings.savedSessions?.[this.project.id]) {
+                this.plugin.settings.savedSessions[this.project.id]!.totalProjectGoal = val;
+            }
+            if (this.plugin.session && this.plugin.session.projectId === this.project.id) {
+                this.plugin.session.projectGoal = val;
+                this.plugin.updateStatusBar();
+            }
+            await this.plugin.saveSettings();
+            this.onUpdated();
+            this.close();
+        } else {
+            alert("Please enter a valid positive number for the task goal.");
+        }
+    }
+
+    onClose() {
+        this.contentEl.empty();
+    }
+}
+
 export class ProjectModal extends Modal {
     plugin: PacingTimerPlugin;
     project: SavedSessionRecord;
 
-    stintTargetMode: "time" | "segments" = "time";
+    stintTargetMode: "time" | "segments" | "endTime" = "time";
     stintDurationRaw: string = "3h";
     stintTasksRaw: string = "45";
+    stintEndTimeRaw: string = "";
     previewEl: HTMLElement | null = null;
 
     constructor(app: App, plugin: PacingTimerPlugin, project: SavedSessionRecord) {
@@ -122,9 +236,10 @@ export class ProjectModal extends Modal {
         this.project = project;
 
         const pace = Math.max(1, Math.round((this.project.benchmarkPace || 60) * 1.25));
-        const remainingTasks = Math.max(1, (this.project.totalProjectGoal || 100) - (this.project.totalProjectCompleted || 0));
-        const estimatedTasks = Math.min(remainingTasks, Math.floor(10800 / pace));
-        this.stintTasksRaw = Math.max(1, estimatedTasks).toString();
+        const remainingTasks = Math.max(0, (this.project.totalProjectGoal || 100) - (this.project.totalProjectCompleted || 0));
+        const estimatedTasks = remainingTasks > 0 ? Math.min(remainingTasks, Math.floor(10800 / pace)) : 0;
+        this.stintTasksRaw = Math.max(1, estimatedTasks || 1).toString();
+        this.stintEndTimeRaw = getFinishedTimeStr(Date.now(), 10800);
     }
 
     onOpen() {
@@ -144,6 +259,11 @@ export class ProjectModal extends Modal {
             this.plugin.session.projectId === this.project.id
         );
 
+        const stintDone = (isStintActive && this.plugin.session) ? (this.plugin.session.completedSegments || 0) : 0;
+        const completed = (this.project.totalProjectCompleted || 0) + stintDone;
+        const totalGoal = this.project.totalProjectGoal || 100;
+        const isProjectCompleted = completed >= totalGoal;
+
         // Header
         const header = contentEl.createDiv();
         Object.assign(header.style, {
@@ -159,6 +279,11 @@ export class ProjectModal extends Modal {
                 text: "🟢 Stint Active",
                 attr: { style: "background: var(--interactive-accent); color: var(--text-on-accent); padding: 2px 8px; border-radius: 12px; font-size: 0.78em; font-weight: bold;" }
             });
+        } else if (isProjectCompleted) {
+            header.createEl("span", {
+                text: "✅ Completed",
+                attr: { style: "background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.4); padding: 2px 8px; border-radius: 12px; font-size: 0.78em; font-weight: bold;" }
+            });
         }
 
         // --- SECTION 1: MASTER PROJECT TELEMETRY (LIVE SYNCED) ---
@@ -173,9 +298,6 @@ export class ProjectModal extends Modal {
             lineHeight: "1.6"
         });
 
-        const stintDone = (isStintActive && this.plugin.session) ? (this.plugin.session.completedSegments || 0) : 0;
-        const completed = (this.project.totalProjectCompleted || 0) + stintDone;
-        const totalGoal = this.project.totalProjectGoal || 100;
         const pct = Math.round((completed / totalGoal) * 100);
         const paceWithLeeway = Math.max(1, Math.round((this.project.benchmarkPace || 60) * 1.25));
         const remainingTasks = Math.max(0, totalGoal - completed);
@@ -195,18 +317,58 @@ export class ProjectModal extends Modal {
             ? `Custom Timings (${this.project.paceMultiplier || 1.25}x)` 
             : `${formatHumanReadableDuration(paceWithLeeway).replace(/\s+/g, "")} per task`;
 
-        macroCard.innerHTML = `
-            <div style="display: flex; justify-content: space-between; font-weight: 600; font-size: 1.05em; margin-bottom: 4px;">
-                <span>Project Progress: ${completed} / ${totalGoal} Tasks</span>
-                <span style="color: var(--text-accent);">${pct}% Complete</span>
-            </div>
-            <div style="color: var(--text-muted);">
-                ⏱️ <b>Pacing:</b> ${paceLabel}<br>
-                ⏳ <b>Est. Total Project Finish:</b> ~${formatHumanReadableDuration(remainingProjectSeconds)} remaining
-            </div>
+        const finishLabel = isProjectCompleted
+            ? `<span style="color: #10b981; font-weight: 600;">Completed! 🎉</span>`
+            : `~${formatHumanReadableDuration(remainingProjectSeconds)} remaining`;
+
+        const pctColor = isProjectCompleted ? "#10b981" : "var(--text-accent)";
+
+        const progressRow = macroCard.createDiv();
+        Object.assign(progressRow.style, {
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            fontWeight: "600",
+            fontSize: "1.05em",
+            marginBottom: "4px",
+            flexWrap: "wrap",
+            gap: "6px"
+        });
+
+        const progressLeft = progressRow.createDiv();
+        Object.assign(progressLeft.style, {
+            display: "flex",
+            alignItems: "center",
+            gap: "8px"
+        });
+        progressLeft.createSpan({ text: `Project Progress: ${completed} / ${totalGoal} Tasks` });
+
+        const editGoalBtn = progressLeft.createEl("button", {
+            text: "✏️ Edit Goal",
+            attr: {
+                title: "Change total project task goal",
+                style: "font-size: 0.72em; padding: 2px 7px; cursor: pointer; border-radius: 4px; border: 1px solid var(--background-modifier-border); background: var(--background-primary); color: var(--text-muted); line-height: 1.2;"
+            }
+        });
+        editGoalBtn.onmouseenter = () => editGoalBtn.style.color = "var(--text-normal)";
+        editGoalBtn.onmouseleave = () => editGoalBtn.style.color = "var(--text-muted)";
+        editGoalBtn.onclick = () => {
+            new EditProjectGoalModal(this.app, this.plugin, this.project, () => this.render()).open();
+        };
+
+        progressRow.createSpan({
+            text: `${pct}% Complete`,
+            attr: { style: `color: ${pctColor};` }
+        });
+
+        const metaDiv = macroCard.createDiv();
+        Object.assign(metaDiv.style, { color: "var(--text-muted)" });
+        metaDiv.innerHTML = `
+            ⏱️ <b>Pacing:</b> ${paceLabel}<br>
+            ⏳ <b>Est. Total Project Finish:</b> ${finishLabel}
         `;
 
-        // --- SECTION 2: ACTIVE STINT OR STINT LAUNCHER ---
+        // --- SECTION 2: ACTIVE STINT OR COMPLETED STATE OR STINT LAUNCHER ---
         if (isStintActive && this.plugin.session) {
             const s = this.plugin.session;
             const stintCard = contentEl.createDiv();
@@ -224,6 +386,7 @@ export class ProjectModal extends Modal {
             const baseGoal = s.stintInitialGoal || quota;
             const goalMet = stintDone >= baseGoal;
             const goalTag = goalMet ? `⭐ Baseline Goal of ${baseGoal} Met!` : `Baseline Goal: ${baseGoal}`;
+            const finishTargetText = s.targetFinishTimestamp ? ` • <b>Target End:</b> ${getFinishedTimeStr(s.targetFinishTimestamp, 0)}` : "";
 
             stintCard.innerHTML = `
                 <div style="font-weight: 600; font-size: 1.05em; color: var(--text-accent); margin-bottom: 6px;">
@@ -231,7 +394,7 @@ export class ProjectModal extends Modal {
                 </div>
                 <div>
                     <b>Today's Work:</b> ${stintDone} / ${quota} Tasks <span style="color: ${goalMet ? "#eab308" : "var(--text-muted)"}; font-weight: ${goalMet ? "bold" : "normal"};">(${goalTag})</span><br>
-                    <b>Time Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}
+                    <b>Time Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}${finishTargetText}
                 </div>
             `;
 
@@ -269,15 +432,6 @@ export class ProjectModal extends Modal {
                 new AdjustTaskCountdownModal(this.app, this.plugin, () => this.render()).open();
             };
 
-            const adjustBtn = btnRow.createEl("button", {
-                text: "⚙️ Adjust Stint",
-                attr: { style: "padding: 6px 12px; cursor: pointer; font-size: 0.88em;" }
-            });
-            adjustBtn.onclick = () => {
-                this.close();
-                new AdjustSessionModal(this.app, this.plugin).open();
-            };
-
             const bankBtn = btnRow.createEl("button", {
                 text: "💾 Bank Progress & End Stint",
                 cls: "mod-cta",
@@ -286,19 +440,74 @@ export class ProjectModal extends Modal {
             bankBtn.onclick = async () => {
                 await this.bankAndEndStint();
             };
+        } else if (isProjectCompleted) {
+            // --- SECTION 2B: PROJECT FULLY COMPLETED ---
+            const completedCard = contentEl.createDiv();
+            Object.assign(completedCard.style, {
+                padding: "18px 16px",
+                borderRadius: "8px",
+                background: "rgba(16, 185, 129, 0.08)",
+                border: "1px solid rgba(16, 185, 129, 0.35)",
+                marginBottom: "16px",
+                textAlign: "center",
+                lineHeight: "1.6"
+            });
+
+            completedCard.createEl("h3", {
+                text: "🎉 Project Completed!",
+                attr: { style: "margin: 0 0 6px 0; color: #10b981;" }
+            });
+            completedCard.createEl("p", {
+                text: `All ${totalGoal} tasks for "${this.project.name}" have been finished (${completed} tasks total). New stints cannot be launched for this completed project.`,
+                attr: { style: "margin: 0; color: var(--text-muted); font-size: 0.9em;" }
+            });
+
+            const bottomRow = contentEl.createDiv();
+            Object.assign(bottomRow.style, { 
+                display: "flex", 
+                justifyContent: "space-between", 
+                alignItems: "center",
+                marginTop: "16px" 
+            });
+
+            const deleteBtn = bottomRow.createEl("button", {
+                text: "🗑 Delete Project",
+                attr: { 
+                    style: "padding: 6px 14px; font-size: 0.88em; cursor: pointer; border-radius: 4px; border: 1px solid var(--text-error, #ef4444); background: rgba(239, 68, 68, 0.12); color: var(--text-error, #ef4444); transition: background 0.15s ease, color 0.15s ease;" 
+                }
+            });
+            deleteBtn.onmouseenter = () => {
+                deleteBtn.style.background = "var(--text-error, #ef4444)";
+                deleteBtn.style.color = "#ffffff";
+            };
+            deleteBtn.onmouseleave = () => {
+                deleteBtn.style.background = "rgba(239, 68, 68, 0.12)";
+                deleteBtn.style.color = "var(--text-error, #ef4444)";
+            };
+            deleteBtn.onclick = async () => {
+                if (confirm(`Delete project "${this.project.name}" permanently?`)) {
+                    if (this.plugin.settings.savedSessions) {
+                        delete this.plugin.settings.savedSessions[this.project.id];
+                        await this.plugin.saveSettings();
+                    }
+                    this.close();
+                }
+            };
         } else {
+            // --- SECTION 2C: STANDARD LAUNCH TODAY'S STINT ---
             contentEl.createEl("h4", { text: "🚀 Launch Today's Stint", attr: { style: "margin: 8px 0;" } });
 
             new Setting(contentEl)
                 .setName("Target Method")
-                .setDesc("Choose whether to set a dedicated time window or a specific task quota for today.")
+                .setDesc("Choose whether to set a dedicated duration, task quota, or target finish clock time.")
                 .addDropdown(dropdown => {
                     dropdown
                         .addOption("time", "Stint Time Target")
                         .addOption("segments", "Stint Segment Target")
+                        .addOption("endTime", "Target Finish Time")
                         .setValue(this.stintTargetMode)
                         .onChange(value => {
-                            this.stintTargetMode = value as "time" | "segments";
+                            this.stintTargetMode = value as "time" | "segments" | "endTime";
                             updateVisibility();
                             this.updatePreview();
                         });
@@ -324,10 +533,20 @@ export class ProjectModal extends Modal {
                     });
                 });
 
+            const endTimeSetting = new Setting(contentEl)
+                .setName("Target Finish Time")
+                .setDesc("What time should this stint finish? (e.g. '3:14PM', '15:14', '5:00 PM').")
+                .addText(text => {
+                    text.setValue(this.stintEndTimeRaw).onChange(v => {
+                        this.stintEndTimeRaw = v;
+                        this.updatePreview();
+                    });
+                });
+
             const updateVisibility = () => {
-                const isTime = this.stintTargetMode === "time";
-                timeSetting.settingEl.style.display = isTime ? "" : "none";
-                segmentSetting.settingEl.style.display = isTime ? "none" : "";
+                timeSetting.settingEl.style.display = this.stintTargetMode === "time" ? "" : "none";
+                segmentSetting.settingEl.style.display = this.stintTargetMode === "segments" ? "" : "none";
+                endTimeSetting.settingEl.style.display = this.stintTargetMode === "endTime" ? "" : "none";
             };
             updateVisibility();
 
@@ -400,6 +619,26 @@ export class ProjectModal extends Modal {
             } else {
                 duration = tasks * pace;
             }
+        } else if (this.stintTargetMode === "endTime") {
+            duration = parseEndTimeToSeconds(this.stintEndTimeRaw);
+            if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > 0) {
+                const mult = this.project.paceMultiplier || 1.25;
+                const startIdx = this.project.totalProjectCompleted || 0;
+                let accumulatedSecs = 0;
+                let count = 0;
+                for (let i = startIdx; i < this.project.customSegmentDurations.length; i++) {
+                    const taskDur = Math.round((this.project.customSegmentDurations[i] || 0) * mult);
+                    if (accumulatedSecs + taskDur <= duration) {
+                        accumulatedSecs += taskDur;
+                        count++;
+                    } else {
+                        break;
+                    }
+                }
+                tasks = Math.max(1, count);
+            } else {
+                tasks = Math.min(remainingTasks, Math.floor(duration / pace));
+            }
         } else {
             duration = parseDurationToSeconds(this.stintDurationRaw) || 10800;
             if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > 0) {
@@ -422,13 +661,28 @@ export class ProjectModal extends Modal {
             }
         }
 
-        const finishTimeStr = getFinishedTimeStr(Date.now(), duration);
+        if (duration <= 0) {
+            this.previewEl.textContent = "🎯 Enter a valid future finish time (e.g. '3:14PM') to calculate today's stint...";
+            return;
+        }
+
+        const finishTimeStr = this.stintTargetMode === "endTime"
+            ? getFinishedTimeStr(Date.now() + duration * 1000, 0)
+            : getFinishedTimeStr(Date.now(), duration);
+
         this.previewEl.textContent = `🎯 Today's Stint: ~${tasks} tasks budgeted in ${formatHumanReadableDuration(duration)} • Finish around ${finishTimeStr}`;
     }
 
     async launchStint() {
+        const completed = this.project.totalProjectCompleted || 0;
+        const totalGoal = this.project.totalProjectGoal || 100;
+        if (completed >= totalGoal) {
+            this.plugin.showOverlay("🎉 Project is already completed!", true);
+            return;
+        }
+
         const pace = Math.max(1, Math.round((this.project.benchmarkPace || 60) * 1.25));
-        const remainingTasks = Math.max(1, (this.project.totalProjectGoal || 100) - (this.project.totalProjectCompleted || 0));
+        const remainingTasks = Math.max(1, totalGoal - completed);
 
         let duration = 0;
         let tasks = 0;
@@ -445,6 +699,30 @@ export class ProjectModal extends Modal {
                 duration = Math.round(baseSum * (this.project.paceMultiplier || 1.25));
             } else {
                 duration = tasks * pace;
+            }
+        } else if (this.stintTargetMode === "endTime") {
+            duration = parseEndTimeToSeconds(this.stintEndTimeRaw);
+            if (duration < 60) {
+                this.plugin.showOverlay("⚠️ Please enter a future time (e.g. '3:14PM')", false);
+                return;
+            }
+            if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > 0) {
+                const mult = this.project.paceMultiplier || 1.25;
+                const startIdx = this.project.totalProjectCompleted || 0;
+                let accumulatedSecs = 0;
+                let count = 0;
+                for (let i = startIdx; i < this.project.customSegmentDurations.length; i++) {
+                    const taskDur = Math.round((this.project.customSegmentDurations[i] || 0) * mult);
+                    if (accumulatedSecs + taskDur <= duration) {
+                        accumulatedSecs += taskDur;
+                        count++;
+                    } else {
+                        break;
+                    }
+                }
+                tasks = Math.max(1, count);
+            } else {
+                tasks = Math.min(remainingTasks, Math.floor(duration / pace));
             }
         } else {
             duration = parseDurationToSeconds(this.stintDurationRaw) || 10800;
@@ -473,12 +751,15 @@ export class ProjectModal extends Modal {
 
         this.plugin.stopSession();
 
-        // First task's duration
         let firstDuration = pace;
         if (this.project.customSegmentDurations && this.project.customSegmentDurations.length > (this.project.totalProjectCompleted || 0)) {
             const firstBase = this.project.customSegmentDurations[this.project.totalProjectCompleted || 0] || 60;
             firstDuration = Math.max(1, Math.round(firstBase * (this.project.paceMultiplier || 1.25)));
         }
+
+        const targetFinishTimestamp = this.stintTargetMode === "endTime"
+            ? Date.now() + duration * 1000
+            : undefined;
 
         const baseSession: PacingSessionState = {
             mode: "segmented",
@@ -503,12 +784,11 @@ export class ProjectModal extends Modal {
             benchmarkPace: this.project.benchmarkPace || 60,
             hardStopTotalSeconds: duration,
             earlyFinishBanked: 0,
+            targetFinishTimestamp,
 
-            // Custom timings
             customSegmentDurations: this.project.customSegmentDurations,
             paceMultiplier: this.project.paceMultiplier || 1.25,
 
-            // Linked project metadata
             projectId: this.project.id,
             projectName: this.project.name,
             projectGoal: this.project.totalProjectGoal,

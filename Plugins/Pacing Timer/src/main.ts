@@ -4,7 +4,6 @@ import { ModeRegistry } from './modes';
 import { PacingSetupModal } from './ui/PacingSetupModal';
 import { SaveSessionModal } from './ui/SaveSessionModal';
 import { SavedSessionsModal } from './ui/SavedSessionsModal';
-import { AdjustSessionModal } from './ui/AdjustSessionModal';
 import { ProjectModal, AdjustTaskCountdownModal } from './ui/ProjectModal';
 import { getCurrentTimeStr, formatHumanReadableDuration } from './utils';
 
@@ -20,7 +19,7 @@ class PacingTimerSettingTab extends PluginSettingTab {
             .onChange(async (value) => {
                 this.plugin.settings.showCurrentTime = value;
                 await this.plugin.saveSettings();
-                this.plugin.startInterval(); // Ensure heartbeat loop is active
+                this.plugin.startInterval();
                 this.plugin.updateStatusBar();
             })
         );
@@ -55,10 +54,8 @@ export default class PacingTimerPlugin extends Plugin {
         this.statusBarItem = this.addStatusBarItem();
         this.statusBarItem.classList.add("status-bar-pacing-timer");
 
-        // Setup Modal command
         this.addCommand({ id: 'pacing-timer-setup', name: 'Setup Modal', callback: () => this.handleCommandTrigger() });
         
-        // Stop / Turn Off command
         this.addCommand({ id: 'pacing-timer-turn-off', name: 'Turn Off / Stop Pacing Timer', callback: () => {
             if (this.activeModal) this.activeModal.close();
             if (this.session) {
@@ -67,7 +64,6 @@ export default class PacingTimerPlugin extends Plugin {
             }
         }});
 
-        // Project Library Hub
         this.addCommand({
             id: 'pacing-timer-project-library',
             name: 'Open Project Library',
@@ -76,7 +72,6 @@ export default class PacingTimerPlugin extends Plugin {
             }
         });
 
-        // Open Active Project Dashboard
         this.addCommand({
             id: 'pacing-timer-active-project',
             name: 'Open Active Project Dashboard',
@@ -93,7 +88,6 @@ export default class PacingTimerPlugin extends Plugin {
             }
         });
 
-        // Adjust Current Task Countdown directly via command palette
         this.addCommand({
             id: 'pacing-timer-adjust-countdown',
             name: 'Adjust Current Task Countdown',
@@ -108,7 +102,6 @@ export default class PacingTimerPlugin extends Plugin {
             }
         });
 
-        // Cancel Active Stint
         this.addCommand({
             id: 'pacing-timer-cancel-stint',
             name: 'Cancel Active Stint (Discard Progress)',
@@ -126,26 +119,12 @@ export default class PacingTimerPlugin extends Plugin {
             }
         });
 
-        // Save Current Session to Library
         this.addCommand({
             id: 'pacing-timer-save-session',
             name: 'Save Current Session to Library...',
             checkCallback: (checking: boolean) => {
                 if (this.session) {
                     if (!checking) new SaveSessionModal(this.app, this).open();
-                    return true;
-                }
-                return false;
-            }
-        });
-
-        // Adjust Active Session (Time / Target)
-        this.addCommand({
-            id: 'pacing-timer-adjust-session',
-            name: 'Adjust Active Session (Time / Target)',
-            checkCallback: (checking: boolean) => {
-                if (this.session) {
-                    if (!checking) new AdjustSessionModal(this.app, this).open();
                     return true;
                 }
                 return false;
@@ -331,13 +310,11 @@ export default class PacingTimerPlugin extends Plugin {
         this.stopAlarmSequence();
     }
 
-    // Heartbeat loop: Always updates the status bar clock 24/7, but freezes task progress if not running or finished
     public startInterval() {
         if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
         this.timerId = window.setInterval(() => {
             this.updateStatusBar();
 
-            // Guard: task seconds only advance if active, running, and not finished
             if (!this.session || !this.session.isRunning || this.session.isFinished) return;
 
             const now = Date.now();
