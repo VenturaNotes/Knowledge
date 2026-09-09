@@ -9,8 +9,11 @@
 - (2) See COMPUTER LOGIC, DIGITAL LOGIC.
 ## Source[^3]
 - $n$. The branch of philosophy devoted to the study of valid arguments, or (equivalently) of consistent sets of beliefs, involving the application of rules of inference to draw valid conclusions from sets of premises. An argument is a set of statements purporting to provide a reason for believing a certain statement, and it is valid if its counterexample set is inconsistent. More specifically, a logic is any particular formal system of axioms and rules of inference, or the arrangement of elements in a computer designed to perform a specified computation; and more generally logic is any sound or valid method of argument or reasoning, or rational thinking as distinct from irrationality. See also analytic statement, biconditional, Boolean, CONDITIONAL REASONING, DEONTIC LOGIC, FUZZY LOGIC, INTERPRETATION (3), LEMMA (1), LOGICAL ANALYSIS, LOGICAL POSITIVISM, MODAL LOGIC, MONOTONICITY, MOOD (3), NEGATION (3), PROPOSITIONAL CALCULUS, QUANTIFIER (1), SENTENCE FUNCTOR, SYLLOGISM, SYNTHETIC STATEMENT, TRUTH FUNCTOR, TRUTH TABLE. logical adj. \[From Greek logike (techne) (art) of reason, from logikos of or relating to speech or reasoning, from logos word, discourse, or reason]
+## Source[^4]
+- The study of deductive reasoning, by which conclusions are derived from sets of premises. Informally, the term is also used to refer to the essential reasoning process in a mathematical proof. See also FIRST ORDER LOGIC, GÖDEL’S INCOMPLETENESS THEOREMS, PREDICATE, MODUS PONENS, MODEL THEORY, PROOF THEORY.
 ## References
 
 [^1]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

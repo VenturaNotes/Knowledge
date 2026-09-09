@@ -31,28 +31,28 @@ aliases:
 				- [ ] #question Definition and Example
 			- [ ] #question Are these examples the exhaustive list?
 - Techniques (how algorithms are applied or data is managed):  
-	* This involves applying one or more algorithms together and preparing/handling data to achieve a particular learning goal
-		* [ ] #question What kind of learning goals are there? 
-		* [ ] #question How would you prepare and handle data?
-		* [ ] #question Is data normalization part of this preparation process?
-		* [ ] #question Where does techniques usually fall within a setup?
-	* Examples
-		* Supervised Learning
-		* Unsupervised Learning
-		* Reinforcement Learning
-		* Feature Engineering
-		* Cross-validation
-		* Ensemble methods
-			* Random Forests (combines multiple decision tree algorithms)
-		* [ ] #question Please give definition and example for each of these
-* Methodologies
-	* Systematic frameworks which guide the entire process of defining the problem, developing, deploying, and maintaining a machine learning project 
-		* [ ] #question How do you deploy with machine learning?
-	* Examples
-		* CRISP-DM (Cross-Industry Standard Process  for Data Mining)
-		* Agile methodologies adapted for ML projects
-		* MLOps (Machine Learning Operations) practices
-		* [ ] #question Please give definition and example for each of these
+	- This involves applying one or more algorithms together and preparing/handling data to achieve a particular learning goal
+		- [ ] #question What kind of learning goals are there? 
+		- [ ] #question How would you prepare and handle data?
+		- [ ] #question Is data normalization part of this preparation process?
+		- [ ] #question Where does techniques usually fall within a setup?
+	- Examples
+		- Supervised Learning
+		- Unsupervised Learning
+		- Reinforcement Learning
+		- Feature Engineering
+		- Cross-validation
+		- Ensemble methods
+			- Random Forests (combines multiple decision tree algorithms)
+		- [ ] #question Please give definition and example for each of these
+- Methodologies
+	- Systematic frameworks which guide the entire process of defining the problem, developing, deploying, and maintaining a machine learning project 
+		- [ ] #question How do you deploy with machine learning?
+	- Examples
+		- CRISP-DM (Cross-Industry Standard Process  for Data Mining)
+		- Agile methodologies adapted for ML projects
+		- MLOps (Machine Learning Operations) practices
+		- [ ] #question Please give definition and example for each of these
 ### Machine Learning Involvement
 - Data is needed for training and learning. It can be in many forms such as text, images, or numbers and must be cleaned and processed before use
 	- [ ] #question how is it cleaned and processed?
@@ -66,8 +66,11 @@ aliases:
 - Most learning methods aim to demonstrate generalization whereby the system develops efficient and effective representations that encompass large chunks of closely related data.
 ## Source[^3]
 - Machine learning (ML) is a computer science that uses data to learn in the way humans do. It is a category that falls under artificial intelligence (AI). ML uses data and algorithms for different technologies, including deep learning, neural networks, and natural language processing (NLP). By analyzing data, ML can learn patterns and make decisions without the need for human intervention.
+## Source[^4]
+- An interdisciplinary field centred on artificial intelligence with the aim of constructing programs or algorithms that learn from experience, that is, from introduction to further data. See NEURAL NETS.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

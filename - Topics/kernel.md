@@ -8,8 +8,15 @@
 - (2) In a cooperative game the kernel of the game is the set of all individually rational pay-off configurations (that is, each player's pay-off in a coalition is no lower than in a one-person coalition) in which every pair of players is in an equilibrium. Equilibrium is defined here as a situation in which, whenever two players, say $j$ and $k$, belong to the same coalition, $j(k)$ cannot gain more than $k(j)$ by switching to any other coalition which does not require $k$ 's ($j$ 's) consent.
 ## Source[^3]
 - $n$. A basic form of sentence structure (simple, active, declarative) used as a starting point in some forms of generative grammar. \[Old English cyrnel a little seed, from corn seed]
+## Source[^4]
+- For a linear map $T: V \to W$ between vector spaces, $\ker T$, the kernel of $T$, is the subspace $\{v \in V \mid Tv = 0_W\}$ of $V$. It is also called the null space, and its dimension is called the nullity of $T$. See RANK-NULLITY THEOREM.
+- For a homomorphism $f: G \to H$ between groups, the kernel is $\ker f = \{g \in G \mid f(g) = e_H\}$. It is a normal subgroup of $G$.
+- For a homomorphism $f: R \to S$ between rings (or modules), the kernel is $\ker f = \{r \in R \mid f(r) = 0_S\}$. It is an ideal (or submodule) of $R$.
+- In each of the above cases, a version of the first isomorphism theorem applies.
+
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

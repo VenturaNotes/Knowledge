@@ -8,9 +8,13 @@
 - Inserting missing data in a sample, usually by calculating the prediction based on the available data.
 ## Source[^4]
 - A method that enables additional values to be obtained between sampled values of a signal.
+## Source[^5]
+- Suppose that the values $f(x_0), f(x_1), \dots, f(x_n)$ of a certain function $f$ are known for the particular values $x_0, x_1, \dots, x_n$. A method of finding an approximation for $f(x)$, for a given value of $x$ somewhere between these particular values, is called interpolation. If $x_0 < x < x_1$, the method known as linear interpolation gives$$f(x) \approx f(x_0) + \frac{x - x_0}{x_1 - x_0}(f(x_1) - f(x_0))$$
+- This is obtained by supposing, as an approximation, that between $x_0$ and $x_1$ the graph of the function is a straight line joining the points $(x_0, f(x_0))$ and $(x_1, f(x_1))$. More complicated methods of interpolation use the values of the function at more than two values. See LAGRANGE INTERPOLATION, SPLINE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

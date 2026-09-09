@@ -87,6 +87,9 @@ m_{r1}  \cdots m_{rc}
 $$where $m_{ij}$ denotes the number in the $i$th row at the $j$th column position, for $i$ in the range $1..r$ and $j$ in the range $1..c$. A vector is a matrix in which either $r$ or $c$ is equal to 1.
 - Some arithmetic operators can be extended to work on matrices. Two matrices with the same number of rows and columns can be added by simply adding the numbers in the same row and column positions. Two matrices $A$ and $B$ can be multiplied if the number of columns in $A$ is equal to the number of rows in $B$. The resulting matrix has the same number of rows as $A$ and the same number of columns as $B$, with each entry obtained by doing a vector product of rows from $A$ by columns from $B$.
 - Matrices can be used to represent transformations within and between coordinate systems, for modelling linear systems, and in finite element methods.
+## Source[^10]
+- (matrices) A rectangular array of entries displayed in rows and columns and enclosed in brackets. The entries are elements of some suitable set, either specified or understood. They are often numbers, perhaps integers, real numbers, or complex numbers, but they may be, say, polynomials or other expressions. An $m \times n$ matrix has $m$ rows and $n$ columns and can be written$$ \begin{bmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ a_{21} & a_{22} & \dots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \dots & a_{mn} \end{bmatrix}. $$
+- Round brackets may be used instead of square brackets. The subscripts are read as though separated by commas: for example, $a_{23}$ is read as ‘a, two, three’. The matrix above may be written in abbreviated form as $[a_{ij}]$, where the number of rows and columns is understood and $a_{ij}$ denotes the entry in the $i$th row and $j$th column. See ADDITION (of matrices), BLOCK MATRIX, DETERMINANT, DIAGONAL MATRIX, IDENTITY MATRIX, INVERSE MATRIX, MATRIX GROUPS, MATRIX OF A LINEAR MAP, MULTIPLICATION (of matrices), SQUARE MATRIX, TRACE, TRANSPOSE, TRIANGULAR MATRIX.
 ## References
 
 [^1]: https://stattrek.com/matrix-algebra/echelon-form
@@ -98,3 +101,4 @@ $$where $m_{ij}$ denotes the number in the $i$th row at the $j$th column positio
 [^7]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^8]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^9]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^10]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

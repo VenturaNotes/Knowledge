@@ -10,8 +10,11 @@
 - n. 
 - (1) A specific place or region, especially the position occupied by a particular gene or allele on a chromosome, as in a locus for eye color. Also called a gene locus. 
 - (2) In mathematics, a set of points satisfying a specified condition, such as all points whose distance from a fixed point P is a constant, or all points satisfying the equation $r^{2}=x^{2}+y^{2}$, where $r$ is a constant, both of which conditions define a circle. loci pl. \[From Latin locus a place]
+## Source[^4]
+- (loci) A locus is the set of all points that satisfy some given condition or property. For example, in the plane, the locus of all points that are a given distance from a fixed point is a circle, and the locus of all points equidistant from two given points, $A$ and $B$, is the perpendicular bisector of $AB$.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

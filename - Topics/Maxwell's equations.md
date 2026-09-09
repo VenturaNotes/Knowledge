@@ -16,6 +16,17 @@
 - Maxwell's theory deals only with macroscopic phenomena and does not offer an explanation of phenomena arising from interactions on an atomic scale, such as dispersion and the photoelectric effect. On an atomic scale it has been found necessary to introduce the quantum mechanical theory of electromagnetic radiation.
 - From Maxwell's equations it is possible to deduce the wave velocity in a medium as$$v = \frac{1}{\sqrt{(\mu \varepsilon)}}$$where $\varepsilon$ is the permittivity of the medium and $\mu$ is its permeability, $\mu = \boldsymbol{B}/\boldsymbol{H}$. In a vacuum the wave velocity is given by$$c = \frac {1}{\sqrt {\left(\mu_ {0} \varepsilon_ {0}\right)}}$$Thus in a nondispersive medium of refractive index $n$, where $n = c / \nu$$$n ^ {2} = \mu_ {\mathrm {r}} \varepsilon_ {\mathrm {r}}$$or in a nonferromagnetic material where $\mu_{\mathrm{r}} \approxeq 1$$$n ^ {2} = \varepsilon_ {\mathrm {r}}$$where $\varepsilon_{\mathrm{r}}$ is the relative permittivity of the medium and $\mu_{\mathrm{r}}$ the relative permeability. This is known as Maxwell's formula. In a dispersive medium the above formula applies provided that all measurements are carried out at the same frequency.
 	- [ ] #question What is the difference between $\cong$ and $\approxeq$? 
+## Source[^2]
+- A set of partial differential equations summarizing the relationships between electricity and magnetism:
+
+| $\text{div} \mathbf{E} = \frac{\rho}{\epsilon_0}$                                                  | (Gauss’ flux theorem)          |
+| :------------------------------------------------------------------------------------------------- | :----------------------------- |
+| $\text{div} \mathbf{B} = 0$                                                                        | (Gauss’ law for magnetism)     |
+| $\text{curl} \mathbf{B} - \frac{1}{c^2} \frac{\partial \mathbf{E}}{\partial t} = \mu_0 \mathbf{J}$ | (Maxwell-Ampère circuital law) |
+| $\text{curl} \mathbf{E} + \frac{\partial \mathbf{B}}{\partial t} = 0$                              | (Faraday’s Law of Induction)   |
+
+- Here $\mathbf{B}$ is the magnetic field, $\mathbf{E}$ is the electric field, $\mathbf{J}$ is the current density, $\rho$ is the charge density, $\epsilon_0$ denotes vacuum permittivity, $\mu_0$ denotes vaccuum permeability, $c$ is the speed of light, and $t$ is time. Maxwell’s equations unified theories of magnetism, electricity, light, and radiation. Also, importantly, they are not invariant under Galilean relativity but are invariant under Lorentz transformations.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -9,9 +9,14 @@
 ## Source[^4]
 - (1) (Symbol: k) A prefix to a unit, denoting a multiple of $10^{3}$ (i.e. 1000) of that unit: one kilometer equals $10^{3}$ meters. 
 - (2) (Symbol: k or K) A prefix used in computing to denote a multiple of $2^{10}$ (i.e. 1024). See Kilobit; Kilobyte.
+## Source[^5]
+- Prefix used with SI units to denote multiplication by $10^3$. Abbreviated as k.
+---
+- (binary) A kilobyte contains 1024 bytes, rather than 1000. The figure of 1024, rather than 1000, is well suited to binary, as it is $2^{10}$. Similarly, mega- in binary refers to $2^{20} = 1,048,576$, giga- to $2^{30} = 1,073,741,824$, and tera- to $2^{40} = 1,099,511,627,776$. To avoid the confusion between decimal and binary versions, the prefixes kibi-, mebi-, gibi-, and tebi-have been introduced, for the binary versions, but are not widely used.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

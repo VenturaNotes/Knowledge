@@ -22,6 +22,9 @@ aliases:
 - With this map, we can now measure all distances in the set X
 	- Therefore, we call the set X with the metric `d` a metric space
 		- Measuring distances lets us do a lot of analytical stuff
+## Source[^2]
+- A set of points together with a metric (distance function) defined on it. See EUCLIDEAN SPACE. Compare TOPOLOGICAL SPACE.
 ## References
 
 [^1]: [[(1) Functional Analysis 1  - Metric Space - How to Measure Distances.]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

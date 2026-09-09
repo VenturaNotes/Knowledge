@@ -4,7 +4,14 @@
 - A scale on a diagram where distances from the origin represent the logarithm of a variable. Logarithmic scales are used particularly in diagrams with time on one, usually the horizontal, axis, and some real or nominal variable such as gross domestic product or the price level on the vertical axis. The slope of a curve in such a diagram shows the proportional growth rate of the variable, and a constant proportional growth trend is represented by a straight line. If both axes use logarithmic scales, the slope of a curve is proportional to the elasticity of one variable with respect to the other. Neither zero nor negative numbers can be represented on a Logarithmic scale.
 ## Source[^2]
 - A scale of measurement in which an increase or decrease of one unit represents a tenfold increase or decrease in the quantity measured. Decibels and pH measurements are common examples of logarithmic scales of measurement.
+## Source[^3]
+- A method of representing positive numbers on a line as follows. Taking one direction along the line as positive, and a point $O$ as origin, the number $x$ is represented by the point $P$ in such a way that $OP$ is proportional to $\log x$, where logarithms are to base 10. Thus the number 1 is represented by $O$; and, if the point $A$ represents 10, the point $B$ that represents 100 is such that $OB = 2OA$.
+- The measurement of sound using decibels and of the size of earthquakes using the Richter scale are two examples of logarithmic scales.
+- ![[Pasted image 20260909030557.png]]
+	- A logarithmic scale
+- See also SLIDE RULE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

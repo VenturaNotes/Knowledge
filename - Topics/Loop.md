@@ -10,8 +10,11 @@
 - n. 
 - (1) a bend in a tubular organ, e.g. Henle's loop in a kidney tubule. 
 - (2) one of the patterns of dermal ridges in fingerprints.
+## Source[^4]
+- In a graph, an edge that begins and ends in the same vertex.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

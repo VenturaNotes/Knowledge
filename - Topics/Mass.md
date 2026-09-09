@@ -6,6 +6,10 @@
 ## Source [^2]
 ### Units
 - [[Atomic mass unit|amu]] is unit used to measure mass of a single atom
+## Source[^3]
+- With any body there are associated two parameters: the gravitational mass, which occurs in the inverse square law of gravitation, and the inertial mass, which occurs in Newton’s second law of motion. While they are distinct in definition, no experiment has shown a difference between gravitational and inertial mass.
+- The SI unit of mass is the kilogram. See also REST MASS. Compare WEIGHT.
 ## References
 [^1]: [[(1) Chemistry - Introduction (1 of 10) Basic Terminology#^b9024a]]
 [^2]: [[(4) Chemistry - Atoms, Molecules, and Ions (4 of 23) Avogadro's Number#^ed0f51]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -6,7 +6,11 @@
 - Logic gates based on fluid logic have been successfully used as have optical switches used as logic gates. See also DIGITAL LOGIC, LOGIC CIRCUIT, MULTIVALUED LOGIC.
 ## Source[^2]
 - A digital circuit, such as an AND gate, that implements an elementary logical function. It has one or more inputs but only one output. The conditions applied to the input(s) determine the voltage levels at the output. The output usually has two possible output states: '1', '0'. See LOGIC CIRCUIT; TRISTATE LOGIC GATE.
+## Source[^3]
+- An idealized representation of an electronic device that executes a logical operation such as and, or, or not. The standard symbols for those gates are drawn below. Logic gates may then be combined in circuits to produce more complicated $n$-ary logical operations. See COMBINATORIAL LOGIC.
+- ![[Pasted image 20260909030843.png|152]]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
