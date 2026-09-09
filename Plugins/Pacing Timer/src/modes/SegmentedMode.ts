@@ -17,6 +17,14 @@ import {
     AdjustTaskCountdownModal 
 } from "../ui/ProjectModal";
 
+function parseStintDurationInput(raw: string): number {
+    if (!raw) return 0;
+    if (/am|pm|a\.m\.|p\.m\./i.test(raw)) {
+        return parseEndTimeToSeconds(raw);
+    }
+    return parseDurationToSeconds(raw);
+}
+
 class CreateProjectModal extends Modal {
     plugin: PacingTimerPlugin;
     onCreated: (record: SavedSessionRecord) => void;
@@ -534,6 +542,7 @@ export const SegmentedMode: ModeHandler = {
 
                 const timeSetting = new Setting(container)
                     .setName("Stint Time Target")
+                    .setDesc("How long do you want to work? (e.g. '3h', '45m', or clock time like '3:30PM').")
                     .addText(t => t.setValue(stintDurationRaw).onChange(v => { stintDurationRaw = v; updateStintPreview(); }));
 
                 const segmentSetting = new Setting(container)
@@ -570,12 +579,16 @@ export const SegmentedMode: ModeHandler = {
                         duration = parseEndTimeToSeconds(stintEndTimeRaw);
                         tasks = Math.min(remTasks, Math.floor(duration / pace));
                     } else {
-                        duration = parseDurationToSeconds(stintDurationRaw) || 10800;
+                        // Interprets duration strings (e.g. '3h', '45m') as well as clock times (e.g. '3:30PM')
+                        duration = parseStintDurationInput(stintDurationRaw);
+                        if (duration <= 0 && !stintDurationRaw.trim()) {
+                            duration = 10800;
+                        }
                         tasks = Math.min(remTasks, Math.floor(duration / pace));
                     }
 
                     if (duration <= 0) {
-                        previewEl.textContent = "🎯 Enter a future finish time (e.g. '3:14PM')...";
+                        previewEl.textContent = "🎯 Enter a valid time target (e.g. '3h', '3:30PM')...";
                         return;
                     }
 
@@ -628,7 +641,11 @@ export const SegmentedMode: ModeHandler = {
                         }
                         tasks = Math.min(remTasks, Math.floor(duration / pace));
                     } else {
-                        duration = parseDurationToSeconds(stintDurationRaw) || 10800;
+                        duration = parseStintDurationInput(stintDurationRaw) || 10800;
+                        if (/am|pm|a\.m\.|p\.m\./i.test(stintDurationRaw) && duration < 60) {
+                            plugin.showOverlay("⚠️ Please enter a future time (e.g. '3:30PM')", false);
+                            return;
+                        }
                         tasks = Math.min(remTasks, Math.floor(duration / pace));
                     }
 
@@ -637,6 +654,8 @@ export const SegmentedMode: ModeHandler = {
 
                     plugin.stopSession();
 
+                    // Only set targetFinishTimestamp when the user selects "Target Finish Time"
+                    // In "Stint Time Target" mode, it is undefined so pauses push back the finish time naturally
                     const targetFinishTimestamp = stintTargetMode === "endTime"
                         ? Date.now() + duration * 1000
                         : undefined;

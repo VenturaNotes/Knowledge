@@ -2,7 +2,7 @@
 aliases: Proof by contradiction
 ---
 ## Synthesis
-- 
+- Used to show that a statement is true. You assume the statement is false, use logical reasoning to reach an impossible result (a contradiction like 1=0), and prove your original statement is true.
 ## Source[^1]
 $$\begin{align*}  \lnot p \implies q \\ \text{Therefore, p} \end{align*}$$
 - If assuming a statement is false leads to a contradiction, then the initial statement must be true
