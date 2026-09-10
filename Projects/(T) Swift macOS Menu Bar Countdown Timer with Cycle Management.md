@@ -1,15 +1,15 @@
 ---
 status: done
-tags:
-  - personal
 parent:
   - "[[(T) Optimize]]"
 completedDate: 2026-04-28
 aliases:
   - (T) Stacking Counter
   - (T) Xcode Application
+  - CommandRCounter
 ---
 ## ToDo
+- [ ] In the "Stats" section for "Countdown mode", the portion where it shows stats of "completed". If it says something like "13/140" I would like the percentage shown along side it like "13/140 (9.29%)" which shows the percent completed rounded up to the 2nd decimal place. 
 - [ ] Should I add a section to let me know that when I level-up, my difficult increases or decreases?
 - [ ] Maybe it’s best that I don’t know how long a section is? Because if it’s past a certain point, then I want it to be slower I guess? But it also could be smart because the longer I work, the slower someone will typically get anyway. So it’s best to be able to slow down a little bit the longer you work? 
 	- After cleaning up for around an hour, this is what I feel. I wish to slow down a little bit (because the initial stuff will always be a little fast but hard to keep up with). 

@@ -5,7 +5,10 @@
 - (2) A component of a hardware system that can be subdivided.
 ## Source[^2]
 - The term module refers to a piece of computer code that provides a specific functionality in a complex software program. For instance, software applications intended for business use, such as enterprise resource management (ERP) programs, typically contain various modules that each perform unique business functions. ERP solutions typically include finance and accounting, procurement, manufacturing, inventory management, order management, customer relationship management, human resource management, eCommerce, and marketing automation modules that help companies streamline their business operations.
+## Source[^3]
+- An equivalent idea to a vector space but where scalars are from a ring which need not be a field. Given a ring $R$ with a multiplicative identity 1, an $R$-module $M$ is an abelian group together with a notion of scalar multiplication $(r, m) \mapsto r \cdot m$, which further satisfies$$(r_1 + r_2) \cdot m = r_1 \cdot m + r_2 \cdot m, (r_1 r_2) \cdot m = r_1 \cdot (r_2 \cdot m), r \cdot (m_1 + m_2) = r \cdot m + r \cdot m_2, 1 \cdot m = m,$$for all $r_1, r_2, r$ in $R$ and $m_1, m_2, m$ in $M$. Typically $R$ is further assumed to be a principal ideal domain or a Euclidean domain. $\mathbb{Z}$-modules are abelian groups and vice versa. An $F[x]$-module, where $F$ is a field, is a vector space $V$ over $F$ together with a linear map $x: V \to V$ defining scalar multiplication by $x$. Modules are intimately connected with representation theory. See FREE MODULE, JORDAN NORMAL FORM, RATIONAL CANONICAL FORM, SMITH NORMAL FORM, STRUCTURE THEOREM, TORSION ELEMENT.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

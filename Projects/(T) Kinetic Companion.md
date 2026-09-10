@@ -1,5 +1,7 @@
 ---
 status: open
+parent:
+  - "[[(T) Projects]]"
 ---
 - To achieve this, we can introduce Auto-File Patching to the Kinetic Companion plugin.
 	- We can make this completely toggleable. You can trigger it automatically on stream completion, or manually via an Obsidian command so your workspace remains protected from accidental overwrites.
@@ -46,7 +48,7 @@ status: open
 - [ ] Remove the sparkle + slamdown affect in the settings
 - [ ] Make it so the its 100% visible on initial load.
 - [ ] Need to remove the "debug" things (or I could maybe change that to a notification? Just to make sure that it's not stuck)
-- [ ] Implement ChatGPT into the menu I've built as well. 
+- [ ] Implement ChatGPT into the menu I've built as well (great for e-mails)
 ## V11
 - Fixed problem with making it work consistently. Just layered back.
 - Also the below has the debug mode in-case we need to add it back later for future development. 

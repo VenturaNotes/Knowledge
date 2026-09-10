@@ -15,12 +15,16 @@ parent:
 ## ToDo
 - [ ] Convert to typescript and then publish
 	- Might need to double-check that Cloudflarebypass doesn't interfere
+- [ ] Get Focus address bar working with VaporNote!
+	- Just make it work similar to the refresh button!
 ### Feature Requests
 - [ ] Make it so you can move the tabs around within the floating note
 - [ ] If I use a shortcut to open the "Goals Graph" and then I open and close my VaporNote, this causes me to jump right back to
 	- Honestly a minor bug. If the goals view never gains focus, the VaporNote just sends me back to the tab that was last focused. Not a bug that would occur a lot
 - [ ] Test to see if it works between windows
 - [ ] Make it so VaporNote opens where you last left it with its dimensions (and all the tabs are saved between sessions as well)
+#### Speculative
+- [ ] In the floating note, fix it so that the Private/Tasks/ etc, and the tabs at the top disappear. Can probably insert a note to do this. 
 ## Patch-Work
 - So this is what I need from you for VaporNote:
 	- Requirements not working anymore

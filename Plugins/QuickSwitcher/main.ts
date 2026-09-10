@@ -446,7 +446,7 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         const titleText = titleRow.createSpan({ cls: 'suggestion-title-text' });
         renderHighlightedText(titleText, item.file.basename, item.tokens);
 
-        // Extension pill badge for non-markdown files
+        // Extension pill badge for non-markdown files (including .mdenc)
         const ext = item.file.extension ? item.file.extension.toLowerCase() : '';
         if (ext && ext !== 'md') {
             titleRow.createSpan({ text: ext, cls: 'suggestion-ext-badge' });
@@ -476,7 +476,7 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
     }
 }
 
-// --- 2. Heading Switcher Modal (Reliable 1/3 Screen Height Positioning) ---
+// --- 2. Heading Switcher Modal (Reliable 1/3 Screen Height Positioning & Encrypted Fallback) ---
 class LeanHeadingModal extends SuggestModal<HeadingItem> {
     private activeView: MarkdownView;
     private fileHeadings: HeadingItem[] = [];
@@ -525,19 +525,59 @@ class LeanHeadingModal extends SuggestModal<HeadingItem> {
         });
     }
 
+    /**
+     * Extracts headings using Obsidian's metadata cache if available.
+     * If the cache is empty (e.g. Meld Encrypt / .mdenc decrypted in memory),
+     * it falls back to scanning the active editor buffer line-by-line.
+     */
     private extractAllHeadings(view: MarkdownView): HeadingItem[] {
         if (!view.file) return [];
         
+        // 1. FAST PATH: Check Obsidian's metadata cache first
         const cache = this.app.metadataCache.getFileCache(view.file);
-        const headings = cache?.headings || [];
+        if (cache?.headings && cache.headings.length > 0) {
+            return cache.headings.map(h => ({
+                heading: h.heading,
+                level: h.level,
+                line: h.position.start.line,
+                isMatch: false,
+                tokens: []
+            }));
+        }
 
-        return headings.map(h => ({
-            heading: h.heading,
-            level: h.level,
-            line: h.position.start.line,
-            isMatch: false,
-            tokens: []
-        }));
+        // 2. FALLBACK PATH: Parse directly from the active editor buffer
+        // (Critical for Meld Encrypt, .mdenc, unsaved notes, or uncached memory views)
+        const editor = view.editor;
+        if (!editor) return [];
+
+        const headings: HeadingItem[] = [];
+        const lineCount = editor.lineCount();
+        let inCodeBlock = false;
+
+        for (let i = 0; i < lineCount; i++) {
+            const line = editor.getLine(i);
+
+            // Ignore headings inside code blocks
+            if (line.trim().startsWith('```')) {
+                inCodeBlock = !inCodeBlock;
+                continue;
+            }
+            if (inCodeBlock) continue;
+
+            // Match Markdown headings: # Heading
+            const match = line.match(/^(#{1,6})\s+(.+)$/);
+            if (match && match[1] && match[2]) {
+                headings.push({
+                    heading: match[2].trim(),
+                    level: match[1].length,
+                    line: i,
+                    isMatch: false,
+                    tokens: []
+                });
+            }
+        }
+
+        return headings;
     }
 
     onOpen() {
