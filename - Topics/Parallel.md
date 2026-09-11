@@ -12,7 +12,11 @@
 	- Parts
 		- Resistors in parallel
 		- Capacitors in parallel
+## Source[^3]
+- In Euclidean geometry, two or more lines or planes that are always equidistant from one another, however far they are extended. Consequently they will never meet, though this is not a sufficient condition for lines in three dimensions to be parallel, as skew lines also never meet. Two parallel lines have to lie in a plane. Sometimes curves or surfaces are described as parallel if they satisfy the equidistant condition, where the distance between the curves or surfaces is defined as the shortest distance from a point on one curve or surface to any point lying on the other.
+- In the hyperbolic plane, two lines are said to be parallel if they do not meet. No two lines are parallel in the elliptic plane.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

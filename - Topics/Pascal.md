@@ -11,9 +11,12 @@
 - The SI unit of pressure equal to one newton per square meter.
 ## Source[^4]
 - (symbol : Pa) The SI unit of pressure, defined as the pressure that results when a force of one newton acts uniformly over an area of one square meter.
+## Source[^5]
+- The SI unit of pressure, abbreviated to 'Pa'. One pascal is equal to one newton per square meter.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

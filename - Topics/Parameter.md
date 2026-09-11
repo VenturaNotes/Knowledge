@@ -14,6 +14,12 @@
 - $n$. In statistics, a property of a population distribution, such as the population mean or population standard deviation, as distinct from a property of a sample. \[From Greek para beside or beyond + metron a measure]
 ## Source[^5]
 - A quantity that is constant in a given case but has a particular value for each different case considered. Examples include the values of the resistances, capacitances, etc., that form an electrical network or the constants appearing in the equations connecting currents and voltages at the terminals of a network. See also TRANSISTOR PARAMETERS.
+## Source[^6]
+### In Pure Mathematics
+- A variable taking different values, thereby giving different values to certain other variables. For example, a parameter $t$ could be used to write the solutions of the equation $5x_1 + 4x_2 = 7$ as$$ x_1 = 3 - 4t, \quad x_2 = -2 + 5t \quad (t \in \mathbb{R}). $$
+- More generally parameters can be systematically used to describe the general solution of a system of simultaneous linear equations. See also PARAMETERIZATION, PARAMETRIC EQUATIONS (of a line in space).
+### In Statistics
+- A parameter for a population is some quantity that relates to the population, such as its mean or median. A parameter for a population may be estimated from a sample by using an appropriate statistic as an estimator. For a distribution, a constant that appears in the probability mass function or probability density function of the distribution is called a parameter. In this sense, the normal distribution has two parameters and the Poisson distribution has one parameter, for example.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -21,3 +27,4 @@
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

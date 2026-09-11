@@ -9,6 +9,7 @@ import {
 } from 'obsidian';
 
 const VIEW_TYPE_ENCRYPTED = 'lean-encrypted-view';
+const ENCRYPTED_EXTENSION = 'mdenc';
 
 interface EncryptedPayload {
     leanEncrypted: boolean;
@@ -25,14 +26,13 @@ function getErrorMessage(err: unknown): string {
 
 // --- High-Performance Crypto Helpers (Web Crypto AES-256-GCM) ---
 
-// Safe Base64 conversion for 130k+ word documents without stack overflow
 function bufferToBase64(buffer: ArrayBuffer): string {
     if (typeof Buffer !== 'undefined') {
         return Buffer.from(buffer).toString('base64');
     }
     const bytes = new Uint8Array(buffer);
     let binary = '';
-    const chunkSize = 0x8000; // 32KB chunks
+    const chunkSize = 0x8000; // 32KB chunks to prevent stack overflow on 130k+ words
     for (let i = 0; i < bytes.length; i += chunkSize) {
         binary += String.fromCharCode.apply(null, bytes.subarray(i, i + chunkSize) as any);
     }
@@ -132,7 +132,7 @@ async function decryptData(rawFileContent: string, password: string): Promise<st
     }
 }
 
-// --- Password Prompt Modal ---
+// --- Password Prompt Modal with Character Visibility Toggle ---
 class PasswordPromptModal extends Modal {
     private resolve: (password: string | null) => void;
     private titleText: string;
@@ -176,6 +176,21 @@ class PasswordPromptModal extends Modal {
                 });
         }
 
+        // Toggle to show/hide actual password characters
+        new Setting(contentEl)
+            .setName('Show password')
+            .setDesc('Reveal password characters while typing')
+            .addToggle(toggle => {
+                toggle.setValue(false);
+                toggle.onChange(show => {
+                    const newType = show ? 'text' : 'password';
+                    pwInput.type = newType;
+                    if (confirmInput) {
+                        confirmInput.type = newType;
+                    }
+                });
+            });
+
         const submit = () => {
             const pw = pwInput.value;
             if (!pw) {
@@ -192,7 +207,7 @@ class PasswordPromptModal extends Modal {
 
         new Setting(contentEl)
             .addButton(btn => btn
-                .setButtonText('Unlock')
+                .setButtonText(this.isConfirm ? 'Encrypt' : 'Unlock')
                 .setCta()
                 .onClick(submit))
             .addButton(btn => btn
@@ -208,13 +223,14 @@ class PasswordPromptModal extends Modal {
     }
 }
 
-// --- Encrypted Markdown View (Inherits Native Live Preview & Heading Support) ---
+// --- Encrypted Markdown View (Overlay-Based In-Memory Decryption) ---
 class EncryptedMarkdownView extends MarkdownView {
     plugin: LeanEncryptPlugin;
     isDecrypted = false;
     currentPassword = '';
     rawDiskContent = '';
     cachedCiphertext = '';
+    private lockOverlayEl: HTMLElement | null = null;
 
     constructor(leaf: WorkspaceLeaf, plugin: LeanEncryptPlugin) {
         super(leaf);
@@ -232,30 +248,54 @@ class EncryptedMarkdownView extends MarkdownView {
         // If file is empty (newly created)
         if (!data || data.trim().length === 0) {
             this.isDecrypted = true;
+            this.hideLockScreen();
             super.setViewData('', clear);
             return;
         }
 
-        // If already unlocked in this session
+        // If already unlocked in this specific tab session
         if (this.isDecrypted && this.currentPassword) {
+            this.hideLockScreen();
             super.setViewData(this.getEditorText(), clear);
             return;
         }
 
-        // Prompt for password
+        // Otherwise, show lock overlay and prompt for password
         this.showLockScreen();
     }
 
     showLockScreen() {
-        this.contentEl.empty();
-        const box = this.contentEl.createDiv({ 
-            attr: { style: 'display: flex; flex-direction: column; align-items: center; justify-content: center; height: 70%; gap: 16px;' } 
+        if (this.lockOverlayEl) return;
+
+        // Ensure editor underneath is empty while locked for maximum privacy
+        super.setViewData('', true);
+
+        this.contentEl.style.position = 'relative';
+
+        this.lockOverlayEl = this.contentEl.createDiv({ 
+            cls: 'lean-encrypt-lock-overlay',
+            attr: { 
+                style: `
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: var(--background-primary);
+                    z-index: 99;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 16px;
+                ` 
+            } 
         });
 
-        box.createEl('div', { text: '🔒', attr: { style: 'font-size: 48px;' } });
-        box.createEl('h3', { text: `"${this.file?.basename}" is encrypted` });
+        this.lockOverlayEl.createEl('div', { text: '🔒', attr: { style: 'font-size: 48px;' } });
+        this.lockOverlayEl.createEl('h3', { text: `"${this.file?.basename}" is encrypted` });
 
-        const unlockBtn = box.createEl('button', { 
+        const unlockBtn = this.lockOverlayEl.createEl('button', { 
             text: 'Unlock Note', 
             cls: 'mod-cta',
             attr: { style: 'padding: 8px 24px; cursor: pointer;' } 
@@ -263,6 +303,13 @@ class EncryptedMarkdownView extends MarkdownView {
 
         unlockBtn.onclick = () => this.promptUnlock();
         this.promptUnlock();
+    }
+
+    hideLockScreen() {
+        if (this.lockOverlayEl) {
+            this.lockOverlayEl.remove();
+            this.lockOverlayEl = null;
+        }
     }
 
     promptUnlock() {
@@ -275,8 +322,13 @@ class EncryptedMarkdownView extends MarkdownView {
                 this.isDecrypted = true;
                 this.cachedCiphertext = this.rawDiskContent;
 
-                // Pass plaintext to native Markdown editor (Live Preview & Headings work immediately!)
+                // 1. Remove the lock overlay to reveal the editor
+                this.hideLockScreen();
+
+                // 2. Load plaintext into the preserved CodeMirror editor
                 super.setViewData(plaintext, true);
+                this.editor?.focus();
+
                 new Notice('Note decrypted.');
             } catch (err) {
                 new Notice(getErrorMessage(err) || 'Decryption failed.');
@@ -295,7 +347,7 @@ class EncryptedMarkdownView extends MarkdownView {
     // Intercept saving: Encrypt BEFORE calling super.save()
     async save(): Promise<void> {
         if (!this.isDecrypted || !this.currentPassword) {
-            return; // NEVER SAVE IF LOCKED OR DECRYPTION FAILED
+            return; // Never touch the disk if locked
         }
 
         const plaintext = this.getEditorText();
@@ -303,7 +355,7 @@ class EncryptedMarkdownView extends MarkdownView {
         await super.save();
     }
 
-    // Obsidian's serializer: NEVER return plaintext!
+    // Obsidian's serializer: NEVER return plaintext to disk!
     getViewData(): string {
         if (!this.isDecrypted || !this.cachedCiphertext) {
             return this.rawDiskContent; // Keep untouched ciphertext
@@ -311,7 +363,7 @@ class EncryptedMarkdownView extends MarkdownView {
         return this.cachedCiphertext;
     }
 
-    // When note or tab is closed, wipe password from memory
+    // When the tab is closed, automatically wipe password & lock the note
     async onClose() {
         if (this.isDecrypted) {
             await this.save();
@@ -319,6 +371,7 @@ class EncryptedMarkdownView extends MarkdownView {
         this.isDecrypted = false;
         this.currentPassword = '';
         this.cachedCiphertext = '';
+        this.hideLockScreen();
         await super.onClose();
     }
 }
@@ -326,17 +379,17 @@ class EncryptedMarkdownView extends MarkdownView {
 // --- Main Plugin Class ---
 export default class LeanEncryptPlugin extends Plugin {
     async onload() {
-        // Register custom view for .mdenc
+        // Register custom view for .mdenc files
         this.registerView(
             VIEW_TYPE_ENCRYPTED,
             (leaf: WorkspaceLeaf) => new EncryptedMarkdownView(leaf, this)
         );
-        this.registerExtensions(['mdenc'], VIEW_TYPE_ENCRYPTED);
+        this.registerExtensions([ENCRYPTED_EXTENSION], VIEW_TYPE_ENCRYPTED);
 
         // Command 1: Encrypt current .md note
         this.addCommand({
             id: 'convert-to-mdenc',
-            name: 'Encrypt current note to .mdenc',
+            name: 'Encrypt Current Note',
             checkCallback: (checking: boolean) => {
                 const view = this.app.workspace.getActiveViewOfType(MarkdownView);
                 if (view && view.file && view.file.extension === 'md') {
@@ -352,10 +405,10 @@ export default class LeanEncryptPlugin extends Plugin {
         // Command 2: Decrypt active .mdenc note back to plaintext .md
         this.addCommand({
             id: 'convert-to-md',
-            name: 'Permanently decrypt current note to .md',
+            name: 'Decrypt Current Note',
             checkCallback: (checking: boolean) => {
                 const activeView = this.app.workspace.getActiveViewOfType(EncryptedMarkdownView);
-                if (activeView && activeView.file && activeView.isDecrypted) {
+                if (activeView && activeView.file && activeView.file.extension === ENCRYPTED_EXTENSION && activeView.isDecrypted) {
                     if (!checking) {
                         this.decryptActiveNote(activeView);
                     }
@@ -365,10 +418,10 @@ export default class LeanEncryptPlugin extends Plugin {
             }
         });
 
-        // Command 3: Lock current note now
+        // Command 3: Lock current note immediately without closing tab
         this.addCommand({
             id: 'lock-active-note',
-            name: 'Lock current note immediately',
+            name: 'Lock Current Note',
             checkCallback: (checking: boolean) => {
                 const activeView = this.app.workspace.getActiveViewOfType(EncryptedMarkdownView);
                 if (activeView && activeView.isDecrypted) {
@@ -393,9 +446,9 @@ export default class LeanEncryptPlugin extends Plugin {
 
             try {
                 const ciphertext = await encryptData(plaintext, pw);
-                const newPath = file.path.replace(/\.md$/, '.mdenc');
+                const newPath = file.path.replace(/\.md$/, `.${ENCRYPTED_EXTENSION}`);
 
-                // Write encrypted file and trash the plaintext original
+                // Write encrypted file and safely trash the unencrypted original
                 await this.app.vault.create(newPath, ciphertext);
                 await this.app.vault.trash(file, true);
 
@@ -414,7 +467,7 @@ export default class LeanEncryptPlugin extends Plugin {
         if (!view.file) return;
         const file = view.file;
         const plaintext = view.getEditorText();
-        const newPath = file.path.replace(/\.mdenc$/, '.md');
+        const newPath = file.path.replace(new RegExp(`\\.${ENCRYPTED_EXTENSION}$`), '.md');
 
         try {
             await this.app.vault.create(newPath, plaintext);

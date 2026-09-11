@@ -14,9 +14,32 @@
 - (3) In biology, a taxonomic group into which a class (2) is divided, containing one or more families (2). Thus the class of Mammalia (mammals) includes the orders Carnivora and Primates, each of which is divided into families. \[From Latin ordo an order]
 ## Source[^4]
 - (of a filter) A means of classifying a filter. The order of a filter is an integer number, also called the number of poles; for example, a second-order filter is said to have two poles. In general, the higher the order of a filter, the more closely it approximates an ideal filter and the more complex the circuitry required to construct it.
+## Source[^5]
+### Of A Differential Equation
+- See differential equation
+### Of A Group
+- The order of a group $G$ is the number of elements in $G$. For a list of groups up to order 15, see APPENDIX 17.
+### Of A Matrix
+- An $m \times n$ matrix is said to have order $m \times n$ (read as ‘$m$ by $n$’). An $n \times n$ matrix may be called a square matrix of order $n$.
+### Of A Partial Derivative
+- See HIGHER-ORDER PARTIAL DERIVATIVE.
+### Of A Root
+- See Root
+### Of A Group Element
+- The order of a group element $g$ is the smallest positive integer $n$ such that $g^n = e$, the group’s identity. If the group has finite order, then group elements have finite order, and that order must divide the group’s order by Lagrange’s theorem; in an infinite group an element may have finite or infinite order.
+### Real Numbers
+- The order $<$ on the real numbers satisfies the following axioms; here $x, y, z$ denote real numbers:
+	- (i) (Trichotomy) Precisely one of $x < y, y < x, x = y$ holds.
+	- (ii) (Transitivity) If $x < y$ and $y < z$, then $x < z$.
+	- (iii) If $x < y$, then $x + z < y + z$.
+	- (iv) If $0 < z$ and $x < y$, then $zx < zy$.
+- Together with the field axioms, (i)–(iv) above, state $\mathbb{R}$ is an ordered field. Other examples are the rational numbers and the hyperreals. The real numbers also satisfy the completeness axiom and are the unique complete ordered field.
+### Set Theory
+- See ordinal number, partial order, total order, well ordered. 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

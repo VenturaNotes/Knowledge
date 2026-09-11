@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (of a line in space) Given a line in 3-dimensional space, let $(x_1, y_1, z_1)$ be coordinates of a point on the line, and $l, m, n$ be direction ratios of a direction along the line. Then the line consists of all points $P$ whose coordinates $(x,y,z)$ are given by$$ x = x_1 + tl, \quad y = y_1 + tm, \quad z = z_1 + tn, $$for some value of the parameter $t$. These are parametric equations for the line. They are most easily established by using the vector equation of the line and taking components. If none of $l, m, n$ is zero, the equations can be written$$ \frac{x - x_1}{l} = \frac{y - y_1}{m} = \frac{z - z_1}{n} \quad (=t), $$which can be considered to be another form of the parametric equations, or called the equations of the line in ‘symmetric form’. If, say, $n = 0$ and $l$ and $m$ are both non-zero, the equations are written$$ \frac{x - x_1}{l} = \frac{y - y_1}{m}, \quad z = z_1. $$if, say, $m = n = 0$, they become $y = y_1, z = z_1$.
+- More generally in $n$-dimensional space, if $\mathbf{p}$ and $\mathbf{a}$ are in $\mathbb{R}^n$ with $\mathbf{a} \neq \mathbf{0}$, then$$ \mathbf{r}(t) = \mathbf{p} + t\mathbf{a} \quad (t \in \mathbb{R}) $$is a parameterization of the line passing through $\mathbf{p}$ which is parallel to $\mathbf{a}$.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

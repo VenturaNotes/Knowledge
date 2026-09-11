@@ -17,6 +17,7 @@ parent:
 	- Might need to double-check that Cloudflarebypass doesn't interfere
 - [ ] Get Focus address bar working with VaporNote!
 	- Just make it work similar to the refresh button!
+- [ ] When VaporNote is in full-screen mode, it is blocking the status bar. Is there anyway to make it more forward on screen so that I can still see it even when VaporNote is in full-screen?
 ### Feature Requests
 - [ ] Make it so you can move the tabs around within the floating note
 - [ ] If I use a shortcut to open the "Goals Graph" and then I open and close my VaporNote, this causes me to jump right back to
