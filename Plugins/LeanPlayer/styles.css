@@ -1,0 +1,203 @@
+/* --- Lean Player Modal Layout & Header --- */
+.lean-player-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.lean-player-input-container input.prompt-input {
+    padding-right: 170px !important;
+}
+
+.lean-player-modal .modal-close-button,
+.lean-player-modal .search-input-clear-button,
+.lean-player-input-container .search-input-clear-button,
+.lean-player-input-container input::-webkit-search-cancel-button,
+.lean-player-input-container input::-webkit-search-decoration {
+    display: none !important;
+}
+
+.lean-player-header-info {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    pointer-events: none;
+    gap: 2px;
+    z-index: 10;
+}
+
+.lean-player-search-type {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.lean-player-search-icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.lean-player-search-icon svg {
+    width: 13px;
+    height: 13px;
+    color: var(--text-muted);
+    vertical-align: middle;
+}
+
+.lean-player-count-badge {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-family: var(--font-monospace);
+    opacity: 0.85;
+}
+
+/* --- Music Suggestion Item Styling --- */
+.lean-player-suggestion {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 6px 8px;
+}
+
+.suggestion-title-row {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-normal);
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.suggestion-title-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Extension & Status Badges */
+.suggestion-ext-badge {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--background-modifier-border);
+    padding: 1px 6px;
+    border-radius: 4px;
+    line-height: 1.2;
+    margin-left: 6px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+.suggestion-status-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 4px;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.badge-now-playing {
+    color: var(--text-on-accent);
+    background: var(--interactive-accent);
+}
+
+.badge-up-next {
+    color: #b388ff;
+    background: rgba(179, 136, 255, 0.15);
+}
+
+.badge-prev {
+    color: var(--text-muted);
+    background: var(--background-modifier-border);
+}
+
+.badge-recent {
+    color: var(--text-muted);
+    background: var(--background-modifier-border);
+}
+
+.suggestion-highlight-purple {
+    color: #b388ff !important;
+    font-weight: 800;
+}
+
+.suggestion-sub-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.3;
+}
+
+.suggestion-inline-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.suggestion-inline-icon svg {
+    width: 13px;
+    height: 13px;
+    color: var(--text-muted);
+    vertical-align: middle;
+}
+
+.suggestion-sub-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* --- Status Bar Widget (Fixed 12px Icon Height) --- */
+.lean-player-status-bar {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    line-height: 1;
+    font-size: 12px;
+    padding: 0 4px;
+    user-select: none;
+}
+
+.lean-player-status-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.lean-player-status-icon svg {
+    width: 12px !important;
+    height: 12px !important;
+    vertical-align: middle;
+}
+
+.lean-player-status-text {
+    margin-left: 2px;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.lean-player-status-bar:hover {
+    color: var(--text-accent);
+}

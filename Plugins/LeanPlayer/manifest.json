@@ -1,0 +1,9 @@
+{
+  "id": "lean-player",
+  "name": "Lean Player",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Ultra-lightweight local music player with fuzzy search, recents hierarchy, and background playback.",
+  "author": "Julian Ventura",
+  "isDesktopOnly": true
+}
