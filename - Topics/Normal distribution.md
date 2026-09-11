@@ -17,9 +17,22 @@
 - ![[Screenshot 2025-10-11 at 12.36.04 AM.png|400]]
 	- Standard deviations from the mean
 	- Normal distribution. Showing the percentages of observations occurring within various distances from the mean, measured in standard deviations.
+## Source[^5]
+- (Gaussian distribution) The continuous probability distribution with probability density function $f$ given by$$f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( -\frac{(x-\mu)^2}{2\sigma^2} \right),$$denoted by $\mathrm{N}(\mu, \sigma^2)$. It has mean $\mu$ and variance $\sigma^2$. The distribution is widely used in statistics because many experiments produce data that are approximately normally distributed; the sum of random variables from non-normal distributions is approximately normally distributed (see CENTRAL LIMIT THEOREM), and it is the limiting distribution of distributions such as the binomial, Poisson, and chi-squared distributions. It is called the standard normal distribution when $\mu = 0$ and $\sigma^2 = 1$.
+- ![[Pasted image 20260909230046.png|234]]
+	- Density function of standard normal
+- If $X$ has the distribution $\mathrm{N}(\mu, \sigma^2)$ and $Z = (X-\mu)/\sigma$, then $Z$ has the distribution $\mathrm{N}(0,1)$. The diagram shows the graph of the probability density function of $\mathrm{N}(0,1)$.
+- The table gives, for each value $z$, the percentage of observations which exceed $z$, for the standard normal distribution $\mathrm{N}(0,1)$. Thus the values are to be used for one-tailed tests. Interpolation may be used for values of $z$ not included.
+
+| $z$ | 0.0 | 0.5 | 1.0 | 1.28 | 1.5 | 1.64 | 1.96 | 2.33 | 2.57 | 3.0 | 3.5 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| $\%$ | 50 | 30.9 | 15.9 | 10.0 | 6.7 | 5.0 | 2.5 | 1.0 | 0.5 | 0.14 | 0.02 |
+
+- $P(Z \geq z)$ as percentages
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -1,0 +1,9 @@
+{
+  "id": "lean-encrypt",
+  "name": "Lean Encrypt",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Robust, zero-bloat whole-note AES-256-GCM encryption with Live Preview support.",
+  "author": "Julian Ventura",
+  "isDesktopOnly": false
+}

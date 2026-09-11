@@ -27,6 +27,8 @@
 	- Flicker noise, due to the random trapping and release of charge carriers in many electrical and naturally occurring systems: it has an inverse frequency response and is often called l/f (one over f) noise.
 	- Radiation noise, caused by cosmic radiation, and similar short-wavelength radiation such as gamma rays or X-rays: this is impulse noise and can result in errors in digital systems.
 	- Contact noise, occurring in discontinuous conductors such as carbon resistors, which are made from compressed particles: this is an excess noise source over the normal thermal noise.
+## Source[^6]
+- A descriptive name for random error or variation in observations which is not explained by the model.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -34,3 +36,4 @@
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

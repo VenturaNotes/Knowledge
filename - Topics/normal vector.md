@@ -4,6 +4,9 @@
 - A vector that is perpendicular to a given surface at a given point on that surface.
 - ![[Pasted image 20260404031233.png|400]]
 	- Normal vector
+## Source[^2]
+- (to a plane) A vector whose direction is perpendicular to the plane.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

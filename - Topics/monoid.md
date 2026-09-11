@@ -70,7 +70,10 @@
 4. Natural numbers under addition, natural numbers under multiplication, and strings under concatenation are all examples of a monoid (because they satisfy the properties of a monoid: closure, associativity, and an identity element)
 	- [ ] #question II would like to see a practice problem for this
 5. The identity element for natural numbers under addition is 0 because adding 0 to any number does not change its value
+## Source[^3]
+- A set with an associative binary operation which has an identity element, for example, the natural numbers and addition. Compare GROUP, MAGMA, SEMIGROUP.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.tutorialspoint.com/discrete_mathematics/quiz_on_discrete_mathematics_monoid.htm
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -6,8 +6,11 @@
 - Symbol N. The SI unit of force, being the force required to give a mass of one kilogram an acceleration of $1 \mathrm{~m} \mathrm{~s}^{-2}$. It is named after Sir Isaac Newton (1642-1727).
 ## Source[^3]
 - (symbol: N) The SI unit of force defined as the force that, when applied to a mass of one kilogram, gives it an acceleration of one meter per second per second.
+## Source[^4]
+- The SI unit of force, abbreviated to 'N'. One newton is the force required to give a mass of 1 kilogram an acceleration of 1 meter per second per second.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

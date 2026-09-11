@@ -1,7 +1,10 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A quantity relating to a rigid body and a given axis, derived from the way in which the mass of the rigid body is distributed relative to the axis. It arises in the calculation of the kinetic energy and the angular momentum of the rigid body in general motion. It replaces the role of mass in formulae for linear motion.
+- For a planar rigid body, rotating with angular speed $\omega$ about an axis perpendicular to the plane, the moment of inertia is given by$$ I = \sum_i m_i r_i^2 \quad \text{or} \quad I = \int_R \rho(\mathbf{r}) |\mathbf{r}|^2 \, dA, $$where the first expression is for a discrete collection of particles of mass $m_i$ at distance $r_i$ from the axis, and the second expression is for a continuous distribution of matter within a region $R$ of density $\rho(\mathbf{r})$, where $\mathbf{r}$ is the position vector of a point from the axis. The angular momentum of the body equals $I\omega$, and its (rotational) kinetic energy equals $\frac{1}{2} I \omega^2$.
+- Note that the same rigid body will have different moments of inertia for different axes. For example, the moment of inertia of a uniform disc will be greater for an axis through a point of the circumference than through the centre, as the mass is distributed farther from the axis. Moments of inertia about other axes may be calculated by using the parallel axis theorem and the perpendicular axis theorem. For a three-dimensional rigid body, moments of inertia $I_{xx}, I_{yy}$, and $I_{zz}$ can be defined for the $x$-axis, the $y$-axis, and the $z$-axis. Here $r_i$ and $\mathbf{r}$ denote the distance and displacement from the axis. See INERTIA MATRIX, PRODUCT OF INERTIA.
+- For a list of various moments of inertia, see APPENDIX 3.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
