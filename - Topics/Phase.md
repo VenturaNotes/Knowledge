@@ -23,6 +23,8 @@
 		- OA
 		- OB
 		- Time
+## Source[^7]
+- Suppose that $x = Asin(\omega t + \alpha)$, where $A > 0$, $\omega$ and $\alpha$ are constants. This may, for example, give the displacement $x$ of a particle, moving in a line, at time $t$. The particle is thus oscillating about the origin. The constant $\alpha$ is the phase. Two particles oscillating like this with the same amplitude and period but with different phases are executing the same motion apart from a shift in time.
 ## References
 
 [^1]: https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Physical_Equilibria/Phases_and_Their_Transitions/Phases
@@ -31,3 +33,4 @@
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
 [^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^7]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

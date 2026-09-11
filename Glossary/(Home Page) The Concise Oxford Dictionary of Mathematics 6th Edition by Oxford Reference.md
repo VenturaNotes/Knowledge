@@ -3779,19 +3779,20 @@ Year: 2021-09-01
 3081. [[Perron's paradox]]
 3082. [[perspective]]
 3083. [[perspectivity]]
+3084. [[perturbation]]
+3085. [[peta-]]
+3086. pgf
+	1. An abbreviation for probability generating function.
+3087. [[phase]]
+3088. [[phase plane]]
+3089. [[philosophy of mathematics]]
+3090. [[pi]]
+3091. [[Picard's little theorem]]
+3092. [[Picard's theorem]]
+3093. [[pico-]]
 ## Created
-11. perturbation
-12. peta-
-13. pgf
-14. phase
-15. phase plane
-16. philosophy of mathematics
-17. pi
-18. Picard's little theorem
-19. Picard's theorem
-20. pico-
-
 21. PID
+	1. An abbreviation for principal ideal domain
 22. pie chart
 23. pigeonhole principle
 24. pilot survey

@@ -1,0 +1,60 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 20512,
+    "appName": "Wake Budget",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "Track awake budget and target bedtime based on sleep and naps"
+  },
+  "permissions": [
+    "data:os.device.info",
+    "device:os.local_storage",
+    "data:user.hd.sleep",
+    "device:os.bg_service"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.0.0",
+      "target": "3.0.0",
+      "minVersion": "3.0"
+    }
+  },
+  "debug": false,
+  "targets": {
+    "gt": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gt/home/index.page"
+          ]
+        },
+        "service": {
+          "services": [
+            "service/index.service"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "st": "r"
+        },
+        {
+          "st": "s"
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Wake Budget"
+    }
+  },
+  "defaultLanguage": "en-US"
+}

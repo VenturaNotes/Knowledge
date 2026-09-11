@@ -50,6 +50,7 @@
 	- `cd -`
 - Force delete a folder
 	- `rm -rf folder_name`
+		- The `-rf` part means recursive force
 
 ## Source [^1]
 - A point at which data enters or leaves the computer
