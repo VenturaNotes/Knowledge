@@ -3,7 +3,6 @@ import { Sleep } from '@zos/sensor';
 import { LocalStorage } from '@zos/storage';
 import * as appService from '@zos/app-service';
 
-// Clean 12-hour time formatter without seconds (e.g. "10:21 AM")
 function formatTime12(dateObj) {
   const h24 = dateObj.getHours();
   const m = dateObj.getMinutes();
@@ -30,85 +29,53 @@ Page({
     const now = new Date();
     const nowMs = now.getTime();
 
-    // 2. INSTANT ON-OPEN CHECK (If you wake up & check watch before 5-min daemon ticks)
-    try {
-      const sleep = new Sleep();
-      const currentStatus = typeof sleep.getSleepingStatus === 'function' ? sleep.getSleepingStatus() : 0;
-      const wasSleeping = storage.getItem('bgWasSleeping', false);
+    // 2. Default Seed Segment: Friday night sleep 8:25 PM - 3:13 AM (6h 48m = 408 mins)
+    const seedStart = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1, 20, 25, 0).getTime();
+    const seedEnd = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 3, 13, 0).getTime();
 
-      if (wasSleeping && currentStatus === 0) {
-        storage.setItem('bgWasSleeping', false);
-        storage.setItem('savedWakeTimestamp', nowMs);
-
-        const startMs = storage.getItem('sleepStartTimestamp', 0);
-        if (startMs > 0 && nowMs > startMs) {
-          const durationMins = Math.round((nowMs - startMs) / (60 * 1000));
-          if (durationMins > 0) {
-            // A. Update Sessions List for Rolling 24h
-            const yesterday521PM = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1, 17, 21, 0).getTime();
-            let sessions = storage.getItem('savedSleepSessions', [
-              { wakeTimestamp: yesterday521PM, durationMins: 496 }
-            ]);
-
-            sessions.unshift({ wakeTimestamp: nowMs, durationMins: durationMins });
-            const cutoff48h = nowMs - (48 * 60 * 60 * 1000);
-            sessions = sessions.filter(s => s.wakeTimestamp >= cutoff48h).slice(0, 15);
-            storage.setItem('savedSleepSessions', sessions);
-
-            // B. Calculate True Rolling 24h
-            const cutoff24h = nowMs - (24 * 60 * 60 * 1000);
-            const rolling24hMins = sessions
-              .filter(s => s.wakeTimestamp >= cutoff24h && s.wakeTimestamp <= nowMs)
-              .reduce((sum, s) => sum + s.durationMins, 0);
-
-            storage.setItem('savedRollingSleepDuration', rolling24hMins);
-
-            // C. Update Calendar Date Log (Second Screen)
-            const wakeDate = new Date(nowMs);
-            const dateStr = `${wakeDate.getMonth() + 1}/${wakeDate.getDate()}`;
-            let history = storage.getItem('savedSleepHistory', [
-              { date: '9/10', durationMins: 496 }
-            ]);
-            const existingIdx = history.findIndex(item => item.date === dateStr);
-            if (existingIdx !== -1) {
-              history[existingIdx].durationMins += durationMins;
-            } else {
-              history.unshift({ date: dateStr, durationMins: durationMins });
-            }
-            storage.setItem('savedSleepHistory', history.slice(0, 7));
-          }
-        }
-      } else if (currentStatus === 1) {
-        storage.setItem('bgWasSleeping', true);
-        if (!storage.getItem('sleepStartTimestamp', 0)) {
-          storage.setItem('sleepStartTimestamp', nowMs);
-        }
-      }
-    } catch (err) {
-      console.log('Instant wake check error:', err);
-    }
-
-    // 3. Retrieve stored values
-    const yesterday521PM = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1, 17, 21, 0).getTime();
-    const lastWakeTimestamp = storage.getItem('savedWakeTimestamp', yesterday521PM);
-    const rollingSleepMins = storage.getItem('savedRollingSleepDuration', 496); // True 24h rolling total
-    const sleepHistory = storage.getItem('savedSleepHistory', [
-      { date: '9/10', durationMins: 496 }
+    let segments = storage.getItem('savedSegments', [
+      { startMs: seedStart, endMs: seedEnd, durationMins: 408 }
     ]);
 
-    // 4. Calculate 17-Hour Wake Budget
+    // 3. INSTANT WAKE CHECK: If opened while a sleep segment was active, finalize it immediately!
+    const currentSleepStart = storage.getItem('currentSleepStart', 0);
+    if (currentSleepStart > 0) {
+      const durationMins = Math.round((nowMs - currentSleepStart) / (60 * 1000));
+      if (durationMins > 0) {
+        segments.unshift({
+          startMs: currentSleepStart,
+          endMs: nowMs,
+          durationMins: durationMins
+        });
+        const cutoff7Days = nowMs - (7 * 24 * 60 * 60 * 1000);
+        segments = segments.filter(s => s.endMs >= cutoff7Days);
+        storage.setItem('savedSegments', segments);
+      }
+      storage.setItem('currentSleepStart', 0);
+    }
+
+    // 4. LATEST WAKE TIME & TIME AWAKE
+    const latestSegment = segments.length > 0 ? segments[0] : null;
+    const latestWakeMs = latestSegment ? latestSegment.endMs : seedEnd;
+
     const AWAKE_BUDGET_MS = 17 * 60 * 60 * 1000;
-    const msAwake = Math.max(0, nowMs - lastWakeTimestamp);
+    const msAwake = Math.max(0, nowMs - latestWakeMs);
     const msRemaining = AWAKE_BUDGET_MS - msAwake;
 
-    // 5. Target Bedtime & Wake Time formatted without seconds
-    const bedDate = new Date(lastWakeTimestamp + AWAKE_BUDGET_MS);
+    // Bedtime (Latest Wake + 17 Hours)
+    const bedDate = new Date(latestWakeMs + AWAKE_BUDGET_MS);
     const bedTimeFormatted = formatTime12(bedDate);
 
-    const wakeDateObj = new Date(lastWakeTimestamp);
+    const wakeDateObj = new Date(latestWakeMs);
     const wakeFormatted = formatTime12(wakeDateObj);
 
-    // Format Rolling 24-Hour Sleep
+    // 5. TRUE ROLLING 24-HOUR TOTAL SLEEP (Main Screen)
+    // Sums all segments whose endMs falls within [latestWakeMs - 24h, latestWakeMs]
+    const cutoff24h = latestWakeMs - (24 * 60 * 60 * 1000);
+    const rollingSleepMins = segments
+      .filter(s => s.endMs >= cutoff24h && s.endMs <= latestWakeMs)
+      .reduce((sum, s) => sum + s.durationMins, 0);
+
     const sleepHours = Math.floor(rollingSleepMins / 60);
     const sleepMins = rollingSleepMins % 60;
 
@@ -118,6 +85,21 @@ Page({
     } else if (rollingSleepMins < 420) {
       sleepColor = 0xFFCC00;   // Yellow (5 - 7h)
     }
+
+    // 6. DAILY SLEEP LOG BY WAKE DATE (Second Screen)
+    // Groups all segments by the date string of when you woke up (endMs)
+    const dailyMap = {};
+    segments.forEach(s => {
+      const d = new Date(s.endMs);
+      const dateStr = `${d.getMonth() + 1}/${d.getDate()}`;
+      dailyMap[dateStr] = (dailyMap[dateStr] || 0) + s.durationMins;
+    });
+
+    // Convert map to array of dates
+    const dailyLogList = Object.keys(dailyMap).map(dateStr => ({
+      date: dateStr,
+      durationMins: dailyMap[dateStr]
+    }));
 
     // --- MAIN DASHBOARD WIDGETS ---
     const mainWidgets = [];
@@ -180,7 +162,7 @@ Page({
       align_h: align.CENTER_H
     }));
 
-    // Time Awake & Wake Time (Font size 16)
+    // Time Awake & Wake Time
     const totalMinsAwake = Math.floor(msAwake / (60 * 1000));
     const awakeHours = Math.floor(totalMinsAwake / 60);
     const awakeMins = totalMinsAwake % 60;
@@ -196,7 +178,7 @@ Page({
       align_h: align.CENTER_H
     }));
 
-    // TRUE Rolling 24h Sleep Indicator (Font size 18)
+    // 24h Rolling Total Sleep (Sums all segments in past 24h)
     mainWidgets.push(createWidget(widget.TEXT, {
       x: 0,
       y: 226,
@@ -235,7 +217,7 @@ Page({
     historyWidgets.push(historyTitle);
 
     // Render Calendar Date Breakdown (Top 5 Days)
-    const list = sleepHistory.slice(0, 5);
+    const list = dailyLogList.slice(0, 5);
     const startY = 85;
 
     list.forEach((item, index) => {

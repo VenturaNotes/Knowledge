@@ -132,6 +132,13 @@ export class ProductivityTimerWindow {
 	public renderTimerRowsOnly() {
 		const flattened = this.plugin.getFlattenedRenderedTimers();
 		const rows = this.el.querySelectorAll(".pt-row");
+
+		// If displayed rows count doesn't match the real timer count, force a full DOM update
+		if (rows.length !== flattened.length) {
+			this.render();
+			return;
+		}
+
 		rows.forEach((row, i) => {
 			const timer = flattened[i];
 			if (!timer) return;

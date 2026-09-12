@@ -8,77 +8,55 @@ AppService({
     const storage = new LocalStorage();
     const sleep = new Sleep();
 
-    const checkSleepState = () => {
+    const checkSleepSegments = () => {
       try {
         const now = new Date();
         const nowMs = now.getTime();
         const currentStatus = typeof sleep.getSleepingStatus === 'function' ? sleep.getSleepingStatus() : 0;
-        const wasSleeping = storage.getItem('bgWasSleeping', false);
+        const currentSleepStart = storage.getItem('currentSleepStart', 0);
 
-        // 1. Transition: Awake -> Fell Asleep (0 -> 1)
-        if (!wasSleeping && currentStatus === 1) {
-          storage.setItem('bgWasSleeping', true);
-          storage.setItem('sleepStartTimestamp', nowMs);
+        // 1. Transition: Awake -> Fell Asleep (Start a new segment)
+        if (!currentSleepStart && currentStatus === 1) {
+          storage.setItem('currentSleepStart', nowMs);
         }
 
-        // 2. Transition: Asleep -> Woke Up (1 -> 0)
-        else if (wasSleeping && currentStatus === 0) {
-          storage.setItem('bgWasSleeping', false);
-          storage.setItem('savedWakeTimestamp', nowMs);
-
-          // Calculate sleep duration from real elapsed time
-          const startMs = storage.getItem('sleepStartTimestamp', 0);
-          let durationMins = 0;
-          if (startMs > 0 && nowMs > startMs) {
-            durationMins = Math.round((nowMs - startMs) / (60 * 1000));
-          }
+        // 2. Transition: Asleep -> Woke Up (Finalize the segment)
+        else if (currentSleepStart > 0 && currentStatus === 0) {
+          const durationMins = Math.round((nowMs - currentSleepStart) / (60 * 1000));
 
           if (durationMins > 0) {
-            // A. Update Recent Sessions for Rolling 24h Calculation
-            const yesterday521PM = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1, 17, 21, 0).getTime();
-            let sessions = storage.getItem('savedSleepSessions', [
-              { wakeTimestamp: yesterday521PM, durationMins: 496 }
+            // Seed with your real Friday night sleep if empty: 8:25 PM - 3:13 AM (408 mins)
+            const seedStart = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1, 20, 25, 0).getTime();
+            const seedEnd = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 3, 13, 0).getTime();
+
+            let segments = storage.getItem('savedSegments', [
+              { startMs: seedStart, endMs: seedEnd, durationMins: 408 }
             ]);
 
-            sessions.unshift({ wakeTimestamp: nowMs, durationMins: durationMins });
+            // Add this completed segment to the list
+            segments.unshift({
+              startMs: currentSleepStart,
+              endMs: nowMs,
+              durationMins: durationMins
+            });
 
-            // Keep sessions from the last 48 hours
-            const cutoff48h = nowMs - (48 * 60 * 60 * 1000);
-            sessions = sessions.filter(s => s.wakeTimestamp >= cutoff48h).slice(0, 15);
-            storage.setItem('savedSleepSessions', sessions);
+            // Keep segments from the last 7 days (prune older ones)
+            const cutoff7Days = nowMs - (7 * 24 * 60 * 60 * 1000);
+            segments = segments.filter(s => s.endMs >= cutoff7Days);
 
-            // B. Calculate TRUE Rolling 24h Sleep (past 24h from this wake-up)
-            const cutoff24h = nowMs - (24 * 60 * 60 * 1000);
-            const rolling24hMins = sessions
-              .filter(s => s.wakeTimestamp >= cutoff24h && s.wakeTimestamp <= nowMs)
-              .reduce((sum, s) => sum + s.durationMins, 0);
-
-            storage.setItem('savedRollingSleepDuration', rolling24hMins);
-
-            // C. Update Calendar Date Log (Second Screen, as-is)
-            const wakeDate = new Date(nowMs);
-            const dateStr = `${wakeDate.getMonth() + 1}/${wakeDate.getDate()}`;
-            let history = storage.getItem('savedSleepHistory', [
-              { date: '9/10', durationMins: 496 }
-            ]);
-
-            const existingIdx = history.findIndex(item => item.date === dateStr);
-            if (existingIdx !== -1) {
-              history[existingIdx].durationMins += durationMins;
-            } else {
-              history.unshift({ date: dateStr, durationMins: durationMins });
-            }
-            storage.setItem('savedSleepHistory', history.slice(0, 7));
+            storage.setItem('savedSegments', segments);
           }
+
+          // Reset active sleep start (you are now awake)
+          storage.setItem('currentSleepStart', 0);
         }
       } catch (err) {
-        console.log('[WakeBudget BgService] error:', err);
+        console.log('[WakeBudget Segment Service] error:', err);
       }
     };
 
-    // Check immediately on start, then every 5 minutes
-    checkSleepState();
-    timerId = setInterval(checkSleepState, 5 * 60 * 1000);
+    checkSleepSegments();
+    timerId = setInterval(checkSleepSegments, 5 * 60 * 1000);
   },
 
   onDestroy() {

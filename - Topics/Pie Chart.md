@@ -9,8 +9,18 @@
 - ![[Screenshot 2025-11-13 at 1.18.50 AM.png|400]]
 	- Working 30%, Watching TV 21%, Sleeping 24%, Other 5%, and Socializing 20%
 	- Pie chart. Showing percentages of time spent by a group of people in various types of activities. 
+## Source[^4]
+- Suppose that some finite set is partitioned into subsets. A pie chart is a diagram consisting of a disc divided into sectors whose areas are in the same proportion as the sizes of the subsets. Florence Nightingale helped popularize the pie chart, though it was first introduced by William Playfair in 1801. The figure shows the kinds of vehicles recorded in a small traffic survey.
+- ![[Pasted image 20260912095136.png|235]]
+	- A pie chart
+	- Parts
+		- Cars
+		- Trucks
+		- Others
+		- Buses
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

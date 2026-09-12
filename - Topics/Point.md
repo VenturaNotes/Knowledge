@@ -4,6 +4,9 @@
 - (1) To move the cursor on a screen until it reaches the desired position, item, etc. See also pointing DEVICE. 
 - (2) To indicate the storage location of an item of data. See also POINTER. 
 - (3) The unit of measurement for font size. See also FONT.
+## Source[^2]
+- A geometrical construct which has position but no size. Its position is often specified by coordinates.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
