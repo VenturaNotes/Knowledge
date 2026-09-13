@@ -34,16 +34,24 @@ export class TimerUIRenderer {
 			const isAnyActive = timer.is_running || timer.is_rotation_running;
 			row.classList.toggle("pt-row--running", isAnyActive);
 
-			const playBtn = row.querySelector(".pt-btn--play");
+			const playBtn = row.querySelector(".pt-btn--play") as HTMLButtonElement | null;
 			if (playBtn) {
-				playBtn.classList.toggle("pt-btn--active", timer.is_running);
-				playBtn.innerHTML = timer.is_running ? ICONS.pause : ICONS.play;
+				const runState = timer.is_running ? "true" : "false";
+				if (playBtn.getAttribute("data-running") !== runState) {
+					playBtn.setAttribute("data-running", runState);
+					playBtn.classList.toggle("pt-btn--active", timer.is_running);
+					playBtn.innerHTML = timer.is_running ? ICONS.pause : ICONS.play;
+				}
 			}
 
-			const rotationBtn = row.querySelector(".pt-btn--rotation");
+			const rotationBtn = row.querySelector(".pt-btn--rotation") as HTMLButtonElement | null;
 			if (rotationBtn) {
-				rotationBtn.classList.toggle("pt-btn--active", timer.is_rotation_running);
-				rotationBtn.innerHTML = timer.is_rotation_running ? ICONS.pause : ICONS.loop;
+				const rotState = timer.is_rotation_running ? "true" : "false";
+				if (rotationBtn.getAttribute("data-running") !== rotState) {
+					rotationBtn.setAttribute("data-running", rotState);
+					rotationBtn.classList.toggle("pt-btn--active", timer.is_rotation_running);
+					rotationBtn.innerHTML = timer.is_rotation_running ? ICONS.pause : ICONS.loop;
+				}
 			}
 		});
 
@@ -72,12 +80,15 @@ export class TimerUIRenderer {
 		actionsLeft.style.cssText = "display: flex; gap: 6px; flex-wrap: wrap;";
 
 		const addBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--add", text: "+ Add Timer" });
+		addBtn.type = "button";
 		addBtn.addEventListener("click", () => this.plugin.addTimer());
 
 		const completeBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--complete", text: "Done" });
+		completeBtn.type = "button";
 		completeBtn.addEventListener("click", () => this.plugin.completeAll());
 
 		const archiveBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--archive", text: this.showArchive ? "Hide Archive" : "Archive" });
+		archiveBtn.type = "button";
 		archiveBtn.addEventListener("click", () => {
 			this.showArchive = !this.showArchive;
 			this.plugin.refreshUI();
@@ -97,7 +108,6 @@ export class TimerUIRenderer {
 			statusIndicator.style.borderColor = "rgba(245, 158, 11, 0.2)";
 		}
 
-		// Rollup summary block
 		const rollup = body.createDiv({ cls: "pt-rollup" });
 		rollup.createEl("span", { cls: "pt-rollup-label", text: "Total" });
 		const rollupRight = rollup.createDiv({ cls: "pt-rollup-right" });
@@ -113,7 +123,6 @@ export class TimerUIRenderer {
 		});
 		rollupLeftDetails.style.cssText = "font-size: 11px; color: var(--text-muted); margin-left: 6px; font-weight: normal;";
 
-		// Active task status block
 		const runningLine = body.createDiv({ cls: "pt-rollup pt-rollup--running-info" });
 		runningLine.style.cssText = "border-left-color: var(--color-green);";
 		
@@ -128,11 +137,9 @@ export class TimerUIRenderer {
 		});
 		runningRightText.style.cssText = "font-size: 12px; font-weight: 600; color: var(--text-muted);";
 
-		// Timer Rows
 		const timerRows = body.createDiv({ cls: "pt-timer-rows" });
 		this.buildTimerRows(timerRows, isMobile);
 
-		// Archive Section
 		if (this.showArchive) {
 			const archive = body.createDiv({ cls: "pt-archive" });
 			archive.createEl("h5", { cls: "pt-archive-title", text: "Archive" });
@@ -144,6 +151,7 @@ export class TimerUIRenderer {
 				const sessionHeader = sessionEl.createDiv({ cls: "pt-session-header" });
 				sessionHeader.createEl("span", { cls: "pt-session-date", text: this.plugin.formatDate(session.completed_at) });
 				const delBtn = sessionHeader.createEl("button", { cls: "pt-btn pt-btn--delete" });
+				delBtn.type = "button";
 				delBtn.innerHTML = ICONS.trash;
 				delBtn.addEventListener("click", () => this.plugin.deleteSession(session));
 				for (const entry of session.entries) {
@@ -175,9 +183,9 @@ export class TimerUIRenderer {
 		const row = container.createDiv({
 			cls: `pt-row ${isSubtask ? "pt-row--subtask" : ""} ${timer.is_running || timer.is_rotation_running ? "pt-row--running" : ""}`
 		});
+		row.setAttribute("data-timer-id", timer.id);
 
 		if (isMobile) {
-			// Mobile Layout: Top row has controls + buttons; Bottom row has metrics
 			const rowTop = row.createDiv({ cls: "pt-row-top" });
 			const rowBottom = row.createDiv({ cls: "pt-row-bottom" });
 
@@ -187,7 +195,6 @@ export class TimerUIRenderer {
 			this.renderRightActions(rowTop, timer, isSubtask);
 			this.renderMetrics(rowBottom, timer);
 		} else {
-			// Desktop Layout: Single horizontal flex row with metrics BEFORE right actions
 			this.setupDesktopDrag(row, timer);
 			this.renderCollapseToggle(row, timer, isSubtask);
 			this.renderPlayButton(row, timer, isSubtask);
@@ -260,7 +267,6 @@ export class TimerUIRenderer {
 						t.sort_order = idx;
 						return this.plugin.db.update("timers", { sort_order: idx }, `id=eq.${t.id}`);
 					}));
-					await this.plugin.loadTimers();
 					this.plugin.refreshUI();
 				});
 			}
@@ -300,8 +306,13 @@ export class TimerUIRenderer {
 			cls: `pt-btn pt-btn--play ${timer.is_running ? "pt-btn--active" : ""}`,
 			title: "Play timer"
 		});
+		playBtn.type = "button";
+		playBtn.setAttribute("data-running", timer.is_running ? "true" : "false");
 		playBtn.innerHTML = timer.is_running ? ICONS.pause : ICONS.play;
-		playBtn.addEventListener("click", () => {
+
+		playBtn.addEventListener("click", (e: MouseEvent) => {
+			e.preventDefault();
+			e.stopPropagation();
 			const liveTimer = this.plugin.timers.find(t => t.id === timer.id) || timer;
 			if (isSubtask) {
 				this.plugin.playSubtaskDirectly(liveTimer);
@@ -320,8 +331,8 @@ export class TimerUIRenderer {
 				timer.name = newName;
 				await this.plugin.runWriteAction(async () => {
 					await this.plugin.db.update("timers", { name: newName }, `id=eq.${timer.id}`);
-					await this.plugin.loadTimers();
 				});
+				this.plugin.tickUI();
 			}
 		});
 		nameEl.addEventListener("keydown", (e) => {
@@ -351,7 +362,6 @@ export class TimerUIRenderer {
 				() => this.plugin.timers.find(t => t.id === timer.id)!,
 				this.plugin.db,
 				async () => {
-					await this.plugin.loadTimers();
 					this.plugin.refreshUI();
 				}
 			).open();
@@ -363,19 +373,17 @@ export class TimerUIRenderer {
 		estimateInput.value = estimate > 0 ? this.plugin.formatTime(estimate) : "";
 		estimateInput.placeholder = "0h 00m";
 
+		// Updates safely on blur without blowing away the DOM or losing cursor focus
 		estimateInput.addEventListener("blur", async () => {
 			const parsed = this.plugin.parseTimeInput(estimateInput.value);
-			if (parsed !== null) {
+			if (parsed !== null && parsed !== timer.estimate_seconds) {
+				timer.estimate_seconds = parsed;
 				await this.plugin.runWriteAction(async () => {
-					if (parsed !== timer.estimate_seconds) {
-						timer.estimate_seconds = parsed;
-						await this.plugin.db.update("timers", { estimate_seconds: parsed }, `id=eq.${timer.id}`);
-					}
-					await this.plugin.loadTimers();
-					const { estimate: latestEstimate } = this.plugin.getTimerDisplayTimes(timer);
-					estimateInput.value = latestEstimate > 0 ? this.plugin.formatTime(latestEstimate) : "";
-					this.plugin.refreshUI();
+					await this.plugin.db.update("timers", { estimate_seconds: parsed }, `id=eq.${timer.id}`);
 				});
+				const { estimate: latestEstimate } = this.plugin.getTimerDisplayTimes(timer);
+				estimateInput.value = latestEstimate > 0 ? this.plugin.formatTime(latestEstimate) : "";
+				this.plugin.tickUI(); // in-place update (does not destroy DOM focus)
 			}
 		});
 		estimateInput.addEventListener("keydown", (e) => {
@@ -390,6 +398,7 @@ export class TimerUIRenderer {
 			cls: "pt-btn pt-btn--add-subtask",
 			title: "Add Subtask"
 		});
+		addSubtaskBtn.type = "button";
 		addSubtaskBtn.innerHTML = ICONS.plus;
 		if (isSubtask) {
 			addSubtaskBtn.style.opacity = "0";
@@ -402,6 +411,8 @@ export class TimerUIRenderer {
 			cls: `pt-btn pt-btn--rotation ${timer.is_rotation_running ? "pt-btn--active" : ""}`,
 			title: "Toggle Subtask Rotation"
 		});
+		rotationBtn.type = "button";
+		rotationBtn.setAttribute("data-running", timer.is_rotation_running ? "true" : "false");
 		rotationBtn.innerHTML = timer.is_rotation_running ? ICONS.pause : ICONS.loop;
 		const subtasks = this.plugin.timers.filter(t => t.parent_id === timer.id);
 		if (isSubtask || subtasks.length === 0) {
@@ -415,6 +426,7 @@ export class TimerUIRenderer {
 		}
 
 		const deleteBtn = rightActions.createEl("button", { cls: "pt-btn pt-btn--delete", title: "Delete task" });
+		deleteBtn.type = "button";
 		deleteBtn.innerHTML = ICONS.trash;
 		deleteBtn.addEventListener("click", () => this.plugin.deleteTimer(timer));
 	}

@@ -17,14 +17,15 @@ export default class ProductivityTimerPlugin extends Plugin {
 	sessions: Session[] = [];
 	statusBarEl: HTMLElement;
 	bgTickInterval: number | null = null;
-	isWriting = false;
+	
+	public activeWrites = 0;
+	public lastLocalWriteTime = 0;
 	public isRotating = false;
 	private rotationOverlay: HTMLElement | null = null;
 	private overlayKeydownListener: ((e: KeyboardEvent) => void) | null = null;
 	private loadTimersDebounceTimeout: any = null;
 
 	private writeQueue: Promise<void> = Promise.resolve();
-	public hasPendingRemoteUpdate = false;
 
 	private lastNativeExecutionTime: number = 0;
 
@@ -76,17 +77,18 @@ export default class ProductivityTimerPlugin extends Plugin {
 		});
 
 		this.registerDomEvent(document, "visibilitychange", async () => {
-			if (document.visibilityState === "visible") {
+			if (document.visibilityState === "visible" && navigator.onLine) {
 				await this.performFullResync();
 			}
 		});
 
-		this.syncManager.syncOfflineActions();
+		if (navigator.onLine) {
+			this.syncManager.syncOfflineActions();
+		}
 
 		if (this.settings.supabaseUrl && this.settings.supabaseKey) {
 			const onRemoteChange = () => {
-				if (this.isWriting || this.isRotating) {
-					this.hasPendingRemoteUpdate = true;
+				if (this.activeWrites > 0 || this.isRotating || Date.now() - this.lastLocalWriteTime < 2000) {
 					return;
 				}
 				this.loadTimersDebounced();
@@ -130,7 +132,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 			const powerMonitor = electron?.powerMonitor || electron?.remote?.powerMonitor;
 			if (!powerMonitor) return;
 
-			const onWake = () => { this.performFullResync(); };
+			const onWake = () => {
+				if (navigator.onLine) this.performFullResync();
+			};
 
 			powerMonitor.on("resume", onWake);
 			powerMonitor.on("unlock-screen", onWake);
@@ -170,6 +174,11 @@ export default class ProductivityTimerPlugin extends Plugin {
 	private resyncInFlight = false;
 
 	public async performFullResync(attempt = 0): Promise<void> {
+		if (!navigator.onLine) {
+			this.refreshUI();
+			return;
+		}
+
 		if (attempt === 0) {
 			if (this.resyncInFlight) return;
 			this.resyncInFlight = true;
@@ -184,12 +193,12 @@ export default class ProductivityTimerPlugin extends Plugin {
 			this.refreshUI();
 		} catch (e) {
 			console.error(`Productivity Timer: resync attempt ${attempt} failed.`, e);
-			if (attempt < 3) {
+			if (attempt < 3 && navigator.onLine) {
 				await new Promise(resolve => setTimeout(resolve, 1500));
 				await this.performFullResync(attempt + 1);
 				return;
 			} else {
-				if (this.settings.localTimersCache && this.settings.localTimersCache.length > 0) {
+				if (this.timers.length === 0 && this.settings.localTimersCache && this.settings.localTimersCache.length > 0) {
 					this.timers = this.settings.localTimersCache;
 				}
 				this.refreshUI();
@@ -217,7 +226,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 			const drift = now - this.lastTickTime;
 			this.lastTickTime = now;
 
-			if (drift > 5000) {
+			// Resync when waking from sleep or lock screen
+			if (drift > 5000 && navigator.onLine) {
 				this.performFullResync().catch(() => {});
 			}
 
@@ -232,7 +242,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public async checkSubtaskRotation() {
-		if (this.isRotating || this.isWriting) return;
+		if (this.isRotating || this.activeWrites > 0) return;
 
 		const running = this.timers.find(t => t.is_running);
 		if (!running || running.parent_id === null) return;
@@ -328,7 +338,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 								]);
 							}
 
-							await this.syncManager.loadTimers();
 							this.refreshUI();
 						});
 					} catch (e) {
@@ -690,18 +699,19 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public runWriteAction(action: () => Promise<void>): Promise<void> {
+		this.activeWrites++;
+		this.lastLocalWriteTime = Date.now();
+
 		this.writeQueue = this.writeQueue.then(async () => {
-			this.isWriting = true;
 			try {
 				await action();
 				await this.syncManager.persistLocalState();
 			} catch (e) {
 				console.error("Write action failed:", e);
 			} finally {
-				this.isWriting = false;
-				if (this.hasPendingRemoteUpdate) {
-					this.hasPendingRemoteUpdate = false;
-					this.loadTimersDebounced();
+				this.activeWrites--;
+				if (this.activeWrites === 0) {
+					this.lastLocalWriteTime = Date.now();
 				}
 			}
 		});
@@ -713,8 +723,10 @@ export default class ProductivityTimerPlugin extends Plugin {
 			window.clearTimeout(this.loadTimersDebounceTimeout);
 		}
 		this.loadTimersDebounceTimeout = window.setTimeout(async () => {
-			await this.loadTimers();
-			this.refreshUI();
+			if (navigator.onLine && this.activeWrites === 0 && Date.now() - this.lastLocalWriteTime > 2000) {
+				await this.loadTimers();
+				this.refreshUI();
+			}
 			this.loadTimersDebounceTimeout = null;
 		}, 300);
 	}
@@ -722,11 +734,16 @@ export default class ProductivityTimerPlugin extends Plugin {
 	async loadSettings() {
 		this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
 		this.collapsedParentIds = new Set(this.settings.collapsedParentIds || []);
+		if (this.settings.localTimersCache && this.settings.localTimersCache.length > 0) {
+			this.timers = this.settings.localTimersCache;
+		}
 	}
 
 	async saveSettings() {
 		this.settings.collapsedParentIds = Array.from(this.collapsedParentIds);
-		this.settings.localTimersCache = this.timers;
+		if (this.timers.length > 0 || !this.settings.localTimersCache) {
+			this.settings.localTimersCache = this.timers;
+		}
 		await this.saveData(this.settings);
 	}
 

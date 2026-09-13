@@ -10,123 +10,199 @@ export class SyncManager {
 	}
 
 	public async persistLocalState() {
-		this.plugin.settings.localTimersCache = this.plugin.timers;
+		if (this.plugin.timers.length > 0 || !this.plugin.settings.localTimersCache) {
+			this.plugin.settings.localTimersCache = this.plugin.timers;
+		}
 		await this.plugin.saveSettings();
 	}
 
 	public async syncOfflineActions() {
 		if (!navigator.onLine || !this.plugin.settings.offlineQueue || this.plugin.settings.offlineQueue.length === 0) return;
 
-		const actions = [...this.plugin.settings.offlineQueue];
-		new Notice(`Syncing ${actions.length} offline actions with Supabase...`);
+		// Allow mobile network routing 1.2s to stabilize after reconnecting
+		await new Promise(resolve => setTimeout(resolve, 1200));
+		if (!navigator.onLine) return;
 
-		while (actions.length > 0) {
-			const act = actions[0];
-			if (!act) {
-				actions.shift();
-				continue;
-			}
+		await this.plugin.runWriteAction(async () => {
+			const queue = this.plugin.settings.offlineQueue;
+			if (queue.length === 0) return;
 
-			// Clean any legacy client-only properties from queued payloads
-			if (act.data && typeof act.data === "object") {
-				delete act.data.segments;
-				delete act.data.visual_seconds;
-			}
+			new Notice(`Syncing ${queue.length} offline actions with Supabase...`);
 
+			// 1. RECONCILE REMOTE TIMERS: Check if another device left a timer running
 			try {
-				if (act.type === "INSERT") {
-					await this.plugin.db.insertBypassQueue(act.table, act.data);
-				} else if (act.type === "UPDATE") {
-					await this.plugin.db.updateBypassQueue(act.table, act.data, act.match || "");
-				} else if (act.type === "DELETE") {
-					await this.plugin.db.deleteBypassQueue(act.table, act.match || "");
-				}
-				actions.shift();
-				this.plugin.settings.offlineQueue = [...actions];
-				await this.plugin.saveSettings();
-			} catch (e) {
-				console.error("Offline sync error on action:", act, e);
-				actions.shift(); // discard corrupted action so queue is not blocked
-				this.plugin.settings.offlineQueue = [...actions];
-				await this.plugin.saveSettings();
-			}
-		}
+				const remoteRunning: Timer[] = await this.plugin.db.select(
+					"timers",
+					"or=(is_running.eq.true,is_rotation_running.eq.true)"
+				);
 
-		await this.loadTimers();
-		await this.loadSessions();
-		this.plugin.refreshUI();
+				if (remoteRunning.length > 0) {
+					let earliestOfflineMs = Infinity;
+					for (const act of queue) {
+						if (act.data?.started_at) {
+							const ms = new Date(act.data.started_at).getTime();
+							if (!isNaN(ms) && ms < earliestOfflineMs) earliestOfflineMs = ms;
+						} else if (act.timestamp && act.timestamp < earliestOfflineMs) {
+							earliestOfflineMs = act.timestamp;
+						}
+					}
+
+					for (const r of remoteRunning) {
+						if (r.last_started_at) {
+							const rStartMs = new Date(r.last_started_at).getTime();
+							if (!isNaN(rStartMs) && earliestOfflineMs < Infinity && rStartMs < earliestOfflineMs) {
+								const dur = Math.max(0, Math.floor((earliestOfflineMs - rStartMs) / 1000));
+								if (dur > 0) {
+									const cutoffIso = new Date(earliestOfflineMs).toISOString();
+									await this.plugin.db.insertBypassQueue("timer_segments", {
+										id: generateUUID(),
+										timer_id: r.id,
+										started_at: r.last_started_at,
+										ended_at: cutoffIso,
+										duration_seconds: dur
+									}).catch(() => {});
+								}
+								await this.plugin.db.updateBypassQueue("timers", {
+									is_running: false,
+									is_rotation_running: false,
+									last_started_at: null
+								}, `id=eq.${r.id}`).catch(() => {});
+							}
+						}
+					}
+				}
+			} catch (err) {
+				console.warn("Could not reconcile remote running timers before sync:", err);
+			}
+
+			// 2. FLUSH OFFLINE QUEUE SEQUENTIALLY WITH RETRY SAFETY
+			while (queue.length > 0) {
+				const act = queue[0];
+				if (!act) {
+					queue.shift();
+					continue;
+				}
+
+				if (act.data && typeof act.data === "object") {
+					delete act.data.segments;
+					delete act.data.visual_seconds;
+				}
+
+				try {
+					if (act.type === "INSERT") {
+						await this.plugin.db.insertBypassQueue(act.table, act.data);
+					} else if (act.type === "UPDATE") {
+						await this.plugin.db.updateBypassQueue(act.table, act.data, act.match || "");
+					} else if (act.type === "DELETE") {
+						await this.plugin.db.deleteBypassQueue(act.table, act.match || "");
+					}
+					// Only shift off the queue when the action has actually succeeded
+					queue.shift();
+					await this.plugin.saveSettings();
+				} catch (e: any) {
+					console.error("Offline sync error on action:", act, e);
+					// If it's a 4xx bad request error (syntax/schema), discard it so it doesn't block the queue
+					if (e?.status >= 400 && e?.status < 500) {
+						queue.shift();
+						await this.plugin.saveSettings();
+					} else {
+						// If it's a network glitch or timeout, STOP and leave it in queue to retry later
+						new Notice("Offline sync temporarily paused (network stabilizing)...");
+						break;
+					}
+				}
+			}
+
+			await this.loadTimers();
+			await this.loadSessions();
+			this.plugin.refreshUI();
+		});
 	}
 
 	public async loadTimers() {
 		if (!navigator.onLine) {
-			this.plugin.timers = this.plugin.settings.localTimersCache || [];
+			if (this.plugin.timers.length === 0 && this.plugin.settings.localTimersCache && this.plugin.settings.localTimersCache.length > 0) {
+				this.plugin.timers = this.plugin.settings.localTimersCache;
+			}
 			this.updateCompletionNotifications();
 			return;
 		}
 
-		const dbTimers: Timer[] = await this.plugin.db.select("timers", "order=sort_order.asc,created_at.asc");
-		let dbSegments: TimerSegment[] = [];
 		try {
-			dbSegments = await this.plugin.db.select("timer_segments", "order=started_at.asc");
-		} catch (e) {
-			console.error("Failed to load segments", e);
-			dbSegments = (this.plugin.timers || []).flatMap(t => t.segments || []);
-		}
+			const dbTimers: Timer[] = await this.plugin.db.select("timers", "order=sort_order.asc,created_at.asc");
+			let dbSegments: TimerSegment[] = [];
+			try {
+				dbSegments = await this.plugin.db.select("timer_segments", "order=started_at.asc");
+			} catch (e) {
+				console.error("Failed to load segments", e);
+				dbSegments = (this.plugin.timers || []).flatMap(t => t.segments || []);
+			}
 
-		const runningTimers = dbTimers.filter(t => t.is_running);
-		if (runningTimers.length > 1) {
-			runningTimers.sort((a, b) => {
-				const timeA = a.last_started_at ? new Date(a.last_started_at).getTime() : 0;
-				const timeB = b.last_started_at ? new Date(b.last_started_at).getTime() : 0;
-				return timeB - timeA;
-			});
+			// Handle conflicting running timers
+			const runningTimers = dbTimers.filter(t => t.is_running);
+			if (runningTimers.length > 1) {
+				runningTimers.sort((a, b) => {
+					const timeA = a.last_started_at ? new Date(a.last_started_at).getTime() : 0;
+					const timeB = b.last_started_at ? new Date(b.last_started_at).getTime() : 0;
+					return timeB - timeA;
+				});
 
-			const nowStr = this.plugin.getCalibratedISOString();
-			const conflicting = runningTimers.slice(1);
+				const activeTimer = runningTimers[0];
+				if (activeTimer) {
+					const endCutoffIso = activeTimer.last_started_at || this.plugin.getCalibratedISOString();
+					const endMs = new Date(endCutoffIso).getTime();
+					const conflicting = runningTimers.slice(1);
 
-			for (const st of conflicting) {
-				if (st.last_started_at) {
-					const startMs = new Date(st.last_started_at).getTime();
-					const endMs = new Date(nowStr).getTime();
-					const dur = Math.max(0, Math.floor((endMs - startMs) / 1000));
-					if (dur > 0) {
-						const conflictSeg: TimerSegment = {
-							id: generateUUID(),
-							timer_id: st.id,
-							started_at: st.last_started_at,
-							ended_at: nowStr,
-							duration_seconds: dur
-						};
-						await this.plugin.db.insert("timer_segments", conflictSeg).catch(() => {});
-						dbSegments.push(conflictSeg);
+					for (const st of conflicting) {
+						if (st.last_started_at) {
+							const startMs = new Date(st.last_started_at).getTime();
+							const dur = Math.max(0, Math.floor((endMs - startMs) / 1000));
+							if (dur > 0 && endMs > startMs) {
+								const conflictSeg: TimerSegment = {
+									id: generateUUID(),
+									timer_id: st.id,
+									started_at: st.last_started_at,
+									ended_at: endCutoffIso,
+									duration_seconds: dur
+								};
+								await this.plugin.db.insert("timer_segments", conflictSeg).catch(() => {});
+								dbSegments.push(conflictSeg);
+							}
+						}
+
+						st.is_running = false;
+						st.is_rotation_running = false;
+						st.last_started_at = null;
+						this.plugin.db.update("timers", {
+							is_running: false,
+							is_rotation_running: false,
+							last_started_at: null
+						}, `id=eq.${st.id}`).catch(() => {});
 					}
 				}
+			}
 
-				st.is_running = false;
-				st.is_rotation_running = false;
-				st.last_started_at = null;
-				this.plugin.db.update("timers", {
-					is_running: false,
-					is_rotation_running: false,
-					last_started_at: null
-				}, `id=eq.${st.id}`).catch(() => {});
+			this.plugin.timers = dbTimers.map(dbTimer => {
+				const segments = dbSegments.filter(s => s.timer_id === dbTimer.id);
+				const segSum = segments.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
+				const finalTracked = segments.length > 0 ? segSum : (dbTimer.tracked_seconds || 0);
+
+				return {
+					...dbTimer,
+					tracked_seconds: finalTracked,
+					segments
+				};
+			});
+
+			this.updateCompletionNotifications();
+			await this.persistLocalState();
+		} catch (e) {
+			console.warn("Could not fetch timers from Supabase (offline or network error):", e);
+			if (this.plugin.timers.length === 0 && this.plugin.settings.localTimersCache && this.plugin.settings.localTimersCache.length > 0) {
+				this.plugin.timers = this.plugin.settings.localTimersCache;
+				this.updateCompletionNotifications();
 			}
 		}
-
-		this.plugin.timers = dbTimers.map(dbTimer => {
-			const segments = dbSegments.filter(s => s.timer_id === dbTimer.id);
-			const segSum = segments.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
-			const finalTracked = segments.length > 0 ? segSum : (dbTimer.tracked_seconds || 0);
-
-			return {
-				...dbTimer,
-				tracked_seconds: finalTracked,
-				segments
-			};
-		});
-
-		this.updateCompletionNotifications();
-		await this.persistLocalState();
 	}
 
 	private updateCompletionNotifications() {
@@ -141,6 +217,7 @@ export class SyncManager {
 	}
 
 	public async loadSessions() {
+		if (!navigator.onLine) return;
 		try {
 			const sessionRows = await this.plugin.db.select("timer_sessions", "order=completed_at.desc&limit=30");
 			const entries = await this.plugin.db.select("timer_session_entries", "");

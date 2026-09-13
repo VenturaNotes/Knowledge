@@ -11,69 +11,52 @@ function formatTime12(dateObj) {
   return `${h12}:${String(m).padStart(2, '0')} ${isPM ? 'PM' : 'AM'}`;
 }
 
-function formatMinutesSinceMidnight(mins) {
-  if (typeof mins !== 'number') return '-';
-  const d = new Date();
-  d.setHours(Math.floor(mins / 60), mins % 60, 0, 0);
-  return formatTime12(d);
-}
-
 Page({
   build() {
+    // 1. Ensure background service is running
+    try {
+      if (appService && typeof appService.start === 'function') {
+        appService.start({
+          file: 'service/index.service',
+          complete_func: (opt) => {}
+        });
+      }
+    } catch (e) {}
+
     const storage = new LocalStorage();
     const now = new Date();
     const nowMs = now.getTime();
 
-    // 1. Start background service and log the exact result code to Debug Log
-    try {
-      if (appService && typeof appService.start === 'function') {
-        const startRes = appService.start({
-          file: 'service/index.service',
-          complete_func: (opt) => {
-            try {
-              const dLog = storage.getItem('debugLog', []);
-              dLog.push({
-                t: Date.now(),
-                source: 'init',
-                line: `srv_cb: ${opt.result === 0 ? 'OK' : 'err_' + opt.result}`
-              });
-              storage.setItem('debugLog', dLog.slice(-100));
-            } catch (e) {}
-          }
-        });
+    // 2. Accurately construct past seed dates (Sept 12: 6h 48m Night Sleep + 5h 20m Nap)
+    const yesterday = new Date(nowMs - 24 * 60 * 60 * 1000);
+    const napWakeMs = new Date(yesterday.getFullYear(), yesterday.getMonth(), yesterday.getDate(), 18, 4, 0).getTime();
+    const nightWakeMs = new Date(yesterday.getFullYear(), yesterday.getMonth(), yesterday.getDate(), 3, 13, 0).getTime();
 
-        // If start returns an immediate code, log it
-        if (typeof startRes === 'number') {
-          const dLog = storage.getItem('debugLog', []);
-          dLog.push({
-            t: nowMs,
-            source: 'init',
-            line: `srv_start: ${startRes === 0 ? 'OK' : 'err_' + startRes}`
-          });
-          storage.setItem('debugLog', dLog.slice(-100));
-        }
+    // Initial clean seed with both sessions on Sept 12 (Total: 12h 08m)
+    let segments = storage.getItem('savedSegments', [
+      {
+        startMs: napWakeMs - (320 * 60 * 1000),
+        endMs: napWakeMs,
+        durationMins: 320 // 5h 20m nap
+      },
+      {
+        startMs: nightWakeMs - (408 * 60 * 1000),
+        endMs: nightWakeMs,
+        durationMins: 408 // 6h 48m night sleep
       }
-    } catch (e) {
-      console.log('AppService start error:', e);
-    }
+    ]);
 
-    let segments = storage.getItem('savedSegments', []);
-    const segmentsBeforeCount = segments.length;
-
-    let sleepInfo = null;
-    let naps = [];
-
-    // 2. Live sensor read
+    // 3. Live sensor query: Capture any newly completed sessions
     try {
       const sleep = new Sleep();
       sleep.updateInfo();
 
-      sleepInfo = sleep.getInfo();
-      naps = sleep.getNap() || [];
+      const sleepInfo = sleep.getInfo();
+      const naps = sleep.getNap() || [];
 
       let hasNewData = false;
 
-      // A. Night Sleep
+      // Night Sleep
       if (sleepInfo && typeof sleepInfo.endTime === 'number' && sleepInfo.endTime > 0 && sleepInfo.totalTime > 0) {
         const wakeDate = new Date(
           now.getFullYear(),
@@ -97,7 +80,7 @@ Page({
         }
       }
 
-      // B. Daytime Naps
+      // Daytime Naps
       if (Array.isArray(naps) && naps.length > 0) {
         naps.forEach(nap => {
           const napStop = nap.stop;
@@ -132,39 +115,12 @@ Page({
       const cutoff7Days = nowMs - (7 * 24 * 60 * 60 * 1000);
       segments = segments.filter(s => s.endMs >= cutoff7Days);
 
-      if (hasNewData || segments.length > 0) {
-        storage.setItem('savedSegments', segments);
-      }
+      storage.setItem('savedSegments', segments);
     } catch (err) {
       console.log('Live sensor read error:', err);
     }
 
-    // 3. Log Page-Side Heartbeat
-    try {
-      const debugLog = storage.getItem('debugLog', []);
-      debugLog.push({
-        t: nowMs,
-        source: 'page',
-        sleepEnd: sleepInfo && sleepInfo.endTime > 0 ? sleepInfo.endTime : null,
-        sleepTotal: sleepInfo && sleepInfo.totalTime > 0 ? sleepInfo.totalTime : null,
-        napCount: naps ? naps.length : 0,
-        segBefore: segmentsBeforeCount,
-        segAfter: segments.length
-      });
-      storage.setItem('debugLog', debugLog.slice(-100));
-    } catch (e) {}
-
-    // Fallback if brand new install
-    if (segments.length === 0) {
-      const defaultEnd = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 4, 0).getTime();
-      segments = [{
-        startMs: defaultEnd - (320 * 60 * 1000),
-        endMs: defaultEnd,
-        durationMins: 320
-      }];
-    }
-
-    // 4. Latest Wake Time
+    // 4. Latest Wake Time & Countdown
     const latestSegment = segments[0];
     const latestWakeMs = latestSegment.endMs;
 
@@ -187,14 +143,14 @@ Page({
     const sleepHours = Math.floor(rollingSleepMins / 60);
     const sleepMins = rollingSleepMins % 60;
 
-    let sleepColor = 0x00FF88;
+    let sleepColor = 0x00FF88; // Green (>= 7h)
     if (rollingSleepMins < 300) {
-      sleepColor = 0xFF4444;
+      sleepColor = 0xFF4444;   // Red (< 5h)
     } else if (rollingSleepMins < 420) {
-      sleepColor = 0xFFCC00;
+      sleepColor = 0xFFCC00;   // Yellow (5 - 7h)
     }
 
-    // 6. Daily Sleep Log Grouping
+    // 6. Daily Sleep Log Grouping (Strictly by Wake-Up Date)
     const dailyMap = {};
     segments.forEach(s => {
       const d = new Date(s.endMs);
@@ -207,16 +163,12 @@ Page({
       durationMins: dailyMap[dateStr]
     }));
 
-    // 7. Debug Log Entries
-    const debugLog = storage.getItem('debugLog', []);
-    const recentEntries = [...debugLog].reverse().slice(0, 9);
-
     // --- MAIN DASHBOARD WIDGETS ---
     const mainWidgets = [];
 
     mainWidgets.push(createWidget(widget.TEXT, {
       x: 0,
-      y: 42,
+      y: 45,
       w: 320,
       h: 22,
       text: 'AWAKE BUDGET',
@@ -240,7 +192,7 @@ Page({
 
     mainWidgets.push(createWidget(widget.TEXT, {
       x: 0,
-      y: 65,
+      y: 70,
       w: 320,
       h: 55,
       text: statusText,
@@ -251,7 +203,7 @@ Page({
 
     mainWidgets.push(createWidget(widget.TEXT, {
       x: 0,
-      y: 122,
+      y: 130,
       w: 320,
       h: 20,
       text: msRemaining > 0 ? 'time remaining' : 'overdue',
@@ -263,7 +215,7 @@ Page({
     // Bedtime Card
     mainWidgets.push(createWidget(widget.TEXT, {
       x: 0,
-      y: 152,
+      y: 162,
       w: 320,
       h: 30,
       text: `Bed latest: ${bedTimeFormatted}`,
@@ -279,7 +231,7 @@ Page({
 
     mainWidgets.push(createWidget(widget.TEXT, {
       x: 0,
-      y: 190,
+      y: 202,
       w: 320,
       h: 28,
       text: `Awake ${awakeHours}h ${awakeMins}m (Woke ${wakeFormatted})`,
@@ -291,7 +243,7 @@ Page({
     // 24h Sleep Indicator
     mainWidgets.push(createWidget(widget.TEXT, {
       x: 0,
-      y: 226,
+      y: 238,
       w: 320,
       h: 30,
       text: `24h Sleep: ${sleepHours}h ${sleepMins}m`,
@@ -324,9 +276,9 @@ Page({
       const itemM = item.durationMins % 60;
       const formattedDuration = `${itemH}h ${itemM > 0 ? itemM + 'm' : ''}`.trim();
 
-      let itemColor = 0x00FF88;
-      if (item.durationMins < 300) itemColor = 0xFF4444;
-      else if (item.durationMins < 420) itemColor = 0xFFCC00;
+      let itemColor = 0x00FF88; // Green
+      if (item.durationMins < 300) itemColor = 0xFF4444; // Red
+      else if (item.durationMins < 420) itemColor = 0xFFCC00; // Yellow
 
       const rowText = createWidget(widget.TEXT, {
         x: 45,
@@ -354,72 +306,9 @@ Page({
     historyBackBtn.setProperty(prop.VISIBLE, false);
     historyWidgets.push(historyBackBtn);
 
-    // --- DEBUG LOG OVERLAY WIDGETS ---
-    const debugWidgets = [];
-
-    const debugBg = createWidget(widget.FILL_RECT, {
-      x: 0, y: 0, w: 320, h: 380, color: 0x000000
-    });
-    debugBg.setProperty(prop.VISIBLE, false);
-    debugWidgets.push(debugBg);
-
-    const debugTitle = createWidget(widget.TEXT, {
-      x: 0, y: 35, w: 320, h: 22,
-      text: 'DEBUG LOG (latest first)', color: 0x888888, text_size: 13, align_h: align.CENTER_H
-    });
-    debugTitle.setProperty(prop.VISIBLE, false);
-    debugWidgets.push(debugTitle);
-
-    if (recentEntries.length === 0) {
-      const emptyText = createWidget(widget.TEXT, {
-        x: 10, y: 80, w: 300, h: 24,
-        text: 'No entries yet.', text_size: 14, color: 0x777777, align_h: align.CENTER_H
-      });
-      emptyText.setProperty(prop.VISIBLE, false);
-      debugWidgets.push(emptyText);
-    }
-
-    recentEntries.forEach((entry, index) => {
-      const t = new Date(entry.t);
-      const timeStr = formatTime12(t);
-      let line = '';
-
-      if (entry.line) {
-        line = `${timeStr} [${entry.source}] ${entry.line}`;
-      } else {
-        const endStr = formatMinutesSinceMidnight(entry.sleepEnd);
-        line = `${timeStr} [${entry.source || '?'}] end:${endStr} naps:${entry.napCount} seg:${entry.segBefore}->${entry.segAfter}`;
-      }
-
-      const row = createWidget(widget.TEXT, {
-        x: 10,
-        y: 60 + (index * 26),
-        w: 300,
-        h: 24,
-        text: line,
-        text_size: 13,
-        color: entry.source === 'service' ? 0x00FF88 : (entry.source === 'init' ? 0xFFCC00 : 0x00CCFF),
-        align_h: align.LEFT
-      });
-      row.setProperty(prop.VISIBLE, false);
-      debugWidgets.push(row);
-    });
-
-    const debugBackBtn = createWidget(widget.BUTTON, {
-      x: 75, y: 320, w: 170, h: 40, radius: 20,
-      normal_color: 0x222222, press_color: 0x444444,
-      text: 'Back', text_size: 16, color: 0xFFFFFF,
-      click_func: () => {
-        debugWidgets.forEach(w => w.setProperty(prop.VISIBLE, false));
-        mainWidgets.forEach(w => w.setProperty(prop.VISIBLE, true));
-      }
-    });
-    debugBackBtn.setProperty(prop.VISIBLE, false);
-    debugWidgets.push(debugBackBtn);
-
-    // --- MAIN SCREEN BUTTONS ---
+    // --- MAIN SCREEN BUTTON (Centered, no extra debug button) ---
     const historyBtn = createWidget(widget.BUTTON, {
-      x: 75, y: 268, w: 170, h: 38, radius: 19,
+      x: 75, y: 285, w: 170, h: 42, radius: 21,
       normal_color: 0x1c1c1e, press_color: 0x3a3a3c,
       text: 'Sleep Log', text_size: 16, color: 0xFFFFFF,
       click_func: () => {
@@ -428,16 +317,5 @@ Page({
       }
     });
     mainWidgets.push(historyBtn);
-
-    const debugBtn = createWidget(widget.BUTTON, {
-      x: 75, y: 312, w: 170, h: 34, radius: 17,
-      normal_color: 0x1c1c1e, press_color: 0x3a3a3c,
-      text: 'Debug Log', text_size: 14, color: 0x888888,
-      click_func: () => {
-        mainWidgets.forEach(w => w.setProperty(prop.VISIBLE, false));
-        debugWidgets.forEach(w => w.setProperty(prop.VISIBLE, true));
-      }
-    });
-    mainWidgets.push(debugBtn);
   }
 });

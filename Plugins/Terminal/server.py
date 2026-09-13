@@ -23,6 +23,7 @@ Protocol (all messages are JSON):
 """
 
 import asyncio
+import codecs
 import fcntl
 import json
 import os
@@ -108,6 +109,9 @@ def read_pty_thread(session_id: str):
 
     master_fd = session["master_fd"]
 
+    # Incremental decoder buffers incomplete multi-byte sequences across chunk boundaries
+    decoder = codecs.getincrementaldecoder("utf-8")(errors="replace")
+
     while True:
         try:
             data = os.read(master_fd, 4096)
@@ -117,11 +121,12 @@ def read_pty_thread(session_id: str):
             # PTY closed (child exited)
             break
 
-        text = data.decode("utf-8", errors="replace")
-        asyncio.run_coroutine_threadsafe(
-            broadcast(session_id, {"type": "output", "data": text}),
-            loop,
-        )
+        text = decoder.decode(data)
+        if text:
+            asyncio.run_coroutine_threadsafe(
+                broadcast(session_id, {"type": "output", "data": text}),
+                loop,
+            )
 
     # Child exited — reap it
     with sessions_lock:

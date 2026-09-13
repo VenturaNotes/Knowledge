@@ -75,6 +75,7 @@ export class TimerService {
 	}
 
 	private async stopServerRunningTimers(excludeTimerId: string | null = null): Promise<void> {
+		if (!navigator.onLine) return;
 		const nowStr = this.plugin.getCalibratedISOString();
 		const nowMs = new Date(nowStr).getTime();
 
@@ -156,23 +157,27 @@ export class TimerService {
 				tracked_seconds: upd.tracked_seconds
 			}, `id=eq.${upd.id}`);
 		}
-		await this.stopServerRunningTimers(null);
+		if (navigator.onLine) {
+			await this.stopServerRunningTimers(null);
+		}
 	}
 
 	public async playParent(parent: Timer) {
+		const target = this.plugin.timers.find(t => t.id === parent.id) || parent;
+		const wasRunning = target.is_running;
+		const nowStr = this.plugin.getCalibratedISOString();
+
+		// 1. Instant local mutation & immediate UI update (0ms latency)
+		const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
+
+		if (!wasRunning) {
+			target.is_running = true;
+			target.last_started_at = nowStr;
+		}
+		this.plugin.refreshUI();
+
+		// 2. Queue network updates safely in the background
 		await this.plugin.runWriteAction(async () => {
-			const target = this.plugin.timers.find(t => t.id === parent.id) || parent;
-			const wasRunning = target.is_running;
-			const nowStr = this.plugin.getCalibratedISOString();
-
-			const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
-
-			if (!wasRunning) {
-				target.is_running = true;
-				target.last_started_at = nowStr;
-			}
-			this.plugin.refreshUI();
-
 			for (const seg of segmentsToInsert) {
 				await this.plugin.db.insert("timer_segments", seg);
 			}
@@ -185,7 +190,9 @@ export class TimerService {
 				}, `id=eq.${upd.id}`);
 			}
 
-			await this.stopServerRunningTimers(wasRunning ? null : target.id);
+			if (navigator.onLine && !wasRunning) {
+				await this.stopServerRunningTimers(target.id);
+			}
 
 			if (!wasRunning) {
 				await this.plugin.db.update("timers", {
@@ -194,29 +201,30 @@ export class TimerService {
 				}, `id=eq.${target.id}`);
 			}
 
-			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
 		});
 	}
 
 	public async playSubtaskDirectly(subtask: Timer) {
+		const target = this.plugin.timers.find(t => t.id === subtask.id) || subtask;
+		const wasRunning = target.is_running;
+		const nowStr = this.plugin.getCalibratedISOString();
+
+		// 1. Instant local mutation & immediate UI update (0ms latency)
+		const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
+
+		if (!wasRunning) {
+			target.is_running = true;
+			target.is_last_active = true;
+			target.last_started_at = nowStr;
+
+			const siblings = this.plugin.timers.filter(t => t.parent_id === target.parent_id && t.id !== target.id);
+			for (const sib of siblings) sib.is_last_active = false;
+		}
+		this.plugin.refreshUI();
+
+		// 2. Queue network updates safely in the background
 		await this.plugin.runWriteAction(async () => {
-			const target = this.plugin.timers.find(t => t.id === subtask.id) || subtask;
-			const wasRunning = target.is_running;
-			const nowStr = this.plugin.getCalibratedISOString();
-
-			const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
-
-			if (!wasRunning) {
-				target.is_running = true;
-				target.is_last_active = true;
-				target.last_started_at = nowStr;
-
-				const siblings = this.plugin.timers.filter(t => t.parent_id === target.parent_id && t.id !== target.id);
-				for (const sib of siblings) sib.is_last_active = false;
-			}
-			this.plugin.refreshUI();
-
 			for (const seg of segmentsToInsert) {
 				await this.plugin.db.insert("timer_segments", seg);
 			}
@@ -229,7 +237,9 @@ export class TimerService {
 				}, `id=eq.${upd.id}`);
 			}
 
-			await this.stopServerRunningTimers(wasRunning ? null : target.id);
+			if (navigator.onLine && !wasRunning) {
+				await this.stopServerRunningTimers(target.id);
+			}
 
 			if (!wasRunning) {
 				await this.plugin.db.update("timers", {
@@ -244,7 +254,6 @@ export class TimerService {
 				));
 			}
 
-			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
 		});
 	}
@@ -257,25 +266,27 @@ export class TimerService {
 			return;
 		}
 
-		await this.plugin.runWriteAction(async () => {
-			const wasRotationRunning = target.is_rotation_running;
-			const nowStr = this.plugin.getCalibratedISOString();
-			const activeSub = subtasks.find(t => t.is_last_active) || subtasks[0];
-			if (!activeSub) return;
+		const wasRotationRunning = target.is_rotation_running;
+		const nowStr = this.plugin.getCalibratedISOString();
+		const activeSub = subtasks.find(t => t.is_last_active) || subtasks[0];
+		if (!activeSub) return;
 
-			const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
+		// 1. Instant local mutation & immediate UI update (0ms latency)
+		const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
 
-			if (!wasRotationRunning) {
-				target.is_rotation_running = true;
-				for (const sub of subtasks) {
-					if (sub.id !== activeSub.id) sub.is_last_active = false;
-				}
-				activeSub.is_running = true;
-				activeSub.is_last_active = true;
-				activeSub.last_started_at = nowStr;
+		if (!wasRotationRunning) {
+			target.is_rotation_running = true;
+			for (const sub of subtasks) {
+				if (sub.id !== activeSub.id) sub.is_last_active = false;
 			}
-			this.plugin.refreshUI();
+			activeSub.is_running = true;
+			activeSub.is_last_active = true;
+			activeSub.last_started_at = nowStr;
+		}
+		this.plugin.refreshUI();
 
+		// 2. Queue network updates safely in the background
+		await this.plugin.runWriteAction(async () => {
 			for (const seg of segmentsToInsert) {
 				await this.plugin.db.insert("timer_segments", seg);
 			}
@@ -288,7 +299,9 @@ export class TimerService {
 				}, `id=eq.${upd.id}`);
 			}
 
-			await this.stopServerRunningTimers(wasRotationRunning ? null : activeSub.id);
+			if (navigator.onLine && !wasRotationRunning) {
+				await this.stopServerRunningTimers(activeSub.id);
+			}
 
 			if (!wasRotationRunning) {
 				await this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${target.id}`);
@@ -304,7 +317,6 @@ export class TimerService {
 				await this.plugin.db.update("timers", { is_rotation_running: false }, `id=eq.${target.id}`);
 			}
 
-			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
 		});
 	}
@@ -332,7 +344,9 @@ export class TimerService {
 			this.plugin.refreshUI();
 
 			await this.plugin.db.insert("timers", dbPayload);
-			await this.plugin.syncManager.loadTimers();
+			if (navigator.onLine) {
+				await this.plugin.syncManager.loadTimers();
+			}
 			this.plugin.refreshUI();
 		});
 	}
@@ -360,7 +374,9 @@ export class TimerService {
 			this.plugin.refreshUI();
 
 			await this.plugin.db.insert("timers", dbPayload);
-			await this.plugin.syncManager.loadTimers();
+			if (navigator.onLine) {
+				await this.plugin.syncManager.loadTimers();
+			}
 			this.plugin.refreshUI();
 		});
 	}
@@ -371,7 +387,9 @@ export class TimerService {
 			this.plugin.refreshUI();
 
 			await this.plugin.db.delete("timers", `id=eq.${timer.id}`);
-			await this.plugin.syncManager.loadTimers();
+			if (navigator.onLine) {
+				await this.plugin.syncManager.loadTimers();
+			}
 			this.plugin.refreshUI();
 		});
 	}
@@ -392,10 +410,12 @@ export class TimerService {
 			});
 			const session = Array.isArray(sessionResult) ? sessionResult[0] : sessionResult;
 
-			if (!session) {
+			if (!session && navigator.onLine) {
 				new Notice("Failed to complete session.");
 				return;
 			}
+
+			const sessionId = session ? session.id : generateUUID();
 
 			const entries = this.plugin.timers.map(timer => {
 				let entryName = timer.name;
@@ -405,7 +425,7 @@ export class TimerService {
 				}
 				return {
 					id: generateUUID(),
-					session_id: session.id,
+					session_id: sessionId,
 					timer_name: entryName,
 					estimate_seconds: timer.estimate_seconds,
 					tracked_seconds: this.plugin.getTimerDisplayTimes(timer).tracked,
@@ -434,8 +454,10 @@ export class TimerService {
 				timer.segments = [];
 			}
 
-			await this.plugin.syncManager.loadTimers();
-			await this.plugin.syncManager.loadSessions();
+			if (navigator.onLine) {
+				await this.plugin.syncManager.loadTimers();
+				await this.plugin.syncManager.loadSessions();
+			}
 			new Notice("Session completed and archived.");
 			this.plugin.refreshUI();
 		});

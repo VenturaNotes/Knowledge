@@ -14,7 +14,6 @@ function computeSegmentsUpdate(sleep, storage) {
   const nowMs = now.getTime();
 
   let segments = storage.getItem('savedSegments', []);
-  const segmentsBeforeCount = segments.length;
   let updated = false;
 
   // A. Night Sleep
@@ -78,31 +77,6 @@ function computeSegmentsUpdate(sleep, storage) {
     segments = segments.filter(s => s.endMs >= cutoff7Days);
     storage.setItem('savedSegments', segments);
   }
-
-  return {
-    sleepInfo,
-    naps,
-    segmentsBeforeCount,
-    segmentsAfterCount: segments.length
-  };
-}
-
-function logHeartbeat(storage, source, sleepInfo, naps, segBefore, segAfter) {
-  try {
-    const debugLog = storage.getItem('debugLog', []);
-    debugLog.push({
-      t: Date.now(),
-      source: source,
-      sleepEnd: sleepInfo && sleepInfo.endTime > 0 ? sleepInfo.endTime : null,
-      sleepTotal: sleepInfo && sleepInfo.totalTime > 0 ? sleepInfo.totalTime : null,
-      napCount: naps.length,
-      segBefore,
-      segAfter
-    });
-    storage.setItem('debugLog', debugLog.slice(-100));
-  } catch (e) {
-    console.log('[debugLog write error]', e);
-  }
 }
 
 AppService({
@@ -112,11 +86,9 @@ AppService({
 
     const scanSensors = () => {
       try {
-        const { sleepInfo, naps, segmentsBeforeCount, segmentsAfterCount } =
-          computeSegmentsUpdate(sleep, storage);
-        logHeartbeat(storage, 'service', sleepInfo, naps, segmentsBeforeCount, segmentsAfterCount);
+        computeSegmentsUpdate(sleep, storage);
       } catch (err) {
-        console.log('[BgService Sensor Scan Error]:', err);
+        console.log('[BgService Error]:', err);
       }
     };
 

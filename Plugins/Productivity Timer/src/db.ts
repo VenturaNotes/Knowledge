@@ -68,21 +68,14 @@ export class SupabaseClient {
 	}
 
 	async select(table: string, query = ""): Promise<any[]> {
-		try {
-			const res = await requestUrl({
-				url: `${this.url}/rest/v1/${table}?${query}`,
-				method: "GET",
-				headers: this.headers({ "Accept": "application/json" }),
-				throw: true
-			});
-			this.calibrateOffset(res.headers);
-			return res.json;
-		} catch (e: any) {
-			if (!navigator.onLine) {
-				return [];
-			}
-			throw new Error(`Select failed on ${table}: ${e?.message || e}`);
-		}
+		const res = await requestUrl({
+			url: `${this.url}/rest/v1/${table}?${query}`,
+			method: "GET",
+			headers: this.headers({ "Accept": "application/json" }),
+			throw: true
+		});
+		this.calibrateOffset(res.headers);
+		return res.json;
 	}
 
 	async insert(table: string, data: any): Promise<any> {
@@ -237,8 +230,9 @@ export class SupabaseClient {
 				const msg = JSON.parse(event.data);
 				if (msg.event === "postgres_changes") {
 					const topic = msg.topic || "";
+					const payloadTable = msg.payload?.data?.table;
 					for (const [t, cb] of this.realtimeCallbacks.entries()) {
-						if (topic === `realtime:public:${t}` || topic.endsWith(`:${t}`)) {
+						if (topic === `realtime:public:${t}` || topic.endsWith(`:${t}`) || payloadTable === t) {
 							cb(msg.payload);
 						}
 					}

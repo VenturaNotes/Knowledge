@@ -120,6 +120,23 @@ export class ProductivityTimerWindow {
 	}
 
 	public render() {
+		// Save focused element & cursor position before re-rendering
+		const activeEl = document.activeElement as HTMLElement | null;
+		let activeInfo: { timerId: string; isEst: boolean; isName: boolean; start: number | null; end: number | null } | null = null;
+
+		if (activeEl && this.el.contains(activeEl)) {
+			const row = activeEl.closest(".pt-row");
+			const timerId = row?.getAttribute("data-timer-id");
+			if (timerId) {
+				if (activeEl.classList.contains("pt-estimate-input")) {
+					const inp = activeEl as HTMLInputElement;
+					activeInfo = { timerId, isEst: true, isName: false, start: inp.selectionStart, end: inp.selectionEnd };
+				} else if (activeEl.classList.contains("pt-name")) {
+					activeInfo = { timerId, isEst: false, isName: true, start: null, end: null };
+				}
+			}
+		}
+
 		let bodyEl = this.el.querySelector(".pt-body") as HTMLElement;
 		const savedScrollTop = bodyEl ? bodyEl.scrollTop : 0;
 
@@ -140,6 +157,25 @@ export class ProductivityTimerWindow {
 		bodyEl = this.el.createDiv({ cls: "pt-body" });
 		this.renderer.renderBody(bodyEl, false);
 		bodyEl.scrollTop = savedScrollTop;
+
+		// Restore cursor focus seamlessly if this input was being edited
+		if (activeInfo) {
+			const targetRow = this.el.querySelector(`.pt-row[data-timer-id="${activeInfo.timerId}"]`);
+			if (targetRow) {
+				if (activeInfo.isEst) {
+					const inp = targetRow.querySelector(".pt-estimate-input") as HTMLInputElement | null;
+					if (inp) {
+						inp.focus();
+						if (activeInfo.start !== null && activeInfo.end !== null) {
+							inp.setSelectionRange(activeInfo.start, activeInfo.end);
+						}
+					}
+				} else if (activeInfo.isName) {
+					const nameEl = targetRow.querySelector(".pt-name") as HTMLElement | null;
+					nameEl?.focus();
+				}
+			}
+		}
 	}
 
 	private setupDrag(handle: HTMLElement) {
