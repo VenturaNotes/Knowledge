@@ -70,6 +70,14 @@ module.exports = async (params) => {
             continue;
         }
 
+        // Strip leading bullets (-, *, +) and checkboxes (- [ ], - [x], etc.)
+        const cleanedContent = lineText.trim()
+            .replace(/^(?:[-*+]\s+(?:\[\s*[^\]]?\s*\]\s*)?|\[\s*[^\]]?\s*\]\s+)/, '')
+            .trim();
+
+        // Skip lines that were only an empty bullet or checkbox
+        if (!cleanedContent) continue;
+
         const cleanPath = currentHeaders.filter(Boolean);
         const breadcrumb = cleanPath.length > 0 ? `[${cleanPath.join(" > ")}]` : "[]";
         const inSection = (i >= startLine && i < endLine);
@@ -77,8 +85,8 @@ module.exports = async (params) => {
         allLines.push({
             line: i,
             breadcrumb: breadcrumb,
-            content: lineText.trim(),
-            fullText: `${breadcrumb} ${lineText.trim()}`,
+            content: cleanedContent,
+            fullText: `${breadcrumb} ${cleanedContent}`,
             inSection: inSection
         });
     }

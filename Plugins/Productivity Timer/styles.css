@@ -22,7 +22,6 @@
 	font-family: var(--font-interface) !important;
 	box-sizing: border-box !important;
 }
-/* Disable parent view-content or sidebar leaf scroll fade overlays */
 .view-content:has(.pt-mobile-wrapper)::after,
 .view-content:has(.pt-mobile-wrapper)::before,
 .workspace-leaf-content:has(.pt-mobile-wrapper)::after,
@@ -224,7 +223,6 @@
 	box-sizing: border-box !important;
 }
 
-/* Shift datetime-local text fields wrapper to make room for native calendar icon */
 .pt-modal-log-row input[type="datetime-local"]::-webkit-datetime-edit,
 .pt-modal-log-row input[type="datetime-local"]::-webkit-datetime-edit-fields-wrapper {
 	padding-left: 10px !important;
@@ -437,62 +435,14 @@
 	z-index: 10;
 	background: transparent;
 }
-.pt-resize-n {
-	top: -4px;
-	left: 4px;
-	right: 4px;
-	height: 8px;
-	cursor: ns-resize;
-}
-.pt-resize-s {
-	bottom: -4px;
-	left: 4px;
-	right: 4px;
-	height: 8px;
-	cursor: ns-resize;
-}
-.pt-resize-e {
-	right: -4px;
-	top: 4px;
-	bottom: 4px;
-	width: 8px;
-	cursor: ew-resize;
-}
-.pt-resize-w {
-	left: -4px;
-	top: 4px;
-	bottom: 4px;
-	width: 8px;
-	cursor: ew-resize;
-}
-.pt-resize-nw {
-	top: -4px;
-	left: -4px;
-	width: 10px;
-	height: 10px;
-	cursor: nwse-resize;
-}
-.pt-resize-ne {
-	top: -4px;
-	right: -4px;
-	width: 10px;
-	height: 10px;
-	cursor: nesw-resize;
-}
-.pt-resize-sw {
-	bottom: -4px;
-	left: -4px;
-	width: 10px;
-	height: 10px;
-	cursor: nesw-resize;
-}
-.pt-resize-se {
-	bottom: -4px;
-	right: -4px;
-	width: 10px;
-	height: 10px;
-	cursor: nwse-resize;
-}
+.pt-resize-n { top: -4px; left: 4px; right: 4px; height: 8px; cursor: ns-resize; }
+.pt-resize-s { bottom: -4px; left: 4px; right: 4px; height: 8px; cursor: ns-resize; }
+.pt-resize-e { right: -4px; top: 4px; bottom: 4px; width: 8px; cursor: ew-resize; }
+.pt-resize-w { left: -4px; top: 4px; bottom: 4px; width: 8px; cursor: ew-resize; }
+.pt-resize-nw { top: -4px; left: -4px; width: 10px; height: 10px; cursor: nwse-resize; }
+.pt-resize-ne { top: -4px; right: -4px; width: 10px; height: 10px; cursor: nesw-resize; }
+.pt-resize-sw { bottom: -4px; left: -4px; width: 10px; height: 10px; cursor: nesw-resize; }
+.pt-resize-se { bottom: -4px; right: -4px; width: 10px; height: 10px; cursor: nwse-resize; }
 .pt-status-bar-item {
 	order: 999999 !important;
 	padding-left: 4px !important;
@@ -508,7 +458,7 @@
 	background: var(--background-secondary-alt) !important;
 }
 
-/* Responsive adaptations for Mobile Sidebar view */
+/* Responsive adaptations for Mobile View */
 .pt-mobile-wrapper .pt-row {
 	display: flex !important;
 	flex-direction: column !important;
@@ -553,12 +503,10 @@
 	margin-left: 14px !important;
 }
 
-/* Disable pointer events on nested row elements during active drag actions */
 body.pt-is-row-dragging .pt-row * {
 	pointer-events: none !important;
 }
 
-/* Bypass Electron webview interception boundaries during active drag, resize, and title-dragging actions */
 body.pt-is-row-dragging webview,
 body.pt-is-row-dragging iframe,
 body.pt-is-window-dragging webview,

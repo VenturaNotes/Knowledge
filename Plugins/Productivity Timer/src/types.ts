@@ -18,7 +18,7 @@ export interface Timer {
 	is_last_active: boolean;
 	sort_order: number;
 	last_started_at: string | null;
-	created_at: string;
+	created_at?: string;
 	visual_seconds?: number;
 	segments?: TimerSegment[];
 }
@@ -68,6 +68,21 @@ export const DEFAULT_SETTINGS: PluginSettings = {
 	offlineQueue: [],
 	localTimersCache: []
 };
+
+export function isValidUUID(id: string): boolean {
+	return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
+}
+
+export function generateUUID(): string {
+	if (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") {
+		return crypto.randomUUID();
+	}
+	return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+		const r = (Math.random() * 16) | 0;
+		const v = c === "x" ? r : (r & 0x3) | 0x8;
+		return v.toString(16);
+	});
+}
 
 export const ICONS = {
 	play: `<svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>`,

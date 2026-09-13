@@ -1,5 +1,5 @@
 import { App, Plugin, PluginSettingTab, Setting, Notice, Platform } from "obsidian";
-import { Timer, Session, PluginSettings, DEFAULT_SETTINGS } from "./types";
+import { Timer, Session, PluginSettings, DEFAULT_SETTINGS, generateUUID } from "./types";
 import { SupabaseClient } from "./db";
 import { ProductivityTimerWindow } from "./desktop";
 import { ProductivityTimerView, VIEW_TYPE_PRODUCTIVITY_TIMER } from "./mobile";
@@ -12,23 +12,25 @@ export default class ProductivityTimerPlugin extends Plugin {
 	db: SupabaseClient;
 	syncManager: SyncManager;
 	timerService: TimerService;
-	
+
 	timers: Timer[] = [];
 	sessions: Session[] = [];
 	statusBarEl: HTMLElement;
 	bgTickInterval: number | null = null;
 	isWriting = false;
 	public isRotating = false;
-	public lastWriteTimes: Map<string, { is_running: boolean, last_started_at: string | null, tracked_seconds: number, time: number }> = new Map();
 	private rotationOverlay: HTMLElement | null = null;
 	private overlayKeydownListener: ((e: KeyboardEvent) => void) | null = null;
 	private loadTimersDebounceTimeout: any = null;
-	
+
+	private writeQueue: Promise<void> = Promise.resolve();
+	public hasPendingRemoteUpdate = false;
+
 	private lastNativeExecutionTime: number = 0;
-	
+
 	public collapsedParentIds: Set<string> = new Set();
 	public notifiedCompletes: Set<string> = new Set();
-	
+
 	public activeMobileView: ProductivityTimerView | null = null;
 
 	async onload() {
@@ -36,7 +38,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		this.db = new SupabaseClient(this.settings.supabaseUrl, this.settings.supabaseKey);
 		this.syncManager = new SyncManager(this);
 		this.timerService = new TimerService(this);
-		
+
 		this.statusBarEl = this.addStatusBarItem();
 		this.statusBarEl.classList.add("pt-status-bar-item");
 
@@ -82,10 +84,15 @@ export default class ProductivityTimerPlugin extends Plugin {
 		this.syncManager.syncOfflineActions();
 
 		if (this.settings.supabaseUrl && this.settings.supabaseKey) {
-			this.db.subscribeToTable("timers", async () => {
-				if (this.isWriting || this.isRotating) return;
+			const onRemoteChange = () => {
+				if (this.isWriting || this.isRotating) {
+					this.hasPendingRemoteUpdate = true;
+					return;
+				}
 				this.loadTimersDebounced();
-			});
+			};
+			this.db.subscribeToTable("timers", onRemoteChange);
+			this.db.subscribeToTable("timer_segments", onRemoteChange);
 		}
 	}
 
@@ -120,7 +127,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		try {
 			// @ts-ignore
 			const electron = require("electron");
-			const powerMonitor = electron?.remote?.powerMonitor;
+			const powerMonitor = electron?.powerMonitor || electron?.remote?.powerMonitor;
 			if (!powerMonitor) return;
 
 			const onWake = () => { this.performFullResync(); };
@@ -132,9 +139,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 				powerMonitor.removeListener("resume", onWake);
 				powerMonitor.removeListener("unlock-screen", onWake);
 			};
-		} catch (e) {
-			console.log("Productivity Timer: native power-monitor events unavailable, relying on heartbeat/drift detection instead.", e);
-		}
+		} catch (e) {}
 	}
 
 	public getCalibratedISOString(): string {
@@ -142,17 +147,12 @@ export default class ProductivityTimerPlugin extends Plugin {
 		return new Date(Date.now() + offset).toISOString();
 	}
 
-	public getMobileView(): ProductivityTimerView | null {
-		return this.activeMobileView;
-	}
-
 	public refreshUI() {
 		if (this.floatingWindow) {
 			this.floatingWindow.render();
 		}
-		const mobileView = this.getMobileView();
-		if (mobileView) {
-			mobileView.render();
+		if (this.activeMobileView) {
+			this.activeMobileView.render();
 		}
 		this.updateStatusBar();
 	}
@@ -161,9 +161,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 		if (this.floatingWindow) {
 			this.floatingWindow.renderTimerRowsOnly();
 		}
-		const mobileView = this.getMobileView();
-		if (mobileView) {
-			mobileView.renderTimerRowsOnly();
+		if (this.activeMobileView) {
+			this.activeMobileView.renderTimerRowsOnly();
 		}
 		this.updateStatusBar();
 	}
@@ -213,13 +212,13 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 		this.lastTickTime = Date.now();
 
-		this.bgTickInterval = window.setInterval(async () => {
+		this.bgTickInterval = window.setInterval(() => {
 			const now = Date.now();
 			const drift = now - this.lastTickTime;
 			this.lastTickTime = now;
 
 			if (drift > 5000) {
-				await this.performFullResync();
+				this.performFullResync().catch(() => {});
 			}
 
 			const running = this.timers.find(t => t.is_running);
@@ -228,7 +227,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			}
 
 			this.tickUI();
-			await this.checkSubtaskRotation();
+			this.checkSubtaskRotation().catch(() => {});
 		}, 1000);
 	}
 
@@ -247,8 +246,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 		if (currentMultiple > startMultiple) {
 			const sibs = this.timers.filter(t => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
-			
-			// Supports rotation with 1 or more subtasks
+
 			if (sibs.length >= 1) {
 				const idx = sibs.findIndex(t => t.id === running.id);
 				const nextIdx = (idx + 1) % sibs.length;
@@ -259,16 +257,14 @@ export default class ProductivityTimerPlugin extends Plugin {
 					try {
 						const nextNow = this.getCalibratedISOString();
 						const localStart = running.last_started_at;
-						
-						const actualDur = Math.max(0, Math.floor((new Date(nextNow).getTime() - new Date(localStart).getTime()) / 1000));
-						const neededDur = (currentMultiple * running.estimate_seconds) - running.tracked_seconds;
-						const localDur = Math.max(actualDur, neededDur > 0 ? neededDur : actualDur);
+						const localDur = Math.max(0, Math.floor((new Date(nextNow).getTime() - new Date(localStart).getTime()) / 1000));
 						const finalTracked = running.tracked_seconds + localDur;
 
+						const newSegId = generateUUID();
 						if (localDur > 0) {
 							running.segments = running.segments || [];
 							running.segments.push({
-								id: `temp-${Date.now()}`,
+								id: newSegId,
 								timer_id: running.id,
 								started_at: localStart,
 								ended_at: nextNow,
@@ -283,7 +279,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 							running.is_running = true;
 							running.is_last_active = true;
 							running.last_started_at = nextNow;
-							running.visual_seconds = this.getActiveTrackedSeconds(running);
 						} else {
 							running.is_running = false;
 							running.is_last_active = false;
@@ -294,7 +289,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 							nextSubtask.is_running = true;
 							nextSubtask.is_last_active = true;
 							nextSubtask.last_started_at = nextNow;
-							nextSubtask.visual_seconds = this.getActiveTrackedSeconds(nextSubtask);
 
 							for (const sib of sibs) {
 								if (sib.id !== nextSubtask.id) {
@@ -307,12 +301,15 @@ export default class ProductivityTimerPlugin extends Plugin {
 						this.showRotationOverlay(nextSubtask);
 
 						await this.runWriteAction(async () => {
-							await this.db.insert("timer_segments", {
-								timer_id: running.id,
-								started_at: localStart,
-								ended_at: nextNow,
-								duration_seconds: localDur
-							});
+							if (localDur > 0) {
+								await this.db.insert("timer_segments", {
+									id: newSegId,
+									timer_id: running.id,
+									started_at: localStart,
+									ended_at: nextNow,
+									duration_seconds: localDur
+								});
+							}
 
 							if (isSameSubtask) {
 								await this.db.update("timers", {
@@ -325,7 +322,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 								await Promise.all([
 									this.db.update("timers", { is_running: false, is_last_active: false, tracked_seconds: finalTracked, last_started_at: null }, `id=eq.${running.id}`),
 									this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: nextNow }, `id=eq.${nextSubtask.id}`),
-									...sibs.filter(s => s.id !== nextSubtask.id && s.id !== running.id).map(sib => 
+									...sibs.filter(s => s.id !== nextSubtask.id && s.id !== running.id).map(sib =>
 										this.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
 									)
 								]);
@@ -345,12 +342,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public showRotationOverlay(nextSubtask: Timer) {
-		if (this.rotationOverlay) {
-			this.rotationOverlay.remove();
-		}
-		if (this.overlayKeydownListener) {
-			window.removeEventListener("keydown", this.overlayKeydownListener, true);
-		}
+		this.closeOverlays();
 
 		const overlay = document.createElement("div");
 		overlay.id = "pt-rotation-overlay";
@@ -385,19 +377,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 			cursor: "pointer",
 			display: "flex",
 			alignItems: "center",
-			justifyContent: "center",
-			transition: "background 0.1s"
+			justifyContent: "center"
 		});
-		closeBtn.addEventListener("click", () => {
-			if (this.rotationOverlay) {
-				this.rotationOverlay.remove();
-				this.rotationOverlay = null;
-			}
-			if (this.overlayKeydownListener) {
-				window.removeEventListener("keydown", this.overlayKeydownListener, true);
-				this.overlayKeydownListener = null;
-			}
-		});
+		closeBtn.addEventListener("click", () => this.closeOverlays());
 
 		const label = overlay.createDiv({ cls: "pt-overlay-label" });
 		const spanEl = label.createEl("span", { text: "UP NEXT:" });
@@ -406,7 +388,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const h1El = label.createEl("h1", { text: nextSubtask.name });
 		h1El.style.cssText = "font-size: 34px; font-weight: 700; color: var(--interactive-accent); margin: 0; text-align: center;";
 
-		const pEl = overlay.createEl("p", { text: "Press [ Ctrl + Space ] to acknowledge" });
+		const pEl = overlay.createEl("p", { text: "Press [ Ctrl + Space ] or Esc to acknowledge" });
 		pEl.style.cssText = "font-size: 11px; color: var(--text-muted); margin-top: 36px; text-transform: uppercase; letter-spacing: 0.05em;";
 
 		document.body.appendChild(overlay);
@@ -416,18 +398,10 @@ export default class ProductivityTimerPlugin extends Plugin {
 		if (activeEl) activeEl.blur();
 
 		this.overlayKeydownListener = (e: KeyboardEvent) => {
-			if (e.ctrlKey && (e.code === "Space" || e.key === " ")) {
+			if ((e.ctrlKey && (e.code === "Space" || e.key === " ")) || e.key === "Escape") {
 				e.preventDefault();
 				e.stopPropagation();
-				
-				if (this.rotationOverlay) {
-					this.rotationOverlay.remove();
-					this.rotationOverlay = null;
-				}
-				if (this.overlayKeydownListener) {
-					window.removeEventListener("keydown", this.overlayKeydownListener, true);
-					this.overlayKeydownListener = null;
-				}
+				this.closeOverlays();
 			}
 		};
 
@@ -435,12 +409,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public showCompleteOverlay(taskName: string) {
-		if (this.rotationOverlay) {
-			this.rotationOverlay.remove();
-		}
-		if (this.overlayKeydownListener) {
-			window.removeEventListener("keydown", this.overlayKeydownListener, true);
-		}
+		this.closeOverlays();
 
 		const overlay = document.createElement("div");
 		overlay.id = "pt-complete-overlay";
@@ -475,19 +444,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 			cursor: "pointer",
 			display: "flex",
 			alignItems: "center",
-			justifyContent: "center",
-			transition: "background 0.1s"
+			justifyContent: "center"
 		});
-		closeBtn.addEventListener("click", () => {
-			if (this.rotationOverlay) {
-				this.rotationOverlay.remove();
-				this.rotationOverlay = null;
-			}
-			if (this.overlayKeydownListener) {
-				window.removeEventListener("keydown", this.overlayKeydownListener, true);
-				this.overlayKeydownListener = null;
-			}
-		});
+		closeBtn.addEventListener("click", () => this.closeOverlays());
 
 		const label = overlay.createDiv({ cls: "pt-overlay-label" });
 		const spanEl = label.createEl("span", { text: "TASK COMPLETE" });
@@ -496,7 +455,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const h1El = label.createEl("h1", { text: taskName });
 		h1El.style.cssText = "font-size: 34px; font-weight: 700; color: #10B981; margin: 0; text-align: center; text-shadow: 0 0 10px rgba(16, 185, 129, 0.3);";
 
-		const pEl = overlay.createEl("p", { text: "Press [ Ctrl + Space ] to acknowledge" });
+		const pEl = overlay.createEl("p", { text: "Press [ Ctrl + Space ] or Esc to acknowledge" });
 		pEl.style.cssText = "font-size: 11px; color: var(--text-muted); margin-top: 36px; text-transform: uppercase; letter-spacing: 0.05em;";
 
 		document.body.appendChild(overlay);
@@ -506,22 +465,25 @@ export default class ProductivityTimerPlugin extends Plugin {
 		if (activeEl) activeEl.blur();
 
 		this.overlayKeydownListener = (e: KeyboardEvent) => {
-			if (e.ctrlKey && (e.code === "Space" || e.key === " ")) {
+			if ((e.ctrlKey && (e.code === "Space" || e.key === " ")) || e.key === "Escape") {
 				e.preventDefault();
 				e.stopPropagation();
-				
-				if (this.rotationOverlay) {
-					this.rotationOverlay.remove();
-					this.rotationOverlay = null;
-				}
-				if (this.overlayKeydownListener) {
-					window.removeEventListener("keydown", this.overlayKeydownListener, true);
-					this.overlayKeydownListener = null;
-				}
+				this.closeOverlays();
 			}
 		};
 
 		window.addEventListener("keydown", this.overlayKeydownListener, true);
+	}
+
+	private closeOverlays() {
+		if (this.rotationOverlay) {
+			this.rotationOverlay.remove();
+			this.rotationOverlay = null;
+		}
+		if (this.overlayKeydownListener) {
+			window.removeEventListener("keydown", this.overlayKeydownListener, true);
+			this.overlayKeydownListener = null;
+		}
 	}
 
 	private updateStatusBar() {
@@ -555,7 +517,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 				const doneTimeStr = doneDate.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
 
 				this.statusBarEl.setText(`[${running.name} : ${this.formatTime(timeLeft)} : ${doneTimeStr}]`);
-				
 				this.notifiedCompletes.delete(running.id);
 			} else {
 				if (estimate > 0 && displayTracked >= estimate) {
@@ -594,7 +555,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			timer.visual_seconds = trueSeconds;
 			return trueSeconds;
 		}
-		
+
 		timer.visual_seconds = undefined;
 		return baseSeconds;
 	}
@@ -670,16 +631,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 		}
 	}
 
-	public totalEstimate(): number {
-		const rendered = this.getFlattenedRenderedTimers();
-		return rendered.reduce((sum, t) => sum + t.estimate_seconds, 0);
-	}
-
-	public totalTracked(): number {
-		const rendered = this.getFlattenedRenderedTimers();
-		return rendered.reduce((sum, t) => sum + this.getActiveTrackedSeconds(t), 0);
-	}
-
 	public getFlattenedRenderedTimers(): Timer[] {
 		const list: Timer[] = [];
 		const parents = this.timers.filter(t => t.parent_id === null);
@@ -738,22 +689,23 @@ export default class ProductivityTimerPlugin extends Plugin {
 		return null;
 	}
 
-	public async runWriteAction(action: () => Promise<void>) {
-		this.isWriting = true;
-		try {
-			await action();
-			await this.persistLocalState();
-		} catch (e) {
-			console.error("Write action failed:", e);
-		} finally {
-			setTimeout(() => {
+	public runWriteAction(action: () => Promise<void>): Promise<void> {
+		this.writeQueue = this.writeQueue.then(async () => {
+			this.isWriting = true;
+			try {
+				await action();
+				await this.syncManager.persistLocalState();
+			} catch (e) {
+				console.error("Write action failed:", e);
+			} finally {
 				this.isWriting = false;
-			}, 800);
-		}
-	}
-
-	public async persistLocalState() {
-		await this.syncManager.persistLocalState();
+				if (this.hasPendingRemoteUpdate) {
+					this.hasPendingRemoteUpdate = false;
+					this.loadTimersDebounced();
+				}
+			}
+		});
+		return this.writeQueue;
 	}
 
 	public loadTimersDebounced() {
@@ -764,7 +716,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			await this.loadTimers();
 			this.refreshUI();
 			this.loadTimersDebounceTimeout = null;
-		}, 200);
+		}, 300);
 	}
 
 	async loadSettings() {
@@ -779,7 +731,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	async toggleWindow() {
-		const stack = new Error().stack || '';
+		const stack = new Error().stack || "";
 		const isNativeHotkey = stack.includes("handleKey");
 
 		if (isNativeHotkey) {
@@ -798,7 +750,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			if (leaves.length > 0) {
 				this.app.workspace.detachLeavesOfType(VIEW_TYPE_PRODUCTIVITY_TIMER);
 			} else {
-				let leaf = this.app.workspace.getRightLeaf(false);
+				const leaf = this.app.workspace.getRightLeaf(false);
 				if (leaf) {
 					await leaf.setViewState({
 						type: VIEW_TYPE_PRODUCTIVITY_TIMER,

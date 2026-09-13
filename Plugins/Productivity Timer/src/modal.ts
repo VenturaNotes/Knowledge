@@ -1,5 +1,5 @@
 import { Modal, App, Notice } from "obsidian";
-import { Timer, TimerSegment } from "./types";
+import { Timer, TimerSegment, isValidUUID, generateUUID } from "./types";
 import { SupabaseClient } from "./db";
 
 export class TimeLogModal extends Modal {
@@ -18,12 +18,10 @@ export class TimeLogModal extends Modal {
 
 	async onOpen() {
 		this.titleEl.setText(`Logs: ${this.getTimer().name}`);
-		
-		// Configure a larger, more comfortable modal geometry to display columns inline
 		this.modalEl.style.width = "650px";
 		this.modalEl.style.maxWidth = "95vw";
 		this.modalEl.style.boxSizing = "border-box";
-		
+
 		this.renderLogs();
 
 		this.tickInterval = window.setInterval(() => {
@@ -32,7 +30,7 @@ export class TimeLogModal extends Modal {
 				const timer = this.getTimer();
 				if (timer && timer.last_started_at) {
 					const elapsed = Math.floor((Date.now() - new Date(timer.last_started_at).getTime()) / 1000);
-					liveBadge.textContent = this.formatTime(elapsed);
+					liveBadge.textContent = this.formatTime(Math.max(0, elapsed));
 				}
 			}
 		}, 1000);
@@ -84,13 +82,20 @@ export class TimeLogModal extends Modal {
 		return null;
 	}
 
+	private getSegmentMatchQuery(seg: TimerSegment): string {
+		if (isValidUUID(seg.id)) {
+			return `id=eq.${seg.id}`;
+		}
+		return `timer_id=eq.${seg.timer_id}&started_at=eq.${encodeURIComponent(seg.started_at)}`;
+	}
+
 	private renderLogs() {
 		const { contentEl } = this;
 		contentEl.empty();
 
 		const addLogSection = contentEl.createDiv({ cls: "pt-modal-add-log" });
 		addLogSection.createEl("h4", { text: "Add Manual Entry" });
-		
+
 		const addInputs = addLogSection.createDiv({ cls: "pt-modal-add-row" });
 		const manualInput = addInputs.createEl("input", { type: "text", placeholder: "e.g. 30m, 1.5h, 15hrs" });
 		manualInput.style.width = "100%";
@@ -100,38 +105,33 @@ export class TimeLogModal extends Modal {
 			const rawVal = manualInput.value.trim();
 			const totalSeconds = this.parseTimeInput(rawVal);
 			if (totalSeconds === null || totalSeconds <= 0) {
-				new Notice("Please enter a valid format (e.g., 30m, 1.5h, 15hrs).");
+				new Notice("Please enter a valid format (e.g. 30m, 1.5h, 15hrs).");
 				return;
 			}
 			const ended = new Date();
 			const started = new Date(ended.getTime() - totalSeconds * 1000);
 
 			const currentTimer = this.getTimer();
+			const realUUID = generateUUID();
+
+			const newSeg: TimerSegment = {
+				id: realUUID,
+				timer_id: currentTimer.id,
+				started_at: started.toISOString(),
+				ended_at: ended.toISOString(),
+				duration_seconds: totalSeconds
+			};
+
 			try {
-				const inserted = await this.db.insert("timer_segments", {
-					timer_id: currentTimer.id,
-					started_at: started.toISOString(),
-					ended_at: ended.toISOString(),
-					duration_seconds: totalSeconds
-				});
+				await this.db.insert("timer_segments", newSeg);
 
 				currentTimer.segments = currentTimer.segments || [];
-				if (inserted) {
-					currentTimer.segments.push(Array.isArray(inserted) ? inserted[0] : inserted);
-				} else {
-					currentTimer.segments.push({
-						id: `temp-${Date.now()}`,
-						timer_id: currentTimer.id,
-						started_at: started.toISOString(),
-						ended_at: ended.toISOString(),
-						duration_seconds: totalSeconds
-					});
-				}
+				currentTimer.segments.push(newSeg);
 
 				const sumTracked = currentTimer.segments.reduce((sum, s) => sum + s.duration_seconds, 0);
 				currentTimer.tracked_seconds = sumTracked;
 				await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`);
-				
+
 				new Notice(`Added manual entry: ${rawVal}`);
 				manualInput.value = "";
 				await this.onUpdate();
@@ -141,7 +141,6 @@ export class TimeLogModal extends Modal {
 			}
 		};
 
-		// Submit button added for mobile convenience
 		const submitBtn = addInputs.createEl("button", { cls: "pt-btn pt-btn--add", text: "+ Add" });
 		submitBtn.style.flexShrink = "0";
 		submitBtn.addEventListener("click", async (e) => {
@@ -158,7 +157,7 @@ export class TimeLogModal extends Modal {
 
 		contentEl.createEl("h4", { text: "Time Entries History" });
 		this.listContainer = contentEl.createDiv({ cls: "pt-modal-logs-list" });
-		
+
 		this.renderLogsListOnly();
 	}
 
@@ -171,10 +170,10 @@ export class TimeLogModal extends Modal {
 
 		if (timer.is_running && timer.last_started_at) {
 			const activeRow = this.listContainer.createDiv({ cls: "pt-modal-log-row pt-modal-log-row--active" });
-			
-			const durDisp = activeRow.createEl("span", { 
-				cls: "pt-modal-duration-badge pt-modal-live-duration", 
-				text: "Calculating..." 
+
+			const durDisp = activeRow.createEl("span", {
+				cls: "pt-modal-duration-badge pt-modal-live-duration",
+				text: "Calculating..."
 			});
 			durDisp.style.cssText = "width: 75px; text-align: center; border: 1px dashed var(--interactive-accent); border-radius: 3px; font-family: var(--font-monospace); font-size: 11px; padding: 2px 6px; font-weight: bold; background: var(--background-secondary-alt); color: var(--interactive-accent); display: inline-block; box-sizing: border-box;";
 
@@ -182,7 +181,7 @@ export class TimeLogModal extends Modal {
 			startPicker.setAttribute("step", "1");
 			startPicker.value = this.toLocalDateTimeString(new Date(timer.last_started_at));
 			startPicker.style.cssText = "flex: 1 1 auto; min-width: 155px; font-size: 11px; padding: 4px 8px !important; box-sizing: border-box; background: var(--background-secondary-alt); color: var(--text-normal); border: 1px solid var(--background-modifier-border); border-radius: 4px; margin: 0;";
-			
+
 			startPicker.addEventListener("blur", async () => {
 				const newStart = new Date(startPicker.value);
 				if (isNaN(newStart.getTime())) return;
@@ -222,13 +221,13 @@ export class TimeLogModal extends Modal {
 			if ((!displayDuration || displayDuration <= 0) && !isNaN(start.getTime()) && !isNaN(end.getTime()) && end > start) {
 				displayDuration = Math.floor((end.getTime() - start.getTime()) / 1000);
 				seg.duration_seconds = displayDuration;
-				this.db.update("timer_segments", { duration_seconds: displayDuration }, `id=eq.${seg.id}`).catch(() => {});
+				this.db.update("timer_segments", { duration_seconds: displayDuration }, this.getSegmentMatchQuery(seg)).catch(() => {});
 			}
 
-			const durInput = row.createEl("input", { 
-				type: "text", 
-				cls: "pt-modal-duration-badge", 
-				value: this.formatTime(displayDuration) 
+			const durInput = row.createEl("input", {
+				type: "text",
+				cls: "pt-modal-duration-badge",
+				value: this.formatTime(displayDuration)
 			});
 			durInput.style.cssText = "width: 75px; text-align: center; border: 1px solid var(--background-modifier-border); border-radius: 3px; font-family: var(--font-monospace); font-size: 11px; background: var(--background-secondary-alt); color: var(--interactive-accent); cursor: text; font-weight: bold; padding: 2px 6px; box-sizing: border-box;";
 
@@ -262,7 +261,7 @@ export class TimeLogModal extends Modal {
 						started_at: newStart.toISOString(),
 						ended_at: newEnd.toISOString(),
 						duration_seconds: newDuration
-					}, `id=eq.${seg.id}`);
+					}, this.getSegmentMatchQuery(seg));
 
 					seg.started_at = newStart.toISOString();
 					seg.ended_at = newEnd.toISOString();
@@ -274,10 +273,7 @@ export class TimeLogModal extends Modal {
 					await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`);
 
 					durInput.value = this.formatTime(newDuration);
-
-					new Notice("Segment log updated.");
 					await this.onUpdate();
-					this.renderLogsListOnly();
 				} catch {
 					new Notice("Failed to save times.");
 				}
@@ -289,12 +285,12 @@ export class TimeLogModal extends Modal {
 					const currentStart = new Date(startPicker.value);
 					const newEnd = new Date(currentStart.getTime() + parsed * 1000);
 					endPicker.value = this.toLocalDateTimeString(newEnd);
-					
+
 					try {
 						await this.db.update("timer_segments", {
 							ended_at: newEnd.toISOString(),
 							duration_seconds: parsed
-						}, `id=eq.${seg.id}`);
+						}, this.getSegmentMatchQuery(seg));
 
 						seg.ended_at = newEnd.toISOString();
 						seg.duration_seconds = parsed;
@@ -304,9 +300,8 @@ export class TimeLogModal extends Modal {
 						currentTimer.tracked_seconds = sumTracked;
 						await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`);
 
-						new Notice("Duration and end time updated.");
+						durInput.value = this.formatTime(parsed);
 						await this.onUpdate();
-						this.renderLogsListOnly();
 					} catch {
 						new Notice("Failed to update duration.");
 						durInput.value = this.formatTime(seg.duration_seconds);
@@ -317,9 +312,7 @@ export class TimeLogModal extends Modal {
 			});
 
 			durInput.addEventListener("keydown", (e) => {
-				if (e.key === "Enter") {
-					durInput.blur();
-				}
+				if (e.key === "Enter") durInput.blur();
 			});
 
 			startPicker.addEventListener("blur", updateTimes);
@@ -329,18 +322,16 @@ export class TimeLogModal extends Modal {
 			delBtn.innerHTML = "✕";
 			delBtn.addEventListener("click", async () => {
 				try {
-					await this.db.delete("timer_segments", `id=eq.${seg.id}`);
-
+					await this.db.delete("timer_segments", this.getSegmentMatchQuery(seg));
 					const currentTimer = this.getTimer();
 					currentTimer.segments = (currentTimer.segments || []).filter(s => s.id !== seg.id);
 
 					const sumTracked = currentTimer.segments.reduce((sum, s) => sum + s.duration_seconds, 0);
 					currentTimer.tracked_seconds = sumTracked;
-					await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`);
+					await this.db.update("timers", { tracked_seconds: sumTracked }, `id=eq.${currentTimer.id}`).catch(() => {});
 
-					new Notice("Segment log entry deleted.");
+					row.remove();
 					await this.onUpdate();
-					this.renderLogsListOnly();
 				} catch {
 					new Notice("Failed to delete segment entry.");
 				}

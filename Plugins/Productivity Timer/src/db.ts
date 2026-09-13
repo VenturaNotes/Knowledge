@@ -1,3 +1,6 @@
+import { requestUrl } from "obsidian";
+import { generateUUID } from "./types";
+
 export class SupabaseClient {
 	private url: string;
 	private key: string;
@@ -20,16 +23,13 @@ export class SupabaseClient {
 		this.onQueueChanged = onQueueChanged;
 	}
 
-	// Called once, at plugin load. Lets the caller react when we detect the
-	// realtime connection has gone stale (see the heartbeat check below),
-	// instead of the caller needing to poll on its own timer.
 	public onStaleConnection(callback: () => void) {
 		this.onStaleConnectionCallback = callback;
 	}
 
 	private queueAction(type: "INSERT" | "UPDATE" | "DELETE", table: string, data?: any, match?: string) {
 		const action = {
-			id: `offline-${Date.now()}-${Math.random().toString(36).substr(2, 5)}`,
+			id: `offline-${Date.now()}-${generateUUID().substring(0, 8)}`,
 			type,
 			table,
 			data,
@@ -42,30 +42,47 @@ export class SupabaseClient {
 		}
 	}
 
-	private headers() {
+	private headers(extra: Record<string, string> = {}): Record<string, string> {
 		return {
 			"Content-Type": "application/json",
 			"apikey": this.key,
 			"Authorization": `Bearer ${this.key}`,
+			...extra
 		};
 	}
 
-	private calibrateOffset(headers: Headers) {
-		const serverDateStr = headers.get("date");
+	private calibrateOffset(headers: Record<string, string> | Headers) {
+		let serverDateStr: string | null = null;
+		if (headers instanceof Headers) {
+			serverDateStr = headers.get("date");
+		} else if (headers && typeof headers === "object") {
+			serverDateStr = headers["date"] || headers["Date"] || null;
+		}
 		if (serverDateStr) {
 			const serverTime = new Date(serverDateStr).getTime();
-			const localTime = Date.now();
-			(window as any).ptServerClockOffset = serverTime - localTime;
+			if (!isNaN(serverTime)) {
+				const localTime = Date.now();
+				(window as any).ptServerClockOffset = serverTime - localTime;
+			}
 		}
 	}
 
 	async select(table: string, query = ""): Promise<any[]> {
-		const res = await fetch(`${this.url}/rest/v1/${table}?${query}`, {
-			headers: { ...this.headers(), "Accept": "application/json" },
-		});
-		if (!res.ok) throw new Error(await res.text());
-		this.calibrateOffset(res.headers);
-		return res.json();
+		try {
+			const res = await requestUrl({
+				url: `${this.url}/rest/v1/${table}?${query}`,
+				method: "GET",
+				headers: this.headers({ "Accept": "application/json" }),
+				throw: true
+			});
+			this.calibrateOffset(res.headers);
+			return res.json;
+		} catch (e: any) {
+			if (!navigator.onLine) {
+				return [];
+			}
+			throw new Error(`Select failed on ${table}: ${e?.message || e}`);
+		}
 	}
 
 	async insert(table: string, data: any): Promise<any> {
@@ -75,13 +92,13 @@ export class SupabaseClient {
 		}
 		try {
 			return await this.insertBypassQueue(table, data);
-		} catch (e) {
-			const err = e as any;
-			if (e instanceof TypeError || err?.message?.includes("fetch") || !navigator.onLine) {
-				this.queueAction("INSERT", table, data);
-				return null;
+		} catch (e: any) {
+			if (e?.status && e.status >= 400 && e.status < 500) {
+				console.error(`PostgREST 4xx Error on ${table}:`, e);
+				throw e;
 			}
-			throw e;
+			this.queueAction("INSERT", table, data);
+			return null;
 		}
 	}
 
@@ -92,13 +109,13 @@ export class SupabaseClient {
 		}
 		try {
 			return await this.updateBypassQueue(table, data, match);
-		} catch (e) {
-			const err = e as any;
-			if (e instanceof TypeError || err?.message?.includes("fetch") || !navigator.onLine) {
-				this.queueAction("UPDATE", table, data, match);
-				return null;
+		} catch (e: any) {
+			if (e?.status && e.status >= 400 && e.status < 500) {
+				console.error(`PostgREST 4xx Error on ${table}:`, e);
+				throw e;
 			}
-			throw e;
+			this.queueAction("UPDATE", table, data, match);
+			return null;
 		}
 	}
 
@@ -109,95 +126,81 @@ export class SupabaseClient {
 		}
 		try {
 			await this.deleteBypassQueue(table, match);
-		} catch (e) {
-			const err = e as any;
-			if (e instanceof TypeError || err?.message?.includes("fetch") || !navigator.onLine) {
-				this.queueAction("DELETE", table, undefined, match);
-				return;
-			}
-			throw e;
+		} catch (e: any) {
+			this.queueAction("DELETE", table, undefined, match);
 		}
 	}
 
-	// Raw network actions that skip queueing rules (used by the background sync process)
 	async insertBypassQueue(table: string, data: any): Promise<any> {
-		const res = await fetch(`${this.url}/rest/v1/${table}`, {
+		const res = await requestUrl({
+			url: `${this.url}/rest/v1/${table}`,
 			method: "POST",
-			headers: { ...this.headers(), "Prefer": "return=representation" },
+			headers: this.headers({ "Prefer": "return=representation" }),
 			body: JSON.stringify(data),
+			throw: true
 		});
-		if (!res.ok) throw new Error(await res.text());
 		this.calibrateOffset(res.headers);
-		const text = await res.text();
-		if (!text) return null;
-		try {
-			return JSON.parse(text);
-		} catch {
-			return null;
-		}
+		return res.json;
 	}
 
 	async updateBypassQueue(table: string, data: any, match: string): Promise<any> {
-		const res = await fetch(`${this.url}/rest/v1/${table}?${match}`, {
+		const res = await requestUrl({
+			url: `${this.url}/rest/v1/${table}?${match}`,
 			method: "PATCH",
-			headers: { ...this.headers(), "Prefer": "return=representation" },
+			headers: this.headers({ "Prefer": "return=representation" }),
 			body: JSON.stringify(data),
+			throw: true
 		});
-		if (!res.ok) throw new Error(await res.text());
 		this.calibrateOffset(res.headers);
-		const text = await res.text();
-		if (!text) return null;
-		try {
-			return JSON.parse(text);
-		} catch {
-			return null;
-		}
+		return res.json;
 	}
 
 	async deleteBypassQueue(table: string, match: string): Promise<void> {
-		const res = await fetch(`${this.url}/rest/v1/${table}?${match}`, {
+		await requestUrl({
+			url: `${this.url}/rest/v1/${table}?${match}`,
 			method: "DELETE",
 			headers: this.headers(),
+			throw: true
 		});
-		if (!res.ok) throw new Error(await res.text());
+	}
+
+	private sendJoin(ws: WebSocket, table: string) {
+		if (ws.readyState !== WebSocket.OPEN) return;
+		ws.send(JSON.stringify({
+			topic: `realtime:public:${table}`,
+			event: "phx_join",
+			payload: {
+				config: {
+					postgres_changes: [
+						{
+							event: "*",
+							schema: "public",
+							table: table
+						}
+					]
+				},
+				access_token: this.key
+			},
+			ref: String(Date.now()),
+		}));
 	}
 
 	subscribeToTable(table: string, callback: (payload: any) => void) {
-		const wsUrl = this.url.replace("https://", "wss://").replace("http://", "ws://")
-			+ "/realtime/v1/websocket?apikey=" + this.key + "&vsn=1.0.0";
+		this.realtimeCallbacks.set(table, callback);
 
-		// Safeguard 1: If we are already connected or in the process of connecting, exit early
-		if (this.realtimeWs && (this.realtimeWs.readyState === WebSocket.CONNECTING || this.realtimeWs.readyState === WebSocket.OPEN)) {
-			this.realtimeCallbacks.set(table, callback);
+		if (this.realtimeWs && this.realtimeWs.readyState === WebSocket.OPEN) {
+			this.sendJoin(this.realtimeWs, table);
 			return;
 		}
 
-		// Safeguard 2: Cleanly nullify event listeners on old sockets before closing to prevent loop cascades
-		if ((window as any).ptRealtimeWs) {
-			const oldGlobalWs = (window as any).ptRealtimeWs as WebSocket;
-			oldGlobalWs.onopen = null;
-			oldGlobalWs.onmessage = null;
-			oldGlobalWs.onerror = null;
-			oldGlobalWs.onclose = null;
-			try { oldGlobalWs.close(); } catch {}
-			(window as any).ptRealtimeWs = null;
+		if (this.realtimeWs && this.realtimeWs.readyState === WebSocket.CONNECTING) {
+			return;
 		}
 
-		if (this.realtimeWs) {
-			this.realtimeWs.onopen = null;
-			this.realtimeWs.onmessage = null;
-			this.realtimeWs.onerror = null;
-			this.realtimeWs.onclose = null;
-			try { this.realtimeWs.close(); } catch {}
-			this.realtimeWs = null;
-		}
+		this.cleanupSockets();
 
-		if (this.heartbeatInterval) {
-			clearInterval(this.heartbeatInterval);
-			this.heartbeatInterval = null;
-		}
-		
-		this.realtimeCallbacks.set(table, callback);
+		const wsUrl = this.url.replace("https://", "wss://").replace("http://", "ws://")
+			+ "/realtime/v1/websocket?apikey=" + this.key + "&vsn=1.0.0";
 
 		const ws = new WebSocket(wsUrl);
 		this.realtimeWs = ws;
@@ -206,35 +209,14 @@ export class SupabaseClient {
 		ws.onopen = () => {
 			if (ws.readyState !== WebSocket.OPEN) return;
 			this.lastMessageAt = Date.now();
-			ws.send(JSON.stringify({
-				topic: `realtime:public:${table}`,
-				event: "phx_join",
-				payload: {
-					config: {
-						postgres_changes: [
-							{
-								event: "*",
-								schema: "public",
-								table: table
-							}
-						]
-					},
-					access_token: this.key
-				},
-				ref: "1",
-			}));
+
+			for (const t of this.realtimeCallbacks.keys()) {
+				this.sendJoin(ws, t);
+			}
 
 			let refCounter = 2;
 			this.heartbeatInterval = setInterval(() => {
 				if (ws.readyState === WebSocket.OPEN) {
-					// If nothing has come back from the server (including replies to
-					// our own prior heartbeats) for well over two heartbeat cycles,
-					// the socket is almost certainly a "zombie" - it still reports
-					// OPEN, but the underlying connection is actually dead (this
-					// commonly happens after sleep/lock, or when App Nap is disabled
-					// so this process never itself detects a pause). Let the caller
-					// know so it can reconnect and pull fresh state, rather than
-					// silently sending heartbeats into the void indefinitely.
 					if (Date.now() - this.lastMessageAt > 45000) {
 						this.onStaleConnectionCallback?.();
 						return;
@@ -254,9 +236,11 @@ export class SupabaseClient {
 			try {
 				const msg = JSON.parse(event.data);
 				if (msg.event === "postgres_changes") {
-					const cb = this.realtimeCallbacks.get(table);
-					if (cb && msg.payload) {
-						cb(msg.payload);
+					const topic = msg.topic || "";
+					for (const [t, cb] of this.realtimeCallbacks.entries()) {
+						if (topic === `realtime:public:${t}` || topic.endsWith(`:${t}`)) {
+							cb(msg.payload);
+						}
 					}
 				}
 			} catch {}
@@ -269,19 +253,14 @@ export class SupabaseClient {
 				this.heartbeatInterval = null;
 			}
 			setTimeout(() => {
-				if (this.realtimeCallbacks.has(table)) {
-					this.subscribeToTable(table, callback);
+				if (this.realtimeCallbacks.size > 0) {
+					this.reconnect();
 				}
 			}, 3000);
 		};
 	}
 
-	reconnect() {
-		// Force-tear-down the current socket unconditionally, regardless of what
-		// readyState currently reports. After a sleep/suspend cycle a WebSocket
-		// can still report OPEN even though the underlying connection is dead
-		// ("zombie" socket) - subscribeToTable's "already connected" safeguard
-		// would otherwise see that stale OPEN state and skip reconnecting entirely.
+	private cleanupSockets() {
 		if (this.heartbeatInterval) {
 			clearInterval(this.heartbeatInterval);
 			this.heartbeatInterval = null;
@@ -298,7 +277,10 @@ export class SupabaseClient {
 			try { (window as any).ptRealtimeWs.close(); } catch {}
 			(window as any).ptRealtimeWs = null;
 		}
+	}
 
+	reconnect() {
+		this.cleanupSockets();
 		const callbacks = new Map(this.realtimeCallbacks);
 		this.realtimeCallbacks.clear();
 		for (const [table, callback] of callbacks.entries()) {
@@ -308,17 +290,6 @@ export class SupabaseClient {
 
 	disconnect() {
 		this.realtimeCallbacks.clear();
-		if (this.heartbeatInterval) {
-			clearInterval(this.heartbeatInterval);
-			this.heartbeatInterval = null;
-		}
-		if (this.realtimeWs) {
-			this.realtimeWs.close();
-			this.realtimeWs = null;
-		}
-		if ((window as any).ptRealtimeWs) {
-			try { (window as any).ptRealtimeWs.close(); } catch {}
-			(window as any).ptRealtimeWs = null;
-		}
+		this.cleanupSockets();
 	}
 }

@@ -3830,11 +3830,11 @@ Year: 2021-09-01
 1. [[polar coordinates]]
 2. [[polar decomposition]]
 3. [[polar equation]]
-4. polar form of a complex number
-5. pole(in complex analysis)
-6. pole(of a line)
-7. Polya, George (1887-1985)
-8. polygon
+4. [[polar form of a complex number]]
+5. [[pole]]
+6. 
+7. [[George Polya]]
+8. [[polygon]]
 9. polygon of forces
 10. polyhedron
 11. polynomial

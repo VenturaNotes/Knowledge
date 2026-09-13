@@ -5,7 +5,8 @@ import {
     Setting, 
     SuggestModal, 
     Notice, 
-    setIcon 
+    setIcon,
+    debounce 
 } from 'obsidian';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -162,7 +163,6 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
             this.updateHeaderCounts(this.plugin.library.length, this.plugin.library.length);
         }
 
-        // Automatic search bar focus
         requestAnimationFrame(() => {
             this.inputEl.focus();
             this.inputEl.select();
@@ -184,13 +184,11 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
         const totalTracks = this.plugin.library.length;
         const maxResults = 40;
 
-        // 1. EMPTY QUERY: Show Now Playing -> Up Next -> Recent -> Fill with Library
         if (tokens.length === 0) {
             const results: TrackItem[] = [];
             const addedPaths = new Set<string>();
             const current = this.plugin.currentTrack;
 
-            // Section A: Currently Playing Track
             if (current) {
                 results.push({
                     ...current,
@@ -202,7 +200,6 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
                 });
                 addedPaths.add(current.fullPath);
 
-                // Section B: Up Next in Queue (Next 4 tracks)
                 const currentIdx = this.plugin.library.findIndex(t => t.fullPath === current.fullPath);
                 if (currentIdx !== -1 && totalTracks > 1) {
                     const queueCount = Math.min(4, totalTracks - 1);
@@ -223,7 +220,6 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
                 }
             }
 
-            // Section C: Recently Played Tracks
             for (const recentPath of this.plugin.settings.recentTracks) {
                 if (results.length >= maxResults) break;
                 if (addedPaths.has(recentPath)) continue;
@@ -242,7 +238,6 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
                 }
             }
 
-            // Section D: Fill the remaining slots with the rest of the library
             for (const track of this.plugin.library) {
                 if (results.length >= maxResults) break;
                 if (addedPaths.has(track.fullPath)) continue;
@@ -261,7 +256,6 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
             return results;
         }
 
-        // 2. QUERY MATCHING
         const firstToken = tokens[0] ?? '';
         const results: TrackItem[] = [];
 
@@ -277,21 +271,18 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
 
             let score = 0;
 
-            // Strict Tier 1 (Title match) vs Tier 2 (Folder match)
             if (nameMatches) {
                 score += 0;
             } else {
                 score += 100000;
             }
 
-            // Recency boost
             const isRecent = this.recentPathsMap.has(track.fullPath);
             const recentIndex = this.recentPathsMap.get(track.fullPath) ?? 999999;
             if (isRecent) {
                 score -= Math.max(0, 25000 - recentIndex * 250);
             }
 
-            // Substring relevance
             if (nameLower === raw) {
                 score -= 30000;
             } else if (nameLower.startsWith(raw)) {
@@ -330,7 +321,6 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
         el.empty();
         el.addClass('lean-player-suggestion');
 
-        // Row 1: Status Badge + Song Name + Extension Pill Badge
         const titleRow = el.createDiv({ cls: 'suggestion-title-row' });
 
         if (item.customBadge) {
@@ -345,7 +335,6 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
 
         titleRow.createSpan({ text: item.ext, cls: 'suggestion-ext-badge' });
 
-        // Row 2: [Folder Icon] Artist / Album / Folder Path
         const subRow = el.createDiv({ cls: 'suggestion-sub-row' });
         const folderIcon = subRow.createSpan({ cls: 'suggestion-inline-icon' });
         setIcon(folderIcon, 'folder');
@@ -359,7 +348,7 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
     }
 }
 
-// --- 2. Dedicated Queue Modal (Visual Up Next List & Skip Forward/Back) ---
+// --- 2. Dedicated Queue Modal ---
 class LeanQueueModal extends SuggestModal<TrackItem> {
     plugin: LeanPlayerPlugin;
 
@@ -373,7 +362,6 @@ class LeanQueueModal extends SuggestModal<TrackItem> {
         super.onOpen();
         this.modalEl.addClass('lean-player-modal');
 
-        // Autofocus
         requestAnimationFrame(() => {
             this.inputEl.focus();
         });
@@ -387,7 +375,6 @@ class LeanQueueModal extends SuggestModal<TrackItem> {
 
         const results: TrackItem[] = [];
 
-        // 1. Previous 3 tracks
         if (current && total > 1) {
             for (let i = 3; i >= 1; i--) {
                 const prevIdx = (currentIdx - i + total) % total;
@@ -405,7 +392,6 @@ class LeanQueueModal extends SuggestModal<TrackItem> {
             }
         }
 
-        // 2. Active playing track
         if (current) {
             results.push({
                 ...current,
@@ -417,7 +403,6 @@ class LeanQueueModal extends SuggestModal<TrackItem> {
             });
         }
 
-        // 3. Next 15 tracks
         const nextLimit = Math.min(15, total - 1);
         for (let i = 1; i <= nextLimit; i++) {
             const nextIdx = (currentIdx + i) % total;
@@ -478,7 +463,6 @@ export default class LeanPlayerPlugin extends Plugin {
     async onload() {
         await this.loadSettings();
 
-        // Initialize Audio Engine settings
         this.audio.volume = this.settings.volume;
 
         this.audio.addEventListener('play', () => {
@@ -491,7 +475,6 @@ export default class LeanPlayerPlugin extends Plugin {
             this.updateStatusBar();
         });
 
-        // 3-Way End-of-Track Handler
         this.audio.addEventListener('ended', () => {
             switch (this.settings.endOfTrackAction) {
                 case 'repeat':
@@ -508,7 +491,6 @@ export default class LeanPlayerPlugin extends Plugin {
             }
         });
 
-        // Status Bar Widget
         this.statusBarItemEl = this.addStatusBarItem();
         this.statusBarItemEl.addClass('lean-player-status-bar');
         this.statusBarItemEl.addEventListener('click', () => {
@@ -516,10 +498,8 @@ export default class LeanPlayerPlugin extends Plugin {
         });
         this.updateStatusBar();
 
-        // Scan music directory on load
         this.scanLibrary();
 
-        // Command 1: Open Search & Play Modal
         this.addCommand({
             id: 'open-lean-player',
             name: 'Search and Play Music',
@@ -528,7 +508,6 @@ export default class LeanPlayerPlugin extends Plugin {
             }
         });
 
-        // Command 2: View Queue / Up Next
         this.addCommand({
             id: 'view-queue',
             name: 'View Queue / Up Next',
@@ -537,7 +516,6 @@ export default class LeanPlayerPlugin extends Plugin {
             }
         });
 
-        // Command 3: Toggle Play/Pause
         this.addCommand({
             id: 'toggle-play-pause',
             name: 'Toggle Play/Pause',
@@ -546,7 +524,6 @@ export default class LeanPlayerPlugin extends Plugin {
             }
         });
 
-        // Command 4: Play Next Track
         this.addCommand({
             id: 'play-next-track',
             name: 'Play Next Track',
@@ -555,7 +532,6 @@ export default class LeanPlayerPlugin extends Plugin {
             }
         });
 
-        // Command 5: Play Previous Track
         this.addCommand({
             id: 'play-prev-track',
             name: 'Play Previous Track',
@@ -564,7 +540,6 @@ export default class LeanPlayerPlugin extends Plugin {
             }
         });
 
-        // Command 6: Stop Playback
         this.addCommand({
             id: 'stop-playback',
             name: 'Stop Playback',
@@ -592,7 +567,6 @@ export default class LeanPlayerPlugin extends Plugin {
         await this.saveData(this.settings);
     }
 
-    // --- Directory Scanner ---
     scanLibrary() {
         const targetDir = expandHomeDir(this.settings.musicDirectory.trim());
         if (!targetDir || !fs.existsSync(targetDir)) {
@@ -602,7 +576,6 @@ export default class LeanPlayerPlugin extends Plugin {
 
         try {
             const raw = this.recursiveScan(targetDir, targetDir);
-            // Sort naturally: by folder path (Album/Artist) then by track name
             this.library = raw.sort((a, b) => {
                 const folderCmp = a.folderPath.localeCompare(b.folderPath);
                 if (folderCmp !== 0) return folderCmp;
@@ -643,7 +616,6 @@ export default class LeanPlayerPlugin extends Plugin {
         return results;
     }
 
-    // --- Audio Playback Controls ---
     playTrack(track: TrackItem) {
         try {
             if (this.currentBlobUrl) {
@@ -661,7 +633,6 @@ export default class LeanPlayerPlugin extends Plugin {
             this.currentTrack = track;
             this.isPlaying = true;
 
-            // Save to recents (keep last 50)
             this.settings.recentTracks = [
                 track.fullPath,
                 ...this.settings.recentTracks.filter(p => p !== track.fullPath)
@@ -781,20 +752,49 @@ class LeanPlayerSettingTab extends PluginSettingTab {
                     new Notice(`Library scanned: ${this.plugin.library.length} tracks found.`);
                 }));
 
-        // 2. Volume Slider Setting
+        // 2. Volume Slider Setting (Real-Time Audio Adjustment)
         new Setting(containerEl)
             .setName('Volume')
             .setDesc('Adjust audio playback volume')
-            .addSlider(slider => slider
-                .setLimits(0, 100, 1)
-                .setValue(Math.round(this.plugin.settings.volume * 100))
-                .setDynamicTooltip()
-                .onChange(async (val) => {
-                    const normalized = val / 100;
+            .addSlider(slider => {
+                const debouncedSave = debounce(async () => {
+                    await this.plugin.saveSettings();
+                }, 500, true);
+
+                const updateVolume = (val: number) => {
+                    const normalized = Math.max(0, Math.min(1, val / 100));
                     this.plugin.settings.volume = normalized;
                     this.plugin.setVolume(normalized);
+                };
+
+                slider
+                    .setLimits(0, 100, 1)
+                    .setValue(Math.round(this.plugin.settings.volume * 100))
+                    .setDynamicTooltip();
+
+                // Enable instant mode if supported by the Obsidian version
+                if (typeof (slider as any).setInstant === 'function') {
+                    (slider as any).setInstant(true);
+                }
+
+                // Adjust volume in real time while dragging
+                slider.sliderEl.addEventListener('input', (event: Event) => {
+                    const val = Number((event.target as HTMLInputElement).value);
+                    updateVolume(val);
+                    debouncedSave();
+                });
+
+                // Standard onChange handler
+                slider.onChange((val) => {
+                    updateVolume(val);
+                    debouncedSave();
+                });
+
+                // Persist settings immediately upon releasing the slider
+                slider.sliderEl.addEventListener('change', async () => {
                     await this.plugin.saveSettings();
-                }));
+                });
+            });
 
         // 3. Status Bar Toggle Setting
         new Setting(containerEl)

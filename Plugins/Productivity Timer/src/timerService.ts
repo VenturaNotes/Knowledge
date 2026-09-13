@@ -1,6 +1,36 @@
 import { Notice } from "obsidian";
-import { Timer } from "./types";
+import { Timer, TimerSegment, generateUUID } from "./types";
 import ProductivityTimerPlugin from "./main";
+
+interface DBTimerPayload {
+	id: string;
+	parent_id: string | null;
+	name: string;
+	estimate_seconds: number;
+	tracked_seconds: number;
+	is_running: boolean;
+	rotation_enabled: boolean;
+	is_rotation_running: boolean;
+	is_last_active: boolean;
+	sort_order: number;
+	last_started_at: string | null;
+}
+
+function toDBTimerPayload(timer: Partial<Timer> & { id: string }): DBTimerPayload {
+	return {
+		id: timer.id,
+		parent_id: timer.parent_id ?? null,
+		name: timer.name ?? "New Timer",
+		estimate_seconds: timer.estimate_seconds ?? 0,
+		tracked_seconds: timer.tracked_seconds ?? 0,
+		is_running: timer.is_running ?? false,
+		rotation_enabled: timer.rotation_enabled ?? false,
+		is_rotation_running: timer.is_rotation_running ?? false,
+		is_last_active: timer.is_last_active ?? false,
+		sort_order: timer.sort_order ?? 0,
+		last_started_at: timer.last_started_at ?? null
+	};
+}
 
 export class TimerService {
 	private plugin: ProductivityTimerPlugin;
@@ -9,498 +39,337 @@ export class TimerService {
 		this.plugin = plugin;
 	}
 
-	// Local state (this.plugin.timers) can be stale - e.g. this device just woke
-	// from sleep and missed a realtime update, or another device started a task
-	// milliseconds ago and the change hasn't propagated yet. Before starting any
-	// timer, ask the database directly what's actually running and force-stop it,
-	// so we never end up with two timers marked is_running at once regardless of
-	// what the local UI currently believes.
-	private async stopServerRunningTimers(excludeIds: string[]) {
-		let serverRunning: Timer[] = [];
-		try {
-			serverRunning = await this.plugin.db.select("timers", "is_running=eq.true");
-		} catch {
-			return; // best-effort; local stopping logic below still applies
+	private stopLocalRunningTimers(nowStr: string): { segmentsToInsert: TimerSegment[]; timersToUpdate: { id: string; tracked_seconds: number }[] } {
+		const nowMs = new Date(nowStr).getTime();
+		const segmentsToInsert: TimerSegment[] = [];
+		const timersToUpdate: { id: string; tracked_seconds: number }[] = [];
+
+		for (const t of this.plugin.timers) {
+			if (t.is_running || t.is_rotation_running) {
+				if (t.is_running && t.last_started_at) {
+					const startMs = new Date(t.last_started_at).getTime();
+					const dur = Math.max(0, Math.floor((nowMs - startMs) / 1000));
+					if (dur > 0) {
+						const newSeg: TimerSegment = {
+							id: generateUUID(),
+							timer_id: t.id,
+							started_at: t.last_started_at,
+							ended_at: nowStr,
+							duration_seconds: dur
+						};
+						t.segments = t.segments || [];
+						t.segments.push(newSeg);
+						t.tracked_seconds = t.segments.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
+						segmentsToInsert.push(newSeg);
+						timersToUpdate.push({ id: t.id, tracked_seconds: t.tracked_seconds });
+					}
+				}
+				t.is_running = false;
+				t.is_rotation_running = false;
+				t.last_started_at = null;
+				t.visual_seconds = undefined;
+			}
 		}
 
+		return { segmentsToInsert, timersToUpdate };
+	}
+
+	private async stopServerRunningTimers(excludeTimerId: string | null = null): Promise<void> {
 		const nowStr = this.plugin.getCalibratedISOString();
+		const nowMs = new Date(nowStr).getTime();
 
-		for (const row of serverRunning) {
-			if (excludeIds.includes(row.id)) continue;
+		let serverRunning: Timer[] = [];
+		try {
+			serverRunning = await this.plugin.db.select("timers", "or=(is_running.eq.true,is_rotation_running.eq.true)");
+		} catch {
+			serverRunning = [];
+		}
 
-			let duration = 0;
-			if (row.last_started_at) {
-				duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(row.last_started_at).getTime()) / 1000));
-				if (duration > 0) {
-					await this.plugin.db.insert("timer_segments", {
-						timer_id: row.id,
-						started_at: row.last_started_at,
-						ended_at: nowStr,
-						duration_seconds: duration
-					});
+		for (const s of serverRunning) {
+			if (excludeTimerId && s.id === excludeTimerId) continue;
+
+			let dur = 0;
+			if (s.last_started_at) {
+				const startMs = new Date(s.last_started_at).getTime();
+				if (!isNaN(startMs) && nowMs > startMs) {
+					dur = Math.max(0, Math.floor((nowMs - startMs) / 1000));
 				}
+			}
+
+			const local = this.plugin.timers.find(t => t.id === s.id);
+			const currentSegments = local?.segments || s.segments || [];
+
+			if (dur > 0 && s.last_started_at) {
+				const alreadyLogged = currentSegments.some(seg =>
+					Math.abs(new Date(seg.started_at).getTime() - new Date(s.last_started_at!).getTime()) < 2000
+				);
+
+				if (!alreadyLogged) {
+					const newSeg: TimerSegment = {
+						id: generateUUID(),
+						timer_id: s.id,
+						started_at: s.last_started_at,
+						ended_at: nowStr,
+						duration_seconds: dur
+					};
+					if (local) {
+						local.segments = local.segments || [];
+						local.segments.push(newSeg);
+					}
+					await this.plugin.db.insert("timer_segments", newSeg);
+				}
+			}
+
+			const allSegs = local?.segments || currentSegments;
+			const finalTracked = allSegs.length > 0
+				? allSegs.reduce((sum, seg) => sum + (seg.duration_seconds || 0), 0)
+				: (s.tracked_seconds + dur);
+
+			if (local) {
+				local.is_running = false;
+				local.is_rotation_running = false;
+				local.last_started_at = null;
+				local.tracked_seconds = finalTracked;
 			}
 
 			await this.plugin.db.update("timers", {
 				is_running: false,
 				is_rotation_running: false,
-				tracked_seconds: row.tracked_seconds + duration,
+				tracked_seconds: finalTracked,
 				last_started_at: null
-			}, `id=eq.${row.id}`);
-
-			// Keep our local mirror consistent too, in case this row also exists
-			// in the in-memory list under stale state.
-			const local = this.plugin.timers.find(t => t.id === row.id);
-			if (local) {
-				if (local.is_running && local.last_started_at) {
-					local.tracked_seconds = row.tracked_seconds + duration;
-				}
-				local.is_running = false;
-				local.is_rotation_running = false;
-				local.last_started_at = null;
-			}
-		}
-	}
-
-	public async runWriteAction(action: () => Promise<void>) {
-		this.plugin.isWriting = true;
-		try {
-			await action();
-			await this.plugin.syncManager.persistLocalState();
-		} catch (e) {
-			console.error("Write action failed:", e);
-		} finally {
-			setTimeout(() => {
-				this.plugin.isWriting = false;
-			}, 800);
+			}, `id=eq.${s.id}`);
 		}
 	}
 
 	public async stopAllTimers() {
 		const nowStr = this.plugin.getCalibratedISOString();
-		const segmentsToRecord = this.plugin.timers.filter(t => t.is_running && t.last_started_at).map(t => {
-			const start = t.last_started_at as string;
-			const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
-			return {
-				timer_id: t.id,
-				started_at: start,
-				ended_at: nowStr,
-				duration_seconds: duration,
-				timer: t
-			};
-		});
+		const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
 
-		for (const t of this.plugin.timers) {
-			let changed = false;
-			const updateObj: any = {};
-			if (t.is_running) {
-				const segment = segmentsToRecord.find(s => s.timer_id === t.id);
-				const finalTracked = segment ? t.tracked_seconds + segment.duration_seconds : t.tracked_seconds;
-
-				// getActiveTrackedSeconds() derives totals purely from t.segments,
-				// not from t.tracked_seconds. Without pushing this final segment
-				// locally, the duration just accrued (right up until "Done" was
-				// clicked) would be invisible to any total computed before the
-				// next full reload from the DB - e.g. the session entry built a
-				// few lines later in completeAll().
-				if (segment && segment.duration_seconds > 0) {
-					t.segments = t.segments || [];
-					t.segments.push({
-						id: `temp-${Date.now()}`,
-						timer_id: t.id,
-						started_at: segment.started_at,
-						ended_at: segment.ended_at,
-						duration_seconds: segment.duration_seconds
-					});
-				}
-
-				t.is_running = false;
-				t.last_started_at = null;
-				t.tracked_seconds = finalTracked;
-
-				updateObj.is_running = false;
-				updateObj.last_started_at = null;
-				updateObj.tracked_seconds = finalTracked;
-				changed = true;
-			}
-			if (t.is_rotation_running) {
-				t.is_rotation_running = false;
-				updateObj.is_rotation_running = false;
-				changed = true;
-			}
-			if (changed) {
-				await this.plugin.db.update("timers", updateObj, `id=eq.${t.id}`);
-			}
+		for (const seg of segmentsToInsert) {
+			await this.plugin.db.insert("timer_segments", seg);
 		}
-
-		await Promise.all(segmentsToRecord.map(seg => 
-			this.plugin.db.insert("timer_segments", {
-				timer_id: seg.timer_id,
-				started_at: seg.started_at,
-				ended_at: seg.ended_at,
-				duration_seconds: seg.duration_seconds
-			})
-		));
+		for (const upd of timersToUpdate) {
+			await this.plugin.db.update("timers", {
+				is_running: false,
+				is_rotation_running: false,
+				last_started_at: null,
+				tracked_seconds: upd.tracked_seconds
+			}, `id=eq.${upd.id}`);
+		}
+		await this.stopServerRunningTimers(null);
 	}
 
 	public async playParent(parent: Timer) {
-		const isPlaying = !parent.is_running;
-		const timersToStop = this.plugin.timers.filter(t => t.is_running || t.is_rotation_running);
-		const nowStr = this.plugin.getCalibratedISOString();
+		await this.plugin.runWriteAction(async () => {
+			const target = this.plugin.timers.find(t => t.id === parent.id) || parent;
+			const wasRunning = target.is_running;
+			const nowStr = this.plugin.getCalibratedISOString();
 
-		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
-			const start = t.last_started_at as string;
-			const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
-			return {
-				timer_id: t.id,
-				started_at: start,
-				ended_at: nowStr,
-				duration_seconds: duration,
-				timer: t
-			};
-		});
+			const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
 
-		for (const t of timersToStop) {
-			const segment = segmentsToRecord.find(s => s.timer_id === t.id);
-			if (segment) {
-				t.tracked_seconds = t.tracked_seconds + segment.duration_seconds;
-			} else {
-				t.tracked_seconds = this.plugin.getActiveTrackedSeconds(t);
+			if (!wasRunning) {
+				target.is_running = true;
+				target.last_started_at = nowStr;
+			}
+			this.plugin.refreshUI();
+
+			for (const seg of segmentsToInsert) {
+				await this.plugin.db.insert("timer_segments", seg);
+			}
+			for (const upd of timersToUpdate) {
+				await this.plugin.db.update("timers", {
+					is_running: false,
+					is_rotation_running: false,
+					last_started_at: null,
+					tracked_seconds: upd.tracked_seconds
+				}, `id=eq.${upd.id}`);
 			}
 
-			if (t.is_running && t.last_started_at) {
-				const start = t.last_started_at;
-				const duration = segment ? segment.duration_seconds : 0;
-				if (duration > 0) {
-					t.segments = t.segments || [];
-					t.segments.push({
-						id: `temp-${Date.now()}`,
-						timer_id: t.id,
-						started_at: start,
-						ended_at: nowStr,
-						duration_seconds: duration
-					});
-				}
+			await this.stopServerRunningTimers(wasRunning ? null : target.id);
+
+			if (!wasRunning) {
+				await this.plugin.db.update("timers", {
+					is_running: true,
+					last_started_at: nowStr
+				}, `id=eq.${target.id}`);
 			}
-		}
 
-		for (const t of timersToStop) {
-			t.is_running = false;
-			t.is_rotation_running = false;
-			t.last_started_at = null;
-			this.plugin.lastWriteTimes.set(t.id, {
-				is_running: false,
-				last_started_at: null,
-				tracked_seconds: t.tracked_seconds,
-				time: Date.now()
-			});
-		}
-
-		if (isPlaying) {
-			parent.is_running = true;
-			parent.last_started_at = nowStr;
-			this.plugin.lastWriteTimes.set(parent.id, {
-				is_running: true,
-				last_started_at: parent.last_started_at,
-				tracked_seconds: parent.tracked_seconds,
-				time: Date.now()
-			});
-		}
-
-		this.plugin.refreshUI();
-
-		await this.runWriteAction(async () => {
-			await Promise.all(segmentsToRecord.map(seg => 
-				this.plugin.db.insert("timer_segments", {
-					timer_id: seg.timer_id,
-					started_at: seg.started_at,
-					ended_at: seg.ended_at,
-					duration_seconds: seg.duration_seconds
-				})
-			));
-
-			await Promise.all(timersToStop.map(t => 
-				this.plugin.db.update("timers", { 
-					is_running: false, 
-					is_rotation_running: false, 
-					tracked_seconds: t.tracked_seconds, 
-					last_started_at: null 
-				}, `id=eq.${t.id}`)
-			));
-
-			if (isPlaying) {
-				await this.stopServerRunningTimers([parent.id, ...timersToStop.map(t => t.id)]);
-				await this.plugin.db.update("timers", { is_running: true, last_started_at: parent.last_started_at }, `id=eq.${parent.id}`);
-			}
 			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
 		});
 	}
 
 	public async playSubtaskDirectly(subtask: Timer) {
-		const isPlaying = !subtask.is_running;
-		const timersToStop = this.plugin.timers.filter(t => t.is_running || t.is_rotation_running);
-		const nowStr = this.plugin.getCalibratedISOString();
+		await this.plugin.runWriteAction(async () => {
+			const target = this.plugin.timers.find(t => t.id === subtask.id) || subtask;
+			const wasRunning = target.is_running;
+			const nowStr = this.plugin.getCalibratedISOString();
 
-		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
-			const start = t.last_started_at as string;
-			const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
-			return {
-				timer_id: t.id,
-				started_at: start,
-				ended_at: nowStr,
-				duration_seconds: duration,
-				timer: t
-			};
-		});
+			const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
 
-		for (const t of timersToStop) {
-			const segment = segmentsToRecord.find(s => s.timer_id === t.id);
-			if (segment) {
-				t.tracked_seconds = t.tracked_seconds + segment.duration_seconds;
-			} else {
-				t.tracked_seconds = this.plugin.getActiveTrackedSeconds(t);
+			if (!wasRunning) {
+				target.is_running = true;
+				target.is_last_active = true;
+				target.last_started_at = nowStr;
+
+				const siblings = this.plugin.timers.filter(t => t.parent_id === target.parent_id && t.id !== target.id);
+				for (const sib of siblings) sib.is_last_active = false;
+			}
+			this.plugin.refreshUI();
+
+			for (const seg of segmentsToInsert) {
+				await this.plugin.db.insert("timer_segments", seg);
+			}
+			for (const upd of timersToUpdate) {
+				await this.plugin.db.update("timers", {
+					is_running: false,
+					is_rotation_running: false,
+					last_started_at: null,
+					tracked_seconds: upd.tracked_seconds
+				}, `id=eq.${upd.id}`);
 			}
 
-			if (t.is_running && t.last_started_at) {
-				const start = t.last_started_at;
-				const duration = segment ? segment.duration_seconds : 0;
-				if (duration > 0) {
-					t.segments = t.segments || [];
-					t.segments.push({
-						id: `temp-${Date.now()}`,
-						timer_id: t.id,
-						started_at: start,
-						ended_at: nowStr,
-						duration_seconds: duration
-					});
-				}
-			}
-		}
+			await this.stopServerRunningTimers(wasRunning ? null : target.id);
 
-		for (const t of timersToStop) {
-			t.is_running = false;
-			t.is_rotation_running = false;
-			t.last_started_at = null;
-			this.plugin.lastWriteTimes.set(t.id, {
-				is_running: false,
-				last_started_at: null,
-				tracked_seconds: t.tracked_seconds,
-				time: Date.now()
-			});
-		}
+			if (!wasRunning) {
+				await this.plugin.db.update("timers", {
+					is_running: true,
+					is_last_active: true,
+					last_started_at: nowStr
+				}, `id=eq.${target.id}`);
 
-		if (isPlaying) {
-			subtask.is_running = true;
-			subtask.is_last_active = true;
-			subtask.last_started_at = nowStr;
-			this.plugin.lastWriteTimes.set(subtask.id, {
-				is_running: true,
-				last_started_at: subtask.last_started_at,
-				tracked_seconds: subtask.tracked_seconds,
-				time: Date.now()
-			});
-
-			const siblings = this.plugin.timers.filter(t => t.parent_id === subtask.parent_id && t.id !== subtask.id);
-			for (const sib of siblings) {
-				sib.is_last_active = false;
-			}
-		}
-
-		this.plugin.refreshUI();
-
-		await this.runWriteAction(async () => {
-			await Promise.all(segmentsToRecord.map(seg => 
-				this.plugin.db.insert("timer_segments", {
-					timer_id: seg.timer_id,
-					started_at: seg.started_at,
-					ended_at: seg.ended_at,
-					duration_seconds: seg.duration_seconds
-				})
-			));
-
-			await Promise.all(timersToStop.map(t => 
-				this.plugin.db.update("timers", { 
-					is_running: false, 
-					is_rotation_running: false, 
-					tracked_seconds: t.tracked_seconds, 
-					last_started_at: null 
-				}, `id=eq.${t.id}`)
-			));
-
-			if (isPlaying) {
-				await this.stopServerRunningTimers([subtask.id, ...timersToStop.map(t => t.id)]);
-				await this.plugin.db.update("timers", { is_running: true, is_last_active: true, last_started_at: subtask.last_started_at }, `id=eq.${subtask.id}`);
-
-				const siblings = this.plugin.timers.filter(t => t.parent_id === subtask.parent_id && t.id !== subtask.id);
-				await Promise.all(siblings.map(sib => 
+				const siblings = this.plugin.timers.filter(t => t.parent_id === target.parent_id && t.id !== target.id);
+				await Promise.all(siblings.map(sib =>
 					this.plugin.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
 				));
 			}
+
 			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
 		});
 	}
 
 	public async toggleRotation(parent: Timer) {
-		const subtasks = this.plugin.timers.filter(t => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
+		const target = this.plugin.timers.find(t => t.id === parent.id) || parent;
+		const subtasks = this.plugin.timers.filter(t => t.parent_id === target.id).sort((a, b) => a.sort_order - b.sort_order);
 		if (subtasks.length === 0) {
 			new Notice("Add subtasks first before starting rotation.");
 			return;
 		}
-		const isPlaying = !parent.is_rotation_running;
-		const timersToStop = this.plugin.timers.filter(t => t.is_running || t.is_rotation_running);
-		const nowStr = this.plugin.getCalibratedISOString();
 
-		const segmentsToRecord = timersToStop.filter(t => t.is_running && t.last_started_at).map(t => {
-			const start = t.last_started_at as string;
-			const duration = Math.max(0, Math.floor((new Date(nowStr).getTime() - new Date(start).getTime()) / 1000));
-			return {
-				timer_id: t.id,
-				started_at: start,
-				ended_at: nowStr,
-				duration_seconds: duration,
-				timer: t
-			};
-		});
+		await this.plugin.runWriteAction(async () => {
+			const wasRotationRunning = target.is_rotation_running;
+			const nowStr = this.plugin.getCalibratedISOString();
+			const activeSub = subtasks.find(t => t.is_last_active) || subtasks[0];
+			if (!activeSub) return;
 
-		for (const t of timersToStop) {
-			const segment = segmentsToRecord.find(s => s.timer_id === t.id);
-			if (segment) {
-				t.tracked_seconds = t.tracked_seconds + segment.duration_seconds;
+			const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
+
+			if (!wasRotationRunning) {
+				target.is_rotation_running = true;
+				for (const sub of subtasks) {
+					if (sub.id !== activeSub.id) sub.is_last_active = false;
+				}
+				activeSub.is_running = true;
+				activeSub.is_last_active = true;
+				activeSub.last_started_at = nowStr;
+			}
+			this.plugin.refreshUI();
+
+			for (const seg of segmentsToInsert) {
+				await this.plugin.db.insert("timer_segments", seg);
+			}
+			for (const upd of timersToUpdate) {
+				await this.plugin.db.update("timers", {
+					is_running: false,
+					is_rotation_running: false,
+					last_started_at: null,
+					tracked_seconds: upd.tracked_seconds
+				}, `id=eq.${upd.id}`);
+			}
+
+			await this.stopServerRunningTimers(wasRotationRunning ? null : activeSub.id);
+
+			if (!wasRotationRunning) {
+				await this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${target.id}`);
+				await this.plugin.db.update("timers", {
+					is_running: true,
+					is_last_active: true,
+					last_started_at: nowStr
+				}, `id=eq.${activeSub.id}`);
+
+				const sibs = subtasks.filter(s => s.id !== activeSub.id);
+				await Promise.all(sibs.map(s => this.plugin.db.update("timers", { is_last_active: false }, `id=eq.${s.id}`)));
 			} else {
-				t.tracked_seconds = this.plugin.getActiveTrackedSeconds(t);
+				await this.plugin.db.update("timers", { is_rotation_running: false }, `id=eq.${target.id}`);
 			}
 
-			if (t.is_running && t.last_started_at) {
-				const start = t.last_started_at;
-				const duration = segment ? segment.duration_seconds : 0;
-				if (duration > 0) {
-					t.segments = t.segments || [];
-					t.segments.push({
-						id: `temp-${Date.now()}`,
-						timer_id: t.id,
-						started_at: start,
-						ended_at: nowStr,
-						duration_seconds: duration
-					});
-				}
-			}
-		}
-
-		for (const t of timersToStop) {
-			t.is_running = false;
-			t.is_rotation_running = false;
-			t.last_started_at = null;
-			this.plugin.lastWriteTimes.set(t.id, {
-				is_running: false,
-				last_started_at: null,
-				tracked_seconds: t.tracked_seconds,
-				time: Date.now()
-			});
-		}
-
-		const activeSub = subtasks.find(t => t.is_last_active) || subtasks[0];
-		if (!activeSub) return;
-
-		if (isPlaying) {
-			parent.is_rotation_running = true;
-			this.plugin.lastWriteTimes.set(parent.id, {
-				is_running: false,
-				last_started_at: null,
-				tracked_seconds: parent.tracked_seconds,
-				time: Date.now()
-			});
-
-			for (const sub of subtasks) {
-				if (sub.id !== activeSub.id) {
-					sub.is_last_active = false;
-				}
-			}
-			activeSub.is_running = true;
-			activeSub.is_last_active = true;
-			activeSub.last_started_at = nowStr;
-			this.plugin.lastWriteTimes.set(activeSub.id, {
-				is_running: true,
-				last_started_at: activeSub.last_started_at,
-				tracked_seconds: activeSub.tracked_seconds,
-				time: Date.now()
-			});
-		}
-
-		this.plugin.refreshUI();
-
-		await this.runWriteAction(async () => {
-			await Promise.all(segmentsToRecord.map(seg => 
-				this.plugin.db.insert("timer_segments", {
-					timer_id: seg.timer_id,
-					started_at: seg.started_at,
-					ended_at: seg.ended_at,
-					duration_seconds: seg.duration_seconds
-				})
-			));
-
-			await Promise.all(timersToStop.map(t => 
-				this.plugin.db.update("timers", { 
-					is_running: false, 
-					is_rotation_running: false, 
-					tracked_seconds: t.tracked_seconds, 
-					last_started_at: null 
-				}, `id=eq.${t.id}`)
-			));
-
-			if (isPlaying) {
-				await this.stopServerRunningTimers([activeSub.id, parent.id, ...timersToStop.map(t => t.id)]);
-				await this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${parent.id}`);
-
-				const siblings = this.plugin.timers.filter(t => t.parent_id === activeSub.parent_id && t.id !== activeSub.id);
-				await Promise.all(siblings.map(sib => 
-					this.plugin.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
-				));
-
-				await this.plugin.db.update("timers", { is_running: true, is_last_active: true, last_started_at: activeSub.last_started_at }, `id=eq.${activeSub.id}`);
-			}
 			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
 		});
 	}
 
 	public async addTimer() {
-		await this.runWriteAction(async () => {
-			const maxSort = this.plugin.timers.filter(t => t.parent_id === null).reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
-			await this.plugin.db.insert("timers", {
+		await this.plugin.runWriteAction(async () => {
+			const maxSort = this.plugin.timers
+				.filter(t => t.parent_id === null)
+				.reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
+
+			const newId = generateUUID();
+			const dbPayload = toDBTimerPayload({
+				id: newId,
+				parent_id: null,
 				name: "New Timer",
-				estimate_seconds: 0,
-				tracked_seconds: 0,
-				is_running: false,
 				sort_order: maxSort + 1
 			});
+
+			const newTimer: Timer = {
+				...dbPayload,
+				segments: []
+			};
+
+			this.plugin.timers.push(newTimer);
+			this.plugin.refreshUI();
+
+			await this.plugin.db.insert("timers", dbPayload);
 			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
 		});
 	}
 
 	public async addSubtask(parent: Timer) {
-		await this.runWriteAction(async () => {
-			const maxSort = this.plugin.timers.filter(t => t.parent_id === parent.id).reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
-			await this.plugin.db.insert("timers", {
+		await this.plugin.runWriteAction(async () => {
+			const maxSort = this.plugin.timers
+				.filter(t => t.parent_id === parent.id)
+				.reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
+
+			const newId = generateUUID();
+			const dbPayload = toDBTimerPayload({
+				id: newId,
 				parent_id: parent.id,
 				name: "New Subtask",
-				estimate_seconds: 0,
-				tracked_seconds: 0,
-				is_running: false,
 				sort_order: maxSort + 1
 			});
+
+			const newSubtask: Timer = {
+				...dbPayload,
+				segments: []
+			};
+
+			this.plugin.timers.push(newSubtask);
+			this.plugin.refreshUI();
+
+			await this.plugin.db.insert("timers", dbPayload);
 			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
 		});
 	}
 
 	public async deleteTimer(timer: Timer) {
-		await this.runWriteAction(async () => {
-			if (timer.is_running) {
-				await this.plugin.db.update("timers", { is_running: false }, `id=eq.${timer.id}`);
-			}
+		await this.plugin.runWriteAction(async () => {
+			this.plugin.timers = this.plugin.timers.filter(t => t.id !== timer.id && t.parent_id !== timer.id);
+			this.plugin.refreshUI();
+
 			await this.plugin.db.delete("timers", `id=eq.${timer.id}`);
 			await this.plugin.syncManager.loadTimers();
 			this.plugin.refreshUI();
@@ -508,11 +377,16 @@ export class TimerService {
 	}
 
 	public async completeAll() {
-		if (this.plugin.timers.length === 0) { new Notice("No timers to complete."); return; }
-		await this.runWriteAction(async () => {
+		if (this.plugin.timers.length === 0) {
+			new Notice("No timers to complete.");
+			return;
+		}
+
+		await this.plugin.runWriteAction(async () => {
 			await this.stopAllTimers();
 
 			const sessionResult = await this.plugin.db.insert("timer_sessions", {
+				id: generateUUID(),
 				date: new Date().toISOString().split("T")[0],
 				completed_at: this.plugin.getCalibratedISOString(),
 			});
@@ -523,33 +397,34 @@ export class TimerService {
 				return;
 			}
 
-			for (const timer of this.plugin.timers) {
+			const entries = this.plugin.timers.map(timer => {
 				let entryName = timer.name;
 				if (timer.parent_id) {
 					const parent = this.plugin.timers.find(p => p.id === timer.parent_id);
 					if (parent) entryName = `${parent.name} > ${timer.name}`;
 				}
-
-				const totalTracked = this.plugin.getTimerDisplayTimes(timer).tracked;
-
-				await this.plugin.db.insert("timer_session_entries", {
+				return {
+					id: generateUUID(),
 					session_id: session.id,
 					timer_name: entryName,
 					estimate_seconds: timer.estimate_seconds,
-					tracked_seconds: totalTracked,
-				});
+					tracked_seconds: this.plugin.getTimerDisplayTimes(timer).tracked,
+				};
+			});
+			await this.plugin.db.insert("timer_session_entries", entries);
 
-				await this.plugin.db.delete("timer_segments", `timer_id=eq.${timer.id}`);
+			const timerIdList = this.plugin.timers.map(t => t.id).join(",");
+			await this.plugin.db.delete("timer_segments", `timer_id=in.(${timerIdList})`);
 
-				await this.plugin.db.update("timers", {
-					tracked_seconds: 0,
-					is_running: false,
-					is_rotation_running: false,
-					is_last_active: false,
-					last_started_at: null
-				}, `id=eq.${timer.id}`);
+			await this.plugin.db.update("timers", {
+				tracked_seconds: 0,
+				is_running: false,
+				is_rotation_running: false,
+				is_last_active: false,
+				last_started_at: null
+			}, `id=in.(${timerIdList})`);
 
-				// Clear in-memory state completely
+			for (const timer of this.plugin.timers) {
 				timer.tracked_seconds = 0;
 				timer.is_running = false;
 				timer.is_rotation_running = false;
