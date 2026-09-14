@@ -31,6 +31,11 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     prevLeafCount: number = 0;
     private isApplyingVisibility = false;
 
+    // Webview IPC / Native Hotkey Ghost Guard tracking
+    private lastNativeExecutionTime: number = 0;
+    private lastModalOpenTime: number = 0;
+    activeGroupSwitchModal: GroupSwitchModal | null = null;
+
     // Debounce disk writes to prevent file corruption from rapid events
     debouncedSave = debounce(async () => {
         await this.saveSettings();
@@ -99,7 +104,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
 
         // Add Ribbon Icon
         this.addRibbonIcon('layers', 'Switch Tab Group', () => {
-            new GroupSwitchModal(this.app, this).open();
+            this.openGroupSwitchModal();
         });
 
         // Commands
@@ -107,7 +112,7 @@ export default class VirtualTabGroupsPlugin extends Plugin {
             id: 'switch-tab-group',
             name: 'Switch Tab Group',
             callback: () => {
-                new GroupSwitchModal(this.app, this).open();
+                this.openGroupSwitchModal();
             }
         });
 
@@ -212,7 +217,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     }
 
     async onunload() {
-        // Fix: Cancel pending debounced writes before saving immediately
         if (typeof this.debouncedSave?.cancel === 'function') {
             this.debouncedSave.cancel();
         }
@@ -232,6 +236,38 @@ export default class VirtualTabGroupsPlugin extends Plugin {
         this.app.workspace.iterateRootLeaves((leaf) => {
             this.showLeaf(leaf);
         });
+    }
+
+    /**
+     * Ghost Guard & Modal Launcher
+     */
+    openGroupSwitchModal() {
+        const stack = new Error().stack || '';
+        // If execution originated from Obsidian's native hotkey handler, record the timestamp
+        const isNativeHotkey = stack.includes("handleKey");
+
+        if (isNativeHotkey) {
+            this.lastNativeExecutionTime = Date.now();
+        } else if (Date.now() - this.lastNativeExecutionTime < 500) {
+            // Drop Webview IPC ghost events closely following native hotkeys
+            return;
+        }
+
+        // If the modal is already open
+        if (this.activeGroupSwitchModal) {
+            // Guard against rapid duplicate fires within 500ms
+            if (Date.now() - this.lastModalOpenTime < 500) {
+                return;
+            }
+            // If intentionally triggered again after 500ms, toggle close
+            this.activeGroupSwitchModal.close();
+            this.activeGroupSwitchModal = null;
+            return;
+        }
+
+        this.lastModalOpenTime = Date.now();
+        this.activeGroupSwitchModal = new GroupSwitchModal(this.app, this);
+        this.activeGroupSwitchModal.open();
     }
 
     async loadSettings() {
@@ -693,7 +729,6 @@ export default class VirtualTabGroupsPlugin extends Plugin {
     }
 
     cleanupMap() {
-        // Fix: Do not clean up during initial startup layout hydration
         if (!this.app.workspace.layoutReady) return;
 
         const activeLeafIds = new Set<string>();
@@ -752,6 +787,14 @@ class GroupSwitchModal extends SuggestModal<string> {
 
     async onChooseSuggestion(item: string, evt: MouseEvent | KeyboardEvent) {
         await this.plugin.switchGroup(item);
+    }
+
+    onClose() {
+        super.onClose();
+        // Reset the singleton reference when modal is dismissed/closed
+        if (this.plugin.activeGroupSwitchModal === this) {
+            this.plugin.activeGroupSwitchModal = null;
+        }
     }
 }
 

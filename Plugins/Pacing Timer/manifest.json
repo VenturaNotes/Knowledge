@@ -1,0 +1,10 @@
+{
+    "id": "pacing-timer",
+    "name": "Pacing Timer",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "Dynamic pacing and simple countdown timer in your status bar with persistent background tracking.",
+    "author": "Julian Ventura",
+    "authorUrl": "https://github.com/obsidianmd/obsidian-sample-plugin",
+    "isDesktopOnly": false
+}

@@ -2,6 +2,11 @@
 - Great for modal editing in Normal, Insert, and Visual modes
 	- [ ] #question What does visual mode look like?
 ### Commands
+- Visual selection (works on any file)
+	- If you want to quickly highlight/select text with Flash on any file:
+		1. Press v (enters Visual mode).
+		2. Press lowercase s (Flash jump).
+		3. Type 1–2 letters of your target word and press the label.
 - Deletes everything from the cursor to the end of the line (remains in Normal mode).
 	- `D`
 - Deletes from the cursor to the end of the line and immediately switches to **Insert mode** so you can start typing new text.

@@ -32,6 +32,7 @@ interface LeanPlayerSettings {
     volume: number;        // 0.0 to 1.0
     recentTracks: string[]; // List of fullPaths (most recent first)
     endOfTrackAction: EndOfTrackAction;
+    maxResults: number;    // Maximum songs shown in search/browse modal
 }
 
 const DEFAULT_SETTINGS: LeanPlayerSettings = {
@@ -39,7 +40,8 @@ const DEFAULT_SETTINGS: LeanPlayerSettings = {
     showStatusBar: true,
     volume: 0.8,
     recentTracks: [],
-    endOfTrackAction: 'next'
+    endOfTrackAction: 'next',
+    maxResults: 40
 };
 
 const SUPPORTED_EXTENSIONS = new Set(['.mp3', '.m4a', '.flac', '.wav', '.ogg', '.aac']);
@@ -136,6 +138,14 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
     constructor(app: App, plugin: LeanPlayerPlugin) {
         super(app);
         this.plugin = plugin;
+
+        // Bypass Obsidian's default 100-item SuggestModal cap
+        const limitValue = Math.max(1, this.plugin.settings.maxResults || 40);
+        this.limit = limitValue;
+        if ((this as any).chooser) {
+            (this as any).chooser.limit = limitValue;
+        }
+
         this.setPlaceholder("Search tracks, artists, albums... (Enter to play)");
 
         this.recentPathsMap = new Map();
@@ -145,6 +155,13 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
     }
 
     onOpen() {
+        // Enforce the custom limit when the modal opens
+        const limitValue = Math.max(1, this.plugin.settings.maxResults || 40);
+        this.limit = limitValue;
+        if ((this as any).chooser) {
+            (this as any).chooser.limit = limitValue;
+        }
+
         super.onOpen();
         this.modalEl.addClass('lean-player-modal');
 
@@ -182,7 +199,13 @@ class LeanPlayerModal extends SuggestModal<TrackItem> {
         const raw = query.trim().toLowerCase();
         const tokens = raw.split(/\s+/).filter(t => t.length > 0);
         const totalTracks = this.plugin.library.length;
-        const maxResults = 40;
+        const maxResults = Math.max(1, this.plugin.settings.maxResults || 40);
+
+        // Keep Obsidian's internal SuggestModal limit in sync with the setting
+        this.limit = maxResults;
+        if ((this as any).chooser) {
+            (this as any).chooser.limit = maxResults;
+        }
 
         if (tokens.length === 0) {
             const results: TrackItem[] = [];
@@ -752,7 +775,25 @@ class LeanPlayerSettingTab extends PluginSettingTab {
                     new Notice(`Library scanned: ${this.plugin.library.length} tracks found.`);
                 }));
 
-        // 2. Volume Slider Setting (Real-Time Audio Adjustment)
+        // 2. Max Search Results Cap Setting
+        new Setting(containerEl)
+            .setName('Max Search Results')
+            .setDesc('Maximum number of tracks shown in the search and browse modal (default: 40)')
+            .addText(text => {
+                text.inputEl.type = 'number';
+                text.inputEl.style.width = '100px';
+                text.setPlaceholder('40')
+                    .setValue(String(this.plugin.settings.maxResults ?? 40))
+                    .onChange(async (val) => {
+                        const parsed = parseInt(val, 10);
+                        if (!isNaN(parsed) && parsed > 0) {
+                            this.plugin.settings.maxResults = parsed;
+                            await this.plugin.saveSettings();
+                        }
+                    });
+            });
+
+        // 3. Volume Slider Setting (Real-Time Audio Adjustment)
         new Setting(containerEl)
             .setName('Volume')
             .setDesc('Adjust audio playback volume')
@@ -772,31 +813,27 @@ class LeanPlayerSettingTab extends PluginSettingTab {
                     .setValue(Math.round(this.plugin.settings.volume * 100))
                     .setDynamicTooltip();
 
-                // Enable instant mode if supported by the Obsidian version
                 if (typeof (slider as any).setInstant === 'function') {
                     (slider as any).setInstant(true);
                 }
 
-                // Adjust volume in real time while dragging
                 slider.sliderEl.addEventListener('input', (event: Event) => {
                     const val = Number((event.target as HTMLInputElement).value);
                     updateVolume(val);
                     debouncedSave();
                 });
 
-                // Standard onChange handler
                 slider.onChange((val) => {
                     updateVolume(val);
                     debouncedSave();
                 });
 
-                // Persist settings immediately upon releasing the slider
                 slider.sliderEl.addEventListener('change', async () => {
                     await this.plugin.saveSettings();
                 });
             });
 
-        // 3. Status Bar Toggle Setting
+        // 4. Status Bar Toggle Setting
         new Setting(containerEl)
             .setName('Show in Status Bar')
             .setDesc('Display currently playing song in the bottom status bar')
@@ -808,7 +845,7 @@ class LeanPlayerSettingTab extends PluginSettingTab {
                     await this.plugin.saveSettings();
                 }));
 
-        // 4. End-of-Track Action Setting (3 Choices)
+        // 5. End-of-Track Action Setting (3 Choices)
         new Setting(containerEl)
             .setName('When Song Ends')
             .setDesc('Choose what action Lean Player takes when the current song finishes')

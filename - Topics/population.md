@@ -8,8 +8,11 @@
 - (3) In statistics and experimental design, the complete set of entities from which a sample is drawn for study or experiment with the aim of making valid inferences about the population as a whole. See SAMPLING.
 ## Source[^3]
 - $n$. All the people inhabiting a country or other area or belonging to a specified group. In statistics, an aggregate of individuals from which a sample may be drawn and to which the results of a research investigation may be generalized. A population need not encompass every individual in a country: it is quite legitimate to refer to the population of patients diagnosed as schizophrenic or the population of university undergraduates, for example. \[From Latin populus people + -ation indicating a process or condition]
+## Source[^4]
+- A set about which inferences are to be drawn based on a sample taken from the set. The sample may be used to reject a hypothesis about the population or not.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

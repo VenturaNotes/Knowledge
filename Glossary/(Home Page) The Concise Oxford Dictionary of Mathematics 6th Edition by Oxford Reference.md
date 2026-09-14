@@ -3826,1011 +3826,1014 @@ Year: 2021-09-01
 3121. [[Simeon Denis Poisson]]
 3122. [[Poisson distribution]]
 3123. [[polar]]
+3124. [[polar coordinates]]
+3125. [[polar decomposition]]
+3126. [[polar equation]]
+3127. [[polar form of a complex number]]
+3128. [[pole]]
+3129. [[George Polya]]
+3130. [[polygon]]
+3131. polygon of forces
+	1. See triangle of forces
+3132. [[polyhedron]]
 ## Created
-1. [[polar coordinates]]
-2. [[polar decomposition]]
-3. [[polar equation]]
-4. [[polar form of a complex number]]
-5. [[pole]]
-6. 
-7. [[George Polya]]
-8. [[polygon]]
-9. polygon of forces
-10. polyhedron
-11. polynomial
-12. polynomial equation
-13. polynomial ring
-14. polynomial time
-15. polytope
-16. Poncelet, Jean-Victor (1788-1867)
-17. pons asinorum
-18. pooled estimate of variance
-19. population
-20. population mean
-21. poset
-22. position ratio
-23. position vector
-24. positive
-25. positive angle
-26. positive correlation
-27. positive definite
-28. positive direction
-29. positively oriented
-30. positive semidefinite
-31. possible
-32. postulate
-33. potential
-34. potential energy
-35. potential infinity
-36. power(of a matrix)
-37. power(in mechanics)
-38. power
-39. power(of a test)
-40. power series
-41. power set
-42. pre-image
-43. precision(in statistics)
-44. precision(numerical analysis)
-45. predator-prey equations
-46. predicate(in logic)
-47. prefix
-48. prefix code
-49. presentation
-50. pressure
-
-
-51. primary decomposition theorem
-52. prime
-53. prime decomposition
-54. prime element
-55. prime ideal
-56. prime knot
-57. prime meridian
-58. prime number theorem
-59. prime subfield
-60. primitive(nth root of unity)
-
-61. primitive
-62. principal axes(in mechanics)
-63. principal axes(of a quadric)
-64. principal ideal domain
-65. principal part
-66. principal value
-67. principal value integral
-68. principle of the excluded middle
-69. prism
-70. private key crytography
-
-71. probability
-72. probability measure
-73. probability paper
-74. product
-75. product group
-76. product moment correlation coefficient
-77. product notation
-78. product of inertia
-79. product rule
-80. product set
-
-81. product space
-82. program
-83. progression
-84. projectile
-85. projection(of a point on a line or plane)
-86. projection
-87. projective geometry
-88. projective space
-89. projective transformation
-90. prolate
-
-91. proof
-92. proof by contradiction
-93. proof theory
-94. proof verification
-95. proper class
-96. proper divisor
-97. proper factor
-98. proper fraction
-99. proper map
-100. proper subset
-
-101. proper value
-102. proper vector
-103. proportion
-104. proportion
-105. proposition
-106. propositional logic
-107. pseudoinverse
-108. pseudometric
-109. pseudoprime
-110. pseudorandom numbers
-
-111. Ptolemy
-112. Ptolemy's Theorem
-113. public key cryptography
-114. pulley
-115. pure imaginary
-116. pure mathematics
-117. pure strategy
-118. PV
-119. pyramid
-120. Pythagoras (500 bc)
-
-121. Pythagoras' Theorem
-122. ℚ
-123. Q8
-124. QED
-125. QEF
-126. ℚp
-127. QR decomposition
-128. quad-
-129. quadrant
-130. quadratic complexity
-
-131. quadratic convergence
-132. quadratic form
-133. quadratic formula
-134. quadratic function
-135. quadratic reciprocity
-136. quadratic residue
-137. quadratrix
-138. quadrature
-139. quadric
-140. quadric cone
-
-141. quadrilateral
-142. quadrillion
-143. quadruple
-144. quality control
-145. quantifier
-146. quantile
-147. quantity
-148. quantum theory
-149. quartic polynomial
-150. quartile deviation
-
-151. quartiles
-152. quaternion
-153. quaternion group
-154. Quillen, Daniel Grey (1940-2011)
-155. quin-
-156. Quine, Willard van Orman (1908-2000)
-157. quotient
-158. quotient group
-159. quotient ring
-160. quotient rule(for differentiation)
-
-161. quotient space
-162. ℝ
-163. Rademacher's Theorem
-164. radial and transverse components
-165. radial set
-166. radian
-167. radical
-168. radical axis
-169. radical sign
-170. radicand
-
-171. radius
-172. radius(of a graph)
-173. radius of convergence
-174. radius of curvature
-175. radius of gyration
-176. radius vector
-177. raise(to a power)
-178. Ramanujan, Srinivasa (1887-1920)
-179. Ramsey, Frank (1903-30)
-180. random
-
-181. random error
-182. random graph
-183. randomization
-184. randomize
-185. randomized blocks
-186. random numbers
-187. random sample
-188. random variable
-189. random vector
-190. random walk
-
-191. range(of a function or mapping)
-192. range(in mechanics)
-193. range(in statistics)
-194. rank(of a matrix or linear map)
-195. rank(in statistics)
-196. rank-nullity theorem
-197. rank correlation coefficient
-198. rate of change
-199. rate of convergence
-200. ratio
-
-201. rational canonical form
-202. rational function
-203. rationalize
-204. rational number
-205. ratio test
-206. raw data
-207. ray
-208. Re
-209. re-entrant
-210. reachable set
-
-211. reaction
-212. real
-213. real axis
-214. real function
-215. real line
-216. real number
-217. real part
-218. real projective plane
-219. real world
-220. rearrangement
-
-221. rectangular
-222. rectangular hyperbola
-223. reduced echelon form
-224. reduced set of residues
-225. reductio ad absurdum
-226. reduction formula
-227. redundant
-228. reflection
-229. reflex angle
-230. reflexive relation
-
-231. reflexive space
-232. Regiomontanus (1436-76)
-233. region
-234. regression
-235. regular space
-236. relation
-237. relative complement
-238. relative efficiency
-239. relatively prime
-240. relative measure of dispersion
-
-241. relative position
-242. relativity theory
-243. reliability
-244. remainder
-245. remainder theorem
-246. representation(of a vector)
-247. representative
-248. residue
-249. resistant statistic
-250. resolution
-
-251. resonance
-252. response variable
-253. rest mass
-254. restriction(of a function)
-255. retardation
-256. retraction
-257. reverse mathematics
-258. reverse triangle inequality
-259. reversion to the mean
-260. revolution
-
-261. revolve
-262. Reynolds transport theorem
-263. rhombohedron
-264. rhombus
-265. RHS
-266. RI
-267. Riemann, (Georg Friedrich) Bernhard (1826-66)
-268. Riemann-Lebesgue lemma
-269. Riemann-Roch Theorem
-270. Riemannian manifold
-
-271. Riemann integral
-272. Riemann mapping theorem
-273. Riemann sphere
-274. Riemann surface
-275. Riemann zeta function
-276. Riesz representation theorem
-277. right-angled triangle
-278. right-circular
-279. right-handed system
-280. right-regular
-
-281. right angle
-282. right derivative
-283. right inverse
-284. rigid body
-285. rigid motion
-286. ring
-287. ring of integers
-288. rise
-289. risk
-290. ℝn
-
-291. Robin boundary condition
-292. Robinson, Julia (Hall Bowman) (1919-85)
-293. robust
-294. rod
-295. Rodrigues' formula
-296. Rolle's Theorem
-297. Rolle, Michel (1652-1719)
-298. Roman numeral
-299. root(of an equation)
-300. root(of a tree)
-
-301. root mean squared deviation
-302. root of unity
-303. root test
-304. rose
-305. rotation
-306. rotational kinetic energy
-307. rotation of axes
-308. Roth's Theorem
-309. rough surface
-310. round
-
-311. round angle
-312. route inspection problem
-313. row
-314. row equivalence(of matrices)
-315. row operation
-316. row rank
-317. row space
-318. row vector
-319. Royal Institution
-320. RRE form
-
-321. RSA(public-key cryptography)
-322. ruler and compass construction
-323. Runge-Kutta methods
-324. Russell's paradox
-325. Russell, Bertrand Arthur William (1872-1970)
-326. Rutherford, Lord (1871-1937)
-327. rv
-328. SAS
-329. saturated(in networks)
-330. scalar multiplication
-
-331. scalar product
-332. scalar quadratic product
-333. scalar triple product
-334. scale
-335. scalene triangle
-336. scatter diagram
-337. scheduling
-338. Schläfli, Ludwig (1814-95)
-339. Schläfli symbol
-340. Schrödinger's cat
-
-341. Schrödinger's equation
-342. Schrödinger, Erwin Rudolf Alexander (1887-1961)
-343. Schur decomposition
-344. Schwartz distribution
-345. scientific notation
-346. se
-347. secant(of a curve)
-348. secant method
-349. sech
-350. second(angular measure)
-
-351. second(time)
-352. second-order logic
-353. second-order partial derivative
-354. second fundamental form
-355. section
-356. section formulae
-357. sector
-358. selection
-359. self-inverse
-360. self-reference
-
-361. self-selected samples
-362. self-similarity
-363. semi-
-364. semi-decidable
-365. semi-direct product
-366. semi-interquartile range
-367. semi-metric
-368. semi-norm
-369. semi-regular polyhedron
-370. semi-regular tessellation
-
-371. semi-vertical angle
-372. semicircle
-373. semiprime
-374. sense
-375. separable(of a function)
-376. separable(of a space)
-377. separable first-order differential equation
-378. separable solution
-379. separated sets
-380. separation axioms
-
-381. separation of variables
-382. sept-
-383. sequence
-384. sequence of functions
-385. sequence space
-386. sequential compactness
-387. serial(of a relation)
-388. serial correlation
-389. series
-390. Serre, Jean-Pierre (1926- )
-
-391. Serret-Frenet formulae
-392. sesquilinear
-393. set
-394. set difference
-395. set theory
-396. sex-
-397. sexagesimal
-398. sf
-399. sgn
-400. Shannon's Theorem
-
-401. Shannon, Claude (1916-2001)
-402. shear
-403. shearing force(mechanics)
-404. sheet
-405. SHM
-406. sifting property
-407. sigma
-408. sign
-409. signed minor
-410. signed rank test
-
-411. significance level
-412. significance test
-413. significant figures
-414. sign test
-415. signum function
-416. similar(of figures)
-417. similar(of matrices)
-418. simple curve
-419. simple extension
-420. simple graph
-
-421. simple group
-422. simple interest
-423. simple pendulum
-424. simple pole
-425. simple root
-426. simplest form
-427. simplex method
-428. simplex tableau
-429. simplicial complex
-430. simplify
-
-431. simply connected
-432. Simpson's paradox
-433. simultaneity
-434. simultaneous linear differential equations
-435. simultaneous linear equations
-436. sine
-437. sine rule
-438. singularity
-439. singular point(complex analysis)
-440. singular value decomposition
-
-441. sinh
-442. sink
-443. sink
-444. SIR epidemiology model
-445. SI units
-446. skew-symmetric function
-447. skew-symmetric matrix
-448. skew field
-449. skew lines
-450. skewness
-
-451. slack
-452. slant asymptote
-453. slant height
-454. slash
-455. slide rule
-456. slope
-457. small circle
-458. Smith, Adrian Frederick Melhuish (1946- )
-459. Smith normal form
-460. smoothness condition
-
-461. smooth surface(in mechanics)
-462. Sn
-463. Sn
-464. snowflake curve
-465. software
-466. SOHCAHTOA
-467. solid
-468. solid angle
-469. solid of revolution
-470. solidus
-
-471. soluble group
-472. solution
-473. solution of triangles
-474. solvable by radicals
-475. solvable group
-476. sorting algorithms
-477. source
-478. source(in transportation problems)
-479. source
-480. space
-
-481. space-filling curve
-482. space-time
-483. span
-484. spanning set
-485. spanning tree
-486. Spearman's rank correlation coefficient
-487. special linear group
-488. special relativity
-489. spectrum
-490. speed
-
-491. speed of light
-492. sphere
-493. spherical angle
-494. spherical cap
-495. spherical polar coordinates
-496. spherical triangle
-497. spherical trigonometry
-498. spheroid
-499. spiral
-500. spline
-
-501. splitting field
-502. spread
-503. spring
-504. spring constant
-505. square
-506. square(as a power)
-507. square-integrable
-508. square matrix
-509. square number
-510. square root
-
-511. squaring the circle
-512. SSA
-513. SSS
-514. stabilizer
-515. stable equilibrium
-516. standard basis
-517. standard deviation
-518. standard form(of a linear programming problem)
-519. standard form(of a number)
-520. standardize
-
-521. standard normal distribution
-522. state
-523. static friction
-524. stationary point(in one variable)
-525. stationary point(in two variables)
-526. stationary value
-527. statistic
-528. statistical equilibrium
-529. statistical mechanics
-530. statistical model
-
-531. statistical tables
-532. Steinitz exchange lemma
-533. stem-and-leaf plot
-534. steradian
-535. stereographic projection
-536. Stevin, Simon (1548-1620)
-537. Stewart, Ian (1945- )
-538. stiffness
-539. Stirling number of the first kind
-540. Stirling number of the second kind
-
-541. stochastic variable
-542. Stokes' Theorem(generalized form)
-543. Stokes, Sir George Gabriel (1819-1903)
-544. Stone-Weierstrass Theorem
-545. strain
-546. stress
-547. strictly decreasing
-548. strictly determined game
-549. strictly increasing
-550. strictly monotonic
-
-551. string
-552. string
-553. strong convergence
-554. strong law of large numbers
-555. Structure Theorem(for modules)
-556. Sturm-Liouville equation
-557. subadditive
-558. subdivision(of a graph)
-559. subdivision(of an interval)
-560. subdivision(of a surface)
-
-561. subgraph
-562. subgroup
-563. subgroup generated by a set
-564. submatrix
-565. subscript
-566. subset
-567. subspace
-568. sufficiently large
-569. sufficient statistic(for a parameter)
-570. sum
-
-571. summation notation
-572. sum to infinity
-573. sup
-574. superadditive
-575. supplementary angles
-576. supplementary unit
-577. support
-578. supremum
-579. surd
-580. surface(in topology)
-
-581. surface
-582. surface(of a solid)
-583. surface area
-584. surface integral
-585. surface of revolution
-586. surjection
-587. Sylow's theorems
-588. Sym
-589. symbol
-590. symmetrical about a line
-
-591. symmetrical about a point
-592. symmetric difference
-593. symmetric function
-594. symmetric matrix
-595. symmetry(of a geometrical figure)
-596. symmetry group(of a geometrical figure)
-597. symplectic geometry
-598. symplectic group
-599. synthetic geometry
-600. systematic error
-
-601. systematic sampling
-602. Système International d'Unités
-603. system of particles
-604. systems analysis
-605. Szemerédi's theorem
-606. T
-607. T
-608. T
-609. t-distribution
-610. t-formulae
-
-611. t-test
-612. tableau
-613. tables
-614. tacnode
-615. tail
-616. tangent
-617. tangent(to a curve)
-618. tangent bundle
-619. tangent field
-620. tangential
-
-621. tangent plane
-622. tangent rule
-623. tangent space
-624. tangent vector
-625. tanh
-626. Taniyama-Shimura conjecture
-627. Tarski, Alfred (1901-83)
-628. Tartaglia, Niccolò (1499-1557)
-629. tau
-630. tautochrone
-
-631. tautology
-632. taxicab norm
-633. taxicab number
-634. Taylor's Theorem
-635. Taylor, Brook (1685-1731)
-636. Taylor, Richard (1962-)
-637. Taylor series
-638. Tchebyshev
-639. telescoping series
-640. temperature
-
-641. tend to
-642. tension
-643. tensor product
-644. tera-
-645. term
-646. terminal speed
-647. terminating decimal
-648. ternary relation
-649. ternary representation
-650. tessellation
-
-651. test function
-652. test statistic
-653. tetra-
-654. tetrahedral number
-655. tetrahedron
-656. TeX
-657. Thales of Miletus (585 bc)
-658. theorem
-659. Theorema Egregium
-660. theorem proving
-
-661. theta function
-662. Thom, René Frédéric (1923-2002)
-663. Thomson, William
-664. three-body problem
-665. three-door problem
-666. thrust
-667. tie
-668. tiling
-669. time
-670. time dilation
-
-671. time series
-672. Tn
-673. tonne
-674. topological group
-675. topological space
-676. topological vector space
-677. topology
-678. toppling
-679. torque
-680. torsion
-
-681. torsion element
-682. torus
-683. torus
-684. total differential
-685. total expectation law
-686. totally bounded(of a metric space)
-687. total order
-688. total probability law
-689. totient function
-690. touch
-
-691. tower law
-692. Tower of Brahma
-693. Tower of Hanoi
-694. trace
-695. tractrix
-696. trail
-697. trajectory
-698. transition map
-699. transition matrix
-700. translation(of Cartesian space)
-
-701. translation of axes(in Cartesian space)
-702. transportation problem
-703. transpose
-704. transversal
-705. transverse axis
-706. transverse component
-707. trapezium
-708. trapezium rule
-709. trapezoidal rule
-710. travelling salesman problem(in graph theory)
-
-711. traversable graph
-712. tree
-713. trefoil
-714. triangle
-715. triangle inequality
-716. triangle of forces(in mechanics)
-717. triangularizable
-718. triangular number
-719. triangulation
-720. triangulation(in topology)
-
-721. tridiagonal matrix
-722. trigonometric function
-723. trigonometric series expansions
-724. trigonometric tables
-725. trillion
-726. trim
-727. trinomial
-728. triple
-729. triple product(of vectors)
-730. triple root
-
-731. trisect
-732. trisection of an angle
-733. trivial solution
-734. truncated cube
-735. truncated tetrahedron
-736. truncation
-737. truth table
-738. truth value
-739. Tukey, John Wilder (1915-2000)
-740. tuple
-
-741. Turing, Alan Mathison (1912-54)
-742. Turing machine
-743. turning point
-744. twin primes
-745. two-person zero-sum game
-746. two-sample tests(in statistics)
-747. two-sided test
-748. two-tailed test
-749. Tychonoff's theorem
-750. Tychonoff space
-
-751. Type I error
-752. Type II error
-753. typical sequence
-754. UFD
-755. UKMT
-756. ultrametric
-757. unbiased estimator
-758. unbounded
-759. unconditional statement
-760. uncountable
-
-761. undecidable
-762. underdetermined
-763. uniform
-764. uniform gravitational force
-765. uniformly continuous
-766. unimodal
-767. unimodular
-768. union
-769. unique factorization domain
-770. unit
-
-771. unit
-772. unitary matrix
-773. unitary ratio
-774. unit circle
-775. unit cube
-776. unit matrix
-777. unit square
-778. unity
-779. universal covering space
-780. universal gravitational constant
-
-781. universal machine
-782. universal quantifier
-783. unknown
-784. upper limit
-785. upper triangular matrix
-786. utility function
-787. V
-788. V4
-789. valency
-790. validation(of a simulation model)
-
-791. Vallée-Poussin, Charles-Jean de la (1866-1962)
-792. value
-793. value(of a matrix game)
-794. Vandermonde's convolution formula
-795. Vandermonde's determinant
-796. Van der Waerden's Theorem
-797. vanish
-798. Var
-799. variability
-800. variable
-
-801. variance
-802. variance, analysis of
-803. variation
-804. varies directly
-805. variety
-806. vector
-807. vector bundle
-808. vector equation(of a line)
-809. vector equation(of a plane)
-810. vector field
-
-811. vector norm
-812. vector potential
-813. vector product
-814. vector projection(of a vector on a vector)
-815. vector space
-816. vector sum
-817. vector triple product
-818. velocity
-819. velocity-time graph
-820. velocity potential
-
-821. velocity ratio
-822. Venn, John (1834-1923)
-823. Venn diagram
-824. vertex
-825. vertex(of a graph)
-826. vertical angles
-827. Viète's formulae
-828. Viète, François (1540-1603)
-829. Vinogradov's Theorem
-830. viscous
-
-831. Vitali set
-832. volume
-833. volume of a solid of revolution
-834. Von Neumann, John (1903-57)
-835. vortex
-836. vulgar fraction
-837. W
-838. walk(in graph theory)
-839. Wallis' Product
-840. Wallis, John (1616-1703)
-
-841. wallpaper group
-842. Waring's problem
-843. warning limits
-844. watt
-845. wave
-846. wave equation
-847. weak law of large numbers
-848. weakly hereditary property(of spaces)
-849. Wedderburn's little theorem
-850. Weierstrass' Approximation theorem
-
-851. Weierstrass' theorem
-852. Weierstrass, Karl (1815-97)
-853. weight
-854. weighted graph
-855. weighted mean
-856. well-conditioned problem
-857. well-formed formula
-858. well defined
-859. Weyl, Hermann (1885-1955)
-860. wff
-
-861. Whitehead, Alfred North (1861-1947)
-862. whole angle
-863. Wiener, Norbert (1894-1964)
-864. Wilcoxon paired sample test
-865. Wilcoxon rank-sum test
-866. Wilcoxon signed rank test
-867. Wiles, Sir Andrew John (1953-)
-868. Wilson's theorem
-869. winding number
-870. within-subjects design
-
-871. Witten, Edward (1957- )
-872. Wolf Prize
-873. word problem
-874. work
-875. wrt
-876. X
-877. x-axis
-878. xor
-879. y
-880. Y
-
-881. y-axis
-882. Yates' correction
-883. yocto-
-884. yotta-
-885. Young's inequality
-886. Young's modulus of elasticity
-887. ℤ
-888. z
-889. Z
-890. z-axis
-
-891. Zariski topology
-892. Zeckendorf's theorem
-893. Zeeman, Sir Erik Christopher (1925-2016)
-894. Zeno of Elea
-895. zepto-
-896. Zermelo, Ernst (1871-1953)
-897. Zermelo-Fraenkel axioms
-898. zero
-899. zero(of a function)
-900. zero-divisor
-
-901. zero-sum game
-902. zero element
-903. zero function
-904. zero matrix
-905. zero vector
-906. zeta function
-907. zetta-
-908. ZF
-909. ZFC
-910. ℤn
-
-911. zone
-912. δ(x)
-913. δij
-914. μ(mu)
-915. π
-916. τ
+1. [[polynomial]]
+2. [[polynomial equation]]
+3. [[polynomial ring]]
+4. polynomial time
+	1. See algorithmic complexity
+5. [[polytope]]
+6. [[Jean-Victor Poncelet]]
+7. [[pons asinorum]]
+8. [[pooled estimate of variance]]
+9. [[population]]
+10. population mean
+	1. See mean
+11. poset
+	1. Short for 'partially ordered set', i.e. a set together with a partial order.
+12. [[position ratio]]
+13. [[position vector]]
+14. positive
+15. positive angle
+16. positive correlation
+17. positive definite
+18. positive direction
+19. positively oriented
+20. positive semidefinite
+21. possible
+22. postulate
+23. potential
+24. potential energy
+25. potential infinity
+26. power(of a matrix)
+27. power(in mechanics)
+28. power
+29. power(of a test)
+30. power series
+31. power set
+32. pre-image
+33. precision(in statistics)
+34. precision(numerical analysis)
+35. predator-prey equations
+36. predicate(in logic)
+37. prefix
+38. prefix code
+39. presentation
+40. pressure
+
+
+41. primary decomposition theorem
+42. prime
+43. prime decomposition
+44. prime element
+45. prime ideal
+46. prime knot
+47. prime meridian
+48. prime number theorem
+49. prime subfield
+50. primitive(nth root of unity)
+
+51. primitive
+52. principal axes(in mechanics)
+53. principal axes(of a quadric)
+54. principal ideal domain
+55. principal part
+56. principal value
+57. principal value integral
+58. principle of the excluded middle
+59. prism
+60. private key crytography
+
+61. probability
+62. probability measure
+63. probability paper
+64. product
+65. product group
+66. product moment correlation coefficient
+67. product notation
+68. product of inertia
+69. product rule
+70. product set
+
+71. product space
+72. program
+73. progression
+74. projectile
+75. projection(of a point on a line or plane)
+76. projection
+77. projective geometry
+78. projective space
+79. projective transformation
+80. prolate
+
+81. proof
+82. proof by contradiction
+83. proof theory
+84. proof verification
+85. proper class
+86. proper divisor
+87. proper factor
+88. proper fraction
+89. proper map
+90. proper subset
+
+91. proper value
+92. proper vector
+93. proportion
+94. proportion
+95. proposition
+96. propositional logic
+97. pseudoinverse
+98. pseudometric
+99. pseudoprime
+100. pseudorandom numbers
+
+101. Ptolemy
+102. Ptolemy's Theorem
+103. public key cryptography
+104. pulley
+105. pure imaginary
+106. pure mathematics
+107. pure strategy
+108. PV
+109. pyramid
+110. Pythagoras (500 bc)
+
+111. Pythagoras' Theorem
+112. ℚ
+113. Q8
+114. QED
+115. QEF
+116. ℚp
+117. QR decomposition
+118. quad-
+119. quadrant
+120. quadratic complexity
+
+121. quadratic convergence
+122. quadratic form
+123. quadratic formula
+124. quadratic function
+125. quadratic reciprocity
+126. quadratic residue
+127. quadratrix
+128. quadrature
+129. quadric
+130. quadric cone
+
+131. quadrilateral
+132. quadrillion
+133. quadruple
+134. quality control
+135. quantifier
+136. quantile
+137. quantity
+138. quantum theory
+139. quartic polynomial
+140. quartile deviation
+
+141. quartiles
+142. quaternion
+143. quaternion group
+144. Quillen, Daniel Grey (1940-2011)
+145. quin-
+146. Quine, Willard van Orman (1908-2000)
+147. quotient
+148. quotient group
+149. quotient ring
+150. quotient rule(for differentiation)
+
+151. quotient space
+152. ℝ
+153. Rademacher's Theorem
+154. radial and transverse components
+155. radial set
+156. radian
+157. radical
+158. radical axis
+159. radical sign
+160. radicand
+
+161. radius
+162. radius(of a graph)
+163. radius of convergence
+164. radius of curvature
+165. radius of gyration
+166. radius vector
+167. raise(to a power)
+168. Ramanujan, Srinivasa (1887-1920)
+169. Ramsey, Frank (1903-30)
+170. random
+
+171. random error
+172. random graph
+173. randomization
+174. randomize
+175. randomized blocks
+176. random numbers
+177. random sample
+178. random variable
+179. random vector
+180. random walk
+
+181. range(of a function or mapping)
+182. range(in mechanics)
+183. range(in statistics)
+184. rank(of a matrix or linear map)
+185. rank(in statistics)
+186. rank-nullity theorem
+187. rank correlation coefficient
+188. rate of change
+189. rate of convergence
+190. ratio
+
+191. rational canonical form
+192. rational function
+193. rationalize
+194. rational number
+195. ratio test
+196. raw data
+197. ray
+198. Re
+199. re-entrant
+200. reachable set
+
+201. reaction
+202. real
+203. real axis
+204. real function
+205. real line
+206. real number
+207. real part
+208. real projective plane
+209. real world
+210. rearrangement
+
+211. rectangular
+212. rectangular hyperbola
+213. reduced echelon form
+214. reduced set of residues
+215. reductio ad absurdum
+216. reduction formula
+217. redundant
+218. reflection
+219. reflex angle
+220. reflexive relation
+
+221. reflexive space
+222. Regiomontanus (1436-76)
+223. region
+224. regression
+225. regular space
+226. relation
+227. relative complement
+228. relative efficiency
+229. relatively prime
+230. relative measure of dispersion
+
+231. relative position
+232. relativity theory
+233. reliability
+234. remainder
+235. remainder theorem
+236. representation(of a vector)
+237. representative
+238. residue
+239. resistant statistic
+240. resolution
+
+241. resonance
+242. response variable
+243. rest mass
+244. restriction(of a function)
+245. retardation
+246. retraction
+247. reverse mathematics
+248. reverse triangle inequality
+249. reversion to the mean
+250. revolution
+
+251. revolve
+252. Reynolds transport theorem
+253. rhombohedron
+254. rhombus
+255. RHS
+256. RI
+257. Riemann, (Georg Friedrich) Bernhard (1826-66)
+258. Riemann-Lebesgue lemma
+259. Riemann-Roch Theorem
+260. Riemannian manifold
+
+261. Riemann integral
+262. Riemann mapping theorem
+263. Riemann sphere
+264. Riemann surface
+265. Riemann zeta function
+266. Riesz representation theorem
+267. right-angled triangle
+268. right-circular
+269. right-handed system
+270. right-regular
+
+271. right angle
+272. right derivative
+273. right inverse
+274. rigid body
+275. rigid motion
+276. ring
+277. ring of integers
+278. rise
+279. risk
+280. ℝn
+
+281. Robin boundary condition
+282. Robinson, Julia (Hall Bowman) (1919-85)
+283. robust
+284. rod
+285. Rodrigues' formula
+286. Rolle's Theorem
+287. Rolle, Michel (1652-1719)
+288. Roman numeral
+289. root(of an equation)
+290. root(of a tree)
+
+291. root mean squared deviation
+292. root of unity
+293. root test
+294. rose
+295. rotation
+296. rotational kinetic energy
+297. rotation of axes
+298. Roth's Theorem
+299. rough surface
+300. round
+
+301. round angle
+302. route inspection problem
+303. row
+304. row equivalence(of matrices)
+305. row operation
+306. row rank
+307. row space
+308. row vector
+309. Royal Institution
+310. RRE form
+
+311. RSA(public-key cryptography)
+312. ruler and compass construction
+313. Runge-Kutta methods
+314. Russell's paradox
+315. Russell, Bertrand Arthur William (1872-1970)
+316. Rutherford, Lord (1871-1937)
+317. rv
+318. SAS
+319. saturated(in networks)
+320. scalar multiplication
+
+321. scalar product
+322. scalar quadratic product
+323. scalar triple product
+324. scale
+325. scalene triangle
+326. scatter diagram
+327. scheduling
+328. Schläfli, Ludwig (1814-95)
+329. Schläfli symbol
+330. Schrödinger's cat
+
+331. Schrödinger's equation
+332. Schrödinger, Erwin Rudolf Alexander (1887-1961)
+333. Schur decomposition
+334. Schwartz distribution
+335. scientific notation
+336. se
+337. secant(of a curve)
+338. secant method
+339. sech
+340. second(angular measure)
+
+341. second(time)
+342. second-order logic
+343. second-order partial derivative
+344. second fundamental form
+345. section
+346. section formulae
+347. sector
+348. selection
+349. self-inverse
+350. self-reference
+
+351. self-selected samples
+352. self-similarity
+353. semi-
+354. semi-decidable
+355. semi-direct product
+356. semi-interquartile range
+357. semi-metric
+358. semi-norm
+359. semi-regular polyhedron
+360. semi-regular tessellation
+
+361. semi-vertical angle
+362. semicircle
+363. semiprime
+364. sense
+365. separable(of a function)
+366. separable(of a space)
+367. separable first-order differential equation
+368. separable solution
+369. separated sets
+370. separation axioms
+
+371. separation of variables
+372. sept-
+373. sequence
+374. sequence of functions
+375. sequence space
+376. sequential compactness
+377. serial(of a relation)
+378. serial correlation
+379. series
+380. Serre, Jean-Pierre (1926- )
+
+381. Serret-Frenet formulae
+382. sesquilinear
+383. set
+384. set difference
+385. set theory
+386. sex-
+387. sexagesimal
+388. sf
+389. sgn
+390. Shannon's Theorem
+
+391. Shannon, Claude (1916-2001)
+392. shear
+393. shearing force(mechanics)
+394. sheet
+395. SHM
+396. sifting property
+397. sigma
+398. sign
+399. signed minor
+400. signed rank test
+
+401. significance level
+402. significance test
+403. significant figures
+404. sign test
+405. signum function
+406. similar(of figures)
+407. similar(of matrices)
+408. simple curve
+409. simple extension
+410. simple graph
+
+411. simple group
+412. simple interest
+413. simple pendulum
+414. simple pole
+415. simple root
+416. simplest form
+417. simplex method
+418. simplex tableau
+419. simplicial complex
+420. simplify
+
+421. simply connected
+422. Simpson's paradox
+423. simultaneity
+424. simultaneous linear differential equations
+425. simultaneous linear equations
+426. sine
+427. sine rule
+428. singularity
+429. singular point(complex analysis)
+430. singular value decomposition
+
+431. sinh
+432. sink
+433. sink
+434. SIR epidemiology model
+435. SI units
+436. skew-symmetric function
+437. skew-symmetric matrix
+438. skew field
+439. skew lines
+440. skewness
+
+441. slack
+442. slant asymptote
+443. slant height
+444. slash
+445. slide rule
+446. slope
+447. small circle
+448. Smith, Adrian Frederick Melhuish (1946- )
+449. Smith normal form
+450. smoothness condition
+
+451. smooth surface(in mechanics)
+452. Sn
+453. Sn
+454. snowflake curve
+455. software
+456. SOHCAHTOA
+457. solid
+458. solid angle
+459. solid of revolution
+460. solidus
+
+461. soluble group
+462. solution
+463. solution of triangles
+464. solvable by radicals
+465. solvable group
+466. sorting algorithms
+467. source
+468. source(in transportation problems)
+469. source
+470. space
+
+471. space-filling curve
+472. space-time
+473. span
+474. spanning set
+475. spanning tree
+476. Spearman's rank correlation coefficient
+477. special linear group
+478. special relativity
+479. spectrum
+480. speed
+
+481. speed of light
+482. sphere
+483. spherical angle
+484. spherical cap
+485. spherical polar coordinates
+486. spherical triangle
+487. spherical trigonometry
+488. spheroid
+489. spiral
+490. spline
+
+491. splitting field
+492. spread
+493. spring
+494. spring constant
+495. square
+496. square(as a power)
+497. square-integrable
+498. square matrix
+499. square number
+500. square root
+
+501. squaring the circle
+502. SSA
+503. SSS
+504. stabilizer
+505. stable equilibrium
+506. standard basis
+507. standard deviation
+508. standard form(of a linear programming problem)
+509. standard form(of a number)
+510. standardize
+
+511. standard normal distribution
+512. state
+513. static friction
+514. stationary point(in one variable)
+515. stationary point(in two variables)
+516. stationary value
+517. statistic
+518. statistical equilibrium
+519. statistical mechanics
+520. statistical model
+
+521. statistical tables
+522. Steinitz exchange lemma
+523. stem-and-leaf plot
+524. steradian
+525. stereographic projection
+526. Stevin, Simon (1548-1620)
+527. Stewart, Ian (1945- )
+528. stiffness
+529. Stirling number of the first kind
+530. Stirling number of the second kind
+
+531. stochastic variable
+532. Stokes' Theorem(generalized form)
+533. Stokes, Sir George Gabriel (1819-1903)
+534. Stone-Weierstrass Theorem
+535. strain
+536. stress
+537. strictly decreasing
+538. strictly determined game
+539. strictly increasing
+540. strictly monotonic
+
+541. string
+542. string
+543. strong convergence
+544. strong law of large numbers
+545. Structure Theorem(for modules)
+546. Sturm-Liouville equation
+547. subadditive
+548. subdivision(of a graph)
+549. subdivision(of an interval)
+550. subdivision(of a surface)
+
+551. subgraph
+552. subgroup
+553. subgroup generated by a set
+554. submatrix
+555. subscript
+556. subset
+557. subspace
+558. sufficiently large
+559. sufficient statistic(for a parameter)
+560. sum
+
+561. summation notation
+562. sum to infinity
+563. sup
+564. superadditive
+565. supplementary angles
+566. supplementary unit
+567. support
+568. supremum
+569. surd
+570. surface(in topology)
+
+571. surface
+572. surface(of a solid)
+573. surface area
+574. surface integral
+575. surface of revolution
+576. surjection
+577. Sylow's theorems
+578. Sym
+579. symbol
+580. symmetrical about a line
+
+581. symmetrical about a point
+582. symmetric difference
+583. symmetric function
+584. symmetric matrix
+585. symmetry(of a geometrical figure)
+586. symmetry group(of a geometrical figure)
+587. symplectic geometry
+588. symplectic group
+589. synthetic geometry
+590. systematic error
+
+591. systematic sampling
+592. Système International d'Unités
+593. system of particles
+594. systems analysis
+595. Szemerédi's theorem
+596. T
+597. T
+598. T
+599. t-distribution
+600. t-formulae
+
+601. t-test
+602. tableau
+603. tables
+604. tacnode
+605. tail
+606. tangent
+607. tangent(to a curve)
+608. tangent bundle
+609. tangent field
+610. tangential
+
+611. tangent plane
+612. tangent rule
+613. tangent space
+614. tangent vector
+615. tanh
+616. Taniyama-Shimura conjecture
+617. Tarski, Alfred (1901-83)
+618. Tartaglia, Niccolò (1499-1557)
+619. tau
+620. tautochrone
+
+621. tautology
+622. taxicab norm
+623. taxicab number
+624. Taylor's Theorem
+625. Taylor, Brook (1685-1731)
+626. Taylor, Richard (1962-)
+627. Taylor series
+628. Tchebyshev
+629. telescoping series
+630. temperature
+
+631. tend to
+632. tension
+633. tensor product
+634. tera-
+635. term
+636. terminal speed
+637. terminating decimal
+638. ternary relation
+639. ternary representation
+640. tessellation
+
+641. test function
+642. test statistic
+643. tetra-
+644. tetrahedral number
+645. tetrahedron
+646. TeX
+647. Thales of Miletus (585 bc)
+648. theorem
+649. Theorema Egregium
+650. theorem proving
+
+651. theta function
+652. Thom, René Frédéric (1923-2002)
+653. Thomson, William
+654. three-body problem
+655. three-door problem
+656. thrust
+657. tie
+658. tiling
+659. time
+660. time dilation
+
+661. time series
+662. Tn
+663. tonne
+664. topological group
+665. topological space
+666. topological vector space
+667. topology
+668. toppling
+669. torque
+670. torsion
+
+671. torsion element
+672. torus
+673. torus
+674. total differential
+675. total expectation law
+676. totally bounded(of a metric space)
+677. total order
+678. total probability law
+679. totient function
+680. touch
+
+681. tower law
+682. Tower of Brahma
+683. Tower of Hanoi
+684. trace
+685. tractrix
+686. trail
+687. trajectory
+688. transition map
+689. transition matrix
+690. translation(of Cartesian space)
+
+691. translation of axes(in Cartesian space)
+692. transportation problem
+693. transpose
+694. transversal
+695. transverse axis
+696. transverse component
+697. trapezium
+698. trapezium rule
+699. trapezoidal rule
+700. travelling salesman problem(in graph theory)
+
+701. traversable graph
+702. tree
+703. trefoil
+704. triangle
+705. triangle inequality
+706. triangle of forces(in mechanics)
+707. triangularizable
+708. triangular number
+709. triangulation
+710. triangulation(in topology)
+
+711. tridiagonal matrix
+712. trigonometric function
+713. trigonometric series expansions
+714. trigonometric tables
+715. trillion
+716. trim
+717. trinomial
+718. triple
+719. triple product(of vectors)
+720. triple root
+
+721. trisect
+722. trisection of an angle
+723. trivial solution
+724. truncated cube
+725. truncated tetrahedron
+726. truncation
+727. truth table
+728. truth value
+729. Tukey, John Wilder (1915-2000)
+730. tuple
+
+731. Turing, Alan Mathison (1912-54)
+732. Turing machine
+733. turning point
+734. twin primes
+735. two-person zero-sum game
+736. two-sample tests(in statistics)
+737. two-sided test
+738. two-tailed test
+739. Tychonoff's theorem
+740. Tychonoff space
+
+741. Type I error
+742. Type II error
+743. typical sequence
+744. UFD
+745. UKMT
+746. ultrametric
+747. unbiased estimator
+748. unbounded
+749. unconditional statement
+750. uncountable
+
+751. undecidable
+752. underdetermined
+753. uniform
+754. uniform gravitational force
+755. uniformly continuous
+756. unimodal
+757. unimodular
+758. union
+759. unique factorization domain
+760. unit
+
+761. unit
+762. unitary matrix
+763. unitary ratio
+764. unit circle
+765. unit cube
+766. unit matrix
+767. unit square
+768. unity
+769. universal covering space
+770. universal gravitational constant
+
+771. universal machine
+772. universal quantifier
+773. unknown
+774. upper limit
+775. upper triangular matrix
+776. utility function
+777. V
+778. V4
+779. valency
+780. validation(of a simulation model)
+
+781. Vallée-Poussin, Charles-Jean de la (1866-1962)
+782. value
+783. value(of a matrix game)
+784. Vandermonde's convolution formula
+785. Vandermonde's determinant
+786. Van der Waerden's Theorem
+787. vanish
+788. Var
+789. variability
+790. variable
+
+791. variance
+792. variance, analysis of
+793. variation
+794. varies directly
+795. variety
+796. vector
+797. vector bundle
+798. vector equation(of a line)
+799. vector equation(of a plane)
+800. vector field
+
+801. vector norm
+802. vector potential
+803. vector product
+804. vector projection(of a vector on a vector)
+805. vector space
+806. vector sum
+807. vector triple product
+808. velocity
+809. velocity-time graph
+810. velocity potential
+
+811. velocity ratio
+812. Venn, John (1834-1923)
+813. Venn diagram
+814. vertex
+815. vertex(of a graph)
+816. vertical angles
+817. Viète's formulae
+818. Viète, François (1540-1603)
+819. Vinogradov's Theorem
+820. viscous
+
+821. Vitali set
+822. volume
+823. volume of a solid of revolution
+824. Von Neumann, John (1903-57)
+825. vortex
+826. vulgar fraction
+827. W
+828. walk(in graph theory)
+829. Wallis' Product
+830. Wallis, John (1616-1703)
+
+831. wallpaper group
+832. Waring's problem
+833. warning limits
+834. watt
+835. wave
+836. wave equation
+837. weak law of large numbers
+838. weakly hereditary property(of spaces)
+839. Wedderburn's little theorem
+840. Weierstrass' Approximation theorem
+
+841. Weierstrass' theorem
+842. Weierstrass, Karl (1815-97)
+843. weight
+844. weighted graph
+845. weighted mean
+846. well-conditioned problem
+847. well-formed formula
+848. well defined
+849. Weyl, Hermann (1885-1955)
+850. wff
+
+851. Whitehead, Alfred North (1861-1947)
+852. whole angle
+853. Wiener, Norbert (1894-1964)
+854. Wilcoxon paired sample test
+855. Wilcoxon rank-sum test
+856. Wilcoxon signed rank test
+857. Wiles, Sir Andrew John (1953-)
+858. Wilson's theorem
+859. winding number
+860. within-subjects design
+
+861. Witten, Edward (1957- )
+862. Wolf Prize
+863. word problem
+864. work
+865. wrt
+866. X
+867. x-axis
+868. xor
+869. y
+870. Y
+
+871. y-axis
+872. Yates' correction
+873. yocto-
+874. yotta-
+875. Young's inequality
+876. Young's modulus of elasticity
+877. ℤ
+878. z
+879. Z
+880. z-axis
+
+881. Zariski topology
+882. Zeckendorf's theorem
+883. Zeeman, Sir Erik Christopher (1925-2016)
+884. Zeno of Elea
+885. zepto-
+886. Zermelo, Ernst (1871-1953)
+887. Zermelo-Fraenkel axioms
+888. zero
+889. zero(of a function)
+890. zero-divisor
+
+891. zero-sum game
+892. zero element
+893. zero function
+894. zero matrix
+895. zero vector
+896. zeta function
+897. zetta-
+898. ZF
+899. ZFC
+900. ℤn
+
+901. zone
+902. δ(x)
+903. δij
+904. μ(mu)
+905. π
+906. τ
 ## Special
 1. [[absolute value]]
 2. [[algebra of sets]]

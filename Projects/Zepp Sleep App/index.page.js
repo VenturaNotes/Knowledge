@@ -32,7 +32,6 @@ Page({
     const napWakeMs = new Date(yesterday.getFullYear(), yesterday.getMonth(), yesterday.getDate(), 18, 4, 0).getTime();
     const nightWakeMs = new Date(yesterday.getFullYear(), yesterday.getMonth(), yesterday.getDate(), 3, 13, 0).getTime();
 
-    // Initial clean seed with both sessions on Sept 12 (Total: 12h 08m)
     let segments = storage.getItem('savedSegments', [
       {
         startMs: napWakeMs - (320 * 60 * 1000),
@@ -134,10 +133,11 @@ Page({
     const wakeDateObj = new Date(latestWakeMs);
     const wakeFormatted = formatTime12(wakeDateObj);
 
-    // 5. True Rolling 24-Hour Total Sleep
-    const cutoff24h = latestWakeMs - (24 * 60 * 60 * 1000);
+    // 5. TRUE ROLLING 17-HOUR TOTAL SLEEP (Main Screen)
+    // Sums all sleep segments that ended within past 17 hours of latest wake-up
+    const cutoff17h = latestWakeMs - (17 * 60 * 60 * 1000);
     const rollingSleepMins = segments
-      .filter(s => s.endMs >= cutoff24h && s.endMs <= latestWakeMs)
+      .filter(s => s.endMs >= cutoff17h && s.endMs <= latestWakeMs)
       .reduce((sum, s) => sum + s.durationMins, 0);
 
     const sleepHours = Math.floor(rollingSleepMins / 60);
@@ -240,13 +240,13 @@ Page({
       align_h: align.CENTER_H
     }));
 
-    // 24h Sleep Indicator
+    // 17h Sleep Indicator (Updated from 24h to 17h)
     mainWidgets.push(createWidget(widget.TEXT, {
       x: 0,
       y: 238,
       w: 320,
       h: 30,
-      text: `24h Sleep: ${sleepHours}h ${sleepMins}m`,
+      text: `17h Sleep: ${sleepHours}h ${sleepMins}m`,
       text_size: 18,
       color: sleepColor,
       align_h: align.CENTER_H
@@ -306,7 +306,7 @@ Page({
     historyBackBtn.setProperty(prop.VISIBLE, false);
     historyWidgets.push(historyBackBtn);
 
-    // --- MAIN SCREEN BUTTON (Centered, no extra debug button) ---
+    // --- MAIN SCREEN BUTTON ---
     const historyBtn = createWidget(widget.BUTTON, {
       x: 75, y: 285, w: 170, h: 42, radius: 21,
       normal_color: 0x1c1c1e, press_color: 0x3a3a3c,
