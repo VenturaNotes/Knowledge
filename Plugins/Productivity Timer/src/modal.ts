@@ -2,6 +2,49 @@ import { Modal, App, Notice } from "obsidian";
 import { Timer, TimerSegment, isValidUUID, generateUUID } from "./types";
 import { SupabaseClient } from "./db";
 
+export class ConfirmDeleteModal extends Modal {
+	private timer: Timer;
+	private onConfirm: () => void;
+
+	constructor(app: App, timer: Timer, onConfirm: () => void) {
+		super(app);
+		this.timer = timer;
+		this.onConfirm = onConfirm;
+	}
+
+	onOpen() {
+		const { contentEl } = this;
+		contentEl.empty();
+		this.titleEl.setText("Delete Timer");
+
+		const isParent = this.timer.parent_id === null;
+		const msg = isParent
+			? `Are you sure you want to delete "${this.timer.name}"? Any subtasks under it will also be deleted.`
+			: `Are you sure you want to delete "${this.timer.name}"?`;
+
+		contentEl.createEl("p", { text: msg });
+
+		const buttonBar = contentEl.createDiv();
+		buttonBar.style.cssText = "display: flex; justify-content: flex-end; gap: 8px; margin-top: 24px;";
+
+		const cancelBtn = buttonBar.createEl("button", { text: "Cancel" });
+		cancelBtn.type = "button";
+		cancelBtn.addEventListener("click", () => this.close());
+
+		const deleteBtn = buttonBar.createEl("button", { text: "Delete" });
+		deleteBtn.type = "button";
+		deleteBtn.style.cssText = "background: var(--color-red); color: white; border: none; font-weight: 600;";
+		deleteBtn.addEventListener("click", () => {
+			this.close();
+			this.onConfirm();
+		});
+	}
+
+	onClose() {
+		this.contentEl.empty();
+	}
+}
+
 export class TimeLogModal extends Modal {
 	private getTimer: () => Timer;
 	private db: SupabaseClient;

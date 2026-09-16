@@ -65,7 +65,9 @@ export class TimerService {
 						};
 						t.segments = t.segments || [];
 						t.segments.push(newSeg);
-						t.tracked_seconds = t.segments.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
+						const segSum = t.segments.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
+						// Preserve any existing tracked time so a new segment never decreases the total
+						t.tracked_seconds = Math.max(t.tracked_seconds || 0, segSum);
 						segmentsToInsert.push(newSeg);
 						timersToUpdate.push({ id: t.id, tracked_seconds: t.tracked_seconds });
 					}
@@ -249,7 +251,6 @@ export class TimerService {
 		this.pendingSegments.push(...segmentsToInsert);
 
 		if (!wasRotationRunning) {
-			// Starting rotation -> schedule normal switch
 			target.is_rotation_running = true;
 			for (const sub of subtasks) {
 				if (sub.id !== activeSub.id) sub.is_last_active = false;
@@ -260,7 +261,6 @@ export class TimerService {
 			this.plugin.refreshUI();
 			this.scheduleServerCommit();
 		} else {
-			// Stopping rotation -> STOP IMMEDIATELY (0ms delay, no debounce!)
 			target.is_rotation_running = false;
 			for (const sub of subtasks) {
 				sub.is_running = false;
@@ -399,7 +399,6 @@ export class TimerService {
 				timer.segments = [];
 			}
 
-			// Load the newly archived session list for the Archive tab
 			if (navigator.onLine) {
 				await this.plugin.syncManager.loadSessions();
 			}

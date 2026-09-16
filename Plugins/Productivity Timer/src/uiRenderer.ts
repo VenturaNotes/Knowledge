@@ -1,6 +1,6 @@
 import { Notice } from "obsidian";
-import { Timer, ICONS } from "./types";
-import { TimeLogModal } from "./modal";
+import { Timer, ICONS, PLUGIN_VERSION } from "./types";
+import { TimeLogModal, ConfirmDeleteModal } from "./modal";
 import ProductivityTimerPlugin from "./main";
 
 export class TimerUIRenderer {
@@ -94,8 +94,15 @@ export class TimerUIRenderer {
 			this.plugin.refreshUI();
 		});
 
-		const statusIndicator = actions.createDiv({ cls: "pt-status-indicator" });
-		statusIndicator.style.cssText = "font-size: 11px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: 4px; margin-left: auto; border: 1px solid transparent;";
+		const indicatorsRight = actions.createDiv({ cls: "pt-indicators-right" });
+		indicatorsRight.style.cssText = "display: inline-flex; align-items: center; gap: 6px; margin-left: auto;";
+
+		// Visual version badge to confirm matching code versions between devices
+		const versionBadge = indicatorsRight.createDiv({ cls: "pt-version-badge", text: PLUGIN_VERSION });
+		versionBadge.style.cssText = "font-size: 10px; font-weight: 600; color: var(--text-faint); padding: 3px 6px; border-radius: 4px; background: var(--background-secondary-alt); border: 1px solid var(--background-modifier-border); font-family: var(--font-monospace);";
+
+		const statusIndicator = indicatorsRight.createDiv({ cls: "pt-status-indicator" });
+		statusIndicator.style.cssText = "font-size: 11px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: 4px; border: 1px solid transparent;";
 		if (navigator.onLine) {
 			statusIndicator.textContent = "● Online";
 			statusIndicator.style.color = "#10B981";
@@ -166,11 +173,17 @@ export class TimerUIRenderer {
 	}
 
 	private buildTimerRows(container: HTMLElement, isMobile: boolean) {
-		const parents = this.plugin.timers.filter(t => t.parent_id === null);
+		const parents = this.plugin.timers
+			.filter(t => t.parent_id === null)
+			.sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+
 		for (const parent of parents) {
 			this.renderRow(container, parent, isMobile);
 			if (!this.plugin.collapsedParentIds.has(parent.id)) {
-				const subtasks = this.plugin.timers.filter(t => t.parent_id === parent.id);
+				const subtasks = this.plugin.timers
+					.filter(t => t.parent_id === parent.id)
+					.sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+
 				for (const sub of subtasks) {
 					this.renderRow(container, sub, isMobile);
 				}
@@ -253,7 +266,7 @@ export class TimerUIRenderer {
 
 			const sibs = this.plugin.timers
 				.filter(t => t.parent_id === timer.parent_id)
-				.sort((a, b) => a.sort_order - b.sort_order);
+				.sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
 
 			const draggedIdx = sibs.findIndex(t => t.id === draggedId);
 			const targetIdx = sibs.findIndex(t => t.id === timer.id);
@@ -262,12 +275,19 @@ export class TimerUIRenderer {
 				sibs.splice(draggedIdx, 1);
 				sibs.splice(targetIdx, 0, draggedTimer);
 
+				sibs.forEach((t, idx) => {
+					t.sort_order = idx;
+				});
+
+				// Re-sort local array immediately for instant 0ms update on Mac
+				this.plugin.timers.sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+				this.plugin.refreshUI();
+
+				// Persist new order to Supabase in the background
 				await this.plugin.runWriteAction(async () => {
-					await Promise.all(sibs.map((t, idx) => {
-						t.sort_order = idx;
-						return this.plugin.db.update("timers", { sort_order: idx }, `id=eq.${t.id}`);
-					}));
-					this.plugin.refreshUI();
+					await Promise.all(sibs.map((t) =>
+						this.plugin.db.update("timers", { sort_order: t.sort_order }, `id=eq.${t.id}`)
+					));
 				});
 			}
 		});
@@ -373,7 +393,6 @@ export class TimerUIRenderer {
 		estimateInput.value = estimate > 0 ? this.plugin.formatTime(estimate) : "";
 		estimateInput.placeholder = "0h 00m";
 
-		// Updates safely on blur without blowing away the DOM or losing cursor focus
 		estimateInput.addEventListener("blur", async () => {
 			const parsed = this.plugin.parseTimeInput(estimateInput.value);
 			if (parsed !== null && parsed !== timer.estimate_seconds) {
@@ -383,7 +402,7 @@ export class TimerUIRenderer {
 				});
 				const { estimate: latestEstimate } = this.plugin.getTimerDisplayTimes(timer);
 				estimateInput.value = latestEstimate > 0 ? this.plugin.formatTime(latestEstimate) : "";
-				this.plugin.tickUI(); // in-place update (does not destroy DOM focus)
+				this.plugin.tickUI();
 			}
 		});
 		estimateInput.addEventListener("keydown", (e) => {
@@ -428,6 +447,12 @@ export class TimerUIRenderer {
 		const deleteBtn = rightActions.createEl("button", { cls: "pt-btn pt-btn--delete", title: "Delete task" });
 		deleteBtn.type = "button";
 		deleteBtn.innerHTML = ICONS.trash;
-		deleteBtn.addEventListener("click", () => this.plugin.deleteTimer(timer));
+		deleteBtn.addEventListener("click", (e: MouseEvent) => {
+			e.preventDefault();
+			e.stopPropagation();
+			new ConfirmDeleteModal(this.plugin.app, timer, () => {
+				this.plugin.deleteTimer(timer);
+			}).open();
+		});
 	}
 }

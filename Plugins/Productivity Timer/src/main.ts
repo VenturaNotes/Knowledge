@@ -26,6 +26,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 	private loadTimersDebounceTimeout: any = null;
 	private resumeDebounceTimer: any = null;
 
+	// Simple ID tracker to detect when subtasks switch during rotation
+	private lastActiveSubtaskId: string | null = null;
+
 	private writeQueue: Promise<void> = Promise.resolve();
 
 	private lastNativeExecutionTime: number = 0;
@@ -201,6 +204,29 @@ export default class ProductivityTimerPlugin extends Plugin {
 		return new Date(Date.now() + offset).toISOString();
 	}
 
+	/**
+	 * Simple check: if rotation is active and the running subtask ID changes,
+	 * display the "UP NEXT" overlay on this device.
+	 */
+	public checkRotationSubtaskTransition() {
+		const parent = this.timers.find((t) => t.is_rotation_running);
+		if (!parent) {
+			if (this.lastActiveSubtaskId !== null) {
+				this.closeOverlays();
+			}
+			this.lastActiveSubtaskId = null;
+			return;
+		}
+
+		const running = this.timers.find((t) => t.is_running && t.parent_id === parent.id);
+		if (!running) return; // Wait during network transition between tasks
+
+		if (this.lastActiveSubtaskId && this.lastActiveSubtaskId !== running.id) {
+			this.showRotationOverlay(running);
+		}
+		this.lastActiveSubtaskId = running.id;
+	}
+
 	public refreshUI() {
 		if (this.floatingWindow) {
 			this.floatingWindow.render();
@@ -217,7 +243,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 		if (this.activeMobileView) {
 			this.activeMobileView.render();
 		}
+
 		this.updateStatusBar();
+		this.checkRotationSubtaskTransition();
 	}
 
 	public tickUI() {
@@ -228,6 +256,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			this.activeMobileView.renderTimerRowsOnly();
 		}
 		this.updateStatusBar();
+		this.checkRotationSubtaskTransition();
 	}
 
 	private resyncInFlight = false;
@@ -356,13 +385,11 @@ export default class ProductivityTimerPlugin extends Plugin {
 						last_started_at: null
 					}, match);
 
-					// If 0 rows updated, another device already completed this rotation -> adopt remote state immediately
+					// If 0 rows updated, another device already completed this rotation -> adopt remote state & show overlay immediately
 					if (!Array.isArray(updated) || updated.length === 0) {
 						await this.syncManager.loadTimers(true);
-						const newRunning = this.timers.find(t => t.is_running && t.parent_id === parent.id);
-						if (newRunning) {
-							this.showRotationOverlay(newRunning);
-						}
+						const newRunning = this.timers.find((t) => t.is_running && t.parent_id === parent.id) || nextSubtask;
+						this.showRotationOverlay(newRunning);
 						this.refreshUI();
 						return;
 					}
@@ -452,7 +479,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			width: "100vw",
 			height: "100vh",
 			backgroundColor: "rgba(0, 0, 0, 0.88)",
-			zIndex: "9999",
+			zIndex: "99999",
 			display: "flex",
 			flexDirection: "column",
 			alignItems: "center",
@@ -490,7 +517,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const pEl = overlay.createEl("p", { text: "Press [ Ctrl + Space ] or Esc to acknowledge" });
 		pEl.style.cssText = "font-size: 11px; color: var(--text-muted); margin-top: 36px; text-transform: uppercase; letter-spacing: 0.05em;";
 
-		document.body.appendChild(overlay);
+		const doc = (window as any).activeDocument || document;
+		doc.body.appendChild(overlay);
 		this.rotationOverlay = overlay;
 
 		const activeEl = document.activeElement as HTMLElement;
@@ -519,7 +547,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			width: "100vw",
 			height: "100vh",
 			backgroundColor: "rgba(0, 0, 0, 0.90)",
-			zIndex: "9999",
+			zIndex: "99999",
 			display: "flex",
 			flexDirection: "column",
 			alignItems: "center",
@@ -557,7 +585,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const pEl = overlay.createEl("p", { text: "Press [ Ctrl + Space ] or Esc to acknowledge" });
 		pEl.style.cssText = "font-size: 11px; color: var(--text-muted); margin-top: 36px; text-transform: uppercase; letter-spacing: 0.05em;";
 
-		document.body.appendChild(overlay);
+		const doc = (window as any).activeDocument || document;
+		doc.body.appendChild(overlay);
 		this.rotationOverlay = overlay;
 
 		const activeEl = document.activeElement as HTMLElement;
@@ -599,7 +628,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const isRotationActive = parent ? parent.is_rotation_running : false;
 
 		if (isSubtask && isRotationActive && running.estimate_seconds > 0) {
-			// Calculate countdown to the exact next multiple of estimate_seconds
 			const remainder = activeTracked % running.estimate_seconds;
 			const timeLeft = remainder === 0 ? running.estimate_seconds : (running.estimate_seconds - remainder);
 
@@ -733,11 +761,17 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 	public getFlattenedRenderedTimers(): Timer[] {
 		const list: Timer[] = [];
-		const parents = this.timers.filter((t) => t.parent_id === null);
+		const parents = this.timers
+			.filter((t) => t.parent_id === null)
+			.sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+
 		for (const parent of parents) {
 			list.push(parent);
 			if (!this.collapsedParentIds.has(parent.id)) {
-				const subtasks = this.timers.filter((t) => t.parent_id === parent.id);
+				const subtasks = this.timers
+					.filter((t) => t.parent_id === parent.id)
+					.sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+
 				for (const sub of subtasks) {
 					list.push(sub);
 				}

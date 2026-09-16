@@ -1,3 +1,5 @@
+export const PLUGIN_VERSION = "v1.0.1";
+
 export interface TimerSegment {
 	id: string;
 	timer_id: string;
@@ -85,8 +87,8 @@ export function generateUUID(): string {
 }
 
 /**
- * Deterministic UUID used exclusively during subtask rotation so that
- * the rotation work block has an identical primary key across devices.
+ * Generates an exact RFC-4122 compliant 36-character UUID (8-4-4-4-12)
+ * deterministically based on timerId and startedAt so PostgreSQL accepts it.
  */
 export function generateDeterministicUUID(timerId: string, startedAt: string): string {
 	const input = `${timerId}_${startedAt}`;
@@ -104,7 +106,14 @@ export function generateDeterministicUUID(timerId: string, startedAt: string): s
 	const hex3 = ("00000000" + ((h1 ^ h2) >>> 0).toString(16)).slice(-8);
 	const hex4 = ("00000000" + ((h1 + h2) >>> 0).toString(16)).slice(-8);
 
-	return `${hex1}-${hex2.slice(0, 4)}-4${hex2.slice(4, 7)}-8${hex3.slice(0, 3)}-${hex4}`;
+	// Standard 8 - 4 - 4 - 4 - 12 format (36 characters with dashes)
+	const part1 = hex1;
+	const part2 = hex2.slice(0, 4);
+	const part3 = "4" + hex2.slice(4, 7);
+	const part4 = "8" + hex3.slice(0, 3);
+	const part5 = hex3.slice(3, 7) + hex4;
+
+	return `${part1}-${part2}-${part3}-${part4}-${part5}`;
 }
 
 export const ICONS = {
