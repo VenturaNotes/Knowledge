@@ -27,7 +27,10 @@ export interface PacingSessionState {
     earlyFinishBanked?: number;
     targetFinishTimestamp?: number;
 
-    // Pause Tracking for Target Finish Time
+    // Pause Tracking & Stint Metadata
+    stintTargetMode?: "time" | "segments" | "endTime";
+    stintTargetValueRaw?: string;
+    totalPausedSeconds?: number;
     pausedAt?: number;
     pauseBufferSeconds?: number;
     quotaAtPauseStart?: number;
@@ -82,6 +85,13 @@ export function createBlankSession(): PacingSessionState {
         hardStopTotalSeconds: 600,
         earlyFinishBanked: 0,
         targetFinishTimestamp: undefined,
+
+        stintTargetMode: "time",
+        stintTargetValueRaw: "3h",
+        totalPausedSeconds: 0,
+        pausedAt: undefined,
+        pauseBufferSeconds: 0,
+        quotaAtPauseStart: undefined,
 
         rotationCategories: [], 
         rotationIndex: 0, 

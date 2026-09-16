@@ -24,6 +24,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	private rotationOverlay: HTMLElement | null = null;
 	private overlayKeydownListener: ((e: KeyboardEvent) => void) | null = null;
 	private loadTimersDebounceTimeout: any = null;
+	private resumeDebounceTimer: any = null;
 
 	private writeQueue: Promise<void> = Promise.resolve();
 
@@ -48,7 +49,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		});
 
 		this.db.onStaleConnection(() => {
-			this.performFullResync();
+			this.triggerResumeSync();
 		});
 
 		this.setupPowerMonitor();
@@ -68,18 +69,30 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 		this.startBackgroundTick();
 
-		this.registerDomEvent(window, "online", async () => {
-			await this.performFullResync();
+		// Trigger resync when connection is restored
+		this.registerDomEvent(window, "online", () => {
+			this.triggerResumeSync();
 		});
 
 		this.registerDomEvent(window, "offline", () => {
 			this.refreshUI();
 		});
 
-		this.registerDomEvent(document, "visibilitychange", async () => {
-			if (document.visibilityState === "visible" && navigator.onLine) {
-				await this.performFullResync();
+		// Trigger resync when returning from background on Android/iOS/Desktop
+		this.registerDomEvent(document, "visibilitychange", () => {
+			if (document.visibilityState === "visible") {
+				this.triggerResumeSync();
 			}
+		});
+
+		// Trigger resync when Obsidian window/tab regains focus
+		this.registerDomEvent(window, "focus", () => {
+			this.triggerResumeSync();
+		});
+
+		// Capacitor/Cordova native mobile resume event
+		this.registerDomEvent(document, "resume" as any, () => {
+			this.triggerResumeSync();
 		});
 
 		if (navigator.onLine) {
@@ -107,6 +120,14 @@ export default class ProductivityTimerPlugin extends Plugin {
 			window.clearInterval(this.bgTickInterval);
 			this.bgTickInterval = null;
 		}
+		if (this.resumeDebounceTimer) {
+			window.clearTimeout(this.resumeDebounceTimer);
+			this.resumeDebounceTimer = null;
+		}
+		if (this.loadTimersDebounceTimeout) {
+			window.clearTimeout(this.loadTimersDebounceTimeout);
+			this.loadTimersDebounceTimeout = null;
+		}
 		if (this.rotationOverlay) {
 			this.rotationOverlay.remove();
 			this.rotationOverlay = null;
@@ -133,7 +154,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			if (!powerMonitor) return;
 
 			const onWake = () => {
-				if (navigator.onLine) this.performFullResync();
+				this.triggerResumeSync();
 			};
 
 			powerMonitor.on("resume", onWake);
@@ -146,6 +167,32 @@ export default class ProductivityTimerPlugin extends Plugin {
 		} catch (e) {}
 	}
 
+	/**
+	 * Handles app wake-up / refocus by waiting briefly for the device's
+	 * network stack to stabilize before performing a full resync.
+	 */
+	public triggerResumeSync() {
+		if (this.resumeDebounceTimer) {
+			window.clearTimeout(this.resumeDebounceTimer);
+		}
+
+		this.resumeDebounceTimer = window.setTimeout(async () => {
+			this.resumeDebounceTimer = null;
+
+			// On Android/iOS, give the OS network stack up to 2.5s (5 x 500ms) to re-associate
+			for (let i = 0; i < 5; i++) {
+				if (navigator.onLine) break;
+				await new Promise((resolve) => setTimeout(resolve, 500));
+			}
+
+			if (navigator.onLine) {
+				await this.performFullResync();
+			} else {
+				this.refreshUI();
+			}
+		}, 350);
+	}
+
 	public getCalibratedISOString(): string {
 		const offset = (window as any).ptServerClockOffset || 0;
 		return new Date(Date.now() + offset).toISOString();
@@ -155,6 +202,16 @@ export default class ProductivityTimerPlugin extends Plugin {
 		if (this.floatingWindow) {
 			this.floatingWindow.render();
 		}
+
+		// Re-acquire mobile view if it was detached during background suspension
+		if (!this.activeMobileView && Platform.isMobile) {
+			const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_PRODUCTIVITY_TIMER);
+			const firstLeaf = leaves[0];
+			if (firstLeaf && firstLeaf.view instanceof ProductivityTimerView) {
+				this.activeMobileView = firstLeaf.view;
+			}
+		}
+
 		if (this.activeMobileView) {
 			this.activeMobileView.render();
 		}
@@ -193,8 +250,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 			this.refreshUI();
 		} catch (e) {
 			console.error(`Productivity Timer: resync attempt ${attempt} failed.`, e);
-			if (attempt < 3 && navigator.onLine) {
-				await new Promise(resolve => setTimeout(resolve, 1500));
+			if (attempt < 3) {
+				await new Promise((resolve) => setTimeout(resolve, 1500));
 				await this.performFullResync(attempt + 1);
 				return;
 			} else {
@@ -226,12 +283,12 @@ export default class ProductivityTimerPlugin extends Plugin {
 			const drift = now - this.lastTickTime;
 			this.lastTickTime = now;
 
-			// Resync when waking from sleep or lock screen
-			if (drift > 5000 && navigator.onLine) {
-				this.performFullResync().catch(() => {});
+			// If JavaScript execution froze because Android backgrounded the app
+			if (drift > 4000) {
+				this.triggerResumeSync();
 			}
 
-			const running = this.timers.find(t => t.is_running);
+			const running = this.timers.find((t) => t.is_running);
 			if (running) {
 				this.getActiveTrackedSeconds(running);
 			}
@@ -244,10 +301,10 @@ export default class ProductivityTimerPlugin extends Plugin {
 	public async checkSubtaskRotation() {
 		if (this.isRotating || this.activeWrites > 0) return;
 
-		const running = this.timers.find(t => t.is_running);
+		const running = this.timers.find((t) => t.is_running);
 		if (!running || running.parent_id === null) return;
 
-		const parent = this.timers.find(t => t.id === running.parent_id);
+		const parent = this.timers.find((t) => t.id === running.parent_id);
 		if (!parent || !parent.is_rotation_running || running.estimate_seconds <= 0 || !running.last_started_at) return;
 
 		const activeTracked = this.getActiveTrackedSeconds(running);
@@ -255,10 +312,10 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const startMultiple = Math.floor(running.tracked_seconds / running.estimate_seconds);
 
 		if (currentMultiple > startMultiple) {
-			const sibs = this.timers.filter(t => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
+			const sibs = this.timers.filter((t) => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
 
 			if (sibs.length >= 1) {
-				const idx = sibs.findIndex(t => t.id === running.id);
+				const idx = sibs.findIndex((t) => t.id === running.id);
 				const nextIdx = (idx + 1) % sibs.length;
 				const nextSubtask = sibs[nextIdx];
 
@@ -332,7 +389,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 								await Promise.all([
 									this.db.update("timers", { is_running: false, is_last_active: false, tracked_seconds: finalTracked, last_started_at: null }, `id=eq.${running.id}`),
 									this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: nextNow }, `id=eq.${nextSubtask.id}`),
-									...sibs.filter(s => s.id !== nextSubtask.id && s.id !== running.id).map(sib =>
+									...sibs.filter((s) => s.id !== nextSubtask.id && s.id !== running.id).map((sib) =>
 										this.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
 									)
 								]);
@@ -496,7 +553,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	private updateStatusBar() {
-		const running = this.timers.find(t => t.is_running);
+		const running = this.timers.find((t) => t.is_running);
 		if (!running) {
 			this.statusBarEl.setText("");
 			return;
@@ -505,7 +562,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const activeTracked = this.getActiveTrackedSeconds(running);
 		const displayTracked = this.getTimerDisplayTimes(running).tracked;
 		const isSubtask = running.parent_id !== null;
-		const parent = isSubtask ? this.timers.find(t => t.id === running.parent_id) : null;
+		const parent = isSubtask ? this.timers.find((t) => t.id === running.parent_id) : null;
 		const isRotationActive = parent ? parent.is_rotation_running : false;
 
 		if (isSubtask && isRotationActive && running.estimate_seconds > 0) {
@@ -570,7 +627,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public getRollupDetails() {
-		const parentsWithEstimate = this.timers.filter(t => t.parent_id === null && t.estimate_seconds > 0);
+		const parentsWithEstimate = this.timers.filter((t) => t.parent_id === null && t.estimate_seconds > 0);
 		const totalEstimateSeconds = parentsWithEstimate.reduce((sum, t) => sum + t.estimate_seconds, 0);
 		const totalTrackedSeconds = parentsWithEstimate.reduce((sum, t) => sum + this.getTimerDisplayTimes(t).tracked, 0);
 
@@ -599,7 +656,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	public getRunningTaskDetails() {
-		const running = this.timers.find(t => t.is_running);
+		const running = this.timers.find((t) => t.is_running);
 		if (!running) {
 			return {
 				name: "No Task Running",
@@ -608,7 +665,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 			};
 		}
 
-		const activeParent = running.parent_id ? this.timers.find(p => p.id === running.parent_id) : running;
+		const activeParent = running.parent_id ? this.timers.find((p) => p.id === running.parent_id) : running;
 		const displayName = activeParent ? activeParent.name : running.name;
 		const { tracked, estimate } = this.getTimerDisplayTimes(activeParent || running);
 
@@ -642,11 +699,11 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 	public getFlattenedRenderedTimers(): Timer[] {
 		const list: Timer[] = [];
-		const parents = this.timers.filter(t => t.parent_id === null);
+		const parents = this.timers.filter((t) => t.parent_id === null);
 		for (const parent of parents) {
 			list.push(parent);
 			if (!this.collapsedParentIds.has(parent.id)) {
-				const subtasks = this.timers.filter(t => t.parent_id === parent.id);
+				const subtasks = this.timers.filter((t) => t.parent_id === parent.id);
 				for (const sub of subtasks) {
 					list.push(sub);
 				}
@@ -662,7 +719,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 				estimate: timer.estimate_seconds
 			};
 		} else {
-			const subtasks = this.timers.filter(t => t.parent_id === timer.id);
+			const subtasks = this.timers.filter((t) => t.parent_id === timer.id);
 			const sumTracked = subtasks.reduce((sum, s) => sum + this.getActiveTrackedSeconds(s), 0);
 			return {
 				tracked: this.getActiveTrackedSeconds(timer) + sumTracked,
@@ -814,23 +871,27 @@ class ProductivityTimerSettingsTab extends PluginSettingTab {
 		new Setting(containerEl)
 			.setName("Supabase URL")
 			.setDesc("Your project URL (e.g. https://xxxx.supabase.co)")
-			.addText(text => text
-				.setPlaceholder("https://xxxx.supabase.co")
-				.setValue(this.plugin.settings.supabaseUrl)
-				.onChange(async (value) => {
-					this.plugin.settings.supabaseUrl = value.trim();
-					await this.plugin.saveSettings();
-				}));
+			.addText((text) =>
+				text
+					.setPlaceholder("https://xxxx.supabase.co")
+					.setValue(this.plugin.settings.supabaseUrl)
+					.onChange(async (value) => {
+						this.plugin.settings.supabaseUrl = value.trim();
+						await this.plugin.saveSettings();
+					})
+			);
 
 		new Setting(containerEl)
 			.setName("Supabase Publishable Key")
 			.setDesc("Your anon/publishable key")
-			.addText(text => text
-				.setPlaceholder("sb_publishable_...")
-				.setValue(this.plugin.settings.supabaseKey)
-				.onChange(async (value) => {
-					this.plugin.settings.supabaseKey = value.trim();
-					await this.plugin.saveSettings();
-				}));
+			.addText((text) =>
+				text
+					.setPlaceholder("sb_publishable_...")
+					.setValue(this.plugin.settings.supabaseKey)
+					.onChange(async (value) => {
+						this.plugin.settings.supabaseKey = value.trim();
+						await this.plugin.saveSettings();
+					})
+			);
 	}
 }

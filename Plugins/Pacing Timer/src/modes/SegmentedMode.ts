@@ -25,6 +25,20 @@ function parseStintDurationInput(raw: string): number {
     return parseDurationToSeconds(raw);
 }
 
+function getTargetMethodBadge(s: PacingSessionState): string {
+    if (s.stintTargetMode === "endTime" || s.targetFinishTimestamp) {
+        const finishStr = s.targetFinishTimestamp 
+            ? getFinishedTimeStr(s.targetFinishTimestamp, 0)
+            : (s.stintTargetValueRaw || "");
+        return `🎯 Target Finish Time (${finishStr})`;
+    }
+    if (s.stintTargetMode === "segments") {
+        return `🔢 Stint Segment Target (${s.stintInitialGoal || s.totalSegments} Tasks)`;
+    }
+    const durStr = s.stintTargetValueRaw || formatHumanReadableDuration(s.defaultTotalTime || 10800);
+    return `⏱️ Stint Time Target (${durStr})`;
+}
+
 function getProjectPaceStats(session: PacingSessionState, plugin: PacingTimerPlugin) {
     const isProjectStint = Boolean(session.projectId);
     const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
@@ -484,9 +498,18 @@ export const SegmentedMode: ModeHandler = {
                 });
 
                 const quota = s.currentQuota || s.stintInitialGoal || 10;
+                const currentPause = (!s.isRunning && s.pausedAt) 
+                    ? Math.max(0, Math.floor((Date.now() - s.pausedAt) / 1000)) 
+                    : 0;
+                const totalPaused = (s.totalPausedSeconds || 0) + currentPause;
+                const methodBadge = getTargetMethodBadge(s);
+
                 stintCard.innerHTML = `
-                    <div style="font-weight: 600; color: var(--text-accent); margin-bottom: 4px;">⏱️ Active Stint Progress</div>
-                    <div><b>Today:</b> ${stintDone} / ${quota} Tasks • <b>Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}</div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                        <span style="font-weight: 600; color: var(--text-accent);">⏱️ Active Stint Progress</span>
+                        <span style="font-size: 0.8em; color: var(--text-muted); background: var(--background-secondary); border: 1px solid var(--background-modifier-border); padding: 1px 7px; border-radius: 10px;">${methodBadge}</span>
+                    </div>
+                    <div><b>Today:</b> ${stintDone} / ${quota} Tasks • <b>Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}</div>
                 `;
 
                 const btnRow = container.createDiv();
@@ -714,6 +737,11 @@ export const SegmentedMode: ModeHandler = {
                         hardStopTotalSeconds: duration,
                         earlyFinishBanked: 0,
                         targetFinishTimestamp,
+                        stintTargetMode,
+                        stintTargetValueRaw: stintTargetMode === "endTime" 
+                            ? stintEndTimeRaw 
+                            : (stintTargetMode === "segments" ? stintTasksRaw : stintDurationRaw),
+                        totalPausedSeconds: 0,
                         pausedAt: undefined,
                         pauseBufferSeconds: 0,
                         quotaAtPauseStart: undefined,
@@ -998,8 +1026,9 @@ export const SegmentedMode: ModeHandler = {
                     const startQuota = session.quotaAtPauseStart || baseGoal;
                     session.currentQuota = Math.max(completedToday, startQuota - lostTasks);
                 } else if (session.pausedAt) {
-                    // Resumed from a pause: commit the accumulated pause seconds
+                    // Resumed from a pause: commit accumulated pause seconds
                     const pauseDuration = Math.max(0, Math.floor((Date.now() - session.pausedAt) / 1000));
+                    session.totalPausedSeconds = (session.totalPausedSeconds || 0) + pauseDuration;
                     const totalAccumulatedPause = (session.pauseBufferSeconds || 0) + pauseDuration;
                     const lostTasks = Math.floor(totalAccumulatedPause / session.targetSegmentDuration);
                     
@@ -1009,6 +1038,13 @@ export const SegmentedMode: ModeHandler = {
                     session.pausedAt = undefined;
                     session.quotaAtPauseStart = undefined;
                 }
+            } else if (!session.isRunning && !session.pausedAt) {
+                // Non-targetFinishTimestamp modes: track pausedAt so totalPausedSeconds accurately tracks break time
+                session.pausedAt = Date.now();
+            } else if (session.isRunning && session.pausedAt) {
+                const pauseDuration = Math.max(0, Math.floor((Date.now() - session.pausedAt) / 1000));
+                session.totalPausedSeconds = (session.totalPausedSeconds || 0) + pauseDuration;
+                session.pausedAt = undefined;
             }
 
             const quotaToday = session.currentQuota || baseGoal;

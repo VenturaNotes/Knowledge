@@ -18,7 +18,7 @@ export function parseEndTimeToSeconds(input: string, now: Date = new Date()): nu
 
     const isPm = /pm|p\.m\./i.test(str);
     const isAm = /am|a\.m\./i.test(str);
-    const clean = str.replace(/am|pm|a\.m\.|p\.m\./ig, '').trim();
+    const clean = str.replace(/am|pm|a\.m\./ig, '').trim();
 
     let hours = 0;
     let minutes = 0;
@@ -130,6 +130,27 @@ export class AdjustTaskCountdownModal extends Modal {
         const newRemaining = parseDurationWithSign(this.countdownInputRaw);
         const newElapsed = Math.max(0, s.targetSegmentDuration - newRemaining);
         const diff = newElapsed - s.segmentTimeElapsed;
+
+        // If in "Target Finish Time" mode and the user rewound time (diff < 0),
+        // treat that rewound time as unrecorded pause time!
+        if (s.targetFinishTimestamp && diff < 0) {
+            const rewindSeconds = Math.abs(diff);
+            s.totalPausedSeconds = (s.totalPausedSeconds || 0) + rewindSeconds;
+            const totalAccumulatedPause = (s.pauseBufferSeconds || 0) + rewindSeconds;
+            const lostTasks = Math.floor(totalAccumulatedPause / s.targetSegmentDuration);
+
+            if (lostTasks > 0) {
+                const baseGoal = s.stintInitialGoal || 5;
+                const activeQuota = s.currentQuota || baseGoal;
+                s.currentQuota = Math.max(s.completedSegments, activeQuota - lostTasks);
+
+                if (s.quotaAtPauseStart) {
+                    s.quotaAtPauseStart = Math.max(s.completedSegments, s.quotaAtPauseStart - lostTasks);
+                }
+            }
+
+            s.pauseBufferSeconds = totalAccumulatedPause % s.targetSegmentDuration;
+        }
 
         s.segmentTimeElapsed = newElapsed;
         s.globalTimeElapsed = Math.max(0, s.globalTimeElapsed + diff);
@@ -341,12 +362,29 @@ export class ProjectModal extends Modal {
             const baseGoal = s.stintInitialGoal || quota;
             const goalMet = stintDone >= baseGoal;
             const goalTag = goalMet ? `⭐ Baseline Goal of ${baseGoal} Met!` : `Baseline Goal: ${baseGoal}`;
-            const finishTargetText = s.targetFinishTimestamp ? ` • <b>Target End:</b> ${getFinishedTimeStr(s.targetFinishTimestamp, 0)}` : "";
+
+            const currentPause = (!s.isRunning && s.pausedAt) 
+                ? Math.max(0, Math.floor((Date.now() - s.pausedAt) / 1000)) 
+                : 0;
+            const totalPaused = (s.totalPausedSeconds || 0) + currentPause;
+
+            let methodBadge = "⏱️ Stint Target";
+            if (s.stintTargetMode === "endTime" || s.targetFinishTimestamp) {
+                const finishStr = s.targetFinishTimestamp ? getFinishedTimeStr(s.targetFinishTimestamp, 0) : (s.stintTargetValueRaw || "");
+                methodBadge = `🎯 Target Finish Time (${finishStr})`;
+            } else if (s.stintTargetMode === "segments") {
+                methodBadge = `🔢 Segment Target (${baseGoal} Tasks)`;
+            } else if (s.stintTargetValueRaw) {
+                methodBadge = `⏱️ Time Target (${s.stintTargetValueRaw})`;
+            }
 
             stintCard.innerHTML = `
-                <div style="font-weight: 600; font-size: 1.05em; color: var(--text-accent); margin-bottom: 6px;">⏱️ Active Stint Progress</div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                    <span style="font-weight: 600; font-size: 1.05em; color: var(--text-accent);">⏱️ Active Stint Progress</span>
+                    <span style="font-size: 0.8em; color: var(--text-muted); background: var(--background-secondary); border: 1px solid var(--background-modifier-border); padding: 2px 8px; border-radius: 12px;">${methodBadge}</span>
+                </div>
                 <div><b>Today's Work:</b> ${stintDone} / ${quota} Tasks <span style="color: ${goalMet ? "#eab308" : "var(--text-muted)"}; font-weight: ${goalMet ? "bold" : "normal"};">(${goalTag})</span><br>
-                <b>Time Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}${finishTargetText}</div>
+                <b>Time Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}</div>
             `;
 
             const btnRow = contentEl.createDiv();
