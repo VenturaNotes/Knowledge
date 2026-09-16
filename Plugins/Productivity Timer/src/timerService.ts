@@ -180,7 +180,7 @@ export class TimerService {
 			}
 
 			await Promise.all(promises);
-			this.plugin.refreshUI();
+			this.plugin.tickUI();
 		});
 	}
 
@@ -189,7 +189,7 @@ export class TimerService {
 		const nowStr = this.plugin.getCalibratedISOString();
 		const { segmentsToInsert } = this.stopLocalRunningTimers(nowStr);
 		this.pendingSegments.push(...segmentsToInsert);
-		this.plugin.refreshUI();
+		this.plugin.tickUI();
 		await this.commitTimerStateToServer();
 	}
 
@@ -205,7 +205,9 @@ export class TimerService {
 			target.is_running = true;
 			target.last_started_at = nowStr;
 		}
-		this.plugin.refreshUI();
+
+		// In-place DOM update prevents destroying the button during rapid clicks
+		this.plugin.tickUI();
 		this.scheduleServerCommit();
 	}
 
@@ -227,7 +229,9 @@ export class TimerService {
 			);
 			for (const sib of siblings) sib.is_last_active = false;
 		}
-		this.plugin.refreshUI();
+
+		// In-place DOM update prevents destroying the button during rapid clicks
+		this.plugin.tickUI();
 		this.scheduleServerCommit();
 	}
 
@@ -258,7 +262,7 @@ export class TimerService {
 			activeSub.is_running = true;
 			activeSub.is_last_active = true;
 			activeSub.last_started_at = nowStr;
-			this.plugin.refreshUI();
+			this.plugin.tickUI();
 			this.scheduleServerCommit();
 		} else {
 			target.is_rotation_running = false;
@@ -267,7 +271,7 @@ export class TimerService {
 				sub.last_started_at = null;
 				sub.visual_seconds = undefined;
 			}
-			this.plugin.refreshUI();
+			this.plugin.tickUI();
 			await this.commitTimerStateToServer();
 		}
 	}
