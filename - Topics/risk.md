@@ -7,8 +7,11 @@
 - (2) (peril; pure risk) The possibility of suffering some form of loss or damage where there is no corresponding opportunity for gain. Risks of this kind - e.g. fire, theft, or accident - are the proper domain of insurance cover. See INSURABLE RISK.
 ## Source[^3]
 - A form of uncertainty where, while the actual outcome of an action is not known, probabilities can be assigned to each of the possible outcomes. This permits application of the expected utility function to represent preferences over alternatives. The variance of the distribution of possible outcomes is frequently used as a measure of risk, particularly in financial theory. See also COUNTER-PARTY CREDIT RISK; CURRENCY RISK; DOWNSIDE RISK; EXPOSURE TO RISK; IDIOSYNCRATIC RISK; INDEPENDENT RISKS; MARKET RISK; SETTLEMENT RISK; SYSTEMATIC RISK; SYSTEMIC RISK.
+## Source[^4]
+- The proportion or rate of incidence of a particular outcome in a group. So the risk of a disease can be expressed as a percentage which equates to the statistical probability that an individual in that category catches the disease.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

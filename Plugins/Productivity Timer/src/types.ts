@@ -84,6 +84,29 @@ export function generateUUID(): string {
 	});
 }
 
+/**
+ * Deterministic UUID used exclusively during subtask rotation so that
+ * the rotation work block has an identical primary key across devices.
+ */
+export function generateDeterministicUUID(timerId: string, startedAt: string): string {
+	const input = `${timerId}_${startedAt}`;
+	let h1 = 0xdeadbeef, h2 = 0x41c64e6d;
+	for (let i = 0; i < input.length; i++) {
+		const ch = input.charCodeAt(i);
+		h1 = Math.imul(h1 ^ ch, 2654435761);
+		h2 = Math.imul(h2 ^ ch, 1597334677);
+	}
+	h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+	h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+
+	const hex1 = ("00000000" + (h1 >>> 0).toString(16)).slice(-8);
+	const hex2 = ("00000000" + (h2 >>> 0).toString(16)).slice(-8);
+	const hex3 = ("00000000" + ((h1 ^ h2) >>> 0).toString(16)).slice(-8);
+	const hex4 = ("00000000" + ((h1 + h2) >>> 0).toString(16)).slice(-8);
+
+	return `${hex1}-${hex2.slice(0, 4)}-4${hex2.slice(4, 7)}-8${hex3.slice(0, 3)}-${hex4}`;
+}
+
 export const ICONS = {
 	play: `<svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>`,
 	pause: `<svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>`,

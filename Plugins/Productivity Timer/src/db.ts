@@ -47,6 +47,8 @@ export class SupabaseClient {
 			"Content-Type": "application/json",
 			"apikey": this.key,
 			"Authorization": `Bearer ${this.key}`,
+			"Cache-Control": "no-cache, no-store, must-revalidate",
+			"Pragma": "no-cache",
 			...extra
 		};
 	}
@@ -208,6 +210,7 @@ export class SupabaseClient {
 			}
 
 			let refCounter = 2;
+			// Standard 25s Phoenix heartbeat interval
 			this.heartbeatInterval = setInterval(() => {
 				if (ws.readyState === WebSocket.OPEN) {
 					if (Date.now() - this.lastMessageAt > 45000) {
@@ -220,8 +223,10 @@ export class SupabaseClient {
 						payload: {},
 						ref: String(refCounter++)
 					}));
+				} else if (ws.readyState === WebSocket.CLOSED || ws.readyState === WebSocket.CLOSING) {
+					this.reconnect();
 				}
-			}, 20000);
+			}, 25000);
 		};
 
 		ws.onmessage = (event) => {

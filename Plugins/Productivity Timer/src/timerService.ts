@@ -34,9 +34,15 @@ function toDBTimerPayload(timer: Partial<Timer> & { id: string }): DBTimerPayloa
 
 export class TimerService {
 	private plugin: ProductivityTimerPlugin;
+	private switchDebounceTimeout: any = null;
+	private pendingSegments: TimerSegment[] = [];
 
 	constructor(plugin: ProductivityTimerPlugin) {
 		this.plugin = plugin;
+	}
+
+	public isSwitchPending(): boolean {
+		return this.switchDebounceTimeout !== null;
 	}
 
 	private stopLocalRunningTimers(nowStr: string): { segmentsToInsert: TimerSegment[]; timersToUpdate: { id: string; tracked_seconds: number }[] } {
@@ -74,193 +80,161 @@ export class TimerService {
 		return { segmentsToInsert, timersToUpdate };
 	}
 
-	private async stopServerRunningTimers(excludeTimerId: string | null = null): Promise<void> {
-		if (!navigator.onLine) return;
-		const nowStr = this.plugin.getCalibratedISOString();
-		const nowMs = new Date(nowStr).getTime();
+	public async flushPendingSwitch(): Promise<void> {
+		if (this.switchDebounceTimeout) {
+			window.clearTimeout(this.switchDebounceTimeout);
+			this.switchDebounceTimeout = null;
+			await this.commitTimerStateToServer();
+		}
+	}
 
-		let serverRunning: Timer[] = [];
-		try {
-			serverRunning = await this.plugin.db.select("timers", "or=(is_running.eq.true,is_rotation_running.eq.true)");
-		} catch {
-			serverRunning = [];
+	private scheduleServerCommit() {
+		if (this.switchDebounceTimeout) {
+			window.clearTimeout(this.switchDebounceTimeout);
 		}
 
-		for (const s of serverRunning) {
-			if (excludeTimerId && s.id === excludeTimerId) continue;
+		this.switchDebounceTimeout = window.setTimeout(async () => {
+			this.switchDebounceTimeout = null;
+			await this.commitTimerStateToServer();
+		}, 200);
+	}
 
-			let dur = 0;
-			if (s.last_started_at) {
-				const startMs = new Date(s.last_started_at).getTime();
-				if (!isNaN(startMs) && nowMs > startMs) {
-					dur = Math.max(0, Math.floor((nowMs - startMs) / 1000));
-				}
+	private async commitTimerStateToServer(): Promise<void> {
+		const segs = [...this.pendingSegments];
+		this.pendingSegments = [];
+
+		const runningTimer = this.plugin.timers.find((t) => t.is_running);
+		const runningParent = this.plugin.timers.find((t) => t.is_rotation_running);
+		const activeTimerId = runningTimer ? runningTimer.id : null;
+		const activeParentId = runningParent ? runningParent.id : null;
+
+		await this.plugin.runWriteAction(async () => {
+			const promises: Promise<any>[] = [];
+
+			// 1. Insert completed segments
+			if (segs.length > 0) {
+				promises.push(...segs.map((s) => this.plugin.db.insert("timer_segments", s)));
 			}
 
-			const local = this.plugin.timers.find(t => t.id === s.id);
-			const currentSegments = local?.segments || s.segments || [];
-
-			if (dur > 0 && s.last_started_at) {
-				const alreadyLogged = currentSegments.some(seg =>
-					Math.abs(new Date(seg.started_at).getTime() - new Date(s.last_started_at!).getTime()) < 2000
+			// 2. Sync running timer states on server
+			if (activeTimerId && runningTimer) {
+				promises.push(
+					this.plugin.db.update(
+						"timers",
+						{
+							is_running: true,
+							is_last_active: true,
+							last_started_at: runningTimer.last_started_at ?? this.plugin.getCalibratedISOString(),
+							tracked_seconds: runningTimer.tracked_seconds
+						},
+						`id=eq.${activeTimerId}`
+					),
+					this.plugin.db.update(
+						"timers",
+						{ is_running: false, last_started_at: null },
+						`is_running=eq.true&id=neq.${activeTimerId}`
+					)
 				);
 
-				if (!alreadyLogged) {
-					const newSeg: TimerSegment = {
-						id: generateUUID(),
-						timer_id: s.id,
-						started_at: s.last_started_at,
-						ended_at: nowStr,
-						duration_seconds: dur
-					};
-					if (local) {
-						local.segments = local.segments || [];
-						local.segments.push(newSeg);
-					}
-					await this.plugin.db.insert("timer_segments", newSeg);
+				if (runningTimer.parent_id) {
+					const siblings = this.plugin.timers.filter(
+						(t) => t.parent_id === runningTimer.parent_id && t.id !== runningTimer.id
+					);
+					promises.push(...siblings.map((sib) =>
+						this.plugin.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
+					));
+				}
+			} else {
+				promises.push(
+					this.plugin.db.update(
+						"timers",
+						{ is_running: false, last_started_at: null },
+						"is_running=eq.true"
+					)
+				);
+			}
+
+			// 3. Sync rotation parent states on server
+			if (activeParentId) {
+				promises.push(
+					this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${activeParentId}`),
+					this.plugin.db.update("timers", { is_rotation_running: false }, `is_rotation_running=eq.true&id=neq.${activeParentId}`)
+				);
+			} else {
+				promises.push(
+					this.plugin.db.update("timers", { is_rotation_running: false }, "is_rotation_running=eq.true")
+				);
+			}
+
+			// 4. Update tracked_seconds for stopped timers
+			const stoppedTimerIds = [...new Set(segs.map((s) => s.timer_id))];
+			for (const tid of stoppedTimerIds) {
+				const timer = this.plugin.timers.find((t) => t.id === tid);
+				if (timer && timer.id !== activeTimerId) {
+					promises.push(
+						this.plugin.db.update("timers", { tracked_seconds: timer.tracked_seconds }, `id=eq.${tid}`)
+					);
 				}
 			}
 
-			const allSegs = local?.segments || currentSegments;
-			const finalTracked = allSegs.length > 0
-				? allSegs.reduce((sum, seg) => sum + (seg.duration_seconds || 0), 0)
-				: (s.tracked_seconds + dur);
-
-			if (local) {
-				local.is_running = false;
-				local.is_rotation_running = false;
-				local.last_started_at = null;
-				local.tracked_seconds = finalTracked;
-			}
-
-			await this.plugin.db.update("timers", {
-				is_running: false,
-				is_rotation_running: false,
-				tracked_seconds: finalTracked,
-				last_started_at: null
-			}, `id=eq.${s.id}`);
-		}
+			await Promise.all(promises);
+			this.plugin.refreshUI();
+		});
 	}
 
 	public async stopAllTimers() {
+		await this.flushPendingSwitch();
 		const nowStr = this.plugin.getCalibratedISOString();
-		const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
-
-		for (const seg of segmentsToInsert) {
-			await this.plugin.db.insert("timer_segments", seg);
-		}
-		for (const upd of timersToUpdate) {
-			await this.plugin.db.update("timers", {
-				is_running: false,
-				is_rotation_running: false,
-				last_started_at: null,
-				tracked_seconds: upd.tracked_seconds
-			}, `id=eq.${upd.id}`);
-		}
-		if (navigator.onLine) {
-			await this.stopServerRunningTimers(null);
-		}
+		const { segmentsToInsert } = this.stopLocalRunningTimers(nowStr);
+		this.pendingSegments.push(...segmentsToInsert);
+		this.plugin.refreshUI();
+		await this.commitTimerStateToServer();
 	}
 
-	public async playParent(parent: Timer) {
-		const target = this.plugin.timers.find(t => t.id === parent.id) || parent;
+	public playParent(timer: Timer) {
+		const target = this.plugin.timers.find((t) => t.id === timer.id) || timer;
 		const wasRunning = target.is_running;
 		const nowStr = this.plugin.getCalibratedISOString();
 
-		// 1. Instant local mutation & immediate UI update (0ms latency)
-		const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
+		const { segmentsToInsert } = this.stopLocalRunningTimers(nowStr);
+		this.pendingSegments.push(...segmentsToInsert);
 
 		if (!wasRunning) {
 			target.is_running = true;
 			target.last_started_at = nowStr;
 		}
 		this.plugin.refreshUI();
-
-		// 2. Queue network updates safely in the background
-		await this.plugin.runWriteAction(async () => {
-			for (const seg of segmentsToInsert) {
-				await this.plugin.db.insert("timer_segments", seg);
-			}
-			for (const upd of timersToUpdate) {
-				await this.plugin.db.update("timers", {
-					is_running: false,
-					is_rotation_running: false,
-					last_started_at: null,
-					tracked_seconds: upd.tracked_seconds
-				}, `id=eq.${upd.id}`);
-			}
-
-			if (navigator.onLine && !wasRunning) {
-				await this.stopServerRunningTimers(target.id);
-			}
-
-			if (!wasRunning) {
-				await this.plugin.db.update("timers", {
-					is_running: true,
-					last_started_at: nowStr
-				}, `id=eq.${target.id}`);
-			}
-
-			this.plugin.refreshUI();
-		});
+		this.scheduleServerCommit();
 	}
 
-	public async playSubtaskDirectly(subtask: Timer) {
-		const target = this.plugin.timers.find(t => t.id === subtask.id) || subtask;
+	public playSubtaskDirectly(subtask: Timer) {
+		const target = this.plugin.timers.find((t) => t.id === subtask.id) || subtask;
 		const wasRunning = target.is_running;
 		const nowStr = this.plugin.getCalibratedISOString();
 
-		// 1. Instant local mutation & immediate UI update (0ms latency)
-		const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
+		const { segmentsToInsert } = this.stopLocalRunningTimers(nowStr);
+		this.pendingSegments.push(...segmentsToInsert);
 
 		if (!wasRunning) {
 			target.is_running = true;
 			target.is_last_active = true;
 			target.last_started_at = nowStr;
 
-			const siblings = this.plugin.timers.filter(t => t.parent_id === target.parent_id && t.id !== target.id);
+			const siblings = this.plugin.timers.filter(
+				(t) => t.parent_id === target.parent_id && t.id !== target.id
+			);
 			for (const sib of siblings) sib.is_last_active = false;
 		}
 		this.plugin.refreshUI();
-
-		// 2. Queue network updates safely in the background
-		await this.plugin.runWriteAction(async () => {
-			for (const seg of segmentsToInsert) {
-				await this.plugin.db.insert("timer_segments", seg);
-			}
-			for (const upd of timersToUpdate) {
-				await this.plugin.db.update("timers", {
-					is_running: false,
-					is_rotation_running: false,
-					last_started_at: null,
-					tracked_seconds: upd.tracked_seconds
-				}, `id=eq.${upd.id}`);
-			}
-
-			if (navigator.onLine && !wasRunning) {
-				await this.stopServerRunningTimers(target.id);
-			}
-
-			if (!wasRunning) {
-				await this.plugin.db.update("timers", {
-					is_running: true,
-					is_last_active: true,
-					last_started_at: nowStr
-				}, `id=eq.${target.id}`);
-
-				const siblings = this.plugin.timers.filter(t => t.parent_id === target.parent_id && t.id !== target.id);
-				await Promise.all(siblings.map(sib =>
-					this.plugin.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
-				));
-			}
-
-			this.plugin.refreshUI();
-		});
+		this.scheduleServerCommit();
 	}
 
 	public async toggleRotation(parent: Timer) {
-		const target = this.plugin.timers.find(t => t.id === parent.id) || parent;
-		const subtasks = this.plugin.timers.filter(t => t.parent_id === target.id).sort((a, b) => a.sort_order - b.sort_order);
+		const target = this.plugin.timers.find((t) => t.id === parent.id) || parent;
+		const subtasks = this.plugin.timers
+			.filter((t) => t.parent_id === target.id)
+			.sort((a, b) => a.sort_order - b.sort_order);
+
 		if (subtasks.length === 0) {
 			new Notice("Add subtasks first before starting rotation.");
 			return;
@@ -268,13 +242,14 @@ export class TimerService {
 
 		const wasRotationRunning = target.is_rotation_running;
 		const nowStr = this.plugin.getCalibratedISOString();
-		const activeSub = subtasks.find(t => t.is_last_active) || subtasks[0];
+		const activeSub = subtasks.find((t) => t.is_last_active) || subtasks[0];
 		if (!activeSub) return;
 
-		// 1. Instant local mutation & immediate UI update (0ms latency)
-		const { segmentsToInsert, timersToUpdate } = this.stopLocalRunningTimers(nowStr);
+		const { segmentsToInsert } = this.stopLocalRunningTimers(nowStr);
+		this.pendingSegments.push(...segmentsToInsert);
 
 		if (!wasRotationRunning) {
+			// Starting rotation -> schedule normal switch
 			target.is_rotation_running = true;
 			for (const sub of subtasks) {
 				if (sub.id !== activeSub.id) sub.is_last_active = false;
@@ -282,49 +257,26 @@ export class TimerService {
 			activeSub.is_running = true;
 			activeSub.is_last_active = true;
 			activeSub.last_started_at = nowStr;
-		}
-		this.plugin.refreshUI();
-
-		// 2. Queue network updates safely in the background
-		await this.plugin.runWriteAction(async () => {
-			for (const seg of segmentsToInsert) {
-				await this.plugin.db.insert("timer_segments", seg);
-			}
-			for (const upd of timersToUpdate) {
-				await this.plugin.db.update("timers", {
-					is_running: false,
-					is_rotation_running: false,
-					last_started_at: null,
-					tracked_seconds: upd.tracked_seconds
-				}, `id=eq.${upd.id}`);
-			}
-
-			if (navigator.onLine && !wasRotationRunning) {
-				await this.stopServerRunningTimers(activeSub.id);
-			}
-
-			if (!wasRotationRunning) {
-				await this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${target.id}`);
-				await this.plugin.db.update("timers", {
-					is_running: true,
-					is_last_active: true,
-					last_started_at: nowStr
-				}, `id=eq.${activeSub.id}`);
-
-				const sibs = subtasks.filter(s => s.id !== activeSub.id);
-				await Promise.all(sibs.map(s => this.plugin.db.update("timers", { is_last_active: false }, `id=eq.${s.id}`)));
-			} else {
-				await this.plugin.db.update("timers", { is_rotation_running: false }, `id=eq.${target.id}`);
-			}
-
 			this.plugin.refreshUI();
-		});
+			this.scheduleServerCommit();
+		} else {
+			// Stopping rotation -> STOP IMMEDIATELY (0ms delay, no debounce!)
+			target.is_rotation_running = false;
+			for (const sub of subtasks) {
+				sub.is_running = false;
+				sub.last_started_at = null;
+				sub.visual_seconds = undefined;
+			}
+			this.plugin.refreshUI();
+			await this.commitTimerStateToServer();
+		}
 	}
 
 	public async addTimer() {
+		await this.flushPendingSwitch();
 		await this.plugin.runWriteAction(async () => {
 			const maxSort = this.plugin.timers
-				.filter(t => t.parent_id === null)
+				.filter((t) => t.parent_id === null)
 				.reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
 
 			const newId = generateUUID();
@@ -344,17 +296,14 @@ export class TimerService {
 			this.plugin.refreshUI();
 
 			await this.plugin.db.insert("timers", dbPayload);
-			if (navigator.onLine) {
-				await this.plugin.syncManager.loadTimers();
-			}
-			this.plugin.refreshUI();
 		});
 	}
 
 	public async addSubtask(parent: Timer) {
+		await this.flushPendingSwitch();
 		await this.plugin.runWriteAction(async () => {
 			const maxSort = this.plugin.timers
-				.filter(t => t.parent_id === parent.id)
+				.filter((t) => t.parent_id === parent.id)
 				.reduce((max, t) => Math.max(max, t.sort_order || 0), 0);
 
 			const newId = generateUUID();
@@ -374,27 +323,23 @@ export class TimerService {
 			this.plugin.refreshUI();
 
 			await this.plugin.db.insert("timers", dbPayload);
-			if (navigator.onLine) {
-				await this.plugin.syncManager.loadTimers();
-			}
-			this.plugin.refreshUI();
 		});
 	}
 
 	public async deleteTimer(timer: Timer) {
+		await this.flushPendingSwitch();
 		await this.plugin.runWriteAction(async () => {
-			this.plugin.timers = this.plugin.timers.filter(t => t.id !== timer.id && t.parent_id !== timer.id);
+			this.plugin.timers = this.plugin.timers.filter(
+				(t) => t.id !== timer.id && t.parent_id !== timer.id
+			);
 			this.plugin.refreshUI();
 
 			await this.plugin.db.delete("timers", `id=eq.${timer.id}`);
-			if (navigator.onLine) {
-				await this.plugin.syncManager.loadTimers();
-			}
-			this.plugin.refreshUI();
 		});
 	}
 
 	public async completeAll() {
+		await this.flushPendingSwitch();
 		if (this.plugin.timers.length === 0) {
 			new Notice("No timers to complete.");
 			return;
@@ -417,10 +362,10 @@ export class TimerService {
 
 			const sessionId = session ? session.id : generateUUID();
 
-			const entries = this.plugin.timers.map(timer => {
+			const entries = this.plugin.timers.map((timer) => {
 				let entryName = timer.name;
 				if (timer.parent_id) {
-					const parent = this.plugin.timers.find(p => p.id === timer.parent_id);
+					const parent = this.plugin.timers.find((p) => p.id === timer.parent_id);
 					if (parent) entryName = `${parent.name} > ${timer.name}`;
 				}
 				return {
@@ -433,7 +378,7 @@ export class TimerService {
 			});
 			await this.plugin.db.insert("timer_session_entries", entries);
 
-			const timerIdList = this.plugin.timers.map(t => t.id).join(",");
+			const timerIdList = this.plugin.timers.map((t) => t.id).join(",");
 			await this.plugin.db.delete("timer_segments", `timer_id=in.(${timerIdList})`);
 
 			await this.plugin.db.update("timers", {
@@ -454,8 +399,8 @@ export class TimerService {
 				timer.segments = [];
 			}
 
+			// Load the newly archived session list for the Archive tab
 			if (navigator.onLine) {
-				await this.plugin.syncManager.loadTimers();
 				await this.plugin.syncManager.loadSessions();
 			}
 			new Notice("Session completed and archived.");
@@ -466,7 +411,7 @@ export class TimerService {
 	public async deleteSession(session: any) {
 		try {
 			await this.plugin.db.delete("timer_sessions", `id=eq.${session.id}`);
-			this.plugin.sessions = this.plugin.sessions.filter(s => s.id !== session.id);
+			this.plugin.sessions = this.plugin.sessions.filter((s) => s.id !== session.id);
 			this.plugin.refreshUI();
 		} catch (e) {
 			new Notice("Failed to delete session.");

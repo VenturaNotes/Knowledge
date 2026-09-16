@@ -1,5 +1,5 @@
 import { App, Plugin, PluginSettingTab, Setting, Notice, Platform } from "obsidian";
-import { Timer, Session, PluginSettings, DEFAULT_SETTINGS, generateUUID } from "./types";
+import { Timer, Session, PluginSettings, DEFAULT_SETTINGS, generateDeterministicUUID, TimerSegment } from "./types";
 import { SupabaseClient } from "./db";
 import { ProductivityTimerWindow } from "./desktop";
 import { ProductivityTimerView, VIEW_TYPE_PRODUCTIVITY_TIMER } from "./mobile";
@@ -69,7 +69,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 		this.startBackgroundTick();
 
-		// Trigger resync when connection is restored
 		this.registerDomEvent(window, "online", () => {
 			this.triggerResumeSync();
 		});
@@ -78,22 +77,21 @@ export default class ProductivityTimerPlugin extends Plugin {
 			this.refreshUI();
 		});
 
-		// Trigger resync when returning from background on Android/iOS/Desktop
 		this.registerDomEvent(document, "visibilitychange", () => {
 			if (document.visibilityState === "visible") {
 				this.triggerResumeSync();
 			}
 		});
 
-		// Trigger resync when Obsidian window/tab regains focus
-		this.registerDomEvent(window, "focus", () => {
-			this.triggerResumeSync();
-		});
+		if (Platform.isMobile) {
+			this.registerDomEvent(window, "focus", () => {
+				this.triggerResumeSync();
+			});
 
-		// Capacitor/Cordova native mobile resume event
-		this.registerDomEvent(document, "resume" as any, () => {
-			this.triggerResumeSync();
-		});
+			this.registerDomEvent(document, "resume" as any, () => {
+				this.triggerResumeSync();
+			});
+		}
 
 		if (navigator.onLine) {
 			this.syncManager.syncOfflineActions();
@@ -101,9 +99,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 
 		if (this.settings.supabaseUrl && this.settings.supabaseKey) {
 			const onRemoteChange = () => {
-				if (this.activeWrites > 0 || this.isRotating || Date.now() - this.lastLocalWriteTime < 2000) {
-					return;
-				}
 				this.loadTimersDebounced();
 			};
 			this.db.subscribeToTable("timers", onRemoteChange);
@@ -112,6 +107,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	onunload() {
+		if (this.timerService) {
+			this.timerService.flushPendingSwitch().catch(() => {});
+		}
 		if (this.floatingWindow) {
 			this.floatingWindow.destroy();
 			this.floatingWindow = null;
@@ -167,11 +165,12 @@ export default class ProductivityTimerPlugin extends Plugin {
 		} catch (e) {}
 	}
 
-	/**
-	 * Handles app wake-up / refocus by waiting briefly for the device's
-	 * network stack to stabilize before performing a full resync.
-	 */
 	public triggerResumeSync() {
+		const isSwitchPending = this.timerService && this.timerService.isSwitchPending();
+		if (this.activeWrites > 0 || isSwitchPending || Date.now() - this.lastLocalWriteTime < 1500) {
+			return;
+		}
+
 		if (this.resumeDebounceTimer) {
 			window.clearTimeout(this.resumeDebounceTimer);
 		}
@@ -179,7 +178,11 @@ export default class ProductivityTimerPlugin extends Plugin {
 		this.resumeDebounceTimer = window.setTimeout(async () => {
 			this.resumeDebounceTimer = null;
 
-			// On Android/iOS, give the OS network stack up to 2.5s (5 x 500ms) to re-associate
+			const stillPending = this.timerService && this.timerService.isSwitchPending();
+			if (this.activeWrites > 0 || stillPending || Date.now() - this.lastLocalWriteTime < 1500) {
+				return;
+			}
+
 			for (let i = 0; i < 5; i++) {
 				if (navigator.onLine) break;
 				await new Promise((resolve) => setTimeout(resolve, 500));
@@ -203,7 +206,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 			this.floatingWindow.render();
 		}
 
-		// Re-acquire mobile view if it was detached during background suspension
 		if (!this.activeMobileView && Platform.isMobile) {
 			const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_PRODUCTIVITY_TIMER);
 			const firstLeaf = leaves[0];
@@ -233,6 +235,11 @@ export default class ProductivityTimerPlugin extends Plugin {
 	public async performFullResync(attempt = 0): Promise<void> {
 		if (!navigator.onLine) {
 			this.refreshUI();
+			return;
+		}
+
+		const isSwitchPending = this.timerService && this.timerService.isSwitchPending();
+		if (this.activeWrites > 0 || this.isRotating || isSwitchPending || Date.now() - this.lastLocalWriteTime < 1500) {
 			return;
 		}
 
@@ -283,7 +290,6 @@ export default class ProductivityTimerPlugin extends Plugin {
 			const drift = now - this.lastTickTime;
 			this.lastTickTime = now;
 
-			// If JavaScript execution froze because Android backgrounded the app
 			if (drift > 4000) {
 				this.triggerResumeSync();
 			}
@@ -307,102 +313,129 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const parent = this.timers.find((t) => t.id === running.parent_id);
 		if (!parent || !parent.is_rotation_running || running.estimate_seconds <= 0 || !running.last_started_at) return;
 
-		const activeTracked = this.getActiveTrackedSeconds(running);
-		const currentMultiple = Math.floor(activeTracked / running.estimate_seconds);
-		const startMultiple = Math.floor(running.tracked_seconds / running.estimate_seconds);
+		const offset = (window as any).ptServerClockOffset || 0;
+		const calibratedNow = Date.now() + offset;
+		const startMs = new Date(running.last_started_at).getTime();
+		if (isNaN(startMs)) return;
+
+		// 1. Calculate baseline total time before this active turn began
+		const segSum = (running.segments || []).reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
+		const baseTracked = Math.max(segSum, running.tracked_seconds || 0);
+
+		// 2. Calculate total lifetime accumulated time right now (including running time)
+		const elapsedInTurn = Math.max(0, Math.floor((calibratedNow - startMs) / 1000));
+		const totalTrackedNow = baseTracked + elapsedInTurn;
+
+		// 3. Rotate whenever total accumulated lifetime time crosses the next multiple of estimate_seconds
+		const startMultiple = Math.floor(baseTracked / running.estimate_seconds);
+		const currentMultiple = Math.floor(totalTrackedNow / running.estimate_seconds);
 
 		if (currentMultiple > startMultiple) {
 			const sibs = this.timers.filter((t) => t.parent_id === parent.id).sort((a, b) => a.sort_order - b.sort_order);
+			if (sibs.length === 0) return;
 
-			if (sibs.length >= 1) {
-				const idx = sibs.findIndex((t) => t.id === running.id);
-				const nextIdx = (idx + 1) % sibs.length;
-				const nextSubtask = sibs[nextIdx];
+			const idx = sibs.findIndex((t) => t.id === running.id);
+			const nextIdx = (idx + 1) % sibs.length;
+			const nextSubtask = sibs[nextIdx];
+			if (!nextSubtask) return;
 
-				if (nextSubtask) {
-					this.isRotating = true;
-					try {
-						const nextNow = this.getCalibratedISOString();
-						const localStart = running.last_started_at;
-						const localDur = Math.max(0, Math.floor((new Date(nextNow).getTime() - new Date(localStart).getTime()) / 1000));
-						const finalTracked = running.tracked_seconds + localDur;
+			this.isRotating = true;
+			try {
+				const nextNow = this.getCalibratedISOString();
+				const localStart = running.last_started_at;
+				const localDur = elapsedInTurn;
+				const finalTracked = totalTrackedNow;
 
-						const newSegId = generateUUID();
-						if (localDur > 0) {
-							running.segments = running.segments || [];
-							running.segments.push({
-								id: newSegId,
-								timer_id: running.id,
-								started_at: localStart,
-								ended_at: nextNow,
-								duration_seconds: localDur
-							});
+				// OPTIMISTIC CONCURRENCY: Stop `running` ONLY IF it is still marked as running on Supabase
+				if (navigator.onLine) {
+					const match = `id=eq.${running.id}&is_running=eq.true`;
+					const updated = await this.db.updateBypassQueue("timers", {
+						is_running: false,
+						is_last_active: false,
+						tracked_seconds: finalTracked,
+						last_started_at: null
+					}, match);
+
+					// If 0 rows updated, another device already completed this rotation -> adopt remote state immediately
+					if (!Array.isArray(updated) || updated.length === 0) {
+						await this.syncManager.loadTimers(true);
+						const newRunning = this.timers.find(t => t.is_running && t.parent_id === parent.id);
+						if (newRunning) {
+							this.showRotationOverlay(newRunning);
 						}
-
-						const isSameSubtask = nextSubtask.id === running.id;
-
-						if (isSameSubtask) {
-							running.tracked_seconds = finalTracked;
-							running.is_running = true;
-							running.is_last_active = true;
-							running.last_started_at = nextNow;
-						} else {
-							running.is_running = false;
-							running.is_last_active = false;
-							running.tracked_seconds = finalTracked;
-							running.last_started_at = null;
-							running.visual_seconds = undefined;
-
-							nextSubtask.is_running = true;
-							nextSubtask.is_last_active = true;
-							nextSubtask.last_started_at = nextNow;
-
-							for (const sib of sibs) {
-								if (sib.id !== nextSubtask.id) {
-									sib.is_last_active = false;
-								}
-							}
-						}
-
 						this.refreshUI();
-						this.showRotationOverlay(nextSubtask);
-
-						await this.runWriteAction(async () => {
-							if (localDur > 0) {
-								await this.db.insert("timer_segments", {
-									id: newSegId,
-									timer_id: running.id,
-									started_at: localStart,
-									ended_at: nextNow,
-									duration_seconds: localDur
-								});
-							}
-
-							if (isSameSubtask) {
-								await this.db.update("timers", {
-									is_running: true,
-									is_last_active: true,
-									tracked_seconds: finalTracked,
-									last_started_at: nextNow
-								}, `id=eq.${running.id}`);
-							} else {
-								await Promise.all([
-									this.db.update("timers", { is_running: false, is_last_active: false, tracked_seconds: finalTracked, last_started_at: null }, `id=eq.${running.id}`),
-									this.db.update("timers", { is_running: true, is_last_active: true, last_started_at: nextNow }, `id=eq.${nextSubtask.id}`),
-									...sibs.filter((s) => s.id !== nextSubtask.id && s.id !== running.id).map((sib) =>
-										this.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`)
-									)
-								]);
-							}
-
-							this.refreshUI();
-						});
-					} catch (e) {
-						console.error("Background subtask rotation failed:", e);
-					} finally {
-						this.isRotating = false;
+						return;
 					}
 				}
+
+				const newSegId = generateDeterministicUUID(running.id, localStart);
+				if (localDur > 0) {
+					const newSeg: TimerSegment = {
+						id: newSegId,
+						timer_id: running.id,
+						started_at: localStart,
+						ended_at: nextNow,
+						duration_seconds: localDur
+					};
+					running.segments = running.segments || [];
+					running.segments.push(newSeg);
+					running.tracked_seconds = finalTracked;
+
+					if (navigator.onLine) {
+						await this.db.insertBypassQueue("timer_segments", newSeg).catch(() => {});
+					}
+				}
+
+				const isSameSubtask = nextSubtask.id === running.id;
+
+				if (isSameSubtask) {
+					running.is_running = true;
+					running.is_last_active = true;
+					running.last_started_at = nextNow;
+				} else {
+					running.is_running = false;
+					running.is_last_active = false;
+					running.last_started_at = null;
+					running.visual_seconds = undefined;
+
+					nextSubtask.is_running = true;
+					nextSubtask.is_last_active = true;
+					nextSubtask.last_started_at = nextNow;
+
+					for (const sib of sibs) {
+						if (sib.id !== nextSubtask.id) {
+							sib.is_last_active = false;
+						}
+					}
+				}
+
+				this.refreshUI();
+				this.showRotationOverlay(nextSubtask);
+
+				if (navigator.onLine) {
+					if (isSameSubtask) {
+						await this.db.updateBypassQueue("timers", {
+							is_running: true,
+							is_last_active: true,
+							last_started_at: nextNow
+						}, `id=eq.${running.id}`);
+					} else {
+						await Promise.all([
+							this.db.updateBypassQueue("timers", {
+								is_running: true,
+								is_last_active: true,
+								last_started_at: nextNow
+							}, `id=eq.${nextSubtask.id}`),
+							...sibs.filter((s) => s.id !== nextSubtask.id && s.id !== running.id).map((sib) =>
+								this.db.updateBypassQueue("timers", { is_last_active: false }, `id=eq.${sib.id}`)
+							)
+						]);
+					}
+				}
+			} catch (e) {
+				console.error("Background subtask rotation failed:", e);
+			} finally {
+				this.isRotating = false;
 			}
 		}
 	}
@@ -566,8 +599,9 @@ export default class ProductivityTimerPlugin extends Plugin {
 		const isRotationActive = parent ? parent.is_rotation_running : false;
 
 		if (isSubtask && isRotationActive && running.estimate_seconds > 0) {
-			const currentElapsedInBlock = activeTracked % running.estimate_seconds;
-			const timeLeft = running.estimate_seconds - currentElapsedInBlock;
+			// Calculate countdown to the exact next multiple of estimate_seconds
+			const remainder = activeTracked % running.estimate_seconds;
+			const timeLeft = remainder === 0 ? running.estimate_seconds : (running.estimate_seconds - remainder);
 
 			const switchTimeEpoch = Date.now() + (timeLeft * 1000);
 			const switchDate = new Date(switchTimeEpoch);
@@ -767,9 +801,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 				console.error("Write action failed:", e);
 			} finally {
 				this.activeWrites--;
-				if (this.activeWrites === 0) {
-					this.lastLocalWriteTime = Date.now();
-				}
+				this.lastLocalWriteTime = Date.now();
 			}
 		});
 		return this.writeQueue;
@@ -780,12 +812,24 @@ export default class ProductivityTimerPlugin extends Plugin {
 			window.clearTimeout(this.loadTimersDebounceTimeout);
 		}
 		this.loadTimersDebounceTimeout = window.setTimeout(async () => {
-			if (navigator.onLine && this.activeWrites === 0 && Date.now() - this.lastLocalWriteTime > 2000) {
-				await this.loadTimers();
+			const isSwitchPending = this.timerService && this.timerService.isSwitchPending();
+			if (this.activeWrites > 0 || isSwitchPending) {
+				this.loadTimersDebounced();
+				return;
+			}
+
+			const timeSinceWrite = Date.now() - this.lastLocalWriteTime;
+			if (timeSinceWrite < 1500) {
+				this.loadTimersDebounceTimeout = null;
+				return;
+			}
+
+			if (navigator.onLine) {
+				await this.syncManager.loadTimers(false);
 				this.refreshUI();
 			}
 			this.loadTimersDebounceTimeout = null;
-		}, 300);
+		}, 200);
 	}
 
 	async loadSettings() {

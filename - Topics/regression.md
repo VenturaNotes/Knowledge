@@ -15,8 +15,12 @@
 		- Examples
 			- Predicting the price of a house
 			- Predicting temperatures
+## Source[^4]
+- A statistical procedure to determine the relationship between a dependent variable and one or more explanatory variables. The purpose is normally to enable the value of the dependent variable to be predicted from given values of the explanatory variables. It is multiple regression if there are two or more explanatory variables. Usually the model supposes that $Y$, where $Y$ is the dependent variable, is given by some formula involving certain unknown parameters. In multiple linear regression, with $k$ explanatory variables $X_1, X_2, \dots, X_k$, then$$ Y = b_0 + b_1 X_1 + b_2 X_2 + \dots + b_k X_k + \varepsilon. $$
+- Here $b_0, b_1, \dots, b_k$ are the regression coefficients and $\varepsilon$ denotes the error term. See also LEAST SQUARES.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) 500+ Machine Learning and Artificial Intelligence Interview Questions and Answers by Applyre]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

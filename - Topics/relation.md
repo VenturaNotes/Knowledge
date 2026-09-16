@@ -8,6 +8,8 @@
 - Relations play an important part in theoretical aspects of many areas of computing, including the mathematical foundations of the subject, databases, compiling techniques, and operating systems. See also equivalence relation, partial ordering.
 ## Source[^2]
 - A relation on a set $S$ is usually a binary relation on $S$, though the notion can be extended to involve more than two elements. An example of a ternary relation, involving three elements, is ‘$a$ lies between $b$ and $c$’, where $a, b$, and $c$ are real numbers. See also EQUIVALENCE RELATION.
+---
+- (group theory) See presentation
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

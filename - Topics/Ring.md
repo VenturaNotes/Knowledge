@@ -14,7 +14,22 @@
 ## Source[^2]
 - (1) A number of manufacturers, dealers, or traders who agree among themselves to control the price or conditions of sale of a product for their own benefit. Such agreements are illegal in most countries, unless they can be shown to be in the public interest. See RESTRICTIVE TRADE PRACTICES. 
 - (2) An association of dealers in an auction sale, especially a sale of antiques or paintings, who agree not to bid against each other but to allow one of their number to buy an article being auctioned at an artificially low price, on the understanding that it will be auctioned again, exclusively to members of the ring. The difference between the purchase price and the final price paid is shared among the members of the ring. This is an illegal practice.
+## Source[^3]
+- Sets with two binary operations, often called addition and multiplication, occur commonly in mathematics and sometimes share many of the same properties. One such set of properties is specified in the definition of a ring: a ring is a set $R$, closed under two operations called addition and multiplication, such that
+	- (i) for all $a, b$, and $c$ in $R, a + (b + c) = (a + b) + c,$
+	- (ii) for all $a$ and $b$ in $R, a + b = b + a,$
+	- (iii) there is an element $0$ in $R$ such that $a + 0 = a$ for all $a$ in $R,$
+	- (iv) for each $a$ in $R$, there is an element $-a$ in $R$ such that $a + (-a) = 0,$
+	- (v) for all $a, b$, and $c$ in $R, a(bc) = (ab)c,$
+	- (vi) for all $a, b$, and $c$ in $R, a(b + c) = ab + ac$ and $(a + b)c = ac + bc.$
+- The element $0$ guaranteed by (iii) is an additive identity. It can be shown to be unique and has the extra property that $a 0 = 0$ for all $a$ in $R$; it is called zero. Also, for each $a$, the element $-a$ guaranteed by (iv) is unique and is the negative or additive inverse of $a$. The ring is a commutative ring if it is further true that
+	- (vii) for all $a$ and $b$ in $R, ab = ba$, and it is a commutative ring with identity if also
+	- (viii) there is an element $1 (\neq 0)$ such that $a 1 = a$ for all $a$ in $R$.
+- The element $1$ guaranteed by (viii) is a multiplicative identity. It can be shown to be unique and is referred to as 'one'.
+- Further properties may be required for other types of ring such as integral domains and fields. Examples of rings include the set of $2 \times 2$ real matrices and the set of all even integers, each with the appropriate addition and multiplication. Another example is $\mathbb{Z}_n$, the set of integers with addition and multiplication modulo $n$.
+- A ring may be denoted by $(R, +, \times)$ when it is necessary to be clear about the ring's operations. But it is sufficient to refer simply to the ring $R$ when the operations intended are clear.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

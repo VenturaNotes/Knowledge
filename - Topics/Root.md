@@ -24,8 +24,16 @@
 		- Xylem
 		- Phloem
 		- Root cap
+## Source[^4]
+- (of an equation) Let $f(x) = 0$ be an equation involving the variable $x$. A root of the equation is a value $h$ such that $f(h) = 0$. Such a value is also called a zero of the function $f$.
+- For a suitably differentiable function $f$, then $h$ is said to be a root of order (or multiplicity) $n$ if$$0 = f(h) = f'(h) = f''(h) = \dots = f^{(n-1)}(h) \quad \text{and} \quad f^{(n)}(h) \neq 0.$$
+- If $f(x)$ is a polynomial, this is equivalent to $(x - h)^n$ dividing $f(x)$ but no greater power. A root of order greater than $1$ is called a multiple root or repeated root.
+- See also ORDER OF CONTACT, VIE`TE'S FORMULAE.
+---
+- (of a tree) See tree
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -7,8 +7,11 @@
 - The accounting principle that the financial information provided by a company should have the characteristics of faithful representation, neutrality, and freedom from material error. The concept is defined in the Financial Reporting Standard Applicable in the UK and Republic of Ireland. It is also recognized in the International Accounting Standards Board's Conceptual Framework.
 ## Source[^3]
 - The ability of any device, component, or circuit to perform a required function under stated conditions for a stated period of time. This may be expressed as a probability. ('Time' may be considered as distance, cycles, or other appropriate units.) Reliability characteristics are those quantities used to express reliability in numerical terms. Electronic items are usually approached from the viewpoint of failure, because of their extremely high reliability.
+## Source[^4]
+- The sampling variance of a statistic. For example, the reliability of$$ \bar{X}_n = \frac{1}{n} \sum_{k=1}^n X_k $$is $\sigma^2/n$ where $\sigma^2 = \text{Var}(X)$, so, as the sample size increases, $\bar{X}_n$ becomes a better estimator in the sense that the variability decreases.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

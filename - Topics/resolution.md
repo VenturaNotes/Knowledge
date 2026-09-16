@@ -15,9 +15,12 @@
 
 ## Source[^4]
 - The process of separating a racemic mixture into its optically active constituents. In some cases the crystals of the two forms have a different appearance, and the separation can be done by hand. In general, however, physical methods (distillation, crystallization, etc.) cannot be used because the optical isomers have identical physical properties. The most common technique is to react the mixture with a compound that is itself optically active, and then separate the two. For instance, a racemic mixture of $l$-A and $d$-A reacted with $l$-B, gives two compounds AB that are not optical isomers but diastereoisomers and can be separated and reconverted into the pure $l$-A and $d$-A. Biological techniques using bacteria that convert one form but not the other can also be used.
+## Source[^5]
+- (resolve) The process of writing a vector in terms of its components in two or three mutually perpendicular directions.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

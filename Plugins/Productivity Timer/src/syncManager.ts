@@ -19,7 +19,6 @@ export class SyncManager {
 	public async syncOfflineActions() {
 		if (!navigator.onLine || !this.plugin.settings.offlineQueue || this.plugin.settings.offlineQueue.length === 0) return;
 
-		// Allow mobile network routing 1.2s to stabilize after reconnecting
 		await new Promise(resolve => setTimeout(resolve, 1200));
 		if (!navigator.onLine) return;
 
@@ -29,7 +28,6 @@ export class SyncManager {
 
 			new Notice(`Syncing ${queue.length} offline actions with Supabase...`);
 
-			// 1. RECONCILE REMOTE TIMERS: Check if another device left a timer running
 			try {
 				const remoteRunning: Timer[] = await this.plugin.db.select(
 					"timers",
@@ -75,7 +73,6 @@ export class SyncManager {
 				console.warn("Could not reconcile remote running timers before sync:", err);
 			}
 
-			// 2. FLUSH OFFLINE QUEUE SEQUENTIALLY WITH RETRY SAFETY
 			while (queue.length > 0) {
 				const act = queue[0];
 				if (!act) {
@@ -96,17 +93,14 @@ export class SyncManager {
 					} else if (act.type === "DELETE") {
 						await this.plugin.db.deleteBypassQueue(act.table, act.match || "");
 					}
-					// Only shift off the queue when the action has actually succeeded
 					queue.shift();
 					await this.plugin.saveSettings();
 				} catch (e: any) {
 					console.error("Offline sync error on action:", act, e);
-					// If it's a 4xx bad request error (syntax/schema), discard it so it doesn't block the queue
 					if (e?.status >= 400 && e?.status < 500) {
 						queue.shift();
 						await this.plugin.saveSettings();
 					} else {
-						// If it's a network glitch or timeout, STOP and leave it in queue to retry later
 						new Notice("Offline sync temporarily paused (network stabilizing)...");
 						break;
 					}
@@ -119,13 +113,21 @@ export class SyncManager {
 		});
 	}
 
-	public async loadTimers() {
+	public async loadTimers(force = false) {
 		if (!navigator.onLine) {
 			if (this.plugin.timers.length === 0 && this.plugin.settings.localTimersCache && this.plugin.settings.localTimersCache.length > 0) {
 				this.plugin.timers = this.plugin.settings.localTimersCache;
 			}
 			this.updateCompletionNotifications();
 			return;
+		}
+
+		// Protect active writes, in-flight switches, or recent local writes (< 1500ms)
+		if (!force) {
+			const isSwitchPending = this.plugin.timerService && this.plugin.timerService.isSwitchPending();
+			if (this.plugin.activeWrites > 0 || this.plugin.isRotating || isSwitchPending || Date.now() - this.plugin.lastLocalWriteTime < 1500) {
+				return;
+			}
 		}
 
 		try {
@@ -138,7 +140,6 @@ export class SyncManager {
 				dbSegments = (this.plugin.timers || []).flatMap(t => t.segments || []);
 			}
 
-			// Handle conflicting running timers
 			const runningTimers = dbTimers.filter(t => t.is_running);
 			if (runningTimers.length > 1) {
 				runningTimers.sort((a, b) => {
@@ -182,6 +183,7 @@ export class SyncManager {
 				}
 			}
 
+			// Cleanly calculate tracked time preserving all manual and overlapping segments
 			this.plugin.timers = dbTimers.map(dbTimer => {
 				const segments = dbSegments.filter(s => s.timer_id === dbTimer.id);
 				const segSum = segments.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);

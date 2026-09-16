@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An object with the property that it does not change shape whatever forces are applied to it. It is used in a mathematical model to represent an object in the real world. It may be a system of particles held in a rigid formation, or it may be a distribution of mass in the form of a rod, a lamina, or some 3-dimensional shape. In general, a rigid body has six degrees of freedom—three to determine the body's center of mass and three more to specify the body's orientation about its center of mass. The equations of motion for a rigid body are$$m \frac{\text{d}^2\mathbf{r}_G}{\text{dt}^2} = \sum \mathbf{F}_k, \quad \frac{\text{d}\mathbf{L}_G}{\text{dt}} = \sum \mathbf{r}_k \times \mathbf{F}_k,$$where $m$ denotes the mass of the body, $\mathbf{r}_G$ is the position vector of the center of mass, $\mathbf{L}_G$ is the angular momentum about the center of mass, $\mathbf{F}_k$ are the external forces acting on the body, and $\mathbf{r}_k \times \mathbf{F}_k$ is the moment of the force $\mathbf{F}_k$ (so that $\mathbf{r}_k$ is the position vector of a point on the line of action of the force $\mathbf{F}_k$). See also INERTIA TENSOR.
+## References
+
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
