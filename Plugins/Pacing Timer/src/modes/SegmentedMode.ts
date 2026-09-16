@@ -36,6 +36,7 @@ function getProjectPaceStats(session: PacingSessionState, plugin: PacingTimerPlu
         const project = plugin.settings.savedSessions?.[session.projectId];
         const initialCompleted = session.projectCompletedInitial ?? project?.totalProjectCompleted ?? 0;
         const initialWorkTime = session.projectWorkTimeInitial ?? project?.totalWorkTime ?? 0;
+
         totalCompleted += initialCompleted;
         totalWorkTime += initialWorkTime;
     }
@@ -451,7 +452,10 @@ export const SegmentedMode: ModeHandler = {
             
             const progLeft = progRow.createDiv();
             Object.assign(progLeft.style, { display: "flex", alignItems: "center", gap: "8px" });
-            progLeft.createSpan({ text: `Project: ${completed} / ${totalGoal} Tasks`, attr: { style: "font-weight: 600;" } });
+
+            const titleSpan = progLeft.createSpan({ attr: { style: "font-weight: 600;" } });
+            const leftLabel = isProjectCompleted ? "" : ` <span style="font-weight: normal; color: var(--text-muted); font-size: 0.9em;">(${remainingTasks} left)</span>`;
+            titleSpan.innerHTML = `Project: ${completed} / ${totalGoal} Tasks${leftLabel}`;
 
             const editGoalBtn = progLeft.createEl("button", {
                 text: "✏️ Edit Goal",
@@ -710,6 +714,9 @@ export const SegmentedMode: ModeHandler = {
                         hardStopTotalSeconds: duration,
                         earlyFinishBanked: 0,
                         targetFinishTimestamp,
+                        pausedAt: undefined,
+                        pauseBufferSeconds: 0,
+                        quotaAtPauseStart: undefined,
                         projectId: project.id,
                         projectName: project.name,
                         projectGoal: project.totalProjectGoal,
@@ -976,7 +983,37 @@ export const SegmentedMode: ModeHandler = {
         if (isProjectStint) {
             const completedToday = session.completedSegments;
             const baseGoal = session.stintInitialGoal || 5;
-            const quotaToday = Math.max(baseGoal, session.currentQuota || baseGoal);
+
+            // In "Target Finish Time" mode: deduct tasks based strictly on time spent paused
+            if (session.targetFinishTimestamp) {
+                if (!session.isRunning) {
+                    if (!session.pausedAt) {
+                        session.pausedAt = Date.now();
+                        session.quotaAtPauseStart = session.currentQuota || baseGoal;
+                    }
+                    const currentPauseSeconds = Math.max(0, Math.floor((Date.now() - session.pausedAt) / 1000));
+                    const totalAccumulatedPause = (session.pauseBufferSeconds || 0) + currentPauseSeconds;
+                    const lostTasks = Math.floor(totalAccumulatedPause / session.targetSegmentDuration);
+                    
+                    const startQuota = session.quotaAtPauseStart || baseGoal;
+                    session.currentQuota = Math.max(completedToday, startQuota - lostTasks);
+                } else if (session.pausedAt) {
+                    // Resumed from a pause: commit the accumulated pause seconds
+                    const pauseDuration = Math.max(0, Math.floor((Date.now() - session.pausedAt) / 1000));
+                    const totalAccumulatedPause = (session.pauseBufferSeconds || 0) + pauseDuration;
+                    const lostTasks = Math.floor(totalAccumulatedPause / session.targetSegmentDuration);
+                    
+                    const startQuota = session.quotaAtPauseStart || baseGoal;
+                    session.currentQuota = Math.max(completedToday, startQuota - lostTasks);
+                    session.pauseBufferSeconds = totalAccumulatedPause % session.targetSegmentDuration;
+                    session.pausedAt = undefined;
+                    session.quotaAtPauseStart = undefined;
+                }
+            }
+
+            const quotaToday = session.currentQuota || baseGoal;
+
+            // Option 2 Milestone: Star is permanently anchored to the original baseGoal
             const goalMet = completedToday >= baseGoal;
             const starTag = goalMet ? ` ⭐${baseGoal}` : ` • ${baseGoal}`;
             const totalProjCompleted = (session.projectCompletedInitial || 0) + completedToday;

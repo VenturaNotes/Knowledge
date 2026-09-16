@@ -305,7 +305,10 @@ export class ProjectModal extends Modal {
 
         const progressLeft = progressRow.createDiv();
         Object.assign(progressLeft.style, { display: "flex", alignItems: "center", gap: "8px" });
-        progressLeft.createSpan({ text: `Project Progress: ${completed} / ${totalGoal} Tasks` });
+        
+        const progressSpan = progressLeft.createSpan({ attr: { style: "font-weight: 600;" } });
+        const leftLabel = isProjectCompleted ? "" : ` <span style="font-weight: normal; color: var(--text-muted); font-size: 0.9em;">(${remainingTasks} left)</span>`;
+        progressSpan.innerHTML = `Project Progress: ${completed} / ${totalGoal} Tasks${leftLabel}`;
 
         const editGoalBtn = progressLeft.createEl("button", {
             text: "✏️ Edit Goal",

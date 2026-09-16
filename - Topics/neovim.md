@@ -20,6 +20,8 @@
 	- `normal mode` $\to$ `Ctrl + r`
 - Force Quit (Discard Changes)
 	- `:q!`
+- Save the file if it has been modified and quit out of Neovim
+	- `Shift+ZZ`
 - Jumping to a specific line
 	- 14k: Jump up 14 lines.
 	- 14j: Jump down 14 lines.

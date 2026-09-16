@@ -27,6 +27,11 @@ export interface PacingSessionState {
     earlyFinishBanked?: number;
     targetFinishTimestamp?: number;
 
+    // Pause Tracking for Target Finish Time
+    pausedAt?: number;
+    pauseBufferSeconds?: number;
+    quotaAtPauseStart?: number;
+
     // Variable / Custom Segment Durations
     customSegmentDurations?: number[];
     paceMultiplier?: number;
