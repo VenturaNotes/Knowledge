@@ -13,21 +13,14 @@ aliases:
 ## Source[^3]
 - The magnitude of a number, regardless of its sign (positive or negative). For example, 25 is the absolute value of 25 and -25 . Most spreadsheet programs include a function that returns the absolute value of a number.
 ## Source[^4]
-- For any real number $a$, the absolute value (also called the modulus) of $a$, denoted by $|a|$, is $a$ itself if $a \geq 0$, and $-a$ if $a \leq 0$. Thus $|a|$ is positive except when $a=0$. The following properties hold:
-
-(i) $|a b|=|a||b|$.
-
-(ii) $|a+b| \leq|a|+|b|$.
-
-(iii) $|a-b| \geq||a|-|b||$.
-
-(iv) For $a>0,|x| \leq a$ if and only if $-a \leq x \leq a$.
-
-(ii) is the triangle inequality and (iii) is sometimes known as the reverse triangle inequality.
-
-![[A Dictionary of Mathematics [part 3]_img_1.jpeg]]
-
-  Graph of absolute value
+- For any real number $a$, the absolute value (also called the modulus) of $a$, denoted by $|a|$, is $a$ itself if $a \ge 0$, and $-a$ if $a \le 0$. Thus $|a|$ is positive except when $a=0$. The following properties hold:
+	- (i) $|ab| = |a||b|$.  
+	- (ii) $|a + b| \le |a| + |b|$.  
+	- (iii) $|a - b| \ge ||a| - |b||$.  
+	- (iv) For $a > 0$, $|x| \le a$ if and only if $-a \le x \le a$.
+- (ii) is the triangle inequality and (iii) is sometimes known as the reverse triangle inequality.
+- ![[Pasted image 20260914073529.png|223]]
+	- Graph of absolute value
 ## References
 
 [^1]: https://library.fiveable.me/key-terms/ap-micro/absolute-value

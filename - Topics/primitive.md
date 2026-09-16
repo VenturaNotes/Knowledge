@@ -5,7 +5,10 @@
 - (2) A primitive operation, action, element, etc. See also GRAPHICS PRIMITIVE.
 ## Source[^2]
 - In the computer programming industry, primitive is a term used to describe a fundamental data type or code that can be used to build more complex software programs or interfaces. For instance, Java, a computer programming language, is made up of less complex data types such as Boolean, a primitive data type.
+## Source[^3]
+- (nth root of unity) An nth root of unity $z$ is primitive if every $n$th root of unity is a power of $z$. For example, $i$ is a primitive fourth root of unity, but $-1$ is a fourth root of unity that is not primitive.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

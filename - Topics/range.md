@@ -11,8 +11,14 @@
 ## Source[^3]
 - (1) The maximum distance from a radio or television transmitter at which reception of the signal is possible. 
 - (2) See RADAR.
+## Source[^4]
+### In Mechanics
+- The range of a projectile on a horizontal or inclined plane passing through the point of projection is the greatest distance from the point of projection to the point at which the projectile may land.
+### In Statistics
+- (in statistics) The difference between the maximum and minimum observations in a set of numerical data. It is a possible measure of dispersion of a sample.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

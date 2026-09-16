@@ -8,8 +8,11 @@
 - (2) Any item, sub-assembly or cost unit manufactured or sold by an organization.
 ## Source[^3]
 - What is produced, by an individual firm, an industry, or the economy as a whole. See also GROSS DOMESTIC PRODUCT; MARGINAL PRODUCT; NATIONAL PRODUCT; PRODUCT DIFFERENTIATION; PRODUCT INNOVATION; PRODUCT LIFE CYCLE; STAPLE PRODUCT.
+## Source[^4]
+- The result of multiplying two or more numbers, functions (see POINTWISE MULTIPLICATION), matrices (see MULTIPLICATION (of matrices)), or elements in a multiplicative group or ring. See also INFINITE PRODUCT, PRODUCT NOTATION.
 ## References
 
 [^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

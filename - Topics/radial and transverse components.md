@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- When a point $P$ has polar coordinates $(r, \theta)$, the vectors $\mathbf{e}_r$ and $\mathbf{e}_\theta$ are defined by$$\mathbf{e}_r = \mathbf{i}\cos\theta + \mathbf{j}\sin\theta, \quad \mathbf{e}_\theta = -\mathbf{i}\sin\theta + \mathbf{j}\cos\theta,$$where $\mathbf{i}$ and $\mathbf{j}$ are unit vectors in the directions of the positive $x$- and $y$-axes. Then $\mathbf{e}_r$ is a unit vector along $OP$ in the direction of increasing $r$, and $\mathbf{e}_\theta$ is a unit vector perpendicular to this in the direction of increasing $\theta$. Any vector $\mathbf{v}$ can be written uniquely in terms of its components in the directions of $\mathbf{e}_r$ and $\mathbf{e}_\theta$. Thus $\mathbf{v} = v_1\mathbf{e}_r + v_2\mathbf{e}_\theta$, where $v_1 = \mathbf{v} \cdot \mathbf{e}_r$ and $v_2 = \mathbf{v} \cdot \mathbf{e}_\theta$. The component $v_1$ is the radial component, and the component $v_2$ is the transverse component. For a particle with position vector $\mathbf{r}(t) = r(t)\mathbf{e}_r(t)$, the velocity $\mathbf{r}'(t)$ has components $r'$ and $r\theta'$ and acceleration $\mathbf{r}''(t)$ has components $r'' - r(\theta')^2$ and $r^{-1}(r^2\theta')'$.
+## References
+
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

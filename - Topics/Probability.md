@@ -15,6 +15,12 @@
 - (of a random event) A quantitative measure of the chance that a random event will occur, expressed by a number between 0 and 1 . The probability is 0 if the event is certain not to occur, and 1 if it is certain to occur.
 ## Source[^6]
 - $n$. A measure or index of degree of certainty regarding the occurrence of an event, on a scale from zero (indicating impossibility) to 1 (indicating certainty), interpreted as the relative frequency of the event (in classical statistics) or as one's subjective belief regarding the likelihood of the event (in Bayesian inference). Probabilities are nowadays usually assumed to obey Kolmogorov's axioms. The theory of probability is the foundation on which the whole of statistics is constructed. \[From Latin probabilis that may be proved, from probare to prove + -abilitas capacity, from habilis able]
+## Source[^7]
+- The probability of an event $\mathcal{A}$, denoted by $\text{Pr}(A)$, is a measure of the possibility of the event occurring as the result of an experiment. For any event $A$, $0 \le \text{Pr}(A) \le 1$. If $A$ never occurs, then $\text{Pr}(A) = 0$; if $A$ always occurs, then $\text{Pr}(A) = 1$. If an experiment is repeated $n$ times and the event $\mathcal{A}$ occurs $m$ times, then the limit of $m/n$ as $n \to \infty$ is equal to $\text{Pr}(A)$.
+- If the sample space $S$ is finite and the possible outcomes are all equally likely, then the probability of the event $\mathcal{A}$ equals $|A|/|S|$ (where $| \cdot |$ denotes cardinality). The probability that a randomly selected element from a finite population belongs to a certain category is equal to the proportion of the population belonging to that category.
+- The probability that a discrete random variable $X$ takes the value $x_i$ is denoted by $\text{Pr}(X = x_i)$ (see PROBABILITY MASS FUNCTION). The probability that a continuous random variable $X$ takes a value less than or equal to $x$ is denoted by $\text{Pr}(X \le x)$ (see CUMULATIVE DISTRIBUTION FUNCTION).
+- The term 'probability' also refers generally to the theory of probability and stochastic processes and is intimately linked with statistics.
+- See also CONDITIONAL PROBABILITY, LAWS OF LARGE NUMBERS, PRIOR PROBABILITY, PROBABILITY DENSITY FUNCTION, PROBABILITY SPACE.
 ## References
 
 [^1]: [[(1) Probability & Statistics (1 of 62) Introduction]]
@@ -23,3 +29,4 @@
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^6]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^7]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

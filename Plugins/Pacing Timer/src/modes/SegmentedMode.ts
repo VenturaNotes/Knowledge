@@ -6,7 +6,7 @@ import {
     formatDelta, 
     getFinishedTimeStr, 
     formatHumanReadableDuration, 
-    formatPacingTime,
+    formatPacingTime, 
     parsePlaylistInput 
 } from "../utils";
 import { SavedSessionRecord, PacingSessionState } from "../types";
@@ -23,6 +23,36 @@ function parseStintDurationInput(raw: string): number {
         return parseEndTimeToSeconds(raw);
     }
     return parseDurationToSeconds(raw);
+}
+
+function getProjectPaceStats(session: PacingSessionState, plugin: PacingTimerPlugin) {
+    const isProjectStint = Boolean(session.projectId);
+    const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
+
+    let totalCompleted = session.completedSegments || 0;
+    let totalWorkTime = session.totalWorkTime || 0;
+
+    if (isProjectStint && session.projectId) {
+        const project = plugin.settings.savedSessions?.[session.projectId];
+        const initialCompleted = session.projectCompletedInitial ?? project?.totalProjectCompleted ?? 0;
+        const initialWorkTime = session.projectWorkTimeInitial ?? project?.totalWorkTime ?? 0;
+        totalCompleted += initialCompleted;
+        totalWorkTime += initialWorkTime;
+    }
+
+    const avgPace = totalCompleted > 0 
+        ? (totalWorkTime / totalCompleted) 
+        : currentBenchmark;
+
+    const paceRatio = Math.round((avgPace / currentBenchmark) * 100);
+
+    return {
+        totalCompleted,
+        totalWorkTime,
+        avgPace,
+        paceRatio,
+        currentBenchmark
+    };
 }
 
 class CreateProjectModal extends Modal {
@@ -579,7 +609,6 @@ export const SegmentedMode: ModeHandler = {
                         duration = parseEndTimeToSeconds(stintEndTimeRaw);
                         tasks = Math.min(remTasks, Math.floor(duration / pace));
                     } else {
-                        // Interprets duration strings (e.g. '3h', '45m') as well as clock times (e.g. '3:30PM')
                         duration = parseStintDurationInput(stintDurationRaw);
                         if (duration <= 0 && !stintDurationRaw.trim()) {
                             duration = 10800;
@@ -654,8 +683,6 @@ export const SegmentedMode: ModeHandler = {
 
                     plugin.stopSession();
 
-                    // Only set targetFinishTimestamp when the user selects "Target Finish Time"
-                    // In "Stint Time Target" mode, it is undefined so pauses push back the finish time naturally
                     const targetFinishTimestamp = stintTargetMode === "endTime"
                         ? Date.now() + duration * 1000
                         : undefined;
@@ -687,6 +714,7 @@ export const SegmentedMode: ModeHandler = {
                         projectName: project.name,
                         projectGoal: project.totalProjectGoal,
                         projectCompletedInitial: project.totalProjectCompleted || 0,
+                        projectWorkTimeInitial: project.totalWorkTime || 0,
                         stintInitialGoal: tasks,
                         rotationCategories: [],
                         rotationIndex: 0,
@@ -752,12 +780,7 @@ export const SegmentedMode: ModeHandler = {
             ? Math.round((session.targetFinishTimestamp - Date.now()) / 1000)
             : Math.max(0, hardStop - session.globalTimeElapsed);
 
-        const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
-        const sessionAvg = session.completedSegments > 0 
-            ? (session.totalWorkTime / session.completedSegments) 
-            : currentBenchmark;
-
-        const paceRatio = Math.round((sessionAvg / currentBenchmark) * 100);
+        const { avgPace: sessionAvg, paceRatio, currentBenchmark } = getProjectPaceStats(session, plugin);
 
         if (session.cumulativeDelta >= threshold) {
             const maxGoal = session.maxTargetSegments || session.totalSegments;
@@ -811,7 +834,7 @@ export const SegmentedMode: ModeHandler = {
             }
         } else if (session.cumulativeDelta <= -threshold) {
             const prevQuota = session.currentQuota || session.maxTargetSegments || session.totalSegments;
-            const actualAvg = session.totalWorkTime / session.completedSegments;
+            const actualAvg = sessionAvg;
             
             const proposedDuration = Math.max(1, Math.round(actualAvg * 1.25));
             const newDuration = Math.max(session.targetSegmentDuration, proposedDuration);
@@ -937,11 +960,7 @@ export const SegmentedMode: ModeHandler = {
         }
 
         const threshold = Math.max(60, Math.round(session.targetSegmentDuration * 3));
-        const currentBenchmark = session.benchmarkPace || session.initialSegmentDuration || 60;
-        const sessionAvg = session.completedSegments > 0 
-            ? ((session.totalWorkTime || 0) / session.completedSegments) 
-            : currentBenchmark;
-        const paceRatio = Math.round((sessionAvg / currentBenchmark) * 100);
+        const { paceRatio } = getProjectPaceStats(session, plugin);
 
         let ratioDisplay = `(${paceRatio}%)`;
         if (paceRatio <= 50) {

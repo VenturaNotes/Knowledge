@@ -37,6 +37,7 @@ export interface PacingSessionState {
     projectName?: string;
     projectGoal?: number;
     projectCompletedInitial?: number;
+    projectWorkTimeInitial?: number;
     stintInitialGoal?: number;
 
     // Rotation Mode
