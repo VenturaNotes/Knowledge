@@ -13,6 +13,11 @@
 	z-index: 50 !important;
 }
 
+/* Prevents stale hover states on window open until cursor actually moves */
+#pt-floating-window.pt-no-hover .pt-btn {
+	pointer-events: none !important;
+}
+
 .pt-mobile-wrapper {
 	display: flex !important;
 	flex-direction: column !important;
@@ -378,14 +383,22 @@
 	white-space: nowrap;
 }
 
+.pt-btn:focus,
+.pt-btn:focus-visible {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
 /* Ensures SVG icons inside buttons do not intercept or drop click events */
 .pt-btn svg {
 	pointer-events: none !important;
 }
 
 .pt-btn:hover { color: var(--text-normal); border-color: var(--background-modifier-border-hover); }
+
 .pt-btn--add { color: var(--interactive-accent); border-color: var(--interactive-accent); }
 .pt-btn--add:hover { background: var(--interactive-accent); color: var(--text-on-accent); }
+
 .pt-btn--complete { color: var(--color-green); border-color: var(--color-green); }
 .pt-btn--complete:hover { background: var(--color-green); color: white; }
 

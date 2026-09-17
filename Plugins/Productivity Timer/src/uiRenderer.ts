@@ -81,14 +81,17 @@ export class TimerUIRenderer {
 
 		const addBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--add", text: "+ Add Timer" });
 		addBtn.type = "button";
+		addBtn.tabIndex = -1;
 		addBtn.addEventListener("click", () => this.plugin.addTimer());
 
 		const completeBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--complete", text: "Done" });
 		completeBtn.type = "button";
+		completeBtn.tabIndex = -1;
 		completeBtn.addEventListener("click", () => this.plugin.completeAll());
 
 		const archiveBtn = actionsLeft.createEl("button", { cls: "pt-btn pt-btn--archive", text: this.showArchive ? "Hide Archive" : "Archive" });
 		archiveBtn.type = "button";
+		archiveBtn.tabIndex = -1;
 		archiveBtn.addEventListener("click", () => {
 			this.showArchive = !this.showArchive;
 			this.plugin.refreshUI();
@@ -97,7 +100,6 @@ export class TimerUIRenderer {
 		const indicatorsRight = actions.createDiv({ cls: "pt-indicators-right" });
 		indicatorsRight.style.cssText = "display: inline-flex; align-items: center; gap: 6px; margin-left: auto;";
 
-		// Visual version badge to confirm matching code versions between devices
 		const versionBadge = indicatorsRight.createDiv({ cls: "pt-version-badge", text: PLUGIN_VERSION });
 		versionBadge.style.cssText = "font-size: 10px; font-weight: 600; color: var(--text-faint); padding: 3px 6px; border-radius: 4px; background: var(--background-secondary-alt); border: 1px solid var(--background-modifier-border); font-family: var(--font-monospace);";
 
@@ -279,11 +281,9 @@ export class TimerUIRenderer {
 					t.sort_order = idx;
 				});
 
-				// Re-sort local array immediately for instant 0ms update on Mac
 				this.plugin.timers.sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
 				this.plugin.refreshUI();
 
-				// Persist new order to Supabase in the background
 				await this.plugin.runWriteAction(async () => {
 					await Promise.all(sibs.map((t) =>
 						this.plugin.db.update("timers", { sort_order: t.sort_order }, `id=eq.${t.id}`)

@@ -66,7 +66,6 @@ export class TimerService {
 						t.segments = t.segments || [];
 						t.segments.push(newSeg);
 						const segSum = t.segments.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
-						// Preserve any existing tracked time so a new segment never decreases the total
 						t.tracked_seconds = Math.max(t.tracked_seconds || 0, segSum);
 						segmentsToInsert.push(newSeg);
 						timersToUpdate.push({ id: t.id, tracked_seconds: t.tracked_seconds });
@@ -113,12 +112,10 @@ export class TimerService {
 		await this.plugin.runWriteAction(async () => {
 			const promises: Promise<any>[] = [];
 
-			// 1. Insert completed segments
 			if (segs.length > 0) {
 				promises.push(...segs.map((s) => this.plugin.db.insert("timer_segments", s)));
 			}
 
-			// 2. Sync running timer states on server
 			if (activeTimerId && runningTimer) {
 				promises.push(
 					this.plugin.db.update(
@@ -156,7 +153,6 @@ export class TimerService {
 				);
 			}
 
-			// 3. Sync rotation parent states on server
 			if (activeParentId) {
 				promises.push(
 					this.plugin.db.update("timers", { is_rotation_running: true }, `id=eq.${activeParentId}`),
@@ -168,7 +164,6 @@ export class TimerService {
 				);
 			}
 
-			// 4. Update tracked_seconds for stopped timers
 			const stoppedTimerIds = [...new Set(segs.map((s) => s.timer_id))];
 			for (const tid of stoppedTimerIds) {
 				const timer = this.plugin.timers.find((t) => t.id === tid);
@@ -185,6 +180,7 @@ export class TimerService {
 	}
 
 	public async stopAllTimers() {
+		this.plugin.cancelPendingSync();
 		await this.flushPendingSwitch();
 		const nowStr = this.plugin.getCalibratedISOString();
 		const { segmentsToInsert } = this.stopLocalRunningTimers(nowStr);
@@ -194,6 +190,7 @@ export class TimerService {
 	}
 
 	public playParent(timer: Timer) {
+		this.plugin.cancelPendingSync();
 		const target = this.plugin.timers.find((t) => t.id === timer.id) || timer;
 		const wasRunning = target.is_running;
 		const nowStr = this.plugin.getCalibratedISOString();
@@ -206,12 +203,12 @@ export class TimerService {
 			target.last_started_at = nowStr;
 		}
 
-		// In-place DOM update prevents destroying the button during rapid clicks
 		this.plugin.tickUI();
 		this.scheduleServerCommit();
 	}
 
 	public playSubtaskDirectly(subtask: Timer) {
+		this.plugin.cancelPendingSync();
 		const target = this.plugin.timers.find((t) => t.id === subtask.id) || subtask;
 		const wasRunning = target.is_running;
 		const nowStr = this.plugin.getCalibratedISOString();
@@ -230,12 +227,12 @@ export class TimerService {
 			for (const sib of siblings) sib.is_last_active = false;
 		}
 
-		// In-place DOM update prevents destroying the button during rapid clicks
 		this.plugin.tickUI();
 		this.scheduleServerCommit();
 	}
 
 	public async toggleRotation(parent: Timer) {
+		this.plugin.cancelPendingSync();
 		const target = this.plugin.timers.find((t) => t.id === parent.id) || parent;
 		const subtasks = this.plugin.timers
 			.filter((t) => t.parent_id === target.id)
@@ -343,19 +340,29 @@ export class TimerService {
 	}
 
 	public async completeAll() {
-		await this.flushPendingSwitch();
+		this.plugin.cancelPendingSync();
+
+		if (this.switchDebounceTimeout) {
+			window.clearTimeout(this.switchDebounceTimeout);
+			this.switchDebounceTimeout = null;
+		}
+		this.pendingSegments = [];
+
 		if (this.plugin.timers.length === 0) {
 			new Notice("No timers to complete.");
 			return;
 		}
 
-		await this.plugin.runWriteAction(async () => {
-			await this.stopAllTimers();
+		// Stop timers locally without calling nested writeQueue actions
+		const nowStr = this.plugin.getCalibratedISOString();
+		this.stopLocalRunningTimers(nowStr);
+		this.plugin.refreshUI();
 
+		await this.plugin.runWriteAction(async () => {
 			const sessionResult = await this.plugin.db.insert("timer_sessions", {
 				id: generateUUID(),
 				date: new Date().toISOString().split("T")[0],
-				completed_at: this.plugin.getCalibratedISOString(),
+				completed_at: nowStr,
 			});
 			const session = Array.isArray(sessionResult) ? sessionResult[0] : sessionResult;
 

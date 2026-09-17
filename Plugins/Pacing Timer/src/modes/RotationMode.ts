@@ -411,7 +411,6 @@ export const RotationMode: ModeHandler = {
     },
 
     onComplete(session, plugin) {
-        // (1) In interrupt mode, Ctrl + Space resets the interrupt countdown timer
         if (session.rotationInInterrupt) {
             plugin.stopAlarmSequence();
             plugin.playHeroSound();
@@ -421,7 +420,6 @@ export const RotationMode: ModeHandler = {
 
         const currentCatDuration = getCategoryDuration(session);
         
-        // In normal mode, do not complete until countdown has reached zero
         if (session.rotationCategoryElapsed < currentCatDuration) {
             return;
         }
@@ -445,7 +443,6 @@ export const RotationMode: ModeHandler = {
     onInterrupt(session, plugin) {
         plugin.stopAlarmSequence();
 
-        // (2) Toggle interrupt mode silently without popup HUD overlay
         if (session.rotationInInterrupt) {
             session.rotationInInterrupt = false;
             session.rotationInterruptElapsed = 0;

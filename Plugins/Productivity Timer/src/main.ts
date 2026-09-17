@@ -24,7 +24,10 @@ export default class ProductivityTimerPlugin extends Plugin {
 	private rotationOverlay: HTMLElement | null = null;
 	private overlayKeydownListener: ((e: KeyboardEvent) => void) | null = null;
 	private loadTimersDebounceTimeout: any = null;
-	private resumeDebounceTimer: any = null;
+	public resumeDebounceTimer: any = null;
+
+	// Invalidation token to cancel stale in-flight background syncs when user interacts
+	public syncToken = 0;
 
 	// Tracks currently active running subtask to notify on rotation transitions
 	public currentActiveSubtaskId: string | null = null;
@@ -168,6 +171,19 @@ export default class ProductivityTimerPlugin extends Plugin {
 		} catch (e) {}
 	}
 
+	/**
+	 * Immediately invalidates any in-flight background syncs or pending timers
+	 * so user selections take 100% priority.
+	 */
+	public cancelPendingSync() {
+		this.syncToken++;
+		if (this.resumeDebounceTimer) {
+			window.clearTimeout(this.resumeDebounceTimer);
+			this.resumeDebounceTimer = null;
+		}
+		this.lastLocalWriteTime = Date.now();
+	}
+
 	public triggerResumeSync() {
 		const isSwitchPending = this.timerService && this.timerService.isSwitchPending();
 		if (this.activeWrites > 0 || isSwitchPending || Date.now() - this.lastLocalWriteTime < 1500) {
@@ -189,6 +205,12 @@ export default class ProductivityTimerPlugin extends Plugin {
 			for (let i = 0; i < 5; i++) {
 				if (navigator.onLine) break;
 				await new Promise((resolve) => setTimeout(resolve, 500));
+			}
+
+			// If the user tapped a timer while network was negotiating, do not overwrite!
+			const finalPending = this.timerService && this.timerService.isSwitchPending();
+			if (this.activeWrites > 0 || finalPending || Date.now() - this.lastLocalWriteTime < 1500) {
+				return;
 			}
 
 			if (navigator.onLine) {
@@ -276,13 +298,27 @@ export default class ProductivityTimerPlugin extends Plugin {
 			if (this.resyncInFlight) return;
 			this.resyncInFlight = true;
 		}
+
+		const token = this.syncToken;
+
 		try {
 			if (this.db) {
 				this.db.reconnect();
 			}
 			await this.syncManager.syncOfflineActions();
+
+			// Abort if user tapped a timer while offline actions synced
+			if (token !== this.syncToken) return;
+
 			await this.syncManager.loadTimers();
+
+			// Abort if user tapped a timer while loadTimers was in flight
+			if (token !== this.syncToken) return;
+
 			await this.syncManager.loadSessions();
+
+			if (token !== this.syncToken) return;
+
 			this.refreshUI();
 		} catch (e) {
 			console.error(`Productivity Timer: resync attempt ${attempt} failed.`, e);
@@ -375,7 +411,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 				const localDur = elapsedInTurn;
 				const finalTracked = totalTrackedNow;
 
-				// OPTIMISTIC CONCURRENCY: Stop `running` on Supabase ONLY IF it is still marked as running
+				// OPTIMISTIC CONCURRENCY: Stop `running` ONLY IF it is still marked as running on Supabase
 				if (navigator.onLine) {
 					const match = `id=eq.${running.id}&is_running=eq.true`;
 					const updated = await this.db.updateBypassQueue("timers", {

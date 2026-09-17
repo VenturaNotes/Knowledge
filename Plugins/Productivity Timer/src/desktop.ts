@@ -25,6 +25,8 @@ export class ProductivityTimerWindow {
 		this.renderer = new TimerUIRenderer(plugin);
 		this.el = document.createElement("div");
 		this.el.id = "pt-floating-window";
+		// Start fresh with no-hover to block Chromium's synthetic hover bug
+		this.el.classList.add("pt-no-hover");
 		document.body.appendChild(this.el);
 		this.applyPosition();
 
@@ -33,6 +35,20 @@ export class ProductivityTimerWindow {
 
 		this.render();
 		this.setupMultiResize();
+
+		// Ensure no buttons have lingering focus when opened
+		if (document.activeElement instanceof HTMLElement) {
+			document.activeElement.blur();
+		}
+
+		// Unlock hover as soon as the user physically moves the mouse or interacts
+		const clearNoHover = () => {
+			this.el.classList.remove("pt-no-hover");
+			window.removeEventListener("mousemove", clearNoHover, true);
+			window.removeEventListener("mousedown", clearNoHover, true);
+		};
+		window.addEventListener("mousemove", clearNoHover, { capture: true, once: true });
+		window.addEventListener("mousedown", clearNoHover, { capture: true, once: true });
 	}
 
 	private applyPosition() {
@@ -120,7 +136,6 @@ export class ProductivityTimerWindow {
 	}
 
 	public render() {
-		// Save focused element & cursor position before re-rendering
 		const activeEl = document.activeElement as HTMLElement | null;
 		let activeInfo: { timerId: string; isEst: boolean; isName: boolean; start: number | null; end: number | null } | null = null;
 
@@ -158,7 +173,6 @@ export class ProductivityTimerWindow {
 		this.renderer.renderBody(bodyEl, false);
 		bodyEl.scrollTop = savedScrollTop;
 
-		// Restore cursor focus seamlessly if this input was being edited
 		if (activeInfo) {
 			const targetRow = this.el.querySelector(`.pt-row[data-timer-id="${activeInfo.timerId}"]`);
 			if (targetRow) {
@@ -217,6 +231,12 @@ export class ProductivityTimerWindow {
 		document.removeEventListener("mousemove", this.onMouseMove);
 		document.removeEventListener("mouseup", this.onMouseUp);
 		document.body.classList.remove("pt-is-window-dragging", "pt-is-window-resizing");
+
+		// Clear any focus on close
+		if (document.activeElement instanceof HTMLElement && this.el.contains(document.activeElement)) {
+			document.activeElement.blur();
+		}
+
 		this.el.remove();
 		this.plugin.floatingWindow = null;
 	}

@@ -25,6 +25,16 @@ function parseStintDurationInput(raw: string): number {
     return parseDurationToSeconds(raw);
 }
 
+// Handles both clock times (e.g. '3:30PM', '11:00') and durations (e.g. '30m', '1h', '45 mins')
+function parseEndTimeOrDuration(raw: string): number {
+    if (!raw) return 0;
+    const str = raw.trim().toLowerCase();
+    if (/\d+\s*(?:m|min|mins|minute|minutes|h|hr|hrs|hour|hours|s|sec|secs|second|seconds)\b/i.test(str)) {
+        return parseDurationToSeconds(str);
+    }
+    return parseEndTimeToSeconds(str);
+}
+
 function getTargetMethodBadge(s: PacingSessionState): string {
     if (s.stintTargetMode === "endTime" || s.targetFinishTimestamp) {
         const finishStr = s.targetFinishTimestamp 
@@ -259,7 +269,6 @@ export const SegmentedMode: ModeHandler = {
         let activeProject: SavedSessionRecord | null = null;
         let currentView: "library" | "dashboard" = "library";
 
-        // Restore the last opened project dashboard if it still exists
         const lastId = plugin.session?.projectId || plugin.settings.lastOpenProjectId;
         if (lastId && plugin.settings.savedSessions?.[lastId]) {
             activeProject = plugin.settings.savedSessions[lastId];
@@ -409,7 +418,6 @@ export const SegmentedMode: ModeHandler = {
             const totalGoal = project.totalProjectGoal || 100;
             const isProjectCompleted = completed >= totalGoal;
 
-            // Navigation Row: Back button clears the saved project so it returns to the library next time
             const topNav = container.createDiv();
             Object.assign(topNav.style, {
                 display: "flex",
@@ -604,10 +612,12 @@ export const SegmentedMode: ModeHandler = {
 
                 const segmentSetting = new Setting(container)
                     .setName("Stint Segment Target")
+                    .setDesc("How many tasks do you want to complete in this stint? (e.g. '45', '10').")
                     .addText(t => t.setValue(stintTasksRaw).onChange(v => { stintTasksRaw = v; updateStintPreview(); }));
 
                 const endTimeSetting = new Setting(container)
                     .setName("Target Finish Time")
+                    .setDesc("Set a hard clock deadline or duration (e.g. '3:30PM', '11:00', or '30m', '1h').")
                     .addText(t => t.setValue(stintEndTimeRaw).onChange(v => { stintEndTimeRaw = v; updateStintPreview(); }));
 
                 const updateFormVisibility = () => {
@@ -633,7 +643,7 @@ export const SegmentedMode: ModeHandler = {
                         tasks = parsed > 0 ? Math.min(remTasks, parsed) : Math.min(remTasks, 10);
                         duration = tasks * pace;
                     } else if (stintTargetMode === "endTime") {
-                        duration = parseEndTimeToSeconds(stintEndTimeRaw);
+                        duration = parseEndTimeOrDuration(stintEndTimeRaw);
                         tasks = Math.min(remTasks, Math.floor(duration / pace));
                     } else {
                         duration = parseStintDurationInput(stintDurationRaw);
@@ -644,13 +654,11 @@ export const SegmentedMode: ModeHandler = {
                     }
 
                     if (duration <= 0) {
-                        previewEl.textContent = "🎯 Enter a valid time target (e.g. '3h', '3:30PM')...";
+                        previewEl.textContent = "🎯 Enter a valid time target (e.g. '3h', '3:30PM', '30m')...";
                         return;
                     }
 
-                    const finishStr = stintTargetMode === "endTime" 
-                        ? getFinishedTimeStr(Date.now() + duration * 1000, 0)
-                        : getFinishedTimeStr(Date.now(), duration);
+                    const finishStr = getFinishedTimeStr(Date.now(), duration);
                     previewEl.textContent = `🎯 Today's Stint: ~${tasks} tasks budgeted in ${formatHumanReadableDuration(duration)} • Finish around ${finishStr}`;
                 };
                 updateStintPreview();
@@ -690,9 +698,9 @@ export const SegmentedMode: ModeHandler = {
                         tasks = parsed > 0 ? Math.min(remTasks, parsed) : Math.min(remTasks, 10);
                         duration = tasks * pace;
                     } else if (stintTargetMode === "endTime") {
-                        duration = parseEndTimeToSeconds(stintEndTimeRaw);
+                        duration = parseEndTimeOrDuration(stintEndTimeRaw);
                         if (duration < 60) {
-                            plugin.showOverlay("⚠️ Please enter a future time (e.g. '3:14PM')", false);
+                            plugin.showOverlay("⚠️ Please enter a future time or duration (e.g. '3:14PM', '30m')", false);
                             return;
                         }
                         tasks = Math.min(remTasks, Math.floor(duration / pace));
@@ -739,7 +747,7 @@ export const SegmentedMode: ModeHandler = {
                         targetFinishTimestamp,
                         stintTargetMode,
                         stintTargetValueRaw: stintTargetMode === "endTime" 
-                            ? stintEndTimeRaw 
+                            ? getFinishedTimeStr(Date.now(), duration) 
                             : (stintTargetMode === "segments" ? stintTasksRaw : stintDurationRaw),
                         totalPausedSeconds: 0,
                         pausedAt: undefined,
@@ -1026,7 +1034,6 @@ export const SegmentedMode: ModeHandler = {
                     const startQuota = session.quotaAtPauseStart || baseGoal;
                     session.currentQuota = Math.max(completedToday, startQuota - lostTasks);
                 } else if (session.pausedAt) {
-                    // Resumed from a pause: commit accumulated pause seconds
                     const pauseDuration = Math.max(0, Math.floor((Date.now() - session.pausedAt) / 1000));
                     session.totalPausedSeconds = (session.totalPausedSeconds || 0) + pauseDuration;
                     const totalAccumulatedPause = (session.pauseBufferSeconds || 0) + pauseDuration;
@@ -1039,7 +1046,6 @@ export const SegmentedMode: ModeHandler = {
                     session.quotaAtPauseStart = undefined;
                 }
             } else if (!session.isRunning && !session.pausedAt) {
-                // Non-targetFinishTimestamp modes: track pausedAt so totalPausedSeconds accurately tracks break time
                 session.pausedAt = Date.now();
             } else if (session.isRunning && session.pausedAt) {
                 const pauseDuration = Math.max(0, Math.floor((Date.now() - session.pausedAt) / 1000));

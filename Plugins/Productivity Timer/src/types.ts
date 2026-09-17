@@ -1,4 +1,4 @@
-export const PLUGIN_VERSION = "v1.0.3";
+export const PLUGIN_VERSION = "v1.0.7";
 
 export interface TimerSegment {
 	id: string;
@@ -86,10 +86,6 @@ export function generateUUID(): string {
 	});
 }
 
-/**
- * Generates an exact RFC-4122 compliant 36-character UUID (8-4-4-4-12)
- * deterministically based on timerId and startedAt so PostgreSQL accepts it.
- */
 export function generateDeterministicUUID(timerId: string, startedAt: string): string {
 	const input = `${timerId}_${startedAt}`;
 	let h1 = 0xdeadbeef, h2 = 0x41c64e6d;

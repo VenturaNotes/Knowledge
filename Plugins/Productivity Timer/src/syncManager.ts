@@ -130,14 +130,28 @@ export class SyncManager {
 			}
 		}
 
+		// Capture current sync token to detect if user interacted while query is in flight
+		const token = this.plugin.syncToken;
+
 		try {
 			const dbTimers: Timer[] = await this.plugin.db.select("timers", "order=sort_order.asc,created_at.asc");
+
+			// If the user touched a timer while this request was in flight, discard response!
+			if (token !== this.plugin.syncToken) {
+				return;
+			}
+
 			let dbSegments: TimerSegment[] = [];
 			try {
 				dbSegments = await this.plugin.db.select("timer_segments", "order=started_at.asc");
 			} catch (e) {
 				console.error("Failed to load segments", e);
 				dbSegments = (this.plugin.timers || []).flatMap(t => t.segments || []);
+			}
+
+			// Check token again before mutating local memory
+			if (token !== this.plugin.syncToken) {
+				return;
 			}
 
 			const runningTimers = dbTimers.filter(t => t.is_running);
@@ -183,7 +197,6 @@ export class SyncManager {
 				}
 			}
 
-			// Cleanly calculate tracked time preserving all manual and overlapping segments
 			this.plugin.timers = dbTimers.map(dbTimer => {
 				const segments = dbSegments.filter(s => s.timer_id === dbTimer.id);
 				const segSum = segments.reduce((sum, s) => sum + (s.duration_seconds || 0), 0);
