@@ -26,8 +26,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 	private loadTimersDebounceTimeout: any = null;
 	private resumeDebounceTimer: any = null;
 
-	// Simple ID tracker to detect when subtasks switch during rotation
-	private lastActiveSubtaskId: string | null = null;
+	// Tracks currently active running subtask to notify on rotation transitions
+	public currentActiveSubtaskId: string | null = null;
 
 	private writeQueue: Promise<void> = Promise.resolve();
 
@@ -205,26 +205,26 @@ export default class ProductivityTimerPlugin extends Plugin {
 	}
 
 	/**
-	 * Simple check: if rotation is active and the running subtask ID changes,
-	 * display the "UP NEXT" overlay on this device.
+	 * Detects when the active subtask ID changes while rotation is running,
+	 * ensuring the "UP NEXT" overlay appears even when the other device triggered the rotation.
 	 */
 	public checkRotationSubtaskTransition() {
 		const parent = this.timers.find((t) => t.is_rotation_running);
 		if (!parent) {
-			if (this.lastActiveSubtaskId !== null) {
+			if (this.currentActiveSubtaskId !== null) {
 				this.closeOverlays();
 			}
-			this.lastActiveSubtaskId = null;
+			this.currentActiveSubtaskId = null;
 			return;
 		}
 
 		const running = this.timers.find((t) => t.is_running && t.parent_id === parent.id);
-		if (!running) return; // Wait during network transition between tasks
+		if (!running) return;
 
-		if (this.lastActiveSubtaskId && this.lastActiveSubtaskId !== running.id) {
+		if (this.currentActiveSubtaskId && this.currentActiveSubtaskId !== running.id) {
 			this.showRotationOverlay(running);
 		}
-		this.lastActiveSubtaskId = running.id;
+		this.currentActiveSubtaskId = running.id;
 	}
 
 	public refreshUI() {
@@ -375,7 +375,7 @@ export default class ProductivityTimerPlugin extends Plugin {
 				const localDur = elapsedInTurn;
 				const finalTracked = totalTrackedNow;
 
-				// OPTIMISTIC CONCURRENCY: Stop `running` ONLY IF it is still marked as running on Supabase
+				// OPTIMISTIC CONCURRENCY: Stop `running` on Supabase ONLY IF it is still marked as running
 				if (navigator.onLine) {
 					const match = `id=eq.${running.id}&is_running=eq.true`;
 					const updated = await this.db.updateBypassQueue("timers", {
@@ -393,6 +393,14 @@ export default class ProductivityTimerPlugin extends Plugin {
 						this.refreshUI();
 						return;
 					}
+				} else {
+					// If offline, queue the stop update into offlineQueue
+					await this.db.update("timers", {
+						is_running: false,
+						is_last_active: false,
+						tracked_seconds: finalTracked,
+						last_started_at: null
+					}, `id=eq.${running.id}`);
 				}
 
 				const newSegId = generateDeterministicUUID(running.id, localStart);
@@ -408,9 +416,8 @@ export default class ProductivityTimerPlugin extends Plugin {
 					running.segments.push(newSeg);
 					running.tracked_seconds = finalTracked;
 
-					if (navigator.onLine) {
-						await this.db.insertBypassQueue("timer_segments", newSeg).catch(() => {});
-					}
+					// Inserts online or automatically queues to offlineQueue if offline
+					await this.db.insert("timer_segments", newSeg).catch(() => {});
 				}
 
 				const isSameSubtask = nextSubtask.id === running.id;
@@ -439,25 +446,24 @@ export default class ProductivityTimerPlugin extends Plugin {
 				this.refreshUI();
 				this.showRotationOverlay(nextSubtask);
 
-				if (navigator.onLine) {
-					if (isSameSubtask) {
-						await this.db.updateBypassQueue("timers", {
+				// Updates online or automatically queues to offlineQueue if offline
+				if (isSameSubtask) {
+					await this.db.update("timers", {
+						is_running: true,
+						is_last_active: true,
+						last_started_at: nextNow
+					}, `id=eq.${running.id}`).catch(() => {});
+				} else {
+					await Promise.all([
+						this.db.update("timers", {
 							is_running: true,
 							is_last_active: true,
 							last_started_at: nextNow
-						}, `id=eq.${running.id}`);
-					} else {
-						await Promise.all([
-							this.db.updateBypassQueue("timers", {
-								is_running: true,
-								is_last_active: true,
-								last_started_at: nextNow
-							}, `id=eq.${nextSubtask.id}`),
-							...sibs.filter((s) => s.id !== nextSubtask.id && s.id !== running.id).map((sib) =>
-								this.db.updateBypassQueue("timers", { is_last_active: false }, `id=eq.${sib.id}`)
-							)
-						]);
-					}
+						}, `id=eq.${nextSubtask.id}`).catch(() => {}),
+						...sibs.filter((s) => s.id !== nextSubtask.id && s.id !== running.id).map((sib) =>
+							this.db.update("timers", { is_last_active: false }, `id=eq.${sib.id}`).catch(() => {})
+						)
+					]);
 				}
 			} catch (e) {
 				console.error("Background subtask rotation failed:", e);
