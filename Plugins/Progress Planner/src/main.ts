@@ -5,21 +5,25 @@ import { AgendaView, VIEW_TYPE_AGENDA } from "./views/AgendaView";
 import { ActiveTaskPanel } from "./panels/ActiveTaskPanel";
 import { ProgressPlannerSettings, DEFAULT_SETTINGS } from "./types";
 import { assignDateAndTimeToTask } from "./modals/AssignDateTimeModal";
+import { TaskNotifier } from "./services/TaskNotifier";
 
 export default class ProgressPlannerPlugin extends Plugin {
     public settings: ProgressPlannerSettings;
     public taskCache: TaskCache;
     public activeTaskPanel: ActiveTaskPanel;
+    public taskNotifier: TaskNotifier;
 
     async onload() {
         await this.loadSettings();
 
         this.taskCache = new TaskCache(this.app, this.settings);
         this.activeTaskPanel = new ActiveTaskPanel(this);
+        this.taskNotifier = new TaskNotifier(this);
 
         this.app.workspace.onLayoutReady(async () => {
             await this.taskCache.initialize();
             this.refreshViews();
+            this.taskNotifier.start();
         });
 
         // Debounce wrapper for lag-free typing 
@@ -97,6 +101,7 @@ export default class ProgressPlannerPlugin extends Plugin {
 
     async onunload() {
         this.activeTaskPanel?.onunload();
+        this.taskNotifier?.stop();
     }
 
     async loadSettings() {
@@ -190,6 +195,18 @@ class ProgressPlannerSettingTab extends PluginSettingTab {
                 .setValue(this.plugin.settings.quickCaptureFile)
                 .onChange(async (value) => {
                     this.plugin.settings.quickCaptureFile = value.trim();
+                    await this.plugin.saveSettings();
+                }));
+
+        containerEl.createEl("h3", { text: "Notifications" });
+
+        new Setting(containerEl)
+            .setName("Scheduled Task Notifications")
+            .setDesc("Play system sound alerts and display OS banners at the exact time a task is scheduled.")
+            .addToggle(toggle => toggle
+                .setValue(this.plugin.settings.enableTimeNotifications)
+                .onChange(async (value) => {
+                    this.plugin.settings.enableTimeNotifications = value;
                     await this.plugin.saveSettings();
                 }));
 

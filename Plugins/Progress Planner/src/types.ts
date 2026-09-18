@@ -18,7 +18,7 @@ export interface TaskNode extends GraphNode {
     file: TFile;
     basename: string;
     parentNames: string[];     
-    parentPaths: (string | null)[]; // NEW: pre-resolved paths from getFirstLinkpathDest
+    parentPaths: (string | null)[];
 }
 
 export interface CheckboxNode extends GraphNode {
@@ -61,6 +61,7 @@ export interface ProgressPlannerSettings {
     goalContainers: GoalContainer[]; 
     hubChildThreshold: number; 
     hubMinImpact: "low" | "medium" | "high"; 
+    enableTimeNotifications: boolean; // Enables system notifications for timed tasks
 }
 
 export const DEFAULT_SETTINGS: ProgressPlannerSettings = {
@@ -69,5 +70,6 @@ export const DEFAULT_SETTINGS: ProgressPlannerSettings = {
     quickCaptureFile: "",
     goalContainers: [],
     hubChildThreshold: 12,
-    hubMinImpact: "medium"
+    hubMinImpact: "medium",
+    enableTimeNotifications: true
 };
