@@ -1,9 +1,10 @@
-import { Plugin, PluginSettingTab, Setting, App, TFile } from "obsidian";
+import { Plugin, PluginSettingTab, Setting, App, TFile, Editor } from "obsidian";
 import { TaskCache } from "./cache/TaskCache";
 import { DashboardView, VIEW_TYPE_DASHBOARD } from "./views/DashboardView";
 import { AgendaView, VIEW_TYPE_AGENDA } from "./views/AgendaView";
 import { ActiveTaskPanel } from "./panels/ActiveTaskPanel";
 import { ProgressPlannerSettings, DEFAULT_SETTINGS } from "./types";
+import { assignDateAndTimeToTask } from "./modals/AssignDateTimeModal";
 
 export default class ProgressPlannerPlugin extends Plugin {
     public settings: ProgressPlannerSettings;
@@ -21,7 +22,7 @@ export default class ProgressPlannerPlugin extends Plugin {
             this.refreshViews();
         });
 
-        // NEW: Debounce wrapper for lag-free typing 
+        // Debounce wrapper for lag-free typing 
         let debounceTimeout: number | null = null;
         this.registerEvent(
             this.app.metadataCache.on("changed", async (file) => {
@@ -81,6 +82,14 @@ export default class ProgressPlannerPlugin extends Plugin {
             id: "open-progress-agenda",
             name: "Open Agenda Calendar",
             callback: () => this.activateView(VIEW_TYPE_AGENDA)
+        });
+
+        this.addCommand({
+            id: "assign-task-date-time",
+            name: "Assign date, time, and recurrence to task",
+            editorCallback: (editor: Editor) => {
+                assignDateAndTimeToTask(this.app, editor);
+            }
         });
 
         this.addSettingTab(new ProgressPlannerSettingTab(this.app, this));

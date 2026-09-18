@@ -75,6 +75,8 @@ aliases:
 - The idea of a set is fundamental to mathematics. It forms the basis for all ideas involving functions, relations, and indeed any kind of algebraic structure. Authors differ considerably in the way they define sets. A mathematical logician will distinguish carefully between classes and sets, basically to ensure that paradoxes such as Russell's paradox cannot occur in sets. However, the informal definition is adequate for most purposes. See also OPERATIONS ON SETS. 
 - (2) Any data structure representing a set of elements. One example is a characteristic vector. 
 - (3) To cause the condition or state of a switch, signal, or storage location to change to the positive condition.
+## Source[^8]
+- A well-defined collection of objects. It may be possible to define a set by listing the elements: $\{a, e, i, o, u\}$ is the set consisting of the vowels of the alphabet, $\{1, 2, \dots, 100\}$ is the set of the first 100 positive integers. The meaning of $\{1, 2, 3, \dots\}$ is also clear: it is the set of all positive integers. It may be possible to define a set as consisting of all elements, from some universal set, that satisfy some property. Thus the set of all real numbers that are greater than $1$ can be written as either $\{x \mid x \in \mathbb{R} \text{ and } x > 1\}$ or $\{x : x \in \mathbb{R} \text{ and } x > 1\}$, both of which are read as ‘the set of $x$ such that $x$ belongs to $\mathbb{R}$ and $x$ is greater than $1$’. The same set is sometimes written $\{x \in \mathbb{R} \mid x > 1\}$. See ALGEBRA OF SETS, RUSSELL’S PARADOX, ZERMELO-FRAENKEL AXIOMS.
 ## References
 
 [^1]: [[(28) Universal Set Example Problems - Set Builder Notation, Absolute Complement, Roster Notation#^19ae11]]
@@ -84,3 +86,4 @@ aliases:
 [^5]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
 [^6]: [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
 [^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^8]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

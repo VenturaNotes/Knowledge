@@ -10,6 +10,10 @@
 	- Parts
 		- Resistors in series
 		- Capacitors in series
+## Source[^2]
+- A finite series of length $n$ is written as $a_1+a_2+\dots+a_n$, where $a_1, a_2, \dots, a_n$ are $n$ numbers called the terms in the series. The sum of the series is simply the sum of the $n$ terms.
+- An infinite series is written as $a_1+a_2+a_3+\dots$, with terms $a_1, a_2, a_3, \dots$, one corresponding to each positive integer. The $n$th partial sum is $s_n$, the sum of the first $n$ terms. If the sequence $s_1, s_2, s_3, \dots$ has a limit $s$, then the value $s$ is called the sum (or sum to infinity) of the infinite series. Otherwise, the infinite series is said to diverge. For a list of important series and convergence tests, see APPENDIX 11 and APPENDIX 12. See also ALGEBRA OF LIMITS, ARITHMETIC SERIES, GEOMETRIC SERIES, PARTIAL SUM, TAYLOR SERIES.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

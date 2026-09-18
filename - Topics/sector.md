@@ -7,8 +7,11 @@
 - A part of the economy. Sectors can be delimited in a number of different ways. One way is by the bodies organizing expenditures: thus the economy is divided between the public sector, that is, the government at various levels and government-controlled bodies; the corporate sector, which is companies; and the personal sector, which is individuals, and unincorporated businesses. For national income accounting purposes the rest of the world is sometimes regarded as a sector. Sectors may also be distinguished by the type of product: a primary sector, that is, agriculture and mining; a secondary, or manufacturing, sector; and a tertiary, or services, sector. See also INDUSTRIAL SECTOR; ORGANIZED SECTOR; SENSITIVE SECTORS.
 ## Source[^3]
 - A division of a hard disk or other digital storage medium that holds a fixed number of bits, typically equivalent to 512 bytes. Data to be stored is broken into chunks that fit within a single sector, which also contains information about how the chunks should be linked, as well as error-correcting codes. The choice of sector size is a trade-off between data access speeds and wastage from left-over portions of sectors.
+## Source[^4]
+- A sector of a circle, with centre $O$, is the region bounded by an arc $AB$ of the circle and the two radii $OA$ and $OB$. The area of a sector is equal to $\frac{1}{2}r^2\theta$, where $r$ is the radius and $\theta$ is the angle in radians.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

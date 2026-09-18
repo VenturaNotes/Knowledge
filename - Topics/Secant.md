@@ -22,6 +22,8 @@ aliases:
 	- $sec^2x = (secx)^2$
 ## Source[^7]
 - (secant line) (of a curve) A line that cuts a given curve, in two or more points.
+---
+- See trigonometric function
 ## References
 [^1]: [[(5) Trig - 0.5 Periodic and Even and Odd Function Properties#^ac0d98]]
 [^2]: [[(5) Trig - 0.5 Periodic and Even and Odd Function Properties#^71890a]]
