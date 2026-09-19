@@ -5,7 +5,10 @@
 - Emission and absorption spectra may show a continuous spectrum, a line spectrum, or a band spectrum. A continuous spectrum contains an unbroken sequence of frequencies over a relatively wide range; it is produced by incandescent solids, liquids, and compressed gases. Line spectra are discontinuous lines produced by excited atoms and ions as they fall back to a lower energy level. Band spectra (closely grouped bands of lines) are characteristic of molecular gases or chemical compounds. Absorption spectra of chlorophylls and other photosynthetic pigments are important in the study of photosynthesis. See ACTION SPECTRUM.
 ## Source[^2]
 - The range of possible frequencies that a particular (electrical) signal can have. For example, the audio spectrum is generally considered to extend from 20 hertz to 20 kilohertz, so a given audio signal will be found in this range, and a given instrument will have its own spectrum of frequencies or spectral response within this range.
+## Source[^3]
+- The spectrum of a square matrix $\mathbf{A}$ is the sets of its eigenvalues $\lambda$ or equally those $\lambda$ for which $\mathbf{A}-\lambda\mathbf{I}$ is not invertible. More generally, for a continuous (see CONTINUOUS FUNCTION) linear map $T:V\to V$ on a Banach space $V$, the spectrum, denoted $\sigma(T)$, is the set of values $\lambda \in \mathbb{C}$ such that $T-\lambda J$ has no continuous inverse. This will include any eigenvalues but may also include other values.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

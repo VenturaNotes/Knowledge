@@ -19,6 +19,8 @@
 - http://www.bipm.org/en/measurement-units/
 	- The SI Brochure, from the Bureau International des Poids et Mesures (BIPM)
 	- #comment Page isn't working
+## Source[^6]
+- The units used for measuring physical quantities in the internationally agreed system Système International d’Unités are known as SI units. There are seven base units and other supplementary units and prefixes (such as kilo-) to create further units. For further details, see APPENDIX 4.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -26,3 +28,4 @@
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

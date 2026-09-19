@@ -26,7 +26,11 @@ aliases:
 				- Bottom-right corner = 7
 					- `x2=1` (second row)
 					- `y2=2`  (third column)
+## Source[^3]
+- A submatrix of a matrix $\mathbf{A}$ is obtained from $\mathbf{A}$ by deleting from $\mathbf{A}$ some number of rows and some number of columns. For example, suppose that $\mathbf{A}$ is a $4 \times 4$ matrix and that $\mathbf{A} = [a_{ij}]$. Deleting the first and third rows and the second column gives the submatrix$$\begin{bmatrix} a_{21} & a_{23} & a_{24} \\ a_{41} & a_{43} & a_{44} \end{bmatrix}.$$
+- See DETERMINANTAL RANK.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/?envType=daily-question&envId=2026-04-21
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -131,7 +131,7 @@ export class AdjustTaskCountdownModal extends Modal {
         const newElapsed = Math.max(0, s.targetSegmentDuration - newRemaining);
         const diff = newElapsed - s.segmentTimeElapsed;
 
-        // If in "Target Finish Time" mode and the user rewound time (diff < 0),
+        // If in Hard Stop mode and the user rewound time (diff < 0),
         // treat that rewound time as unrecorded pause time!
         if (s.targetFinishTimestamp && diff < 0) {
             const rewindSeconds = Math.abs(diff);
@@ -368,14 +368,15 @@ export class ProjectModal extends Modal {
                 : 0;
             const totalPaused = (s.totalPausedSeconds || 0) + currentPause;
 
-            let methodBadge = "⏱️ Stint Target";
-            if (s.stintTargetMode === "endTime" || s.targetFinishTimestamp) {
+            const isHard = Boolean(s.targetFinishTimestamp || s.stintHardStop);
+            let methodBadge = "⏱️ Flexible Stint";
+            if (isHard) {
                 const finishStr = s.targetFinishTimestamp ? getFinishedTimeStr(s.targetFinishTimestamp, 0) : (s.stintTargetValueRaw || "");
-                methodBadge = `🎯 Target Finish Time (${finishStr})`;
-            } else if (s.stintTargetMode === "segments") {
-                methodBadge = `🔢 Segment Target (${baseGoal} Tasks)`;
+                methodBadge = `🛑 Hard Stop (${finishStr})`;
+            } else if (s.stintTargetType === "tasks") {
+                methodBadge = `🔢 ${baseGoal} Tasks Stint`;
             } else if (s.stintTargetValueRaw) {
-                methodBadge = `⏱️ Time Target (${s.stintTargetValueRaw})`;
+                methodBadge = `⏱️ Flexible (${s.stintTargetValueRaw})`;
             }
 
             stintCard.innerHTML = `

@@ -27,8 +27,10 @@ export interface PacingSessionState {
     earlyFinishBanked?: number;
     targetFinishTimestamp?: number;
 
-    // Pause Tracking & Stint Metadata
-    stintTargetMode?: "time" | "segments" | "endTime";
+    // Unified Target & Hard Stop Metadata
+    stintHardStop?: boolean;
+    stintTargetInputRaw?: string;
+    stintTargetType?: "tasks" | "duration" | "clockTime";
     stintTargetValueRaw?: string;
     totalPausedSeconds?: number;
     pausedAt?: number;
@@ -86,7 +88,9 @@ export function createBlankSession(): PacingSessionState {
         earlyFinishBanked: 0,
         targetFinishTimestamp: undefined,
 
-        stintTargetMode: "time",
+        stintHardStop: false,
+        stintTargetInputRaw: "3h",
+        stintTargetType: "duration",
         stintTargetValueRaw: "3h",
         totalPausedSeconds: 0,
         pausedAt: undefined,
@@ -136,6 +140,8 @@ export interface PacingTimerSettings {
     segmentedSegmentDurationRaw?: string;
     segmentedSegmentsRaw?: string;
     segmentedCountUp?: boolean;
+    segmentedTargetRaw?: string;
+    segmentedHardStop?: boolean;
     lastOpenProjectId?: string | null;
 
     // Named Projects / Sessions
@@ -159,6 +165,8 @@ export const DEFAULT_SETTINGS: PacingTimerSettings = {
     segmentedSegmentDurationRaw: "1m",
     segmentedSegmentsRaw: "10",
     segmentedCountUp: false,
+    segmentedTargetRaw: "3h",
+    segmentedHardStop: false,
     lastOpenProjectId: null,
 
     savedSessions: {}

@@ -59,8 +59,15 @@ print(get_subsets_recursive(my_set))
 
 ## Source[^3]
 - (of a set $S$) A set $T$ whose members are all members of $S$; this is usually expressed as$$T \subseteq S$$A subset $T$ is a proper subset of $S$ if there is some element in $S$ that is not in $T$; this is expressed as$$T \subset S$$
+## Source[^4]
+- The set $A$ is a subset of the set $B$ if every element of $A$ is an element of $B$. When this is so, $A$ is contained in $B$, written $A \subseteq B$, and $B$ contains $A$, written $B \supseteq A$. The following properties hold:
+	- (i) For all sets $A$, $\varnothing \subseteq A$ and $A \subseteq A$, where $\varnothing$ denotes the empty set.
+	- (ii) For all sets $A$ and $B$, $A = B$ if and only if $A \subseteq B$ and $B \subseteq A$.
+	- (iii) For all sets $A$, $B$ and $C$, if $A \subseteq B$ and $B \subseteq C$, then $A \subseteq C$.
+- See also ALGEBRA OF SETS, POWER SET, PROPER SUBSET.
 ## References
 
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis]]
 [^2]: [[(40) Proof - Subset is a Transitive Relation - Set Theory, Subsets, Transitivity]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

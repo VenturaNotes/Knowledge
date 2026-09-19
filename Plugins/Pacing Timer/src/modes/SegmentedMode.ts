@@ -17,36 +17,75 @@ import {
     AdjustTaskCountdownModal 
 } from "../ui/ProjectModal";
 
-function parseStintDurationInput(raw: string): number {
-    if (!raw) return 0;
-    if (/am|pm|a\.m\.|p\.m\./i.test(raw)) {
-        return parseEndTimeToSeconds(raw);
-    }
-    return parseDurationToSeconds(raw);
+export interface ParsedStintTarget {
+    type: "tasks" | "duration" | "clockTime";
+    tasks: number;
+    duration: number;
+    displayTarget: string;
 }
 
-// Handles both clock times (e.g. '3:30PM', '11:00') and durations (e.g. '30m', '1h', '45 mins')
-function parseEndTimeOrDuration(raw: string): number {
-    if (!raw) return 0;
-    const str = raw.trim().toLowerCase();
-    if (/\d+\s*(?:m|min|mins|minute|minutes|h|hr|hrs|hour|hours|s|sec|secs|second|seconds)\b/i.test(str)) {
-        return parseDurationToSeconds(str);
+// Smart parser: detects whether the user entered tasks ("15", "10 tasks"), duration ("3h", "45m"), or clock time ("3:30PM", "11:00")
+export function parseSmartStintTarget(input: string, pace: number, remTasks: number): ParsedStintTarget {
+    if (!input || !input.trim()) {
+        const dur = 10800;
+        const t = Math.max(1, Math.min(remTasks, Math.floor(dur / pace)));
+        return { type: "duration", tasks: t, duration: dur, displayTarget: "3h" };
     }
-    return parseEndTimeToSeconds(str);
+
+    const str = input.trim().toLowerCase();
+
+    const hasAmPm = /am|pm|a\.m\.|p\.m\./i.test(str);
+    const hasColon = str.includes(":");
+    // Robust duration regex: matches "3h", "30m", "1.5h", "45 mins" attached or detached from numbers
+    const isExplicitDuration = /\d+(?:\.\d+)?\s*(?:h|hr|hrs|hour|hours|m|min|mins|minute|minutes|s|sec|secs|second|seconds)(?!\w)/i.test(str);
+
+    // 1. Clock Time (e.g. "3:30pm", "11:00", "4pm")
+    if (hasAmPm || (hasColon && !isExplicitDuration)) {
+        const dur = parseEndTimeToSeconds(str);
+        const safeDur = Math.max(60, dur);
+        const t = Math.max(1, Math.min(remTasks, Math.floor(safeDur / pace)));
+        const finishStr = getFinishedTimeStr(Date.now(), safeDur);
+        return { type: "clockTime", tasks: t, duration: safeDur, displayTarget: finishStr };
+    }
+
+    // 2. Explicit Duration (e.g. "3h", "30m", "1h 30m", "45 mins")
+    if (isExplicitDuration) {
+        const dur = parseDurationToSeconds(str);
+        const safeDur = Math.max(60, dur);
+        const t = Math.max(1, Math.min(remTasks, Math.floor(safeDur / pace)));
+        return { type: "duration", tasks: t, duration: safeDur, displayTarget: formatHumanReadableDuration(safeDur) };
+    }
+
+    // 3. Plain Number or Task Label (e.g. "15", "20 tasks", "10 segments")
+    const taskMatch = str.match(/^\d+/);
+    if (taskMatch) {
+        const parsedTasks = parseInt(taskMatch[0], 10);
+        const safeTasks = Math.max(1, Math.min(remTasks, parsedTasks || 10));
+        const dur = safeTasks * pace;
+        return { type: "tasks", tasks: safeTasks, duration: dur, displayTarget: `${safeTasks} Tasks` };
+    }
+
+    // Fallback
+    const fallbackDur = parseDurationToSeconds(str) || 10800;
+    const safeDur = Math.max(60, fallbackDur);
+    const t = Math.max(1, Math.min(remTasks, Math.floor(safeDur / pace)));
+    return { type: "duration", tasks: t, duration: safeDur, displayTarget: formatHumanReadableDuration(safeDur) };
 }
 
 function getTargetMethodBadge(s: PacingSessionState): string {
-    if (s.stintTargetMode === "endTime" || s.targetFinishTimestamp) {
-        const finishStr = s.targetFinishTimestamp 
-            ? getFinishedTimeStr(s.targetFinishTimestamp, 0)
-            : (s.stintTargetValueRaw || "");
-        return `🎯 Target Finish Time (${finishStr})`;
+    const isHard = Boolean(s.targetFinishTimestamp || s.stintHardStop);
+    const finishStr = s.targetFinishTimestamp 
+        ? getFinishedTimeStr(s.targetFinishTimestamp, 0)
+        : (s.stintTargetValueRaw || "");
+
+    if (isHard) {
+        return `🛑 Hard Stop (${finishStr})`;
     }
-    if (s.stintTargetMode === "segments") {
-        return `🔢 Stint Segment Target (${s.stintInitialGoal || s.totalSegments} Tasks)`;
+    if (s.stintTargetType === "tasks") {
+        return `🔢 ${s.stintInitialGoal || s.totalSegments} Tasks Stint`;
     }
     const durStr = s.stintTargetValueRaw || formatHumanReadableDuration(s.defaultTotalTime || 10800);
-    return `⏱️ Stint Time Target (${durStr})`;
+    return `⏱️ Flexible (${durStr})`;
 }
 
 function getProjectPaceStats(session: PacingSessionState, plugin: PacingTimerPlugin) {
@@ -275,10 +314,8 @@ export const SegmentedMode: ModeHandler = {
             currentView = "dashboard";
         }
 
-        let stintTargetMode: "time" | "segments" | "endTime" = "time";
-        let stintDurationRaw = "3h";
-        let stintTasksRaw = "45";
-        let stintEndTimeRaw = getFinishedTimeStr(Date.now(), 10800);
+        let stintTargetRaw = plugin.settings.segmentedTargetRaw || "3h";
+        let hardStopEnabled = plugin.settings.segmentedHardStop ?? false;
         let previewEl: HTMLElement | null = null;
 
         const render = () => {
@@ -592,40 +629,20 @@ export const SegmentedMode: ModeHandler = {
                 container.createEl("h4", { text: "🚀 Launch Today's Stint", attr: { style: "margin: 6px 0 10px 0;" } });
 
                 new Setting(container)
-                    .setName("Target Method")
-                    .addDropdown(drop => drop
-                        .addOption("time", "Stint Time Target")
-                        .addOption("segments", "Stint Segment Target")
-                        .addOption("endTime", "Target Finish Time")
-                        .setValue(stintTargetMode)
-                        .onChange(v => {
-                            stintTargetMode = v as "time" | "segments" | "endTime";
-                            updateFormVisibility();
-                            updateStintPreview();
-                        })
-                    );
+                    .setName("Stint Target")
+                    .setDesc("Enter task count (e.g. '15', '20 tasks'), duration (e.g. '3h', '45m'), or clock finish time (e.g. '3:30PM').")
+                    .addText(t => t.setValue(stintTargetRaw).onChange(v => {
+                        stintTargetRaw = v;
+                        updateStintPreview();
+                    }));
 
-                const timeSetting = new Setting(container)
-                    .setName("Stint Time Target")
-                    .setDesc("How long do you want to work? (e.g. '3h', '45m', or clock time like '3:30PM').")
-                    .addText(t => t.setValue(stintDurationRaw).onChange(v => { stintDurationRaw = v; updateStintPreview(); }));
-
-                const segmentSetting = new Setting(container)
-                    .setName("Stint Segment Target")
-                    .setDesc("How many tasks do you want to complete in this stint? (e.g. '45', '10').")
-                    .addText(t => t.setValue(stintTasksRaw).onChange(v => { stintTasksRaw = v; updateStintPreview(); }));
-
-                const endTimeSetting = new Setting(container)
-                    .setName("Target Finish Time")
-                    .setDesc("Set a hard clock deadline or duration (e.g. '3:30PM', '11:00', or '30m', '1h').")
-                    .addText(t => t.setValue(stintEndTimeRaw).onChange(v => { stintEndTimeRaw = v; updateStintPreview(); }));
-
-                const updateFormVisibility = () => {
-                    timeSetting.settingEl.style.display = stintTargetMode === "time" ? "" : "none";
-                    segmentSetting.settingEl.style.display = stintTargetMode === "segments" ? "" : "none";
-                    endTimeSetting.settingEl.style.display = stintTargetMode === "endTime" ? "" : "none";
-                };
-                updateFormVisibility();
+                new Setting(container)
+                    .setName("Hard Stop Deadline")
+                    .setDesc("Strict cutoff. If enabled, the end time is locked and pause time reduces your achievable quota.")
+                    .addToggle(toggle => toggle.setValue(hardStopEnabled).onChange(v => {
+                        hardStopEnabled = v;
+                        updateStintPreview();
+                    }));
 
                 previewEl = container.createEl("p");
                 Object.assign(previewEl.style, { color: "var(--text-muted)", fontSize: "0.85em", margin: "8px 0" });
@@ -635,31 +652,14 @@ export const SegmentedMode: ModeHandler = {
                     const pace = Math.max(1, Math.round((project.benchmarkPace || 60) * 1.25));
                     const remTasks = Math.max(0, (project.totalProjectGoal || 100) - (project.totalProjectCompleted || 0));
 
-                    let duration = 0;
-                    let tasks = 0;
+                    const parsed = parseSmartStintTarget(stintTargetRaw, pace, remTasks);
+                    const finishStr = getFinishedTimeStr(Date.now(), parsed.duration);
 
-                    if (stintTargetMode === "segments") {
-                        const parsed = parseInt(stintTasksRaw, 10);
-                        tasks = parsed > 0 ? Math.min(remTasks, parsed) : Math.min(remTasks, 10);
-                        duration = tasks * pace;
-                    } else if (stintTargetMode === "endTime") {
-                        duration = parseEndTimeOrDuration(stintEndTimeRaw);
-                        tasks = Math.min(remTasks, Math.floor(duration / pace));
+                    if (hardStopEnabled) {
+                        previewEl.textContent = `🎯 Today's Stint: ~${parsed.tasks} tasks budgeted in ${formatHumanReadableDuration(parsed.duration)} • Hard stop at ${finishStr} (strict)`;
                     } else {
-                        duration = parseStintDurationInput(stintDurationRaw);
-                        if (duration <= 0 && !stintDurationRaw.trim()) {
-                            duration = 10800;
-                        }
-                        tasks = Math.min(remTasks, Math.floor(duration / pace));
+                        previewEl.textContent = `🎯 Today's Stint: ~${parsed.tasks} tasks budgeted in ${formatHumanReadableDuration(parsed.duration)} • Est. finish around ${finishStr} (flexible)`;
                     }
-
-                    if (duration <= 0) {
-                        previewEl.textContent = "🎯 Enter a valid time target (e.g. '3h', '3:30PM', '30m')...";
-                        return;
-                    }
-
-                    const finishStr = getFinishedTimeStr(Date.now(), duration);
-                    previewEl.textContent = `🎯 Today's Stint: ~${tasks} tasks budgeted in ${formatHumanReadableDuration(duration)} • Finish around ${finishStr}`;
                 };
                 updateStintPreview();
 
@@ -690,35 +690,16 @@ export const SegmentedMode: ModeHandler = {
                     const pace = Math.max(1, Math.round((project.benchmarkPace || 60) * 1.25));
                     const remTasks = Math.max(1, (project.totalProjectGoal || 100) - (project.totalProjectCompleted || 0));
 
-                    let duration = 0;
-                    let tasks = 0;
-
-                    if (stintTargetMode === "segments") {
-                        const parsed = parseInt(stintTasksRaw, 10);
-                        tasks = parsed > 0 ? Math.min(remTasks, parsed) : Math.min(remTasks, 10);
-                        duration = tasks * pace;
-                    } else if (stintTargetMode === "endTime") {
-                        duration = parseEndTimeOrDuration(stintEndTimeRaw);
-                        if (duration < 60) {
-                            plugin.showOverlay("⚠️ Please enter a future time or duration (e.g. '3:14PM', '30m')", false);
-                            return;
-                        }
-                        tasks = Math.min(remTasks, Math.floor(duration / pace));
-                    } else {
-                        duration = parseStintDurationInput(stintDurationRaw) || 10800;
-                        if (/am|pm|a\.m\.|p\.m\./i.test(stintDurationRaw) && duration < 60) {
-                            plugin.showOverlay("⚠️ Please enter a future time (e.g. '3:30PM')", false);
-                            return;
-                        }
-                        tasks = Math.min(remTasks, Math.floor(duration / pace));
-                    }
-
-                    tasks = Math.max(1, tasks);
-                    duration = Math.max(60, duration);
+                    const parsed = parseSmartStintTarget(stintTargetRaw, pace, remTasks);
+                    const duration = Math.max(60, parsed.duration);
+                    const tasks = Math.max(1, parsed.tasks);
 
                     plugin.stopSession();
 
-                    const targetFinishTimestamp = stintTargetMode === "endTime"
+                    plugin.settings.segmentedTargetRaw = stintTargetRaw;
+                    plugin.settings.segmentedHardStop = hardStopEnabled;
+
+                    const targetFinishTimestamp = hardStopEnabled
                         ? Date.now() + duration * 1000
                         : undefined;
 
@@ -745,10 +726,10 @@ export const SegmentedMode: ModeHandler = {
                         hardStopTotalSeconds: duration,
                         earlyFinishBanked: 0,
                         targetFinishTimestamp,
-                        stintTargetMode,
-                        stintTargetValueRaw: stintTargetMode === "endTime" 
-                            ? getFinishedTimeStr(Date.now(), duration) 
-                            : (stintTargetMode === "segments" ? stintTasksRaw : stintDurationRaw),
+                        stintHardStop: hardStopEnabled,
+                        stintTargetInputRaw: stintTargetRaw,
+                        stintTargetType: parsed.type,
+                        stintTargetValueRaw: parsed.displayTarget,
                         totalPausedSeconds: 0,
                         pausedAt: undefined,
                         pauseBufferSeconds: 0,
@@ -774,7 +755,8 @@ export const SegmentedMode: ModeHandler = {
                     plugin.startInterval();
                     await plugin.saveSettings();
 
-                    plugin.showOverlay(`🚀 Stint Launched: ${tasks} Tasks for "${project.name}"!`, true);
+                    const modeLabel = hardStopEnabled ? "Strict Deadline" : "Flexible";
+                    plugin.showOverlay(`🚀 Stint Launched: ${tasks} Tasks (${modeLabel})!`, true);
                     plugin.activeModal?.close();
                 };
             }
@@ -1020,7 +1002,7 @@ export const SegmentedMode: ModeHandler = {
             const completedToday = session.completedSegments;
             const baseGoal = session.stintInitialGoal || 5;
 
-            // In "Target Finish Time" mode: deduct tasks based strictly on time spent paused
+            // In "Hard Stop" mode: deduct tasks based strictly on time spent paused
             if (session.targetFinishTimestamp) {
                 if (!session.isRunning) {
                     if (!session.pausedAt) {

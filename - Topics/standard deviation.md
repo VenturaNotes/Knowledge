@@ -12,6 +12,9 @@
 ## Source[^5]
 - In statistics, a measure of the degree to which sample data is spread about the mean of that data. It is computed as the square root of the variance, which is the sum of the squares of the difference between each data-point and the average.$$\sigma = \sqrt {\sum_ {i = 1} ^ {n} \left(x _ {i} - \mu\right) ^ {2}}$$
 - Here $\mu$ is the mean, $n$ is the number of data items, $x_{i}$ is the $i$th data item, and $\sigma$ is the standard deviation.
+## Source[^6]
+- The positive square root of the variance, a commonly used measure of the dispersion of observations in a sample. For a normal distribution $N(\mu, \sigma^2)$, with mean $\mu$ and standard deviation $\sigma$, approximately $95\%$ of the distribution lies in the interval between $\mu-2\sigma$ and $\mu+2\sigma$.
+- The standard deviation of an estimator of a population parameter is the standard error.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
@@ -19,3 +22,4 @@
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
