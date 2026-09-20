@@ -111,7 +111,6 @@ export default class PacingTimerPlugin extends Plugin {
                     if (!checking) {
                         if (confirm(`Cancel active stint for "${this.session.projectName || 'this project'}"? Progress from this stint will not be banked.`)) {
                             this.stopSession();
-                            this.showOverlay("🚫 Stint Canceled", false);
                         }
                     }
                     return true;
@@ -261,8 +260,6 @@ export default class PacingTimerPlugin extends Plugin {
         this.stopSession();
         await this.saveSettings();
 
-        this.showOverlay(`💾 Stint Banked: +${doneToday} Tasks (${formatHumanReadableDuration(workTimeToday)} Invested)!`, true);
-        new ProjectModal(this.app, this, project).open();
         return true;
     }
 

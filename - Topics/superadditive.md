@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- Two angles that add up to two right angles. Each angle is the supplement of the other.
+- A function $f:\mathbb{R}\to\mathbb{R}$ is superadditive if $f(x+y) \ge f(x)+f(y)$ for all $x, y$.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

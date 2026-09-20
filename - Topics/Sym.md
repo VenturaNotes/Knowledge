@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- Two angles that add up to two right angles. Each angle is the supplement of the other.
+- $\text{Sym}(S)$ denotes the symmetric group of a set $S$.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

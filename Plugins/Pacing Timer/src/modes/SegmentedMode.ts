@@ -24,7 +24,6 @@ export interface ParsedStintTarget {
     displayTarget: string;
 }
 
-// Smart parser: detects whether the user entered tasks ("15", "10 tasks"), duration ("3h", "45m"), or clock time ("3:30PM", "11:00")
 export function parseSmartStintTarget(input: string, pace: number, remTasks: number): ParsedStintTarget {
     if (!input || !input.trim()) {
         const dur = 10800;
@@ -36,7 +35,6 @@ export function parseSmartStintTarget(input: string, pace: number, remTasks: num
 
     const hasAmPm = /am|pm|a\.m\.|p\.m\./i.test(str);
     const hasColon = str.includes(":");
-    // Robust duration regex: matches "3h", "30m", "1.5h", "45 mins" attached or detached from numbers
     const isExplicitDuration = /\d+(?:\.\d+)?\s*(?:h|hr|hrs|hour|hours|m|min|mins|minute|minutes|s|sec|secs|second|seconds)(?!\w)/i.test(str);
 
     // 1. Clock Time (e.g. "3:30pm", "11:00", "4pm")
@@ -74,18 +72,18 @@ export function parseSmartStintTarget(input: string, pace: number, remTasks: num
 
 function getTargetMethodBadge(s: PacingSessionState): string {
     const isHard = Boolean(s.targetFinishTimestamp || s.stintHardStop);
-    const finishStr = s.targetFinishTimestamp 
-        ? getFinishedTimeStr(s.targetFinishTimestamp, 0)
-        : (s.stintTargetValueRaw || "");
 
-    if (isHard) {
-        return `🛑 Hard Stop (${finishStr})`;
+    if (isHard && s.targetFinishTimestamp) {
+        const realTimeLeft = Math.max(0, Math.round((s.targetFinishTimestamp - Date.now()) / 1000));
+        const endTimeStr = getFinishedTimeStr(s.targetFinishTimestamp, 0);
+        return `🔴 ${formatHumanReadableDuration(realTimeLeft)} Left • ${endTimeStr}`;
     }
-    if (s.stintTargetType === "tasks") {
-        return `🔢 ${s.stintInitialGoal || s.totalSegments} Tasks Stint`;
-    }
-    const durStr = s.stintTargetValueRaw || formatHumanReadableDuration(s.defaultTotalTime || 10800);
-    return `⏱️ Flexible (${durStr})`;
+
+    // Flexible mode (Hard Stop OFF): tells real time left in budget + true end time
+    const totalBudget = s.hardStopTotalSeconds || s.defaultTotalTime || 10800;
+    const remainingBudget = Math.max(0, totalBudget - (s.globalTimeElapsed || 0));
+    const endTimeStr = getFinishedTimeStr(Date.now(), remainingBudget);
+    return `🟡 ${formatHumanReadableDuration(remainingBudget)} Left • ${endTimeStr}`;
 }
 
 function getProjectPaceStats(session: PacingSessionState, plugin: PacingTimerPlugin) {
@@ -554,7 +552,7 @@ export const SegmentedMode: ModeHandler = {
                         <span style="font-weight: 600; color: var(--text-accent);">⏱️ Active Stint Progress</span>
                         <span style="font-size: 0.8em; color: var(--text-muted); background: var(--background-secondary); border: 1px solid var(--background-modifier-border); padding: 1px 7px; border-radius: 10px;">${methodBadge}</span>
                     </div>
-                    <div><b>Today:</b> ${stintDone} / ${quota} Tasks • <b>Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}</div>
+                    <div><b>Today:</b> ${stintDone} / ${quota} Tasks • <b>Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Pacing:</b> ${formatTime(s.targetSegmentDuration)}</div>
                 `;
 
                 const btnRow = container.createDiv();
@@ -568,7 +566,6 @@ export const SegmentedMode: ModeHandler = {
                     if (confirm(`Cancel active stint for "${project.name}"? Progress from this stint will not be banked.`)) {
                         plugin.stopSession();
                         await plugin.saveSettings();
-                        plugin.showOverlay("🚫 Stint Canceled", false);
                         render();
                     }
                 };
@@ -755,8 +752,6 @@ export const SegmentedMode: ModeHandler = {
                     plugin.startInterval();
                     await plugin.saveSettings();
 
-                    const modeLabel = hardStopEnabled ? "Strict Deadline" : "Flexible";
-                    plugin.showOverlay(`🚀 Stint Launched: ${tasks} Tasks (${modeLabel})!`, true);
                     plugin.activeModal?.close();
                 };
             }

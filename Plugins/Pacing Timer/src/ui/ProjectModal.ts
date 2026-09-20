@@ -369,14 +369,17 @@ export class ProjectModal extends Modal {
             const totalPaused = (s.totalPausedSeconds || 0) + currentPause;
 
             const isHard = Boolean(s.targetFinishTimestamp || s.stintHardStop);
-            let methodBadge = "⏱️ Flexible Stint";
-            if (isHard) {
-                const finishStr = s.targetFinishTimestamp ? getFinishedTimeStr(s.targetFinishTimestamp, 0) : (s.stintTargetValueRaw || "");
-                methodBadge = `🛑 Hard Stop (${finishStr})`;
-            } else if (s.stintTargetType === "tasks") {
-                methodBadge = `🔢 ${baseGoal} Tasks Stint`;
-            } else if (s.stintTargetValueRaw) {
-                methodBadge = `⏱️ Flexible (${s.stintTargetValueRaw})`;
+            let methodBadge = "";
+
+            if (isHard && s.targetFinishTimestamp) {
+                const realTimeLeft = Math.max(0, Math.round((s.targetFinishTimestamp - Date.now()) / 1000));
+                const finishStr = getFinishedTimeStr(s.targetFinishTimestamp, 0);
+                methodBadge = `🔴 ${formatHumanReadableDuration(realTimeLeft)} Left • ${finishStr}`;
+            } else {
+                const totalBudget = s.hardStopTotalSeconds || s.defaultTotalTime || 10800;
+                const remainingBudget = Math.max(0, totalBudget - (s.globalTimeElapsed || 0));
+                const finishStr = getFinishedTimeStr(Date.now(), remainingBudget);
+                methodBadge = `🟡 ${formatHumanReadableDuration(remainingBudget)} Left • ${finishStr}`;
             }
 
             stintCard.innerHTML = `
@@ -385,7 +388,7 @@ export class ProjectModal extends Modal {
                     <span style="font-size: 0.8em; color: var(--text-muted); background: var(--background-secondary); border: 1px solid var(--background-modifier-border); padding: 2px 8px; border-radius: 12px;">${methodBadge}</span>
                 </div>
                 <div><b>Today's Work:</b> ${stintDone} / ${quota} Tasks <span style="color: ${goalMet ? "#eab308" : "var(--text-muted)"}; font-weight: ${goalMet ? "bold" : "normal"};">(${goalTag})</span><br>
-                <b>Time Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Active Timer:</b> ${formatTime(s.targetSegmentDuration)}</div>
+                <b>Time Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Pacing:</b> ${formatTime(s.targetSegmentDuration)}</div>
             `;
 
             const btnRow = contentEl.createDiv();
@@ -399,7 +402,6 @@ export class ProjectModal extends Modal {
                 if (confirm(`Cancel active stint for "${this.project.name}"? Progress from this stint will not be banked.`)) {
                     this.plugin.stopSession();
                     await this.plugin.saveSettings();
-                    this.plugin.showOverlay("🚫 Stint Canceled", false);
                     this.render();
                 }
             };

@@ -1,5 +1,25 @@
 ## Synthesis
-
+### How Downloads are Tracked
+* GitHub Releases
+	- Downloads of each file are tracked when attached to a release, (e.g., an `.exe`, `.dmg`, `.deb`, or custom `.zip` built by your CI/CD)
+		* [ ] What is a `.deb?`
+		- [ ] What does a custom `.zip` look like? And what would a `CI/CD` look like?
+		- [ ] What exactly is a GitHub release?
+		- This information is not always displayed on the web interface, but is available through
+			- **GitHub REST API** (`api.github.com/repos/{owner}/{repo}/releases` under the `download_count` field) 
+			- Through third-party tools like 
+				- *GitHub Release Stats*
+				- Shields.io badge
+				- [ ] What do these 3rd-party tools look like?
+	- Downloads of auto-generated source code archives by GitHub  (such as "Source code (.zip)" or "Soruce code (.tar.gz)" for every tag/release are not tracked
+- Regular repository downloads (Code $\to$ Download ZIP)
+	- No public or cumulative count exists
+- Repository clones (`git clone`)
+	- Partially tracked, but private and temporary:
+		- Within **Insights -> Traffic**, you can see the number of **Git clones** and unique cloners. 
+		- It is **private** (the public cannot see it).
+		- It only stores data for the **last 14 days** (there is no all-time counter unless you scrape and record it yourself).
+			- [ ] By scraping, does this mean you can scrape history of non-visualized data that GitHub holds or would you need to set a point of recording so that you just keep track of it over time on your own?
 ### Contribution Graph Caching & Force-Push "Ghost Commits"
 - When Git history is rewritten (using `git filter-branch`, `git rebase -i`, or `git-filter-repo`), Git creates **brand-new cryptographic commit hashes (SHAs)** for every rewritten commit rather than modifying them in place.
 - If you force-push history multiple times (e.g. 3 rewrite passes):

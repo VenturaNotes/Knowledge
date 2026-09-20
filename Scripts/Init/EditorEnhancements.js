@@ -1,7 +1,8 @@
 /**
  * Unified Editor Enhancements:
  * 1. Task Auto-Date: Automatically appends/removes completion dates and file links when toggling task checkboxes.
- * 2. Visual Nesting Tracker: Displays real-time depth & bracket paths ([1] ... [/1]) for the active cursor line.
+ * 2. Visual Nesting Tracker: Displays real-time format `(total): [1] -> [2]` when inside a block,
+ *    or `(total)` when cursor is outside. Uses consistent styling across all nesting depths.
  */
 module.exports = function(context) {
     const { app } = context;
@@ -53,9 +54,8 @@ module.exports = function(context) {
                 color: 'var(--text-muted)',
                 display: 'none',
                 alignItems: 'center',
-                boxShadow: '0 4px 10px rgba(0,0,0,0.15)',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
                 pointerEvents: 'none',
-                transition: 'border-color 0.2s ease, box-shadow 0.2s ease',
                 userSelect: 'none'
             });
 
@@ -199,6 +199,17 @@ module.exports = function(context) {
                 }
             }
 
+            const totalTrackers = detectedBlocks.length;
+
+            // 1. Hide if no nesting tags exist in the entire document
+            if (totalTrackers === 0) {
+                this.pill.style.display = 'none';
+                return;
+            }
+
+            // 2. Show pill
+            this.pill.style.display = 'flex';
+
             const activeBlocksAtCursor = detectedBlocks.filter(block => {
                 const start = block.startLine;
                 const end = block.endLine !== null ? block.endLine : doc.lines;
@@ -209,23 +220,17 @@ module.exports = function(context) {
             const depth = activeBlocksAtCursor.length;
 
             if (depth > 0) {
-                this.pill.style.display = 'flex';
-                const path = activeBlocksAtCursor.map(b => `[${b.id}]`).join(" ➔ ");
-                this.pill.innerHTML = `<span style="margin-right: 6px;">Depth ${depth}:</span> <strong style="color: var(--text-normal);">${path}</strong>`;
-
-                if (depth === 1) {
-                    this.pill.style.borderColor = 'var(--border-color)';
-                    this.pill.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
-                } else if (depth === 2) {
-                    this.pill.style.borderColor = 'var(--interactive-accent)';
-                    this.pill.style.boxShadow = '0 2px 10px rgba(0,0,0,0.15), 0 0 6px var(--interactive-accent)';
-                } else {
-                    this.pill.style.borderColor = 'var(--text-error)';
-                    this.pill.style.boxShadow = '0 2px 10px rgba(0,0,0,0.15), 0 0 6px var(--text-error)';
-                }
+                // Inside an active nesting level: e.g. (5): [1] -> [2]
+                const path = activeBlocksAtCursor.map(b => `[${b.id}]`).join(" -> ");
+                this.pill.innerHTML = `<span style="margin-right: 6px; color: var(--text-muted);">(${totalTrackers}):</span> <strong style="color: var(--text-normal);">${path}</strong>`;
             } else {
-                this.pill.style.display = 'none';
+                // Outside any block, but trackers exist in document: e.g. (5)
+                this.pill.innerHTML = `<strong style="color: var(--text-muted);">(${totalTrackers})</strong>`;
             }
+
+            // Keep appearance identical regardless of depth
+            this.pill.style.borderColor = 'var(--border-color)';
+            this.pill.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
         }
     });
 
