@@ -62,16 +62,6 @@ export default class PacingTimerPlugin extends Plugin {
             }
         }});
 
-        // Project Library shortcut directly opens Setup modal on Classic Pacing
-        this.addCommand({
-            id: 'pacing-timer-project-library',
-            name: 'Open Project Library (Classic Pacing)',
-            callback: () => {
-                this.settings.cache.selectedMode = "segmented";
-                this.handleCommandTrigger();
-            }
-        });
-
         // Open Active Project Dashboard during a stint
         this.addCommand({
             id: 'pacing-timer-active-project',

@@ -18,7 +18,7 @@ export function parseEndTimeToSeconds(input: string, now: Date = new Date()): nu
 
     const isPm = /pm|p\.m\./i.test(str);
     const isAm = /am|a\.m\./i.test(str);
-    const clean = str.replace(/am|pm|a\.m\./ig, '').trim();
+    const clean = str.replace(/am|pm|a\.m\.|p\.m\./ig, '').trim();
 
     let hours = 0;
     let minutes = 0;
@@ -131,25 +131,59 @@ export class AdjustTaskCountdownModal extends Modal {
         const newElapsed = Math.max(0, s.targetSegmentDuration - newRemaining);
         const diff = newElapsed - s.segmentTimeElapsed;
 
-        // If in Hard Stop mode and the user rewound time (diff < 0),
-        // treat that rewound time as unrecorded pause time!
-        if (s.targetFinishTimestamp && diff < 0) {
-            const rewindSeconds = Math.abs(diff);
-            s.totalPausedSeconds = (s.totalPausedSeconds || 0) + rewindSeconds;
-            const totalAccumulatedPause = (s.pauseBufferSeconds || 0) + rewindSeconds;
-            const lostTasks = Math.floor(totalAccumulatedPause / s.targetSegmentDuration);
+        // Hard Stop Mode: Synchronize Countdown Adjustments with Pause Time
+        if (s.targetFinishTimestamp) {
+            if (diff < 0) {
+                // 1. REWIND: User forgot to pause (timer ran, but user was away)
+                const rewindSeconds = Math.abs(diff);
+                s.totalPausedSeconds = (s.totalPausedSeconds || 0) + rewindSeconds;
+                const totalAccumulatedPause = (s.pauseBufferSeconds || 0) + rewindSeconds;
+                const lostTasks = Math.floor(totalAccumulatedPause / s.targetSegmentDuration);
 
-            if (lostTasks > 0) {
-                const baseGoal = s.stintInitialGoal || 5;
-                const activeQuota = s.currentQuota || baseGoal;
-                s.currentQuota = Math.max(s.completedSegments, activeQuota - lostTasks);
+                if (lostTasks > 0) {
+                    const baseGoal = s.stintInitialGoal || 5;
+                    const activeQuota = s.currentQuota || baseGoal;
+                    s.currentQuota = Math.max(s.completedSegments, activeQuota - lostTasks);
 
-                if (s.quotaAtPauseStart) {
-                    s.quotaAtPauseStart = Math.max(s.completedSegments, s.quotaAtPauseStart - lostTasks);
+                    if (s.quotaAtPauseStart) {
+                        s.quotaAtPauseStart = Math.max(s.completedSegments, s.quotaAtPauseStart - lostTasks);
+                    }
+                }
+
+                s.pauseBufferSeconds = totalAccumulatedPause % s.targetSegmentDuration;
+
+            } else if (diff > 0) {
+                // 2. FAST-FORWARD: User forgot to unpause (timer was paused, but user was working)
+                const forwardSeconds = diff;
+                const prevPaused = s.totalPausedSeconds || 0;
+                // Reclaim only up to the pause time that actually exists (clamped at 0)
+                const reclaimSeconds = Math.min(prevPaused, forwardSeconds);
+
+                if (reclaimSeconds > 0) {
+                    s.totalPausedSeconds = prevPaused - reclaimSeconds;
+
+                    let buffer = (s.pauseBufferSeconds || 0) - reclaimSeconds;
+                    let refundedTasks = 0;
+
+                    // If subtracting reclaimed pause time crosses back below a task threshold, refund the task
+                    while (buffer < 0) {
+                        buffer += s.targetSegmentDuration;
+                        refundedTasks++;
+                    }
+
+                    if (refundedTasks > 0) {
+                        const maxAllowed = s.maxTargetSegments || s.totalSegments || 100;
+                        const baseGoal = s.stintInitialGoal || 5;
+                        s.currentQuota = Math.min(maxAllowed, (s.currentQuota || baseGoal) + refundedTasks);
+
+                        if (s.quotaAtPauseStart) {
+                            s.quotaAtPauseStart = Math.min(maxAllowed, s.quotaAtPauseStart + refundedTasks);
+                        }
+                    }
+
+                    s.pauseBufferSeconds = buffer;
                 }
             }
-
-            s.pauseBufferSeconds = totalAccumulatedPause % s.targetSegmentDuration;
         }
 
         s.segmentTimeElapsed = newElapsed;

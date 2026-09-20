@@ -1,4 +1,5 @@
-import { App, ItemView, Notice, TFile } from "obsidian";
+import { App, MarkdownView, TFile } from "obsidian";
+import { EditorView } from "@codemirror/view";
 import ProgressPlannerPlugin from "../main";
 import { AgendaItem } from "../types";
 
@@ -17,7 +18,7 @@ export class TaskNotifier {
     public start(): void {
         if (this.intervalId !== null) return;
 
-        // Request Web Notification permission if necessary
+        // Request notification permissions
         if ("Notification" in window && Notification.permission !== "granted" && Notification.permission !== "denied") {
             Notification.requestPermission();
         }
@@ -45,7 +46,7 @@ export class TaskNotifier {
         const now = moment();
         const todayStr = now.format("YYYY-MM-DD");
 
-        // Reset notified tasks set when the day changes to keep memory clean
+        // Reset notified tasks when the day rolls over
         if (this.lastCheckedDate !== todayStr) {
             this.notifiedKeys.clear();
             this.lastCheckedDate = todayStr;
@@ -54,25 +55,22 @@ export class TaskNotifier {
         const allItems: AgendaItem[] = this.plugin.taskCache.getAgendaItems();
 
         for (const item of allItems) {
-            // Must have an explicit time and not already be marked completed
+            // Must have an explicit time and not already be completed
             if (!item.time || item.status !== " ") continue;
 
             const isToday = item.date === todayStr || this.isOccurringOn(item.rrule, now);
             if (!isToday) continue;
 
-            // Check if specific instance was completed (for recurring tasks)
             if (Array.isArray(item.completeInstances) && item.completeInstances.includes(todayStr)) {
                 continue;
             }
 
-            // Parse full scheduled moment (e.g., "2026-09-18 3:45PM")
             const taskMoment = moment(`${todayStr} ${item.time}`, "YYYY-MM-DD h:mmA");
             if (!taskMoment.isValid()) continue;
 
-            // Calculate difference in minutes from current time
             const diffMinutes = now.diff(taskMoment, "minutes", true);
 
-            // Trigger window: Scheduled time has arrived (>= 0 min) and is within the last 5 minutes
+            // 5-minute grace period
             const isDueNow = diffMinutes >= 0 && diffMinutes < 5;
 
             const taskKey = `${item.path}::${item.line}::${todayStr}::${item.time}`;
@@ -88,70 +86,170 @@ export class TaskNotifier {
         const title = "⏰ Task Reminder";
         const message = `${item.text} (${item.time})`;
 
-        // 1. In-app Notice
-        new Notice(`⏰ ${item.text}`, 7000);
-
-        // 2. System-level notification
+        // System notification only
         this.sendSystemNotification(title, message, item);
     }
 
     private sendSystemNotification(title: string, message: string, item: AgendaItem): void {
+        const isMac = typeof process !== "undefined" && process.platform === "darwin";
+
+        // Play macOS "Ping" sound in background
+        if (isMac) {
+            try {
+                const req = (window as any).require;
+                if (req) {
+                    const cp = req("child_process");
+                    if (cp) {
+                        cp.exec("afplay /System/Library/Sounds/Ping.aiff");
+                    }
+                }
+            } catch (e) {}
+        }
+
         let sent = false;
 
-        // Tier 1: AppleScript notification with Ping sound (macOS across all Spaces)
+        // Tier 1: Electron Native Notification (attributed to Obsidian)
         try {
             const req = (window as any).require;
-            if (req) {
+            const electron = req ? req("electron") : null;
+            const remote = electron ? (electron.remote || electron.main) : null;
+            if (remote && remote.Notification && remote.Notification.isSupported()) {
+                const notif = new remote.Notification({
+                    title,
+                    body: message,
+                    silent: isMac
+                });
+                notif.on("click", () => {
+                    this.bringObsidianToFront();
+                    this.openTaskInEditor(item);
+                });
+                notif.show();
+                sent = true;
+            }
+        } catch (e) {}
+
+        // Tier 2: HTML5 Notification (attributed to Obsidian)
+        if (!sent && "Notification" in window) {
+            const showWebNotification = () => {
+                const notif = new Notification(title, {
+                    body: message,
+                    silent: isMac
+                });
+                notif.onclick = () => {
+                    this.bringObsidianToFront();
+                    this.openTaskInEditor(item);
+                };
+            };
+
+            if (Notification.permission === "granted") {
+                showWebNotification();
+            } else if (Notification.permission !== "denied") {
+                Notification.requestPermission().then(perm => {
+                    if (perm === "granted") showWebNotification();
+                });
+            }
+        }
+    }
+
+    private bringObsidianToFront(): void {
+        // Switch macOS Spaces and focus Obsidian
+        try {
+            const req = (window as any).require;
+            if (req && process.platform === "darwin") {
                 const cp = req("child_process");
-                if (cp && process.platform === "darwin") {
-                    const script = `display notification ${JSON.stringify(message)} with title ${JSON.stringify(title)} sound name "Ping"`;
-                    cp.exec(`osascript -e ${JSON.stringify(script)}`);
-                    sent = true;
+                if (cp) {
+                    cp.exec('osascript -e "tell application \\"Obsidian\\" to activate"');
                 }
             }
         } catch (e) {}
 
-        // Tier 2: Electron Native Notification (supports click-to-open)
-        if (!sent) {
-            try {
-                const req = (window as any).require;
-                const electron = req ? req("electron") : null;
-                const remote = electron ? (electron.remote || electron.main) : null;
-                if (remote && remote.Notification && remote.Notification.isSupported()) {
-                    const notif = new remote.Notification({ title, body: message, silent: false });
-                    notif.on("click", () => {
-                        this.openTaskInEditor(item);
-                    });
-                    notif.show();
-                    sent = true;
-                }
-            } catch (e) {}
-        }
+        // Restore window if minimized and bring to front
+        try {
+            const req = (window as any).require;
+            const electron = req ? req("electron") : null;
+            const remote = electron ? (electron.remote || electron.main) : null;
+            const win = remote ? remote.getCurrentWindow() : null;
+            if (win) {
+                if (win.isMinimized()) win.restore();
+                win.focus();
+            }
+        } catch (e) {}
 
-        // Tier 3: HTML5 Web Notification fallback
-        if (!sent && "Notification" in window && Notification.permission === "granted") {
-            try {
-                const notif = new Notification(title, { body: message });
-                notif.onclick = () => {
-                    window.focus();
-                    this.openTaskInEditor(item);
-                };
-            } catch (e) {}
-        }
+        window.focus();
     }
 
-    private openTaskInEditor(item: AgendaItem): void {
+    private async openTaskInEditor(item: AgendaItem): Promise<void> {
         const file = this.app.vault.getAbstractFileByPath(item.path);
         if (!file || !(file instanceof TFile)) return;
 
-        this.app.workspace.getLeaf(false).openFile(file).then(() => {
-            const view = this.app.workspace.getActiveViewOfType(ItemView);
-            const ed = (view as any)?.editor;
-            if (ed && item.line >= 0) {
-                ed.setCursor({ line: item.line, ch: 0 });
-                ed.scrollIntoView({ from: { line: item.line, ch: 0 }, to: { line: item.line, ch: 0 } }, true);
+        // 1. Open in a new tab in the active pane
+        const leaf = this.app.workspace.getLeaf("tab");
+        await leaf.openFile(file);
+        this.app.workspace.setActiveLeaf(leaf, { focus: true });
+
+        // 2. Wait 120ms for setActiveLeaf side-effects and split-pane layout to settle
+        window.setTimeout(() => {
+            const view = leaf.view instanceof MarkdownView 
+                ? leaf.view 
+                : this.app.workspace.getActiveViewOfType(MarkdownView);
+            
+            if (!view || !view.editor) return;
+            const editor = view.editor;
+
+            // Resolve target line (dynamic scan fallback)
+            let targetLine = item.line;
+            if (targetLine < 0 || targetLine >= editor.lineCount() || !editor.getLine(targetLine).includes(item.text)) {
+                for (let i = 0; i < editor.lineCount(); i++) {
+                    const lineStr = editor.getLine(i);
+                    if (lineStr.includes(item.text) && (item.time ? lineStr.includes(item.time) : true)) {
+                        targetLine = i;
+                        break;
+                    }
+                }
             }
-        });
+
+            const lineContent = editor.getLine(targetLine) ?? "";
+            const lineLength = lineContent.length;
+            const startOffset = editor.posToOffset({ line: targetLine, ch: 0 });
+
+            // 3. Highlight line selection (ScopedSearch pattern)
+            editor.setCursor({ line: targetLine, ch: 0 });
+            editor.setSelection(
+                { line: targetLine, ch: 0 },
+                { line: targetLine, ch: lineLength }
+            );
+
+            const cm = (editor as any).cm as EditorView | undefined;
+            if (cm) {
+                // Focus CodeMirror WITHOUT triggering the browser's default focus-scroll
+                if (cm.contentDOM) {
+                    cm.contentDOM.focus({ preventScroll: true });
+                }
+
+                // CodeMirror 6 center-scroll effect
+                cm.dispatch({
+                    selection: { anchor: startOffset, head: startOffset + lineLength },
+                    effects: EditorView.scrollIntoView(startOffset, { y: "center" })
+                });
+
+                // Directly calculate the exact centered scrollTop on the pane's scroller
+                try {
+                    const block = cm.lineBlockAt(startOffset);
+                    const paneHeight = cm.scrollDOM.clientHeight;
+                    if (block && paneHeight > 0) {
+                        const targetTop = Math.max(0, block.top - (paneHeight / 2) + (block.height / 2));
+                        cm.scrollDOM.scrollTop = targetTop;
+                    }
+                } catch (e) {}
+
+                cm.requestMeasure();
+            } else {
+                editor.scrollIntoView(
+                    { from: { line: targetLine, ch: 0 }, to: { line: targetLine, ch: lineLength } },
+                    true
+                );
+            }
+        }, 120);
     }
 
     private isOccurringOn(rrule: string | null, dateMoment: any): boolean {
