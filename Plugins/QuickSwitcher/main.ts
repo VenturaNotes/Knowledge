@@ -10,7 +10,9 @@ import {
     parseFrontMatterAliases,
     setIcon,
     AbstractInputSuggest,
-    Notice
+    Notice,
+    normalizePath,
+    WorkspaceLeaf
 } from 'obsidian';
 
 interface PrefixRule {
@@ -19,6 +21,7 @@ interface PrefixRule {
     mode: 'include' | 'exclude';     // 'include' = only search in; 'exclude' = search all except
     folders: string[];               // selected folders
     excludedExtensions: string[];    // e.g. ["png", "jpg", "canvas"]
+    destinationFolder?: string;      // Target folder for notes created with this prefix
 }
 
 interface LeanSwitcherSettings {
@@ -50,6 +53,11 @@ interface HeadingItem {
     matchIndex?: number;
     totalMatches?: number;
     tokens: string[];
+}
+
+interface FolderSuggestion {
+    path: string;
+    isNew: boolean;
 }
 
 // --- Text Match Highlighting Helper ---
@@ -150,6 +158,62 @@ class FolderSuggest extends AbstractInputSuggest<string> {
     }
 }
 
+// --- Folder Picker Modal (When no folder is set in rule) ---
+class FolderPickerModal extends SuggestModal<FolderSuggestion> {
+    private noteTitle: string;
+    private plugin: LeanSwitcherPlugin;
+
+    constructor(app: App, plugin: LeanSwitcherPlugin, noteTitle: string) {
+        super(app);
+        this.plugin = plugin;
+        this.noteTitle = noteTitle;
+        this.setPlaceholder("Select folder (or type to create a new folder)...");
+    }
+
+    getSuggestions(query: string): FolderSuggestion[] {
+        const queryTrimmed = query.trim();
+        const queryLower = queryTrimmed.toLowerCase();
+        const folders: string[] = [];
+
+        const walk = (folder: TFolder) => {
+            for (const child of folder.children) {
+                if (child instanceof TFolder) {
+                    folders.push(child.path);
+                    walk(child);
+                }
+            }
+        };
+        walk(this.app.vault.getRoot());
+        folders.sort((a, b) => a.localeCompare(b));
+
+        const results: FolderSuggestion[] = folders
+            .filter(f => f.toLowerCase().includes(queryLower))
+            .map(f => ({ path: f, isNew: false }));
+
+        if (queryTrimmed.length > 0 && !folders.some(f => f.toLowerCase() === queryLower)) {
+            results.unshift({ path: queryTrimmed, isNew: true });
+        }
+
+        return results;
+    }
+
+    renderSuggestion(item: FolderSuggestion, el: HTMLElement): void {
+        el.empty();
+        if (item.isNew) {
+            el.createDiv({ 
+                text: `+ Create folder: "${item.path}"`,
+                attr: { style: 'color: var(--interactive-accent); font-weight: 600;' }
+            });
+        } else {
+            el.createDiv({ text: item.path });
+        }
+    }
+
+    async onChooseSuggestion(item: FolderSuggestion): Promise<void> {
+        await this.plugin.createAndOpenNote(item.path, this.noteTitle);
+    }
+}
+
 // --- 1. File Quick Switcher Modal (File Search) ---
 class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
     plugin: LeanSwitcherPlugin;
@@ -163,33 +227,74 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         this.plugin = plugin;
         this.setPlaceholder("");
 
-        // In-memory recent files list provided by Obsidian (zero disk writes)
         this.recentPathsMap = new Map<string, number>();
         const recentPaths = this.app.workspace.getLastOpenFiles();
         recentPaths.forEach((path, idx) => this.recentPathsMap.set(path, idx));
 
-        // Register Command + Enter (or Ctrl + Enter) to open in a new tab
+        // Mod + Enter: Open highlighted file in adjacent tab to the right
         this.scope.register(['Mod'], 'Enter', (evt: KeyboardEvent) => {
             evt.preventDefault();
             const chooser = (this as any).chooser;
-            if (chooser && typeof chooser.useSelectedItem === 'function') {
-                chooser.useSelectedItem(evt);
+            const selected = chooser?.values?.[chooser?.selectedItem] as SwitcherItem | undefined;
+            if (selected) {
+                this.close();
+                this.plugin.openInAdjacentTab(selected.file);
             }
             return false;
         });
+
+        // Mod + Shift + Enter: Create new note in adjacent tab to the right
+        this.scope.register(['Mod', 'Shift'], 'Enter', (evt: KeyboardEvent) => {
+            evt.preventDefault();
+            this.handleCreateNote();
+            return false;
+        });
+    }
+
+    private handleCreateNote(): void {
+        const rawInput = this.inputEl.value.trim();
+        if (!rawInput) {
+            new Notice("Type a note name before creating.");
+            return;
+        }
+
+        const { rule } = this.resolvePrefixRule(rawInput.toLowerCase());
+
+        // Extract title while preserving user's original casing
+        let noteTitle = rawInput;
+        if (rule && rule.prefix.trim().length > 0) {
+            const p = rule.prefix.trim();
+            if (rawInput.toLowerCase().startsWith(p.toLowerCase())) {
+                noteTitle = rawInput.slice(p.length).trim();
+            }
+        }
+
+        if (!noteTitle) {
+            new Notice("Note title cannot be empty.");
+            return;
+        }
+
+        this.close();
+
+        const targetFolder = rule?.destinationFolder?.trim();
+        if (targetFolder && targetFolder.length > 0) {
+            // Folder specified in rule -> create directly
+            this.plugin.createAndOpenNote(targetFolder, noteTitle);
+        } else {
+            // No folder specified -> prompt with folder picker
+            new FolderPickerModal(this.app, this.plugin, noteTitle).open();
+        }
     }
 
     onOpen() {
         super.onOpen();
         this.modalEl.addClass('lean-switcher-modal');
 
-        // Hide native close/clear buttons that overlay our header
         const closeBtn = this.modalEl.querySelector('.modal-close-button');
         if (closeBtn) {
             (closeBtn as HTMLElement).style.display = 'none';
         }
 
-        // Inject custom top-right info header (Search Name + Count Badge)
         const container = this.inputEl.parentElement;
         if (container) {
             container.addClass('lean-switcher-input-container');
@@ -203,7 +308,6 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
 
             this.headerCountBadgeEl = infoBox.createDiv({ cls: 'lean-switcher-count-badge', text: '0 / 0' });
 
-            // Immediately calculate and show custom name and counts on open
             this.updateHeaderInfo(this.inputEl.value);
         }
     }
@@ -212,7 +316,6 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         const raw = query.trim().toLowerCase();
         const { rule: activeRule } = this.resolvePrefixRule(raw);
 
-        // Resolve custom search name (including blank prefix rules)
         const searchName = (activeRule && activeRule.name && activeRule.name.trim().length > 0)
             ? activeRule.name.trim()
             : 'File Search';
@@ -329,7 +432,7 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             return results;
         }
 
-        // 2. SEARCH QUERY MATCHING
+        // 2. SEARCH QUERY MATCHING (Multi-token substring matching)
         const firstToken = tokens[0] ?? '';
         const results: SwitcherItem[] = [];
 
@@ -368,21 +471,18 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
 
             let score = 0;
 
-            // --- STRICT TIER SYSTEM ---
             if (isDirectMatch) {
-                score += 0; // Tier 1 base
+                score += 0;
             } else {
-                score += 100000; // Tier 2 base (Path-only will NEVER beat a Tier 1 match)
+                score += 100000;
             }
 
-            // Recency sub-rank
             const isRecent = this.recentPathsMap.has(file.path);
             const recentIndex = this.recentPathsMap.get(file.path) ?? 999999;
             if (isRecent) {
                 score -= Math.max(0, 25000 - recentIndex * 250);
             }
 
-            // Exact & Substring Relevance
             const targetText = isAliasMatch && matchedAlias ? matchedAlias : file.basename;
             const targetLower = targetText.toLowerCase();
 
@@ -441,24 +541,20 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         const parentPath = item.file.parent ? item.file.parent.path : '';
         const displayPath = parentPath === '/' || parentPath === '' ? 'Vault Root' : parentPath;
 
-        // Row 1: Filename ALWAYS on top (bold title)
         const titleRow = el.createDiv({ cls: 'suggestion-title-row' });
         const titleText = titleRow.createSpan({ cls: 'suggestion-title-text' });
         renderHighlightedText(titleText, item.file.basename, item.tokens);
 
-        // Extension pill badge for non-markdown files (including .mdenc)
         const ext = item.file.extension ? item.file.extension.toLowerCase() : '';
         if (ext && ext !== 'md') {
             titleRow.createSpan({ text: ext, cls: 'suggestion-ext-badge' });
         }
 
-        // Row 2: [Folder Icon] Folder Path
         const pathRow = el.createDiv({ cls: 'suggestion-sub-row' });
         const folderIconEl = pathRow.createSpan({ cls: 'suggestion-inline-icon' });
         setIcon(folderIconEl, 'folder');
         pathRow.createSpan({ text: displayPath, cls: 'suggestion-sub-text' });
 
-        // Row 3: [Arrow Icon] Matched Alias (if file has an alias)
         const aliasToDisplay = item.matchedAlias || (item.allAliases.length > 0 ? item.allAliases[0] : null);
         if (aliasToDisplay) {
             const aliasRow = el.createDiv({ cls: 'suggestion-sub-row' });
@@ -470,13 +566,17 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
     }
 
     onChooseSuggestion(item: SwitcherItem, evt: MouseEvent | KeyboardEvent): void {
-        const isNewTab = Boolean(evt && (evt.metaKey || evt.ctrlKey));
-        const leaf = this.app.workspace.getLeaf(isNewTab ? 'tab' : false);
-        leaf.openFile(item.file);
+        const isMod = Boolean(evt && (evt.metaKey || evt.ctrlKey));
+        if (isMod) {
+            this.plugin.openInAdjacentTab(item.file);
+        } else {
+            const leaf = this.app.workspace.getLeaf(false);
+            leaf.openFile(item.file);
+        }
     }
 }
 
-// --- 2. Heading Switcher Modal (Reliable 1/3 Screen Height Positioning & Encrypted Fallback) ---
+// --- 2. Heading Switcher Modal ---
 class LeanHeadingModal extends SuggestModal<HeadingItem> {
     private activeView: MarkdownView;
     private fileHeadings: HeadingItem[] = [];
@@ -525,15 +625,9 @@ class LeanHeadingModal extends SuggestModal<HeadingItem> {
         });
     }
 
-    /**
-     * Extracts headings using Obsidian's metadata cache if available.
-     * If the cache is empty (e.g. Meld Encrypt / .mdenc decrypted in memory),
-     * it falls back to scanning the active editor buffer line-by-line.
-     */
     private extractAllHeadings(view: MarkdownView): HeadingItem[] {
         if (!view.file) return [];
         
-        // 1. FAST PATH: Check Obsidian's metadata cache first
         const cache = this.app.metadataCache.getFileCache(view.file);
         if (cache?.headings && cache.headings.length > 0) {
             return cache.headings.map(h => ({
@@ -545,8 +639,6 @@ class LeanHeadingModal extends SuggestModal<HeadingItem> {
             }));
         }
 
-        // 2. FALLBACK PATH: Parse directly from the active editor buffer
-        // (Critical for Meld Encrypt, .mdenc, unsaved notes, or uncached memory views)
         const editor = view.editor;
         if (!editor) return [];
 
@@ -557,14 +649,12 @@ class LeanHeadingModal extends SuggestModal<HeadingItem> {
         for (let i = 0; i < lineCount; i++) {
             const line = editor.getLine(i);
 
-            // Ignore headings inside code blocks
             if (line.trim().startsWith('```')) {
                 inCodeBlock = !inCodeBlock;
                 continue;
             }
             if (inCodeBlock) continue;
 
-            // Match Markdown headings: # Heading
             const match = line.match(/^(#{1,6})\s+(.+)$/);
             if (match && match[1] && match[2]) {
                 headings.push({
@@ -770,11 +860,9 @@ class LeanHeadingModal extends SuggestModal<HeadingItem> {
         const maxLine = editor.lineCount() > 0 ? editor.lineCount() - 1 : 0;
         const safeLine = Math.min(item.line, maxLine);
 
-        // 1. Unfold target section natively via Obsidian's ephemeral state
         view.leaf.setEphemeralState({ line: safeLine });
         editor.setCursor({ line: safeLine, ch: 0 });
 
-        // 2. Wait for Obsidian's initial navigation pass to finish, then accurately adjust to 1/3 height
         setTimeout(() => {
             requestAnimationFrame(() => {
                 const scroller = view.contentEl?.querySelector<HTMLElement>('.cm-scroller');
@@ -804,7 +892,6 @@ export default class LeanSwitcherPlugin extends Plugin {
     private lastNativeExecutionTime = 0;
     private lastExecutionTime = 0;
 
-    // Webview IPC / Space-Switch Double Trigger Protector
     private isDoubleTrigger(): boolean {
         const stack = new Error().stack || '';
         const isNativeHotkey = stack.includes('handleKey') || stack.includes('onKeyDown');
@@ -812,11 +899,9 @@ export default class LeanSwitcherPlugin extends Plugin {
         if (isNativeHotkey) {
             this.lastNativeExecutionTime = Date.now();
         } else if (Date.now() - this.lastNativeExecutionTime < 500) {
-            // Drop space-switch ghost event from Webview IPC
             return true;
         }
 
-        // Generic 250ms debounce safeguard
         const now = Date.now();
         if (now - this.lastExecutionTime < 250) {
             return true;
@@ -862,6 +947,74 @@ export default class LeanSwitcherPlugin extends Plugin {
         this.addSettingTab(new LeanSwitcherSettingTab(this.app, this));
     }
 
+    // Opens a file in a new tab immediately to the right of the active tab
+    openInAdjacentTab(file: TFile): void {
+        const activeLeaf = this.app.workspace.getMostRecentLeaf();
+        const parent: any = activeLeaf?.parent;
+        let leaf: WorkspaceLeaf | null = null;
+
+        if (parent && Array.isArray(parent.children)) {
+            const index = parent.children.indexOf(activeLeaf);
+            if (index !== -1 && typeof (this.app.workspace as any).createLeafInParent === 'function') {
+                leaf = (this.app.workspace as any).createLeafInParent(parent, index + 1);
+            }
+        }
+
+        if (!leaf) {
+            leaf = this.app.workspace.getLeaf('tab');
+        }
+
+        leaf.openFile(file);
+    }
+
+    // Creates a markdown file safely and opens it in an adjacent tab
+    async createAndOpenNote(folderPath: string, noteTitle: string): Promise<void> {
+        await this.ensureFolder(folderPath);
+
+        let cleanTitle = noteTitle
+            .replace(/[\\:*?"<>|#^[\]]/g, '-')
+            .trim();
+
+        if (!cleanTitle.toLowerCase().endsWith('.md')) {
+            cleanTitle += '.md';
+        }
+
+        const fullPath = normalizePath(folderPath ? `${folderPath}/${cleanTitle}` : cleanTitle);
+
+        let file = this.app.vault.getAbstractFileByPath(fullPath);
+        if (!file) {
+            try {
+                file = await this.app.vault.create(fullPath, '');
+            } catch (err: any) {
+                new Notice(`Failed to create note: ${err?.message ?? err}`);
+                return;
+            }
+        }
+
+        if (file instanceof TFile) {
+            this.openInAdjacentTab(file);
+        }
+    }
+
+    private async ensureFolder(folderPath: string): Promise<void> {
+        const normalized = normalizePath(folderPath);
+        if (!normalized || normalized === '/' || normalized === '.') return;
+
+        const parts = normalized.split('/');
+        let current = '';
+        for (const part of parts) {
+            current = current ? `${current}/${part}` : part;
+            const exists = this.app.vault.getAbstractFileByPath(current);
+            if (!exists) {
+                try {
+                    await this.app.vault.createFolder(current);
+                } catch {
+                    // Ignore concurrency errors
+                }
+            }
+        }
+    }
+
     async loadSettings() {
         const loadedData = (await this.loadData()) as Partial<LeanSwitcherSettings> | null;
         this.settings = Object.assign({}, DEFAULT_SETTINGS, loadedData ?? {});
@@ -888,14 +1041,14 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
         containerEl.createEl('h2', { text: 'Lean Quick Switcher Settings' });
 
         containerEl.createEl('p', { 
-            text: 'Configure custom symbol prefixes and name your search types (e.g. "Topic Search"). Use prefix "" (blank) to customize default search behavior.',
+            text: 'Configure custom symbol prefixes, folder search rules, and optional note creation destinations.',
             attr: { style: 'color: var(--text-muted); margin-bottom: 16px;' }
         });
 
         // 1. ADD RULE BUTTON
         new Setting(containerEl)
             .setName('Add Prefix Mapping Rule')
-            .setDesc('Add a new symbol with custom folder include/exclude rules and a custom search name')
+            .setDesc('Add a new symbol with custom folder search rules and a destination folder')
             .addButton(btn => btn
                 .setButtonText('+ Add Prefix Rule')
                 .setCta()
@@ -905,7 +1058,8 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
                         prefix: '',
                         mode: 'include',
                         folders: [],
-                        excludedExtensions: []
+                        excludedExtensions: [],
+                        destinationFolder: ''
                     });
                     await this.plugin.saveSettings();
                     this.display();
@@ -949,7 +1103,6 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
                 await this.plugin.saveSettings();
             });
 
-            // Mode dropdown
             const modeSelect = headerRow.createEl('select', { 
                 cls: 'dropdown',
                 attr: { 
@@ -975,9 +1128,9 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
                 this.display();
             });
 
-            // Folder Tags & Autocomplete row
+            // Target Folders row
             const folderSection = ruleBox.createDiv({ attr: { style: 'margin-bottom: 10px;' } });
-            folderSection.createEl('div', { text: 'Target Folders:', attr: { style: 'font-size: 12px; color: var(--text-muted); margin-bottom: 4px;' } });
+            folderSection.createEl('div', { text: 'Search Scope Folders:', attr: { style: 'font-size: 12px; color: var(--text-muted); margin-bottom: 4px;' } });
             
             const folderTagsContainer = folderSection.createDiv({ 
                 attr: { style: 'display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px;' } 
@@ -1011,7 +1164,6 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
             };
             renderFolderTags();
 
-            // Folder autocomplete input
             const addFolderInput = folderSection.createEl('input', {
                 attr: { type: 'text', placeholder: 'Type to pick a folder from autocomplete...', style: 'width: 100%;' }
             });
@@ -1022,6 +1174,26 @@ class LeanSwitcherSettingTab extends PluginSettingTab {
                     renderFolderTags();
                 }
                 addFolderInput.value = '';
+            });
+
+            // Destination Folder Row (Optional)
+            const destFolderSection = ruleBox.createDiv({ attr: { style: 'margin-bottom: 10px;' } });
+            destFolderSection.createEl('div', { 
+                text: 'New Note Destination Folder (optional):', 
+                attr: { style: 'font-size: 12px; color: var(--text-muted); margin-bottom: 4px;' } 
+            });
+            const destFolderInput = destFolderSection.createEl('input', {
+                attr: { type: 'text', placeholder: 'Leave blank to prompt with folder picker...', style: 'width: 100%;' }
+            });
+            destFolderInput.value = rule.destinationFolder ?? '';
+            destFolderInput.addEventListener('change', async () => {
+                rule.destinationFolder = destFolderInput.value.trim();
+                await this.plugin.saveSettings();
+            });
+            new FolderSuggest(this.app, destFolderInput, async (selectedFolder) => {
+                rule.destinationFolder = selectedFolder;
+                destFolderInput.value = selectedFolder;
+                await this.plugin.saveSettings();
             });
 
             // Excluded Extensions row
