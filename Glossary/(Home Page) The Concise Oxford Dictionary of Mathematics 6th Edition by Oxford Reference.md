@@ -4556,16 +4556,17 @@ Year: 2021-09-01
 3692. [[symbol]]
 3693. [[symmetrical about a line]]
 ## Created
-1. symmetrical about a point
-2. symmetric difference
-3. symmetric function
-4. symmetric matrix
-5. symmetry(of a geometrical figure)
-6. symmetry group(of a geometrical figure)
-7. symplectic geometry
+1. [[symmetrical about a point]]
+2. [[symmetric difference]]
+3. [[symmetric function]]
+4. [[symmetric matrix]]
+5. [[symmetry]]
+6. [[symmetry group]]
+7. [[symplectic geometry]]
 8. symplectic group
-9. synthetic geometry
-10. systematic error
+	1. See matrix groups
+9. [[synthetic geometry]]
+10. [[systematic error]]
 
 11. systematic sampling
 12. Système International d'Unités

@@ -87,7 +87,6 @@
 - #comment Quick Summary
 	- I wanted to improve performance of an e-commerce platform (S) by reducing load times (task) to increase overall responsiveness (goal) (T). So I did performance analysis, implemented code optimizations such as browser caching, image compression and lazy loading for non-essential content (A). This all achieved a 30% reduction in page load times, 20% improvement in website performance (improvements) and ultimately a 15% increase in user engagement (user impact). (R)
 - Great [preparation grid](https://ashishps.notion.site/Behavioral-Interview-Preparation-Grid-95f97d42f3494d86a3a683752c4b54b5)
-## Source[^3]
 
 ## References
 

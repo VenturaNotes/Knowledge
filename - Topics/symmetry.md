@@ -6,8 +6,11 @@
 - Regularity in the arrangement of the parts of an organism. See bilateral SYMMETRY; RADIAL SYMMETRY.
 ## Source[^3]
 - The property of an object that enables it to undergo certain manipulations, called symmetry operations, such that its new state is indistinguishable from its original state. Examples include inversion through a point, reflection through a plane, and rotation about an axis. The geometrical feature of the object with respect to which the symmetry operation is carried out is termed a symmetry element. In the above examples, a point through which inversion can be performed, a plane of reflection, and an axis of rotation are the symmetry elements. See also molecular symmetry.
+## Source[^4]
+- (of a geometrical figure) A figure may have reflective symmetry in a line (axis) or plane or may have rotational symmetry. The term also refers to a transformation of the figure which maps the figure to itself; these symmetries form the symmetry group under composition. As an example, a square is symmetrical about four lines and has rotational symmetry of order 4 about its centre, and so the square has 8 symmetries in all.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
