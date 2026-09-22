@@ -11,8 +11,7 @@ import {
     setIcon,
     AbstractInputSuggest,
     Notice,
-    normalizePath,
-    WorkspaceLeaf
+    normalizePath
 } from 'obsidian';
 
 interface PrefixRule {
@@ -158,7 +157,7 @@ class FolderSuggest extends AbstractInputSuggest<string> {
     }
 }
 
-// --- Folder Picker Modal (When no folder is set in rule) ---
+// --- Folder Picker Modal ---
 class FolderPickerModal extends SuggestModal<FolderSuggestion> {
     private noteTitle: string;
     private plugin: LeanSwitcherPlugin;
@@ -214,7 +213,7 @@ class FolderPickerModal extends SuggestModal<FolderSuggestion> {
     }
 }
 
-// --- 1. File Quick Switcher Modal (File Search) ---
+// --- 1. File Quick Switcher Modal ---
 class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
     plugin: LeanSwitcherPlugin;
     private recentPathsMap: Map<string, number>;
@@ -231,19 +230,20 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
         const recentPaths = this.app.workspace.getLastOpenFiles();
         recentPaths.forEach((path, idx) => this.recentPathsMap.set(path, idx));
 
-        // Mod + Enter: Open highlighted file in adjacent tab to the right
+        // Mod + Enter: Open highlighted file in a new tab
         this.scope.register(['Mod'], 'Enter', (evt: KeyboardEvent) => {
             evt.preventDefault();
             const chooser = (this as any).chooser;
             const selected = chooser?.values?.[chooser?.selectedItem] as SwitcherItem | undefined;
             if (selected) {
                 this.close();
-                this.plugin.openInAdjacentTab(selected.file);
+                const leaf = this.app.workspace.getLeaf('tab');
+                leaf.openFile(selected.file);
             }
             return false;
         });
 
-        // Mod + Shift + Enter: Create new note in adjacent tab to the right
+        // Mod + Shift + Enter: Create new note in a new tab
         this.scope.register(['Mod', 'Shift'], 'Enter', (evt: KeyboardEvent) => {
             evt.preventDefault();
             this.handleCreateNote();
@@ -260,7 +260,6 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
 
         const { rule } = this.resolvePrefixRule(rawInput.toLowerCase());
 
-        // Extract title while preserving user's original casing
         let noteTitle = rawInput;
         if (rule && rule.prefix.trim().length > 0) {
             const p = rule.prefix.trim();
@@ -278,10 +277,8 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
 
         const targetFolder = rule?.destinationFolder?.trim();
         if (targetFolder && targetFolder.length > 0) {
-            // Folder specified in rule -> create directly
             this.plugin.createAndOpenNote(targetFolder, noteTitle);
         } else {
-            // No folder specified -> prompt with folder picker
             new FolderPickerModal(this.app, this.plugin, noteTitle).open();
         }
     }
@@ -432,7 +429,7 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
             return results;
         }
 
-        // 2. SEARCH QUERY MATCHING (Multi-token substring matching)
+        // 2. SEARCH QUERY MATCHING
         const firstToken = tokens[0] ?? '';
         const results: SwitcherItem[] = [];
 
@@ -567,12 +564,8 @@ class LeanSwitcherModal extends SuggestModal<SwitcherItem> {
 
     onChooseSuggestion(item: SwitcherItem, evt: MouseEvent | KeyboardEvent): void {
         const isMod = Boolean(evt && (evt.metaKey || evt.ctrlKey));
-        if (isMod) {
-            this.plugin.openInAdjacentTab(item.file);
-        } else {
-            const leaf = this.app.workspace.getLeaf(false);
-            leaf.openFile(item.file);
-        }
+        const leaf = this.app.workspace.getLeaf(isMod ? 'tab' : false);
+        leaf.openFile(item.file);
     }
 }
 
@@ -947,27 +940,7 @@ export default class LeanSwitcherPlugin extends Plugin {
         this.addSettingTab(new LeanSwitcherSettingTab(this.app, this));
     }
 
-    // Opens a file in a new tab immediately to the right of the active tab
-    openInAdjacentTab(file: TFile): void {
-        const activeLeaf = this.app.workspace.getMostRecentLeaf();
-        const parent: any = activeLeaf?.parent;
-        let leaf: WorkspaceLeaf | null = null;
-
-        if (parent && Array.isArray(parent.children)) {
-            const index = parent.children.indexOf(activeLeaf);
-            if (index !== -1 && typeof (this.app.workspace as any).createLeafInParent === 'function') {
-                leaf = (this.app.workspace as any).createLeafInParent(parent, index + 1);
-            }
-        }
-
-        if (!leaf) {
-            leaf = this.app.workspace.getLeaf('tab');
-        }
-
-        leaf.openFile(file);
-    }
-
-    // Creates a markdown file safely and opens it in an adjacent tab
+    // Creates a markdown file safely and opens it in a new tab
     async createAndOpenNote(folderPath: string, noteTitle: string): Promise<void> {
         await this.ensureFolder(folderPath);
 
@@ -992,7 +965,8 @@ export default class LeanSwitcherPlugin extends Plugin {
         }
 
         if (file instanceof TFile) {
-            this.openInAdjacentTab(file);
+            const leaf = this.app.workspace.getLeaf('tab');
+            leaf.openFile(file);
         }
     }
 

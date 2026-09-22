@@ -1,4 +1,5 @@
 ---
+status: open
 Source:
   - https://leetcode.com/problemset/all/
 Length: "1957"
@@ -9,7 +10,6 @@ Reviewed: false
 parent:
   - "[[(T) Applying to Jobs]]"
   - "[[(T) Interview Prep]]"
-Status: open
 ---
 - Source
 	- [Python Easy Array Not Solved Problems](https://leetcode.com/problem-list/vtvjjiog/)

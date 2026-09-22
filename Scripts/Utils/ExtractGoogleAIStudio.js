@@ -1,22 +1,23 @@
 /**
  * Script Name: Extract Google AI Studio Chat
- * Version: 6.3.1 (Unbounded Natural Sweep)
- * Description: Identical to v6.3 (Raw Mode, 4-space tabs, '-' bullets, clean citations),
- *              with the hardcoded 40-step limit removed so it sweeps the entire conversation.
+ * Version: 6.5 (Code-Block Spacing & 4-Space Tab Indentation)
+ * Description: Uses Google AI Studio's Raw Mode with natural unbounded sweeping.
+ *              Separates consecutive code blocks with blank lines for Live Preview,
+ *              enforces 4-space tab indentation, '-' bullets, and clean [1](url) links.
  * Compatibility: Script Runner Plugin for Obsidian (Desktop)
  */
 
 module.exports = async function ({ app, obsidian, secrets }) {
     const { Notice, Platform, normalizePath, TFile } = obsidian;
 
-    console.log("[ExtractGoogleAIStudio] Running Version 6.3.1 (Unbounded Sweep)");
+    console.log("[ExtractGoogleAIStudio] Running Version 6.5 (Code Block Spacing)");
 
     const CONFIG = {
         folder: 'Private/Clippings/Chats',
         attachmentsFolder: 'Private/Clippings/Chats/- Attachments',
         embedFormat: 'wikilink',                // 'wikilink' (![[img.png]]) or 'markdown' (![img](path))
         bulletMarker: '-',                      // Standard bullet marker ('-')
-        listIndentSpaces: 4,                    // Exactly 4 spaces per sub-bullet level (Obsidian standard)
+        listIndentSpaces: 4,                    // 4 spaces per sub-bullet level (Obsidian standard)
         includeFrontmatter: true,
         includeMetadataCallout: true,
         includeSystemInstructions: true,
@@ -160,7 +161,7 @@ module.exports = async function ({ app, obsidian, secrets }) {
                     switchedMode = await toggleRawMode();
                 }
 
-                // 5. Stack-Based List Normalizer (Enforces '-' and exact 4-space tab indentation)
+                // 5. Stack-Based List Normalizer (4-space tabs & strict '-')
                 function normalizeListStructure(text, targetMarker = '-', spacesPerLevel = 4) {
                     if (!text) return '';
 
@@ -169,6 +170,7 @@ module.exports = async function ({ app, obsidian, secrets }) {
                     for (let i = 0; i < parts.length; i += 2) {
                         let segment = parts[i];
 
+                        // Prevent blank lines from detaching parent items from indented sub-items
                         segment = segment.replace(/(^|\n)([ \t]*[-*+]\s+[^\n]+)\n\n+([ \t]+[-*+]\s+)/g, '$1$2\n$3');
 
                         const lines = segment.split('\n');
@@ -281,6 +283,9 @@ module.exports = async function ({ app, obsidian, secrets }) {
                     // Normalize bullets to '-' and enforce 4-space tab indentation
                     t = normalizeListStructure(t, bulletMarker, indentSize);
 
+                    // Ensure an empty line between consecutive fenced code blocks
+                    t = t.replace(/(`{3,}[^\n]*)\n([ \t]*`{3,})/g, '$1\n\n$2');
+
                     // Ensure Markdown headers have a clean blank line before them
                     t = t.replace(/([^\n])\n(#{1,6}\s)/g, '$1\n\n$2');
 
@@ -383,7 +388,7 @@ module.exports = async function ({ app, obsidian, secrets }) {
                     }
                 }
 
-                // 8. Unbounded Monotonic Sweep (Natural Termination from v3.6)
+                // 8. Unbounded Monotonic Sweep
                 if (scroller && scroller.scrollHeight > scroller.clientHeight) {
                     scroller.scrollTop = 0;
                     await new Promise(r => setTimeout(r, 300));
@@ -394,7 +399,6 @@ module.exports = async function ({ app, obsidian, secrets }) {
                     let lastScroll = -1;
                     let stallCount = 0;
 
-                    // Naturally loops until reaching the true bottom or stalling
                     while (true) {
                         if (scroller.scrollTop + scroller.clientHeight >= scroller.scrollHeight - 10) {
                             break;
@@ -681,6 +685,9 @@ module.exports = async function ({ app, obsidian, secrets }) {
                 cleanText = cleanText.replace(/\[\[([^\]\n]+)\]\((https?:\/\/[^\s\)]+)\)\]/g, '[$1]($2)');
                 cleanText = cleanText.replace(/\[\[([^\]\n]+)\]\]\((https?:\/\/[^\s\)]+)\)/g, '[$1]($2)');
                 cleanText = cleanText.replace(/\[\\\[([^\]\n]+)\\\]\]\((https?:\/\/[^\s\)]+)\)/g, '[$1]($2)');
+
+                // Ensure an empty line between consecutive code blocks
+                cleanText = cleanText.replace(/(`{3,}[^\n]*)\n([ \t]*`{3,})/g, '$1\n\n$2');
 
                 // Enforce 4-space tab indentation and '-' markers
                 cleanText = normalizeLists(cleanText, cfg.bulletMarker, cfg.listIndentSpaces);

@@ -4555,363 +4555,362 @@ Year: 2021-09-01
 3691. [[Sym]]
 3692. [[symbol]]
 3693. [[symmetrical about a line]]
-## Created
-1. [[symmetrical about a point]]
-2. [[symmetric difference]]
-3. [[symmetric function]]
-4. [[symmetric matrix]]
-5. [[symmetry]]
-6. [[symmetry group]]
-7. [[symplectic geometry]]
-8. symplectic group
+3694. [[symmetrical about a point]]
+3695. [[symmetric difference]]
+3696. [[symmetric function]]
+3697. [[symmetric matrix]]
+3698. [[symmetry]]
+3699. [[symmetry group]]
+3700. [[symplectic geometry]]
+3701. symplectic group
 	1. See matrix groups
-9. [[synthetic geometry]]
-10. [[systematic error]]
+3702. [[synthetic geometry]]
+3703. [[systematic error]]
+## Create
+1. [[systematic sampling]]
+2. Système International d'Unités
+3. system of particles
+4. systems analysis
+5. Szemerédi's theorem
+6. T
+7. T
+8. T
+9. t-distribution
+10. t-formulae
 
-11. systematic sampling
-12. Système International d'Unités
-13. system of particles
-14. systems analysis
-15. Szemerédi's theorem
-16. T
-17. T
-18. T
-19. t-distribution
-20. t-formulae
+11. t-test
+12. tableau
+13. tables
+14. tacnode
+15. tail
+16. tangent
+17. tangent(to a curve)
+18. tangent bundle
+19. tangent field
+20. tangential
 
-21. t-test
-22. tableau
-23. tables
-24. tacnode
-25. tail
-26. tangent
-27. tangent(to a curve)
-28. tangent bundle
-29. tangent field
-30. tangential
+21. tangent plane
+22. tangent rule
+23. tangent space
+24. tangent vector
+25. tanh
+26. Taniyama-Shimura conjecture
+27. Tarski, Alfred (1901-83)
+28. Tartaglia, Niccolò (1499-1557)
+29. tau
+30. tautochrone
 
-31. tangent plane
-32. tangent rule
-33. tangent space
-34. tangent vector
-35. tanh
-36. Taniyama-Shimura conjecture
-37. Tarski, Alfred (1901-83)
-38. Tartaglia, Niccolò (1499-1557)
-39. tau
-40. tautochrone
+31. tautology
+32. taxicab norm
+33. taxicab number
+34. Taylor's Theorem
+35. Taylor, Brook (1685-1731)
+36. Taylor, Richard (1962-)
+37. Taylor series
+38. Tchebyshev
+39. telescoping series
+40. temperature
 
-41. tautology
-42. taxicab norm
-43. taxicab number
-44. Taylor's Theorem
-45. Taylor, Brook (1685-1731)
-46. Taylor, Richard (1962-)
-47. Taylor series
-48. Tchebyshev
-49. telescoping series
-50. temperature
+41. tend to
+42. tension
+43. tensor product
+44. tera-
+45. term
+46. terminal speed
+47. terminating decimal
+48. ternary relation
+49. ternary representation
+50. tessellation
 
-51. tend to
-52. tension
-53. tensor product
-54. tera-
-55. term
-56. terminal speed
-57. terminating decimal
-58. ternary relation
-59. ternary representation
-60. tessellation
+51. test function
+52. test statistic
+53. tetra-
+54. tetrahedral number
+55. tetrahedron
+56. TeX
+57. Thales of Miletus (585 bc)
+58. theorem
+59. Theorema Egregium
+60. theorem proving
 
-61. test function
-62. test statistic
-63. tetra-
-64. tetrahedral number
-65. tetrahedron
-66. TeX
-67. Thales of Miletus (585 bc)
-68. theorem
-69. Theorema Egregium
-70. theorem proving
+61. theta function
+62. Thom, René Frédéric (1923-2002)
+63. Thomson, William
+64. three-body problem
+65. three-door problem
+66. thrust
+67. tie
+68. tiling
+69. time
+70. time dilation
 
-71. theta function
-72. Thom, René Frédéric (1923-2002)
-73. Thomson, William
-74. three-body problem
-75. three-door problem
-76. thrust
-77. tie
-78. tiling
-79. time
-80. time dilation
+71. time series
+72. Tn
+73. tonne
+74. topological group
+75. topological space
+76. topological vector space
+77. topology
+78. toppling
+79. torque
+80. torsion
 
-81. time series
-82. Tn
-83. tonne
-84. topological group
-85. topological space
-86. topological vector space
-87. topology
-88. toppling
-89. torque
-90. torsion
+81. torsion element
+82. torus
+83. torus
+84. total differential
+85. total expectation law
+86. totally bounded(of a metric space)
+87. total order
+88. total probability law
+89. totient function
+90. touch
 
-91. torsion element
-92. torus
-93. torus
-94. total differential
-95. total expectation law
-96. totally bounded(of a metric space)
-97. total order
-98. total probability law
-99. totient function
-100. touch
+91. tower law
+92. Tower of Brahma
+93. Tower of Hanoi
+94. trace
+95. tractrix
+96. trail
+97. trajectory
+98. transition map
+99. transition matrix
+100. translation(of Cartesian space)
 
-101. tower law
-102. Tower of Brahma
-103. Tower of Hanoi
-104. trace
-105. tractrix
-106. trail
-107. trajectory
-108. transition map
-109. transition matrix
-110. translation(of Cartesian space)
+101. translation of axes(in Cartesian space)
+102. transportation problem
+103. transpose
+104. transversal
+105. transverse axis
+106. transverse component
+107. trapezium
+108. trapezium rule
+109. trapezoidal rule
+110. travelling salesman problem(in graph theory)
 
-111. translation of axes(in Cartesian space)
-112. transportation problem
-113. transpose
-114. transversal
-115. transverse axis
-116. transverse component
-117. trapezium
-118. trapezium rule
-119. trapezoidal rule
-120. travelling salesman problem(in graph theory)
+111. traversable graph
+112. tree
+113. trefoil
+114. triangle
+115. triangle inequality
+116. triangle of forces(in mechanics)
+117. triangularizable
+118. triangular number
+119. triangulation
+120. triangulation(in topology)
 
-121. traversable graph
-122. tree
-123. trefoil
-124. triangle
-125. triangle inequality
-126. triangle of forces(in mechanics)
-127. triangularizable
-128. triangular number
-129. triangulation
-130. triangulation(in topology)
+121. tridiagonal matrix
+122. trigonometric function
+123. trigonometric series expansions
+124. trigonometric tables
+125. trillion
+126. trim
+127. trinomial
+128. triple
+129. triple product(of vectors)
+130. triple root
 
-131. tridiagonal matrix
-132. trigonometric function
-133. trigonometric series expansions
-134. trigonometric tables
-135. trillion
-136. trim
-137. trinomial
-138. triple
-139. triple product(of vectors)
-140. triple root
+131. trisect
+132. trisection of an angle
+133. trivial solution
+134. truncated cube
+135. truncated tetrahedron
+136. truncation
+137. truth table
+138. truth value
+139. Tukey, John Wilder (1915-2000)
+140. tuple
 
-141. trisect
-142. trisection of an angle
-143. trivial solution
-144. truncated cube
-145. truncated tetrahedron
-146. truncation
-147. truth table
-148. truth value
-149. Tukey, John Wilder (1915-2000)
-150. tuple
+141. Turing, Alan Mathison (1912-54)
+142. Turing machine
+143. turning point
+144. twin primes
+145. two-person zero-sum game
+146. two-sample tests(in statistics)
+147. two-sided test
+148. two-tailed test
+149. Tychonoff's theorem
+150. Tychonoff space
 
-151. Turing, Alan Mathison (1912-54)
-152. Turing machine
-153. turning point
-154. twin primes
-155. two-person zero-sum game
-156. two-sample tests(in statistics)
-157. two-sided test
-158. two-tailed test
-159. Tychonoff's theorem
-160. Tychonoff space
+151. Type I error
+152. Type II error
+153. typical sequence
+154. UFD
+155. UKMT
+156. ultrametric
+157. unbiased estimator
+158. unbounded
+159. unconditional statement
+160. uncountable
 
-161. Type I error
-162. Type II error
-163. typical sequence
-164. UFD
-165. UKMT
-166. ultrametric
-167. unbiased estimator
-168. unbounded
-169. unconditional statement
-170. uncountable
+161. undecidable
+162. underdetermined
+163. uniform
+164. uniform gravitational force
+165. uniformly continuous
+166. unimodal
+167. unimodular
+168. union
+169. unique factorization domain
+170. unit
 
-171. undecidable
-172. underdetermined
-173. uniform
-174. uniform gravitational force
-175. uniformly continuous
-176. unimodal
-177. unimodular
-178. union
-179. unique factorization domain
-180. unit
+171. unit
+172. unitary matrix
+173. unitary ratio
+174. unit circle
+175. unit cube
+176. unit matrix
+177. unit square
+178. unity
+179. universal covering space
+180. universal gravitational constant
 
-181. unit
-182. unitary matrix
-183. unitary ratio
-184. unit circle
-185. unit cube
-186. unit matrix
-187. unit square
-188. unity
-189. universal covering space
-190. universal gravitational constant
+181. universal machine
+182. universal quantifier
+183. unknown
+184. upper limit
+185. upper triangular matrix
+186. utility function
+187. V
+188. V4
+189. valency
+190. validation(of a simulation model)
 
-191. universal machine
-192. universal quantifier
-193. unknown
-194. upper limit
-195. upper triangular matrix
-196. utility function
-197. V
-198. V4
-199. valency
-200. validation(of a simulation model)
+191. Vallée-Poussin, Charles-Jean de la (1866-1962)
+192. value
+193. value(of a matrix game)
+194. Vandermonde's convolution formula
+195. Vandermonde's determinant
+196. Van der Waerden's Theorem
+197. vanish
+198. Var
+199. variability
+200. variable
 
-201. Vallée-Poussin, Charles-Jean de la (1866-1962)
-202. value
-203. value(of a matrix game)
-204. Vandermonde's convolution formula
-205. Vandermonde's determinant
-206. Van der Waerden's Theorem
-207. vanish
-208. Var
-209. variability
-210. variable
+201. variance
+202. variance, analysis of
+203. variation
+204. varies directly
+205. variety
+206. vector
+207. vector bundle
+208. vector equation(of a line)
+209. vector equation(of a plane)
+210. vector field
 
-211. variance
-212. variance, analysis of
-213. variation
-214. varies directly
-215. variety
-216. vector
-217. vector bundle
-218. vector equation(of a line)
-219. vector equation(of a plane)
-220. vector field
+211. vector norm
+212. vector potential
+213. vector product
+214. vector projection(of a vector on a vector)
+215. vector space
+216. vector sum
+217. vector triple product
+218. velocity
+219. velocity-time graph
+220. velocity potential
 
-221. vector norm
-222. vector potential
-223. vector product
-224. vector projection(of a vector on a vector)
-225. vector space
-226. vector sum
-227. vector triple product
-228. velocity
-229. velocity-time graph
-230. velocity potential
+221. velocity ratio
+222. Venn, John (1834-1923)
+223. Venn diagram
+224. vertex
+225. vertex(of a graph)
+226. vertical angles
+227. Viète's formulae
+228. Viète, François (1540-1603)
+229. Vinogradov's Theorem
+230. viscous
 
-231. velocity ratio
-232. Venn, John (1834-1923)
-233. Venn diagram
-234. vertex
-235. vertex(of a graph)
-236. vertical angles
-237. Viète's formulae
-238. Viète, François (1540-1603)
-239. Vinogradov's Theorem
-240. viscous
+231. Vitali set
+232. volume
+233. volume of a solid of revolution
+234. Von Neumann, John (1903-57)
+235. vortex
+236. vulgar fraction
+237. W
+238. walk(in graph theory)
+239. Wallis' Product
+240. Wallis, John (1616-1703)
 
-241. Vitali set
-242. volume
-243. volume of a solid of revolution
-244. Von Neumann, John (1903-57)
-245. vortex
-246. vulgar fraction
-247. W
-248. walk(in graph theory)
-249. Wallis' Product
-250. Wallis, John (1616-1703)
+241. wallpaper group
+242. Waring's problem
+243. warning limits
+244. watt
+245. wave
+246. wave equation
+247. weak law of large numbers
+248. weakly hereditary property(of spaces)
+249. Wedderburn's little theorem
+250. Weierstrass' Approximation theorem
 
-251. wallpaper group
-252. Waring's problem
-253. warning limits
-254. watt
-255. wave
-256. wave equation
-257. weak law of large numbers
-258. weakly hereditary property(of spaces)
-259. Wedderburn's little theorem
-260. Weierstrass' Approximation theorem
+251. Weierstrass' theorem
+252. Weierstrass, Karl (1815-97)
+253. weight
+254. weighted graph
+255. weighted mean
+256. well-conditioned problem
+257. well-formed formula
+258. well defined
+259. Weyl, Hermann (1885-1955)
+260. wff
 
-261. Weierstrass' theorem
-262. Weierstrass, Karl (1815-97)
-263. weight
-264. weighted graph
-265. weighted mean
-266. well-conditioned problem
-267. well-formed formula
-268. well defined
-269. Weyl, Hermann (1885-1955)
-270. wff
+261. Whitehead, Alfred North (1861-1947)
+262. whole angle
+263. Wiener, Norbert (1894-1964)
+264. Wilcoxon paired sample test
+265. Wilcoxon rank-sum test
+266. Wilcoxon signed rank test
+267. Wiles, Sir Andrew John (1953-)
+268. Wilson's theorem
+269. winding number
+270. within-subjects design
 
-271. Whitehead, Alfred North (1861-1947)
-272. whole angle
-273. Wiener, Norbert (1894-1964)
-274. Wilcoxon paired sample test
-275. Wilcoxon rank-sum test
-276. Wilcoxon signed rank test
-277. Wiles, Sir Andrew John (1953-)
-278. Wilson's theorem
-279. winding number
-280. within-subjects design
+271. Witten, Edward (1957- )
+272. Wolf Prize
+273. word problem
+274. work
+275. wrt
+276. X
+277. x-axis
+278. xor
+279. y
+280. Y
 
-281. Witten, Edward (1957- )
-282. Wolf Prize
-283. word problem
-284. work
-285. wrt
-286. X
-287. x-axis
-288. xor
-289. y
-290. Y
+281. y-axis
+282. Yates' correction
+283. yocto-
+284. yotta-
+285. Young's inequality
+286. Young's modulus of elasticity
+287. ℤ
+288. z
+289. Z
+290. z-axis
 
-291. y-axis
-292. Yates' correction
-293. yocto-
-294. yotta-
-295. Young's inequality
-296. Young's modulus of elasticity
-297. ℤ
-298. z
-299. Z
-300. z-axis
+291. Zariski topology
+292. Zeckendorf's theorem
+293. Zeeman, Sir Erik Christopher (1925-2016)
+294. Zeno of Elea
+295. zepto-
+296. Zermelo, Ernst (1871-1953)
+297. Zermelo-Fraenkel axioms
+298. zero
+299. zero(of a function)
+300. zero-divisor
 
-301. Zariski topology
-302. Zeckendorf's theorem
-303. Zeeman, Sir Erik Christopher (1925-2016)
-304. Zeno of Elea
-305. zepto-
-306. Zermelo, Ernst (1871-1953)
-307. Zermelo-Fraenkel axioms
-308. zero
-309. zero(of a function)
-310. zero-divisor
+301. zero-sum game
+302. zero element
+303. zero function
+304. zero matrix
+305. zero vector
+306. zeta function
+307. zetta-
+308. ZF
+309. ZFC
+310. ℤn
 
-311. zero-sum game
-312. zero element
-313. zero function
-314. zero matrix
-315. zero vector
-316. zeta function
-317. zetta-
-318. ZF
-319. ZFC
-320. ℤn
-
-321. zone
-322. δ(x)
-323. δij
-324. μ(mu)
-325. π
-326. τ
+311. zone
+312. δ(x)
+313. δij
+314. μ(mu)
+315. π
+316. τ
