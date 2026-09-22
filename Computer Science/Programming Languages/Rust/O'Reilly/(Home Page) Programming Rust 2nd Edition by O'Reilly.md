@@ -1,13 +1,12 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/AJNCXBFI?page=1&annotation=BANS8583
 Length: "736"
 tags:
-  - status/incomplete
   - type/textbook
 Year: 2021-06-20
 errata: https://www.oreilly.com/catalog/errata.csp?isbn=0636920258049
-Reviewed: false
 ---
 - Covers Rust 1.50
 

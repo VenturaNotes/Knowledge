@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=5LhWIaWlprM
-Reviewed: false
 ---
 - ![[Screenshot 2026-03-02 at 5.57.28 PM.png]]
 	- Will look at Euclidean algorithm as a method for greatest common divisor 

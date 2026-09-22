@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=7T7swboU7mE
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 5.32.50 PM.png]]
 	- [[Reduction Formula]]

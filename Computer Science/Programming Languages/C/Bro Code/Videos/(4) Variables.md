@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=aIQk1O08zpg
-Reviewed: false
 ---
 ```c
 

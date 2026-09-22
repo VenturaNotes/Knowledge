@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=hJHGyLpa0RQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 11.55.24 AM.png]]
 	- Union

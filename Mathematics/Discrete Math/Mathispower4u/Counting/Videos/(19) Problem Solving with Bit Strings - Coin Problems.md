@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=H6-Urva3eXc
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-07 at 11.03.47 AM.png]]
 	- You break your piggy bank to discover lots of pennies and nickels. You start arranging these in rows of 8 coins.

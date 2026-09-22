@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLROOIV7hGpZhN69CNIUIErPnQZFbUtyBE
 Length: 1 hour, 43 minutes, 55 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Propositional Logic and Truth Tables]]

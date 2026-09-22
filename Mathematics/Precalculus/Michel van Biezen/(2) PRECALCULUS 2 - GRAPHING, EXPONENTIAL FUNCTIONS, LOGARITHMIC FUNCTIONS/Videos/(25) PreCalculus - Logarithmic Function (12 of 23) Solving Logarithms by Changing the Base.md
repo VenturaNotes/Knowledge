@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=zOS-XWBn40Y
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 9.09.45 AM.png]]
 	- [[Change of base]] formula

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/valid-palindrome/
-Reviewed: false
 ---
 ## Synthesis
 - Return true if a [[palindrome]]

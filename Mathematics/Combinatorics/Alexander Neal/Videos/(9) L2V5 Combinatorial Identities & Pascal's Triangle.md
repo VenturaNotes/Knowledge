@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Oh5JXi9UOEE
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-08 at 9.14.15 PM.png]]
 	- [[bit string|bit-strings]] and [[Subset|subsets]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=MM7YNKJj_Lg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 3.02.00 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the exterior of the spinal cord. The spinal cord is one of the two main components of the central nervous system (the other being the brain). It receives all of the sensory information from the periphery of the body and carries it to the brain, and also contains motor neurons that supply the muscles we use to move around. Neurons carrying sensory information enter the back of the spinal cord as dorsal rootlets, which all emerge from a single dorsal root. The cell bodies of these sensory neurons are contained in a cluster of cell bodies called a dorsal root ganglion. Motor nerves leave the front of the cord as ventral rootlets and come together to form a ventral root; the dorsal and ventral roots merge together to form the spinal nerves.

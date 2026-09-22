@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=kWorj5BBy9k
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 5.39.02 AM.png]]
 	- [[inverse function|Inverse Functions]]

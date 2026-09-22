@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uaYzkCEYeKw
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-05 at 6.54.56 AM.png]]
 	- What is the [[slope]] of a line?

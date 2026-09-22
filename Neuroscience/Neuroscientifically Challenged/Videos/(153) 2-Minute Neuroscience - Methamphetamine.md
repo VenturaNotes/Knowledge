@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Z6XQR1vDbOg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.28.41 AM.png]]
 	- Methamphetamine is a potent stimulant drug. Although it's approved by the FDA for the treatment of ADHD and obesity—and was commonly prescribed for these conditions in the United States in the 1950s and 60s, today its use is primarily recreational. A less potent isomer (or form) of the methamphetamine molecule, however, is found in several over-the-counter decongestants. A crystallized form of methamphetamine, often referred to as crystal meth, is commonly abused and is a smoke-able form of the drug. 

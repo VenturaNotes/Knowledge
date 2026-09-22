@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=pPuBKao5lCk
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 3.32.02 AM.png]]
 	- Stars and Bars

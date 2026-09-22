@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XBEas8MGzd0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.54.32 PM.png]]
 	- [[Psilocybin]] is a substance found in a number of mushroom species that can be ingested to cause psychoactive effects. It is considered a psychedelic or hallucinogenic drug with some similarities to LSD in terms of effects. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LUxVpXJlTmk
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-05 at 10.03.37 AM.png]]
 	- Propositional Logic: Truth Tables

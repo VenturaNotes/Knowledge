@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.oxfordreference.com/display/10.1093/acref/9780198841227.001.0001/acref-9780198841227
 Length: "5423"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 - Researched
 - Questioned

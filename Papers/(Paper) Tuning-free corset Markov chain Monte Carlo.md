@@ -13,7 +13,6 @@ Institution:
   - Boston University
   - University of British Columbia
 Year: 2024-10-24
-Reviewed: false
 ---
 ## Abstract
 - [[Bayesian coreset]]

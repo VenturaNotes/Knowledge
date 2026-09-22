@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - https://applyre.com/resources/500-interview-questions/python/
 Length: "716"
 tags:
-  - status/incomplete
   - type/website
   - in-progress
-Reviewed: false
 ---
 - (1) Writing a comment in python
 	- `# This is a comment`

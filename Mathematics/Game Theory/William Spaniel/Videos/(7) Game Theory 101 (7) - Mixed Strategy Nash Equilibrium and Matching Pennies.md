@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=fvEQujUcPv4
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-21 at 12.12.18 AM.png]]
 	- Matching Pennies

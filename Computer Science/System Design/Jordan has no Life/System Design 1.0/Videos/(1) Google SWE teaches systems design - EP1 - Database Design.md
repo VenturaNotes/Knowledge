@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ugVwhsWslAc
-Reviewed: false
 ---
 - ![[Screenshot 2024-09-15 at 12.13.49 AM.png]]
 	- He is an incoming [[software engineer]] at google

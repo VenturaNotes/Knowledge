@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_64LqTeiawE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 12.12.03 AM.png]]
 	- Although [[COVID-19]] is generally considered a respiratory illness, it is associated with a wide range of symptoms, a number of which involve the nervous system. These neurological symptoms range from very common symptoms such as disturbances in smell and taste, to complications such as confusion, impaired consciousness, and stroke. Additionally, some patients develop long-term symptoms that involve the nervous system, such as headaches, depression, and impaired concentration. These symptoms can last well after a COVID infection, and are part of a condition sometimes referred to as long COVID. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Xo6xZpQReY8
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-01 at 8.55.43 AM.png]]
 	- [[Equivalent Sets]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=yAjkQ1YqLEE
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 6.14.27 PM.png]]
 	- [[Inductive reasoning]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=OD2KPSGZ1No
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 5.45.20 PM.png]]
 	- In this installment I will discuss the [[basal ganglia]]. The basal ganglia are a group of structures found deep within the cerebral hemispheres and the brainstem that include the caudate, putamen, globus pallidus, substantia nigra, and subthalamic nucleus. The caudate and putamen are often referred to collectively as the striatum, and the globus pallidus and substantia nigra are each made up of multiple nuclei. Although there are a variety of nonmotor functions associated with the basal ganglia, they are best known for their role in facilitating movement. 

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLjJhPCaCziSRSUtQiTA_yx5TJ76G_EqUJ
 Length: 12 hours, 19 minutes, 39 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Note
 	- "Introduction to mathematical logic" is also part of the Set Theory playlist

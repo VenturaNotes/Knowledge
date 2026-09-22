@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=TzTNwpdc6FE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.22.17 PM.png]]
 	- Example: Tossing 2 dice 10 times

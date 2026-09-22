@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLBh2i93oe2quABbNq4I_-hyjhW8eOdgrO
   - https://thebrightsideofmathematics.com/courses/real_analysis/overview/
 Length: 10 hours, 1 minute, 3 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Real Analysis 1  - Introduction]]

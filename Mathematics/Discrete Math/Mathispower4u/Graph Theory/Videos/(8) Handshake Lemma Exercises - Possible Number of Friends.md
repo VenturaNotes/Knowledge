@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Jm6hVxol3B0
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-06 at 7.53.59 AM.png]]
 	- [[Handshake Lemma]] Exercises

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=WiwMkh9_WGw
-Reviewed: false
 ---
 Control + C kills terminal when doing lite-server
 

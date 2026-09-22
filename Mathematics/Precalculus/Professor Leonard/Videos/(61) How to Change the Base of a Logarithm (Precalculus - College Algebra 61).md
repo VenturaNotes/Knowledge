@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tgcFt8zGnNE
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 4.26.38 AM.png]]
 	- The argument goes into the attic and the base goes into the basement.

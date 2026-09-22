@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=21V9WBJLAL8
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 12.11.24 AM.png]]
 	- S (= [[Sample Space]]) $\to$ consists of all possible outcomes

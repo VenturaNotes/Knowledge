@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=BknXGSoCNB0
-Reviewed: false
 ---
 - Determine whether the sequence converges. If it does, find its limit.
 	- ![[Screenshot 2022-12-09 at 5.36.38 PM.png]]

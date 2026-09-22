@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/7WQZVAEE?page=2&annotation=7HYNTAVG
 Length: "397"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 - [[Charles C. Pinter]]
 	- Professor of Mathematics at [[Bucknell University]]

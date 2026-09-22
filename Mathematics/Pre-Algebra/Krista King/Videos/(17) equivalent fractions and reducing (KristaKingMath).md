@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=HYEdy5UJPyQ
-Reviewed: false
 ---
 - Find the equivalent fractions
 - Going from $\frac {5}{10}$ to $\frac 12$ is called reducing fractions

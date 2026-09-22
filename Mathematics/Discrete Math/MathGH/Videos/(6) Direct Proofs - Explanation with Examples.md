@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WsVLV2MaiEg
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-03 at 2.52.07 PM.png]]
 	- [[direct proof|direct proofs]]: Introduction and Practice

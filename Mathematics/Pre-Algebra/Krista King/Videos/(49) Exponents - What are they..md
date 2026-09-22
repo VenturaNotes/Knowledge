@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=KcNiJqBJRQ8
-Reviewed: false
 ---
 - What are exponents (a.k.a. powers)
 	- There is no difference between exponents and powers.

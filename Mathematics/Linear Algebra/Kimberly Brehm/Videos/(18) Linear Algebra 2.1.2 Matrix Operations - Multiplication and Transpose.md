@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=RM24OPadFMA
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 6.33.42 PM.png]]
 	- [[Matrix operations]] (multiplication and [[transpose]])

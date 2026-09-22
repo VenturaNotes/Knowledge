@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=6veoK7DRv_w
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-14 at 10.39.19 PM.png]]
 	- Finite State Machines:

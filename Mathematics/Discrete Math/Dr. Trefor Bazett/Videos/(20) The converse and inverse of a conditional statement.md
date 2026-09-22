@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=BNhp6LXncI0
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 10.53.33 PM.png]]
 	- The [[Converse|converse]] of a statement $p \implies q$ is the statement $q \implies p$ 

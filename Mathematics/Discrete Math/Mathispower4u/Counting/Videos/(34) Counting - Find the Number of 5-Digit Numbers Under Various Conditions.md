@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=eaNhI0lpII4
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 1.43.18 AM.png]]
 	- Permutations and Combinations

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=eXL8m865QeM
-Reviewed: false
 ---
 ---
 - Echelon Form of a Matrix

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.oxfordreference.com/display/10.1093/acref/9780198821489.001.0001/acref-9780198821489?btog=chap&hide=true&pageSize=20&skipEditions=true&sort=titlesort&source=%2F10.1093%2Facref%2F9780198821489.001.0001%2Facref-9780198821489
 Length: "5846"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 - Researched
 - Defined

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=fazOxE9xH1Q
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-05 at 9.26.05 PM.png]]
 	- Understanding the [[intermediate value theorem]] (IVT)

@@ -3,9 +3,8 @@ Source:
   - https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6
 Length: 10 hours, 29 minutes, 1 second
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
+status: open
 ---
 - Complete
 	- [[(1) What's the big idea of Linear Algebra. --Course Intro--]]

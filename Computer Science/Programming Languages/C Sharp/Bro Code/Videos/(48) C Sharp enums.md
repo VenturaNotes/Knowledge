@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3p0OJErAbEI
-Reviewed: false
 ---
 - [[enums]]: Special "class" that contains a set of named integer constants
 	- Use enums when you have values that you know will not change,

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FI28cW8hJTU
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.42.27 AM.png]]
 	- Fatal insomnia is a very rare terminal condition characterized by difficulty sleeping that becomes progressively worse over time. Although the disease is typically genetic in origin, some sporadic cases without a clear genetic basis have also been documented. The condition usually begins in middle age or later, and early symptoms include trouble sleeping as well as autonomic nervous system disturbances, such as increased body temperature and increased heart rate. 

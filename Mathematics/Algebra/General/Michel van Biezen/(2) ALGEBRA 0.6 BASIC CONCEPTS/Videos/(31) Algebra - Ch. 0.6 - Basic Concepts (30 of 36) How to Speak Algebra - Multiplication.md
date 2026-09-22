@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jJpfh41r5mg
-Reviewed: false
 ---
 - Write as an algebraic expression:
 	- (1) 5 <mark style="background: #FFF3A3A6;">times</mark> a number

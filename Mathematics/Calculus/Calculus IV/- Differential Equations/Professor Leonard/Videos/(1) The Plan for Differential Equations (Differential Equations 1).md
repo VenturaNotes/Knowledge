@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=xf-3ATzFyKA
-Reviewed: false
 ---
 - Won't go into proofs (might be for a higher level course)
 - Many examples

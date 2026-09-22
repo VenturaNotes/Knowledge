@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=iAeKl5h2SJM
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 1.38.13 PM.png]]
 	- Finding a [[Unit vector]]

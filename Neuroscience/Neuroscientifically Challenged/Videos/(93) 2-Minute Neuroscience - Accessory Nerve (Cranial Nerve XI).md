@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=e4IgAGuP_Hk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.04.09 PM.png]]
 	- The accessory nerve is primarily considered a motor nerve that supplies two muscles: the sternomastoid muscle and the trapezius muscle. The sternomastoid helps to turn your head to the side, as well as bend your neck down or to the side. The trapezius is involved with the movement of the neck and scapula, or shoulder blade. The trapezius is important to a variety of shoulder and arm movements, such as shrugging your shoulders or raising your arms above your head. 

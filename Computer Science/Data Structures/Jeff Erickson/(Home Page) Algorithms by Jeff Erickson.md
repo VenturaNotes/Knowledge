@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/966VW8RQ?page=1&annotation=S2NWHVJY
 Length: "472"
 Progress: "7"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Preface
 ### About This Book

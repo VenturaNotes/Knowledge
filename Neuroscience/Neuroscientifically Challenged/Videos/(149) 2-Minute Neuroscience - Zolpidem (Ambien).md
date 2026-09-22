@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CTWyhpvgOfg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.19.45 AM.png]]
 	- [[Zolpidem]], better known by the brand name Ambien, is a medication primarily used to treat insomnia and other sleep-related problems. Studies have found zolpidem to be effective in reducing sleep latency, or the amount of time it takes someone to fall asleep, as well as in increasing total sleep time. Zolpidem belongs to a class of medications known as non-benzodiazepine hypnotics, sometimes called Z-drugs because many of the first of these drugs to be sold had names that started with the letter Z. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3p4X2-1qTYA
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 12.35.45 PM.png]]
 	- Proof by [[strong induction]]

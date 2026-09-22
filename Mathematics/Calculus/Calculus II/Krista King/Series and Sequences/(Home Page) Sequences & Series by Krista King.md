@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BPaXEPecIAS_ddViV2_gcYL
 Length: 8 hours, 7 minutes, 38 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Listing the first terms of the sequence (KristaKingMath)]]

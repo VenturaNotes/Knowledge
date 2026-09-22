@@ -5,7 +5,6 @@ Length: 1 hour, 3 minutes, 55 seconds
 tags:
   - status/complete
   - type/playlist
-Reviewed: false
 ---
 - [[(1) Introduction to Functions (Discrete Math)]]
 - [[(2) Two Line Notation for a Function - Inputs and Outputs]]

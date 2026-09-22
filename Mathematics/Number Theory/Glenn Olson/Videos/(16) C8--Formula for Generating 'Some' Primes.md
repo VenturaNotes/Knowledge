@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=C2DdDce9FA0
-Reviewed: false
 ---
 - ![[Screenshot 2022-12-28 at 12.56.59 PM.png]]
 - There is no formula that generates all primes

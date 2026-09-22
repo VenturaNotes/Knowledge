@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLg2tfDG3Ww4vrstKAZ0dajHx_hq85P0G-
 Length: 102 hours, 52 minutes, 40 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) A-Level Maths - TLMaths Introduction to the Playlist]]

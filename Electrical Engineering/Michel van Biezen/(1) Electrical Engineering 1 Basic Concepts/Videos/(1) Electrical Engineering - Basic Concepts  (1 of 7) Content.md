@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=s6hRPyjTx6k
-Reviewed: false
 ---
 - (1) Basic Concepts
 - (2) Basic Laws

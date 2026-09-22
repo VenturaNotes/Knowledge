@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLl-gb0E4MII1OxI-BbNkEhuwPHcKxuPSg
 Length: 17 hours, 41 minutes, 13 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Calculus II - 6.1.1 General and Particular Solutions to Differential Equations]]

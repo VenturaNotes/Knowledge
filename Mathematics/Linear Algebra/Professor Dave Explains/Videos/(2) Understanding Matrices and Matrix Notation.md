@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=y6bVhgmy2rw
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 3.47.20 AM.png]]
 	- [[Matrix notation]]

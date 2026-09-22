@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=fO-R1vwgsmw
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-08 at 9.38.24 AM.png]]
 	- [[Spanning Tree|Spanning Trees]]

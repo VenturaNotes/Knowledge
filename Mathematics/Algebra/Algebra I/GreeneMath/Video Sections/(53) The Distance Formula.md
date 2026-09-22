@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=79917s
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-26 at 10.19.39 PM.png]]
 	- [[Pythagorean Formula]] $a^2+b^2=c^2$

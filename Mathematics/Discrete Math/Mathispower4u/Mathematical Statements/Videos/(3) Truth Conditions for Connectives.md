@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3KIbjzSH5yE
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 3.41.25 PM.png]]
 	- Truth Conditions for connectives

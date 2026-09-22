@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tRknuaNSlrU
-Reviewed: false
 ---
 - Methods of Identity Proof:
 	- 1) Prove each set in the identity is a subset of the other

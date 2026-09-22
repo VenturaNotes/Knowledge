@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/A2RTCHQH?page=1&annotation=NFH9HRCB
 Length: "380"
 Progress: "19"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Personal Notes
 - Solutions given to odd exercises

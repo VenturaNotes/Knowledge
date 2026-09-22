@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=YQRioQ1XUck
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 2.36.33 AM.png]]
 	- What subspaces are relevant to $T_A$

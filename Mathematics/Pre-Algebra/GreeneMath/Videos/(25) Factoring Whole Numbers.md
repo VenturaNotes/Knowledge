@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=25930s
-Reviewed: false
 ---
 - Lesson Objectives:
 	- Learn how to determine if a [[Whole Numbers|whole number]] is [[prime]], [[composite]], or neither

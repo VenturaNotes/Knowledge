@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/linked-list-cycle/
-Reviewed: false
 ---
 ## Synthesis
 - 

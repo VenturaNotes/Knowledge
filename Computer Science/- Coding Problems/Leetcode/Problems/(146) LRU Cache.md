@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/lru-cache/
-Reviewed: false
 ---
 ## Synthesis
 - 

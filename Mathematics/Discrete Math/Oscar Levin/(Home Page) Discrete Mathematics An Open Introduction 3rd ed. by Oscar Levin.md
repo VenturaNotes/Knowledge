@@ -1,16 +1,14 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/RZPKBH48?page=1&annotation=XUVA6WPQ
 Length: "414"
 Progress: "21"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Acknowledgements
 - ““Discrete and Combinatorial Mathematics” by Richard Grassl and Tabitha Mingus.” ([Levin, 2019, p. 7](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=7&annotation=BIG2JUYP))
-
 ## Preface
 - “Most students who take the course plan to teach” ([Levin, 2019, p. 9](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=9&annotation=E8X6VWTW))
 - “When I teach the class, I will assign sections for reading after first introducing them in class by using a mix of group work and class discussion on a few interesting problems.” ([Levin, 2019, p. 9](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=9&annotation=46A4FQEA)) 

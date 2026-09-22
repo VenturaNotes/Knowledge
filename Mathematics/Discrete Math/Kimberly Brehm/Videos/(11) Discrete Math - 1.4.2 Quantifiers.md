@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=DpcUJrYTduc
-Reviewed: false
 ---
 - Quantifiers
 	- As we know, a propositional function P(x) is not a proposition until it has truth value. Up to this point, we could only do this by assigning a value to our variable

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=cKVb52GlhGQ
-Reviewed: false
 ---
 - Turning sentences into symbols
 	- If the sentence is written as a simple or compound statement, then assign a variable to each simple statement

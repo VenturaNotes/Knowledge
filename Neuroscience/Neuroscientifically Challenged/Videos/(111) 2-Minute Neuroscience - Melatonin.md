@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=SpaBMgZG9XQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.56.17 PM.png]]
 	- [[Melatonin]] is a derivative of serotonin best known for its role as a hormone. It is produced in a small endocrine gland in the brain called the pineal gland, as well as in the retina and a number of other organs and cells. The melatonin produced in the pineal gland, however, is thought to contribute most to circulating levels of melatonin in the bloodstream.

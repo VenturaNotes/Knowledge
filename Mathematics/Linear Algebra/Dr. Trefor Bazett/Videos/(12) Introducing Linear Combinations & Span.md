@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=WJlQzgS_itI
-Reviewed: false
 ---
 - ![[Pasted image 20230716151924.png]]
 	- [[linear combination|linear combinations]]:

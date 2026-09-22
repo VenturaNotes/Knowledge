@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9e9Lo0OPON4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 3.32.34 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the ventricles. The ventricles are a network of cavities that are distributed throughout the brain. They are lined with a specialized membrane called the choroid plexus, which is composed of glial cells called ependymal cells. Ependymal cells are specially designed to secrete cerebrospinal fluid, which then flows through the ventricles and around the brain. Thus the main role of the ventricles is the production and distribution of cerebrospinal fluid. 

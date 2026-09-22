@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLBh2i93oe2qsGKDOsuVVw-OCAfprrnGfr
   - https://thebrightsideofmathematics.com/courses/functional_analysis/overview/
 Length: 5 hours, 11 minutes, 7 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Functional Analysis 1  - Metric Space - How to Measure Distances.]]

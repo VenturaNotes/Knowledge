@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3Q7Qrh3j8B0
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-07 at 2.08.37 PM.png]]
 	- Binomial Coefficients

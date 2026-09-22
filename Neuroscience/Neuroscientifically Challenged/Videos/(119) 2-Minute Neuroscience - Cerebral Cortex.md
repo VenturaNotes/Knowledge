@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7TK1LpjV5bI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.25.23 PM.png]]
 	- The cerebral cortex is the outermost layer of the brain. It is made up primarily of gray matter that is extensively folded, forming ridges called gyri and grooves called sulci. The folding substantially increases the surface area of the cerebral cortex, making room for more neural components. 

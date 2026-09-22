@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=rd4XKAqkVzk
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 1.57.40 PM.png]]
 - To find the shortest paths between 2 points, you need to draw a weighted graph

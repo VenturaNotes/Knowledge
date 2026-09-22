@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=fr7K5V7ka0U
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 11.13.23 PM.png]]
 	- Number of sides and Name

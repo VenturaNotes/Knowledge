@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/missing-number/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

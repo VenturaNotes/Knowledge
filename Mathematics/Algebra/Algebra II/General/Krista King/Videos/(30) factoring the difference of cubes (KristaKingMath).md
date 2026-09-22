@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=XdEfV5lw5es
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-18 at 10.08.19 PM.png]]
 	- Factor the [[Difference of Cubes|difference of cubes]]

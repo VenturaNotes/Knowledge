@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uiXcAbrO8kU
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-24 at 3.37.20 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss selective serotonin reuptake inhibitors, or SSRIs. SSRIs were developed in the 1970s with the goal of treating depression by increasing serotonin levels. This goal was formulated based on the serotonin hypothesis of depression, which suggests that depression is caused by low levels of the neurotransmitter serotonin. 

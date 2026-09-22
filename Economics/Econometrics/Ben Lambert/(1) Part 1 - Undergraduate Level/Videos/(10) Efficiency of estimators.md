@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_iR4uG8MVpA
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 1.46.35 AM.png]]
 	- [[Efficiency]] of estimators

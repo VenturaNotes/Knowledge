@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=7015s
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 5.24.29 AM.png]]
 	- Solving linear inequalities (involves variable but no $x^2$ or any other higher powered terms)

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=do1AtaDvylA
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-12 at 12.59.22 PM.png]]
 	- Arithmetic Sequences

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLHRatQsym1_jlUrR1EeB1md7MJbAI93Ve
 Length: 1 hour, 18 minutes, 8 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Permutations Combinations Factorials & Probability]]

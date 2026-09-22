@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tj_98IO-lCk
-Reviewed: false
 ---
 - No mathematical proof, just equivalence
 - ![[Screenshot 2022-12-17 at 5.29.57 PM.png]]

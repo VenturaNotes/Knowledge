@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=UqB4EgUxapM
-Reviewed: false
 ---
 ```C
 // w: write (overrites any existing data)

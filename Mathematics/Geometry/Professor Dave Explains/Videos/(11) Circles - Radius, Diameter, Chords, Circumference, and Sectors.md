@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=SBIv5-7RbQY
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 8.51.53 PM.png]]
 	- [[Polygons]]

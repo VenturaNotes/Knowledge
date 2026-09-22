@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL9J7RpUf2cG-z6DkkfL9ncTQgUUi1CbPl
 Length: 10 hours, 52 minutes, 40 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) 2.1 A Preview of Calculus]]

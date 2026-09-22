@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_REBwAie_Tk
-Reviewed: false
 ---
 - ![[Screenshot 2026-01-15 at 12.39.40 AM.png]]
 	- [[Proof by deduction]] (it's about going through a logical sequence where you start with something you know to be true, and subsequently if that thing is true, then the next thing is true, and if that's true, then the next thing is true, and if that's true, then our conjecture is true.)

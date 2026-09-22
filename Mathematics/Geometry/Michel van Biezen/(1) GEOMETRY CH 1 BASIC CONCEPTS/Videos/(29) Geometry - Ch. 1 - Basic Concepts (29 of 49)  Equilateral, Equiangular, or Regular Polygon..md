@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=DUsOJ_igUUk
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 11.03.39 PM.png]]
 	- Equilateral: All sides are congruent

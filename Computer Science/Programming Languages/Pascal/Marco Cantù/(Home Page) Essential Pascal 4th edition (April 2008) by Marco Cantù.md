@@ -4,9 +4,8 @@ Source:
 Length: "140"
 Progress: "0"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
+status: open
 ---
 - "http://www.marcocantu.com." ([Cantù, 2008, p. 2](zotero://select/library/items/RCSVRYCN)) ([pdf](zotero://open-pdf/library/items/MD9B9BKH?page=2&annotation=C2D6ANV5)) 
 	- Website for source code for the book

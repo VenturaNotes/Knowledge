@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/roman-to-integer
-Reviewed: false
 tags:
   - in-progress
 ---

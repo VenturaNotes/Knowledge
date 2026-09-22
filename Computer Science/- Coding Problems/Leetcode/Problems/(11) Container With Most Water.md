@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/container-with-most-water
-Reviewed: false
 ---
 ## Synthesis
 - 

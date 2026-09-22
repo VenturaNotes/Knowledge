@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jQT-hJfcOVw
-Reviewed: false
 ---
 - Image
 	- Statement (or equation)

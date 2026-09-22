@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL0L_SisGP4hO9IQnYGPRJGwj7GEaHBChE
 Length: 14 hours, 59 minutes, 2 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Discrete Mathematics Textbook and Playlist]]

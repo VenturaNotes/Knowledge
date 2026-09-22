@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=BPyQrr05vA8
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-05 at 9.54.09 PM.png]]
 	- [[Limits]] of [[composite functions]]

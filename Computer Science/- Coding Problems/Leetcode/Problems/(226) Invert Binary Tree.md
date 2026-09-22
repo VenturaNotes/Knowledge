@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/invert-binary-tree/
-Reviewed: false
 ---
 ## Synthesis
 - 

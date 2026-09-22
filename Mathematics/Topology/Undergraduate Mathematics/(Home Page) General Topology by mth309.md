@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLfKcn7LuYa_Kr3_aWePrYufu7MMYWYM5-
 Length: 22 hours, 13 minutes, 44 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) MTH 427 and 527 -  Chapter 1 - Some set theory (part 1 and 3)]]

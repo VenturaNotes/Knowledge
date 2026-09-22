@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rJjHjnzmvDI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.20.59 PM.png]]
 	- [[Functional magnetic resonance imaging]], or fMRI, is a type of neuroimaging used to obtain images of brain activity. fMRI involves exposing the brain to multiple magnetic fields, and relies on the observation that protons in the nuclei of hydrogen atoms respond to this procedure by emitting an electromagnetic signal that can be detected by the fMRI scanner. The fMRI scanner is capable of determining some of the properties of the tissue the signal came from, and can use this information to reconstruct a high-resolution image of the brain. Additionally, the fMRI scanner can detect differences in the magnetic properties of oxygenated vs. deoxygenated blood, and thus can identify changes in levels of oxygenated blood in different regions of the brain using a method called blood-oxygen-level-dependent, or BOLD, contrast. 

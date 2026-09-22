@@ -1,6 +1,6 @@
 import { App, Modal, Setting } from 'obsidian';
 import PacingTimerPlugin from '../main';
-import { SavedSessionRecord, PacingSessionState } from '../types';
+import { SavedSessionRecord, PacingSessionState, StintStopMode } from '../types';
 import { parseDurationToSeconds, formatHumanReadableDuration, formatPacingTime, formatTime, getFinishedTimeStr } from '../utils';
 
 export function parseDurationWithSign(input: string): number {
@@ -18,7 +18,7 @@ export function parseEndTimeToSeconds(input: string, now: Date = new Date()): nu
 
     const isPm = /pm|p\.m\./i.test(str);
     const isAm = /am|a\.m\./i.test(str);
-    const clean = str.replace(/am|pm|a\.m\.|p\.m\./ig, '').trim();
+    const clean = str.replace(/am|pm|a\.m\./ig, '').trim();
 
     let hours = 0;
     let minutes = 0;
@@ -131,8 +131,10 @@ export class AdjustTaskCountdownModal extends Modal {
         const newElapsed = Math.max(0, s.targetSegmentDuration - newRemaining);
         const diff = newElapsed - s.segmentTimeElapsed;
 
+        const isHard = s.stintStopMode === "hard" || Boolean(s.targetFinishTimestamp);
+
         // Hard Stop Mode: Synchronize Countdown Adjustments with Pause Time
-        if (s.targetFinishTimestamp) {
+        if (isHard && s.targetFinishTimestamp) {
             if (diff < 0) {
                 // 1. REWIND: User forgot to pause (timer ran, but user was away)
                 const rewindSeconds = Math.abs(diff);
@@ -156,7 +158,6 @@ export class AdjustTaskCountdownModal extends Modal {
                 // 2. FAST-FORWARD: User forgot to unpause (timer was paused, but user was working)
                 const forwardSeconds = diff;
                 const prevPaused = s.totalPausedSeconds || 0;
-                // Reclaim only up to the pause time that actually exists (clamped at 0)
                 const reclaimSeconds = Math.min(prevPaused, forwardSeconds);
 
                 if (reclaimSeconds > 0) {
@@ -165,7 +166,6 @@ export class AdjustTaskCountdownModal extends Modal {
                     let buffer = (s.pauseBufferSeconds || 0) - reclaimSeconds;
                     let refundedTasks = 0;
 
-                    // If subtracting reclaimed pause time crosses back below a task threshold, refund the task
                     while (buffer < 0) {
                         buffer += s.targetSegmentDuration;
                         refundedTasks++;
@@ -393,35 +393,60 @@ export class ProjectModal extends Modal {
             });
 
             const quota = s.currentQuota || s.stintInitialGoal || 10;
+            const stintTasksLeft = Math.max(0, quota - stintDone);
             const baseGoal = s.stintInitialGoal || quota;
-            const goalMet = stintDone >= baseGoal;
-            const goalTag = goalMet ? `⭐ Baseline Goal of ${baseGoal} Met!` : `Baseline Goal: ${baseGoal}`;
 
             const currentPause = (!s.isRunning && s.pausedAt) 
                 ? Math.max(0, Math.floor((Date.now() - s.pausedAt) / 1000)) 
                 : 0;
             const totalPaused = (s.totalPausedSeconds || 0) + currentPause;
 
-            const isHard = Boolean(s.targetFinishTimestamp || s.stintHardStop);
+            const stopMode: StintStopMode = s.stintStopMode || (s.targetFinishTimestamp ? "hard" : "soft");
             let methodBadge = "";
 
-            if (isHard && s.targetFinishTimestamp) {
+            if (stopMode === "hard" && s.targetFinishTimestamp) {
                 const realTimeLeft = Math.max(0, Math.round((s.targetFinishTimestamp - Date.now()) / 1000));
                 const finishStr = getFinishedTimeStr(s.targetFinishTimestamp, 0);
-                methodBadge = `🔴 ${formatHumanReadableDuration(realTimeLeft)} Left • ${finishStr}`;
-            } else {
+                methodBadge = `🔴 ${formatHumanReadableDuration(realTimeLeft)} • ${finishStr}`;
+            } else if (stopMode === "medium") {
                 const totalBudget = s.hardStopTotalSeconds || s.defaultTotalTime || 10800;
                 const remainingBudget = Math.max(0, totalBudget - (s.globalTimeElapsed || 0));
                 const finishStr = getFinishedTimeStr(Date.now(), remainingBudget);
-                methodBadge = `🟡 ${formatHumanReadableDuration(remainingBudget)} Left • ${finishStr}`;
+                methodBadge = `🟡 ${formatHumanReadableDuration(remainingBudget)} • ${finishStr}`;
+            } else {
+                const pace = s.targetSegmentDuration || s.initialSegmentDuration || 60;
+                const workTimeLeft = Math.max(0, stintTasksLeft * pace - (s.segmentTimeElapsed || 0));
+                const finishStr = getFinishedTimeStr(Date.now(), workTimeLeft);
+                methodBadge = `🟢 ${formatHumanReadableDuration(workTimeLeft)} • ${finishStr}`;
+            }
+
+            const isCountdown = s.segmentedCountUp === false;
+            const totalProjCompleted = (s.projectCompletedInitial || 0) + stintDone;
+            const totalProjGoal = s.projectGoal || 100;
+            const initRemaining = Math.max(0, totalProjGoal - (s.projectCompletedInitial || 0));
+            const currentRemaining = Math.max(0, totalProjGoal - totalProjCompleted);
+            const targetRemaining = Math.max(0, initRemaining - quota);
+            const baseGoalRemaining = Math.max(0, initRemaining - baseGoal);
+
+            let taskCountHTML = "";
+            if (isCountdown) {
+                const goalMet = currentRemaining <= baseGoalRemaining;
+                const goalTag = goalMet ? `⭐ Target of ${baseGoalRemaining} Reached!` : `Target: ${baseGoalRemaining}`;
+                taskCountHTML = `<b>Remaining:</b> ${currentRemaining} / ${targetRemaining} Tasks <span style="color: ${goalMet ? "#eab308" : "var(--text-muted)"}; font-weight: ${goalMet ? "bold" : "normal"};">(${goalTag})</span>`;
+            } else {
+                const goalMet = stintDone >= baseGoal;
+                const goalTag = goalMet ? `⭐ Baseline Goal of ${baseGoal} Met!` : `Baseline Goal: ${baseGoal}`;
+                taskCountHTML = `<b>Today's Work:</b> ${stintDone} / ${quota} Tasks <span style="color: ${goalMet ? "#eab308" : "var(--text-muted)"}; font-weight: ${goalMet ? "bold" : "normal"};">(${goalTag})</span>`;
             }
 
             stintCard.innerHTML = `
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
-                    <span style="font-weight: 600; font-size: 1.05em; color: var(--text-accent);">⏱️ Active Stint Progress</span>
+                    <span style="font-weight: 600; font-size: 1.05em; color: var(--text-accent);">
+                        ⏱️ Active Stint Progress <span style="font-weight: normal; color: var(--text-muted); font-size: 0.9em;">(${stintTasksLeft} left)</span>
+                    </span>
                     <span style="font-size: 0.8em; color: var(--text-muted); background: var(--background-secondary); border: 1px solid var(--background-modifier-border); padding: 2px 8px; border-radius: 12px;">${methodBadge}</span>
                 </div>
-                <div><b>Today's Work:</b> ${stintDone} / ${quota} Tasks <span style="color: ${goalMet ? "#eab308" : "var(--text-muted)"}; font-weight: ${goalMet ? "bold" : "normal"};">(${goalTag})</span><br>
+                <div>${taskCountHTML}<br>
                 <b>Time Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Pacing:</b> ${formatTime(s.targetSegmentDuration)}</div>
             `;
 

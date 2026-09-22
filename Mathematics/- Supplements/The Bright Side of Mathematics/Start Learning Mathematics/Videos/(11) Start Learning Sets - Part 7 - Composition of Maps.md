@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=NiJ1yWKM9CU
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-12 at 10.41.19 AM.png]]
 	- Will talk about [[composition]] of [[maps]]

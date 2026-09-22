@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=4t1EsfhPBTk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.30.59 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the ventral tegmental area. The ventral tegmental area, or VTA, is found in the midbrain, situated next to the substantia nigra. Although the VTA contains several types of neurons, it is primarily characterized by its large population of dopamine neurons. It is one of the two major dopaminergic areas in the brain (the other being the substantia nigra). VTA dopamine neurons travel from the VTA to other areas of the brain in several major pathways. Two of the most prominent pathways are the mesocortical and the mesolimbic pathways.

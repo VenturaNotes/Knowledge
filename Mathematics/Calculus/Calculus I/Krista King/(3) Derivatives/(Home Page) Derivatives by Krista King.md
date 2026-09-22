@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BN26s7tmqlWic7nsmC8wJmx
 Length: 4 hours, 44 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Derivatives (KristaKingMath)]]

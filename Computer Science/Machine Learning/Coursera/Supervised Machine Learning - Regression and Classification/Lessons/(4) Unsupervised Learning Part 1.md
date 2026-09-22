@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.coursera.org/learn/machine-learning/lecture/TxO6F/unsupervised-learning-part-1
-Reviewed: false
 ---
 - Second most used form of machine learning
 - Supervised learning

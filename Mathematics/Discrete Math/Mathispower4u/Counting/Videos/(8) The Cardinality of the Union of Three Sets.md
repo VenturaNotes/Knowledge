@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CdehEqdpGos
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-02 at 1.45.11 PM.png]]
 	- Cardinality of Unions

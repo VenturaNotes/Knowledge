@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=1PAQYJAPSUQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 6.29.32 AM.png]]
 	- In each case determine if $a||b$

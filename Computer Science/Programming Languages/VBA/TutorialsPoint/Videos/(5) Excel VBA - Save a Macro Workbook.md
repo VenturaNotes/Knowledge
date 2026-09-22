@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=IuzssYXKgzY
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 2.55.47 AM.png]]
 	- In the previous video, the macro did the formatting part

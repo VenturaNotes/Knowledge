@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=bqtbg_-oajE
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-30 at 2.30.24 AM.png|500]]
 	- Predicates and Quantifiers

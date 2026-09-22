@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=yAbyyd8Uo2g
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.49.32 PM.png]]
 	- In this installment I will discuss the [[olfactory nerve]]. The olfactory nerve is a sensory nerve responsible for transmitting information about olfaction, or smell, to the brain. The nerve begins in the olfactory epithelium, a specialized collection of cells that lines the nasal cavity in humans. The olfactory epithelium contains millions of olfactory receptor cells. The axons of the olfactory receptor cells form bundles called fila that travel up through a structure called the cribriform plate, which is part of the bone called the ethmoid bone that separates the nasal cavity from the brain. The cribriform plate has holes that allow the fila to pass through it. The fila make up the olfactory nerve. 

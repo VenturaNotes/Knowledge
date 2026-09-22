@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8p83AHn_5Fc
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 3.06.08 PM.png]]
 	- Proofs using [[truth table|truth tables]]

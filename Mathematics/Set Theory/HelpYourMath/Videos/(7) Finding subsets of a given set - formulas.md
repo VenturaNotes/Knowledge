@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=x1b3jhw4fps
-Reviewed: false
 ---
 ---
 - Finding Subsets

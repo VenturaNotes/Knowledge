@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=vzXF339yk7A
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-19 at 3.34.48 AM.png]]
 	- It is a graph that result from meeting the following conditions

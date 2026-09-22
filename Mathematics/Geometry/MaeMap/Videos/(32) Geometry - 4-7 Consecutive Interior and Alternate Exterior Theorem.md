@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tFga_XEEkyg
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-07 at 3.11.03 AM.png]]
 	- [[Consecutive Interior Angles Theorem]]

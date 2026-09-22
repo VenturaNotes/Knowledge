@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ht255fIb2c4
-Reviewed: false
 ---
 - Compound Statements
 	- A compound statement consists of two simple statements, or two ideas.

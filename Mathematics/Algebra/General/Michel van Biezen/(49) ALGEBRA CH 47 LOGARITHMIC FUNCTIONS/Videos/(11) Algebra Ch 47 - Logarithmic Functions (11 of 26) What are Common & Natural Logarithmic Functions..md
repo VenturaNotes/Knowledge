@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=6-Q1U-XNw-E
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 8.32.18 PM.png]]
 	- Common

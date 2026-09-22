@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Kmx8ZYqhGIo
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.15.51 PM.png]]
 	- Welcome to 2-minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment, I will discuss the glossopharyngeal nerve. The glossopharyngeal nerve is associated with the tongue and the pharynx, or throat, and has both sensory and motor functions. It carries sensory information about touch, pain, and temperature from the posterior third of the tongue, the upper part of the throat, the tonsils, part of the outer ear, the inner surface of the eardrum, and the eustachian tube. It also conveys sensory information from the carotid body and carotid sinus, structures that detect oxygen, carbon dioxide, and ph levels in the blood along with changes in blood pressure. The nerve also conveys taste information from the posterior ⅓ of the tongue and carries motor signals to the stylopharyngeus muscle, which plays a role in swallowing and speech. And it innervates the parotid gland, the largest of our salivary glands.

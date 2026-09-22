@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=BJ7fr9XwS2o
-Reviewed: false
 ---
 ```java
 import java.awt.Color;

@@ -1,11 +1,10 @@
 ---
 Source:
   - https://www.techtarget.com/whatis/
-Length: 
+Length:
 tags:
   - status/incomplete
   - type/website
-Reviewed: false
 ---
 - Researched 
 - Questioned

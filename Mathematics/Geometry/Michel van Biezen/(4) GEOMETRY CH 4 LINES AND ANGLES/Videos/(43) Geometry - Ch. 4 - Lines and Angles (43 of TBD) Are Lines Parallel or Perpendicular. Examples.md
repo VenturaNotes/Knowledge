@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=-3k1pVUiAcA
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-04 at 4.53.51 AM.png]]
 	- Group 1 (parallel)

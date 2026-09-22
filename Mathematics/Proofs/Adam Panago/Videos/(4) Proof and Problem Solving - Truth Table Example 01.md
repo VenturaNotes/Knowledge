@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=UuMWkFa8b5o
-Reviewed: false
 ---
 - Construct truth table for a logical expression
 	- Make a truth table for the following expressions

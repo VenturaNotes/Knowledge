@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-mHgPfXHzJE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 6.50.07 AM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss long-term potentiation, or LTP. LTP is a process by which synaptic connections between neurons become stronger with frequent activation. LTP is thought to be a way in which the brain changes in response to experience, and thus may be an mechanism underlying learning and memory.

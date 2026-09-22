@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=pi5dP-VYicY
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-01 at 1.40.46 AM.png]]
 	- Recurrence proof by substitution

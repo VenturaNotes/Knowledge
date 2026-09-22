@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=16820s
-Reviewed: false
 ---
 ## More Examples
 - ![[Screenshot 2023-02-07 at 7.40.41 PM.png]]

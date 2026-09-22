@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Dq_2HQWAo7M
-Reviewed: false
 ---
 ```Pascal
 program MyFirstProgram;

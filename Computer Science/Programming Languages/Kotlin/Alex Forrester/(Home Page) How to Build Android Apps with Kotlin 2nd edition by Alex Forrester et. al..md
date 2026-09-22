@@ -1,13 +1,12 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/QG2Z93CB?page=2&annotation=TYYSQ9SW
 Length: "704"
 tags:
-  - status/incomplete
   - type/textbook
 Year: 2023-05-02
 Supplement: https://github.com/PacktPublishing/How-to-Build-Android-Apps-with-Kotlin-Second-Edition
-Reviewed: false
 ---
 ## Contributors
 ### Authors

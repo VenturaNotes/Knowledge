@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZKUqtErZCiU
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 9.59.42 PM.png]]
 	- Algebraic and geometric merge together in linear algebra

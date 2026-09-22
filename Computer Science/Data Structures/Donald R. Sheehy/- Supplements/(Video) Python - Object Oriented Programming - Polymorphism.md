@@ -4,7 +4,6 @@ Source:
 tags:
   - type/video
   - status/incomplete
-Reviewed: false
 ---
 ```python
 class Language:

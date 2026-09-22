@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zIeHOGhWEtc
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-07 at 2.40.04 PM.png|500]]
 	- We can store all information of a linear system into a [[matrix]]

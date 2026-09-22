@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL568547ACA9211CCA
 Length: 5 hours, 21 minutes, 10 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) The Basics - Descriptive and Inferential Statistics]]

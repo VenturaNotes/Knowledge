@@ -5,7 +5,6 @@ Length: "72"
 tags:
   - status/complete
   - type/website
-Reviewed: false
 ---
 ## Get Started
 - (1) What is the correct file extension for Python files?

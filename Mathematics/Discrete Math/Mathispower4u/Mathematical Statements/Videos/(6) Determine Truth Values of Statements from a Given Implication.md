@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=D73Rz_Gizss
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 9.33.31 PM.png]]
 	-  Determining Truth Values from an Implication

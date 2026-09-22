@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=iDh3x4wSMpU
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 9.52.55 PM.png|500]]
 	- Geometry of solutions

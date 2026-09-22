@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=-09mxY5jfJU
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 10.18.16 PM.png|500]]
 	- Power set of a set with 1 element

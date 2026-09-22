@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=C9DLEHu1l-g
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-30 at 5.42.35 AM.png]]
 	- We introduced a set $\mathbb{N}_0$ ([[natural numbers]]) whose elements we can use for counting

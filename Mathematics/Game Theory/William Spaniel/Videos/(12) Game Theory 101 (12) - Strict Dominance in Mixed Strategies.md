@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=3dd-IRedU0U
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-21 at 1.23.13 AM.png]]
 	- Strictly Dominant Mixed Strategies

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=R0VPDd0JwCE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.31.06 PM.png]]
 	- In this installment I will discuss the [[pineal gland]]. The pineal gland was given its name because it has a pine-cone like shape. Unliked most brain structures, the pineal gland is unpaired, meaning there is only one. It sits directly on the midline of the brain. The function most linked to the pineal gland is the secretion of a hormone called melatonin, which is best known for its role in regulating circadian rhythms.

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-mGdl_V8XjQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-08 at 12.57.34 AM.png]]
 	- What is a [[statement]]?

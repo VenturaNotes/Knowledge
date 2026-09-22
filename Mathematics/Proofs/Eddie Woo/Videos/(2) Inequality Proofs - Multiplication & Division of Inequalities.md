@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=6LjZp8H6afk
-Reviewed: false
 ---
 - Image
 	- Inequalities should always face in the same direction

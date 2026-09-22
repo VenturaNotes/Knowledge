@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLmdFyQYShrjf2BZRwCB4FVLxsKQ0skmHI
 Length: 1 hour, 3 minutes, 34 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 [[(1) What are Rays, Lines and Line Segments. - Geometry - Don't Memorise]]

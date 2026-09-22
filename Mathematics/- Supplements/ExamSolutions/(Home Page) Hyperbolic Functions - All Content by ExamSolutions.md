@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL5pdglZEO3NiMlAPOCEBvIUNZXD7Q9czc
 Length: 3 hours, 5 minutes, 39 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Hyperbolic Functions - Definitions  - ExamSolutions]]

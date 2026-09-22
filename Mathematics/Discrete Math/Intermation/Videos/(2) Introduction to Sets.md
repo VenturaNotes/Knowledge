@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=laBQGKXCFFQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-26 at 9.57.22 PM.png]]
 	- Dropdown box

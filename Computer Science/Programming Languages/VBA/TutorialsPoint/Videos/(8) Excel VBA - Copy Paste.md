@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=HkFVkodBBXA
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 3.53.18 AM.png]]
 	- How to copy and paste from one cell to another cell

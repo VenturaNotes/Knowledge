@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=H5D6EAezsXQ
-Reviewed: false
 ---
 - Image
 	- Subsets

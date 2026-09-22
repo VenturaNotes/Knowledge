@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tnFqStTRUZY
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-03 at 6.18.10 PM.png]]
 	- Evaluate limit by [[factoring]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/binary-tree-maximum-path-sum/
-Reviewed: false
 ---
 ## Synthesis
 - 

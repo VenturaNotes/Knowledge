@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=kwKckso2Ib0
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 9.20.38 PM.png]]
 	- Second method to find the inverse of the matrix

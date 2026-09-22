@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/car-fleet/
-Reviewed: false
 ---
 ## Synthesis
 - 

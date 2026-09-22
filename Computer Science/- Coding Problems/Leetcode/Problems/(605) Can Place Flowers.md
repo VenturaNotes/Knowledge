@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/can-place-flowers/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

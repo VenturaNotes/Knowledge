@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=kZKyq1mTeWY
-Reviewed: false
 ---
 - Image
 	- Matrices for rotations are built up from the unit base vectors

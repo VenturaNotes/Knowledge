@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Arb-LjPg7FA
-Reviewed: false
 ---
 Arrays and Slices
 ```Go

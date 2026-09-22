@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/D5S7WJPY?page=1&annotation=MSK9IJBT
 Length: "393"
 Progress: "27"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## About the Authors
 ## Acknowledgements

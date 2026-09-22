@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=c-mhDChCD4Y
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.26.21 PM.png]]
 	- The basal ganglia are a group of structures that are generally considered to include the caudate and putamen (which are collectively known as the striatum), the globus pallidus, subthalamic nucleus, and substantia nigra. The globus pallidus is further divided into internal and external segments, and the substantia nigra is divided into the substantia nigra pars compacta and substantia nigra pars reticulata. The direct pathway is a circuit in the basal ganglia best-known for its hypothesized role in movement. 

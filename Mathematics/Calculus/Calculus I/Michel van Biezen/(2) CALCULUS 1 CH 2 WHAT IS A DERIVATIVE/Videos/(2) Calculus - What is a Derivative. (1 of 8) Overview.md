@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=wLTDW7t5Z2c
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-31 at 9.02.26 AM.png]]
 	- (1) Slope of a graph

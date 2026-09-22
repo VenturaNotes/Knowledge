@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5E7M7NeAIWk
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 7.18.27 PM.png]]
 	- [[Linear Transformation]] Ax #1 

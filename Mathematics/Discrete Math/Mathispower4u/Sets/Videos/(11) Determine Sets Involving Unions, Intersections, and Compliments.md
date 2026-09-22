@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Is5wVfOuxwM
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 1.10.05 PM.png]]
 	- Operations on Sets

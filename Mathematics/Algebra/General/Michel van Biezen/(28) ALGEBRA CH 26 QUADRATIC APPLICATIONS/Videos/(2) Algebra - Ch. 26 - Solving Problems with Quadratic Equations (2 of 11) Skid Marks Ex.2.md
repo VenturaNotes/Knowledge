@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jPCnYIlz_3I
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-19 at 5.13.46 AM.png]]
 	- How fast did the car travel if the skid marks = 120 feet in length

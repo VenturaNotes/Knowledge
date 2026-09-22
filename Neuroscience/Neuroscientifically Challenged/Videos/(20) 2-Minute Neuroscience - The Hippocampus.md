@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5EyaGR8GGhs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 3.51.25 PM.png]]
 	- In this installment I will discuss the [[hippocampus]]. There is a hippocampus in the temporal lobe of each cerebral hemisphere. The name “hippocampus” comes from the Greek for "seahorse" because when it is removed from the brain, it vaguely resembles a seahorse. Although it has many functions, the hippocampus is best known for its role in memory. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=QHi_QW3OfKc
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-06 at 10.09.26 PM.png]]
 	- [[Rotation]]

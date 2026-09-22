@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=YwLTizMdXoI
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 1.30.20 PM.png]]
 - When talking about trails, think of trekkers. Trekkers don't like to walk on the same road twice

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=6MAtqY6Fqjs
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-06 at 1.18.12 AM.png]]
 	- (1) Leading term

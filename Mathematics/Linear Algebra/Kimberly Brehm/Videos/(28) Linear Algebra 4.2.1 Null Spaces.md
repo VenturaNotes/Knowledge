@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Dn7pcKMrU0s
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-22 at 3.43.06 PM.png]]
 	- [[Null space]]

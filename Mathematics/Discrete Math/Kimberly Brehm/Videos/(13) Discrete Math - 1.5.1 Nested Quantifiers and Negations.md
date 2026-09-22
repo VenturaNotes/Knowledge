@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Jth7m3j8uGA
-Reviewed: false
 ---
 - Every real number has an additive inverse
 	- $\forall x \exists y (x + y = 0)$

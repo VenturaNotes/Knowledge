@@ -1,13 +1,12 @@
 ---
+status: open
 Source:
   - https://mfleck.cs.illinois.edu/building-blocks/index-sp2020.html
   - zotero://open-pdf/library/items/ESNUMDJL?page=1&annotation=9IWLJXKE
 Length: "273"
 tags:
-  - status/incomplete
   - type/textbook
 Progress: "27"
-Reviewed: false
 ---
 ## Preface
 - “It teaches you how to read and write mathematical proofs.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=12&annotation=8FZW8YYK))

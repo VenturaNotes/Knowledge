@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY
 Length: 6 hours, 51 minutes, 52 seconds
 tags:
   - type/playlist
-  - status/incomplete
-Reviewed: false
 ---
 - Complete
 	- [[(1) Node.js Tutorial - 1 - Introduction]]

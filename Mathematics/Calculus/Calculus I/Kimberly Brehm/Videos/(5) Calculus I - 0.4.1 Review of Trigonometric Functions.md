@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=wwykal6Ms_g
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 3.53.47 AM.png]]
 	- Angles in [[Radian|Radians]] and [[Degrees]]

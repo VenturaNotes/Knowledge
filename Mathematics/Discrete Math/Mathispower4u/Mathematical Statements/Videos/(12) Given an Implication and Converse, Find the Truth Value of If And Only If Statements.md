@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rQVSJmPnpcA
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 10.53.00 PM.png]]
 	- Determining Truth Values

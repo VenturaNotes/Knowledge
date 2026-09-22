@@ -5,7 +5,6 @@ Length: 1 hour, 10 minutes, 15 seconds
 tags:
   - status/complete
   - type/playlist
-Reviewed: false
 ---
 - [[(1) What is Discrete Mathematics.]]
 - [[(2) Mathematical Statements and Logic Connectives]]

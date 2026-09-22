@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=B7XtnvNwEPA
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 2.19.33 PM.png]]
 	- [[Gaussian Elimination]]

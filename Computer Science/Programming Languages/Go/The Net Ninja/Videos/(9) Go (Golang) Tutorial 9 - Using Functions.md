@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=X68JmClzap4
-Reviewed: false
 ---
 Using Functions
 ```Go

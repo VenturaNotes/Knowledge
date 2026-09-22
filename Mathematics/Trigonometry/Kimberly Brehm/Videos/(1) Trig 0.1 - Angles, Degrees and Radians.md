@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=lf6BN6r61MA
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 3.15.31 PM.png]]
 - Angle Terminology

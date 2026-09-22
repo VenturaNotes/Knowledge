@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=e1mt2YDiVKc
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.42.32 PM.png]]
 	- [[Chronic traumatic encephalopathy]], or CTE, is a neurological condition linked primarily to repetitive head trauma. Most cases of CTE occur in those who play sports where head injuries are common, but anyone who has experienced repeated head trauma is at risk. CTE symptoms generally begin to appear years after head trauma and may include: memory deficits and other cognitive impairment, abnormal behavior such as paranoia, aggression and impulsivity, mood disturbances such as depression, and movement problems such as tremor and other symptoms similar to those seen in Parkinson's disease. In most cases, CTE is a progressive condition that gets worse over time. 

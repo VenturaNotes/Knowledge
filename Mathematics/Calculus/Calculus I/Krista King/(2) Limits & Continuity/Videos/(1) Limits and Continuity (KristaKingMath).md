@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=YmuqoXnCSNI
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 11.53.03 PM.png]]
 	- Limits

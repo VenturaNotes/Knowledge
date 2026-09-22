@@ -5,7 +5,6 @@ Length: 7 minutes, 2 seconds
 tags:
   - status/incomplete
   - type/video
-Reviewed: false
 ---
  - Image
 	 - Understanding the Binomial Coefficients

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Vzq7_EwubZQ
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-02 at 1.19.56 PM.png]]
 	- Problem similar to previous one

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=CmK1nObLxiw
-Reviewed: false
 ---
 ```java
 import javax.swing.*;

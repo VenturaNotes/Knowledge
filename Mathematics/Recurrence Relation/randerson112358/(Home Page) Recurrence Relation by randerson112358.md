@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLj68PAxAKGoyyBwi6qrfcsqE_4trSO1yL
 Length: 5 hours, 22 minutes, 38 seconds
 tags:
   - type/playlist
-  - status/incomplete
-Reviewed: false
 ---
 - Complete
 	- [[(1) Recurrence Relation By Substitution]]

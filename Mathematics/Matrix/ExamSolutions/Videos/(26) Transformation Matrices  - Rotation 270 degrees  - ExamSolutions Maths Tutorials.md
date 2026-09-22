@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=G7ikBJB243M
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 8.19.00 PM.png]]
 	- Rotation of 270$\degree$, center the origin

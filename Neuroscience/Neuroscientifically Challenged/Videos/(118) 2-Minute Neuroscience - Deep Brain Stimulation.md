@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tgKIbdTWq7o
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.12.33 PM.png]]
 	- Deep brain stimulation is a neurosurgical approach that involves the use of brain-implanted electrodes to treat a variety of neurological and psychiatric conditions. It is primarily used to treat movement disorders like Parkinson's disease, but has also been approved by the FDA for use in treating epilepsy and obsessive-compulsive disorder, and is being studied as a potential treatment for a number of other disorders like chronic pain and depression. 

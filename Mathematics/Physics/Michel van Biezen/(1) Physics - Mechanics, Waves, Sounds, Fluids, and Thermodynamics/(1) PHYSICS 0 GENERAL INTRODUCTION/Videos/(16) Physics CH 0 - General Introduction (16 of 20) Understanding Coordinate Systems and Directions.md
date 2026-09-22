@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=XklmMOxlqWo
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-22 at 9.59.17 PM.png]]
 	- X-axis

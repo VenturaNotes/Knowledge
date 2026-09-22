@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=HXuuttjBaQk
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-24 at 1.35.37 PM.png]]
 	- Nonlinear supply and demand equations are more realistic

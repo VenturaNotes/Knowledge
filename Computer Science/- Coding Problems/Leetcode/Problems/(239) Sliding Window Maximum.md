@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/sliding-window-maximum/
-Reviewed: false
 ---
 ## Synthesis
 - 

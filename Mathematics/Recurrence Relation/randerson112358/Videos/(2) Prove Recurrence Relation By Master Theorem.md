@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=i5kTZof1LRY
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-03 at 1.53.36 AM.png]]
 	- Recurrence proof by master theorem

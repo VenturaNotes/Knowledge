@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=mrZQYYPIUdg
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 10.23.37 AM.png]]
 	- Circuit has a 100v battery

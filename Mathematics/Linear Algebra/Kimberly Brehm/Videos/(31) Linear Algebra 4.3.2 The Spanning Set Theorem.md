@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=atwUmR-qpfk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.22.40 PM.png]]
 	- [[Spanning set theorem]]

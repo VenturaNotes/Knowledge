@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LZd5LhfnYsk
-Reviewed: false
 ---
 ```c++
 int add(int a){

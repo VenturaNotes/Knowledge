@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=2wrPGtP61fo
 Length: 1 day, 11 hours, 16 minutes, 45 seconds
 tags:
-  - status/incomplete
   - type/video
-Reviewed: false
 ---
 - Complete
 	- [[(1) Sets Part 1]]

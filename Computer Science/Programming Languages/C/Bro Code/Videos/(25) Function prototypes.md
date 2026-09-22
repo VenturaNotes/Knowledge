@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=vc9A6HdrTz4
-Reviewed: false
 ---
 ```C
 //The program will not compile and run successfully without the function prototype

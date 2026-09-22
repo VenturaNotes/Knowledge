@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=IM6urSjtMrQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-09-21 at 4.34.30 AM.png]]
 	- Believes that anyone who does day in the life of a Google software engineer is a massive tool

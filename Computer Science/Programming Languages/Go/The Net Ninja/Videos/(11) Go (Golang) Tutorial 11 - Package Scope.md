@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=XYK4Rs80q6c
-Reviewed: false
 ---
 main.go
 ```Go

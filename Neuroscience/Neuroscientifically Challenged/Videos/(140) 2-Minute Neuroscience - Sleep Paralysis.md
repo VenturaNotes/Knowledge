@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=QLTGu3Y404M
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.44.28 AM.png]]
 	- [[Sleep paralysis]] is a relatively common phenomenon in which someone experiences a state of immobility just before falling asleep or upon awakening. People who experience sleep paralysis are awake and generally aware of their surroundings during the episode; they typically can open their eyes but are otherwise unable to move. On average, an episode only lasts several minutes. During an episode of sleep paralysis a person may also experience hallucinations and abnormal sensations, including perceptions that there is someone else in the room, out-of-body experiences, and feelings of suffocation or choking. Some have hypothesized that these types of experiences may be the basis for various accounts of supernatural and other unusual encounters, such as contact with ghosts, demons, and aliens. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=6ovH4HJgVbQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-04 at 5.55.40 PM.png]]
 	- Introduction to [[Counting]]

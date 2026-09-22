@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=z-6CgHMQeYc
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 9.48.48 PM.png]]
 	- Converse, Inverse, and Contrapositive of an Implication

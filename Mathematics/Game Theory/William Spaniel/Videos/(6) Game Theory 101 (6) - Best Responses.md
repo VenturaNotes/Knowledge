@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=VuDutyTs_r8
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-21 at 12.10.08 AM.png]]
 	- The Game

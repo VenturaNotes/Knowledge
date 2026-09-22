@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/5LQBXNXV?page=1&annotation=AYJTSL3T
 Length: "330"
 Progress: "17"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Personal Notes
 - [Solutions to Exercises](https://longformmath.com/proofs-hints-%26-solutions)

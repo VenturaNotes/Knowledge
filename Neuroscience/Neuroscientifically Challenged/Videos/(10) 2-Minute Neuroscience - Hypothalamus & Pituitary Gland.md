@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=TVhm2rBGhB0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 2.45.00 PM.png|300]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the hypothalamus and pituitary gland. The hypothalamus is a small region situated directly above the brainstem. It is made up of a collection of nuclei with a variety of functions, but in general the hypothalamus is involved in controlling the two H's: homeostasis and hormones. Homeostasis is a term used to describe the maintenance of balance or stability in a biological system. The hypothalamus can maintain homeostasis either by exerting direct influence over the autonomic nervous system, or by causing the release of hormones. The hypothalamus manipulates hormone release primarily by controlling the pituitary gland.

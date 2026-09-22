@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/longest-repeating-character-replacement/
-Reviewed: false
 ---
 ## Synthesis
 - 

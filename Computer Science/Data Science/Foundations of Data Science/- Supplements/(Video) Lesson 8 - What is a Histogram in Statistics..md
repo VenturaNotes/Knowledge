@@ -5,7 +5,6 @@ Length: 4 minutes
 tags:
   - status/incomplete
   - type/video
-Reviewed: false
 ---
 - Graphical way to represent data
 - Basically just a bar chart that represents a frequency distribution

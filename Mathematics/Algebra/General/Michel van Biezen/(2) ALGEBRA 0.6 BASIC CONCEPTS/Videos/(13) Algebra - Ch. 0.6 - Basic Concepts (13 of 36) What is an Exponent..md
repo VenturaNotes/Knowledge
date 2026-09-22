@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=vr6bxo_V7Po
-Reviewed: false
 ---
 - The exponent defines how many times you must multiply the base by itself
 	- $5^2$

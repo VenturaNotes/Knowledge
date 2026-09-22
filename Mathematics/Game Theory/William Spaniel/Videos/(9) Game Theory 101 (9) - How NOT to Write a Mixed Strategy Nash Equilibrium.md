@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=T_gxKly_ehs
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-21 at 12.42.11 AM.png]]
 	- The Mixed Strategy Nash Equilibrium

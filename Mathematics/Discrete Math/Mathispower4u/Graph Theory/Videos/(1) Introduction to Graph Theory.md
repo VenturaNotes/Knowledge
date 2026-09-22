@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RWDKNOoU_KI
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-04 at 1.51.50 AM.png]]
 	- Introduction to Graph Theory

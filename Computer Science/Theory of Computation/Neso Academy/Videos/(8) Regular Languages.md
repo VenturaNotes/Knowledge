@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=WrzaPNj9OZ4
-Reviewed: false
 ---
 - A language is said to be a [[regular language]] if and only if some Finite State Machine recognizes it
 - So what languages are<mark style="background: #FFF3A3A6;"> not regular</mark>?

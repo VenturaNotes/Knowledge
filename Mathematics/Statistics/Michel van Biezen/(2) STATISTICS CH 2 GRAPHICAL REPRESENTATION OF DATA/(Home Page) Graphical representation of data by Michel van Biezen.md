@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWnPiQQVEpfr__uD_yDYjeB
 Length: 3 hours, 35 minutes, 50 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Statistics - Ch 2 Graphical Representation of Data (1 of 62) Types of Graphs]]

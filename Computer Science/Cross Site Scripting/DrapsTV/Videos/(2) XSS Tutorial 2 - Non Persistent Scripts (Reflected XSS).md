@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=dFci82qwXA0
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-20 at 10.43.50 PM.png]]
 	- Non Persistent Scripts

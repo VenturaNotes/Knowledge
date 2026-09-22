@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=fjZkWJJIVj0
-Reviewed: false
 ---
 - Use signs of fractions to simplify the expression
 	- If there is no sign, it's an implied positive sign

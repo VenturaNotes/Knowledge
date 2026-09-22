@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/same-tree/
-Reviewed: false
 ---
 ## Synthesis
 - ![[Private/Drawings/drawing-20260829-205918.svg]]

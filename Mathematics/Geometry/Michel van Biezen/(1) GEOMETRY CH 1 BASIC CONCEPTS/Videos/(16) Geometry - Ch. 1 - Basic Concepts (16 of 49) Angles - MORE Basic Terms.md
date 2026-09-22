@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ndXNlevsCaU
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 1.26.59 PM.png]]
 	- How many angles are there?

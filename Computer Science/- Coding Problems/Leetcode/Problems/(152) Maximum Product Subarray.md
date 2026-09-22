@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/maximum-product-subarray/
-Reviewed: false
 ---
 ## Synthesis
 - 

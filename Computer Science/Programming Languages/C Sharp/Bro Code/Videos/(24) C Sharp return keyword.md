@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FaK5Nh20gVA
-Reviewed: false
 ---
 - [[Return]]: returns data back to the place where a method is invoked
 

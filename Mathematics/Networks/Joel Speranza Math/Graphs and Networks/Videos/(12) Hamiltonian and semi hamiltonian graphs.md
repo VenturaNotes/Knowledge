@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=fhJO2WHRRuY
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 1.45.51 PM.png]]
 	- [[Hamiltonian Graph]]

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLD-SaUXuW_qGhEhv-hlsgoG1Y4Jq9uE4w
 Length: 2 hours, 48 minutes, 42 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Further Maths - Networks - Graphs and Networks (Ex 14A)]]

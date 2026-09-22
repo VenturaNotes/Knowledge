@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/regular-expression-matching
-Reviewed: false
 ---
 ## Synthesis
 - 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FDhBDMqLMbY
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-30 at 6.03.07 PM.png]]
 - (1) First factor out any common factors

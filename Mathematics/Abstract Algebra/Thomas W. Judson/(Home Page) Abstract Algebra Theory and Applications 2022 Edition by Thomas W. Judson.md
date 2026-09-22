@@ -1,13 +1,12 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/KAP3IWB2?page=1&annotation=55BI53M7
   - http://abstract.ups.edu/aata/aata.html
 Length: "492"
 tags:
-  - status/incomplete
   - type/textbook
 Year: 0202-07-28
-Reviewed: false
 ---
 ## (0) Preface
 - Coding theory and cryptography has grow significantly with the development of computing

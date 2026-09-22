@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=29Px0qXE1BU
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-31 at 9.11.06 AM.png]]
 	- Derivative is slope of a function

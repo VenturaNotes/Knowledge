@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RTpuX4ZeXD8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.13.22 PM.png]]
 	- In this installment I will discuss the [[trochlear nerve]]. The trochlear nerve, also known as cranial nerve IV, is responsible for supplying one of the extraocular muscles of the eye: the superior oblique muscle. The superior oblique helps the eye to move down and out. To create this type of movement, the muscle passes through a pulley-like structure called the trochlea of the superior oblique, which is where the nerve gets its name. 

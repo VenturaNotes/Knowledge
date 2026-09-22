@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/validate-binary-search-tree/
-Reviewed: false
 ---
 ## Synthesis
 - 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=kmpfWUy5AUI
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 5.19.42 PM.png]]
 	- y=mx + b

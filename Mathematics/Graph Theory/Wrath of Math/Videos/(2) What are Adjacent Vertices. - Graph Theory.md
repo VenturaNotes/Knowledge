@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=dxhFQyivdUs
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 1.27.07 AM.png]]
 	- [[Adjacent vertices]]

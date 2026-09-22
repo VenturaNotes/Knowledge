@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FtztfI86pBY
-Reviewed: false
 ---
 - Sources
 	- North Suburban Math League Contests

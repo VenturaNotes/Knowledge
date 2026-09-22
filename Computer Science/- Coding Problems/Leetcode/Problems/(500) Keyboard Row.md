@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/keyboard-row/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

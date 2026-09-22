@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=U8bvKdI-bXo
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 10.21.48 PM.png]]
 	- The Demand equation is D(x) = -0.01x + 5

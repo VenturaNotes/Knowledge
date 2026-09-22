@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/remove-element/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

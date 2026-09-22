@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=MbmZk-x2FFs
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 2.08.34 PM.png]]
 	- [[Elementary row operations]]

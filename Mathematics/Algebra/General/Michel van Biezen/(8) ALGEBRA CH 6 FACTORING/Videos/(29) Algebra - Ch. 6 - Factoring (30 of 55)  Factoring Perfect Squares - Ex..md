@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=bIUg0SpL08E
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-30 at 9.08.12 PM.png]]
 	- Check to see if the first and last term in a trinomial are perfect squares themselves.

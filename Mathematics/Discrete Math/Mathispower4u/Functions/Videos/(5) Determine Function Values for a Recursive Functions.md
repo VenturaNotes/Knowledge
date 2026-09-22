@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=apVYDn15AtY
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-18 at 3.05.29 PM.png]]
 	- Recursive Functions

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=EHclVXMhTIs
-Reviewed: false
 ---
 - ![[Pasted image 20260515004508.png|600]]
 	- Show that $\exists x (P(x) \lor Q(x))$ and $\exists x P(x) \lor \exists x Q(x)$ are equivalent logical expressions

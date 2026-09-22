@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=L8Rd7nWXRxI
-Reviewed: false
 ---
 Scratch JS (<mark style="background: #FFF3A3A6;">this chrome extension no longer exists</mark>)
 - Write and execute ES6/ES2015 within DevTools!

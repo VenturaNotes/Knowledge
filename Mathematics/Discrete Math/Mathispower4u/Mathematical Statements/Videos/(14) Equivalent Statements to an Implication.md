@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FhO7rrmZS18
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-30 at 1.58.58 AM.png|500]]
 	- Rephrasing an implication

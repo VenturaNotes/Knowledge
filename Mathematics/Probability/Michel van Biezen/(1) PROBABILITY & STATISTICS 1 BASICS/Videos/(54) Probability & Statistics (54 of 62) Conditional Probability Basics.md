@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Vg7CU6KjIlc
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 6.16.16 PM.png]]
 	- P(B|A) = Probability that B will occur provided A has occurred

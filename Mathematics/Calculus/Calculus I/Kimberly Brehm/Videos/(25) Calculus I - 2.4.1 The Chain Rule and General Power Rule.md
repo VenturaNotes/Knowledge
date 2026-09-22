@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Ptz1fa8lLyg
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 8.58.41 AM.png]]
 	- Not the Chain Rule

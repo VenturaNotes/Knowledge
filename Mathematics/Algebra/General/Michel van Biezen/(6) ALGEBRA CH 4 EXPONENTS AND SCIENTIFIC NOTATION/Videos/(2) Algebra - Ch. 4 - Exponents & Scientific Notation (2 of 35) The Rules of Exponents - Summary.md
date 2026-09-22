@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=SLT7HQPuVrA
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 3.09.19 PM.png]]
 	- (1) If we multiply and the bases are the same, we add the exponents

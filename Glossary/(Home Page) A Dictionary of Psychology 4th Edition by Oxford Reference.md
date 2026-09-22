@@ -5,7 +5,6 @@ Source:
 Length: "9570"
 tags:
   - type/textbook
-Reviewed: false
 ---
 ## Analyzed
 ## Defined

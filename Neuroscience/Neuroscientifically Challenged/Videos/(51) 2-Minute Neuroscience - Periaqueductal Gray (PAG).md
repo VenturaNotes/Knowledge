@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=xkMP4eXp1Oc
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.52.47 PM.png]]
 	- In this installment I will discuss the periaqueductal gray, or PAG. The PAG is an area of gray matter found in a part of the brainstem called the midbrain.

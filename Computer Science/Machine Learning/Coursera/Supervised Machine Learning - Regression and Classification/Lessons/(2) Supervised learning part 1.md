@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.coursera.org/learn/machine-learning/lecture/s91wX/supervised-learning-part-1
-Reviewed: false
 ---
 - 99 percent of economic value created by machine learning today is through one type of machine learning: supervised learning.
 - Supervised learning

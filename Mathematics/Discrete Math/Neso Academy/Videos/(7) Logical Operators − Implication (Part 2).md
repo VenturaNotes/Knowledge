@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ccz-w2JMsTM
-Reviewed: false
 ---
 ## Representations
 - Different ways to represent conditional statements

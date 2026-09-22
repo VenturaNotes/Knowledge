@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_QUbIkeklSk
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 6.53.37 PM.png]]
 	- [[Conditional probability]]

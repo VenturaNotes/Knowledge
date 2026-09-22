@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=URGw0qQdTek
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-07 at 2.55.59 AM.png]]
 	- [[Corresponding Angles Postulate]]

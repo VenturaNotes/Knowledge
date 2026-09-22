@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLr3WmPgPWZfX1HUpeyKkP6ir2wOFhqXMO
 Length: 4 hours, 36 minutes, 30 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Number Theory Introduction]]

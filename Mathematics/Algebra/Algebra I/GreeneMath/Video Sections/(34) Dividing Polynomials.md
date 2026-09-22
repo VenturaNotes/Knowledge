@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=50018s
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-15 at 6.37.35 PM.png]]
 	- Recall

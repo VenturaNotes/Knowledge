@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=bQIU2KDtHTI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-24 at 3.48.05 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss gamma-aminobutyric acid, or GABA. Although GABA's primary functions are as a neurotransmitter, it has the structure of an amino acid and thus is referred to as an amino acid neurotransmitter. It is synthesized from another amino acid neurotransmitter, glutamate, in a reaction catalyzed by the enzyme glutamic acid decarboxylase. 

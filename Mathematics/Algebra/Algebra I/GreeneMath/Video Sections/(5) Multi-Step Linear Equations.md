@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=5179s
-Reviewed: false
 ---
 - Solving [[linear equation|linear equations]] in one variable
 - A linear equation in one variable:

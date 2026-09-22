@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=wLNpW2NEQhM
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-09 at 11.53.43 AM.png]]
 	- Permutations and Combinations: Number of Bijective Functions

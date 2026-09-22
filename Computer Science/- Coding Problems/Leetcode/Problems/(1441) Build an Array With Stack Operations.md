@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/build-an-array-with-stack-operations/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

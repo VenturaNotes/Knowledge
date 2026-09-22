@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=VkMT-MzeVQ0
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 7.47.13 PM.png]]
 	- Find equation that belongs to trigonometric graph

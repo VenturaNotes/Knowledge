@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=fdDdkpzANNo
-Reviewed: false
 ---
 - ![[Screenshot 2025-05-14 at 1.38.13 AM.png]]
 	- Deduction Rules: Modus Ponens and modus Tollens

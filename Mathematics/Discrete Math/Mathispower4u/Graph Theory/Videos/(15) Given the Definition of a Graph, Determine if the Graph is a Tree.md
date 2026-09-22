@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dnQDG7jiYVk
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-08 at 9.43.21 AM.png]]
 	- Which graphs are trees?

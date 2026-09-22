@@ -2,7 +2,6 @@
 Source:
   - https://www.youtube.com/playlist?list=PLJMXXdEk8kMBFbks4UMWWxk9tnFAcyCv2
 Length: 1 hour, 59 minutes, 14 seconds
-Reviewed: false
 ---
 - Complete
 - Incomplete

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=mYx7gtnDRzM
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 1.55.26 AM.png]]
 	- [[cation]] $\to$ Donates 1 or more electrons

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=1PLvS0Fn2pE
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-04 at 4.40.58 AM.png]]
 	- $\Delta x$ is always positive

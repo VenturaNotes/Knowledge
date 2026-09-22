@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0VBqlUJi3JQ
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-14 at 11.51.48 AM.png]]
 	- Solving recurrence relations: Inspection

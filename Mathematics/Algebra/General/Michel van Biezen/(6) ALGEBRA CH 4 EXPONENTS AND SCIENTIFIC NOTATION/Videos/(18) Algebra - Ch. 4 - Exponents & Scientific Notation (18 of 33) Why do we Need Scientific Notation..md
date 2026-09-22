@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=6S4mcOKXqZg
-Reviewed: false
 ---
 - We need scientific notation to express numbers that are very large or very small
 - Examples

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3V0F0kLQAoY
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-24 at 5.39.43 PM.png]]
 	- SOH-CAH-TOA

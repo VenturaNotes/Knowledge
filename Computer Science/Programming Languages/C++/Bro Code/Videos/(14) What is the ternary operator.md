@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dWsjatPhWHQ
-Reviewed: false
 ---
 - [[ternary operator]]
 	- Represented by ?: which is a replacement to an if/else statement

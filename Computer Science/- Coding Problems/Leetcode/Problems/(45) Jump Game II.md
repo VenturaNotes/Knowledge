@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/jump-game-ii/
-Reviewed: false
 ---
 ## Synthesis
 - 

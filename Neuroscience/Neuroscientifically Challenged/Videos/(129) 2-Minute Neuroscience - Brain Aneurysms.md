@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ZRjJp4Jl1QM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.51.06 PM.png]]
 	- A brain aneurysm is a weakened area in the lining of a blood vessel in the brain where blood accumulates, causing a bulging of the blood vessel wall. While estimates vary, it is thought that brain aneurysms may occur in somewhere between 2 and 5% of the population. Most brain aneurysms, however, do not cause any symptoms, but larger aneurysms may cause symptoms by putting pressure on brain tissue and in a small percentage of cases, an aneurysm may rupture. The rupture of a brain aneurysm can cause bleeding into the area surrounding the brain---a condition known as subarachnoid hemorrhage. Subarachnoid hemorrhage is an extremely dangerous situation with high rates of fatality. 

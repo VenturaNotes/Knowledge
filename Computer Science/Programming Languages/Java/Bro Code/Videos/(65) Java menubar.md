@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=7nEal9SJ6oI
-Reviewed: false
 ---
 ```java
 import java.awt.FlowLayout;

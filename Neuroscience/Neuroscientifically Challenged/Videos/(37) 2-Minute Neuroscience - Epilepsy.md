@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=OGFQhLPaaOQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.12.38 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss epilepsy. Epilepsy is a chronic condition that is characterized by recurrent seizures; seizures are temporary disruptions of normal brain activity caused by excessive neural activity. Epilepsy can have genetic and acquired causes, but in most cases the cause is not known. Seizures can look drastically different depending on the patient, ranging from a brief and subtle interruption in consciousness to violent convulsions. 

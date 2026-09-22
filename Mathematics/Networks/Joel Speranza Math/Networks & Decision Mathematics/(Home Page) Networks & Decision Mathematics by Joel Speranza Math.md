@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL3NllU3-qaWLkphteZlVrqZZ-W_1_CrBN
 Length: 1 hour, 44 minutes, 48 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Networks intro to trees]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=L-ta6mIJQ0Y
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 6.09.30 PM.png]]
 	- [[Polynomial function]]

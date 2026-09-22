@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9fJsrnE1go0
-Reviewed: false
 ---
 - Image
 	- We know what functions do

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=trKPgSbsZcs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.28.29 PM.png]]
 	- [[Serotonin-norepinephrine reuptake inhibitors]], or SNRIs, first appeared on the market in 1993 with the introduction of venlafaxine. Several others, like duloxetine, would be introduced in the following decades. Most SNRIs were primarily developed for the treatment of depression, but some are now also used to treat a variety of other conditions like anxiety and chronic pain. The development of SNRIs was guided by research that suggests neurotransmitters like serotonin and norepinephrine play a role in depression. Specifically, this research suggests that low levels of these neurotransmitters might contribute to the symptoms of depression. 

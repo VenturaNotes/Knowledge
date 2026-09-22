@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/5TFPLNSM?page=1&annotation=AW3L4CGD
 Length: "642"
 Progress: "1"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## (1) Basic Enumeration
 ### (1.1) partitions of sets and numbers

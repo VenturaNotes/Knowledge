@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rG2q77qunSw
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-31 at 11.52.45 PM.png]]
 	- [[Covector components]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=72GtkP6nP_A
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 1.41.37 AM.png]]
 	- Geometric and algebraic methods shown

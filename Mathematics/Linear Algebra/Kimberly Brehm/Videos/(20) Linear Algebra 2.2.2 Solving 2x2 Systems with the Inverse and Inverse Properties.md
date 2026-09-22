@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=XE1WlvE1Iig
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 9.36.28 PM.png]]
 	- Solving systems with the inverse and inverse properties

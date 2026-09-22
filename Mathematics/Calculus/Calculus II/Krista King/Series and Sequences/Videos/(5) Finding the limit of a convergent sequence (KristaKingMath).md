@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=8g6RNH50zP8
-Reviewed: false
 ---
 - Find the limit of the convergent sequence
 	- Image

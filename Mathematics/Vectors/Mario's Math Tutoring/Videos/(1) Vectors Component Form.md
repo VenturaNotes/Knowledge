@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=wz5AvyKWjb8
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 12.58.31 PM.png]]
 	- Component form of a [[vector]]

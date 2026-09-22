@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0BmSo_M3iKo
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 9.26.39 AM.png]]
 	- Why implicit Differentiation

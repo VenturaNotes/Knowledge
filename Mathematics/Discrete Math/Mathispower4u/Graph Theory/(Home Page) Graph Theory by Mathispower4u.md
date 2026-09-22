@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLROOIV7hGpZgYfHsJDlAAQh1ngyfIIBDP
 Length: 3 hours, 34 minutes, 32 seconds
 tags:
   - type/playlist
-  - status/incomplete
-Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Graph Theory]]

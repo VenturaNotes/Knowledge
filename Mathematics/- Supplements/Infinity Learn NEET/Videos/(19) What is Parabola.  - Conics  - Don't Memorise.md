@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=yh1omjP-IJA
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 7.22.08 PM.png]]
 	- Shape of [[dish satellite]]?

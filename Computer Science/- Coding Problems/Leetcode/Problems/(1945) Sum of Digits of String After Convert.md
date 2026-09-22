@@ -2,7 +2,6 @@
 Source:
   - https://leetcode.com/problems/sum-of-digits-of-string-after-convert/
 Approaches: "1"
-Reviewed: false
 ---
 ## Synthesis
 ### My Solution

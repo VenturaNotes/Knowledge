@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ADSThPu6l8M
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-09 at 9.38.02 PM.png]]
 	- We have a system of linear equations given

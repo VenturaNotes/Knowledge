@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=zCiWrV3T2s8
-Reviewed: false
 ---
 - Whatever we do to the numerator, we must do exactly the some to the denominator
 - Look for lowest prime number first

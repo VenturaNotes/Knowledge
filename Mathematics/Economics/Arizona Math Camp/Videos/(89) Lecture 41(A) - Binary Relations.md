@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=M1OsajlrLQY
-Reviewed: false
 ---
 ## Binary Relations
 - Definition: A binary relation between (members of) sets X and Y is a subset of X $\times$ Y.

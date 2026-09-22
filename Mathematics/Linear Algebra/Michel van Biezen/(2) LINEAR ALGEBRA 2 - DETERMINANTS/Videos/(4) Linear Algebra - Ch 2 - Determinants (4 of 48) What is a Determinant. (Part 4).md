@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=JlzJJWi2dIM
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-27 at 4.14.29 PM.png]]
 	- Determinants are used for

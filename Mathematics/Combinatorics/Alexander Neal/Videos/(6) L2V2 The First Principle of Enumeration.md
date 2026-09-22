@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=I-wjYgRyAg0
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-08 at 11.53.45 AM.png]]
 	- [[The first principle of enumeration]]

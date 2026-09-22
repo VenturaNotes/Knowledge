@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=PEnFFiQe1pM
-Reviewed: false
 ---
 - ![[Screenshot 2024-10-04 at 3.15.08 PM.png]]
 	- Static and Dynamic Arrays

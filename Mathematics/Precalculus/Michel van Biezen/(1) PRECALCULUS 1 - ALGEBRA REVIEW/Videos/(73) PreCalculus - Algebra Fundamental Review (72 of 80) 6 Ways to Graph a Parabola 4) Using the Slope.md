@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=w_-PkWYtHdc
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-05 at 5.23.08 AM.png]]
 	- $f(x + \Delta x )$

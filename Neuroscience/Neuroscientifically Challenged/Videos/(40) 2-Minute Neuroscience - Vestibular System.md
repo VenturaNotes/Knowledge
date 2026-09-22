@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=P3aYqxGesqs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.24.22 PM.png]]
 	- In this installment I will discuss the vestibular system. The vestibular system is a sensory system responsible for providing our brain with information about motion, head position, and spatial orientation; it also is involved with motor functions that allow us to keep our balance, stabilize our head and body during movement, and maintain posture. 

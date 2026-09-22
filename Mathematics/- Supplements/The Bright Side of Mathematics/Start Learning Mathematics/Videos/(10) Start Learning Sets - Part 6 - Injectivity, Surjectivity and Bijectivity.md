@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CSzJchEvfpE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-11 at 11.13.01 PM.png]]
 	- Will talk about [[injectivity]], [[surjectivity]], and [[bijectivity]]

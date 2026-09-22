@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=SzZaQnzstfE
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 1.51.38 AM.png|500]]
 	- $P_n({\mathbb{R}})$: Polynomials of degree less than or equal to n

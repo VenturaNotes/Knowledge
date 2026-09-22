@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/distinct-subsequences/
-Reviewed: false
 ---
 ## Synthesis
 - 

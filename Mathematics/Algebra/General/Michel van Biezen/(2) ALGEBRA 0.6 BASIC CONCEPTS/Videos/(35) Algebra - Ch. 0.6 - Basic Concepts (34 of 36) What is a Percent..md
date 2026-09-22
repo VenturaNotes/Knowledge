@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=lMj-eSNRJVU
-Reviewed: false
 ---
 - What do we mean when we state:
 	- The plane is 60% full

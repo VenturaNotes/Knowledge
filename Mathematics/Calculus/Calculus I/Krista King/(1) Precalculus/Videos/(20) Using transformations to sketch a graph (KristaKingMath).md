@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=MGDkwEpfHZI
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 10.04.58 PM.png]]
 	- [[Transformation|Transformations]] to sketch the graph of a function

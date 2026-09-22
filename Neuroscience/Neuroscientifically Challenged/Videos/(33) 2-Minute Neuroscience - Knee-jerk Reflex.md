@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=c-dD0N53QRg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 5.54.02 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the knee-jerk reflex. The knee-jerk reflex, also known as the patellar reflex, is a well-known example of a simple reflex arc that allows us to maintain posture and balance. Most of us have had our knee-jerk reflex tested at a doctor's visit when the doctor taps the tendon just below your kneecap, which is the patellar tendon, with a small hammer. This causes your lower leg to automatically kick outward. If this doesn't happen, or if it happens excessively, it can be an indication of a disorder or of damage to the nervous system.

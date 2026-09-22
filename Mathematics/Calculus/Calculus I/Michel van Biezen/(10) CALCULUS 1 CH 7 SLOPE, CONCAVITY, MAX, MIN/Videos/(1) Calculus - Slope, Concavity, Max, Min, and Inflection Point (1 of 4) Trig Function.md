@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=AY0MUskpaHQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 7.40.33 PM.png]]
 	- [[Slope]]: Steepness of a function at particular places

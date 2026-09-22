@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/palindrome-number
-Reviewed: false
 tags:
   - in-progress
 ---

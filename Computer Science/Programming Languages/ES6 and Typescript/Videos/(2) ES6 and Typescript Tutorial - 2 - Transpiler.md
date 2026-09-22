@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=dVut_aE2XX8
-Reviewed: false
 ---
 - Transpilers
 	- New features in ES2015

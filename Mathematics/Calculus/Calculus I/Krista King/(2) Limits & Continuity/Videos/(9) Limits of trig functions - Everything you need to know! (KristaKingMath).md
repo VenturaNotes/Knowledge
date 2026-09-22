@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=bOYGR_QW7Ok
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-03 at 10.49.59 PM.png]]
 	- When evaluating a [[trigonometric limit]], you usually want to simplify the function into one of the following forms

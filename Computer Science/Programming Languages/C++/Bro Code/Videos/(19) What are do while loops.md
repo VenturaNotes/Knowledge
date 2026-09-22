@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3xcXse7DK5s
-Reviewed: false
 ---
 - do while loop = do some block of code first, then repeat again if condition is true.
 ```c++

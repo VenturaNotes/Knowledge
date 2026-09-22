@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=1Qg7A0qb62I
-Reviewed: false
 ---
 - ![[Screenshot 2022-12-31 at 2.54.53 AM.png]]
 - Find the perimeter of each rectangle

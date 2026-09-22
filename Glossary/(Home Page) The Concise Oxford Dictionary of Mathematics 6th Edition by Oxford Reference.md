@@ -5,7 +5,6 @@ Length: "4114"
 tags:
   - status/incomplete
   - type/website
-Reviewed: false
 Year: 2021-09-01
 ---
 ## Researched
@@ -4569,9 +4568,10 @@ Year: 2021-09-01
 ## Create
 1. [[systematic sampling]]
 2. Système International d'Unités
-3. system of particles
-4. systems analysis
-5. Szemerédi's theorem
+	1. See SI Units
+3. [[system of particles]]
+4. [[systems analysis]]
+5. [[Szemeredi's theorem]]
 6. T
 7. T
 8. T

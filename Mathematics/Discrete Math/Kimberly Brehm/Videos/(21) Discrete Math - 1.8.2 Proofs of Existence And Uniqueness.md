@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=uNbt-ABKpj4
-Reviewed: false
 ---
 - Constructive Proof Example
 	- ![[Screenshot 2022-12-17 at 8.15.34 PM.png]]

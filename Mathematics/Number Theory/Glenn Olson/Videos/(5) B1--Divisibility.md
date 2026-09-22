@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ao08N2D4LAk
-Reviewed: false
 ---
 - Divisibility is the foundation of number theory
 

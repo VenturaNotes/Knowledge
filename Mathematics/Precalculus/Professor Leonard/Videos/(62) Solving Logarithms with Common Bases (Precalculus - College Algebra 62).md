@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=82fonULPl64
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 4.36.44 AM.png]]
 	- If $log_ax = log_ay$, then x=y

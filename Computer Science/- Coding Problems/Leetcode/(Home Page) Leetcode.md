@@ -4,9 +4,7 @@ Source:
   - https://leetcode.com/problemset/all/
 Length: "1957"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 parent:
   - "[[(T) Applying to Jobs]]"
   - "[[(T) Interview Prep]]"

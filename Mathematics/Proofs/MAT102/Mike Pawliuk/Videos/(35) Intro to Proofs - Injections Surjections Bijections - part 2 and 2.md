@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Smb9qBH3YbE
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 1.43.55 AM.png]]
 	- Slide 12 - (5) Exercises

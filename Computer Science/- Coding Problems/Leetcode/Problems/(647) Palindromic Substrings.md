@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/palindromic-substrings/
-Reviewed: false
 ---
 ## Synthesis
 - 

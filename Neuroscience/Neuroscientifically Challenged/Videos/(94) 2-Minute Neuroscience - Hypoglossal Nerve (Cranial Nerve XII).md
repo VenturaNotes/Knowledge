@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GVSR2dDOKh8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.07.36 PM.png]]
 	- The hypoglossal nerve is a motor nerve that controls all of the muscles of the tongue (except for one, the palatoglossus, which is controlled by the vagus nerve). The tongue muscles consist of what are known as intrinsic muscles, which control the shape of the tongue, and extrinsic muscles, which act to protrude, retract, elevate, and move the tongue side to side. Healthy function of the hypoglossal nerve is thus critical for things like eating, swallowing, and speaking. 

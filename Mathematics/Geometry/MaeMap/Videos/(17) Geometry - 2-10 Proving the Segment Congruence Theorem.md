@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=lzZpvEsYyg4
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 9.32.10 PM.png]]
 	- Segment Congruence Theorem

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tyoukQr2_ck
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 8.02.33 AM.png]]
 	- What is a [[derivative function]]

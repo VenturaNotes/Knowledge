@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=C4KWregacqQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-30 at 9.44.32 PM.png|300]]
 	- Need to simplify/factor first

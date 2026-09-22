@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FhbQBrX3Kq0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.58.22 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss the trigeminal nerve. The trigeminal nerve is the main sensory nerve of the head. It carries information about touch, pain, temperature, and proprioception, or the awareness of the position of muscles and joints. It also controls the muscles involved with chewing, as well as the tensor tympani, a small muscle in the middle ear that helps to dampen the sound of loud noises, and the tensor veli palatini, a muscle that both helps prevent food from entering the nasopharynx during swallowing and opens a small tube called the eustachian tube, which connects the upper throat with the middle ear. This helps to equalize pressure between the middle ear and outside air. 

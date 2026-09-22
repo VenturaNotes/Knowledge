@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=wGXoYippog8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-24 at 3.45.42 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss taste. The tongue is covered with many little bumps, which are sometimes mistakenly called taste buds. These small lumps of tissue, however, are known as papillae. 

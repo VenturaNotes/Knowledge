@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=12029s
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 7.52.29 PM.png]]
 	- A function that can be written in the form $f(x) = ax^2 + bx + c$

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=lN6uoDx92Vk
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-24 at 5.21.16 PM.png]]
 	- [[Periodic Functions]]

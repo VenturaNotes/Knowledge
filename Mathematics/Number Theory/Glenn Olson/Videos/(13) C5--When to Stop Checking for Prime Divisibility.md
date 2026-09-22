@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=sFQit2yJm4g
-Reviewed: false
 ---
 - C5. a)
 	- Check to see if 401 is prime

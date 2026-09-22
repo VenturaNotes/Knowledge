@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/first-missing-positive/
-Reviewed: false
 tags:
   - in-progress
 ---

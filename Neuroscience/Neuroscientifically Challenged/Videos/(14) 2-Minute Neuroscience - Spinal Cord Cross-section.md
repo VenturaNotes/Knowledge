@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=fbt3H3JxRMA
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 3.21.23 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the spinal cord in cross-section. When you look at the spinal cord in cross-section at any level you will see a butterfly shaped region of grey matter surrounded by white matter. The grey matter is made up of cell bodies of neurons while the white matter consists of axons that travel up the spinal cord to the brain and down the spinal cord to the body. There is a small groove called the posterolateral sulcus where dorsal roots enter the cord carrying sensory information. There is another groove that is not very distinct on the front of the cord called the anterolateral sulcus. Ventral roots leave the cord from the anterolateral sulcus to carry motor information to the muscles. 

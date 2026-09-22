@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=iVk9r3evQ3w
-Reviewed: false
 ---
 - ![[Pasted image 20230424164553.png]]
 	- There is a [[central angle]] because it starts at the center of the circle and goes out

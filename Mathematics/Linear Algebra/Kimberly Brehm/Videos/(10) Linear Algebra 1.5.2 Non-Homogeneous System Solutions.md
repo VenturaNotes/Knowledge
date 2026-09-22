@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jsyutdYtOc4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 6.34.31 AM.png]]
 	- [[Nonhomogeneous system]] solutions

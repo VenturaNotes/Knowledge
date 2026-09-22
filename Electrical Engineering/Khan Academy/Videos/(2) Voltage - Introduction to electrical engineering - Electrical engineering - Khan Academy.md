@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=k9SwNST1eW0
-Reviewed: false
 ---
 - ![[Screenshot 2025-04-28 at 6.26.16 PM.png]]
 	- [[Voltage]] is one of the most important quantities and ideas in electricity

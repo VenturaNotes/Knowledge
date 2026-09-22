@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=dheuJkuSNyI
-Reviewed: false
 ---
 - Methods of proof
 	- Proof by cases (Exhaustion)

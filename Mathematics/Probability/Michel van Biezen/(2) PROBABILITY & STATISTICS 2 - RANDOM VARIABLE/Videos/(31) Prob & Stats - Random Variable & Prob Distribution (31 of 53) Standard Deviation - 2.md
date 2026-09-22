@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XiTMW8-aXXM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-28 at 9.09.09 PM.png]]
 	- [[Population standard deviation]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FR2UptJyaSM
-Reviewed: false
 ---
 ```java
 // You might want to add frame.setVisible(true) to be the very last line. 

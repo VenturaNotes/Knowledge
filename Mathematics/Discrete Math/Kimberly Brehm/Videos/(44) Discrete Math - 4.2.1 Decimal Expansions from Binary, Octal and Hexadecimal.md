@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tvsArHvVRPw
-Reviewed: false
 ---
 - ![[Screenshot 2026-02-25 at 3.55.36 AM.png]]
 	- Modular arithmetic deals with bases of numbers. Mod 3 addition is base 3

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=mO3VngytG1c
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-29 at 5.48.50 AM.png]]
 	- Find a sequence

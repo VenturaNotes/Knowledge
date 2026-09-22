@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLpcwHaLYiaEXW5fLNOlItPH4ATorKjBuc
 Length: 29 hours, 4 minutes, 37 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Linear Algebra - Introduction to Linear Systems (Full Lecture)]]

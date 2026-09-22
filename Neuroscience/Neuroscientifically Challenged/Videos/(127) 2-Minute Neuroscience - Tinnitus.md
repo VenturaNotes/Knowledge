@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=kiXPoTyTlt4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.47.13 PM.png]]
 	- [[Tinnitus]], sometimes called “ringing in the ears,” involves hearing a sound that cannot be linked to an external stimulus. The nature of the perceived sound can vary in complexity, but common manifestations include ringing, hissing, or sizzling. Prevalence estimates vary, but most studies suggest tinnitus occurs in somewhere between 10 and 15% of the population. Although most cases are manageable, severe cases of tinnitus can significantly impact quality of life. Tinnitus can occur as a symptom linked to a number of different conditions, and thus there is not a single mechanism that can explain all cases. The most common predisposing condition, however, is hearing loss, which is found in up to 90% of patients with tinnitus. 

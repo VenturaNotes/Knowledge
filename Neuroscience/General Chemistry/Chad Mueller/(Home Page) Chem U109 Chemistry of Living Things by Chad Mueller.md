@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/X29KZPQK?page=1&annotation=2NBPALK4
 Length: "515"
 Progress: "1"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## (1) Chemistry, Matter, and Measurement
 ### Chapter Overview

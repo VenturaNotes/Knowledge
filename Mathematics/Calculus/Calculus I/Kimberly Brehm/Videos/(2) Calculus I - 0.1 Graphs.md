@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LWuN4IX9dEE
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 1.57.31 AM.png]]
 	- The Graph of an equation

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=IQiHJMqEfXk
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 8.12.10 PM.png]]
 	- Rotation of $180\degree$, center the origin

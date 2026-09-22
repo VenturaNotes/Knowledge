@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ufjEv-5nmcA
-Reviewed: false
 ---
 ## Ordered Pairs (a, b)
 - Order Matters

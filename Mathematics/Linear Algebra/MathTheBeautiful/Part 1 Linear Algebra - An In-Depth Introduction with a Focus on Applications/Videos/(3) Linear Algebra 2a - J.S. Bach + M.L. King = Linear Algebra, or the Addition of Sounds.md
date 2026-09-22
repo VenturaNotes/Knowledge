@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=sNigRX9-z1A
-Reviewed: false
 ---
 - ![[Screenshot 2025-10-23 at 2.51.09 PM.png]]
 	- The eye receives 100 million individual signals, the ear receives a single one (which is the sum of all the available sounds)

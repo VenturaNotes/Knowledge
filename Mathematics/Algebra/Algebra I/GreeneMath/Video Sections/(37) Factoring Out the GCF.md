@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=54232s
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-16 at 2.47.13 PM.png]]
 	- Will learn how to write a polynomial as a product

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVN2RUUtmJHGcAuYTXQ-yqq
 Length: 1 hour, 9 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Chemistry - Nomenclature Fundamentals - I Ionic Compounds (13 of 23)]]

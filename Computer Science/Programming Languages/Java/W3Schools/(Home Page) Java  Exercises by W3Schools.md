@@ -11,7 +11,6 @@ tags:
   - status/complete
 Source:
   - https://www.w3schools.com/java/java_exercises.asp
-Reviewed: false
 completedDate: 2026-02-19
 ---
 ## Syntax

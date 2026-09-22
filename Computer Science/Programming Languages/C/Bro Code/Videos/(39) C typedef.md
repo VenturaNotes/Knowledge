@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=CI9dRTvzgqE
-Reviewed: false
 ---
 ```C
 // you can use structs to assign each member in order.

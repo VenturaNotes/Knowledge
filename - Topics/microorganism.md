@@ -1,3 +1,7 @@
+---
+aliases:
+  - microbe
+---
 ## Synthesis
 - 
 ## Source [^1]

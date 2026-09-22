@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FKakY7Svc9Y
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.54.12 PM.png]]
 - MDMA, better known as ecstasy, molly, or one of a number of other street names, is a stimulant drug that is chemically related to amphetamine. Like other stimulants, MDMA causes increased alertness and a positive mood. But MDMA's effects are also distinct from the effects of other stimulants, as the drug causes unique prosocial effects such as strong feelings of trust, openness, and closeness with others.

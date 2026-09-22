@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=1fjMECHyGis
-Reviewed: false
 ---
 - ![[Pasted image 20260512181435.png]]
 	- 12 friends go to dinner

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=H-1FcTmGGXI
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 2.10.39 AM.png]]
 	- Learning the interface of VBA

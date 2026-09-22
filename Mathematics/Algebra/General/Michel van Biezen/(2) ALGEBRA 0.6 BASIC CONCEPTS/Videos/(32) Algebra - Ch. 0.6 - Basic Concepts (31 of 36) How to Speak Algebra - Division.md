@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jPqNcTzGgiU
-Reviewed: false
 ---
 - Write as an algebraic expression
 	- (1) A number <mark style="background: #FFF3A3A6;">divided by</mark> five

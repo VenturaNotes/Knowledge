@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=HsbMt1LaG5s
-Reviewed: false
 ---
 - Expressions are often used for representations of real things.
 - Find the surface area of the cylinder

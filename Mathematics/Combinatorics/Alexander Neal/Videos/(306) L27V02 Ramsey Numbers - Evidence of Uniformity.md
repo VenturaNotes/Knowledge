@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Sh_fxPDuzL0
-Reviewed: false
 ---
 ## Ramsey Numbers
 - Definition

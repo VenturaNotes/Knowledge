@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=KCMGWRoPuMY
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-10 at 2.14.05 AM.png]]
 	- Quadrilaterals are just shapes with 4 sides

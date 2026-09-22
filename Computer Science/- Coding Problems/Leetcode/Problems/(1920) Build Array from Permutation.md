@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/build-array-from-permutation/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

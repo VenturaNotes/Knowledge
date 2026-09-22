@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=PD6pd6AMoOI
-Reviewed: false
 ---
 ```java
 import java.awt.BorderLayout;

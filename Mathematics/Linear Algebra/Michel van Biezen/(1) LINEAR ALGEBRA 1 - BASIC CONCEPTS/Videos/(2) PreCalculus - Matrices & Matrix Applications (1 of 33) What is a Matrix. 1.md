@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=pSgaeGFyLH0
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 4.07.05 AM.png]]
 	- [[System of Linear Equations]]

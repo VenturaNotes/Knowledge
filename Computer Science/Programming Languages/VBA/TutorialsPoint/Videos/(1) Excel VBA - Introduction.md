@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FGQ0P9jTjU0
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 1.52.44 AM.png]]
 	- Introduction to [[Visual Basic for Application|VBA]] which is visual basic for applications

@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/9WTIQHYF?page=1&annotation=TEYRRUUP
 Length: "247"
 Progress: "15"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Note
 - Revision Date: January 15, 2021

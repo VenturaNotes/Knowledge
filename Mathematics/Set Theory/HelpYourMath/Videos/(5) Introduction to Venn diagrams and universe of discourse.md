@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=3ICaRdDVy_c
-Reviewed: false
 ---
 ---
 - Universe of Discourse

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1B2TZNkYWZU
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.10.57 PM.png]]
 	- The term meninges refers to 3 membranes that surround the brain and spinal cord: the dura mater, the arachnoid mater, and the pia mater. The meninges protect and provide structural support for the brain as well as contain cerebrospinal fluid. Meningitis is an inflammation of the meninges. This inflammation is typically caused by an infection, although there are non-infectious causes of meningitis as well. A variety of pathogens can cause meningitis, but the most severe cases tend to involve bacterial infections. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=2yBhDsNE0wg
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 3.12.25 PM.png]]
 	- Find the roots of the quadratic equation

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-Rsid-5VADY
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.23.51 AM.png]]
 	- Lucid dreaming occurs when someone who is dreaming becomes aware they are dreaming. In some cases, people report being able to make decisions and manipulate the content of their dreams during a lucid dreaming episode. While there has historically been some skepticism about lucid dreaming, researchers have confirmed the occurrence of lucid dreaming through various methods. For example, one approach involves instructing individuals to make specific eye movements upon entering a lucid dreaming state. Using this method, scientists have observed lucid dreamers making the specific eye movements as instructed, even though their brain activity indicated they were asleep. These types of methods have helped to verify lucid dreaming as a real sleep phenomenon. Neuroscientists, however, are still investigating what happens in the brain to allow lucid dreams to occur. 

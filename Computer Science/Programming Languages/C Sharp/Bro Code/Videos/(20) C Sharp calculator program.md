@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=w1mah-sjWUc
-Reviewed: false
 ---
 - [[String Interpolation]]
 	- Example

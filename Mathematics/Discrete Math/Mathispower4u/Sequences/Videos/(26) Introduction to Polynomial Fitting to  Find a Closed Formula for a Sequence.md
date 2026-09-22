@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5n4GrgztIsM
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-13 at 10.12.17 AM.png]]
 	- Polynomial Fitting to Determine a Closed Formula for a Sequence

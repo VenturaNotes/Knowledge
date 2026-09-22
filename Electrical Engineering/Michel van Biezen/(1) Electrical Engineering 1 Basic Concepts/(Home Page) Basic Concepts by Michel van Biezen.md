@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXAQHPsgcokk4aCHZUKFuho
 Length: 31 minutes, 6 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Electrical Engineering - Basic Concepts  (1 of 7) Content]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ai7QnHS7C7g
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.51.37 PM.png]]
 	- I will discuss the [[optic nerve]]. The optic nerve is a sensory nerve responsible for transmitting information about vision to the brain. The nerve begins in the retina as the axons of cells called retinal ganglion cells. These axons come together to leave the eye at a region called the optic disc and form the optic nerve. 

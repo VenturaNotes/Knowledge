@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=mOMoZYGirQQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 11.56.46 AM.png]]
 	- Intersection

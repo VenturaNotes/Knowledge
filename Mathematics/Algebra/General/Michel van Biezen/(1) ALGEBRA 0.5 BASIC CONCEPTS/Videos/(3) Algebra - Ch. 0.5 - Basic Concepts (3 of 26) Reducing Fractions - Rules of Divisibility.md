@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=gVSQ8NoMEsU
-Reviewed: false
 ---
 - Whatever we do to the numerator we must do exactly the same to the denominator
 - Prime Numbers

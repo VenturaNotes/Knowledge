@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=sX9ZSdzx9gU
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-24 at 12.41.23 PM.png]]
 	- A [[set]] is an unordered collection of distinct objects ^a04f9c

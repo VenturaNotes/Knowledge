@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/get-maximum-in-generated-array/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

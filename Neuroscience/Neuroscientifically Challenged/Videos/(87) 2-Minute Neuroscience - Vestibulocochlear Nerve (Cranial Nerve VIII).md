@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=OZvIk76cSAI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.11.45 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss the vestibulocochlear nerve. The vestibulocochlear nerve consists of a vestibular and cochlear component, which have the functions of carrying information to the brain from the vestibular system and the cochlea, respectively. The information from the cochlea deals with hearing, while the information from the vestibular system deals with vestibular sensations, which include information about head position and movement. This vestibular information enables us to keep our balance, stabilize our head and body during movement, and maintain posture. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=nA_yXiV5mYQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 11.49.37 PM.png]]
 	- e $\approx$ 2.71828...

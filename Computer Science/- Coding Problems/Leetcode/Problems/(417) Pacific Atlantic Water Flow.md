@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/pacific-atlantic-water-flow/
-Reviewed: false
 ---
 ## Synthesis
 - 

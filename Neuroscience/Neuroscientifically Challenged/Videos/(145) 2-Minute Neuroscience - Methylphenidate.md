@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JTQQkC23hyY
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.25.38 AM.png]]
 	- Methylphenidate is a stimulant medication primarily used to treat ADHD, although it is sometimes also used to treat daytime sleepiness associated with narcolepsy and has several other off-label uses. Methylphenidate is better known as Ritalin or Concerta, which are two of the numerous brand names the drug is sold under. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=19167s
-Reviewed: false
 ---
 - Intro
 	- Solving Exponential Equations - Applications

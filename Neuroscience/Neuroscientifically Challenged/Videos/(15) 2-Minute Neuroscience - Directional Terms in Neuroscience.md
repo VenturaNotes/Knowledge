@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=a7uU1c1iElM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 3.27.41 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss directional terms in neuroscience. There are several terms that we use to indicate direction in neuroscience. Some are very straightforward. For example, superior always means towards the top of the head, inferior always means towards the feet. Likewise, anterior always refers to the front of the body or the brain, while posterior always refers to the back of the body or the brain.

@@ -5,7 +5,6 @@ Length: 14 minutes, 17 seconds
 tags:
   - status/incomplete
   - type/video
-Reviewed: false
 ---
 - Statement (problem was unsolved for 125 years. Solved in 1970s)
 	- Every map can be colored using four colors such that two neighboring countries are different colors.

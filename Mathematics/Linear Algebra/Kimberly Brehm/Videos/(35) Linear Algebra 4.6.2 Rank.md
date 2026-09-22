@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=1MYkWhpuLtY
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-13 at 10.55.27 PM.png]]
 	- Will learn about [[rank]] and rank theorem

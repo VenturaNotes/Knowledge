@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=yqgWg0g6c1Y
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 12.34.57 PM.png]]
 	- Sets

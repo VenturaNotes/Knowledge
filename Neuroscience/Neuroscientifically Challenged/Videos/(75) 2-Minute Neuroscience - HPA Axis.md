@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=QAeBKRaNri0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.35.30 PM.png]]
 	- In this installment I will discuss the [[HPA axis]]. The hypothalamic-pituitary-adrenal, or HPA, axis is best known for its role in our body's reaction to stress. The HPA axis includes a group of hormone-secreting glands from the nervous and endocrine systems: the hypothalamus, pituitary gland, and adrenal glands. The hypothalamus is a small neuroendocrine structure situated just above the brainstem that controls the release of hormones from the pituitary gland, a hormone-secreting gland that sits just below the hypothalamus. The pituitary gland can release hormones into the bloodstream to reach a variety of targets. In the case of the HPA axis, hormones released from the pituitary gland travel down to the kidneys and influence the secretion of hormones from endocrine glands called the adrenal glands, which sit on top of the kidneys. 

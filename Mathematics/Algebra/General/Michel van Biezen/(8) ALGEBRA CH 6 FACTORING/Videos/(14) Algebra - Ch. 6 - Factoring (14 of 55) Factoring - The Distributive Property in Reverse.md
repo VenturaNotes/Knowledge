@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=KbQup9dTagE
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-26 at 12.47.13 PM.png]]
 	- Using the distributive property to multiply two binomials

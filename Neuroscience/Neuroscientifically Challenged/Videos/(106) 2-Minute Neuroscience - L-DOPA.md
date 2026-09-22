@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dwu17GTKihA
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.32.39 PM.png]]
 	- [[L-DOPA]] is an amino acid involved in the synthesis of the neurotransmitter dopamine. When dopamine is produced in the brain, the amino acid tyrosine is first converted to L-DOPA and then L-DOPA is converted to dopamine. While dopamine administered as a drug cannot pass the blood-brain barrier to enter the brain, L-DOPA can, and this characteristic has helped to make L-DOPA the most common treatment for Parkinson's disease.

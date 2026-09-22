@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ypV7r1ODZCA
-Reviewed: false
 ---
 Code
 ``` Go

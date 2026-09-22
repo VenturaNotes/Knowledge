@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/reverse-string/
-Reviewed: false
 Approaches: "1"
 tags:
   - in-progress

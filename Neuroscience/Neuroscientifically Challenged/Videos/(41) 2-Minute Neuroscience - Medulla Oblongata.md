@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=R6XtJOeuhNg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.27.16 PM.png]]
 	- In this installment I will discuss the [[medulla oblongata]]. The medulla oblongata, or the medulla, is the lowest part of the brainstem, found below the pons and above the spinal cord. There is no clear separation between the medulla and the spinal cord; instead the spinal cord gradually transitions into the medulla. 

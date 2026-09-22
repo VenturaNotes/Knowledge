@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JVvMSwsOXPw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.20.32 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the amygdala. The amygdala is a collection of nuclei found in the temporal lobe. There are two amygdalae, one in each cerebral hemisphere. The term amygdala means “almond,” referring to one of the most prominent nuclei of the amygdala that has an almond-like shape. 

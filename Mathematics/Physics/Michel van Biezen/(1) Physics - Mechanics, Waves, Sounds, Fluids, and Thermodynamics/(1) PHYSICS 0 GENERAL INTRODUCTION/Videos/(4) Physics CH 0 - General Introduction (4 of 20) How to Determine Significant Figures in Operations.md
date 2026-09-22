@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=a--TED4vi-I
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-22 at 6.03.13 PM.png]]
 	- Rule for addition and subtraction: 

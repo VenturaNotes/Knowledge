@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=puSczyatc3g
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 5.58.59 AM.png]]
 	- Find x and y

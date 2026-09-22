@@ -5,5 +5,4 @@ Length: 1 hour, 4 minutes, 4 seconds
 tags:
   - type/video
   - status/incomplete
-Reviewed: false
 ---

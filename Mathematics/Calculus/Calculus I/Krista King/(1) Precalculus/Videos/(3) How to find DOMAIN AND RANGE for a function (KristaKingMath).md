@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=MnfYLGjauFc
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 3.44.47 PM.png]]
 	- Find the [[Domain (Math)|domain]] and [[range]] of the function

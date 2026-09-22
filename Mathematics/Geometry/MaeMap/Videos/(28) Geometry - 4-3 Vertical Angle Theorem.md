@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ASXnzJlCOd8
-Reviewed: false
 ---
 - ![[Pasted image 20230406231352.png]]
 	- Vertical Angle Theorem: If two angles are vertical angles, then they are congruent.

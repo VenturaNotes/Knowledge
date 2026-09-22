@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=0dzNlrNJYdc
-Reviewed: false
 ---
 ## Relations
 - Example: a < b

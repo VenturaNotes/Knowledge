@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=zXKzoxdJ-8A
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-03 at 6.47.23 PM.png]]
 	- Find each limit and the value of the function

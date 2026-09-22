@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9qNt13lLq4w
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.34.49 PM.png]]
 	- Calculating the below with even # of data points

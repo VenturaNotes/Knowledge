@@ -1,10 +1,9 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/MYT3I6V5?page=1&annotation=EJRFBX8R
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 - (1) Differentiate the following functions:
 	- (a) $f(x) = 6x^3 + 2x^2 - x + 12$

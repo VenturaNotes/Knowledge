@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=IHMmPVEOT64
-Reviewed: false
 ---
 - [[Array]]: A variable that can store multiple values. Fixed size
 

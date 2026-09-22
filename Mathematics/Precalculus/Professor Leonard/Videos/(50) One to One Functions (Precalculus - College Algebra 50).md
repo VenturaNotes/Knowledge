@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=C0Q_m2UDerc
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-08 at 3.09.37 PM.png]]
 	- A function where one input gives one unique output.

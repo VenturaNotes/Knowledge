@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=U6B4JNWtNpw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.48.34 AM.png]]
 	- [[Frontotemporal dementia]], or FTD, is a term used to describe a collection of related brain disorders that involve the neurodegeneration of the frontal and temporal lobes. 

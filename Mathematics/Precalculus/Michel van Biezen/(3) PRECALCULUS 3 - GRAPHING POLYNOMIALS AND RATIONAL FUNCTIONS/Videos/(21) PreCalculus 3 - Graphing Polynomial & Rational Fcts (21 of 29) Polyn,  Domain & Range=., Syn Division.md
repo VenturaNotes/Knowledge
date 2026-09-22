@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=0GT7AP6t8XM
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-09 at 11.13.14 PM.png]]
 	- Method 3: [[Synthetic Division]]

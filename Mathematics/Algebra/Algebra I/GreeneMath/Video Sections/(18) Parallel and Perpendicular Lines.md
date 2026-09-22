@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=25851s
-Reviewed: false
 ---
 - [[Parallel lines]] are any two lines on a plane that will never intersect.
 - We can determine if two lines are parallel by examining the slope of each.

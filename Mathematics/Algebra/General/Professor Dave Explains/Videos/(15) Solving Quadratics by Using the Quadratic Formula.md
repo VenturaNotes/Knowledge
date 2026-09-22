@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=UTuxHsaH-gQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-17 at 1.08.11 AM.png]]
 	- Solving [[Quadratic|quadratics]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=27790s
-Reviewed: false
 ---
 - A [[linear inequality]] in two variables is of the form
 	- ax + by > c

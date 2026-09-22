@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZRLXDiiUv8Q
-Reviewed: false
 ---
 - Story of current starts with idea of charge
 - 2 kinds of charges

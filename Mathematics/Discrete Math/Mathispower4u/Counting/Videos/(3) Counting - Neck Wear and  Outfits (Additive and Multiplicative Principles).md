@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=hLHrKj5BJvQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-31 at 11.36.13 PM.png]]
 	- Additive and Multiplicative Principles

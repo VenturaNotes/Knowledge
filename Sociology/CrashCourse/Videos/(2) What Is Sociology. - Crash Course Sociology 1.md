@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=YnCJU6PaCio
-Reviewed: false
 ---
 ## Introduction
 - Sociology got its start thanks to a French philosopher named Auguste Comte in the 1800s

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=muwDbCKgW9o
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 2.58.33 PM.png]]
 	- Derivative of y "with respect to " x = $\frac {d}{dx}(y)$

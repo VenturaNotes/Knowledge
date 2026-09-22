@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=HVQMHiSaVps
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-27 at 7.22.28 PM.png]]
 	- Rules of a [[determinant]]

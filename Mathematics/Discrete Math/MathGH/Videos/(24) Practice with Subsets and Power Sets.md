@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=lBGucdbTq_8
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 3.39.42 PM.png]]
 	- Practice with [[Subset|subsets]] and [[Power Set|power sets]]

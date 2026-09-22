@@ -5,7 +5,6 @@ Length: 18 minutes, 25 seconds
 tags:
   - status/complete
   - type/video
-Reviewed: false
 ---
 ## Notes from Video
 - How to take notes

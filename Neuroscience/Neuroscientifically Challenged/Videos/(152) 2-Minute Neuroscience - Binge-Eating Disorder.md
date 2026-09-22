@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ig7SSrRT6LQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.26.02 AM.png]]
 	- Binge-eating disorder is characterized by binge-eating episodes where someone takes in a relatively large amount of food in a given period of time. This behavior occurs repeatedly-at least once a week on average for 3 months. People with binge-eating disorder feel unable to control their eating during a binge-eating episode, and they are distressed by the behavior, but they do not typically use compensatory methods such as inducing vomiting, as is done in other conditions like bulimia nervosa. 

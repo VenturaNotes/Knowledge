@@ -1,13 +1,12 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLZPZq0r_RZOMRMjHB_IEBjOW_ufr00yG1
 Length: 8 hours, 7 minutes, 6 seconds
 Related:
   - "[[JavaScript]]"
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) JavaScript tutorial for complete beginners]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=A_BwLCnLiws
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 10.34.06 PM.png]]
 	- If and Only If Statements

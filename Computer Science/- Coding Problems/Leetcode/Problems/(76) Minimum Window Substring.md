@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/minimum-window-substring/
-Reviewed: false
 ---
 ## Synthesis
 - 

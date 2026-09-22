@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=vPqQSKsxH4k
-Reviewed: false
 ---
 - Algorithms
 	- The specified steps of a procedure that takes a valid input and produces the desired output.

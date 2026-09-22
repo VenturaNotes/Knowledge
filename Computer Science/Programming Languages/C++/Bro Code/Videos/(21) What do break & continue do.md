@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=D2aQITtBhMM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 7.33.57 PM.png|400]]
 	- May see the "break" keyword in a switch statement

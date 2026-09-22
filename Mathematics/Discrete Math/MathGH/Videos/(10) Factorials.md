@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=HYl4qVmDZI4
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-04 at 5.28.50 PM.png]]
 	- [[Factorials]]

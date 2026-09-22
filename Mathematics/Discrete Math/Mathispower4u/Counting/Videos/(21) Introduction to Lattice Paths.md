@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=NT7SshgmJZk
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-07 at 1.17.55 PM.png]]
 	- Lattice Paths

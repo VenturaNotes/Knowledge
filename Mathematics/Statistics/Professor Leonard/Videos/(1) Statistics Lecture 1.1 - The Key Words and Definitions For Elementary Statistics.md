@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=9FtHB7V14Fo
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-17 at 6.28.26 PM.png]]
 - Key Words

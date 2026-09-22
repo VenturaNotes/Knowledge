@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=73GnajJ9jVM
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 8.37.53 AM.png]]
 	- [[Relate rates]]

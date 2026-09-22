@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=SY0ixs-_IGc
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 1.54.40 PM.png]]
 	- Cardinality of Sets

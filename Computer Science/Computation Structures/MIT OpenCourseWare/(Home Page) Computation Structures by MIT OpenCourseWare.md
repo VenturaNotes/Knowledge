@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
 Length: 19 hours, 17 minutes, 25 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Notes from [website](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/)
 	- Includes practice worksheets!

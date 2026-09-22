@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/WUIGJ52N?page=3&annotation=4D27LRZI
 Length: "722"
 Progress: "136"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## About the Author
 - Rod Stephens started out as a mathematician and studied at MIT

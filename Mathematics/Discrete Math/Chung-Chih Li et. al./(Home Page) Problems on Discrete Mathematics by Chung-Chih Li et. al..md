@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/5DLQIXBH?page=1&annotation=II6HK5AA
 Length: "428"
 Progress: "20"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## (I) Basic Concepts
 ### (0) Preliminary

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OlV190noZOw
-Reviewed: false
 ---
 - Image
 	- Solving Simultaneous Move Games

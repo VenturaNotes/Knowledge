@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=E2dN393P9lo
-Reviewed: false
 ---
 - ![[Pasted image 20230601124141.png]]
 	- How many subsets of a given set contain a particular set of elements

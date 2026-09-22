@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0x9_CRqshro
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.40.24 AM.png]]
 	- [[Post-traumatic stress disorder]], or PTSD, is a condition that develops after someone experiences a traumatic event. It involves the occurrence of intrusive symptoms like nightmares or distressing memories that are linked to the trauma and may cause the person to feel like they are reliving aspects of the traumatic event. These symptoms also lead to the avoidance of things that remind a person of the trauma. PTSD may cause various other issues such as difficulty sleeping, negative emotions like fear, guilt, or sadness, trouble concentrating, and irritability. 

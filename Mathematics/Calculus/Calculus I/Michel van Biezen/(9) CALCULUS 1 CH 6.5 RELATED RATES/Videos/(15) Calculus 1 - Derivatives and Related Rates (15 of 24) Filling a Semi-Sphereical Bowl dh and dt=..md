@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=aPKGndMLJ2g
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 5.31.30 PM.png]]
 	- [[Semi-spherical bowl]]

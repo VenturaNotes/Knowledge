@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=B1v2-nGXNzs
-Reviewed: false
 ---
 - A [[set]] is a collection of objects
 	- Examples

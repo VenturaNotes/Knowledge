@@ -1,4 +1,5 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/XPZ725WL?page=1&annotation=GZFMCDNJ
 Length: "177"
@@ -6,9 +7,7 @@ Progress: "1"
 Related:
   - "[[(Home Page) Mathematical Proofs by Mike Pawliuk]]"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 - Released July 19, 2018
 ## Preface

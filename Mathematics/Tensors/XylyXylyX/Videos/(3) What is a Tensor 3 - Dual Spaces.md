@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3QWMuhsY0Rc
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-29 at 4.57.31 PM.png]]
 	- [[vector space]]

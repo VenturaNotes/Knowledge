@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=gEVZErJH_yE
-Reviewed: false
 ---
 ```Pascal
 

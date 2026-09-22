@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=bmiPMRPbGi4
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-03 at 12.15.37 AM.png]]
 	- Plane

@@ -1,13 +1,12 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/TGUR9253?page=1&annotation=MJEPHAEZ
   - https://joshua.smcvt.edu/linearalgebra/
 Length: "525"
 Progress: "1"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Notation
 - $\mathbb{R}$: [[Real numbers]], $\mathbb{R^+}$: [[Positive reals]], $\mathbb{R^n}$: [[n-tuples of reals]]

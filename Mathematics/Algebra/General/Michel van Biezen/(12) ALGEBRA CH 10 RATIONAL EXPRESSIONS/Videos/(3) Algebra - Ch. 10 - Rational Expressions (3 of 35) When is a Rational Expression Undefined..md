@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=5flbRZ-4ejg
-Reviewed: false
 ---
 - Image
 	- A rational expression is a "fraction" in the form $\frac PQ$ 

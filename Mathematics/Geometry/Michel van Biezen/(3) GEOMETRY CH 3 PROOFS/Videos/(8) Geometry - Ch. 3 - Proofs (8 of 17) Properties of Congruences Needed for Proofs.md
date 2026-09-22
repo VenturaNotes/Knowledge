@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=RIrXVouVang
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-28 at 1.08.41 AM.png]]
 	- Properties of Congruences: Applied to line segments, angles, and right angles.

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=EIS-tWnVWAo
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 6.35.09 PM.png]]
 	- General equation for [[sine]] and [[cosine]]

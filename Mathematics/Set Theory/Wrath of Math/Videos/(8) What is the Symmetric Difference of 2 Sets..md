@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=UkFoUIokPrQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 12.22.15 PM.png]]
 	- $A \Delta B$ 

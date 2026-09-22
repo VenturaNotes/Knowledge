@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=oW5UusoWEY0
-Reviewed: false
 ---
 ```C
 //Enumerations are treated as integers and not strings

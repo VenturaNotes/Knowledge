@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=27702s
-Reviewed: false
 ---
 - Lesson Objectives:
 	- Gain a basic understanding of [[fraction|fractions]]

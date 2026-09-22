@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aXUq_EnX5Wk
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 1.44.08 PM.png]]
 	- Angle between vectors

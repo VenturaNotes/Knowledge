@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=pBSncknENRc
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.45.51 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss brain tumors. A brain tumor is an abnormal growth of cells that occurs in the brain. Brain tumors, like other tumors, can be benign or malignant. Malignant tumors grow much more rapidly than benign tumors, and frequently spread into surrounding brain tissue, whereas benign tumors tend to grow slowly and do not typically spread. Only malignant tumors are considered cancerous, but a benign brain tumor can still be problematic as its growth can impact neighboring brain tissue. If a brain tumor begins in the brain, it's called a primary brain tumor. If it spreads to the brain from some other location, it's known as a secondary brain tumor. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=JL2DXGFO8S8
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-11 at 2.29.22 PM.png]]
 	- Goal: Prove Theorems about Rationals

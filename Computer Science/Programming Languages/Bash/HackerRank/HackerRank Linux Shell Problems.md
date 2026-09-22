@@ -5,7 +5,6 @@ Length: "65"
 tags:
   - status/incomplete
   - type/website
-Reviewed: false
 ---
 ## Bash
 ### (1) Let's Echo

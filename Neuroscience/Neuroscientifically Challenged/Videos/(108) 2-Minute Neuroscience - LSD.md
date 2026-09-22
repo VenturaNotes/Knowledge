@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WKPMOXD4s-c
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.36.21 PM.png]]
 - Lysergic acid diethylamide, or LSD, is a potent psychoactive substance that is commonly classified as a hallucinogen or psychedelic drug. The effects of LSD vary substantially depending on the dose, the mood of the individual taking the drug, and the environment the drug is taken in. Some common effects include mental and physical stimulation, perceptual distortions, and generally positive mood states. 

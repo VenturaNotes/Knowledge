@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Vk5Iun6sxhM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 6.50.57 AM.png]]
 	- Applications of linear systems: [[Network flow]]

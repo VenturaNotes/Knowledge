@@ -5,7 +5,6 @@ Length: 13 minutes, 8 seconds
 tags:
   - type/video
   - status/incomplete
-Reviewed: false
 ---
 - Video was completed but too many images
 

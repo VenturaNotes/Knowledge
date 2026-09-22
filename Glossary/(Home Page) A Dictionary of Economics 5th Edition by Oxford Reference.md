@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.oxfordreference.com/display/10.1093/acref/9780198759430.001.0001/acref-9780198759430
 Length: "3609"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 - Researched
 - Questioned

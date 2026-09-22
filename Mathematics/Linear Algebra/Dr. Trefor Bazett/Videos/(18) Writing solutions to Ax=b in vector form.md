@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=HPE1yPYklh0
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 9.40.30 PM.png]]
 	- Matrix: $\begin{bmatrix}0 \\ 1 \\ 0 \\ 0\end{bmatrix}$

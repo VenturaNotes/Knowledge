@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=E-0UhOO9MwI
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 10.50.31 PM.png]]
 	- A plane is traveling at 400 miles per hour at a [[bearing]] of 200$\degree$ when a 30 mph wind starts blowing out of the west. Find the resultant speed and direction of the plane

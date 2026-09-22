@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=TLn9wFXQE6c
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-13 at 5.06.49 PM.png]]
 	- The larger number is 3 more than twice the smaller number

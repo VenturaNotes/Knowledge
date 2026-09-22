@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=M_nIIcKTxGk
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-20 at 10.29.02 PM.png]]
 	- What is cross-site scripting

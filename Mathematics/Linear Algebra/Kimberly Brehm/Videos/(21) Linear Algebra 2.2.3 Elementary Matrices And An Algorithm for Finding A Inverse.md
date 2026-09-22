@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=zcm8plpCUZI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-19 at 9.14.40 PM.png]]
 	- Elementary matrices and an algorithm for finding $A^{-1}$ 

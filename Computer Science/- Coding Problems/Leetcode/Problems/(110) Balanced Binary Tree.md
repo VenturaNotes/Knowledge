@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/balanced-binary-tree/
-Reviewed: false
 ---
 ## Synthesis
 - 

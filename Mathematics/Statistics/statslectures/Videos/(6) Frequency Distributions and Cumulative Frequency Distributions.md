@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_reCJBfnE7A
-Reviewed: false
 ---
 - Frequency Distribution
 	- A frequency distribution lists each measured category and the number of occurrences for each category.

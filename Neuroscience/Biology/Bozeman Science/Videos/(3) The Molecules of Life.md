@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=QWf2jcznLsY
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-29 at 2.03.47 AM.png]]
 	- The molecules of life

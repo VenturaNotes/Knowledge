@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ht2Zl0Hfg_I
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-19 at 9.56.13 PM.png]]
 	- Characterizations of [[invertible matrices]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EyZpw1su-s0
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 6.09.17 PM.png]]
 	- [[Higher order derivatives]]

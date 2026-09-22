@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dg4SuoKxk3g
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-27 at 11.18.59 AM.png]]
 	- The [[Mean Value Theorem]] (MVT)

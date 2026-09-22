@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=-P9xUCipWcA
-Reviewed: false
 ---
 - This video talks about place value and expanded notation
 - Write the number in expanded notation

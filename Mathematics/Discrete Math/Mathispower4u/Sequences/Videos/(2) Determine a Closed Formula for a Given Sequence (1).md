@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=4YxqncJCack
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-02 at 5.26.53 AM.png]]
 	- [[Closed formula]] for a [[sequence]]

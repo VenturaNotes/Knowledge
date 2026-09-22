@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=wAEPokhj5Q4
-Reviewed: false
 ---
 ```java
 // Scanner is a java utility pack

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=_CpshMm-5p0
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 3.02.53 AM.png]]
 	- Finding a Basis for Null(A) & Col(A)

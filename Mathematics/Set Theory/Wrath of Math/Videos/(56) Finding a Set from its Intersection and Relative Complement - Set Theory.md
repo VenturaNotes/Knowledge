@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=gsvCfjuHBck
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-04 at 8.05.06 PM.png]]
 	- $(A-B) \cup (A \cap B) = A$

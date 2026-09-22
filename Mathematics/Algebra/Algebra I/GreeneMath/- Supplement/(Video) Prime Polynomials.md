@@ -5,7 +5,6 @@ Length: 3 minutes, 57 seconds
 tags:
   - status/complete
   - type/video
-Reviewed: false
 ---
 ---
 - [[Prime Polynomial|Prime polynomials]]

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://developers.google.com/machine-learning/glossary#L2_loss
 Length: "1"
 tags:
   - type/website
-  - status/incomplete
-Reviewed: false
 ---
 -  Researched
 - Questioned

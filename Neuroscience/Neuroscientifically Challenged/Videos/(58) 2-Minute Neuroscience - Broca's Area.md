@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zIo_500V1LM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-25 at 9.51.05 AM.png]]
 	- In this installment I will discuss [[Broca's area]]. Although the anatomical definitions of Broca's area are not completely consistent, it is generally considered to make up some part of a region called the inferior frontal gyrus, which is found in the frontal lobe. In the vast majority of individuals, Broca's area resides in the left cerebral hemisphere. 

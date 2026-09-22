@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1D2uyrNcGuo
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-24 at 3.43.19 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss alcohol. How alcohol acts in the central nervous system is still poorly understood. Two of the best known effects of alcohol, however, are its actions on GABA and glutamate receptors. Alcohol increases GABA activity at a subtype of the GABA receptor known as GABAa. The mechanism by which this occurs is still not clear, but it is thought that alcohol may act as a positive allosteric modulator, meaning it binds to a site on the receptor that is separate from where GABA binds, and increases the effect GABA has when it binds to the receptor itself. The immediate effect of this action typically is the inhibition of neural firing.

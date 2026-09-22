@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=k4hI-IzJUCs
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 1.35.28 PM.png|400]]
 	- [[Eulerian Graph]]

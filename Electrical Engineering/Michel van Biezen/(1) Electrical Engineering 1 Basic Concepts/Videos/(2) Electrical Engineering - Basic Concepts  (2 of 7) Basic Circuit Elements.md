@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=X_KWJ_MinOU
-Reviewed: false
 ---
 - Symbols represent real devices
 - Resistor

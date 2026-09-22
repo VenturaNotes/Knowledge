@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=xuhk2kSVwe0
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-06 at 8.25.40 PM.png]]
 	- Steps

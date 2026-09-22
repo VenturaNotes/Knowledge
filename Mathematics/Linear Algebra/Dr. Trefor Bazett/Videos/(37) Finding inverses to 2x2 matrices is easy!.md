@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=TRuDbPjTWjg
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 12.57.24 AM.png]]
 	- Finding inverses

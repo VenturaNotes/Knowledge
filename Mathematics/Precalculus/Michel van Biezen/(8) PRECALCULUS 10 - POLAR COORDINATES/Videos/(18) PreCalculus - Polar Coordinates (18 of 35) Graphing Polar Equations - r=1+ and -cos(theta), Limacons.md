@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=VvabAxXAVq8
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 3.00.07 AM.png]]
 	- [[Limacon]]

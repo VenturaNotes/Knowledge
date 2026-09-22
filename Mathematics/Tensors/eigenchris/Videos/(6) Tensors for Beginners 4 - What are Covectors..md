@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LNoQ_Q5JQMY
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 2.07.42 AM.png]]
 	- [[Vectors]] are [[contravariant]]

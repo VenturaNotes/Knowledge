@@ -5,7 +5,6 @@ Length: 2 minutes, 59 seconds
 tags:
   - "#status/complete"
   - type/video
-Reviewed: false
 ---
 - Take notes based on type of assessment
 	- Multiple choice

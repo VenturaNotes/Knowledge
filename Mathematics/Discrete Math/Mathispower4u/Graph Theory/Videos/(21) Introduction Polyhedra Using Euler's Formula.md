@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dh5mE1UEVbs
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-09 at 11.23.37 AM.png]]
 	- [[Polyhedra]]

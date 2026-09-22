@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=BJshegpcFv8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 12.08.31 AM.png]]
 	- [[Obsessive-compulsive disorder]], or OCD, is a condition characterized by obsessions and/or compulsions. Obsessions are recurrent unwanted thoughts, while compulsions are repetitive behaviors or mental acts often performed in response to obsessions, typically with the goal of reducing anxiety and discomfort. It's important to note that OCD is often very distressing, and is not just a preference for orderliness, as the term is sometimes used to imply.

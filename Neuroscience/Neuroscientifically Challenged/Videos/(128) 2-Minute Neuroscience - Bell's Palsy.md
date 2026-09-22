@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=HFh5BAKC_3Q
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.48.50 PM.png]]
 	- [[Bell's palsy]] is a disorder that results from the dysfunction of cranial nerve VII, the facial nerve. It involves weakness or paralysis, typically on one side of the face. The onset of the condition is rapid, usually progressing to maximum severity within 72 hours. While there can be a number of causes of facial weakness or paralysis, the cause of Bell's palsy is unknown, and diagnosis is made by ruling out other potential causes like Lyme disease, trauma, tumors, etc. In other words, Bell's palsy is only diagnosed when there is not another identifiable cause of the facial paralysis. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=6eOOh1b03-o
-Reviewed: false
 ---
 tutorial.ts
 ```typescript

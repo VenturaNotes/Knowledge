@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=6i7mqDJICzQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 1.37.23 AM.png]]
 	- [[Unbiased]] vs [[consistent]] estimators

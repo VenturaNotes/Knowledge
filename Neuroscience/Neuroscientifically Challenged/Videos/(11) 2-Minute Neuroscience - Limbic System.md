@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LNs9ruzoTmI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 2.56.14 PM.png|400]]
 	- In this installment I will discuss the [[limbic system]]. The word limbic comes from the Latin limbus, which means border, and the limbic system was given this name because its structures lie along a horseshoe shaped area of cortex that appears to be a border between the cerebral cortex and the subcortical structures of the diencephalon. There are many processes associated with the limbic system, but the system is most frequently linked to emotion. 

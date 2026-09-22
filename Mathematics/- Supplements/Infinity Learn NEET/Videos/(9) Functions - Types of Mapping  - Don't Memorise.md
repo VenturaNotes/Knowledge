@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=V2C-wU5-7NY
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 5.09.13 PM.png]]
 	- Every [[function (math)|function]] is a [[relation]]

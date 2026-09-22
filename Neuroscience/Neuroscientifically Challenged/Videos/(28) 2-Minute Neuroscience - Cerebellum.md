@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Fir-v6EoZNE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 5.33.02 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the cerebellum. Cerebellum is Latin for “little brain,” and the cerebellum does look like miniature version of the brain as it protrudes from under the posterior and inferior region of the cerebral cortex. Although the cerebellum has many functions, it is primarily associated with movement. Specifically, it seems to be involved with facilitating movement by detecting errors that occur in the course of a movement and correcting them, so the movement appears fluid and achieves its intended goal. The cerebellum is also involved with motor learning to reduce the likelihood errors in movement will occur again in the future. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Bw0-UqZ_xnY
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 5.23.32 PM.png]]
 	- The matrix-vector product Ax

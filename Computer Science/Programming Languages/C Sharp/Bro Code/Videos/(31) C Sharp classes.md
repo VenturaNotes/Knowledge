@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9V5B3dNoVIA
-Reviewed: false
 ---
 - [[class (Computer Science)|class]]: A bundle of related code.
 	- Can be used as a blueprint to create objects (OOP)

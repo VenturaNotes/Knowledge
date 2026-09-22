@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FNs_-Z1gHxU
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-14 at 3.50.51 PM.png]]
 	- Linear

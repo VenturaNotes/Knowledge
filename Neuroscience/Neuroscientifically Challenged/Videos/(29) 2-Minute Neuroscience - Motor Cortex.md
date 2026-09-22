@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=APuiZCxDnTA
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 5.38.58 PM.png]]
 	- In this installment I will discuss the motor cortex. The motor cortex is a region of cortex in the frontal lobe that is involved with voluntary movement. It is located anterior to a large sulcus called the central sulcus and is often divided into two major regions: the primary motor cortex and the nonprimary motor cortex. 

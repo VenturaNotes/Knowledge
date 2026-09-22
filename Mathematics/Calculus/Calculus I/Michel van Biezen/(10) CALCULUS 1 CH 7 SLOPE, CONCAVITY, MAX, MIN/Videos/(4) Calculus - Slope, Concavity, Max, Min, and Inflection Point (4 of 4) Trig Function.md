@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FrP78DgWgbA
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 7.56.51 PM.png]]
 	- (1) Find derivative

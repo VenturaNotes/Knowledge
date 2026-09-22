@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=QcFFtY0Ea4E
-Reviewed: false
 ---
 - Image
 	- [[Indicial notation]] - the [[permutation symbol]]

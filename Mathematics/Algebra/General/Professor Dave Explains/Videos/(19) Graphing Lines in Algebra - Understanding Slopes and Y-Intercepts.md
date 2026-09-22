@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=lz8zVJxRFX8
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 2.49.24 PM.png]]
 	- [[Slope]]

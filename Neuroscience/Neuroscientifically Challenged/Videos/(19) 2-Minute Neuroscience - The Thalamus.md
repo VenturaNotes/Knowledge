@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=IF8_82e9RmQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 3.47.55 PM.png]]
 	- In this installment I will discuss the [[thalamus]]. There is a thalamus in each cerebral hemisphere just above the brainstem.The thalamus is often described as a relay station because a great deal of the information that proceeds to the cortex first stops in the thalamus before being sent on to its destination. The thalamus is subdivided into a number of nuclei that possess functional specializations for dealing with particular types of information. For example, all sensory information except olfaction travels directly from sensory receptors to a nucleus in the thalamus specialized for dealing with that type of sensory data. Then, the information is sent from the thalamus to the appropriate area of the cortex where it is further processed. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=x1CEVwn7Gnw
-Reviewed: false
 ---
 ---
 - "Triangular Form"

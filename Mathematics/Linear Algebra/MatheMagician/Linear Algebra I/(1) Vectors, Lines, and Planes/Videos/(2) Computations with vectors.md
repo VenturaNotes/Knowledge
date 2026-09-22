@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gLnhpqajGb8
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-28 at 8.57.33 PM.png]]
 	- [[Vector algebra]]

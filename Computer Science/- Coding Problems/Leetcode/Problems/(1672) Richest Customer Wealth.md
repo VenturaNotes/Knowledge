@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/richest-customer-wealth/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=h6Ja5C6cR-M
-Reviewed: false
 ---
 - ![[Screenshot 2022-12-31 at 3.21.58 AM.png]]
 - Find the area of each triangle

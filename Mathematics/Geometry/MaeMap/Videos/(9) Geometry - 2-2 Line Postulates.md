@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FgnwA49hFgU
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 8.15.56 PM.png]]
 	- Postulate/Axiom - A true statement describing geometric term relations

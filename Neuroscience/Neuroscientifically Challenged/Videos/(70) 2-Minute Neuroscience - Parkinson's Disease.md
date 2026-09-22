@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7upHDhAmkqU
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.56.56 AM.png]]
 	- In this installment I will discuss [[Parkinson's disease]]. Parkinson's disease is considered a [[neurodegenerative disease]] because it involves the degeneration and death of neurons. It is most frequently seen in adults over the age of 50. The most recognizable symptoms of Parkinson's initially are movement-related and generally involve a tremor that is worse when a person is at rest, bradykinesia, which is slowness of movement, rigidity, and postural impairment. Parkinson's patients also often experience non-motor symptoms like cognitive impairment or psychiatric symptoms. The causes of Parkinson's are not fully understood, but a combination of genetic and environmental factors is likely involved.

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=1nRj4ALuw7A
-Reviewed: false
 ---
 ```java
 import java.util.ArrayList;

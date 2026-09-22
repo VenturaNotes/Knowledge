@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Z5knhyubmEk
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 3.38.09 AM.png]]
 	- In `Range("a1:10").Font`

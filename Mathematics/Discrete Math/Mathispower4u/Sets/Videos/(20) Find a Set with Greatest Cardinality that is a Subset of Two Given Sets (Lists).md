@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0jxK6Jayf9w
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 1.48.44 PM.png]]
 	- Sets: Subsets

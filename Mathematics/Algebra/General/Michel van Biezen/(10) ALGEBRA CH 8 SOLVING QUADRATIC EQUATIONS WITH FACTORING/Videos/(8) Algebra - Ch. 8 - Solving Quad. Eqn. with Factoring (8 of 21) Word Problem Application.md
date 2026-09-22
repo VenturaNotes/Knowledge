@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZsokaDS9Lak
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-04 at 1.42.39 AM.png]]
 	- Find 2 numbers whose sum = 15 and whose product = 50

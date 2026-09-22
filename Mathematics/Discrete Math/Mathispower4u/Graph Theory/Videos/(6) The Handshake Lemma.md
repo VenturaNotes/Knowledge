@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=i5QYTTioZu4
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-06 at 7.39.06 AM.png]]
 	- The [[Handshake Lemma]]

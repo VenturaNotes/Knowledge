@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dBuIliNAixg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 5.29.51 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the effects of cocaine on the brain. Cocaine is a strong stimulant that can cause a range of effects including increased energy, alertness and euphoria, along with an elevated heart rate and other sympathetic nervous system responses. Cocaine also has a high potential for abuse and inclines users towards compulsive administration of the drug.

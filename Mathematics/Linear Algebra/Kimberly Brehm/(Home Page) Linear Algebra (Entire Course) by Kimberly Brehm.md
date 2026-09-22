@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLl-gb0E4MII03hiCrZa7YqxUMEeEPmZqK
 Length: 10 hours, 49 minutes, 7 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=f7E0mTJQ2KM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 2.59.37 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the reward system. The reward system refers to a group of structures that are activated whenever we experience something rewarding like using an addictive drug. When exposed to a rewarding stimulus, the brain responds by increasing release of the neurotransmitter dopamine. Thus, structures that are considered part of the reward system are found along the major dopamine pathways in the brain. The pathway most often associated with reward is the mesolimbic dopamine pathway, which starts in an area of the brainstem called the ventral tegmental area, or VTA. The VTA is one of the principal dopamine-producing areas in the brain and the mesolimbic dopamine pathway connects it with the nucleus accumbens, a nucleus found in a part of the brain that is strongly associated with motivation and reward called the ventral striatum. When we use an addictive drug or experience something rewarding, dopamine neurons in the VTA are activated. These neurons project to the nucleus accumbens via the mesolimbic dopamine pathway, and their activation causes dopamine levels in the nucleus accumbens to rise. 

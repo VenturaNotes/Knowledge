@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FBuIGPIzYY4
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 1.46.12 PM.png]]
 	- Use the transitive property to simplify

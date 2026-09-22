@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=cyQXwXkD0Kg
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-16 at 2.27.04 AM.png]]
 	- $V = \frac 43 \pi R^3$

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=-Vj8PHBtZ_4
-Reviewed: false
 ---
 - [[Equivalent Statements]]: Two statements are equivalent when they have the exact same truth value every single time
 	- Notation $\equiv$ 

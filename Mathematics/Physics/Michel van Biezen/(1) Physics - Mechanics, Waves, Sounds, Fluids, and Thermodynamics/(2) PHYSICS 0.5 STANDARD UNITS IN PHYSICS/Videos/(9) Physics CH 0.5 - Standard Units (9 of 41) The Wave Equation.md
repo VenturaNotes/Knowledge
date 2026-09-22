@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=sUK_njey6nw
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-20 at 10.42.47 PM.png]]
 	- $v = \sqrt\frac{T}{\mu}$

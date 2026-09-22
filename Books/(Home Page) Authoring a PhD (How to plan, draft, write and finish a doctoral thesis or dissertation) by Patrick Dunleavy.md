@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/SPDJ9NPH?page=1&annotation=FLMGMC94
 Length: "312"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Notes
 - Published in 2003

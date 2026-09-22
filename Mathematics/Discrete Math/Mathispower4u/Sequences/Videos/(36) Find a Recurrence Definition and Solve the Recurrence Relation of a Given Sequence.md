@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GeyedEabGNI
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 10.46.21 AM.png]]
 	- Solving Recurrence Relations: Characteristic Root Technique

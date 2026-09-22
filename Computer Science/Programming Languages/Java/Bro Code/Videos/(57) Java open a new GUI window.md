@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=HgkBvwgciB4
-Reviewed: false
 ---
 ```java
 

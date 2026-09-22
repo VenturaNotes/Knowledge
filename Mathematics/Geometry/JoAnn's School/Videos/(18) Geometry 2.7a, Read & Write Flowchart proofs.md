@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=8N7lYzRg1vw
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 1.14.25 PM.png]]
 	- We now know there are two-column proofs

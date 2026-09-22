@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tqUnn5RuyRs
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-14 at 9.58.37 AM.png]]
 	- [[Enumerating Distributions]]

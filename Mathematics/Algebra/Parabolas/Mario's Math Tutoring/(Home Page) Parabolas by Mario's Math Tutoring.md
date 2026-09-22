@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLHRatQsym1_jvzqKNA2uVu09h7zulxap1
 Length: 1 hour, 48 minutes, 53 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Parabolas in General Form - How to Graph]]

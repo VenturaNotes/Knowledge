@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=DksOrPo_a3g
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-27 at 11.44.52 PM.png]]
 	- Slide 1 - Introduction to proofs - [[Number Systems]]

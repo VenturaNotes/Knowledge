@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0xcLbPkzN9w
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-24 at 3.40.55 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss olfaction. Olfaction refers to the sense of smell, which begins with a specialized collection of cells called the olfactory epithelium. In humans, the olfactory epithelium lines the nasal cavities. 

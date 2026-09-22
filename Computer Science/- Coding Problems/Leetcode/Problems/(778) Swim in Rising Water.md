@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/swim-in-rising-water/
-Reviewed: false
 ---
 ## Synthesis
 - 

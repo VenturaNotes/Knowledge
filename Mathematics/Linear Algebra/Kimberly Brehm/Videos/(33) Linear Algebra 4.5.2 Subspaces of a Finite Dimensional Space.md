@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=lgKR0iJi7Ww
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-13 at 8.46.01 PM.png]]
 	- Subspace of a finite dimensional space

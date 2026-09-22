@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

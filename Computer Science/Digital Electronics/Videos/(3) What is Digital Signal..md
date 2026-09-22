@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jRL9ag3riJY
-Reviewed: false
 ---
 - In digital signals, we discretize both time and magnitude
 	- By discretization, we need to divide the time axis in equal intervals

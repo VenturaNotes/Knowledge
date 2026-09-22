@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=uLpMWadAvIU
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-05 at 6.27.22 AM.png]]
 	- Parabola (distance from focus and directrix from any point on the curve is always equal)

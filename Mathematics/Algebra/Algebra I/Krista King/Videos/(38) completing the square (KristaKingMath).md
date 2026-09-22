@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jvhQQj9a1EQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 3.06.36 PM.png]]
 	- Complete the square

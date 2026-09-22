@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=787njBftf8Y
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-13 at 10.35.58 AM.png]]
 	- Polynomial Fitting

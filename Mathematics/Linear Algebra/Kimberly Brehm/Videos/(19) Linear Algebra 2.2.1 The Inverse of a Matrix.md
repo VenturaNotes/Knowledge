@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=kCPmiFAdCQ0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 7.02.21 PM.png]]
 	- The [[inverse]] of a matrix

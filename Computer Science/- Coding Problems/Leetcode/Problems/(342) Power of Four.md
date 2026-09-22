@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/power-of-four/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uVLz-gjmiN0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.29.15 AM.png]]
 	- [[Migraine]] is a chronic neurological condition involving repeated headaches that are frequently severe and are accompanied by other symptoms, such as nausea, vomiting, and an increased sensitivity to light or sound. Migraine headaches are often throbbing, experienced on one side of the head, and worsened by movement or physical activity. About ⅓ of migraine sufferers experience a migraine aura, which consists of neurological symptoms such as visual disturbances that occur before or during the onset of pain. 

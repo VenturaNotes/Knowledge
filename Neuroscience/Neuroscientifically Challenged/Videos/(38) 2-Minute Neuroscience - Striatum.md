@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EEUxKFmIUiI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.17.02 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the striatum. Striatum is a term used to collectively refer to a small group of structures found below the cerebral cortex that consists of the caudate, putamen, and nucleus accumbens. The caudate and putamen are separated from one another by a white matter tract called the internal capsule, but there are many strands of grey matter that cross the internal capsule, giving the structure a striped appearance. This is why the term striatum, Latin for striped, is used to describe the region. The striatum is often conceptualized a being divided into dorsal and ventral sections; the dorsal striatum contains the caudate and putamen while the ventral striatum contains the nucleus accumbens. 

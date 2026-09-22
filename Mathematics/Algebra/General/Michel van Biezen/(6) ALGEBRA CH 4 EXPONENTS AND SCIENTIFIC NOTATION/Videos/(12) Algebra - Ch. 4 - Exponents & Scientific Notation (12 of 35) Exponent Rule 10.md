@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Hizt4jOYBj0
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 10.41.01 PM.png]]
 	- Fractional exponents

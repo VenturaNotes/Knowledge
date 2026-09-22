@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ziWCkxI7w0Q
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 9.47.35 PM.png]]
 	- Put the center tick mark of the protractor on the endpoint

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=NnEkVooAsxk
-Reviewed: false
 ---
 - Cartesian Products
 	- An ordered pair (a,b) is a set

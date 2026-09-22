@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=aTlR03t1dTQ
-Reviewed: false
 ---
 ## Set-Roster Notation
 - {0, 2, 4, 6,...}

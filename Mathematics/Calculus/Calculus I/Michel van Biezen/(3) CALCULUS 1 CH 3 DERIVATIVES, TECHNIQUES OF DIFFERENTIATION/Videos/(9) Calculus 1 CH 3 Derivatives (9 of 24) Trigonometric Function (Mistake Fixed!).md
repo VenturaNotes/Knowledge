@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Fdv4s8cOqXI
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-03 at 11.47.15 PM.png]]
 	- Derivative of [[Cosine|cos]](x) = -sin(x)

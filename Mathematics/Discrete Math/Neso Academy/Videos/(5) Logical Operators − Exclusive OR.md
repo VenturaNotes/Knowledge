@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=m2mf6I3g2-c
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-02 at 6.45.09 PM.png]]
 	- Inclusive or operator = disjunction operator

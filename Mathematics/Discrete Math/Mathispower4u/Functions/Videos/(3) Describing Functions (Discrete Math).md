@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=eAUBd0e2RRA
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-18 at 2.30.51 PM.png]]
 	- Describing Functions

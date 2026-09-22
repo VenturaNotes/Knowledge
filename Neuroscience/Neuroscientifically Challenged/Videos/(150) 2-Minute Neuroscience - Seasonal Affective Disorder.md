@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=eRpIHutY9QE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.21.43 AM.png]]
 	- [[Seasonal affective disorder]] is a subtype of depression or bipolar disorder in which symptoms appear at specific times of the year and go into full remission at other times. The condition most commonly develops during fall or winter, but spring or summer cases do also occur. In order to be diagnosed with seasonal affective disorder, someone must meet the criteria for major depressive disorder or bipolar disorder, but also display seasonal patterns with their symptoms for at least two years. 

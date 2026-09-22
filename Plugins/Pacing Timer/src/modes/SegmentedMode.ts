@@ -9,7 +9,7 @@ import {
     formatPacingTime, 
     parsePlaylistInput 
 } from "../utils";
-import { SavedSessionRecord, PacingSessionState } from "../types";
+import { SavedSessionRecord, PacingSessionState, StintStopMode } from "../types";
 import PacingTimerPlugin from "../main";
 import { 
     parseEndTimeToSeconds, 
@@ -71,19 +71,28 @@ export function parseSmartStintTarget(input: string, pace: number, remTasks: num
 }
 
 function getTargetMethodBadge(s: PacingSessionState): string {
-    const isHard = Boolean(s.targetFinishTimestamp || s.stintHardStop);
+    const stopMode: StintStopMode = s.stintStopMode || (s.targetFinishTimestamp ? "hard" : "soft");
 
-    if (isHard && s.targetFinishTimestamp) {
+    if (stopMode === "hard" && s.targetFinishTimestamp) {
         const realTimeLeft = Math.max(0, Math.round((s.targetFinishTimestamp - Date.now()) / 1000));
         const endTimeStr = getFinishedTimeStr(s.targetFinishTimestamp, 0);
-        return `🔴 ${formatHumanReadableDuration(realTimeLeft)} Left • ${endTimeStr}`;
+        return `🔴 ${formatHumanReadableDuration(realTimeLeft)} • ${endTimeStr}`;
     }
 
-    // Flexible mode (Hard Stop OFF): tells real time left in budget + true end time
-    const totalBudget = s.hardStopTotalSeconds || s.defaultTotalTime || 10800;
-    const remainingBudget = Math.max(0, totalBudget - (s.globalTimeElapsed || 0));
-    const endTimeStr = getFinishedTimeStr(Date.now(), remainingBudget);
-    return `🟡 ${formatHumanReadableDuration(remainingBudget)} Left • ${endTimeStr}`;
+    if (stopMode === "medium") {
+        const totalBudget = s.hardStopTotalSeconds || s.defaultTotalTime || 10800;
+        const remainingBudget = Math.max(0, totalBudget - (s.globalTimeElapsed || 0));
+        const endTimeStr = getFinishedTimeStr(Date.now(), remainingBudget);
+        return `🟡 ${formatHumanReadableDuration(remainingBudget)} • ${endTimeStr}`;
+    }
+
+    // Soft Stop: Simplified format
+    const quota = s.currentQuota || s.stintInitialGoal || 10;
+    const tasksLeft = Math.max(0, quota - (s.completedSegments || 0));
+    const pace = s.targetSegmentDuration || s.initialSegmentDuration || 60;
+    const workTimeLeft = Math.max(0, tasksLeft * pace - (s.segmentTimeElapsed || 0));
+    const endTimeStr = getFinishedTimeStr(Date.now(), workTimeLeft);
+    return `🟢 ${formatHumanReadableDuration(workTimeLeft)} • ${endTimeStr}`;
 }
 
 function getProjectPaceStats(session: PacingSessionState, plugin: PacingTimerPlugin) {
@@ -313,7 +322,8 @@ export const SegmentedMode: ModeHandler = {
         }
 
         let stintTargetRaw = plugin.settings.segmentedTargetRaw || "3h";
-        let hardStopEnabled = plugin.settings.segmentedHardStop ?? false;
+        let stopMode: StintStopMode = plugin.settings.segmentedStopMode || "soft";
+        let countDownEnabled = !(plugin.settings.segmentedCountUp ?? true);
         let previewEl: HTMLElement | null = null;
 
         const render = () => {
@@ -541,18 +551,32 @@ export const SegmentedMode: ModeHandler = {
                 });
 
                 const quota = s.currentQuota || s.stintInitialGoal || 10;
+                const stintTasksLeft = Math.max(0, quota - stintDone);
                 const currentPause = (!s.isRunning && s.pausedAt) 
                     ? Math.max(0, Math.floor((Date.now() - s.pausedAt) / 1000)) 
                     : 0;
                 const totalPaused = (s.totalPausedSeconds || 0) + currentPause;
                 const methodBadge = getTargetMethodBadge(s);
 
+                const isCountdown = s.segmentedCountUp === false;
+                const totalProjCompleted = (s.projectCompletedInitial || 0) + stintDone;
+                const totalProjGoal = s.projectGoal || 100;
+                const initRemaining = Math.max(0, totalProjGoal - (s.projectCompletedInitial || 0));
+                const currentRemaining = Math.max(0, totalProjGoal - totalProjCompleted);
+                const targetRemaining = Math.max(0, initRemaining - quota);
+
+                const taskCountHTML = isCountdown
+                    ? `<b>Remaining:</b> ${currentRemaining} / ${targetRemaining} Tasks`
+                    : `<b>Today:</b> ${stintDone} / ${quota} Tasks`;
+
                 stintCard.innerHTML = `
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
-                        <span style="font-weight: 600; color: var(--text-accent);">⏱️ Active Stint Progress</span>
+                        <span style="font-weight: 600; color: var(--text-accent);">
+                            ⏱️ Active Stint Progress <span style="font-weight: normal; color: var(--text-muted); font-size: 0.9em;">(${stintTasksLeft} left)</span>
+                        </span>
                         <span style="font-size: 0.8em; color: var(--text-muted); background: var(--background-secondary); border: 1px solid var(--background-modifier-border); padding: 1px 7px; border-radius: 10px;">${methodBadge}</span>
                     </div>
-                    <div><b>Today:</b> ${stintDone} / ${quota} Tasks • <b>Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Pacing:</b> ${formatTime(s.targetSegmentDuration)}</div>
+                    <div>${taskCountHTML} • <b>Elapsed:</b> ${formatPacingTime(s.globalTimeElapsed)} • <b>Paused:</b> ${formatPacingTime(totalPaused)} • <b>Pacing:</b> ${formatTime(s.targetSegmentDuration)}</div>
                 `;
 
                 const btnRow = container.createDiv();
@@ -634,10 +658,24 @@ export const SegmentedMode: ModeHandler = {
                     }));
 
                 new Setting(container)
-                    .setName("Hard Stop Deadline")
-                    .setDesc("Strict cutoff. If enabled, the end time is locked and pause time reduces your achievable quota.")
-                    .addToggle(toggle => toggle.setValue(hardStopEnabled).onChange(v => {
-                        hardStopEnabled = v;
+                    .setName("Stop Mode")
+                    .setDesc("Choose when this stint completes: Soft (finish all tasks), Medium (log full work time), or Hard (strict clock deadline).")
+                    .addDropdown(drop => drop
+                        .addOption("soft", "🟢 Soft Stop (Finish all tasks)")
+                        .addOption("medium", "🟡 Medium Stop (Log full work time)")
+                        .addOption("hard", "🔴 Hard Stop (Strict clock deadline)")
+                        .setValue(stopMode)
+                        .onChange(v => {
+                            stopMode = v as StintStopMode;
+                            updateStintPreview();
+                        })
+                    );
+
+                new Setting(container)
+                    .setName("Count Down Tasks")
+                    .setDesc("Display remaining project tasks counting down (e.g. 118/78) instead of counting up completed stint tasks (e.g. 0/40).")
+                    .addToggle(toggle => toggle.setValue(countDownEnabled).onChange(v => {
+                        countDownEnabled = v;
                         updateStintPreview();
                     }));
 
@@ -652,11 +690,15 @@ export const SegmentedMode: ModeHandler = {
                     const parsed = parseSmartStintTarget(stintTargetRaw, pace, remTasks);
                     const finishStr = getFinishedTimeStr(Date.now(), parsed.duration);
 
-                    if (hardStopEnabled) {
-                        previewEl.textContent = `🎯 Today's Stint: ~${parsed.tasks} tasks budgeted in ${formatHumanReadableDuration(parsed.duration)} • Hard stop at ${finishStr} (strict)`;
-                    } else {
-                        previewEl.textContent = `🎯 Today's Stint: ~${parsed.tasks} tasks budgeted in ${formatHumanReadableDuration(parsed.duration)} • Est. finish around ${finishStr} (flexible)`;
-                    }
+                    let modeTag = "🟢 soft stop";
+                    if (stopMode === "hard") modeTag = "🔴 hard stop";
+                    else if (stopMode === "medium") modeTag = "🟡 medium stop";
+
+                    const countTag = countDownEnabled 
+                        ? ` • Countdown: ${remTasks} → ${Math.max(0, remTasks - parsed.tasks)}` 
+                        : "";
+
+                    previewEl.textContent = `🎯 Today's Stint: ~${parsed.tasks} tasks budgeted in ${formatHumanReadableDuration(parsed.duration)} • Finish around ${finishStr} (${modeTag})${countTag}`;
                 };
                 updateStintPreview();
 
@@ -694,9 +736,10 @@ export const SegmentedMode: ModeHandler = {
                     plugin.stopSession();
 
                     plugin.settings.segmentedTargetRaw = stintTargetRaw;
-                    plugin.settings.segmentedHardStop = hardStopEnabled;
+                    plugin.settings.segmentedStopMode = stopMode;
+                    plugin.settings.segmentedCountUp = !countDownEnabled;
 
-                    const targetFinishTimestamp = hardStopEnabled
+                    const targetFinishTimestamp = stopMode === "hard"
                         ? Date.now() + duration * 1000
                         : undefined;
 
@@ -715,7 +758,7 @@ export const SegmentedMode: ModeHandler = {
                         isFinished: false,
                         lastTickTime: Date.now(),
                         segmentedVaultThreshold: Math.max(60, pace * 3),
-                        segmentedCountUp: true,
+                        segmentedCountUp: !countDownEnabled,
                         currentQuota: tasks,
                         maxTargetSegments: remTasks,
                         totalWorkTime: 0,
@@ -723,7 +766,7 @@ export const SegmentedMode: ModeHandler = {
                         hardStopTotalSeconds: duration,
                         earlyFinishBanked: 0,
                         targetFinishTimestamp,
-                        stintHardStop: hardStopEnabled,
+                        stintStopMode: stopMode,
                         stintTargetInputRaw: stintTargetRaw,
                         stintTargetType: parsed.type,
                         stintTargetValueRaw: parsed.displayTarget,
@@ -801,11 +844,14 @@ export const SegmentedMode: ModeHandler = {
             : Math.max(0, hardStop - session.globalTimeElapsed);
 
         const { avgPace: sessionAvg, paceRatio, currentBenchmark } = getProjectPaceStats(session, plugin);
+        const stopMode: StintStopMode = session.stintStopMode || (session.targetFinishTimestamp ? "hard" : "soft");
+        const isSoftStop = stopMode === "soft";
 
         if (session.cumulativeDelta >= threshold) {
             const maxGoal = session.maxTargetSegments || session.totalSegments;
             const prevQuota = session.currentQuota || maxGoal;
-            const isAtMax = prevQuota >= maxGoal;
+            // In Soft Stop, quota is permanently locked to the user's target
+            const isAtMax = isSoftStop || prevQuota >= maxGoal;
 
             if (paceRatio <= 50) {
                 const newBenchmark = Math.max(1, Math.round(sessionAvg));
@@ -817,7 +863,7 @@ export const SegmentedMode: ModeHandler = {
                 const paceStr = formatHumanReadableDuration(newDuration).replace(/\s+/g, "");
 
                 if (isAtMax) {
-                    const remainingTasks = Math.max(0, maxGoal - session.completedSegments);
+                    const remainingTasks = Math.max(0, prevQuota - session.completedSegments);
                     const newRemainingWorkTime = remainingTasks * newDuration;
                     const totalNeeded = session.globalTimeElapsed + newRemainingWorkTime;
                     session.earlyFinishBanked = Math.max(0, hardStop - totalNeeded);
@@ -844,7 +890,7 @@ export const SegmentedMode: ModeHandler = {
                 session.cumulativeDelta -= threshold;
                 const pullStr = formatHumanReadableDuration(threshold).replace(/\s+/g, "");
                 plugin.playVictoryChime();
-                plugin.showOverlay(`🏆 Max Quota: -${pullStr}`, true, "up");
+                plugin.showOverlay(isSoftStop ? `⭐ Rhythm Milestone: -${pullStr}` : `🏆 Max Quota: -${pullStr}`, true, "up");
             } else {
                 const earnedSegments = Math.max(1, Math.floor(threshold / session.targetSegmentDuration));
                 session.currentQuota = Math.min(maxGoal, (session.currentQuota || session.totalSegments) + earnedSegments);
@@ -853,7 +899,8 @@ export const SegmentedMode: ModeHandler = {
                 plugin.showOverlay(`⭐ Rhythm Milestone: +${earnedSegments} Tasks`, true, "up");
             }
         } else if (session.cumulativeDelta <= -threshold) {
-            const prevQuota = session.currentQuota || session.maxTargetSegments || session.totalSegments;
+            const maxGoal = session.maxTargetSegments || session.totalSegments;
+            const prevQuota = session.currentQuota || maxGoal;
             const actualAvg = sessionAvg;
             
             const proposedDuration = Math.max(1, Math.round(actualAvg * 1.25));
@@ -863,17 +910,23 @@ export const SegmentedMode: ModeHandler = {
             session.targetSegmentDuration = newDuration;
             session.initialSegmentDuration = newDuration;
 
-            const remainingAchievable = Math.floor(Math.max(0, trueTimeLeft) / newDuration);
-            session.currentQuota = Math.min(session.maxTargetSegments || session.totalSegments, session.completedSegments + remainingAchievable);
+            // In Soft Stop, quota is locked and never reduced on rescue
+            if (!isSoftStop) {
+                const remainingAchievable = Math.floor(Math.max(0, trueTimeLeft) / newDuration);
+                session.currentQuota = Math.min(maxGoal, session.completedSegments + remainingAchievable);
+            } else {
+                session.currentQuota = prevQuota;
+            }
 
-            const remainingTasks = Math.max(0, session.currentQuota - session.completedSegments);
+            const activeQuota = session.currentQuota ?? prevQuota;
+            const remainingTasks = Math.max(0, activeQuota - session.completedSegments);
             const remainingWorkTime = remainingTasks * newDuration;
             const totalNeeded = session.globalTimeElapsed + remainingWorkTime;
             session.earlyFinishBanked = Math.max(0, hardStop - totalNeeded);
 
             session.cumulativeDelta = 0;
 
-            const quotaDiff = session.currentQuota - prevQuota;
+            const quotaDiff = activeQuota - prevQuota;
             const quotaDiffSign = quotaDiff >= 0 ? "+" : "";
             const paceStr = formatHumanReadableDuration(newDuration).replace(/\s+/g, "");
 
@@ -881,13 +934,27 @@ export const SegmentedMode: ModeHandler = {
             plugin.showOverlay(`🛟 Rescue: ${paceStr} Pace, ${quotaDiffSign}${quotaDiff} Tasks`, false, "down");
         }
 
+        // STOP MODE COMPLETION CRITERIA
         const isProjectStint = Boolean(session.projectId && session.projectGoal);
         if (isProjectStint) {
             const totalProjectDone = (session.projectCompletedInitial || 0) + session.completedSegments;
             const projectFinished = totalProjectDone >= (session.projectGoal || 100);
-            const timeRanOut = trueTimeLeft <= 0;
+            const stintQuotaMet = session.completedSegments >= (session.currentQuota || session.stintInitialGoal || session.totalSegments);
 
-            if (projectFinished || timeRanOut) {
+            let shouldFinish = projectFinished;
+
+            if (stopMode === "hard") {
+                const wallTimeLeft = session.targetFinishTimestamp ? Math.round((session.targetFinishTimestamp - Date.now()) / 1000) : 0;
+                if (wallTimeLeft <= 0) shouldFinish = true;
+            } else if (stopMode === "medium") {
+                const workTimeRemaining = Math.max(0, hardStop - session.globalTimeElapsed);
+                if (workTimeRemaining <= 0 || stintQuotaMet) shouldFinish = true;
+            } else {
+                // Soft Stop: ONLY ends when all designated stint tasks are finished
+                if (stintQuotaMet) shouldFinish = true;
+            }
+
+            if (shouldFinish) {
                 session.isRunning = false;
                 session.isFinished = true;
                 plugin.stopAlarmSequence();
@@ -907,13 +974,12 @@ export const SegmentedMode: ModeHandler = {
         const maxGoal = session.maxTargetSegments || session.totalSegments;
         const currentQuota = session.currentQuota || session.totalSegments;
 
+        // Finish Screen: Shows cumulative project progress cleanly without residual delta numbers
         if (session.isFinished) {
-            const liveDelta = session.cumulativeDelta;
-            const deltaSign = liveDelta > 0 ? "+" : "";
-            const deltaStyle = liveDelta > 0 ? "color: #10b981;" : (liveDelta < 0 ? "color: #ef4444;" : "");
-            const deltaStr = formatDelta(liveDelta);
-            
-            return `${clockPrefix}⏱️ [${displayTitle}:00:00] [<span style="${deltaStyle}">${deltaSign}${deltaStr}</span>] 🏆 Done! (${session.completedSegments}/${currentQuota}) [Max: ${maxGoal}]`;
+            const totalProjDone = (session.projectCompletedInitial || 0) + session.completedSegments;
+            const totalProjGoal = session.projectGoal || 100;
+            const projDisplay = isProjectStint ? ` [Proj: ${totalProjDone}/${totalProjGoal}]` : ` [Max: ${maxGoal}]`;
+            return `${clockPrefix}⏱️ [${displayTitle}:00:00] 🏆 Done! (${session.completedSegments}/${currentQuota})${projDisplay}`;
         }
 
         const segmentTimeLeft = session.targetSegmentDuration - session.segmentTimeElapsed;
@@ -928,6 +994,8 @@ export const SegmentedMode: ModeHandler = {
         const liveDelta = session.cumulativeDelta - globalOvertime;
         const deltaSign = liveDelta > 0 ? "+" : (liveDelta < 0 ? "-" : "");
         const deltaStyle = liveDelta > 0 ? "color: #10b981;" : (liveDelta < 0 ? "color: #ef4444;" : "");
+
+        const stopMode: StintStopMode = session.stintStopMode || (session.targetFinishTimestamp ? "hard" : "soft");
 
         let hardTimeLeft = 0;
         if (session.targetFinishTimestamp) {
@@ -949,21 +1017,22 @@ export const SegmentedMode: ModeHandler = {
                 const workTimeLeft = Math.max(0, tasksLeftToGoal * session.targetSegmentDuration - session.segmentTimeElapsed);
                 effectiveWorkTimeLeft = workTimeLeft;
                 isWorkShorterThanHardTime = workTimeLeft < hardTimeLeft;
-                remainingDisplaySeconds = Math.min(hardTimeLeft, workTimeLeft);
+                // Soft stop always displays task work time left
+                remainingDisplaySeconds = (stopMode === "soft") ? workTimeLeft : Math.min(hardTimeLeft, workTimeLeft);
             } else {
                 const totalProjectDone = (session.projectCompletedInitial || 0) + session.completedSegments;
                 const projectTasksLeft = Math.max(0, (session.projectGoal || 100) - totalProjectDone);
                 const projectWorkTimeLeft = Math.max(0, projectTasksLeft * session.targetSegmentDuration - session.segmentTimeElapsed);
                 effectiveWorkTimeLeft = projectWorkTimeLeft;
                 isWorkShorterThanHardTime = projectWorkTimeLeft < hardTimeLeft;
-                remainingDisplaySeconds = Math.min(hardTimeLeft, projectWorkTimeLeft);
+                remainingDisplaySeconds = (stopMode === "soft") ? projectWorkTimeLeft : Math.min(hardTimeLeft, projectWorkTimeLeft);
             }
         } else {
             const remainingTasks = Math.max(0, currentQuota - session.completedSegments);
             const workTimeLeft = Math.max(0, remainingTasks * session.targetSegmentDuration - session.segmentTimeElapsed);
             effectiveWorkTimeLeft = workTimeLeft;
             isWorkShorterThanHardTime = workTimeLeft < hardTimeLeft;
-            remainingDisplaySeconds = Math.min(hardTimeLeft, workTimeLeft);
+            remainingDisplaySeconds = (stopMode === "soft") ? workTimeLeft : Math.min(hardTimeLeft, workTimeLeft);
         }
 
         const formattedGlobalTime = formatPacingTime(remainingDisplaySeconds);
@@ -997,8 +1066,8 @@ export const SegmentedMode: ModeHandler = {
             const completedToday = session.completedSegments;
             const baseGoal = session.stintInitialGoal || 5;
 
-            // In "Hard Stop" mode: deduct tasks based strictly on time spent paused
-            if (session.targetFinishTimestamp) {
+            // In Hard Stop mode: deduct tasks based strictly on time spent paused
+            if (stopMode === "hard" && session.targetFinishTimestamp) {
                 if (!session.isRunning) {
                     if (!session.pausedAt) {
                         session.pausedAt = Date.now();
@@ -1031,13 +1100,26 @@ export const SegmentedMode: ModeHandler = {
             }
 
             const quotaToday = session.currentQuota || baseGoal;
-
-            // Option 2 Milestone: Star is permanently anchored to the original baseGoal
-            const goalMet = completedToday >= baseGoal;
-            const starTag = goalMet ? ` ⭐${baseGoal}` : ` • ${baseGoal}`;
             const totalProjCompleted = (session.projectCompletedInitial || 0) + completedToday;
+            const totalProjGoal = session.projectGoal || 100;
 
-            countDisplay = `(${completedToday}/${quotaToday}${starTag}) [Proj: ${totalProjCompleted}/${session.projectGoal}]`;
+            // COUNTDOWN vs COUNT UP LOGIC
+            if (session.segmentedCountUp === false) {
+                const initRemaining = Math.max(0, totalProjGoal - (session.projectCompletedInitial || 0));
+                const currentRemaining = Math.max(0, totalProjGoal - totalProjCompleted);
+                const targetRemaining = Math.max(0, initRemaining - quotaToday);
+                const baseGoalRemaining = Math.max(0, initRemaining - baseGoal);
+
+                const goalMet = currentRemaining <= baseGoalRemaining;
+                const starTag = goalMet ? ` ⭐${baseGoalRemaining}` : ` • ${baseGoalRemaining}`;
+
+                countDisplay = `(${currentRemaining}/${targetRemaining}${starTag}) [Proj: ${totalProjCompleted}/${totalProjGoal}]`;
+            } else {
+                const goalMet = completedToday >= baseGoal;
+                const starTag = goalMet ? ` ⭐${baseGoal}` : ` • ${baseGoal}`;
+
+                countDisplay = `(${completedToday}/${quotaToday}${starTag}) [Proj: ${totalProjCompleted}/${totalProjGoal}]`;
+            }
         } else {
             countDisplay = session.segmentedCountUp
                 ? `(${session.completedSegments}/${currentQuota}) [Max: ${maxGoal}]`

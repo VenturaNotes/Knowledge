@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=QudbrUcVPxk
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 1.33.40 PM.png]]
 	- The definition of a [[Group]]

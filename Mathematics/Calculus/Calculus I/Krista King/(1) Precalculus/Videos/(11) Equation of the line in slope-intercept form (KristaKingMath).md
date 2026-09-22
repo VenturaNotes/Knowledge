@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=W3cPHQfWKh8
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 7.32.53 PM.png]]
 	- [[Slope-intercept form]]

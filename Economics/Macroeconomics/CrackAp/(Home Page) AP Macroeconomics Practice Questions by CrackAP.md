@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.crackap.com/questions.php?type=ma
 Length: "571"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 - (1) An American buys an entertainment system that was manufactured in China. How does the U.S. national income accounts treat this transaction?
 	- Net exports and GDP both fall

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ofGN1Gtgjok
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 3.45.09 PM.png]]
 	- [[Linear independence]]

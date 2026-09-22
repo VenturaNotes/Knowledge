@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=O-xIVcMyiyI
-Reviewed: false
 ---
 ---
 - Famous subsets

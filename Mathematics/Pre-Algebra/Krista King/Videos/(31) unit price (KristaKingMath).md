@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tdHO6qWSkJw
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-07 at 11.04.51 PM.png]]
 	- Which is a better value?

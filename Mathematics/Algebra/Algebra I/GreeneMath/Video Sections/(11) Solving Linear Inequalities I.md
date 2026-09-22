@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=14457s
-Reviewed: false
 ---
 - < less than
 	- Strict

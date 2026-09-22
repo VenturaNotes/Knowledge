@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9px80y6V6Dg
-Reviewed: false
 ---
 - ![[Pasted image 20231219142645.png]]
 	- What is [[computation]]?

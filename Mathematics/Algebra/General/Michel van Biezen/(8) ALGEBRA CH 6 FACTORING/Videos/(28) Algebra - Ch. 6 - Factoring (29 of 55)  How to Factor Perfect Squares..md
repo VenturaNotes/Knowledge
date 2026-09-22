@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=WctTqZqBHlQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-30 at 9.01.14 PM.png]]
 	- $(a+b)^2$

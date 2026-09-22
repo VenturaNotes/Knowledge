@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=lWfR2g5tkik
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-06 at 7.45.27 AM.png]]
 	- [[Bipartite Graphs]] and Named Graphs

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dhd2fja0LZ4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.17.56 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss phototransduction. Phototransduction is the process that occurs in the retina where light is converted into electrical signals that can be understood by the nervous system. 

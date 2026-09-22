@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=GvbdMwfjB98
-Reviewed: false
 ---
 ```java
 public class Main {

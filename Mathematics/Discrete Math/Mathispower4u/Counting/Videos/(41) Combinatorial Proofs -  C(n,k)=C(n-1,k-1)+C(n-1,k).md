@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zy-uFwhOUYY
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 2.42.24 AM.png]]
 	- Combinatorial proofs

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=cmndAPrgrSE
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-14 at 7.47.12 PM.png]]
 	- An exponential function is a function where the independent variable is the exponent

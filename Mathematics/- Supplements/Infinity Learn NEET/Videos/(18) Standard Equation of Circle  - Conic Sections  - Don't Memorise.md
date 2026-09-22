@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=cyKFBmTjyio
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 7.11.53 PM.png]]
 	- [[Circle]]

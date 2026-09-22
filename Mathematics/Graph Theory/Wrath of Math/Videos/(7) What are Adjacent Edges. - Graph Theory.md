@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=i4yoI84gwgc
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 4.06.47 AM.png]]
 	- [[Adjacent Edges]]

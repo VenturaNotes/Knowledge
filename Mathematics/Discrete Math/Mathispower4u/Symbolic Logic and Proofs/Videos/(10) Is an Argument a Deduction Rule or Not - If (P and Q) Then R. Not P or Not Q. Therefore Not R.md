@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=axx4bSlzM6c
-Reviewed: false
 ---
 - ![[Screenshot 2025-05-14 at 1.50.29 AM.png]]
 	- Deduction Rule Using a Truth Table

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=EJtDWxy3-4s
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 7.20.02 PM.png]]
 	- To approximate a square root, find the numbers with a square that encompasses the radicand.

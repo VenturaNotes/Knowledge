@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=kPVuBQg38Xo
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-30 at 12.31.04 AM.png]]
 	- How do we find the general equation?

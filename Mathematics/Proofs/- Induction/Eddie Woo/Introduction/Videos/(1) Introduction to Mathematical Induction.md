@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=IdTaA6iz3Mo
-Reviewed: false
 ---
 - Mathematical Induction - Method of proof
 	- It's just another tool in tool belt

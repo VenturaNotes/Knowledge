@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=SpXHqrMGb0Y
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 7.57.34 PM.png]]
 	- Mathematics starts with calculations. Calculations with numbers

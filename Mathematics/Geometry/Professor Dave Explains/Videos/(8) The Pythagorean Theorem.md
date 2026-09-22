@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=37PX8DV_b9Y
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 8.20.10 PM.png]]
 	- We need to learn just one more theorem

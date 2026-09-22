@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=_NqHjx9Epdk
-Reviewed: false
 ---
 - Use Venn diagrams to verify the following identities
 	- ![[Screenshot 2022-12-08 at 11.14.49 PM.png]]

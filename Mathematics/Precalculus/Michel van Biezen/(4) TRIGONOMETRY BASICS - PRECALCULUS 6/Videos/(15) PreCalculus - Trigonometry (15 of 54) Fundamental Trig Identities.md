@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=-1GK_U7CLsM
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 4.56.20 PM.png]]
 	- There are dozens of identities

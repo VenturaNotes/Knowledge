@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=50051s
-Reviewed: false
 ---
 - Lesson Objectives
 	- Learn how to convert a [[decimal]] to a percent and vice versa

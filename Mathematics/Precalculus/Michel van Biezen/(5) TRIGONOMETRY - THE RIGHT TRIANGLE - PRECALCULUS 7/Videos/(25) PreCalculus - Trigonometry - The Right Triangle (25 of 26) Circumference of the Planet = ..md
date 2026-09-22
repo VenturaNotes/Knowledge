@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=YIrvASmp9ZY
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 9.59.32 PM.png]]
 	- [[Sextant]]

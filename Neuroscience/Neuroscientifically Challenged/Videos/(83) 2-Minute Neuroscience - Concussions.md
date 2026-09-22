@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gLwtJcKh4gQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.00.04 PM.png]]
 	- Welcome to 2-minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss concussions. A concussion is a type of mild traumatic brain injury that occurs when rapid movement of the head or an impact to the head causes the brain to move within the skull, potentially stretching axons and damaging cell membranes of neurons. 

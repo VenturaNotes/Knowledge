@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Js7Z4NMJdow
-Reviewed: false
 ---
 - Analyze the logical form of the following statements:
 	- ![[Screenshot 2022-12-09 at 7.17.47 AM.png]]

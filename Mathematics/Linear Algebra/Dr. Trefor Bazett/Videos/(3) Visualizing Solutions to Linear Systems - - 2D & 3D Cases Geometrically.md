@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=qKyturOAD60
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 10.16.01 PM.png]]
 	- [[Infinite solutions]]

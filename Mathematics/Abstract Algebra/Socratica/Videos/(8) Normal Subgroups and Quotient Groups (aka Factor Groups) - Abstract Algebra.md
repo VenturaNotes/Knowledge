@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=vYKdh5oQ4Zw
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 3.48.51 PM.png]]
 	- [[Carl Friedrich Gauss]] wrote a classic book called [[Disquisitiones Arithmeticae]]

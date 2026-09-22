@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/gas-station/
-Reviewed: false
 ---
 ## Synthesis
 - 

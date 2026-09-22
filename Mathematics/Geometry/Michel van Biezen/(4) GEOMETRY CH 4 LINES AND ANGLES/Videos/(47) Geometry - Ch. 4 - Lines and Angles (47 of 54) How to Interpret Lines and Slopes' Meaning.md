@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtu.be/-Et5gQdzdow
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-04 at 5.04.36 AM.png]]
 	- Distance vs Time

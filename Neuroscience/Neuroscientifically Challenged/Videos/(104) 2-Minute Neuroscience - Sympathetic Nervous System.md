@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FNHRSXe5do8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.29.25 PM.png]]
 	- The [[sympathetic nervous system]] is a subdivision of the autonomic nervous system, which is the subdivision of the peripheral nervous system that controls automatic processes in the body like digestion, heart rate, and respiration. The sympathetic nervous system is typically associated with expending energy and the “fight-or-flight” response, which is a general response to alarming or threatening situations that involves increasing the ability of the body to act. The idea that the sympathetic nervous system is only active during “fight-or-flight” responses is an oversimplification, however, as it is also active in non-emergency responses and during times of rest.

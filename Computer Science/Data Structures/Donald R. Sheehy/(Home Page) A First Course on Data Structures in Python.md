@@ -1,13 +1,12 @@
 ---
+status: open
 Source:
   - https://donsheehy.github.io/datastructures/
   - zotero://open-pdf/library/items/HQW8R6QS?page=1&annotation=YSUJDBY2
 Length: "222"
 Progress: "44"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## (1) Overview
 - Topics

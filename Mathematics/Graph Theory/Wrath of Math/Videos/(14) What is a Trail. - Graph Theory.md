@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=2ZgfZgmC9rA
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 9.53.43 PM.png]]
 	- [[Trail]]: A sequence of vertices in G

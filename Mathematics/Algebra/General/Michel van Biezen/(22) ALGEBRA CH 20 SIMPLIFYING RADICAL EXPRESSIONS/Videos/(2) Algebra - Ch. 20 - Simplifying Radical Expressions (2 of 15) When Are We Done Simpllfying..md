@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=1y86lu1QXs4
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-15 at 9.26.04 PM.png]]
 - You are not done simplifying if

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=I6K10aif0tE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.05.53 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss Alzheimer's disease. Alzheimer's disease is the most common form of neurodegenerative disease, meaning it is characterized by the degeneration and death of neurons. It is classified as a type of dementia, a term that refers to a category of brain disorders that involve memory loss and cognitive impairment. Alzheimer's most often affects adults over the age of 65. The causes of the disease are not well understood and genetics and environmental factors are thought to be involved. 

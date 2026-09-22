@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rj4wveoFLD0
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 4.11.50 AM.png]]
 	- A [[Derangement]] of Elements

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Vh4krbTnTAA
-Reviewed: false
 ---
 ```C
 //first set of straight brackets is # of rows

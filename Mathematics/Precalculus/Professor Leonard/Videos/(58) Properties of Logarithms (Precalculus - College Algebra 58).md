@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=u0uScdsBPfk
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 3.41.43 AM.png]]
 	- Properties

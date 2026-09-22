@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Wirk4o3FHPA
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 3.26.01 PM.png]]
 	- Working with [[Absolute Value|absolute values]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=F-EXmG1-gRQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-15 at 11.43.55 AM.png]]
 	- Operations on Regular Languages

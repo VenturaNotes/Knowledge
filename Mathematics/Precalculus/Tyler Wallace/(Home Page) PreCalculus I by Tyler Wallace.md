@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL9J7RpUf2cG_B7IoZnEDPWJr0tU035Cnu
 Length: 12 hours, 52 minutes, 33 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) PreCalc 1.1 Exponents]]

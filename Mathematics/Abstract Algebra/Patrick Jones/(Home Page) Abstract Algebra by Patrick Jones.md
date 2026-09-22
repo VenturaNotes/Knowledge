@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLGe7QU_YSVXcjv3carEAF5mEPmFEqfXsp
 Length: 9 hours, 39 minutes, 41 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Abstract Algebra 1.1 - Symmetries of a Square]]

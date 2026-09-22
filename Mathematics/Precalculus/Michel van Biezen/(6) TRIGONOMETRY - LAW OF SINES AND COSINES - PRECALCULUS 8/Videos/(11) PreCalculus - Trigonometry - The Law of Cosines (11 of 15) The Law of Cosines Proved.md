@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ztG4b9YifUA
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 10.42.36 PM.png]]
 	- Proof of [[law of cosines]]

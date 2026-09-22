@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=hfnr2EPzn98
-Reviewed: false
 ---
 - [ ] #question What does time NULL mean? 
 ```C++

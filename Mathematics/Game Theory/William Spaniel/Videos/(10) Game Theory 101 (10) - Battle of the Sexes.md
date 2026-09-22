@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=2BdBWmL8tJc
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-21 at 12.48.16 AM.png]]
 	- The Story

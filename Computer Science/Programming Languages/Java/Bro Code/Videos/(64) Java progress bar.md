@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=JEI-fcfnFkc
-Reviewed: false
 ---
 ```java
 import java.awt.*;

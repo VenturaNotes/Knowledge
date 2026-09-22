@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=o_jMBzFuLVg
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-30 at 12.12.48 AM.png]]
 	- The sum of 2 numbers = 1

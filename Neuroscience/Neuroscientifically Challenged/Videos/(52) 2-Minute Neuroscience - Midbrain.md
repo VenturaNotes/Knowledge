@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=NsWukc8G6wE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.58.14 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss the midbrain. The midbrain is one of the three divisions of the brainstem. 

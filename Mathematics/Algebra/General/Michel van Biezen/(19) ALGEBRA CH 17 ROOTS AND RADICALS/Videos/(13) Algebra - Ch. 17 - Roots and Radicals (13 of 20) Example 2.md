@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=rNN4QGuvCcI
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-13 at 6.28.36 PM.png]]
 	- When thinking of imaginary numbers think like this:

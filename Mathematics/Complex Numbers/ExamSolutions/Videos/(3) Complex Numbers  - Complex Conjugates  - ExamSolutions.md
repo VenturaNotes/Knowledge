@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=l5Y1KQXQ1Ys
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 1.06.29 AM.png]]
 	- $z^*$ is the complex conjugate of $z$ 

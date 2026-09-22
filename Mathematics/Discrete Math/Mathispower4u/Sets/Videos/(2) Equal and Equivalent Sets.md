@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=84ej_yVuMoo
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 12.07.37 PM.png]]
 	- Equal Versus Equivalent Sets

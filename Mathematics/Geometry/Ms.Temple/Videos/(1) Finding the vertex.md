@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=CzBbVvnwvqg
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-24 at 3.42.03 PM.png]]
 	- Finds the vertex of a quadratic equation

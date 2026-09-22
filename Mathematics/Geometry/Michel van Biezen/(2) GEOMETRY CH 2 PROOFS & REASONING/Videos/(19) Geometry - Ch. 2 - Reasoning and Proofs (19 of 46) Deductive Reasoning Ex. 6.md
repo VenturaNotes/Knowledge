@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=_9sAHYpGEsk
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-12 at 1.51.53 PM.png]]
 	- Which of the 4 conclusions is true?

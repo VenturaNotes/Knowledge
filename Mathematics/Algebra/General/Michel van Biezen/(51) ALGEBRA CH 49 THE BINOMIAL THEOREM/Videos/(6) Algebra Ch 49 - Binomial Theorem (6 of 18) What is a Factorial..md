@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=rGKMeXXE4P8
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 2.47.34 AM.png]]
 	- A factorial is a product of integers in descending order (decreasing by 1)

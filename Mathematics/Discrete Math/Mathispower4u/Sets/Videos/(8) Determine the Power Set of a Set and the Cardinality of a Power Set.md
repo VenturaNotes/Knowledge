@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_QCW-qEN7mU
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 12.52.20 PM.png]]
 	- Relationships Between Sets

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XCxHhfJq1LU
-Reviewed: false
 ---
 ```c++
 #include <iostream>

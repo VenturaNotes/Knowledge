@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=2-eZ6wkZrh8
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 4.17.55 AM.png]]
 	- What is [[Calculus]]?

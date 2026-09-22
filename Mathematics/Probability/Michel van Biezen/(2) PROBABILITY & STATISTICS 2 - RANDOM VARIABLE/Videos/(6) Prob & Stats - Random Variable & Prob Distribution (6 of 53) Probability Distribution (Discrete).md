@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zHIOF6Ip_i4
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-11 at 7.13.24 PM.png]]
 	- Let X = # of tosses required to get heads

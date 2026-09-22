@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dxZOyl33700
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 4.31.57 AM.png|500]]
 	- Paste special needed to paste format

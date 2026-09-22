@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=R3wBJIPZ03o
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 7.19.15 PM.png]]
 	- Direction of the proof

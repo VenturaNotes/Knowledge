@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=QqWfw_CFR6Q
-Reviewed: false
 ---
 - [[exception]]: errors that occur during execution
 	- [[try]]: try some code that is considered "dangerous"

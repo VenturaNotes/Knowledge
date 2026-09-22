@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=1uW3qMFA9Ho&list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6
 Length: 1 day, 5 hours, 58 minutes, 19 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) L01.1 Lecture Overview]]

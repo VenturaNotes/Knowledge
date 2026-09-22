@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=3c48wy3RSsU
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-19 at 3.38.53 AM.png]]
 	- When the center at the origin

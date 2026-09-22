@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/counting-bits/
-Reviewed: false
 tags:
   - in-progress
 ---

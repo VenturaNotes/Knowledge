@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=so1iUWaLmKA
-Reviewed: false
 ---
 Variable (a placeholder for a value that behaves as the value it contains)
 x = 123

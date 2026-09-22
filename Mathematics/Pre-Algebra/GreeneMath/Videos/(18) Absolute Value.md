@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=16755s
-Reviewed: false
 ---
 - Lesson Objectives
 	- Learn how to find the absolute value of a number

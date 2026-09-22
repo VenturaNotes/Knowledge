@@ -5,7 +5,6 @@ Length: 1 hour, 1 minute, 13 seconds
 tags:
   - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 - Incomplete

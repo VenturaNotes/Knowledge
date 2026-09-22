@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=nzwCInIMlU4
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 7.36.30 PM.png]]
 	- [[Whispering gallery]] (one at Grand Central Terminal in New York)

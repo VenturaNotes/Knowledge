@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_jANiBETlu4
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 9.04.30 PM.png]]
 	- [[Compound interest]]

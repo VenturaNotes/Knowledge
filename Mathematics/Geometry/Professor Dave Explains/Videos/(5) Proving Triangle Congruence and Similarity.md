@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=mJ4Ms6SXEgg
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 6.34.08 PM.png]]
 	- Geometry is concerned with proofs

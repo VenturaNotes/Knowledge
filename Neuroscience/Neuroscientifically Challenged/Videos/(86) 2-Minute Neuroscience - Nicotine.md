@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=I02WbuLiivw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.09.15 PM.png]]
 	- Welcome to 2-minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss nicotine. Nicotine is the main psychoactive component of tobacco. It primarily exerts its effects by activating, or acting as an agonist, at certain receptors for the neurotransmitter acetylcholine. These receptors, known as nicotinic acetylcholine receptors, are found throughout the central and peripheral nervous systems. When nicotine binds to nicotinic acetylcholine receptors, it typically causes depolarization of the neuron they are found on and the resultant release of a variety of neurotransmitters. 

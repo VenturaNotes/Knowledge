@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=43d1tdR6-Vw
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-06 at 12.43.50 PM.png]]
 	- Properties of Trees

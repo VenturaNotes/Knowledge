@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=w8DuUJnQ574
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-31 at 12.48.55 AM.png]]
 	- [[derivative|derivatives]] of [[Trigonometric function|trig functions]]

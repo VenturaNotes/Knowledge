@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=y7NhQYgeCkA
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.38.12 PM.png]]
 	- In this installment I will discuss [[caffeine]]. Caffeine is a stimulant drug and the most widely-consumed mind-altering substance in the world. It belongs to a class of compounds known as the methylxanthines, and is commonly found in a number of natural sources including the seeds of coffee plants and the leaves of tea plants. 

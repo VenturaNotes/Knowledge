@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLD7NSlqW6HTHcldJVnpobt5EYPnV2pCcH
 Length: 8 hours, 2 minutes, 8 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Geometry - 1-1 Statements and Negations]]

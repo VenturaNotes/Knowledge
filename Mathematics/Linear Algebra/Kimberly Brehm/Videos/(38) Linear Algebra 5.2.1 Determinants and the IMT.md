@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=XMWBC5_rFpI
-Reviewed: false
 ---
 - Image
 	- [[Determinant]] and the [[invertible matrix theorem|IMT]] which will lead us to the characteristic equation

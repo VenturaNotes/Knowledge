@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=S9nH8CFD4RA
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 4.14.33 AM.png]]
 	- #comment seems like magenta was not capitalized and yellow was misspelled

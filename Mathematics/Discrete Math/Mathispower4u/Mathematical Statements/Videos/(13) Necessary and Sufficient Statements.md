@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=PXPE-TDfIK0
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 10.58.22 PM.png]]
 	- Necessary and Sufficient Statements

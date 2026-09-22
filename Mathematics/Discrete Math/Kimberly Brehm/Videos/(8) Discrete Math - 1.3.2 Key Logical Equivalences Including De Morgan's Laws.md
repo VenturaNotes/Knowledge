@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=aXobNQArW64
-Reviewed: false
 ---
 - [[Logical equivalence|logical equivalences]]
 	- [[Identity laws]]

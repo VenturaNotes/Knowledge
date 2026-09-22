@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=DOooyE6liLY
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 6.28.19 AM.png]]
 	- Probability is about determining the likelihood of event(s).

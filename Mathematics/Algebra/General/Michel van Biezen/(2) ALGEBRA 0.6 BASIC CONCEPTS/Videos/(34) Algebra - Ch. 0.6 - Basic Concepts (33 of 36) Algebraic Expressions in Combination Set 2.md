@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=EPAerqza5N8
-Reviewed: false
 ---
 - Write as an algebraic expression
 	- (1) Mary is four times the age bob was 5 years ago

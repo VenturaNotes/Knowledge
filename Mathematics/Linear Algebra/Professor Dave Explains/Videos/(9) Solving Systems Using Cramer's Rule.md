@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RdLo-9jh2EM
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 6.25.31 AM.png]]
 	- [[Cramer's Rule]]

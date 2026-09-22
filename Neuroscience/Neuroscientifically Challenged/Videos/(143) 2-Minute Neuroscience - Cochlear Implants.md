@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-V8bEaXgbf4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.21.13 AM.png]]
 	- A cochlear implant is an electronic device that can restore sound perception in people with certain types of severe hearing loss by picking up sound from the environment, converting that sound into electrical impulses, and transmitting those impulses directly to the auditory nerve. Cochlear implants provide an option for hearing restoration in patients who have more extensive hearing loss, and for whom a device that simply amplifies sound (such as a hearing aid) may not be as effective. A cochlear implant is an example of a neural prosthesis, as it replaces the disrupted functionality of the cochlea with an electronic device to restore functional hearing. 

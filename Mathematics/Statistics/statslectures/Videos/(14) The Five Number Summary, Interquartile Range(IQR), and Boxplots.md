@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=MXIU5pQi3UM
-Reviewed: false
 ---
 - The Five Number Summary is a method of summarizing a distribution of data.
 	- (1) Minimum

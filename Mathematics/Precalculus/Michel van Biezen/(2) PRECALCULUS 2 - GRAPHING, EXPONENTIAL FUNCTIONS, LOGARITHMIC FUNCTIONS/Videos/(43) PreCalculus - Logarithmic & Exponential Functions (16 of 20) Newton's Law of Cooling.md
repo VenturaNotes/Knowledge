@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ouQfMWXp-QM
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 11.09.48 AM.png]]
 	- [[Newton's Law of cooling]]

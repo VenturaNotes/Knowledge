@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=kXW59uSt31g
-Reviewed: false
 ---
 - ![[Pasted image 20260515022927.png]]
 	- Write a logical expression for the following statements involving sets.

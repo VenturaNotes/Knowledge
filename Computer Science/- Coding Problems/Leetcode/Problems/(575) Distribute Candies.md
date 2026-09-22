@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/distribute-candies/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

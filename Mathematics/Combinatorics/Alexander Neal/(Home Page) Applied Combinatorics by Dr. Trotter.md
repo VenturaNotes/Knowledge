@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - https://sites.gatech.edu/math3012openresources/lecture-videos/course-overview/
   - https://www.youtube.com/playlist?list=PLXYON2eS4HCVpuT8NxS1HqsvRHbsPKrpq
 Length: 1 day, 6 hours, 5 minutes, 58 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Notes
 	- [Practice Problems](https://trotter.math.gatech.edu/math-3012/toppage.html) #resource

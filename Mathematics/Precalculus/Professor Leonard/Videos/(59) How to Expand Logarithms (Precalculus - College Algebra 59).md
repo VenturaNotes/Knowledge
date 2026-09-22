@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=qCeN653SdX4
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 3.52.09 AM.png]]
 	- Will write all radicals as exponents

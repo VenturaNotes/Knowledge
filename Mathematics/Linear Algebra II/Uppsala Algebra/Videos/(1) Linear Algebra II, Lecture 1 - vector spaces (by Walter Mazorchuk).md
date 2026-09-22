@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jpp4kQ0q0FM
-Reviewed: false
 ---
 ## Course Overview
 - Major Parts:

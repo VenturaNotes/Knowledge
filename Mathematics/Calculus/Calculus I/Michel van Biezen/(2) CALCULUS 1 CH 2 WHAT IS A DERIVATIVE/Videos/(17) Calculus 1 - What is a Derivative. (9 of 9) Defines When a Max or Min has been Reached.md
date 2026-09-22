@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=l2KdrSrGIF0
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 3.34.58 PM.png]]
 	- The slope of the max and min represents a horizontal line since the tangent would be a horizontal line

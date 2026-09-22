@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WQomLK0vTQ8
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-18 at 1.46.22 PM.png]]
 	- [[function (math)|Functions]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=4AwLTqPJzT8
-Reviewed: false
 ---
 - These are all going to deal with linear equations
 	- (1) Relative Price and Cost

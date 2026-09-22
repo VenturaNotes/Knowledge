@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=pSokndJB3Pw
-Reviewed: false
 ---
 ```java
 import java.util.Random;

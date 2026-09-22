@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tR6I1gH4LiA
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-06 at 7.11.29 PM.png]]
 - Note that algebraic expressions do not have an equal sign

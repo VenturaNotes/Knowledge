@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_i_yuO1-u6g
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-13 at 9.49.45 AM.png|400]]
 	- Sequences

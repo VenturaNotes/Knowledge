@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ltcpaHdXUrU
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 2.43.50 AM.png]]
 	- Recording a macro will record all the actions you do on the sheet

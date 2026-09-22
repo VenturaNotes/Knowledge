@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=D5Vsm_Daexg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.50.16 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss benzodiazepines. Benzodiazepines are a class of drugs named for their chemical structure that are commonly used to treat anxiety disorders and sleep-related disorders. They include well-known drugs like valium, xanax, and klonopin. There are dozens of drugs in the benzodiazepine class, but the mechanism by which they all exert their effects is thought to be similar. 

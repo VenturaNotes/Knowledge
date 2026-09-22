@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/group-anagrams/description/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

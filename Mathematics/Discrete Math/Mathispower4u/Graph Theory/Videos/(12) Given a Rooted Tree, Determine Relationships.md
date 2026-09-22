@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1Fc-ustB_Rg
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-08 at 9.19.11 AM.png]]
 	- [[Rooted Trees]]

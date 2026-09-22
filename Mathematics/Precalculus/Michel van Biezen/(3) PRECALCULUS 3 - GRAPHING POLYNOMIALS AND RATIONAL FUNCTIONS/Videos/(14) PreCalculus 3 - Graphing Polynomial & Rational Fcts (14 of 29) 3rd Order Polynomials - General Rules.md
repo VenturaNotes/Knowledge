@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ehBhxaKZPew
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 1.37.21 PM.png]]
 	- [[3rd order polynomials]]

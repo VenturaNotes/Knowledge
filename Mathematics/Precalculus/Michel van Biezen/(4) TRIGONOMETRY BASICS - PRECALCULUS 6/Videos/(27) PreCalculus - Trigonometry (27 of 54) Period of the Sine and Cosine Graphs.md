@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=C5iRtsrPl9U
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 6.29.40 PM.png]]
 	- [[Period]] (periodicity)

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=D6WmNTQTAfc
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 12.03.25 AM.png]]
 	- Restless legs syndrome or RLS is a condition that causes an urge to move the legs that often occurs along with uncomfortable sensations in the legs or sometimes in other body parts. The unpleasant sensations and urges to move the legs typically begin or become worse when someone is at rest, and they often only occur in the evening or at night. Movement tends to relieve the unpleasant sensations and urges to move, at least for as long as the movement lasts. Patients with RLS also often have insomnia and experience involuntary periodic leg movements during sleep or resting wakefulness. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ou_G7_zodR4
-Reviewed: false
 ---
 ```C
 //A function is a small section of code that is executed whenever we call it. Also known as

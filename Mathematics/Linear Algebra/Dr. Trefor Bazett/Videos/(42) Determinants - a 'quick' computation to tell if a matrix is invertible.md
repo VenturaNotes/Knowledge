@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FMqV8GZFqzQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 1.33.59 AM.png]]
 	- [[Determinant]]

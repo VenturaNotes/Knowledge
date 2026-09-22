@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tEBsTX2OVgI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 12.01.20 AM.png]]
 	- [[Autism]], also known as autism spectrum disorder, is characterized by symptoms that include impairments in social communication and interaction and restricted and repetitive behaviors. Although the neuroscience of autism is still poorly understood, autism is considered to be a complex developmental disorder that involves atypical brain organization starting early in development. 

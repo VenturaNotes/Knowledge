@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=fYyARMqiaag
-Reviewed: false
 ---
 - Image
 	- Will talk about lines, families of curves, trig functions, 

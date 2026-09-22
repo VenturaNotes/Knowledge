@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=gyq9ZBvkGUo
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 6.02.43 PM.png]]
 	- Linear -> x to the first power

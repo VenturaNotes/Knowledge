@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zZJjjd2aoIE
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 11.12.02 AM.png]]
 	- Sequences: Solving Recurrence Relations

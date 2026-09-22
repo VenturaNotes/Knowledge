@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XM0e6-OaYLY
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 3.32.46 PM.png]]
 	- Mathematical Statements and Logic Connectives

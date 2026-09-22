@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=01b3KjgPhfI
-Reviewed: false
 ---
 - Methods of proof:
 	- Direct Proof

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tsXAxLISH3I
-Reviewed: false
 ---
 -  [[Logical Argument]]
 	- A logical argument is made up of premises and a conclusion

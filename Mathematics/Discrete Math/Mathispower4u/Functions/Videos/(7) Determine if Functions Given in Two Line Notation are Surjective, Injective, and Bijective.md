@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=4L6uvT18M2M
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-18 at 3.27.36 PM.png]]
 	- Surjections, Injections, and Bijections

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=cWTru_aId6o
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-13 at 9.46.35 AM.png]]
 	- Arithmetic and Geometric Sequences

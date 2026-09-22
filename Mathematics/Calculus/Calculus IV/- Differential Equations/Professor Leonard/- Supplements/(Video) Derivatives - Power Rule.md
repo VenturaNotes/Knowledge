@@ -5,7 +5,6 @@ Length: 21 minutes, 45 seconds
 tags:
   - status/incomplete
   - type/video
-Reviewed: false
 ---
 - Will go over examples with polynomials, square root functions, rational functions, absolute value of x 
 - Power rule

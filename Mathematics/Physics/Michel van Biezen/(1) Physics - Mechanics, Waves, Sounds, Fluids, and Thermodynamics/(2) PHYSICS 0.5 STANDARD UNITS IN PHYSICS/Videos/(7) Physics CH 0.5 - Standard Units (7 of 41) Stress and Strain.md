@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=x_JVf4B7XKM
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-20 at 10.08.37 PM.png]]
 	- [[Young's Modulus]]

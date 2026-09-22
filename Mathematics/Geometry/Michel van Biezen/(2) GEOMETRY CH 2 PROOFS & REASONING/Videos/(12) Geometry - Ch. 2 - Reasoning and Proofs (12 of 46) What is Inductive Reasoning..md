@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Rbk9U8ri0C4
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-12 at 1.11.56 PM.png]]
 	- In the previous videos, we have used inductive reasoning by:

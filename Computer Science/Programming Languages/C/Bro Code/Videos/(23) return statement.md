@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=HuKYb1yN7Ik
-Reviewed: false
 ---
 ```C
 //the type of variable returned needs to be the same as the function type

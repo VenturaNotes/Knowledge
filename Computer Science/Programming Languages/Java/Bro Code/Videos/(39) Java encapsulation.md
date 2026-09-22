@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=eboNNUADeIc
-Reviewed: false
 ---
 - Encapsulation adds a layer of security
 	- Other classes won't have direct access to these values

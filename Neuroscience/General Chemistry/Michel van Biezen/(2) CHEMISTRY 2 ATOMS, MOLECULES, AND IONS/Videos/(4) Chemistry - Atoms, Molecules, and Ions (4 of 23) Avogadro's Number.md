@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=mfWLdIPCZFA
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-26 at 11.52.52 AM.png]]
 	- amu is the unit that we use to measure the mass of a single atom ^ed0f51

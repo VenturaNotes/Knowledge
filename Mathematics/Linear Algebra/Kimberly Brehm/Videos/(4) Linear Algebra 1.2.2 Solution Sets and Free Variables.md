@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=MfeOEdjUfXw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-12 at 1.45.21 PM.png]]
 	- Solution sets and free variables

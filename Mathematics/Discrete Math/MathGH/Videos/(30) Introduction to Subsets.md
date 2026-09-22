@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RyWlssfr4LQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 5.06.06 PM.png]]
 	- [[Subset|subsets]]

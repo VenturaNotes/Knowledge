@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Qspc6uBMdEY
-Reviewed: false
 ---
 - A tale of three functions
 	- $f(x) = x + 1$

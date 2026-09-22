@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/combination-sum/
-Reviewed: false
 tags:
   - in-progress
 ---

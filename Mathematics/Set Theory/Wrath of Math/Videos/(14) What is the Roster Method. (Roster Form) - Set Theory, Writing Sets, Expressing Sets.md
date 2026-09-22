@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Czn3Ljj8mT0
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 1.44.03 PM.png]]
 	- The [[Roster Method|roster method]] is writing out every element in the set (including ellipses)

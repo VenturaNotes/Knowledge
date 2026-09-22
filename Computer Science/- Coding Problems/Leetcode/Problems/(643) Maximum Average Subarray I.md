@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/maximum-average-subarray-i/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

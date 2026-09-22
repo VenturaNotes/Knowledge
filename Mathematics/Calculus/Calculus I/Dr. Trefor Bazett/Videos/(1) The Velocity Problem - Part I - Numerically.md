@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=LWPzHlSBlxI
-Reviewed: false
 ---
 - At 2:00 pm, I'm at mile marker 100
 - At 2:15 pm, I'm at mile marker 110

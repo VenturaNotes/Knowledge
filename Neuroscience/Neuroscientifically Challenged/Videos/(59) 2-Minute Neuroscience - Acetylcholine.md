@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=6WFhhL-enlQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-25 at 11.11.46 AM.png]]
 	- I will discuss [[acetylcholine]]. Acetylcholine was the first neurotransmitter discovered, and is named for the two substances used to synthesize it: the nutrient choline and the enzyme acetyl coenzyme A. 

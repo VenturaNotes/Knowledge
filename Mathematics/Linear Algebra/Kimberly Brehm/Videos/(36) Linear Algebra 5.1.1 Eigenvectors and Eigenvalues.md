@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=yh5ABTeNUpE
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-13 at 11.07.09 PM.png]]
 	- [[eigenvector|Eigenvectors]] and [[eigenvalue|eigenvalues]]

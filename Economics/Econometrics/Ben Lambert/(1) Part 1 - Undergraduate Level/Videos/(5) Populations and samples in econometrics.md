@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=M9s91hSoNtk
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 12.32.57 AM.png]]
 	- [[Population (Statistics)|population]] (encompasses all objects which have those particular characteristics)

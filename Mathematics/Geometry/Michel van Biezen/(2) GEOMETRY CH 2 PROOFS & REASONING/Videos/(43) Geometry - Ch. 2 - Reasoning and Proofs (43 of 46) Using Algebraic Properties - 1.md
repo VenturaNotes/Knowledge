@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=5MmQXNQg_xM
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 4.30.19 PM.png]]
 	- RHS = right hand side

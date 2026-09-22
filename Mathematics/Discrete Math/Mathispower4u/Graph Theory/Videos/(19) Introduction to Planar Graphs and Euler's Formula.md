@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=hxmhLrISzWo
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-09 at 10.15.57 AM.png]]
 	- [[Planar Graph|planar graphs]]

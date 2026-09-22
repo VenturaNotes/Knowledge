@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLBh2i93oe2quLc5zaxD0WHzQTGrXMwAI6
 Length: 9 hours, 41 minutes, 11 seconds
 tags:
-  - status/incomplete
   - type/playlist
   - ongoing
-Reviewed: false
 ---
 - Complete
 	- [[(1) Linear Algebra - Part 1 - Introduction]]

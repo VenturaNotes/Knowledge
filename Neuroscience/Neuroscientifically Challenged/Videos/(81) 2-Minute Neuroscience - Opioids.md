@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=NPlNCqBHPnE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.54.48 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss opioids. The term “opioid” refers to substances that bind to opioid receptors, usually to exert pain-relieving effects. Opioids can be found naturally in the opium poppy, or they can be partially or completely synthetic. In addition to pain relief, opioids also cause sedation, anxiety reduction, and euphoria, along with a variety of other effects. 

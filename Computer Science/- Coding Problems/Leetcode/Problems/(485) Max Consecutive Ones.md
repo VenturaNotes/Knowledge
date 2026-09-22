@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/max-consecutive-ones/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

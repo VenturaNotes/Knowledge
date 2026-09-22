@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=vF80u3qJkkQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.09.42 PM.png]]
 	- Touch receptors in the skin provide us with tactile information about qualities like the position, shape, texture, pressure, and movement of things we come in contact with. They are often classified as either rapidly-adapting or slowly-adapting. Rapidly-adapting receptors are activated when a stimulus is first encountered, but fall silent if the stimulus remains present. They are important for detecting things like movement. Slowly-adapting receptors keep responding to a continuously present stimulus and are important for detecting things like the size and shape of objects. Touch receptors also vary in the size of their receptive field, or the area they can detect signals from. Having many smaller receptive fields typically allows for better tactile discrimination than fewer, large receptive fields. There are four main types of touch receptors found in hairless skin (like that of the hand). 

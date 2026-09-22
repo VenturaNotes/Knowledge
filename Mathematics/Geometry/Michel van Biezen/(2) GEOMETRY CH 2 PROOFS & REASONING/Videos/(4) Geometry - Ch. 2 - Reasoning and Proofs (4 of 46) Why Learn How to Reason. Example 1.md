@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ti0cp3Irix4
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-11 at 2.27.20 AM.png]]
 	- To become better at solving these type of problems

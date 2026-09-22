@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=4E5LCP1Kes4
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 2.04.44 PM.png]]
 	- Famous Quotes

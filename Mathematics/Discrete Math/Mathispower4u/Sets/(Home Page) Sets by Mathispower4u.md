@@ -5,7 +5,6 @@ Length: 1 hour, 37 minutes, 11 seconds
 tags:
   - status/complete
   - type/playlist
-Reviewed: false
 ---
 - [[(1) Introduction to Sets and Set Notation]]
 - [[(2) Equal and Equivalent Sets]]

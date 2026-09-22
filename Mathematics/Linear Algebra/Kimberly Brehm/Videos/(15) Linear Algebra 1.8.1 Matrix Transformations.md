@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=oo2ej9M49Tw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 4.36.31 PM.png]]
 	- Want to understand linear transformations, but need to understand [[Matrix Transformation|Matrix Transformations]] first

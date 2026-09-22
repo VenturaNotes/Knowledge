@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gcOqv0uzyAQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 4.22.10 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss pain and the anterolateral system. Pain begins at nociceptors, cutaneous receptors that are specialized to detect noxious stimuli like extreme pressure, very hot or cold temperatures, or tissue damage. When activated, nociceptors send a signal to the spinal cord; the signal will be sent to the brain on pathways that make up what is known as the anterolateral system. 

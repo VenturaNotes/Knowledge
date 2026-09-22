@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

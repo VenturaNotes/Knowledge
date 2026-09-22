@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OwfHt1bK7Gc
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 11.08.00 PM.png]]
 	- Evaluate a determinant.

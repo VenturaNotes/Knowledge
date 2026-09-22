@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=e-NfY_DnWNM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.58.09 PM.png]]
 	- Alien hand syndrome is a rare disorder that typically affects the hand, but can also occur in the leg. In a patient suffering from alien hand syndrome, their hand may seem to act independent of their desires. It may interact with objects the patient has no desire to interact with, or even interfere with tasks performed with the other hand. One early case report described a patient whose own hand tried to choke her. Many patients also begin to feel that their hand is not actually their own. Alien hand syndrome most commonly occurs as part of corticobasal syndrome, but there are many other causes as well, like stroke and Creutzfeldt-Jakob disease.

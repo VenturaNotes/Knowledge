@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=XvZBH26MQDE
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-12 at 1.23.24 PM.png]]
 	- If x is an odd number, which expression represents an even number?

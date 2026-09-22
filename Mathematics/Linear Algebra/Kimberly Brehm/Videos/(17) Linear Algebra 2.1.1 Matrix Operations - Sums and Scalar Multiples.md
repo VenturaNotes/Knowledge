@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=dFc2XK9dyNs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 6.17.41 PM.png]]
 	- Matrix operations (sums and scalar multiples)

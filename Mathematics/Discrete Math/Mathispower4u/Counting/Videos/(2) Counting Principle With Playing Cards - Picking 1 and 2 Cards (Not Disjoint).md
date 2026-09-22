@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=hgVb9eUTAhg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-31 at 11.30.44 PM.png]]
 	- Counting: Additive and Multiplicative Principles with Inclusion/Exclusion

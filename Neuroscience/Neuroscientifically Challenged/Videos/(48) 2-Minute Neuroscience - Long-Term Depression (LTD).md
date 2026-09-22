@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=B7ig6sIwIC8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.35.52 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss long-term depression, or LTD. LTD is a process by which synaptic connections between neurons become weaker. It is the opposing process to long-term potentiation. Although the functions of LTD are not completely understood, it's thought to be important to memory formation, perhaps by resetting previous synaptic changes to allow for new memories to be formed via long-term potentiation.

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rgf9ubp_FJ8
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 2.49.03 AM.png]]
 	- Algebraic Proofs

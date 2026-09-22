@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=37nkp2ncAKc
-Reviewed: false
 ---
 - Image
 	- Slide 1

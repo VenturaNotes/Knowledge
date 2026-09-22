@@ -5,7 +5,6 @@ Length: 12 minutes, 32 seconds
 tags:
   - status/incomplete
   - type/video
-Reviewed: false
 ---
 - Mathematician in 19th century (1800s)
 - Proved Quadratic reciprocity law

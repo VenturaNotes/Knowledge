@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=DplxIq0mc_Y
-Reviewed: false
 ---
 ```C
 //A common naming convention for pointers is lowercase "p" + uppercase second "letter" for pointers.

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=l5wIPzv-_GM
-Reviewed: false
 ---
 - A variable is a property that can take on many values.
 	- In a situation with multiple variables

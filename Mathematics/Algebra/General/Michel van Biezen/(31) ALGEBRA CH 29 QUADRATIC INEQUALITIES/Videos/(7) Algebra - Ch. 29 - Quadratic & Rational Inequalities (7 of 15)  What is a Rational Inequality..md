@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=7dVt5XxWHxQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 12.22.54 AM.png]]
 	- An inequality containing an expression in the form of a fraction

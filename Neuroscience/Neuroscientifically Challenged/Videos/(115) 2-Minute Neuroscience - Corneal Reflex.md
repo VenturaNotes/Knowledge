@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=siktmT30nCs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.04.05 PM.png]]
 	- The corneal reflex is a protective reflex that occurs when the cornea of either eye is touched. When this happens, the corneal reflex causes the eye being touched to blink---but it also causes the other eye to blink at the same time. This ensures that both eyes are protected from any foreign objects or irritants in the environment. 

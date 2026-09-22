@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=vOBtEiij-fA
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 2.39.39 AM.png]]
 	- [[Least squares estimator]] (they're good)

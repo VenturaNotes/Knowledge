@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=e9sN9gOEdG4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 5.24.34 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the blood-brain barrier. The blood-brain barrier is a complex that surrounds most of the blood vessels in the brain. It acts as a barrier between the bloodstream and the extracellular space of the brain, allowing only certain substances like water, oxygen, and small lipid-soluble substances to easily cross from the blood into the brain. This prevents toxins, pathogens, and other potentially dangerous substances from crossing from the circulatory system into the brain. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=BIQrnx-vvx8
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-24 at 10.01.24 PM.png]]
 	- [[Continuous function]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

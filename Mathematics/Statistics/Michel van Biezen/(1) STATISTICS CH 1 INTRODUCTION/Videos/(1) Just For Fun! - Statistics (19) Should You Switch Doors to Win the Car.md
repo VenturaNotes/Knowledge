@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=1DklRHfo7z0
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 1.45.57 PM.png]]
 	- Scenarios (Three doors where one has a car behind it)

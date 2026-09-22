@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=YqK_eqKmJlw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.46.28 AM.png]]
 	- [[Spina bifida]] is a birth defect that involves disrupted formation of a structure called the neural tube. The neural tube forms in early neural development, and eventually will become the brain and spinal cord. In spina bifida, the neural tube either does not form or close properly. This can result in three types of spina bifida: myelomeningocele, meningocele, and spina bifida occulta. The latter two forms are less common and do not typically cause any symptoms. Myelomeningocele, which is the most common form of spina bifida, is more likely to result in complications and disability. 

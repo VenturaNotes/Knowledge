@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=LumU80IN748
-Reviewed: false
 ---
 - Write the $1^{st}$ 3 natural numbers
 	- {1, 2, 3}

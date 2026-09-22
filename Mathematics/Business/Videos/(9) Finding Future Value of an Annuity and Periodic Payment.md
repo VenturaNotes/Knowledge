@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=BqZOb5m7IRk
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 9.26.42 PM.png]]
 	- [[Future value of an annuity]]

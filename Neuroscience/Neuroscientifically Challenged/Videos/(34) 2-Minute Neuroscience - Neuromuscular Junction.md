@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=E6SuVmeqs2o
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.03.17 PM.png]]
 	- In this installment I will discuss the [[neuromuscular junction]]. The term neuromuscular junction refers to the synapse between a motor neuron and a skeletal muscle fiber. Activity at the neuromuscular junction is essential for the contraction of skeletal muscle to occur, and even just to keep muscles from atrophying. It is also the site where synaptic transmission was first studied and thus is the best understood example of chemical signaling in the nervous system. When a motor neuron approaches a muscle, it branches out into several extensions that end in areas called synaptic boutons, which can release neurotransmitters. These synaptic boutons are situated over a specialized region of muscle called the end-plate. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=5TcYV6CZ7mI
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-21 at 12.04.55 AM.png]]
 	- Formal Definition

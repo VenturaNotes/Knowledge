@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OvaQSl9Qkv4
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 11.02.16 PM.png]]
 	- Pick two pairs of two equations and eliminate the same variable.

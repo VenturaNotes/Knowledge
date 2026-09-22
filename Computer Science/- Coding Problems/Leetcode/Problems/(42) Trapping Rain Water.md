@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/trapping-rain-water/
-Reviewed: false
 ---
 ## Synthesis
 - 

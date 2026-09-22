@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=TjXVaPLtKXc
-Reviewed: false
 ---
 - (1) By Factoring
 	- ![[Screenshot 2023-02-07 at 12.53.14 PM.png]]

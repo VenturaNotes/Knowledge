@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/insert-interval/
-Reviewed: false
 ---
 ## Synthesis
 - 

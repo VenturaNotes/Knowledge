@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Wa8_nLwQIpg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.51.52 AM.png]]
 	- Welcome to 2-minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss dopamine. Dopamine is a monoamine neurotransmitter, a term that refers to its chemical structure and the fact that it is derived from an amino acid. Dopamine is also a catecholamine, a term that also refers to its chemical structure and the fact that it contains a catechol nucleus. To synthesize dopamine, the amino acid tyrosine is converted to L-dopa. Then L-DOPA is decarboxylated to form dopamine. 

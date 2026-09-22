@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=foJyD3g8mLw
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 7.49.28 AM.png]]
 	- The slope of a tangent line using a table

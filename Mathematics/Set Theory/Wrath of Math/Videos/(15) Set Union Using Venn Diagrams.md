@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=BiQR0bIMkGg
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 1.46.12 PM.png]]
 	- Great way of representing sets

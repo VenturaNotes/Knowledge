@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=nWsjtm_PWfM
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 12.42.37 PM.png]]
 	- First try by only using row addition

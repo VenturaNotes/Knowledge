@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLybg94GvOJ9FoUSDODs14ck3OzSje4WZb
 Length: 5 hours, 41 minutes, 12 seconds
 tags:
   - type/playlist
-  - status/incomplete
-Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Algebra - Using Variables]]

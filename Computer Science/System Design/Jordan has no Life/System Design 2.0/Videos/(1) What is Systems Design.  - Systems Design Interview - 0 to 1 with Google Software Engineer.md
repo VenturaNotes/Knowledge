@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=bwt09KXDH94
-Reviewed: false
 ---
 
 - Intro

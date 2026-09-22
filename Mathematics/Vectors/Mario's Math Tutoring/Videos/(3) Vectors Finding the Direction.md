@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=81y6cEyolaI
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 1.31.19 PM.png]]
 	- [[Direction]] of a vector

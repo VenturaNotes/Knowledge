@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/convert-the-temperature/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

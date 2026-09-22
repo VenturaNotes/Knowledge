@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tIJ0xbhKHlQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 2.21.28 PM.png]]
 	- Congruent sides

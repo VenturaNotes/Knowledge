@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EnJuHTq0ni0
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-15 at 4.58.13 AM.png]]
 	- Square root

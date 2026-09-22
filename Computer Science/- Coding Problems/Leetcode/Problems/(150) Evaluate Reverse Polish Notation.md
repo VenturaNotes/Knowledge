@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/evaluate-reverse-polish-notation/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

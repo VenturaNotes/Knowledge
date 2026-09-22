@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=nQfRUehU4zQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 4.17.56 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss touch and the dorsal columns-medial lemniscus pathway. Somatosensation involves sensations from the body. When these sensations come from the external environment, they are picked up by receptors in the skin called cutaneous receptors. There are several different types of cutaneous receptors, each designed to respond to specific types of touch sensations like pressure, pain, or vibration. In this video I'll discuss signals that involve information about fine touch and vibration. I'll cover pain in a separate video. 

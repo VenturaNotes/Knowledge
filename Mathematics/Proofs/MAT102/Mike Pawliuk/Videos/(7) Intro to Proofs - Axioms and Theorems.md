@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=esjh7jbw-xg
-Reviewed: false
 ---
 [Lecture Slides](zotero://open-pdf/library/items/ELWE8L6Z?page=1&annotation=RJLGXRQA)
 

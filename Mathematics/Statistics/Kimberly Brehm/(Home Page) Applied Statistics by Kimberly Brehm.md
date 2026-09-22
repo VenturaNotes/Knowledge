@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLl-gb0E4MII1dkfGxmdt8YA0Dgabdvdmq
 Length: 16 hours, 35 minutes, 26 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Statistics - 1.1 Intro to Statistics]]

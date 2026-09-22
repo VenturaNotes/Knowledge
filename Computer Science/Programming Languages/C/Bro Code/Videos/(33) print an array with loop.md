@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=shLeCvDQYp4
-Reviewed: false
 ---
 ```C
 // sizeof operator is in bytes

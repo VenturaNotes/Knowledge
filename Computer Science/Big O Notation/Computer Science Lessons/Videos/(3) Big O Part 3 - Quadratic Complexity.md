@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=mIjuDg8ky4U
-Reviewed: false
 ---
 - Image
 - Slide 1: The Dominant Term

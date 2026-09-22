@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ty_2MovEh2k
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 11.21.03 PM.png]]
 	- [[Indicial notation]] - [[Kronecker delta]]

@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLMlqayk59Ivp6m_JYBgt78oHvMNmxKYvA
   - https://www.chadsprep.com/chads-general-chemistry-videos/matter-chemistry/
 Length: 1 day, 11 hours, 55 minutes, 26 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) 1.1 Matter - General Chemistry]]

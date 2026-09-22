@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLWPirh4EWFpEFSYTbKaST6hSlgIFCJjU3
 Length: 6 hours, 31 minutes, 12 seconds
 tags:
   - type/playlist
-  - status/incomplete
-Reviewed: false
 ---
 - Complete
 	- [[(1) Excel VBA - Introduction]]

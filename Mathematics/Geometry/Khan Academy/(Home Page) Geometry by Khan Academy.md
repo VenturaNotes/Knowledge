@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL26812DF9846578C3
 Length: 15 hours, 25 minutes, 8 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Euclid as the father of geometry - Introduction to Euclidean geometry - Geometry - Khan Academy]]

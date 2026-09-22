@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0aJBtUOXpsk
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-15 at 5.15.24 AM.png]]
 	- Polynomial

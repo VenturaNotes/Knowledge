@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=6_Yj9EJTWkc
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-28 at 9.34.02 PM.png]]
 	- [[Normal distribution]]

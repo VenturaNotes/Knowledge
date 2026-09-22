@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uMdP-VTEC38
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-29 at 12.30.24 AM.png]]
 	- Curve Sketching Practice

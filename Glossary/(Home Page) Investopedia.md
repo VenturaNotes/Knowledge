@@ -1,11 +1,9 @@
 ---
+status: open
 Source:
   - https://www.investopedia.com/financial-term-dictionary-4769738
-Length: 
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 Note: Doesn't matter if in alphabetical order. Cmd + F finds term.
 

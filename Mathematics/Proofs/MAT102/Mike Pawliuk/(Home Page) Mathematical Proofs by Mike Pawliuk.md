@@ -1,4 +1,5 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL3ZJrWtEhQ6zIzlcDhFsQ-i9hPG2WhPN4
   - https://mikepawliuk.ca/introduction-to-proofs/
@@ -6,9 +7,7 @@ Length: 9 hours, 14 minutes, 49 seconds
 Related:
   - "[[(Home Page) Introduction to Mathematical Proofs by Shay Fuchs]]"
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Notes
 	- https://www.eecs70.org/ + practice problems #resource

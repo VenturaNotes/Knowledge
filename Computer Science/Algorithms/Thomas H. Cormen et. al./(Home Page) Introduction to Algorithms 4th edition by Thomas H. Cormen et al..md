@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/JK4NPYJ8?page=2&annotation=XQI8X9E2
 Length: "1677"
 Progress: "17"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 - [Errata updated](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/11599/e4-bugs.html)
 	- 106 errors total

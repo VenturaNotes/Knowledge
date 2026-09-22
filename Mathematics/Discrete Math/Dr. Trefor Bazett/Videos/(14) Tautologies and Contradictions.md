@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ji2vr-9duPI
-Reviewed: false
 ---
 - Definition: A tautology t is a statement that is always true
 - ![[Screenshot 2022-12-31 at 1.05.23 PM.png]]

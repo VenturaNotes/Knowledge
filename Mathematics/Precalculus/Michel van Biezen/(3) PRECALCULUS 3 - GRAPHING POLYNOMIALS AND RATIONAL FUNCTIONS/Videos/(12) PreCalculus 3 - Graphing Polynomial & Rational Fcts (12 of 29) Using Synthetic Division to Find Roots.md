@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=vIVr7TYDk4A
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 1.32.44 PM.png]]
 	- Using synthetic division again to find roots. 

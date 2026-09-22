@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=CJ37J_Cdd8Q
-Reviewed: false
 ---
 ```C
 //"s" is for seed, "rand" is for random.

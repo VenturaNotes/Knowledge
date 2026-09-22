@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tZcKT4l_JZk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.15.08 PM.png]]
 	- Electroencephalography, or EEG, is a technique used to measure the electrical activity of the brain. In EEG, electrodes are most commonly placed on the scalp of a patient, primarily to detect the electrical activity of neurons in the cerebral cortex. Typically, EEG does not record the activity of single neurons, but rather detects the signals created when populations of neurons are active at the same time. It mostly records signals from small areas of the brain surrounding each electrode. EEG is primarily measuring postsynaptic potentials, or changes in membrane potential that are elicited by neurotransmitters binding to receptors on the postsynaptic membrane.

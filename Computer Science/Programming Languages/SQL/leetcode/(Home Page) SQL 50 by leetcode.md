@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://leetcode.com/studyplan/top-sql-50/
 Length: "50"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 - Complete
 - Incomplete

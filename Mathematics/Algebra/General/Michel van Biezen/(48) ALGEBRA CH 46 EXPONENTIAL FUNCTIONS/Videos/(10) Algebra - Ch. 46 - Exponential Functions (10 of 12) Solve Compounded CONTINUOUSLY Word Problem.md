@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=22AmIzaq7d8
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-20 at 4.57.32 PM.png]]
 	- Need to use Euler's number to show compounded continuously

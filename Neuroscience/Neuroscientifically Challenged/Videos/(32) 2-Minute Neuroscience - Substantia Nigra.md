@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JJ6YB4674GQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 5.51.57 PM.png]]
 	- In this installment I will discuss the [[substantia nigra]]. The substantia nigra is a structure found in the brainstem that looks like a dark streak in unstained brain tissue. Its appearance is where it gets its name, as substantia nigra is Latin for “black substance.” There are two substantiae nigrae, one on each side of the midline of the midbrain. 

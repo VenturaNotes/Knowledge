@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://flexbooks.ck12.org/user:jzeitlin36/cbook/advanced-mathematics-flexbook/?_gl=1*1yxivwp*_ga*MTYxOTI0NTQwMi4xNjgzNDI3Mzk0*_ga_7PBE4L0PZZ*MTY4MzQyNzM5NC4xLjEuMTY4MzQyNzU4OS4wLjAuMA..
 Length: "43"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 ## (1) Vectors and Matrices
 ### (1.1) Vectors, Length, and Direction

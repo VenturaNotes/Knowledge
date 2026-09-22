@@ -5,7 +5,6 @@ Length: 1 hour, 7 minutes, 15 seconds
 tags:
   - status/complete
   - type/playlist
-Reviewed: false
 ---
 - [[(1) Vectors Component Form]]
 - [[(2) Magnitude of a Vector]]

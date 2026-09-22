@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=T7_m8lT-ecc
-Reviewed: false
 ---
 - Say whether the number is a prime or composite
 - Reminder

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/truncate-sentence/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

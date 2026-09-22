@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3NtTAuGSAfc
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 8.26.07 AM.png]]
 	- Random Variable

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL5pdglZEO3Ngj4qjECYySiVWd1HOLMRBL
 Length: 5 hours, 9 minutes, 7 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Matrices - Introduction - ExamSolutions]]

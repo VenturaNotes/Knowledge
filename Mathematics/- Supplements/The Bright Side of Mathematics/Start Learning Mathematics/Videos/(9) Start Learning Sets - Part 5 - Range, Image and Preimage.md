@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=twBYYTJdcjc
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 7.25.06 PM.png]]
 	- [[Map]]

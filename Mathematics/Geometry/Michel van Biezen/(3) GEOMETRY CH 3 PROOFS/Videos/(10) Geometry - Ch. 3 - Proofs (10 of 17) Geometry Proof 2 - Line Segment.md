@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=mtHofS4Yju0
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-28 at 1.43.46 AM.png]]
 	- Division Property of Equality

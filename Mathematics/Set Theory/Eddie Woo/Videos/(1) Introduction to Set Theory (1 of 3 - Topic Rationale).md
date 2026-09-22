@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=JHKv3cEzv3A
-Reviewed: false
 ---
 - Image
 	- If you can't assess something., you can't really teach it as a topic

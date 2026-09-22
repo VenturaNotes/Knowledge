@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.coursera.org/learn/machine-learning/lecture/lwqzq/jupyter-notebooks
-Reviewed: false
 ---
 - Most widely used tool by machine learning and data science practitioners today is the Jupyter Notebook. 
 	- Default environment that many use to code up and experiment and try things out.

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gQPZbLEc7EA
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 10.30.08 AM.png]]
 	- Solve Recurrence Relations: Telescoping

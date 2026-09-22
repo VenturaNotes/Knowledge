@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=NpQ-S89jVzE
-Reviewed: false
 ---
 - ![[Screenshot 2024-09-23 at 2.49.53 PM.png]]
 	- [[ACID Transactions]]

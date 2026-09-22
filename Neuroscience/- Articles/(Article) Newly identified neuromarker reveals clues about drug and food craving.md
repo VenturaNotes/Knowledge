@@ -1,4 +1,5 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/MN6EBXK7?page=1&annotation=XGXQ67L4
   - https://www.nature.com/articles/s41593-022-01228-w
@@ -8,9 +9,7 @@ Year: 2022-12-19
 Authors:
   - Mallory Locklear
 tags:
-  - status/incomplete
   - type/paper
-Reviewed: false
 ---
 
 - “Newly identified neuromarker reveals clues about drug and food craving” ([Koban et al., 2022, p. 1](zotero://select/library/items/Q6NEEVLY)) ([pdf](zotero://open-pdf/library/items/ZNVE3YEF?page=1&annotation=6H7NNK8Y))

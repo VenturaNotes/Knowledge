@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uh4zUdKvxPA
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 2.06.13 AM.png]]
 	- [[Estimator]]

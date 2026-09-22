@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XRQEpEV0eyg
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 8.56.13 PM.png]]
 	- More on [[simple interest]]

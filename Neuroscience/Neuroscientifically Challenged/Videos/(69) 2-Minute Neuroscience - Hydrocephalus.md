@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JLNI2upLi7I
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.54.53 AM.png]]
 	- Welcome to 2-minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss hydrocephalus. Hydrocephalus is a condition that involves the build-up of cerebrospinal fluid, or CSF, a fluid that is produced in the cavities of the brain known as the ventricles. CSF flows through and around the brain and spinal cord and is eventually absorbed into the bloodstream. It serves a number of functions including acting as a cushion, delivering nutrients, and removing harmful substances.

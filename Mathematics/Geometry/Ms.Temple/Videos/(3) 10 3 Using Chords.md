@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=zqIWNP_3DGY
-Reviewed: false
 ---
 - ![[Pasted image 20230424165505.png]]
 	- Using Chords

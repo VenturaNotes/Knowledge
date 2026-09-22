@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/valid-sudoku/
-Reviewed: false
 ---
 ## Synthesis
 - 

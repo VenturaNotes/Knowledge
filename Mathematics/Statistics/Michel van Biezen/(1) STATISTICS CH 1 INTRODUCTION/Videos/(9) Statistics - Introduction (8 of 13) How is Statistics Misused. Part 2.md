@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=if3hisOVKlk
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 2.41.13 PM.png]]
 	- (G) Time scaling $\rightarrow$ Not showing the whole period (not showing the whole story)

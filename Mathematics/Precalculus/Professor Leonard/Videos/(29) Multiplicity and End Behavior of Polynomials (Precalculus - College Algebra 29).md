@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Gxh-mEt1K-o
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-05 at 11.27.14 PM.png]]
 	- Multiplicity

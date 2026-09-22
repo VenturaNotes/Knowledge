@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JoLDwNh1lZ8
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-11 at 4.56.40 AM.png]]
 	- [[Cartesian product]]: 

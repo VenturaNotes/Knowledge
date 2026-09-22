@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=4BDkfQgGXLY
-Reviewed: false
 ---
 ## Score Distribution
 - You will get an envelope in the mail in the summer which will show you what your score is.

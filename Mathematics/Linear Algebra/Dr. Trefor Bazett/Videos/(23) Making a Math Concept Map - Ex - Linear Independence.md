@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=3yxHDRVEjXY
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 11.06.39 PM.png]]
 	- Linear Independence Concept Map

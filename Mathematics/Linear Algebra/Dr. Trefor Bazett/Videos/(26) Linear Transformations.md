@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=VP_hZp8_dCg
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 11.24.48 PM.png|500]]
 	- [[Linear Transformation|linear transformations]]: 

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv
 Length: 20 hours, 12 minutes 5 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - [Worksheet](https://www.lem.ma/content/CcT4zbFhEhjTkqRrNin5eg?book_id=AIApowDnjlDDQrp-uOZVow)
 - Complete

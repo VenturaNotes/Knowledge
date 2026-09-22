@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-DnmoFnQUtk
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 3.09.46 PM.png]]
 	- We can graph lines in $y = mx + b$ form

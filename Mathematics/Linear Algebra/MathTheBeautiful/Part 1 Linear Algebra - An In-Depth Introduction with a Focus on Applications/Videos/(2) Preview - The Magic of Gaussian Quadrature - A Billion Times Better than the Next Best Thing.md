@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=k-yUdqRXijo
-Reviewed: false
 ---
 - ![[Screenshot 2025-10-23 at 2.20.02 PM.png]]
 	- [[Gaussian Quadrature]]

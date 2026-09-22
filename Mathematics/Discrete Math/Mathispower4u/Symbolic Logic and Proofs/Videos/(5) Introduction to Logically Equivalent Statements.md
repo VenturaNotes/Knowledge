@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=OoqINArRp98
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-14 at 11.59.51 AM.png]]
 	- Propositional Logic: Logically Equivalent Statements and De Morgan's Laws

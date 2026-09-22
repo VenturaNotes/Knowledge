@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5V7RZwDpmXE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 4.27.21 PM.png]]
 	- In this installment I will discuss myelin. Myelin is an insulating layer that surrounds the axons of neurons. Composed primarily of lipids, myelin helps to prevent action potentials, which are the electrical signals that travel along axons, from decaying due to electrical current leaking out through the axonal membrane. Myelinated axons thus conduct action potentials more quickly and efficiently than unmyelinated axons, and because of this many neurons in the nervous systems are myelinated. 

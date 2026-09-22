@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jcTKaNkWFUU
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 2.55.49 PM.png]]
 	- Factor the trinomials

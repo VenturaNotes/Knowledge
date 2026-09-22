@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=hUHw4OnPGCA
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-14 at 9.42.47 PM.png]]
 	- Bitcoin Design (Background)

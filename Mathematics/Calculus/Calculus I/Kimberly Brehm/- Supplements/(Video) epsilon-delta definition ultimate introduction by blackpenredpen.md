@@ -5,7 +5,6 @@ Length: 19 minutes, 27 seconds
 tags:
   - status/incomplete
   - type/video
-Reviewed: false
 ---
 - Preview
 	- (1) The $\varepsilon \delta$ definition

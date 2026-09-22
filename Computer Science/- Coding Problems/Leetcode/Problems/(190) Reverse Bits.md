@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/reverse-bits/
-Reviewed: false
 ---
 ## Synthesis
 - 

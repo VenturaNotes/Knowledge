@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=uVlg7CsIO40
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 4.34.42 PM.png]]
 	- What are we doing (Explanation)

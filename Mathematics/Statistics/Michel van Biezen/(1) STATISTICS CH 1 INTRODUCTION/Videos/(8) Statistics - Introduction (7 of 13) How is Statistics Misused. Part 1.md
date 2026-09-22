@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=JI1hWkdBjOI
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 2.36.04 PM.png]]
 	- "Let me count the ways..." "As the number approaches infinity..."

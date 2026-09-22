@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_B3rc3Vys4o
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-03 at 11.50.39 PM.png]]
 	- We're going to more fully characterize all vectors in the [[null space]] of a given matrix

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0LqKs4LHBZc
-Reviewed: false
 ---
 - ![[Screenshot 2025-05-14 at 1.23.15 AM.png]]
 	- Propositional Logic: Verifying Two statements are logically equivalent

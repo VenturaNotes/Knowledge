@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_zzV2DV19IU
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 9.01.14 PM.png]]
 	- We know how to calculate one-dimensional lengths

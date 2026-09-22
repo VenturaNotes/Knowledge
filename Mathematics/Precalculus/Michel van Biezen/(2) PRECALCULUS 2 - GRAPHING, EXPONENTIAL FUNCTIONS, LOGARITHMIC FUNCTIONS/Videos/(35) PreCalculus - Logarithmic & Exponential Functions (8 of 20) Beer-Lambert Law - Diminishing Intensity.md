@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtu.be/PbWwhVn5qW4
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 9.42.38 AM.png]]
 	- Diminishing Intensity

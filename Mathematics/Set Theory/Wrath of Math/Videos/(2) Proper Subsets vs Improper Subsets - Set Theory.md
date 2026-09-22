@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=06PsJYcl2dc
-Reviewed: false
 ---
 - A $\subseteq$ B
 	- This means that A may be equal to B

@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL5KkMZvBpo5BFwSEeNMH5keKPZGNdP0EE
 Length: 4 hours, 19 minutes, 18 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Venn Diagrams for Probability (1 of 2 - When are they useful.)]]

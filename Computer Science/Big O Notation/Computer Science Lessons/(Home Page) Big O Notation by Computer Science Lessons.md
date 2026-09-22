@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLTd6ceoshprfdzLWovxULl8Lt7RAFKTe5
 Length: 1 hour, 11 minutes, 46 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Big O Part 1 - Linear Complexity]]

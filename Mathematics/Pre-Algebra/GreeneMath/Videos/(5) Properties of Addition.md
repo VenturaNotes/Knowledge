@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=2966s
-Reviewed: false
 ---
 - Lesson objectives:
 	- Learn about the [[identity property of zero]]

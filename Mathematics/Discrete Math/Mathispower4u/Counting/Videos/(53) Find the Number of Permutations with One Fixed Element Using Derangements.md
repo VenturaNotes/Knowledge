@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CR5Fo9HT7lc
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 4.14.07 AM.png]]
 	- Permutation with 1 fixed element using derangement

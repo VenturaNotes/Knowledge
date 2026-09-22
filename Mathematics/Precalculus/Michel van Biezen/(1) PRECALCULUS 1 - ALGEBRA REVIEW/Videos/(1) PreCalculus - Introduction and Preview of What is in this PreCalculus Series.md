@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=W-Zxdsbr0Gw
-Reviewed: false
 ---
 - Series of Videos (Theory + Some Examples)
 - Topics Covered

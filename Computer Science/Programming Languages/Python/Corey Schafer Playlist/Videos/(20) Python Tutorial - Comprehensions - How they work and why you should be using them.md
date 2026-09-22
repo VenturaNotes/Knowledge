@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=3dt4OGnU5sM
-Reviewed: false
 ---
 - List comprehensions are an easier way to create a list
 

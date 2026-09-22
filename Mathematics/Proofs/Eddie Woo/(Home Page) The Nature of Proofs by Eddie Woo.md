@@ -5,7 +5,6 @@ Length: 11 hours, 8 minutes, 16 seconds
 tags:
   - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Inequality Proofs]]

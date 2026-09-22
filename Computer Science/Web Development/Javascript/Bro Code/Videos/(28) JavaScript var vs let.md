@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=A2x75iOqidA
-Reviewed: false
 ---
 index.js
 ```javascript

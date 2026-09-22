@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ztsT5uoWeEE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-12 at 2.25.00 PM.png]]
 	- [[Vector equation|Vector equations]]

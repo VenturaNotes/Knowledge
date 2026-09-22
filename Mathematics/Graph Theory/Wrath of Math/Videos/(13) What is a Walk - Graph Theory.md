@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=YlJ8plSab6g
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 9.47.13 PM.png]]
 	- Let's call a [[Walk|walk]] W

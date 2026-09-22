@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Uq1o9ba6bag
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 4.27.57 AM.png]]
 	- Stars and Bars with PIE

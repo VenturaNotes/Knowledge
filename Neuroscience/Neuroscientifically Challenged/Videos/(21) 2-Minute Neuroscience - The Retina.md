@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=fZDAwXh54is
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 4.07.31 PM.png]]
 	- In this installment I will discuss the [[retina]]. The retina contains the neural component of the eye. When light reaches the back of the eye, it enters the cellular layers of the retina. 

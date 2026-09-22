@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=BIdBznDpwkg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.48.06 AM.png]]
 	- In this installment I will discuss [[stroke]]. Stroke occurs when blood flow to part of the brain is suddenly disrupted. It is the second leading cause of death in the world. There are two major categories of stroke: ischemic and hemorrhagic.

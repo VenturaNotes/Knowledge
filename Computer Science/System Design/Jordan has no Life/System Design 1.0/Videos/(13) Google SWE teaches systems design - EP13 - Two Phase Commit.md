@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=4gLD2pKxo20
-Reviewed: false
 ---
 - ![[Screenshot 2024-09-24 at 2.40.19 PM.png]]
 	- Finally talking about consensus algorithms. This is when things get juicy. So let's talk about the first and worst two phase commit

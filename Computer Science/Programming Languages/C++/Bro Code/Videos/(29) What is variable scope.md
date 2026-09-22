@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Q7ZFHAO-oxI
-Reviewed: false
 ---
 - [[Local variable (C++)|Local variable]] = declared inside a function or block {}
 	- Such as in main function or inside another function

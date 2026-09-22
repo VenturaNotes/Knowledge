@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=_aqcAjAwFRU
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 5.03.00 PM.png]]
 	- Evaluating expressions

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tJ6WxPoCUOg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-30 at 9.54.09 AM.png]]
 	- The identity of a [[group]] (G, $*$) is unique

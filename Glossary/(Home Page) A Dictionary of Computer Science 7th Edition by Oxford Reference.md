@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - https://www.oxfordreference.com/display/10.1093/acref/9780199688975.001.0001/acref-9780199688975
   - zotero://open-pdf/library/items/4NCJNC9P?page=2&annotation=K5YP75BE
 Length: "6509"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 Year: 2016-04-01
 ---
 - Researched

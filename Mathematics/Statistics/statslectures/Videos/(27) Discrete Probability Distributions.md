@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=s2S1oD3ovps
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-22 at 3.54.30 AM.png]]
 	- [[Discrete probability distribution]]

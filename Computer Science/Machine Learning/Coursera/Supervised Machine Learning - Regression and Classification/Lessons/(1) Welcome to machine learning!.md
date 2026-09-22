@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.coursera.org/learn/machine-learning/lecture/iYR2y/welcome-to-machine-learning
-Reviewed: false
 ---
 - Examples of machine learning in action
 	- Using a search engine (Google, Bing, Baidu) to find information about something

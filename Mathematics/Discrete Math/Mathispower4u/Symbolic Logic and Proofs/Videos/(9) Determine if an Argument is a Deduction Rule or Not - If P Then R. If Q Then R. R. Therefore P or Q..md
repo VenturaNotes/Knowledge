@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_B_Xgd9l7Qc
-Reviewed: false
 ---
 - ![[Screenshot 2025-05-14 at 1.48.13 AM.png]]
 	- Propositional Logic: Deduction Rule

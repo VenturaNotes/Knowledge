@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OZO7g5530f8
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 8.58.36 PM.png]]
 	- Putting a system of linear equations in matrix format

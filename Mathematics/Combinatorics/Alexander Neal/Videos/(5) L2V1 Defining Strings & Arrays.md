@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=pUPecnDzfMc
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-08 at 11.36.58 AM.png]]
 	- An introduction to [[string|Strings]]

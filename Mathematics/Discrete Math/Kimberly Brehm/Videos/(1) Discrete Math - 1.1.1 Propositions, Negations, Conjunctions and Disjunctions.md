@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=A3Ffwsnad0k
-Reviewed: false
 ---
 - Propositions, Negations, Conjunctions, Disjunctions, Truth tables that go along with those connectives
 	- Connectives are negations, conjunctions and disjunctions

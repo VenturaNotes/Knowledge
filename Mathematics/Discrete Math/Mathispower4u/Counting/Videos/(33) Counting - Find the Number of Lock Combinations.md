@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=xqixFflk5mI
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-09 at 12.29.39 PM.png]]
 	- Permutations and Combinations: Combination Lock

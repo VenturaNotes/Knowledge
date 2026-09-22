@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ylXVn-wh9eQ
-Reviewed: false
 ---
 - Sociology is the study of people and society
 - Topics include

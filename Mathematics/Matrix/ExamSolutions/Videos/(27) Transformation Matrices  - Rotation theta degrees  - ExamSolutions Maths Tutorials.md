@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=NocWT7F7plg
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 8.23.31 PM.png]]
 	- Rotation of $\theta$ (anticlockwise), center (0, 0)

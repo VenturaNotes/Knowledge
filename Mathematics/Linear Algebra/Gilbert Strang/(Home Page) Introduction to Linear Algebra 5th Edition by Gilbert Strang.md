@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/33XSVBKT?page=1&annotation=PWJYRJKX
 Length: "584"
 Progress: "0"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Helpful
 - Assignments and exam solutions: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/exams/

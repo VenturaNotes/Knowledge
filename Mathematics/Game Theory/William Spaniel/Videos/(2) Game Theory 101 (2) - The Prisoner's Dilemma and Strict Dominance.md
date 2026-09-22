@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=DanTKx1FLY8
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-20 at 11.47.38 PM.png]]
 	- The Situation

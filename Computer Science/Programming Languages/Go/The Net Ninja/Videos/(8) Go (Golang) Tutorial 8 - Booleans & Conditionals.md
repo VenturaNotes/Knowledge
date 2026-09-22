@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=d5oUb2T2iCE
-Reviewed: false
 ---
 Booleans & Conditionals
 ```Go

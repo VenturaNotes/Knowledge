@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jLVKV5LJjaw
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-10 at 2.05.35 AM.png]]
 	- Ex: "Every integer has a larger integer"

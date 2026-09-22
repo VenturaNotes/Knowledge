@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0LLxxk9z7fU
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-17 at 4.05.07 AM.png]]
 	- Summary Solving

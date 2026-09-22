@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=2Ee2B1Jp5ZE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-22 at 3.08.21 PM.png]]
 	- [[Subspace|Subspaces]] of a vector space

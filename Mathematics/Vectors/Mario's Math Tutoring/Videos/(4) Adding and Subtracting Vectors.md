@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ci29I7a0HI8
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 1.35.35 PM.png]]
 	- Adding & Subtracting Vectors

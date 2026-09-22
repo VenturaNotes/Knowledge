@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=dDWjhRfBsKM
-Reviewed: false
 ---
 ## Intro
 - Points

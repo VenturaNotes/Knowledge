@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/reverse-linked-list/
-Reviewed: false
 ---
 ## Synthesis
 - 

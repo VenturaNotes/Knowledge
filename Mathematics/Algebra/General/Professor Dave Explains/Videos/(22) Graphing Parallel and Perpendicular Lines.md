@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0oe-GqFrYFU
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 3.25.29 PM.png]]
 	- $y = mx + b$ 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/permutations/
-Reviewed: false
 ---
 ## Synthesis
 - 

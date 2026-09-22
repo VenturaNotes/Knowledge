@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=-C6QivqMB9Y
-Reviewed: false
 ---
 - Image
 	- Perpendicular bisector

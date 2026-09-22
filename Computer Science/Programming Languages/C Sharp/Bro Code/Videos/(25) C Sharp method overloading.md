@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LjRyW-W4uDs
-Reviewed: false
 ---
 - [[Method overloading]]: methods share same name, but different parameters.
 	- Name + parameters = signature

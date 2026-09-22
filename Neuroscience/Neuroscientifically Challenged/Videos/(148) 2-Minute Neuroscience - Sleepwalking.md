@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=kD6QsYmB600
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.17.25 AM.png]]
 	- Sleepwalking, or somnambulism, involves walking and other behaviors that are performed during incomplete arousal from sleep. Sleepwalking episodes can last for anywhere from a few seconds to longer than 30 minutes, and sleepwalking behaviors can vary in their complexity from basic behaviors such as pointing or walking around a room, to complicated procedures like getting dressed, cooking, or driving a car. Sleepwalkers may be difficult to arouse during a sleepwalking episode and confused when they awake from one, and they may have complete or partial amnesia for the episode. Sleepwalking occurs more frequently in children than in adults, but childhood sleepwalking is typically benign, while adult sleepwalking is more likely to result in injury to the sleepwalker or others. 

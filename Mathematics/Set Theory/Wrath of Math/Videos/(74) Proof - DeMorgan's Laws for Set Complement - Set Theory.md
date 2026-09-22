@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=lzPDT0VNcRM
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 7.26.33 PM.png]]
 	- [[Union]] and [[Intersection]]

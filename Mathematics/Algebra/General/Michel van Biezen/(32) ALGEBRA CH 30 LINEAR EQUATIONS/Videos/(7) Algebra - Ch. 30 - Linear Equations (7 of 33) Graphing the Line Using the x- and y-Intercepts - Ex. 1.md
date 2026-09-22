@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=eUMyf-JgMZk
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 2.19.51 AM.png]]
 	- Graph 4x - 3y = 12

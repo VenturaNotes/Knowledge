@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - https://mandal.ku.edu/math290/
   - zotero://open-pdf/library/items/YU4BNLTR?page=1&annotation=79Z4YEK3
 Length: "804"
 tags:
-  - status/incomplete
   - type/slides
-Reviewed: false
 ---
 - Complete
 - Incomplete

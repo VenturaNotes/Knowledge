@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LMJ32J5KlBo
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-02 at 1.28.59 PM.png]]
 	- Cardinality of Unions (Not Disjoint)

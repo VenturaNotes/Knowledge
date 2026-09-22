@@ -5,7 +5,6 @@ Length: 10 hours, 7 minutes, 42 seconds
 tags:
   - type/playlist
   - status/prepared
-Reviewed: false
 ---
 - [[(1) TinyURL and PasteBin Design Deep Dive with Google SWE!  - Systems Design Interview Question 1]]
 - [[(2) Twitter and Instagram and Facebook Design Deep Dive with Google SWE!  - Systems Design Interview Question 2]]

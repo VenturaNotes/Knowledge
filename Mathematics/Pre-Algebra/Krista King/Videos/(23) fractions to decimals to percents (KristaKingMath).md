@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=nslLqZ6CzjI
-Reviewed: false
 ---
 - Complete the chart
 - ![[Screenshot 2022-12-30 at 3.12.28 AM.png]]

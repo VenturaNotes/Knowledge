@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8610s
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 6.22.13 PM.png]]
 	- Find the equation of a circle of radius 5 centered at the point (3,2)

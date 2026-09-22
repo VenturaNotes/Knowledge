@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Vk78-7bUbzo
-Reviewed: false
 ---
 - ![[Screenshot 2022-12-21 at 10.54.44 PM.png]]
 	- If you have the square root of 2 or more values being multiplied together, it's the same as the square root of each one of them being multiplied together. 

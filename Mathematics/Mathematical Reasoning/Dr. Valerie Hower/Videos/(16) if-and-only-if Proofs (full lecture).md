@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=wDmQGaRxEHU
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-14 at 12.48.00 PM.png]]
 	- Slide 1 ([[if-and-only-if proofs]])

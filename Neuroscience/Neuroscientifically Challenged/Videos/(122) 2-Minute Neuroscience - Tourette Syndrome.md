@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8brbjfNX8ck
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.35.30 PM.png]]
 	- Tourette syndrome is characterized by recurrent involuntary movements or sounds called tics. Tics can be classified as simple or complex. Simple tics usually involve only one group of muscles, and might consist of actions like eye blinking or throat clearing. Complex tics are more elaborate, and might involve actions like reaching out to touch something or the involuntary use of obscene language, which is known as coprolalia. It's worth noting that coprolalia, while often associated with Tourette syndrome, is actually thought to occur in less than 20% of cases. 

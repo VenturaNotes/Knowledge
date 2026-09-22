@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=UxbY85Cm9SQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 12.57.00 AM.png]]
 	- Properties of [[estimators]]

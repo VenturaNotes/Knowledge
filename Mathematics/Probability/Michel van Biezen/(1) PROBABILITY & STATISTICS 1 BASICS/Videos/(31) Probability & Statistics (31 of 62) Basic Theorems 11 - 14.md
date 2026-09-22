@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=nSXFtcHKfOk
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 12.45.47 AM.png]]
 	- (11) If $A \cup \mathcal{U} = \mathcal{u}$ then A $\cap \mathcal{U} = A$

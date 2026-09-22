@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=NLYMsgDykOk
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-28 at 8.43.53 AM.png]]
 	- [[Limits at Infinity]]

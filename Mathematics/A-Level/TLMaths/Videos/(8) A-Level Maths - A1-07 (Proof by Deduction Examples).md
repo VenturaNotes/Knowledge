@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=SBvurpUG81w
-Reviewed: false
 ---
 - ![[Screenshot 2026-01-15 at 1.04.23 AM.png]]
 	- [[Proof by deduction]]

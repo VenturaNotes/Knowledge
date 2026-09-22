@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=qd41nGPHbMU
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-04 at 10.02.42 PM.png]]
 	- Finding the interval where we are above or below a value

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=tUmzLDUFCug
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-17 at 11.41.34 AM.png]]
 	- There is an infinite number of lines that can be perpendicular to a line

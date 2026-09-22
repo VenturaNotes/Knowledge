@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=j7qVcc6X8g4
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-27 at 9.51.36 PM.png]]
 	- Negating a conditional

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ceQmwJ0xGrQ
-Reviewed: false
 ---
 - Union of Sets - "or"
 	- ![[Screenshot 2022-12-17 at 8.53.44 PM.png]]

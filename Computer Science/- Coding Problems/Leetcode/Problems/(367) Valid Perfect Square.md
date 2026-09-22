@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/valid-perfect-square/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=O8T9spKHVWQ
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-20 at 11.57.58 PM.png]]
 	- Keeping quiet in The Prisoner's Dilemma was a strictly dominated strategy

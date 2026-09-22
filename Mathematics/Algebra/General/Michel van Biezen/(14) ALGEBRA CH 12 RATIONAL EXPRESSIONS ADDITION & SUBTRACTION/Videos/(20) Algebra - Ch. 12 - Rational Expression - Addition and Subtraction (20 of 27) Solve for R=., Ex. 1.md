@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Kg-96fcO77g
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-13 at 12.05.15 AM.png|300]]
 	- Find the lowest common denominator

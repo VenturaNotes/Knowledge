@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aHAYefD5sy0
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 1.04.03 AM.png]]
 	- Flipping 10 coins

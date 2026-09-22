@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=r3CExhZgZV8
-Reviewed: false
 ---
 - You need to learn C#
 	- Flexible (console apps, web services, games)

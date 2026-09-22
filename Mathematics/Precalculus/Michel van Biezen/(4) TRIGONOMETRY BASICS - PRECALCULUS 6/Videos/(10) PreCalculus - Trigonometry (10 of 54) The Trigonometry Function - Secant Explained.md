@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=H4yeY4EQAUg
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 4.02.08 PM.png]]
 	- Sec$\theta$ = $\frac{\text{hypotenuse}}{\text{adjacent side}} = \frac 1x = \frac {1}{cos\theta}$

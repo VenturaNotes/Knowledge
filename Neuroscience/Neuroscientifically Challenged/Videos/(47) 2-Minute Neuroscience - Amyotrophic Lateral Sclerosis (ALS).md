@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=kOnk9Hh20eg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.33.21 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss amyotrophic lateral sclerosis, or ALS. Also known as Lou Gehrig's disease in the US and motor neuron disease in the UK, ALS is characterized both by muscle spasticity and a progressive weakening of the muscles. As the disease progresses, patients may lose hand and arm function, and experience difficulty walking, speaking, and even breathing. Respiratory failure is often the cause of death, and the average survival time from diagnosis is around 3-5 years.

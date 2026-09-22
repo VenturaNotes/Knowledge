@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FMXLQLakP_c
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-09 at 1.44.03 AM.png]]
 	- When counting subsets, we need to be able to use [[binomial coefficient|binomial coefficients]]

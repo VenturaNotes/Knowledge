@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1gSFd-YVFP8
-Reviewed: false
 ---
 - [[Random Numbers in C Sharp]]
 - These will be pseudorandom numbers

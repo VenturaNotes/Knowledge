@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=9NS49ar39qI
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-19 at 2.05.09 AM.png]]
 	- These are not all exactly [[function (math)|functions]] but they are [[relations]]

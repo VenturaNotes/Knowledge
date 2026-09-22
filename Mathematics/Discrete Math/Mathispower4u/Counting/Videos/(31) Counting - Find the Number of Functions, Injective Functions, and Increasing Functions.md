@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=s_uCHKUHnJ8
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-09 at 12.05.19 PM.png]]
 	- Permutations and Combinations: Number of Injective Functions

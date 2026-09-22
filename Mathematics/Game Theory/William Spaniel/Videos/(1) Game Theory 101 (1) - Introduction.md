@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=NSVmOC_5zrE
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-20 at 11.09.38 PM.png]]
 	- What is [[Game Theory]]?

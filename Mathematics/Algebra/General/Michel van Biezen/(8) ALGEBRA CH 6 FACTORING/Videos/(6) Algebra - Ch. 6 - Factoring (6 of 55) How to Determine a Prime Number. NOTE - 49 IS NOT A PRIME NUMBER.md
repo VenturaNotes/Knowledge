@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=NLQDAIvUOIU
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-17 at 3.37.03 PM.png]]
 	- (1) All prime numbers are odd

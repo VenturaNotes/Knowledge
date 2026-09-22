@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=4895s
-Reviewed: false
 ---
 - Subtracting whole numbers using a number line
 - Lesson Objectives

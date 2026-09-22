@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=BKYBiUAWZKM
-Reviewed: false
 ---
 - [[C Sharp String Methods]]
 - [[C Sharp String Properties]]

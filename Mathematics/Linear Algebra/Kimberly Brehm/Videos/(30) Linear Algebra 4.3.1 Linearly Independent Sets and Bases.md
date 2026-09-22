@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=lOyFbpemz58
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.20.19 AM.png]]
 	- [[Linear Independence|linearly independent]] sets and [[bases (math)|bases]]

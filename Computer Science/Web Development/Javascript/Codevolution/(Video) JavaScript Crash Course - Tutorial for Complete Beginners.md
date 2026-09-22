@@ -5,7 +5,6 @@ Length: 1 hour, 20 minutes, 57 seconds
 tags:
   - type/video
   - status/incomplete
-Reviewed: false
 ---
 - Image
 	- [[JavaScript]] Fundamentals

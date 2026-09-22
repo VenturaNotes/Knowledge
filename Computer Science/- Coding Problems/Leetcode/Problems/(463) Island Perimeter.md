@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/island-perimeter/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

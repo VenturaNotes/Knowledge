@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=lEa3zn5JKE8
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-26 at 1.05.48 PM.png]]
 	- To find an empirical formula, you need to make an integer out of a fraction

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=i47_jiCsBMs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.22.44 PM.png]]
 	- The term [[prefrontal cortex]], or PFC, can be used to refer generally to the part of the frontal lobe that is anterior to, or in front of, the motor cortex. 

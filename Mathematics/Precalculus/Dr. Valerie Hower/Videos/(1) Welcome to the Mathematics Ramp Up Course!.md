@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=YGf4UfP29xY
-Reviewed: false
 ---
 - Course features precalculus content
 - YouTuber is an associate professor in math at Northeastern University

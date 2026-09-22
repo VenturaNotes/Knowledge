@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/MDRMHA3F?page=2&annotation=5M3RIKJQ
 Length: "7277"
 tags:
   - type/textbook
-  - status/incomplete
-Reviewed: false
 ---
 - Analyzed
 - Defined

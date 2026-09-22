@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/count-asterisks/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

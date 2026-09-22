@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ju6Z90Spme0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 6.43.35 AM.png]]
 	- Applications of linear systems: [[Economic sector|economic sectors]].

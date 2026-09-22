@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ZVQmnziXEpA
-Reviewed: false
 ---
 - ![[Pasted image 20260515034046.png]]
 	- Slide 1 (Docker Images) 

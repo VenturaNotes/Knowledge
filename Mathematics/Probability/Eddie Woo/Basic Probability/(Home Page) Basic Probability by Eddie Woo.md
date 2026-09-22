@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PL5KkMZvBpo5ANrjJ0EEMzvxVKmnPNVYvf
 Length: 1 hour, 12 minutes, 41 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Problem Solving with Probability & Shapes (Example 1 - The Interval)]]

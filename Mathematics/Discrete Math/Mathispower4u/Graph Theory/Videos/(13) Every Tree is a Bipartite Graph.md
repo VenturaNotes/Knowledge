@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=jcASssYm-Ns
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-08 at 9.26.12 AM.png]]
 	- Every [[tree]] is a [[Bipartite Graphs|bipartite graph]]

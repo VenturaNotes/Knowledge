@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLztBpqftvzxVvdVmBMSM4PVeOsE5w1NnN
 Length: 6 hours, 12 minutes, 12 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) What are Binary Operations.  - Abstract Algebra]]

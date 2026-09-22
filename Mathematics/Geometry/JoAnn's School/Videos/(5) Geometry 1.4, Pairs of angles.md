@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Yk588n0UaGY
-Reviewed: false
 ---
 - Pairs of angles can have special relationships
 - The relationships could be because of the measures of the angles in the pair, or because of the positions of the pair of angles

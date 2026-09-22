@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=hDc-guDp1fc
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 7.48.06 PM.png]]
 	- Sketch a [[parabola]]

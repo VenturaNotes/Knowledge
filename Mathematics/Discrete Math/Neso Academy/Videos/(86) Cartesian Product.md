@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=UdZ4yxf-F4M
-Reviewed: false
 ---
 - Sometimes, we want a collection of ordered pairs. 
 - Let's say we are interested in finding all possible combinations of X and Y coordinates where X and Y values should not exceed 3.

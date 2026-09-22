@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=NFpvLq51x-c
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 10.47.46 AM.png]]
 	- Approach with subset proof

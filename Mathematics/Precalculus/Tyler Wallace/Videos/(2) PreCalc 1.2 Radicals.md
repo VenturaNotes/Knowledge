@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=VJYT01NdJns
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-11 at 1.36.37 AM.png]]
 	- [[Radical|Radicals]]

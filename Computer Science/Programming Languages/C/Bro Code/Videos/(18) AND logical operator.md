@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=swICwi6dGN0
-Reviewed: false
 ---
 ```c
 #include <stdio.h>

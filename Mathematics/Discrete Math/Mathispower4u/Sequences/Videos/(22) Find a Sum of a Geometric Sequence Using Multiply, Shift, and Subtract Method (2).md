@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=qbhng-v20SA
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-13 at 9.39.28 AM.png]]
 	- Geometric sequences

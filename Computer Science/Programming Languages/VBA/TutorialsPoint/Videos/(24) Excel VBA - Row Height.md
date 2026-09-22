@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=IWN4et-HhZM
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-30 at 6.53.23 AM.png]]
 	- Can just change height manually by adjusting left bar heights.

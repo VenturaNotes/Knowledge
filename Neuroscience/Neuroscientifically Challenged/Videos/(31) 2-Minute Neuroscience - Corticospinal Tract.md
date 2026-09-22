@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Ma4i6nH3qMQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 5.48.11 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the corticospinal tract. The corticospinal tract is a major tract that carries movement-related information from the motor cortex to the spinal cord. The neurons that travel in the corticospinal tract are called upper motor neurons; they form connections with neurons called lower motor neurons, which carry movement-related impulses to muscle itself, causing it to contract. 

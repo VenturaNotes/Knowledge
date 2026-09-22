@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=wpf4qyXV4KM
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-30 at 1.21.17 AM.png]]
 	- Partial Sum Formula for Geometric Series

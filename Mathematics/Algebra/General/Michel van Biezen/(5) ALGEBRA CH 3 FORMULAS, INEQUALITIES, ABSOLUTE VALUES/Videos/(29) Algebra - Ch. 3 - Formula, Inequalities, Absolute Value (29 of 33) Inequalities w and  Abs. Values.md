@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=SxEpaf3WJUs
-Reviewed: false
 ---
 ![[Screenshot 2023-01-25 at 9.59.42 PM.png]] ^fc384e
 - A great way to remember an [[Inequality with Absolute Values]]

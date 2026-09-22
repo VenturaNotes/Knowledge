@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=44011s
-Reviewed: false
 ---
 - Lesson Objectives
 	- Learn the place values to the right of the decimal point

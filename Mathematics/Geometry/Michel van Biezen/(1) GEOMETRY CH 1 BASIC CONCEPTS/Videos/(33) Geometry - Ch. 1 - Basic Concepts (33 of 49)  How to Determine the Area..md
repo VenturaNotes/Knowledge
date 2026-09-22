@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=e-o4AVKm40g
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 11.19.17 PM.png]]
 	- Area of Rectangle: L$\times$W or length times width

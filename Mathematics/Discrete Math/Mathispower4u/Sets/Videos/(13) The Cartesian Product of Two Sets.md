@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=xqVRWxRmS98
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 1.25.01 PM.png]]
 	- Cartesian product of two sets

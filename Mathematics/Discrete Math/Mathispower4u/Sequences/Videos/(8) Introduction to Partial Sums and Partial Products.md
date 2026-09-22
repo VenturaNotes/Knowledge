@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1TYMV7XSZXc
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-12 at 9.42.37 AM.png]]
 	- Partial Sums and Partial Products

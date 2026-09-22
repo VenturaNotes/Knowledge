@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=1906s
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-19 at 11.03.15 PM.png|400]]
 	- Factoring an expression means to rewrite it as a product

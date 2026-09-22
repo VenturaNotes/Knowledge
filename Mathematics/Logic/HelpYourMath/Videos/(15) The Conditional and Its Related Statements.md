@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Ss-PNTLUlbc&feature=youtu.be
-Reviewed: false
 ---
 - Variations of the conditional statement
 	- A conditional statement is of the form:

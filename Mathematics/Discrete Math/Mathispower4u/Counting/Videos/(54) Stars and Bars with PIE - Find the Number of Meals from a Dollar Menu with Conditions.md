@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=QF-13ct4S1A
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 4.21.43 AM.png]]
 	- Stars and Bars with Principle of Inclusion/Exclusion

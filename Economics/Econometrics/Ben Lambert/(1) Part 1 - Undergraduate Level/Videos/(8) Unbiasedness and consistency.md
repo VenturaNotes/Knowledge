@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=21lXGc02XwM
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 1.12.19 AM.png]]
 	- Two properties of estimators include [[unbiased]] and [[consistency]]

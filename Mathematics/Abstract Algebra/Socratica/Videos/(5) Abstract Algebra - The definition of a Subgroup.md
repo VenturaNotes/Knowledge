@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=TJAQNlGvfjE
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 1.47.52 PM.png]]
 	- The definition of a [[subgroup]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FIIK2Gp5WzU
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 7.23.36 AM.png]]
 	- Neurotransmitters are stored in the axon terminals of a neuron. 

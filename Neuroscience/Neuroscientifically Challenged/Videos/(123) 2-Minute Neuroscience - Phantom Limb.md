@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GYxksqaLBxc
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.37.41 PM.png]]
 	- [[Phantom limb]] is a condition in which someone who has lost a part of their body continues to experience phantom sensations coming from that body part. Despite the name, phantom limb doesn't only occur in limbs, and has also been recorded after the loss of other body parts like breasts, genitals, and even teeth. Phantom sensations are thought to be experienced by almost all amputees, and most suffer from some degree of phantom pain. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=qLM-errwHRY
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-06 at 12.34.43 PM.png]]
 	- Largest Number of Edges in a Graph

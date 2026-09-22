@@ -1,14 +1,13 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/RPVTIFRU?page=3&annotation=DGI3STQM
   - https://openstax.org/details/books/principles-economics-3e/
 Length: "999"
 tags:
-  - status/incomplete
   - type/textbook
 Year: 2024-06-18
 errata: https://openstax.org/errata/?book=Principles%20of%20Economics%203e
-Reviewed: false
 ---
 ## Preface
 - All OpenStax textbooks undergo a rigorous review process.

@@ -5,7 +5,6 @@ Length: 3 hours, 49 minutes, 16 seconds
 tags:
   - status/complete
   - type/playlist
-Reviewed: false
 ---
 - [[(1) Introduction to Sequences (Discrete Math)]]
 - [[(2) Determine a Closed Formula for a Given Sequence (1)]]

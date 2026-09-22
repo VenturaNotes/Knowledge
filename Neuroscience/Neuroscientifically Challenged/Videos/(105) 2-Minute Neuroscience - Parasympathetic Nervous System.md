@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ADnWvmOlBZk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.31.02 PM.png]]
 	- The [[parasympathetic nervous system]] is a subdivision of the autonomic nervous system, which is the subdivision of the peripheral nervous system that controls automatic processes in the body like digestion, heart rate, and respiration. The parasympathetic nervous system is typically associated with energy conservation and processes like digestion and elimination of waste products from the body. Because of these functions, the parasympathetic nervous system is sometimes referred to as the “rest and digest” system, although this term is an oversimplification that does not accurately describe the full range of activities of the parasympathetic nervous system. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=EdLoNRo0s28
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 4.09.50 PM.png]]
 	- "Special" ways to determine linear independence (by that, we mean we don't have to do the math or the row operations)

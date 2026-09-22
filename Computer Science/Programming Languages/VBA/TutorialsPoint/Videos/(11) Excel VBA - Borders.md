@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5pp1r1sQKtg
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 4.04.47 AM.png]]
 	- There are 8 types of colors in VB macros. 8 standard colors

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=-Z_qUN0SV0c
-Reviewed: false
 ---
 - ![[Screenshot 2022-12-31 at 7.15.47 AM.png]]
 - Use the pythagorean theorem to find "c"

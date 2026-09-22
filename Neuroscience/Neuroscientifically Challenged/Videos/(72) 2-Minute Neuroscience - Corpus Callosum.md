@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=xMvVAfZcU1s
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 10.00.47 AM.png]]
 	- In this installment I will discuss the [[corpus callosum]]. To understand the role of the corpus callosum, it is first important to remember that the brain is divided into two cerebral hemispheres (right and left), separated from another by a long groove called the medial longitudinal fissure. These two hemispheres are nearly mirror images of one another, but they do not function independently and communication between the cerebral hemispheres is important for healthy brain function. The importance of this communication can be seen with the processing of sensory information, which is typically received first in one hemisphere and then must be shared with the other hemisphere. When you type on your keyboard, for example, information about the feel of the keys is sent up from your right hand to the primary somatosensory cortex on the left side of your brain. That information must then be shared with the right side of your brain as well. That's where the corpus callosum comes into play. It carries information received in one hemisphere over to the other and in general allows for communication between the two hemispheres. 

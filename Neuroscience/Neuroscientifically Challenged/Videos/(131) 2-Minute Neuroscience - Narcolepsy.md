@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=DJU0CyDCETI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.57.03 PM.png]]
 	- [[Narcolepsy]] is a chronic condition that causes excessive daytime sleepiness and leads to an increased tendency to fall asleep during daytime activities. The majority of people who suffer from narcolepsy also experience cataplexy, which involves brief, sudden episodes of muscle weakness or paralysis---often brought on by strong positive emotions. The muscle weakness in cataplexy may be severe enough to cause someone to fall to the ground and be unable to speak or move for a short period of time despite remaining conscious. Patients with narcolepsy also often experience other sleep-related problems, such as disrupted sleep, sleep paralysis, and hallucinations when falling asleep or waking up. Today, narcolepsy is often classified as narcolepsy type 1 or narcolepsy type 2. Type 1 typically involves narcolepsy with cataplexy, and low levels of a neuropeptide called orexin, also known as hypocretin. Type 2 does not involve cataplexy, and levels of orexin are normal. Narcolepsy type 2 generally has less severe symptoms, but little is known about its cause. 

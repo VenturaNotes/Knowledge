@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=9fqAUjYRly0
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 3.11.05 PM.png]]
 	- Want to find how fast V is changing as a function of h

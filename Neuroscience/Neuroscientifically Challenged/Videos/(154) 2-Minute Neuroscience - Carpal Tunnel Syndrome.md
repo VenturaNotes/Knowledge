@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3WZKacJauKs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.30.18 AM.png]]
 	- [[Carpal tunnel syndrome]] is a common condition caused by the compression of the median nerve, which carries sensations from the thumb, index finger, middle finger, and part of the ring finger—primarily on the palm side of the hand—as well as controls most of the muscles in the thumb, some muscles in the forearm that help with finger and wrist movements, and muscles in the index and middle fingers. Carpal tunnel syndrome can result in a variety of symptoms, including tingling and numbness in the thumb and fingers supplied by the nerve, pain, impaired dexterity, weakness of the hand, and poor grip strength. 

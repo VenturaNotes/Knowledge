@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XjVI32_OXgc
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 3.15.25 PM.png]]
 	- What is [[discrete math|discrete mathematics]]?

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=L66FBwEF8vc
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 8.34.59 AM.png]]
 	- [[The Product Rule]]

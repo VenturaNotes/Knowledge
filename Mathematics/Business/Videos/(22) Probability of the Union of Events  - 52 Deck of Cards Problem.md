@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=fbptkEpL6G8
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-09 at 2.12.17 AM.png]]
 	- Probability of the union of events

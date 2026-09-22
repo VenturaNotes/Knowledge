@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=IOOuXYCoQ4I
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 9.10.31 AM.png]]
 	- Strategies

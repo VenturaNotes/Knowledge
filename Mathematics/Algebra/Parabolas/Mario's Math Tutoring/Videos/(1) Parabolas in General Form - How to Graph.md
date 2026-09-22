@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gZqwjG0-Dnc
-Reviewed: false
 ---
 - Video seems to cut short
 - ![[Screenshot 2023-05-19 at 1.39.27 AM.png]]

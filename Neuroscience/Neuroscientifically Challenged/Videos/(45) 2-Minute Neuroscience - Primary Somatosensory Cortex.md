@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8hDoO0wcq8Q
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.28.56 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the primary somatosensory cortex. The primary somatosensory cortex is located in a ridge of cortex called the postcentral gyrus. It is situated just posterior to the central sulcus, a prominent fissure that runs down the side of the cerebral cortex. 

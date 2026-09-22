@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=d-ByVa1K6hg
-Reviewed: false
 ---
 - A polynomial is an algebraic expression with 2 or more terms
 	- Monomial (not a polynomial)

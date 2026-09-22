@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=HU29cYVL-X8
-Reviewed: false
 ---
 - Relationships to remember
 	- ![[Screenshot 2023-01-20 at 6.07.13 PM.png]]

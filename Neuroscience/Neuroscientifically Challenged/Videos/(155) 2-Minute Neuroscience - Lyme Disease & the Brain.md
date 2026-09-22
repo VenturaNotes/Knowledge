@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=KU7-tRyElQk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 11.09.13 AM.png]]
 	- Lyme disease is a tick-borne illness caused by a group of bacteria belonging to the genus Borrelia. The initial sign of a borrelia infection in most people is a skin rash at the location of the tick bite, which is often accompanied by flu-like symptoms. If the disease isn't treated in this early stage, over the following weeks or months a patient may develop other symptoms that indicate the disease is spreading throughout the body and impacting other bodily systems, such as the cardiovascular and musculoskeletal systems. At this time, Lyme disease may also affect the nervous system and cause neurological symptoms. 

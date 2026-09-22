@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uPbBDToXjBw
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-28 at 7.34.23 PM.png]]
 	- Our first example of a [[tensor]] which is the [[vector]]

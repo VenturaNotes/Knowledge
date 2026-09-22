@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=mH3Me8P-CO8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-17 at 12.44.33 AM.png]]
 	- Playlist followed by "Linear algebra and its applications by David Lay"

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=47501s
-Reviewed: false
 ---
 - Lesson Objectives:
 	- Learn how to divide a [[decimal]] by a whole number

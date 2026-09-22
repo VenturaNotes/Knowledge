@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Pu9IkeerSP8
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-07 at 11.17.38 PM.png|300]]
 	- Simplify the expression

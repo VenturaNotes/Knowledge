@@ -1,4 +1,5 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/MLTZNTRI?page=1&annotation=8UISZMTA
   - http://athenasc.com/prob-errata_2ndedition.pdf
@@ -6,9 +7,7 @@ Source:
 Length: "539"
 Progress: "0"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 - Errata included in Zotero pdf on 7/27/2021
 ## Preface to First Edition

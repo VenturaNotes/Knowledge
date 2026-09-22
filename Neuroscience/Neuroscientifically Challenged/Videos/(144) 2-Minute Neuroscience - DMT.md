@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=z4UMjpw5a4Y
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.23.03 AM.png]]
 	- DMT is a substance that's produced naturally in a variety of plants and animals, including humans. The functions of naturally-produced DMT are unclear, but DMT is also a potent psychoactive drug known for its ability to produce intense but relatively short-lived hallucinations and psychedelic experiences. When used recreationally, DMT is typically smoked, but it's also the main psychoactive ingredient in ayahuasca, a brewed drink that produces longer-lasting psychedelic effects. Although orally administered DMT is rapidly degraded by an enzyme called monoamine oxidase, ayahuasca is brewed with plants that contain inhibitors of this enzyme, enabling the DMT in ayahuasca to remain active even though it's administered orally. 

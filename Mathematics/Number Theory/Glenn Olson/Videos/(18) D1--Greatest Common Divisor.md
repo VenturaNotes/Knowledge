@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=lSfj3ABDSbs
-Reviewed: false
 ---
 - D1 - GCD by prime factorization
 	- Greatest common factor is the same thing as GCD

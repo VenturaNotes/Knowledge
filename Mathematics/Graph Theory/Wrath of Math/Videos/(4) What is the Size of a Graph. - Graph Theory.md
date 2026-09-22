@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Cn9O7odK4bc
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 1.34.48 AM.png]]
 	- [[Size of a Graph]]

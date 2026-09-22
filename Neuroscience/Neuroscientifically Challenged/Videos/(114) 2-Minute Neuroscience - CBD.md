@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=z6-RkAb-jqk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.02.06 PM.png]]
 	- CBD is one of a class of compounds known as cannabinoids, which are found in the cannabis plant. Unlike THC (the main psychoactive component of cannabis) CBD is not thought to have intoxicating effects. It is, however, believed to interact with the nervous system, which may enable it to modulate the effects of thc as well as have actions of its own. 

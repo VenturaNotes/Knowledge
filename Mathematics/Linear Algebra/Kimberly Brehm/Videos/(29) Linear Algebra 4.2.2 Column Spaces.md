@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=2L0qOtgu9eE
-Reviewed: false
 ---
  - ![[Screenshot 2024-12-26 at 7.55.06 AM.png]]
 	 - [[Column space]]

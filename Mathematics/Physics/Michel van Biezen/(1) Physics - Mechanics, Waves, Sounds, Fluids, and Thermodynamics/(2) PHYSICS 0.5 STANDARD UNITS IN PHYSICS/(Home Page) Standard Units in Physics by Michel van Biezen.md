@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVOt3ogXzaJnUqg0EktSNoe
 Length: 3 hours, 7 minutes, 19 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Physics CH 0.5 - Standard Units (1 of 41) MKS (Meters, Kilograms, Seconds)]]

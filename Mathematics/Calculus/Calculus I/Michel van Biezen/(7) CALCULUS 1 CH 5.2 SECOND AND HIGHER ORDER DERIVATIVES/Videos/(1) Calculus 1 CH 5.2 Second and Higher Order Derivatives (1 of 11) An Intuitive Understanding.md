@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VaHCpzIWjgs
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 5.58.47 PM.png]]
 	- $x = x_0 + v_0t + \frac 12 a t^2$ 

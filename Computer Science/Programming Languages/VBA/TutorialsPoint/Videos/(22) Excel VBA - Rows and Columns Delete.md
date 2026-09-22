@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ykXfSmEr2OA
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-30 at 6.44.31 AM.png]]
 	- Can right-click column and press delete manually. Same works for row

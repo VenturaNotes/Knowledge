@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/detect-squares/
-Reviewed: false
 ---
 ## Synthesis
 - 

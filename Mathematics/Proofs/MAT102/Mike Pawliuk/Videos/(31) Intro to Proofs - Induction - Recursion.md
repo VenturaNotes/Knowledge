@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ThzOyONy3lM
-Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 12.28.44 AM.png]]
 	- Slide 2 - Learning Objectives (for this video)

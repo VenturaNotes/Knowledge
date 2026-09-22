@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5txGlV6r6q4
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 9.03.13 PM.png]]
 	- Translating Mathematical Statements to Symbols

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=hBZmet_alwE
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-06 at 12.24.08 AM.png]]
 	- [[Graph Theory]]: Graph Definition

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=F43tjoFx3OU
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-18 at 2.21.23 PM.png]]
 	- Interpreting a two-line function

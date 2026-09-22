@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=On6wkamacRE
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 12.29.27 AM.png|500]]
 	- Transformations above shown

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=24470s
-Reviewed: false
 ---
 - Lesson Objective:
 	- Learn how to determine if a number is [[divisible]] by:

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Hwu3_j2NmII
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-09 at 11.29.43 PM.png]]
 	- "Use elimination to solve the system"

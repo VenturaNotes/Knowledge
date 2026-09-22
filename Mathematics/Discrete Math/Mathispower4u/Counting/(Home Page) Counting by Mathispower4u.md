@@ -5,7 +5,6 @@ Length: 4 hours, 35 minutes, 48 seconds
 tags:
   - status/complete
   - type/playlist
-Reviewed: false
 ---
 - [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
 - [[(2) Counting Principle With Playing Cards - Picking 1 and 2 Cards (Not Disjoint)]]

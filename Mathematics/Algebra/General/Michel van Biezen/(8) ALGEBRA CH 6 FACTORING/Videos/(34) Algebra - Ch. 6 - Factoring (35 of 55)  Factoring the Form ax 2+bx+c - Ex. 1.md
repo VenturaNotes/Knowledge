@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Mo_0wlZDykU
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-30 at 9.23.18 PM.png]]
 	- Rewrite trinomial into a polynomial with 4 terms

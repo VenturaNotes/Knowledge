@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=EBTqXbrNKHM
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 3.18.06 AM.png]]
 	- [[Modulus]]

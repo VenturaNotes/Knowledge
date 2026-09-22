@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=98gn6FBSHAk
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 5.22.24 AM.png]]
 	- [[Limit of a constant function]]

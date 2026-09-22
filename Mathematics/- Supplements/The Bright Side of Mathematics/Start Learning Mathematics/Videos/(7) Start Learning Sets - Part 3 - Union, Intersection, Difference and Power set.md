@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ZdZm6qBCFuo
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-11 at 4.07.43 AM.png]]
 	- [[Subset]] symbol

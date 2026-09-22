@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rvjj_SSYiHI
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-02 at 5.20.15 AM.png]]
 	- Introduction to Sequences

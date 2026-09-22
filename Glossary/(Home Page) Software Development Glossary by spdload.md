@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://spdload.com/blog/software-development-glossary/
 Length: "102"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 - Researched
 	- [[Alpha testing]]

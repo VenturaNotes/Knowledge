@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/IVDMLGC3?page=2&annotation=EUEAE46B
 Length: "370"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Contributors
 - Will learn how to build powerful Android apps from scratch using Jetpack libraries and [[Jetpack Compose]]

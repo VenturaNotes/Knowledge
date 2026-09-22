@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=xQ2IrexgMv4
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 5.27.45 PM.png]]
 	- Simple example why the formula works

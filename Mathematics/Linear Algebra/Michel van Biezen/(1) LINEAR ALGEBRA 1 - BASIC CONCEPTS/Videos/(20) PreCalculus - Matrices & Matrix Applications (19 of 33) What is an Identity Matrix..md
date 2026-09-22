@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=iAZa-ysy_uQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 5.01.21 AM.png]]
 	- [[Identity Matrix]]

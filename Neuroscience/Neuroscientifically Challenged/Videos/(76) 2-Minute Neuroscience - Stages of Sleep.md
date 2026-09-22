@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=iWo90uxkNM0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.37.22 PM.png]]
 	- In this installment I will discuss the stages of sleep. [[Sleep stages]] are defined based on the measurement of electrical activity in the brain using an electroencephalogram, or EEG. An EEG represents fluctuations in brain electrical activity in voltage as a waveform of variable frequency and amplitude. 

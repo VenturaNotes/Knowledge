@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=2647s
-Reviewed: false
 ---
 - Lesson Objective
 	- Learn how to round [[whole numbers]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=TdtFtPHeyZE
-Reviewed: false
 ---
 - A nested loop is a loop inside of another loop. Could be while or for loop
 	- Common convention to use "j" for index of nested loop and "i" for index of outer loop

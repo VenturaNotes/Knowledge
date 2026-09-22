@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZQY4IfEcGvM
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 1.12.19 AM.png]]
 	- [[Graph]] is called G

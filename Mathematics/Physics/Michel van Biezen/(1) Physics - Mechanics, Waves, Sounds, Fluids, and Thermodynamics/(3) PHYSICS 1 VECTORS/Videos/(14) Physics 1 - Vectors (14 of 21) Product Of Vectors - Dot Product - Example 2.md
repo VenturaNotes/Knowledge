@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=N3Yy5EvLRbc
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 12.16.02 PM.png]]
 	- Two methods to find the [[dot product]]

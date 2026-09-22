@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=T8VAFKmDx18
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 8.02.17 PM.png]]
 	- To find inverse of 3x3 matrix,

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WKBREYS9C9g
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.40.26 PM.png]]
 	- A motor neuron is a type of neuron that carries information from the brain or spinal cord and is involved in regulating activity in muscles or glands. There are two types of motor neurons: upper motor neurons and lower motor neurons, which interact with one another to cause movement and other responses. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=VnRqQK2FwuQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 8.49.47 PM.png]]
 	- Cut the strongest beam from a log that has a diameter of 20''

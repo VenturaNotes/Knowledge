@@ -5,7 +5,6 @@ Length: 2 hours, 57 minutes, 32 seconds
 tags:
   - status/complete
   - type/playlist
-Reviewed: false
 ---
 [[(1) Limits and Continuity (KristaKingMath)]]
 [[(2) Solving limits with substitution (KristaKingMath)]]

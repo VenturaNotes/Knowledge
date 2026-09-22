@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=s8rsR_TStaA
-Reviewed: false
 ---
 - Syllabus
 	- 1) Introduction

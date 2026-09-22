@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7Zv-PK2uoSo
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-09 at 10.26.43 AM.png]]
 	- Nonplanar Graphs

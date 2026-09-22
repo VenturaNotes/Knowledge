@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rD_yO-I7Rhk
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 12.27.56 PM.png]]
 	- Proof by induction

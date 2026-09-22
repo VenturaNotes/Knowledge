@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CcbyMH3Noow
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 5.04.47 AM.png]]
 	- Finding the [[determinant]] of a square matrix

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/palindrome-partitioning/
-Reviewed: false
 ---
 ## Synthesis
 - 

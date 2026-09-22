@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=w5V0fVvGSc0
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-01 at 9.39.35 PM.png]]
 	- [[Idempotent Property of Set Union]]

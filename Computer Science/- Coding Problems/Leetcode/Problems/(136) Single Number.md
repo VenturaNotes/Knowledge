@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/single-number/
-Reviewed: false
 Approaches: "1"
 ---
 ## Synthesis

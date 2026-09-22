@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=QayYZ-JtA0g
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 5.44.19 AM.png]]
 	- Extending lines helps

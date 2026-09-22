@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rcFlo2fDMMs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.33.07 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss Huntington's disease. The symptoms of Huntington's disease typically emerge during middle age and at first often involve subtle changes in personality, cognition, and movement. Eventually, the symptoms progress into substantial movement problems like chorea, which involves uncontrolled, spasmodic movements; impaired coordination and balance; muscle rigidity; and difficulty speaking and/or swallowing. Cognitive and psychiatric symptoms like dementia and depression occur as well. The disease is incurable and fatal. 

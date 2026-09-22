@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://adacomputerscience.org/glossary
 Length: "686"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 - Researched
 - Questioned

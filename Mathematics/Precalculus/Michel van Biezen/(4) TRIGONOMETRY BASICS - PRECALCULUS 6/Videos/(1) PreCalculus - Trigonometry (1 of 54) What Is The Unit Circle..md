@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=e2kzTfNM7hU
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 3.20.19 PM.png]]
 	- Trigonometry is the relationship between the sides of a triangle

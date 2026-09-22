@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLYBJzqz8zpWZUDwnt3TNi-8HkrR-B9RJe
 Length: 2 hours, 19 minutes, 19 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Pascal - Pascal Tutorial (Part 1)]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ofAcvZVEfBk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-18 at 4.53.02 PM.png]]
 	- Introduction to [[Linear Transformation|linear transformations]]

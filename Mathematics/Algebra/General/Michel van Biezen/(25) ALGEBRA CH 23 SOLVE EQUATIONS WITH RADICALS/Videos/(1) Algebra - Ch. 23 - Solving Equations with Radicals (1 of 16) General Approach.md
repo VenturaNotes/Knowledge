@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=cxhSoq5TkuY
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-16 at 3.23.55 AM.png]]
 	- Solve: Find the value(s) of x that satisfy the equation

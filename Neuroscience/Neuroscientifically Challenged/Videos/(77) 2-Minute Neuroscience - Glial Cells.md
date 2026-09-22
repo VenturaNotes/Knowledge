@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=AwES6R1_9PM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.39.33 PM.png]]
 	- In this installment I will discuss glial cells. Glia is Greek for glue, and glial cells got this name b/c they were thought to simply hold neurons in place. We now know, however, that glia have many other functions. 

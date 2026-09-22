@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLl-gb0E4MII34fmpCdgzu2hWQPJWmQ78n
 Length: 16 hours, 1 minute, 34 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Calculus I - 0.0 Review of Factoring]]

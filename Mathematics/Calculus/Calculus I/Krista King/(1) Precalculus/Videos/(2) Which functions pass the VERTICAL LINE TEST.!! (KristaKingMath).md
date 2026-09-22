@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=5UY_McpxEYQ
-Reviewed: false
 ---
 - Say whether or not each graph represents a function
 - ![[Screenshot 2022-12-27 at 6.14.23 AM.png]]

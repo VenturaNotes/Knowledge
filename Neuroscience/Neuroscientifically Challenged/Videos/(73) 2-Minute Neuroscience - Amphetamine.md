@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5fYetx-UNEI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 1.30.49 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss amphetamine. Amphetamine is a stimulant drug used mainly in the treatment of ADHD. Several popular drugs, like Adderall, primarily contain amphetamine. 

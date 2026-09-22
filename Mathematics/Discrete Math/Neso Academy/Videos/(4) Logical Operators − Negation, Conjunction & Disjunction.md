@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=6kYngPvoGxU
-Reviewed: false
 ---
 - There are 6 logical operators that we will focus on:
 	- Our focus in this lecture

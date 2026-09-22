@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tsjwHWDCT0Q
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.34.17 PM.png]]
 	- [[Beta-endorphin]] is a peptide neurotransmitter and hormone found in the central and peripheral nervous systems. It is one of a class of substances called endogenous opioids, which received their name because they are produced by the body and bind to the same receptors that opioid drugs like morphine bind to. The term endorphin is a blend of the words “endogenous” and “morphine.” 

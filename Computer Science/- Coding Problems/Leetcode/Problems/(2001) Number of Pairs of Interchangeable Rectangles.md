@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/
-Reviewed: false
 ---
 ## Synthesis
 - 

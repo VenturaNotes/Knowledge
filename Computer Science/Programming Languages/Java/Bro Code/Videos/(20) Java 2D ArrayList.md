@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=9tBxJoQF74E
-Reviewed: false
 ---
 ```java
 import java.util.*;

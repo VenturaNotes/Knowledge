@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=vSeLNpORtaw
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 12.16.07 AM.png]]
 	- (1) If $A \subset B$ and $B \subset C$ then A $\subset C$

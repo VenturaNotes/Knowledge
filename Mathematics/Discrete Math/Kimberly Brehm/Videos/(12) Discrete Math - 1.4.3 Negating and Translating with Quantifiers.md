@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=8eCZ1suibCw
-Reviewed: false
 ---
 - Quantifiers we've learned
 	- Let P(x) be the statement "x has taken a course in programming" for the domain of students in your class.

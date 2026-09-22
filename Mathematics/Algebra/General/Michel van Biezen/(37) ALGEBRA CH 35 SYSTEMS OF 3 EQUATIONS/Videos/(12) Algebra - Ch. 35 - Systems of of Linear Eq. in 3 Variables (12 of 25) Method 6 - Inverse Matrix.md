@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Lph7CNGUPZI
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 11.31.47 PM.png]]
 	- How do we find $A^{-1}$

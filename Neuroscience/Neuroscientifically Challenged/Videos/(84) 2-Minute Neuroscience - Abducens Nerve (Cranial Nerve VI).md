@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=wkzyVO4-gmE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.05.14 PM.png]]
 	- In this installment I will discuss the [[abducens nerve]]. The abducens nerve, also known as cranial nerve VI, is a motor nerve responsible for supplying one of the extraocular muscles of the eye: the lateral rectus muscle. The lateral rectus muscle abducts the eye, or moves it laterally toward the side of the head. 

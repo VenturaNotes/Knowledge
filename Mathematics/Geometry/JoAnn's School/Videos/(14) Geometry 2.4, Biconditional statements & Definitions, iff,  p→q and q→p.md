@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=p4izrcXwZEg
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 3.59.24 AM.png]]
 	- If this month is July, then next month is August. $p \implies q$

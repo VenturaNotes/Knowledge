@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/longest-increasing-subsequence/
-Reviewed: false
 ---
 ## Synthesis
 - 

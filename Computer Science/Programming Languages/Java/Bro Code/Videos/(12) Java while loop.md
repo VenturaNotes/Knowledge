@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=t6gmQaTMTtM
-Reviewed: false
 ---
 - [[while loop]] = executes a block of code as long as a it's condition remains true
 ```java

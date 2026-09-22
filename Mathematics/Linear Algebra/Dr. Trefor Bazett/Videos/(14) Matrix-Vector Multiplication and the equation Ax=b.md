@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=4uJNuGfbxLg
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 6.58.06 PM.png]]
 	- The Matrix Equation $A\vec{x}=\vec{b}$

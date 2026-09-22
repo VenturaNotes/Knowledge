@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=a-NCs1lOU5w
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.20.37 PM.png]]
 	- The vagus nerve is an extremely long nerve that travels from the brainstem to the colon and has a long list of functions. It carries sensory information about pain, touch, and temperature from the throat, parts of the inner and outer ear, and the meninges near the back of the head. It plays a very minor role in taste. It also receives sensory information from internal organs in the neck, chest and abdomen like the esophagus, heart, and digestive tract. And it carries sensory information from both baroreceptors in the aorta that detect changes in blood pressure, and chemoreceptors in the aorta that sense oxygen levels in the blood. The vagus nerve controls the movement of a number of muscles in the pharynx, soft palate, and larynx (as well as one muscle in the tongue) to play a critical role in the control of speaking and swallowing. It is also the main parasympathetic nerve of the body, providing parasympathetic innervation to organs throughout the neck, thorax, and abdomen, contributing to a variety of functions such as slowing of the heart rate. 

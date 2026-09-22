@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=5LkQEOPwqfk
-Reviewed: false
 ---
 - Checking solution in differential equations
 - Recall:

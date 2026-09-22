@@ -5,7 +5,6 @@ Length: 21 minutes, 45 seconds
 tags:
   - status/incomplete
   - type/video
-Reviewed: false
 ---
 - Derivative of the composite function
 	- This is when we have one function inside of another

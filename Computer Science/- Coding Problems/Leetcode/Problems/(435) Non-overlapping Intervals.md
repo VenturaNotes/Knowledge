@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/non-overlapping-intervals/
-Reviewed: false
 ---
 ## Synthesis
 - 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=-wsrqZJvmGQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 4.48.45 PM.png]]
 	- 2 special cases

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=G6yO3CKr68w
-Reviewed: false
 ---
 - Consider the logical statements P,Q, and R
 	- Which of the following are valid logical expressions?

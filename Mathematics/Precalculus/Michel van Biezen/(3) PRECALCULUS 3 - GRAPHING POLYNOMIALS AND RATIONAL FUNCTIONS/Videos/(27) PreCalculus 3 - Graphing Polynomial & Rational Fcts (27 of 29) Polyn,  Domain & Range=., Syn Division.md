@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=pqaX0hvPgk4
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-09 at 11.43.50 PM.png]]
 	- 1 over x with the largest exponent

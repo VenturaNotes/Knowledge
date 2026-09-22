@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=5821s
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-20 at 9.31.29 PM.png]]
 	- Absolute value of a positive number is a positive number

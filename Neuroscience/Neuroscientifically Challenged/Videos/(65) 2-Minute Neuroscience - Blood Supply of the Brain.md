@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uMMMqkVZAhk
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 7.26.17 AM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss the blood supply of the brain. The internal carotid arteries supply the brain with about 80% of its blood, while the vertebral arteries contribute the remaining 20%. 

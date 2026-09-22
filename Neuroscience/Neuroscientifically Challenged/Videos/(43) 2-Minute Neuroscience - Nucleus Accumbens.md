@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3_zgB19TE-M
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.23.48 PM.png]]
 	- In this installment I will discuss the [[nucleus accumbens]]. The nucleus accumbens is found in a part of the brain called the basal forebrain, which is located near the front and bottom of the brain. 

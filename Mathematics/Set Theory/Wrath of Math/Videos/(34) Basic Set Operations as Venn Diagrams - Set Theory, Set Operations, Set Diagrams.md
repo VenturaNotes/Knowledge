@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=cYnTXHarstY
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-01 at 8.47.58 AM.png]]
 	- [[Union]]: $A \cup B = \{x | x \in A \text{ or } x \in B\}$

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=LxhKcc2lBgI
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-04 at 1.14.17 AM.png]]
 	- a, b, and c are constants

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=FkUEsP9efFg
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-27 at 1.39.07 PM.png]]
 	- Intro to functions 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=4lEl4vDkML8
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-21 at 1.17.58 AM.png]]
 	- Battle of the Sexes

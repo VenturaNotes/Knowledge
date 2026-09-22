@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=kRtNsaMildw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.44.19 PM.png]]
 	- [[Ketamine]] was initially developed as an anesthetic, but today it is also used as an analgesic and an antidepressant. It has been used as a recreational drug since the 1970s. 

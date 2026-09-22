@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=szvtWTLHS_8
-Reviewed: false
 ---
 - Say whether the triangle is right, acute or obtuse
 - Reminder

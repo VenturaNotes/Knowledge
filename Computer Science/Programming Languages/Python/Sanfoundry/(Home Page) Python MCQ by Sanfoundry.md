@@ -7,7 +7,6 @@ reminders:
     relatedTo: scheduled
     offset: -PT0H
 tags:
-  - status/incomplete
   - type/website
 Source:
   - https://www.sanfoundry.com/1000-python-questions-answers/

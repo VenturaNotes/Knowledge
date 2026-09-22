@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLMlqayk59IvrDL0v151TesyTA9-OjVjnQ
 Length: 40 hours, 27 minutes, 6 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) 1.1 Lewis Structures]]

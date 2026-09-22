@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=btWSwIzia-E
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 2.04.09 PM.png]]
 	- Vertical Angles (or opposite angles)

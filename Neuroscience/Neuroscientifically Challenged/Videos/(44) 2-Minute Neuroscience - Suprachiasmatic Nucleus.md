@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=DHpCBmq_z60
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 9.26.37 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the suprachiasmatic nucleus. The suprachiasmatic nuclei, or SCN, are two small, paired nuclei found in the hypothalamus; they are involved in maintaining circadian rhythms, or biological patterns that follow a 24-hour cycle. To accomplish this, the cells of the SCN contain biological clocks. 

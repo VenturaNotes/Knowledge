@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=S5rfGCyTDS4
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-07 at 9.58.01 AM.png]]
 	- Bit Strings

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=WKFfZlmDse4
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-26 at 12.43.49 PM.png]]
 	- [[Molecular formula]]: Shows the exact number of atoms of each element

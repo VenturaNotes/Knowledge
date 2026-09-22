@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zFiViL99QHI
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-11 at 2.37.12 AM.png]]
 	- [[Combination|Combinations]] and probability

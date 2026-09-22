@@ -5,7 +5,6 @@ Length: 10 minutes 30 seconds
 tags:
   - status/incomplete
   - type/video
-Reviewed: false
 ---
 - Image
 	- Kronecker delta

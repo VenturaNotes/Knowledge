@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=PWRd2I5nJls
-Reviewed: false
 ---
 - Signed numbers are numbers with a positive sign or negative sign attached
 - Simplify the expressions

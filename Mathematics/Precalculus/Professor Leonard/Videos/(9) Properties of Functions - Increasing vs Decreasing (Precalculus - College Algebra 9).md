@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=cIRDvscVPr0
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-01 at 11.24.16 PM.png]]
 	- Local max and mins is the change where we change from increasing to decreasing or decreasing to increasing

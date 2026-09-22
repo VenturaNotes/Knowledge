@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Muv4SdB4Iuk
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-13 at 9.57.59 AM.png|300]]
 	- Sum of a [[geometric series]]

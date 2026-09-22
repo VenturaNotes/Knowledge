@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=EETEj8-etCM
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-12 at 5.37.48 PM.png]]
 	- Which of these statements are not correct?

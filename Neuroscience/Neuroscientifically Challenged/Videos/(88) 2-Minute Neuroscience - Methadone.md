@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dw6laQ4-Zgs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.13.46 PM.png]]
 	- Welcome to 2-minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss methadone. Methadone is best known for its use in the treatment of opioid addiction, although it can also be used for treating chronic pain. It's usually administered by mouth in the form of a liquid, pill, or sublingual tablet. Methadone's primary mechanism of action is as an agonist at opioid receptors. In other words, it activates opioid receptors similar to the way other opioid drugs like morphine would. It also acts as an antagonist, or blocks, NMDA glutamate receptors, which is thought to contribute to its pain-relieving effects. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tIzF2tWy6KI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-20 at 9.57.04 PM.png]]
 	- [[Membrane voltage|Membrane potential]] refers to the difference in electrical charge between the inside and the outside of a neuron.

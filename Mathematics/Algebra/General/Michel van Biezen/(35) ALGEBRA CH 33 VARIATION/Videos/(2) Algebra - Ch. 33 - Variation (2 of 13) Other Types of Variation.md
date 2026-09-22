@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=0TFWyNYr8KU
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 8.06.34 PM.png]]
 - (a) y varies directly with the square of x

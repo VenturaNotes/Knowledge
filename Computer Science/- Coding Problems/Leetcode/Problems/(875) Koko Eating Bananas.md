@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/koko-eating-bananas/
-Reviewed: false
 ---
 ## Synthesis
 - 

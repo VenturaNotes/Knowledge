@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7xQ1AKfYVkA
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 6.53.26 PM.png]]
 	- Graphing [[systems of linear inequalities]]

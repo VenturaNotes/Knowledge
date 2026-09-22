@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RzcXkvxXKEQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.27.37 PM.png]]
 	- The indirect pathway is a circuit in the basal ganglia hypothesized to play a role in the inhibition of movement. If you're not already familiar with the direct pathway of the basal ganglia, you might want to watch my video on the direct pathway before you watch this video. 

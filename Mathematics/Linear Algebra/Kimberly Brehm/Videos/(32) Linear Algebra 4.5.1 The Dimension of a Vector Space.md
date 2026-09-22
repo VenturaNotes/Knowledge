@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=jk6YPdIIJUg
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-13 at 8.33.29 PM.png]]
 	- The dimension of a vector space

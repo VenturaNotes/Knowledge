@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/ZBLAQ5P3?page=2&annotation=6FG7URNR
 Length: "475"
 tags:
-  - status/incomplete
   - type/textbook
 Year: 2024-04-29
-Reviewed: false
 ---
 ## Contributors
 ### Author

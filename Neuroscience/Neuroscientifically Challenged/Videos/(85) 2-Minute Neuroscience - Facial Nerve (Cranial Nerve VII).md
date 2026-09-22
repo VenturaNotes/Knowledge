@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=cWGf2tz0D90
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 2.07.10 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss the facial nerve. The facial nerve, also known as cranial nerve VII, is best known for its role in controlling the muscles of facial expression, as well as a number of other muscles of the face and head such as certain muscles involved with swallowing and jaw movement, muscles of the external ear, and the stapedius muscle, which is found in the middle ear and is involved with dampening loud noises. The facial nerve also receives sensory information from the outer ear and from the taste buds on the anterior two-thirds of the tongue, and it supplies most major glands in the head, including the lacrimal glands for tear production, the submandibular and sublingual salivary glands, and the mucous glands of the nose, paranasal sinuses, and palate. 

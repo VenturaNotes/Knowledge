@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Xkl_x6wC0Lg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 7.19.36 AM.png]]
 	- In this installment I will discuss [[serotonin]]. Serotonin is a monoamine neurotransmitter, a term that refers to its chemical structure and the fact that it is derived from an amino acid. To synthesize serotonin, the amino acid tryptophan is converted to 5-hydroxytryptophan, or 5-HTP, and 5-HTP is converted to serotonin, or 5-HT. 

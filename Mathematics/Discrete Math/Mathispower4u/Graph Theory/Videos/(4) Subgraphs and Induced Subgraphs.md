@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=bQPbiy4KkBQ
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-06 at 12.55.59 AM.png]]
 	- Subgraphs

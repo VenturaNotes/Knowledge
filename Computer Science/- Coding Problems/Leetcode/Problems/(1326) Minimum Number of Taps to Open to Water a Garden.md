@@ -1,5 +1,4 @@
 ---
 Source:
   - https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/
-Reviewed: false
 ---

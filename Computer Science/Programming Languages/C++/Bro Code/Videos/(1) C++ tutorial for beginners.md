@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=S3nx34WFXjI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-13 at 9.49.05 AM.png]]
 	- [[C++]] is a fast language

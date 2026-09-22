@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Z7pOQkouFjs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.28.25 PM.png]]
 	- (odd # of data points)

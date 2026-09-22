@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=OUN6Gp_H3q4
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-27 at 11.30.36 PM.png]]
 	- [[Natural experiment]]

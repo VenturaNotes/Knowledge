@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=9NRmIEbuSq8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-20 at 12.58.55 PM.png]]
 	- Properties of [[determinants]]

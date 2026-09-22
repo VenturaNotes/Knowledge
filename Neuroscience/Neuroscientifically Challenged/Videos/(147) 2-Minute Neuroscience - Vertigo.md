@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JwQitZk3Osw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.14.52 AM.png]]
 	- Vertigo involves the illusion of movement, where someone either feels like they, or the environment around them, is moving—usually in a spinning manner. Vertigo may range in severity from mild to so severe that it's difficult to maintain one's balance, and it frequently involves other symptoms as well, including sweating, nausea, and vomiting. While vertigo is often described as dizziness, dizziness is a more general term, and vertigo is considered a subtype of dizziness. There are many potential causes of vertigo, including conditions such as benign paroxysmal positional vertigo, migraine, or Meniere's disease, as well as a number of other causes such as infections, head injuries, and tumors, among others. 

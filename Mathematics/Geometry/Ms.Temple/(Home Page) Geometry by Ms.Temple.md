@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLyCjUT2hfnRNjolwVegmkrC0YKuav05sj
 Length: 5 hours, 55 minutes, 19 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Finding the vertex]]

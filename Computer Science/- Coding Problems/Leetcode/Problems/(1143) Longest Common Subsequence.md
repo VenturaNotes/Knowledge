@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/longest-common-subsequence/
-Reviewed: false
 ---
 ## Synthesis
 - 

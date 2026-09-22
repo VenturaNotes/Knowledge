@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=H4hk6N5vC1Q
-Reviewed: false
 ---
 - Types of Time Signals (CTS)
 	- Continuous Time Signals

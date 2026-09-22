@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLpcwHaLYiaEWQgOCI6KRvJ0TgyuPdv2hh
 Length: 7 hours, 15 minutes, 59 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Welcome to the Mathematics Ramp Up Course!]]

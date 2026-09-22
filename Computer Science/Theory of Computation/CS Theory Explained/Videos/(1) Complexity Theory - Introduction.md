@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=KydXVE9Su5g
-Reviewed: false
 ---
 - ![[Screenshot 2023-12-19 at 1.50.15 PM.png]]
 	- [[Computational Complexity]]

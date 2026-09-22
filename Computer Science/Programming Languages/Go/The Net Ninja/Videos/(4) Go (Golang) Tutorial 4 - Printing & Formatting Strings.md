@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=m1Uy0WQ2Xns
-Reviewed: false
 ---
 Printing & Formatting Strings
 ```Go

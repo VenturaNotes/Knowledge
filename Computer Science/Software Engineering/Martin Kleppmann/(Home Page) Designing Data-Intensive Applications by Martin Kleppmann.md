@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/3TRY8FAV?page=1&annotation=2U852PR7
 Length: "613"
 tags:
   - type/textbook
-  - status/incomplete
-Reviewed: false
 ---
 ## Preface
 - The big ideas behind reliable, scalable, and maintainable systems

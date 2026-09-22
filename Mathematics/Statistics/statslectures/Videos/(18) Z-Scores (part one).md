@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5v3Czc6ZK-Q
-Reviewed: false
 ---
 - Describing Central Tendency
 	- Mean

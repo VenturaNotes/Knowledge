@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OXnPUQ2eva4
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-04 at 12.50.18 AM.png]]
 	- 3 and 4 are vertical angles so congruent

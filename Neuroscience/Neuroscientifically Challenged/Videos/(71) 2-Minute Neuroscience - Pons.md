@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=KEep2XcAYo0
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.58.50 AM.png]]
 	- In this installment I will discuss the pons. The pons is a major division of the brainstem. It is found above the medulla and below the midbrain. 

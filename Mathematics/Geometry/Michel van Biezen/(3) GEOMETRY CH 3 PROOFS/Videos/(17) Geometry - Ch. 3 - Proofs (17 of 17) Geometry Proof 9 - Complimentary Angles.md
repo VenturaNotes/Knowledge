@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=2bZsh1HnKEM
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 5.05.27 AM.png]]
 	- Definition of complementary angles

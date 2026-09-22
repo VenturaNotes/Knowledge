@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Di6ifCW9sS0
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-08 at 9.51.09 AM.png]]
 	- Graph Theory: Trees

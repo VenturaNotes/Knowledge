@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=S_tF_MExTG0
-Reviewed: false
 ---
 - Solve for x
 	- ![[Screenshot 2023-01-13 at 3.33.20 PM.png]]

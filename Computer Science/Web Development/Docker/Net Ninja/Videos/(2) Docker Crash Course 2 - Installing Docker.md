@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8Ev1aXl7TGY
-Reviewed: false
 ---
 - ![[Pasted image 20260515030745.png|500]]
 	- Can download it from docs.docker.com/get-docker

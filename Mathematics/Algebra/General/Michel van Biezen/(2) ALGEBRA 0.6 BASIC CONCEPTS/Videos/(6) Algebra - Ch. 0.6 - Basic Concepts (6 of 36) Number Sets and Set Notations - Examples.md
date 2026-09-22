@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=_x3eE0_m6jQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 3.49.13 PM.png]]
 	- {2, 10} $\subseteq$ A

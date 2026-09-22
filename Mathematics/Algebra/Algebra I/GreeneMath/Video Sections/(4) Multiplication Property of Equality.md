@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=3998s
-Reviewed: false
 ---
 - ax + b = c
 	- x is most common variable in algebra

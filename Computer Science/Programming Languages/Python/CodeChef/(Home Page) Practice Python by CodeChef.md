@@ -5,7 +5,6 @@ Length: "192"
 tags:
   - status/complete
   - type/website
-Reviewed: false
 ---
 - Only Free problems solved (pro version is paid)
 	- So 39% total problems solved

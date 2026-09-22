@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/SSBAAPX5?page=1&annotation=R7CYRR2P
 Length: "1118"
 Progress: "7"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Personal Note
 - Propositional Logic never finished

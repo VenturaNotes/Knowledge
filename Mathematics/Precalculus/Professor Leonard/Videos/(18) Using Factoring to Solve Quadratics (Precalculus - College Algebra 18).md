@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=u2CFHYJWS60
-Reviewed: false
 ---
 - ![[Screenshot 2023-03-04 at 4.00.01 AM.png]]
 	- Zero product property

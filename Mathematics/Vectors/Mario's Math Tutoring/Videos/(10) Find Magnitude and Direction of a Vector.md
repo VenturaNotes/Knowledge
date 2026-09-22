@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=hDyfCqqFYUU
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 4.53.40 PM.png]]
 	- Find magnitude and direction of a vector

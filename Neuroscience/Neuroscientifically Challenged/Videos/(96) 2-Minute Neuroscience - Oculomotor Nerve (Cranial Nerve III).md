@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=PpSOteaxvso
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.11.48 PM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss the oculomotor nerve. The oculomotor nerve is responsible for supplying 4 of the 6 extraocular muscles: the medial rectus, which moves the eye towards the nose; the superior rectus, which moves the eye upwards; the inferior rectus, which moves the eye downwards; and the inferior oblique, which moves the eye up and out. Additionally, the nerve supplies the levator palpebrae superioris, which is the muscle that elevates the eyelid. It also forms connections with neurons in the ciliary ganglion, which innervate the pupillary sphincter to control the constriction of the pupil and the ciliary muscle, which adjusts the shape of the lens to see clearly at close distances. 

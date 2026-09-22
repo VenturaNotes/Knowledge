@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=yDdxFBcvSGw
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-06 at 10.19.08 PM.png]]
 	- [[Functional analysis]] part 1

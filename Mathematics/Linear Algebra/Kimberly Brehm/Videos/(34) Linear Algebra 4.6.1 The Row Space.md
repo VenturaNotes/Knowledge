@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=4TpVjdY8uGc
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-13 at 10.46.30 PM.png]]
 	- The [[row space]] of a vector

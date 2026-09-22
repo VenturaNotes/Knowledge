@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=bTf1ixziEO4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-19 at 10.18.22 PM.png]]
 	- [[co-factor expansion|cofactor expansion]]

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5mjG6y8yi-Y
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-12 at 9.49.18 AM.png]]
 	- Sequences: Recursive Definitions

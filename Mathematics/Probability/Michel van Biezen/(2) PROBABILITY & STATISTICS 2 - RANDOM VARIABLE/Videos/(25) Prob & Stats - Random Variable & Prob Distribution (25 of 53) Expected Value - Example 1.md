@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=OOLYgTMP0mY
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.46.46 PM.png]]
 	- Insurance companies operate with something called the expected value. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EOk25Tb-1bM
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-07 at 9.12.10 PM.png]]
 	- [[Event]] = subset of a sample space

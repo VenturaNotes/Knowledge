@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=mGcZGiUn39k
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 1.02.24 PM.png]]
 	- Magnitude of a vector

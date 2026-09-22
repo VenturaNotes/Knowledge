@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=w8JnDhp83gA
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 12.05.48 AM.png]]
 	- Attention-deficit/hyperactivity disorder, or [[ADHD]], is a condition characterized by difficulties with attention and/or hyperactivity and impulsivity. ADHD involves strong genetic influences, but environmental factors, and interactions between genetics and the environment, are thought to play an important role in ADHD as well.

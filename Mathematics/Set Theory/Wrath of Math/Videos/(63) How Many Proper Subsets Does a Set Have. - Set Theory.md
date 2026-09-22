@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OYQhpsjMsro
-Reviewed: false
 ---
 - ![[Pasted image 20230605113243.png]]
 	- Talking about finite subsets

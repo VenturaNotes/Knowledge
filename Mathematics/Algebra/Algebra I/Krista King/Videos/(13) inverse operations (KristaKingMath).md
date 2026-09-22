@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=pbDIT3SFXwY
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 3.16.52 PM.png]]
 	- Addition and subtraction are inverse operations

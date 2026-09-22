@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=LOQWE9MAZIc
-Reviewed: false
 ---
 - Fractions
 	- Reducing

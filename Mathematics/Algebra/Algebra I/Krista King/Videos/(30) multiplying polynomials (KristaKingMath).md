@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=PqIA6nIwPBY
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 2.40.27 PM.png]]
 	- Multiply the polynomials

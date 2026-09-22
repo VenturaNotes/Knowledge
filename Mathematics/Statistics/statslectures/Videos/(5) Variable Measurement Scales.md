@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aDc5NQONriM
-Reviewed: false
 ---
 - Four data types of measured variables
 	- Top to bottom from less information to more information (data your collecting contains more information as you move downward)

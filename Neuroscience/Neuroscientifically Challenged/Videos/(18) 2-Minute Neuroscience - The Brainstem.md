@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=T2zjlB4ctu4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 3.38.50 PM.png]]
 	- In this installment I will discuss the [[brainstem]]. The brainstem is a stalk that leaves the base of the brain and connects the brain to the spinal cord. It contains many important pathways that run between the brain and spinal cord as well as pathways to other areas like the cerebellum. It also contains a large number of important nuclei, and is essential to both survival and proper cognitive functioning. It consists of three major divisions: the medulla oblongata, pons, and midbrain. 

@@ -6,7 +6,6 @@ tags:
   - type/playlist
   - status/prepared
 Year: 2022-10-20
-Reviewed: false
 ---
 - [[(1) Google SWE teaches systems design - EP1 - Database Design]]
 - [[(2) Google SWE teaches systems design - EP2 - single leader replication]]

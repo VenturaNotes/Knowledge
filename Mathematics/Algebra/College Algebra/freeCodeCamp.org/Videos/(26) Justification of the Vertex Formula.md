@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=13038s
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 8.19.43 PM.png]]
 	- Vertex formula says x-coordinate = $\frac {-b}{2a}$

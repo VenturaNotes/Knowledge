@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=m8kthApqQys
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.19.03 PM.png]]
 	- Norepinephrine, also known as noradrenaline, is a monoamine neurotransmitter, a term that refers its chemical structure and the fact that it's derived from an amino acid. It is also a catecholamine, a term that again refers to its chemical structure and the fact that it contains a catechol nucleus. Norepinephrine also functions as a hormone. It is synthesized from dopamine in a reaction catalyzed by the enzyme dopamine beta-hydroxylase. 

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Jim6fb1cP_s
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-29 at 5.35.55 AM.png]]
 	- A sequence is a set of numbers arranged in a particular order

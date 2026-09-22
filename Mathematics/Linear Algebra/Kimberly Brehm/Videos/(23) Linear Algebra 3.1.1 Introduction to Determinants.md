@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=UWaeMiP_vK8
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-19 at 10.05.58 PM.png]]
 	- Introduction to [[determinants]]

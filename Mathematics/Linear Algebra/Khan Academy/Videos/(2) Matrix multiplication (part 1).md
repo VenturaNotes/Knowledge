@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aKhhYguY0DQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-09-26 at 9.01.01 AM.png]]
 	- [[Matrix multiplication]]

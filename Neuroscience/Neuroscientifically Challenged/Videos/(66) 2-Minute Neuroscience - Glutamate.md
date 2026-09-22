@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=29QfkTjIWHU
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 7.37.29 AM.png]]
 	- [[Glutamate]] is an amino acid that also functions as a neurotransmitter. Although glutamate is obtained through the diet, it cannot pass the blood-brain barrier and thus must be synthesized in the brain. It can be synthesized from alpha-ketoglutarate, an intermediate product in the citric acid cycle. 

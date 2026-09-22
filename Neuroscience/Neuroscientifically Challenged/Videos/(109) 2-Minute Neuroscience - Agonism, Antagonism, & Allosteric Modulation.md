@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LagLa4GDpHY
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.38.17 PM.png]]
 	- [[Agonism]] occurs when a drug binds to a receptor and causes a biological response. Agonist drugs typically bind to the same place on the receptor as the substance that naturally activates the receptor, or the endogenous agonist. Agonists that can generate a maximal response at a receptor are called full agonists. Partial agonists are only able to generate a fraction of the possible response at a receptor. In some cases, an agonist may bind to a receptor and cause a decrease in signaling at that receptor. These substances are called inverse agonists, and they can produce effects that are opposite to those of an agonist. 

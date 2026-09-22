@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=vHQpi4j-z-Y
-Reviewed: false
 ---
 ## Type 4: The common denominator is the LCD (lowest common denominator) of all denominators.
 

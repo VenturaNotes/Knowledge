@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=xeq08tXY0oo
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 12.14.26 AM.png]]
 	- An [[onto transformation]] is when every single thing in codomain gets hit my something from the domain

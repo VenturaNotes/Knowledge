@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Qzy6hHgyb1g
-Reviewed: false
 ---
 - Division
 	- a | b iff $\exists c: ac=b$

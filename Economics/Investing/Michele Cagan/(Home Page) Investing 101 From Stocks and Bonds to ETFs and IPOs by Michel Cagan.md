@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/ATFBW7CW?page=4&annotation=6YTVY9AV
 Length: "307"
 Progress: "1"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 - Published December 4, 2015
 - Michel Cagan is a CPA ([[Certified Public Accountant]])

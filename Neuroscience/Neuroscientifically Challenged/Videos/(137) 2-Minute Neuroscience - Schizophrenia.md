@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=pjTmZqBNB78
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.38.46 AM.png]]
 	- [[Schizophrenia]] is a potentially severe psychiatric condition that involves a variety of symptoms. The symptoms of schizophrenia are often categorized as positive, negative, or cognitive. Positive symptoms involve the development of a behavior or thought pattern that isn't normally present, such as hallucinations and/or delusions. Negative symptoms involve the loss of a normal function, and include lack of motivation, blunted emotion, or difficulty experiencing pleasure. Cognitive symptoms are those that affect someone's ability to think clearly, and include deficits in attention, memory, and/or concentration. 

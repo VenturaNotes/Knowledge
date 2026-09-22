@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7yf92IgREig
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 1.42.32 PM.png]]
 	- [[De Morgan's Laws]]

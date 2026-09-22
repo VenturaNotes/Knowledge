@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Ufkgn1TXz-U
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-18 at 3.56.17 PM.png]]
 	- [[Image]] and Inverse Image

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=AkiaMiGnPuQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 8.16.49 PM.png|400]]
 	- The [[sodium-potassium pump]] is a protein pump found in the cell membrane of all animal cells. Its main function is to transport sodium ions out of the cell and potassium ions into the cell. This serves a number of purposes, but is critically important to the function of neurons as it helps to maintain a higher concentration of sodium ions outside the cell, and a higher concentration of potassium ions inside the cell. Preserving these differences in ion concentrations helps to stabilize the cell's membrane potential. This is critical for the neuron to be able to fire an action potential, which is the basis of the electrical signaling of neurons. 

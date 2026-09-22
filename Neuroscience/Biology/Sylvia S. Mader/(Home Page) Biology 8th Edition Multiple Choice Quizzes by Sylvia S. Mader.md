@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://highered.mheducation.com/sites/0072919345/student_view0/chapter1/
 Length: "50"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 ## Chapter 1
 - (1) [[Living things]] respond to stimuli, reproduce, and have adaptations

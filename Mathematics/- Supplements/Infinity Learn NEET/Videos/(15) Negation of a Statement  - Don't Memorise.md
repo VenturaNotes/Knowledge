@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7Hcnj2u-kfE
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 6.56.30 PM.png]]
 	- Errata

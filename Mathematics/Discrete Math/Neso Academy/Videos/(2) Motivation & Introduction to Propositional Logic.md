@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=IZpvlR5J7FQ
-Reviewed: false
 ---
 - The phrase propositional logic is composed of two words:
 	- ![[Screenshot 2023-01-02 at 6.18.16 PM.png]]

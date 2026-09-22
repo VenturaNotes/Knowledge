@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=sm4rg-USlNk
-Reviewed: false
 ---
 - ![[Screenshot 2025-02-20 at 10.51.25 AM.png]]
 	- Recursive and Closed Formulas for a Geometric Sequence

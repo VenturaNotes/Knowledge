@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=fd8Reudp3gY
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-02 at 11.11.46 PM.png]]
 	- (1) First not including the intersection: Find all the line segments

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ODOztJ6YRUM
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-17 at 1.07.00 AM.png]]
 	- [[Homogeneous system]] solutions

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=QN00isODmEs
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 3.14.41 AM.png]]
 	- Coordinate system is some way we can keep track of points

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=20134s
-Reviewed: false
 ---
 - ![[Screenshot 2023-02-25 at 8.54.11 PM.png]]
 	- Linear equation can be rewritten as $y=mx+b$. It doesn't have any x or y squares in it.

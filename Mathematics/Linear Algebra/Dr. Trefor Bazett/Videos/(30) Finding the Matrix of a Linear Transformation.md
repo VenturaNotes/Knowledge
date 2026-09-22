@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=914Uy8ohr_8
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 12.01.01 AM.png]]
 	- [[Rotation matrix]]: $R(\vec{x})$ equation

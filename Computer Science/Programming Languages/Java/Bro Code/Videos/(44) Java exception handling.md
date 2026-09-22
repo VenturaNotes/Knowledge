@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=adTDlH0lhaA
-Reviewed: false
 ---
 ```java
 import java.util.InputMismatchException;

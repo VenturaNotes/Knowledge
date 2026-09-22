@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OMInLBKYAWg
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-20 at 10.16.12 PM.png]]
 	- We can describe the efficiency of an algorithm, a program, or a [[programmatic operation]] in terms of the time it takes to do its work or the amount of memory it uses or the amount of secondary storage space it needs 

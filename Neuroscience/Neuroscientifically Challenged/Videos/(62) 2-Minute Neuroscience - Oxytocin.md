@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tLc9fQd58bg
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 7.17.12 AM.png]]
 	- Oxytocin is a peptide hormone and a [[neuropeptide]], which is a name for a peptide that can also act as a neurotransmitter. 

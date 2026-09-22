@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ISUXrjBXHsE
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.00.17 PM.png]]
 	- THC is the main psychoactive component of cannabis, and one of a class of compounds known as cannabinoids. Cannabis tends to be relatively low in THC compared to its levels of a THC precursor, THCA. Heating the cannabis plant, however, causes the conversion of THCA to THC, which is part of the basis for heating or burning the plant for use. The effects of cannabis may vary depending on the variety of cannabis plant and its associated levels of THC and other cannabinoids, but common effects of THC include: euphoria, sedation, stimulation of appetite, impaired cognitive function, analgesia, and anxiety. 

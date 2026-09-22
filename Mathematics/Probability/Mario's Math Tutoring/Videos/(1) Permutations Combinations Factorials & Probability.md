@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=TBnPkKxXPu8
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-22 at 10.29.01 AM.png]]
 	- A [[Permutation|permutation]] is an ordering of objects

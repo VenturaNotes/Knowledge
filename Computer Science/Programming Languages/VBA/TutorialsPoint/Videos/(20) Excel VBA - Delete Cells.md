@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9GVYxyJ8_Q4
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 5.39.45 AM.png|400]]
 	- Delete options

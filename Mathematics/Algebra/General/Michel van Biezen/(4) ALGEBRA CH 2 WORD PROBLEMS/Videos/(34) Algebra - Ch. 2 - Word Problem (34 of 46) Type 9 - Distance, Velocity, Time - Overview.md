@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=oJobgdsGSnM
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-21 at 8.17.19 PM.png]]
 	- General method to solve distance, velocity, and time problems

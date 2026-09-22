@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=4oUCcIt3TtU
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 11.30.22 PM.png]]
 	- The withdrawal reflex is an automatic response enacted to withdraw a limb from a painful stimulus. If, for example, you were to touch a hot stove or step on a tack, the withdrawal reflex would cause you to pull your arm or leg away from the painful stimulus without having to consciously plan to do so. The intensity of the reflex is proportional to the intensity of the painful stimulus, so a very hot stove would cause a more rapid and forceful withdrawal than a mildly hot stove. 

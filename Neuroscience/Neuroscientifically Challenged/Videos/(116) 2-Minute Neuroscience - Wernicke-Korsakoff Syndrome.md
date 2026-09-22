@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=otIBWpiQISI
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-26 at 9.05.49 PM.png]]
 	- [[Wernicke-Korsakoff syndrome]] is a condition that involves the presence of two related disorders: Wernicke's encephalopathy and Korsakoff syndrome. Wernicke-Korsakoff syndrome is typically linked to alcoholism, although alcohol consumption is not always a factor. Patients suffering from Wernicke's encephalopathy commonly experience confusion and disorientation, but may also display eye movement disturbances and movement and gait abnormalities. Korsakoff's syndrome appears in patients who do not completely recover from Wernicke's encephalopathy. It involves extensive memory deficits as well as a number of other cognitive and behavioral changes. Korsakoff's patients typically have a severely impaired ability to form new memories, although the recall of previously formed memories is also affected. 

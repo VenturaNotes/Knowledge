@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=XLqQQSSblqQ
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-04 at 6.06.28 PM.png]]
 	- In the case of $cot^2(sinx)$

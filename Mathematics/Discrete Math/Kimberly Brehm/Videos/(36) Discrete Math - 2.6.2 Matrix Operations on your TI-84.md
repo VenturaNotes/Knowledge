@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=Hfdo5DGS2jk
-Reviewed: false
 ---
 - Entering Matrices
 	- $2^{nd}$ and $x^{-1}$ (matrix)

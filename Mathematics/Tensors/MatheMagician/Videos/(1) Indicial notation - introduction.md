@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=klYzrLzEmsE
-Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 10.38.47 PM.png]]
 	- [[Indicial notation]]

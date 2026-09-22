@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/longest-palindromic-substring
-Reviewed: false
 ---
 ## Synthesis
 - 

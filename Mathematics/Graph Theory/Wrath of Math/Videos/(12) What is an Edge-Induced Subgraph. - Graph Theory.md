@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=bk08JzEWeC4
-Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 9.39.17 PM.png]]
 	- An [[edge-induced subgraphs|edge-induced subgraph]] can't have an isolated vertex

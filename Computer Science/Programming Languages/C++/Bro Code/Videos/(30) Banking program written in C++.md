@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=TJOysgQkqZY
-Reviewed: false
 ---
 - Able to show, deposit, and withdraw money. Also able to exit the program
 ```c++

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OFALIHBY5Bw
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 10.48.46 PM.png|300]]
 	- Demonstrating linear dependence/Independence

@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ZuuXPW36OYU
-Reviewed: false
 ---
 - ![[Screenshot 2024-11-07 at 11.51.09 PM.png]]
 	- $A \cup B$

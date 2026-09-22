@@ -1,7 +1,6 @@
 ---
 Source:
   - https://leetcode.com/problems/climbing-stairs/
-Reviewed: false
 ---
 ## Synthesis
 - 

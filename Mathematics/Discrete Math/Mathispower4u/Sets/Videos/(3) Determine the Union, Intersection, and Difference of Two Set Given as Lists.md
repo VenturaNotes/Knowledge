@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=hoyAndqazzc
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-15 at 12.18.56 PM.png]]
 	- Sets: [[Intersection]], [[Union]], [[Difference]]

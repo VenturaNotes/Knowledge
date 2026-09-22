@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=VhzjrWo0BZU
-Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 12.47.26 AM.png|500]]
 	- [[Elementary Matrices]]

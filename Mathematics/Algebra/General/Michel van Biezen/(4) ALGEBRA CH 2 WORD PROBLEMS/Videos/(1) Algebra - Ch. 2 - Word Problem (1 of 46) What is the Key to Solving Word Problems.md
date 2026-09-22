@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=LkS6AnnnpzM
-Reviewed: false
 ---
 - (1) Identify the type of word problem
 	- %, Numbers, Money/Coins, Ages, Distance & Rate, Solutions, Mixtures, Investments

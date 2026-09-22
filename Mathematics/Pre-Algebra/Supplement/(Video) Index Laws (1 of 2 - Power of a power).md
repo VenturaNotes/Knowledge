@@ -5,7 +5,6 @@ Length: 7 minutes, 3 seconds
 tags:
   - status/complete
   - type/video
-Reviewed: false
 ---
 ## Index Laws
 - $a^m \times a^n = a^{m + n}$ 

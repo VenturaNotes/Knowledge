@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WeQluId1hnQ
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 4.12.06 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the cochlea When sound waves travel through the canal of our ear, they hit the tympanic membrane or eardrum and cause it to vibrate. This vibration prompts movement in the ossicles, a trio of tiny bones that transmit the vibration to a structure called the oval window, which sits in the wall of the cochlea. The cochlea is a tiny coiled structure in the inner ear that resembles a snail shell.

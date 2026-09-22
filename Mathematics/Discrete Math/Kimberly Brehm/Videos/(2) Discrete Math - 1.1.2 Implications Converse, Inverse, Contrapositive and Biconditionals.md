@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=rAxXcX_w5fE
-Reviewed: false
 ---
 ![[Screen Shot 2022-10-24 at 3.06.30 AM.png]]
 - Implications (Converse, Inverse, Contrapositive) and Biconditionals

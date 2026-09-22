@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=PoIVp9VWo4I
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 3.06.23 AM.png|500]]
 	- To open editor, "Developer" $\to$ "Visual Basic"

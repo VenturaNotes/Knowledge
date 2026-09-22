@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CIkgQcmv0Xs
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 3.35.01 PM.png]]
 	- In this installment I will discuss the [[meninges]]. The term meninges comes from the Greek for membrane and refers to 3 membranes that surround the brain and the spinal cord: the dura mater, the arachnoid mater, and the pia mater. The meninges protect and provide structural support for the brain as well as contain cerebrospinal fluid. 

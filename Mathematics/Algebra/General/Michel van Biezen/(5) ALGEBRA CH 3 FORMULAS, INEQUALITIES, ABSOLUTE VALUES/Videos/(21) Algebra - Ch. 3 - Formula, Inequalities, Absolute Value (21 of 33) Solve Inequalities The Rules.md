@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=cq7akJrHZ6M
-Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 6.19.53 PM.png]]
 	- Rules/steps when solving for an inequality

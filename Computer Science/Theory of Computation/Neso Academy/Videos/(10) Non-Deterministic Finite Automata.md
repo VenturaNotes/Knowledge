@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=ehy0jGIYRtE
-Reviewed: false
 ---
 - NFA
 - Deterministic Finite Automata

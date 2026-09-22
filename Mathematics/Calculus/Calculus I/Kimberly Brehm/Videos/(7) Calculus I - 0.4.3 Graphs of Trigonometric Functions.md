@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dJ2dl9KQ-B0
-Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 4.08.18 AM.png]]
 	- Graphs of Trigonometric Functions

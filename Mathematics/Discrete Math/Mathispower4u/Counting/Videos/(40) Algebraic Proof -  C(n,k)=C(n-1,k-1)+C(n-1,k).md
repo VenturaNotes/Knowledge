@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=nySN2VWXv5s
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-12 at 2.31.23 AM.png]]
 	- Give an algebraic proof for the [[binomial identity]]

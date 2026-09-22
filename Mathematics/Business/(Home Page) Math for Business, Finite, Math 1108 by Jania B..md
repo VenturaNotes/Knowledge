@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLAbN3QzJyy_J9dUN89WKXzc7GAzJczIOa
 Length: 6 hours, 32 minutes, 4 seconds
 tags:
-  - status/incomplete
   - type/playlist
-Reviewed: false
 ---
 - Complete
 	- [[(1) Graphing Linear Inequalities in One and Two Variables]]

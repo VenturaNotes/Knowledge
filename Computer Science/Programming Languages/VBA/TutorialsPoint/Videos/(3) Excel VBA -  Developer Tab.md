@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=T-VXoFYsFWM
-Reviewed: false
 ---
 - ![[Screenshot 2025-01-25 at 2.31.14 AM.png]]
 	- To get developer tab on windows

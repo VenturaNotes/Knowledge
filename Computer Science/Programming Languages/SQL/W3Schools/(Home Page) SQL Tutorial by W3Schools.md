@@ -1,11 +1,10 @@
 ---
+status: open
 Source:
   - https://www.w3schools.com/sql/default.asp
 Length: "77"
 tags:
-  - status/incomplete
   - type/website
-Reviewed: false
 ---
 ## SQL Tutorial
 ### SQL HOME
@@ -1142,7 +1141,7 @@ INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID
 - The order of commands is FROM, INNER JOIN, and then SELECT
 - The `INNER JOIN` keyword returns only rows with a match in both tables.
 	- So if you have a product with no CategoryID, or with a CategoryID not present in the Categories table, that record would not be returned in the result
-- #status/incomplete
+- [ ] This section was left incomplete
 ### SQL Left Join
 ### SQL Right Join
 ### SQL Full Join

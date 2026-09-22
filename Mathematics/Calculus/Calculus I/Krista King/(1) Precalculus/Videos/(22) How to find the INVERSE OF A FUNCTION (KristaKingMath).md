@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=OllihuiUwzI
-Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 10.16.54 PM.png]]
 	- Find the [[inverse function]] and sketch its graph

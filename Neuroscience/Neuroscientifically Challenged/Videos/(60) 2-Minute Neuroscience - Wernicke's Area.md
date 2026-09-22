@@ -1,7 +1,6 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=03Xtiz_ikw4
-Reviewed: false
 ---
 - ![[Screenshot 2024-12-25 at 11.14.54 AM.png]]
 	- Welcome to 2 minute neuroscience, where I explain neuroscience topics in 2 minutes or less. In this installment I will discuss Wernicke's area. Although there is some debate over the exact location of Wernicke's area, it is typically considered to reside in the cortex of the left cerebral hemisphere near the junction between the temporal and parietal lobes. 

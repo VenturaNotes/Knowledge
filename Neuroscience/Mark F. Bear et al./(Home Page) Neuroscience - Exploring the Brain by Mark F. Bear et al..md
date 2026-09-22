@@ -1,12 +1,11 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/L52NKGDQ?page=3&annotation=58WIQAW2
 Length: "1019"
 Progress: "10"
 tags:
-  - status/incomplete
   - type/textbook
-Reviewed: false
 ---
 ## Preface
 ### The Origins of Neuroscience: Exploring the Brain

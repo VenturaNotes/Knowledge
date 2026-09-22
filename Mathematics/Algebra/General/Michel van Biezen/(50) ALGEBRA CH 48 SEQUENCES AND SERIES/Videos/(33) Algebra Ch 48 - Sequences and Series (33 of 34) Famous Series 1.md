@@ -1,7 +1,6 @@
 ---
 Source:
   - https://youtube.com/watch?v=IiI6fklbovw
-Reviewed: false
 ---
 - ![[Screenshot 2023-04-30 at 1.30.29 AM.png]]
 	- Arithmetic Series, Common difference = 1
