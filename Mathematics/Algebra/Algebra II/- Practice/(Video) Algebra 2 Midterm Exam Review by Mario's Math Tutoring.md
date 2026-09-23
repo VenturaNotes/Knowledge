@@ -1,14 +1,14 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=y-HkUGQfKHg
 Length: " 1 hour, 24 minutes, 18 seconds"
 tags:
-  - status/complete
   - type/video
 ---
 - ![[Screenshot 2023-05-18 at 8.57.27 PM.png]]
 	- (1) <mark style="background: #FFF3A3A6;">Write the numbers in increasing order</mark>
-		- Per means divide by 1
+		- Per means divide bzy 1
 	- (2) <mark style="background: #FFF3A3A6;">Unit Conversion</mark> - If you bike 20 miles per hour, what is your speed in feet per second?
 		- 5280 ft in a mile
 	- (3) <mark style="background: #FFF3A3A6;">PEMDAS Order of Operations</mark> - Evaluate (means find the value)

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUp9yPNNVxoYtqkBKy-UsJk
 Length: 1 hour, 46 minutes, 25 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 25 - Solving Quadratic Equations (1 of 25) What is a Quadratic Equation]]

@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://youtu.be/WulfLUfz4eQ
 Length: 1 hour, 37 minutes, 16 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - ![[Screenshot 2023-05-20 at 8.37.48 AM.png]]

@@ -1,10 +1,10 @@
 ---
+status: open
 Source:
   - https://youtube.com/watch?v=q6RicK1FCUs
 Length: 9 minutes, 31 seconds
 tags:
   - type/video
-  - status/complete
 ---
 - Uses small example as swell as large examples with 3 discs
 - Problem

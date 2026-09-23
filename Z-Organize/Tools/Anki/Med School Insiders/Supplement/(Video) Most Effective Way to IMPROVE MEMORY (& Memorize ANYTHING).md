@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=G49R744t4Ew
 Length: 11 minutes, 32 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 ## Introduction

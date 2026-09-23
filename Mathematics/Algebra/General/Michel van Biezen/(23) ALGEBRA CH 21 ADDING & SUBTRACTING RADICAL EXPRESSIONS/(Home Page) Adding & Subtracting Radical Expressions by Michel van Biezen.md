@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXW6Z4mpqlBVo6DSVDSOYWLC
 Length: 37 minutes, 24 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 21 - Addition and  Subtraction of Radical Expressions (1 of 11) Basic Rules]]

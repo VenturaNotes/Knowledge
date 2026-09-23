@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLl-gb0E4MII1IUlW6kRRABy9pFDQPs15V
 Length: 52 minutes, 32 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Trig 0.1 - Angles, Degrees and Radians]]

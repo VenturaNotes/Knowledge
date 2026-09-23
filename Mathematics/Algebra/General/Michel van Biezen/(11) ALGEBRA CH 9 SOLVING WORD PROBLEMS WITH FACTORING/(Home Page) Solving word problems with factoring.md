@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXV1oqNmS_hr6DNpSHnW_bnA
 Length: 1 hour, 19 minutes, 44 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 9 - Solving Word Problems with Factoring (1 of 17) Example 1]]

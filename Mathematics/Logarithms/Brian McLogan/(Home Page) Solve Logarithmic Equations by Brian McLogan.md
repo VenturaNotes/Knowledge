@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PL0G-Nd0V5ZMpbpcv-8h--Cjk9i1EM4hSp
 Length: 4 hours, 18 minutes, 22 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - Pretty bad playlist. Filled with errors (although I corrected the ones I found with "errata")

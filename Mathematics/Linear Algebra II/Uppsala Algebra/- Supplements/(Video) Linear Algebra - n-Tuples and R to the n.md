@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=Uh0lZ-s2BHQ
 Length: 16 minutes, 31 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - $\mathbb{R}^2$ is 2 dimensions

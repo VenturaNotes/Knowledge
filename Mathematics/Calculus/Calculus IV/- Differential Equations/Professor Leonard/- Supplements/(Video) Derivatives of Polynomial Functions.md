@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=8Sv6CNuNwqo
 Length: 6 minutes, 21 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Just need to find the derivative of each term separately

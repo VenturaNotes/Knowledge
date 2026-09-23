@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=ut-AFj600S0
 Length: 14 minutes, 46 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Need to use the constant multiple rule and the power rule

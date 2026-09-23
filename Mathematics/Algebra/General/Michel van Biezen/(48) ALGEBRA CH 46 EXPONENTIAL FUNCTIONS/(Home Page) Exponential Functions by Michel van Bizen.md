@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXU3KCbRdm6ygxfHKerodxuX
 Length: 43 minutes, 2 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 46 - Exponential Function (1 of 12) What is an Exponential Function]]

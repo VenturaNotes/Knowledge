@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/GPA52XEF?page=1&annotation=TMSZ4AVH
 Length: "31"
 tags:
-  - status/incomplete
   - type/paper
 Authors:
   - Prakitr Srisuma

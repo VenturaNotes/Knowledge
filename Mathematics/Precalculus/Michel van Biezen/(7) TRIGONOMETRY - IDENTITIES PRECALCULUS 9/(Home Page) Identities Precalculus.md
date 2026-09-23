@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUtjPmE-h3Ck2_2j4m_a7mV
 Length: 3 hours, 7 minutes, 31 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus - Trigonometry - Trig Identities (1 of 57) What are the basic trig Identities]]

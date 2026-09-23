@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BOyMIWkgPAbRQTB5u39q1p1
 Length: 5 hours, 30 minutes, 46 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) identity numbers (KristaKingMath)]]

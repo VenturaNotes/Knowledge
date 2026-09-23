@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=JuzeVB0kmrc
 Length: 7 minutes, 2 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
  - Image

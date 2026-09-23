@@ -1,10 +1,10 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=87SH2Cn0s9A
   - https://www.youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe
 Length: 4 hours, 5 minutes, 23 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - Middle-level language (originated in 1970s)

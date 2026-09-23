@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=1Jj-sJ78O6M
 Length: 22 minutes, 43 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Golden rectangle

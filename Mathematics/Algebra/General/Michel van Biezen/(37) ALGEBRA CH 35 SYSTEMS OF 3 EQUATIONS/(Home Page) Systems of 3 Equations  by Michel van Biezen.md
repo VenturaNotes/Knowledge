@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUBalqudRNWw_XaSLAXAJ9l
 Length: 2 hours, 43 minutes, 42 seconds
 tags:
-  - status/complete
   - type/playlist
   - ongoing
 ---

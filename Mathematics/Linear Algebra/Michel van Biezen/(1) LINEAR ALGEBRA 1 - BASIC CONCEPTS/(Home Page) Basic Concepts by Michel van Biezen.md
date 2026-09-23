@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVuWEutmvA163NoDCAhiWv2
 Length: 2 hours, 44 minutes, 54 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Linear Algebra - What Will Be Covered]]

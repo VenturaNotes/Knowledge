@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXPJEenunQp5qujemZAFo-q
 Length: 2 hours, 22 minutes, 56 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 0.5 - Basic Concepts (1 of 26) An Overview]]

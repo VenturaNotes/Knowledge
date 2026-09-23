@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://youtube.com/watch?v=bXrvHkbByik
 Length: 11 minutes, 28 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Note: this playlist is a paid series

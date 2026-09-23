@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BPGQeSHLcDy6Li2IU2ylEd8
 Length: 2 hours, 57 minutes, 32 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Limits and Continuity (KristaKingMath)]]

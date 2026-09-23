@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVW0FlsGNnWJvK6asUBdC1R
 Length: 26 minutes, 24 seconds
 tags:
-  - status/incomplete
   - type/playlist
 ---
 - Complete

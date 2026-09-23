@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWP_t8BbStZ8z2A8-iNEfu3
 Length: 2 hours, 50 minutes, 28 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus 3 - Graphing Polynomial & Rational Fcts (1 of 29) Parabola - General Graphing Rules]]

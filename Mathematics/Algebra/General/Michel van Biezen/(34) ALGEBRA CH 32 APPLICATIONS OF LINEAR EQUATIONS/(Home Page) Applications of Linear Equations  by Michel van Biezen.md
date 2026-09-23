@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXV94NpYUwd3HW3x_nGKgi5w
 Length: 55 minutes, 47 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 32 - Applications of Linear Equations (1 of 11) Types of Applications]]

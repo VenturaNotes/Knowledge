@@ -1,10 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=XIOLqoPHCJ4
 Length: 1 hour, 20 minutes, 57 seconds
 tags:
   - type/video
-  - status/incomplete
 ---
 - Image
 	- [[JavaScript]] Fundamentals

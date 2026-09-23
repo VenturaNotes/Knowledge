@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWR45XeCpRckE0b2aXL1Z4w
 Length: 51 minutes, 15 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 41 - Solving Non-Linear Systems of Eqns. (1 of 10) What Does It Mean to 'Solve...']]

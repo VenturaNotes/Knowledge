@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.w3schools.com/python/python_exercises.asp
 Length: "72"
 tags:
-  - status/complete
   - type/website
 ---
 ## Get Started

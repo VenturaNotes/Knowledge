@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWTciqXXV0UuL3u-RdiItOv
 Length: 23 minutes, 30 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 28 - Quadratic Equation - Special Types (1 of 8) Introduction]]

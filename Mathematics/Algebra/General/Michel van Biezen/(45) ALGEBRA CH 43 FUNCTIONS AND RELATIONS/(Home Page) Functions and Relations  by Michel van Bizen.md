@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVDVdqxEF2fDnQZ98_4WNJI
 Length: 59 minutes, 38 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 43 - Functions and Relations (1 of 11) What is Difference Between Relations and Functions]]

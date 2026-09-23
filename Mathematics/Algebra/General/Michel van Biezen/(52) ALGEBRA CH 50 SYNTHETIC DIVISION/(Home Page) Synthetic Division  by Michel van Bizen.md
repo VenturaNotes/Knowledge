@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXU-93hZGpEHxhb9wssgMqWY
 Length: 1 hour, 1 minute, 29 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 50 - Synthetic Division (1 of 16) What is Synthetic Division]]

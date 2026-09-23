@@ -1,11 +1,11 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=mMRSznUM-8A
 Length: 18 minutes, 38 seconds
 Related:
   - "[[(Video) 3-7 Arguments and Euler Diagrams]]"
 tags:
-  - status/complete
   - type/video
 ---
 - [^1] A [[Venn diagram]] shows all possible logical relationships between a collection of sets. But a [[(Video) Euler Diagrams to determine if a logical argument is valid|Euler diagram]] only shows relationships that exist in the real world

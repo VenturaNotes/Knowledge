@@ -1,10 +1,10 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/8MRQ3H5S?page=2&annotation=8F62Z9BZ
 Length: "269"
 tags:
   - type/textbook
-  - status/incomplete
 ---
 
 - “System design interview questions are the most difficult to tackle among all the technical interviews” ([pdf](zotero://open-pdf/library/items/8MRQ3H5S?page=4&annotation=67WST6LI))

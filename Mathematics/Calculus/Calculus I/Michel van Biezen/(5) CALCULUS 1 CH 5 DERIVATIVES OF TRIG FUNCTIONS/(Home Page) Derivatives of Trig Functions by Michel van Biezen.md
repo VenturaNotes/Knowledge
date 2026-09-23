@@ -1,10 +1,10 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWowjR3tFE3wvGmNsTu7sD7
 Length: 30 minutes, 1 second
 tags:
   - type/playlist
-  - status/complete
 ---
 [[(1) Calculus - Derivatives of Trigonometric Functions (1 of 2)]]
 [[(2) Calculus - Derivatives of Trigonometric Functions (2 of 2)]]

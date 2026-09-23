@@ -1,7 +1,8 @@
 ---
 Source:
   - https://youtube.com/watch?v=LHsPJ2bQX1U
-Reviewed: true
+tags:
+  - reviewed
 ---
 - ![[Screenshot 2024-01-29 at 4.43.34 PM.png]]
 	- Writing Systems 

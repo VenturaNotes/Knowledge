@@ -1,10 +1,10 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXQU46sV8bjT1_YRO3vdZu4
 Length: 1 hour, 5 minutes, 43 seconds
 tags:
   - type/playlist
-  - status/complete
 ---
 [[(1) Calculus 1 CH 5.2 Second and Higher Order Derivatives (1 of 11) An Intuitive Understanding]]
 [[(2) Calculus 1 CH 5.2 Second and Higher Order Derivatives (2 of 11) Higher Order Derivatives]]

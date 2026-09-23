@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUe_JUAd_DDnbcpF6Cvf4Nj
 Length: 46 minutes, 37 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 19 - Rational Exponents Algebra (1 of 16) Types of Operations]]

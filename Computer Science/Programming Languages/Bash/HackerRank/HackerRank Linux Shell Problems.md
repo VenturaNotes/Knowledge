@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.hackerrank.com/domains/shell
 Length: "65"
 tags:
-  - status/incomplete
   - type/website
 ---
 ## Bash

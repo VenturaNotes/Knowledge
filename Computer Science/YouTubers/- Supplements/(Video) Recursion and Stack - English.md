@@ -1,10 +1,10 @@
 ---
+status: open
 Source:
   - https://youtube.com/watch?v=ygK0YON10sQ
 Length: 13 minutes, 8 seconds
 tags:
   - type/video
-  - status/incomplete
 ---
 - Video was completed but too many images
 

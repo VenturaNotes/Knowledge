@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://youtu.be/9HFbhPscPU0
 Length: 10 minutes, 5 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - HashMap

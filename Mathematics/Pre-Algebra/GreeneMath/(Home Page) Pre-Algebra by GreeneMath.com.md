@@ -1,14 +1,13 @@
 ---
+status: done
 Source:
   - https://www.greenemath.com/Prealgebra.html
   - https://www.youtube.com/playlist?list=PLi5qQTYe1fJ_WqTpI59gDprCcRyYgiKYF
   - https://www.youtube.com/watch?v=VXzm8ReImG0
 Length: 14 hours, 14 minutes, 20 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
-
 - Went through each file to add to "Topics"
 - Added timestamps for above video
 

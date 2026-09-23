@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=r0_mi8ngNnM
 Length: 14 minutes, 21 seconds
 tags:
-  - status/complete
   - type/video
 ---
 ## Index Laws continued

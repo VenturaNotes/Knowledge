@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=UrWtXbKM3m0
 Length: 5 minutes, 21 seconds
 tags:
-  - status/complete
   - type/video
 ---
 ## Index Laws Continued

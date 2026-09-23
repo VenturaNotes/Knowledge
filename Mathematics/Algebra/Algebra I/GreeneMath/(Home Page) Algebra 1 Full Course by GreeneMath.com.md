@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://youtu.be/GAN-jgzYsIo
 Length: 1 day, 2 hours, 54 minutes, 44 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - Updated terms to "Topics" folder

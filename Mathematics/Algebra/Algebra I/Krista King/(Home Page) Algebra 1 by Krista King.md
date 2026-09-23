@@ -1,10 +1,10 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BP9hyAHCfjloy8RC7vsULiv
 Length: 3 hours, 21 minutes, 5 seconds
 tags:
   - type/playlist
-  - status/complete
 ---
 [[(1) associative property (KristaKingMath)]]
 [[(2) commutative property (KristaKingMath)]]

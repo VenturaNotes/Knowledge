@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BNPtc0yZy1MORWIoZbhFvcK
 Length: 3 hours, 24 minutes, 27 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) negative exponents (KristaKingMath)]]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=lxNkUWim2I8
 Length: 4 minutes, 20 seconds
 tags:
-  - status/complete
   - type/video
 ---
 ## Barber

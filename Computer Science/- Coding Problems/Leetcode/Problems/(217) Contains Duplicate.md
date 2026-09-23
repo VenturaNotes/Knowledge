@@ -1,8 +1,9 @@
 ---
 Source:
   - https://leetcode.com/problems/contains-duplicate/
-Reviewed: true
 Approaches: "1"
+tags:
+  - reviewed
 ---
 ## Synthesis
 ```python

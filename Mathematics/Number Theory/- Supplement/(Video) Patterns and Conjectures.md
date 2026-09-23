@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=uCgg8ovX2_s
 Length: 11 minutes, 51 seconds
 tags:
-  - status/complete
   - type/video
 ---
 ## Intro

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXV8Egh8GQFoB-4jjBjyn0jA
 Length: 2 hours, 1 minute, 11 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 4 - Exponents & Scientific Notation (1 of 35) What is an Exponent]]

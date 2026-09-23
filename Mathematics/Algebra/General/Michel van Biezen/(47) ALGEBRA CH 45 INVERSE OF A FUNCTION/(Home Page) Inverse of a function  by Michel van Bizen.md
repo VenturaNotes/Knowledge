@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVk_FRE2Ob_8ZwxvBEu0Gcr
 Length: 59 minutes, 7 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 45 - The Inverse of a Function (1 of 15) What is the Inverse of a Function]]

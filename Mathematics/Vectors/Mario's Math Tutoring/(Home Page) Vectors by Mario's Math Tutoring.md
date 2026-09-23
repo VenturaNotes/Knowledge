@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLHRatQsym1_hVNbti7Iy7xR1CKxUzY3Bw
 Length: 1 hour, 7 minutes, 15 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - [[(1) Vectors Component Form]]

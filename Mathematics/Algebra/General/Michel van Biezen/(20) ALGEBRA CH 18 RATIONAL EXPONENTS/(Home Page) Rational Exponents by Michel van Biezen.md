@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVanrBO2o6k1BjRFUfhq_vN
 Length: 44 minutes, 19 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 18 - Rational Exponents (1 of 15) Rules of Exponents]]

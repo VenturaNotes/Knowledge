@@ -1,4 +1,5 @@
 ---
+status: done
 Source:
   - https://neetcode.io/roadmap
   - https://www.youtube.com/playlist?list=PLi5qQTYe1fJ-6zNUR4YnVCvHVMhibe5iG
@@ -6,7 +7,6 @@ Length: 34 hours, 57 minutes, 20 seconds
 tags:
   - type/playlist
   - type/website
-  - status/complete
 ---
 - Arrays & Hashing (9)
 	- (1) [[(217) Contains Duplicate]]

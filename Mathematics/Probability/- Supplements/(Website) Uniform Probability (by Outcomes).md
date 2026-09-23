@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://brilliant.org/wiki/uniform-probability/#definitions-of-key-terms
 Length: "1"
 tags:
-  - status/incomplete
   - type/website
 ---
 - a [[probability]] obtained from a well-defined experiment in which all outcomes are equally likely.

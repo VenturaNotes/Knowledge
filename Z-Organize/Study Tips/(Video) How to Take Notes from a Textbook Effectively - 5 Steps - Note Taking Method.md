@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=0NpBvG_oPoA
 Length: 2 minutes, 59 seconds
 tags:
-  - "#status/complete"
   - type/video
 ---
 - Take notes based on type of assessment

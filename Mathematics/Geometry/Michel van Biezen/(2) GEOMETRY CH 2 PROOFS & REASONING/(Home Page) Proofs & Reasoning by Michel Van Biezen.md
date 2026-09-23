@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWWlCXEotLlVkqtamk8qQeP
 Length: 2 hours, 38 minutes, 58 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Geometry - Ch. 2 - Proofs and Reasoning (1 of 46) Definitions]]

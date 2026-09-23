@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUDXzqJL20J1ITmhhypOf48
 Length: 42 minutes, 59 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 27 - The Discriminant (1 of 11) What is the Discriminant]]

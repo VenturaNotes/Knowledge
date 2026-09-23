@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=2vxm0665QN0
 Length: 3 minutes, 40 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Euclid showed that there are infinitely many prime numbers

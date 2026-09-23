@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXURlS1cA8HlKsWevRcQASXB
 Length: 2 hours, 21 minutes, 22 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 48 - Sequences and Series (1 of 34) What is the Difference]]

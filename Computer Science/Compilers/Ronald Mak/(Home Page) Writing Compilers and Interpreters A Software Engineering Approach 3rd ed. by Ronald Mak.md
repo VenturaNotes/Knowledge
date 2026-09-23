@@ -1,10 +1,10 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/R2WDRE52?page=3&annotation=WJYHXNZN
 Length: "421"
 Progress: "0"
 tags:
-  - status/incomplete
   - type/textbook
 ---
 ## (0) Introduction

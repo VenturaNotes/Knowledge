@@ -1,7 +1,8 @@
 ---
 Source:
   - https://youtube.com/watch?v=7xtAYrAtuPc
-Reviewed: true
+tags:
+  - reviewed
 ---
 - ![[Screenshot 2024-12-09 at 8.46.55 AM.png]]
 	- First

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://youtu.be/YA8Nq8Tlma4
 Length: 4 minutes, 32 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - [Download link for anaconda](https://www.anaconda.com/)

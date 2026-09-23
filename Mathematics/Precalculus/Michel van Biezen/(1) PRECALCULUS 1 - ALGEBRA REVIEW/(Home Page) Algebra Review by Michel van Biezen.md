@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXX_bDWBA2qhZE-VFgvZur4d
 Length: 5 hours, 52 minutes, 47 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus - Introduction and Preview of What is in this PreCalculus Series]]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLROOIV7hGpZj5Y98HCbJMPXHN3jjWTfYk
 Length: 3 hours, 49 minutes, 16 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - [[(1) Introduction to Sequences (Discrete Math)]]

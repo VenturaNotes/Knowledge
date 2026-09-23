@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWdGFAGNJTplOXAYqryDVhU
 Length: 2 hours, 45 minutes, 31 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 34 - Solving Systems of Linear Equations (1 of 31) What is a System of Linear Equations]]

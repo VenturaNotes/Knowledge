@@ -1,7 +1,8 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=AjdIPOXRgoQ
-Reviewed: true
+tags:
+  - reviewed
 ---
 - ![[Screenshot 2023-10-11 at 1.59.41 AM.png]]
 	- [[Proposition|logical statements]] A, B $\to$ new logical statements

@@ -1,7 +1,8 @@
 ---
 Source:
   - https://youtube.com/watch?v=SEh3yhEFK1w
-Reviewed: true
+tags:
+  - reviewed
 ---
 - ![[Screenshot 2024-01-30 at 9.26.17 AM.png]]
 	- 3 [[Gaussian operations|row operations]]

@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=rhzKDrUiJVk&t=818s
 Length: 20 minutes, 51 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - Great tool

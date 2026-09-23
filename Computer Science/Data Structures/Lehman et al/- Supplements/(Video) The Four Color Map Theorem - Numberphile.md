@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=NgbK43jB4rQ
 Length: 14 minutes, 17 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - Statement (problem was unsolved for 125 years. Solved in 1970s)

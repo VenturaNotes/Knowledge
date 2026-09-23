@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=1_Xl8yv7Ec8
 Length: 4 minutes, 31 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Asked in a logic class to determine if an argument is valid or not

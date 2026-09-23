@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXU4aVNCE9HiVvwxa2MkEj5C
 Length: 54 minutes
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Chemistry - Introduction (1 of 10) Basic Terminology]]

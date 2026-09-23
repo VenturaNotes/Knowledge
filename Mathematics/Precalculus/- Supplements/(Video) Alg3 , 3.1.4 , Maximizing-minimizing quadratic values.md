@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://youtu.be/t5yFUkbMFo4
 Length: 11 minutes, 16 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - ![[Pasted image 20230713100528.png]]

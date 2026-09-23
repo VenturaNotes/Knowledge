@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWiPVqdVFdCvLDGEtCj8iyy
 Length: 3 hours, 59 minutes, 21 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus - Trigonometry (1 of 54) What Is The Unit Circle.]]

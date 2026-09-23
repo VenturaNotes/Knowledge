@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=nqYmmZKY4sA
 Length: 8 minutes, 16 seconds
 tags:
-  - "#status/complete"
   - type/video
 ---
 - Flip through each page

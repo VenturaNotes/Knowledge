@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BOLjlVKHcFyVh-K5PreRqY7
 Length: 3 hours, 10 minutes, 54 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Calculus - Functions (KristaKingMath)]]

@@ -2,7 +2,6 @@
 status: done
 scheduled: 2025-12-10
 completedDate: 2025-12-27
-googleCalendarEventId: 51d0f7jnpv7s06lldqucuvl1hk
 ---
 ## Synthesis
 ### Solution

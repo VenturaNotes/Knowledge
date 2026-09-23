@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVXmIX0CmWxS-AE7_hNXQ-n
 Length: 1 hour, 38 minutes, 9 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 37 Parabola (1 of 22) What is a Parabola]]

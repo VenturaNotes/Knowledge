@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXV4AF3KEMcN_NAlvea7REBM
 Length: 2 hours, 49 minutes, 5 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Geometry - Ch. 1 - Basic Concepts (1 of 49) Basic Definitions]]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXX7t36_gPc1G8zW95v3JEIw
 Length: 41 minutes, 58 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 16 - Rate Problems (1 of 11) General Approach and Terms]]

@@ -1,7 +1,8 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=53RSWIpxJxo
-Reviewed: true
+tags:
+  - reviewed
 ---
 - ![[Screenshot 2023-10-11 at 2.15.04 AM.png]]
 	- [[Logical Operations]]

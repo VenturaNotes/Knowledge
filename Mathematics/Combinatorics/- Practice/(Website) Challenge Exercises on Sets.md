@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.mathgoodies.com/lessons/sets/challenge_unit15
 Length: "1"
 tags:
-  - status/complete
   - type/website
 ---
 - What is wrong with the set listed below? D = {m, a, t, h, e, m, a, t, i, c, s}

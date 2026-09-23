@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXWSfN6hm0JvpP1-POLrRvZ
 Length: 47 minutes, 38 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 39 - Ellipse (1 of 8) How to Draw an Ellipse]]

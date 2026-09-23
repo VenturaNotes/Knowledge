@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXtI_x1yahGMBcn6_qoXB_7
 Length: 23 minutes, 21 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - Video 4 of 11 cannot be found (hidden in playlist and private)

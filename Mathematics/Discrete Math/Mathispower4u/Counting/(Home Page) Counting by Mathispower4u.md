@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLROOIV7hGpZis-WPw8lZD-sTMJYp0U3qz
 Length: 4 hours, 35 minutes, 48 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]

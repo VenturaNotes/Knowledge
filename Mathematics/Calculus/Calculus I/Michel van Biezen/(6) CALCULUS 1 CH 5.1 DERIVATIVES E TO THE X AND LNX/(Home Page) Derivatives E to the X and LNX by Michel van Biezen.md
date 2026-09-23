@@ -1,10 +1,10 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUnsXq9Y707WjwLt-uxHRg-
 Length: 1 hour, 12 minutes, 2 seconds
 tags:
   - type/playlist
-  - status/complete
 ---
 [[(1) Calculus 1 - Ch 5.1 Derivative of e x and lnx (1 of 24) Rules of Logarithms and Exponents]]
 [[(2) Calculus 1 - Ch 5.1 Derivative of e x and lnx (2 of 24) More Rules on Logarithms]]

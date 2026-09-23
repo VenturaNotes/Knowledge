@@ -2,7 +2,6 @@
 status: done
 scheduled: 2025-12-27
 completedDate: 2025-12-28
-googleCalendarEventId: d0mvk2m98pm0cssnj220mpceo0
 ---
 ## Synthesis
 - [Gemini](https://aistudio.google.com/prompts/14Q80rzmT0g0s7MUjdWfRwkoybFeQzTtM)

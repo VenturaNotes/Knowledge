@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXU9yaTD2UiZPSDO6KHsvWGK
 Length: 1 hour, 1 minute, 51 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 40 - Hyperbolas (1 of 10) What is a Hyperbola]]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWHnIVYJHPwIaOuk_zZOe6Y
 Length: 50 minutes, 20 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Just For Fun! - Statistics (19) Should You Switch Doors to Win the Car]]

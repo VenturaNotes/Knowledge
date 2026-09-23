@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXWNn8FQ8DfZ0N0YVJCxe-p
 Length: 2 hours, 54 minutes, 3 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus - Polar Coordinates (1 of 35) Definition]]

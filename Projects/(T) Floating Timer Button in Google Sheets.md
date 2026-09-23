@@ -1,6 +1,6 @@
 ---
+status: done
 tags:
-  - status/complete
   - project
   - personal
 ---

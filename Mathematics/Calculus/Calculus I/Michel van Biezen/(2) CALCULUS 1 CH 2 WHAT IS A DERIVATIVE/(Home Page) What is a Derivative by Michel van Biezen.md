@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWPqbbjsIwd0gZwPXL2wEuu
 Length: 1 hour, 53 minutes, 9 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Calculus 1 - What is a Derivative (1 of 9) Basic Definitions]]

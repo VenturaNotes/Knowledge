@@ -1,7 +1,8 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=s_JM1-t39tQ
-Reviewed: true
+tags:
+  - reviewed
 ---
 - ![[Screenshot 2024-12-31 at 11.16.39 PM.png]]
 	- Additive and Multiplicative Principles (Disjoint)

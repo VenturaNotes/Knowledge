@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVtEW5MCzn67VQqprEBJ7Zy
 Length: 1 hour, 10 minutes, 58 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Geometry - Ch. 3 - Proofs (1 of 17) What is the KEY to Performing Proofs in Geometry 1]]

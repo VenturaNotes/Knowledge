@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://youtu.be/RNmDyzYw7aQ
 Length: 5 minutes, 44 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - It's the common bell-shaped curve

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=OU3zE8xuBEY
 Length: 15 minutes, 52 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Some of the video is in Filipino

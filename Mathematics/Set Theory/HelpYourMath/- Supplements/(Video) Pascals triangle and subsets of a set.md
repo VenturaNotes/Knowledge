@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=MUgvDc8Gl0E
 Length: 8 minutes, 26 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - ![[Pasted image 20230401145903.png|300]]

@@ -1,11 +1,12 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLi5qQTYe1fJ8Zf5H_JJTgU4oGuFxklc6a
 Length: 5 hours, 6 minutes, 34 seconds
 tags:
   - type/playlist
   - ongoing
-  - status/prepared
+  - prepared
 ---
 - [[(1) 2-Minute Neuroscience - The Neuron]]
 - [[(2) 2-Minute Neuroscience - Synaptic Transmission]]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLmdFyQYShrjfi7EeDyHxr0jhoPXEOlFX0
 Length: 36 minutes, 43 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Sets Basics - Introduction - Don't Memorise]]

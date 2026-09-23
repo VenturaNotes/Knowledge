@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWArHaXTLKXsTgAKDkEUSc7
 Length: 38 minutes, 53 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 38 The Circle (1 of 10) Review of the Distance Formula]]

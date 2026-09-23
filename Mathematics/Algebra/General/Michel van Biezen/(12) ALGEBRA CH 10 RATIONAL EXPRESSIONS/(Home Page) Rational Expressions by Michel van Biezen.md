@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXqk6LCQzalm1p7O_iIRrkx
 Length: 2 hours, 1 minute, 37 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 10 - Rational Expressions (1 of 35) What is a Rational Expression]]

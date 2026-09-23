@@ -1,10 +1,10 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUWwTzAkOhBdhplvz0fByqV
 Length: 4 hours, 31 minutes, 41 seconds
 tags:
   - type/playlist
-  - status/complete
 ---
 - [[(1) Probability & Statistics (1 of 62) Introduction]]
 - [[(2) Probability & Statistics (2 of 62) Definition of Sets and Elements]]

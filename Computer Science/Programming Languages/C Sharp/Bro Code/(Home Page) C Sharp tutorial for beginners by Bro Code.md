@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLZPZq0r_RZOPNy28FDBys3GVP2LiaIyP_
 Length: 4 hours, 1 minute, 45 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - [[C Sharp]]

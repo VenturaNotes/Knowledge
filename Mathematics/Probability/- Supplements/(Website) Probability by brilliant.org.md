@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://brilliant.org/wiki/probability/
 Length: "1"
 tags:
-  - status/incomplete
   - type/website
 ---
 - a number that represents the likelihood of an uncertain event

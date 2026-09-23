@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=6fU9ZgwbU74
 Length: 3 minutes, 4 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Discriminant

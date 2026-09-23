@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=xu1792kg7wA
 Length: 7 minutes, 31 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Subject of this course is College Algebra Prep

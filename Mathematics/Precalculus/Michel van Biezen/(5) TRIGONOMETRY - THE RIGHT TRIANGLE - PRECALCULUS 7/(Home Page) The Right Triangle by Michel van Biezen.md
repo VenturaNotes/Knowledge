@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVczHKMUwtJIIlItoROHFej
 Length: 1 hour, 47 minutes, 32 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus - Trigonometry - The Right Triangle (1 of 26) Angle In Radians]]

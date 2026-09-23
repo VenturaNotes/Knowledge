@@ -40,7 +40,7 @@
 	- `src`
 - Check how many shells deep I'm nested in
 	- `echo $SHLVL`
-- Return to parent shell
+- Return to parent shell (stepping up from nested `zsh`)
 	- `exit`
 - Your active shell process terminates its own memory and immediately loads a completely fresh zsh process in its place.
 	- `exec zsh`

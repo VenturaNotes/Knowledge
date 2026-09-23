@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PL3NllU3-qaWJSgq3OvQJvbROrFZ-UzXaz
 Length: 1 hour, 44 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Intro to Networks - part 1]]

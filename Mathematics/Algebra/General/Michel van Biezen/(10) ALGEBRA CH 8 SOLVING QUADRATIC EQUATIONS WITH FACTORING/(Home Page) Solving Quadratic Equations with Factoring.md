@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXU1VuxdokBccoTa5G_slM1i
 Length: 1 hour, 9 minutes, 52 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 8 - Solving Quad. Eqn. with Factoring (1 of 21)  What is 'Solving a Quadratic Eqn.']]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWHkvK3m-2JqhWf_wdDYitm
 Length: 52 minutes, 22 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 26 - Solving Problems with Quadratic Equations (1 of 11) Projectiles Ex. 1]]

@@ -1,10 +1,11 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLjTveVh7FakKmEXGgI6X-f3aRMWJM-mEm
 Length: 10 hours, 7 minutes, 42 seconds
 tags:
   - type/playlist
-  - status/prepared
+  - prepared
 ---
 - [[(1) TinyURL and PasteBin Design Deep Dive with Google SWE!  - Systems Design Interview Question 1]]
 - [[(2) Twitter and Instagram and Facebook Design Deep Dive with Google SWE!  - Systems Design Interview Question 2]]

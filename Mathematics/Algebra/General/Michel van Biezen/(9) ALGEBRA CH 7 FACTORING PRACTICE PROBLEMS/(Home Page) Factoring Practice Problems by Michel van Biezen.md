@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWViYj6zAZ6QB9zyZ8a_nry
 Length: 1 hour, 21 minutes, 1 second
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 7 - Factoring Practice Problems (1 of 21)  How to Determine Which Technique to Use]]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLROOIV7hGpZjq7vdgGK7IRyMi_TZ4oVRa
 Length: 1 hour, 37 minutes, 11 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - [[(1) Introduction to Sets and Set Notation]]

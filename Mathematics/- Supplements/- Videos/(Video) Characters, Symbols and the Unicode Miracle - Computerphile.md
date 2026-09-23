@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://youtu.be/MijmeoH9LT4
 Length: 9 minutes, 36 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - Image

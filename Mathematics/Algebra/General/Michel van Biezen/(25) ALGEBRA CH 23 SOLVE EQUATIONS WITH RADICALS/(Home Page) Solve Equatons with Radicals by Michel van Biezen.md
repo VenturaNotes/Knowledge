@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXX3JC0Fc4u75dKEincy63yw
 Length: 43 minutes, 44 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - Videos 12+ may not have been created?

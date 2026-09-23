@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLROOIV7hGpZhTq41gJhBbGXHQ8_OMSlfl
 Length: 1 hour, 10 minutes, 15 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - [[(1) What is Discrete Mathematics.]]

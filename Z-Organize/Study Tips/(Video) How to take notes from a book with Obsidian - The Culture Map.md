@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=VumFk-C4iFc
 Length: 20 minutes, 59 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Showed her workflow for a book

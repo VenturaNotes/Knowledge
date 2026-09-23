@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXzingf8nMjYiotn6zMb8cU
 Length: 3 hours, 40 minutes, 14 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 2 - Word Problem (1 of 46) What is the Key to Solving Word Problems]]

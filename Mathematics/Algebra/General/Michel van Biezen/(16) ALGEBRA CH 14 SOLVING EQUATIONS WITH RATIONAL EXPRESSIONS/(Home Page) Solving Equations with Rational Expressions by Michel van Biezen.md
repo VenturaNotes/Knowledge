@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUREX7PQW88zOehsL_BENIe
 Length: 1 hour, 14 minutes, 35 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 14 - Solving Equations with Rational Expressions (1 of 21) General approach]]

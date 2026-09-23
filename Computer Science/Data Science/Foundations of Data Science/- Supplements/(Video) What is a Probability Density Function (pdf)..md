@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=jUFbY5u-DMs
 Length: 9 minutes, 45 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - What is the time it takes for someone to drive from Los Angelos to San Francisco? 

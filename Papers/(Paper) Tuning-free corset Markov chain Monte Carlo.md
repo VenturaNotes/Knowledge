@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/FNJCMCDD?page=1&annotation=5IFNZZCY
 Length: "16"
 tags:
-  - status/incomplete
   - type/paper
 Authors:
   - Naitong Chen

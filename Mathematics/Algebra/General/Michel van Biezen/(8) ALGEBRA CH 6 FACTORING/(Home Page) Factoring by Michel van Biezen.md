@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXV4Y94FabLahogXkfWHxOK7
 Length: 3 hours, 17 minutes, 35 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 6 - Factoring (1 of 55) What is a Factor]]

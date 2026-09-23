@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXW8ZUE-9VJj2RWy9En1EPgx
 Length: 2 hours, 53 minutes, 45 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus - Exponential Function (1 of 13) What is an Exponential Function]]

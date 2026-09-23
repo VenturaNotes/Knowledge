@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=XtQIsKoHc8Q
 Length: 5 hours, 15 minutes, 26 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - (1 - 10) Factor and Cancel

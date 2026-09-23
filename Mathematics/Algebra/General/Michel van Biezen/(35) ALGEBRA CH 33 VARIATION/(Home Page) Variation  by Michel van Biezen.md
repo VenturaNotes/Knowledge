@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXN33_4N6u-Cu0DvfsEY9--
 Length: 1 hour, 3 minutes, 41 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 33 - Variation (1 of 13) What is Variation]]

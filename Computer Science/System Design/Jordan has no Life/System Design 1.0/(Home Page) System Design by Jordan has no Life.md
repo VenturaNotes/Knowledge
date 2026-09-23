@@ -1,10 +1,11 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/playlist?list=PLjTveVh7FakKjb4UYzUazqBNNF-WGurXp
 Length: 10 hours, 7 minutes, 26 seconds
 tags:
   - type/playlist
-  - status/prepared
+  - prepared
 Year: 2022-10-20
 ---
 - [[(1) Google SWE teaches systems design - EP1 - Database Design]]

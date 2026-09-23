@@ -1,9 +1,8 @@
 ---
+status: open
 Source:
   - https://www.techtarget.com/whatis/
-Length:
 tags:
-  - status/incomplete
   - type/website
 ---
 - Researched 

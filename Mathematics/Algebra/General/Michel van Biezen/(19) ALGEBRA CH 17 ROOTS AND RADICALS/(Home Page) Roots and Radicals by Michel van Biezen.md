@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWMV0rkZjRGV_BdAcZfL5NJ
 Length: 54 minutes, 39 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 17 - Roots and Radicals (1 of 20) What is a Root]]

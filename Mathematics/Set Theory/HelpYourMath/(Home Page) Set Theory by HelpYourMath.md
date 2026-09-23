@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLDP6hC4Qvja36w06wMg3oxsxRJHiDo9A9
 Length: 2 hours, 29 minutes, 27 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Intro to Set Theory - definition and representations of]]

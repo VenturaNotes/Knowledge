@@ -1,9 +1,10 @@
 ---
+status: open
 Source:
   - https://www.oxfordreference.com/display/10.1093/acref/9780198725725.001.0001/acref-9780198725725
 tags:
   - type/textbook
-  - status/prepared
+  - prepared
 ---
 - Research
 - Question

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXU6G286zLlRpVBSh7CZiFTz
 Length: 1 hour, 20 minutes, 21 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 12 - Rational Expression - Addition and Subtraction (1 of 33) Basic Rules]]

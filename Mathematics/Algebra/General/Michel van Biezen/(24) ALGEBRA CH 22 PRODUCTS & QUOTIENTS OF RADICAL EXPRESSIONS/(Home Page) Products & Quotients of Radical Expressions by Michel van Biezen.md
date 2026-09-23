@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXW_IfD13y2Iq-glWkau97d1
 Length: 41 minutes, 16 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 22 - Products and Quotients of Radical Expressions (1 of 11) Distributive Property]]

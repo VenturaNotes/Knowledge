@@ -1,10 +1,10 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLplcoxWNC6pKMBdJrZnOVhqZFL4PMqAue
 Length: 4 hours, 43 minutes, 35 seconds
 tags:
   - type/playlist
-  - status/complete
 ---
 [[(1) Practice with Mathematical Induction]]
 [[(2) Proof by Cases Introduction and Examples]]

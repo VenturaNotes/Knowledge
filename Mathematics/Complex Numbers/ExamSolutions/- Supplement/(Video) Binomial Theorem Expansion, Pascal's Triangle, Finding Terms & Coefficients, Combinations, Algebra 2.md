@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://youtu.be/s19dWIHficY
 Length: 30 minutes, 10 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Pascal's Triangle

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXafuyYZLApxxIRoHCpcioN
 Length: 1 hour, 17 minutes, 43 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 36 - Systems of Linear Inequalities (1 of 11) What is a System of...]]

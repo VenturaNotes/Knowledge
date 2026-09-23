@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=P7ZSricgAvY
 Length: 21 minutes, 45 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - Will go over examples with polynomials, square root functions, rational functions, absolute value of x 

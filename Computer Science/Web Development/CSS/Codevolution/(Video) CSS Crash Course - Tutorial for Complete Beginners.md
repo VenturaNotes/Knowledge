@@ -1,10 +1,10 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=Icf5D3fEKbM
 Length: 1 hour, 11 minutes, 2 seconds
 tags:
   - type/video
-  - status/incomplete
 ---
 ## Introduction
 - ![[Pasted image 20231128175419.png]]

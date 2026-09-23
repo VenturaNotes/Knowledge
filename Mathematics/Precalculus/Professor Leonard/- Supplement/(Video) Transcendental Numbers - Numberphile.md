@@ -1,11 +1,11 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=seUU2bZtfgM
 Length: 13 minutes, 40 seconds
 Related:
   - "[[(Video) Algebraic vs. Transcendental Numbers]]"
 tags:
-  - status/complete
   - type/video
 ---
 - An irrational number means it can't be expressed as a fraction

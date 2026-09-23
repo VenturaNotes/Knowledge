@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUU9Aq60SaPJkE_swgri-59
 Length: 1 hour, 21 minutes, 59 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus - Trigonometry - The Law of Sines (1 of 15) Definition]]

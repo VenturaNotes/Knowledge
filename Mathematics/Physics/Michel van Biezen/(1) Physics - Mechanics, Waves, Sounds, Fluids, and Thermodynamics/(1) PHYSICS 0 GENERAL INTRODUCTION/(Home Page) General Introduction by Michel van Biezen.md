@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWvq12lVr4shhcYt-79A9T2
 Length: 1 hour, 31 minutes, 59 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Physics CH 0 - General Introduction (1 of 20) Standard SI for Length, Mass, and Time]]

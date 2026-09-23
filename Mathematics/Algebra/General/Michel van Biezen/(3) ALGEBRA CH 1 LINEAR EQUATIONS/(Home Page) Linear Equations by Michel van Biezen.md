@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVZlKHFLsun6RMyhyYB_9pd
 Length: 1 hour, 21 minutes, 22 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 1 - Linear Equation (1 of 21) What is a Linear Equation]]

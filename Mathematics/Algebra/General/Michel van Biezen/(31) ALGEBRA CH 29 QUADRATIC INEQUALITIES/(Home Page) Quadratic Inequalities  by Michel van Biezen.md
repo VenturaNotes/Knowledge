@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUn96ZDzZtRFOqATWTlnFSp
 Length: 1 hour, 40 minutes, 19 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 29 - Quadratic & Rational Inequalities (1 of 15) What is a Quadratic Inequality]]

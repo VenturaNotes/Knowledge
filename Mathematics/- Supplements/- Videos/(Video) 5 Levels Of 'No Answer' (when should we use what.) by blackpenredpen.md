@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=X49Li90XWSk
 Length: 24 minutes, 49 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - ![[Screenshot 2023-06-19 at 10.43.59 PM.png|300]]

@@ -8,7 +8,6 @@ reminders:
     offset: -PT0H
 tags:
   - type/website
-  - status/complete
 Source:
   - https://www.w3schools.com/java/java_exercises.asp
 completedDate: 2026-02-19

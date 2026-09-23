@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=SMJDHrflIYc
 Length: 8 minutes, 57 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Q&E Method

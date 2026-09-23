@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.mathgoodies.com/lessons/sets/practice_unit15
 Length: "1"
 tags:
-  - status/complete
   - type/website
 ---
 - Which of the following sets is shown with roster notation?

@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=V137qmDN9Qw
 Length: 13 minutes
 tags:
-  - status/complete
   - type/video
 ---
 - ![[Screenshot 2023-03-06 at 9.44.36 PM.png]]

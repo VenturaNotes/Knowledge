@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=pii3hAksya0
 tags:
   - type/video
-  - status/incomplete
 ---
 ```python
 class Language:

@@ -1,11 +1,11 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=X5TU1Hyi-S4
 Length: 13 minutes, 21 seconds
 Related:
   - "[[(Video) The Golden Ratio - Is It Myth or Math.]]"
 tags:
-  - status/complete
   - type/video
 ---
 - ![[Screenshot 2023-03-08 at 10.12.03 PM.png]]

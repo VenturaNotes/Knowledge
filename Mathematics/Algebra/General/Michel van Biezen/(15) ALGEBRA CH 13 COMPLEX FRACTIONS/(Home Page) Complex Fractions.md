@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXW1PofbOvuFthwX9jouEv3V
 Length: 50 minutes, 35 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 13 - Complex Fractions (1 of 18) What is a Complex Fraction]]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLROOIV7hGpZh6JvbAl0FXcI7LsRFgfOVj
 Length: 1 hour, 3 minutes, 55 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 - [[(1) Introduction to Functions (Discrete Math)]]

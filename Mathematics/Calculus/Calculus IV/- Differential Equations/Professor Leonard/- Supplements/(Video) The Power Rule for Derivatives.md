@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=9Yz-RCdS2Tg
 Length: 12 minutes
 tags:
-  - status/complete
   - type/video
 ---
 - f(x) = x$^n$ 

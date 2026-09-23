@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLztBpqftvzxWUF1psif8R7aUph4tsIuNw
 Length: 9 hours, 42 minutes, 45 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) An Introduction to Sets (Set Theory)]]

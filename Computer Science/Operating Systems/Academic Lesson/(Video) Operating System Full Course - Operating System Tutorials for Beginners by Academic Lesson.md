@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://youtu.be/mXw9ruZaxzQ?si=BBQRerLkB2Ut9pyP
 Length: 3 hours, 35 minutes, 2 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 ## Introduction to Operating Systems

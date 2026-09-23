@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXU-6XAcNKLVsfIeJQgtAwdP
 Length: 1 hour, 51 minutes, 49 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 30 - Linear Equations (1 of 33) Topics Covered]]

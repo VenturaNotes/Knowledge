@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVJ_bdgpg2lSLUknzCP3VtM
 Length: 1 hour, 1 minute, 57 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra Ch 49 - Binomial Theorem (1 of 18) What is the Binomial Theorem]]

@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXhAVDc0Nr1V3l760PYKyPA
 Length: 1 hour, 53 minutes, 18 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) PreCalculus - Algebra Review - Conic Sections (1 of 27) Overview 1]]

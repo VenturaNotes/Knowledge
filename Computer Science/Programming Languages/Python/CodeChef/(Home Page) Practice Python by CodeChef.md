@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.codechef.com/practice/python
 Length: "192"
 tags:
-  - status/complete
   - type/website
 ---
 - Only Free problems solved (pro version is paid)

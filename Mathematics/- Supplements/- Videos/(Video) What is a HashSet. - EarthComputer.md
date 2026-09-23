@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=y5Cx07OHaOI
 Length: 23 minutes, 40 seconds
 tags:
-  - status/incomplete
   - type/video
 ---
 - (This is a Minecraft channel so talks a lot in reference to Minecraft)

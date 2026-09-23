@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWrfV8WHAgOhemX9AIMzwQE
 Length: 1 hour, 42 minutes, 19 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 5 - Polynomials (1 of 32) What is a Polynomial]]

@@ -1,10 +1,10 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=N8YMl4Ezp4g
 Length: 56 minutes, 51 seconds
 tags:
   - type/video
-  - status/complete
 ---
 - ![[Screenshot 2023-11-27 at 1.09.31 AM.png]]
 	- [[HTML]] Crash Course

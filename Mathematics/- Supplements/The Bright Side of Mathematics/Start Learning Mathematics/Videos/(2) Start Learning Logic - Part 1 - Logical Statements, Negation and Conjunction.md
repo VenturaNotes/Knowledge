@@ -1,7 +1,8 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=DU4wKBDm2Z4
-Reviewed: true
+tags:
+  - reviewed
 ---
 - ![[Screenshot 2023-10-11 at 1.50.14 AM.png]]
 	- Start learning [[Logic]]

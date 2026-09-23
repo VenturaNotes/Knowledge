@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWcyvCZ4gbPVuFyeQqGPSq3
 Length: 49 minutes, 41 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 20 - Simplifying Radical Expressions (1 of 15) Rules for Radicals]]

@@ -1,7 +1,8 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=N-X1EU7tHVo
-Reviewed: true
+tags:
+  - reviewed
 ---
 - ![[Screenshot 2023-10-11 at 1.38.30 AM.png]]
 	- Beginner course for everyone who wants to start learning mathematics

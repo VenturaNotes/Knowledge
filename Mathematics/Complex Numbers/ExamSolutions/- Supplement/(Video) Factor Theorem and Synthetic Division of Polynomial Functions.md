@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=zAGP46nR6-0
 Length: 10 minutes, 55 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - Solve the equation $x^3 - 4x^2 + x + 6 = 0$ given that 3 is a zero of $f(x) = x^3 - 4x^2 + x + 6$ 

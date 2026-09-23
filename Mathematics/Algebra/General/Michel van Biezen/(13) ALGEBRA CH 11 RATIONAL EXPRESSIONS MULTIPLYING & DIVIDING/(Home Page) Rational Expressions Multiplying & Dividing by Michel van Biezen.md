@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXPkG2ARUYRPj59QXt4hB6M
 Length: 34 minutes, 32 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Algebra - Ch. 11 - Rational Expression Dividing and Multiplying (1 of 10) Basic Rules]]

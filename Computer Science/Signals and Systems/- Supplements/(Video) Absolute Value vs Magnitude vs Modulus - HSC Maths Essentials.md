@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=j3QI2B-C_co
 Length: 11 minutes, 24 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - $|a| = ?$

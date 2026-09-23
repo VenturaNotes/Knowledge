@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/watch?v=RSoRzTtwgP4
 tags:
   - type/video
-  - status/complete
 ---
 - Example
 	- Strong

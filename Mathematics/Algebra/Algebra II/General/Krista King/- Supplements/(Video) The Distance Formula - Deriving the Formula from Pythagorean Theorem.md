@@ -1,9 +1,9 @@
 ---
+status: open
 Source:
   - https://www.youtube.com/watch?v=YBeXhGl6pSE
 Length: 5 minutes, 44 seconds
 tags:
-  - status/complete
   - type/video
 ---
 - The Distance Formula

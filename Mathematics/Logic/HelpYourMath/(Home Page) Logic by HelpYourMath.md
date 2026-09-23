@@ -1,9 +1,9 @@
 ---
+status: done
 Source:
   - https://www.youtube.com/playlist?list=PLDP6hC4Qvja1NmAxxwbZsvuy0XSN6tDGX
 Length: 2 hours, 46 minutes, 59 seconds
 tags:
-  - status/complete
   - type/playlist
 ---
 [[(1) Introduction to Logic - Simple statement definition and examples]]

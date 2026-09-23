@@ -1,10 +1,10 @@
 ---
+status: open
 Source:
   - zotero://open-pdf/library/items/RQKPRJ88?page=1&annotation=VWWYHYNJ
 Length: "354"
 Progress: "29"
 tags:
-  - status/incomplete
   - type/textbook
 ---
 ## (1) The Modern Web
