@@ -7,6 +7,7 @@ export class SupabaseClient {
 	private realtimeWs: WebSocket | null = null;
 	private realtimeCallbacks: Map<string, (payload: any) => void> = new Map();
 	private heartbeatInterval: any = null;
+	private reconnectTimeout: any = null;
 	private lastMessageAt: number = Date.now();
 	private onStaleConnectionCallback: (() => void) | null = null;
 
@@ -183,6 +184,8 @@ export class SupabaseClient {
 	subscribeToTable(table: string, callback: (payload: any) => void) {
 		this.realtimeCallbacks.set(table, callback);
 
+		if (!navigator.onLine) return;
+
 		if (this.realtimeWs && this.realtimeWs.readyState === WebSocket.OPEN) {
 			this.sendJoin(this.realtimeWs, table);
 			return;
@@ -210,7 +213,6 @@ export class SupabaseClient {
 			}
 
 			let refCounter = 2;
-			// Standard 25s Phoenix heartbeat interval
 			this.heartbeatInterval = setInterval(() => {
 				if (ws.readyState === WebSocket.OPEN) {
 					if (Date.now() - this.lastMessageAt > 45000) {
@@ -224,7 +226,9 @@ export class SupabaseClient {
 						ref: String(refCounter++)
 					}));
 				} else if (ws.readyState === WebSocket.CLOSED || ws.readyState === WebSocket.CLOSING) {
-					this.reconnect();
+					if (navigator.onLine) {
+						this.reconnect();
+					}
 				}
 			}, 25000);
 		};
@@ -251,11 +255,18 @@ export class SupabaseClient {
 				clearInterval(this.heartbeatInterval);
 				this.heartbeatInterval = null;
 			}
-			setTimeout(() => {
-				if (this.realtimeCallbacks.size > 0) {
-					this.reconnect();
-				}
-			}, 3000);
+			if (this.reconnectTimeout) {
+				window.clearTimeout(this.reconnectTimeout);
+			}
+			// Only schedule reconnect if online
+			if (navigator.onLine && this.realtimeCallbacks.size > 0) {
+				this.reconnectTimeout = setTimeout(() => {
+					this.reconnectTimeout = null;
+					if (navigator.onLine && this.realtimeCallbacks.size > 0) {
+						this.reconnect();
+					}
+				}, 3000);
+			}
 		};
 	}
 
@@ -263,6 +274,10 @@ export class SupabaseClient {
 		if (this.heartbeatInterval) {
 			clearInterval(this.heartbeatInterval);
 			this.heartbeatInterval = null;
+		}
+		if (this.reconnectTimeout) {
+			window.clearTimeout(this.reconnectTimeout);
+			this.reconnectTimeout = null;
 		}
 		if (this.realtimeWs) {
 			this.realtimeWs.onopen = null;
@@ -279,6 +294,7 @@ export class SupabaseClient {
 	}
 
 	reconnect() {
+		if (!navigator.onLine) return;
 		this.cleanupSockets();
 		const callbacks = new Map(this.realtimeCallbacks);
 		this.realtimeCallbacks.clear();

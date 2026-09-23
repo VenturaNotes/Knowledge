@@ -1,4 +1,4 @@
-export const PLUGIN_VERSION = "v1.0.7";
+export const PLUGIN_VERSION = "v1.0.8";
 
 export interface TimerSegment {
 	id: string;

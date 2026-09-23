@@ -70,7 +70,7 @@ export class SyncManager {
 					}
 				}
 			} catch (err) {
-				console.warn("Could not reconcile remote running timers before sync:", err);
+				// Suppress transient offline logs during pre-sync reconciliation
 			}
 
 			while (queue.length > 0) {
@@ -96,7 +96,6 @@ export class SyncManager {
 					queue.shift();
 					await this.plugin.saveSettings();
 				} catch (e: any) {
-					console.error("Offline sync error on action:", act, e);
 					if (e?.status >= 400 && e?.status < 500) {
 						queue.shift();
 						await this.plugin.saveSettings();
@@ -122,7 +121,6 @@ export class SyncManager {
 			return;
 		}
 
-		// Protect active writes, in-flight switches, or recent local writes (< 1500ms)
 		if (!force) {
 			const isSwitchPending = this.plugin.timerService && this.plugin.timerService.isSwitchPending();
 			if (this.plugin.activeWrites > 0 || this.plugin.isRotating || isSwitchPending || Date.now() - this.plugin.lastLocalWriteTime < 1500) {
@@ -130,13 +128,11 @@ export class SyncManager {
 			}
 		}
 
-		// Capture current sync token to detect if user interacted while query is in flight
 		const token = this.plugin.syncToken;
 
 		try {
 			const dbTimers: Timer[] = await this.plugin.db.select("timers", "order=sort_order.asc,created_at.asc");
 
-			// If the user touched a timer while this request was in flight, discard response!
 			if (token !== this.plugin.syncToken) {
 				return;
 			}
@@ -145,11 +141,9 @@ export class SyncManager {
 			try {
 				dbSegments = await this.plugin.db.select("timer_segments", "order=started_at.asc");
 			} catch (e) {
-				console.error("Failed to load segments", e);
 				dbSegments = (this.plugin.timers || []).flatMap(t => t.segments || []);
 			}
 
-			// Check token again before mutating local memory
 			if (token !== this.plugin.syncToken) {
 				return;
 			}
@@ -211,8 +205,20 @@ export class SyncManager {
 
 			this.updateCompletionNotifications();
 			await this.persistLocalState();
-		} catch (e) {
-			console.warn("Could not fetch timers from Supabase (offline or network error):", e);
+		} catch (e: any) {
+			// Normal sleep/wake, WiFi handoffs, or DNS negotiation blips are handled gracefully without console clutter
+			const errMsg = e?.message || String(e);
+			const isTransientNetworkError =
+				!navigator.onLine ||
+				errMsg.includes("ERR_NETWORK_CHANGED") ||
+				errMsg.includes("ERR_NAME_NOT_RESOLVED") ||
+				errMsg.includes("ERR_INTERNET_DISCONNECTED") ||
+				errMsg.includes("Failed to fetch");
+
+			if (!isTransientNetworkError) {
+				console.warn("Productivity Timer: could not fetch timers from Supabase:", e);
+			}
+
 			if (this.plugin.timers.length === 0 && this.plugin.settings.localTimersCache && this.plugin.settings.localTimersCache.length > 0) {
 				this.plugin.timers = this.plugin.settings.localTimersCache;
 				this.updateCompletionNotifications();
