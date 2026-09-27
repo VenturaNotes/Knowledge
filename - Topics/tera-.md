@@ -7,8 +7,11 @@
 ## Source[^3]
 - (1) (symbol: T) A prefix to a unit, denoting a multiple of $10^{12}$ (1 000 000 000 000) of that unit: one terahertz is $10^{12}$ hertz. 
 - (2) (symbol: t or T) A prefix used in computing to denote a multiple of $2^{40}$ (1 099 511 627 776): e.g. one terabyte equals $2^{40}$ bytes.
+## Source[^4]
+- Prefix used with SI units to denote multiplication by $10^{12}$. Abbreviated as T. For binary tera-, see KILO (BINARY).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

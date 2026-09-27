@@ -15,8 +15,11 @@
 
 ## Source[^3]
 - A law of logic, in the form of a proposition, that describes a universal truth; no matter what values are assigned to the variables in the proposition the result is always true. An example from the propositional calculus is $$(P \lor Q)'=P' \land Q'$$where $\land$ and $\lor$ are the `or` and `and` operators and $P'$ is the negation of $P$. In the truth table for a tautology, the final result column contains only the value true. If the final column contains only the value false, then a [[contradiction]] has been identified
+## Source[^4]
+- A compound statement that is true for all possible truth values of its components. For example, $p \Rightarrow (q \Rightarrow p)$ is a tautology, as can be seen by calculating its truth table.
 ## References
 
 [^1]: [[(3) Start Learning Logic - Part 2 - Disjunction, Tautology and Logical Equivalence]]
 [^2]: [[(4) Start Learning Logic - Part 3 - Conditional, Biconditional, Implication and Deduction Rules]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

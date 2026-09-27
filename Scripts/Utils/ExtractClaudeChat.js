@@ -484,7 +484,7 @@ module.exports = async function ({ app, obsidian, secrets }) {
         if (cfg.includeFrontmatter) {
             lines.push('---');
             lines.push(`title: ${JSON.stringify(title)}`);
-            lines.push(`date: ${dateStr}`);
+            lines.push(`chat_date: ${dateStr}`);
             if (model) lines.push(`model: ${model}`);
             if (url) lines.push(`source: "${url}"`);
             lines.push('---');

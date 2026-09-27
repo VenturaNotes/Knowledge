@@ -18,7 +18,13 @@
 		- (c)
 			- transfer RNA
 			- growing polypeptide chain
+## Source[^3]
+- (of Cartesian space) An isometry of $\mathbb{R}^n$ of the form $\mathbf{p} \mapsto \mathbf{p}' = \mathbf{p} + \mathbf{h}$, where $\mathbf{h}$ is constant. So, in the plane, point $P$ with coordinates $(x, y)$ is mapped to the point $P'$ with coordinates $(x', y')$, where $x' = x + h_1, y' = y + h_2$. Thus the origin $O$ is mapped to the point $O'$ with coordinates $(h_1, h_2)$, and the point $P$ is mapped to the point $P'$, where the directed line segment $\overrightarrow{PP'}$ has the same direction and length as $\overrightarrow{OO'}$.
+- ![[Pasted image 20260925215923.png|250]]
+	- Effect of a translation on $O$ and $P$
+- See EUCLIDEAN GROUP.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -20,9 +20,12 @@ aliases:
 ## Source [^5]
 - Derivative
 	- $\frac {d}{dx}[tanx] = sec^2x$
+## Source[^6]
+- (tangent line) (to a curve) Let $P$ be a point on a curve. Then the tangent line, or simply tangent, to the curve at $P$ is the line through $P$ that touches the curve at $P$. See also GRADIENT (of a curve), TANGENT SPACE.
 ## References
 [^1]: [[(5) Trig - 0.5 Periodic and Even and Odd Function Properties#^fc1e7a]]
 [^2]: [[(5) Trig - 0.5 Periodic and Even and Odd Function Properties#^432f18]]
 [^3]: [[(4) PreCalculus - Trigonometry - The Right Triangle (4 of 26) Basics of Trigonometry]]
 [^4]: [[(8) PreCalculus - Trigonometry (8 of 54) The Trigonometry Function - Tanget Explained]]
 [^5]: [[(24) Calculus I - 2.3.2 Trigonometric and Higher-Order Derivatives#^0eed67]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
