@@ -24,6 +24,11 @@ export class AgendaView extends ItemView {
     private visibilityObserver: IntersectionObserver | null = null;
     private nowIntervalId: number | null = null;
 
+    // Drag-and-drop state
+    private draggedItem: AgendaItem | null = null;
+    private ghostEl: HTMLElement | null = null;
+    private justDropped = false;
+
     constructor(leaf: WorkspaceLeaf, plugin: ProgressPlannerPlugin) {
         super(leaf);
         this.plugin = plugin;
@@ -64,6 +69,7 @@ export class AgendaView extends ItemView {
 
     async onClose() {
         this.clearNowTimer();
+        this.removeDragGhost();
         this.visibilityObserver?.disconnect();
         this.visibilityObserver = null;
     }
@@ -176,6 +182,82 @@ export class AgendaView extends ItemView {
         return m.isValid() ? m.hours() * 60 + m.minutes() : null;
     }
 
+    // ─── Drag & Drop Helpers ───
+
+    private showDragGhost(container: HTMLElement, topPx: number, timeLabel: string) {
+        if (!this.ghostEl) {
+            this.ghostEl = document.createElement("div");
+            this.ghostEl.className = "v7-drag-ghost";
+        }
+        this.ghostEl.style.top = `${topPx}px`;
+        this.ghostEl.textContent = timeLabel;
+        if (this.ghostEl.parentElement !== container) {
+            container.appendChild(this.ghostEl);
+        }
+    }
+
+    private removeDragGhost() {
+        if (this.ghostEl) {
+            this.ghostEl.remove();
+            this.ghostEl = null;
+        }
+    }
+
+    private async rescheduleTask(item: AgendaItem, newDate: string, newTime: string | null): Promise<void> {
+        const file = this.app.vault.getAbstractFileByPath(item.path);
+        if (!(file instanceof TFile)) return;
+
+        if (item.isProject) {
+            // Project Note / Frontmatter update
+            await this.app.fileManager.processFrontMatter(file, (fm) => {
+                if (fm.scheduled !== undefined) fm.scheduled = newDate;
+                else if (fm.due !== undefined) fm.due = newDate;
+                else fm.date = newDate;
+
+                if (newTime) {
+                    fm.time = newTime;
+                } else {
+                    delete fm.time;
+                }
+            });
+        } else {
+            // Inline Checkbox Task update
+            const content = await this.app.vault.read(file);
+            const lines = content.split("\n");
+
+            let targetLine = item.line;
+            const initialLine = lines[targetLine];
+
+            if (initialLine === undefined || !initialLine.includes(item.text)) {
+                targetLine = lines.findIndex(l => l.includes(item.text));
+            }
+            if (targetLine === -1) return;
+
+            const lineText = lines[targetLine];
+            if (lineText === undefined) return;
+
+            const anchorMatch = lineText.match(/(\s*\^[a-zA-Z0-9-]+)\s*$/);
+            const anchorSuffix = anchorMatch?.[1]?.trim() ?? "";
+
+            // Strip existing date, time, and temporary anchor
+            const cleanLine = lineText
+                .replace(/(\s*\^[a-zA-Z0-9-]+)\s*$/, "")
+                .replace(/📅\s*\d{4}-\d{2}-\d{2}/g, "")
+                .replace(/⏰\s*\d{1,2}:\d{2}(?:\s*[APMapm]{2})?/gi, "")
+                .trimEnd();
+
+            const datePart = ` 📅 ${newDate}`;
+            const timePart = newTime ? ` ⏰ ${newTime}` : "";
+            const anchorPart = anchorSuffix ? ` ^${anchorSuffix}` : "";
+
+            lines[targetLine] = `${cleanLine}${datePart}${timePart}${anchorPart}`;
+            await this.app.vault.modify(file, lines.join("\n"));
+        }
+
+        await this.plugin.taskCache.updateFile(file);
+        this.render();
+    }
+
     private createItemEl(item: AgendaItem, isPanel = false, showDueDetails = false): HTMLElement {
         const isDone = item.status !== " ";
         const el = document.createElement("div");
@@ -220,9 +302,27 @@ export class AgendaView extends ItemView {
             }
         } else {
             el.innerHTML = `<span>${isDone ? '✓ ' : ''}${timeDisplay} ${item.text}</span>`;
+            // Enable dragging for tasks in the all-day tray
+            el.draggable = true;
+            el.ondragstart = (e) => {
+                this.draggedItem = item;
+                el.classList.add("is-dragging");
+                if (e.dataTransfer) {
+                    e.dataTransfer.effectAllowed = "move";
+                    e.dataTransfer.setData("text/plain", item.text);
+                }
+            };
+            el.ondragend = () => {
+                this.draggedItem = null;
+                el.classList.remove("is-dragging");
+                this.removeDragGhost();
+                this.justDropped = true;
+                setTimeout(() => { this.justDropped = false; }, 100);
+            };
         }
 
         el.onclick = async (e) => {
+            if (this.justDropped) return;
             e.stopPropagation();
             const file = this.app.vault.getAbstractFileByPath(item.path);
             if (!file || !(file instanceof TFile)) return;
@@ -242,7 +342,26 @@ export class AgendaView extends ItemView {
         el.innerHTML = `${timeSpan}<strong>${isDone ? '✓ ' : ''}${item.text}</strong>`;
         el.title = `${item.time ? item.time + ' - ' : ''}${item.text} (${item.file})`;
 
+        // Make card draggable
+        el.draggable = true;
+        el.ondragstart = (e) => {
+            this.draggedItem = item;
+            el.classList.add("is-dragging");
+            if (e.dataTransfer) {
+                e.dataTransfer.effectAllowed = "move";
+                e.dataTransfer.setData("text/plain", item.text);
+            }
+        };
+        el.ondragend = () => {
+            this.draggedItem = null;
+            el.classList.remove("is-dragging");
+            this.removeDragGhost();
+            this.justDropped = true;
+            setTimeout(() => { this.justDropped = false; }, 100);
+        };
+
         el.onclick = async (e) => {
+            if (this.justDropped) return;
             e.stopPropagation();
             const file = this.app.vault.getAbstractFileByPath(item.path);
             if (!file || !(file instanceof TFile)) return;
@@ -290,7 +409,7 @@ export class AgendaView extends ItemView {
             };
         }
 
-        // 2. All-Day / Untimed Tasks Row
+        // 2. All-Day / Untimed Tasks Row (Also a drop target for untimed tasks)
         const allDayRow = weekContainer.createDiv("v7-week-allday-row");
         allDayRow.createDiv({ cls: "v7-week-allday-label", text: "All-day" });
 
@@ -306,6 +425,22 @@ export class AgendaView extends ItemView {
                 const itemClone = { ...item, status: (item.status !== " " || isInstanceDone) ? "x" : " " };
                 dayCell.appendChild(this.createItemEl(itemClone));
             });
+
+            // Allow dropping onto All-day cell (clears time tag)
+            dayCell.ondragover = (e: DragEvent) => {
+                e.preventDefault();
+                if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+                dayCell.classList.add("drag-over");
+            };
+            dayCell.ondragleave = () => {
+                dayCell.classList.remove("drag-over");
+            };
+            dayCell.ondrop = async (e: DragEvent) => {
+                e.preventDefault();
+                dayCell.classList.remove("drag-over");
+                if (!this.draggedItem) return;
+                await this.rescheduleTask(this.draggedItem, dateStr, null);
+            };
         });
 
         // 3. Scrollable Hourly Time Grid
@@ -331,8 +466,8 @@ export class AgendaView extends ItemView {
         // 7 Day Columns
         let hasTodayInView = false;
         const CARD_HEIGHT = 40;
-        const TOTAL_GRID_HEIGHT = 24 * HOUR_HEIGHT; // 1248px
-        const maxTopPx = TOTAL_GRID_HEIGHT - CARD_HEIGHT - 2;
+        const TOTAL_GRID_HEIGHT = 24 * HOUR_HEIGHT; // Exact 1248px
+        const maxTopPx = TOTAL_GRID_HEIGHT - CARD_HEIGHT; // Flush with the bottom boundary
 
         days.forEach(dayMoment => {
             const dateStr = dayMoment.format("YYYY-MM-DD");
@@ -355,6 +490,45 @@ export class AgendaView extends ItemView {
                 nowIndicator.style.top = `${(minutesNow / 60) * HOUR_HEIGHT}px`;
             }
 
+            // Drag-over listener on the day column with 15-minute snapping
+            dayCol.ondragover = (e: DragEvent) => {
+                e.preventDefault();
+                if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+                dayCol.classList.add("drag-over");
+
+                const rect = dayCol.getBoundingClientRect();
+                const offsetY = e.clientY - rect.top;
+                // Snap to nearest 15-minute block
+                const minutes = Math.max(0, Math.min(1425, Math.round((offsetY / HOUR_HEIGHT) * 4) * 15));
+                const topPx = Math.min((minutes / 60) * HOUR_HEIGHT, maxTopPx);
+                const timeStr = (window as any).moment().startOf('day').add(minutes, 'minutes').format("h:mmA");
+
+                this.showDragGhost(dayCol, topPx, timeStr);
+            };
+
+            dayCol.ondragleave = (e: DragEvent) => {
+                if (!dayCol.contains(e.relatedTarget as Node)) {
+                    dayCol.classList.remove("drag-over");
+                    this.removeDragGhost();
+                }
+            };
+
+            dayCol.ondrop = async (e: DragEvent) => {
+                e.preventDefault();
+                dayCol.classList.remove("drag-over");
+                this.removeDragGhost();
+
+                if (!this.draggedItem) return;
+
+                const rect = dayCol.getBoundingClientRect();
+                const offsetY = e.clientY - rect.top;
+                const minutes = Math.max(0, Math.min(1425, Math.round((offsetY / HOUR_HEIGHT) * 4) * 15));
+                const newTime = (window as any).moment().startOf('day').add(minutes, 'minutes').format("h:mmA");
+                const newDate = dateStr;
+
+                await this.rescheduleTask(this.draggedItem, newDate, newTime);
+            };
+
             // Timed Tasks
             const timedItems = allData
                 .filter(item => item.time && (item.date === dateStr || this.isOccurringOn(item.rrule, dayMoment)))
@@ -374,7 +548,7 @@ export class AgendaView extends ItemView {
                 let placed = false;
                 for (const cluster of placedClusters) {
                     const lastInCluster = cluster[cluster.length - 1];
-                    if (item.startMin < lastInCluster.startMin + 45) {
+                    if (lastInCluster && item.startMin < lastInCluster.startMin + 45) {
                         cluster.push(item);
                         placed = true;
                         break;
@@ -386,7 +560,7 @@ export class AgendaView extends ItemView {
             placedClusters.forEach(cluster => {
                 const total = cluster.length;
                 cluster.forEach((item, idx) => {
-                    // Clamp topPx so tasks scheduled at 11:59PM stay neatly inside the 11PM block
+                    // Clamp topPx so tasks scheduled late at night (e.g. 11:59PM) stay flush inside the grid
                     const rawTop = (item.startMin / 60) * HOUR_HEIGHT;
                     const topPx = Math.min(rawTop, maxTopPx);
                     const card = this.createWeekItemEl(item, topPx, CARD_HEIGHT);

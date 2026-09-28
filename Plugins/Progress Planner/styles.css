@@ -854,7 +854,7 @@
 
 
 /* ==========================================================================
-   3. Agenda Weekly View Styles & Current Time Red Line
+   3. Agenda Weekly View Styles & Drag and Drop
    ========================================================================== */
 
 .v7-week-container {
@@ -926,7 +926,7 @@
     color: var(--interactive-accent);
 }
 
-/* All-Day Tasks Section (Compensates for the exact OS scrollbar width) */
+/* All-Day Tasks Section */
 .v7-week-allday-row {
     display: grid;
     grid-template-columns: 50px repeat(7, 1fr);
@@ -959,6 +959,11 @@
     display: flex;
     flex-direction: column;
     gap: 2px;
+    transition: background 0.15s ease;
+}
+
+.v7-week-allday-cell.drag-over {
+    background: rgba(var(--interactive-accent-rgb), 0.12) !important;
 }
 
 /* Scrollable Hourly Area */
@@ -974,8 +979,8 @@
 .v7-week-grid {
     display: grid;
     grid-template-columns: 50px repeat(7, 1fr);
-    height: 1268px; /* 24 hours * 52px + 20px extra breathing room at bottom */
-    padding-bottom: 20px;
+    height: 1248px; /* Exact 24 hours * 52px */
+    padding-bottom: 0;
     position: relative;
     box-sizing: border-box;
 }
@@ -1008,10 +1013,15 @@
     box-sizing: border-box;
     border-right: 1px solid var(--background-modifier-border);
     background: var(--background-primary);
+    transition: background 0.1s ease;
 }
 
 .v7-week-col.is-today {
     background: rgba(var(--interactive-accent-rgb), 0.025);
+}
+
+.v7-week-col.drag-over {
+    background: rgba(var(--interactive-accent-rgb), 0.06) !important;
 }
 
 .v7-week-grid-line {
@@ -1031,13 +1041,14 @@
     padding: 3px 6px;
     font-size: 0.72rem;
     line-height: 1.25;
-    cursor: pointer;
+    cursor: grab;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     z-index: 10;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
     transition: transform 0.1s ease, z-index 0.1s ease, box-shadow 0.1s ease;
+    user-select: none;
 }
 
 .v7-week-item:hover {
@@ -1046,6 +1057,15 @@
     box-shadow: var(--shadow-m, 0 4px 10px rgba(0, 0, 0, 0.25));
     border-color: var(--interactive-accent);
     white-space: normal;
+}
+
+.v7-week-item:active {
+    cursor: grabbing;
+}
+
+.v7-week-item.is-dragging {
+    opacity: 0.35;
+    transform: scale(0.98);
 }
 
 .v7-week-item.is-project {
@@ -1063,6 +1083,27 @@
     color: var(--text-accent);
     font-weight: 700;
     font-size: 0.65rem;
+}
+
+/* Drag Ghost Indicator (15-min snapping slot) */
+.v7-drag-ghost {
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    height: 38px;
+    background: rgba(var(--interactive-accent-rgb), 0.18);
+    border: 2px dashed var(--interactive-accent);
+    border-radius: 4px;
+    color: var(--text-normal);
+    font-size: 0.72rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    z-index: 40;
+    pointer-events: none;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px rgba(var(--interactive-accent-rgb), 0.25);
 }
 
 /* Live Current Time Red Line Indicator */
