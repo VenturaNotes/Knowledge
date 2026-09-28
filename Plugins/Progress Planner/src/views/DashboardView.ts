@@ -706,20 +706,67 @@ export class DashboardView extends ItemView {
         return stripped.length > 0 ? stripped : title;
     }
 
-    private openNodeInEditor(t: GraphNode) {
-        if (t.kind === "file") {
-            this.app.workspace.getLeaf(false).openFile((t as TaskNode).file);
-            return;
-        }
-        const cb = t as CheckboxNode;
-        this.app.workspace.getLeaf(false).openFile(cb.sourceFile).then(() => {
-            const view = this.app.workspace.getActiveViewOfType(ItemView);
-            const ed = (view as any)?.editor;
-            if (ed) {
-                ed.setCursor({ line: cb.sourceLine, ch: 0 });
-                ed.scrollIntoView({ from: { line: cb.sourceLine, ch: 0 }, to: { line: cb.sourceLine, ch: 0 } }, true);
+    private async openFileAdjacent(file: TFile, line?: number): Promise<void> {
+        const parent = (this.leaf as any).parent;
+        let targetLeaf: WorkspaceLeaf | null = null;
+
+        if (parent && Array.isArray(parent.children)) {
+            // Check if the file is already open and visible in this same tab container
+            const existingLeaf = parent.children.find((l: any) => {
+                const isMatch = l.view?.file?.path === file.path;
+                const isHidden = l.tabHeaderEl?.classList?.contains("vtg-hidden") ||
+                                 l.containerEl?.classList?.contains("vtg-hidden");
+                return isMatch && !isHidden;
+            });
+
+            if (existingLeaf) {
+                targetLeaf = existingLeaf;
+            } else {
+                // Insert adjacent to the right of this view
+                const currentIndex = parent.children.indexOf(this.leaf);
+                const targetIndex = currentIndex !== -1 ? currentIndex + 1 : parent.children.length;
+                if (typeof (this.app.workspace as any).createLeafInParent === "function") {
+                    targetLeaf = (this.app.workspace as any).createLeafInParent(parent, targetIndex);
+                }
             }
-        });
+        }
+
+        if (!targetLeaf) {
+            this.app.workspace.setActiveLeaf(this.leaf, { focus: true });
+            targetLeaf = this.app.workspace.getLeaf("tab");
+        }
+
+        await targetLeaf.openFile(file);
+        this.app.workspace.setActiveLeaf(targetLeaf, { focus: true });
+
+        if (typeof line === "number" && line >= 0) {
+            const setPosition = () => {
+                const ed = (targetLeaf?.view as any)?.editor;
+                if (ed) {
+                    ed.setCursor({ line, ch: 0 });
+                    ed.scrollIntoView({ from: { line, ch: 0 }, to: { line, ch: 0 } }, true);
+                }
+            };
+            setPosition();
+            window.setTimeout(setPosition, 60);
+        }
+    }
+
+    private async openNodeInEditor(t: GraphNode) {
+        let file: TFile | null = null;
+        let line: number | undefined;
+
+        if (t.kind === "file") {
+            file = (t as TaskNode).file;
+        } else {
+            const cb = t as CheckboxNode;
+            file = cb.sourceFile;
+            line = cb.sourceLine;
+        }
+
+        if (file) {
+            await this.openFileAdjacent(file, line);
+        }
     }
 
     private updateSelection() {

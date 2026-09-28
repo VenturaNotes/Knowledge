@@ -72,6 +72,52 @@ export class AgendaView extends ItemView {
         return false;
     }
 
+    private async openFileAdjacent(file: TFile, line?: number): Promise<void> {
+        const parent = (this.leaf as any).parent;
+        let targetLeaf: WorkspaceLeaf | null = null;
+
+        if (parent && Array.isArray(parent.children)) {
+            // Check if the file is already open and visible in this same tab container
+            const existingLeaf = parent.children.find((l: any) => {
+                const isMatch = l.view?.file?.path === file.path;
+                const isHidden = l.tabHeaderEl?.classList?.contains("vtg-hidden") ||
+                                 l.containerEl?.classList?.contains("vtg-hidden");
+                return isMatch && !isHidden;
+            });
+
+            if (existingLeaf) {
+                targetLeaf = existingLeaf;
+            } else {
+                // Insert adjacent to the right of this view
+                const currentIndex = parent.children.indexOf(this.leaf);
+                const targetIndex = currentIndex !== -1 ? currentIndex + 1 : parent.children.length;
+                if (typeof (this.app.workspace as any).createLeafInParent === "function") {
+                    targetLeaf = (this.app.workspace as any).createLeafInParent(parent, targetIndex);
+                }
+            }
+        }
+
+        if (!targetLeaf) {
+            this.app.workspace.setActiveLeaf(this.leaf, { focus: true });
+            targetLeaf = this.app.workspace.getLeaf("tab");
+        }
+
+        await targetLeaf.openFile(file);
+        this.app.workspace.setActiveLeaf(targetLeaf, { focus: true });
+
+        if (typeof line === "number" && line >= 0) {
+            const setPosition = () => {
+                const ed = (targetLeaf?.view as any)?.editor;
+                if (ed) {
+                    ed.setCursor({ line, ch: 0 });
+                    ed.scrollIntoView({ from: { line, ch: 0 }, to: { line, ch: 0 } }, true);
+                }
+            };
+            setPosition();
+            window.setTimeout(setPosition, 60);
+        }
+    }
+
     private createItemEl(item: AgendaItem, isPanel = false, showDueDetails = false): HTMLElement {
         const isDone = item.status !== " ";
         const el = document.createElement("div");
@@ -106,11 +152,11 @@ export class AgendaView extends ItemView {
             if (item.parentLink) {
                 const linkEl = el.querySelector<HTMLElement>(".v7-parent-link");
                 if (linkEl) {
-                    linkEl.onclick = (e) => {
+                    linkEl.onclick = async (e) => {
                         e.stopPropagation();
                         const linkPath = (item.parentLinkPath ?? item.parentLink ?? "").split("#")[0] ?? "";
                         const dest = this.app.metadataCache.getFirstLinkpathDest(linkPath, item.path);
-                        if (dest) this.app.workspace.getLeaf(false).openFile(dest);
+                        if (dest) await this.openFileAdjacent(dest);
                     };
                 }
             }
@@ -118,18 +164,11 @@ export class AgendaView extends ItemView {
             el.innerHTML = `<span>${isDone ? '✓ ' : ''}${timeDisplay} ${item.text}</span>`;
         }
 
-        el.onclick = (e) => {
+        el.onclick = async (e) => {
             e.stopPropagation();
             const file = this.app.vault.getAbstractFileByPath(item.path);
             if (!file || !(file instanceof TFile)) return;
-            this.app.workspace.getLeaf(false).openFile(file).then(() => {
-                const view = this.app.workspace.getActiveViewOfType(ItemView);
-                const ed = (view as any)?.editor;
-                if (ed && item.line >= 0) {
-                    ed.setCursor({ line: item.line, ch: 0 });
-                    ed.scrollIntoView({ from: { line: item.line, ch: 0 }, to: { line: item.line, ch: 0 } }, true);
-                }
-            });
+            await this.openFileAdjacent(file, item.line);
         };
         return el;
     }
