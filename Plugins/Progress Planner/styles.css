@@ -810,46 +810,46 @@
     background: var(--background-modifier-hover); 
 }
 
-.v7-panel-divider {
-    margin: 15px 0 5px 0;
-    display: flex;
-    align-items: center;
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--text-muted);
-    font-weight: bold;
+.v7-panel-divider { 
+    margin: 15px 0 5px 0; 
+    display: flex; 
+    align-items: center; 
+    font-size: 0.65rem; 
+    text-transform: uppercase; 
+    letter-spacing: 0.05em; 
+    color: var(--text-muted); 
+    font-weight: bold; 
 }
 
-.v7-panel-divider::after {
-    content: "";
-    flex: 1;
-    margin-left: 10px;
-    height: 1px;
-    background: var(--background-modifier-border);
+.v7-panel-divider::after { 
+    content: ""; 
+    flex: 1; 
+    margin-left: 10px; 
+    height: 1px; 
+    background: var(--background-modifier-border); 
 }
 
-.v7-tag-span {
+.v7-tag-span { 
     color: #ff9f0a; 
-    font-weight: 600;
-    margin-left: 6px;
-    filter: brightness(1.2);
+    font-weight: 600; 
+    margin-left: 6px; 
+    filter: brightness(1.2); 
 }
 
-.v7-parent-link {
-    color: #a774f0;
-    font-size: 0.7rem;
-    font-weight: 600;
-    margin-top: 3px;
-    cursor: pointer;
-    text-decoration: underline;
-    text-decoration-color: transparent;
-    transition: text-decoration-color 0.15s ease, filter 0.15s ease;
+.v7-parent-link { 
+    color: #a774f0; 
+    font-size: 0.7rem; 
+    font-weight: 600; 
+    margin-top: 3px; 
+    cursor: pointer; 
+    text-decoration: underline; 
+    text-decoration-color: transparent; 
+    transition: text-decoration-color 0.15s ease, filter 0.15s ease; 
 }
 
-.v7-parent-link:hover {
-    filter: brightness(1.25);
-    text-decoration-color: #a774f0;
+.v7-parent-link:hover { 
+    filter: brightness(1.25); 
+    text-decoration-color: #a774f0; 
 }
 
 
@@ -867,16 +867,19 @@
     background: var(--background-primary);
 }
 
-/* Day Header */
+/* Day Header (Compensates for the exact OS scrollbar width on the right) */
 .v7-week-header {
     display: grid;
     grid-template-columns: 50px repeat(7, 1fr);
+    padding-right: var(--v7-scrollbar-width, 0px);
     background: var(--background-secondary);
     border-bottom: 1px solid var(--background-modifier-border);
     flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .v7-week-gutter-header {
+    box-sizing: border-box;
     padding: 6px;
     font-size: 0.65rem;
     text-transform: uppercase;
@@ -889,6 +892,7 @@
 }
 
 .v7-week-day-header {
+    box-sizing: border-box;
     padding: 8px 4px;
     text-align: center;
     border-right: 1px solid var(--background-modifier-border);
@@ -922,19 +926,23 @@
     color: var(--interactive-accent);
 }
 
-/* All-Day Tasks Section */
+/* All-Day Tasks Section (Compensates for the exact OS scrollbar width) */
 .v7-week-allday-row {
     display: grid;
     grid-template-columns: 50px repeat(7, 1fr);
+    padding-right: var(--v7-scrollbar-width, 0px);
     border-bottom: 2px solid var(--background-modifier-border);
     background: var(--background-secondary-alt);
     min-height: 36px;
     max-height: 90px;
     overflow-y: auto;
+    overflow-x: hidden;
     flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .v7-week-allday-label {
+    box-sizing: border-box;
     font-size: 0.65rem;
     font-weight: 600;
     color: var(--text-muted);
@@ -945,6 +953,7 @@
 }
 
 .v7-week-allday-cell {
+    box-sizing: border-box;
     border-right: 1px solid var(--background-modifier-border);
     padding: 3px;
     display: flex;
@@ -952,7 +961,7 @@
     gap: 2px;
 }
 
-/* Scrollable Hourly Area - Bounded with native wheel scroll */
+/* Scrollable Hourly Area */
 .v7-week-scroll-area {
     flex: 1 1 0px;
     min-height: 0;
@@ -965,12 +974,15 @@
 .v7-week-grid {
     display: grid;
     grid-template-columns: 50px repeat(7, 1fr);
-    height: 1248px; /* 24 hours * 52px */
+    height: 1268px; /* 24 hours * 52px + 20px extra breathing room at bottom */
+    padding-bottom: 20px;
     position: relative;
+    box-sizing: border-box;
 }
 
-/* Gutter */
+/* Time Gutter */
 .v7-week-time-gutter {
+    box-sizing: border-box;
     border-right: 1px solid var(--background-modifier-border);
     background: var(--background-secondary);
 }
@@ -993,6 +1005,7 @@
 /* Day Column */
 .v7-week-col {
     position: relative;
+    box-sizing: border-box;
     border-right: 1px solid var(--background-modifier-border);
     background: var(--background-primary);
 }
@@ -1015,7 +1028,7 @@
     border: 1px solid var(--background-modifier-border);
     border-left: 3px solid var(--interactive-accent);
     border-radius: 4px;
-    padding: 4px 6px;
+    padding: 3px 6px;
     font-size: 0.72rem;
     line-height: 1.25;
     cursor: pointer;

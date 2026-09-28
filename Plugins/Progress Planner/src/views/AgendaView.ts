@@ -13,7 +13,7 @@ export class AgendaView extends ItemView {
     private selectedDateLabel = "";
 
     // View Mode: Month vs Week
-    private calendarMode: "month" | "week" = "month";
+    private calendarMode: "month" | "week" = "week";
 
     // Live Overdue Panel States
     private overdueQuery = "";
@@ -236,7 +236,7 @@ export class AgendaView extends ItemView {
         const el = document.createElement("div");
         el.className = `v7-week-item ${item.isProject ? 'is-project' : ''} ${isDone ? 'is-done' : ''}`;
         el.style.top = `${topPx}px`;
-        el.style.height = `${Math.max(26, heightPx)}px`;
+        el.style.height = `${heightPx}px`;
 
         const timeSpan = item.time ? `<span class="v7-week-time">${item.time}</span> ` : "";
         el.innerHTML = `${timeSpan}<strong>${isDone ? '✓ ' : ''}${item.text}</strong>`;
@@ -312,6 +312,14 @@ export class AgendaView extends ItemView {
         const scrollArea = weekContainer.createDiv("v7-week-scroll-area");
         const timeGrid = scrollArea.createDiv("v7-week-grid");
 
+        // Sync header and all-day padding with the exact OS scrollbar width
+        const syncScrollbarGutter = () => {
+            const scrollbarWidth = scrollArea.offsetWidth - scrollArea.clientWidth;
+            weekContainer.style.setProperty('--v7-scrollbar-width', `${scrollbarWidth}px`);
+        };
+        syncScrollbarGutter();
+        window.requestAnimationFrame(syncScrollbarGutter);
+
         // Time Gutter Column
         const gutter = timeGrid.createDiv("v7-week-time-gutter");
         for (let h = 0; h < 24; h++) {
@@ -322,6 +330,9 @@ export class AgendaView extends ItemView {
 
         // 7 Day Columns
         let hasTodayInView = false;
+        const CARD_HEIGHT = 40;
+        const TOTAL_GRID_HEIGHT = 24 * HOUR_HEIGHT; // 1248px
+        const maxTopPx = TOTAL_GRID_HEIGHT - CARD_HEIGHT - 2;
 
         days.forEach(dayMoment => {
             const dateStr = dayMoment.format("YYYY-MM-DD");
@@ -375,8 +386,10 @@ export class AgendaView extends ItemView {
             placedClusters.forEach(cluster => {
                 const total = cluster.length;
                 cluster.forEach((item, idx) => {
-                    const topPx = (item.startMin / 60) * HOUR_HEIGHT;
-                    const card = this.createWeekItemEl(item, topPx, 45);
+                    // Clamp topPx so tasks scheduled at 11:59PM stay neatly inside the 11PM block
+                    const rawTop = (item.startMin / 60) * HOUR_HEIGHT;
+                    const topPx = Math.min(rawTop, maxTopPx);
+                    const card = this.createWeekItemEl(item, topPx, CARD_HEIGHT);
                     const widthPercent = 100 / total;
                     card.style.width = `calc(${widthPercent}% - 4px)`;
                     card.style.left = `calc(${idx * widthPercent}% + 2px)`;
@@ -387,6 +400,7 @@ export class AgendaView extends ItemView {
 
         // Auto-scroll to center current time in view
         window.setTimeout(() => {
+            syncScrollbarGutter();
             const minutesNow = now.hours() * 60 + now.minutes();
             const currentPx = (minutesNow / 60) * HOUR_HEIGHT;
             scrollArea.scrollTop = hasTodayInView ? Math.max(0, currentPx - 200) : 8 * HOUR_HEIGHT;
