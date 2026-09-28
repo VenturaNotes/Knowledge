@@ -15,6 +15,10 @@ export class AgendaView extends ItemView {
     private overdueQuery = "";
     private overdueSort = "date-desc"; // Newest to oldest default
 
+    // Sleep mode tracking
+    public isDormant = false;
+    private visibilityObserver: IntersectionObserver | null = null;
+
     constructor(leaf: WorkspaceLeaf, plugin: ProgressPlannerPlugin) {
         super(leaf);
         this.plugin = plugin;
@@ -33,10 +37,46 @@ export class AgendaView extends ItemView {
         this.contentEl.style.padding = "0";
         this.contentEl.style.height = "100%";
         this.contentEl.style.overflow = "hidden";
+
+        // Monitor visibility to automatically sleep/wake
+        this.visibilityObserver = new IntersectionObserver((entries) => {
+            for (const entry of entries) {
+                if (entry.isIntersecting) {
+                    if (this.isDormant) {
+                        this.isDormant = false;
+                        this.render();
+                    }
+                } else {
+                    this.isDormant = true;
+                }
+            }
+        });
+        this.visibilityObserver.observe(this.contentEl);
+
         this.render();
     }
 
-    async onClose() {}
+    async onClose() {
+        this.visibilityObserver?.disconnect();
+        this.visibilityObserver = null;
+    }
+
+    onResize() {
+        super.onResize();
+        if (this.isDormant && this.isViewVisible()) {
+            this.isDormant = false;
+            this.render();
+        }
+    }
+
+    private isViewVisible(): boolean {
+        const el = this.contentEl;
+        if (!el) return false;
+        if ((this.leaf as any).tabHeaderEl?.classList?.contains("vtg-hidden")) return false;
+        if (el.classList.contains("vtg-hidden") || el.closest(".vtg-hidden")) return false;
+        if (el.offsetParent === null) return false;
+        return true;
+    }
 
     private isOccurringOn(rrule: string | null, dateMoment: any): boolean {
         if (!rrule) return false;
@@ -77,7 +117,6 @@ export class AgendaView extends ItemView {
         let targetLeaf: WorkspaceLeaf | null = null;
 
         if (parent && Array.isArray(parent.children)) {
-            // Check if the file is already open and visible in this same tab container
             const existingLeaf = parent.children.find((l: any) => {
                 const isMatch = l.view?.file?.path === file.path;
                 const isHidden = l.tabHeaderEl?.classList?.contains("vtg-hidden") ||
@@ -88,7 +127,6 @@ export class AgendaView extends ItemView {
             if (existingLeaf) {
                 targetLeaf = existingLeaf;
             } else {
-                // Insert adjacent to the right of this view
                 const currentIndex = parent.children.indexOf(this.leaf);
                 const targetIndex = currentIndex !== -1 ? currentIndex + 1 : parent.children.length;
                 if (typeof (this.app.workspace as any).createLeafInParent === "function") {
@@ -180,13 +218,11 @@ export class AgendaView extends ItemView {
         const isOverdueView = this.selectedDateLabel === "🚨 Overdue Tasks";
 
         if (isOverdueView) {
-            // Render Query Box
             const searchContainer = pContent.createDiv();
             searchContainer.setAttribute("style", "padding: 0 0 10px 0; background: transparent;");
             const searchInput = searchContainer.createEl("input", { cls: "tq-small-input", placeholder: "Search overdue..." });
             searchInput.value = this.overdueQuery;
 
-            // Render Sort Trigger Select Option
             const sortContainer = pContent.createDiv();
             sortContainer.setAttribute("style", "display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 0.75rem; opacity: 0.8;");
             sortContainer.createSpan({ text: "Sort by:" });
@@ -247,7 +283,6 @@ export class AgendaView extends ItemView {
             updateList();
 
         } else {
-            // Re-render date-day lists separated by schedule groups
             if (this.selectedDateItems.length === 0) {
                 const noTasksEl = pContent.createDiv({ text: "No tasks for this day." });
                 noTasksEl.setAttribute("style", "opacity:0.5");
@@ -267,6 +302,13 @@ export class AgendaView extends ItemView {
     }
 
     public async render() {
+        // Sleep Mode Guard: If hidden/in background tab group, abort calendar building
+        if (!this.isViewVisible()) {
+            this.isDormant = true;
+            return;
+        }
+        this.isDormant = false;
+
         const container = this.contentEl;
         container.empty();
 

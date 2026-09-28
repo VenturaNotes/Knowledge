@@ -134,6 +134,10 @@ export class DashboardView extends ItemView {
     
     private nodeById: Map<string, GraphNode> = new Map();
 
+    // Sleep mode tracking
+    public isDormant = false;
+    private visibilityObserver: IntersectionObserver | null = null;
+
     constructor(leaf: WorkspaceLeaf, plugin: ProgressPlannerPlugin) {
         super(leaf);
         this.plugin = plugin;
@@ -167,11 +171,47 @@ export class DashboardView extends ItemView {
         this.contentEl.style.padding = "0";
         this.contentEl.style.height = "100%";
         this.contentEl.style.overflow = "hidden";
+
+        // Monitor visibility to automatically sleep/wake the simulation loop
+        this.visibilityObserver = new IntersectionObserver((entries) => {
+            for (const entry of entries) {
+                if (entry.isIntersecting) {
+                    if (this.isDormant) {
+                        this.isDormant = false;
+                        this.render();
+                    }
+                } else {
+                    this.isDormant = true;
+                    this.stopSimulation();
+                }
+            }
+        });
+        this.visibilityObserver.observe(this.contentEl);
+
         this.render();
     }
 
     async onClose() {
+        this.visibilityObserver?.disconnect();
+        this.visibilityObserver = null;
         this.stopSimulation();
+    }
+
+    onResize() {
+        super.onResize();
+        if (this.isDormant && this.isViewVisible()) {
+            this.isDormant = false;
+            this.render();
+        }
+    }
+
+    private isViewVisible(): boolean {
+        const el = this.contentEl;
+        if (!el) return false;
+        if ((this.leaf as any).tabHeaderEl?.classList?.contains("vtg-hidden")) return false;
+        if (el.classList.contains("vtg-hidden") || el.closest(".vtg-hidden")) return false;
+        if (el.offsetParent === null) return false;
+        return true;
     }
 
     private startSimulation() {
@@ -711,7 +751,6 @@ export class DashboardView extends ItemView {
         let targetLeaf: WorkspaceLeaf | null = null;
 
         if (parent && Array.isArray(parent.children)) {
-            // Check if the file is already open and visible in this same tab container
             const existingLeaf = parent.children.find((l: any) => {
                 const isMatch = l.view?.file?.path === file.path;
                 const isHidden = l.tabHeaderEl?.classList?.contains("vtg-hidden") ||
@@ -722,7 +761,6 @@ export class DashboardView extends ItemView {
             if (existingLeaf) {
                 targetLeaf = existingLeaf;
             } else {
-                // Insert adjacent to the right of this view
                 const currentIndex = parent.children.indexOf(this.leaf);
                 const targetIndex = currentIndex !== -1 ? currentIndex + 1 : parent.children.length;
                 if (typeof (this.app.workspace as any).createLeafInParent === "function") {
@@ -1175,6 +1213,14 @@ export class DashboardView extends ItemView {
     }
 
     public async render() {
+        // Sleep Mode Guard: If hidden/in background tab group, abort physics & rendering
+        if (!this.isViewVisible()) {
+            this.isDormant = true;
+            this.stopSimulation();
+            return;
+        }
+        this.isDormant = false;
+
         this.allNodes = this.plugin.taskCache.getGraphNodes();
 
         if (this.lastGraphRef !== this.allNodes) {

@@ -1,4 +1,4 @@
-import { Plugin, PluginSettingTab, Setting, App, TFile, Editor } from "obsidian";
+import { Plugin, PluginSettingTab, Setting, App, TFile, Editor, WorkspaceLeaf } from "obsidian";
 import { TaskCache } from "./cache/TaskCache";
 import { DashboardView, VIEW_TYPE_DASHBOARD } from "./views/DashboardView";
 import { AgendaView, VIEW_TYPE_AGENDA } from "./views/AgendaView";
@@ -55,6 +55,18 @@ export default class ProgressPlannerPlugin extends Plugin {
                     this.taskCache.removeFile(oldPath);
                     await this.taskCache.updateFile(file);
                     this.refreshViews();
+                }
+            })
+        );
+
+        // Wake up any dormant view the moment its tab is clicked or focused
+        this.registerEvent(
+            this.app.workspace.on("active-leaf-change", (leaf: WorkspaceLeaf | null) => {
+                if (!leaf) return;
+                if (leaf.view instanceof DashboardView && (leaf.view as any).isDormant) {
+                    leaf.view.render();
+                } else if (leaf.view instanceof AgendaView && (leaf.view as any).isDormant) {
+                    leaf.view.render();
                 }
             })
         );
@@ -120,15 +132,33 @@ export default class ProgressPlannerPlugin extends Plugin {
         await this.saveData(this.settings);
     }
 
+    /**
+     * Group-Aware Activation:
+     * Focuses an existing instance within the active tab group, or opens a new tab
+     * in the active pane without stealing tabs from other groups.
+     */
     async activateView(viewType: string) {
         const { workspace } = this.app;
-        let leaf = workspace.getLeavesOfType(viewType)[0];
-        
-        if (!leaf) {
-            leaf = workspace.getLeaf("tab");
-            await leaf.setViewState({ type: viewType, active: true });
+        const leaves = workspace.getLeavesOfType(viewType);
+
+        // Find an instance of this view that belongs to the CURRENT active tab group (not hidden)
+        const visibleLeaf = leaves.find((l) => {
+            const anyLeaf = l as any;
+            const isHidden = anyLeaf.tabHeaderEl?.classList?.contains("vtg-hidden") ||
+                             anyLeaf.containerEl?.classList?.contains("vtg-hidden") ||
+                             anyLeaf.containerEl?.closest(".vtg-hidden");
+            return !isHidden;
+        });
+
+        if (visibleLeaf) {
+            workspace.revealLeaf(visibleLeaf);
+            return;
         }
-        workspace.revealLeaf(leaf);
+
+        // None exists in the current tab group: open a new tab in the active pane
+        const newLeaf = workspace.getLeaf("tab");
+        await newLeaf.setViewState({ type: viewType, active: true });
+        workspace.revealLeaf(newLeaf);
     }
 
     refreshViews() {
