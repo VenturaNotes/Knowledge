@@ -9,7 +9,11 @@
 - The wavelength is the distance between two displacements of the same phase along the direction of propagation. If $\nu$ is the velocity of the wave and $\lambda$ its wavelength, then the frequency of vibration, $f$, is given by$$f = \frac {v}{\lambda}$$
 - The frequency is the reciprocal of the period, $T$ , of the wave. The frequency (or wavelength) of electromagnetic radiation is commonly used to describe particular regions of the electromagnetic spectrum, such as the visible or radio regions (see also FREQUENCY BAND).
 - An alternating current propagated through a long chain network or filter behaves as if it were a wave. Elementary particles, such as electrons, have associated wavelike characteristics. See also DOPPLER EFFECT.
+## Source[^3]
+- A disturbance within a medium, such as sound or electromagnetic waves. A sound wave transfers its energy from particles to adjacent particles and so needs a medium to propagate. Electromagnetic waves can also travel through a vacuum.
+- If the disturbance is given by the equation$$y(x, t) = A \sin (kx - \omega t + \varepsilon),$$then $A$ is the wave’s amplitude, $\varepsilon$ is the phase, $\omega$ is the angular frequency, $2\pi/\omega$ is the period, $k$ is the wavenumber, $2\pi/k$ is the wavelength, and $\omega/k$ is the speed of the wave’s propagation. See WAVE EQUATION, LONGITUDINAL WAVE, TRANSVERSE WAVE.
 ## References
 
 [^1]: https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/
 [^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

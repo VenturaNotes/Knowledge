@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1769959856533_g3hbcvp5a
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 completedDate: 2026-02-03
 aliases:
   - Zotero HTML Image Zoom

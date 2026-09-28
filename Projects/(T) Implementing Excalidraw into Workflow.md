@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1769344117095_x9wl0r8ua
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 tags:
   - in-progress
 completedDate: 2026-02-21

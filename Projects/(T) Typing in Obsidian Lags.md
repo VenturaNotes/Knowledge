@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1779166993586_6stxi6f7v
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 parent:
   - "[[(T) Software Engineer Interview Prep DSA]]"
 aliases:

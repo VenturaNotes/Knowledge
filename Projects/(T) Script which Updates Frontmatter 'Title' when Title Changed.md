@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1777520400715_uivs3fkgk
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 parent:
   - "[[(T) Create Task Priority within Document]]"
 completedDate: 2026-04-30

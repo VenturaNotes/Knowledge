@@ -7,8 +7,12 @@
 - (2) In statistics, a measure of the dispersion (spread) of a distribution of outcomes. It is the square of the standard deviation.
 ## Source[^3]
 - A measure of dispersion of probability distribution. The population variance of a random variable $X$ is $\operatorname{Var}(X)=E\left[(X-E[X])^{2}\right]$, where $E$ denotes expected value. The sample variance of a set of $N$ observations $\left\{x_{i}\right\}, i=1,2, \ldots, N$, is given by$$V=\frac{1}{N} \sum_{i=1}^{N}\left(x_{i}-\mu\right)^{2},$$where $\mu$ is the sample mean. See also COVARIANCE MATRIX.
+## Source[^4]
+- A measure of the dispersion of a random variable or of a sample. For a random variable $X$, the population variance is the second moment about the population mean $\mu$ and is equal to $E((X-\mu)^2)$ (see EXPECTED VALUE). It is usually denoted by $\sigma^2$ or $\text{Var}(X)$. For a sample, the sample variance, denoted by $s^2$, is the second moment of the data about the sample mean $\bar{x}$, but the denominator is usually taken as $n - 1$ rather than $n$ in order to make it an unbiased estimator of the population variance. So$$s^2 = \frac{\sum (x_i - \bar{x})^2}{n - 1}$$
+- For computational purposes, notice that $\sum (x_i - \bar{x})^2 = \sum x_i^2 - n\bar{x}^2$.
 ## References
 
 [^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

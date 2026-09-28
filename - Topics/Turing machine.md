@@ -82,7 +82,10 @@ is (Turing) computable if for each $x$ in $\mathbf{N}^{k}$, when some representa
 It is customary in the study of abstract computation models to make a distinction between deterministic and nondeterministic algorithms. In a deterministic Turing machine the overall course of the computation is completely determined by the Turing machine (program), the starting state, and the initial tape-inputs; in a nondeterministic Turing machine there are several possibilities at each stage of the computation: it can execute one out of possibly several machine instructions. The class of problems solvable by deterministic Turing machines in polynomial time is the class $P$; the class of problems solvable by nondeterministic Turing machines in polynomial time is the class $N P$. See also $\mathrm{P}=\mathrm{NP}$ QUESTION.
 ## Source[^2]
 - A mathematical model of a device that changes its internal state and reads from, writes on, and moves a potentially infinite tape, all in accordance with its present state, thereby constituting a model for computer-like behavior. The model was published by Alan Turing in 1936.
+## Source[^3]
+- A theoretical machine which operates according to extremely simple rules, invented by Turing with the aim of obtaining a mathematically precise definition of what is computable. It has been generally agreed that the machine can calculate or compute anything for which there is an ‘effective’ algorithm (see CHURCH'S THESIS).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

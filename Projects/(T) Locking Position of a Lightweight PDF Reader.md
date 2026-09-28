@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1774086072675_m54vhe0zo
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 tags:
   - project
   - personal

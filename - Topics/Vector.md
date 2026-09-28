@@ -21,6 +21,10 @@ aliases:
 ## Source[^5]
 - (1) An animal, usually an insect, that passively transmits disease-causing microorganisms from one animal or plant to another or from an animal to a human. Compare CARRIER. 
 - (2) (cloning vector) A vehicle used in gene cloning to insert a foreign DNA fragment into the genome of a host cell. For bacterial hosts several different types of vector are used: bacteriophages, artificial chromosomes, plasmids, and their hybrid derivatives, cosmids. The foreign DNA is spliced into the vector using specific restriction enzymes and DNA ligases to cleave the vector DNA and join the foreign DNA to the two ends created (insertional vectors). In some phage vectors, part of the viral genome is enzymically removed and replaced with the foreign DNA (replacement vectors). Retroviruses can be effective vectors for introducing recombinant DNA into mammalian cells. In plants, derivatives of the tumor-inducing (Ti) plasmid of the crown gall bacterium, Agrobacterium tumefaciens, are used as vectors. See also EXPRESSION VECTOR.
+## Source[^6]
+- A mathematical object, possibly modelling a physical phenomenon, which has magnitude and direction. Examples from applied mathematics include force, velocity, and gravitational field (see GRAVITY), but vectors are also used in pure mathematics, particularly in geometry.
+- A vector may be considered as the position vector $\overrightarrow{OP}$ of a point $P$ from an origin $O$ or as a translation vector, a movement of space. In this way the zero vector may considered as the position vector of the origin or as no translation. The distinction between a vector and a coordinate vector may in some contexts be important, especially if more than one coordinate system is being used; in this case the same vector may have different coordinates in the two systems.
+- With a given coordinate system, a vector can be identified with an ordered pair $(x,y)$ or ordered triple $(x,y,z)$, whether considered as a position vector or a translation vector. This definition can easily be generalized to other dimensions. Addition and scalar multiplication may be defined componentwise. Other operations are important (see SCALAR PRODUCT, VECTOR PRODUCT).
 ## References
 
 [^1]: https://www.rpi.edu/dept/phys/Courses/PHYS4210/S10/NotesOnVectors.pdf
@@ -28,3 +32,4 @@ aliases:
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^6]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

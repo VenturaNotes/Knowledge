@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1781074872675_85ynvoi0y
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 completedDate: 2026-06-10
 ---
 ## V2

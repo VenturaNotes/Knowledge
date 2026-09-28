@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1771789115047_fffer2aa0
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 parent:
   - "[[(T) Optimize]]"
 completedDate: 2026-05-09

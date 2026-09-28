@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1776317959404_ucpsuxt8w
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 completedDate: 2026-04-17
 ---
 ## Testing

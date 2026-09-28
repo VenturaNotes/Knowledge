@@ -1,4 +1,5 @@
-// PdfClipper.js (Streaming Batch Free Gemma 4 31B OCR Edition - Dynamic Inline Cropper)
+// PdfClipper.js (Streaming Batch Gemini 3.5 Flash-Lite -> 3.1 Flash-Lite -> Gemma 4 31B — Dynamic Inline Cropper)
+// Features: Persistent Daily Quota Tracking & Automatic 3-Tier Model Cascading
 module.exports = async ({ app, obsidian, secrets }) => {
     const { Notice } = obsidian;
     const { exec } = require('child_process');
@@ -6,18 +7,89 @@ module.exports = async ({ app, obsidian, secrets }) => {
     const path = require('path');
     const os = require('os');
 
-    // ── CONFIGURATION ─────────────────────────────────────────────
-    // Set in Obsidian → Settings → Script Runner → Secrets, key name GOOGLE_AI_STUDIO_KEY.
-    // Get your free API key from https://aistudio.google.com/
-    const GOOGLE_AI_STUDIO_KEY = secrets.GOOGLE_AI_STUDIO_KEY;
+    // ── 1. CONFIGURATION & 3-TIER CASCADE ─────────────────────────
+    const GOOGLE_AI_STUDIO_KEY = secrets?.GOOGLE_AI_STUDIO_KEY;
     
-    // Using Gemma 4 31B (Thinking set to MINIMAL for fast speed)
-    const MODEL_ID = "gemma-4-31b-it";
+    const MODEL_CASCADE = [
+        { id: "gemini-3.5-flash-lite", name: "Gemini 3.5 Flash-Lite", limit: 500,   maxOutputTokens: 8192 },
+        { id: "gemini-3.1-flash-lite", name: "Gemini 3.1 Flash-Lite", limit: 500,   maxOutputTokens: 8192 },
+        { id: "gemma-4-31b-it",        name: "Gemma 4 31B",           limit: 14400, maxOutputTokens: 32768 }
+    ];
     
     const CONCONCURRENCY = 100;    // Effectively unlimited concurrency
-    const STAGGER_DELAY = 8000;   // 8-second stagger between launches (Produces exactly 7.5 RPM, always under 15 RPM)
+    const STAGGER_DELAY = 8000;   // 8-second stagger between launches (Produces ~7.5 RPM, always under 15 RPM)
     const MAX_PAGES_PER_BATCH = 10; // Max pages per batch — split-on-error handles anything still too large
     // ──────────────────────────────────────────────────────────────
+
+    // ── 2. PERSISTENT VAULT USAGE TRACKER (.obsidian/gemini-daily-usage.json) ──
+    const basePath = typeof app.vault.adapter.getBasePath === 'function' 
+        ? app.vault.adapter.getBasePath() 
+        : app.vault.adapter.basePath;
+    const USAGE_FILE = path.join(basePath, app.vault.configDir, 'gemini-daily-usage.json');
+
+    function getDailyUsage(modelId) {
+        const today = new Date().toISOString().slice(0, 10);
+        try {
+            if (fs.existsSync(USAGE_FILE)) {
+                const data = JSON.parse(fs.readFileSync(USAGE_FILE, 'utf8'));
+                if (data.date === today && data.counts) {
+                    return data.counts[modelId] || 0;
+                }
+            }
+        } catch (e) {}
+        return 0;
+    }
+
+    function incrementDailyUsage(modelId) {
+        const today = new Date().toISOString().slice(0, 10);
+        let usage = { date: today, counts: {} };
+
+        try {
+            if (fs.existsSync(USAGE_FILE)) {
+                const data = JSON.parse(fs.readFileSync(USAGE_FILE, 'utf8'));
+                if (data.date === today && data.counts) {
+                    usage = data;
+                }
+            }
+        } catch (e) {}
+
+        usage.counts[modelId] = (usage.counts[modelId] || 0) + 1;
+
+        try {
+            fs.writeFileSync(USAGE_FILE, JSON.stringify(usage, null, 2));
+        } catch (e) {}
+
+        return usage.counts[modelId];
+    }
+
+    function markModelExhausted(modelId, limit) {
+        const today = new Date().toISOString().slice(0, 10);
+        let usage = { date: today, counts: {} };
+        try {
+            if (fs.existsSync(USAGE_FILE)) {
+                const data = JSON.parse(fs.readFileSync(USAGE_FILE, 'utf8'));
+                if (data.date === today && data.counts) {
+                    usage = data;
+                }
+            }
+        } catch (e) {}
+
+        usage.counts[modelId] = Math.max(usage.counts[modelId] || 0, limit);
+
+        try {
+            fs.writeFileSync(USAGE_FILE, JSON.stringify(usage, null, 2));
+        } catch (e) {}
+    }
+
+    function getNextAvailableModelIndex(startIndex = 0) {
+        for (let i = startIndex; i < MODEL_CASCADE.length; i++) {
+            if (getDailyUsage(MODEL_CASCADE[i].id) < MODEL_CASCADE[i].limit) {
+                return i;
+            }
+        }
+        // Fallback to the last tier (Gemma 4 31B) if all limits hit
+        return MODEL_CASCADE.length - 1;
+    }
 
     const ENV = {
         ...process.env,
@@ -47,7 +119,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
     const abortAllActiveProcesses = () => {
         for (const child of activeProcesses) {
             try {
-                child.kill('SIGTERM'); // Immediately terminate active background command lines (curl, pdftoppm, qpdf)
+                child.kill('SIGTERM'); // Immediately terminate active background command lines
             } catch (e) {
                 console.warn("Could not terminate child process:", e);
             }
@@ -82,7 +154,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
         console.warn("Could not auto-detect current PDF page index:", e);
     }
 
-    // Prompt the user for the page range to extract (pre-filled with current page)
+    // Prompt user for page range
     const pageRange = await new Promise((resolve) => {
         const modal = new (class extends obsidian.Modal {
             constructor(app) {
@@ -90,7 +162,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
                 this.value = currentPageVal;
             }
             onOpen() {
-                this.titleEl.setText("Clip PDF Pages via Gemma 4 (Free)");
+                this.titleEl.setText("Clip PDF Pages via Gemini / Gemma");
                 this.contentEl.createEl("p", { text: "Specify page range (e.g. 1, 3-5, 12-30, or 'all'):" });
                 
                 const input = this.contentEl.createEl("input", { type: "text" });
@@ -128,11 +200,9 @@ module.exports = async ({ app, obsidian, secrets }) => {
     }
 
     const currentNotice = new Notice(`Analyzing document layout...`, 0);
-
     const ts = Date.now();
 
     try {
-        const basePath = app.vault.adapter.basePath;
         const clippingsDir = path.join(basePath, 'Private', 'Clippings');
         if (!fs.existsSync(clippingsDir)) fs.mkdirSync(clippingsDir, { recursive: true });
 
@@ -140,13 +210,13 @@ module.exports = async ({ app, obsidian, secrets }) => {
         const attachmentsDir = path.join(clippingsDir, '- Attachments');
         if (!fs.existsSync(attachmentsDir)) fs.mkdirSync(attachmentsDir, { recursive: true });
 
-        // Errata folder — only created lazily if something actually goes wrong this run
+        // Errata folder — lazily created if issues occur
         const errataDir = path.join(clippingsDir, '- Errata');
-        const errataEntries = []; // shared across concurrent processBatch calls; safe due to single-threaded event loop
+        const errataEntries = [];
 
         const fullPdfPath = path.join(basePath, activeFile.path);
 
-        // 1. Parse and build page queue (Robust parsing approach)
+        // 1. Parse and build page queue
         let pageNumbers = [];
         const segments = pageRange.split(',');
         for (let segment of segments) {
@@ -156,7 +226,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
                 const pageCountStr = await run(`qpdf --show-npages "${fullPdfPath}"`);
                 const pageCount = parseInt(pageCountStr.trim());
                 pageNumbers = Array.from({ length: pageCount }, (_, i) => i + 1);
-                break; // If 'all' is found, overwrite everything and break
+                break;
             } else if (segment.includes('-')) {
                 const [start, end] = segment.split('-').map(Number);
                 if (!isNaN(start) && !isNaN(end) && start <= end) {
@@ -188,8 +258,8 @@ module.exports = async ({ app, obsidian, secrets }) => {
 
         // ── 3. QUEUE INITIALIZATION & CONTROLLERS ─────────────────────────
         let completedCount = 0;
-        const totalBatchesRef = { value: batches.length }; // mutable so requeued halves update the display
-        let retryingCount = 0; // Tracks active retries to pause the task queue launcher
+        const totalBatchesRef = { value: batches.length };
+        let retryingCount = 0;
 
         const taskQueue = batches.map((batch, index) => ({
             batchPages: batch,
@@ -242,7 +312,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
                     throw new Error(`Failed to generate images for batch pages: ${batchRangeStr}`);
                 }
 
-                // Build Gemma 4 API payload for this batch
+                // Build multimodal parts array for this batch
                 const parts = [{ text: promptText }];
                 for (const imgFile of imageFiles) {
                     const imgPath = path.join(os.tmpdir(), imgFile);
@@ -256,174 +326,244 @@ module.exports = async ({ app, obsidian, secrets }) => {
                     });
                 }
 
-                const payload = {
-                    contents: [{ parts: parts }],
-                    generationConfig: {
-                        maxOutputTokens: 32768
-                    }
-                };
-
-                // Write payload to temporary JSON file to avoid macOS E2BIG
-                fs.writeFileSync(tmpPayloadPath, JSON.stringify(payload));
-
-                // Execute curl reading directly from the payload file
-                const ocrCmd = `curl -s -X POST \
-                    -H "Content-Type: application/json" \
-                    -d @${tmpPayloadPath} \
-                    "https://generativelanguage.googleapis.com/v1beta/models/${MODEL_ID}:generateContent?key=${GOOGLE_AI_STUDIO_KEY}"`;
-
-                let attempts = 0;
-                let ocrJson = null;
-                let fatalError = null;
+                // ── MODEL CASCADE EXECUTION LOOP ──
+                let modelIdx = getNextAvailableModelIndex(0);
                 let finalExtractedMarkdown = "";
+                let fatalError = null;
 
-                // Infinite healing retry loop (with local execution fallback)
-                while (true) {
-                    try {
-                        currentNotice.setMessage(`Chunk [${sortKey}]: Querying Gemini API (Attempt ${attempts + 1})...`);
-                        const ocrResponse = await run(ocrCmd);
-                        
-                        try {
-                            ocrJson = JSON.parse(ocrResponse);
-                        } catch (parseErr) {
-                            throw new Error(`Malformed JSON response from Google API: ${ocrResponse || parseErr.message}`);
+                while (modelIdx < MODEL_CASCADE.length) {
+                    const currentModel = MODEL_CASCADE[modelIdx];
+
+                    // Check if current model already ran out of daily quota
+                    if (modelIdx < MODEL_CASCADE.length - 1 && getDailyUsage(currentModel.id) >= currentModel.limit) {
+                        modelIdx++;
+                        continue;
+                    }
+
+                    const isLastModel = (modelIdx === MODEL_CASCADE.length - 1);
+                    const payload = {
+                        contents: [{ parts: parts }],
+                        generationConfig: {
+                            maxOutputTokens: currentModel.maxOutputTokens || 8192
                         }
+                    };
 
-                        if (ocrJson.error || !ocrJson.candidates) {
-                            const errorObj = ocrJson?.error || {};
-                            const errorCode = errorObj.code || 400;
-                            const errorStatus = errorObj.status || "";
-                            const errorMessage = errorObj.message || `API response missing expected candidate payload`;
+                    fs.writeFileSync(tmpPayloadPath, JSON.stringify(payload));
 
-                            const isRetryable = errorCode === 429 || errorStatus === "RESOURCE_EXHAUSTED" ||
-                                                errorCode === 503 || errorCode === 500 || errorStatus === "INTERNAL";
-                            const isTooLarge = errorCode === 400 && errorMessage.toLowerCase().includes("invalid argument");
+                    const ocrCmd = `curl -s -X POST \
+                        -H "Content-Type: application/json" \
+                        -d @${tmpPayloadPath} \
+                        "https://generativelanguage.googleapis.com/v1beta/models/${currentModel.id}:generateContent?key=${GOOGLE_AI_STUDIO_KEY}"`;
 
-                            if (isTooLarge && batchPages.length > 1) {
-                                // Payload too large — split in half and prepend to front of queue
-                                const mid = Math.floor(batchPages.length / 2);
-                                const firstHalf = batchPages.slice(0, mid);
-                                const secondHalf = batchPages.slice(mid);
-                                const keyA = `${sortKey}.0`;
-                                const keyB = `${sortKey}.1`;
-                                
-                                taskQueue.unshift(
-                                    { batchPages: secondHalf, sortKey: keyB },
-                                    { batchPages: firstHalf, sortKey: keyA }
-                                );
-                                totalBatchesRef.value += 1;
-                                currentNotice.setMessage(`Payload too large [${sortKey}] — split queued.`);
-                                return;
-                            } else if (isRetryable) {
+                    let attempts = 0;
+                    let modelFinished = false;
+
+                    while (true) {
+                        try {
+                            const count = getDailyUsage(currentModel.id);
+                            currentNotice.setMessage(`Chunk [${sortKey}]: Querying ${currentModel.name} (${count}/${currentModel.limit}, attempt ${attempts + 1})...`);
+                            
+                            const ocrResponse = await run(ocrCmd);
+
+                            // Increment daily usage immediately as Google responded
+                            incrementDailyUsage(currentModel.id);
+
+                            let ocrJson = null;
+                            try {
+                                ocrJson = JSON.parse(ocrResponse);
+                            } catch (parseErr) {
+                                throw new Error(`Malformed JSON response from Google API: ${ocrResponse || parseErr.message}`);
+                            }
+
+                            if (ocrJson.promptFeedback?.blockReason) {
+                                throw new Error(`Prompt blocked [${ocrJson.promptFeedback.blockReason}]`);
+                            }
+
+                            if (ocrJson.error || !ocrJson.candidates) {
+                                const errorObj = ocrJson?.error || {};
+                                const errorCode = errorObj.code || 400;
+                                const errorStatus = errorObj.status || "";
+                                const errorMessage = errorObj.message || `API response missing expected candidate payload`;
+
+                                // Handle batch too large for context
+                                const isTooLarge = errorCode === 400 && errorMessage.toLowerCase().includes("invalid argument");
+                                if (isTooLarge && batchPages.length > 1) {
+                                    const mid = Math.floor(batchPages.length / 2);
+                                    const firstHalf = batchPages.slice(0, mid);
+                                    const secondHalf = batchPages.slice(mid);
+                                    const keyA = `${sortKey}.0`;
+                                    const keyB = `${sortKey}.1`;
+                                    
+                                    taskQueue.unshift(
+                                        { batchPages: secondHalf, sortKey: keyB },
+                                        { batchPages: firstHalf, sortKey: keyA }
+                                    );
+                                    totalBatchesRef.value += 1;
+                                    currentNotice.setMessage(`Payload too large [${sortKey}] — split queued.`);
+                                    return;
+                                }
+
+                                // Check daily quota exhaustion
+                                const usage = getDailyUsage(currentModel.id);
+                                const isDailyQuota = usage >= currentModel.limit ||
+                                    errorMessage.toLowerCase().includes("per day") ||
+                                    errorMessage.toLowerCase().includes("daily") ||
+                                    (errorCode === 429 && errorMessage.toLowerCase().includes("quota exceeded"));
+
+                                if (isDailyQuota && !isLastModel) {
+                                    markModelExhausted(currentModel.id, currentModel.limit);
+                                    currentNotice.setMessage(`Quota limit hit for ${currentModel.name}. Cascading to next model...`);
+                                    break; // Switch to next model in MODEL_CASCADE
+                                }
+
+                                const isRetryable = errorCode === 429 || errorStatus === "RESOURCE_EXHAUSTED" ||
+                                                    errorCode === 503 || errorCode === 500 || errorStatus === "INTERNAL";
+
+                                if (isRetryable) {
+                                    attempts++;
+                                    // If not the last model and persistent 429/500 hit, cascade forward
+                                    if (!isLastModel && attempts >= 2) {
+                                        currentNotice.setMessage(`${currentModel.name} busy/exhausted. Cascading...`);
+                                        break;
+                                    }
+
+                                    const backoffTime = Math.min(5000 * attempts, 60000);
+                                    const reason = (errorCode === 500 || errorStatus === "INTERNAL") ? "Server error (500)" : "Rate limit (429)";
+                                    currentNotice.setMessage(`${reason} hit on chunk [${sortKey}] (${currentModel.name}). Pausing for ${backoffTime / 1000}s...`);
+
+                                    retryingCount++;
+                                    try {
+                                        await new Promise(r => setTimeout(r, backoffTime));
+                                    } finally {
+                                        retryingCount--;
+                                    }
+                                    continue;
+                                } else {
+                                    if (!isLastModel) {
+                                        console.warn(`[${currentModel.name}] non-retryable error [${errorCode}]: ${errorMessage}. Cascading...`);
+                                        break; // Fallback to next tier
+                                    } else {
+                                        fatalError = new Error(`Google API Error [${errorCode}]: ${errorMessage}`);
+                                        break;
+                                    }
+                                }
+                            }
+
+                            // ── RECITATION / SAFETY BLOCK CHECK ──
+                            const firstCandidate = ocrJson?.candidates?.[0];
+                            const finishReason = firstCandidate?.finishReason;
+
+                            if (finishReason && finishReason !== "STOP" && finishReason !== "MAX_TOKENS" && finishReason !== "LENGTH") {
+                                console.error("GPC Empty API Response Dump:", JSON.stringify(ocrJson, null, 2));
+
+                                if (!isLastModel) {
+                                    currentNotice.setMessage(`Safety/Recitation block on ${currentModel.name}. Cascading...`);
+                                    break; // Cascade to fallback model
+                                } else {
+                                    fatalError = new Error(`API returned an empty output. Reason: "${finishReason}". (Copyright/safety restriction).`);
+                                    break;
+                                }
+                            }
+
+                            // Validate content parts
+                            const responseParts = firstCandidate?.content?.parts || [];
+                            let tempExtracted = "";
+                            for (const part of responseParts) {
+                                if (part.thought) continue;
+                                if (part.text) tempExtracted += part.text;
+                            }
+
+                            if (!tempExtracted) {
+                                console.error("GPC Empty API Response Dump:", JSON.stringify(ocrJson, null, 2));
                                 attempts++;
-                                const backoffTime = Math.min(5000 * attempts, 60000); // Linear backoff capped at 60s
-                                const reason = (errorCode === 500 || errorStatus === "INTERNAL") ? "Server error (500)" : "Rate limit (429)";
-                                currentNotice.setMessage(`${reason} hit on chunk [${sortKey}]. Pausing for ${backoffTime / 1000}s...`);
-                                
+                                if (!isLastModel && attempts >= 2) {
+                                    currentNotice.setMessage(`Empty response from ${currentModel.name}. Cascading...`);
+                                    break;
+                                }
+
+                                const backoffTime = Math.min(5000 * attempts, 60000);
+                                currentNotice.setMessage(`Received empty text from ${currentModel.name}. Pausing for ${backoffTime / 1000}s before retry...`);
+
                                 retryingCount++;
                                 try {
                                     await new Promise(r => setTimeout(r, backoffTime));
                                 } finally {
                                     retryingCount--;
                                 }
-                                continue; // Loop back and re-attempt
-                            } else {
-                                // Fatal/Unrecoverable local configuration or syntax error - break to prevent infinite hang
-                                fatalError = new Error(`Google API Error [${errorCode}]: ${errorMessage}`);
+                                continue;
+                            }
+
+                            // Output truncation check
+                            if (finishReason === "MAX_TOKENS" || finishReason === "LENGTH") {
+                                if (batchPages.length === 1) {
+                                    console.warn(`Single page hit output token limit on ${currentModel.name}. Writing partial output.`);
+                                } else {
+                                    const mid = Math.floor(batchPages.length / 2);
+                                    const firstHalf = batchPages.slice(0, mid);
+                                    const secondHalf = batchPages.slice(mid);
+                                    const keyA = `${sortKey}.0`;
+                                    const keyB = `${sortKey}.1`;
+                                    
+                                    taskQueue.unshift(
+                                        { batchPages: secondHalf, sortKey: keyB },
+                                        { batchPages: firstHalf, sortKey: keyA }
+                                    );
+                                    totalBatchesRef.value += 1;
+                                    currentNotice.setMessage(`Output truncated [${sortKey}] — split queued.`);
+                                    return;
+                                }
+                            }
+
+                            // Success on this model
+                            finalExtractedMarkdown = tempExtracted;
+                            modelFinished = true;
+                            break;
+
+                        } catch (err) {
+                            attempts++;
+                            if (!isLastModel && attempts >= 2) {
+                                console.warn(`[${currentModel.name}] Exception: ${err.message}. Cascading...`);
                                 break;
                             }
-                        }
 
-                        // ── FILTER CHECK (CATCH RECITATION / SAFETY BLOCKS) ──
-                        const firstCandidate = ocrJson?.candidates?.[0];
-                        const finishReason = firstCandidate?.finishReason;
-
-                        if (finishReason && finishReason !== "STOP" && finishReason !== "MAX_TOKENS" && finishReason !== "LENGTH") {
-                            // Print GPC Dump to developer console before stopping execution
-                            console.error("GPC Empty API Response Dump:", JSON.stringify(ocrJson, null, 2));
-
-                            fatalError = new Error(`API returned an empty output. Reason: "${finishReason}". (This indicates copyright/safety filters or other content restrictions were triggered).`);
-                            break;
-                        }
-
-                        // Validate content INSIDE the retry loop.
-                        // Sometimes Gemini returns HTTP 200/STOP but with an empty content array.
-                        const responseParts = firstCandidate?.content?.parts || [];
-                        let tempExtracted = "";
-                        for (const part of responseParts) {
-                            if (part.thought) continue;
-                            if (part.text) tempExtracted += part.text;
-                        }
-
-                        if (!tempExtracted) {
-                            // Print GPC Dump to developer console on empty output
-                            console.error("GPC Empty API Response Dump:", JSON.stringify(ocrJson, null, 2));
-
-                            attempts++;
                             const backoffTime = Math.min(5000 * attempts, 60000);
-                            currentNotice.setMessage(`Received empty text from Gemini. Pausing for ${backoffTime / 1000}s before retry...`);
-                            
+                            currentNotice.setMessage(`Connection issue on chunk [${sortKey}] (${currentModel.name}). Pausing for ${backoffTime / 1000}s...`);
+
                             retryingCount++;
                             try {
                                 await new Promise(r => setTimeout(r, backoffTime));
                             } finally {
                                 retryingCount--;
                             }
-                            continue; // Loop back and re-attempt to recover the content
                         }
+                    } // end of retry loop
 
-                        // Text successfully extracted and non-empty
-                        finalExtractedMarkdown = tempExtracted;
-                        break; // Request was successful
-                    } catch (err) {
-                        attempts++;
-                        const backoffTime = Math.min(5000 * attempts, 60000); // Capped at 60s
-                        currentNotice.setMessage(`Connection drop hit on chunk [${sortKey}]. Pausing for ${backoffTime / 1000}s...`);
-                        
-                        retryingCount++;
-                        try {
-                            await new Promise(r => setTimeout(r, backoffTime));
-                        } finally {
-                            retryingCount--;
-                        }
+                    if (modelFinished && finalExtractedMarkdown) {
+                        break; // Succeeded!
                     }
-                }
 
-                if (fatalError) {
-                    throw fatalError;
-                }
-
-                // Check if the model truncated the output due to hitting the token limit.
-                // If so, split the batch in half and prepend to front of queue.
-                const finishReason = ocrJson?.candidates?.[0]?.finishReason;
-                if (finishReason === "MAX_TOKENS" || finishReason === "LENGTH") {
-                    if (batchPages.length === 1) {
-                        // Single page is still truncating — can't split further, write what we have
-                        console.warn("Single page hit output token limit. Writing partial output.");
-                    } else {
-                        // Split in half and prepend both halves to the front of queue
-                        const mid = Math.floor(batchPages.length / 2);
-                        const firstHalf = batchPages.slice(0, mid);
-                        const secondHalf = batchPages.slice(mid);
-                        const keyA = `${sortKey}.0`;
-                        const keyB = `${sortKey}.1`;
-                        
-                        taskQueue.unshift(
-                            { batchPages: secondHalf, sortKey: keyB },
-                            { batchPages: firstHalf, sortKey: keyA }
-                        );
-                        totalBatchesRef.value += 1; // one batch became two
-                        currentNotice.setMessage(`Output truncated [${sortKey}] — split queued.`);
-                        return;
+                    if (fatalError && isLastModel) {
+                        throw fatalError;
                     }
+
+                    modelIdx++; // Advance to the next model in cascade
+                } // end of cascade loop
+
+                if (!finalExtractedMarkdown) {
+                    throw fatalError || new Error(`All models in cascade failed to process batch pages ${batchRangeStr}`);
                 }
 
                 // ── POST-PROCESSING BYPASS STRIPPER & CLEANER ─────────────────────
-                // 1. Normalize line endings to eliminate CRLF carriage return bugs
                 let normalizedMarkdown = finalExtractedMarkdown.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
-
-                // 2. Strip the '¤' bypass characters appended to every word
                 let finalCleanedMarkdown = normalizedMarkdown.replace(/¤/g, "");
+
+                // Clean outer markdown code block wrap if generated
+                let cleanText = finalCleanedMarkdown.trim();
+                if (cleanText.startsWith('```markdown')) cleanText = cleanText.slice(11);
+                else if (cleanText.startsWith('```md')) cleanText = cleanText.slice(5);
+                else if (cleanText.startsWith('```')) cleanText = cleanText.slice(3);
+                if (cleanText.endsWith('```')) cleanText = cleanText.slice(0, -3);
+                finalCleanedMarkdown = cleanText.trim();
                 // ──────────────────────────────────────────────────────────────────
 
                 // ── NATIVE VECTOR INLINE CROPPING ─────────────────────────────────
@@ -432,32 +572,27 @@ module.exports = async ({ app, obsidian, secrets }) => {
                 let match;
                 let figCount = 0;
 
-                // Parse each visual grounding coordinate from Gemma's response
                 while ((match = figureTagRegex.exec(finalCleanedMarkdown)) !== null) {
                     const [fullTag, argsStr] = match;
-                    
-                    // SAFEGUARD: Strip any accidental bypass characters from the coordinate string before parsing
                     const cleanArgsStr = argsStr.replace(/¤/g, "");
                     const args = cleanArgsStr.split(',').map(Number);
 
                     if (args.length !== 5) {
-                        const warning = `Batch [${sortKey}] pages ${batchRangeStr}: malformed figure tag (expected 5 values, got ${args.length}): ${fullTag}`;
+                        const warning = `Batch [${sortKey}] pages ${batchRangeStr}: malformed figure tag: ${fullTag}`;
                         console.warn(warning);
                         errataEntries.push(warning);
                         processedMarkdown = processedMarkdown.replace(
                             fullTag,
-                            `\n\n> ⚠️ Figure extraction failed (malformed coordinates from model) — see errata file\n\n`
+                            `\n\n> ⚠️ Figure extraction failed (malformed coordinates) — see errata file\n\n`
                         );
                         continue;
                     }
 
-                    const [imageIndex, ymin, xmin, ymax, xmax] = args; // imageIndex is 1-based
+                    const [imageIndex, ymin, xmin, ymax, xmax] = args;
 
-                    // Map the imageIndex back to the actual PDF page number
                     if (imageIndex >= 1 && imageIndex <= batchPages.length) {
-                        const pageNum = batchPages[imageIndex - 1]; // Translate to actual PDF page
+                        const pageNum = batchPages[imageIndex - 1];
 
-                        // Get page size in points using pdfinfo
                         const info = await run(`pdfinfo -f ${pageNum} -l ${pageNum} "${fullPdfPath}"`);
                         const sizeMatch = info.match(/Page\s+\d+\s+size:\s+([\d.]+)\s+x\s+([\d.]+)/) || info.match(/Page size:\s+([\d.]+)\s+x\s+([\d.]+)/);
 
@@ -466,13 +601,11 @@ module.exports = async ({ app, obsidian, secrets }) => {
                             const pageHeight = parseFloat(sizeMatch[2]);
                             const slug = activeFile.basename.replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').slice(0, 30);
 
-                            // Translate normalized coordinates [0, 1000] to PDF points [72 DPI]
                             const x = (xmin / 1000) * pageWidth;
                             const y = (ymin / 1000) * pageHeight;
                             const w = ((xmax - xmin) / 1000) * pageWidth;
                             const h = ((ymax - ymin) / 1000) * pageHeight;
 
-                            // Calculate pixel bounds at pdftoppm's 150 DPI resolution
                             const scale = 150 / 72;
                             const pxX = Math.round(x * scale);
                             const pxY = Math.round(y * scale);
@@ -480,20 +613,17 @@ module.exports = async ({ app, obsidian, secrets }) => {
                             const pxH = Math.round(h * scale);
 
                             const figImgName = `fig-${slug}-p${pageNum}-${figCount}`;
-                            const figImgPath = path.join(attachmentsDir, figImgName); // Save directly to the custom attachments folder
+                            const figImgPath = path.join(attachmentsDir, figImgName);
 
-                            // Crop the vector bounding box directly from the original PDF
                             await run(`pdftoppm -png -r 150 -x ${pxX} -y ${pxY} -W ${pxW} -H ${pxH} -f ${pageNum} -l ${pageNum} "${fullPdfPath}" "${figImgPath}"`);
 
-                            // Dynamically scan the attachments directory to find the actual filename generated on disk
                             const attachmentFiles = fs.readdirSync(attachmentsDir);
                             const actualFigFile = attachmentFiles.find(f => f.startsWith(figImgName) && f.endsWith('.png'));
 
                             if (actualFigFile) {
-                                // Swap out the placeholder HTML comment with a clean, path-free Obsidian link
                                 processedMarkdown = processedMarkdown.replace(fullTag, `\n\n![[${actualFigFile}]]\n\n`);
                             } else {
-                                const warning = `Batch [${sortKey}] page ${pageNum}: pdftoppm ran but no output file found for prefix "${figImgName}" — crop likely failed`;
+                                const warning = `Batch [${sortKey}] page ${pageNum}: crop file not found for "${figImgName}"`;
                                 console.warn(warning);
                                 errataEntries.push(warning);
                                 processedMarkdown = processedMarkdown.replace(
@@ -503,16 +633,16 @@ module.exports = async ({ app, obsidian, secrets }) => {
                             }
                             figCount++;
                         } else {
-                            const warning = `Batch [${sortKey}] page ${pageNum}: pdfinfo output did not match expected page-size format — crop skipped`;
+                            const warning = `Batch [${sortKey}] page ${pageNum}: pdfinfo size format mismatch`;
                             console.warn(warning);
                             errataEntries.push(warning);
                             processedMarkdown = processedMarkdown.replace(
-                                [fullTag],
-                                    `\n\n> ⚠️ Figure extraction failed (could not read page size, page ${pageNum}) — see errata file\n\n`
-                                );
+                                fullTag,
+                                `\n\n> ⚠️ Figure extraction failed (could not read page size, page ${pageNum}) — see errata file\n\n`
+                            );
                         }
                     } else {
-                        const warning = `Batch [${sortKey}] pages ${batchRangeStr}: figure tag referenced imageIndex ${imageIndex}, out of range for batch of ${batchPages.length} page(s)`;
+                        const warning = `Batch [${sortKey}] pages ${batchRangeStr}: figure tag imageIndex ${imageIndex} out of range`;
                         console.warn(warning);
                         errataEntries.push(warning);
                         processedMarkdown = processedMarkdown.replace(
@@ -523,13 +653,12 @@ module.exports = async ({ app, obsidian, secrets }) => {
                 }
                 // ───────────────────────────────────────────────────────────────
 
-                // Write this batch result to a temp file immediately (avoids accumulating in memory).
                 fs.writeFileSync(tmpResultPath, `\n\n<!-- Page(s) ${batchRangeStr} -->\n\n` + processedMarkdown);
                 completedCount++;
                 currentNotice.setMessage(`Extracted ${completedCount} of ${totalBatchesRef.value} batches...`);
 
             } finally {
-                // Clean up temporary files
+                // Sweep local batch files
                 if (fs.existsSync(tmpPdf)) fs.unlinkSync(tmpPdf);
                 if (fs.existsSync(tmpPayloadPath)) fs.unlinkSync(tmpPayloadPath);
                 
@@ -549,14 +678,11 @@ module.exports = async ({ app, obsidian, secrets }) => {
 
         const runQueue = async () => {
             while (taskQueue.length > 0 || activeTasks.size > 0) {
-                // Instantly propagate any fatal error to discontinue remainder tasks
                 if (globalError) {
                     throw globalError;
                 }
 
                 if (taskQueue.length > 0 && activeTasks.size < CONCONCURRENCY) {
-                    
-                    // If a retry is occurring in another worker, hold task dispatching
                     while (retryingCount > 0) {
                         if (globalError) throw globalError;
                         currentNotice.setMessage(`Queue paused: waiting for active retry backoff to clear...`);
@@ -567,8 +693,8 @@ module.exports = async ({ app, obsidian, secrets }) => {
                     const taskPromise = processBatch(taskInfo.batchPages, taskInfo.sortKey)
                         .catch((err) => {
                             if (!globalError) {
-                                globalError = err; // Set flag to break execution immediately
-                                abortAllActiveProcesses(); // Hard abort all other running background command lines immediately
+                                globalError = err;
+                                abortAllActiveProcesses();
                             }
                             throw err;
                         });
@@ -579,7 +705,6 @@ module.exports = async ({ app, obsidian, secrets }) => {
                         () => activeTasks.delete(taskPromise)
                     );
 
-                    // Stagger next launch if there are more tasks pending
                     if (taskQueue.length > 0 && activeTasks.size < CONCONCURRENCY) {
                         const sleepSteps = STAGGER_DELAY / 1000;
                         for (let s = 0; s < sleepSteps; s++) {
@@ -588,7 +713,6 @@ module.exports = async ({ app, obsidian, secrets }) => {
                         }
                     }
                 } else {
-                    // Wait for at least one active slot to open up
                     if (activeTasks.size > 0) {
                         await Promise.race(activeTasks);
                     } else {
@@ -605,7 +729,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
         await runQueue();
         // ──────────────────────────────────────────────────────────────────
 
-        // 5. Collect all result temp files, sort by key, and concatenate in order
+        // 5. Collect all result temp files and assemble Markdown note
         const date = new Date().toISOString().slice(0, 10);
         const slug = activeFile.basename.replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').slice(0, 50);
         const filename = `${date}-${slug}-p${pageRange.replace(/[^0-9-]/g, '')}.md`;
@@ -614,7 +738,6 @@ module.exports = async ({ app, obsidian, secrets }) => {
         const relativePdfLink = `[[${activeFile.path}|Source PDF]]`;
         const frontmatter = `---\nSource: "${relativePdfLink}"\nPageRange: "${pageRange}"\n---\n\n`;
 
-        // Gather all result temp files for this run and sort them by their key
         const allTmpFiles = fs.readdirSync(os.tmpdir())
             .filter(f => f.startsWith(`result-${ts}-`) && f.endsWith('.md'))
             .sort((a, b) => {
@@ -628,7 +751,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
         for (const tmpFile of allTmpFiles) {
             const tmpFilePath = path.join(os.tmpdir(), tmpFile);
             writeStream.write(fs.readFileSync(tmpFilePath, 'utf8'));
-            fs.unlinkSync(tmpFilePath); // clean up temp file
+            fs.unlinkSync(tmpFilePath);
         }
         await new Promise((resolve, reject) => {
             writeStream.end();
@@ -636,7 +759,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
             writeStream.on('error', reject);
         });
 
-        // Open the Markdown file side-by-side with your PDF
+        // Open note side-by-side with PDF
         const vaultPath = `Private/Clippings/${filename}`;
         const file = app.vault.getAbstractFileByPath(vaultPath);
         if (file) {
@@ -644,7 +767,7 @@ module.exports = async ({ app, obsidian, secrets }) => {
             await rightLeaf.openFile(file);
         }
 
-        // Write errata file only if something was actually flagged this run
+        // Errata logging
         if (errataEntries.length > 0) {
             if (!fs.existsSync(errataDir)) fs.mkdirSync(errataDir, { recursive: true });
             const errataPath = path.join(errataDir, `${date}-${slug}-errata.md`);
@@ -655,10 +778,13 @@ module.exports = async ({ app, obsidian, secrets }) => {
         }
 
         currentNotice.hide();
+
+        const usageSummary = MODEL_CASCADE.map(m => `${m.name}: ${getDailyUsage(m.id)}/${m.limit}`).join(' | ');
+
         if (errataEntries.length > 0) {
-            new Notice(`Clipped ${pageNumbers.length} page(s) — ${errataEntries.length} issue(s) flagged, see errata file`);
+            new Notice(`Clipped ${pageNumbers.length} page(s) — ${errataEntries.length} issue(s) flagged (see errata)\n${usageSummary}`, 8000);
         } else {
-            new Notice(`Clipped ${pageNumbers.length} page(s) successfully!`);
+            new Notice(`Clipped ${pageNumbers.length} page(s) successfully!\n${usageSummary}`, 6000);
         }
 
     } catch (err) {
@@ -666,7 +792,6 @@ module.exports = async ({ app, obsidian, secrets }) => {
         new Notice(`Clip failed: ${err.message}`);
         console.error('PdfClipper.js error:', err);
 
-        // Discontinue program and sweep all temporary segments immediately to leave nothing loaded
         try {
             const tempFiles = fs.readdirSync(os.tmpdir());
             for (const file of tempFiles) {

@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1769614825802_94ozn2p2b
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 completedDate: 2026-05-19
 ---
 ## Synthesis

@@ -1,11 +1,5 @@
 ---
 status: open
-reminders:
-  - id: rem_1779435883723_ryde5n1t7
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 parent:
   - "[[(T) Task Date Visualizer]]"
 ---

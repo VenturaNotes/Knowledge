@@ -7,8 +7,11 @@
 - (2) A measure of the amount of trade that has taken place, usually in a specified period. On the London Stock Exchange, for example, the number of shares traded in a day is called the volume, and the value of these shares is called the turnover. In commodity markets, the daily volume is usually the number of lots traded in a day.
 ## Source[^3]
 - The magnitude of the complex audiofrequency signals in an audiofrequency transmission system.
+## Source[^4]
+- A measure of the 3-dimensional space enclosed by a solid.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

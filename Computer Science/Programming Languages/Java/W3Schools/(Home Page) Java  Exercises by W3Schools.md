@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1770871910847_9txvulkqf
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 tags:
   - type/website
 Source:

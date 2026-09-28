@@ -32,6 +32,8 @@ aliases:
 - $n$. (in statistics) any characteristic (e.g. age, lifestyle, or habit) relating to an individual or group that can take a number of different values. Categorical or qualitative variables are descriptive characteristics, such as sex, race, or occupation; quantitative variables relate to a numerical scale and are subdivided into discrete variables, found only at fixed points (e.g. number of children), and continuous variables, found at any point on a scale (e.g. weight). See also CONFOUNDING; CORRELATION.
 ## Source[^7]
 - In statistics and research, any characteristic relating to an individual or group that can take a number of different values. Categorical or qualitative variables are descriptive characteristics, such as sex or species; quantitative variables relate to a numerical scale and are subdivided into discrete variables, found only at fixed points (e.g. number of offspring), and continuous variables, found at any point on a scale (e.g. weight). See also CONFOUNDING; CORRELATION.
+## Source[^8]
+- A variable, often denoted by a single letter which may represent any element of a given set. When variables $x$ and $y$ are related by a function, so $y = f(x)$, then $x$ is referred to as the independent variable and $y$ as the dependent variable.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-2-programming-fundamentals-quizzes/2-2-programming-fundamentals-quiz-10-questions/
@@ -41,3 +43,4 @@ aliases:
 [^5]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^6]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^7]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^8]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

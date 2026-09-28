@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1779605731195_9h4jt4461
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 parent:
   - "[[(T) Task Date Visualizer]]"
 completedDate: 2026-05-24

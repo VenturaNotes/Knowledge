@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1776300131159_3lri3aj9y
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 completedDate: 2026-04-15
 ---
 ## Problem

@@ -1,11 +1,5 @@
 ---
 status: done
-reminders:
-  - id: rem_1767456662478_3fmxg4v65
-    type: relative
-    description: ""
-    relatedTo: scheduled
-    offset: -PT0H
 completedDate: 2026-01-03
 ---
 ## Synthesis
