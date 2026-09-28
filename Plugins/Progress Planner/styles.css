@@ -1,5 +1,5 @@
 /* ==========================================================================
-   1. Goals Graph (Dashboard View) Styles
+   1. Goals Graph (Dashboard View) & Active Task Status Bar Styles
    ========================================================================== */
 .tq-root { 
     display: block; 
@@ -181,12 +181,6 @@
     cursor: not-allowed;
 }
 
-.tq-parent-pill.is-active-container {
-    border-color: var(--interactive-accent);
-    background: var(--background-modifier-hover);
-    box-shadow: 0 0 0 1px var(--interactive-accent);
-}
-
 .tq-select {
     background: var(--background-primary);
     color: var(--text-normal);
@@ -290,10 +284,6 @@
     border: 2px solid var(--text-muted) !important; 
 }
 
-/* 
-  Using double box-shadow to generate a thick purple glow OUTSIDE of the existing border 
-  so that it does not overwrite the red/orange/gray impact colors.
-*/
 .tq-node.is-active { 
     box-shadow: 0 0 0 3px var(--interactive-accent), 0 0 15px var(--interactive-accent) !important; 
     z-index: 20; 
@@ -336,12 +326,6 @@
     transform: scale(1.08);
 }
 
-/*
-  Fold badge occupies the same corner as .tq-hub-badge — a node is only ever a
-  collapsed hub (has a +N to expand) or an expanded one (has this to fold), never
-  both. Muted/outlined instead of solid accent so "already expanded" reads calmer
-  than the "N hidden, click to reveal" call-to-action.
-*/
 .tq-hub-fold-badge {
     position: absolute;
     top: -8px;
@@ -365,12 +349,6 @@
     transform: scale(1.08);
 }
 
-/*
-  Depth-cutoff badge: visually distinct from .tq-hub-badge on purpose. Hub badges mean
-  "hidden because of impact/threshold at this node"; depth badges mean "not rendered
-  yet because renderDistance ran out here" — different reasons, different fix (click
-  to expand this branch vs. tune hub settings), so they should never look the same.
-*/
 .tq-depth-badge {
     position: absolute;
     top: -8px;
@@ -394,12 +372,6 @@
     transform: scale(1.08);
 }
 
-/*
-  Fold badge occupies the same corner as .tq-depth-badge, since a node is only ever
-  in one state or the other (freshly-cut-off frontier vs. already-expanded) — never
-  both at once. Filled/solid instead of dashed so "expanded, click to collapse" reads
-  differently from "collapsed, click to expand" at a glance.
-*/
 .tq-depth-fold-badge {
     position: absolute;
     top: -8px;
@@ -459,16 +431,12 @@
     cursor: pointer; 
 }
 
-/*
-  Active-task overlay row — a separate div inserted directly above Obsidian's
-  native .status-bar (NOT a real addStatusBarItem() entry). Sized in JS to end
-  exactly where the native status bar begins; most of the visual shape here is
-  just matching that bar's own background/corner so it reads as one continuous
-  strip rather than two disconnected bars.
-*/
+/* ==========================================================================
+   Active-task overlay row (Status Bar Chip)
+   ========================================================================== */
 .tq-active-task-row {
     box-sizing: border-box;
-    padding: 0 2px;
+    padding: 0 4px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -479,17 +447,9 @@
     border-bottom-right-radius: 0;
 }
 
-/*
-  Chip text itself. Width/truncation is computed in JS (fitText's binary
-  search) rather than CSS ellipsis, so it only ever cuts when the text
-  genuinely doesn't fit the available row width — not at a fixed character
-  count. Deliberately not styled as clickable (no pointer cursor, no hover
-  state): this is a peripheral-vision glance, not an interactive element —
-  the hotkey into VaporNote is the only way in.
-*/
 .tq-active-task-chip {
     display: inline-block;
-    padding: 0 2px;
+    padding: 0 4px;
     font-size: var(--font-ui-smaller, 12px);
     font-family: var(--font-interface);
     font-weight: 600;
@@ -502,15 +462,10 @@
 }
 
 .tq-active-task-chip.is-empty {
-    color: var(--text-error);
+    color: var(--text-error, #ff4d4f) !important;
 }
 
-/*
-  Gear-icon settings panel — replaces what used to live permanently in the left
-  sidebar. Sits inside .tq-map (not .tq-root) so it floats over the canvas the
-  same way Obsidian's native graph view settings panel does, rather than
-  permanently eating into map width like the old sidebar did.
-*/
+/* Graph Settings Gear Panel */
 .tq-settings-btn {
     position: absolute;
     top: 16px;
@@ -595,8 +550,9 @@
     padding: 0 12px 12px 12px;
 }
 
+
 /* ==========================================================================
-   2. Agenda Calendar (Agenda View) Styles
+   2. Agenda Calendar: Month View, Nav, & Overdue Panel
    ========================================================================== */
 .v7-root { 
     display: flex; 
@@ -613,6 +569,9 @@
     display: flex; 
     flex-direction: column; 
     min-width: 0; 
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
     border-right: 1px solid var(--background-modifier-border); 
 }
 
@@ -622,6 +581,19 @@
     justify-content: space-between; 
     align-items: center; 
     border-bottom: 1px solid var(--background-modifier-border); 
+    flex-shrink: 0;
+}
+
+.v7-nav-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.v7-nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .v7-month-title { 
@@ -673,9 +645,34 @@
 
 .v7-btn-warn { 
     background: var(--text-error); 
-    margin-left: 10px; 
 }
 
+.v7-view-toggle {
+    display: flex;
+    background: var(--background-secondary-alt);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.v7-toggle-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.v7-toggle-btn.is-active {
+    background: var(--interactive-accent);
+    color: white;
+}
+
+/* Month Grid */
 .v7-grid { 
     flex-grow: 1; 
     display: grid; 
@@ -683,6 +680,7 @@
     grid-template-rows: auto repeat(6, 1fr); 
     background: var(--background-modifier-border); 
     gap: 1px; 
+    min-height: 0;
 }
 
 .v7-weekday { 
@@ -767,6 +765,7 @@
     margin-top: 2px; 
 }
 
+/* Side Inspector / Overdue Panel */
 .v7-panel { 
     width: 350px; 
     flex-shrink: 0; 
@@ -774,6 +773,7 @@
     display: flex; 
     flex-direction: column; 
     border-left: 1px solid var(--background-modifier-border); 
+    height: 100%;
 }
 
 .v7-panel-header { 
@@ -850,4 +850,232 @@
 .v7-parent-link:hover {
     filter: brightness(1.25);
     text-decoration-color: #a774f0;
+}
+
+
+/* ==========================================================================
+   3. Agenda Weekly View Styles & Current Time Red Line
+   ========================================================================== */
+
+.v7-week-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+    background: var(--background-primary);
+}
+
+/* Day Header */
+.v7-week-header {
+    display: grid;
+    grid-template-columns: 50px repeat(7, 1fr);
+    background: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
+    flex-shrink: 0;
+}
+
+.v7-week-gutter-header {
+    padding: 6px;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid var(--background-modifier-border);
+}
+
+.v7-week-day-header {
+    padding: 8px 4px;
+    text-align: center;
+    border-right: 1px solid var(--background-modifier-border);
+    cursor: pointer;
+    transition: background 0.1s ease;
+}
+
+.v7-week-day-header:hover {
+    background: var(--background-modifier-hover);
+}
+
+.v7-week-day-header.is-today {
+    background: var(--background-primary-alt);
+    box-shadow: inset 0 -3px 0 0 var(--interactive-accent);
+}
+
+.v7-week-day-name {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.v7-week-day-date {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+.v7-week-day-header.is-today .v7-week-day-date {
+    color: var(--interactive-accent);
+}
+
+/* All-Day Tasks Section */
+.v7-week-allday-row {
+    display: grid;
+    grid-template-columns: 50px repeat(7, 1fr);
+    border-bottom: 2px solid var(--background-modifier-border);
+    background: var(--background-secondary-alt);
+    min-height: 36px;
+    max-height: 90px;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+.v7-week-allday-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid var(--background-modifier-border);
+}
+
+.v7-week-allday-cell {
+    border-right: 1px solid var(--background-modifier-border);
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Scrollable Hourly Area - Bounded with native wheel scroll */
+.v7-week-scroll-area {
+    flex: 1 1 0px;
+    min-height: 0;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    position: relative;
+    background: var(--background-primary);
+}
+
+.v7-week-grid {
+    display: grid;
+    grid-template-columns: 50px repeat(7, 1fr);
+    height: 1248px; /* 24 hours * 52px */
+    position: relative;
+}
+
+/* Gutter */
+.v7-week-time-gutter {
+    border-right: 1px solid var(--background-modifier-border);
+    background: var(--background-secondary);
+}
+
+.v7-week-hour-slot {
+    height: 52px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 6px;
+    border-bottom: 1px solid transparent;
+}
+
+.v7-week-hour-text {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    transform: translateY(-50%);
+}
+
+/* Day Column */
+.v7-week-col {
+    position: relative;
+    border-right: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
+}
+
+.v7-week-col.is-today {
+    background: rgba(var(--interactive-accent-rgb), 0.025);
+}
+
+.v7-week-grid-line {
+    height: 52px;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* Timed Task Cards */
+.v7-week-item {
+    position: absolute;
+    box-sizing: border-box;
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-left: 3px solid var(--interactive-accent);
+    border-radius: 4px;
+    padding: 4px 6px;
+    font-size: 0.72rem;
+    line-height: 1.25;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 10;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    transition: transform 0.1s ease, z-index 0.1s ease, box-shadow 0.1s ease;
+}
+
+.v7-week-item:hover {
+    z-index: 30;
+    transform: scale(1.02);
+    box-shadow: var(--shadow-m, 0 4px 10px rgba(0, 0, 0, 0.25));
+    border-color: var(--interactive-accent);
+    white-space: normal;
+}
+
+.v7-week-item.is-project {
+    border-left-width: 4px;
+}
+
+.v7-week-item.is-done {
+    opacity: 0.6;
+    text-decoration: line-through;
+    border-left-color: var(--text-success);
+    background: rgba(68, 188, 100, 0.1);
+}
+
+.v7-week-time {
+    color: var(--text-accent);
+    font-weight: 700;
+    font-size: 0.65rem;
+}
+
+/* Live Current Time Red Line Indicator */
+.v7-now-indicator {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 50;
+    pointer-events: none;
+}
+
+.v7-now-line {
+    width: 100%;
+    height: 2px;
+    background: #ff4d4f;
+    box-shadow: 0 0 6px rgba(255, 77, 79, 0.8);
+}
+
+.v7-now-dot {
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff4d4f;
+    box-shadow: 0 0 8px #ff4d4f;
 }

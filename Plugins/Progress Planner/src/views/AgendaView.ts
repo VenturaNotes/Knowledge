@@ -4,6 +4,7 @@ import { AgendaItem } from "../types";
 
 export const VIEW_TYPE_AGENDA = "v7-agenda-view";
 const MAX_ITEMS_PER_DAY = 3;
+const HOUR_HEIGHT = 52; // Height in pixels for each 1-hour block
 
 export class AgendaView extends ItemView {
     private plugin: ProgressPlannerPlugin;
@@ -11,18 +12,22 @@ export class AgendaView extends ItemView {
     private selectedDateItems: AgendaItem[] | null = null;
     private selectedDateLabel = "";
 
+    // View Mode: Month vs Week
+    private calendarMode: "month" | "week" = "month";
+
     // Live Overdue Panel States
     private overdueQuery = "";
-    private overdueSort = "date-desc"; // Newest to oldest default
+    private overdueSort = "date-desc";
 
-    // Sleep mode tracking
+    // Sleep mode & Live Timer tracking
     public isDormant = false;
     private visibilityObserver: IntersectionObserver | null = null;
+    private nowIntervalId: number | null = null;
 
     constructor(leaf: WorkspaceLeaf, plugin: ProgressPlannerPlugin) {
         super(leaf);
         this.plugin = plugin;
-        this.currentMoment = (window as any).moment().startOf('month');
+        this.currentMoment = (window as any).moment();
     }
 
     getViewType(): string {
@@ -48,6 +53,7 @@ export class AgendaView extends ItemView {
                     }
                 } else {
                     this.isDormant = true;
+                    this.clearNowTimer();
                 }
             }
         });
@@ -57,6 +63,7 @@ export class AgendaView extends ItemView {
     }
 
     async onClose() {
+        this.clearNowTimer();
         this.visibilityObserver?.disconnect();
         this.visibilityObserver = null;
     }
@@ -66,6 +73,13 @@ export class AgendaView extends ItemView {
         if (this.isDormant && this.isViewVisible()) {
             this.isDormant = false;
             this.render();
+        }
+    }
+
+    private clearNowTimer() {
+        if (this.nowIntervalId !== null) {
+            window.clearInterval(this.nowIntervalId);
+            this.nowIntervalId = null;
         }
     }
 
@@ -156,6 +170,12 @@ export class AgendaView extends ItemView {
         }
     }
 
+    private parseTimeToMinutes(tStr: string | null): number | null {
+        if (!tStr) return null;
+        const m = (window as any).moment(tStr, ["h:mmA", "HH:mm", "h:mm A", "hh:mm a", "H:mm"]);
+        return m.isValid() ? m.hours() * 60 + m.minutes() : null;
+    }
+
     private createItemEl(item: AgendaItem, isPanel = false, showDueDetails = false): HTMLElement {
         const isDone = item.status !== " ";
         const el = document.createElement("div");
@@ -209,6 +229,176 @@ export class AgendaView extends ItemView {
             await this.openFileAdjacent(file, item.line);
         };
         return el;
+    }
+
+    private createWeekItemEl(item: AgendaItem, topPx: number, heightPx: number): HTMLElement {
+        const isDone = item.status !== " ";
+        const el = document.createElement("div");
+        el.className = `v7-week-item ${item.isProject ? 'is-project' : ''} ${isDone ? 'is-done' : ''}`;
+        el.style.top = `${topPx}px`;
+        el.style.height = `${Math.max(26, heightPx)}px`;
+
+        const timeSpan = item.time ? `<span class="v7-week-time">${item.time}</span> ` : "";
+        el.innerHTML = `${timeSpan}<strong>${isDone ? '✓ ' : ''}${item.text}</strong>`;
+        el.title = `${item.time ? item.time + ' - ' : ''}${item.text} (${item.file})`;
+
+        el.onclick = async (e) => {
+            e.stopPropagation();
+            const file = this.app.vault.getAbstractFileByPath(item.path);
+            if (!file || !(file instanceof TFile)) return;
+            await this.openFileAdjacent(file, item.line);
+        };
+
+        return el;
+    }
+
+    private updateNowLinePosition() {
+        const indicator = this.contentEl.querySelector<HTMLElement>(".v7-now-indicator");
+        if (!indicator) return;
+        const now = (window as any).moment();
+        const minutes = now.hours() * 60 + now.minutes();
+        const topPx = (minutes / 60) * HOUR_HEIGHT;
+        indicator.style.top = `${topPx}px`;
+    }
+
+    private renderWeekView(main: HTMLElement, allData: AgendaItem[]) {
+        const startOfWeek = this.currentMoment.clone().startOf('isoWeek');
+        const now = (window as any).moment();
+
+        const weekContainer = main.createDiv("v7-week-container");
+
+        // 1. Week Days Header
+        const headerRow = weekContainer.createDiv("v7-week-header");
+        headerRow.createDiv({ cls: "v7-week-gutter-header", text: "Time" });
+
+        const days: any[] = [];
+        for (let i = 0; i < 7; i++) {
+            const dayMoment = startOfWeek.clone().add(i, 'days');
+            days.push(dayMoment);
+            const isToday = dayMoment.isSame(now, 'day');
+
+            const colHead = headerRow.createDiv(`v7-week-day-header ${isToday ? 'is-today' : ''}`);
+            colHead.createDiv({ cls: "v7-week-day-name", text: dayMoment.format("ddd") });
+            colHead.createDiv({ cls: "v7-week-day-date", text: dayMoment.format("D") });
+
+            colHead.onclick = () => {
+                const dayDateStr = dayMoment.format("YYYY-MM-DD");
+                const dayItems = allData.filter(item => item.date === dayDateStr || this.isOccurringOn(item.rrule, dayMoment));
+                this.selectedDateItems = dayItems;
+                this.selectedDateLabel = dayMoment.format("MMMM D, YYYY");
+                this.render();
+            };
+        }
+
+        // 2. All-Day / Untimed Tasks Row
+        const allDayRow = weekContainer.createDiv("v7-week-allday-row");
+        allDayRow.createDiv({ cls: "v7-week-allday-label", text: "All-day" });
+
+        days.forEach(dayMoment => {
+            const dateStr = dayMoment.format("YYYY-MM-DD");
+            const dayUntimed = allData.filter(item => 
+                !item.time && (item.date === dateStr || this.isOccurringOn(item.rrule, dayMoment))
+            );
+
+            const dayCell = allDayRow.createDiv("v7-week-allday-cell");
+            dayUntimed.forEach(item => {
+                const isInstanceDone = Array.isArray(item.completeInstances) && item.completeInstances.includes(dateStr);
+                const itemClone = { ...item, status: (item.status !== " " || isInstanceDone) ? "x" : " " };
+                dayCell.appendChild(this.createItemEl(itemClone));
+            });
+        });
+
+        // 3. Scrollable Hourly Time Grid
+        const scrollArea = weekContainer.createDiv("v7-week-scroll-area");
+        const timeGrid = scrollArea.createDiv("v7-week-grid");
+
+        // Time Gutter Column
+        const gutter = timeGrid.createDiv("v7-week-time-gutter");
+        for (let h = 0; h < 24; h++) {
+            const hourSlot = gutter.createDiv("v7-week-hour-slot");
+            const timeLabel = (window as any).moment().hour(h).minute(0).format("h A");
+            hourSlot.createSpan({ cls: "v7-week-hour-text", text: h === 0 ? "" : timeLabel });
+        }
+
+        // 7 Day Columns
+        let hasTodayInView = false;
+
+        days.forEach(dayMoment => {
+            const dateStr = dayMoment.format("YYYY-MM-DD");
+            const isToday = dayMoment.isSame(now, 'day');
+            if (isToday) hasTodayInView = true;
+
+            const dayCol = timeGrid.createDiv(`v7-week-col ${isToday ? 'is-today' : ''}`);
+
+            // Hour background grid lines
+            for (let h = 0; h < 24; h++) {
+                dayCol.createDiv("v7-week-grid-line");
+            }
+
+            // Red Current Time Line Indicator
+            if (isToday) {
+                const nowIndicator = dayCol.createDiv("v7-now-indicator");
+                nowIndicator.createDiv("v7-now-dot");
+                nowIndicator.createDiv("v7-now-line");
+                const minutesNow = now.hours() * 60 + now.minutes();
+                nowIndicator.style.top = `${(minutesNow / 60) * HOUR_HEIGHT}px`;
+            }
+
+            // Timed Tasks
+            const timedItems = allData
+                .filter(item => item.time && (item.date === dateStr || this.isOccurringOn(item.rrule, dayMoment)))
+                .map(item => {
+                    const isInstanceDone = Array.isArray(item.completeInstances) && item.completeInstances.includes(dateStr);
+                    return {
+                        ...item,
+                        status: (item.status !== " " || isInstanceDone) ? "x" : " ",
+                        startMin: this.parseTimeToMinutes(item.time) ?? 0
+                    };
+                })
+                .sort((a, b) => a.startMin - b.startMin);
+
+            // Group overlapping items to share column width
+            const placedClusters: any[][] = [];
+            timedItems.forEach(item => {
+                let placed = false;
+                for (const cluster of placedClusters) {
+                    const lastInCluster = cluster[cluster.length - 1];
+                    if (item.startMin < lastInCluster.startMin + 45) {
+                        cluster.push(item);
+                        placed = true;
+                        break;
+                    }
+                }
+                if (!placed) placedClusters.push([item]);
+            });
+
+            placedClusters.forEach(cluster => {
+                const total = cluster.length;
+                cluster.forEach((item, idx) => {
+                    const topPx = (item.startMin / 60) * HOUR_HEIGHT;
+                    const card = this.createWeekItemEl(item, topPx, 45);
+                    const widthPercent = 100 / total;
+                    card.style.width = `calc(${widthPercent}% - 4px)`;
+                    card.style.left = `calc(${idx * widthPercent}% + 2px)`;
+                    dayCol.appendChild(card);
+                });
+            });
+        });
+
+        // Auto-scroll to center current time in view
+        window.setTimeout(() => {
+            const minutesNow = now.hours() * 60 + now.minutes();
+            const currentPx = (minutesNow / 60) * HOUR_HEIGHT;
+            scrollArea.scrollTop = hasTodayInView ? Math.max(0, currentPx - 200) : 8 * HOUR_HEIGHT;
+        }, 50);
+
+        // Start live 60s red line updater
+        this.clearNowTimer();
+        if (hasTodayInView) {
+            this.nowIntervalId = window.setInterval(() => {
+                this.updateNowLinePosition();
+            }, 60000);
+        }
     }
 
     private renderPanel(pContent: HTMLElement) {
@@ -302,9 +492,9 @@ export class AgendaView extends ItemView {
     }
 
     public async render() {
-        // Sleep Mode Guard: If hidden/in background tab group, abort calendar building
         if (!this.isViewVisible()) {
             this.isDormant = true;
+            this.clearNowTimer();
             return;
         }
         this.isDormant = false;
@@ -316,111 +506,170 @@ export class AgendaView extends ItemView {
         const root = container.createDiv("v7-root");
         const main = root.createDiv("v7-main");
 
+        // Top Navigation Header
         const nav = main.createDiv("v7-nav");
-        const leftNav = nav.createDiv();
+        const leftNav = nav.createDiv({ cls: "v7-nav-left" });
         const prevBtn = leftNav.createEl("button", { cls: "v7-btn", text: "＜" });
         const nextBtn = leftNav.createEl("button", { cls: "v7-btn", text: "＞" });
+        const todayBtn = leftNav.createEl("button", { cls: "v7-btn", text: "Today" });
 
-        const monthTitle = nav.createDiv({ cls: "v7-month-title", text: this.currentMoment.format("MMMM YYYY") });
+        // Title: Displays Month + Year or Week Date Range
+        let titleText = "";
+        if (this.calendarMode === "month") {
+            titleText = this.currentMoment.format("MMMM YYYY");
+        } else {
+            const startOfWeek = this.currentMoment.clone().startOf('isoWeek');
+            const endOfWeek = this.currentMoment.clone().endOf('isoWeek');
+            titleText = `${startOfWeek.format("MMM D")} – ${endOfWeek.format("MMM D, YYYY")}`;
+        }
 
-        monthTitle.onclick = () => {
-            monthTitle.onclick = null;
-            monthTitle.empty();
+        const navTitle = nav.createDiv({ cls: "v7-month-title", text: titleText });
 
-            const monthSelect = monthTitle.createEl("select", { cls: "v7-select" });
-            for (let i = 0; i < 12; i++) {
-                const opt = monthSelect.createEl("option", { value: String(i), text: (window as any).moment().month(i).format("MMMM") });
-                if (i === this.currentMoment.month()) opt.selected = true;
-            }
+        // Month Picker Menu when clicking title in Month Mode
+        if (this.calendarMode === "month") {
+            navTitle.onclick = () => {
+                navTitle.onclick = null;
+                navTitle.empty();
 
-            const yearSelect = monthTitle.createEl("select", { cls: "v7-select" });
-            const baseYear = (window as any).moment().year();
-            const startYear = baseYear - 10;
-            const endYear = baseYear + 10;
-            for (let y = startYear; y <= endYear; y++) {
-                const opt = yearSelect.createEl("option", { value: String(y), text: String(y) });
-                if (y === this.currentMoment.year()) opt.selected = true;
-            }
+                const monthSelect = navTitle.createEl("select", { cls: "v7-select" });
+                for (let i = 0; i < 12; i++) {
+                    const opt = monthSelect.createEl("option", { value: String(i), text: (window as any).moment().month(i).format("MMMM") });
+                    if (i === this.currentMoment.month()) opt.selected = true;
+                }
 
-            const btnContainer = monthTitle.createSpan();
-            btnContainer.setAttribute("style", "display: flex; gap: 4px; margin-left: 5px;");
-            
-            const okBtn = btnContainer.createEl("button", { cls: "v7-btn", text: "✓" });
-            const cancelBtn = btnContainer.createEl("button", { cls: "v7-btn", text: "✕" });
-            cancelBtn.setAttribute("style", "background: var(--background-modifier-border); color: var(--text-normal);");
+                const yearSelect = navTitle.createEl("select", { cls: "v7-select" });
+                const baseYear = (window as any).moment().year();
+                for (let y = baseYear - 10; y <= baseYear + 10; y++) {
+                    const opt = yearSelect.createEl("option", { value: String(y), text: String(y) });
+                    if (y === this.currentMoment.year()) opt.selected = true;
+                }
 
-            okBtn.onclick = (e) => {
-                e.stopPropagation();
-                this.currentMoment.date(1).month(parseInt(monthSelect.value)).year(parseInt(yearSelect.value));
-                this.render();
+                const btnContainer = navTitle.createSpan();
+                btnContainer.setAttribute("style", "display: flex; gap: 4px; margin-left: 5px;");
+                
+                const okBtn = btnContainer.createEl("button", { cls: "v7-btn", text: "✓" });
+                const cancelBtn = btnContainer.createEl("button", { cls: "v7-btn", text: "✕" });
+                cancelBtn.setAttribute("style", "background: var(--background-modifier-border); color: var(--text-normal);");
+
+                okBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    this.currentMoment.date(1).month(parseInt(monthSelect.value)).year(parseInt(yearSelect.value));
+                    this.render();
+                };
+
+                cancelBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    this.render();
+                };
+
+                monthSelect.onclick = (e) => e.stopPropagation();
+                yearSelect.onclick = (e) => e.stopPropagation();
             };
+        }
 
-            cancelBtn.onclick = (e) => {
-                e.stopPropagation();
-                this.render();
-            };
+        // Navigation Right: Mode Toggle + Overdue Button
+        const rightNav = nav.createDiv({ cls: "v7-nav-right" });
 
-            monthSelect.onclick = (e) => e.stopPropagation();
-            yearSelect.onclick = (e) => e.stopPropagation();
+        const viewToggle = rightNav.createDiv("v7-view-toggle");
+        const monthModeBtn = viewToggle.createEl("button", { 
+            cls: `v7-toggle-btn ${this.calendarMode === 'month' ? 'is-active' : ''}`, 
+            text: "Month" 
+        });
+        const weekModeBtn = viewToggle.createEl("button", { 
+            cls: `v7-toggle-btn ${this.calendarMode === 'week' ? 'is-active' : ''}`, 
+            text: "Week" 
+        });
+
+        monthModeBtn.onclick = () => {
+            this.calendarMode = "month";
+            this.clearNowTimer();
+            this.render();
+        };
+
+        weekModeBtn.onclick = () => {
+            this.calendarMode = "week";
+            this.render();
         };
 
         const todayStr = (window as any).moment().format("YYYY-MM-DD");
         const overdueItems = allData.filter(i => i.date && i.date < todayStr && i.status === " ");
-        const overdueBtn = nav.createEl("button", { cls: "v7-btn v7-btn-warn", text: `🚨 Overdue: ${overdueItems.length}` });
+        const overdueBtn = rightNav.createEl("button", { cls: "v7-btn v7-btn-warn", text: `🚨 Overdue: ${overdueItems.length}` });
 
-        prevBtn.onclick = () => { this.currentMoment.subtract(1, 'month'); this.render(); };
-        nextBtn.onclick = () => { this.currentMoment.add(1, 'month'); this.render(); };
+        prevBtn.onclick = () => {
+            if (this.calendarMode === "month") this.currentMoment.subtract(1, 'month');
+            else this.currentMoment.subtract(1, 'week');
+            this.render();
+        };
+
+        nextBtn.onclick = () => {
+            if (this.calendarMode === "month") this.currentMoment.add(1, 'month');
+            else this.currentMoment.add(1, 'week');
+            this.render();
+        };
+
+        todayBtn.onclick = () => {
+            this.currentMoment = (window as any).moment();
+            this.render();
+        };
+
         overdueBtn.onclick = () => {
             this.selectedDateItems = overdueItems;
             this.selectedDateLabel = "🚨 Overdue Tasks";
             this.render();
         };
 
-        const grid = main.createDiv("v7-grid");
-        ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].forEach(d => grid.createDiv({ cls: "v7-weekday", text: d }));
+        // Render Calendar Body
+        if (this.calendarMode === "week") {
+            this.renderWeekView(main, allData);
+        } else {
+            this.clearNowTimer();
+            const grid = main.createDiv("v7-grid");
+            ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].forEach(d => grid.createDiv({ cls: "v7-weekday", text: d }));
 
-        const startOfGrid = this.currentMoment.clone().startOf('month').startOf('isoWeek');
-        const endOfGrid = this.currentMoment.clone().endOf('month').endOf('isoWeek');
+            const startOfGrid = this.currentMoment.clone().startOf('month').startOf('isoWeek');
+            const endOfGrid = this.currentMoment.clone().endOf('month').endOf('isoWeek');
 
-        const day = startOfGrid.clone();
-        while (day.isBefore(endOfGrid) || day.isSame(endOfGrid, 'day')) {
-            const dateStr = day.format("YYYY-MM-DD");
-            const dayRef = day.clone();
-            const isToday = day.isSame((window as any).moment(), 'day');
-            const isOtherMonth = !day.isSame(this.currentMoment, 'month');
+            const day = startOfGrid.clone();
+            while (day.isBefore(endOfGrid) || day.isSame(endOfGrid, 'day')) {
+                const dateStr = day.format("YYYY-MM-DD");
+                const dayRef = day.clone();
+                const isToday = day.isSame((window as any).moment(), 'day');
+                const isOtherMonth = !day.isSame(this.currentMoment, 'month');
 
-            const dayBox = grid.createDiv(`v7-day ${isOtherMonth ? 'other-month' : ''} ${isToday ? 'is-today' : ''}`);
-            dayBox.createDiv({ cls: "v7-day-num", text: day.format("D") });
+                const dayBox = grid.createDiv(`v7-day ${isOtherMonth ? 'other-month' : ''} ${isToday ? 'is-today' : ''}`);
+                dayBox.createDiv({ cls: "v7-day-num", text: day.format("D") });
 
-            const dayItems = allData.filter(i => i.date === dateStr || this.isOccurringOn(i.rrule, dayRef))
-                .map(i => {
-                    const isInstanceDone = Array.isArray(i.completeInstances) && i.completeInstances.includes(dateStr);
-                    return {
-                        ...i,
-                        status: (i.status !== " " || isInstanceDone) ? "x" : " "
-                    };
-                })
-                .sort((a, b) => {
-                    if (!a.time) return 1;
-                    if (!b.time) return -1;
-                    return (window as any).moment(a.time, "h:mmA").diff((window as any).moment(b.time, "h:mmA"));
-                });
+                const dayItems = allData.filter(i => i.date === dateStr || this.isOccurringOn(i.rrule, dayRef))
+                    .map(i => {
+                        const isInstanceDone = Array.isArray(i.completeInstances) && i.completeInstances.includes(dateStr);
+                        return {
+                            ...i,
+                            status: (i.status !== " " || isInstanceDone) ? "x" : " "
+                        };
+                    })
+                    .sort((a, b) => {
+                        if (!a.time) return 1;
+                        if (!b.time) return -1;
+                        return (window as any).moment(a.time, "h:mmA").diff((window as any).moment(b.time, "h:mmA"));
+                    });
 
-            dayItems.slice(0, MAX_ITEMS_PER_DAY).forEach(i => dayBox.appendChild(this.createItemEl(i)));
+                dayItems.slice(0, MAX_ITEMS_PER_DAY).forEach(i => dayBox.appendChild(this.createItemEl(i)));
 
-            if (dayItems.length > MAX_ITEMS_PER_DAY) {
-                dayBox.createDiv({ cls: "v7-more", text: `+ ${dayItems.length - MAX_ITEMS_PER_DAY} more` });
+                if (dayItems.length > MAX_ITEMS_PER_DAY) {
+                    dayBox.createDiv({ cls: "v7-more", text: `+ ${dayItems.length - MAX_ITEMS_PER_DAY} more` });
+                }
+
+                dayBox.onclick = () => {
+                    this.selectedDateItems = dayItems;
+                    this.selectedDateLabel = dayRef.format("MMMM D, YYYY");
+                    this.render();
+                };
+
+                day.add(1, 'day');
             }
-
-            dayBox.onclick = () => {
-                this.selectedDateItems = dayItems;
-                this.selectedDateLabel = dayRef.format("MMMM D, YYYY");
-                this.render();
-            };
-
-            day.add(1, 'day');
         }
 
+        // Side Inspector Panel
         if (this.selectedDateItems) {
             const panel = root.createDiv("v7-panel");
             const pHead = panel.createDiv("v7-panel-header");
