@@ -29,6 +29,10 @@ export class AgendaView extends ItemView {
     private ghostEl: HTMLElement | null = null;
     private justDropped = false;
 
+    // Viewport scroll preservation
+    private hasInitialScrolled = false;
+    private savedScrollTop: number | null = null;
+
     constructor(leaf: WorkspaceLeaf, plugin: ProgressPlannerPlugin) {
         super(leaf);
         this.plugin = plugin;
@@ -47,6 +51,10 @@ export class AgendaView extends ItemView {
         this.contentEl.style.padding = "0";
         this.contentEl.style.height = "100%";
         this.contentEl.style.overflow = "hidden";
+
+        // Reset scroll position on opening a fresh tab
+        this.hasInitialScrolled = false;
+        this.savedScrollTop = null;
 
         // Monitor visibility to automatically sleep/wake
         this.visibilityObserver = new IntersectionObserver((entries) => {
@@ -302,7 +310,6 @@ export class AgendaView extends ItemView {
             }
         } else {
             el.innerHTML = `<span>${isDone ? '✓ ' : ''}${timeDisplay} ${item.text}</span>`;
-            // Enable dragging for tasks in the all-day tray
             el.draggable = true;
             el.ondragstart = (e) => {
                 this.draggedItem = item;
@@ -342,7 +349,6 @@ export class AgendaView extends ItemView {
         el.innerHTML = `${timeSpan}<strong>${isDone ? '✓ ' : ''}${item.text}</strong>`;
         el.title = `${item.time ? item.time + ' - ' : ''}${item.text} (${item.file})`;
 
-        // Make card draggable
         el.draggable = true;
         el.ondragstart = (e) => {
             this.draggedItem = item;
@@ -409,7 +415,7 @@ export class AgendaView extends ItemView {
             };
         }
 
-        // 2. All-Day / Untimed Tasks Row (Also a drop target for untimed tasks)
+        // 2. All-Day / Untimed Tasks Row
         const allDayRow = weekContainer.createDiv("v7-week-allday-row");
         allDayRow.createDiv({ cls: "v7-week-allday-label", text: "All-day" });
 
@@ -426,7 +432,6 @@ export class AgendaView extends ItemView {
                 dayCell.appendChild(this.createItemEl(itemClone));
             });
 
-            // Allow dropping onto All-day cell (clears time tag)
             dayCell.ondragover = (e: DragEvent) => {
                 e.preventDefault();
                 if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
@@ -447,7 +452,6 @@ export class AgendaView extends ItemView {
         const scrollArea = weekContainer.createDiv("v7-week-scroll-area");
         const timeGrid = scrollArea.createDiv("v7-week-grid");
 
-        // Sync header and all-day padding with the exact OS scrollbar width
         const syncScrollbarGutter = () => {
             const scrollbarWidth = scrollArea.offsetWidth - scrollArea.clientWidth;
             weekContainer.style.setProperty('--v7-scrollbar-width', `${scrollbarWidth}px`);
@@ -476,12 +480,10 @@ export class AgendaView extends ItemView {
 
             const dayCol = timeGrid.createDiv(`v7-week-col ${isToday ? 'is-today' : ''}`);
 
-            // Hour background grid lines
             for (let h = 0; h < 24; h++) {
                 dayCol.createDiv("v7-week-grid-line");
             }
 
-            // Red Current Time Line Indicator
             if (isToday) {
                 const nowIndicator = dayCol.createDiv("v7-now-indicator");
                 nowIndicator.createDiv("v7-now-dot");
@@ -490,7 +492,6 @@ export class AgendaView extends ItemView {
                 nowIndicator.style.top = `${(minutesNow / 60) * HOUR_HEIGHT}px`;
             }
 
-            // Drag-over listener on the day column with 15-minute snapping
             dayCol.ondragover = (e: DragEvent) => {
                 e.preventDefault();
                 if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
@@ -498,7 +499,6 @@ export class AgendaView extends ItemView {
 
                 const rect = dayCol.getBoundingClientRect();
                 const offsetY = e.clientY - rect.top;
-                // Snap to nearest 15-minute block
                 const minutes = Math.max(0, Math.min(1425, Math.round((offsetY / HOUR_HEIGHT) * 4) * 15));
                 const topPx = Math.min((minutes / 60) * HOUR_HEIGHT, maxTopPx);
                 const timeStr = (window as any).moment().startOf('day').add(minutes, 'minutes').format("h:mmA");
@@ -529,7 +529,6 @@ export class AgendaView extends ItemView {
                 await this.rescheduleTask(this.draggedItem, newDate, newTime);
             };
 
-            // Timed Tasks
             const timedItems = allData
                 .filter(item => item.time && (item.date === dateStr || this.isOccurringOn(item.rrule, dayMoment)))
                 .map(item => {
@@ -542,7 +541,6 @@ export class AgendaView extends ItemView {
                 })
                 .sort((a, b) => a.startMin - b.startMin);
 
-            // Group overlapping items to share column width
             const placedClusters: any[][] = [];
             timedItems.forEach(item => {
                 let placed = false;
@@ -560,7 +558,6 @@ export class AgendaView extends ItemView {
             placedClusters.forEach(cluster => {
                 const total = cluster.length;
                 cluster.forEach((item, idx) => {
-                    // Clamp topPx so tasks scheduled late at night (e.g. 11:59PM) stay flush inside the grid
                     const rawTop = (item.startMin / 60) * HOUR_HEIGHT;
                     const topPx = Math.min(rawTop, maxTopPx);
                     const card = this.createWeekItemEl(item, topPx, CARD_HEIGHT);
@@ -572,12 +569,18 @@ export class AgendaView extends ItemView {
             });
         });
 
-        // Auto-scroll to center current time in view
+        // Viewport scroll management: only jump to live time on initial tab open
         window.setTimeout(() => {
             syncScrollbarGutter();
-            const minutesNow = now.hours() * 60 + now.minutes();
-            const currentPx = (minutesNow / 60) * HOUR_HEIGHT;
-            scrollArea.scrollTop = hasTodayInView ? Math.max(0, currentPx - 200) : 8 * HOUR_HEIGHT;
+            if (!this.hasInitialScrolled) {
+                const minutesNow = now.hours() * 60 + now.minutes();
+                const currentPx = (minutesNow / 60) * HOUR_HEIGHT;
+                scrollArea.scrollTop = hasTodayInView ? Math.max(0, currentPx - 200) : 8 * HOUR_HEIGHT;
+                this.hasInitialScrolled = true;
+            } else if (this.savedScrollTop !== null) {
+                // Restore the exact user scroll position across drag-drops and edits
+                scrollArea.scrollTop = this.savedScrollTop;
+            }
         }, 50);
 
         // Start live 60s red line updater
@@ -687,6 +690,12 @@ export class AgendaView extends ItemView {
         }
         this.isDormant = false;
 
+        // Save current scroll position before the container is emptied
+        const existingScrollArea = this.contentEl.querySelector<HTMLElement>("div.v7-week-scroll-area");
+        if (existingScrollArea) {
+            this.savedScrollTop = existingScrollArea.scrollTop;
+        }
+
         const container = this.contentEl;
         container.empty();
 
@@ -701,7 +710,6 @@ export class AgendaView extends ItemView {
         const nextBtn = leftNav.createEl("button", { cls: "v7-btn", text: "＞" });
         const todayBtn = leftNav.createEl("button", { cls: "v7-btn", text: "Today" });
 
-        // Title: Displays Month + Year or Week Date Range
         let titleText = "";
         if (this.calendarMode === "month") {
             titleText = this.currentMoment.format("MMMM YYYY");
@@ -713,7 +721,6 @@ export class AgendaView extends ItemView {
 
         const navTitle = nav.createDiv({ cls: "v7-month-title", text: titleText });
 
-        // Month Picker Menu when clicking title in Month Mode
         if (this.calendarMode === "month") {
             navTitle.onclick = () => {
                 navTitle.onclick = null;
@@ -755,7 +762,6 @@ export class AgendaView extends ItemView {
             };
         }
 
-        // Navigation Right: Mode Toggle + Overdue Button
         const rightNav = nav.createDiv({ cls: "v7-nav-right" });
 
         const viewToggle = rightNav.createDiv("v7-view-toggle");
@@ -797,6 +803,7 @@ export class AgendaView extends ItemView {
 
         todayBtn.onclick = () => {
             this.currentMoment = (window as any).moment();
+            this.hasInitialScrolled = false; // Center the current time when explicitly clicking Today
             this.render();
         };
 

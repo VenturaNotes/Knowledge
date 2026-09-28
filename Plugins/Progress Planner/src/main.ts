@@ -59,15 +59,17 @@ export default class ProgressPlannerPlugin extends Plugin {
             })
         );
 
-        // Wake up any dormant view the moment its tab is clicked or focused
+        // Wake up dormant views safely without interrupting tab activation transitions
         this.registerEvent(
             this.app.workspace.on("active-leaf-change", (leaf: WorkspaceLeaf | null) => {
                 if (!leaf) return;
-                if (leaf.view instanceof DashboardView && (leaf.view as any).isDormant) {
-                    leaf.view.render();
-                } else if (leaf.view instanceof AgendaView && (leaf.view as any).isDormant) {
-                    leaf.view.render();
-                }
+                window.requestAnimationFrame(() => {
+                    if (leaf.view instanceof DashboardView && (leaf.view as any).isDormant) {
+                        leaf.view.render();
+                    } else if (leaf.view instanceof AgendaView && (leaf.view as any).isDormant) {
+                        leaf.view.render();
+                    }
+                });
             })
         );
 
@@ -134,8 +136,7 @@ export default class ProgressPlannerPlugin extends Plugin {
 
     /**
      * Group-Aware Activation:
-     * Focuses an existing instance within the active tab group, or opens a new tab
-     * in the active pane without stealing tabs from other groups.
+     * Explicitly selects the tab and activates the leaf so Obsidian never bounces back.
      */
     async activateView(viewType: string) {
         const { workspace } = this.app;
@@ -151,14 +152,18 @@ export default class ProgressPlannerPlugin extends Plugin {
         });
 
         if (visibleLeaf) {
-            workspace.revealLeaf(visibleLeaf);
+            const parent = (visibleLeaf as any).parent;
+            if (parent && typeof parent.selectTab === "function") {
+                parent.selectTab(visibleLeaf);
+            }
+            workspace.setActiveLeaf(visibleLeaf, { focus: true });
             return;
         }
 
         // None exists in the current tab group: open a new tab in the active pane
         const newLeaf = workspace.getLeaf("tab");
         await newLeaf.setViewState({ type: viewType, active: true });
-        workspace.revealLeaf(newLeaf);
+        workspace.setActiveLeaf(newLeaf, { focus: true });
     }
 
     refreshViews() {
