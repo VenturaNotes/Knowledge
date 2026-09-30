@@ -21,6 +21,7 @@ export class AgendaView extends ItemView {
 
     // Sleep mode & Live Timer tracking
     public isDormant = false;
+    public needsRefresh = false;
     private visibilityObserver: IntersectionObserver | null = null;
     private nowIntervalId: number | null = null;
 
@@ -52,18 +53,15 @@ export class AgendaView extends ItemView {
         this.contentEl.style.height = "100%";
         this.contentEl.style.overflow = "hidden";
 
-        // Reset scroll position on opening a fresh tab
         this.hasInitialScrolled = false;
         this.savedScrollTop = null;
+        this.needsRefresh = false;
 
         // Monitor visibility to automatically sleep/wake
         this.visibilityObserver = new IntersectionObserver((entries) => {
             for (const entry of entries) {
                 if (entry.isIntersecting) {
-                    if (this.isDormant) {
-                        this.isDormant = false;
-                        this.render();
-                    }
+                    this.handleWakeUp();
                 } else {
                     this.isDormant = true;
                     this.clearNowTimer();
@@ -85,9 +83,35 @@ export class AgendaView extends ItemView {
     onResize() {
         super.onResize();
         if (this.isDormant && this.isViewVisible()) {
-            this.isDormant = false;
-            this.render();
+            this.handleWakeUp();
         }
+    }
+
+    /**
+     * Wakes up the view when switching back to this tab.
+     * Only re-renders if data was modified while hidden; otherwise keeps the DOM intact.
+     */
+    public handleWakeUp() {
+        if (!this.isDormant) return;
+        this.isDormant = false;
+
+        if (this.needsRefresh) {
+            this.needsRefresh = false;
+            this.render();
+        } else {
+            // DOM is already intact at the exact scroll position! Just resume timer and now line.
+            if (this.calendarMode === "week") {
+                this.updateNowLinePosition();
+                this.startNowTimer();
+            }
+        }
+    }
+
+    private startNowTimer() {
+        this.clearNowTimer();
+        this.nowIntervalId = window.setInterval(() => {
+            this.updateNowLinePosition();
+        }, 60000);
     }
 
     private clearNowTimer() {
@@ -216,7 +240,6 @@ export class AgendaView extends ItemView {
         if (!(file instanceof TFile)) return;
 
         if (item.isProject) {
-            // Project Note / Frontmatter update
             await this.app.fileManager.processFrontMatter(file, (fm) => {
                 if (fm.scheduled !== undefined) fm.scheduled = newDate;
                 else if (fm.due !== undefined) fm.due = newDate;
@@ -229,7 +252,6 @@ export class AgendaView extends ItemView {
                 }
             });
         } else {
-            // Inline Checkbox Task update
             const content = await this.app.vault.read(file);
             const lines = content.split("\n");
 
@@ -247,7 +269,6 @@ export class AgendaView extends ItemView {
             const anchorMatch = lineText.match(/(\s*\^[a-zA-Z0-9-]+)\s*$/);
             const anchorSuffix = anchorMatch?.[1]?.trim() ?? "";
 
-            // Strip existing date, time, and temporary anchor
             const cleanLine = lineText
                 .replace(/(\s*\^[a-zA-Z0-9-]+)\s*$/, "")
                 .replace(/📅\s*\d{4}-\d{2}-\d{2}/g, "")
@@ -452,12 +473,19 @@ export class AgendaView extends ItemView {
         const scrollArea = weekContainer.createDiv("v7-week-scroll-area");
         const timeGrid = scrollArea.createDiv("v7-week-grid");
 
+        // Continuously update savedScrollTop so we never lose the user's scroll position
+        scrollArea.addEventListener("scroll", () => {
+            if (scrollArea.scrollTop > 0) {
+                this.savedScrollTop = scrollArea.scrollTop;
+            }
+        }, { passive: true });
+
+        // Synchronously match gutter padding with OS scrollbar width
         const syncScrollbarGutter = () => {
             const scrollbarWidth = scrollArea.offsetWidth - scrollArea.clientWidth;
             weekContainer.style.setProperty('--v7-scrollbar-width', `${scrollbarWidth}px`);
         };
         syncScrollbarGutter();
-        window.requestAnimationFrame(syncScrollbarGutter);
 
         // Time Gutter Column
         const gutter = timeGrid.createDiv("v7-week-time-gutter");
@@ -569,26 +597,22 @@ export class AgendaView extends ItemView {
             });
         });
 
-        // Viewport scroll management: only jump to live time on initial tab open
-        window.setTimeout(() => {
-            syncScrollbarGutter();
-            if (!this.hasInitialScrolled) {
-                const minutesNow = now.hours() * 60 + now.minutes();
-                const currentPx = (minutesNow / 60) * HOUR_HEIGHT;
-                scrollArea.scrollTop = hasTodayInView ? Math.max(0, currentPx - 200) : 8 * HOUR_HEIGHT;
-                this.hasInitialScrolled = true;
-            } else if (this.savedScrollTop !== null) {
-                // Restore the exact user scroll position across drag-drops and edits
-                scrollArea.scrollTop = this.savedScrollTop;
-            }
-        }, 50);
+        // SYNCHRONOUS SCROLL RESTORATION:
+        // Set scrollTop immediately before the browser renders the first frame to prevent any jumping.
+        if (!this.hasInitialScrolled) {
+            const minutesNow = now.hours() * 60 + now.minutes();
+            const currentPx = (minutesNow / 60) * HOUR_HEIGHT;
+            scrollArea.scrollTop = hasTodayInView ? Math.max(0, currentPx - 200) : 8 * HOUR_HEIGHT;
+            this.hasInitialScrolled = true;
+            this.savedScrollTop = scrollArea.scrollTop;
+        } else if (this.savedScrollTop !== null) {
+            scrollArea.scrollTop = this.savedScrollTop;
+        }
 
-        // Start live 60s red line updater
-        this.clearNowTimer();
         if (hasTodayInView) {
-            this.nowIntervalId = window.setInterval(() => {
-                this.updateNowLinePosition();
-            }, 60000);
+            this.startNowTimer();
+        } else {
+            this.clearNowTimer();
         }
     }
 
@@ -685,16 +709,12 @@ export class AgendaView extends ItemView {
     public async render() {
         if (!this.isViewVisible()) {
             this.isDormant = true;
+            this.needsRefresh = true; // Mark dirty so it renders when awakened
             this.clearNowTimer();
             return;
         }
         this.isDormant = false;
-
-        // Save current scroll position before the container is emptied
-        const existingScrollArea = this.contentEl.querySelector<HTMLElement>("div.v7-week-scroll-area");
-        if (existingScrollArea) {
-            this.savedScrollTop = existingScrollArea.scrollTop;
-        }
+        this.needsRefresh = false;
 
         const container = this.contentEl;
         container.empty();
@@ -803,7 +823,7 @@ export class AgendaView extends ItemView {
 
         todayBtn.onclick = () => {
             this.currentMoment = (window as any).moment();
-            this.hasInitialScrolled = false; // Center the current time when explicitly clicking Today
+            this.hasInitialScrolled = false; // Only re-center time when explicitly clicking Today
             this.render();
         };
 

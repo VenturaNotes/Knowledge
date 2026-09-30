@@ -59,15 +59,19 @@ export default class ProgressPlannerPlugin extends Plugin {
             })
         );
 
-        // Wake up dormant views safely without interrupting tab activation transitions
+        // Wake up dormant views safely without wiping DOM or interrupting tab transitions
         this.registerEvent(
             this.app.workspace.on("active-leaf-change", (leaf: WorkspaceLeaf | null) => {
                 if (!leaf) return;
                 window.requestAnimationFrame(() => {
                     if (leaf.view instanceof DashboardView && (leaf.view as any).isDormant) {
-                        leaf.view.render();
+                        if (typeof (leaf.view as any).handleWakeUp === "function") {
+                            (leaf.view as any).handleWakeUp();
+                        } else {
+                            leaf.view.render();
+                        }
                     } else if (leaf.view instanceof AgendaView && (leaf.view as any).isDormant) {
-                        leaf.view.render();
+                        (leaf.view as any).handleWakeUp();
                     }
                 });
             })
@@ -136,7 +140,8 @@ export default class ProgressPlannerPlugin extends Plugin {
 
     /**
      * Group-Aware Activation:
-     * Explicitly selects the tab and activates the leaf so Obsidian never bounces back.
+     * Focuses an existing instance within the active tab group, or opens a new tab
+     * in the active pane without stealing tabs from other groups.
      */
     async activateView(viewType: string) {
         const { workspace } = this.app;
