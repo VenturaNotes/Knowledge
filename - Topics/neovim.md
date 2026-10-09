@@ -2,6 +2,8 @@
 - Great for modal editing in Normal, Insert, and Visual modes
 	- [ ] #question What does visual mode look like?
 ### Commands
+- Copy line
+	- `yy`
 - Visual selection (works on any file)
 	- If you want to quickly highlight/select text with Flash on any file:
 		1. Press v (enters Visual mode).
