@@ -1,8 +1,8 @@
 /**
- * Script Name: Extract GitHub Folder / File to Clipboard
+ * Script Name: Extract GitHub Folder / File / Commit to Clipboard
  * Description: Detects the active GitHub <webview> tab, recursively downloads the
- *              target folder or single file, and copies the files directly to the
- *              macOS clipboard as native file objects (matching copyDir.zsh).
+ *              target folder, single file, or commit changes, and copies the files
+ *              directly to the macOS clipboard as native file objects (matching copyDir.zsh).
  * Compatibility: Script Runner Plugin for Obsidian (macOS Desktop)
  */
 
@@ -52,7 +52,7 @@ module.exports = async function ({ app, obsidian, secrets }) {
             return;
         }
 
-        // 3. Parse GitHub URL
+        // 3. Parse GitHub URL (supports folders, single files, and commits)
         const parsed = parseGitHubUrl(targetUrl);
         if (!parsed) {
             progressNotice.hide();
@@ -60,7 +60,7 @@ module.exports = async function ({ app, obsidian, secrets }) {
             return;
         }
 
-        // 4. Setup Authentication (Optional: reads GITHUB_TOKEN from Script Runner secrets)
+        // 4. Setup Authentication (reads GITHUB_TOKEN from Script Runner secrets)
         const token = secrets?.GITHUB_TOKEN || secrets?.GITHUB_PAT || secrets?.GH_TOKEN;
         const headers = {
             'User-Agent': 'Obsidian-ScriptRunner-Downloader',
@@ -71,16 +71,22 @@ module.exports = async function ({ app, obsidian, secrets }) {
         }
 
         // Detect default branch if viewing repository root
-        if (!parsed.branch) {
+        if (!parsed.branch && !parsed.isCommit) {
             progressNotice.setMessage('🔍 Detecting default repository branch...');
             parsed.branch = await fetchDefaultBranch(parsed.owner, parsed.repo, headers);
         }
 
-        progressNotice.setMessage(`🔍 Scanning GitHub: ${parsed.owner}/${parsed.repo} (${parsed.path || 'root'})...`);
+        const scanTargetDesc = parsed.isCommit
+            ? `commit ${parsed.commitSha.substring(0, 7)}`
+            : (parsed.path || 'root');
 
-        // 5. Fetch file list (handles single files or recursive directory trees)
+        progressNotice.setMessage(`🔍 Scanning GitHub: ${parsed.owner}/${parsed.repo} (${scanTargetDesc})...`);
+
+        // 5. Fetch file list (handles commits, single files, or directory trees)
         let files = [];
-        if (parsed.isFile) {
+        if (parsed.isCommit) {
+            files = await fetchCommitFiles(parsed.owner, parsed.repo, parsed.commitSha, headers);
+        } else if (parsed.isFile) {
             const singleFile = await fetchSingleFileInfo(parsed.owner, parsed.repo, parsed.branch, parsed.path, headers);
             if (singleFile) files.push(singleFile);
         } else {
@@ -89,13 +95,17 @@ module.exports = async function ({ app, obsidian, secrets }) {
 
         if (files.length === 0) {
             progressNotice.hide();
-            new Notice('⚠️ No files found at this GitHub location.');
+            new Notice(parsed.isCommit
+                ? '⚠️ No modified or added files found in this commit.'
+                : '⚠️ No files found at this GitHub location.');
             return;
         }
 
         // 6. Determine folder paths
         let folderPart = '';
-        if (parsed.isFile) {
+        if (parsed.isCommit) {
+            folderPart = '';
+        } else if (parsed.isFile) {
             const lastSlash = parsed.path.lastIndexOf('/');
             folderPart = lastSlash !== -1 ? parsed.path.substring(0, lastSlash) : '';
         } else {
@@ -149,15 +159,24 @@ module.exports = async function ({ app, obsidian, secrets }) {
                 relativePath = item.path;
             }
 
-            // Fallback to raw GitHub endpoint if download_url is null
+            // Fallback to raw GitHub endpoint if downloadUrl is null
             let downloadUrl = item.downloadUrl;
             if (!downloadUrl) {
                 const encodedPath = item.path.split('/').filter(Boolean).map(encodeURIComponent).join('/');
-                downloadUrl = `https://raw.githubusercontent.com/${parsed.owner}/${parsed.repo}/${parsed.branch}/${encodedPath}`;
+                const ref = parsed.commitSha || parsed.branch;
+                downloadUrl = `https://raw.githubusercontent.com/${parsed.owner}/${parsed.repo}/${ref}/${encodedPath}`;
             }
 
-            const downloadHeaders = {};
-            if (token) downloadHeaders['Authorization'] = `token ${token}`;
+            const downloadHeaders = {
+                'User-Agent': 'Obsidian-ScriptRunner-Downloader'
+            };
+            // For GitHub REST API contents endpoints, ask for raw binary stream
+            if (downloadUrl.includes('api.github.com')) {
+                downloadHeaders['Accept'] = 'application/vnd.github.raw+json';
+            }
+            if (token) {
+                downloadHeaders['Authorization'] = `token ${token}`;
+            }
 
             const response = await requestUrl({ url: downloadUrl, headers: downloadHeaders });
 
@@ -247,10 +266,26 @@ module.exports = async function ({ app, obsidian, secrets }) {
 
             // Root of repo (e.g. https://github.com/owner/repo)
             if (segments.length === 2) {
-                return { owner, repo, branch: null, path: '', isFile: false };
+                return { owner, repo, branch: null, path: '', isFile: false, isCommit: false };
             }
 
-            const type = segments[2]; // 'tree' or 'blob'
+            const type = segments[2]; // 'tree', 'blob', 'commit', or 'commits'
+
+            // Handle Commit URL (e.g. /owner/repo/commit/<sha>)
+            if (type === 'commit' || type === 'commits') {
+                const commitSha = segments[3];
+                if (!commitSha) return null;
+                return {
+                    owner,
+                    repo,
+                    branch: commitSha,
+                    commitSha,
+                    path: '',
+                    isFile: false,
+                    isCommit: true
+                };
+            }
+
             const branch = segments[3];
             const rawPath = segments.slice(4).join('/');
             const decodedPath = decodeURIComponent(rawPath).replace(/\/+$/, '');
@@ -260,7 +295,8 @@ module.exports = async function ({ app, obsidian, secrets }) {
                 repo,
                 branch,
                 path: decodedPath,
-                isFile: type === 'blob'
+                isFile: type === 'blob',
+                isCommit: false
             };
         } catch {
             return null;
@@ -273,6 +309,41 @@ module.exports = async function ({ app, obsidian, secrets }) {
             headers
         });
         return res.json?.default_branch || 'main';
+    }
+
+    async function fetchCommitFiles(owner, repo, commitSha, headers) {
+        const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits/${commitSha}`;
+        const res = await requestUrl({ url: apiUrl, headers });
+
+        if (res.status === 403 && res.text && res.text.includes('API rate limit')) {
+            throw new Error('GitHub API rate limit exceeded. Add a GITHUB_TOKEN to Script Runner secrets.');
+        }
+
+        if (res.status === 404) {
+            throw new Error(`Commit or repo not found (404). If "${owner}/${repo}" is private, check your GITHUB_TOKEN.`);
+        }
+
+        if (res.status !== 200) {
+            throw new Error(`GitHub API error (${res.status}): ${res.text}`);
+        }
+
+        const data = res.json;
+        if (!data || !Array.isArray(data.files) || data.files.length === 0) {
+            return [];
+        }
+
+        // Exclude deleted files as they no longer exist in this commit
+        const activeFiles = data.files.filter(f => f.status !== 'removed');
+
+        return activeFiles.map(f => {
+            const encodedPath = f.filename.split('/').filter(Boolean).map(encodeURIComponent).join('/');
+            return {
+                name: f.filename.split('/').pop(),
+                path: f.filename,
+                // contents_url enables raw streaming with proper auth for private repos
+                downloadUrl: f.contents_url || `https://raw.githubusercontent.com/${owner}/${repo}/${commitSha}/${encodedPath}`
+            };
+        });
     }
 
     async function fetchSingleFileInfo(owner, repo, branch, filePath, headers) {
@@ -298,7 +369,10 @@ module.exports = async function ({ app, obsidian, secrets }) {
             ? folderPath.split('/').filter(Boolean).map(encodeURIComponent).join('/')
             : '';
 
-        const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${encodedPath}?ref=${branch}`;
+        const query = branch ? `?ref=${branch}` : '';
+        const apiUrl = encodedPath
+            ? `https://api.github.com/repos/${owner}/${repo}/contents/${encodedPath}${query}`
+            : `https://api.github.com/repos/${owner}/${repo}/contents${query}`;
 
         const res = await requestUrl({ url: apiUrl, headers });
 
