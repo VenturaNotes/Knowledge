@@ -47,6 +47,16 @@
 		* Use `git rebase -i --committer-date-is-author-date HEAD~N`
 	* In Filter-Branch
 		* Include `--env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"'`
+
+### Fetches, Overwrites Modified Files and Deletes Untracked Files
+- In Git Bash, Mac/Linux Terminal, or Command Prompt (CMD):
+```bash
+git fetch origin && git reset --hard origin/main && git clean -fd
+```
+- How it works
+	1. **`git fetch origin`** — Downloads the latest commit data from GitHub.
+	2. **`git reset --hard origin/main`** — Forces your current tracked files to match GitHub's `main` branch exactly, discarding your modifications.
+	3. **`git clean -fd`** — Permanently deletes any brand-new files or folders you created that Git wasn't tracking.
 ## Source [^1]
 - 
 ## References

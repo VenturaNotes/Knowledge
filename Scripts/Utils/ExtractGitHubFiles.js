@@ -2,7 +2,7 @@
  * Script Name: Extract GitHub Folder / File / Commit to Clipboard
  * Description: Detects the active GitHub <webview> tab, recursively downloads the
  *              target folder, single file, or commit changes, and copies the files
- *              directly to the macOS clipboard as native file objects (matching copyDir.zsh).
+ *              directly to the macOS clipboard as native file objects.
  * Compatibility: Script Runner Plugin for Obsidian (macOS Desktop)
  */
 
@@ -52,7 +52,7 @@ module.exports = async function ({ app, obsidian, secrets }) {
             return;
         }
 
-        // 3. Parse GitHub URL (supports folders, single files, and commits)
+        // 3. Parse GitHub URL
         const parsed = parseGitHubUrl(targetUrl);
         if (!parsed) {
             progressNotice.hide();
@@ -61,13 +61,21 @@ module.exports = async function ({ app, obsidian, secrets }) {
         }
 
         // 4. Setup Authentication (reads GITHUB_TOKEN from Script Runner secrets)
-        const token = secrets?.GITHUB_TOKEN || secrets?.GITHUB_PAT || secrets?.GH_TOKEN;
+        const rawToken = secrets?.GITHUB_TOKEN || secrets?.GITHUB_PAT || secrets?.GH_TOKEN;
+        const token = typeof rawToken === 'string' ? rawToken.trim() : '';
+
+        if (token) {
+            console.log(`[ExtractGitHubFolder] 🔑 Token detected: ${token.substring(0, 7)}... (length: ${token.length})`);
+        } else {
+            console.warn('[ExtractGitHubFolder] ⚠️ No GITHUB_TOKEN found in Script Runner secrets! Private repositories will fail with 404.');
+        }
+
         const headers = {
             'User-Agent': 'Obsidian-ScriptRunner-Downloader',
             'Accept': 'application/vnd.github.v3+json'
         };
         if (token) {
-            headers['Authorization'] = `token ${token}`;
+            headers['Authorization'] = `Bearer ${token}`;
         }
 
         // Detect default branch if viewing repository root
@@ -170,15 +178,18 @@ module.exports = async function ({ app, obsidian, secrets }) {
             const downloadHeaders = {
                 'User-Agent': 'Obsidian-ScriptRunner-Downloader'
             };
-            // For GitHub REST API contents endpoints, ask for raw binary stream
             if (downloadUrl.includes('api.github.com')) {
                 downloadHeaders['Accept'] = 'application/vnd.github.raw+json';
             }
             if (token) {
-                downloadHeaders['Authorization'] = `token ${token}`;
+                downloadHeaders['Authorization'] = `Bearer ${token}`;
             }
 
-            const response = await requestUrl({ url: downloadUrl, headers: downloadHeaders });
+            const response = await requestUrl({ url: downloadUrl, headers: downloadHeaders, throw: false });
+
+            if (response.status !== 200) {
+                throw new Error(`Failed to download ${item.name} (HTTP ${response.status})`);
+            }
 
             if (CONFIG.saveToVault) {
                 const targetVaultPath = normalizePath(`${destVaultFolder}/${relativePath}`);
@@ -192,7 +203,7 @@ module.exports = async function ({ app, obsidian, secrets }) {
             }
         }
 
-        // 8. Copy native file objects to macOS Clipboard (NSPasteboard via osascript)
+        // 8. Copy native file objects to macOS Clipboard
         if (CONFIG.copyToClipboard && downloadedAbsolutePaths.length > 0) {
             if (process.platform === 'darwin') {
                 progressNotice.setMessage('📋 Copying files to macOS clipboard...');
@@ -264,14 +275,12 @@ module.exports = async function ({ app, obsidian, secrets }) {
             const owner = segments[0];
             const repo = segments[1];
 
-            // Root of repo (e.g. https://github.com/owner/repo)
             if (segments.length === 2) {
                 return { owner, repo, branch: null, path: '', isFile: false, isCommit: false };
             }
 
-            const type = segments[2]; // 'tree', 'blob', 'commit', or 'commits'
+            const type = segments[2];
 
-            // Handle Commit URL (e.g. /owner/repo/commit/<sha>)
             if (type === 'commit' || type === 'commits') {
                 const commitSha = segments[3];
                 if (!commitSha) return null;
@@ -306,21 +315,28 @@ module.exports = async function ({ app, obsidian, secrets }) {
     async function fetchDefaultBranch(owner, repo, headers) {
         const res = await requestUrl({
             url: `https://api.github.com/repos/${owner}/${repo}`,
-            headers
+            headers,
+            throw: false
         });
+        if (res.status === 401) throw new Error('401 Unauthorized: Invalid GITHUB_TOKEN.');
+        if (res.status === 404) throw new Error(`404 Not Found: Repo "${owner}/${repo}" not found or lacks permissions.`);
         return res.json?.default_branch || 'main';
     }
 
     async function fetchCommitFiles(owner, repo, commitSha, headers) {
         const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits/${commitSha}`;
-        const res = await requestUrl({ url: apiUrl, headers });
+        const res = await requestUrl({ url: apiUrl, headers, throw: false });
 
-        if (res.status === 403 && res.text && res.text.includes('API rate limit')) {
-            throw new Error('GitHub API rate limit exceeded. Add a GITHUB_TOKEN to Script Runner secrets.');
+        if (res.status === 401) {
+            throw new Error('401 Unauthorized: Your GITHUB_TOKEN is invalid. Regenerate your token on GitHub.');
         }
 
         if (res.status === 404) {
-            throw new Error(`Commit or repo not found (404). If "${owner}/${repo}" is private, check your GITHUB_TOKEN.`);
+            throw new Error(`404 Not Found: Could not find commit or private repo "${owner}/${repo}". Check that your token has the "repo" scope.`);
+        }
+
+        if (res.status === 403) {
+            throw new Error(`403 Forbidden: API rate limit or permission error.`);
         }
 
         if (res.status !== 200) {
@@ -332,7 +348,6 @@ module.exports = async function ({ app, obsidian, secrets }) {
             return [];
         }
 
-        // Exclude deleted files as they no longer exist in this commit
         const activeFiles = data.files.filter(f => f.status !== 'removed');
 
         return activeFiles.map(f => {
@@ -340,7 +355,6 @@ module.exports = async function ({ app, obsidian, secrets }) {
             return {
                 name: f.filename.split('/').pop(),
                 path: f.filename,
-                // contents_url enables raw streaming with proper auth for private repos
                 downloadUrl: f.contents_url || `https://raw.githubusercontent.com/${owner}/${repo}/${commitSha}/${encodedPath}`
             };
         });
@@ -350,11 +364,11 @@ module.exports = async function ({ app, obsidian, secrets }) {
         const encodedPath = filePath.split('/').filter(Boolean).map(encodeURIComponent).join('/');
         const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${encodedPath}?ref=${branch}`;
 
-        const res = await requestUrl({ url: apiUrl, headers });
+        const res = await requestUrl({ url: apiUrl, headers, throw: false });
 
-        if (res.status === 403 && res.text && res.text.includes('API rate limit')) {
-            throw new Error('GitHub API rate limit exceeded. Add a GITHUB_TOKEN to Script Runner secrets.');
-        }
+        if (res.status === 401) throw new Error('401 Unauthorized: Invalid GITHUB_TOKEN.');
+        if (res.status === 404) throw new Error(`404 Not Found: File not found or token lacks access.`);
+        if (res.status !== 200) throw new Error(`GitHub API error (${res.status}): ${res.text}`);
 
         const data = res.json;
         return {
@@ -374,15 +388,11 @@ module.exports = async function ({ app, obsidian, secrets }) {
             ? `https://api.github.com/repos/${owner}/${repo}/contents/${encodedPath}${query}`
             : `https://api.github.com/repos/${owner}/${repo}/contents${query}`;
 
-        const res = await requestUrl({ url: apiUrl, headers });
+        const res = await requestUrl({ url: apiUrl, headers, throw: false });
 
-        if (res.status === 403 && res.text && res.text.includes('API rate limit')) {
-            throw new Error('GitHub API rate limit exceeded. Add a GITHUB_TOKEN to Script Runner secrets.');
-        }
-
-        if (res.status !== 200) {
-            throw new Error(`GitHub API error (${res.status}): ${res.text}`);
-        }
+        if (res.status === 401) throw new Error('401 Unauthorized: Invalid GITHUB_TOKEN.');
+        if (res.status === 404) throw new Error(`404 Not Found: Directory not found or token lacks access.`);
+        if (res.status !== 200) throw new Error(`GitHub API error (${res.status}): ${res.text}`);
 
         const items = res.json;
         if (!Array.isArray(items)) {
@@ -453,7 +463,6 @@ module.exports = async function ({ app, obsidian, secrets }) {
                 else reject(new Error(stderr || `osascript exited with code ${code}`));
             });
 
-            // Replicating copyDir.zsh AppleScript
             const appleScript = `
 use framework "Foundation"
 use framework "AppKit"
