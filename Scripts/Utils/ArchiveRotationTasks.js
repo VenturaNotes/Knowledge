@@ -26,6 +26,10 @@ module.exports = async (params) => {
     let currentHeaderStack = []; 
     let lastLevel = 1; 
     let hierarchyValid = true;
+
+    // Track heading hierarchy issues
+    let skippedDueToHierarchy = false;
+    let invalidHeadingName = "";
     
     let i = 0;
     while (i < lines.length) {
@@ -37,6 +41,9 @@ module.exports = async (params) => {
             const title = line.trim();
 
             if (level === 1) {
+                currentHeaderStack = [];
+                lastLevel = 1;
+                hierarchyValid = true;
                 newActiveLines.push(line);
                 i++;
                 continue;
@@ -48,6 +55,9 @@ module.exports = async (params) => {
                 hierarchyValid = true;
             } else {
                 if (level > lastLevel + 1) {
+                    if (hierarchyValid) {
+                        invalidHeadingName = title; // Record the first heading that broke order
+                    }
                     hierarchyValid = false;
                 }
                 
@@ -90,6 +100,9 @@ module.exports = async (params) => {
                     tree: taskTree
                 });
             } else {
+                if (allItemsFinished && !hierarchyValid) {
+                    skippedDueToHierarchy = true;
+                }
                 newActiveLines.push(...taskTree);
             }
             i = j; 
@@ -100,7 +113,11 @@ module.exports = async (params) => {
     }
 
     if (archivedTasks.length === 0) {
-        new Notice("No eligible completed tasks found.");
+        if (skippedDueToHierarchy) {
+            new Notice(`No tasks archived: Headings are out of order (e.g. "${invalidHeadingName}").`, 6000);
+        } else {
+            new Notice("No eligible completed tasks found.");
+        }
         return;
     }
 
@@ -172,4 +189,9 @@ module.exports = async (params) => {
     const finalContent = [...yamlHeader, ...body].join('\n');
     await app.vault.modify(archiveFile, finalContent);
     new Notice(`Archived ${archivedTasks.length} tasks to ${archiveFileName}`);
+
+    // Alert if some tasks were archived but others were skipped due to broken headings
+    if (skippedDueToHierarchy) {
+        new Notice(`Warning: Some tasks were skipped because headings are out of order (e.g. "${invalidHeadingName}").`, 6000);
+    }
 };
