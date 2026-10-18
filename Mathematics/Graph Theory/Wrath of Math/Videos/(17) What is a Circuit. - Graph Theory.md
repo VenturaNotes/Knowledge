@@ -2,5 +2,17 @@
 Source:
   - https://youtube.com/watch?v=_YvlvSO7RBQ
 ---
-- Image
+- ![[Private/Drawings/drawing-20261017-231748.svg]]
 	- Graph G is both a [[circuit]] and [[trail]]
+	- Understanding trails will make the lesson go more smoothly
+	- Going from $V_1 \to V_6 \to V_5 \to V_4 \to V_3 \to V_6 \to V_2 \to V_1$ is an example of a circuit (as well as a trail)
+	- Will label `C` as Circuit (so we can describe it as a sequence of vertices in G which is the sequence that we travel through.)
+	- A [[trail]] is a sequence of vertices in a graph such that consecutive vertices are adjacent in the graph and no edge is traversed more than once. 
+		- We did traverse two vertices multiple times ($V_6$ and $V_1$) which we encountered twice in the circuit, but we did not traverse the same edge twice.
+		- A trail is considered closed if the first and last vertex are the same (and we call those the end points). So if its end points are the same, it's a closed trail
+			- [ ] Is it end points or "end points"? 
+	- A [[circuit]] is a closed trail of length three or more (the length is just the number of edges encountered in the trail)
+		- So `C` has a length of seven. It is a trail. It has a length three or greater. And since it's closed as well, it is a circuit. 
+		- So `C` is a circuit because it is a closed trail of length 3 or more 
+			- A sequence of vertices in the graph such that consecutive vertices are adjacent and the first and last vertex are the same. And no edge is encountered more than once. 
+			- A circuit is a closed trail of length 3 or more. 

@@ -26,8 +26,8 @@ tags:
 	- [[(49) What are Vertex Separating Sets. - Graph Theory|(82) What are Vertex Separating Sets? - Graph Theory]]
 	- [[(36) Independent Vertex Sets - Graph Theory, Maximal and Maximum Independent Sets|(112) Independent Vertex Sets - Graph Theory, Maximal and Maximum Independent Sets]]
 	- [[(50) Resolving Sets and Metric Dimension of Graphs - Graph Theory|(147) Resolving Sets and Metric Dimension of Graphs - Graph Theory]]
-- Incomplete
 	- [[(17) What is a Circuit. - Graph Theory]]
+- Incomplete
 	- [[(18) What is a Graph Cycle. - Graph Theory, Cycles, Cyclic Graphs, Simple Cycles]]
 	- [[(19) What are Connected Vertices. - Graph Theory]]
 	- [[(20) What are Connected Graphs. - Graph Theory]]
