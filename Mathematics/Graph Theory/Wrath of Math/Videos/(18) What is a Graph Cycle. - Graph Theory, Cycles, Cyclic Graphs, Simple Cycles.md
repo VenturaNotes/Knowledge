@@ -2,3 +2,24 @@
 Source:
   - https://youtube.com/watch?v=Cte3zFJ59Nk
 ---
+- ![[Private/Drawings/drawing-20261019-230332.svg]]
+- What is a cycle in graph theory?
+- Created a graph with vertices from $V_1 \to V_7$
+- A cycle in a graph is a way of moving through a graph. 
+	- Can represent cycles as a sequence of vertices $(V_2,V_3,V_4,V_7,V_2)$. 
+	- A [[cycle]] is a sequence of vertices in a graph such that consecutive vertices are adjacent and all vertices are distinct (except for the first and last vertex which are required to be the same)
+		- The number of edges that are traversed is called the cycles length
+	- A cycle's length must be greater than or equal to 3
+	- The length of a cycle that is represented by a sequence of vertices is 1 less than the number of vertices in sequence. 
+	- 5 vertices in example sequence so we have 4 edges. 
+	- Since example cycle has a length of 4, we can refer to it as a 4-cycle. 
+- It is possible to represent a cycle as a sequence of edges. 
+	- $(V_2 V_3, V_3 V_4, V_4 V_7, V_7 V_2)$
+		- This method uses the edges that were traversed instead of the vertices
+		- Length of 4 since the length is the number of edges traversed.
+- You can also view cycles being represented as an alternating sequence of vertices and edges. 
+- A cycle in a graph is just a way of moving through a graph. 
+- In a cycle, no vertices can be repeated except for the first and last vertex which are required to be the same. This also implies that no edge can be traversed more than once
+	- However, there is still a slightly different definition of cycle which says that you still can't repeat edges but you can repeat vertices. For example, $(V_3 \to V_7 \to V_4 \to V_5 \to V_6 \to V_7 \to V_2 \to V_3)$. In this example, $V_7$ is traversed twice not as a beginning or ending vertex (but all edges are still unique). 
+		- If this definition is used, then the cycles we were talking about earlier are known as "simple cycles" which are cycles that repeat no vertices (and a cycles length but be $\ge$ 3)
+- A cycle can be described as either a way of moving through a graph or a specific type of graph. 
