@@ -2,7 +2,7 @@ module.exports = async (params) => {
     const { app } = params;
 
     // --- CONFIGURATION ---
-    const filePath = "Private/Tasks/(T) Daily.md"; 
+    const filePath = "Private/Tasks/(T) Routine.md"; 
     // ---------------------
 
     // 1. Find the file in the vault
