@@ -10,9 +10,8 @@ module.exports = async function ({ app, obsidian }) {
     const editor = activeView.editor;
     const file = activeView.file;
 
-    // --- 1. Universal Block Scanner ---
-    // Partitions the ENTIRE document into atomic blocks (Tasks, Bullets, Code, Quotes, Paragraphs)
-    function scanAllBlocks() {
+    // --- 1. Universal Dynamic Block Scanner ---
+    function scanAllBlocks(cursorLine = -1) {
         const lineCount = editor.lineCount();
         const blocks = [];
         let i = 0;
@@ -43,7 +42,7 @@ module.exports = async function ({ app, obsidian }) {
                 continue;
             }
 
-            // B. List Items (Checkboxes, Bullet Points, Numbered Lists)
+            // B. List Items (Checkboxes, Bullets, Numbered Lists)
             const listMatch = line.match(/^(\s*)([-*+]|\d+[.)])(\s+\[[ xX/ -]\])?\s*/);
             if (listMatch) {
                 const baseIndent = listMatch[1].length;
@@ -70,7 +69,15 @@ module.exports = async function ({ app, obsidian }) {
                         continue;
                     }
 
+                    const nextIndent = nextLine.match(/^\s*/)[0].length;
+
+                    // If empty line, check if cursor is on it or if followed by an indented child
                     if (!nextTrimmed) {
+                        if (j === cursorLine) {
+                            endLine = j;
+                            j++;
+                            continue;
+                        }
                         let k = j + 1;
                         while (k < lineCount && !editor.getLine(k).trim()) k++;
                         if (k < lineCount && !editor.getLine(k).match(/^#{1,6}\s+/)) {
@@ -84,8 +91,8 @@ module.exports = async function ({ app, obsidian }) {
                         break;
                     }
 
-                    const nextIndent = nextLine.match(/^\s*/)[0].length;
-                    if (nextIndent > baseIndent) {
+                    // Absorb any line with deeper indent, or any line the cursor is currently editing
+                    if (nextIndent > baseIndent || (j === cursorLine && nextIndent >= baseIndent)) {
                         endLine = j;
                         j++;
                     } else {
@@ -119,7 +126,7 @@ module.exports = async function ({ app, obsidian }) {
                 continue;
             }
 
-            // D. Raw Paragraphs / Freeform Notes / Logs
+            // D. Paragraphs / Notes / Logs
             {
                 const startLine = i;
                 let j = i + 1;
@@ -157,18 +164,19 @@ module.exports = async function ({ app, obsidian }) {
 
     // Synchronizes the active pointer against the live document state
     function syncToLiveState(preferredLine) {
-        blocks = scanAllBlocks();
+        const cursor = editor.getCursor();
+        const activeLine = preferredLine !== undefined ? preferredLine : cursor.line;
+
+        blocks = scanAllBlocks(activeLine);
         if (blocks.length === 0) {
             cleanup();
             new Notice("🎉 All items cleaned up!");
             return;
         }
 
-        let targetLine = preferredLine !== undefined ? preferredLine : (blocks[currentIndex]?.startLine ?? 0);
-        let foundIdx = blocks.findIndex(b => targetLine >= b.startLine && targetLine <= b.endLine);
-
+        let foundIdx = blocks.findIndex(b => activeLine >= b.startLine && activeLine <= b.endLine);
         if (foundIdx === -1) {
-            foundIdx = blocks.findIndex(b => b.startLine >= targetLine);
+            foundIdx = blocks.findIndex(b => b.startLine >= activeLine);
             if (foundIdx === -1) foundIdx = blocks.length - 1;
         }
 
@@ -280,7 +288,7 @@ module.exports = async function ({ app, obsidian }) {
         }
     }
 
-    // --- 3. Left Indicator Bracket & Floating HUD ---
+    // --- 3. Left Indicator Bracket & HUD ---
     const scroller = activeView.contentEl.querySelector('.cm-scroller');
     if (!scroller) return;
 
@@ -291,15 +299,15 @@ module.exports = async function ({ app, obsidian }) {
         left: '12px',
         right: '12px',
         borderLeft: '5px solid var(--interactive-accent, #a855f7)',
-        borderTop: '1px solid rgba(168, 85, 247, 0.3)',
-        borderRight: '1px solid rgba(168, 85, 247, 0.3)',
-        borderBottom: '1px solid rgba(168, 85, 247, 0.3)',
+        borderTop: '1px solid rgba(168, 85, 247, 0.35)',
+        borderRight: '1px solid rgba(168, 85, 247, 0.35)',
+        borderBottom: '1px solid rgba(168, 85, 247, 0.35)',
         background: 'rgba(168, 85, 247, 0.05)',
         borderRadius: '6px',
         boxShadow: '0 0 14px rgba(168, 85, 247, 0.15)',
         pointerEvents: 'none',
         zIndex: '3',
-        transition: 'top 0.1s ease-out, height 0.1s ease-out'
+        transition: 'top 0.08s ease-out, height 0.08s ease-out'
     });
     scroller.appendChild(indicatorEl);
 
@@ -325,11 +333,7 @@ module.exports = async function ({ app, obsidian }) {
     activeView.contentEl.appendChild(hudEl);
 
     function updateIndicator() {
-        if (blocks.length === 0 || currentIndex >= blocks.length) {
-            cleanup();
-            new Notice("🎉 Triage complete! No tasks remaining.");
-            return;
-        }
+        if (blocks.length === 0 || currentIndex >= blocks.length) return;
 
         const block = blocks[currentIndex];
         const cm = editor.cm;
@@ -349,15 +353,15 @@ module.exports = async function ({ app, obsidian }) {
         const bottom = endCoords.bottom - scrollerRect.top + scroller.scrollTop;
         const height = Math.max(28, bottom - top);
 
-        indicatorEl.style.top = `${top - 3}px`;
-        indicatorEl.style.height = `${height + 6}px`;
+        indicatorEl.style.top = `${top - 4}px`;
+        indicatorEl.style.height = `${height + 8}px`;
 
         if (isEditing) {
             hudEl.innerHTML = `
                 <span style="font-weight: 700; color: var(--text-warning);">✏️ In-Line Editing</span>
-                <span style="color: var(--text-normal);">Add annotations or context...</span>
+                <span style="color: var(--text-normal);">Adding notes or subtasks...</span>
                 <span style="border-left: 1px solid var(--background-modifier-border); height: 14px;"></span>
-                <span>Press <kbd>Esc</kbd> when finished to resume Triage navigation</span>
+                <span>Press <kbd>Esc</kbd> when finished to resume Triage hotkeys</span>
             `;
         } else {
             hudEl.innerHTML = `
@@ -418,14 +422,13 @@ module.exports = async function ({ app, obsidian }) {
         } else if (line.includes('- [ ]')) {
             updated = line.replace(/- \[ \]/i, '- [x]');
         } else if (line.match(/^(\s*)[-*+]\s+/)) {
-            // Transform plain bullet into checked task
             updated = line.replace(/^(\s*)[-*+]\s+/, '$1- [x] ');
         } else {
             updated = `${line} ✅`;
         }
 
         editor.setLine(block.startLine, updated);
-        updateIndicator();
+        requestAnimationFrame(() => updateIndicator());
     }
 
     function deleteCurrent() {
@@ -462,7 +465,6 @@ module.exports = async function ({ app, obsidian }) {
         }).open();
     }
 
-    // Appends a new line inside the focused block and enters Edit Mode
     function appendLineToCurrent() {
         if (blocks.length === 0) return;
         const block = blocks[currentIndex];
@@ -471,8 +473,8 @@ module.exports = async function ({ app, obsidian }) {
         let prefix = '\n';
         if (block.type === 'task' || block.type === 'list') {
             const indentMatch = endLineText.match(/^(\s*)/);
-            const indent = indentMatch ? indentMatch[1] : '\t';
-            prefix = `\n${indent}- `;
+            const indent = indentMatch && indentMatch[1].length > 0 ? indentMatch[1] : '\t';
+            prefix = `\n${indent}- [ ] `;
         }
 
         editor.replaceRange(prefix, { line: block.endLine, ch: endLineText.length });
@@ -481,7 +483,7 @@ module.exports = async function ({ app, obsidian }) {
 
         isEditing = true;
         syncToLiveState(targetLine);
-        updateIndicator();
+        requestAnimationFrame(() => updateIndicator());
     }
 
     function enterEditMode() {
@@ -492,9 +494,8 @@ module.exports = async function ({ app, obsidian }) {
         updateIndicator();
     }
 
-    // --- 4. Event Handlers & Document Listeners ---
+    // --- 4. Live Observers & Event Listeners ---
     const onKeyDown = (e) => {
-        // If in Edit Mode, let the user type anything until they hit Escape
         if (isEditing) {
             if (e.key === 'Escape') {
                 e.preventDefault();
@@ -562,30 +563,45 @@ module.exports = async function ({ app, obsidian }) {
         }
     };
 
-    // Keep the live counter & indicator updated if lines are deleted elsewhere in the note
-    const onEditorChange = () => {
-        if (!isEditing) {
+    // Live sync callback for CodeMirror layout reflows
+    const onLiveEditorChange = () => {
+        requestAnimationFrame(() => {
             const cursor = editor.getCursor();
             syncToLiveState(cursor.line);
             updateIndicator();
-        }
+        });
     };
 
     const onScroll = () => {
         updateIndicator();
     };
 
+    // MutationObserver watches CodeMirror 6 DOM insertions (like Enter, Backspace, or typing)
+    const contentDOM = editor.cm?.contentDOM;
+    let observer = null;
+    if (contentDOM) {
+        observer = new MutationObserver(() => onLiveEditorChange());
+        observer.observe(contentDOM, { childList: true, subtree: true, characterData: true });
+        contentDOM.addEventListener('keyup', onLiveEditorChange);
+        contentDOM.addEventListener('click', onLiveEditorChange);
+    }
+
     function cleanup() {
         window.removeEventListener('keydown', onKeyDown, true);
         scroller.removeEventListener('scroll', onScroll);
-        editor.cm?.contentDOM?.removeEventListener('input', onEditorChange);
+        if (contentDOM) {
+            contentDOM.removeEventListener('keyup', onLiveEditorChange);
+            contentDOM.removeEventListener('click', onLiveEditorChange);
+        }
+        if (observer) {
+            observer.disconnect();
+        }
         indicatorEl.remove();
         hudEl.remove();
     }
 
     window.addEventListener('keydown', onKeyDown, true);
     scroller.addEventListener('scroll', onScroll, { passive: true });
-    editor.cm?.contentDOM?.addEventListener('input', onEditorChange);
 
     scrollToCurrent();
 };
