@@ -2,3 +2,13 @@
 Source:
   - https://youtube.com/watch?v=iwTUQp23298
 ---
+- ![[Private/Drawings/drawing-20261024-230346.svg]]
+- What are connected vertices?
+- We are at graph G
+- Two vertices are connected if and only if there exists some path that connects them.
+	- In this case, there are multiple paths where you could get from $V_1$ to $V_3$ such as from $V_1 \to V_6 \to V_3$ or $V_1 \to V_2 \to V_3$.
+	- So in the Graph G example, the vertices $V_1$ and $V_3$ are connected. 
+- The vertices $V_5$ and $V_9$ are not connected because there does not exist a path that connects them in this graph
+	- [ ] Are they part of the same graph $G$?
+- $V_9$ and $V_7$ are adjacent which makes it sufficient for them to be connected. 
+- So if you can get from one vertex to another by traversing edges in the graph, then they are connected vertices. If you can't, they are not connected and we can say that they're disconnected vertices. 

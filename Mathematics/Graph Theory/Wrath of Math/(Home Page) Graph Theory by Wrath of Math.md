@@ -28,8 +28,8 @@ tags:
 	- [[(50) Resolving Sets and Metric Dimension of Graphs - Graph Theory|(147) Resolving Sets and Metric Dimension of Graphs - Graph Theory]]
 	- [[(17) What is a Circuit. - Graph Theory]]
 	- [[(18) What is a Graph Cycle. - Graph Theory, Cycles, Cyclic Graphs, Simple Cycles]]
-- Incomplete
 	- [[(19) What are Connected Vertices. - Graph Theory]]
+- Incomplete
 	- [[(20) What are Connected Graphs. - Graph Theory]]
 	- [[(21) What is a Component of a Graph. - Connected Components, Graph Theory]]
 	- [[(22) Explaining Components of Graphs - Graph Theory]]
