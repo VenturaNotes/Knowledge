@@ -2,3 +2,25 @@
 Source:
   - https://youtube.com/watch?v=z9cTXaLG1kk
 ---
+![[Private/Drawings/drawing-20261025-191558.svg]]
+- (1)
+	- What is a connected graph?
+		- What makes it connected is that every pair of vertices in the graph is connected. 
+		- Two vertices are connected such as `B` and `E` iff there exists a path that connects them
+			- $b \to c \to d \to e$
+		- and there exists at least one such path connecting every pair of vertices in this graph. This is why it's a connected graph. 
+	- So a connected graph is a graph in which we can get from one vertex to any other vertex by traversing edges of the graph
+- (2) Disconnected graph
+	- We added to vertices `h` and `i` connected by an edge 
+	- We know that the graph is disconnected because there does not exist a path from `e` to `i`
+		- So if in a graph there exists a pair of vertices that are not connected, then that graph is not connected. 
+	- We have a disconnected graph which is made up of connected components.
+		- The components of a disconnected graph are the largest connected subgraphs (which includes the subgraph containing `b` and the subgraph containing `h and `i for this case)
+		- Every disconnected graph is made up of connected components 
+- (3 and 4) Showing a graph that is not connected
+	- You might think the star looks like a connected graph but it's not because the top vertex and the upper-left vertex have no way have getting to each other through edges. 
+	- We can see more easily that it is disconnected when we view it draw in a different way
+		- It was just hard to see it previously because the two components of the graph were drawn on top of each other.
+			- [ ] Does subgraph and component mean the same thing in a disconnected graph?
+- Overall
+	- A graph is connected iff every pair of vertices in the graph is connected. A pair of vertices is connected iff there exists a path that connects those vertices
