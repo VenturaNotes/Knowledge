@@ -2,3 +2,16 @@
 Source:
   - https://youtube.com/watch?v=q6pKCP1W0dk
 ---
+- ![[Private/Drawings/drawing-20261026-230922.svg]]
+- What is a component of a graph?
+- The graph G has 3 components
+- A [[component]] of a graph is a maximal connected subgraph
+	- Maximal connected means that we cannot extend the subgraph by adding in any combinations of vertices and/or edges while preserving its connectivity. 
+		- There is no combination of vertices and/or edges in the graph G that we could add to the subgraph (shaded in red) and still have a connected subgraph
+		- This is why it's called a maximal connected subgraph
+- If G just had the first maximal connected subgraph for example, G would only have one component. And sometimes one graph is the entire component
+	- This is the result of any connected graph. A connected graph has exactly one component (which is the entire graph itself)
+	- A single isolated vertex is also a component (which would be a maximal connected subgraph)
+- So if you have a subgraph and you can't extend it while preserving connectedness, then it is a component. 
+- Every connected graph has exactly one component
+- Every disconnected graph has at least two components. 

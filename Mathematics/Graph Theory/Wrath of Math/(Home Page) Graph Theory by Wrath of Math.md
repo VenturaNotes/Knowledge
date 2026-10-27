@@ -29,9 +29,9 @@ tags:
 	- [[(17) What is a Circuit. - Graph Theory]]
 	- [[(18) What is a Graph Cycle. - Graph Theory, Cycles, Cyclic Graphs, Simple Cycles]]
 	- [[(19) What are Connected Vertices. - Graph Theory]]
-- Incomplete
 	- [[(20) What are Connected Graphs. - Graph Theory]]
 	- [[(21) What is a Component of a Graph. - Connected Components, Graph Theory]]
+- Incomplete
 	- [[(22) Explaining Components of Graphs - Graph Theory]]
 	- [[(23) Graphs Have at Least n-m Components - Graph Theory]]
 	- [[(24) Distance Between Two Vertices in Graphs - Graph Theory]]
