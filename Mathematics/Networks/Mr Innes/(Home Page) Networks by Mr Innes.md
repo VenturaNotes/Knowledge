@@ -8,8 +8,8 @@ tags:
 ---
 - Complete
 	- [[(1) Further Maths - Networks - Graphs and Networks (Ex 14A)]]
-- Incomplete
 	- [[(2) Further Maths - Networks - Adjacency Matrices (Ex 14B)]]
+- Incomplete
 	- [[(3) Further Maths - Networks - Walking and Travelling (Ex 14C)]]
 	- [[(4) Further Maths - Networks - Weighted Graphs (Ex 14D) Part 1]]
 	- [[(5) Further Maths - Networks - Dijkstra's Algorithm ('Box' Method) (Ex 14D) Part 2]]

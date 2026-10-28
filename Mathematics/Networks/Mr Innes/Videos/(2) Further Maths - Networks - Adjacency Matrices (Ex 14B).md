@@ -2,3 +2,22 @@
 Source:
   - https://youtube.com/watch?v=lNlSmvpGSKg
 ---
+- ![[Private/Drawings/drawing-20261027-231047.svg]]
+- Exercise 14B: Adjacency Matrices
+	- A [[matrix]] is a grid that stores information. We can use it to count the number of edges between points in a network. We call this an [[adjacency matrix]].
+		- The information it stores could be letters or numbers
+	- Example 1: Complete the adjacency matrix on the right. State what determines the number of columns and rows and the numbers in the matrix.
+		- We can read it like a map. We are trying to count lines from `A` to `A` for example which would be 0 of course.
+		- There is a loop from `E` to `E` which is why we have 1 here. 
+		- #comment it seems like its talking about the number of direct line. Because even though vertices A and E are connected by edges, they are not directly connected (or rather adjacent in this case.)
+		- We just need to count the number of paths there are between two adjacent vertices. For example, `B` and `D` have 2 paths to get to each other.
+		- When putting the numbers in the matrix, we're only putting in direct paths
+- Example 2: Draw the network for this adjacency matrix
+	- Helpful to place letters so you don't get too confused and caught up
+	- If there are two vertices that hows the number 2 within the adjacency matrix, that means there are parallel edges. 
+	- The image shown is a suggested image. There are many different isomorphic versions that we can draw 
+		- He suggests that we should attempt to draw it without any overlapping lines
+			- [ ] Is this always possible in an adjacency matrix?
+- Example 3: Draw the adjacency matrix for this network
+	- The number of columns and rows there are is determined by the number of vertices 
+- Overall, you should be able to convert an adjacency matrix to a network and back again
