@@ -1,6 +1,7 @@
 import { 
     Plugin, 
     MarkdownView, 
+    FileView, 
     WorkspaceLeaf, 
     Modal, 
     Notice, 
@@ -17,6 +18,14 @@ interface EncryptedPayload {
     salt: string;       // Base64
     iv: string;         // Base64
     ciphertext: string; // Base64
+}
+
+interface FileSession {
+    filePath: string;
+    password: string;
+    plaintext: string;
+    views: Set<EncryptedMarkdownView>;
+    lastCiphertext: string;
 }
 
 function getErrorMessage(err: unknown): string {
@@ -156,9 +165,14 @@ class PasswordPromptModal extends Modal {
             .addText(text => {
                 pwInput = text.inputEl;
                 text.inputEl.type = 'password';
-                text.inputEl.focus();
                 text.inputEl.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter' && !this.isConfirm) submit();
+                    if (e.key === 'Enter') {
+                        if (!this.isConfirm) {
+                            submit();
+                        } else if (confirmInput) {
+                            confirmInput.focus();
+                        }
+                    }
                 });
             });
 
@@ -213,6 +227,12 @@ class PasswordPromptModal extends Modal {
                     this.resolve(null);
                     this.close();
                 }));
+
+        // Reliable auto-focus on input field
+        setTimeout(() => {
+            pwInput?.focus();
+            pwInput?.select();
+        }, 50);
     }
 
     onClose() {
@@ -229,6 +249,7 @@ class EncryptedMarkdownView extends MarkdownView {
     cachedCiphertext = '';
     decryptedPlaintext = ''; // In-memory source of truth
     private lockOverlayEl: HTMLElement | null = null;
+    private unlockModal: PasswordPromptModal | null = null;
 
     constructor(leaf: WorkspaceLeaf, plugin: LeanEncryptPlugin) {
         super(leaf);
@@ -242,6 +263,27 @@ class EncryptedMarkdownView extends MarkdownView {
     async setViewData(data: string, clear: boolean): Promise<void> {
         this.rawDiskContent = data;
 
+        // Force container to use Obsidian's native full-bleed markdown layout
+        this.containerEl.setAttribute('data-type', 'markdown');
+        this.containerEl.addClass('lean-encrypted-view');
+
+        const filePath = this.file?.path;
+        if (filePath) {
+            const session = this.plugin.getSession(filePath);
+            if (session) {
+                this.isDecrypted = true;
+                this.currentPassword = session.password;
+                this.decryptedPlaintext = session.plaintext;
+                this.cachedCiphertext = session.lastCiphertext;
+                this.plugin.registerViewToSession(filePath, this);
+
+                this.hideLockScreen();
+                super.setViewData(session.plaintext, clear);
+                this.attachEditorSync();
+                return;
+            }
+        }
+
         if (!data || data.trim().length === 0) {
             this.isDecrypted = true;
             this.hideLockScreen();
@@ -252,14 +294,19 @@ class EncryptedMarkdownView extends MarkdownView {
         if (this.isDecrypted && this.currentPassword) {
             this.hideLockScreen();
             super.setViewData(this.getEditorText(), clear);
+            this.attachEditorSync();
             return;
         }
 
-        this.showLockScreen();
+        // Default: Show lock screen and automatically prompt for password
+        this.showLockScreen(true);
     }
 
-    showLockScreen() {
-        if (this.lockOverlayEl) return;
+    showLockScreen(autoPrompt = true) {
+        if (this.lockOverlayEl) {
+            if (autoPrompt) this.promptUnlock();
+            return;
+        }
 
         super.setViewData('', true);
         this.contentEl.style.position = 'relative';
@@ -294,10 +341,21 @@ class EncryptedMarkdownView extends MarkdownView {
         });
 
         unlockBtn.onclick = () => this.promptUnlock();
-        this.promptUnlock();
+
+        if (autoPrompt) {
+            setTimeout(() => {
+                if (!this.isDecrypted) {
+                    this.promptUnlock();
+                }
+            }, 60);
+        }
     }
 
     hideLockScreen() {
+        if (this.unlockModal) {
+            this.unlockModal.close();
+            this.unlockModal = null;
+        }
         if (this.lockOverlayEl) {
             this.lockOverlayEl.remove();
             this.lockOverlayEl = null;
@@ -305,11 +363,18 @@ class EncryptedMarkdownView extends MarkdownView {
     }
 
     promptUnlock() {
-        new PasswordPromptModal(this.app, `Unlock "${this.file?.basename}"`, false, async (pw) => {
-            if (!pw) return;
+        if (!this.file || this.unlockModal || this.isDecrypted) return;
+
+        this.unlockModal = new PasswordPromptModal(this.app, `Unlock "${this.file.basename}"`, false, async (pw) => {
+            this.unlockModal = null;
+            if (!pw || !this.file) return;
 
             try {
                 const plaintext = await decryptData(this.rawDiskContent, pw);
+                const filePath = this.file.path;
+
+                const session = this.plugin.createSession(filePath, pw, plaintext, this.rawDiskContent, this);
+
                 this.currentPassword = pw;
                 this.isDecrypted = true;
                 this.decryptedPlaintext = plaintext;
@@ -317,17 +382,60 @@ class EncryptedMarkdownView extends MarkdownView {
 
                 this.hideLockScreen();
                 super.setViewData(plaintext, true);
+                this.attachEditorSync();
                 this.editor?.focus();
+
+                this.plugin.unlockAllViewsForFile(filePath, session);
 
                 new Notice('Note decrypted.');
             } catch (err) {
                 new Notice(getErrorMessage(err) || 'Decryption failed.');
             }
-        }).open();
+        });
+
+        this.unlockModal.open();
+    }
+
+    attachEditorSync() {
+        const cm = (this.editor as any)?.cm;
+        if (!cm || cm._encryptedSyncAttached) return;
+        cm._encryptedSyncAttached = true;
+
+        const originalDispatch = cm.dispatch.bind(cm);
+        const self = this;
+
+        cm.dispatch = function(...args: any[]) {
+            originalDispatch(...args);
+
+            if (self.plugin.isBroadcasting || !self.isDecrypted) {
+                return;
+            }
+
+            const filePath = self.file?.path;
+            if (!filePath) return;
+            const session = self.plugin.getSession(filePath);
+            if (!session) return;
+
+            let changesToBroadcast: any = null;
+            for (const arg of args) {
+                if (!arg) continue;
+                if (arg.changes && (arg.changes.empty === false || typeof arg.changes === 'object')) {
+                    changesToBroadcast = arg.changes;
+                    break;
+                }
+            }
+
+            if (changesToBroadcast) {
+                const updatedText = cm.state.doc.toString();
+                session.plaintext = updatedText;
+                self.decryptedPlaintext = updatedText;
+
+                self.plugin.broadcastChanges(filePath, changesToBroadcast, updatedText, self);
+            }
+        };
     }
 
     getEditorText(): string {
-        // Fall back to memory if the editor is unmounted in Reading View
         if (this.getMode() === 'preview') {
             return this.decryptedPlaintext;
         }
@@ -346,18 +454,32 @@ class EncryptedMarkdownView extends MarkdownView {
 
         const plaintext = this.getEditorText();
 
-        // Safety Guard: never allow an empty editor in Reading View to wipe existing text
         if (this.decryptedPlaintext.length > 0 && plaintext.length === 0) {
             console.warn('Prevented auto-saving empty text over decrypted content.');
             return;
         }
 
         this.decryptedPlaintext = plaintext;
+        const filePath = this.file?.path;
+        const session = filePath ? this.plugin.getSession(filePath) : null;
+        if (session) {
+            session.plaintext = plaintext;
+        }
+
         this.cachedCiphertext = await encryptData(plaintext, this.currentPassword);
+        if (session) {
+            session.lastCiphertext = this.cachedCiphertext;
+        }
+
         await super.save();
     }
 
     getViewData(): string {
+        const filePath = this.file?.path;
+        const session = filePath ? this.plugin.getSession(filePath) : null;
+        if (session && session.lastCiphertext) {
+            return session.lastCiphertext;
+        }
         if (!this.isDecrypted || !this.cachedCiphertext) {
             return this.rawDiskContent;
         }
@@ -365,9 +487,11 @@ class EncryptedMarkdownView extends MarkdownView {
     }
 
     async onClose() {
-        if (this.isDecrypted) {
-            await this.save();
+        const filePath = this.file?.path;
+        if (filePath) {
+            await this.plugin.unregisterViewFromSession(filePath, this);
         }
+
         this.isDecrypted = false;
         this.currentPassword = '';
         this.cachedCiphertext = '';
@@ -379,12 +503,23 @@ class EncryptedMarkdownView extends MarkdownView {
 
 // --- Main Plugin Class ---
 export default class LeanEncryptPlugin extends Plugin {
+    activeSessions: Map<string, FileSession> = new Map();
+    isBroadcasting = false;
+
     async onload() {
         this.registerView(
             VIEW_TYPE_ENCRYPTED,
             (leaf: WorkspaceLeaf) => new EncryptedMarkdownView(leaf, this)
         );
         this.registerExtensions([ENCRYPTED_EXTENSION], VIEW_TYPE_ENCRYPTED);
+
+        this.registerEvent(
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (leaf?.view instanceof EncryptedMarkdownView && leaf.view.isDecrypted) {
+                    leaf.view.attachEditorSync();
+                }
+            })
+        );
 
         // Command 1: Encrypt current .md note
         this.addCommand({
@@ -395,9 +530,7 @@ export default class LeanEncryptPlugin extends Plugin {
                 if (view && view.file && view.file.extension === 'md') {
                     if (!checking) {
                         const file = view.file;
-                        // 1. Flush any editor edits to disk first
                         view.save().then(async () => {
-                            // 2. Read true disk content (works regardless of Reading vs Edit view)
                             const diskContent = await this.app.vault.read(file);
                             this.encryptActiveNote(file, diskContent);
                         });
@@ -424,20 +557,16 @@ export default class LeanEncryptPlugin extends Plugin {
             }
         });
 
-        // Command 3: Lock current note immediately
+        // Command 3: Lock current note immediately across all tabs
         this.addCommand({
             id: 'lock-active-note',
             name: 'Lock Current Note',
             checkCallback: (checking: boolean) => {
                 const activeView = this.app.workspace.getActiveViewOfType(EncryptedMarkdownView);
-                if (activeView && activeView.isDecrypted) {
+                if (activeView && activeView.file && activeView.isDecrypted) {
                     if (!checking) {
-                        activeView.save().then(() => {
-                            activeView.isDecrypted = false;
-                            activeView.currentPassword = '';
-                            activeView.decryptedPlaintext = '';
-                            activeView.showLockScreen();
-                            new Notice('Note locked.');
+                        this.lockFileSession(activeView.file.path).then(() => {
+                            new Notice('Note locked across all tabs.');
                         });
                     }
                     return true;
@@ -447,8 +576,135 @@ export default class LeanEncryptPlugin extends Plugin {
         });
     }
 
+    // --- Session Management Methods ---
+
+    getSession(filePath: string): FileSession | undefined {
+        return this.activeSessions.get(filePath);
+    }
+
+    createSession(filePath: string, password: string, plaintext: string, ciphertext: string, view: EncryptedMarkdownView): FileSession {
+        let session = this.activeSessions.get(filePath);
+        if (!session) {
+            session = {
+                filePath,
+                password,
+                plaintext,
+                lastCiphertext: ciphertext,
+                views: new Set()
+            };
+            this.activeSessions.set(filePath, session);
+        } else {
+            session.password = password;
+            session.plaintext = plaintext;
+            session.lastCiphertext = ciphertext;
+        }
+        session.views.add(view);
+        return session;
+    }
+
+    registerViewToSession(filePath: string, view: EncryptedMarkdownView) {
+        const session = this.activeSessions.get(filePath);
+        if (session) {
+            session.views.add(view);
+        }
+    }
+
+    async unregisterViewFromSession(filePath: string, view: EncryptedMarkdownView) {
+        const session = this.activeSessions.get(filePath);
+        if (!session) return;
+
+        session.views.delete(view);
+
+        if (session.views.size === 0) {
+            if (view.isDecrypted) {
+                await view.save();
+            }
+            this.activeSessions.delete(filePath);
+            session.password = '';
+            session.plaintext = '';
+            session.lastCiphertext = '';
+        }
+    }
+
+    unlockAllViewsForFile(filePath: string, session: FileSession) {
+        this.app.workspace.iterateAllLeaves(leaf => {
+            if (leaf.view instanceof EncryptedMarkdownView && leaf.view.file?.path === filePath) {
+                const v = leaf.view;
+                if (!v.isDecrypted) {
+                    v.currentPassword = session.password;
+                    v.isDecrypted = true;
+                    v.decryptedPlaintext = session.plaintext;
+                    v.cachedCiphertext = session.lastCiphertext;
+                    session.views.add(v);
+
+                    v.hideLockScreen();
+                    (v as any).setViewData(session.plaintext, true);
+                    v.attachEditorSync();
+                }
+            }
+        });
+    }
+
+    broadcastChanges(filePath: string, changes: any, fullText: string, sourceView: EncryptedMarkdownView) {
+        const session = this.activeSessions.get(filePath);
+        if (!session) return;
+
+        for (const view of session.views) {
+            if (view === sourceView) continue;
+
+            view.decryptedPlaintext = fullText;
+            const siblingCm = (view.editor as any)?.cm;
+
+            if (siblingCm) {
+                try {
+                    this.isBroadcasting = true;
+                    siblingCm.dispatch({ changes: changes });
+                } catch {
+                    try {
+                        siblingCm.dispatch({
+                            changes: {
+                                from: 0,
+                                to: siblingCm.state.doc.length,
+                                insert: fullText
+                            }
+                        });
+                    } catch {
+                        view.editor?.setValue(fullText);
+                    }
+                } finally {
+                    this.isBroadcasting = false;
+                }
+            }
+        }
+    }
+
+    async lockFileSession(filePath: string) {
+        const session = this.activeSessions.get(filePath);
+        if (!session) return;
+
+        const firstView = session.views.values().next().value as EncryptedMarkdownView | undefined;
+        if (firstView) {
+            await firstView.save();
+        }
+
+        for (const view of session.views) {
+            view.isDecrypted = false;
+            view.currentPassword = '';
+            view.decryptedPlaintext = '';
+            view.cachedCiphertext = '';
+            // Pass false so the lock overlay shows without immediately popping the prompt back up
+            view.showLockScreen(false);
+        }
+
+        session.password = '';
+        session.plaintext = '';
+        session.lastCiphertext = '';
+        this.activeSessions.delete(filePath);
+    }
+
+    // --- File Encrypt/Decrypt Conversions ---
+
     private encryptActiveNote(file: TFile, plaintext: string) {
-        // Critical Safeguard: never encrypt empty text if the file on disk has content
         if (file.stat.size > 0 && plaintext.trim().length === 0) {
             new Notice('Aborted: Attempted to encrypt an empty buffer over an existing note.');
             return;
@@ -459,21 +715,21 @@ export default class LeanEncryptPlugin extends Plugin {
 
             try {
                 const ciphertext = await encryptData(plaintext, pw);
-                const newPath = file.path.replace(/\.md$/, `.${ENCRYPTED_EXTENSION}`);
+                const oldPath = file.path;
+                const newPath = oldPath.replace(/\.md$/, `.${ENCRYPTED_EXTENSION}`);
 
-                // Write encrypted file
                 await this.app.vault.create(newPath, ciphertext);
-
-                // Move unencrypted original to OS SYSTEM TRASH as requested
                 await this.app.vault.trash(file, true);
 
                 new Notice(`Encrypted to ${newPath}`);
 
-                // Force the leaf to swap to the custom view type so lock overlay appears
-                const activeLeaf = this.app.workspace.getLeaf(false);
-                await activeLeaf.setViewState({
-                    type: VIEW_TYPE_ENCRYPTED,
-                    state: { file: newPath }
+                this.app.workspace.iterateAllLeaves(leaf => {
+                    if (leaf.view instanceof FileView && leaf.view.file?.path === oldPath) {
+                        leaf.setViewState({
+                            type: VIEW_TYPE_ENCRYPTED,
+                            state: { file: newPath }
+                        });
+                    }
                 });
             } catch (err) {
                 new Notice('Encryption failed: ' + getErrorMessage(err));
@@ -485,20 +741,24 @@ export default class LeanEncryptPlugin extends Plugin {
         if (!view.file) return;
         const file = view.file;
         const plaintext = view.getEditorText();
-        const newPath = file.path.replace(new RegExp(`\\.${ENCRYPTED_EXTENSION}$`), '.md');
+        const oldPath = file.path;
+        const newPath = oldPath.replace(new RegExp(`\\.${ENCRYPTED_EXTENSION}$`), '.md');
 
         try {
             await this.app.vault.create(newPath, plaintext);
-            
-            // Move encrypted file to OS SYSTEM TRASH as requested
             await this.app.vault.trash(file, true);
+
+            this.activeSessions.delete(oldPath);
+
             new Notice(`Decrypted to plaintext ${newPath}`);
 
-            // Transition the leaf back to native Markdown view
-            const activeLeaf = this.app.workspace.getLeaf(false);
-            await activeLeaf.setViewState({
-                type: 'markdown',
-                state: { file: newPath }
+            this.app.workspace.iterateAllLeaves(leaf => {
+                if (leaf.view instanceof FileView && leaf.view.file?.path === oldPath) {
+                    leaf.setViewState({
+                        type: 'markdown',
+                        state: { file: newPath }
+                    });
+                }
             });
         } catch (err) {
             new Notice('Failed to decrypt note: ' + getErrorMessage(err));
