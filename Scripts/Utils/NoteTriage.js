@@ -10,8 +10,14 @@ module.exports = async function ({ app, obsidian }) {
     const editor = activeView.editor;
     const file = activeView.file;
 
-    // --- 1. Universal Dynamic Block Scanner ---
-    function scanAllBlocks(cursorLine = -1) {
+    // Normalizes tabs to 4 spaces so indentation is measured reliably
+    function getIndent(line) {
+        const leading = line.match(/^\s*/)[0];
+        return leading.replace(/\t/g, '    ').length;
+    }
+
+    // --- 1. Universal Scanner: Parent + All Indented Subtasks ---
+    function scanBlocks() {
         const lineCount = editor.lineCount();
         const blocks = [];
         let i = 0;
@@ -20,13 +26,13 @@ module.exports = async function ({ app, obsidian }) {
             const line = editor.getLine(i);
             const trimmed = line.trim();
 
-            // Ignore blank lines, thematic breaks, and headings
+            // Ignore blank lines, dividers, and headings
             if (!trimmed || trimmed === '---' || trimmed === '***' || line.match(/^#{1,6}\s+/)) {
                 i++;
                 continue;
             }
 
-            // A. Fenced Code Blocks (``` ... ```)
+            // Fenced Code Blocks (``` ... ```)
             if (trimmed.startsWith('```')) {
                 const startLine = i;
                 let j = i + 1;
@@ -37,146 +43,84 @@ module.exports = async function ({ app, obsidian }) {
                     }
                     j++;
                 }
-                blocks.push({ type: 'code', startLine, endLine: j - 1 });
+                blocks.push({ startLine, endLine: j - 1 });
                 i = j;
                 continue;
             }
 
-            // B. List Items (Checkboxes, Bullets, Numbered Lists)
-            const listMatch = line.match(/^(\s*)([-*+]|\d+[.)])(\s+\[[ xX/ -]\])?\s*/);
-            if (listMatch) {
-                const baseIndent = listMatch[1].length;
-                const startLine = i;
-                let endLine = i;
-                let j = i + 1;
-                let inSubCode = false;
+            // Parent Item (Task, Bullet, Numbered item, or Paragraph)
+            const startLine = i;
+            const parentIndent = getIndent(line);
+            let endLine = i;
+            let j = i + 1;
 
-                while (j < lineCount) {
-                    const nextLine = editor.getLine(j);
-                    const nextTrimmed = nextLine.trim();
+            while (j < lineCount) {
+                const nextLine = editor.getLine(j);
+                const nextTrimmed = nextLine.trim();
 
-                    if (nextLine.match(/^#{1,6}\s+/) || nextTrimmed === '---' || nextTrimmed === '***') break;
+                // Stop if we hit a heading or divider
+                if (nextLine.match(/^#{1,6}\s+/) || nextTrimmed === '---' || nextTrimmed === '***') {
+                    break;
+                }
 
-                    if (nextTrimmed.startsWith('```')) {
-                        inSubCode = !inSubCode;
-                        endLine = j;
-                        j++;
-                        continue;
-                    }
-                    if (inSubCode) {
-                        endLine = j;
-                        j++;
-                        continue;
-                    }
-
-                    const nextIndent = nextLine.match(/^\s*/)[0].length;
-
-                    // If empty line, check if cursor is on it or if followed by an indented child
-                    if (!nextTrimmed) {
-                        if (j === cursorLine) {
-                            endLine = j;
-                            j++;
-                            continue;
-                        }
-                        let k = j + 1;
-                        while (k < lineCount && !editor.getLine(k).trim()) k++;
-                        if (k < lineCount && !editor.getLine(k).match(/^#{1,6}\s+/)) {
-                            const peekIndent = editor.getLine(k).match(/^\s*/)[0].length;
-                            if (peekIndent > baseIndent) {
-                                endLine = j;
-                                j++;
-                                continue;
-                            }
+                // If empty line, check if followed by indented subtasks of this parent
+                if (!nextTrimmed) {
+                    let hasSubtasksAhead = false;
+                    for (let k = j + 1; k < lineCount; k++) {
+                        const peekLine = editor.getLine(k);
+                        if (!peekLine.trim()) continue;
+                        if (peekLine.match(/^#{1,6}\s+/) || peekLine.trim() === '---') break;
+                        if (getIndent(peekLine) > parentIndent) {
+                            hasSubtasksAhead = true;
                         }
                         break;
                     }
-
-                    // Absorb any line with deeper indent, or any line the cursor is currently editing
-                    if (nextIndent > baseIndent || (j === cursorLine && nextIndent >= baseIndent)) {
+                    if (hasSubtasksAhead) {
                         endLine = j;
                         j++;
+                        continue;
                     } else {
                         break;
                     }
                 }
 
-                blocks.push({
-                    type: listMatch[3] ? 'task' : 'list',
-                    startLine,
-                    endLine
-                });
-                i = j;
-                continue;
-            }
-
-            // C. Blockquotes (> ...)
-            if (line.match(/^\s*>/)) {
-                const startLine = i;
-                let j = i + 1;
-                while (j < lineCount) {
-                    const nextLine = editor.getLine(j);
-                    if (nextLine.match(/^\s*>/) || (nextLine.trim() && nextLine.startsWith('\t'))) {
-                        j++;
-                    } else {
-                        break;
-                    }
-                }
-                blocks.push({ type: 'quote', startLine, endLine: j - 1 });
-                i = j;
-                continue;
-            }
-
-            // D. Paragraphs / Notes / Logs
-            {
-                const startLine = i;
-                let j = i + 1;
-                while (j < lineCount) {
-                    const nextLine = editor.getLine(j);
-                    const nextTrimmed = nextLine.trim();
-
-                    if (!nextTrimmed ||
-                        nextLine.match(/^#{1,6}\s+/) ||
-                        nextTrimmed === '---' ||
-                        nextTrimmed === '***' ||
-                        nextTrimmed.startsWith('```') ||
-                        nextLine.match(/^(\s*)([-*+]|\d+[.)])(\s+\[[ xX/ -]\])?\s+/) ||
-                        nextLine.match(/^\s*>/)
-                    ) {
-                        break;
-                    }
+                // Any line indented deeper than the parent belongs to this parent block
+                if (getIndent(nextLine) > parentIndent) {
+                    endLine = j;
                     j++;
+                } else {
+                    // Same or shallower indentation -> it's a new sibling block
+                    break;
                 }
-                blocks.push({ type: 'paragraph', startLine, endLine: j - 1 });
-                i = j;
             }
+
+            blocks.push({ startLine, endLine });
+            i = j;
         }
         return blocks;
     }
 
-    let blocks = scanAllBlocks();
+    let blocks = scanBlocks();
     if (blocks.length === 0) {
-        new Notice("No triagable blocks found in this note.");
+        new Notice("No triagable items found in this note.");
         return;
     }
 
     let currentIndex = 0;
-    let isEditing = false;
 
-    // Synchronizes the active pointer against the live document state
-    function syncToLiveState(preferredLine) {
+    // Synchronizes the active pointer with where your cursor is in the document
+    function syncToCursor() {
         const cursor = editor.getCursor();
-        const activeLine = preferredLine !== undefined ? preferredLine : cursor.line;
-
-        blocks = scanAllBlocks(activeLine);
+        blocks = scanBlocks();
         if (blocks.length === 0) {
             cleanup();
             new Notice("🎉 All items cleaned up!");
             return;
         }
 
-        let foundIdx = blocks.findIndex(b => activeLine >= b.startLine && activeLine <= b.endLine);
+        let foundIdx = blocks.findIndex(b => cursor.line >= b.startLine && cursor.line <= b.endLine);
         if (foundIdx === -1) {
-            foundIdx = blocks.findIndex(b => b.startLine >= activeLine);
+            foundIdx = blocks.findIndex(b => b.startLine >= cursor.line);
             if (foundIdx === -1) foundIdx = blocks.length - 1;
         }
 
@@ -288,7 +232,7 @@ module.exports = async function ({ app, obsidian }) {
         }
     }
 
-    // --- 3. Left Indicator Bracket & HUD ---
+    // --- 3. Focus Indicator & HUD ---
     const scroller = activeView.contentEl.querySelector('.cm-scroller');
     if (!scroller) return;
 
@@ -344,40 +288,32 @@ module.exports = async function ({ app, obsidian }) {
         const endPos = editor.posToOffset({ line: block.endLine, ch: endLineLength });
 
         const startCoords = cm.coordsAtPos(startPos);
-        const endCoords = cm.coordsAtPos(endPos);
+        let endCoords = cm.coordsAtPos(endPos);
+        if (!endCoords && endPos > 0) {
+            endCoords = cm.coordsAtPos(endPos - 1);
+        }
 
         if (!startCoords || !endCoords) return;
 
         const scrollerRect = scroller.getBoundingClientRect();
         const top = startCoords.top - scrollerRect.top + scroller.scrollTop;
-        const bottom = endCoords.bottom - scrollerRect.top + scroller.scrollTop;
+        const bottom = Math.max(endCoords.bottom, startCoords.bottom) - scrollerRect.top + scroller.scrollTop;
         const height = Math.max(28, bottom - top);
 
         indicatorEl.style.top = `${top - 4}px`;
         indicatorEl.style.height = `${height + 8}px`;
 
-        if (isEditing) {
-            hudEl.innerHTML = `
-                <span style="font-weight: 700; color: var(--text-warning);">✏️ In-Line Editing</span>
-                <span style="color: var(--text-normal);">Adding notes or subtasks...</span>
-                <span style="border-left: 1px solid var(--background-modifier-border); height: 14px;"></span>
-                <span>Press <kbd>Esc</kbd> when finished to resume Triage hotkeys</span>
-            `;
-        } else {
-            hudEl.innerHTML = `
-                <span style="font-weight: 700; color: var(--text-normal);">📄 ${file.basename}</span>
-                <span style="color: var(--text-accent); font-family: var(--font-monospace);">${currentIndex + 1} / ${blocks.length}</span>
-                <span style="border-left: 1px solid var(--background-modifier-border); height: 14px;"></span>
-                <span><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> Tag</span>
-                <span><kbd>M</kbd> Move</span>
-                <span><kbd>O</kbd> Add Line</span>
-                <span><kbd>E</kbd> Edit</span>
-                <span><kbd>D</kbd> Done</span>
-                <span><kbd>X</kbd> Del</span>
-                <span><kbd>J</kbd>/<kbd>K</kbd> Nav</span>
-                <span><kbd>Esc</kbd> Exit</span>
-            `;
-        }
+        hudEl.innerHTML = `
+            <span style="font-weight: 700; color: var(--text-normal);">📄 ${file.basename}</span>
+            <span style="color: var(--text-accent); font-family: var(--font-monospace);">${currentIndex + 1} / ${blocks.length}</span>
+            <span style="border-left: 1px solid var(--background-modifier-border); height: 14px;"></span>
+            <span><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> Tag</span>
+            <span><kbd>M</kbd> Move</span>
+            <span><kbd>D</kbd> Done</span>
+            <span><kbd>X</kbd> Del</span>
+            <span><kbd>J</kbd>/<kbd>K</kbd> Nav</span>
+            <span><kbd>Esc</kbd> Exit</span>
+        `;
     }
 
     function scrollToCurrent() {
@@ -394,10 +330,12 @@ module.exports = async function ({ app, obsidian }) {
     }
 
     function step(delta) {
-        syncToLiveState();
+        syncToCursor();
         const next = currentIndex + delta;
         if (next >= 0 && next < blocks.length) {
             currentIndex = next;
+            const target = blocks[currentIndex];
+            editor.setCursor({ line: target.startLine, ch: 0 });
             scrollToCurrent();
         }
     }
@@ -443,13 +381,14 @@ module.exports = async function ({ app, obsidian }) {
             editor.replaceRange('', { line: Math.max(0, block.startLine - 1), ch: prevLineCh }, { line: block.endLine, ch: editor.getLine(block.endLine).length });
         }
 
-        syncToLiveState(block.startLine);
+        syncToCursor();
         scrollToCurrent();
     }
 
     function moveCurrent() {
         if (blocks.length === 0) return;
         const block = blocks[currentIndex];
+        // Extracts the parent line + all indented subtasks as one unit
         const blockText = editor.getRange(
             { line: block.startLine, ch: 0 },
             { line: block.endLine, ch: editor.getLine(block.endLine).length }
@@ -459,54 +398,14 @@ module.exports = async function ({ app, obsidian }) {
             const existing = await app.vault.read(destFile);
             const appended = existing.trimEnd() + '\n\n' + blockText + '\n';
             await app.vault.modify(destFile, appended);
-            new Notice(`Moved to "${destFile.basename}"`);
+            new Notice(`Moved block to "${destFile.basename}"`);
 
             deleteCurrent();
         }).open();
     }
 
-    function appendLineToCurrent() {
-        if (blocks.length === 0) return;
-        const block = blocks[currentIndex];
-        const endLineText = editor.getLine(block.endLine);
-
-        let prefix = '\n';
-        if (block.type === 'task' || block.type === 'list') {
-            const indentMatch = endLineText.match(/^(\s*)/);
-            const indent = indentMatch && indentMatch[1].length > 0 ? indentMatch[1] : '\t';
-            prefix = `\n${indent}- [ ] `;
-        }
-
-        editor.replaceRange(prefix, { line: block.endLine, ch: endLineText.length });
-        const targetLine = block.endLine + 1;
-        editor.setCursor({ line: targetLine, ch: editor.getLine(targetLine).length });
-
-        isEditing = true;
-        syncToLiveState(targetLine);
-        requestAnimationFrame(() => updateIndicator());
-    }
-
-    function enterEditMode() {
-        if (blocks.length === 0) return;
-        const block = blocks[currentIndex];
-        editor.setCursor({ line: block.startLine, ch: editor.getLine(block.startLine).length });
-        isEditing = true;
-        updateIndicator();
-    }
-
-    // --- 4. Live Observers & Event Listeners ---
+    // --- 4. Live Observers ---
     const onKeyDown = (e) => {
-        if (isEditing) {
-            if (e.key === 'Escape') {
-                e.preventDefault();
-                isEditing = false;
-                const cursor = editor.getCursor();
-                syncToLiveState(cursor.line);
-                scrollToCurrent();
-            }
-            return;
-        }
-
         if (document.querySelector('.modal-container')) return;
         if (e.metaKey || e.ctrlKey || e.altKey) return;
 
@@ -537,14 +436,6 @@ module.exports = async function ({ app, obsidian }) {
                 e.preventDefault();
                 moveCurrent();
                 break;
-            case 'o':
-                e.preventDefault();
-                appendLineToCurrent();
-                break;
-            case 'e':
-                e.preventDefault();
-                enterEditMode();
-                break;
             case 'j':
             case 'arrowdown':
                 e.preventDefault();
@@ -563,35 +454,29 @@ module.exports = async function ({ app, obsidian }) {
         }
     };
 
-    // Live sync callback for CodeMirror layout reflows
-    const onLiveEditorChange = () => {
+    // Whenever Obsidian inserts a line on Enter or you type, update the indicator
+    const onLiveUpdate = () => {
         requestAnimationFrame(() => {
-            const cursor = editor.getCursor();
-            syncToLiveState(cursor.line);
+            syncToCursor();
             updateIndicator();
         });
     };
 
-    const onScroll = () => {
-        updateIndicator();
-    };
-
-    // MutationObserver watches CodeMirror 6 DOM insertions (like Enter, Backspace, or typing)
     const contentDOM = editor.cm?.contentDOM;
     let observer = null;
     if (contentDOM) {
-        observer = new MutationObserver(() => onLiveEditorChange());
+        observer = new MutationObserver(() => onLiveUpdate());
         observer.observe(contentDOM, { childList: true, subtree: true, characterData: true });
-        contentDOM.addEventListener('keyup', onLiveEditorChange);
-        contentDOM.addEventListener('click', onLiveEditorChange);
+        contentDOM.addEventListener('keyup', onLiveUpdate);
+        contentDOM.addEventListener('click', onLiveUpdate);
     }
 
     function cleanup() {
         window.removeEventListener('keydown', onKeyDown, true);
-        scroller.removeEventListener('scroll', onScroll);
+        scroller.removeEventListener('scroll', updateIndicator);
         if (contentDOM) {
-            contentDOM.removeEventListener('keyup', onLiveEditorChange);
-            contentDOM.removeEventListener('click', onLiveEditorChange);
+            contentDOM.removeEventListener('keyup', onLiveUpdate);
+            contentDOM.removeEventListener('click', onLiveUpdate);
         }
         if (observer) {
             observer.disconnect();
@@ -601,7 +486,7 @@ module.exports = async function ({ app, obsidian }) {
     }
 
     window.addEventListener('keydown', onKeyDown, true);
-    scroller.addEventListener('scroll', onScroll, { passive: true });
+    scroller.addEventListener('scroll', updateIndicator, { passive: true });
 
     scrollToCurrent();
 };
