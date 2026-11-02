@@ -31,8 +31,8 @@ tags:
 	- [[(19) What are Connected Vertices. - Graph Theory]]
 	- [[(20) What are Connected Graphs. - Graph Theory]]
 	- [[(21) What is a Component of a Graph. - Connected Components, Graph Theory]]
-- Incomplete
 	- [[(22) Explaining Components of Graphs - Graph Theory]]
+- Incomplete
 	- [[(23) Graphs Have at Least n-m Components - Graph Theory]]
 	- [[(24) Distance Between Two Vertices in Graphs - Graph Theory]]
 	- [[(25) What are Geodesics. - Graph Theory]]
