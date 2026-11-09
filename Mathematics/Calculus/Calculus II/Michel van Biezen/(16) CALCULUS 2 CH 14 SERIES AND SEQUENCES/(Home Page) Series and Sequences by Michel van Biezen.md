@@ -7,8 +7,8 @@ tags:
   - type/playlist
 ---
 - Complete
-- Incomplete
 	- [[(1) Calculus 2 - Infinite Sequences and Series (1 of 86) Overview]]
+- Incomplete
 	- [[(2) Calculus 2 - Infinite Sequences and Series (2 of 62) Sequences - What is a Sequence]]
 	- [[(3) Calculus 2 - Infinite Sequences and Series (3 of 62) Sequences and Limits]]
 	- [[(4) Calculus 2 - Infinite Sequences and Series (4 of 62) Converging and Diverging Sequences]]
