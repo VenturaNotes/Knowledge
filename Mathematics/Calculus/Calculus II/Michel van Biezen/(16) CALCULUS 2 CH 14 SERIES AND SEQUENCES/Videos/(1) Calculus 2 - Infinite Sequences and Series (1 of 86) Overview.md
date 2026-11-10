@@ -3,7 +3,6 @@ Source:
   - https://youtube.com/watch?v=T_HBexTEoOs
 ---
 - ![[Private/Drawings/drawing-20261108-225436.svg]]
-
 	1. SEQUENCES
 	2. SERIES
 	3. INTEGRAL TEST
