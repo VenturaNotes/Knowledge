@@ -853,7 +853,7 @@ export const SegmentedMode: ModeHandler = {
             // In Soft Stop, quota is permanently locked to the user's target
             const isAtMax = isSoftStop || prevQuota >= maxGoal;
 
-            if (paceRatio <= 50) {
+            if (paceRatio <= 80) {
                 const newBenchmark = Math.max(1, Math.round(sessionAvg));
                 const newDuration = Math.max(1, Math.round(sessionAvg * 1.25));
                 session.benchmarkPace = newBenchmark;
@@ -1052,7 +1052,7 @@ export const SegmentedMode: ModeHandler = {
         const { paceRatio } = getProjectPaceStats(session, plugin);
 
         let ratioDisplay = `(${paceRatio}%)`;
-        if (paceRatio <= 50) {
+        if (paceRatio <= 80) {
             ratioDisplay = `(<span style="color: #a6e3a1; font-weight: bold;">⚡${paceRatio}%</span>)`;
         } else if (paceRatio > 100) {
             ratioDisplay = `(<span style="color: #f38ba8;">${paceRatio}%</span>)`;
