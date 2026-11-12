@@ -1,5 +1,6 @@
 ## Synthesis
 - The operating system that runs on a Mac
+- It seems like in the `Golden Gate 27.2` update, they changed my configured shortcuts so that `Control + Space` would change my keyboard layout instead of my Raycast Spotlight.
 ## Source [^1]
 - It is a Unix-based operating system
 	- [ ] #question What is meant by unix-based operating system? 

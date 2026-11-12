@@ -439,7 +439,7 @@ export const SegmentedMode: ModeHandler = {
                 const estRemainingTime = remaining * pace;
 
                 const finishLabel = isCompleted ? "Completed! 🎉" : `Est: ~${formatHumanReadableDuration(estRemainingTime)}`;
-                meta.textContent = `${done}/${goal} Tasks (${pct}%) • Est: ${finishLabel}`;
+                meta.textContent = `${done}/${goal} Tasks (${pct}%) • ${finishLabel}`;
 
                 const openBtn = card.createEl("button", {
                     text: "Open →",
