@@ -69,6 +69,11 @@ export const RotationMode: ModeHandler = {
             plugin.settings.rotationInterruptDuration || 300
         );
 
+        config.rotationAllowOvertime = config.rotationAllowOvertime
+            ?? (plugin.session?.mode === "rotation" ? plugin.session.rotationAllowOvertime : undefined)
+            ?? plugin.settings.rotationAllowOvertime
+            ?? false;
+
         // --- Compact Unified Manager Container ---
         const managerCard = container.createDiv({ cls: "pacing-rotation-manager" });
         Object.assign(managerCard.style, {
@@ -357,6 +362,13 @@ export const RotationMode: ModeHandler = {
             .addText(t => {
                 t.setValue(config.rotationInterruptDurationRaw).onChange(v => config.rotationInterruptDurationRaw = v);
             });
+
+        new Setting(container)
+            .setName("Silent Overtime & Early Skip")
+            .setDesc("Keep counting into negative time in red at 0:00 with no alarm, and allow skipping to the next category at any time.")
+            .addToggle(toggle => {
+                toggle.setValue(config.rotationAllowOvertime).onChange(v => config.rotationAllowOvertime = v);
+            });
     },
 
     saveSettings(config, settings) {
@@ -367,6 +379,7 @@ export const RotationMode: ModeHandler = {
         settings.rotationCategoryDuration = parsedCat.fallback;
         settings.rotationCategoryDurations = parsedCat.durations;
         settings.rotationInterruptDuration = parseDurationToSeconds(config.rotationInterruptDurationRaw) || 300;
+        settings.rotationAllowOvertime = Boolean(config.rotationAllowOvertime);
     },
 
     createSessionState(config, plugin) {
@@ -382,6 +395,7 @@ export const RotationMode: ModeHandler = {
             rotationCategoryDuration: parsedCat.fallback,
             rotationCategoryDurations: parsedCat.durations,
             rotationInterruptDuration: parseDurationToSeconds(config.rotationInterruptDurationRaw) || 300,
+            rotationAllowOvertime: Boolean(config.rotationAllowOvertime),
             rotationIndex: startIndex,
             rotationCategoryElapsed: 0,
             rotationInInterrupt: false,
@@ -405,7 +419,7 @@ export const RotationMode: ModeHandler = {
 
         session.rotationCategoryElapsed += deltaSeconds;
         const currentCatDuration = getCategoryDuration(session);
-        if (session.rotationCategoryElapsed >= currentCatDuration) {
+        if (!session.rotationAllowOvertime && session.rotationCategoryElapsed >= currentCatDuration) {
             plugin.triggerGlassAlarmSequence();
         }
     },
@@ -420,7 +434,7 @@ export const RotationMode: ModeHandler = {
 
         const currentCatDuration = getCategoryDuration(session);
         
-        if (session.rotationCategoryElapsed < currentCatDuration) {
+        if (!session.rotationAllowOvertime && session.rotationCategoryElapsed < currentCatDuration) {
             return;
         }
 
@@ -468,7 +482,7 @@ export const RotationMode: ModeHandler = {
             const remaining = currentCatDuration - session.rotationCategoryElapsed;
             const isExpired = remaining <= 0;
             
-            const catRemaining = Math.max(0, remaining);
+            const catRemaining = session.rotationAllowOvertime ? remaining : Math.max(0, remaining);
             const catStr = formatTime(catRemaining);
             const catStyle = isExpired ? "color: #ef4444; font-weight: bold;" : "";
             

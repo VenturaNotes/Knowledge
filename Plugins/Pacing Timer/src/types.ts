@@ -58,6 +58,7 @@ export interface PacingSessionState {
     rotationCategoryDuration: number;
     rotationCategoryDurations?: number[];
     rotationInterruptDuration?: number;
+    rotationAllowOvertime?: boolean;
     rotationInInterrupt: boolean;
     rotationInterruptElapsed: number;
 }
@@ -104,6 +105,7 @@ export function createBlankSession(): PacingSessionState {
         rotationCategoryDuration: 0, 
         rotationCategoryDurations: [],
         rotationInterruptDuration: 300,
+        rotationAllowOvertime: false,
         rotationInInterrupt: false, 
         rotationInterruptElapsed: 0
     };
@@ -132,6 +134,7 @@ export interface PacingTimerSettings {
     rotationCategoryDuration: number;
     rotationCategoryDurations?: number[];
     rotationInterruptDuration: number;
+    rotationAllowOvertime?: boolean;
     rotationContinuePrevious: boolean;
     lastRotationSession?: Partial<PacingSessionState> | null;
 
@@ -158,6 +161,7 @@ export const DEFAULT_SETTINGS: PacingTimerSettings = {
     rotationCategoryDuration: 900,
     rotationCategoryDurations: [900],
     rotationInterruptDuration: 300,
+    rotationAllowOvertime: false,
     rotationContinuePrevious: false,
     lastRotationSession: null,
 
